@@ -84,7 +84,22 @@ async function throttle() {
   }
 }
 
+// Circuit breaker: when the API sustains 429s, fail fast for a cooldown
+// window instead of burning retries (and discovery-batch attempts) against
+// a closed endpoint. The worker treats this as a transient condition.
+let rateLimitedUntil = 0
+export function rateLimitedNow(): boolean {
+  return Date.now() < rateLimitedUntil
+}
+export function isRateLimitedError(e: unknown): boolean {
+  const msg = String((e as Error)?.message ?? '')
+  return msg.includes('429') || msg.toLowerCase().includes('too many') || msg.includes('rate-limited (cooldown)')
+}
+
 export async function llmJSON(system: string, user: string, retries = 5): Promise<any> {
+  if (Date.now() < rateLimitedUntil) {
+    throw new Error(`rate-limited (cooldown ${Math.ceil((rateLimitedUntil - Date.now()) / 1000)}s)`)
+  }
   let lastErr: Error | null = null
   for (let i = 1; i <= retries; i++) {
     try {
@@ -100,6 +115,7 @@ export async function llmJSON(system: string, user: string, retries = 5): Promis
       const raw = completion.choices[0]?.message?.content ?? ''
       const json = extractJSON(raw)
       if (json === null) throw new Error('no JSON in response')
+      rateLimitedUntil = 0
       return json
     } catch (e: any) {
       lastErr = e
@@ -110,7 +126,20 @@ export async function llmJSON(system: string, user: string, retries = 5): Promis
       }
     }
   }
+  if (isRateLimitedError(lastErr)) {
+    rateLimitedUntil = Date.now() + 180_000
+    logRate('sustained 429s — cooling down 3 minutes')
+  }
   throw lastErr ?? new Error('LLM failed')
+}
+
+let lastRateLog = 0
+function logRate(msg: string) {
+  const now = Date.now()
+  if (now - lastRateLog > 60_000) {
+    lastRateLog = now
+    console.log(new Date().toISOString().slice(11, 19), msg)
+  }
 }
 
 export function extractJSON(raw: string): any {

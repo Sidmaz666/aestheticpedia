@@ -87,6 +87,27 @@ export function usePipeline() {
   })
 }
 
+export interface AuditResponse {
+  total: number
+  target: number
+  targetProgress: number
+  completeness: {
+    core: number
+    deep: number
+    gaps: Array<{ field: string; missing: number }>
+  }
+  status: { verified: number; researched: number; draft: number; flagged: number }
+  generatedAt: string
+}
+
+export function useAudit() {
+  return useQuery({
+    queryKey: ['audit'],
+    queryFn: () => fetchJson<AuditResponse>('/api/audit'),
+    staleTime: 15_000,
+  })
+}
+
 export function useExplore(dims: string | null) {
   return useQuery({
     queryKey: ['explore', dims],

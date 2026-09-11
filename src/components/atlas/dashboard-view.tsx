@@ -8,14 +8,16 @@ import {
   CircleDashed,
   Clock,
   FlaskConical,
+  Gauge,
   Layers,
   Loader2,
   Radar,
   RefreshCw,
+  ShieldCheck,
   TriangleAlert,
 } from 'lucide-react'
 import { toast } from 'sonner'
-import { postJson, usePipeline, useStats } from '@/components/atlas/api'
+import { postJson, useAudit, usePipeline, useStats } from '@/components/atlas/api'
 import { StatusDot } from '@/components/atlas/bits'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -88,6 +90,7 @@ const ESTABLISHMENT_LABELS: Record<string, string> = {
 export function DashboardView() {
   const { data: stats, isPending, isError, refetch } = useStats()
   const { data: pipeline } = usePipeline()
+  const { data: audit } = useAudit()
   const [triggering, setTriggering] = useState(false)
 
   const triggerAudit = async () => {
@@ -227,7 +230,108 @@ export function DashboardView() {
         </section>
       </div>
 
-      {/* Research pipeline */}
+      {/* Library growth milestone */}
+      {audit && (
+        <section
+          className="mt-6 rounded-xl border border-stone-200 bg-white p-4 sm:p-6"
+          aria-label="Library growth milestone"
+        >
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <h3 className="flex items-center gap-2 font-serif text-xl text-stone-900">
+              <Gauge className="h-5 w-5 text-[#8a6d3b]" aria-hidden="true" />
+              Library growth milestone
+            </h3>
+            <Badge variant="outline" className="border-stone-300 font-normal">
+              target {audit.target.toLocaleString()} entries
+            </Badge>
+          </div>
+          <div className="mt-4">
+            <div className="flex items-baseline justify-between text-sm">
+              <span className="text-stone-700">
+                {audit.total.toLocaleString()} documented of {audit.target.toLocaleString()}
+              </span>
+              <span className="tabular-nums text-stone-500">{audit.targetProgress}%</span>
+            </div>
+            <Progress value={audit.targetProgress} className="mt-2 h-2.5" />
+            <div className="relative mt-1 h-4">
+              {[1000, 2000, 3000, 4000].map((m) => (
+                <span
+                  key={m}
+                  className="absolute -translate-x-1/2 text-[10px] text-stone-400"
+                  style={{ left: `${Math.min(99, (m / audit.target) * 100)}%` }}
+                >
+                  {m >= 1000 ? `${m / 1000}k` : m}
+                </span>
+              ))}
+            </div>
+          </div>
+          <p className="mt-2 text-xs leading-relaxed text-stone-500">
+            The discovery queue holds {pipeline?.queued.toLocaleString() ?? '—'} research batches; the taxonomy
+            auditor queues new waves automatically whenever the queue runs low. The library never stops growing.
+          </p>
+        </section>
+      )}
+
+      {/* Record integrity */}
+      {audit && (
+        <section
+          className="mt-6 rounded-xl border border-stone-200 bg-white p-4 sm:p-6"
+          aria-label="Record integrity"
+        >
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <h3 className="flex items-center gap-2 font-serif text-xl text-stone-900">
+              <ShieldCheck className="h-5 w-5 text-[#8a6d3b]" aria-hidden="true" />
+              Record integrity — no missing data
+            </h3>
+            <Badge variant="outline" className="border-stone-300 font-normal">
+              audited {new Date(audit.generatedAt).toLocaleTimeString()}
+            </Badge>
+          </div>
+          <div className="mt-4 grid gap-4 sm:grid-cols-2">
+            <div>
+              <div className="flex items-baseline justify-between text-sm">
+                <span className="text-stone-700">Core identity fields (palette, period, origin…)</span>
+                <span className="tabular-nums text-stone-500">{audit.completeness.core}%</span>
+              </div>
+              <Progress value={audit.completeness.core} className="mt-1.5 h-2" />
+            </div>
+            <div>
+              <div className="flex items-baseline justify-between text-sm">
+                <span className="text-stone-700">Deep decomposition (DNA, lighting, recipe…)</span>
+                <span className="tabular-nums text-stone-500">{audit.completeness.deep}%</span>
+              </div>
+              <Progress value={audit.completeness.deep} className="mt-1.5 h-2" />
+            </div>
+          </div>
+          {audit.completeness.gaps.length > 0 && (
+            <div className="mt-4">
+              <p className="mb-2 text-xs font-medium uppercase tracking-[0.14em] text-stone-500">
+                Open field gaps (entries missing each field)
+              </p>
+              <div className="flex max-h-40 flex-wrap gap-1.5 overflow-y-auto scrollbar-thin pr-1">
+                {audit.completeness.gaps.map((g) => (
+                  <span
+                    key={g.field}
+                    className={`rounded-full border px-2.5 py-0.5 text-xs ${
+                      g.missing === 0
+                        ? 'border-emerald-700/25 bg-emerald-50 text-emerald-900'
+                        : 'border-stone-200 bg-stone-50 text-stone-600'
+                    }`}
+                  >
+                    {g.field} · {g.missing.toLocaleString()}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+          <p className="mt-3 text-xs leading-relaxed text-stone-500">
+            The pipeline&rsquo;s gap-filling pass completes missing identity fields, the enrichment pass adds deep
+            decomposition, and the image worker attaches real example imagery — continuously, highest-traffic
+            entries first. Green chips are fully populated fields.
+          </p>
+        </section>
+      )}
+
       <section
         className="mt-6 rounded-xl border border-stone-200 bg-white p-4 sm:p-6"
         aria-label="Research pipeline"

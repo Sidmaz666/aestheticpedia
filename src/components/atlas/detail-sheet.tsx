@@ -51,6 +51,51 @@ interface DetailSheetProps {
   onNavigate: (slug: string) => void
 }
 
+/** Per-entry record completeness — part of the no-missing-data audit policy. */
+function RecordMeter({ a }: { a: AestheticFull }) {
+  const checks: Array<{ label: string; ok: boolean }> = [
+    { label: 'palette', ok: a.colors.length > 0 },
+    { label: 'period', ok: Boolean(a.periodStart || a.era) },
+    { label: 'origin', ok: Boolean(a.origin || a.geography) },
+    { label: 'materials', ok: a.materials.length > 0 },
+    { label: 'textures', ok: a.textures.length > 0 },
+    { label: 'objects', ok: a.objects.length > 0 },
+    { label: 'examples', ok: a.keyExamples.length > 0 },
+    { label: 'visual DNA', ok: Object.keys(a.visualDNA).length > 0 },
+    { label: 'typography', ok: Object.keys(a.typography).length > 0 },
+    { label: 'lighting', ok: Object.keys(a.lighting).length > 0 },
+    { label: 'UI translation', ok: Object.keys(a.uiTranslation).length > 0 },
+    { label: 'recipe', ok: Object.keys(a.recipe).length > 0 },
+    { label: 'sonic identity', ok: a.sounds.length > 0 },
+    { label: 'sources', ok: a.sources.length > 0 },
+    { label: 'images', ok: a.images.length > 0 },
+  ]
+  const ok = checks.filter((c) => c.ok).length
+  const missing = checks.filter((c) => !c.ok).map((c) => c.label)
+  const pct = Math.round((ok / checks.length) * 100)
+  return (
+    <section
+      className="rounded-lg border border-stone-200 bg-stone-50 px-4 py-3"
+      aria-label="Record completeness"
+    >
+      <div className="flex items-center justify-between gap-3 text-sm">
+        <span className="font-medium text-stone-700">
+          Record completeness — {ok}/{checks.length} fields documented
+        </span>
+        <span className={`tabular-nums ${pct >= 90 ? 'text-emerald-800' : pct >= 60 ? 'text-amber-800' : 'text-stone-500'}`}>
+          {pct}%
+        </span>
+      </div>
+      <Progress value={pct} className="mt-2 h-1.5" />
+      <p className="mt-1.5 text-xs text-stone-500">
+        {missing.length === 0
+          ? 'Every documented field is populated for this entry.'
+          : `Still documenting: ${missing.join(', ')}. The research pipeline fills gaps continuously, most-visited entries first.`}
+      </p>
+    </section>
+  )
+}
+
 export function DetailSheet({ slug, open, onOpenChange, onNavigate }: DetailSheetProps) {
   const { data, isPending, isError, error, refetch } = useAestheticDetail(slug, open)
   const aesthetic = data?.aesthetic
@@ -261,6 +306,8 @@ function DetailBody({
           )}
 
           <PendingNotice a={a} />
+
+          <RecordMeter a={a} />
 
           <VisualGallery images={a.images} name={a.name} />
 

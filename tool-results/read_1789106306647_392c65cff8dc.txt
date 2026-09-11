@@ -1,0 +1,789 @@
+     1→'use client'
+     2→
+     3→/**
+     4→ * Visual example & live-demo components for Aesthetic Atlas.
+     5→ *
+     6→ * - VisualGallery: real example imagery fetched by the research pipeline.
+     7→ * - StyleDemo: a LIVE web component that re-renders the aesthetic itself —
+     8→ *   its palette, typography, textures, lighting and motion rules — as a
+     9→ *   themed mini artifact (browser window / magazine cover / editorial plate
+    10→ *   / gallery frame, chosen by category).
+    11→ * - TextureSwatches: CSS-rendered texture chips (each texture becomes a
+    12→ *   deterministic visual pattern tinted with the entry's palette).
+    13→ * - PendingNotice: honest "decomposition queued" state for draft entries.
+    14→ *
+    15→ * Everything is derived deterministically from the entry data — no random
+    16→ * values, so SSR/CSR output always matches.
+    17→ */
+    18→
+    19→import { useEffect, useMemo, useState } from 'react'
+    20→import { ImageIcon, Loader2, ScanEye } from 'lucide-react'
+    21→import { type AestheticFull, type ColorEntry, type ImageEntry } from '@/lib/aesthetic'
+    22→
+    23→/* ------------------------------ color utilities ------------------------------ */
+    24→
+    25→function hexToRgb(hex: string): [number, number, number] | null {
+    26→  let h = hex.replace('#', '').trim()
+    27→  if (h.length === 3) h = h.split('').map((c) => c + c).join('')
+    28→  if (!/^[0-9a-fA-F]{6}$/.test(h)) return null
+    29→  return [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)]
+    30→}
+    31→
+    32→/** Relative luminance 0 (dark) – 1 (light). */
+    33→function luminance(hex: string): number {
+    34→  const rgb = hexToRgb(hex)
+    35→  if (!rgb) return 0.5
+    36→  const [r, g, b] = rgb.map((v) => {
+    37→    const s = v / 255
+    38→    return s <= 0.03928 ? s / 12.92 : Math.pow((s + 0.055) / 1.055, 2.4)
+    39→  })
+    40→  return 0.2126 * r + 0.7152 * g + 0.0722 * b
+    41→}
+    42→
+    43→function saturation(hex: string): number {
+    44→  const rgb = hexToRgb(hex)
+    45→  if (!rgb) return 0
+    46→  const [r, g, b] = rgb.map((v) => v / 255)
+    47→  const max = Math.max(r, g, b)
+    48→  const min = Math.min(r, g, b)
+    49→  if (max === min) return 0
+    50→  const l = (max + min) / 2
+    51→  return l > 0.5 ? (max - min) / (2 - max - min) : (max - min) / (max + min)
+    52→}
+    53→
+    54→function rgba(hex: string, alpha: number): string {
+    55→  const rgb = hexToRgb(hex) ?? [137, 109, 59]
+    56→  return `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, ${alpha})`
+    57→}
+    58→
+    59→/** Black or white text color for a given background. */
+    60→function readableOn(hex: string): string {
+    61→  return luminance(hex) > 0.45 ? '#1c1917' : '#fdfcf8'
+    62→}
+    63→
+    64→export interface DemoPalette {
+    65→  bg: string
+    66→  surface: string
+    67→  ink: string
+    68→  accent: string
+    69→  support: string
+    70→  warm: boolean
+    71→  light: boolean
+    72→}
+    73→
+    74→const FALLBACK: DemoPalette = {
+    75→  bg: '#faf8f4',
+    76→  surface: '#f0ebe0',
+    77→  ink: '#292524',
+    78→  accent: '#8a6d3b',
+    79→  support: '#a68a5b',
+    80→  warm: true,
+    81→  light: true,
+    82→}
+    83→
+    84→/** Derive demo roles (bg/surface/ink/accent) from the entry palette. */
+    85→function derivePalette(colors: ColorEntry[]): DemoPalette {
+    86→  const valid = colors.filter((c) => hexToRgb(c.hex))
+    87→  if (valid.length < 2) return FALLBACK
+    88→  const sorted = [...valid].sort((a, b) => luminance(b.hex) - luminance(a.hex))
+    89→  const bg = sorted[0].hex
+    90→  const ink = sorted[sorted.length - 1].hex
+    91→  // accent: most saturated color that is neither bg nor ink
+    92→  const mid = valid.filter((c) => c.hex !== bg && c.hex !== ink)
+    93→  const accent =
+    94→    mid.length > 0
+    95→      ? [...mid].sort((a, b) => saturation(b.hex) * (1 - Math.abs(luminance(b.hex) - 0.5)) - saturation(a.hex) * (1 - Math.abs(luminance(a.hex) - 0.5)))[0].hex
+    96→      : sorted[Math.floor(sorted.length / 2)].hex
+    97→  const surface = sorted.length > 2 ? sorted[1].hex : mix(bg, ink, 0.08)
+    98→  const support = mid.find((c) => c.hex !== accent)?.hex ?? mix(accent, bg, 0.3)
+    99→  const warm = isWarm(accent)
+   100→  return { bg, surface, ink, accent, support, warm, light: luminance(bg) > 0.5 }
+   101→}
+   102→
+   103→function mix(a: string, b: string, t: number): string {
+   104→  const ca = hexToRgb(a)
+   105→  const cb = hexToRgb(b)
+   106→  if (!ca || !cb) return a
+   107→  const c = ca.map((v, i) => Math.round(v + (cb[i] - v) * t))
+   108→  return `#${c.map((v) => v.toString(16).padStart(2, '0')).join('')}`
+   109→}
+   110→
+   111→function isWarm(hex: string): boolean {
+   112→  const rgb = hexToRgb(hex)
+   113→  if (!rgb) return true
+   114→  const [r, g, b] = rgb
+   115→  return r + r * 0.2 + g * 0.3 >= b
+   116→}
+   117→
+   118→/* ------------------------------ typography ------------------------------ */
+   119→
+   120→const SERIF = 'ui-serif, Georgia, Cambria, "Times New Roman", serif'
+   121→const SANS = 'ui-sans-serif, system-ui, "Helvetica Neue", Arial, sans-serif'
+   122→const MONO = 'ui-monospace, "SF Mono", Menlo, Consolas, monospace'
+   123→const SCRIPT = '"Snell Roundhand", "Brush Script MT", "Segoe Script", cursive'
+   124→
+   125→function fontFor(text: string, fallback: 'serif' | 'sans'): string {
+   126→  const t = (text || '').toLowerCase()
+   127→  if (/mono|typewriter|courier|terminal/.test(t)) return MONO
+   128→  if (/script|cursive|hand|brush letter|calligrap/.test(t)) return SCRIPT
+   129→  if (/serif|didone|garamond|roman|slab|bodoni|clarendon|garamond/.test(t) && !/sans/.test(t)) return SERIF
+   130→  if (/sans|grotesque|geometric|gothic|helvetica|futura|swiss|arial|neo-grotesque|rounded/.test(t)) return SANS
+   131→  if (fallback === 'serif') return SERIF
+   132→  return SANS
+   133→}
+   134→
+   135→interface FontSpec {
+   136→  stack: string
+   137→  tracking: string
+   138→  transform: 'none' | 'uppercase'
+   139→  weight: number
+   140→}
+   141→
+   142→function displayFont(a: AestheticFull): FontSpec {
+   143→  const t = `${a.typography.display ?? ''} ${a.typography.notes ?? ''} ${a.name}`.toLowerCase()
+   144→  const stack = fontFor(t, ['Internet Aesthetic', 'Web & UI Design', 'Game & Pixel Aesthetic', 'Graphic Design', 'Technology & Retrofuturism', 'Music & Sonic Culture'].includes(a.category) ? 'sans' : 'serif')
+   145→  const deco = /art deco|deco|geometric|broadway|display/.test(t)
+   146→  const mono = stack === MONO
+   147→  return {
+   148→    stack,
+   149→    tracking: deco || mono ? '0.12em' : /serif/.test(stack) ? '0.01em' : '-0.01em',
+   150→    transform: deco || /all caps|uppercase|poster/.test(t) ? 'uppercase' : 'none',
+   151→    weight: mono ? 500 : 700,
+   152→  }
+   153→}
+   154→
+   155→function bodyFont(a: AestheticFull): string {
+   156→  return fontFor(`${a.typography.body ?? ''}`, 'sans')
+   157→}
+   158→
+   159→/* ------------------------------ textures ------------------------------ */
+   160→
+   161→interface TexturePattern {
+   162→  backgroundImage: string
+   163→  backgroundSize: string
+   164→}
+   165→
+   166→/** Deterministic keyword-driven CSS texture tinted by the palette. */
+   167→function texturePattern(texture: string, p: DemoPalette): TexturePattern {
+   168→  const t = texture.toLowerCase()
+   169→  const inkA = rgba(p.ink, 0.1)
+   170→  const inkSoft = rgba(p.ink, 0.05)
+   171→  const accentA = rgba(p.accent, 0.12)
+   172→  if (/wood|timber|plank|oak|walnut|bamboo|driftwood/.test(t)) {
+   173→    return {
+   174→      backgroundImage: `repeating-linear-gradient(92deg, ${inkA} 0 1px, transparent 1px 6px), repeating-linear-gradient(90deg, ${inkSoft} 0 2px, transparent 2px 13px), linear-gradient(180deg, ${rgba(p.support, 0.18)}, ${rgba(p.accent, 0.08)})`,
+   175→      backgroundSize: 'auto, auto, auto',
+   176→    }
+   177→  }
+   178→  if (/linen|weave|woven|fabric|textile|canvas|burlap|tweed|boucl|herringbone|ikat/.test(t)) {
+   179→    return {
+   180→      backgroundImage: `repeating-linear-gradient(0deg, ${inkSoft} 0 1px, transparent 1px 4px), repeating-linear-gradient(90deg, ${inkSoft} 0 1px, transparent 1px 4px)`,
+   181→      backgroundSize: 'auto',
+   182→    }
+   183→  }
+   184→  if (/velvet|plush|fleece|suede|chenille|fur/.test(t)) {
+   185→    return {
+   186→      backgroundImage: `radial-gradient(ellipse at 30% 20%, ${rgba(p.accent, 0.22)}, transparent 60%), radial-gradient(ellipse at 70% 80%, ${rgba(p.ink, 0.1)}, transparent 55%)`,
+   187→      backgroundSize: 'auto',
+   188→    }
+   189→  }
+   190→  if (/concrete|stone|plaster|cement|stucco|terrazzo|marble|granite|mineral/.test(t)) {
+   191→    return {
+   192→      backgroundImage: `radial-gradient(${inkA} 0.8px, transparent 0.9px), radial-gradient(${inkSoft} 0.7px, transparent 0.8px), linear-gradient(160deg, ${rgba(p.support, 0.12)}, transparent)`,
+   193→      backgroundSize: '7px 7px, 11px 11px, auto',
+   194→    }
+   195→  }
+   196→  if (/metal|steel|chrome|brushed|alumin|foil|tin|silver|gold|gilt|brass|copper|bronze|patina/.test(t)) {
+   197→    return {
+   198→      backgroundImage: `linear-gradient(105deg, transparent 15%, ${rgba('#ffffff', 0.5)} 38%, transparent 47%, ${rgba(p.ink, 0.12)} 62%, transparent 78%)`,
+   199→      backgroundSize: 'auto',
+   200→    }
+   201→  }
+   202→  if (/gloss|lacquer|glaze|polish|enamel|patent|vinyl|glass|crystal|iridescent|holograph/.test(t)) {
+   203→    return {
+   204→      backgroundImage: `linear-gradient(115deg, ${rgba('#ffffff', 0.4)} 0%, transparent 30%), linear-gradient(335deg, ${rgba(p.accent, 0.18)} 0%, transparent 40%)`,
+   205→      backgroundSize: 'auto',
+   206→    }
+   207→  }
+   208→  if (/knit|stitch|embroider|crochet|mesh|net|perforat|grid|lattice|sashiko|kantha/.test(t)) {
+   209→    return {
+   210→      backgroundImage: `radial-gradient(${inkA} 1px, transparent 1.2px)`,
+   211→      backgroundSize: '6px 6px',
+   212→    }
+   213→  }
+   214→  if (/paper|card|newsprint|parchment|grain|kraft|dust|sand|foxing|noise|halftone/.test(t)) {
+   215→    return {
+   216→      backgroundImage: `radial-gradient(${rgba(p.ink, 0.07)} 0.6px, transparent 0.7px)`,
+   217→      backgroundSize: '3px 3px',
+   218→    }
+   219→  }
+   220→  if (/rust|corrode|tarnish|weather|distress|peel|crack|craze|aged|faded|worn|patina/.test(t)) {
+   221→    return {
+   222→      backgroundImage: `radial-gradient(ellipse at 20% 30%, ${rgba(p.accent, 0.2)}, transparent 45%), radial-gradient(ellipse at 80% 70%, ${rgba(p.ink, 0.14)}, transparent 50%), radial-gradient(${inkSoft} 0.7px, transparent 0.8px)`,
+   223→      backgroundSize: 'auto, auto, 9px 9px',
+   224→    }
+   225→  }
+   226→  if (/moss|bark|organic|botanic|leaf|coral|shell|nacre|feather|lichen/.test(t)) {
+   227→    return {
+   228→      backgroundImage: `radial-gradient(ellipse at 25% 60%, ${rgba(p.support, 0.25)}, transparent 50%), radial-gradient(ellipse at 75% 25%, ${rgba(p.accent, 0.16)}, transparent 45%)`,
+   229→      backgroundSize: 'auto',
+   230→    }
+   231→  }
+   232→  // default: subtle grain
+   233→  return {
+   234→    backgroundImage: `radial-gradient(${rgba(p.ink, 0.05)} 0.6px, transparent 0.7px)`,
+   235→    backgroundSize: '4px 4px',
+   236→  }
+   237→}
+   238→
+   239→function pickTexture(textures: string[]): string | null {
+   240→  return textures.length > 0 ? textures[0] : null
+   241→}
+   242→
+   243→/* ------------------------------ lighting & motion ------------------------------ */
+   244→
+   245→function lightingOverlay(a: AestheticFull, p: DemoPalette): string | null {
+   246→  const lit = `${a.lighting.temperature ?? ''} ${a.lighting.quality ?? ''} ${a.lighting.shadow ?? ''}`.toLowerCase()
+   247→  if (!lit.trim()) return null
+   248→  const warm = /warm|golden|candle|amber|tungsten|sunset/.test(lit)
+   249→  const cool = /cool|blue|moon|neon|fluoresc|cold|cyan|icy/.test(lit)
+   250→  if (warm && !cool) return `linear-gradient(180deg, rgba(255, 176, 80, 0.10), transparent 70%)`
+   251→  if (cool && !warm) return `linear-gradient(180deg, rgba(96, 140, 200, 0.10), transparent 70%)`
+   252→  return null
+   253→}
+   254→
+   255→function shadowFor(a: AestheticFull): string {
+   256→  const q = `${a.lighting.quality ?? ''} ${a.lighting.shadow ?? ''}`.toLowerCase()
+   257→  if (/hard|sharp|harsh|crisp|noir|dramatic|high contrast/.test(q)) return '0 10px 28px -10px rgba(28,25,23,0.5)'
+   258→  if (/soft|diffuse|gentle|even|flat/.test(q)) return '0 6px 20px -8px rgba(28,25,23,0.18)'
+   259→  return '0 8px 24px -10px rgba(28,25,23,0.28)'
+   260→}
+   261→
+   262→type MotionKind = 'float' | 'flicker' | 'none'
+   263→
+   264→function motionFor(a: AestheticFull): MotionKind {
+   265→  const m = `${a.uiTranslation.motion ?? ''} ${a.category}`.toLowerCase()
+   266→  if (/glitch|flicker|neon|strobe|vhs|scan|interference|crt|blink/.test(m)) return 'flicker'
+   267→  if (/slow|gentle|float|parallax|glide|drift|hover|smooth|playful|bounce|spring/.test(m)) return 'float'
+   268→  return 'none'
+   269→}
+   270→
+   271→/* ------------------------------ hash (deterministic) ------------------------------ */
+   272→
+   273→function hashStr(s: string): number {
+   274→  let h = 2166136261
+   275→  for (let i = 0; i < s.length; i++) {
+   276→    h ^= s.charCodeAt(i)
+   277→    h = Math.imul(h, 16777619)
+   278→  }
+   279→  return Math.abs(h)
+   280→}
+   281→
+   282→/* ------------------------------ StyleDemo ------------------------------ */
+   283→
+   284→const WEB_CATEGORIES = ['Internet Aesthetic', 'Web & UI Design', 'Game & Pixel Aesthetic', 'Technology & Retrofuturism', 'Graphic Design']
+   285→const FASHION_CATEGORIES = ['Fashion & Dress', 'Subculture Style', 'Music & Sonic Culture']
+   286→const BUILT_CATEGORIES = ['Architectural Style', 'Interior Design', 'Furniture & Product Design', 'Texture & Material Study', 'Material & Surface']
+   287→
+   288→function firstSentence(text: string, max = 130): string {
+   289→  const s = text.split(/(?<=[.!?])\s/)[0] ?? text
+   290→  return s.length > max ? s.slice(0, max - 1).trimEnd() + '…' : s
+   291→}
+   292→
+   293→export function StyleDemo({ a }: { a: AestheticFull }) {
+   294→  const p = useMemo(() => derivePalette(a.colors), [a.colors])
+   295→  const df = useMemo(() => displayFont(a), [a])
+   296→  const bf = useMemo(() => bodyFont(a), [a])
+   297→  const tex = useMemo(() => pickTexture(a.textures), [a.textures])
+   298→  const motion = motionFor(a)
+   299→  const shadow = shadowFor(a)
+   300→  const overlay = lightingOverlay(a, p)
+   301→
+   302→  const isWeb = WEB_CATEGORIES.includes(a.category)
+   303→  const isFashion = FASHION_CATEGORIES.includes(a.category)
+   304→  const isBuilt = BUILT_CATEGORIES.includes(a.category)
+   305→
+   306→  const tagline = firstSentence(a.summary || a.description, 150)
+   307→  const navItems = a.tags.slice(0, 4).map((t) => t.replace(/(^|-)([a-z])/g, (m) => m.toUpperCase()).replace(/-/g, ' '))
+   308→  const cardItems = (a.keyExamples.length > 0 ? a.keyExamples : a.objects).slice(0, 3)
+   309→
+   310→  return (
+   311→    <section aria-label="Live style demo">
+   312→      <div className="mb-3 flex items-center justify-between gap-3">
+   313→        <div>
+   314→          <h3 className="flex items-center gap-2 font-serif text-lg text-stone-900">
+   315→            <ScanEye className="h-4 w-4 text-[#8a6d3b]" aria-hidden="true" />
+   316→            Live style demo
+   317→          </h3>
+   318→          <p className="mt-0.5 text-xs text-stone-500">
+   319→            This interface is rebuilt from the entry&rsquo;s own palette, typography, textures, lighting and motion rules.
+   320→          </p>
+   321→        </div>
+   322→        <span className="hidden shrink-0 rounded-full border border-stone-300 bg-white px-2.5 py-1 text-[10px] uppercase tracking-[0.14em] text-stone-500 sm:inline-block">
+   323→          {isWeb ? 'Web template' : isFashion ? 'Cover template' : isBuilt ? 'Plate template' : 'Gallery template'}
+   324→        </span>
+   325→      </div>
+   326→
+   327→      {isWeb ? (
+   328→        <BrowserDemo a={a} p={p} df={df} bf={bf} tex={tex} motion={motion} shadow={shadow} overlay={overlay} tagline={tagline} navItems={navItems} cardItems={cardItems} />
+   329→      ) : isFashion ? (
+   330→        <MagazineDemo a={a} p={p} df={df} bf={bf} tex={tex} motion={motion} shadow={shadow} overlay={overlay} tagline={tagline} />
+   331→      ) : isBuilt ? (
+   332→        <PlateDemo a={a} p={p} df={df} bf={bf} tex={tex} shadow={shadow} overlay={overlay} />
+   333→      ) : (
+   334→        <GalleryDemo a={a} p={p} df={df} bf={bf} tex={tex} shadow={shadow} overlay={overlay} tagline={tagline} />
+   335→      )}
+   336→
+   337→      <p className="mt-2 text-[11px] text-stone-400">
+   338→        Rendered from: {a.colors.length} palette colors · {df.stack.split(',')[0]} display ·{' '}
+   339→        {tex ? `“${tex}” texture` : 'no texture data'} · {motion === 'none' ? 'restrained motion' : `${motion} motion`}
+   340→      </p>
+   341→    </section>
+   342→  )
+   343→}
+   344→
+   345→interface DemoProps {
+   346→  a: AestheticFull
+   347→  p: DemoPalette
+   348→  df: FontSpec
+   349→  bf: string
+   350→  tex: string | null
+   351→  motion: MotionKind
+   352→  shadow: string
+   353→  overlay: string | null
+   354→  tagline?: string
+   355→  navItems?: string[]
+   356→  cardItems?: string[]
+   357→}
+   358→
+   359→/* ------------------------------ template: browser ------------------------------ */
+   360→
+   361→function BrowserDemo({ a, p, df, bf, tex, motion, shadow, overlay, tagline, navItems, cardItems }: DemoProps) {
+   362→  const texStyle = tex ? texturePattern(tex, p) : null
+   363→  const heroBg: React.CSSProperties = {
+   364→    background: `linear-gradient(135deg, ${rgba(p.accent, 0.16)}, ${p.bg} 55%, ${rgba(p.support, 0.14)})`,
+   365→  }
+   366→  return (
+   367→    <div className="overflow-hidden rounded-xl border shadow-lg" style={{ borderColor: rgba(p.ink, 0.18), boxShadow: shadow, background: p.bg }}>
+   368→      {/* window chrome */}
+   369→      <div className="flex items-center gap-1.5 border-b px-3 py-2" style={{ borderColor: rgba(p.ink, 0.1), background: p.surface }}>
+   370→        <span className="h-2.5 w-2.5 rounded-full" style={{ background: rgba(p.ink, 0.22) }} />
+   371→        <span className="h-2.5 w-2.5 rounded-full" style={{ background: rgba(p.ink, 0.14) }} />
+   372→        <span className="h-2.5 w-2.5 rounded-full" style={{ background: p.accent }} />
+   373→        <span className="ml-2 flex-1 truncate rounded px-2 py-0.5 text-[10px]" style={{ background: p.bg, color: rgba(p.ink, 0.55), fontFamily: MONO }}>
+   374→          {a.slug}.example
+   375→        </span>
+   376→      </div>
+   377→      {/* nav */}
+   378→      <div className="flex items-center justify-between gap-3 border-b px-4 py-2.5" style={{ borderColor: rgba(p.ink, 0.1) }}>
+   379→        <span className="truncate text-sm" style={{ fontFamily: df.stack, fontWeight: df.weight, color: p.ink, letterSpacing: df.tracking }}>
+   380→          {a.name}
+   381→        </span>
+   382→        {navItems && navItems.length > 0 && (
+   383→          <nav className="hidden gap-3 text-[11px] sm:flex" style={{ color: rgba(p.ink, 0.6), fontFamily: bf }} aria-hidden="true">
+   384→            {navItems.map((n) => (
+   385→              <span key={n}>{n}</span>
+   386→            ))}
+   387→          </nav>
+   388→        )}
+   389→        <span className="rounded px-2 py-1 text-[10px]" style={{ background: p.accent, color: readableOn(p.accent), fontFamily: bf }}>
+   390→          Enter
+   391→        </span>
+   392→      </div>
+   393→      {/* hero */}
+   394→      <div className="relative overflow-hidden px-5 py-8 sm:px-7 sm:py-10" style={heroBg}>
+   395→        {texStyle && <div className="pointer-events-none absolute inset-0 opacity-70" style={{ backgroundImage: texStyle.backgroundImage, backgroundSize: texStyle.backgroundSize }} aria-hidden="true" />}
+   396→        {overlay && <div className="pointer-events-none absolute inset-0" style={{ background: overlay }} aria-hidden="true" />}
+   397→        <p className="relative text-[10px] uppercase" style={{ letterSpacing: '0.22em', color: p.accent, fontFamily: bf }}>
+   398→          {a.category}
+   399→          {a.era ? ` · ${a.era}` : ''}
+   400→        </p>
+   401→        <h4 className="relative mt-2 max-w-lg text-2xl leading-tight sm:text-3xl" style={{ fontFamily: df.stack, color: p.ink, letterSpacing: df.tracking, textTransform: df.transform, fontWeight: df.weight }}>
+   402→          {a.name}
+   403→        </h4>
+   404→        {tagline && (
+   405→          <p className="relative mt-2.5 max-w-md text-sm leading-relaxed" style={{ color: rgba(p.ink, 0.72), fontFamily: bf }}>
+   406→            {tagline}
+   407→          </p>
+   408→        )}
+   409→        <div className="relative mt-4 flex flex-wrap gap-2">
+   410→          <span className="rounded px-3 py-1.5 text-xs" style={{ background: p.accent, color: readableOn(p.accent), fontFamily: bf, boxShadow: `0 2px 10px ${rgba(p.accent, 0.35)}` }}>
+   411→            Explore the style
+   412→          </span>
+   413→          <span className="rounded border px-3 py-1.5 text-xs" style={{ borderColor: rgba(p.ink, 0.25), color: p.ink, fontFamily: bf }}>
+   414→            Palette &amp; DNA
+   415→          </span>
+   416→          {motion === 'float' && (
+   417→            <span className="aa-motion-float ml-auto hidden self-center rounded-full px-2.5 py-1 text-[10px] sm:inline-block" style={{ background: rgba(p.support, 0.25), color: p.ink, fontFamily: bf }}>
+   418→              ✦ drifting motion
+   419→            </span>
+   420→          )}
+   421→          {motion === 'flicker' && (
+   422→            <span className="aa-motion-flicker ml-auto hidden self-center rounded-full px-2.5 py-1 text-[10px] sm:inline-block" style={{ background: rgba(p.support, 0.25), color: p.ink, fontFamily: bf }}>
+   423→              ▮ signal flicker
+   424→            </span>
+   425→          )}
+   426→        </div>
+   427→      </div>
+   428→      {/* cards */}
+   429→      {cardItems && cardItems.length > 0 && (
+   430→        <div className="grid grid-cols-1 gap-2.5 p-3 sm:grid-cols-3" style={{ background: p.bg }}>
+   431→          {cardItems.map((c, i) => {
+   432→            const tint = [rgba(p.accent, 0.75), rgba(p.support, 0.75), rgba(p.ink, 0.55)][i % 3]
+   433→            return (
+   434→              <div key={c} className="overflow-hidden rounded-lg border" style={{ borderColor: rgba(p.ink, 0.12), background: p.surface }}>
+   435→                <div className="h-12" style={{ background: `linear-gradient(120deg, ${tint}, ${rgba(p.accent, 0.2)})` }} />
+   436→                <p className="truncate px-2.5 py-2 text-[11px]" style={{ color: rgba(p.ink, 0.75), fontFamily: bf }} title={c}>
+   437→                  {c}
+   438→                </p>
+   439→              </div>
+   440→            )
+   441→          })}
+   442→        </div>
+   443→      )}
+   444→    </div>
+   445→  )
+   446→}
+   447→
+   448→/* ------------------------------ template: magazine cover ------------------------------ */
+   449→
+   450→function MagazineDemo({ a, p, df, bf, tex, motion, shadow, overlay, tagline }: DemoProps) {
+   451→  const texStyle = tex ? texturePattern(tex, p) : null
+   452→  const coverLines = (a.keyExamples.length > 0 ? a.keyExamples : a.tags).slice(0, 3)
+   453→  const h = hashStr(a.slug)
+   454→  return (
+   455→    <div className="grid overflow-hidden rounded-xl border shadow-lg sm:grid-cols-[1.2fr_1fr]" style={{ borderColor: rgba(p.ink, 0.18), boxShadow: shadow, background: p.bg }}>
+   456→      <div className="relative overflow-hidden p-5 sm:p-6">
+   457→        {texStyle && <div className="pointer-events-none absolute inset-0 opacity-60" style={{ backgroundImage: texStyle.backgroundImage, backgroundSize: texStyle.backgroundSize }} aria-hidden="true" />}
+   458→        {overlay && <div className="pointer-events-none absolute inset-0" style={{ background: overlay }} aria-hidden="true" />}
+   459→        <p className="relative text-[10px] uppercase" style={{ letterSpacing: '0.24em', color: p.accent, fontFamily: bf }}>
+   460→          The Atlas Review · {a.era || a.category}
+   461→        </p>
+   462→        <h4 className="relative mt-2 leading-[0.95]" style={{ fontFamily: df.stack, color: p.ink, fontSize: 'clamp(1.9rem, 4vw, 2.8rem)', textTransform: 'uppercase', letterSpacing: df.tracking, fontWeight: df.weight }}>
+   463→          {a.name}
+   464→        </h4>
+   465→        {tagline && (
+   466→          <p className="relative mt-3 max-w-sm text-sm italic leading-relaxed" style={{ color: rgba(p.ink, 0.72), fontFamily: bf }}>
+   467→            “{tagline.replace(/\.$/, '')}”
+   468→          </p>
+   469→        )}
+   470→        <ul className="relative mt-4 space-y-1.5">
+   471→          {coverLines.map((c) => (
+   472→            <li key={c} className="flex items-center gap-2 text-xs" style={{ color: rgba(p.ink, 0.8), fontFamily: bf }}>
+   473→              <span className="inline-block h-1 w-1 rounded-full" style={{ background: p.accent }} />
+   474→              {c}
+   475→            </li>
+   476→          ))}
+   477→        </ul>
+   478→        {/* barcode */}
+   479→        <div className="relative mt-5 flex h-7 items-end gap-[2px]" style={{ width: 92 }} aria-hidden="true">
+   480→          {Array.from({ length: 18 }).map((_, i) => (
+   481→            <span key={i} style={{ width: (h >> i) % 3 === 0 ? 3 : 1.5, height: `${55 + ((h >> i) % 45)}%`, background: p.ink, opacity: 0.8 }} />
+   482→          ))}
+   483→        </div>
+   484→      </div>
+   485→      <div className="relative min-h-44 overflow-hidden" style={{ background: `linear-gradient(160deg, ${p.accent}, ${mix(p.accent, p.ink, 0.45)} 70%)` }}>
+   486→        {texStyle && <div className="pointer-events-none absolute inset-0 opacity-80 mix-blend-overlay" style={{ backgroundImage: texStyle.backgroundImage, backgroundSize: texStyle.backgroundSize }} aria-hidden="true" />}
+   487→        {overlay && <div className="pointer-events-none absolute inset-0" style={{ background: overlay }} aria-hidden="true" />}
+   488→        {motion === 'float' && (
+   489→          <div className="aa-motion-float absolute right-4 top-4 rounded-full px-2.5 py-1 text-[10px]" style={{ background: rgba(p.bg, 0.85), color: p.ink, fontFamily: bf }}>
+   490→            ✦
+   491→          </div>
+   492→        )}
+   493→        <div className="absolute bottom-3 right-4 text-right">
+   494→          <p className="text-[9px] uppercase" style={{ letterSpacing: '0.2em', color: rgba(p.bg, 0.85), fontFamily: bf }}>
+   495→            visual issue
+   496→          </p>
+   497→          <p className="text-xs" style={{ color: p.bg, fontFamily: df.stack }}>
+   498→            {a.origin || a.geography || 'Worldwide'}
+   499→          </p>
+   500→        </div>
+   501→      </div>
+   502→    </div>
+   503→  )
+   504→}
+   505→
+   506→/* ------------------------------ template: editorial plate ------------------------------ */
+   507→
+   508→function PlateDemo({ a, p, df, bf, tex, shadow, overlay }: DemoProps) {
+   509→  const texStyle = tex ? texturePattern(tex, p) : null
+   510→  const h = hashStr(a.slug)
+   511→  const specs = [
+   512→    ...a.materials.slice(0, 3),
+   513→    ...a.objects.slice(0, 2),
+   514→  ].slice(0, 4)
+   515→  // deterministic "elevation" blocks
+   516→  const blocks = Array.from({ length: 6 }).map((_, i) => ({
+   517→    col: (h >> (i * 2)) % 4,
+   518→    row: (h >> (i * 3)) % 3,
+   519→    tone: [rgba(p.ink, 0.78), rgba(p.accent, 0.8), rgba(p.support, 0.75), rgba(p.ink, 0.35)][i % 4],
+   520→  }))
+   521→  return (
+   522→    <div className="overflow-hidden rounded-xl border shadow-lg" style={{ borderColor: rgba(p.ink, 0.2), boxShadow: shadow, background: p.bg }}>
+   523→      <div className="border-b px-5 py-2.5 text-center" style={{ borderColor: rgba(p.ink, 0.12) }}>
+   524→        <p className="text-[10px] uppercase" style={{ letterSpacing: '0.3em', color: p.accent, fontFamily: bf }}>
+   525→          Plate Nº {String((h % 47) + 1).padStart(2, '0')} · {a.category}
+   526→        </p>
+   527→      </div>
+   528→      <div className="px-6 py-5 text-center">
+   529→        <h4 className="text-2xl leading-tight sm:text-3xl" style={{ fontFamily: df.stack, color: p.ink, letterSpacing: '0.06em', fontWeight: df.weight }}>
+   530→          {a.name}
+   531→        </h4>
+   532→        <p className="mt-1 text-xs" style={{ color: rgba(p.ink, 0.55), fontFamily: bf, letterSpacing: '0.14em', textTransform: 'uppercase' }}>
+   533→          {[a.era, a.origin || a.geography].filter(Boolean).join(' — ') || a.subcategory || 'Aesthetic Atlas'}
+   534→        </p>
+   535→      </div>
+   536→      {/* elevation study */}
+   537→      <div className="relative mx-6 mb-5 overflow-hidden rounded-lg border" style={{ borderColor: rgba(p.ink, 0.15), background: p.surface }}>
+   538→        {texStyle && <div className="pointer-events-none absolute inset-0 opacity-50" style={{ backgroundImage: texStyle.backgroundImage, backgroundSize: texStyle.backgroundSize }} aria-hidden="true" />}
+   539→        {overlay && <div className="pointer-events-none absolute inset-0" style={{ background: overlay }} aria-hidden="true" />}
+   540→        <div className="relative grid h-40 gap-1.5 p-3" style={{ gridTemplateColumns: 'repeat(4, 1fr)', gridTemplateRows: 'repeat(3, 1fr)' }} aria-hidden="true">
+   541→          {blocks.map((b, i) => (
+   542→            <div
+   543→              key={i}
+   544→              className="rounded-sm"
+   545→              style={{
+   546→                gridColumn: `${(b.col % 2) + 1} / span ${1 + (b.col % 2)}`,
+   547→                gridRow: `${b.row + 1} / span 1`,
+   548→                background: b.tone,
+   549→                boxShadow: `inset 0 -2px 0 ${rgba(p.ink, 0.25)}`,
+   550→              }}
+   551→            />
+   552→          ))}
+   553→        </div>
+   554→      </div>
+   555→      {/* spec table */}
+   556→      {specs.length > 0 && (
+   557→        <dl className="mx-6 mb-6 divide-y" style={{ borderColor: rgba(p.ink, 0.1), borderTop: `1px solid ${rgba(p.ink, 0.1)}` }}>
+   558→          {specs.map((s, i) => (
+   559→            <div key={`${s}-${i}`} className="flex items-baseline justify-between gap-4 py-2">
+   560→              <dt className="text-[10px] uppercase" style={{ letterSpacing: '0.18em', color: p.accent, fontFamily: bf }}>
+   561→                Spec {String(i + 1).padStart(2, '0')}
+   562→              </dt>
+   563→              <dd className="truncate text-xs" style={{ color: rgba(p.ink, 0.75), fontFamily: bf }}>
+   564→                {s}
+   565→              </dd>
+   566→            </div>
+   567→          ))}
+   568→        </dl>
+   569→      )}
+   570→    </div>
+   571→  )
+   572→}
+   573→
+   574→/* ------------------------------ template: gallery frame ------------------------------ */
+   575→
+   576→function GalleryDemo({ a, p, df, bf, tex, shadow, overlay, tagline }: DemoProps) {
+   577→  const texStyle = tex ? texturePattern(tex, p) : null
+   578→  const shape = `${a.visualDNA.shape ?? ''} ${a.visualDNA.line ?? ''}`.toLowerCase()
+   579→  const organic = /organic|curv|fluid|soft|round|blob|flowing/.test(shape)
+   580→  const angular = /angular|geometric|sharp|angular|rectilinear|hard-edge|blocky/.test(shape)
+   581→  const h = hashStr(a.slug)
+   582→  const artworkRadius = organic ? '58% 42% 55% 45% / 48% 55% 45% 52%' : angular ? '4px' : '8px'
+   583→  return (
+   584→    <div className="overflow-hidden rounded-xl border p-3 shadow-lg sm:p-4" style={{ borderColor: rgba(p.ink, 0.18), boxShadow: shadow, background: p.surface }}>
+   585→      {/* artwork */}
+   586→      <div className="relative overflow-hidden rounded-md" style={{ border: `6px solid ${p.bg}`, outline: `1px solid ${rgba(p.ink, 0.15)}`, background: p.bg }}>
+   587→        <div className="relative h-52 overflow-hidden sm:h-64" style={{ background: `linear-gradient(135deg, ${rgba(p.accent, 0.55)}, ${rgba(p.support, 0.4)} 45%, ${rgba(p.ink, 0.65)})` }}>
+   588→          {texStyle && <div className="pointer-events-none absolute inset-0 opacity-70 mix-blend-overlay" style={{ backgroundImage: texStyle.backgroundImage, backgroundSize: texStyle.backgroundSize }} aria-hidden="true" />}
+   589→          {overlay && <div className="pointer-events-none absolute inset-0" style={{ background: overlay }} aria-hidden="true" />}
+   590→          {/* composition motifs */}
+   591→          <div
+   592→            className="absolute"
+   593→            aria-hidden="true"
+   594→            style={{
+   595→              left: `${12 + (h % 18)}%`,
+   596→              top: `${14 + (h % 12)}%`,
+   597→              width: `${34 + (h % 16)}%`,
+   598→              height: `${40 + (h % 14)}%`,
+   599→              background: rgba(p.accent, 0.85),
+   600→              borderRadius: artworkRadius,
+   601→              boxShadow: `0 10px 30px ${rgba(p.ink, 0.35)}`,
+   602→            }}
+   603→          />
+   604→          <div
+   605→            className="absolute"
+   606→            aria-hidden="true"
+   607→            style={{
+   608→              right: `${10 + (h % 14)}%`,
+   609→              bottom: `${10 + (h % 12)}%`,
+   610→              width: `${20 + (h % 12)}%`,
+   611→              height: `${18 + (h % 10)}%`,
+   612→              background: rgba(p.bg, 0.85),
+   613→              borderRadius: organic ? '50%' : '2px',
+   614→            }}
+   615→          />
+   616→          <div className="absolute left-0 top-0 h-full w-full" aria-hidden="true" style={{ background: `repeating-linear-gradient(${(h % 180)}deg, transparent 0 26px, ${rgba(p.ink, 0.05)} 26px 27px)` }} />
+   617→        </div>
+   618→      </div>
+   619→      {/* plaque */}
+   620→      <div className="mx-auto mt-4 max-w-md rounded-sm border px-4 py-3 text-center" style={{ borderColor: rgba(p.ink, 0.18), background: p.bg }}>
+   621→        <h4 className="text-lg leading-snug" style={{ fontFamily: df.stack, color: p.ink, fontWeight: df.weight, letterSpacing: df.tracking }}>
+   622→          {a.name}
+   623→        </h4>
+   624→        <p className="mt-0.5 text-[11px]" style={{ color: rgba(p.ink, 0.55), fontFamily: bf }}>
+   625→          {[a.periodStart, a.periodEnd].filter(Boolean).join('–') || a.era || a.category} · {a.origin || a.geography || 'Aesthetic Atlas'}
+   626→        </p>
+   627→        {tagline && <p className="mt-1.5 text-xs italic leading-relaxed" style={{ color: rgba(p.ink, 0.65), fontFamily: bf }}>{tagline}</p>}
+   628→      </div>
+   629→    </div>
+   630→  )
+   631→}
+   632→
+   633→/* ------------------------------ texture swatches ------------------------------ */
+   634→
+   635→export function TextureSwatches({ textures, colors }: { textures: string[]; colors: ColorEntry[] }) {
+   636→  const p = useMemo(() => derivePalette(colors), [colors])
+   637→  if (textures.length === 0) return null
+   638→  return (
+   639→    <div className="flex flex-wrap gap-2.5">
+   640→      {textures.slice(0, 6).map((t) => {
+   641→        const pat = texturePattern(t, p)
+   642→        return (
+   643→          <figure key={t} className="w-24 shrink-0">
+   644→            <div
+   645→              className="h-16 w-full rounded-md border"
+   646→              style={{
+   647→                backgroundImage: pat.backgroundImage,
+   648→                backgroundSize: pat.backgroundSize,
+   649→                backgroundColor: p.bg,
+   650→                borderColor: rgba(p.ink, 0.15),
+   651→              }}
+   652→              role="img"
+   653→              aria-label={`Texture sample: ${t}`}
+   654→              title={t}
+   655→            />
+   656→            <figcaption className="mt-1 truncate text-[10px] leading-tight text-stone-500" title={t}>
+   657→              {t}
+   658→            </figcaption>
+   659→          </figure>
+   660→        )
+   661→      })}
+   662→    </div>
+   663→  )
+   664→}
+   665→
+   666→/* ------------------------------ visual gallery ------------------------------ */
+   667→
+   668→function GalleryImage({ img, name, onFail }: { img: ImageEntry; name: string; onFail: () => void }) {
+   669→  return (
+   670→    <img
+   671→      src={img.url}
+   672→      alt={img.caption || `${name} visual example`}
+   673→      loading="lazy"
+   674→      decoding="async"
+   675→      referrerPolicy="no-referrer"
+   676→      onError={onFail}
+   677→      className="aspect-[4/3] w-full cursor-zoom-in bg-stone-100 object-cover transition-transform duration-300 group-hover:scale-[1.04]"
+   678→    />
+   679→  )
+   680→}
+   681→
+   682→export function VisualGallery({ images, name }: { images: ImageEntry[]; name: string }) {
+   683→  const [failed, setFailed] = useState<Set<string>>(() => new Set())
+   684→  const [zoomed, setZoomed] = useState<string | null>(null)
+   685→  const visible = images.filter((i) => !failed.has(i.url))
+   686→
+   687→  // Escape closes the lightbox before the enclosing sheet.
+   688→  useEffect(() => {
+   689→    if (!zoomed) return
+   690→    const onKey = (e: KeyboardEvent) => {
+   691→      if (e.key === 'Escape') {
+   692→        e.stopImmediatePropagation()
+   693→        setZoomed(null)
+   694→      }
+   695→    }
+   696→    window.addEventListener('keydown', onKey, true)
+   697→    return () => window.removeEventListener('keydown', onKey, true)
+   698→  }, [zoomed])
+   699→  if (visible.length === 0) return null
+   700→
+   701→  return (
+   702→    <section aria-label="Visual examples">
+   703→      <div className="mb-3 flex items-center justify-between gap-3">
+   704→        <div>
+   705→          <h3 className="flex items-center gap-2 font-serif text-lg text-stone-900">
+   706→            <ImageIcon className="h-4 w-4 text-[#8a6d3b]" aria-hidden="true" />
+   707→            Visual examples
+   708→          </h3>
+   709→          <p className="mt-0.5 text-xs text-stone-500">
+   710→            {visible.length} real example image{visible.length === 1 ? '' : 's'} sourced from the web by the research pipeline.
+   711→          </p>
+   712→        </div>
+   713→      </div>
+   714→      <div className={`grid gap-3 ${visible.length === 1 ? 'grid-cols-1' : 'grid-cols-2 sm:grid-cols-3'}`}>
+   715→        {visible.map((img) => (
+   716→          <figure key={img.url} className="group relative overflow-hidden rounded-lg border border-stone-200 bg-white shadow-sm">
+   717→            <GalleryImage img={img} name={name} onFail={() => setFailed((prev) => new Set(prev).add(img.url))} />
+   718→            <button
+   719→              type="button"
+   720→              className="absolute inset-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b08d57]"
+   721→              aria-label={img.caption ? `View larger: ${img.caption}` : `View image from ${img.source || 'source'}`}
+   722→              onClick={() => setZoomed(img.url)}
+   723→            />
+   724→            {img.caption && (
+   725→              <figcaption className="pointer-events-none absolute inset-x-0 bottom-0 line-clamp-2 bg-gradient-to-t from-stone-900/85 to-transparent px-2.5 pb-1.5 pt-6 text-[10px] leading-snug text-stone-50 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
+   726→                {img.caption}
+   727→              </figcaption>
+   728→            )}
+   729→            {img.source && (
+   730→              <span className="pointer-events-none absolute left-2 top-2 rounded-full bg-stone-900/60 px-2 py-0.5 text-[9px] uppercase tracking-wide text-stone-100">
+   731→                {img.source}
+   732→              </span>
+   733→            )}
+   734→          </figure>
+   735→        ))}
+   736→      </div>
+   737→
+   738→      {/* lightbox */}
+   739→      {zoomed && (
+   740→        <div
+   741→          className="fixed inset-0 z-[80] flex items-center justify-center bg-stone-950/85 p-6"
+   742→          role="dialog"
+   743→          aria-modal="true"
+   744→          aria-label="Enlarged example image"
+   745→          onClick={() => setZoomed(null)}
+   746→        >
+   747→          <img
+   748→            src={zoomed}
+   749→            alt={`${name} enlarged example`}
+   750→            className="max-h-full max-w-full rounded-lg object-contain shadow-2xl"
+   751→            onClick={(e) => e.stopPropagation()}
+   752→          />
+   753→          <button
+   754→            type="button"
+   755→            className="absolute right-5 top-5 rounded-full bg-white/90 px-3 py-1.5 text-sm text-stone-800 shadow hover:bg-white"
+   756→            onClick={() => setZoomed(null)}
+   757→          >
+   758→            Close ✕
+   759→          </button>
+   760→        </div>
+   761→      )}
+   762→    </section>
+   763→  )
+   764→}
+   765→
+   766→/* ------------------------------ pending notice ------------------------------ */
+   767→
+   768→export function PendingNotice({ a }: { a: AestheticFull }) {
+   769→  const missing: string[] = []
+   770→  if (Object.keys(a.visualDNA).length === 0) missing.push('visual DNA')
+   771→  if (Object.keys(a.typography).length === 0) missing.push('typography')
+   772→  if (Object.keys(a.lighting).length === 0) missing.push('lighting')
+   773→  if (Object.keys(a.architecture).length === 0) missing.push('architecture & applied fields')
+   774→  if (Object.keys(a.uiTranslation).length === 0) missing.push('UI translation')
+   775→  if (missing.length === 0) return null
+   776→  return (
+   777→    <div className="flex items-start gap-3 rounded-lg border border-amber-700/25 bg-[#fdf6e7] px-4 py-3" role="status">
+   778→      <Loader2 className="mt-0.5 h-4 w-4 shrink-0 animate-spin text-amber-700" aria-hidden="true" />
+   779→      <div className="text-sm">
+   780→        <p className="font-medium text-amber-900">Deep decomposition in progress</p>
+   781→        <p className="mt-0.5 text-xs leading-relaxed text-amber-800/90">
+   782→          This record is at discovery depth. The research pipeline is still documenting: {missing.join(', ')}.{' '}
+   783→          {a.images.length === 0 && 'Visual examples will be attached once the image pass reaches this entry.'}
+   784→        </p>
+   785→      </div>
+   786→    </div>
+   787→  )
+   788→}
+   789→

@@ -111,3 +111,56 @@ Stage Summary:
 - The "missing core" is fixed at the system level: enrichment-first pipeline fills every shallow entry (276 queued, ~8/2min and accelerating), image worker attaches real examples continuously, 50 priority batches push textures/effects/line-work/painting coverage.
 - New data columns: Aesthetic.images. New CLI: bun scripts/research/images.ts {worker|once}.
 - Worklog note for future agents: images column is populated by the image worker only; enrich() no longer downgrades verified entries; discovery/enrich/verify phases are ordered enrich-first in the worker loop.
+
+---
+Task ID: 6 (pipeline wave)
+Agent: lead (orchestrator)
+Task: Scale queue toward 5,000+ entries + no-missing-data policy + continuous expansion loop.
+
+Work Log:
+- Wrote scripts/research/domains-expanded.ts: 377 new discovery batch specs (wave 1: 268 domain-deepening specs; wave 2: 109 more incl. castle/himalayan/colonial architecture, raw materials, metalpoint/charcoal/printmaking line work, cave painting, inscriptional lettering, VTuber/AI-era/XP-nostalgia internet aesthetics, vinyl/cassette packaging, regional music visuals, Slavic/Baltic/Celtic/Jewish folk arts, atomic kitsch, farm machinery, restroom/office/lighting design eras). Every focus names real documented clusters.
+- run.ts createQueue now merges domains.ts + domains-expanded.ts: 698 total specs, 378 new batches queued (queue path to ~5,400+ entries).
+- Added fillGaps(): LLM completion pass for entries missing colors/period/origin/textures/objects/materials/era/keyExamples; wired as worker step 0 ("no missing data" policy).
+- Worker audit loop changed: previously gated by totalBatches<600 (would never fire again); now fires whenever queued<30 with backlog-term hints injected into the audit prompt -> continuous expansion forever.
+- Restarted worker (pid 21210).
+
+Stage Summary:
+- Queue: 698 specs (378 newly queued). Worker loop: gap-fill -> enrich -> verify -> discover(24) -> audit-on-low-queue.
+- CLI additions: bun scripts/research/run.ts fill-gaps N.
+
+---
+Task ID: 7-a
+Agent: full-stack-developer
+Task: Rebuild style-demo.tsx into a professional 12-template tabbed demo suite (fix "broken/generic" demo complaints + palette fallback).
+
+Work Log:
+- Kept public contract exactly: StyleDemo({ a: AestheticFull }), TextureSwatches({ textures, colors }), VisualGallery({ images, name }), PendingNotice({ a }); design language preserved (warm paper, serif headings, hairline rgba(ink,0.18) borders, #8a6d3b bronze, shadowFor/motion badges, deterministic rendering — no Math.random, no Date.now).
+- PALETTE FALLBACK: added 22 keyword-matched category palette presets (web/UI teal, internet vivid magenta, games dark+amber, tech orange, fashion ivory/black/gold, architecture stone/slate/brass, textile warm earth, music crimson, subculture red, interior terracotta, furniture walnut, material copper, sacred gold/red, drawing sanguine, painting ochre, VFX luminous teal, film amber, sci-fi gold/teal, art-movement paper/bronze, regional madder/gold, typography vermillion, atlas default). derivePalette(colors, context) now takes a context string (category+subcategory; textures for swatches) and returns fromPreset label; when <2 valid hex colors the preset is used and the demo footer labels it "suggested palette (group) — research in progress".
+- StyleDemo is now a TABBED SUITE: role=tablist/tab/tabpanel, aria-selected/aria-controls/aria-labelledby, ArrowLeft/ArrowRight roving focus, horizontally scrollable bronze-active tab bar (Auto ★, Web, Cover, Plate, Gallery, Poster, UI kit, Pattern, Type, Line art, Painting, 3D material). Header keeps "Live style demo" + explanation; badge shows "Auto → {template}"; footer names the active template.
+- autoTemplateFor(): keyword rules map category→template exactly per spec (web/cover/plate families, VFX→shader, drawing→lineart, painting→painting, typography→type, textile/regional→pattern, religious→gallery, everything else→gallery).
+- NEW templates: PosterDemo (huge display type, date line from period/era with honest "to be announced — research in progress" fallback, venue from origin/geography, tag chips, big accent block, ticket+barcode, frame radius driven by visualDNA.line: whiplash→rounded/organic, angular→sharp); UIKitDemo (palette-dot toolbar, primary/ghost buttons, input with placeholder from tags/objects, toggle, maximalism progress meter, 2 example cards, badge row, styling microcopy); PatternDemo (6 seamless 40×40 SVG-tile motifs — ikat→zigzag, velvet→dots, wood→stripes, lattice/quilt→diamonds, damask/whiplash→arabesque, floral→floral, hash fallback — shown at 1×/2×/4× + applied-surface band via data-URL background-size scaling); TypeSpecimenDemo (giant Aa in display font, stack label, A-Z/a-z/0-9 rows, pangram, typography display/body/notes annotations with "— research in progress", weight/tracking/case chips); LineArtDemo (pure SVG seeded by hashStr, motif family from visualDNA.line keywords: botanical stem+leaves / geometric star+lattice / gestural curves, line weight from line text, hatching density from minimal_maximal + dense_spacious axes, plate frame + caption); PaintingDemo (2D canvas in useEffect, seeded Lehmer LCG — 26-96 strokes from maximalism, impasto/body/wash softness from texture keywords, jitter from orderly_chaotic, gallery-mat frame, aria-labeled, deterministic across renders); shader tab renders <ShaderLab a={a}/> untouched.
+- Extracted shared Barcode (cover + poster); kept BrowserDemo/MagazineDemo/PlateDemo/GalleryDemo visually as-is. Every template renders meaningful content from name/summary/tags/category even when decomposition is empty.
+- Verified in browser: 12 tabs render for verified (Prairie School: plate auto, geometric line art 16 paths/2 polys/9 dots, canvas painted, WebGL wood-grain shader) and draft/sparse entries (Miami Modernism: 1 color → architecture preset + honest footer label; poster shows era dates/venue/tags). Arrow-key tab nav works; 390px mobile has no overflow; zero console/page errors.
+- Quality gates: bun run lint → 0 errors; tsc --noEmit → 0 errors in style-demo.tsx / shader-lab.tsx (remaining project-wide errors are the pre-existing baseline in unrelated files). No other file modified; shader-lab.tsx untouched.
+
+Stage Summary:
+- Detail sheet now ships a 12-lens demo suite: every entry gets category-mapped auto template + 11 manual lenses, with honest "suggested palette — research in progress" labeling when palette data is thin.
+- New exports/behavior for future agents: DemoPalette.fromPreset (null = real data), TEMPLATE_LABELS/TABS in style-demo.tsx; ShaderLab is imported read-only from './shader-lab'.
+- Worklog note: TextureSwatches now passes texture keywords as preset context, so texture chips stay tinted even for entries with no colors yet.
+
+---
+Task ID: 7
+Agent: lead (orchestrator) + full-stack-developer (7-a)
+Task: 3D shader material lab, 12-template demo suite, completeness audit surfacing, pipeline rate-limit hardening.
+
+Work Log:
+- Built src/components/atlas/shader-lab.tsx: raw-WebGL 3D material study (no deps). 20 procedural GLSL materials (wood FBM rings, marble veins, brushed/hammered metal, rust, cloth weave, velvet sheen, ceramic crackle, leather, gloss plastic, animated CRT phosphor, water, thin-film holographic, fur, concrete, terrazzo, ice cracks, paper grain, glass, neon fog), Blinn-Phong + fresnel, bump-mapped via per-material height fields along analytic tangent frames, palette uniforms from entry colors, deterministic seed from slug. Torus knot / torus / sphere geometries, drag-rotate, wheel-zoom, expand, reset, reduced-motion guard, WebGL fallback. materialsFor() routes entry texture vocabulary -> material chips.
+- Task 7-a (full-stack-developer): rebuilt style-demo.tsx into a tabbed 12-template suite (Auto/Web/Cover/Plate/Gallery/Poster/UI kit/Pattern/Type/Line art/Painting/3D material) with real tablist a11y + arrow-key roving focus; 22 deterministic per-category palette presets for entries lacking colors (honestly labeled "research in progress"); generative SVG line art + seeded-LCG canvas painting; new categories mapped (VFX->shader, drawing->lineart, painting->painting, typography->type, textile->pattern). Only style-demo.tsx touched; StyleDemo signature unchanged.
+- Data completeness surfacing: new GET /api/audit (16 field-gap counts, core/deep completeness %, 5,000-target progress); dashboard panels "Library growth milestone" (progress bar with 1k-4k markers + live queue count) and "Record integrity — no missing data" (core/deep bars + green/gray field-gap chips); per-entry RecordMeter (15-field checklist, honest "still documenting" microcopy) in detail sheet; useAudit hook.
+- Pipeline scale + resilience: domains-expanded.ts final = 377 specs (698 total with domains.ts; 378 new batches queued = 643 in queue). fillGaps() ran and completed ALL identity-field gaps (audit shows palette/period/origin/textures/objects/materials/era/sources all at 0 missing; core completeness 99-100%). Rate-limit circuit breaker in lib.ts (sustained 429 -> 3-min cooldown, fail-fast); runBatch no longer burns batch attempts on 429s (re-queues instead of failing permanently); enrich/verify/fillGaps abort passes after 2 consecutive failures; worker rests 90s during cooldown. Restarted worker + image worker (both crash-proof, auto-resume when API quota resets).
+- Agent Browser verification: home 317 entries; Romanticism detail (researched): 6 sourced images w/ badges, record meter 14/15, all 12 demo tabs render real content, 3D shader renders golden torus knot + material chip switching + expand (300->430px), shader status line "seed 1720, palette 5 colors, live"; Brazilian Colonial Architecture (draft): PendingNotice + 8/15 meter + Auto->Plate demo with elevation study (no broken/empty demos); Fachwerk: texture-routed chips (Wood grain/Woven cloth/Concrete) + wood-grain shader verified visually; dashboard milestone + integrity panels live (643 queued batches); mobile 390px no h-overflow, footer pushed naturally; zero console/page errors; bun run lint clean.
+
+Stage Summary:
+- Examples system is now a professional 12-template demo suite + real-time WebGL 3D material lab, driven entirely by per-entry data with honest fallbacks.
+- Path to 5,000+: 643 discovery batches queued (~5,400 entry potential) + continuous taxonomy-audit loop when queue drains + 1,211-term backlog recycled into audits. fillGaps + enrichment + image workers keep closing data gaps.
+- NOTE for future agents: z-ai LLM API hit sustained 429s ~05:12-06:45 (quota window); the circuit breaker protects the queue — do NOT raise CONC or remove the breaker. `bun scripts/research/run.ts {stats|fill-gaps|audit|queue}` are the ops commands.
