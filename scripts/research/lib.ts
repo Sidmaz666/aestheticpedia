@@ -68,7 +68,9 @@ async function zai() {
 }
 
 // Simple global throttle so concurrent workers respect API rate limits.
-const MIN_GAP_MS = 3500
+// Raised from 3.5s after sustained 429 storms; 6s + per-worker jitter keeps
+// throughput near the sustainable ceiling without wasting requests.
+const MIN_GAP_MS = 6000
 let lastRequestStart = 0
 async function throttle() {
   for (;;) {
@@ -104,7 +106,7 @@ export async function llmJSON(system: string, user: string, retries = 5): Promis
       const msg = String(e?.message ?? '')
       if (i < retries) {
         const is429 = msg.includes('429') || msg.toLowerCase().includes('too many')
-        await sleep(is429 ? 15000 * i : 2000 * i)
+        await sleep(is429 ? Math.min(20000 * i, 60000) : 2000 * i)
       }
     }
   }
@@ -396,6 +398,12 @@ function classifyEstablishment(category: string): string {
     'Hybrid & Experimental': 'experimental_hybrid',
     'Micro-aesthetic': 'internet_aesthetic',
     'Mood & Atmosphere': 'community_subculture',
+    'Texture & Material Study': 'regional_tradition',
+    'Material & Surface': 'regional_tradition',
+    'Visual Effects & Phenomena': 'historical',
+    'Drawing & Line Work': 'historical',
+    'Painting Technique & School': 'historical',
+    'Color & Light': 'historical',
   }
   return map[category] ?? 'community_subculture'
 }
@@ -587,9 +595,9 @@ export function enrichPrompt(entries: Array<{ name: string; summary: string }>):
 ${entries.map((e, i) => `${i + 1}. ${e.name}${e.summary ? ' — ' + e.summary : ''}`).join('\n')}
 
 Return a JSON array of ${entries.length} objects:
-{"n": exact name, "vd": {"shape": shape language, "line": line language, "composition": composition, "texture": textures, "forms": recurring forms/motifs}, "typ": {"display": headline typography, "body": body typography, "notes": lettering notes}, "lit": {"quality": light quality, "direction": direction, "temperature": warm/cool, "shadow": shadow character}, "pho": {"approach": photographic approach, "grade": color grade / film look}, "arc": {"forms": architectural forms, "examples": real example buildings or settings}, "fash": {"silhouettes": ..., "garments": key garments, "acc": accessories & details}, "env": {"places": typical environments, "weather": weather/atmosphere}, "gd": {"layout": graphic layout style, "icon": iconography/motifs}, "ui": {"background": page background treatment, "surface": surface/card treatment, "components": buttons/inputs style, "motion": animation behavior}, "rec": {"materials": key materials for reproduction, "lighting": lighting advice, "objects": objects to acquire, "music": music associations, "scent": scent associations}}
+{"n": exact name, "vd": {"shape": shape language, "line": line language, "composition": composition, "texture": textures, "forms": recurring forms/motifs}, "typ": {"display": headline typography, "body": body typography, "notes": lettering notes}, "lit": {"quality": light quality, "direction": direction, "temperature": warm/cool, "shadow": shadow character}, "pho": {"approach": photographic approach, "grade": color grade / film look}, "arc": {"forms": architectural forms, "examples": real example buildings or settings}, "fash": {"silhouettes": ..., "garments": key garments, "acc": accessories & details}, "env": {"places": typical environments, "weather": weather/atmosphere}, "gd": {"layout": graphic layout style, "icon": iconography/motifs}, "ui": {"background": page background treatment, "surface": surface/card treatment, "components": buttons/inputs style, "motion": animation behavior}, "rec": {"materials": key materials for reproduction, "lighting": lighting advice, "objects": objects to acquire, "music": music associations, "scent": scent associations}, "snd": [sonic identity 2-4 items: music genres, ambient sounds, audio character]}
 
-Rules: every string <= 220 chars. Only include what genuinely applies. Do not fabricate historical claims.`
+Rules: every string <= 220 chars. Only include what genuinely applies. Do not fabricate historical claims. All fields except snd are objects of short strings.`
 }
 
 // ---------- verification prompt ----------

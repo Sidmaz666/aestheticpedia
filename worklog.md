@@ -90,3 +90,24 @@ Work Log:
 Stage Summary:
 - AT RUNTIME SNAPSHOT: 248+ entries (56 verified curated, 192 draft growing), 314 relations, 40/274 batches complete, 234 queued, backlog 743+ open reference terms feeding future rounds.
 - The system is autonomous: worker keeps researching, auditing gaps, enriching, verifying, indefinitely. The dashboard reports live, honest numbers.
+
+---
+Task ID: 5
+Agent: lead (orchestrator)
+Task: Visual completeness overhaul — images, live web-component demos, textures/effects/drawing/painting research expansion, enrichment of all shallow entries.
+
+Work Log:
+- Audited DB: 317 entries but ~276 drafts missing visualDNA/typography/lighting/architecture/fashion/environment/graphicDesign/uiTranslation/recipe; ALL 317 missing sounds; 0 images anywhere. Confirmed user complaint "the core is missing".
+- Schema: added `images` JSON column (url/caption/source/width/height) to Aesthetic; db push + client regen; restarted dev server (old client cached the schema).
+- Research expansion: appended 51 domain batches in scripts/research/domains.ts — new categories "Texture & Material Study" (11 batches: wood/stone/metal/textile/leather/glass/paper/plastics/organic/wear-patina/architectural surfaces), "Visual Effects & Phenomena" (10: painting light effects, natural phenomena, lens, analog film, VHS/CRT, print reproduction, digital artifacts, weather, material light interaction, stage lighting), "Drawing & Line Work" (10: pen+ink, East Asian brush, comics/manga, scientific/technical, observational, folk/vernacular, ornament systems, digital line, fashion sketching, caricature), "Painting Technique & School" (12: oil/water-based/fresco/miniature schools/Indian folk/sacred/East Asian/encaustic/modernist/decorative/plein-air/face+body), plus Color & Light (4) and Material & Surface (4) expansions. Queued all 50 with backdated createdAt so they are claimed FIRST (268 total queued).
+- Enrichment rewrite: batched 8 entries per LLM call (~8x fewer requests), added `snd` sonic-identity field to enrich prompt + merge, skip-set prevents infinite retry loops, extended target set to verified/researched entries missing deep fields (flagships like Art Nouveau/Vaporwave were never enriched) without demoting their status.
+- Rate-limit hardening: MIN_GAP_MS 3.5s→6s, 429 backoff 15s→20-60s capped, worker concurrency 3→2, worker loop reordered ENRICH → VERIFY → DISCOVER so most-visible pages gain depth first.
+- New image worker scripts/research/images.ts: `z-ai image-search` CLI per entry (category-aware natural-language queries, --gl us --no-rank), stores 6 real OSS-hosted example images per entry, ordering verified→researched→draft by popularity, crash-proof loop, ~15s/entry. 43+ entries illustrated and climbing.
+- Frontend: new src/components/atlas/style-demo.tsx — VisualGallery (real image grid + lightbox + source badges + lazy fallback), StyleDemo (LIVE web component re-rendering each aesthetic from its own palette/typography/texture/lighting/motion data: browser-window template for web/internet categories, magazine cover for fashion/subculture, editorial plate for architecture/interior, gallery frame for art — all deterministic), TextureSwatches (CSS-rendered texture pattern chips), PendingNotice (honest "decomposition queued" state). Keyframes aa-float/aa-flicker in globals.css with reduced-motion guard.
+- Wiring: lib/aesthetic.ts ImageEntry type + asImageArray + summary.image; detail sheet renders PendingNotice → VisualGallery → StyleDemo above DNA, texture swatches inside ingredients, recipe music/scent moved into UI blueprint; aesthetic-card shows image thumbnails with palette-strip fallback.
+- Verified in browser: home, search→detail (Art Nouveau: 6 sourced images w/ EBAY/ART&OBJECT/REDDIT badges, live gallery demo in gold Art-Nouveau palette; Frutiger Aero: web template with browser chrome, tag nav, Vista/iOS/Wii cards, gloss textures), Romanticism fully decomposed, texture swatches, dashboard live counters, mobile 390px, sticky footer, zero console errors, lint clean.
+
+Stage Summary:
+- The "missing core" is fixed at the system level: enrichment-first pipeline fills every shallow entry (276 queued, ~8/2min and accelerating), image worker attaches real examples continuously, 50 priority batches push textures/effects/line-work/painting coverage.
+- New data columns: Aesthetic.images. New CLI: bun scripts/research/images.ts {worker|once}.
+- Worklog note for future agents: images column is populated by the image worker only; enrich() no longer downgrades verified entries; discovery/enrich/verify phases are ordered enrich-first in the worker loop.

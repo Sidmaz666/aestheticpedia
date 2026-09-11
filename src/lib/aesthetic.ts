@@ -17,6 +17,14 @@ export interface SourceEntry {
   tier?: string
 }
 
+export interface ImageEntry {
+  url: string
+  caption: string
+  source: string
+  width: string
+  height: string
+}
+
 /** Compact record used in grids/lists. */
 export interface AestheticSummary {
   slug: string
@@ -38,6 +46,8 @@ export interface AestheticSummary {
   popularity: number
   isNiche: boolean
   dataQuality: string
+  /** First example image URL (or null) — used for card thumbnails. */
+  image: string | null
 }
 
 /** Full record — every JSON column parsed, ready for the detail view. */
@@ -64,6 +74,7 @@ export interface AestheticFull extends AestheticSummary {
   keyExamples: string[]
   sounds: string[]
   sources: SourceEntry[]
+  images: ImageEntry[]
   verifiedAt: string | null
   createdAt: string
   updatedAt: string
@@ -273,6 +284,26 @@ export function asSourceArray(value: unknown, fallback: SourceEntry[] = []): Sou
     .filter((s): s is SourceEntry => s !== null)
 }
 
+export function asImageArray(value: unknown, fallback: ImageEntry[] = []): ImageEntry[] {
+  if (!Array.isArray(value)) return fallback
+  return value
+    .map((img) => {
+      if (!img || typeof img !== 'object') return null
+      const rec = img as Record<string, unknown>
+      const url = typeof rec.url === 'string' && /^https?:\/\//.test(rec.url) ? rec.url : ''
+      if (!url) return null
+      const str = (v: unknown, max: number) => (typeof v === 'string' ? v.slice(0, max) : '')
+      return {
+        url,
+        caption: str(rec.caption, 200),
+        source: str(rec.source, 80),
+        width: str(rec.width, 10),
+        height: str(rec.height, 10),
+      }
+    })
+    .filter((img): img is ImageEntry => img !== null)
+}
+
 // ---------------------------------------------------------------------------
 // Raw row → API shapes (rows come from Prisma with JSON columns as strings)
 // ---------------------------------------------------------------------------
@@ -315,6 +346,7 @@ export interface AestheticRow {
   keyExamples: string
   sounds: string
   sources: string
+  images: string
   tags: string
   popularity: number
   isNiche: boolean
@@ -334,6 +366,7 @@ const iso = (d: Date | string | null | undefined): string | null => {
 }
 
 export function mapAestheticSummary(row: AestheticRow): AestheticSummary {
+  const images = asImageArray(safeParse<unknown>(row.images, []))
   return {
     slug: row.slug,
     name: row.name,
@@ -354,6 +387,7 @@ export function mapAestheticSummary(row: AestheticRow): AestheticSummary {
     popularity: row.popularity,
     isNiche: row.isNiche,
     dataQuality: row.dataQuality,
+    image: images[0]?.url ?? null,
   }
 }
 
@@ -382,6 +416,7 @@ export function mapAestheticFull(row: AestheticRow): AestheticFull {
     keyExamples: asStringArray(safeParse<unknown>(row.keyExamples, [])),
     sounds: asStringArray(safeParse<unknown>(row.sounds, [])),
     sources: asSourceArray(safeParse<unknown>(row.sources, [])),
+    images: asImageArray(safeParse<unknown>(row.images, [])),
     verifiedAt: iso(row.verifiedAt),
     createdAt: iso(row.createdAt) ?? new Date(0).toISOString(),
     updatedAt: iso(row.updatedAt) ?? new Date(0).toISOString(),

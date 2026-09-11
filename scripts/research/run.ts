@@ -18,7 +18,7 @@ import {
   VERIFY_SYSTEM, verifyPrompt, objValSafe,
 } from './lib'
 
-const CONC = 3
+const CONC = 2
 const MAX_ROUNDS = 6
 const PER_BATCH = 8
 
@@ -151,31 +151,65 @@ Never invent names. Prefer non-Western and underrepresented areas when justified
 
 // ---------- enrichment ----------
 
+const ENRICH_BATCH = 8
+
 export async function enrich(target: number) {
   await ensureKnownNames()
   let done = 0
+  const skip = new Set<string>()
   for (;;) {
     const drafts = await dbp.aesthetic.findMany({
-      where: { status: 'draft' },
+      where: {
+        id: { notIn: [...skip] },
+        OR: [
+          { status: 'draft' },
+          // Flagship (verified/researched) entries missing deep decomposition:
+          // they are the most-visited pages, so fill their gaps too.
+          { status: { in: ['researched', 'verified'] }, visualDNA: '{}' },
+          { status: { in: ['researched', 'verified'] }, typography: '{}' },
+          { status: { in: ['researched', 'verified'] }, uiTranslation: '{}' },
+        ],
+      },
       orderBy: [{ popularity: 'desc' }, { createdAt: 'asc' }],
-      take: 5,
-      select: { id: true, name: true, summary: true },
+      take: ENRICH_BATCH,
+      select: { id: true, name: true, summary: true, status: true },
     })
     if (drafts.length === 0 || done >= target) break
-    const promises = drafts.map((d) =>
-      llmJSON(ENRICH_SYSTEM, enrichPrompt([{ name: d.name, summary: d.summary }])).catch(() => null)
-    )
-    const results = await Promise.all(promises)
-    for (let i = 0; i < drafts.length; i++) {
-      const res = results[i]
-      const draft = drafts[i]
-      if (!res || !Array.isArray(res)) continue
-      const item = res.find((r: any) => r && (r.n === draft.name || String(r.n).toLowerCase() === draft.name.toLowerCase()))
+
+    // One LLM call covers the whole batch (prompt supports arrays) — ~8x fewer
+    // requests than per-entry calls, which matters under strict rate limits.
+    const res = await llmJSON(
+      ENRICH_SYSTEM,
+      enrichPrompt(drafts.map((d) => ({ name: d.name, summary: d.summary })))
+    ).catch((e) => {
+      log(`enrich batch failed: ${String(e.message).slice(0, 100)}`)
+      return null
+    })
+    if (!Array.isArray(res)) {
+      // Unrecoverable batch — skip these drafts for this round so the loop
+      // cannot stall forever on the same entries.
+      for (const d of drafts) skip.add(d.id)
+      await sleep(5000)
+      continue
+    }
+
+    const strArr = (v: any): string[] =>
+      Array.isArray(v) ? v.filter((x) => typeof x === 'string' && x.trim()).slice(0, 6) : []
+
+    for (const draft of drafts) {
+      const item = res.find(
+        (r: any) => r && String(r.n ?? '').toLowerCase().trim() === draft.name.toLowerCase().trim()
+      )
       if (!item) continue
       const existing = await dbp.aesthetic.findUnique({ where: { id: draft.id } })
       if (!existing) continue
       const merge = (curKey: string, patch: any) => ({ ...JSON.parse(existing[curKey] || '{}'), ...objValSafe(patch) })
       try {
+        const sounds = strArr(item.snd)
+        const hasDeep =
+          Object.keys(item.vd ?? {}).length > 0 ||
+          Object.keys(item.typ ?? {}).length > 0 ||
+          Object.keys(item.ui ?? {}).length > 0
         await dbp.aesthetic.update({
           where: { id: draft.id },
           data: {
@@ -189,7 +223,11 @@ export async function enrich(target: number) {
             graphicDesign: JSON.stringify(merge('graphicDesign', item.gd)),
             uiTranslation: JSON.stringify(merge('uiTranslation', item.ui)),
             recipe: JSON.stringify(merge('recipe', item.rec)),
-            status: 'researched',
+            ...(sounds.length > 0 && JSON.parse(existing.sounds || '[]').length === 0
+              ? { sounds: JSON.stringify(sounds) }
+              : {}),
+            // Only drafts advance status; verified entries keep their badge.
+            ...(hasDeep && draft.status === 'draft' ? { status: 'researched' } : {}),
           },
         })
         done++
@@ -260,30 +298,43 @@ async function worker() {
   log('Worker starting (concurrency', CONC + ')')
   await ensureKnownNames()
   for (;;) {
-    const queued = await dbp.researchBatch.count({ where: { status: 'queued' } })
-    if (queued > 0) {
-      log(`— discovery: ${queued} queued —`)
-      // Process in waves so enrichment/verification interleave with discovery
-      // and the funnel (draft → researched → verified) moves continuously.
-      await processDiscovery(30)
+    // 1. Deepen existing entries FIRST — flagship + popular pages get their
+    //    full decomposition before new shallow entries are discovered.
+    const enrichable = await dbp.aesthetic.count({
+      where: {
+        OR: [
+          { status: 'draft' },
+          { status: { in: ['researched', 'verified'] }, visualDNA: '{}' },
+          { status: { in: ['researched', 'verified'] }, typography: '{}' },
+          { status: { in: ['researched', 'verified'] }, uiTranslation: '{}' },
+        ],
+      },
+    })
+    if (enrichable > 0) {
+      log(`— enrichment: ${enrichable} entries need depth —`)
+      await enrich(Math.min(80, enrichable))
     }
-    const discoveryDone = await dbp.researchBatch.count({ where: { kind: 'discovery', status: 'done' } })
-    const auditBatches = await dbp.researchBatch.count({ where: { kind: 'audit' } })
-    const totalBatches = await dbp.researchBatch.count()
-    if (discoveryDone > 0 && auditBatches === 0 && totalBatches < 400) {
-      const auditCount = await auditGen().catch((e) => { log('audit failed:', e.message); return 0 })
-      if (auditCount > 0) await processDiscovery(30)
-    }
-    const drafts = await dbp.aesthetic.count({ where: { status: 'draft' } })
-    if (drafts > 0) {
-      await enrich(Math.min(60, drafts))
-    }
+    // 2. Verify what has been researched.
     const researched = await dbp.aesthetic.count({ where: { status: 'researched', verifiedAt: null } })
     if (researched > 0) {
       await verify(Math.min(120, researched))
     }
+    // 3. Then discover new entries in waves.
+    const queued = await dbp.researchBatch.count({ where: { status: 'queued' } })
+    if (queued > 0) {
+      log(`— discovery: ${queued} queued —`)
+      await processDiscovery(24)
+    }
+    const discoveryDone = await dbp.researchBatch.count({ where: { kind: 'discovery', status: 'done' } })
+    const auditBatches = await dbp.researchBatch.count({ where: { kind: 'audit' } })
+    const totalBatches = await dbp.researchBatch.count()
+    if (discoveryDone > 0 && auditBatches === 0 && totalBatches < 600) {
+      const auditCount = await auditGen().catch((e) => { log('audit failed:', e.message); return 0 })
+      if (auditCount > 0) await processDiscovery(24)
+    }
     const remaining = await dbp.researchBatch.count({ where: { status: 'queued' } })
-    if (remaining === 0) {
+    const stillEnrichable = await dbp.aesthetic.count({ where: { status: 'draft' } })
+    if (remaining === 0 && stillEnrichable === 0) {
       log('Queue drained. Idle 90s…')
       await sleep(90_000)
     } else {

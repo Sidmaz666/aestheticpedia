@@ -59,6 +59,7 @@ model Aesthetic {
   keyExamples     String    @default("[]")
   sounds          String    @default("[]")
   sources         String    @default("[]") // [{name,url,tier}] tier A|B|C|D
+  images          String    @default("[]") // [{url,caption,source,width,height}] fetched via image search
   tags            String    @default("[]")
   // meta
   popularity      Int       @default(50) // interpretive recognition 0-100

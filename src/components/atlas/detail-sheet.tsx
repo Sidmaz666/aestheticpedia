@@ -35,6 +35,7 @@ import {
 import { Chip, ErrorState, SectionHeading, StatusBadge } from '@/components/atlas/bits'
 import { ColorSwatch, PaletteStrip } from '@/components/atlas/palette-strip'
 import { DnaBars, EmotionBars, EmotionRadar } from '@/components/atlas/dna'
+import { PendingNotice, StyleDemo, TextureSwatches, VisualGallery } from '@/components/atlas/style-demo'
 import { useAestheticDetail } from '@/components/atlas/api'
 import {
   DATA_QUALITY_LABELS,
@@ -259,6 +260,12 @@ function DetailBody({
             </section>
           )}
 
+          <PendingNotice a={a} />
+
+          <VisualGallery images={a.images} name={a.name} />
+
+          <StyleDemo a={a} />
+
           <DnaSection dnaAxes={a.dnaAxes} />
           <EmotionSection profile={a.emotionProfile} />
           <IngredientsSection a={a} />
@@ -297,7 +304,7 @@ function DetailBody({
 
           {Object.keys(a.uiTranslation).length > 0 && (
             <section aria-label="UI translation">
-              <SectionHeading hint="Recreating the aesthetic in interface design.">
+              <SectionHeading hint="Recreating the aesthetic in interface design — see the live demo above for the rendered result.">
                 UI translation
               </SectionHeading>
               <div className="overflow-hidden rounded-lg border border-stone-200 bg-white">
@@ -315,28 +322,20 @@ function DetailBody({
                       </div>
                     ))}
                   </dl>
-                  {/* Decorative mini-preview */}
-                  <div
-                    className="rounded-md border border-stone-200 bg-[#faf8f4] p-3"
-                    aria-hidden="true"
-                  >
-                    <div className="rounded border border-stone-200 bg-white shadow-sm">
-                      <div className="flex gap-1 border-b border-stone-100 px-2.5 py-2">
-                        <span className="h-2 w-2 rounded-full bg-stone-300" />
-                        <span className="h-2 w-2 rounded-full bg-stone-300" />
-                        <span className="h-2 w-2 rounded-full bg-stone-300" />
-                      </div>
-                      <div className="space-y-2 p-2.5">
-                        <div className="h-2.5 w-1/2 rounded-full bg-[#8a6d3b]/50" />
-                        <div className="h-1.5 w-full rounded-full bg-stone-200" />
-                        <div className="h-1.5 w-4/5 rounded-full bg-stone-200" />
-                        <div className="flex gap-1.5 pt-1">
-                          <div className="h-5 w-14 rounded bg-[#8a6d3b]/80" />
-                          <div className="h-5 w-10 rounded border border-stone-300" />
+                  <dl className="space-y-3">
+                    {Object.entries(a.recipe)
+                      .filter(([k]) => ['music', 'scent'].includes(k))
+                      .map(([k, v]) => (
+                        <div key={k}>
+                          <dt className="text-[11px] font-medium uppercase tracking-[0.14em] text-[#8a6d3b]">
+                            {labelize(k)}
+                          </dt>
+                          <dd className="mt-0.5 text-sm leading-relaxed text-stone-600">
+                            {Array.isArray(v) ? v.join(' · ') : v}
+                          </dd>
                         </div>
-                      </div>
-                    </div>
-                  </div>
+                      ))}
+                  </dl>
                 </div>
               </div>
             </section>
@@ -468,11 +467,12 @@ function IngredientsSection({ a }: { a: AestheticFull }) {
           </ChipRow>
         )}
         {a.textures.length > 0 && (
-          <ChipRow label="Textures">
-            {a.textures.map((t) => (
-              <Chip key={t}>{t}</Chip>
-            ))}
-          </ChipRow>
+          <div>
+            <p className="mb-1.5 text-[11px] font-medium uppercase tracking-[0.14em] text-stone-500">
+              Textures (rendered samples)
+            </p>
+            <TextureSwatches textures={a.textures} colors={a.colors} />
+          </div>
         )}
         {a.objects.length > 0 && (
           <ChipRow label="Objects">

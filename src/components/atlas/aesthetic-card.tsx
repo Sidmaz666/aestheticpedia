@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { PaletteStrip } from '@/components/atlas/palette-strip'
 import { StatusDot } from '@/components/atlas/bits'
@@ -15,6 +16,40 @@ export interface AestheticCardItem {
   establishment?: string
   status?: string
   tags?: string[]
+  /** Optional first example image (pipeline attaches these). */
+  image?: string | null
+}
+
+/** Card thumbnail with graceful fallback to the palette strip. */
+function CardImage({ src, alt, colors }: { src: string; alt: string; colors: ColorEntry[] }) {
+  const [failed, setFailed] = useState(false)
+  if (failed) {
+    return (
+      <PaletteStrip
+        colors={colors}
+        label={alt}
+        className="h-10 shrink-0 border-b border-stone-200/70"
+      />
+    )
+  }
+  return (
+    <div className="relative h-36 shrink-0 overflow-hidden border-b border-stone-200/70 bg-stone-100">
+      <img
+        src={src}
+        alt={`${alt} visual example`}
+        loading="lazy"
+        decoding="async"
+        referrerPolicy="no-referrer"
+        onError={() => setFailed(true)}
+        className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.05]"
+      />
+      <PaletteStrip
+        colors={colors}
+        label={alt}
+        className="absolute inset-x-0 bottom-0 h-1.5"
+      />
+    </div>
+  )
 }
 
 export function AestheticCard({
@@ -37,11 +72,15 @@ export function AestheticCard({
       className="group flex h-full flex-col overflow-hidden rounded-lg border border-stone-200 bg-white text-left shadow-sm transition-colors hover:border-[#b08d57]/60 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b08d57] focus-visible:ring-offset-2 focus-visible:ring-offset-[#faf8f4]"
       aria-label={`${item.name} — open details`}
     >
-      <PaletteStrip
-        colors={item.colors}
-        label={item.name}
-        className="h-10 shrink-0 border-b border-stone-200/70"
-      />
+      {item.image ? (
+        <CardImage src={item.image} alt={item.name} colors={item.colors} />
+      ) : (
+        <PaletteStrip
+          colors={item.colors}
+          label={item.name}
+          className="h-10 shrink-0 border-b border-stone-200/70"
+        />
+      )}
       <div className="flex flex-1 flex-col p-4">
         <div className="flex items-start justify-between gap-2">
           <h3 className="font-serif text-lg leading-snug text-stone-900 group-hover:text-[#6f5527]">
