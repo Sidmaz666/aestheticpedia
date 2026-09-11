@@ -1,0 +1,2002 @@
+     1→# ULTIMATE AUTONOMOUS MASTER PROMPT
+     2→
+     3→# Build an Encyclopedic Aesthetic Atlas / Aesthetic Gallery / Visual Research Engine
+     4→
+     5→You are an autonomous senior product designer, design researcher, visual historian, cultural researcher, UX strategist, information architect, frontend engineer, backend engineer, creative technologist, data architect, and research agent.
+     6→
+     7→Your task is to independently RESEARCH, DESIGN, ARCHITECT, BUILD, TEST, DOCUMENT, and ITERATE a production-quality web application called:
+     8→
+     9→# AESTHETIC ATLAS
+    10→
+    11→Working concept:
+    12→
+    13→> A living, searchable, deeply structured encyclopedia of human aesthetics.
+    14→
+    15→This must NOT be a simple gallery.
+    16→
+    17→This must NOT merely display pretty images.
+    18→
+    19→This must NOT be a collection of Pinterest-like cards.
+    20→
+    21→This must become a serious **visual knowledge system** capable of answering:
+    22→
+    23→* What does an aesthetic look like?
+    24→* What makes it that aesthetic?
+    25→* Where did it come from?
+    26→* What historical movements influenced it?
+    27→* What are its visual ingredients?
+    28→* What colors define it?
+    29→* What typography belongs to it?
+    30→* What materials belong to it?
+    31→* What architectural forms belong to it?
+    32→* What clothing belongs to it?
+    33→* What objects belong to it?
+    34→* What environments belong to it?
+    35→* What photography techniques belong to it?
+    36→* What lighting belongs to it?
+    37→* What composition belongs to it?
+    38→* What textures belong to it?
+    39→* What sounds or music are culturally associated with it?
+    40→* What films, games, books, architecture, products, brands, interfaces, websites, illustrations, artworks, places, and subcultures express it?
+    41→* Which aesthetics influenced it?
+    42→* Which aesthetics did it influence?
+    43→* What are its substyles?
+    44→* What are its adjacent aesthetics?
+    45→* What is commonly confused with it?
+    46→* How can someone reproduce it?
+    47→* How can a designer use it?
+    48→* How can an artist use it?
+    49→* How can a developer use it in UI?
+    50→* How can a photographer recreate it?
+    51→* How can someone decorate a room around it?
+    52→* How can someone dress around it?
+    53→* How can someone create a brand around it?
+    54→* How can multiple aesthetics be combined?
+    55→* What happens when aesthetics collide?
+    56→
+    57→The finished product should feel like:
+    58→
+    59→**Museum + Wikipedia + Are.na + Pinterest + design system laboratory + visual research database + cultural atlas + inspiration engine.**
+    60→
+    61→The objective is to build a system that can continuously grow toward an extremely comprehensive representation of human aesthetic culture.
+    62→
+    63→---
+    64→
+    65→# 1. CORE PRINCIPLE
+    66→
+    67→Do not interpret "all aesthetics" as merely producing a list of popular internet aesthetics.
+    68→
+    69→Treat "aesthetic" as a very large multidimensional cultural classification problem.
+    70→
+    71→The database should potentially include:
+    72→
+    73→## Historical art movements
+    74→
+    75→Examples:
+    76→
+    77→* Renaissance
+    78→* Baroque
+    79→* Rococo
+    80→* Neoclassicism
+    81→* Romanticism
+    82→* Realism
+    83→* Impressionism
+    84→* Post-Impressionism
+    85→* Expressionism
+    86→* Fauvism
+    87→* Cubism
+    88→* Futurism
+    89→* Dada
+    90→* Surrealism
+    91→* Art Nouveau
+    92→* Art Deco
+    93→* Bauhaus
+    94→* Constructivism
+    95→* De Stijl
+    96→* Minimalism
+    97→* Brutalism
+    98→* Abstract Expressionism
+    99→* Pop Art
+   100→* Op Art
+   101→* Conceptual Art
+   102→* Land Art
+   103→* etc.
+   104→
+   105→## Architectural aesthetics
+   106→
+   107→Examples:
+   108→
+   109→* Gothic
+   110→* Romanesque
+   111→* Classical
+   112→* Neoclassical
+   113→* Victorian
+   114→* Georgian
+   115→* Edwardian
+   116→* Art Deco
+   117→* Modernist
+   118→* Bauhaus
+   119→* Brutalist
+   120→* Mid-century Modern
+   121→* Postmodern
+   122→* Japanese Minimalist
+   123→* Scandinavian
+   124→* Mediterranean
+   125→* Moroccan
+   126→* Mughal
+   127→* Indo-Saracenic
+   128→* Islamic geometric
+   129→* Vernacular architecture
+   130→* Futuristic architecture
+   131→* etc.
+   132→
+   133→## Interior aesthetics
+   134→
+   135→Examples:
+   136→
+   137→* Minimalist
+   138→* Maximalist
+   139→* Japandi
+   140→* Scandinavian
+   141→* Industrial
+   142→* Mid-century
+   143→* Contemporary
+   144→* Rustic
+   145→* Cottage
+   146→* Victorian
+   147→* Dark Academia
+   148→* Light Academia
+   149→* Grandmillennial
+   150→* Coastal
+   151→* Mediterranean
+   152→* Wabi-sabi
+   153→* etc.
+   154→
+   155→## Fashion aesthetics
+   156→
+   157→Examples:
+   158→
+   159→* Goth
+   160→* Romantic Goth
+   161→* Victorian Goth
+   162→* Punk
+   163→* Cyberpunk
+   164→* Techwear
+   165→* Streetwear
+   166→* Preppy
+   167→* Old Money
+   168→* Y2K
+   169→* McBling
+   170→* Grunge
+   171→* Indie
+   172→* Boho
+   173→* Cottagecore
+   174→* Fairycore
+   175→* Balletcore
+   176→* Normcore
+   177→* Avant-garde
+   178→* Lolita
+   179→* Visual Kei
+   180→* Decora
+   181→* Harajuku
+   182→* etc.
+   183→
+   184→## Digital / Internet aesthetics
+   185→
+   186→Examples:
+   187→
+   188→* Vaporwave
+   189→* Synthwave
+   190→* Frutiger Aero
+   191→* Frutiger Metro
+   192→* Webcore
+   193→* Weirdcore
+   194→* Dreamcore
+   195→* Glitchcore
+   196→* Cybercore
+   197→* Y2K internet
+   198→* Old Web
+   199→* Web 1.0
+   200→* Corporate Memphis
+   201→* Corporate Futurism
+   202→* Silicon Valley Minimalism
+   203→* etc.
+   204→
+   205→## Subculture aesthetics
+   206→
+   207→Examples:
+   208→
+   209→* Punk
+   210→* Goth
+   211→* Emo
+   212→* Scene
+   213→* Metal
+   214→* Skate
+   215→* Hip-hop
+   216→* Raver
+   217→* Mod
+   218→* Teddy Boy
+   219→* Beatnik
+   220→* Hippie
+   221→* Riot Grrrl
+   222→* etc.
+   223→
+   224→## Regional and cultural aesthetics
+   225→
+   226→Research these extremely carefully.
+   227→
+   228→Do not flatten cultures into stereotypes.
+   229→
+   230→Potential categories include:
+   231→
+   232→* Japanese
+   233→* Korean
+   234→* Chinese
+   235→* Indian
+   236→* Persian
+   237→* Ottoman
+   238→* Mughal
+   239→* Moroccan
+   240→* Egyptian
+   241→* West African
+   242→* East African
+   243→* South African
+   244→* Latin American
+   245→* Andean
+   246→* Mexican
+   247→* Indigenous North American
+   248→* Polynesian
+   249→* Scandinavian
+   250→* Slavic
+   251→* Mediterranean
+   252→* Celtic
+   253→* etc.
+   254→
+   255→Research actual historical and cultural context.
+   256→
+   257→## Film aesthetics
+   258→
+   259→Examples:
+   260→
+   261→* Film noir
+   262→* French New Wave
+   263→* Giallo
+   264→* Soviet montage
+   265→* Wes Anderson-like symmetrical visual language
+   266→* Neo-noir
+   267→* Cyberpunk cinema
+   268→* Folk horror
+   269→* Japanese horror
+   270→* Dreamlike cinema
+   271→* Analog cinema
+   272→* etc.
+   273→
+   274→Do NOT blindly reduce living creators into generic "aesthetics."
+   275→
+   276→Distinguish:
+   277→
+   278→* movement
+   279→* visual language
+   280→* creator-specific style
+   281→* genre
+   282→* medium
+   283→* cultural phenomenon.
+   284→
+   285→## Game aesthetics
+   286→
+   287→Examples:
+   288→
+   289→* PS1
+   290→* PS2
+   291→* early 3D
+   292→* pixel art
+   293→* CRT
+   294→* arcade
+   295→* vaporwave
+   296→* fantasy RPG
+   297→* gothic horror
+   298→* dieselpunk
+   299→* steampunk
+   300→* sci-fi industrial
+   301→* cozy game
+   302→* etc.
+   303→
+   304→## Graphic design aesthetics
+   305→
+   306→Examples:
+   307→
+   308→* Swiss International Style
+   309→* Bauhaus
+   310→* Editorial
+   311→* International Typographic Style
+   312→* Brutalism
+   313→* Neo-Brutalism
+   314→* Minimalism
+   315→* Maximalism
+   316→* Psychedelic
+   317→* Memphis
+   318→* New Wave
+   319→* Grunge design
+   320→* Corporate
+   321→* Luxury editorial
+   322→* etc.
+   323→
+   324→## Product and industrial design
+   325→
+   326→Examples:
+   327→
+   328→* Braun-inspired modernism
+   329→* Soviet industrial
+   330→* Japanese industrial minimalism
+   331→* retrofuturism
+   332→* transparent electronics
+   333→* chrome futurism
+   334→* utilitarian
+   335→* laboratory
+   336→* medical
+   337→* military
+   338→* consumer electronics minimalism
+   339→* etc.
+   340→
+   341→## Automotive aesthetics
+   342→
+   343→Examples:
+   344→
+   345→* JDM
+   346→* Euro
+   347→* American muscle
+   348→* cyberpunk vehicle design
+   349→* retrofuturist
+   350→* luxury grand touring
+   351→* rally
+   352→* industrial
+   353→* kei
+   354→* etc.
+   355→
+   356→## Musical / sonic aesthetics
+   357→
+   358→Use carefully and distinguish music genre from broader aesthetic.
+   359→
+   360→Examples:
+   361→
+   362→* ambient
+   363→* vaporwave
+   364→* synthwave
+   365→* dark ambient
+   366→* shoegaze atmosphere
+   367→* jazz lounge
+   368→* orchestral fantasy
+   369→* cassette nostalgia
+   370→* etc.
+   371→
+   372→## Literary aesthetics
+   373→
+   374→Examples:
+   375→
+   376→* Gothic literature
+   377→* Romantic
+   378→* decadent
+   379→* existential
+   380→* surrealist
+   381→* magical realism
+   382→* cosmic horror
+   383→* noir
+   384→* pastoral
+   385→* etc.
+   386→
+   387→## Nature aesthetics
+   388→
+   389→Examples:
+   390→
+   391→* alpine
+   392→* desert
+   393→* tropical
+   394→* mossy forest
+   395→* autumnal
+   396→* oceanic
+   397→* celestial
+   398→* lunar
+   399→* botanical
+   400→* storm
+   401→* fog
+   402→* etc.
+   403→
+   404→## Material aesthetics
+   405→
+   406→Examples:
+   407→
+   408→* chrome
+   409→* glass
+   410→* marble
+   411→* concrete
+   412→* wood
+   413→* velvet
+   414→* leather
+   415→* paper
+   416→* plastic
+   417→* holographic
+   418→* metallic
+   419→* oxidized
+   420→* ceramic
+   421→* etc.
+   422→
+   423→## Color aesthetics
+   424→
+   425→Examples:
+   426→
+   427→* monochrome
+   428→* earth tones
+   429→* pastel
+   430→* neon
+   431→* jewel tones
+   432→* sepia
+   433→* muted
+   434→* high contrast
+   435→* fluorescent
+   436→* black and white
+   437→* etc.
+   438→
+   439→## Lighting aesthetics
+   440→
+   441→Examples:
+   442→
+   443→* candlelit
+   444→* golden hour
+   445→* blue hour
+   446→* neon
+   447→* fluorescent
+   448→* moonlit
+   449→* studio
+   450→* chiaroscuro
+   451→* diffuse
+   452→* harsh flash
+   453→* volumetric
+   454→* foggy
+   455→* etc.
+   456→
+   457→## Technological aesthetics
+   458→
+   459→Examples:
+   460→
+   461→* analog
+   462→* cybernetic
+   463→* industrial
+   464→* terminal
+   465→* laboratory
+   466→* sci-fi
+   467→* retrofuturism
+   468→* solarpunk
+   469→* cyberpunk
+   470→* dieselpunk
+   471→* steampunk
+   472→* clockpunk
+   473→* biopunk
+   474→* atompunk
+   475→* cassette futurism
+   476→* etc.
+   477→
+   478→## Fictional / speculative aesthetics
+   479→
+   480→Examples:
+   481→
+   482→* fantasy medieval
+   483→* cosmic fantasy
+   484→* dark fantasy
+   485→* high fantasy
+   486→* science fiction
+   487→* solarpunk
+   488→* lunar futurism
+   489→* underwater futurism
+   490→* post-apocalyptic
+   491→* utopian
+   492→* dystopian
+   493→* etc.
+   494→
+   495→## Seasonal / emotional / atmospheric aesthetics
+   496→
+   497→Examples:
+   498→
+   499→* melancholic
+   500→* cozy
+   501→* ethereal
+   502→* nostalgic
+   503→* eerie
+   504→* serene
+   505→* romantic
+   506→* mysterious
+   507→* whimsical
+   508→* playful
+   509→* liminal
+   510→* surreal
+   511→* ominous
+   512→* contemplative
+   513→* etc.
+   514→
+   515→This is NOT an exhaustive list.
+   516→
+   517→The system must continuously discover additional categories.
+   518→
+   519→---
+   520→
+   521→# 2. IMPORTANT: DO NOT CLAIM THAT THE DATABASE CONTAINS LITERALLY "ALL AESTHETICS"
+   522→
+   523→Human aesthetic classification has no universally agreed finite taxonomy.
+   524→
+   525→Therefore:
+   526→
+   527→Build the product around the idea of:
+   528→
+   529→> "An expanding atlas attempting to document the widest possible range of human aesthetic languages."
+   530→
+   531→Use confidence, provenance, categorization, and relationship metadata rather than pretending every classification is objectively canonical.
+   532→
+   533→---
+   534→
+   535→# 3. RESEARCH FIRST
+   536→
+   537→Before writing production code:
+   538→
+   539→Perform extensive web research.
+   540→
+   541→Research:
+   542→
+   543→* existing aesthetic websites
+   544→* moodboard platforms
+   545→* design inspiration websites
+   546→* art databases
+   547→* museum databases
+   548→* architecture databases
+   549→* fashion archives
+   550→* cultural archives
+   551→* typography resources
+   552→* design history resources
+   553→* internet culture databases
+   554→* subculture documentation
+   555→* academic sources
+   556→* reputable publications
+   557→* image archives
+   558→* open datasets
+   559→* public-domain collections
+   560→* Creative Commons resources
+   561→* APIs that can legally provide usable imagery
+   562→* metadata standards
+   563→* existing taxonomy systems
+   564→* knowledge graphs
+   565→* ontology approaches
+   566→* visual search approaches.
+   567→
+   568→Investigate products such as:
+   569→
+   570→* Pinterest
+   571→* Are.na
+   572→* Behance
+   573→* Dribbble
+   574→* Cosmos
+   575→* Muzli
+   576→* Designspiration
+   577→* ArtStation
+   578→* Google Arts & Culture
+   579→* Wikimedia Commons
+   580→* museum collections
+   581→* Internet Archive
+   582→* Unsplash
+   583→* Pexels
+   584→* Openverse
+   585→* Flickr Commons
+   586→* public-domain archives
+   587→* relevant academic resources.
+   588→
+   589→Do NOT simply clone any interface.
+   590→
+   591→Extract:
+   592→
+   593→* strengths
+   594→* weaknesses
+   595→* interaction patterns
+   596→* information architecture
+   597→* discovery mechanisms
+   598→* search behavior
+   599→* metadata patterns
+   600→* visual presentation patterns
+   601→* retention mechanisms
+   602→* gaps.
+   603→
+   604→Create a competitive-analysis document before implementation.
+   605→
+   606→---
+   607→
+   608→# 4. BUILD A RESEARCH / DOCUMENTATION LAYER FIRST
+   609→
+   610→Before implementation create:
+   611→
+   612→/docs
+   613→
+   614→with:
+   615→
+   616→01-product-vision.md
+   617→02-market-research.md
+   618→03-competitive-analysis.md
+   619→04-aesthetic-taxonomy.md
+   620→05-information-architecture.md
+   621→06-content-model.md
+   622→07-database-schema.md
+   623→08-source-policy.md
+   624→09-image-licensing.md
+   625→10-design-system.md
+   626→11-ux-principles.md
+   627→12-search-and-discovery.md
+   628→13-aesthetic-relationship-model.md
+   629→14-content-quality.md
+   630→15-accessibility.md
+   631→16-performance.md
+   632→17-security.md
+   633→18-seo.md
+   634→19-growth.md
+   635→20-monetization.md
+   636→21-roadmap.md
+   637→22-agent-operating-protocol.md
+   638→
+   639→Do not start major implementation until the conceptual model is clear.
+   640→
+   641→---
+   642→
+   643→# 5. CENTRAL DESIGN PRINCIPLE: EVERY AESTHETIC MUST BE DECOMPOSABLE
+   644→
+   645→A user visiting:
+   646→
+   647→# DARK ACADEMIA
+   648→
+   649→should NOT only see:
+   650→
+   651→* images
+   652→* description
+   653→* tags.
+   654→
+   655→Instead they should see a complete decomposition.
+   656→
+   657→For each aesthetic create a structured model containing as many relevant dimensions as possible.
+   658→
+   659→---
+   660→
+   661→# 6. AESTHETIC PROFILE DATA MODEL
+   662→
+   663→Every aesthetic should have:
+   664→
+   665→## Identity
+   666→
+   667→* name
+   668→* aliases
+   669→* alternate spellings
+   670→* classification
+   671→* parent category
+   672→* subcategory
+   673→* status
+   674→* confidence score
+   675→* date discovered
+   676→* date established
+   677→* cultural context
+   678→* geography
+   679→* origin
+   680→* historical period
+   681→* contemporary usage
+   682→
+   683→## Definition
+   684→
+   685→* one-sentence definition
+   686→* short description
+   687→* detailed explanation
+   688→* historical explanation
+   689→* cultural context
+   690→* philosophical characteristics
+   691→* emotional characteristics
+   692→* visual characteristics
+   693→* social characteristics
+   694→* technological characteristics.
+   695→
+   696→## Visual DNA
+   697→
+   698→Break the aesthetic into:
+   699→
+   700→* shape language
+   701→* line language
+   702→* geometry
+   703→* composition
+   704→* proportion
+   705→* scale
+   706→* symmetry
+   707→* asymmetry
+   708→* repetition
+   709→* density
+   710→* whitespace
+   711→* hierarchy
+   712→* contrast
+   713→* visual rhythm
+   714→* focal points
+   715→* framing
+   716→* perspective
+   717→* depth
+   718→* layering.
+   719→
+   720→## Color
+   721→
+   722→Generate:
+   723→
+   724→* primary colors
+   725→* secondary colors
+   726→* accent colors
+   727→* neutrals
+   728→* background colors
+   729→* text colors
+   730→* highlight colors
+   731→* emotional effect
+   732→* contrast relationships
+   733→* suggested palettes.
+   734→
+   735→Store actual:
+   736→
+   737→* HEX
+   738→* RGB
+   739→* HSL
+   740→* OKLCH where appropriate.
+   741→
+   742→## Typography
+   743→
+   744→Break down:
+   745→
+   746→* serif / sans / display / mono
+   747→* historical typography
+   748→* contemporary typography
+   749→* headline characteristics
+   750→* body characteristics
+   751→* letter spacing
+   752→* line height
+   753→* weight
+   754→* case usage
+   755→* decorative lettering
+   756→* recommended typefaces.
+   757→
+   758→Do not imply that a specific font is historically authentic unless the source supports it.
+   759→
+   760→## Shapes
+   761→
+   762→Document:
+   763→
+   764→* geometric shapes
+   765→* organic shapes
+   766→* architectural forms
+   767→* interface shapes
+   768→* object forms
+   769→* silhouettes
+   770→* repeated motifs.
+   771→
+   772→## Materials
+   773→
+   774→Examples:
+   775→
+   776→* wood
+   777→* concrete
+   778→* chrome
+   779→* glass
+   780→* leather
+   781→* velvet
+   782→* paper
+   783→* plastic
+   784→* stone
+   785→* rust
+   786→* fabric
+   787→* ceramic
+   788→* etc.
+   789→
+   790→Record:
+   791→
+   792→* material
+   793→* finish
+   794→* reflectivity
+   795→* roughness
+   796→* texture
+   797→* age
+   798→* perceived temperature
+   799→* perceived weight.
+   800→
+   801→## Textures
+   802→
+   803→Examples:
+   804→
+   805→* grain
+   806→* noise
+   807→* film grain
+   808→* paper fibers
+   809→* scratches
+   810→* rust
+   811→* stone
+   812→* fabric weave
+   813→* CRT scanlines
+   814→* digital artifacts
+   815→* paint
+   816→* brush strokes.
+   817→
+   818→## Lighting
+   819→
+   820→Document:
+   821→
+   822→* direction
+   823→* softness
+   824→* intensity
+   825→* temperature
+   826→* shadow density
+   827→* highlights
+   828→* bloom
+   829→* atmospheric haze
+   830→* reflections
+   831→* practical light
+   832→* ambient light
+   833→* time-of-day associations.
+   834→
+   835→## Photography
+   836→
+   837→Document:
+   838→
+   839→* lens characteristics
+   840→* focal lengths
+   841→* framing
+   842→* camera angle
+   843→* depth of field
+   844→* grain
+   845→* shutter behavior
+   846→* motion blur
+   847→* flash
+   848→* exposure
+   849→* color grading
+   850→* aspect ratios
+   851→* photographic subjects.
+   852→
+   853→## Illustration
+   854→
+   855→Document:
+   856→
+   857→* linework
+   858→* brushwork
+   859→* rendering
+   860→* shading
+   861→* palette
+   862→* anatomy
+   863→* exaggeration
+   864→* composition
+   865→* decorative elements.
+   866→
+   867→## Architecture
+   868→
+   869→Document:
+   870→
+   871→* facades
+   872→* windows
+   873→* doors
+   874→* roofs
+   875→* arches
+   876→* columns
+   877→* structural forms
+   878→* materials
+   879→* ornamentation
+   880→* interiors
+   881→* spatial organization.
+   882→
+   883→## Fashion
+   884→
+   885→Document:
+   886→
+   887→* silhouettes
+   888→* garments
+   889→* fabrics
+   890→* footwear
+   891→* accessories
+   892→* jewelry
+   893→* hairstyles
+   894→* makeup
+   895→* color
+   896→* patterns
+   897→* layering.
+   898→
+   899→## Objects
+   900→
+   901→Document typical:
+   902→
+   903→* furniture
+   904→* technology
+   905→* stationery
+   906→* vehicles
+   907→* tools
+   908→* decorative objects
+   909→* household objects
+   910→* instruments
+   911→* etc.
+   912→
+   913→## Environment
+   914→
+   915→Document:
+   916→
+   917→* rooms
+   918→* streets
+   919→* landscapes
+   920→* buildings
+   921→* cities
+   922→* interiors
+   923→* natural environments
+   924→* weather
+   925→* atmosphere.
+   926→
+   927→## Graphic Design
+   928→
+   929→Document:
+   930→
+   931→* layout
+   932→* grid
+   933→* editorial style
+   934→* poster style
+   935→* iconography
+   936→* illustration
+   937→* typography
+   938→* borders
+   939→* ornamentation
+   940→* interface patterns
+   941→* print techniques.
+   942→
+   943→## UI / UX translation
+   944→
+   945→This is extremely important.
+   946→
+   947→For every aesthetic explain how to translate it into a digital interface:
+   948→
+   949→* page background
+   950→* surface
+   951→* card
+   952→* border
+   953→* shadow
+   954→* typography
+   955→* iconography
+   956→* button style
+   957→* input style
+   958→* navigation
+   959→* spacing
+   960→* grid
+   961→* imagery
+   962→* animation
+   963→* hover behavior
+   964→* transitions
+   965→* cursor behavior
+   966→* loading states
+   967→* empty states
+   968→* error states
+   969→* modal behavior.
+   970→
+   971→Provide an example mini design system for that aesthetic.
+   972→
+   973→---
+   974→
+   975→# 7. EMOTIONAL PROFILE
+   976→
+   977→Every aesthetic should receive an approximate multidimensional emotional profile.
+   978→
+   979→Example:
+   980→
+   981→Warm
+   982→●●●●○
+   983→
+   984→Cold
+   985→●●○○○
+   986→
+   987→Playful
+   988→●●●○○
+   989→
+   990→Serious
+   991→●●●●○
+   992→
+   993→Chaotic
+   994→●●○○○
+   995→
+   996→Ordered
+   997→●●●●○
+   998→
+   999→Nostalgic
+  1000→●●●●●
+  1001→
+  1002→Futuristic
+  1003→●●●○○
+  1004→
+  1005→Organic
+  1006→●●●○○
+  1007→
+  1008→Artificial
+  1009→●●○○○
+  1010→
+  1011→Peaceful
+  1012→●●●●○
+  1013→
+  1014→Ominous
+  1015→●●●○○
+  1016→
+  1017→These values should NOT pretend to be scientifically objective.
+  1018→
+  1019→Label them as interpretive descriptors.
+  1020→
+  1021→---
+  1022→
+  1023→# 8. AESTHETIC DNA
+  1024→
+  1025→Create a compact "Aesthetic DNA" representation.
+  1026→
+  1027→Potential dimensions:
+  1028→
+  1029→* minimal ↔ maximal
+  1030→* organic ↔ geometric
+  1031→* warm ↔ cold
+  1032→* natural ↔ synthetic
+  1033→* analog ↔ digital
+  1034→* historical ↔ futuristic
+  1035→* refined ↔ raw
+  1036→* playful ↔ serious
+  1037→* soft ↔ harsh
+  1038→* quiet ↔ loud
+  1039→* orderly ↔ chaotic
+  1040→* dense ↔ spacious
+  1041→* realistic ↔ surreal
+  1042→* elegant ↔ utilitarian
+  1043→* nostalgic ↔ progressive.
+  1044→
+  1045→Visualize these dimensions interactively.
+  1046→
+  1047→---
+  1048→
+  1049→# 9. VISUAL INGREDIENTS
+  1050→
+  1051→Every aesthetic should have a section:
+  1052→
+  1053→# The Ingredients
+  1054→
+  1055→Example:
+  1056→
+  1057→Dark Academia
+  1058→
+  1059→Color:
+  1060→
+  1061→* brown
+  1062→* cream
+  1063→* black
+  1064→* forest green
+  1065→
+  1066→Material:
+  1067→
+  1068→* wood
+  1069→* leather
+  1070→* brass
+  1071→* paper
+  1072→
+  1073→Objects:
+  1074→
+  1075→* books
+  1076→* lamps
+  1077→* fountain pens
+  1078→* old desks
+  1079→
+  1080→Architecture:
+  1081→
+  1082→* libraries
+  1083→* Gothic buildings
+  1084→* old universities
+  1085→
+  1086→Lighting:
+  1087→
+  1088→* warm
+  1089→* low
+  1090→* directional
+  1091→
+  1092→Texture:
+  1093→
+  1094→* paper
+  1095→* wood grain
+  1096→* aged surfaces
+  1097→
+  1098→Typography:
+  1099→
+  1100→* serif
+  1101→* classical display faces
+  1102→
+  1103→Mood:
+  1104→
+  1105→* intellectual
+  1106→* melancholic
+  1107→* contemplative
+  1108→
+  1109→This must be dynamically generated from structured data.
+  1110→
+  1111→---
+  1112→
+  1113→# 10. VISUAL REFERENCE SYSTEM
+  1114→
+  1115→Do NOT randomly scrape images.
+  1116→
+  1117→Each image must have metadata such as:
+  1118→
+  1119→* title
+  1120→* creator
+  1121→* source
+  1122→* source URL
+  1123→* license
+  1124→* public-domain status
+  1125→* Creative Commons status
+  1126→* attribution requirement
+  1127→* date
+  1128→* geographic context
+  1129→* medium
+  1130→* aesthetic tags
+  1131→* historical context
+  1132→* subject
+  1133→* visual properties.
+  1134→
+  1135→Where licensing is uncertain:
+  1136→
+  1137→DO NOT use the image.
+  1138→
+  1139→Prefer:
+  1140→
+  1141→* public domain
+  1142→* Wikimedia Commons
+  1143→* museum open-access collections
+  1144→* Openverse
+  1145→* appropriately licensed sources
+  1146→* official APIs
+  1147→* user-provided content.
+  1148→
+  1149→Build source attribution into the product.
+  1150→
+  1151→---
+  1152→
+  1153→# 11. IMAGE HANDLING
+  1154→
+  1155→Images must never be treated merely as decorative cards.
+  1156→
+  1157→Every image should potentially communicate:
+  1158→
+  1159→> "This image demonstrates X."
+  1160→
+  1161→For example:
+  1162→
+  1163→"This image demonstrates:
+  1164→
+  1165→* muted earth-tone palette
+  1166→* Gothic architectural forms
+  1167→* directional lighting
+  1168→* aged wood
+  1169→* serif typography
+  1170→* symmetrical composition."
+  1171→
+  1172→Allow users to click an image and see:
+  1173→
+  1174→# WHY THIS IMAGE BELONGS HERE
+  1175→
+  1176→This is one of the defining features of the product.
+  1177→
+  1178→---
+  1179→
+  1180→# 12. AESTHETIC RELATIONSHIP GRAPH
+  1181→
+  1182→Create a graph connecting aesthetics.
+  1183→
+  1184→Relationships may include:
+  1185→
+  1186→* influenced by
+  1187→* evolved from
+  1188→* predecessor
+  1189→* successor
+  1190→* sibling
+  1191→* branch of
+  1192→* subtype of
+  1193→* commonly confused with
+  1194→* hybrid of
+  1195→* reacts against
+  1196→* historically related
+  1197→* geographically related
+  1198→* visually similar
+  1199→* culturally related
+  1200→* technologically related.
+  1201→
+  1202→Example:
+  1203→
+  1204→ART DECO
+  1205→
+  1206→→ Modernism
+  1207→→ Jazz Age
+  1208→→ Geometric design
+  1209→→ Machine Age
+  1210→→ Luxury
+  1211→→ Egyptian Revival influences
+  1212→
+  1213→Visualize these connections.
+  1214→
+  1215→Users should be able to navigate the aesthetic universe through relationships.
+  1216→
+  1217→---
+  1218→
+  1219→# 13. AESTHETIC TIMELINE
+  1220→
+  1221→Every historically relevant aesthetic should have:
+  1222→
+  1223→* origin period
+  1224→* emergence
+  1225→* peak
+  1226→* decline
+  1227→* revival
+  1228→* internet-era adaptation
+  1229→* modern reinterpretation.
+  1230→
+  1231→Build an interactive timeline.
+  1232→
+  1233→Allow users to move through history and see aesthetics appearing, interacting, and evolving.
+  1234→
+  1235→---
+  1236→
+  1237→# 14. AESTHETIC FAMILY TREES
+  1238→
+  1239→Build family hierarchies.
+  1240→
+  1241→Example:
+  1242→
+  1243→GOTH
+  1244→
+  1245→├── Traditional Goth
+  1246→├── Victorian Goth
+  1247→├── Romantic Goth
+  1248→├── Cyber Goth
+  1249→├── Pastel Goth
+  1250→├── Mall Goth
+  1251→├── Nu Goth
+  1252→├── Gothic Lolita
+  1253→└── related hybrids
+  1254→
+  1255→The actual hierarchy must be researched rather than fabricated.
+  1256→
+  1257→---
+  1258→
+  1259→# 15. HYBRID AESTHETIC GENERATOR
+  1260→
+  1261→Create a powerful system allowing users to combine aesthetics.
+  1262→
+  1263→Example:
+  1264→
+  1265→# Japanese Minimalism + Cyberpunk
+  1266→
+  1267→Generate:
+  1268→
+  1269→* color palette
+  1270→* materials
+  1271→* typography
+  1272→* architecture
+  1273→* lighting
+  1274→* UI
+  1275→* fashion
+  1276→* photography
+  1277→* environment
+  1278→* object language.
+  1279→
+  1280→Show:
+  1281→
+  1282→# Shared DNA
+  1283→
+  1284→# Conflicting DNA
+  1285→
+  1286→# Dominant aesthetic
+  1287→
+  1288→# Secondary aesthetic
+  1289→
+  1290→# Suggested synthesis
+  1291→
+  1292→Never claim this is an established historical aesthetic unless evidence exists.
+  1293→
+  1294→Clearly label generated combinations as:
+  1295→
+  1296→# EXPERIMENTAL HYBRID
+  1297→
+  1298→---
+  1299→
+  1300→# 16. AESTHETIC EXPLORER
+  1301→
+  1302→Create a discovery interface where users can explore through dimensions instead of names.
+  1303→
+  1304→Example:
+  1305→
+  1306→"Show me aesthetics that are:
+  1307→
+  1308→* dark
+  1309→* quiet
+  1310→* architectural
+  1311→* historical
+  1312→* elegant
+  1313→* warm."
+  1314→
+  1315→Or:
+  1316→
+  1317→"Show me:
+  1318→
+  1319→* futuristic
+  1320→* optimistic
+  1321→* organic
+  1322→* environmentally conscious
+  1323→* clean."
+  1324→
+  1325→The system returns relevant aesthetics.
+  1326→
+  1327→---
+  1328→
+  1329→# 17. VISUAL SIMILARITY
+  1330→
+  1331→Where technically feasible, implement image-to-aesthetic exploration.
+  1332→
+  1333→User uploads an image.
+  1334→
+  1335→The system analyzes:
+  1336→
+  1337→* dominant palette
+  1338→* contrast
+  1339→* texture
+  1340→* composition
+  1341→* material
+  1342→* architecture
+  1343→* lighting
+  1344→* typography
+  1345→* objects
+  1346→* visual motifs.
+  1347→
+  1348→Then suggests:
+  1349→
+  1350→* matching aesthetics
+  1351→* adjacent aesthetics
+  1352→* conflicting aesthetics
+  1353→* possible hybrids.
+  1354→
+  1355→Do not pretend machine classification is definitive.
+  1356→
+  1357→Use wording like:
+  1358→
+  1359→"Visual matches"
+  1360→
+  1361→rather than:
+  1362→
+  1363→"This image objectively belongs to X."
+  1364→
+  1365→---
+  1366→
+  1367→# 18. SEARCH ENGINE
+  1368→
+  1369→Build excellent search.
+  1370→
+  1371→Support:
+  1372→
+  1373→* aesthetic name
+  1374→* alias
+  1375→* category
+  1376→* era
+  1377→* country/region
+  1378→* material
+  1379→* color
+  1380→* mood
+  1381→* design movement
+  1382→* fashion
+  1383→* architecture
+  1384→* medium
+  1385→* technology
+  1386→* keyword
+  1387→* visual characteristic.
+  1388→
+  1389→Natural-language search examples:
+  1390→
+  1391→"something like Blade Runner but brighter"
+  1392→
+  1393→"warm medieval library"
+  1394→
+  1395→"Japanese futuristic minimalism"
+  1396→
+  1397→"1990s computer interface"
+  1398→
+  1399→"peaceful cosmic aesthetic"
+  1400→
+  1401→"dark but elegant"
+  1402→
+  1403→"nature + technology"
+  1404→
+  1405→The search system should translate natural language into structured aesthetic attributes.
+  1406→
+  1407→---
+  1408→
+  1409→# 19. HOME PAGE
+  1410→
+  1411→The homepage should communicate immediately:
+  1412→
+  1413→> There is an enormous world of aesthetics waiting to be explored.
+  1414→
+  1415→Potential hero:
+  1416→
+  1417→# Explore How Humanity Makes Things Feel
+  1418→
+  1419→Subtitle:
+  1420→
+  1421→> Discover the visual languages, cultural movements, materials, colors, moods, histories, and ideas that shape the world around us.
+  1422→
+  1423→Then:
+  1424→
+  1425→* search
+  1426→* explore dimensions
+  1427→* trending
+  1428→* recently researched
+  1429→* historical timeline
+  1430→* visual playground
+  1431→* random aesthetic
+  1432→* aesthetic families.
+  1433→
+  1434→Avoid overwhelming the user.
+  1435→
+  1436→The homepage should be editorially beautiful and spacious.
+  1437→
+  1438→---
+  1439→
+  1440→# 20. AESTHETIC DETAIL PAGE
+  1441→
+  1442→Every aesthetic should have a premium editorial page.
+  1443→
+  1444→Recommended structure:
+  1445→
+  1446→Hero
+  1447→
+  1448→↓
+  1449→
+  1450→Definition
+  1451→
+  1452→↓
+  1453→
+  1454→Aesthetic DNA
+  1455→
+  1456→↓
+  1457→
+  1458→Visual references
+  1459→
+  1460→↓
+  1461→
+  1462→Color palette
+  1463→
+  1464→↓
+  1465→
+  1466→Typography
+  1467→
+  1468→↓
+  1469→
+  1470→Materials
+  1471→
+  1472→↓
+  1473→
+  1474→Textures
+  1475→
+  1476→↓
+  1477→
+  1478→Shapes
+  1479→
+  1480→↓
+  1481→
+  1482→Lighting
+  1483→
+  1484→↓
+  1485→
+  1486→Photography
+  1487→
+  1488→↓
+  1489→
+  1490→Architecture
+  1491→
+  1492→↓
+  1493→
+  1494→Fashion
+  1495→
+  1496→↓
+  1497→
+  1498→Objects
+  1499→
+  1500→↓
+  1501→
+  1502→Graphic design
+  1503→
+  1504→↓
+  1505→
+  1506→Digital/UI translation
+  1507→
+  1508→↓
+  1509→
+  1510→Emotional profile
+  1511→
+  1512→↓
+  1513→
+  1514→Historical origins
+  1515→
+  1516→↓
+  1517→
+  1518→Cultural context
+  1519→
+  1520→↓
+  1521→
+  1522→Influences
+  1523→
+  1524→↓
+  1525→
+  1526→Related aesthetics
+  1527→
+  1528→↓
+  1529→
+  1530→Timeline
+  1531→
+  1532→↓
+  1533→
+  1534→Family tree
+  1535→
+  1536→↓
+  1537→
+  1538→Examples
+  1539→
+  1540→↓
+  1541→
+  1542→How to recreate it
+  1543→
+  1544→↓
+  1545→
+  1546→Design recipe
+  1547→
+  1548→↓
+  1549→
+  1550→Sources
+  1551→
+  1552→Do NOT force every section onto every aesthetic when irrelevant.
+  1553→
+  1554→Use adaptive sections.
+  1555→
+  1556→---
+  1557→
+  1558→# 21. "RECREATE THIS AESTHETIC" FEATURE
+  1559→
+  1560→Give every aesthetic a practical recipe.
+  1561→
+  1562→For example:
+  1563→
+  1564→# Build a Dark Academia Bedroom
+  1565→
+  1566→Palette:
+  1567→#...
+  1568→
+  1569→Materials:
+  1570→...
+  1571→
+  1572→Lighting:
+  1573→...
+  1574→
+  1575→Furniture:
+  1576→...
+  1577→
+  1578→Objects:
+  1579→...
+  1580→
+  1581→Typography:
+  1582→...
+  1583→
+  1584→Textures:
+  1585→...
+  1586→
+  1587→Music:
+  1588→...
+  1589→
+  1590→Scent associations:
+  1591→...
+  1592→
+  1593→Photography:
+  1594→...
+  1595→
+  1596→Digital translation:
+  1597→...
+  1598→
+  1599→This turns research into practical usefulness.
+  1600→
+  1601→---
+  1602→
+  1603→# 22. DESIGN RECIPE GENERATOR
+  1604→
+  1605→Let users specify:
+  1606→
+  1607→I want this aesthetic for:
+  1608→
+  1609→* website
+  1610→* app
+  1611→* game
+  1612→* bedroom
+  1613→* clothing
+  1614→* album cover
+  1615→* poster
+  1616→* brand
+  1617→* café
+  1618→* restaurant
+  1619→* photography
+  1620→* film
+  1621→* YouTube channel
+  1622→* social profile
+  1623→* product
+  1624→* architecture
+  1625→* event.
+  1626→
+  1627→Then generate an adaptation.
+  1628→
+  1629→Example:
+  1630→
+  1631→# Dark Academia Website
+  1632→
+  1633→Background:
+  1634→...
+  1635→
+  1636→Typography:
+  1637→...
+  1638→
+  1639→Grid:
+  1640→...
+  1641→
+  1642→Buttons:
+  1643→...
+  1644→
+  1645→Imagery:
+  1646→...
+  1647→
+  1648→Motion:
+  1649→...
+  1650→
+  1651→Sound:
+  1652→...
+  1653→
+  1654→Interactions:
+  1655→...
+  1656→
+  1657→This is a very important product feature.
+  1658→
+  1659→---
+  1660→
+  1661→# 23. AESTHETIC COMPARISON
+  1662→
+  1663→Allow side-by-side comparison.
+  1664→
+  1665→Example:
+  1666→
+  1667→Dark Academia
+  1668→vs
+  1669→Light Academia
+  1670→vs
+  1671→Cottagecore
+  1672→vs
+  1673→Gothic.
+  1674→
+  1675→Compare:
+  1676→
+  1677→* palette
+  1678→* materials
+  1679→* mood
+  1680→* typography
+  1681→* architecture
+  1682→* fashion
+  1683→* imagery
+  1684→* history
+  1685→* digital usage
+  1686→* related aesthetics.
+  1687→
+  1688→---
+  1689→
+  1690→# 24. RANDOM DISCOVERY
+  1691→
+  1692→Create:
+  1693→
+  1694→# Surprise Me
+  1695→
+  1696→Generate a random aesthetic.
+  1697→
+  1698→Possible modes:
+  1699→
+  1700→* random
+  1701→* obscure
+  1702→* historical
+  1703→* regional
+  1704→* internet
+  1705→* architectural
+  1706→* fashion
+  1707→* strange
+  1708→* futuristic
+  1709→* forgotten
+  1710→* experimental.
+  1711→
+  1712→---
+  1713→
+  1714→# 25. OBSCURE AESTHETICS
+  1715→
+  1716→One section must specifically surface less-famous aesthetics.
+  1717→
+  1718→The goal is NOT algorithmic popularity alone.
+  1719→
+  1720→Provide discovery such as:
+  1721→
+  1722→"5 aesthetics you probably haven't heard of."
+  1723→
+  1724→The system should reward curiosity.
+  1725→
+  1726→---
+  1727→
+  1728→# 26. AESTHETIC MICROSCOPY
+  1729→
+  1730→Create a feature called:
+  1731→
+  1732→# Zoom Into The Aesthetic
+  1733→
+  1734→Start with:
+  1735→
+  1736→AESTHETIC
+  1737→
+  1738→↓
+  1739→STYLE
+  1740→↓
+  1741→SUBSTYLE
+  1742→↓
+  1743→DETAIL
+  1744→↓
+  1745→MICRO-DETAIL
+  1746→
+  1747→Example:
+  1748→
+  1749→Goth
+  1750→→ Victorian Goth
+  1751→→ Funeral-inspired Victorian Goth
+  1752→→ mourning fashion
+  1753→→ black silk
+  1754→→ jet jewelry
+  1755→→ cameo
+  1756→→ lace
+  1757→→ specific silhouette
+  1758→→ lighting
+  1759→→ photographic treatment.
+  1760→
+  1761→The exact classifications must be evidence-based.
+  1762→
+  1763→---
+  1764→
+  1765→# 27. VISUAL COMPONENT LIBRARY
+  1766→
+  1767→Create reusable component-level tags.
+  1768→
+  1769→For example:
+  1770→
+  1771→## Border
+  1772→
+  1773→* none
+  1774→* hairline
+  1775→* ornate
+  1776→* dashed
+  1777→* industrial
+  1778→* chrome
+  1779→* distressed
+  1780→
+  1781→## Shadow
+  1782→
+  1783→* none
+  1784→* soft
+  1785→* hard
+  1786→* offset
+  1787→* glow
+  1788→* ambient
+  1789→
+  1790→## Corner treatment
+  1791→
+  1792→* square
+  1793→* mildly rounded
+  1794→* pill
+  1795→* ornamental
+  1796→* irregular
+  1797→
+  1798→## Surface
+  1799→
+  1800→* matte
+  1801→* glossy
+  1802→* paper
+  1803→* metallic
+  1804→* glass
+  1805→* grainy
+  1806→* translucent.
+  1807→
+  1808→This allows the aesthetic database to become useful to designers and developers.
+  1809→
+  1810→---
+  1811→
+  1812→# 28. UI AESTHETIC TRANSLATOR
+  1813→
+  1814→A user should be able to choose:
+  1815→
+  1816→# "Turn this aesthetic into a UI system."
+  1817→
+  1818→Generate:
+  1819→
+  1820→* color tokens
+  1821→* typography tokens
+  1822→* spacing tokens
+  1823→* radius
+  1824→* borders
+  1825→* shadows
+  1826→* component shapes
+  1827→* buttons
+  1828→* inputs
+  1829→* cards
+  1830→* navigation
+  1831→* modal
+  1832→* tooltip
+  1833→* badges
+  1834→* progress bars
+  1835→* charts
+  1836→* tables
+  1837→* illustrations
+  1838→* icon style
+  1839→* motion
+  1840→* cursor
+  1841→* hover states.
+  1842→
+  1843→Potential output:
+  1844→
+  1845→```txt
+  1846→--color-bg:
+  1847→--color-surface:
+  1848→--color-text:
+  1849→--color-muted:
+  1850→--color-accent:
+  1851→
+  1852→--font-display:
+  1853→--font-body:
+  1854→
+  1855→--radius-sm:
+  1856→--radius-md:
+  1857→
+  1858→--shadow-sm:
+  1859→
+  1860→--space-1:
+  1861→--space-2:
+  1862→...
+  1863→```
+  1864→
+  1865→Allow exporting the design tokens.
+  1866→
+  1867→---
+  1868→
+  1869→# 29. AESTHETIC → DESIGN SYSTEM EXPORT
+  1870→
+  1871→Allow users to export:
+  1872→
+  1873→* CSS variables
+  1874→* JSON tokens
+  1875→* Tailwind configuration
+  1876→* Figma-style tokens
+  1877→* color palettes
+  1878→* typography recommendations
+  1879→* component specification.
+  1880→
+  1881→This transforms the platform from inspiration website into an actual design tool.
+  1882→
+  1883→---
+  1884→
+  1885→# 30. EDUCATIONAL MODE
+  1886→
+  1887→Every page should optionally have:
+  1888→
+  1889→# Learn This Aesthetic
+  1890→
+  1891→Explain it for different depths:
+  1892→
+  1893→## 30-second overview
+  1894→
+  1895→## 5-minute overview
+  1896→
+  1897→## Deep dive
+  1898→
+  1899→## Research mode
+  1900→
+  1901→Research mode should contain:
+  1902→
+  1903→* sources
+  1904→* citations
+  1905→* historical context
+  1906→* competing interpretations
+  1907→* terminology
+  1908→* related movements.
+  1909→
+  1910→---
+  1911→
+  1912→# 31. SOURCE QUALITY SYSTEM
+  1913→
+  1914→Sources should be categorized.
+  1915→
+  1916→For example:
+  1917→
+  1918→Tier A:
+  1919→
+  1920→* museums
+  1921→* universities
+  1922→* academic publications
+  1923→* official archives
+  1924→* national cultural institutions
+  1925→* primary sources.
+  1926→
+  1927→Tier B:
+  1928→
+  1929→* reputable books
+  1930→* established publications
+  1931→* recognized research organizations.
+  1932→
+  1933→Tier C:
+  1934→
+  1935→* specialist websites
+  1936→* communities
+  1937→* blogs
+  1938→* enthusiast documentation.
+  1939→
+  1940→Tier D:
+  1941→
+  1942→* social media
+  1943→* uncited posts
+  1944→* informal lists.
+  1945→
+  1946→Do not treat all sources equally.
+  1947→
+  1948→---
+  1949→
+  1950→# 32. FACT VS INTERPRETATION
+  1951→
+  1952→Every piece of information should be internally classified:
+  1953→
+  1954→FACT
+  1955→
+  1956→INTERPRETATION
+  1957→
+  1958→COMMUNITY ASSOCIATION
+  1959→
+  1960→CONTEMPORARY INTERNET USAGE
+  1961→
+  1962→EDITORIAL SYNTHESIS
+  1963→
+  1964→AI-GENERATED EXPERIMENT
+  1965→
+  1966→Never mix them silently.
+  1967→
+  1968→---
+  1969→
+  1970→# 33. CULTURAL SENSITIVITY
+  1971→
+  1972→This project will necessarily contain culture, religion, ethnicity, historical movements, fashion, subcultures, indigenous traditions, and regional aesthetics.
+  1973→
+  1974→Do not reduce living cultures to visual stereotypes.
+  1975→
+  1976→Do not call something "an aesthetic" merely because social media labels it that way.
+  1977→
+  1978→Differentiate:
+  1979→
+  1980→* traditional culture
+  1981→* historical movement
+  1982→* commercial style
+  1983→* subculture
+  1984→* internet trend
+  1985→* contemporary reinterpretation.
+  1986→
+  1987→When terminology is contested, surface the ambiguity.
+  1988→
+  1989→---
+  1990→
+  1991→# 34. ACCESSIBILITY
+  1992→
+  1993→The website must support:
+  1994→
+  1995→* keyboard navigation
+  1996→* screen readers
+  1997→* reduced motion
+  1998→* high contrast
+  1999→* alt text
+  2000→* semantic HTML
+
+[showing lines 1-2000 of 3652; use offset=2001 with limit to continue reading]

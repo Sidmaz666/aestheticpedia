@@ -1,0 +1,128 @@
+// Aesthetic Atlas — knowledge graph schema
+// Design notes:
+// - Core identity/classification fields are real columns (searchable, filterable, indexable).
+// - Deep "decomposition" payloads (visual DNA, ingredients, UI translation...) are stored as
+//   JSON strings: they are per-entry rich content, always loaded with the entry, never queried
+//   structurally. This is a documented trade-off for SQLite scale and simplicity.
+// - Relationships form a graph via the Relation join table (typed, bidirectionally resolvable).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Aesthetic {
+  id              String    @id @default(cuid())
+  slug            String    @unique
+  name            String
+  aliases         String    @default("[]") // JSON string[]
+  // classification
+  category        String // primary domain, e.g. "Art Movement", "Internet Aesthetic"
+  subcategory     String    @default("")
+  establishment   String    @default("community")
+  // historical | regional_tradition | community_subculture | commercial_style | internet_aesthetic | experimental_hybrid
+  status          String    @default("draft") // draft | researched | verified | flagged
+  confidence      Int       @default(50) // 0-100 research confidence
+  // geography / history
+  origin          String    @default("")
+  geography       String    @default("")
+  periodStart     String    @default("")
+  periodEnd       String    @default("")
+  startYear       Int? // parsed for timeline (CE)
+  endYear         Int?
+  era             String    @default("")
+  // content
+  summary         String    @default("")
+  description     String    @default("")
+  culturalContext String    @default("")
+  // structured decomposition (JSON strings)
+  visualDNA       String    @default("{}") // {shape,line,composition,texture,forms...}
+  colors          String    @default("[]") // [{hex,name}]
+  typography      String    @default("{}") // {display,body,notes...}
+  materials       String    @default("[]")
+  textures        String    @default("[]")
+  lighting        String    @default("{}")
+  photography     String    @default("{}")
+  architecture    String    @default("{}")
+  fashion         String    @default("{}")
+  objects         String    @default("[]")
+  environment     String    @default("{}")
+  graphicDesign   String    @default("{}")
+  uiTranslation   String    @default("{}")
+  recipe          String    @default("{}") // {materials,lighting,objects,music,scent} — "recreate this aesthetic"
+  emotionProfile  String    @default("{}") // {warm,cold,playful,serious,...} 0-100
+  dnaAxes         String    @default("{}") // {minimal_maximal,organic_geometric,...} 0-100
+  keyExamples     String    @default("[]")
+  sounds          String    @default("[]")
+  sources         String    @default("[]") // [{name,url,tier}] tier A|B|C|D
+  tags            String    @default("[]")
+  // meta
+  popularity      Int       @default(50) // interpretive recognition 0-100
+  isNiche         Boolean   @default(false)
+  dataQuality     String    @default("interpretive")
+  // well_documented | moderately_documented | emerging | interpretive | experimental
+  batchId         String?
+  verifiedAt      DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  relationsFrom Relation[]     @relation("RelFrom")
+  relationsTo   Relation[]     @relation("RelTo")
+  batch         ResearchBatch? @relation(fields: [batchId], references: [id])
+
+  @@index([category])
+  @@index([status])
+  @@index([establishment])
+  @@index([era])
+  @@index([popularity])
+}
+
+model Relation {
+  id     String @id @default(cuid())
+  fromId String
+  toId   String
+  // parent | variant_of | influenced_by | influenced | confused_with | hybrid_of | sibling | related | reacts_against | opposite
+  type   String
+  note   String @default("")
+
+  from Aesthetic @relation("RelFrom", fields: [fromId], references: [id], onDelete: Cascade)
+  to   Aesthetic @relation("RelTo", fields: [toId], references: [id], onDelete: Cascade)
+
+  @@unique([fromId, toId, type])
+  @@index([fromId])
+  @@index([toId])
+}
+
+model ResearchBatch {
+  id         String    @id @default(cuid())
+  domain     String
+  focus      String    @default("")
+  kind       String    @default("discovery") // discovery | expansion | audit
+  status     String    @default("queued") // queued | running | done | failed
+  requested  Int       @default(0)
+  inserted   Int       @default(0)
+  duplicates Int       @default(0)
+  attempts   Int       @default(0)
+  error      String    @default("")
+  createdAt  DateTime  @default(now())
+  finishedAt DateTime?
+  aesthetics Aesthetic[]
+
+  @@index([status])
+}
+
+model BacklogTerm {
+  id        String   @id @default(cuid())
+  name      String
+  context   String   @default("")
+  reason    String   @default("unresolved_reference")
+  status    String   @default("open") // open | resolved
+  createdAt DateTime @default(now())
+
+  @@unique([name])
+  @@index([status])
+}
