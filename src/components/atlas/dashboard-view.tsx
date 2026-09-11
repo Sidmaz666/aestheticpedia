@@ -9,6 +9,7 @@ import {
   Clock,
   FlaskConical,
   Gauge,
+  Globe,
   Layers,
   Loader2,
   Radar,
@@ -78,6 +79,13 @@ function BarList({
 }
 
 const STATUS_ORDER = ['verified', 'researched', 'draft', 'flagged']
+/** Categories where the atlas documents living cultural heritage. */
+const CULTURE_CATEGORIES = [
+  'Regional & Cultural Tradition',
+  'Textile & Craft',
+  'Religious & Sacred Art',
+  'Fashion & Dress',
+]
 const ESTABLISHMENT_LABELS: Record<string, string> = {
   historical: 'Historical movement/style',
   regional_tradition: 'Regional & cultural tradition',
@@ -147,6 +155,9 @@ export function DashboardView() {
   const flagged = statusCount('flagged')
   const underrepresented = stats.byCategory.filter((c) => c.count < 10)
   const topCategories = stats.byCategory.slice(0, 20)
+  const cultureCount = (name: string) => stats.byCategory.find((c) => c.name === name)?.count ?? 0
+  const cultureTotal = CULTURE_CATEGORIES.reduce((sum, name) => sum + cultureCount(name), 0)
+  const topRegions = stats.byRegion.filter((r) => r.name !== 'Other/Global').slice(0, 5)
 
   return (
     <main id="main" className="mx-auto w-full max-w-7xl flex-1 px-4 py-8 sm:py-12">
@@ -229,6 +240,62 @@ export function DashboardView() {
           </p>
         </section>
       </div>
+
+      {/* World cultures coverage */}
+      <section
+        className="mt-6 rounded-xl border border-stone-200 bg-white p-4 sm:p-6"
+        aria-label="World cultures coverage"
+      >
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h3 className="flex items-center gap-2 font-serif text-xl text-stone-900">
+            <Globe className="h-5 w-5 text-[#8a6d3b]" aria-hidden="true" />
+            World cultures coverage
+          </h3>
+          <Badge variant="outline" className="border-stone-300 font-normal">
+            {cultureTotal} entr{cultureTotal === 1 ? 'y' : 'ies'} in living traditions
+          </Badge>
+        </div>
+        <div className="mt-4 grid gap-5 sm:grid-cols-2">
+          <div>
+            <p className="mb-2 text-xs font-medium uppercase tracking-[0.14em] text-stone-500">
+              Cultural tradition categories
+            </p>
+            <ul className="space-y-2">
+              {CULTURE_CATEGORIES.map((name) => {
+                const count = cultureCount(name)
+                return (
+                  <li
+                    key={name}
+                    className="flex items-baseline justify-between gap-2 rounded-lg border border-stone-200 px-3 py-2 text-sm"
+                  >
+                    <span className="min-w-0 truncate text-stone-700">{name}</span>
+                    {count > 0 ? (
+                      <span className="shrink-0 tabular-nums text-stone-500">{count.toLocaleString()}</span>
+                    ) : (
+                      <span className="shrink-0 text-xs italic text-stone-400">not yet documented</span>
+                    )}
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+          <div>
+            <p className="mb-2 text-xs font-medium uppercase tracking-[0.14em] text-stone-500">
+              Most-documented regions
+            </p>
+            {topRegions.length > 0 ? (
+              <BarList items={topRegions} accent />
+            ) : (
+              <p className="text-sm text-stone-500">No regional data yet.</p>
+            )}
+          </div>
+        </div>
+        <p className="mt-3 text-xs leading-relaxed text-stone-500">
+          Regional traditions, textiles, sacred art and dress are where the atlas meets living heritage.
+          Coverage here is still growing — the pipeline keeps queueing research batches for
+          underrepresented cultures until every row can point at real documentation.
+        </p>
+      </section>
 
       {/* Library growth milestone */}
       {audit && (

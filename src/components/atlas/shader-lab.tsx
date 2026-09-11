@@ -6,7 +6,9 @@
  * Each aesthetic's texture vocabulary drives a procedural GLSL material
  * (wood, marble, brushed metal, hammered metal, rust, cloth, velvet,
  * ceramic crackle, leather, gloss plastic, CRT phosphor, water, holographic
- * foil, fur, concrete, terrazzo, ice, paper, glass, neon fog) lit with
+ * foil, fur, concrete, terrazzo, ice, paper, glass, neon fog) plus eight
+ * world-cultural craft materials (batik wax-resist, tie-dye, block print,
+ * zellige tilework, filigree, beadwork, embroidery, marquetry inlay) lit with
  * Blinn-Phong + fresnel and bump-mapped from a per-material height field.
  * Palette, seed and roughness come from the entry's own data — nothing random.
  *
@@ -70,11 +72,15 @@ export type MaterialId =
   | 'wood' | 'marble' | 'brushed' | 'hammered' | 'rust' | 'cloth' | 'velvet'
   | 'ceramic' | 'leather' | 'plastic' | 'crt' | 'water' | 'holo' | 'fur'
   | 'concrete' | 'terrazzo' | 'ice' | 'paper' | 'glass' | 'neon'
+  | 'wax-resist' | 'tie-dye' | 'blockprint' | 'tilework' | 'filigree'
+  | 'beadwork' | 'embroidery' | 'inlay'
 
 export const MATERIAL_ORDER: MaterialId[] = [
   'wood', 'marble', 'brushed', 'hammered', 'rust', 'cloth', 'velvet', 'ceramic',
   'leather', 'plastic', 'crt', 'water', 'holo', 'fur', 'concrete', 'terrazzo',
   'ice', 'paper', 'glass', 'neon',
+  'wax-resist', 'tie-dye', 'blockprint', 'tilework', 'filigree', 'beadwork',
+  'embroidery', 'inlay',
 ]
 
 const MATERIAL_LABELS: Record<MaterialId, string> = {
@@ -83,6 +89,9 @@ const MATERIAL_LABELS: Record<MaterialId, string> = {
   leather: 'Leather', plastic: 'Gloss plastic', crt: 'CRT phosphor', water: 'Water',
   holo: 'Holographic', fur: 'Fur', concrete: 'Concrete', terrazzo: 'Terrazzo',
   ice: 'Ice', paper: 'Paper', glass: 'Glass', neon: 'Neon fog',
+  'wax-resist': 'Wax-resist batik', 'tie-dye': 'Tie-dye', blockprint: 'Block print',
+  tilework: 'Zellige tilework', filigree: 'Filigree', beadwork: 'Beadwork',
+  embroidery: 'Embroidery', inlay: 'Marquetry inlay',
 }
 
 /** Map texture keywords → shader material ids (deterministic, data-driven). */
@@ -112,6 +121,15 @@ export function materialsFor(a: AestheticFull): MaterialId[] {
   add('paper', /paper|parchment|newsprint|kraft|cardboard|washi|fibrous|papyrus/)
   add('glass', /glass|crystal|transparen|translucen|vitrine|mirror/)
   add('neon', /neon|glow|fluoresc|signage|night city|cyber/)
+  // world cultural / craft traditions (appended so existing chip order never regresses)
+  add('wax-resist', /batik|wax[- ]?resist/)
+  add('tie-dye', /tie[ &-]?dye|shibori|bandhani|plangi|tritik/)
+  add('blockprint', /block[ -]?print|woodblock|stamp/)
+  add('tilework', /zellige|girih|azulejo|mosaic|\btile\b|\btiled\b|\btiling\b|\btilework\b/)
+  add('filigree', /filigree|filigran|wirework|twisted wire/)
+  add('beadwork', /bead|seed pearl/)
+  add('embroidery', /embroider|stitch|needlework|kantha|sashiko|phulkari|crewel/)
+  add('inlay', /marquetry|intarsia|inlay|inlaid|parquet|veneer/)
   if (found.length === 0) {
     if (/Texture|Material|Surface/i.test(a.category)) return ['brushed', 'concrete', 'wood', 'marble', 'plastic']
     if (/Internet|Web|Game|Technology/i.test(a.category)) return ['crt', 'plastic', 'holo', 'neon', 'brushed']
@@ -383,14 +401,127 @@ float matHeight(vec2 uv) {
   }
   if (uMaterial == 17) { return fbm(uv * 34.0) * 0.6 + noise(uv * 90.0) * 0.4; } // paper grain
   if (uMaterial == 18) { return 0.5; } // glass — smooth, fresnel carries it
-  return fbm(uv * 3.0 + uTime * 0.07); // 19 neon fog
+  if (uMaterial == 19) return fbm(uv * 3.0 + uTime * 0.07); // neon fog
+  if (uMaterial == 20) { // batik wax-resist: crackle veining + stamped motif
+    vec2 g = uv * 9.0 + vec2(fbm(uv * 3.0), fbm(uv * 3.0 + 7.7)) * 1.6;
+    float cell = 1.0;
+    for (int y = -1; y <= 1; y++) for (int x = -1; x <= 1; x++) {
+      vec2 o = vec2(float(x), float(y));
+      vec2 c = hash2(floor(g) + o);
+      cell = min(cell, length(o + c - fract(g)));
+    }
+    float cracks = 1.0 - smoothstep(0.0, 0.12, cell);
+    vec2 m = uv * 3.0;
+    vec2 mid = floor(m);
+    vec2 mf = fract(m) - 0.5;
+    float pick = hash(mid + uSeed);
+    float circle = 1.0 - smoothstep(0.16, 0.2, length(mf));
+    float diamond = 1.0 - smoothstep(0.14, 0.18, abs(mf.x) + abs(mf.y));
+    float motif = mix(circle, diamond, step(0.5, pick));
+    float stamp = motif * step(0.3, hash(mid * 1.7 + uSeed * 0.13));
+    float h = 0.55 + fbm(uv * 18.0) * 0.12;
+    h = mix(h, 0.2, cracks);
+    h = max(h, stamp * 0.92);
+    return clamp(h, 0.0, 1.0);
+  }
+  if (uMaterial == 21) { // tie-dye: seeded radial bleeds with banding rings
+    float acc = 0.0;
+    for (int k = 0; k < 5; k++) {
+      float fk = float(k);
+      vec2 c = hash2(vec2(fk * 3.71 + 1.3, uSeed * 0.113 + fk * 0.817));
+      vec2 d = uv * 0.5 - c;
+      d -= floor(d + 0.5); // wrap to the nearest repeat so bleeds tile seamlessly
+      float r = length(d);
+      float rings = sin(r * 26.0 + fk * 1.9) * 0.5 + 0.5;
+      acc += exp(-r * 9.0) * (0.4 + 0.6 * rings);
+    }
+    return clamp(acc + fbm(uv * 42.0) * 0.2, 0.0, 1.0);
+  }
+  if (uMaterial == 22) { // blockprint: jittered stamp grid, rough ink edges
+    vec2 g = uv * 4.0;
+    vec2 id = floor(g);
+    vec2 p = fract(g) - 0.5 - (hash2(id + uSeed) - 0.5) * 0.16;
+    float pick = hash(id * 1.31 + uSeed * 0.71);
+    float box = max(abs(p.x), abs(p.y));
+    float dia = abs(p.x) + abs(p.y);
+    float disk = length(p);
+    float shape = box;
+    shape = mix(shape, dia, step(0.34, pick));
+    shape = mix(shape, disk, step(0.67, pick));
+    float rough = (fbm(g * 5.0 + id * 0.37) - 0.5) * 0.12;
+    float stamp = 1.0 - smoothstep(0.28, 0.33, shape + rough);
+    float coverage = 0.62 + fbm(uv * 26.0) * 0.55;
+    return clamp(stamp * coverage, 0.0, 1.0);
+  }
+  if (uMaterial == 23) { // zellige: 8-pointed star tiles, interlaced straps, grout
+    vec2 g = uv * 5.0;
+    vec2 p = fract(g) - 0.5;
+    vec2 pr = vec2(p.x * 0.7071 + p.y * 0.7071, -p.x * 0.7071 + p.y * 0.7071);
+    float star = min(max(abs(p.x), abs(p.y)), max(abs(pr.x), abs(pr.y)));
+    float strap = 1.0 - smoothstep(0.025, 0.055, abs(fract((g.x + g.y) * 0.25) - 0.5) * 2.0);
+    float grout = 1.0 - smoothstep(0.0, 0.045, 0.5 - max(abs(p.x), abs(p.y)));
+    float h = 0.35 + 0.6 * (1.0 - smoothstep(0.18, 0.23, star));
+    h = max(h, strap * 0.85);
+    return clamp(mix(h, 0.05, grout), 0.0, 1.0);
+  }
+  if (uMaterial == 24) { // filigree: two twisted sine threads, phase-shifted pairs
+    float tw = uSeed * 0.05 + 1.1;
+    float a1 = sin(uv.x * 34.0 + sin(uv.y * 13.0 + tw) * 2.2);
+    float a2 = sin(uv.x * 34.0 + sin(uv.y * 13.0 + tw + 3.1416) * 2.2 + 3.1416);
+    float b1 = sin(uv.y * 34.0 + sin(uv.x * 13.0 + tw + 0.9) * 2.2);
+    float b2 = sin(uv.y * 34.0 + sin(uv.x * 13.0 + tw + 0.9 + 3.1416) * 2.2 + 3.1416);
+    float rope = max(max(a1, a2), max(b1, b2) * 0.9);
+    return clamp(rope * 0.45 + 0.5 + fbm(uv * 44.0) * 0.12, 0.0, 1.0);
+  }
+  if (uMaterial == 25) { // beadwork: packed bead domes over dark ground
+    vec2 g = uv * 22.0;
+    vec2 id = floor(g);
+    vec2 p = fract(g) - 0.5 - (hash2(id + uSeed) - 0.5) * 0.12;
+    float d = length(p) / 0.32;
+    float dome = sqrt(max(0.0, 1.0 - d * d));
+    return clamp(dome + hash(id * 2.9 + uSeed) * 0.05, 0.0, 1.0);
+  }
+  if (uMaterial == 26) { // embroidery: satin-stitch bands with stitch-row wave
+    float row = uv.y * 6.0;
+    float bandId = floor(row);
+    float fRow = fract(row);
+    float ang = hash(vec2(bandId, uSeed)) * 3.1416;
+    float freq = 46.0 + hash(vec2(bandId + 7.3, uSeed)) * 34.0;
+    float wave = sin(uv.x * 7.0 + bandId * 1.7) * 0.05;
+    float phase = (uv.x + wave * 3.0) * cos(ang) + (fRow - 0.5) * sin(ang) * 6.0;
+    float threads = sin(phase * freq) * 0.5 + 0.5;
+    float band = smoothstep(0.5, 0.4, abs(fRow - 0.5) + abs(wave));
+    return clamp(threads * band + fbm(uv * 30.0) * 0.08, 0.0, 1.0);
+  }
+  if (uMaterial == 27) { // marquetry: veneer bands, stringing, diamond inlays
+    float warp = fbm(uv * 2.4) * 0.6;
+    float s = (uv.x + uv.y + warp) * 1.4;
+    float fs = fract(s);
+    float stringing = 1.0 - smoothstep(0.012, 0.032, min(fs, 1.0 - fs));
+    vec2 g = uv * 3.0;
+    vec2 id = floor(g);
+    vec2 p = fract(g) - 0.5;
+    float diamond = (1.0 - smoothstep(0.13, 0.17, abs(p.x) + abs(p.y))) * step(0.72, hash(id + uSeed));
+    float bandH = 0.45 + hash(vec2(floor(s), 1.7)) * 0.35;
+    float h = max(bandH, stringing * 0.95);
+    h = mix(h, 0.22, diamond);
+    return clamp(h + fbm(uv * 24.0) * 0.06, 0.0, 1.0);
+  }
+  return fbm(uv * 3.0 + uTime * 0.07);
 }
 
 float bumpScaleFor() {
   if (uMaterial == 9 || uMaterial == 18) return 0.0;
   if (uMaterial == 10) return 0.05;
+  if (uMaterial == 21) return 0.08;
+  if (uMaterial == 22) return 0.1;
   if (uMaterial == 5) return 0.12;
+  if (uMaterial == 27) return 0.14;
   if (uMaterial == 0) return 0.16;
+  if (uMaterial == 20) return 0.18;
+  if (uMaterial == 26) return 0.24;
+  if (uMaterial == 24) return 0.26;
+  if (uMaterial == 25) return 0.3;
   return 0.22;
 }
 
@@ -481,6 +612,68 @@ void matSurface(out vec3 albedo, out float spec, out float shin, out float metal
   } else if (uMaterial == 18) {
     albedo = mix(uColors[0], uColors[1], 0.4);
     spec = 1.2; shin = 160.0;
+  } else if (uMaterial == 20) {
+    float h = matHeight(uv0());
+    albedo = mix(uColors[1], uColors[2], fbm(uv0() * 2.2) * 0.75);
+    albedo = mix(albedo, uColors[0], smoothstep(0.8, 0.95, h)); // wax-reserved motif stays pale
+    albedo = mix(albedo, uColors[4], (1.0 - smoothstep(0.2, 0.42, h)) * 0.85); // dye-dark crack veins
+    spec = 0.45; shin = 42.0;
+  } else if (uMaterial == 21) {
+    float h = matHeight(uv0());
+    albedo = mix(uColors[0], uColors[1], smoothstep(0.12, 0.62, h));
+    albedo = mix(albedo, uColors[2], smoothstep(0.55, 0.95, h) * 0.85);
+    albedo = mix(albedo, uColors[0], smoothstep(0.35, 0.65, fbm(uv0() * 38.0)) * 0.22);
+    spec = 0.08; shin = 8.0;
+  } else if (uMaterial == 22) {
+    float h = matHeight(uv0());
+    albedo = mix(uColors[0], uColors[3], smoothstep(0.25, 0.85, h));
+    albedo = mix(albedo, uColors[4], smoothstep(0.85, 1.0, h) * 0.7);
+    spec = 0.06; shin = 6.0;
+  } else if (uMaterial == 23) {
+    vec2 q = uv0() * 5.0;
+    vec2 id = floor(q);
+    vec2 p = fract(q) - 0.5;
+    vec2 pr = vec2(p.x * 0.7071 + p.y * 0.7071, -p.x * 0.7071 + p.y * 0.7071);
+    float star = min(max(abs(p.x), abs(p.y)), max(abs(pr.x), abs(pr.y)));
+    float grout = 1.0 - smoothstep(0.0, 0.045, 0.5 - max(abs(p.x), abs(p.y)));
+    albedo = mix(uColors[1], uColors[2], hash(id + uSeed)); // per-tile hue variation
+    albedo = mix(uColors[0], albedo, step(0.5, hash(id * 2.3 + uSeed)));
+    albedo = mix(albedo, uColors[3], (1.0 - smoothstep(0.18, 0.23, star)) * 0.55);
+    albedo = mix(albedo, uColors[4], grout);
+    spec = 0.65; shin = 76.0;
+  } else if (uMaterial == 24) {
+    albedo = mix(uColors[1], uColors[0], matHeight(uv0()) * 0.55);
+    spec = 1.1; shin = 120.0; metal = 0.95;
+  } else if (uMaterial == 25) {
+    vec2 id = floor(uv0() * 22.0);
+    float pick = hash(id + uSeed);
+    vec3 beadCol = mix(uColors[1], uColors[2], step(0.34, pick));
+    beadCol = mix(beadCol, uColors[3], step(0.67, pick));
+    beadCol *= 0.88 + hash(id * 2.9 + uSeed) * 0.24;
+    albedo = mix(uColors[4] * 0.55, beadCol, smoothstep(0.02, 0.3, matHeight(uv0())));
+    spec = 0.85; shin = 90.0;
+  } else if (uMaterial == 26) {
+    float h = matHeight(uv0());
+    albedo = mix(uColors[0], uColors[1], smoothstep(0.12, 0.45, h));
+    albedo = mix(albedo, uColors[2], smoothstep(0.55, 0.95, h) * 0.7);
+    spec = 0.5; shin = 26.0;
+  } else if (uMaterial == 27) {
+    vec2 q = uv0();
+    float warp = fbm(q * 2.4) * 0.6;
+    float s = (q.x + q.y + warp) * 1.4;
+    float fs = fract(s);
+    float stringing = 1.0 - smoothstep(0.012, 0.032, min(fs, 1.0 - fs));
+    vec2 g = q * 3.0;
+    vec2 id = floor(g);
+    vec2 p = fract(g) - 0.5;
+    float diamond = (1.0 - smoothstep(0.13, 0.17, abs(p.x) + abs(p.y))) * step(0.72, hash(id + uSeed));
+    vec3 woodA = mix(uColors[1], uColors[2], 0.45);
+    vec3 woodB = mix(uColors[2], uColors[3], 0.55);
+    albedo = mix(woodA, woodB, hash(vec2(floor(s), 1.7)));
+    albedo = mix(albedo, uColors[3], diamond * 0.85);
+    albedo = mix(albedo, uColors[0], stringing * 0.75);
+    spec = mix(0.18, 0.9, stringing); // matte veneer, sheen on the stringing
+    shin = mix(16.0, 80.0, stringing);
   } else {
     float glow = matHeight(uv0());
     albedo = mix(uColors[0], uColors[1], glow);
@@ -529,6 +722,10 @@ void main() {
   float fres = pow(1.0 - abs(dot(N, V)), 3.2);
   vec3 col = albedo * (0.34 + dif * 0.95 + dif2) + vec3(sp) * lightTint();
   if (uMaterial == 6) col += albedo * pow(1.0 - abs(dot(N, V)), 1.6) * 0.55; // velvet sheen
+  if (uMaterial == 26) { // embroidery: anisotropic thread sheen along the stitch rows
+    float sheen = pow(abs(sin(vUv.y * 37.7 + vUv.x * 1.4 + uSeed * 0.1)), 16.0);
+    col += albedo * sheen * (0.3 + dif * 0.4);
+  }
   col += fres * fresnelTint() * (0.28 + metal * 0.6);
   col += albedo * emissive;
   col = pow(clamp(col, 0.0, 1.4), vec3(0.92));
@@ -750,6 +947,23 @@ export function ShaderLab({ a, className }: ShaderLabProps) {
     }
     st.raf = requestAnimationFrame(render)
 
+    // Pause the render loop while the canvas is scrolled out of view (the
+    // detail sheet is long) — saves battery/GPU on low-end devices, resumes
+    // instantly when the material lab scrolls back in.
+    let inView = true
+    const io = new IntersectionObserver((entries) => {
+      const visible = entries.some((en) => en.isIntersecting)
+      if (visible && !inView && st.raf === 0) {
+        inView = true
+        st.raf = requestAnimationFrame(render)
+      } else if (!visible && inView) {
+        inView = false
+        cancelAnimationFrame(st.raf)
+        st.raf = 0
+      }
+    })
+    io.observe(canvas)
+
     const down = (e: PointerEvent) => {
       st.dragging = true
       st.lastX = e.clientX; st.lastY = e.clientY
@@ -775,6 +989,7 @@ export function ShaderLab({ a, className }: ShaderLabProps) {
 
     return () => {
       cancelAnimationFrame(st.raf)
+      io.disconnect()
       ro.disconnect()
       canvas.removeEventListener('pointerdown', down)
       canvas.removeEventListener('pointermove', move)

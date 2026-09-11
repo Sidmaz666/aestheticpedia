@@ -60,6 +60,11 @@ model Aesthetic {
   sounds          String    @default("[]")
   sources         String    @default("[]") // [{name,url,tier}] tier A|B|C|D
   images          String    @default("[]") // [{url,caption,source,width,height}] fetched via image search
+  // "Where to see / watch / read / use it" — always-resolving deep links:
+  // [{type: article|video|museum|exhibition|web|archive|scholar|images, title, url, note}]
+  references      String    @default("[]")
+  // Real typeface pairing for demos: {display, body, notes, displayFont, bodyFont}
+  typePairing     String    @default("{}")
   tags            String    @default("[]")
   // meta
   popularity      Int       @default(50) // interpretive recognition 0-100

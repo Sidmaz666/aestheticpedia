@@ -176,7 +176,9 @@ async function pass(): Promise<number> {
     if (success) ok++
     else failed.add(entry.id)
     // Gentle pacing; image search probes + rehosts are expensive upstream.
-    await sleep(1500)
+    // 9s gap keeps the shared API quota healthy so the LLM discovery worker
+    // (research/enrich/verify) is never starved — images fill in steadily.
+    await sleep(9000)
   }
   log(`Pass complete: ${ok}/${processed} entries illustrated`)
   return processed
@@ -196,7 +198,7 @@ const cmd = process.argv[2] ?? 'worker'
             log('nothing left to illustrate; idle 120s')
             await sleep(120_000)
           } else {
-            await sleep(3000)
+            await sleep(15000)
           }
         } catch (e: any) {
           // Never let a transient failure kill the loop.

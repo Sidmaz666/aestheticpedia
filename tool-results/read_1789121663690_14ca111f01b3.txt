@@ -1,0 +1,219 @@
+     1→     1→# Aesthetic Atlas — Shared Worklog
+     2→     2→
+     3→     3→Single source of truth for all agents working on this project.
+     4→     4→Each agent MUST read this file before starting and append its section after finishing.
+     5→     5→
+     6→     6→Project: Next.js 16 + TS + Tailwind 4 + shadcn/ui + Prisma (SQLite) at /home/z/my-project.
+     7→     7→Goal: AESTHETIC ATLAS — a living, searchable encyclopedia of human aesthetics with a
+     8→     8→research pipeline targeting thousands of genuinely documented entries, a coverage
+     9→     9→dashboard, backlog queue, and full per-aesthetic decomposition (visual DNA, palette,
+    10→    10→typography, materials, relationships, sources).
+    11→    11→
+    12→    12→---
+    13→    13→Task ID: 1
+    14→    14→Agent: lead (orchestrator)
+    15→    15→Task: Project setup — schema, DB, worklog, pipeline architecture.
+    16→    16→
+    17→    17→Work Log:
+    18→    18→- Read master prompt (upload/Pasted Content_1789091863087.txt, 3652 lines).
+    19→    19→- Replaced prisma/schema.prisma with Aesthetic Atlas knowledge-graph schema:
+    20→    20→  Aesthetic (identity + decomposition JSON payloads), Relation (typed graph edges),
+    21→    21→  ResearchBatch (discovery/expansion/audit queue), BacklogTerm (unresolved references backlog).
+    22→    22→- Pending: db push, curated seed, LLM research pipeline, frontend build.
+    23→    23→
+    24→    24→Stage Summary:
+    25→    25→- Schema contract (see prisma/schema.prisma) is the source of truth for all agents.
+    26→    26→- Status enum: draft | researched | verified | flagged.
+    27→    27→- Establishment enum: historical | regional_tradition | community_subculture | commercial_style | internet_aesthetic | experimental_hybrid.
+    28→    28→
+    29→    29→---
+    30→    30→Task ID: 1 (continued)
+    31→    31→Agent: lead (orchestrator)
+    32→    32→Task: Research pipeline implementation + launch.
+    33→    33→
+    34→    34→Work Log:
+    35→    35→- Built scripts/research/{lib,domains,curated-seed,run}.ts.
+    36→    36→- Curated seed: 56 hand-verified flagship entries (status=verified, well_documented) across all major categories.
+    37→    37→- Domain queue: 270 discovery batches across 32 canonical categories (art, architecture, interiors, fashion, subcultures, internet aesthetics, web/UI, games, film, photography, illustration, animation, music, literature, regional traditions, religious art, historical periods, retrofuturism, sci-fi, nature, materials, color/light, mood, food, performance, sports, transport, micro-aesthetics, hybrids).
+    38→    38→- Pipeline: LLM discovery batches -> validate -> dedupe (normalized name + alias + containment) -> insert (status=draft) -> relation linking (influenced_by/related) -> unresolved names go to BacklogTerm. Then audit (LLM gap analysis -> new batches), enrichment (deep decomposition: visualDNA/typography/lighting/photography/architecture/fashion/environment/graphicDesign/ui/recipe; draft->researched), verification (fact-check pass; researched->verified|flagged).
+    39→    39→- Hardening: JSON repair parser salvages complete entries from truncated LLM responses; global rate-limit throttle (3.5s gap + 429 backoff); concurrency 2; batch size 8; SQLite single-connection writer.
+    40→    40→- Worker launched in background (nohup), logs to /home/z/my-project/pipeline.log.
+    41→    41→
+    42→    42→Stage Summary:
+    43→    43→- DB schema final. DO NOT modify prisma/schema.prisma without lead approval.
+    44→    44→- Pipeline runs autonomously; entries stream in continuously (draft -> researched -> verified).
+    45→    45→- CLI: bun scripts/research/run.ts {curated|queue|worker|enrich|verify|audit|stats}.
+    46→    46→
+    47→    47→---
+    48→    48→Task ID: 2
+    49→    49→Agent: full-stack-developer
+    50→    50→Task: API routes + frontend SPA for Aesthetic Atlas
+    51→    51→
+    52→    52→Work Log:
+    53→    53→- Implemented 10 API route handlers under src/app/api/: aesthetics (list+facets), aesthetics/[slug] (detail+relations), stats, random, explore, compare, hybrid (backend LLM via z-ai-web-dev-sdk), timeline, pipeline (GET status + POST audit trigger), suggest.
+    54→    54→- Built src/lib/aesthetic.ts: shared types (AestheticSummary/AestheticFull/StatsResponse/...), defensive JSON parsing, region mapping, filters serialization (610 lines).
+    55→    55→- Built src/components/atlas/: header (search + suggest dropdown + tabs), hero (editorial intro + live count), atlas-view (filter sidebar + card grid + pagination), filter-panel, aesthetic-card, palette-strip, detail-sheet (full decomposition: DNA bars, emotion radar, ingredients, UI translation, recipe, relationships, sources with tiers, export menu), dna (DnaBars/EmotionRadar/EmotionBars), explorer-view (15 dimension sliders + presets + distance-scored results), timeline-view (era bands), bits, api hooks (react-query).
+    56→    56→- Wired Providers (QueryClient + sonner toaster) into layout.tsx with full metadata.
+    57→    57→- NOTE: agent run hit the context deadline before page.tsx wiring, lab-view and dashboard-view; lead completed them (see Task 3).
+    58→    58→
+    59→    59→Stage Summary:
+    60→    60→- All 10 endpoints return the contracted shapes; detail sheet resolves typed relations both directions.
+    61→    61→- Design system: warm paper (#faf8f4), stone ink, bronze accent (#8a6d3b), serif display headings, hairline borders, thin scrollbars (scrollbar-thin utility).
+    62→    62→
+    63→    63→---
+    64→    64→Task ID: 3
+    65→    65→Agent: lead (orchestrator)
+    66→    66→Task: Complete missing views, integrate, harden pipeline, verify end-to-end.
+    67→    67→
+    68→    68→Work Log:
+    69→    69→- Completed src/app/page.tsx wiring (header + hero + 5 views + sticky footer + detail sheet state + scroll-reset on view change).
+    70→    70→- Built src/components/atlas/lab-view.tsx (dual aesthetic pickers with suggestions, hybrid generation with EXPERIMENTAL labeling, parent links) and dashboard-view.tsx (stat cards, category/establishment/era/region bars, documentation quality, research pipeline panel with recent batches table + queue list, underrepresented areas, research funnel, Trigger gap audit button).
+    71→    71→- Fixed: Tailwind arbitrary-variant CSS that broke globals compile; DialogTitle a11y warning (sr-only title); header effect lint (render-time adjustment pattern); timeline BCE formatting + initial scroll to dense eras; emotion radar label clipping (expanded viewBox).
+    72→    72→- Pipeline hardening: JSON repair parser salvages entries from truncated LLM responses (critical — API caps output ~14KB); global throttle + 429 backoff; audit batches now embed category ("Category: domain") so gap-audit entries are classified correctly; manual audit POST creates targeted batches for the 5 least-covered categories.
+    73→    73→- Verified via Agent Browser: home, atlas grid + facets + pagination, search + suggestions + enter-to-search, detail sheet (palette, DNA, emotions, relationships across curated+pipeline entries, tiered sources, confidence), explorer presets → scored results, timeline, lab hybrid (Dark Academia + Ukiyo-e → "Edo Scholar's Gloom", properly labeled), dashboard (live counts, pipeline table, audit trigger), mobile 390px layout, sticky footer, no console errors.
+    74→    74→
+    75→    75→Stage Summary:
+    76→    76→- App fully verified in browser at / (desktop + mobile). Lint clean.
+    77→    77→- Pipeline: 270 discovery batches + auto gap-audit + backlog loop running in background; entries stream in continuously (draft → researched → verified). Live totals visible on the dashboard.
+    78→    78→
+    79→    79→---
+    80→    80→Task ID: 4
+    81→    81→Agent: lead (orchestrator)
+    82→    82→Task: Continuous growth optimization + final verification.
+    83→    83→
+    84→    84→Work Log:
+    85→    85→- Interleaved pipeline phases (discovery waves of 30 batches → enrich 60 → verify 120, loop) so the draft→researched→verified funnel progresses continuously instead of waiting for full discovery.
+    86→    86→- Raised LLM concurrency to 3 with throttle protection (~600-700 entries/hour observed).
+    87→    87→- Manual "Trigger gap audit" now creates targeted expansion batches for the 5 least-covered categories.
+    88→    88→- Final Agent Browser pass: home renders live count (248), featured cards include newest pipeline entries (Forbidden City Architecture, Prairie School, High Gothic...); lint clean; no console errors.
+    89→    89→
+    90→    90→Stage Summary:
+    91→    91→- AT RUNTIME SNAPSHOT: 248+ entries (56 verified curated, 192 draft growing), 314 relations, 40/274 batches complete, 234 queued, backlog 743+ open reference terms feeding future rounds.
+    92→    92→- The system is autonomous: worker keeps researching, auditing gaps, enriching, verifying, indefinitely. The dashboard reports live, honest numbers.
+    93→    93→
+    94→    94→---
+    95→    95→Task ID: 5
+    96→    96→Agent: lead (orchestrator)
+    97→    97→Task: Visual completeness overhaul — images, live web-component demos, textures/effects/drawing/painting research expansion, enrichment of all shallow entries.
+    98→    98→
+    99→    99→Work Log:
+   100→   100→- Audited DB: 317 entries but ~276 drafts missing visualDNA/typography/lighting/architecture/fashion/environment/graphicDesign/uiTranslation/recipe; ALL 317 missing sounds; 0 images anywhere. Confirmed user complaint "the core is missing".
+   101→   101→- Schema: added `images` JSON column (url/caption/source/width/height) to Aesthetic; db push + client regen; restarted dev server (old client cached the schema).
+   102→   102→- Research expansion: appended 51 domain batches in scripts/research/domains.ts — new categories "Texture & Material Study" (11 batches: wood/stone/metal/textile/leather/glass/paper/plastics/organic/wear-patina/architectural surfaces), "Visual Effects & Phenomena" (10: painting light effects, natural phenomena, lens, analog film, VHS/CRT, print reproduction, digital artifacts, weather, material light interaction, stage lighting), "Drawing & Line Work" (10: pen+ink, East Asian brush, comics/manga, scientific/technical, observational, folk/vernacular, ornament systems, digital line, fashion sketching, caricature), "Painting Technique & School" (12: oil/water-based/fresco/miniature schools/Indian folk/sacred/East Asian/encaustic/modernist/decorative/plein-air/face+body), plus Color & Light (4) and Material & Surface (4) expansions. Queued all 50 with backdated createdAt so they are claimed FIRST (268 total queued).
+   103→   103→- Enrichment rewrite: batched 8 entries per LLM call (~8x fewer requests), added `snd` sonic-identity field to enrich prompt + merge, skip-set prevents infinite retry loops, extended target set to verified/researched entries missing deep fields (flagships like Art Nouveau/Vaporwave were never enriched) without demoting their status.
+   104→   104→- Rate-limit hardening: MIN_GAP_MS 3.5s→6s, 429 backoff 15s→20-60s capped, worker concurrency 3→2, worker loop reordered ENRICH → VERIFY → DISCOVER so most-visible pages gain depth first.
+   105→   105→- New image worker scripts/research/images.ts: `z-ai image-search` CLI per entry (category-aware natural-language queries, --gl us --no-rank), stores 6 real OSS-hosted example images per entry, ordering verified→researched→draft by popularity, crash-proof loop, ~15s/entry. 43+ entries illustrated and climbing.
+   106→   106→- Frontend: new src/components/atlas/style-demo.tsx — VisualGallery (real image grid + lightbox + source badges + lazy fallback), StyleDemo (LIVE web component re-rendering each aesthetic from its own palette/typography/texture/lighting/motion data: browser-window template for web/internet categories, magazine cover for fashion/subculture, editorial plate for architecture/interior, gallery frame for art — all deterministic), TextureSwatches (CSS-rendered texture pattern chips), PendingNotice (honest "decomposition queued" state). Keyframes aa-float/aa-flicker in globals.css with reduced-motion guard.
+   107→   107→- Wiring: lib/aesthetic.ts ImageEntry type + asImageArray + summary.image; detail sheet renders PendingNotice → VisualGallery → StyleDemo above DNA, texture swatches inside ingredients, recipe music/scent moved into UI blueprint; aesthetic-card shows image thumbnails with palette-strip fallback.
+   108→   108→- Verified in browser: home, search→detail (Art Nouveau: 6 sourced images w/ EBAY/ART&OBJECT/REDDIT badges, live gallery demo in gold Art-Nouveau palette; Frutiger Aero: web template with browser chrome, tag nav, Vista/iOS/Wii cards, gloss textures), Romanticism fully decomposed, texture swatches, dashboard live counters, mobile 390px, sticky footer, zero console errors, lint clean.
+   109→   109→
+   110→   110→Stage Summary:
+   111→   111→- The "missing core" is fixed at the system level: enrichment-first pipeline fills every shallow entry (276 queued, ~8/2min and accelerating), image worker attaches real examples continuously, 50 priority batches push textures/effects/line-work/painting coverage.
+   112→   112→- New data columns: Aesthetic.images. New CLI: bun scripts/research/images.ts {worker|once}.
+   113→   113→- Worklog note for future agents: images column is populated by the image worker only; enrich() no longer downgrades verified entries; discovery/enrich/verify phases are ordered enrich-first in the worker loop.
+   114→   114→
+   115→   115→---
+   116→   116→Task ID: 6 (pipeline wave)
+   117→   117→Agent: lead (orchestrator)
+   118→   118→Task: Scale queue toward 5,000+ entries + no-missing-data policy + continuous expansion loop.
+   119→   119→
+   120→   120→Work Log:
+   121→   121→- Wrote scripts/research/domains-expanded.ts: 377 new discovery batch specs (wave 1: 268 domain-deepening specs; wave 2: 109 more incl. castle/himalayan/colonial architecture, raw materials, metalpoint/charcoal/printmaking line work, cave painting, inscriptional lettering, VTuber/AI-era/XP-nostalgia internet aesthetics, vinyl/cassette packaging, regional music visuals, Slavic/Baltic/Celtic/Jewish folk arts, atomic kitsch, farm machinery, restroom/office/lighting design eras). Every focus names real documented clusters.
+   122→   122→- run.ts createQueue now merges domains.ts + domains-expanded.ts: 698 total specs, 378 new batches queued (queue path to ~5,400+ entries).
+   123→   123→- Added fillGaps(): LLM completion pass for entries missing colors/period/origin/textures/objects/materials/era/keyExamples; wired as worker step 0 ("no missing data" policy).
+   124→   124→- Worker audit loop changed: previously gated by totalBatches<600 (would never fire again); now fires whenever queued<30 with backlog-term hints injected into the audit prompt -> continuous expansion forever.
+   125→   125→- Restarted worker (pid 21210).
+   126→   126→
+   127→   127→Stage Summary:
+   128→   128→- Queue: 698 specs (378 newly queued). Worker loop: gap-fill -> enrich -> verify -> discover(24) -> audit-on-low-queue.
+   129→   129→- CLI additions: bun scripts/research/run.ts fill-gaps N.
+   130→   130→
+   131→   131→---
+   132→   132→Task ID: 7-a
+   133→   133→Agent: full-stack-developer
+   134→   134→Task: Rebuild style-demo.tsx into a professional 12-template tabbed demo suite (fix "broken/generic" demo complaints + palette fallback).
+   135→   135→
+   136→   136→Work Log:
+   137→   137→- Kept public contract exactly: StyleDemo({ a: AestheticFull }), TextureSwatches({ textures, colors }), VisualGallery({ images, name }), PendingNotice({ a }); design language preserved (warm paper, serif headings, hairline rgba(ink,0.18) borders, #8a6d3b bronze, shadowFor/motion badges, deterministic rendering — no Math.random, no Date.now).
+   138→   138→- PALETTE FALLBACK: added 22 keyword-matched category palette presets (web/UI teal, internet vivid magenta, games dark+amber, tech orange, fashion ivory/black/gold, architecture stone/slate/brass, textile warm earth, music crimson, subculture red, interior terracotta, furniture walnut, material copper, sacred gold/red, drawing sanguine, painting ochre, VFX luminous teal, film amber, sci-fi gold/teal, art-movement paper/bronze, regional madder/gold, typography vermillion, atlas default). derivePalette(colors, context) now takes a context string (category+subcategory; textures for swatches) and returns fromPreset label; when <2 valid hex colors the preset is used and the demo footer labels it "suggested palette (group) — research in progress".
+   139→   139→- StyleDemo is now a TABBED SUITE: role=tablist/tab/tabpanel, aria-selected/aria-controls/aria-labelledby, ArrowLeft/ArrowRight roving focus, horizontally scrollable bronze-active tab bar (Auto ★, Web, Cover, Plate, Gallery, Poster, UI kit, Pattern, Type, Line art, Painting, 3D material). Header keeps "Live style demo" + explanation; badge shows "Auto → {template}"; footer names the active template.
+   140→   140→- autoTemplateFor(): keyword rules map category→template exactly per spec (web/cover/plate families, VFX→shader, drawing→lineart, painting→painting, typography→type, textile/regional→pattern, religious→gallery, everything else→gallery).
+   141→   141→- NEW templates: PosterDemo (huge display type, date line from period/era with honest "to be announced — research in progress" fallback, venue from origin/geography, tag chips, big accent block, ticket+barcode, frame radius driven by visualDNA.line: whiplash→rounded/organic, angular→sharp); UIKitDemo (palette-dot toolbar, primary/ghost buttons, input with placeholder from tags/objects, toggle, maximalism progress meter, 2 example cards, badge row, styling microcopy); PatternDemo (6 seamless 40×40 SVG-tile motifs — ikat→zigzag, velvet→dots, wood→stripes, lattice/quilt→diamonds, damask/whiplash→arabesque, floral→floral, hash fallback — shown at 1×/2×/4× + applied-surface band via data-URL background-size scaling); TypeSpecimenDemo (giant Aa in display font, stack label, A-Z/a-z/0-9 rows, pangram, typography display/body/notes annotations with "— research in progress", weight/tracking/case chips); LineArtDemo (pure SVG seeded by hashStr, motif family from visualDNA.line keywords: botanical stem+leaves / geometric star+lattice / gestural curves, line weight from line text, hatching density from minimal_maximal + dense_spacious axes, plate frame + caption); PaintingDemo (2D canvas in useEffect, seeded Lehmer LCG — 26-96 strokes from maximalism, impasto/body/wash softness from texture keywords, jitter from orderly_chaotic, gallery-mat frame, aria-labeled, deterministic across renders); shader tab renders <ShaderLab a={a}/> untouched.
+   142→   142→- Extracted shared Barcode (cover + poster); kept BrowserDemo/MagazineDemo/PlateDemo/GalleryDemo visually as-is. Every template renders meaningful content from name/summary/tags/category even when decomposition is empty.
+   143→   143→- Verified in browser: 12 tabs render for verified (Prairie School: plate auto, geometric line art 16 paths/2 polys/9 dots, canvas painted, WebGL wood-grain shader) and draft/sparse entries (Miami Modernism: 1 color → architecture preset + honest footer label; poster shows era dates/venue/tags). Arrow-key tab nav works; 390px mobile has no overflow; zero console/page errors.
+   144→   144→- Quality gates: bun run lint → 0 errors; tsc --noEmit → 0 errors in style-demo.tsx / shader-lab.tsx (remaining project-wide errors are the pre-existing baseline in unrelated files). No other file modified; shader-lab.tsx untouched.
+   145→   145→
+   146→   146→Stage Summary:
+   147→   147→- Detail sheet now ships a 12-lens demo suite: every entry gets category-mapped auto template + 11 manual lenses, with honest "suggested palette — research in progress" labeling when palette data is thin.
+   148→   148→- New exports/behavior for future agents: DemoPalette.fromPreset (null = real data), TEMPLATE_LABELS/TABS in style-demo.tsx; ShaderLab is imported read-only from './shader-lab'.
+   149→   149→- Worklog note: TextureSwatches now passes texture keywords as preset context, so texture chips stay tinted even for entries with no colors yet.
+   150→   150→
+   151→   151→---
+   152→   152→Task ID: 7
+   153→   153→Agent: lead (orchestrator) + full-stack-developer (7-a)
+   154→   154→Task: 3D shader material lab, 12-template demo suite, completeness audit surfacing, pipeline rate-limit hardening.
+   155→   155→
+   156→   156→Work Log:
+   157→   157→- Built src/components/atlas/shader-lab.tsx: raw-WebGL 3D material study (no deps). 20 procedural GLSL materials (wood FBM rings, marble veins, brushed/hammered metal, rust, cloth weave, velvet sheen, ceramic crackle, leather, gloss plastic, animated CRT phosphor, water, thin-film holographic, fur, concrete, terrazzo, ice cracks, paper grain, glass, neon fog), Blinn-Phong + fresnel, bump-mapped via per-material height fields along analytic tangent frames, palette uniforms from entry colors, deterministic seed from slug. Torus knot / torus / sphere geometries, drag-rotate, wheel-zoom, expand, reset, reduced-motion guard, WebGL fallback. materialsFor() routes entry texture vocabulary -> material chips.
+   158→   158→- Task 7-a (full-stack-developer): rebuilt style-demo.tsx into a tabbed 12-template suite (Auto/Web/Cover/Plate/Gallery/Poster/UI kit/Pattern/Type/Line art/Painting/3D material) with real tablist a11y + arrow-key roving focus; 22 deterministic per-category palette presets for entries lacking colors (honestly labeled "research in progress"); generative SVG line art + seeded-LCG canvas painting; new categories mapped (VFX->shader, drawing->lineart, painting->painting, typography->type, textile->pattern). Only style-demo.tsx touched; StyleDemo signature unchanged.
+   159→   159→- Data completeness surfacing: new GET /api/audit (16 field-gap counts, core/deep completeness %, 5,000-target progress); dashboard panels "Library growth milestone" (progress bar with 1k-4k markers + live queue count) and "Record integrity — no missing data" (core/deep bars + green/gray field-gap chips); per-entry RecordMeter (15-field checklist, honest "still documenting" microcopy) in detail sheet; useAudit hook.
+   160→   160→- Pipeline scale + resilience: domains-expanded.ts final = 377 specs (698 total with domains.ts; 378 new batches queued = 643 in queue). fillGaps() ran and completed ALL identity-field gaps (audit shows palette/period/origin/textures/objects/materials/era/sources all at 0 missing; core completeness 99-100%). Rate-limit circuit breaker in lib.ts (sustained 429 -> 3-min cooldown, fail-fast); runBatch no longer burns batch attempts on 429s (re-queues instead of failing permanently); enrich/verify/fillGaps abort passes after 2 consecutive failures; worker rests 90s during cooldown. Restarted worker + image worker (both crash-proof, auto-resume when API quota resets).
+   161→   161→- Agent Browser verification: home 317 entries; Romanticism detail (researched): 6 sourced images w/ badges, record meter 14/15, all 12 demo tabs render real content, 3D shader renders golden torus knot + material chip switching + expand (300->430px), shader status line "seed 1720, palette 5 colors, live"; Brazilian Colonial Architecture (draft): PendingNotice + 8/15 meter + Auto->Plate demo with elevation study (no broken/empty demos); Fachwerk: texture-routed chips (Wood grain/Woven cloth/Concrete) + wood-grain shader verified visually; dashboard milestone + integrity panels live (643 queued batches); mobile 390px no h-overflow, footer pushed naturally; zero console/page errors; bun run lint clean.
+   162→   162→
+   163→   163→Stage Summary:
+   164→   164→- Examples system is now a professional 12-template demo suite + real-time WebGL 3D material lab, driven entirely by per-entry data with honest fallbacks.
+   165→   165→- Path to 5,000+: 643 discovery batches queued (~5,400 entry potential) + continuous taxonomy-audit loop when queue drains + 1,211-term backlog recycled into audits. fillGaps + enrichment + image workers keep closing data gaps.
+   166→   166→- NOTE for future agents: z-ai LLM API hit sustained 429s ~05:12-06:45 (quota window); the circuit breaker protects the queue — do NOT raise CONC or remove the breaker. `bun scripts/research/run.ts {stats|fill-gaps|audit|queue}` are the ops commands.
+   167→   167→
+   168→   168→---
+   169→   169→Task ID: 8-a
+   170→   170→Agent: full-stack-developer
+   171→   171→Task: Surface the two new Aesthetic columns (references + typePairing) end-to-end — types/parsing, detail-sheet References section, real-font Type specimen, audit counts, dashboard cultures panel.
+   172→   172→
+   173→   173→Work Log:
+   174→   174→- src/lib/aesthetic.ts: added `ReferenceEntry` {type,title,url,note?}; `asReferenceArray()` in the exact defensive style of asImageArray (http(s)-only URLs, non-empty title, type normalized to the known 8-kind set else 'web', note trimmed/capped, ~10-entry cap); `references: ReferenceEntry[]` + `typePairing: Record<string,string>` added to AestheticFull; `references`/`typePairing` string columns added to the explicit `AestheticRow` mapper type; mapAestheticFull now parses both (`asReferenceArray` / `asStringRecord`). Route SELECT audit: every route feeding mapAestheticFull (aesthetics/[slug], compare, hybrid) uses findUnique/findMany WITHOUT a select clause → full rows already include the new columns, so no route changes were needed; routes with explicit selects (list/explore/timeline/stats/suggest) build their own summary shapes and don't use this mapper.
+   175→   175→- src/components/atlas/detail-sheet.tsx: new `ReferencesSection` rendered after Sources, before the confidence footer; only renders when references exist; groups into Read (article+scholar, BookOpen), Watch (video, Youtube), Visit (museum+exhibition, Landmark), Explore (web+archive+images, Globe/Archive/Images per item); each link = target=_blank rel=noopener noreferrer, bronze underlined title, tiny uppercase type badge, muted note line, per-type icon + 12px ArrowUpRight; matches the sheet's paper/serif/hairline/bronze language. RecordMeter: added 'references' and 'font pairing' rows → checklist is now 17 fields (totals auto-compute).
+   176→   176→- src/components/atlas/style-demo.tsx: added a curated 88-name `GOOGLE_FONTS` set (only 100%-certain Google families; excluded Rockwell/Futura/etc.), case/whitespace-normalizing lookup map, `firstFontFamily()` (strips quotes, takes family before a comma), and `loadGoogleFont()` (module-level dedupe set, SSR guard, injects css2?family=<Name+with+&display=swap stylesheet link). TypeSpecimenDemo now prefers a.typePairing.display/body over the typography-derived stacks: loadable families render as `'Name', <existing fallback stack>` with the real names as labels (display name + "Body — name"), non-loadable names fall back to the existing character-matched system stack plus an honest footnote "Typeface shown in closest available stack — 'X' is/are not web-served"; pairing `notes` appended as a "Pairing" annotation row. All prior specimen content (Aa, alphabet rows, pangram, spec chips) kept; other tabs untouched.
+   177→   177→- src/app/api/audit/route.ts: added `references: '[]'` and `typePairing: '{}'` counts to the Promise.all, two new gaps entries ('references', 'font pairing'), both included in deepMissing, deepFields 8→10.
+   178→   178→- src/components/atlas/dashboard-view.tsx: verified the Record-integrity gap chips render the two new fields automatically (they map audit.completeness.gaps). Added one panel "World cultures coverage" (same card classes as neighbors): the 4 culture-category counts (Regional & Cultural Tradition / Textile & Craft / Religious & Sacred Art / Fashion & Dress; a missing category shows "not yet documented") + top-5 byRegion BarList, with honest microcopy. `Religious & Sacred Art` has 0 entries right now and renders the honest label.
+   179→   179→- Ops note: dev server was still holding the PRE-restart Prisma client (started before the schema push) → /api/audit threw PrismaClientValidationError and rows lacked the new columns. Killed and relaunched `bun run dev` (same command, tee dev.log); after restart everything resolves live.
+   180→   180→- Verified live APIs: /api/aesthetics/art-nouveau → 6 references (Wikipedia/YouTube/Scholar/Archive/museum/Images), typePairing {}; /api/audit → references missing 0 (green chip), font pairing missing 317, deep % dropped to 46 (honest, 10 fields now).
+   181→   181→- Verified in browser (isolated agent-browser session; NOTE another agent shares the default session — use --session <name>): Romanticism sheet shows "References & where it's used" after Sources with Read/Watch/Visit/Explore clusters and 6 links; RecordMeter 15/17 ("font pairing" listed as still documenting); Type tab falls back to system stack when no pairing. Mocked the detail API (network route) with {display:'Bodoni Moda', body:'EB Garamond', notes} → specimen labels show the real names, "Pairing" row shows the note, and both Google Fonts css2 links are injected into <head>; mocked {display:'Rockwell', body:'Futura'} → no font links injected, real names still labeled, exact honesty footnote renders. Dashboard panel badge "11 entries in living traditions" + top-5 regions; integrity chips include "font pairing · 317" and "references · 0". Mobile 390px: no horizontal overflow. Zero console/page errors.
+   182→   182→- Quality gates: bun run lint → 0 errors; bunx tsc --noEmit → 0 errors in all files I touched (remaining project errors are the documented pre-existing baseline in aesthetics/explore/hybrid/suggest/lab-view/timeline-view). One transient TS error I introduced (type-predicate on the optional `note`) was fixed by annotating the map callback `ReferenceEntry | null`.
+   183→   183→
+   184→   184→Stage Summary:
+   185→   185→- The two new schema columns are now first-class: every detail response carries parsed references + typePairing, the detail sheet renders them ("References & where it's used" section, Read/Watch/Visit/Explore clusters), and the per-entry completeness meter tracks both (17-field checklist).
+   186→   186→- The Type specimen tab upgrades itself automatically as the enrichment pipeline backfills typePairing: real Google-Fonts rendering when the family is web-servable, honest system-stack fallback with a footnote when it is not.
+   187→   187→- /api/audit deep completeness now spans 10 fields (references/typePairing included); dashboard shows the new gap chips plus a "World cultures coverage" panel (4 living-tradition categories + top-5 regions, honest zero-state).
+   188→   188→- NOTE for future agents: agent-browser default session is shared across concurrent agents — always pass a distinct `--session`. The dev server must be restarted after any prisma client regen; do not assume the running process sees new columns.
+   189→   189→
+   190→   190→---
+   191→   191→Task ID: 8-b
+   192→   192→Agent: full-stack-developer
+   193→   193→Task: Extend ShaderLab with 8 world-cultural craft materials + keyword routing (single file: src/components/atlas/shader-lab.tsx, additive only).
+   194→   194→
+   195→   195→Work Log:
+   196→   196→- Continued from a partial session that had already added most of the work; audited the full diff (`git diff`: 199 insertions, 2 deletions — the deletions are the doc-comment line and restructuring neon-fog's trailing comment into an explicit `if (uMaterial == 19)` so the default return stays last; no existing material changed). Kept and finished it.
+   197→   197→- New MaterialIds 20–27 appended to the union, MATERIAL_ORDER (after the original 20 so existing chip order never regresses) and MATERIAL_LABELS: 'wax-resist' (Wax-resist batik), 'tie-dye' (Tie-dye), 'blockprint' (Block print), 'tilework' (Zellige tilework), 'filigree' (Filigree), 'beadwork' (Beadwork), 'embroidery' (Embroidery), 'inlay' (Marquetry inlay).
+   198→   198→- Height fields (GLSL ES 1.00, WebGL1, `precision highp float`, constant-bound loops, seed-driven via existing hash/hash2/fbm/uSeed): 20 batik crackle veining + stamped circle/diamond motif; 21 tie-dye radial bleeds wrapped to nearest repeat for seamless tiling + banding rings; 22 blockprint jittered stamp grid (box/diamond/disk pick) with fbm-roughened ink edges; 23 zellige 8-pointed stars + interlaced straps + grout; 24 filigree twisted sine-thread ropes (phase-shifted pairs); 25 beadwork packed bead domes over dark ground; 26 embroidery satin-stitch bands with per-band angle/frequency and stitch-row wave; 27 marquetry veneer bands + stringing + seeded diamond inlays. None reference uTime (all deterministic per entry seed).
+   199→   199→- bumpScaleFor: 21→0.08, 22→0.10, 27→0.14, 20→0.18, 26→0.24, 24→0.26, 25→0.30 (23 uses the 0.22 default). matSurface albedo branches for all 8 (wax-reserved motif stays pale, per-tile hue variation for zellige, metal 0.95 filigree, 3-tone bead picks, anisotropic sheen only on marquetry stringing); FRAG_MAIN adds an embroidery-only anisotropic thread sheen.
+   200→   200→- materialsFor(): 8 appended `add()` lines (see routing table below). Finished my line for 'tilework' with word boundaries (`\btile\b|\btiled\b|\btiling\b`) after the harness caught the bare `tile` substring matching the category "Textile & Craft" (17 DB entries would have gotten a false zellige chip; the identical pre-existing quirk in the untouched terrazzo line remains as-is by design).
+   201→   201→- Verification (harness kept OUTSIDE the repo at /home/z/.tmp-8b, deleted after — one-file constraint respected): (A) imported the real `materialsFor`/`MATERIAL_ORDER` in bun against 8 stub entries — all PASS, determinism PASS (same input twice → identical chips), order-stability PASS, labels PASS. DB impact: tie-dye 1 (shibori), blockprint 7 (ukiyo-e…), tilework 23, embroidery 2, inlay 4; wax-resist/filigree/beadwork 0 entries yet (pipeline discovery will route to them automatically). (B) extracted the exact shipped VERT/FRAG strings from the file and compiled+linked them once in the same headless Chrome/SwiftShader → "SHADERTEST-OK all 28 material branches compiled+linked".
+   202→   202→- Environment note: live-canvas CDP probes hang while the rAF loop runs under SwiftShader software GL (Runtime.evaluate starves) — UI mount/interactivity of ShaderLab itself was already verified in Task 7 and its rendering code is unchanged; compile + routing are the new-correctness gates here.
+   203→   203→- Quality gates: bunx tsc --noEmit → 0 errors in shader-lab.tsx; bun run lint → clean. No other project file touched (scripts/ changes in git status belong to other agents).
+   204→   204→
+   205→   205→Routing table (appended in materialsFor, evaluated against textures+materials+category+name+visualDNA.texture):
+   206→   206→- wax-resist  ← /batik|wax[- ]?resist/
+   207→   207→- tie-dye     ← /tie[ &-]?dye|shibori|bandhani|plangi|tritik/
+   208→   208→- blockprint  ← /block[ -]?print|woodblock|stamp/
+   209→   209→- tilework    ← /zellige|girih|azulejo|mosaic|\btile\b|\btiled\b|\btiling\b|\btilework\b/
+   210→   210→- filigree    ← /filigree|filigran|wirework|twisted wire/
+   211→   211→- beadwork    ← /bead|seed pearl/
+   212→   212→- embroidery  ← /embroider|stitch|needlework|kantha|sashiko|phulkari|crewel/
+   213→   213→- inlay       ← /marquetry|intarsia|inlay|inlaid|parquet|veneer/
+   214→   214→
+   215→   215→Stage Summary:
+   216→   216→- ShaderLab now covers 28 materials; craft-textured entries (batik, shibori, ukiyo-e, zellige/moorish, sashiko/kantha, marquetry/art-deco…) route to culturally-specific procedural studies while the existing 20 chips keep their exact order and behavior.
+   217→   217→- All new materials are deterministic (seed-only, no uTime), palette-driven from the entry's own colors, and additive at every integration point (type union, order, labels, routing, height field, bump table, albedo, lighting accents).
+   218→   218→- NOTE for future agents: when testing shader UI via CDP in this sandbox, expect evals to starve while the SwiftShader canvas loop runs — verify GLSL with a compile-only page and routing by importing materialsFor directly.
+   219→   219→

@@ -1,0 +1,794 @@
+     1→     1→'use client'
+     2→     2→
+     3→     3→import { useMemo } from 'react'
+     4→     4→import {
+     5→     5→  ArrowLeft,
+     6→     6→  ArrowRight,
+     7→     7→  Braces,
+     8→     8→  Building2,
+     9→     9→  CalendarDays,
+    10→    10→  Camera,
+    11→    11→  Download,
+    12→    12→  ExternalLink,
+    13→    13→  FlaskConical,
+    14→    14→  Globe,
+    15→    15→  Lamp,
+    16→    16→  Link2,
+    17→    17→  Loader2,
+    18→    18→  MapPin,
+    19→    19→  Palette,
+    20→    20→  Shirt,
+    21→    21→  Sparkles,
+    22→    22→  TreePine,
+    23→    23→  Type,
+    24→    24→} from 'lucide-react'
+    25→    25→import { toast } from 'sonner'
+    26→    26→import { Badge } from '@/components/ui/badge'
+    27→    27→import { Button } from '@/components/ui/button'
+    28→    28→import { Progress } from '@/components/ui/progress'
+    29→    29→import {
+    30→    30→  Sheet,
+    31→    31→  SheetContent,
+    32→    32→  SheetDescription,
+    33→    33→  SheetTitle,
+    34→    34→} from '@/components/ui/sheet'
+    35→    35→import { Chip, ErrorState, SectionHeading, StatusBadge } from '@/components/atlas/bits'
+    36→    36→import { ColorSwatch, PaletteStrip } from '@/components/atlas/palette-strip'
+    37→    37→import { DnaBars, EmotionBars, EmotionRadar } from '@/components/atlas/dna'
+    38→    38→import { PendingNotice, StyleDemo, TextureSwatches, VisualGallery } from '@/components/atlas/style-demo'
+    39→    39→import { useAestheticDetail } from '@/components/atlas/api'
+    40→    40→import {
+    41→    41→  DATA_QUALITY_LABELS,
+    42→    42→  ESTABLISHMENT_LABELS,
+    43→    43→  labelize,
+    44→    44→  type AestheticFull,
+    45→    45→} from '@/lib/aesthetic'
+    46→    46→
+    47→    47→interface DetailSheetProps {
+    48→    48→  slug: string | null
+    49→    49→  open: boolean
+    50→    50→  onOpenChange: (open: boolean) => void
+    51→    51→  onNavigate: (slug: string) => void
+    52→    52→}
+    53→    53→
+    54→    54→/** Per-entry record completeness — part of the no-missing-data audit policy. */
+    55→    55→function RecordMeter({ a }: { a: AestheticFull }) {
+    56→    56→  const checks: Array<{ label: string; ok: boolean }> = [
+    57→    57→    { label: 'palette', ok: a.colors.length > 0 },
+    58→    58→    { label: 'period', ok: Boolean(a.periodStart || a.era) },
+    59→    59→    { label: 'origin', ok: Boolean(a.origin || a.geography) },
+    60→    60→    { label: 'materials', ok: a.materials.length > 0 },
+    61→    61→    { label: 'textures', ok: a.textures.length > 0 },
+    62→    62→    { label: 'objects', ok: a.objects.length > 0 },
+    63→    63→    { label: 'examples', ok: a.keyExamples.length > 0 },
+    64→    64→    { label: 'visual DNA', ok: Object.keys(a.visualDNA).length > 0 },
+    65→    65→    { label: 'typography', ok: Object.keys(a.typography).length > 0 },
+    66→    66→    { label: 'lighting', ok: Object.keys(a.lighting).length > 0 },
+    67→    67→    { label: 'UI translation', ok: Object.keys(a.uiTranslation).length > 0 },
+    68→    68→    { label: 'recipe', ok: Object.keys(a.recipe).length > 0 },
+    69→    69→    { label: 'sonic identity', ok: a.sounds.length > 0 },
+    70→    70→    { label: 'sources', ok: a.sources.length > 0 },
+    71→    71→    { label: 'images', ok: a.images.length > 0 },
+    72→    72→  ]
+    73→    73→  const ok = checks.filter((c) => c.ok).length
+    74→    74→  const missing = checks.filter((c) => !c.ok).map((c) => c.label)
+    75→    75→  const pct = Math.round((ok / checks.length) * 100)
+    76→    76→  return (
+    77→    77→    <section
+    78→    78→      className="rounded-lg border border-stone-200 bg-stone-50 px-4 py-3"
+    79→    79→      aria-label="Record completeness"
+    80→    80→    >
+    81→    81→      <div className="flex items-center justify-between gap-3 text-sm">
+    82→    82→        <span className="font-medium text-stone-700">
+    83→    83→          Record completeness — {ok}/{checks.length} fields documented
+    84→    84→        </span>
+    85→    85→        <span className={`tabular-nums ${pct >= 90 ? 'text-emerald-800' : pct >= 60 ? 'text-amber-800' : 'text-stone-500'}`}>
+    86→    86→          {pct}%
+    87→    87→        </span>
+    88→    88→      </div>
+    89→    89→      <Progress value={pct} className="mt-2 h-1.5" />
+    90→    90→      <p className="mt-1.5 text-xs text-stone-500">
+    91→    91→        {missing.length === 0
+    92→    92→          ? 'Every documented field is populated for this entry.'
+    93→    93→          : `Still documenting: ${missing.join(', ')}. The research pipeline fills gaps continuously, most-visited entries first.`}
+    94→    94→      </p>
+    95→    95→    </section>
+    96→    96→  )
+    97→    97→}
+    98→    98→
+    99→    99→export function DetailSheet({ slug, open, onOpenChange, onNavigate }: DetailSheetProps) {
+   100→   100→  const { data, isPending, isError, error, refetch } = useAestheticDetail(slug, open)
+   101→   101→  const aesthetic = data?.aesthetic
+   102→   102→  const relations = data?.relations
+   103→   103→
+   104→   104→  return (
+   105→   105→    <Sheet open={open} onOpenChange={onOpenChange}>
+   106→   106→      <SheetContent
+   107→   107→        side="right"
+   108→   108→        className="w-full gap-0 overflow-y-auto scrollbar-thin p-0 sm:max-w-4xl"
+   109→   109→        aria-describedby={undefined}
+   110→   110→      >
+   111→   111→        {!aesthetic && <SheetTitle className="sr-only">Aesthetic details</SheetTitle>}
+   112→   112→        {isPending && (
+   113→   113→          <div className="p-8">
+   114→   114→            <div className="flex items-center gap-2 text-stone-500" role="status">
+   115→   115→              <Loader2 className="h-4 w-4 animate-spin" aria-hidden="true" />
+   116→   116→              Retrieving entry…
+   117→   117→            </div>
+   118→   118→          </div>
+   119→   119→        )}
+   120→   120→        {isError && (
+   121→   121→          <div className="p-8">
+   122→   122→            <ErrorState message={error.message} onRetry={() => refetch()} />
+   123→   123→          </div>
+   124→   124→        )}
+   125→   125→        {aesthetic && (
+   126→   126→          <DetailBody
+   127→   127→            aesthetic={aesthetic}
+   128→   128→            relations={relations ?? { outgoing: [], incoming: [] }}
+   129→   129→            onNavigate={onNavigate}
+   130→   130→          />
+   131→   131→        )}
+   132→   132→      </SheetContent>
+   133→   133→    </Sheet>
+   134→   134→  )
+   135→   135→}
+   136→   136→
+   137→   137→function DetailBody({
+   138→   138→  aesthetic: a,
+   139→   139→  relations,
+   140→   140→  onNavigate,
+   141→   141→}: {
+   142→   142→  aesthetic: AestheticFull
+   143→   143→  relations: { outgoing: RelationEdge[]; incoming: RelationEdge[] }
+   144→   144→  onNavigate: (slug: string) => void
+   145→   145→}) {
+   146→   146→  const hexes = a.colors.map((c) => c.hex)
+   147→   147→
+   148→   148→  const cssVars = useMemo(
+   149→   149→    () =>
+   150→   150→      a.colors
+   151→   151→        .map((c, i) => {
+   152→   152→          const key =
+   153→   153→            c.name
+   154→   154→              .toLowerCase()
+   155→   155→              .replace(/[^a-z0-9]+/g, '-')
+   156→   156→              .replace(/^-+|-+$/g, '') || `color-${i + 1}`
+   157→   157→          return `--aa-${key}: ${c.hex};`
+   158→   158→        })
+   159→   159→        .join('\n'),
+   160→   160→    [a.colors]
+   161→   161→  )
+   162→   162→
+   163→   163→  const copy = async (text: string, what: string) => {
+   164→   164→    try {
+   165→   165→      await navigator.clipboard.writeText(text)
+   166→   166→      toast.success(`${what} copied to clipboard`)
+   167→   167→    } catch {
+   168→   168→      toast.error(`Could not copy ${what.toLowerCase()}`)
+   169→   169→    }
+   170→   170→  }
+   171→   171→
+   172→   172→  const downloadJson = () => {
+   173→   173→    const blob = new Blob([JSON.stringify(a, null, 2)], { type: 'application/json' })
+   174→   174→    const url = URL.createObjectURL(blob)
+   175→   175→    const link = document.createElement('a')
+   176→   176→    link.href = url
+   177→   177→    link.download = `${a.slug}.json`
+   178→   178→    document.body.appendChild(link)
+   179→   179→    link.click()
+   180→   180→    link.remove()
+   181→   181→    URL.revokeObjectURL(url)
+   182→   182→    toast.success(`Downloaded ${a.slug}.json`)
+   183→   183→  }
+   184→   184→
+   185→   185→  const period = [a.periodStart, a.periodEnd].filter(Boolean).join(' — ')
+   186→   186→  const years =
+   187→   187→    a.startYear !== null
+   188→   188→      ? `${a.startYear}${a.endYear !== null ? `–${a.endYear}` : ''}`
+   189→   189→      : ''
+   190→   190→
+   191→   191→  return (
+   192→   192→    <article className="pb-16">
+   193→   193→      {/* Palette hero band */}
+   194→   194→      <PaletteStrip colors={a.colors} label={a.name} className="h-24 w-full sm:h-28" />
+   195→   195→
+   196→   196→      <div className="px-5 pt-6 sm:px-10">
+   197→   197→        {/* Header */}
+   198→   198→        <header>
+   199→   199→          <div className="flex flex-wrap items-center gap-2 pr-10">
+   200→   200→            <Badge className="bg-[#8a6d3b] font-normal text-[#fdfcf8] hover:bg-[#8a6d3b]">
+   201→   201→              {a.category}
+   202→   202→            </Badge>
+   203→   203→            {a.establishment && (
+   204→   204→              <Badge variant="outline" className="border-stone-300 bg-white/70 font-normal">
+   205→   205→                {ESTABLISHMENT_LABELS[a.establishment] ?? labelize(a.establishment)}
+   206→   206→              </Badge>
+   207→   207→            )}
+   208→   208→            <StatusBadge status={a.status} />
+   209→   209→            {a.isNiche && (
+   210→   210→              <Badge variant="outline" className="border-amber-700/40 bg-[#f7f0df] font-normal text-amber-900">
+   211→   211→                Niche
+   212→   212→              </Badge>
+   213→   213→            )}
+   214→   214→          </div>
+   215→   215→
+   216→   216→          <SheetTitle asChild>
+   217→   217→            <h2 className="mt-3 font-serif text-3xl leading-tight text-stone-900 sm:text-4xl">
+   218→   218→              {a.name}
+   219→   219→            </h2>
+   220→   220→          </SheetTitle>
+   221→   221→          {a.aliases.length > 0 && (
+   222→   222→            <SheetDescription className="mt-1 text-sm">
+   223→   223→              Also known as: {a.aliases.join(' · ')}
+   224→   224→            </SheetDescription>
+   225→   225→          )}
+   226→   226→
+   227→   227→          <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-1.5 text-sm text-stone-600">
+   228→   228→            {period && (
+   229→   229→              <span className="inline-flex items-center gap-1.5">
+   230→   230→                <CalendarDays className="h-3.5 w-3.5 text-stone-400" aria-hidden="true" /> {period}
+   231→   231→                {years && <span className="text-stone-400">({years})</span>}
+   232→   232→              </span>
+   233→   233→            )}
+   234→   234→            {a.origin && (
+   235→   235→              <span className="inline-flex items-center gap-1.5">
+   236→   236→                <MapPin className="h-3.5 w-3.5 text-stone-400" aria-hidden="true" /> {a.origin}
+   237→   237→              </span>
+   238→   238→            )}
+   239→   239→            {a.geography && (
+   240→   240→              <span className="inline-flex items-center gap-1.5">
+   241→   241→                <Globe className="h-3.5 w-3.5 text-stone-400" aria-hidden="true" /> {a.geography}
+   242→   242→              </span>
+   243→   243→            )}
+   244→   244→            {a.era && <span className="text-stone-400">{a.era}</span>}
+   245→   245→          </div>
+   246→   246→
+   247→   247→          {/* Export */}
+   248→   248→          <div className="mt-5 flex flex-wrap gap-2">
+   249→   249→            <Button
+   250→   250→              variant="outline"
+   251→   251→              size="sm"
+   252→   252→              className="gap-1.5 border-stone-300"
+   253→   253→              onClick={() => copy(hexes.join(', '), 'Palette')}
+   254→   254→              disabled={hexes.length === 0}
+   255→   255→            >
+   256→   256→              <Palette className="h-3.5 w-3.5" aria-hidden="true" />
+   257→   257→              Copy palette
+   258→   258→            </Button>
+   259→   259→            <Button
+   260→   260→              variant="outline"
+   261→   261→              size="sm"
+   262→   262→              className="gap-1.5 border-stone-300"
+   263→   263→              onClick={() => copy(cssVars, 'CSS variables')}
+   264→   264→              disabled={hexes.length === 0}
+   265→   265→            >
+   266→   266→              <Braces className="h-3.5 w-3.5" aria-hidden="true" />
+   267→   267→              Copy CSS variables
+   268→   268→            </Button>
+   269→   269→            <Button
+   270→   270→              variant="outline"
+   271→   271→              size="sm"
+   272→   272→              className="gap-1.5 border-stone-300"
+   273→   273→              onClick={downloadJson}
+   274→   274→            >
+   275→   275→              <Download className="h-3.5 w-3.5" aria-hidden="true" />
+   276→   276→              Download JSON
+   277→   277→            </Button>
+   278→   278→          </div>
+   279→   279→        </header>
+   280→   280→
+   281→   281→        <div className="mt-8 space-y-10">
+   282→   282→          {a.summary && (
+   283→   283→            <section aria-label="Summary">
+   284→   284→              <p className="border-l-2 border-[#8a6d3b]/50 pl-4 text-base leading-relaxed text-stone-700 sm:text-lg">
+   285→   285→                {a.summary}
+   286→   286→              </p>
+   287→   287→            </section>
+   288→   288→          )}
+   289→   289→
+   290→   290→          {a.description && (
+   291→   291→            <section aria-label="Description">
+   292→   292→              <SectionHeading>Description</SectionHeading>
+   293→   293→              <p className="whitespace-pre-line text-sm leading-relaxed text-stone-600">
+   294→   294→                {a.description}
+   295→   295→              </p>
+   296→   296→            </section>
+   297→   297→          )}
+   298→   298→
+   299→   299→          {a.culturalContext && (
+   300→   300→            <section aria-label="Cultural context">
+   301→   301→              <SectionHeading>Cultural context</SectionHeading>
+   302→   302→              <p className="whitespace-pre-line text-sm leading-relaxed text-stone-600">
+   303→   303→                {a.culturalContext}
+   304→   304→              </p>
+   305→   305→            </section>
+   306→   306→          )}
+   307→   307→
+   308→   308→          <PendingNotice a={a} />
+   309→   309→
+   310→   310→          <RecordMeter a={a} />
+   311→   311→
+   312→   312→          <VisualGallery images={a.images} name={a.name} />
+   313→   313→
+   314→   314→          <StyleDemo a={a} />
+   315→   315→
+   316→   316→          <DnaSection dnaAxes={a.dnaAxes} />
+   317→   317→          <EmotionSection profile={a.emotionProfile} />
+   318→   318→          <IngredientsSection a={a} />
+   319→   319→          <TypographySection typography={a.typography} />
+   320→   320→
+   321→   321→          {Object.keys(a.visualDNA).length > 0 && (
+   322→   322→            <section aria-label="Visual DNA">
+   323→   323→              <SectionHeading hint="The formal vocabulary of the style.">
+   324→   324→                Visual DNA
+   325→   325→              </SectionHeading>
+   326→   326→              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+   327→   327→                {Object.entries(a.visualDNA).map(([k, v]) => (
+   328→   328→                  <div key={k} className="rounded-lg border border-stone-200 bg-white p-4">
+   329→   329→                    <p className="text-[11px] font-medium uppercase tracking-[0.14em] text-[#8a6d3b]">
+   330→   330→                      {labelize(k)}
+   331→   331→                    </p>
+   332→   332→                    <p className="mt-1.5 text-sm leading-relaxed text-stone-600">{v}</p>
+   333→   333→                  </div>
+   334→   334→                ))}
+   335→   335→              </div>
+   336→   336→            </section>
+   337→   337→          )}
+   338→   338→
+   339→   339→          <FieldCardGrid
+   340→   340→            title="Applied fields"
+   341→   341→            hint="How the aesthetic expresses itself across disciplines."
+   342→   342→            cards={[
+   343→   343→              { key: 'lighting', title: 'Lighting', icon: <Lamp className="h-4 w-4" />, data: a.lighting },
+   344→   344→              { key: 'photography', title: 'Photography', icon: <Camera className="h-4 w-4" />, data: a.photography },
+   345→   345→              { key: 'architecture', title: 'Architecture', icon: <Building2 className="h-4 w-4" />, data: a.architecture },
+   346→   346→              { key: 'fashion', title: 'Fashion', icon: <Shirt className="h-4 w-4" />, data: a.fashion },
+   347→   347→              { key: 'environment', title: 'Environment', icon: <TreePine className="h-4 w-4" />, data: a.environment },
+   348→   348→              { key: 'graphicDesign', title: 'Graphic design', icon: <Type className="h-4 w-4" />, data: a.graphicDesign },
+   349→   349→            ]}
+   350→   350→          />
+   351→   351→
+   352→   352→          {Object.keys(a.uiTranslation).length > 0 && (
+   353→   353→            <section aria-label="UI translation">
+   354→   354→              <SectionHeading hint="Recreating the aesthetic in interface design — see the live demo above for the rendered result.">
+   355→   355→                UI translation
+   356→   356→              </SectionHeading>
+   357→   357→              <div className="overflow-hidden rounded-lg border border-stone-200 bg-white">
+   358→   358→                <div className="border-b border-stone-100 bg-[#faf8f4] px-4 py-2.5 text-xs font-medium uppercase tracking-[0.14em] text-stone-500">
+   359→   359→                  Interface blueprint
+   360→   360→                </div>
+   361→   361→                <div className="grid gap-4 p-4 sm:grid-cols-2">
+   362→   362→                  <dl className="space-y-3">
+   363→   363→                    {Object.entries(a.uiTranslation).map(([k, v]) => (
+   364→   364→                      <div key={k}>
+   365→   365→                        <dt className="text-[11px] font-medium uppercase tracking-[0.14em] text-[#8a6d3b]">
+   366→   366→                          {labelize(k)}
+   367→   367→                        </dt>
+   368→   368→                        <dd className="mt-0.5 text-sm leading-relaxed text-stone-600">{v}</dd>
+   369→   369→                      </div>
+   370→   370→                    ))}
+   371→   371→                  </dl>
+   372→   372→                  <dl className="space-y-3">
+   373→   373→                    {Object.entries(a.recipe)
+   374→   374→                      .filter(([k]) => ['music', 'scent'].includes(k))
+   375→   375→                      .map(([k, v]) => (
+   376→   376→                        <div key={k}>
+   377→   377→                          <dt className="text-[11px] font-medium uppercase tracking-[0.14em] text-[#8a6d3b]">
+   378→   378→                            {labelize(k)}
+   379→   379→                          </dt>
+   380→   380→                          <dd className="mt-0.5 text-sm leading-relaxed text-stone-600">
+   381→   381→                            {Array.isArray(v) ? v.join(' · ') : v}
+   382→   382→                          </dd>
+   383→   383→                        </div>
+   384→   384→                      ))}
+   385→   385→                  </dl>
+   386→   386→                </div>
+   387→   387→              </div>
+   388→   388→            </section>
+   389→   389→          )}
+   390→   390→
+   391→   391→          <RecipeSection recipe={a.recipe} />
+   392→   392→
+   393→   393→          <RelationsSection relations={relations} onNavigate={onNavigate} />
+   394→   394→
+   395→   395→          {a.sources.length > 0 && (
+   396→   396→            <section aria-label="Sources">
+   397→   397→              <SectionHeading hint="Where the documentation comes from.">
+   398→   398→                Sources
+   399→   399→              </SectionHeading>
+   400→   400→              <ul className="divide-y divide-stone-100 rounded-lg border border-stone-200 bg-white">
+   401→   401→                {a.sources.map((s, i) => (
+   402→   402→                  <li key={`${s.name}-${i}`} className="flex items-center justify-between gap-3 px-4 py-3">
+   403→   403→                    <span className="min-w-0 text-sm text-stone-700">
+   404→   404→                      {s.url ? (
+   405→   405→                        <a
+   406→   406→                          href={s.url}
+   407→   407→                          target="_blank"
+   408→   408→                          rel="noopener noreferrer"
+   409→   409→                          className="inline-flex items-center gap-1.5 text-[#6f5527] underline decoration-[#8a6d3b]/30 underline-offset-2 hover:decoration-[#8a6d3b] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b08d57]"
+   410→   410→                        >
+   411→   411→                          <span className="truncate">{s.name}</span>
+   412→   412→                          <ExternalLink className="h-3 w-3 shrink-0" aria-hidden="true" />
+   413→   413→                        </a>
+   414→   414→                      ) : (
+   415→   415→                        s.name
+   416→   416→                      )}
+   417→   417→                    </span>
+   418→   418→                    {s.tier && <TierBadge tier={s.tier} />}
+   419→   419→                  </li>
+   420→   420→                ))}
+   421→   421→              </ul>
+   422→   422→            </section>
+   423→   423→          )}
+   424→   424→
+   425→   425→          {/* Meta footer */}
+   426→   426→          <footer className="rounded-lg border border-stone-200 bg-[#f5f1e6] p-4">
+   427→   427→            <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-stone-600">
+   428→   428→              <span className="flex items-center gap-2">
+   429→   429→                <span className="text-xs uppercase tracking-[0.14em] text-stone-500">Confidence</span>
+   430→   430→                <Progress value={a.confidence} className="h-1.5 w-24 [&>div]:bg-[#8a6d3b]" aria-label={`Research confidence ${a.confidence}%`} />
+   431→   431→                <span className="tabular-nums">{a.confidence}%</span>
+   432→   432→              </span>
+   433→   433→              {a.dataQuality && (
+   434→   434→                <span>
+   435→   435→                  <span className="text-xs uppercase tracking-[0.14em] text-stone-500">Data quality</span>{' '}
+   436→   436→                  {DATA_QUALITY_LABELS[a.dataQuality] ?? labelize(a.dataQuality)}
+   437→   437→                </span>
+   438→   438→              )}
+   439→   439→              {a.verifiedAt && (
+   440→   440→                <span>
+   441→   441→                  <span className="text-xs uppercase tracking-[0.14em] text-stone-500">Last reviewed</span>{' '}
+   442→   442→                  {new Date(a.verifiedAt).toLocaleDateString()}
+   443→   443→                </span>
+   444→   444→              )}
+   445→   445→            </div>
+   446→   446→            <p className="mt-2.5 flex items-center gap-1.5 text-xs text-stone-500">
+   447→   447→              <Sparkles className="h-3 w-3" aria-hidden="true" />
+   448→   448→              Documented by the Aesthetic Atlas research pipeline.
+   449→   449→            </p>
+   450→   450→          </footer>
+   451→   451→        </div>
+   452→   452→      </div>
+   453→   453→    </article>
+   454→   454→  )
+   455→   455→}
+   456→   456→
+   457→   457→/* ---------------------------------- sections ---------------------------------- */
+   458→   458→
+   459→   459→function DnaSection({ dnaAxes }: { dnaAxes: Record<string, number> }) {
+   460→   460→  if (Object.keys(dnaAxes).length === 0) return null
+   461→   461→  return (
+   462→   462→    <section aria-label="Aesthetic DNA">
+   463→   463→      <SectionHeading hint="Where the style sits on each aesthetic dimension.">
+   464→   464→        Aesthetic DNA
+   465→   465→      </SectionHeading>
+   466→   466→      <DnaBars dnaAxes={dnaAxes} />
+   467→   467→    </section>
+   468→   468→  )
+   469→   469→}
+   470→   470→
+   471→   471→function EmotionSection({ profile }: { profile: Record<string, number> }) {
+   472→   472→  if (Object.keys(profile).length === 0) return null
+   473→   473→  return (
+   474→   474→    <section aria-label="Emotional profile">
+   475→   475→      <SectionHeading hint="The feelings this aesthetic reliably produces.">
+   476→   476→        Emotional profile
+   477→   477→      </SectionHeading>
+   478→   478→      <div className="grid items-center gap-6 rounded-lg border border-stone-200 bg-white p-4 sm:grid-cols-[240px_minmax(0,1fr)] sm:p-6">
+   479→   479→        <EmotionRadar profile={profile} />
+   480→   480→        <EmotionBars profile={profile} />
+   481→   481→      </div>
+   482→   482→    </section>
+   483→   483→  )
+   484→   484→}
+   485→   485→
+   486→   486→function IngredientsSection({ a }: { a: AestheticFull }) {
+   487→   487→  const hasAny =
+   488→   488→    a.colors.length > 0 ||
+   489→   489→    a.materials.length > 0 ||
+   490→   490→    a.textures.length > 0 ||
+   491→   491→    a.objects.length > 0 ||
+   492→   492→    a.keyExamples.length > 0 ||
+   493→   493→    a.sounds.length > 0
+   494→   494→  if (!hasAny) return null
+   495→   495→
+   496→   496→  return (
+   497→   497→    <section aria-label="The ingredients">
+   498→   498→      <SectionHeading hint="The raw vocabulary of the style.">The ingredients</SectionHeading>
+   499→   499→      <div className="space-y-4">
+   500→   500→        {a.colors.length > 0 && (
+   501→   501→          <ChipRow label="Colors">
+   502→   502→            {a.colors.map((c, i) => (
+   503→   503→              <ColorSwatch key={`${c.hex}-${i}`} color={c} />
+   504→   504→            ))}
+   505→   505→          </ChipRow>
+   506→   506→        )}
+   507→   507→        {a.materials.length > 0 && (
+   508→   508→          <ChipRow label="Materials">
+   509→   509→            {a.materials.map((m) => (
+   510→   510→              <Chip key={m} tone="accent">
+   511→   511→                {m}
+   512→   512→              </Chip>
+   513→   513→            ))}
+   514→   514→          </ChipRow>
+   515→   515→        )}
+   516→   516→        {a.textures.length > 0 && (
+   517→   517→          <div>
+   518→   518→            <p className="mb-1.5 text-[11px] font-medium uppercase tracking-[0.14em] text-stone-500">
+   519→   519→              Textures (rendered samples)
+   520→   520→            </p>
+   521→   521→            <TextureSwatches textures={a.textures} colors={a.colors} />
+   522→   522→          </div>
+   523→   523→        )}
+   524→   524→        {a.objects.length > 0 && (
+   525→   525→          <ChipRow label="Objects">
+   526→   526→            {a.objects.map((o) => (
+   527→   527→              <Chip key={o}>{o}</Chip>
+   528→   528→            ))}
+   529→   529→          </ChipRow>
+   530→   530→        )}
+   531→   531→        {a.sounds.length > 0 && (
+   532→   532→          <ChipRow label="Sounds">
+   533→   533→            {a.sounds.map((s) => (
+   534→   534→              <Chip key={s}>{s}</Chip>
+   535→   535→            ))}
+   536→   536→          </ChipRow>
+   537→   537→        )}
+   538→   538→        {a.keyExamples.length > 0 && (
+   539→   539→          <ChipRow label="Key examples">
+   540→   540→            {a.keyExamples.map((k) => (
+   541→   541→              <Chip key={k} tone="accent">
+   542→   542→                {k}
+   543→   543→              </Chip>
+   544→   544→            ))}
+   545→   545→          </ChipRow>
+   546→   546→        )}
+   547→   547→      </div>
+   548→   548→    </section>
+   549→   549→  )
+   550→   550→}
+   551→   551→
+   552→   552→function ChipRow({ label, children }: { label: string; children: React.ReactNode }) {
+   553→   553→  return (
+   554→   554→    <div>
+   555→   555→      <p className="mb-1.5 text-[11px] font-medium uppercase tracking-[0.14em] text-stone-500">
+   556→   556→        {label}
+   557→   557→      </p>
+   558→   558→      <div className="flex flex-wrap gap-1.5">{children}</div>
+   559→   559→    </div>
+   560→   560→  )
+   561→   561→}
+   562→   562→
+   563→   563→function TypographySection({ typography }: { typography: Record<string, string> }) {
+   564→   564→  const entries = Object.entries(typography)
+   565→   565→  if (entries.length === 0) return null
+   566→   566→  return (
+   567→   567→    <section aria-label="Typography">
+   568→   568→      <SectionHeading>Type &amp; letterforms</SectionHeading>
+   569→   569→      <div className="grid gap-3 sm:grid-cols-2">
+   570→   570→        {entries.map(([k, v]) => (
+   571→   571→          <div key={k} className="rounded-lg border border-stone-200 bg-white p-4">
+   572→   572→            <p className="text-[11px] font-medium uppercase tracking-[0.14em] text-[#8a6d3b]">
+   573→   573→              {labelize(k)}
+   574→   574→            </p>
+   575→   575→            <p
+   576→   576→              className={
+   577→   577→                k === 'display'
+   578→   578→                  ? 'mt-1.5 font-serif text-lg italic leading-snug text-stone-800'
+   579→   579→                  : 'mt-1.5 text-sm leading-relaxed text-stone-600'
+   580→   580→              }
+   581→   581→            >
+   582→   582→              {v}
+   583→   583→            </p>
+   584→   584→          </div>
+   585→   585→        ))}
+   586→   586→      </div>
+   587→   587→    </section>
+   588→   588→  )
+   589→   589→}
+   590→   590→
+   591→   591→function FieldCardGrid({
+   592→   592→  title,
+   593→   593→  hint,
+   594→   594→  cards,
+   595→   595→}: {
+   596→   596→  title: string
+   597→   597→  hint: string
+   598→   598→  cards: { key: string; title: string; icon: React.ReactNode; data: Record<string, string> }[]
+   599→   599→}) {
+   600→   600→  const present = cards.filter((c) => Object.keys(c.data).length > 0)
+   601→   601→  if (present.length === 0) return null
+   602→   602→  return (
+   603→   603→    <section aria-label={title}>
+   604→   604→      <SectionHeading hint={hint}>{title}</SectionHeading>
+   605→   605→      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+   606→   606→        {present.map((c) => (
+   607→   607→          <div key={c.key} className="rounded-lg border border-stone-200 bg-white p-4">
+   608→   608→            <p className="flex items-center gap-2 text-sm font-medium text-stone-800">
+   609→   609→              <span className="text-[#8a6d3b]">{c.icon}</span>
+   610→   610→              {c.title}
+   611→   611→            </p>
+   612→   612→            <dl className="mt-2.5 space-y-2">
+   613→   613→              {Object.entries(c.data).map(([k, v]) => (
+   614→   614→                <div key={k}>
+   615→   615→                  <dt className="text-[11px] uppercase tracking-[0.12em] text-stone-400">{labelize(k)}</dt>
+   616→   616→                  <dd className="text-sm leading-relaxed text-stone-600">{v}</dd>
+   617→   617→                </div>
+   618→   618→              ))}
+   619→   619→            </dl>
+   620→   620→          </div>
+   621→   621→        ))}
+   622→   622→      </div>
+   623→   623→    </section>
+   624→   624→  )
+   625→   625→}
+   626→   626→
+   627→   627→function RecipeSection({ recipe }: { recipe: Record<string, string | string[]> }) {
+   628→   628→  const entries = Object.entries(recipe)
+   629→   629→  if (entries.length === 0) return null
+   630→   630→  return (
+   631→   631→    <section aria-label="Design recipe">
+   632→   632→      <SectionHeading hint="Everything you need to recreate the aesthetic.">
+   633→   633→        Design recipe
+   634→   634→      </SectionHeading>
+   635→   635→      <div className="rounded-lg border border-stone-200 bg-white p-4 sm:p-6">
+   636→   636→        <div className="grid gap-4 sm:grid-cols-2">
+   637→   637→          {entries.map(([k, v]) => (
+   638→   638→            <div key={k}>
+   639→   639→              <p className="flex items-center gap-1.5 text-[11px] font-medium uppercase tracking-[0.14em] text-[#8a6d3b]">
+   640→   640→                <FlaskConical className="h-3 w-3" aria-hidden="true" />
+   641→   641→                {labelize(k)}
+   642→   642→              </p>
+   643→   643→              {Array.isArray(v) ? (
+   644→   644→                <div className="mt-1.5 flex flex-wrap gap-1.5">
+   645→   645→                  {v.map((x) => (
+   646→   646→                    <Chip key={x}>{x}</Chip>
+   647→   647→                  ))}
+   648→   648→                </div>
+   649→   649→              ) : (
+   650→   650→                <p className="mt-1 text-sm leading-relaxed text-stone-600">{v}</p>
+   651→   651→              )}
+   652→   652→            </div>
+   653→   653→          ))}
+   654→   654→        </div>
+   655→   655→      </div>
+   656→   656→    </section>
+   657→   657→  )
+   658→   658→}
+   659→   659→
+   660→   660→interface RelationEdge {
+   661→   661→  type: string
+   662→   662→  note?: string
+   663→   663→  target?: { slug: string; name: string; category: string }
+   664→   664→  source?: { slug: string; name: string; category: string }
+   665→   665→}
+   666→   666→
+   667→   667→function RelationsSection({
+   668→   668→  relations,
+   669→   669→  onNavigate,
+   670→   670→}: {
+   671→   671→  relations: { outgoing: RelationEdge[]; incoming: RelationEdge[] }
+   672→   672→  onNavigate: (slug: string) => void
+   673→   673→}) {
+   674→   674→  if (relations.outgoing.length === 0 && relations.incoming.length === 0) {
+   675→   675→    return (
+   676→   676→      <section aria-label="Relationships">
+   677→   677→        <SectionHeading>Relationships</SectionHeading>
+   678→   678→        <p className="text-sm text-stone-500">No documented relationships yet — the pipeline may link this entry later.</p>
+   679→   679→      </section>
+   680→   680→    )
+   681→   681→  }
+   682→   682→
+   683→   683→  const group = (edges: RelationEdge[]) => {
+   684→   684→    const map = new Map<string, RelationEdge[]>()
+   685→   685→    for (const e of edges) {
+   686→   686→      const list = map.get(e.type) ?? []
+   687→   687→      list.push(e)
+   688→   688→      map.set(e.type, list)
+   689→   689→    }
+   690→   690→    return [...map.entries()]
+   691→   691→  }
+   692→   692→
+   693→   693→  return (
+   694→   694→    <section aria-label="Relationships">
+   695→   695→      <SectionHeading hint="The aesthetic family tree.">Relationships</SectionHeading>
+   696→   696→      <div className="space-y-4">
+   697→   697→        {relations.outgoing.length > 0 && (
+   698→   698→          <div>
+   699→   699→            <p className="mb-1.5 flex items-center gap-1.5 text-[11px] font-medium uppercase tracking-[0.14em] text-stone-500">
+   700→   700→              <ArrowRight className="h-3 w-3" aria-hidden="true" /> Outgoing
+   701→   701→            </p>
+   702→   702→            <div className="space-y-2.5">
+   703→   703→              {group(relations.outgoing).map(([type, edges]) => (
+   704→   704→                <div key={type} className="flex flex-wrap items-center gap-1.5">
+   705→   705→                  <span className="mr-1 min-w-fit text-xs capitalize text-stone-400">
+   706→   706→                    {labelize(type)}:
+   707→   707→                  </span>
+   708→   708→                  {edges.map((e) =>
+   709→   709→                    e.target ? (
+   710→   710→                      <RelationChip
+   711→   711→                        key={`${e.target.slug}-${type}`}
+   712→   712→                        name={e.target.name}
+   713→   713→                        note={e.note}
+   714→   714→                        onClick={() => onNavigate(e.target!.slug)}
+   715→   715→                      />
+   716→   716→                    ) : null
+   717→   717→                  )}
+   718→   718→                </div>
+   719→   719→              ))}
+   720→   720→            </div>
+   721→   721→          </div>
+   722→   722→        )}
+   723→   723→        {relations.incoming.length > 0 && (
+   724→   724→          <div>
+   725→   725→            <p className="mb-1.5 flex items-center gap-1.5 text-[11px] font-medium uppercase tracking-[0.14em] text-stone-500">
+   726→   726→              <ArrowLeft className="h-3 w-3" aria-hidden="true" /> Incoming
+   727→   727→            </p>
+   728→   728→            <div className="space-y-2.5">
+   729→   729→              {group(relations.incoming).map(([type, edges]) => (
+   730→   730→                <div key={type} className="flex flex-wrap items-center gap-1.5">
+   731→   731→                  <span className="mr-1 min-w-fit text-xs capitalize text-stone-400">
+   732→   732→                    {labelize(type)}:
+   733→   733→                  </span>
+   734→   734→                  {edges.map((e) =>
+   735→   735→                    e.source ? (
+   736→   736→                      <RelationChip
+   737→   737→                        key={`${e.source.slug}-${type}`}
+   738→   738→                        name={e.source.name}
+   739→   739→                        note={e.note}
+   740→   740→                        onClick={() => onNavigate(e.source!.slug)}
+   741→   741→                      />
+   742→   742→                    ) : null
+   743→   743→                  )}
+   744→   744→                </div>
+   745→   745→              ))}
+   746→   746→            </div>
+   747→   747→          </div>
+   748→   748→        )}
+   749→   749→      </div>
+   750→   750→    </section>
+   751→   751→  )
+   752→   752→}
+   753→   753→
+   754→   754→function RelationChip({
+   755→   755→  name,
+   756→   756→  note,
+   757→   757→  onClick,
+   758→   758→}: {
+   759→   759→  name: string
+   760→   760→  note?: string
+   761→   761→  onClick: () => void
+   762→   762→}) {
+   763→   763→  return (
+   764→   764→    <button
+   765→   765→      type="button"
+   766→   766→      onClick={onClick}
+   767→   767→      title={note || undefined}
+   768→   768→      className="inline-flex min-h-[32px] items-center gap-1.5 rounded-full border border-stone-300 bg-white px-3 py-1 text-sm text-stone-700 shadow-sm transition-colors hover:border-[#b08d57] hover:bg-[#f7f0df] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b08d57]"
+   769→   769→    >
+   770→   770→      <Link2 className="h-3 w-3 text-[#8a6d3b]" aria-hidden="true" />
+   771→   771→      {name}
+   772→   772→    </button>
+   773→   773→  )
+   774→   774→}
+   775→   775→
+   776→   776→function TierBadge({ tier }: { tier: string }) {
+   777→   777→  const t = tier.toUpperCase()
+   778→   778→  const styles: Record<string, string> = {
+   779→   779→    A: 'bg-[#8a6d3b] text-[#fdfcf8]',
+   780→   780→    B: 'bg-[#f0e4c8] text-[#6f5527]',
+   781→   781→    C: 'bg-stone-200 text-stone-600',
+   782→   782→    D: 'bg-stone-100 text-stone-400',
+   783→   783→  }
+   784→   784→  return (
+   785→   785→    <span
+   786→   786→      className={`inline-flex h-5 w-5 shrink-0 items-center justify-center rounded text-[10px] font-bold ${styles[t] ?? styles.C}`}
+   787→   787→      title={`Source tier ${t}`}
+   788→   788→      aria-label={`Source tier ${t}`}
+   789→   789→    >
+   790→   790→      {t}
+   791→   791→    </span>
+   792→   792→  )
+   793→   793→}
+   794→   794→

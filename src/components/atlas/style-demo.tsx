@@ -234,6 +234,78 @@ function stackLabel(stack: string): string {
   return first || 'System default'
 }
 
+/* --------------------------- web-served Google fonts --------------------------- */
+
+/**
+ * Real Google Fonts families the type specimen can load on demand. Only
+ * families that are 100% certain to exist on Google Fonts are listed — the
+ * names here are the exact CSS family names. Matching is case-insensitive
+ * with whitespace collapsed, so "playfair  display" still resolves.
+ */
+const GOOGLE_FONTS: ReadonlySet<string> = new Set([
+  // serif & display serif
+  'Playfair Display', 'Cormorant Garamond', 'Cormorant', 'Cormorant Infant', 'DM Serif Display',
+  'DM Serif Text', 'Libre Baskerville', 'EB Garamond', 'Crimson Pro', 'Crimson Text',
+  'Spectral', 'Lora', 'Bitter', 'Arvo', 'Zilla Slab',
+  'Fraunces', 'Bodoni Moda', 'Abril Fatface', 'Newsreader', 'Petrona',
+  'Source Serif 4', 'Noto Serif', 'Prata', 'Young Serif', 'Instrument Serif',
+  // sans, grotesque & condensed
+  'Work Sans', 'Inter', 'Manrope', 'Outfit', 'Sora',
+  'Unbounded', 'Syne', 'Space Grotesk', 'IBM Plex Sans', 'IBM Plex Serif',
+  'IBM Plex Mono', 'Space Mono', 'Archivo', 'Archivo Black', 'Barlow',
+  'Barlow Condensed', 'Oswald', 'Bebas Neue', 'Anton', 'Rubik',
+  'Jost', 'Josefin Sans', 'Poiret One', 'Raleway', 'Montserrat',
+  'Quicksand', 'Comfortaa', 'Fredoka', 'Baloo 2', 'DM Sans',
+  'Karla', 'Chivo', 'Khand', 'Teko', 'Rajdhani',
+  'Saira Condensed', 'Big Shoulders Display',
+  // display, decorative, blackletter, pixel & script
+  'Righteous', 'Orbitron', 'Audiowide', 'Tourney', 'Gruppo',
+  'Julius Sans One', 'VT323', 'Press Start 2P', 'Silkscreen', 'Pixelify Sans',
+  'Major Mono Display', 'Rubik Mono One', 'Grenze', 'Grenze Gotisch', 'UnifrakturCook',
+  'UnifrakturMaguntia', 'Pirata One', 'MedievalSharp', 'Cinzel', 'Cinzel Decorative',
+  'Marcellus', 'Homemade Apple', 'Caveat', 'Shadows Into Light', 'Permanent Marker',
+  'Rock Salt', 'Bangers', 'Alfa Slab One', 'Ultra', 'Chonburi',
+  'Trirong',
+  // multilingual companions
+  'Noto Sans JP', 'Noto Serif JP', 'Noto Sans KR', 'Noto Serif KR', 'Noto Sans SC',
+  'Noto Serif SC', 'Noto Sans Arabic', 'Amiri', 'Scheherazade New', 'Lalezar',
+  'Vazirmatn',
+])
+
+const GOOGLE_FONT_LOOKUP: ReadonlyMap<string, string> = new Map(
+  [...GOOGLE_FONTS].map((f) => [f.toLowerCase().replace(/\s+/g, ' '), f])
+)
+
+/** Resolve a (possibly sloppy) family name to its canonical Google Fonts name, or null. */
+function lookupGoogleFont(name: string): string | null {
+  const n = name.replace(/["']/g, '').replace(/\s+/g, ' ').trim().toLowerCase()
+  return GOOGLE_FONT_LOOKUP.get(n) ?? null
+}
+
+/** Extract the first family name from a pairing value ("Bodoni Moda, serif" → "Bodoni Moda"). */
+function firstFontFamily(value: string | undefined | null): string | null {
+  if (!value) return null
+  const first = (value.split(',')[0] ?? '').replace(/["']/g, '').trim()
+  return first || null
+}
+
+const loadedGoogleFonts = new Set<string>()
+
+/**
+ * Inject the Google Fonts stylesheet for a family once per page load.
+ * Deduped via a module-level set; a no-op during SSR.
+ */
+function loadGoogleFont(family: string): void {
+  if (typeof document === 'undefined') return
+  const canonical = lookupGoogleFont(family)
+  if (!canonical || loadedGoogleFonts.has(canonical)) return
+  loadedGoogleFonts.add(canonical)
+  const link = document.createElement('link')
+  link.rel = 'stylesheet'
+  link.href = `https://fonts.googleapis.com/css2?family=${canonical.replace(/ /g, '+')}&display=swap`
+  document.head.appendChild(link)
+}
+
 /* ------------------------------ textures ------------------------------ */
 
 interface TexturePattern {
@@ -1165,11 +1237,32 @@ function PatternDemo({ a, p, bf, shadow, overlay }: DemoProps) {
 /* ------------------------------ template: type specimen ------------------------------ */
 
 function TypeSpecimenDemo({ a, p, df, bf, shadow }: DemoProps) {
+  // Real typeface pairing from the enrichment pipeline (falls back to the
+  // typography-derived system stacks when no real font is documented).
+  const pairing = a.typePairing ?? {}
+  const displayReal = firstFontFamily(pairing.display)
+  const bodyReal = firstFontFamily(pairing.body)
+  const displayWeb = displayReal ? lookupGoogleFont(displayReal) : null
+  const bodyWeb = bodyReal ? lookupGoogleFont(bodyReal) : null
+  const displayStack = displayWeb ? `'${displayWeb}', ${df.stack}` : df.stack
+  const bodyStack = bodyWeb ? `'${bodyWeb}', ${bf}` : bf
+
+  useEffect(() => {
+    if (displayWeb) loadGoogleFont(displayWeb)
+    if (bodyWeb && bodyWeb !== displayWeb) loadGoogleFont(bodyWeb)
+  }, [displayWeb, bodyWeb])
+
+  const unserved = [
+    displayReal && !displayWeb ? displayReal : null,
+    bodyReal && !bodyWeb ? bodyReal : null,
+  ].filter((n): n is string => n !== null)
+
   const rows: [string, string][] = [
     ['Display', a.typography.display ?? ''],
     ['Body', a.typography.body ?? ''],
     ['Notes', a.typography.notes ?? ''],
   ]
+  if (pairing.notes) rows.push(['Pairing', pairing.notes])
   const h = hashStr(`${a.slug}:type`)
   return (
     <div className="overflow-hidden rounded-xl border shadow-lg" style={{ borderColor: rgba(p.ink, 0.18), boxShadow: shadow, background: p.bg }}>
@@ -1186,35 +1279,40 @@ function TypeSpecimenDemo({ a, p, df, bf, shadow }: DemoProps) {
       <div className="px-5 py-5 sm:px-6">
         {/* giant Aa */}
         <div className="flex flex-wrap items-end justify-between gap-4">
-          <p className="leading-[0.85]" style={{ fontFamily: df.stack, fontWeight: df.weight }}>
+          <p className="leading-[0.85]" style={{ fontFamily: displayStack, fontWeight: df.weight }}>
             <span className="block" style={{ color: p.ink, fontSize: 'clamp(3.4rem, 9vw, 6rem)', letterSpacing: df.tracking }}>
               A
               <span style={{ color: p.accent }}>a</span>
             </span>
           </p>
           <div className="min-w-0 pb-1 text-right">
-            <p className="truncate text-sm" style={{ color: p.ink, fontFamily: df.stack, fontWeight: df.weight }}>
-              {stackLabel(df.stack)}
+            <p className="truncate text-sm" style={{ color: p.ink, fontFamily: displayStack, fontWeight: df.weight }} title={displayReal ?? undefined}>
+              {displayReal ?? stackLabel(df.stack)}
             </p>
             <p className="mt-0.5 text-[10px] uppercase" style={{ letterSpacing: '0.18em', color: rgba(p.ink, 0.5), fontFamily: bf }}>
               {a.name} display face
             </p>
+            {bodyReal && (
+              <p className="mt-0.5 truncate text-[10px] uppercase" style={{ letterSpacing: '0.18em', color: rgba(p.ink, 0.5), fontFamily: bodyStack }}>
+                Body — {bodyReal}
+              </p>
+            )}
           </div>
         </div>
 
         {/* character rows */}
         <div className="mt-4 space-y-2 border-t pt-4" style={{ borderColor: rgba(p.ink, 0.12) }}>
           {['ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz', '0123456789 ·,&?!@#%'].map((row) => (
-            <p key={row} className="break-all text-base leading-snug sm:text-lg" style={{ fontFamily: df.stack, letterSpacing: df.tracking, color: rgba(p.ink, 0.85) }} aria-label={`Character set: ${row}`}>
+            <p key={row} className="break-all text-base leading-snug sm:text-lg" style={{ fontFamily: displayStack, letterSpacing: df.tracking, color: rgba(p.ink, 0.85) }} aria-label={`Character set: ${row}`}>
               {row}
             </p>
           ))}
-          <p className="mt-2 break-words text-sm leading-relaxed" style={{ fontFamily: bf, color: rgba(p.ink, 0.65) }}>
+          <p className="mt-2 break-words text-sm leading-relaxed" style={{ fontFamily: bodyStack, color: rgba(p.ink, 0.65) }}>
             Sphinx of black quartz, judge my vow — the quick brown fox jumps over the lazy dog.
           </p>
         </div>
 
-        {/* annotations from typography data */}
+        {/* annotations from typography + pairing data */}
         <dl className="mt-4 border-t" style={{ borderColor: rgba(p.ink, 0.12) }}>
           {rows.map(([label, value]) => (
             <div key={label} className="flex items-baseline justify-between gap-4 border-b py-2" style={{ borderColor: rgba(p.ink, 0.08) }}>
@@ -1228,9 +1326,17 @@ function TypeSpecimenDemo({ a, p, df, bf, shadow }: DemoProps) {
           ))}
         </dl>
 
+        {/* honesty note when a documented family cannot be web-served */}
+        {unserved.length > 0 && (
+          <p className="mt-3 text-[10px] italic leading-relaxed" style={{ color: rgba(p.ink, 0.45), fontFamily: bf }}>
+            Typeface shown in closest available stack — {unserved.map((n) => `‘${n}’`).join(' and ')}{' '}
+            {unserved.length === 1 ? 'is' : 'are'} not web-served.
+          </p>
+        )}
+
         {/* spec chips */}
         <div className="mt-3 flex flex-wrap gap-1.5">
-          {[`Weight ${df.weight}`, `Tracking ${df.tracking}`, `Case ${df.transform}`, `Stack ${stackLabel(df.stack)}`].map((chip) => (
+          {[`Weight ${df.weight}`, `Tracking ${df.tracking}`, `Case ${df.transform}`, `Stack ${stackLabel(displayStack)}`].map((chip) => (
             <span key={chip} className="rounded border px-2 py-0.5 text-[9px] uppercase tracking-[0.12em]" style={{ borderColor: rgba(p.ink, 0.2), color: rgba(p.ink, 0.6), fontFamily: MONO }}>
               {chip}
             </span>

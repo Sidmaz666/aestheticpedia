@@ -25,6 +25,14 @@ export interface ImageEntry {
   height: string
 }
 
+/** One "where to read / watch / visit / explore it" deep link. */
+export interface ReferenceEntry {
+  type: string
+  title: string
+  url: string
+  note?: string
+}
+
 /** Compact record used in grids/lists. */
 export interface AestheticSummary {
   slug: string
@@ -75,6 +83,10 @@ export interface AestheticFull extends AestheticSummary {
   sounds: string[]
   sources: SourceEntry[]
   images: ImageEntry[]
+  /** Curated external links grouped by kind (article/video/museum/...). */
+  references: ReferenceEntry[]
+  /** Real typeface pairing: { display, body, notes } (font family names). */
+  typePairing: Record<string, string>
   verifiedAt: string | null
   createdAt: string
   updatedAt: string
@@ -284,6 +296,43 @@ export function asSourceArray(value: unknown, fallback: SourceEntry[] = []): Sou
     .filter((s): s is SourceEntry => s !== null)
 }
 
+/** Reference kinds the detail sheet knows how to render. */
+const REFERENCE_TYPES = new Set([
+  'article',
+  'video',
+  'museum',
+  'exhibition',
+  'web',
+  'archive',
+  'scholar',
+  'images',
+])
+
+/** Coerce an unknown value into a safe ReferenceEntry[] (http(s) URLs, ~10 cap). */
+export function asReferenceArray(value: unknown, fallback: ReferenceEntry[] = []): ReferenceEntry[] {
+  if (!Array.isArray(value)) return fallback
+  return value
+    .map((ref): ReferenceEntry | null => {
+      if (!ref || typeof ref !== 'object') return null
+      const rec = ref as Record<string, unknown>
+      const url = typeof rec.url === 'string' && /^https?:\/\//.test(rec.url) ? rec.url : ''
+      const title = typeof rec.title === 'string' ? rec.title.trim() : ''
+      if (!url || !title) return null
+      const type =
+        typeof rec.type === 'string' && REFERENCE_TYPES.has(rec.type.toLowerCase())
+          ? rec.type.toLowerCase()
+          : 'web'
+      return {
+        type,
+        title: title.slice(0, 160),
+        url,
+        note: typeof rec.note === 'string' && rec.note.trim() ? rec.note.trim().slice(0, 200) : undefined,
+      }
+    })
+    .filter((ref): ref is ReferenceEntry => ref !== null)
+    .slice(0, 10)
+}
+
 export function asImageArray(value: unknown, fallback: ImageEntry[] = []): ImageEntry[] {
   if (!Array.isArray(value)) return fallback
   return value
@@ -347,6 +396,8 @@ export interface AestheticRow {
   sounds: string
   sources: string
   images: string
+  references: string
+  typePairing: string
   tags: string
   popularity: number
   isNiche: boolean
@@ -417,6 +468,8 @@ export function mapAestheticFull(row: AestheticRow): AestheticFull {
     sounds: asStringArray(safeParse<unknown>(row.sounds, [])),
     sources: asSourceArray(safeParse<unknown>(row.sources, [])),
     images: asImageArray(safeParse<unknown>(row.images, [])),
+    references: asReferenceArray(safeParse<unknown>(row.references, [])),
+    typePairing: asStringRecord(safeParse<unknown>(row.typePairing, {})),
     verifiedAt: iso(row.verifiedAt),
     createdAt: iso(row.createdAt) ?? new Date(0).toISOString(),
     updatedAt: iso(row.updatedAt) ?? new Date(0).toISOString(),

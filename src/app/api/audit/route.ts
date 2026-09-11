@@ -31,6 +31,8 @@ export async function GET() {
       missingSounds,
       missingSources,
       missingImages,
+      missingReferences,
+      missingTypePairing,
       verified,
       researched,
       draft,
@@ -52,6 +54,8 @@ export async function GET() {
       db.aesthetic.count({ where: { sounds: '[]' } }),
       db.aesthetic.count({ where: { sources: '[]' } }),
       db.aesthetic.count({ where: { images: '[]' } }),
+      db.aesthetic.count({ where: { references: '[]' } }),
+      db.aesthetic.count({ where: { typePairing: '{}' } }),
       db.aesthetic.count({ where: { status: 'verified' } }),
       db.aesthetic.count({ where: { status: 'researched' } }),
       db.aesthetic.count({ where: { status: 'draft' } }),
@@ -75,6 +79,8 @@ export async function GET() {
       { field: 'sonic identity', missing: missingSounds },
       { field: 'sources', missing: missingSources },
       { field: 'images', missing: missingImages },
+      { field: 'references', missing: missingReferences },
+      { field: 'font pairing', missing: missingTypePairing },
     ].sort((a, b) => b.missing - a.missing)
 
     // Core identity fields are weighted separately from deep decomposition:
@@ -87,10 +93,11 @@ export async function GET() {
       ? Math.round(((coreFields * total - coreMissing) / (coreFields * total)) * 100)
       : 100
 
-    const deepFields = 8
+    const deepFields = 10
     const deepMissing =
       missingDNA + missingTypography + missingLighting + missingUITranslation +
-      missingRecipe + missingSounds + missingSources + missingImages
+      missingRecipe + missingSounds + missingSources + missingImages +
+      missingReferences + missingTypePairing
     const deepComplete = total > 0
       ? Math.round(((deepFields * total - deepMissing) / (deepFields * total)) * 100)
       : 100

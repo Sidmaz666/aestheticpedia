@@ -2,8 +2,11 @@
 
 import { useMemo } from 'react'
 import {
+  Archive,
   ArrowLeft,
   ArrowRight,
+  ArrowUpRight,
+  BookOpen,
   Braces,
   Building2,
   CalendarDays,
@@ -12,6 +15,8 @@ import {
   ExternalLink,
   FlaskConical,
   Globe,
+  Images,
+  Landmark,
   Lamp,
   Link2,
   Loader2,
@@ -21,6 +26,7 @@ import {
   Sparkles,
   TreePine,
   Type,
+  Youtube,
 } from 'lucide-react'
 import { toast } from 'sonner'
 import { Badge } from '@/components/ui/badge'
@@ -42,6 +48,7 @@ import {
   ESTABLISHMENT_LABELS,
   labelize,
   type AestheticFull,
+  type ReferenceEntry,
 } from '@/lib/aesthetic'
 
 interface DetailSheetProps {
@@ -69,6 +76,8 @@ function RecordMeter({ a }: { a: AestheticFull }) {
     { label: 'sonic identity', ok: a.sounds.length > 0 },
     { label: 'sources', ok: a.sources.length > 0 },
     { label: 'images', ok: a.images.length > 0 },
+    { label: 'references', ok: a.references.length > 0 },
+    { label: 'font pairing', ok: Object.keys(a.typePairing ?? {}).length > 0 },
   ]
   const ok = checks.filter((c) => c.ok).length
   const missing = checks.filter((c) => !c.ok).map((c) => c.label)
@@ -422,6 +431,8 @@ function DetailBody({
             </section>
           )}
 
+          <ReferencesSection references={a.references} />
+
           {/* Meta footer */}
           <footer className="rounded-lg border border-stone-200 bg-[#f5f1e6] p-4">
             <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-stone-600">
@@ -770,6 +781,89 @@ function RelationChip({
       <Link2 className="h-3 w-3 text-[#8a6d3b]" aria-hidden="true" />
       {name}
     </button>
+  )
+}
+
+/* ------------------------------ references ------------------------------ */
+
+/** Cluster labels for reference kinds: Read / Watch / Visit / Explore. */
+const REFERENCE_GROUPS: { key: string; label: string; icon: React.ReactNode; types: Set<string> }[] = [
+  { key: 'read', label: 'Read', icon: <BookOpen className="h-3.5 w-3.5" aria-hidden="true" />, types: new Set(['article', 'scholar']) },
+  { key: 'watch', label: 'Watch', icon: <Youtube className="h-3.5 w-3.5" aria-hidden="true" />, types: new Set(['video']) },
+  { key: 'visit', label: 'Visit', icon: <Landmark className="h-3.5 w-3.5" aria-hidden="true" />, types: new Set(['museum', 'exhibition']) },
+  { key: 'explore', label: 'Explore', icon: <Globe className="h-3.5 w-3.5" aria-hidden="true" />, types: new Set(['web', 'archive', 'images']) },
+]
+
+const REF_ITEM_ICONS: Record<string, React.ComponentType<{ className?: string }>> = {
+  article: BookOpen,
+  scholar: BookOpen,
+  video: Youtube,
+  museum: Landmark,
+  exhibition: Landmark,
+  web: Globe,
+  archive: Archive,
+  images: Images,
+}
+
+function ReferencesSection({ references }: { references: ReferenceEntry[] }) {
+  if (references.length === 0) return null
+  const groups = REFERENCE_GROUPS.map((g) => ({
+    ...g,
+    items: references.filter((r) => g.types.has(r.type)),
+  })).filter((g) => g.items.length > 0)
+
+  return (
+    <section aria-label="References and where it is used">
+      <SectionHeading hint="Read, watch, visit or dig deeper — verified starting points beyond the entry itself.">
+        References &amp; where it&rsquo;s used
+      </SectionHeading>
+      <div className="space-y-4 rounded-lg border border-stone-200 bg-white p-4 sm:p-5">
+        {groups.map((g) => (
+          <div key={g.key}>
+            <p className="mb-1 flex items-center gap-1.5 text-[11px] font-medium uppercase tracking-[0.14em] text-stone-500">
+              <span className="text-[#8a6d3b]">{g.icon}</span>
+              {g.label}
+            </p>
+            <ul className="divide-y divide-stone-100">
+              {g.items.map((r, i) => {
+                const ItemIcon = REF_ITEM_ICONS[r.type] ?? Globe
+                return (
+                  <li key={`${r.url}-${i}`}>
+                    <a
+                      href={r.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group flex items-start justify-between gap-3 py-2.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b08d57]"
+                    >
+                      <span className="min-w-0">
+                        <span className="flex flex-wrap items-center gap-2">
+                          <span className="text-sm font-medium text-[#6f5527] underline decoration-[#8a6d3b]/30 underline-offset-2 transition-colors group-hover:decoration-[#8a6d3b]">
+                            {r.title}
+                          </span>
+                          <span className="rounded border border-stone-200 bg-stone-50 px-1.5 py-px text-[10px] uppercase tracking-wide text-stone-500">
+                            {r.type}
+                          </span>
+                        </span>
+                        {r.note && (
+                          <span className="mt-0.5 block text-xs leading-relaxed text-stone-500">{r.note}</span>
+                        )}
+                      </span>
+                      <span className="flex shrink-0 items-center gap-1 pt-0.5 text-stone-400">
+                        <ItemIcon className="h-3.5 w-3.5" aria-hidden="true" />
+                        <ArrowUpRight
+                          className="h-3 w-3 transition-transform group-hover:-translate-y-px group-hover:translate-x-px"
+                          aria-hidden="true"
+                        />
+                      </span>
+                    </a>
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
   )
 }
 

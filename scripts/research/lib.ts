@@ -120,10 +120,17 @@ export async function llmJSON(system: string, user: string, retries = 5): Promis
     } catch (e: any) {
       lastErr = e
       const msg = String(e?.message ?? '')
-      if (i < retries) {
-        const is429 = msg.includes('429') || msg.toLowerCase().includes('too many')
-        await sleep(is429 ? Math.min(20000 * i, 60000) : 2000 * i)
+      const is429 = msg.includes('429') || msg.toLowerCase().includes('too many')
+      if (is429) {
+        // Gentle backoff: a 429 means the shared quota window is exhausted.
+        // Stop immediately and rest — aggressive retry hammering is counter-
+        // productive (and trips platform-level watchdogs). The caller's skip/
+        // re-queue logic makes every abandoned attempt cheap to redo later.
+        rateLimitedUntil = Math.max(rateLimitedUntil, Date.now() + 120_000)
+        logRate('429 — cooling down 2 minutes')
+        throw lastErr
       }
+      if (i < retries) await sleep(2000 * i)
     }
   }
   if (isRateLimitedError(lastErr)) {
@@ -314,6 +321,103 @@ function sourceArr(v: any): Array<{ name: string; url: string; tier: string }> {
   return out
 }
 
+// ---------- references (always-resolving deep links) ----------
+
+/**
+ * References = "where to read / watch / see / research this aesthetic".
+ * Policy (no fabricated links, ever):
+ * - LLM-provided URLs are kept ONLY on a trusted-domain allowlist.
+ * - YouTube watch links are rewritten to YouTube *search* deep-links
+ *   (watch IDs cannot be verified; search URLs always resolve).
+ * - Untrusted hosts are rewritten to deterministic Google search deep-links.
+ * - Every entry additionally gets deterministic deep-links: Wikipedia article,
+ *   YouTube search, Google Scholar, Internet Archive, museum-collection search,
+ *   Google Images — all constructed from the name, all guaranteed to resolve.
+ */
+export interface RefEntry {
+  type: string // article | video | museum | exhibition | web | archive | scholar | images
+  title: string
+  url: string
+  note: string
+}
+
+const TRUSTED_HOSTS = new Set([
+  'wikipedia.org', 'en.wikipedia.org', 'simple.wikipedia.org',
+  'aesthetics.fandom.com', 'fandom.com', 'villains.fandom.com',
+  'youtube.com', 'www.youtube.com', 'youtu.be', 'vimeo.com', 'www.vimeo.com', 'dailymotion.com',
+  'moma.org', 'www.moma.org', 'metmuseum.org', 'www.metmuseum.org',
+  'vam.ac.uk', 'www.vam.ac.uk', 'tate.org.uk', 'www.tate.org.uk',
+  'si.edu', 'www.si.edu', 'americanart.si.edu', 'cooperhewitt.org',
+  'britannica.com', 'www.britannica.com', 'smithsonianmag.com', 'www.smithsonianmag.com',
+  'archdaily.com', 'www.archdaily.com', 'dezeen.com', 'www.dezeen.com',
+  'itsnicethat.com', 'www.itsnicethat.com', 'designboom.com', 'www.designboom.com',
+  'atlasobscura.com', 'www.atlasobscura.com', 'artsandculture.google.com',
+  'archive.org', 'details.archive.org', 'getty.edu', 'www.getty.edu',
+  'ria.ie', 'nationalgallery.org.uk', 'www.nationalgallery.org.uk', 'rijksmuseum.nl', 'www.rijksmuseum.nl',
+  'louvre.fr', 'www.louvre.fr', 'britishmuseum.org', 'www.britishmuseum.org',
+  'nga.gov', 'www.nga.gov', 'artic.edu', 'www.artic.edu', 'sfmoma.org', 'www.sfmoma.org',
+  'guggenheim.org', 'www.guggenheim.org', 'centrepompidou.fr', 'bauhaus-dessau.de',
+  'aiga.org', 'fonts.google.com', 'fontsinuse.com', 'www.fontsinuse.com',
+  'letterformarchive.org', 'archiveofaffinities.tumblr.com', 'sensesofcinema.com',
+  'bfi.org.uk', 'www.bfi.org.uk', 'criterion.com', 'www.criterion.com', 'mubi.com',
+])
+
+const REF_TYPES = new Set(['article', 'video', 'museum', 'exhibition', 'web', 'archive', 'scholar', 'images'])
+
+function sanitizeRefURL(url: string, title: string, name: string): { url: string; type: string } | null {
+  if (!/^https?:\/\//.test(url) || /\s/.test(url)) return null
+  // YouTube direct links -> search deep-link (never trust fabricated watch IDs)
+  if (/youtube\.com\/watch|youtu\.be\//.test(url)) {
+    return { url: `https://www.youtube.com/results?search_query=${encodeURIComponent(title || name)}`, type: 'video' }
+  }
+  let host = ''
+  try { host = new URL(url).hostname } catch { return null }
+  if (!TRUSTED_HOSTS.has(host)) return null
+  return { url, type: 'web' }
+}
+
+export function refArr(raw: any, name: string, category: string, maxLLM = 3): RefEntry[] {
+  const out: RefEntry[] = []
+  const seen = new Set<string>()
+  const push = (r: RefEntry) => {
+    if (!r.url || seen.has(r.url) || out.length >= 8) return
+    seen.add(r.url)
+    out.push(r)
+  }
+  if (Array.isArray(raw)) {
+    for (const r of raw) {
+      if (!r || typeof r !== 'object') continue
+      let title = String(r.n ?? r.title ?? '').slice(0, 140)
+      let url = String(r.u ?? r.url ?? '').slice(0, 300)
+      let type = String(r.t ?? r.type ?? 'web').toLowerCase().slice(0, 20)
+      if (!url) continue
+      if (!REF_TYPES.has(type)) type = 'web'
+      if (/youtube\.com\/watch|youtu\.be\//.test(url)) {
+        const v = sanitizeRefURL(url, title, name)
+        if (v) push({ type: 'video', title: title || name, url: v.url, note: String(r.note ?? '').slice(0, 160) })
+      } else {
+        const v = sanitizeRefURL(url, title, name)
+        if (v) push({ type, title: title || name, url: v.url, note: String(r.note ?? '').slice(0, 160) })
+        else push({ type: 'web', title: title || name, url: `https://www.google.com/search?q=${encodeURIComponent(title || name)}`, note: 'Web search' })
+      }
+      if (out.length >= maxLLM) break
+    }
+  }
+  // Deterministic, always-resolving deep links built from the name.
+  const q = encodeURIComponent(name)
+  const wq = encodeURIComponent(name.replace(/\s+/g, '_'))
+  push({ type: 'article', title: `Wikipedia — ${name}`, url: `https://en.wikipedia.org/wiki/${wq}`, note: 'Encyclopedia overview & history' })
+  push({ type: 'video', title: `${name} — documentaries & video essays`, url: `https://www.youtube.com/results?search_query=${encodeURIComponent(name + ' aesthetic documentary history')}`, note: 'YouTube search: films & video essays' })
+  push({ type: 'scholar', title: `${name} — academic literature`, url: `https://scholar.google.com/scholar?q=${q}`, note: 'Google Scholar search' })
+  push({ type: 'archive', title: `${name} — archival films, scans & recordings`, url: `https://archive.org/search?query=${q}`, note: 'Internet Archive search' })
+  push({ type: 'museum', title: `${name} — museum collections & exhibitions`, url: `https://www.google.com/search?q=${encodeURIComponent(name + ' museum collection exhibition')}`, note: 'Museum collections worldwide' })
+  push({ type: 'images', title: `${name} — visual reference board`, url: `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(name + ' aesthetic examples')}`, note: 'Google Images search' })
+  if (/Internet Aesthetic|Subculture|Micro-aesthetic/i.test(category)) {
+    push({ type: 'web', title: `Aesthetics Wiki — ${name}`, url: `https://aesthetics.fandom.com/wiki/Special:Search?query=${q}`, note: 'Community documentation' })
+  }
+  return out
+}
+
 export interface RawEntry {
   [k: string]: any
 }
@@ -342,10 +446,15 @@ export interface ValidEntry {
   dnaAxes: Record<string, number>
   emotionProfile: Record<string, number>
   sources: Array<{ name: string; url: string; tier: string }>
+  references: RefEntry[]
+  typePairing: Record<string, string>
   tags: string[]
   popularity: number
   isNiche: boolean
   influences: string[]
+  parent: string
+  variants: string[]
+  confusedWith: string[]
   related: string[]
   confidence: number
 }
@@ -402,11 +511,16 @@ export function validateEntry(raw: RawEntry, defaultCategory: string): ValidEntr
     dnaAxes,
     emotionProfile,
     sources,
+    references: refArr(raw.refs ?? raw.references, name, strVal(raw.cat, 60) || defaultCategory),
+    typePairing: objVal(raw.fnt ?? raw.fonts ?? raw.typePairing),
     tags: strArr(raw.tg ?? raw.tags, 10).map((t) => t.toLowerCase().slice(0, 40)),
     popularity: clampInt(raw.pop ?? raw.popularity ?? 50),
     isNiche: raw.niche === true || clampInt(raw.pop ?? 50) < 30,
     influences: strArr(raw.inf ?? raw.influences, 6),
     related: strArr(raw.rel ?? raw.related, 8),
+    parent: strVal(raw.par ?? raw.parent, 80),
+    variants: strArr(raw.var ?? raw.variants, 6),
+    confusedWith: strArr(raw.cf ?? raw.confusedWith, 4),
     confidence: sources.length >= 2 ? clampInt(65 + sources.filter((s) => s.tier === 'A' || s.tier === 'B').length * 10) : 55,
   }
 }
@@ -537,6 +651,8 @@ export async function insertEntry(
         dnaAxes: JSON.stringify(entry.dnaAxes),
         emotionProfile: JSON.stringify(entry.emotionProfile),
         sources: JSON.stringify(entry.sources),
+        references: JSON.stringify(entry.references),
+        typePairing: JSON.stringify(entry.typePairing),
         tags: JSON.stringify(entry.tags),
         popularity: entry.popularity,
         isNiche: entry.isNiche,
@@ -551,23 +667,46 @@ export async function insertEntry(
       knownNames!.add(an)
       if (!knownIds!.has(an)) knownIds!.set(an, created.id)
     }
-    await linkRelations(created.id, entry.name, entry.influences, entry.related)
+    await linkRelations(created.id, entry.name, {
+      influences: entry.influences,
+      related: entry.related,
+      parent: entry.parent,
+      variants: entry.variants,
+      confusedWith: entry.confusedWith,
+    })
     return { ok: true, slug: created.slug }
   } catch (e: any) {
     return { ok: false, reason: `db: ${String(e.message).slice(0, 120)}` }
   }
 }
 
+export interface RelationHints {
+  influences?: string[]
+  related?: string[]
+  parent?: string
+  variants?: string[]
+  confusedWith?: string[]
+}
+
 export async function linkRelations(
   aestheticId: string,
   aestheticName: string,
-  influences: string[],
-  related: string[]
+  hints: RelationHints | string[] | undefined,
+  relatedLegacy?: string[]
 ) {
+  // Back-compat: old callers passed (id, name, influences[], related[])
+  const h: RelationHints = Array.isArray(hints)
+    ? { influences: hints, related: relatedLegacy ?? [] }
+    : (hints ?? {})
   if (!knownIds) await ensureKnownNames()
-  const targets: Array<{ type: string; names: string[] }> = [
-    { type: 'influenced_by', names: influences },
-    { type: 'related', names: related },
+  const targets: Array<{ type: string; names: Array<string | undefined> }> = [
+    { type: 'influenced_by', names: h.influences ?? [] },
+    { type: 'related', names: h.related ?? [] },
+    // A parent is the broader documented family this entry belongs to.
+    { type: 'parent', names: h.parent ? [h.parent] : [] },
+    // Each documented sub-variant is a child node pointing back at this entry.
+    { type: 'variant_of', names: h.variants ?? [] },
+    { type: 'confused_with', names: h.confusedWith ?? [] },
   ]
   for (const { type, names } of targets) {
     for (const name of names) {
@@ -609,9 +748,10 @@ Rules:
 - sources: 1-3 REAL references per entry. tier: A = museum/academic/official archive, B = encyclopedia or established publication, C = specialist website or community wiki (e.g. Aesthetics Wiki, ArchDaily, It's Nice That), D = informal/social. Use real well-known URLs (e.g. https://en.wikipedia.org/wiki/Art_Nouveau). If unsure of exact URL use the site root. NEVER fabricate.
 - For non-Latin names, use the common English/romanized name and put the native script in aliases.
 - dna and emo values are 0-100 integers along the stated axis.
+- RELATIONSHIP RULES: "par" = the broader documented family/style this is a subtype of ("" if top-level). "var" = DOCUMENTED named sub-variants or regional schools of this aesthetic (each must be a real name — these may later become their own entries). "cf" = aesthetics this is commonly CONFUSED with but is distinct from. "inf" and "rel" as before. Only name entries that genuinely exist.
 
 Return a MINIFIED JSON array ONLY (no indentation, no markdown). Schema per entry (keep every string tight; desc 2-4 sentences max):
-{"n": name, "a": [aliases], "c": subcategory, "e": establishment, "o": origin place, "g": geography, "p": period text like "1890-1914" or "1960s", "era": era label, "sum": 1-2 sentence definition, "desc": exactly 2 sentences: what it looks like, WHY it looks this way, history/cultural context, "col": [{"h": "#rrggbb", "n": "color name"}] 4-5 colors, "m": [materials 3-6], "tx": [textures 2-4], "obj": [typical objects 3-6], "ex": [real-world examples 2-4], "inf": [aesthetics it was influenced by, by name 2-4], "rel": [related aesthetics, by name 2-4], "src": [{"n": source name, "u": url, "t": tier}] 1-3, "tg": [tags 3-6 lowercase], "pop": 0-100 recognition, "niche": bool, "dna": {"mi": minimal-maximal, "og": organic-geometric, "wc": warm-cold, "ns": natural-synthetic, "ad": analog-digital, "hf": historical-futuristic, "rr": refined-raw, "ps": playful-serious, "sh": soft-harsh, "ql": quiet-loud, "oc": orderly-chaotic, "ds": dense-spacious, "rs": realistic-surreal, "eu": elegant-utilitarian, "np": nostalgic-progressive}, "emo": {"warm": x, "cold": x, "playful": x, "serious": x, "chaotic": x, "ordered": x, "nostalgic": x, "futuristic": x, "peaceful": x, "ominous": x}}`
+{"n": name, "a": [aliases], "c": subcategory, "e": establishment, "o": origin place, "g": geography, "p": period text like "1890-1914" or "1960s", "era": era label, "sum": 1-2 sentence definition, "desc": exactly 2 sentences: what it looks like, WHY it looks this way, history/cultural context, "col": [{"h": "#rrggbb", "n": "color name"}] 4-5 colors, "m": [materials 3-6], "tx": [textures 2-4], "obj": [typical objects 3-6], "ex": [real-world examples 2-4], "inf": [aesthetics it was influenced by, by name 2-4], "rel": [related aesthetics, by name 2-4], "par": parent family or "", "var": [documented sub-variants 0-4], "cf": [confused-with 0-3], "src": [{"n": source name, "u": url, "t": tier}] 1-3, "tg": [tags 3-6 lowercase], "pop": 0-100 recognition, "niche": bool, "dna": {"mi": minimal-maximal, "og": organic-geometric, "wc": warm-cold, "ns": natural-synthetic, "ad": analog-digital, "hf": historical-futuristic, "rr": refined-raw, "ps": playful-serious, "sh": soft-harsh, "ql": quiet-loud, "oc": orderly-chaotic, "ds": dense-spacious, "rs": realistic-surreal, "eu": elegant-utilitarian, "np": nostalgic-progressive}, "emo": {"warm": x, "cold": x, "playful": x, "serious": x, "chaotic": x, "ordered": x, "nostalgic": x, "futuristic": x, "peaceful": x, "ominous": x}}`
 }
 
 // ---------- enrichment prompt ----------
@@ -624,9 +764,9 @@ export function enrichPrompt(entries: Array<{ name: string; summary: string }>):
 ${entries.map((e, i) => `${i + 1}. ${e.name}${e.summary ? ' — ' + e.summary : ''}`).join('\n')}
 
 Return a JSON array of ${entries.length} objects:
-{"n": exact name, "vd": {"shape": shape language, "line": line language, "composition": composition, "texture": textures, "forms": recurring forms/motifs}, "typ": {"display": headline typography, "body": body typography, "notes": lettering notes}, "lit": {"quality": light quality, "direction": direction, "temperature": warm/cool, "shadow": shadow character}, "pho": {"approach": photographic approach, "grade": color grade / film look}, "arc": {"forms": architectural forms, "examples": real example buildings or settings}, "fash": {"silhouettes": ..., "garments": key garments, "acc": accessories & details}, "env": {"places": typical environments, "weather": weather/atmosphere}, "gd": {"layout": graphic layout style, "icon": iconography/motifs}, "ui": {"background": page background treatment, "surface": surface/card treatment, "components": buttons/inputs style, "motion": animation behavior}, "rec": {"materials": key materials for reproduction, "lighting": lighting advice, "objects": objects to acquire, "music": music associations, "scent": scent associations}, "snd": [sonic identity 2-4 items: music genres, ambient sounds, audio character]}
+{"n": exact name, "vd": {"shape": shape language, "line": line language, "composition": composition, "texture": textures, "forms": recurring forms/motifs}, "typ": {"display": headline typography, "body": body typography, "notes": lettering notes}, "fnt": {"display": REAL display typeface name (e.g. Bodoni, Futura, Cooper Black, Frutiger, Rockwell, Space Grotesk), "body": REAL body typeface name, "notes": why this pairing fits <=140 chars}, "lit": {"quality": light quality, "direction": direction, "temperature": warm/cool, "shadow": shadow character}, "pho": {"approach": photographic approach, "grade": color grade / film look}, "arc": {"forms": architectural forms, "examples": real example buildings or settings}, "fash": {"silhouettes": ..., "garments": key garments, "acc": accessories & details}, "env": {"places": typical environments, "weather": weather/atmosphere}, "gd": {"layout": graphic layout style, "icon": iconography/motifs}, "ui": {"background": page background treatment, "surface": surface/card treatment, "components": buttons/inputs style, "motion": animation behavior}, "rec": {"materials": key materials for reproduction, "lighting": lighting advice, "objects": objects to acquire, "music": music associations, "scent": scent associations}, "snd": [sonic identity 2-4 items: music genres, ambient sounds, audio character], "refs": [0-2 real references where this aesthetic is used/documented: {"t": "video|article|museum|web", "n": title, "u": url}], "rl": {"par": broader documented parent family ("" if none/top-level), "vars": [0-4 DOCUMENTED named sub-variants/schools], "cf": [0-3 aesthetics commonly confused with this one]}}
 
-Rules: every string <= 220 chars. Only include what genuinely applies. Do not fabricate historical claims. All fields except snd are objects of short strings.`
+Rules: every string <= 220 chars. Only include what genuinely applies. Do not fabricate historical claims. All fields except snd, refs and rl are objects of short strings. fnt must use REAL existing typefaces only — never invent font names. rl names must be genuinely documented aesthetics (they become knowledge-graph edges); omit rl if unsure. refs: ONLY include URLs you are certain exist (Wikipedia, YouTube SEARCH urls like https://www.youtube.com/results?search_query=..., museum domains); omit refs if unsure.`
 }
 
 // ---------- verification prompt ----------
