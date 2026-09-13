@@ -103,7 +103,10 @@ async function runBatch(batch: { id: string; domain: string; focus: string; kind
     log(`✓ [${batch.kind}] ${batch.domain}: +${inserted} (${duplicates} dup, ${invalid} invalid)`)
   } catch (e: any) {
     const rateLimited = isRateLimitedError(e)
-    const attempts = batch.attempts + (rateLimited ? 0 : 1)
+    const contentBlocked = String(e?.message ?? '').includes('content-filter blocked')
+    // Content-filter rejections are deterministic — the batch will never
+    // succeed as-is, so retire it immediately instead of ratcheting attempts.
+    const attempts = batch.attempts + (rateLimited ? 0 : contentBlocked ? 3 : 1)
     const failed = !rateLimited && attempts >= 3
     await dbp.researchBatch.update({
       where: { id: batch.id },
@@ -141,19 +144,30 @@ async function processDiscovery(maxBatches = Infinity) {
   let completed = 0
   for (;;) {
     if (completed >= maxBatches) return
-    const running = await dbp.researchBatch.count({ where: { status: 'running' } })
-    const next = await claimBatch()
-    if (!next) break
-    const slots = CONC - running
-    if (slots <= 0) { await sleep(500); continue }
-    const promises = [runBatch(next)]
-    for (let i = 1; i < slots; i++) {
+    // Shared-quota guard: when the circuit breaker is open, stop claiming
+    // batches immediately — spinning here would only churn state silently.
+    if (rateLimitedNow()) {
+      log('API cooling down — discovery pass paused')
+      return
+    }
+    // Self-heal: batches left in 'running' by a killed process would block
+    // concurrency forever if tracked via the DB count. We await every wave
+    // promise before looping, so no legitimately-running batch exists here.
+    await dbp.researchBatch.updateMany({ where: { status: 'running' }, data: { status: 'queued' } })
+    const wave: Array<{ id: string }> = []
+    for (let i = 0; i < CONC; i++) {
       const b = await claimBatch()
       if (!b) break
-      promises.push(runBatch(b as any))
+      wave.push(b as any)
     }
-    await Promise.all(promises)
-    completed += promises.length
+    if (wave.length === 0) break
+    // Belt-and-braces: runBatch catches its own errors, but a throw escaping
+    // it (DB hiccup in the catch block, SDK edge case) must never kill the
+    // loop — swallow it and keep processing the queue.
+    await Promise.all(
+      wave.map((b) => runBatch(b as any).catch((e) => log('batch crashed (recovered):', String(e?.message ?? e).slice(0, 140))))
+    )
+    completed += wave.length
     await sleep(400)
   }
 }
@@ -647,6 +661,7 @@ const cmd = process.argv[2] ?? 'stats'
     else if (cmd === 'audit') await auditGen()
     else if (cmd === 'enrich') await enrich(Number(process.argv[3] ?? 200))
     else if (cmd === 'verify') await verify(Number(process.argv[3] ?? 200))
+    else if (cmd === 'discover') await processDiscovery(Number(process.argv[3] ?? 12))
     else if (cmd === 'stats') await stats()
     else if (cmd === 'curated-list') console.log(CURATED.map((c) => c.n).join(', '))
     else console.log('unknown command', cmd)

@@ -130,6 +130,13 @@ export async function llmJSON(system: string, user: string, retries = 5): Promis
         logRate('429 — cooling down 2 minutes')
         throw lastErr
       }
+      // Content-filter / policy rejections are deterministic: retrying the
+      // identical prompt wastes quota and always fails. Fail fast so callers
+      // can mark the batch failed and move on to the next one.
+      if (msg.includes('contentFilter') || msg.includes('1301') || msg.includes('content_filter')) {
+        logRate('content-filter rejection — failing fast')
+        throw new Error(`content-filter blocked (non-retryable): ${msg.slice(0, 160)}`)
+      }
       if (i < retries) await sleep(2000 * i)
     }
   }
