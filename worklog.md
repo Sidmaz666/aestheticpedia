@@ -327,3 +327,85 @@ Stage Summary:
 - DATA COMPLETENESS: ctx gap 1,019 → 875 (−144 this session, 183 deep-filled records); vd 793 → 650; typ 803 → 658. 183 records promoted draft→researched via full-depth patches.
 - TOOLCHAIN LEARNINGS: (a) Prisma client must be regenerated after sandbox restores; (b) dedup containment blocks legit entries whose alias contains a shorter existing name — poison-alias stripping + rename is the fix pattern; (c) wave files don't carry culturalContext — ctx must come via patch files; (d) `bun -e` cannot resolve project-relative imports — use script files inside scripts/.
 - NEXT: continue patch campaign (~875 ctx / 650 vd / 658 typ gaps remain, mostly in Regional 215 + Textile 112 + Art Movement 38 remaining), then example-suite rebuild (3D shaders, typography demos), coverage dashboard, 5k-6k expansion.
+
+---
+Task ID: 3-c
+Agent: patch-r3c-writer
+Task: Write patch-r3c.ts (20 Indian/Sri Lankan/Indonesian/Thai ctx+vd+typ+lit+ui patches)
+
+Work Log:
+- Read worklog tail for conventions; inspected sibling patch files (patch-r2f.ts, patch-r2k.ts) and apply-patches.ts field contract (ctx 80-700; vd keys shape/line/composition/texture; typ display/body/notes; lit quality/temperature/shadow/direction; ui background/surface/components/motion/typography).
+- Wikipedia batch-API verification (3 curl calls, redirects=1): confirmed Rajput painting (Kishangarh redirect), Kangra painting, Deccan painting, Company style, Kelaniya Raja Maha Vihara, Dambulla cave temple, Ambalangoda, Kris, Wayang kulit, Gongshi, Handscroll, Joglo, Khon, Gamelan, Batik, Inkstick, Solias Mendis, Bani Thani, Sawant Singh, Nihal Chand, Pendhapa, Matale; "Ink cake" and "Pamor" have no standalone articles → prose kept general/safe for those facts.
+- Wrote scripts/research/patches/patch-r3c.ts: header + first 10 entries (Chinese scholar-studio + Indian miniature block: ink-cake-molding, gongshi, zhuanshi, handscroll-mounting, kishangarh, kangra, deccani, company, kelaniya, dambulla) ending with `// APPEND_HERE`; Edit-replaced marker with remaining 10 (ambalangoda, sri-lankan-drum-decoration, sri-lankan-batik-workshop-culture, matale-lacquer-turning, kris-pamor, wayang-kulit, balinese-carving, joglo, gamelan-gong-smithing, khon-masked-dance-costume).
+- Every entry carries all 4 patch objects (ctx/vd/typ/lit/ui); vd values entry-specific (mold relief, watered lamellae, kelir backlight, tumpang sari tiers, etc.); typography names real scripts/notation systems (zhuanshu seals, nastaliq cartouches, Devanagari couplet panels, Sinhala script, kepatihan cipher, lontar manuscript); uncertain specifics avoided (no invented dates/names/places beyond API-verified ones; UNESCO 2003 wayang / 2005 kris / 2018 khon listings kept at confident phrasing).
+- Did NOT run apply-patches and did NOT touch the DB (per assignment scope).
+
+Stage Summary:
+- patch-r3c.ts complete: 20/20 patches, validator clean — `total 20 bad 0 []`; stricter pass: ctx 463-527 chars, 0 length violations (lit 2-120 / ui ≤160 / typ ≤160 / vd 15-140), 0 duplicate slugs.
+- Ready for `apply-patches` by the orchestrator to fill ctx+vd+typ gaps and promote these 20 draft records toward researched.
+
+---
+Task ID: 3-a
+Agent: patch-r3a-writer
+Task: Write patch-r3a.ts (20 Japanese craft/tradition ctx+vd+typ+lit+ui patches)
+
+Work Log:
+- Read worklog tail for conventions; inspected apply-patches.ts contract and patch-r2f.ts style; confirmed patch fields map ctx→culturalContext, vd→visualDNA, typ→typography, lit→lighting, ui→uiTranslation.
+- Verified all 20 assigned slugs exist in DB and are missing exactly ctx/vd/typ/lit/ui (read-only Prisma check via temporary scripts/research/check-r3a-slugs.ts — deleted afterward). 19 entries 'draft', kintsugi 'verified' but field-empty.
+- Wikipedia API fact-verification (batched titles= queries with redirects): confirmed Kintsugi, Netsuke, Wajima-nuri (ji-no-ko diatomaceous undercoats, Wajima/Ishikawa), Ise katagami (Suzuka/Mie, Important Intangible Cultural Property), Kamishibai (1930s+postwar, TV decline, 8th-c. emakimono roots), Raku ware (Chōjirō/Rikyū), Bokuseki (Ikkyū, Hakuin dates), Chabana (nageire), Mon (2004 survey: 241 categories / 5,116 designs), Karesansui→Japanese dry garden (Ryōan-ji), Edo kiriko (19th-century Edo), Nishiki-e (Harunobu 1760s), Namikawa Yasuyuki + Ando Cloisonné Company, Nishikawa Sukenobu (1671-1750, Hyakunin joro shinasadame 1723), Chōjirō, Sen no Rikyū, Japanese tea utensils (chashaku/mizusashi/natsume). A "Traditional skills and techniques of Wajima-nuri" UNESCO page came back missing → no UNESCO claim written; uncertain facts phrased as "tradition traces/traditionally bestowed".
+- Authored patch-r3a.ts via Write (header + first 10 entries ending `// APPEND_HERE`) then Edit replacing the marker with the remaining 10 — 20 entries total, each with ctx (150-450 chars), vd (shape/line/composition/texture), typ (display+body, Edo-moji/Mincho/gothic/brush-kana as tradition-appropriate), lit (quality/temperature/shadow), ui (background/surface/components/motion).
+- Length audit: 8 entries initially exceeded the 450-char ctx quality bar (up to 505); trimmed prose (no facts lost) until all ctx within 150-450.
+- Final verification: `bun -e` import of the patch file → total 20, bad 0. Extended audit: all vd values 15-140 chars, typ ≤160, lit keys from allowed set ≤120, ui keys from allowed set ≤160, 0 issues.
+- Did NOT run apply-patches or touch the database (per task constraints).
+
+Stage Summary:
+- File: /home/z/my-project/scripts/research/patches/patch-r3a.ts — 20 hand-authored patches (kintsugi, shippo-cloisonne, edo-kiriko-cut-glass, netsuke-carving, wajima-lacquer, ise-katagami-patterns, mon-family-crests, hinagata-bon-pattern-books, edo-nishiki-e-advertising, showa-hyakkaten-matchbox-labels, kamishibai-story-cards, japanese-matchbook-and-ticket-design, karesansui, wabi-cha, raku-ware, chashaku-aesthetics, bokuseki-aesthetics, chabana-aesthetics, mizusashi-aesthetics, natsume-aesthetics).
+- Verification: total 20 / bad 0; ctx 378-449 chars; ready for `bun scripts/research/apply-patches.ts` (not run here — deferred to lead).
+---
+Task ID: 3-d
+Agent: patch-r3d-writer
+Task: Write patch-r3d.ts (20 African tradition ctx+vd+typ+lit+ui patches)
+
+Work Log:
+- Read worklog tail for conventions; studied existing patch format (patch-r2e/r2f contract: ctx/vd/typ/lit/ui per slug).
+- FACT VERIFICATION via Wikipedia API (batched, redirects=1): confirmed Nang yai, Luang Prabang, Water puppetry, Bát Tràng, Áo nhật bình (rectangular-collar Nguyễn court dress for royal women, Tết/weddings/audiences), Đông Hồ painting (via Tranh Đông Hồ redirect), Hàng Trống painting, Ndebele house painting, Esther Mahlangu, Litema (clay-dung plaster comb/scratch, ochre, ploughed-field/plant/totem mimicry, transient), Mokorotlo (mosea/leholi grass, flag+licence plates, Mount Qiloane), Otjize (butterfat+ochre, omuzumba Commiphora resin, sun/insect/wash substitute), Habesha kemis (shemma cotton, pre-European daily dress), Herero people, Maasai people, Samburu, Mursi, Surma. No dates/names invented beyond verified or firmly documented facts.
+- WROTE /home/z/my-project/scripts/research/patches/patch-r3d.ts: header + first 10 entries (8 SE Asian: nang-yai, luang-prabang, dong-ho, hang-trong, mua-roi-nuoc, hue-imperial, bat-trang, vietnamese-silk + ndebele + zulu) with `// APPEND_HERE` marker, then Edit-inserted remaining 10 (basotho, xhosa, sotho, himba, herero, maasai, samburu, mursi, surma, habesha). Each entry: ctx + 4-key vd + typ display/body + lit (quality/temperature/shadow) + ui (background/surface/components/motion).
+- Two strict QC passes trimmed 16 overlong ctx values into the 150-450 quality band (official limit is 80-700; held self to 450).
+- VERIFICATION: `bun -e` contract validator → total 20, bad 0. Strict key-allowlist + length audit (vd 15-140, lit ≤120, ui ≤160, typ ≤160, ctx 150-450) → 0 issues, ctx range 407-449, 20 unique slugs, slug order matches assignment exactly. No DB changes, apply-patches NOT run (per scope).
+- bun run lint: clean.
+
+Stage Summary:
+- patch-r3d.ts ready: 20/20 contract-valid patches covering the assigned SE Asian + Southern/East African tradition slugs (ctx+vd+typ+lit+ui all filled, entry-specific, Wikipedia-spot-checked). Next: run `bun scripts/research/run.ts` patch application in a lead session to promote these draft→researched.
+
+---
+Task ID: 3-e
+Agent: patch-r3e-writer
+Task: Write patch-r3e.ts (20 Pacific/NW Coast/Arctic/Mesoamerican ctx+vd+typ+lit+ui patches)
+
+Work Log:
+- Read worklog conventions + existing patch files (r2h/r2k) to match the authoring contract exactly.
+- Verified all 20 assigned slugs exist in the DB with culturalContext NULL (read-only Prisma query; no DB writes).
+- Wikipedia API batch verification (redirects=1 + intro extracts) for: Amasunzu (Rwanda — handled carefully vs "Zulu amasunuka" entry name), Agbada (sokoto trousers confirmed), Tukutuku (toetoe/kiekie/harakeke/pingao confirmed), Whakairo, Hei matau, Malagan (New Ireland), Asmat people (South Papua, famed woodcarving), Iatmul (middle Sepik, Bateson naven), Abelam (East Sepik, giant yams), Kula ring (Massim/Milne Bay, Malinowski 1922), Guérewol (In-Gall, Niger, yaake dance), Turkana people; Kowhaiwhai redirects to Koru ("use in traditional design" — rafter painting facts from general knowledge). Haus tambaran + Kirituhi titles missing on enwiki — written from certain general knowledge only, no invented specifics.
+- Authored patch-r3e.ts per contract: header + first 10 entries + `// APPEND_HERE`, then Edit-appended remaining 10; fixed a duplicated closing bracket introduced by the append edit.
+- All 20 entries carry ctx + vd (shape/line/composition/texture) + typ (display/body) + lit (quality/temperature/shadow) + ui (background/surface/components/motion) — no field invented outside the allowed key sets.
+- Distinguished the two Asmat slugs: asmat-pole-and-shield-carving (bisj pole + collecting history/Met Rockefeller wing) vs asmat-poles-and-shields (poles-vs-shields functional contrast); distinguished malagan (New Ireland) from Sepik material; kula prose grounded on verified Wikipedia extract.
+- VALIDATION: contract check total=20 bad=0; extended strict check added: ctx 150-450 quality bar (iterated 3 trim passes: initial 469-533 → 399-449), vd values 15-140, typ ≤160, lit/ui allowed keys only, 0 duplicate slugs, exact slug-set match with assignment; bun run lint clean.
+
+Stage Summary:
+- patch-r3e.ts written and validator-clean (total 20, bad 0, ctx avg 446, all within 150-450): 8 African adornment entries (Turkana body painting, gele, Zulu amasunuka, Ghanaian barbershop signs, Yoruba hair naming, Guérewol, agbada economy, hair threading), 6 Māori (whakairo, kōwhaiwhai, tukutuku, kirituhi, hei matau) and 6 Melanesian (malagan, 2× Asmat, Sepik haus tambaran, Iatmul orator stools, Abelam yam masking, kula) — note: assignment header said "Pacific/Aboriginal/NW Coast/Arctic/Mesoamerican" but the slug list is African+Māori+Melanesian; slugs were treated as authoritative.
+- NOT applied to DB per instructions (apply-patches is out of scope for this agent); file ready for the applier/promotion pipeline.
+
+---
+Task ID: 3-b
+Agent: patch-r3b-writer
+Task: Write patch-r3b.ts (20 Ainu/Ryukyu/Chinese ctx+vd+typ+lit+ui patches)
+
+Work Log:
+- Read worklog tail + inspected patch-r2h.ts to match the established PATCHES contract (slug/ctx/vd/typ/lit/ui, no apply).
+- WIKIPEDIA VERIFICATION (batched API calls, redirects=1): confirmed Attus→(Ainu bark cloth: attus/attush woven from ohyo bark fibre), Bingata (14th-c. Ryukyu Kingdom, Indian/Chinese/Javanese synthesis, stencil resist), Ru ware (Northern Song ~1100, <100 pieces, duck-egg blue "sky after rain", Qingliangsi/agate claim), Chinese paper cutting (Eastern Han origin, UNESCO 2009), New Year picture, Yangliuqing town (400+ yrs nianhua), Shadow play, Chinese knotting, Weifang Int'l Kite Festival (since 1984, kite capital 1988, IKF HQ), Toshiko Taira (kijōka-bashōfu, LNT 2000), Inkstone (Duan=Zhaoqing/Duan Prefecture Tang, Mazukeng Qianlong; She=She County Anhui + Wuyuan Jiangxi, Tang), Ōgimi, Yomitan, Zigong, Naha, Musa basjoo. "Duan inkstone"/"She inkstone"/"Yachimun"/"Ryukyu glass"/"Hana-ori"/"Bashofu"/ikarkar/morew/aiush have no standalone articles → prose kept general and hedged; no dates/names invented beyond verified ones.
+- Authored patch-r3b.ts: 20 entries = 5 Ainu (attush robes, ikarkar embroidery, makiri sheaths, morew spirals, aiush appliqué) + 5 Ryukyu/Okinawan (bingata, yachimun/Tsuboya-1682/Jirō Kinjō LNT-1985, ryukyu glass, bashōfu/Kijoka/Taira LNT-2000, Yomitan hana-ori 1960s revival) + 10 Chinese (ru ware, jianzhi, Yangliuqing nianhua, Taohuawu nianhua, shadow puppets/UNESCO-2011, chinese knotting, weifang kites, zigong lanterns, duan + she inkstones). Each entry: ctx (420-447 chars, historically grounded) + vd (shape/line/composition/texture) + typ (real display/body translations, not "none") + lit (quality/temperature/shadow) + ui (background/surface/components/motion).
+- ITERATION: official validator passed first run (20/0), then tightened ctx to the 150-450 quality bar (3 rounds of trims; all 20 now 419-447 chars).
+- Final verification: `total 20 bad 0 []`; strict checker: 0 issues; slugs in exact assignment order; no dup slugs. DB untouched; apply-patches NOT run (per instructions).
+
+Stage Summary:
+- patch-r3b.ts complete and validator-clean: 20 Ainu/Ryukyu/Chinese craft entries with ctx+vd+typ+lit+ui at research depth, ready for `apply-patches` + draft→researched promotion by the lead agent. Coverage gap this batch: −20 ctx/vd/typ/lit/ui when applied.
