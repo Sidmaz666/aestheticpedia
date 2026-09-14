@@ -496,7 +496,10 @@ export function validateEntry(raw: RawEntry, defaultCategory: string): ValidEntr
 
   return {
     name,
-    aliases: strArr(raw.a ?? raw.aliases, 8),
+    // Aliases that normalize to empty (pure Cyrillic/Greek/etc. — scripts the
+    // dedup normalizer strips) would falsely collide as duplicates, so they
+    // are dropped at validation time.
+    aliases: strArr(raw.a ?? raw.aliases, 8).filter((a) => normalizeName(a).length > 0),
     category: strVal(raw.cat, 60) || defaultCategory,
     subcategory: strVal(raw.c ?? raw.subcategory, 120),
     establishment,
