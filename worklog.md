@@ -273,3 +273,28 @@ Stage Summary:
 - RECORDS: 317 → 967 (target >500 CROSSED at 04:38; now ~3x the milestone), all real/documented entries with tiered provenance, deduped against the full known-name index (containment heuristic).
 - Pipeline is self-healing (orphans, 429s, content filters, crashes) and resumable across tool-call restarts; `discover N` / `fill-gaps N` / `enrich N` / `verify N` / `worker` all usable per-window.
 - Remaining to target: 705 queued batches + auditGen auto-refills → path to 5k-6k continues; then schema external-reference expansion, example-suite rebuild, full re-audit, completeness dashboard.
+
+---
+Task ID: 16 (rollback recovery + solo rebuild r1)
+Agent: lead (orchestrator, solo authoring per user directive — no LLM API, no subagent LLMs)
+Task: Recover from catastrophic sandbox rollback (1,520 → 967) and rebuild collection + completeness by hand.
+
+Work Log:
+- DISASTER DIAGNOSIS: sandbox restored the whole project (git history + files + db) to the Sep 13 06:39 snapshot — Task 11's 8 commits (1,353) and last session's commits (1,520) exist nowhere, not even as dangling objects (git fsck verified). /tmp copy equally old. Old 967-state confirmed at HEAD.
+- INSURANCE LAYER (new): wrote scripts/research/export-library.ts + restore-library.ts; exported full library+relations to db/library-export.json (committed to git — 5.0 MB); db copies in /home/z/backups/ + /tmp/aa-backup/. Every future milestone now gets: git commit + JSON export + db backup.
+- TOOLCHAIN REBUILT: seed-waves.ts, link-orphans.ts, apply-patches.ts re-written from session record; re-applied Cyrillic alias fix to lib.ts validateEntry (drop aliases normalizing empty). link-orphans run: 441/451 orphans linked, +1,742 edges.
+- SOLO-AUTHORED REBUILD WAVES (5 waves, 80 entries, every name Wikipedia-API-verified, dedup-checked):
+  1. mena-central-asia.ts — 16 (Sedefkari, Qajar Painting, Mamluk Metalwork/Glass, Mashrabiya, Khatam, Termeh, Pateh, Kubachi Silver, Jewish Micrography, Ketubah, Mizrah, Bukhara Embroidery, Tush Kyiz, Ottoman Tombak, Coptic Iconography)
+  2. insular-asia-pacific.ts — 16 (Korwar, Hudoq, Iban Tattooing, Nias, Tais, Flores Ikat, Rumah Gadang, Penjor, Barong & Rangda, Asaro Mudmen, Uli, Massim Prows, Baining Fire Dance, Kanak Flèche, Marshallese Stick Charts, ʻAhuʻula)
+  3. folk-painting-craft.ts — 16 (Gzhel, Khokhloma, Palekh, Fedoskino, Mstyora, Dymkovo, Gorodets, Filimonovo, Karagiozis, Zhostovo, Orenburg, Hardanger, Meenakari, Thangka, Venetian Carnival Masks, Cabinet of Curiosities)
+  4. east-asia.ts — 16 (Origami, Ikebana, Kimono, Washitsu, Shoji, Temari, Furoshiki, Sashiko, Katazome, Hanji, Bojagi, Moon Jar, Inro, Nihonga, Bonsai, Yūzen; Washitsu + Nihonga correctly dedup-blocked as existing)
+  5. africa1.ts — 16 (Asafo Flags, Fantasy Coffins, Nsibidi, Nok, Chokwe, Bamileke, Tingatinga, Djenné, Senufo, Aksum, Meskel, Timkat, Kabyle, Swahili Doors, Lukasa; Nkisi dedup-blocked)
+  → +80 net inserted: 967 → 1,039.
+- COMPLETENESS PATCH R1: authored patch-arch1.ts (20 Architectural Style records: Sudano-Sahelian, Indo-Saracenic, Naqsh-e Jahan, Sidi Bou Said, Banco, Ise Shinden, Majlis, Falu Red, Chichén Itzá, Wharenui, Brazilian Colonial, French Colonial, Centrally-Planned Church, Fujian Tulou, Kalinga Deul, Riad, Lafté, Rayonnant, Prodigy House, Churrigueresque) — 20/20 applied, 20/20 promoted draft→researched.
+- RESIDUE HYGIENE: caught and purged drafting artifacts ("? —" placeholders) in every wave file before seeding; DB rows seeded before one fix batch were corrected via field-sync script.
+- BROWSER VERIFICATION: 6/8 PASS (render+count 1,039, Sedefkari detail full, Churrigueresque Cultural context section renders, pagination 44 pages, 0 console errors, sticky footer exact). 2 "failures" = Kukeri + Demoscene not yet re-authored (lost last-session waves, queued below).
+- Lint clean. Milestone commits throughout + JSON export refreshed after every wave.
+
+Stage Summary:
+- Library 967 → 1,039 (+72 net this session), relations 1,052 → 2,934, researched status 23 → 43.
+- Continuation plan (exact, next sessions): (a) re-author lost waves: balkans-caucasus-baltic-arctic (16), caribbean-central-america-north (16), games-retrofuture (22), film-comics-color-period (20), internet-subculture-web2 (24) → +98 → ~1,137; then fresh waves (world dress, festivals, americas-oceania, craft-techniques) toward 1,350+; (b) patch rounds for remaining ~1,000 missing-ctx entries + ~790 missing vDNA/typo (applier + promotion ready); (c) if any db loss recurs: bun scripts/research/restore-library.ts (rebuilds from committed JSON in minutes).
