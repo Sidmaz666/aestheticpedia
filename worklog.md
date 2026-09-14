@@ -298,3 +298,32 @@ Work Log:
 Stage Summary:
 - Library 967 → 1,039 (+72 net this session), relations 1,052 → 2,934, researched status 23 → 43.
 - Continuation plan (exact, next sessions): (a) re-author lost waves: balkans-caucasus-baltic-arctic (16), caribbean-central-america-north (16), games-retrofuture (22), film-comics-color-period (20), internet-subculture-web2 (24) → +98 → ~1,137; then fresh waves (world dress, festivals, americas-oceania, craft-techniques) toward 1,350+; (b) patch rounds for remaining ~1,000 missing-ctx entries + ~790 missing vDNA/typo (applier + promotion ready); (c) if any db loss recurs: bun scripts/research/restore-library.ts (rebuilds from committed JSON in minutes).
+
+---
+Task ID: 17
+Agent: lead (orchestrator, solo authoring — no LLM API, no subagent LLMs, per user directive)
+Task: Continue rebuilding lost waves + full data-completeness patching ("ensure all data/details are there for all the records — continue writing").
+
+Work Log:
+- DIAGNOSIS: sandbox had rolled back again to the Task-16 snapshot (library 1,039). Prisma client regenerated (bunx prisma generate) after .prisma cache error; DB verified at 1,039 with 1,019 missing-ctx / 793 missing-vDNA / 803 missing-typ.
+- DEDUP-GUARDED NAME VERIFICATION: all ~100 candidate entries checked against existing-names.txt BEFORE authoring (rg loops) — caught ~20 candidates that already existed from the LLM pipeline (mola, huipil, gákti, duodji, drapo vodou, kinngait, chilkat, lenca, biedermeier, bauhaus, liminal spaces, weirdcore, gorpcore...). Wikipedia batch API verification (curl, 4 batches, redirects=1) confirmed all remaining titles; Neubrutalism/Fairycore/McBling accepted as design-press-documented terms with B/C sources.
+- 5 SOLO-AUTHORED WAVES re-written from session record (83 net inserted, every entry full-format: sum/desc/col/m/tx/obj/ex/inf/rel/src/tg/vd/typ/lit/ui):
+  1. balkans-caucasus-baltic-arctic.ts — 15 net (Kukeri, Xhubleta, Zmijanje, Pirot, Glagolitic, Kelaghayi, Minankari, Khachkars, Chokha, Muhu, Baltic Amber, Latvian Song, Tupilaq, Sámi Drums, Kalaallit)
+  2. caribbean-central-america-north.ts — 16 (Vejigante, Junkanoo, Dancehall Posters, Steelpan, Cuban Rumba, Alfombras, Güegüense, Pollera, Backstrap Loom, Panama Hat, Wampum, False Face, Birchbark Biting, Parfleche, Tohono O'odham, Scrimshaw)
+  3. games-retrofuture.ts — 18 net (Demoscene, Voxel, Cel-Shading, Boomer Shooter, PS1 Horror, Point-and-Click, Arcade Cabinet, Pinball Backglass, Amiga, C64 Loaders, Retrofuturism, Raygun Gothic, Clockpunk, Silkpunk, Used Future, Syd Mead, Geodesic Domes, 1939 Futurama)
+  4. film-comics-color-period.ts — 15 net (Technicolor, Spaghetti Western, Soviet Montage, Dogme 95, Nouvelle Vague, Kirby Krackle, Sin City Noir, BD Album, Pop Art Silkscreen, Albers, Pantone, Teal-Orange, Gilded Age, Fraktur, Louis XIV)
+  5. internet-subculture-web2.ts — 19 net (GeoCities, 88x31, Skeuomorphism, Glassmorphism, Metro, Aqua, Cybergoth, Pastel Goth, Fairycore, Mori Kei, McBling, Rockabilly, Rage Comics, Surreal Memes, Imageboard, Graffiti, Hip Hop Visual, Zine, Wojak)
+- FALSE-DUP RESCUE: discovered the containment dedup heuristic falsely blocked 8+ entries whose aliases/name contained shorter existing names (Atompunk⊂atomic-age entries? no — alias collisions: "atomic age retrofuture"⊃"atomic age design" family, "afropunk style"⊃"punk style", "web brutalism"⊃"brutalism", "IKB" exact-match…). Built reseed scripts with poison-alias stripping + renamed entries (Brutalist Web Design, Afropunk Movement) → +8 recovered (library 1,122 → 1,133).
+- COMPLETENESS PATCH CAMPAIGN (hand-authored, 10 patch files r2a-r2k, 183 patches applied, 0 skipped except 12 slugs fixed):
+  r2a (20 architecture: Second Empire→Tiki) · r2b (19: Blobitecture→Stick Style) · r2c (8 art movements + 12 slug-missed) · r2d (20 world architecture: Critical Regionalism→Tectonics) · r2e (20: Lingnan→Musgum) · r2f (20 famous: Azulejo, Ofrenda, Kente, Iznik, Bogolanfini, Talavera, Kanga, Tekke, Insular, Sukhothai, Nón Lá, Kawaii, Neue Sachlichkeit, CoBrA, Neo-Dada, Post-Internet, Shin-hanga, Lingnan School, Versailles Parquet, Marquetry) · r2g (20 techniques: Impasto, Aquarelle, Batik, Action Painting, Bokeh, Halftone Rosettes, 8-bit Snapping, Iridescence, Rembrandt Light, Vignetting, Exploded Views, Child Art, Celtic Knotwork, Pixel Outlines, Croquis, Caricature, Vinyl, Burl, Nero Marquina, Honed Granite) · r2h (20: Qipao, Furisode, Kaftans, Lei, Yukata, Dragon Robe, Lianpu, Bianlian, Talchum, Empire, Grandmillennial, Izakaya, Viennese Café, Washitsu, High-tech, Dunhuang, Rangoli, Benin Bronzes, Yoruba Crowns, Sand Mandala) · r2i (32 wave-entry ctx) · r2j (51 wave-entry ctx) · r2k (8 rescued-entry ctx).
+  → every patch fills ctx + vd + typ + lit + ui; depth bar met ⇒ draft→researched promotion.
+- NETWORK: link-orphans run twice (+35 edges, 13 orphans left with genuinely insufficient signal); relations 3,053 → 3,115.
+- INSURANCE: existing-names.txt refreshed to 3,420 names; library-export.json exported after EVERY wave and patch batch (5.7 MB, 1,133 entries + 3,115 relations); 14 commits total this task.
+- BROWSER VERIFICATION (Agent Browser): homepage renders with live count "1,122→1,133 aesthetics documented"; search combobox finds "Kukeri Masking Ritual"; detail sheet renders Typography (display/body/notes), Visual DNA (shape/line/composition/texture), key examples; 0 console errors, 0 page errors; footer pushes naturally below tall detail sheet (docH 1085 > vh 577, footer at bottom).
+
+Stage Summary:
+- LIBRARY: 1,039 → 1,133 (+94 net: 83 wave entries + 8 rescued false-dedups + misc), 625 draft / 186 researched / 322 verified.
+- RELATIONS: 2,934 → 3,115. Dedup index: 2,929 → 3,420 names.
+- DATA COMPLETENESS: ctx gap 1,019 → 875 (−144 this session, 183 deep-filled records); vd 793 → 650; typ 803 → 658. 183 records promoted draft→researched via full-depth patches.
+- TOOLCHAIN LEARNINGS: (a) Prisma client must be regenerated after sandbox restores; (b) dedup containment blocks legit entries whose alias contains a shorter existing name — poison-alias stripping + rename is the fix pattern; (c) wave files don't carry culturalContext — ctx must come via patch files; (d) `bun -e` cannot resolve project-relative imports — use script files inside scripts/.
+- NEXT: continue patch campaign (~875 ctx / 650 vd / 658 typ gaps remain, mostly in Regional 215 + Textile 112 + Art Movement 38 remaining), then example-suite rebuild (3D shaders, typography demos), coverage dashboard, 5k-6k expansion.
