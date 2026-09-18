@@ -415,8 +415,13 @@ async function resolve(a: AestheticRecord): Promise<string> {
   return `${note} → ${a.images.length} img`
 }
 
+// Records whose images were chosen by hand because their nearest Wikipedia article illustrates
+// something else (e.g. "Flat design" shows UI widgets, not flat illustration). Never refreshed.
+const CURATED: string[] = JSON.parse(readFileSync(path.join(ROOT, 'data', 'curated-images.json'), 'utf8')).slugs
+
 const all = loadAesthetics()
 const todo = all
+  .filter((a) => !CURATED.includes(a.slug))
   .filter((a) =>
     ONLY
       ? a.slug === ONLY

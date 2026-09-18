@@ -64,3 +64,24 @@ describe('data/aesthetics', () => {
     expect(bad).toEqual([])
   })
 })
+
+describe('curated corrections stick', () => {
+  const bySlug = new Map(records.map((r) => [r.data.slug, r.data]))
+  const overrides = JSON.parse(readFileSync(path.join(process.cwd(), 'data', 'wikipedia-overrides.json'), 'utf8')) as Record<string, string | null>
+
+  it('records follow their Wikipedia overrides (no wrong article, images or Wikidata id)', () => {
+    const bad: string[] = []
+    for (const [slug, title] of Object.entries(overrides)) {
+      const a = bySlug.get(slug)
+      if (!a || slug.startsWith('$')) continue
+      if (title === null && a.wikipedia) bad.push(`${slug}: should have no article, has ${a.wikipedia}`)
+      if (title && a.wikipedia && a.wikipedia !== title) bad.push(`${slug}: ${a.wikipedia} ≠ ${title}`)
+    }
+    expect(bad).toEqual([])
+  })
+
+  it('hand-curated image sets are present', () => {
+    const { slugs } = JSON.parse(readFileSync(path.join(process.cwd(), 'data', 'curated-images.json'), 'utf8')) as { slugs: string[] }
+    for (const s of slugs) expect(bySlug.get(s)?.images.length, s).toBeGreaterThan(2)
+  })
+})
