@@ -29,8 +29,7 @@ const TYPE_HINTS: Record<string, string> = {
 const FIELDS: [string, string][] = [
   ['Visual grammar', 'The formal vocabulary — shapes, line, composition, surface — that makes the aesthetic recognisable.'],
   ['Palette', 'Characteristic colours, derived from documented works; not a brand guideline.'],
-  ['Style profile', 'Fifteen scales between opposing qualities (e.g. minimal ↔ maximal), scored 0–100 by editors.'],
-  ['Mood profile', 'The feelings the aesthetic reliably evokes, 0–100.'],
+  ['Palette analysis', 'Warmth, saturation, lightness, contrast and hue range, computed from the palette’s hex values (0–100) — measured, not judged.'],
   ['In practice', 'How the aesthetic appears in lighting, photography, architecture, fashion, interiors, graphic and interface design.'],
   ['How to evoke it', 'Practical ingredients — materials, objects, music, scent — for recreating the look.'],
   ['Relations', 'Typed links between records: influenced by, variant of, reacts against, often confused with, and more.'],
@@ -87,8 +86,8 @@ export default function AboutPage() {
           ))}
         </ol>
         <p className="text-sm text-fg-subtle">
-          Style and mood profiles are editorial judgements to help discovery, not measurements. Where a label is
-          community-coined or interpretive, the record’s evidence rating says so.
+          Numbers on the site are measured from real data (palettes, dates, counts), never assigned by hand or by a model.
+          Where a label is community-coined or interpretive, the record’s evidence rating says so.
         </p>
       </section>
 

@@ -18,6 +18,11 @@ const nextConfig: NextConfig = {
           { key: 'Cache-Control', value: 'public, max-age=3600, stale-while-revalidate=86400' },
         ],
       },
+      {
+        // On-device agent engine (see public/vendor/needle/README.md).
+        source: '/vendor/:path*',
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=86400, stale-while-revalidate=604800' }],
+      },
     ]
   },
   async rewrites() {

@@ -23,6 +23,17 @@ const hex6 = (h: unknown): string | null => {
 // Same rule as scripts/data/images.ts: maps/diagrams/logos are not examples of an aesthetic.
 const NOT_EXAMPLE =
   /\b(maps?|karte|carte|mapa|mappa|verbreitung|distribution|locator|location|sites with|extent of|territor(y|ies)|floor ?plan|ground ?plan|diagram|chart|graph|timeline|family tree|flowchart|coat of arms|flag of|logo|seal of|signature)\b/i
+// AI-generated pictures are not documentation of a human aesthetic — except on the records
+// about AI imagery itself, where they are the subject.
+const AI_MADE = /\bprompt:|\b(ai[- ]generated|generated (with|by) ai|stable diffusion|midjourney|dall[- ]e|text-to-image|made with ai|synthography)\b/i
+const safeDecode = (u: string) => {
+  try {
+    return decodeURIComponent(u)
+  } catch {
+    return u
+  }
+}
+const AI_SUBJECTS = new Set(['ai-art', 'generative-art', 'text-to-image-model'])
 const SEARCH_LINK =
   /^https:\/\/(www\.youtube\.com\/results|scholar\.google\.com\/scholar\?|www\.google\.com\/search|archive\.org\/search|artsandculture\.google\.com\/search|www\.pinterest\.com\/search|commons\.wikimedia\.org\/w\/index\.php\?search)/
 const uniqStr =(xs: unknown[]) => [
@@ -66,9 +77,16 @@ for (const a of aesthetics as any[]) {
     (i: any) => i?.check?.ok !== false && !NOT_EXAMPLE.test(`${decodeURIComponent(String(i.url).split('/').pop() ?? '')} ${i.caption ?? ''}`.replace(/_/g, ' '))
   )
   a.images = (a.images ?? []).filter((i: any) => isUrl(i?.url))
+  if (!AI_SUBJECTS.has(a.slug)) a.images = a.images.filter((i: any) => !AI_MADE.test(`${i.caption ?? ''} ${safeDecode(String(i.url))} ${i.artist ?? ''}`))
   for (const f of ['aliases', 'materials', 'textures', 'objects', 'keyExamples', 'sounds', 'tags']) a[f] = uniqStr(a[f] ?? [])
   for (const f of ['summary', 'description', 'culturalContext', 'origin', 'geography', 'era', 'periodStart', 'periodEnd'])
     a[f] = String(a[f] ?? '').trim()
+  // Style/mood scores from the retired AI pipeline were never sourced — remove them. The site now
+  // shows palette metrics measured from real colours instead (src/lib/palette-metrics.ts).
+  if (!a.profileSource || a.profileSource !== 'editor') {
+    a.dnaAxes = {}
+    a.emotionProfile = {}
+  }
   for (const f of ['emotionProfile', 'dnaAxes']) {
     const o: Record<string, number> = {}
     for (const [k, v] of Object.entries(a[f] ?? {})) {

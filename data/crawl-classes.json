@@ -1,0 +1,277 @@
+{
+  "$comment": "Wikidata 'instance of' (P31) classes accepted when importing pages found by scripts/data/crawl-wikipedia.ts. Reviewed from data/.cache/crawl-classes.txt: only classes whose members are styles, movements, genres or traditions — never people, buildings, individual works, organisations, events, or music/literary genres. Order matters: a page takes the first class that lists it.",
+  "classes": [
+    {
+      "qid": "Q32880",
+      "label": "architectural style",
+      "category": "Architectural Style",
+      "establishment": "historical"
+    },
+    {
+      "qid": "Q25484644",
+      "label": "architectural style of an area",
+      "category": "Architectural Style",
+      "establishment": "regional_tradition"
+    },
+    {
+      "qid": "Q99527323",
+      "label": "architecture of geographic location",
+      "category": "Architectural Style",
+      "establishment": "regional_tradition"
+    },
+    {
+      "qid": "Q4442611",
+      "label": "fashion style",
+      "category": "Fashion & Dress",
+      "establishment": "community_subculture"
+    },
+    {
+      "qid": "Q3172759",
+      "label": "traditional costume",
+      "category": "Fashion & Dress",
+      "establishment": "regional_tradition"
+    },
+    {
+      "qid": "Q5100735",
+      "label": "Chinese clothing",
+      "category": "Fashion & Dress",
+      "establishment": "regional_tradition"
+    },
+    {
+      "qid": "Q264965",
+      "label": "subculture",
+      "category": "Subculture Style",
+      "establishment": "community_subculture"
+    },
+    {
+      "qid": "Q56147411",
+      "label": "rug style",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "qid": "Q24017852",
+      "label": "pottery style",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "qid": "Q20091976",
+      "label": "textile art of an area",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "qid": "Q11606456",
+      "label": "Traditional Crafts of Japan",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "qid": "Q877729",
+      "label": "handicraft",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "qid": "Q2207288",
+      "label": "craft",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "qid": "Q1231896",
+      "label": "painting technique",
+      "category": "Painting Technique & School",
+      "establishment": "historical"
+    },
+    {
+      "qid": "Q16743958",
+      "label": "genre of painting",
+      "category": "Painting Technique & School",
+      "establishment": "historical"
+    },
+    {
+      "qid": "Q3326867",
+      "label": "painting movement",
+      "category": "Art Movement",
+      "establishment": "historical"
+    },
+    {
+      "qid": "Q3100808",
+      "label": "photography genre",
+      "category": "Photography",
+      "establishment": "historical"
+    },
+    {
+      "qid": "Q3001152",
+      "label": "movement in cinema",
+      "category": "Film & Cinema",
+      "establishment": "historical"
+    },
+    {
+      "qid": "Q25679497",
+      "label": "art of an area",
+      "category": "Regional & Cultural Tradition",
+      "establishment": "regional_tradition"
+    },
+    {
+      "qid": "Q65266274",
+      "label": "art style of an area",
+      "category": "Regional & Cultural Tradition",
+      "establishment": "regional_tradition"
+    },
+    {
+      "qid": "Q968159",
+      "label": "art movement",
+      "category": "Art Movement",
+      "establishment": "historical"
+    },
+    {
+      "qid": "Q1792644",
+      "label": "art style",
+      "category": "Art Movement",
+      "establishment": "historical"
+    },
+    {
+      "qid": "Q1792379",
+      "label": "art genre",
+      "category": "Painting Technique & School",
+      "establishment": "historical"
+    },
+    {
+      "qid": "Q2198855",
+      "label": "cultural movement",
+      "category": "Art Movement",
+      "establishment": "historical"
+    },
+    {
+      "qid": "Q11177771",
+      "label": "artistic technique",
+      "category": "Material & Surface",
+      "establishment": "historical"
+    },
+    {
+      "qid": "Q1292119",
+      "label": "style",
+      "category": "Art Movement",
+      "establishment": "historical"
+    },
+    {
+      "qid": "Q56055944",
+      "label": "type of arts",
+      "category": "Regional & Cultural Tradition",
+      "establishment": "regional_tradition"
+    }
+  ],
+  "excludeTitles": [
+    "Forensic photography",
+    "Medical photography",
+    "Satellite imagery",
+    "Dick pic",
+    "Erotic photography",
+    "Event photography",
+    "Stock photography",
+    "Astronaut photo",
+    "Air-to-air photography",
+    "Aviation photography",
+    "Eclipse photography",
+    "Conservation photography",
+    "Trash the dress",
+    "Fire photography",
+    "Black Manosphere",
+    "Manosphere",
+    "Winner and loser culture",
+    "Stan Twitter",
+    "Pokemón",
+    "Fan (person)",
+    "Hacker",
+    "Hacker culture",
+    "Bobo (socio-economic group)",
+    "Plural identity",
+    "Otherkin",
+    "Therian subculture",
+    "Warez scene",
+    "Uwu",
+    "Postgenderism",
+    "Transhumanism",
+    "Existentialism",
+    "Local food",
+    "Indie role-playing game",
+    "Alternate reality game",
+    "Canaanism",
+    "New patrons",
+    "Ecomodernism",
+    "Unicorn trend",
+    "Global Village Coffeehouse",
+    "Utopian scholastic",
+    "Classical antiquity",
+    "Small caps",
+    "Painting",
+    "Comics",
+    "Interior design",
+    "Applied arts",
+    "Graphics",
+    "Virtual art",
+    "Fanzine",
+    "Process of tattooing",
+    "Luopan",
+    "Carpentry",
+    "Upholstery",
+    "Diamantaire",
+    "Stonesetting",
+    "Tinning",
+    "Cartographic design",
+    "Typography (cartography)",
+    "Typography",
+    "Joinery",
+    "Punchcutting",
+    "Sword making",
+    "Taxidermy",
+    "Maker culture",
+    "Immersion (virtual reality)",
+    "Video essay",
+    "Slice of life",
+    "Performance-lecture",
+    "Jewellery",
+    "Decal",
+    "Perspective control",
+    "Defamiliarization",
+    "Acrylic painting techniques",
+    "Fat over lean",
+    "Glue-size",
+    "Masking (art)",
+    "Keim's process",
+    "Vulgar auteurism",
+    "Pan-Indian film",
+    "Sportswear",
+    "Mixed media",
+    "Fitted carpet",
+    "Prayer rug",
+    "Ancient Greece",
+    "Archaic Greece",
+    "Silhouette",
+    "Mural",
+    "Oil painting",
+    "Watercolor painting",
+    "Fresco",
+    "Pottery",
+    "Weaving",
+    "Needlework",
+    "Embroidery",
+    "Engraving",
+    "Lithography",
+    "Woodcut",
+    "Etching",
+    "Mosaic",
+    "Collage",
+    "Calligraphy",
+    "Cityscape",
+    "Commercial art",
+    "Figure painting",
+    "Portrait painting",
+    "Genre painting",
+    "Still life",
+    "Marine art"
+  ]
+}

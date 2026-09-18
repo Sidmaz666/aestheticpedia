@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, useSyncExternalStore } from 'react'
 import { Check, ChevronDown, Download, Link2, Share2 } from 'lucide-react'
 import { EXPORT_GROUPS } from './export-formats'
 import { copyText } from './palette-swatches'
@@ -71,8 +71,12 @@ export function ExportMenu({ slug }: { slug: string }) {
   )
 }
 
+const noop = () => () => {}
+
 export function ShareButton({ slug, name }: { slug: string; name: string }) {
   const [done, setDone] = useState(false)
+  // Decided after mount so the server and first client render agree (no hydration mismatch).
+  const canShare = useSyncExternalStore(noop, () => typeof navigator.share === 'function', () => false)
   const share = async () => {
     const url = `${window.location.origin}/aesthetics/${slug}`
     if (navigator.share) {
@@ -96,7 +100,7 @@ export function ShareButton({ slug, name }: { slug: string; name: string }) {
       aria-label="Share link"
       title="Share"
     >
-      {done ? <Check className="size-4" aria-hidden /> : typeof navigator !== 'undefined' && 'share' in navigator ? <Share2 className="size-4" aria-hidden /> : <Link2 className="size-4" aria-hidden />}
+      {done ? <Check className="size-4" aria-hidden /> : canShare ? <Share2 className="size-4" aria-hidden /> : <Link2 className="size-4" aria-hidden />}
     </button>
   )
 }

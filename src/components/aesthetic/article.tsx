@@ -16,7 +16,7 @@ import {
 import { AestheticCard, periodLabel } from './card'
 import { ConnectionMap, LineageTree } from './diagrams'
 import type { LineageNode } from '@/lib/queries'
-import { DnaBars, EmotionBars, EmotionRadar } from './dna'
+import { MetricsSection } from './metrics'
 import { ExportMenu, ShareButton } from './export-menu'
 import { Gallery, HeroImage } from './gallery'
 import { PaletteSwatches } from './palette-swatches'
@@ -219,7 +219,7 @@ export function AestheticArticle({
     { id: 'language', label: 'Visual language', show: !!hasLanguage },
     { id: 'applied', label: 'In practice', show: !!hasApplied },
     { id: 'demo', label: 'Live demo', show: a.colors.length > 0 },
-    { id: 'profile', label: 'Style profile', show: Object.keys(a.dnaAxes).length > 0 },
+    { id: 'profile', label: 'Palette analysis', show: !!a.metrics },
     { id: 'imagine', label: 'Imagine', show: true },
     { id: 'related', label: 'Related', show: relations.length > 0 || similar.length > 0 },
     { id: 'sources', label: 'Sources', show: true },
@@ -246,14 +246,6 @@ export function AestheticArticle({
             <p className="max-w-2xl text-lg leading-relaxed text-fg sm:text-xl">{a.summary}</p>
             <div className="flex items-center gap-2">
               <ShareButton slug={a.slug} name={a.name} />
-              {mode === 'modal' && (
-                <a
-                  href={`/aesthetics/${a.slug}`}
-                  className="hidden h-10 items-center gap-1.5 rounded-full border border-line-strong px-4 text-sm text-fg-muted transition-colors hover:border-fg-subtle hover:text-fg sm:flex"
-                >
-                  Full page <ArrowUpRight className="size-3.5" aria-hidden />
-                </a>
-              )}
               <ExportMenu slug={a.slug} />
             </div>
           </div>
@@ -469,27 +461,9 @@ export function AestheticArticle({
           </Section>
         )}
 
-        {Object.keys(a.dnaAxes).length > 0 && (
-          <Section id="profile" eyebrow="Analysis" title="Style profile" intro="Where the aesthetic sits between opposing qualities (0–100), and the moods it reliably evokes. These are editorial judgements, not measurements.">
-            <div className="grid gap-12 lg:grid-cols-[1.3fr_1fr]">
-              <DnaBars dnaAxes={a.dnaAxes} />
-              {Object.keys(a.emotionProfile).length > 0 && (
-                <div className="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
-                  <EmotionRadar profile={a.emotionProfile} />
-                  <EmotionBars profile={a.emotionProfile} />
-                </div>
-              )}
-            </div>
-            <p className="mt-6 text-sm">
-              <Link
-                href={`/discover?dims=${Object.entries(a.dnaAxes)
-                  .map(([k, v]) => `${k}:${Math.round(v)}`)
-                  .join(',')}`}
-                className="link-underline text-fg-muted hover:text-fg"
-              >
-                Find aesthetics with a similar profile →
-              </Link>
-            </p>
+        {a.metrics && (
+          <Section id="profile" eyebrow="Measured" title="Palette analysis" intro="Warmth, saturation, lightness, contrast and hue range — computed from the palette’s actual colours.">
+            <MetricsSection metrics={a.metrics} />
           </Section>
         )}
 

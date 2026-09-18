@@ -16,7 +16,7 @@ cited sources.
 - **Real media only:** freely licensed photographs and artworks (Wikimedia Commons, Art Institute of Chicago), real material/texture photos, Commons audio recordings. Every file keeps artist, license and source page.
 - **Visualisations:** relationship network, colour atlas (every palette on one wheel, search by colour), per-record lineage tree and connection map, timeline with era density chart.
 - **Aesthetic theming:** each record page re-skins the site — palette-derived colours (WCAG-checked), corner radius from its style profile, its own typefaces — with animated transitions.
-- **On-device AI:** an assistant (WebLLM, runs in your browser) grounded in the library, and text-to-image generation (Janus-Pro 1B via Transformers.js). Downloads are opt-in with progress toasts; results are labelled as AI.
+- **On-device agent:** a 3D robot guide (raymarched in one WebGL shader; it takes on each aesthetic's colours and corner radius, doubles as back-to-top and tucks away). It runs **Needle 3** (Cactus Compute, 35 MB, WebAssembly — no GPU needed) to pick tools — search, describe, compare, blend, similar, colour, mood, place, era, open pages, switch theme, download data — and answers from the library's own records. An optional writer model (Qwen 3.5 0.8B/2B or Qwen 3 0.6B via WebLLM/WebGPU) turns results into prose. Text-to-image generation uses Janus-Pro 1B (Transformers.js). Downloads are opt-in with progress; nothing leaves the browser.
 - **Open interfaces:** REST API + OpenAPI, MCP server, `llms.txt`, JSON-LD, sitemap, 16 export formats, full downloads.
 
 ## Quick start

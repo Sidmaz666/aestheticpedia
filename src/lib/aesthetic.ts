@@ -1,4 +1,5 @@
 // Aestheticpedia — shared types, defensive JSON parsing, region + era mapping.
+import { METRIC_KEYS, paletteMetrics, type PaletteMetrics } from '@/lib/palette-metrics'
 // Used by both API route handlers (server) and frontend components (client).
 // Contains no server-only imports.
 
@@ -107,6 +108,8 @@ export interface AestheticFull extends AestheticSummary {
   recipe: Record<string, string | string[]>
   emotionProfile: Record<string, number>
   dnaAxes: Record<string, number>
+  /** Measured from the palette (see src/lib/palette-metrics.ts); null when fewer than 3 colours. */
+  metrics: PaletteMetrics | null
   keyExamples: string[]
   sounds: string[]
   sources: SourceEntry[]
@@ -538,6 +541,7 @@ export function mapAestheticFull(row: AestheticRow): AestheticFull {
     recipe: safeParse<Record<string, string | string[]>>(row.recipe, {}),
     emotionProfile: asNumberRecord(safeParse<unknown>(row.emotionProfile, {})),
     dnaAxes: asNumberRecord(safeParse<unknown>(row.dnaAxes, {})),
+    metrics: paletteMetrics(asColorArray(safeParse<unknown>(row.colors, []))),
     keyExamples: asStringArray(safeParse<unknown>(row.keyExamples, [])),
     sounds: asStringArray(safeParse<unknown>(row.sounds, [])),
     sources: asSourceArray(safeParse<unknown>(row.sources, [])),
@@ -686,7 +690,7 @@ export const EMOTION_KEYS = [
   'ominous',
 ] as const
 
-export const KNOWN_DIMS = new Set<string>([...DNA_AXES.map((a) => a.key), ...EMOTION_KEYS])
+export const KNOWN_DIMS = METRIC_KEYS
 
 /** Record type: what kind of cultural phenomenon the aesthetic is. */
 export const ESTABLISHMENT_LABELS: Record<string, string> = {

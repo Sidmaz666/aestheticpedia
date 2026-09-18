@@ -2,6 +2,7 @@
 // these functions so the website and the public API always agree.
 import { listValue, type DuckDBValue } from '@duckdb/node-api'
 import { query, queryOne } from '@/lib/store'
+import { paletteMetrics } from '@/lib/palette-metrics'
 import {
   KNOWN_DIMS,
   asColorArray,
@@ -33,6 +34,13 @@ export interface ListParams {
   status?: string
   era?: string
   region?: string
+  /** Free-text place: matches origin or geography. */
+  place?: string
+  /** Year range: records whose active period overlaps [from, to]. */
+  from?: number
+  to?: number
+  /** With from/to: only records whose start year falls inside the range. */
+  began?: boolean
   tag?: string
   niche?: boolean
   images?: boolean
@@ -56,6 +64,10 @@ export function parseListParams(sp: URLSearchParams, maxPageSize = 100): ListPar
     status: sp.get('status') ?? undefined,
     era: sp.get('era') ?? undefined,
     region: sp.get('region') ?? undefined,
+    place: (sp.get('place') ?? '').trim().slice(0, 80) || undefined,
+    from: num('from'),
+    to: num('to'),
+    began: sp.get('began') === 'true' || undefined,
     tag: (sp.get('tag') ?? '').trim().slice(0, 60) || undefined,
     niche: sp.get('niche') === 'true' || undefined,
     images: sp.get('images') === 'true' || undefined,
@@ -92,6 +104,15 @@ function buildWhere(p: ListParams) {
   if (p.establishment) where.push(`establishment = ${bind(p.establishment)}`)
   if (p.status) where.push(`status = ${bind(p.status)}`)
   if (p.era) where.push(`era = ${bind(p.era)}`)
+  if (p.place) {
+    const pl = bind(p.place.toLowerCase())
+    where.push(`(contains(lower(origin), ${pl}) OR contains(lower(geography), ${pl}))`)
+  }
+  if (p.from !== undefined || p.to !== undefined) {
+    where.push('startYear IS NOT NULL')
+    if (p.to !== undefined) where.push(`startYear <= ${bind(p.to)}`)
+    if (p.from !== undefined) where.push(p.began ? `startYear >= ${bind(p.from)}` : `coalesce(endYear, 9999) >= ${bind(p.from)}`)
+  }
   if (p.tag) where.push(`list_contains(from_json(tags, '["VARCHAR"]'), ${bind(p.tag)})`)
   if (p.niche) where.push('isNiche')
   if (p.images) where.push(`images <> '[]'`)
@@ -297,7 +318,7 @@ export function parseDims(raw: string): Map<string, number> {
   return dims
 }
 
-/** Nearest aesthetics to a target style profile (mean absolute distance over the given dims). */
+/** Nearest aesthetics to a target palette profile (mean absolute distance over the given metrics). */
 export async function discover(dims: Map<string, number>, category?: string, limit = 24): Promise<ExploreResult[]> {
   const rows = await query<{
     slug: string
@@ -309,16 +330,13 @@ export async function discover(dims: Map<string, number>, category?: string, lim
     emotionProfile: string
     images: string
   }>(
-    `SELECT slug, name, category, summary, colors, dnaAxes, emotionProfile, images FROM aesthetics ${category ? 'WHERE category = $1' : ''}`,
+    `SELECT slug, name, category, summary, colors, dnaAxes, emotionProfile, images FROM aesthetics WHERE json_array_length(colors) >= 3 ${category ? 'AND category = $1' : ''}`,
     category ? [category] : []
   )
   const withValues = rows
     .map((row) => ({
       row,
-      values: {
-        ...safeParse<Record<string, unknown>>(row.dnaAxes, {}),
-        ...safeParse<Record<string, unknown>>(row.emotionProfile, {}),
-      } as Record<string, unknown>,
+      values: { ...(paletteMetrics(asColorArray(safeParse<unknown>(row.colors, []))) ?? {}) } as Record<string, unknown>,
     }))
     // Only rank records that were actually assessed on at least half of the requested dimensions.
     .filter(({ values }) => [...dims.keys()].filter((d) => typeof values[d] === 'number').length >= Math.ceil(dims.size / 2))

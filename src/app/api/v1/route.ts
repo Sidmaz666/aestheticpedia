@@ -19,7 +19,7 @@ export function GET() {
       search: '/api/v1/search?q=',
       random: '/api/v1/random?mode=illustrated|any|niche|reviewed',
       timeline: '/api/v1/timeline',
-      discover: '/api/v1/discover?dims=minimal_maximal:20,quiet_loud:15',
+      discover: '/api/v1/discover?dims=warmth:80,saturation:30',
       blend: '/api/v1/blend?a=&b=',
       compare: '/api/v1/compare?slugs=a,b',
       categories: '/api/v1/categories',

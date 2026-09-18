@@ -75,6 +75,7 @@
 @property --fg-subtle { syntax: "<color>"; inherits: true; initial-value: #8c877e; }
 @property --accent { syntax: "<color>"; inherits: true; initial-value: #e4ba6e; }
 @property --accent-fg { syntax: "<color>"; inherits: true; initial-value: #17120a; }
+@property --accent-2 { syntax: "<color>"; inherits: true; initial-value: #7fa7c9; }
 @property --r-scale { syntax: "<number>"; inherits: true; initial-value: 1; }
 
 :root {
@@ -106,6 +107,7 @@
   --fg-subtle: #8c877e;
   --accent: #e4ba6e;
   --accent-fg: #17120a;
+  --accent-2: #7fa7c9;
   --accent-soft: color-mix(in oklab, var(--accent) 14%, transparent);
   --danger: #f07a6a;
   --ok: #7fcf9f;
@@ -123,6 +125,7 @@
   --fg-subtle: #767168;
   --accent: #8d5a1c;
   --accent-fg: #ffffff;
+  --accent-2: #3d6a8f;
   --danger: #b4382a;
   --ok: #2f7d4f;
 }

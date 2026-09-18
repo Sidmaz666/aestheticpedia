@@ -7,7 +7,7 @@ test('REST API endpoints respond with CORS', async ({ request }) => {
     '/api/v1/aesthetics/bauhaus',
     '/api/v1/search?q=vapor',
     '/api/v1/timeline',
-    '/api/v1/discover?dims=minimal_maximal:10',
+    '/api/v1/discover?dims=warmth:80',
     '/api/v1/blend?a=bauhaus&b=art-nouveau',
     '/api/v1/categories',
     '/api/v1/stats',

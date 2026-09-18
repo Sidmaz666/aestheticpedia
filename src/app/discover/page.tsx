@@ -3,8 +3,8 @@ import { Suspense } from 'react'
 import { DiscoverView } from '@/components/views/discover'
 
 export const metadata: Metadata = {
-  title: 'Discover by style profile',
-  description: 'Find aesthetics by feel — minimal or maximal, warm or cold, quiet or loud, nostalgic or futuristic.',
+  title: 'Discover by palette',
+  description: 'Find aesthetics by their measured palette — warm or cool, muted or vivid, dark or light, soft or high-contrast.',
   alternates: { canonical: '/discover' },
 }
 

@@ -26,6 +26,14 @@ export const contrast = (a: RGB, b: RGB) => {
   const [x, y] = [luminance(a), luminance(b)].sort((m, n) => n - m)
   return (x + 0.05) / (y + 0.05)
 }
+function hue([r, g, b]: RGB): number {
+  const max = Math.max(r, g, b)
+  const min = Math.min(r, g, b)
+  if (max === min) return 0
+  const d = max - min
+  const h = max === r ? (g - b) / d + (g < b ? 6 : 0) : max === g ? (b - r) / d + 2 : (r - g) / d + 4
+  return h * 60
+}
 function saturation([r, g, b]: RGB): number {
   const max = Math.max(r, g, b) / 255
   const min = Math.min(r, g, b) / 255
@@ -51,10 +59,10 @@ export interface AestheticTheme {
 }
 
 /**
- * @param dna optional style profile — organic/soft aesthetics get rounder corners,
- *            geometric/harsh ones sharper (drives --r-scale).
+ * @param paletteContrast optional measured palette contrast (0–100): soft palettes get rounder corners,
+ *            high-contrast ones sharper (drives --r-scale).
  */
-export function themeFromPalette(colors: ColorEntry[], dna?: Record<string, number>): AestheticTheme | null {
+export function themeFromPalette(colors: ColorEntry[], paletteContrast?: number): AestheticTheme | null {
   const cs = colors.map((c) => parse(c.hex)).filter((c): c is RGB => !!c)
   if (cs.length < 2) return null
   const byLum = [...cs].sort((a, b) => luminance(a) - luminance(b))
@@ -79,6 +87,13 @@ export function themeFromPalette(colors: ColorEntry[], dna?: Record<string, numb
   const accentSource =
     [...cs].sort((a, b) => saturation(b) * 2 + contrast(b, bg) / 10 - (saturation(a) * 2 + contrast(a, bg) / 10))[0] ?? fg
   const accent = ensureContrast(accentSource, bg, 3.3)
+  // Second accent: the saturated palette colour furthest in hue from the first (for details).
+  const hueGap = (c: RGB) => {
+    const d = Math.abs(hue(c) - hue(accentSource))
+    return Math.min(d, 360 - d)
+  }
+  const accent2Source = [...cs].filter((c) => saturation(c) > 0.2).sort((a, b) => hueGap(b) - hueGap(a))[0]
+  const accent2 = ensureContrast(accent2Source && hueGap(accent2Source) > 40 ? accent2Source : mix(accentSource, fg, 0.5), bg, 3)
   const accentFg: RGB = contrast([255, 255, 255], accent) >= contrast([12, 10, 8], accent) ? [255, 255, 255] : [12, 10, 8]
 
   const surface = mix(bg, fg, mode === 'dark' ? 0.045 : 0.0)
@@ -98,13 +113,8 @@ export function themeFromPalette(colors: ColorEntry[], dna?: Record<string, numb
       '--fg-subtle': toHex(fgSubtle),
       '--accent': toHex(accent),
       '--accent-fg': toHex(accentFg),
-      ...(dna && (dna.organic_geometric !== undefined || dna.soft_harsh !== undefined)
-        ? {
-            '--r-scale': String(
-              Math.round((0.2 + 1.4 * (1 - ((dna.organic_geometric ?? 50) * 0.6 + (dna.soft_harsh ?? 50) * 0.4) / 100)) * 100) / 100
-            ),
-          }
-        : {}),
+      '--accent-2': toHex(accent2),
+      ...(paletteContrast !== undefined ? { '--r-scale': String(Math.round((0.3 + 1.2 * (1 - paletteContrast / 100)) * 100) / 100) } : {}),
     },
   }
 }

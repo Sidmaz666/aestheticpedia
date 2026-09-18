@@ -164,7 +164,7 @@ export default async function DataPage() {
                 ['GET /aesthetics/{slug}', 'Full record + relations + similar'],
                 ['GET /aesthetics/{slug}.md', 'Any export format by extension or ?format='],
                 ['GET /search?q=', 'Ranked type-ahead suggestions'],
-                ['GET /discover?dims=minimal_maximal:20,warm_cold:15', 'Nearest matches to a style profile'],
+                ['GET /discover?dims=warmth:80,saturation:30', 'Nearest matches by measured palette'],
                 ['GET /blend?a=&b=', 'Deterministic blend of two records'],
                 ['GET /timeline', 'Every dated aesthetic by start year'],
                 ['GET /categories', 'Categories, cover images, filter facets'],

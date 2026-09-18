@@ -1022,7 +1022,7 @@ function UIKitDemo({ a, p, df, bf, tex, motion, shadow, overlay }: DemoProps) {
   const cardSrc = a.keyExamples.length > 0 ? a.keyExamples : a.objects.length > 0 ? a.objects : a.tags
   const cards = cardSrc.slice(0, 2)
   const badges = (a.tags.length > 0 ? a.tags : [a.category]).slice(0, 4)
-  const progress = Math.max(6, Math.min(100, Math.round(a.dnaAxes.minimal_maximal ?? 62)))
+  const progress = Math.max(6, Math.min(100, Math.round(a.dnaAxes.minimal_maximal ?? (a.metrics ? (a.metrics.saturation + a.metrics.hueRange) / 2 : 62))))
 
   return (
     <div className="overflow-hidden rounded-xl border shadow-lg" style={{ borderColor: rgba(p.ink, 0.18), boxShadow: shadow, background: p.bg }}>
@@ -1466,7 +1466,7 @@ function LineArtDemo({ a, p, bf, shadow }: DemoProps) {
   const seed = hashStr(`${a.slug}:lineart`)
   const lineTxt = (a.visualDNA.line ?? '').toLowerCase()
   const weight = /thick|bold|heavy|broad/.test(lineTxt) ? 3 : /thin|fine|delicate|hairline|spidery/.test(lineTxt) ? 1.1 : 1.8
-  const density = ((a.dnaAxes.minimal_maximal ?? 50) + (100 - (a.dnaAxes.dense_spacious ?? 50))) / 2
+  const density = a.dnaAxes.minimal_maximal !== undefined ? ((a.dnaAxes.minimal_maximal ?? 50) + (100 - (a.dnaAxes.dense_spacious ?? 50))) / 2 : a.metrics ? (a.metrics.saturation + a.metrics.hueRange) / 2 : 50
   const hatch = Math.round(4 + (density / 100) * 14)
   const art = useMemo(() => buildLineArt(motif, seed, hatch, weight, p), [motif, seed, hatch, weight, p])
   const plateNo = String((seed % 47) + 1).padStart(2, '0')
@@ -1612,8 +1612,8 @@ function PaintingDemo({ a, p, bf, shadow, overlay }: DemoProps) {
     : /wash|glaze|watercol|translucent|veil|stain|diluted|soft/.test(texText)
       ? 'wash'
       : 'body'
-  const maximalism = a.dnaAxes.minimal_maximal ?? 50
-  const chaos = (a.dnaAxes.orderly_chaotic ?? 50) / 100
+  const maximalism = a.dnaAxes.minimal_maximal ?? (a.metrics ? (a.metrics.saturation + a.metrics.hueRange) / 2 : 50)
+  const chaos = (a.dnaAxes.orderly_chaotic ?? a.metrics?.hueRange ?? 50) / 100
   const strokeCount = 26 + Math.round((maximalism / 100) * 70)
   const noTextureData = !a.visualDNA.texture && a.textures.length === 0
 

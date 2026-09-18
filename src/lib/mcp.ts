@@ -1,7 +1,7 @@
 // Model Context Protocol server (Streamable HTTP transport, stateless JSON responses).
 // Spec: https://modelcontextprotocol.io/specification — supports protocol versions
 // 2025-06-18, 2025-03-26 and 2024-11-05. Exposes the library as tools, resources and prompts.
-import { DNA_AXES, EMOTION_KEYS } from '@/lib/aesthetic'
+import { METRIC_AXES } from '@/lib/palette-metrics'
 import { EXPORT_FORMATS, pageUrl, renderFormat, toMarkdown } from '@/lib/formats'
 import { SITE_NAME, SITE_URL } from '@/lib/site'
 import { CATEGORIES } from '@/lib/schema'
@@ -70,14 +70,14 @@ const TOOLS = [
   {
     name: 'discover_by_style',
     title: 'Discover by style profile',
-    description: `Find aesthetics closest to a target style profile. Each dimension is 0–100 between two poles: ${DNA_AXES.map((a) => `${a.key} (${a.left}→${a.right})`).join(', ')}; mood keys (0–100): ${EMOTION_KEYS.join(', ')}.`,
+    description: `Find aesthetics whose measured palette is closest to a target. Dimensions (0–100): ${METRIC_AXES.map((a) => `${a.key} (${a.left}→${a.right})`).join(', ')}.`,
     inputSchema: {
       type: 'object',
       properties: {
         dimensions: {
           type: 'object',
           additionalProperties: { type: 'number', minimum: 0, maximum: 100 },
-          description: 'e.g. { "minimal_maximal": 10, "warm_cold": 20, "quiet_loud": 15 }',
+          description: 'e.g. { "warmth": 85, "saturation": 30, "lightness": 70 }',
         },
         category: { type: 'string', enum: CATEGORIES },
         limit: { type: 'integer', minimum: 1, maximum: 30, default: 10 },
@@ -192,7 +192,7 @@ async function callTool(name: string, args: Json) {
     case 'discover_by_style': {
       const raw = (args.dimensions ?? {}) as Record<string, unknown>
       const dims = parseDims(Object.entries(raw).map(([k, v]) => `${k}:${v}`).join(','))
-      if (!dims.size) throw new RpcError(-32602, `dimensions must use known keys: ${[...DNA_AXES.map((a) => a.key), ...EMOTION_KEYS].join(', ')}`)
+      if (!dims.size) throw new RpcError(-32602, `dimensions must use known keys: ${METRIC_AXES.map((a) => a.key).join(', ')}`)
       const items = await discover(dims, str('category'), int('limit', 10, 30))
       return {
         ...text(items.map((i) => `- **${i.name}** (\`${i.slug}\`) — ${i.category}, distance ${i.distance}\n  ${i.summary}`).join('\n')),

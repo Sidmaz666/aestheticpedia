@@ -47,7 +47,7 @@ export default async function AestheticPage({ params }: Props) {
   const a = detail.aesthetic
   const neighbours = [...detail.relations.outgoing.map((r) => r.target.slug), ...detail.relations.incoming.map((r) => r.source.slug)]
   const [similar, lineage, among] = await Promise.all([getSimilar(slug, a.category, 10), getLineage(slug), getLinksAmong(neighbours)])
-  const theme = themeFromPalette(a.colors, a.dnaAxes)
+  const theme = themeFromPalette(a.colors, a.metrics?.contrast)
 
   return (
     <>

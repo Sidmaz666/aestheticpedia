@@ -31,9 +31,9 @@ describe('visualisation data', () => {
   })
 
   it('discover only ranks records that were assessed on the requested dimensions', async () => {
-    const items = await discover(parseDims('minimal_maximal:10,quiet_loud:10'), undefined, 30)
+    const items = await discover(parseDims('warmth:80,lightness:30'), undefined, 30)
     expect(items.length).toBeGreaterThan(0)
-    expect(items.every((i) => i.delta.minimal_maximal !== undefined)).toBe(true)
+    expect(items.every((i) => i.delta.warmth !== undefined)).toBe(true)
   })
 
   it('builds a lineage tree from documented relations', async () => {

@@ -42,6 +42,9 @@ export function openApiSpec() {
             { name: 'status', in: 'query', schema: { type: 'string', enum: STATUSES } },
             { name: 'era', in: 'query', schema: { type: 'string' } },
             { name: 'region', in: 'query', schema: { type: 'string' } },
+            { name: 'place', in: 'query', description: 'Free-text place matched against origin and geography', schema: { type: 'string' } },
+            { name: 'from', in: 'query', description: 'Start of a year range (negative = BCE); returns records active in the range', schema: { type: 'integer' } },
+            { name: 'to', in: 'query', description: 'End of a year range', schema: { type: 'integer' } },
             { name: 'tag', in: 'query', schema: { type: 'string' } },
             { name: 'images', in: 'query', schema: { type: 'boolean' }, description: 'Only records with images' },
             { name: 'sort', in: 'query', schema: { type: 'string', enum: ['popular', 'name', 'recent', 'oldest', 'newest'] } },
@@ -104,9 +107,9 @@ export function openApiSpec() {
         get: {
           tags: ['Explore'],
           operationId: 'discover',
-          summary: 'Nearest aesthetics to a target style profile',
+          summary: 'Nearest aesthetics by measured palette metrics',
           parameters: [
-            { name: 'dims', in: 'query', required: true, schema: { type: 'string' }, example: 'minimal_maximal:15,quiet_loud:20,warm_cold:30' },
+            { name: 'dims', in: 'query', required: true, schema: { type: 'string' }, example: 'warmth:85,saturation:30,lightness:70' },
             { name: 'category', in: 'query', schema: { type: 'string' } },
             { name: 'limit', in: 'query', schema: { type: 'integer', maximum: 60 } },
           ],

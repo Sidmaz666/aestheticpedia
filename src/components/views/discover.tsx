@@ -4,16 +4,17 @@ import { useEffect, useMemo, useState } from 'react'
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import { Loader2, RotateCcw } from 'lucide-react'
 import { AestheticCard } from '@/components/aesthetic/card'
-import { DNA_AXES, EMOTION_KEYS, type AestheticSummary, type ExploreResult } from '@/lib/aesthetic'
+import type { AestheticSummary, ExploreResult } from '@/lib/aesthetic'
+import { METRIC_AXES } from '@/lib/palette-metrics'
 import { useDiscover } from '@/lib/client'
 
 const PRESETS: { label: string; values: Record<string, number> }[] = [
-  { label: 'Quiet & austere', values: { minimal_maximal: 10, quiet_loud: 10, warm_cold: 55, refined_raw: 30, dense_spacious: 85 } },
-  { label: 'Warm & handmade', values: { warm_cold: 15, organic_geometric: 20, natural_synthetic: 15, refined_raw: 65, nostalgic_progressive: 25 } },
-  { label: 'Loud & futuristic', values: { quiet_loud: 90, historical_futuristic: 90, analog_digital: 85, minimal_maximal: 75 } },
-  { label: 'Ornate & opulent', values: { minimal_maximal: 95, refined_raw: 10, elegant_utilitarian: 10, dense_spacious: 15 } },
-  { label: 'Dreamy & surreal', values: { realistic_surreal: 90, soft_harsh: 15, playful_serious: 35, orderly_chaotic: 60 } },
-  { label: 'Cozy & nostalgic', values: { nostalgic_progressive: 10, warm_cold: 15, soft_harsh: 15, playful_serious: 40 } },
+  { label: 'Warm & earthy', values: { warmth: 85, saturation: 35, lightness: 45 } },
+  { label: 'Cool & calm', values: { warmth: 15, saturation: 25, contrast: 20 } },
+  { label: 'Bright & vivid', values: { saturation: 85, lightness: 60, hueRange: 80 } },
+  { label: 'Dark & dramatic', values: { lightness: 20, contrast: 85 } },
+  { label: 'Pale & soft', values: { lightness: 85, contrast: 15, saturation: 30 } },
+  { label: 'Monochrome', values: { hueRange: 5, saturation: 15 } },
 ]
 
 const parse = (raw: string | null) => {
@@ -80,9 +81,9 @@ export function DiscoverView() {
   return (
     <main className="mx-auto grid w-full max-w-[1600px] gap-10 px-4 pb-16 pt-10 sm:px-6 lg:grid-cols-[24rem_1fr] lg:px-10">
       <aside className="lg:sticky lg:top-20 lg:max-h-[calc(100svh-6rem)] lg:self-start lg:overflow-y-auto lg:no-scrollbar">
-        <p className="eyebrow">Style profile search</p>
+        <p className="eyebrow">Palette search</p>
         <h1 className="display mt-2 text-6xl">Discover</h1>
-        <p className="mt-3 text-sm text-fg-muted">Set the qualities you’re after. Only the sliders you move count; results update as you go.</p>
+        <p className="mt-3 text-sm text-fg-muted">Describe the colours you’re after — warm or cool, muted or vivid, dark or light. Every aesthetic is scored from its real palette; only the sliders you move count.</p>
 
         <div className="mt-6 flex flex-wrap gap-2">
           {PRESETS.map((p) => (
@@ -103,12 +104,8 @@ export function DiscoverView() {
         </div>
 
         <div className="mt-8 space-y-5">
-          {DNA_AXES.map((a) => (
+          {METRIC_AXES.map((a) => (
             <Range key={a.key} id={a.key} left={a.left} right={a.right} value={values[a.key]} onChange={(v) => setValues((s) => ({ ...s, [a.key]: v }))} onClear={() => setValues(({ [a.key]: _, ...rest }) => rest)} />
-          ))}
-          <p className="eyebrow pt-4">Mood</p>
-          {EMOTION_KEYS.map((k) => (
-            <Range key={k} id={k} left="" right={k} value={values[k]} onChange={(v) => setValues((s) => ({ ...s, [k]: v }))} onClear={() => setValues(({ [k]: _, ...rest }) => rest)} />
           ))}
         </div>
       </aside>

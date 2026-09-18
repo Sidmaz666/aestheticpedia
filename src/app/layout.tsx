@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono, Instrument_Serif } from 'next/font/google'
 import type { ReactNode } from 'react'
@@ -6,7 +7,7 @@ import { Providers } from '@/components/providers'
 import { SiteFooter } from '@/components/site/footer'
 import { SiteHeader } from '@/components/site/header'
 import { Motion } from '@/components/site/motion'
-import { Assistant } from '@/components/ai/assistant'
+import { AgentDock } from '@/components/ai/agent-dock'
 import { MOTION_BOOT } from '@/lib/motion-boot'
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL, TWITTER_HANDLE } from '@/lib/site'
 
@@ -66,7 +67,9 @@ export default function RootLayout({ children, modal }: { children: ReactNode; m
   return (
     <html lang="en" suppressHydrationWarning className={`${geist.variable} ${geistMono.variable} ${display.variable}`}>
       <head>
-        <script dangerouslySetInnerHTML={{ __html: MOTION_BOOT }} />
+        <Script id="motion-boot" strategy="beforeInteractive">
+          {MOTION_BOOT}
+        </Script>
         <link rel="preconnect" href="https://upload.wikimedia.org" />
         <link rel="preconnect" href="https://thumb.wikimedia.org" />
         <link rel="alternate" type="text/markdown" href="/llms.txt" title="LLM-readable index" />
@@ -87,7 +90,7 @@ export default function RootLayout({ children, modal }: { children: ReactNode; m
           <SiteFooter />
           {modal}
           <Motion />
-          <Assistant />
+          <AgentDock />
         </Providers>
       </body>
     </html>

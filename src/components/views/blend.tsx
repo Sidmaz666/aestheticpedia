@@ -34,7 +34,7 @@ export function BlendView() {
       <h1 className="display mt-2 text-6xl sm:text-7xl">Blend</h1>
       <p className="mt-3 max-w-2xl text-fg-muted">
         Cross two documented aesthetics. The result is derived only from their records — palettes interleaved around a
-        blended anchor colour, materials and objects alternated, agreements and conflicts read from their style profiles.
+        blended anchor colour, materials and objects alternated, agreements and tensions read from their measured palettes.
         It is a design prompt, not a documented style.
       </p>
 

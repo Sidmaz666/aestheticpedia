@@ -2,6 +2,7 @@
 // from the parents' records (no generative model), so a pair always yields the same,
 // traceable result.
 import type { AestheticFull, ColorEntry, HybridResult } from '@/lib/aesthetic'
+import { METRIC_AXES } from '@/lib/palette-metrics'
 
 const hexToRgb = (hex: string) => {
   const n = parseInt(hex.slice(1), 16)
@@ -54,16 +55,15 @@ const sentence = (s: string) => s.split(/(?<=[.!?])\s/)[0] ?? s
 export function synthesize(A: AestheticFull, B: AestheticFull): HybridResult {
   const agreements: string[] = []
   const conflicts: string[] = []
-  for (const axis of Object.keys(A.dnaAxes)) {
-    const [lo, hi] = axis.split('_')
-    if (!lo || !hi) continue
-    const va = A.dnaAxes[axis]
-    const vb = B.dnaAxes[axis]
-    if (va === undefined || vb === undefined) continue
-    const side = (v: number) => (v >= 50 ? hi : lo)
-    if (Math.abs(va - vb) <= 20) agreements.push(`Both lean ${side((va + vb) / 2)} (${Math.round(va)} / ${Math.round(vb)})`)
-    else if (Math.abs(va - vb) >= 45)
-      conflicts.push(`${A.name} is ${side(va)} where ${B.name} is ${side(vb)} — settle near ${Math.round((va + vb) / 2)} on ${lo}↔${hi}`)
+  if (A.metrics && B.metrics) {
+    for (const m of METRIC_AXES) {
+      const va = A.metrics[m.key]
+      const vb = B.metrics[m.key]
+      const side = (v: number) => (v >= 50 ? m.right : m.left).toLowerCase()
+      if (Math.abs(va - vb) <= 15) agreements.push(`Both palettes are ${side((va + vb) / 2)} (${m.key} ${va} / ${vb})`)
+      else if (Math.abs(va - vb) >= 40)
+        conflicts.push(`${A.name}’s palette is ${side(va)} where ${B.name}’s is ${side(vb)} — settle near ${Math.round((va + vb) / 2)} ${m.key}`)
+    }
   }
   const common = shared([...A.materials, ...A.textures], [...B.materials, ...B.textures])
   if (common.length) agreements.push(`Shared material vocabulary: ${common.slice(0, 4).join(', ')}`)

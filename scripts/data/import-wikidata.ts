@@ -8,10 +8,14 @@
 //
 //   node scripts/data/import-wikidata.ts            import all classes
 //   node scripts/data/import-wikidata.ts --dry      report what would be imported
+//   node scripts/data/import-wikidata.ts --from-crawl  import pages found by crawl-wikipedia.ts
+//        whose Wikidata class is on the reviewed allow-list in data/crawl-classes.json
+import { readFileSync } from 'node:fs'
 import type { AestheticRecord, RelationRecord } from '../../src/lib/schema.ts'
 import { cache, getJSON, loadLibrary, saveAesthetic, saveRelations, sleep, slugify } from './lib.ts'
 
 const DRY = process.argv.includes('--dry')
+const FROM_CRAWL = process.argv.includes('--from-crawl')
 
 const CLASSES: { qid: string; label: string; category: AestheticRecord['category']; establishment: AestheticRecord['establishment']; direct?: boolean }[] = [
   // Specific classes first: a record is assigned to the first class that lists it.
@@ -103,7 +107,23 @@ const candidates = new Map<string, Candidate>()
 
 // 1) Light listing per class: item + English Wikipedia title (instances and instances of subclasses).
 const listed = new Map<string, { title: string; cls: (typeof CLASSES)[number] }>()
-for (const cls of CLASSES) {
+// Classes that disqualify a page even when it also carries an allowed class.
+const DENY = new Set(['Q5', 'Q188451', 'Q223393', 'Q201658', 'Q659563', 'Q15961987', 'Q3326717', 'Q12020884', 'Q28820001', 'Q2927074', 'Q7889', 'Q11424', 'Q7725634', 'Q3305213', 'Q41176', 'Q43229', 'Q4830453', 'Q13406463', 'Q4167410', 'Q215380', 'Q1194240', 'Q49773'])
+if (FROM_CRAWL) {
+  const cfg = JSON.parse(readFileSync(new URL('../../data/crawl-classes.json', import.meta.url), 'utf8')) as { classes: (typeof CLASSES)[number][]; excludeTitles: string[] }
+  const allow = cfg.classes
+  const excluded = new Set(cfg.excludeTitles)
+  const pages = JSON.parse(readFileSync(new URL('../../data/.cache/crawl.json', import.meta.url), 'utf8')) as { title: string; qid: string; p31: string[] }[]
+  for (const p of pages) {
+    if (!p.qid || excluded.has(p.title) || p.p31.some((q) => DENY.has(q))) continue
+    const cls = allow.find((c) => p.p31.includes(c.qid))
+    if (!cls || REJECT.test(p.title) || /^(history|historiography|timeline|glossary) of\b/i.test(p.title)) continue
+    if (haveQ.has(p.qid) || haveNames.has(norm(p.title)) || haveCores.has(core(p.title)) || listed.has(p.qid)) continue
+    listed.set(p.qid, { title: p.title, cls })
+  }
+  console.log(`crawl: ${listed.size} new pages on the class allow-list`)
+}
+for (const cls of FROM_CRAWL ? [] : CLASSES) {
   const rows = await sparql(`
 SELECT DISTINCT ?item ?title WHERE {
   ${cls.direct ? `?item wdt:P31 wd:${cls.qid} .` : `{ ?item wdt:P31 wd:${cls.qid} } UNION { ?item wdt:P31 ?sub . ?sub wdt:P279 wd:${cls.qid} }`}

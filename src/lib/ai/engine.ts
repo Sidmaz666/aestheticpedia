@@ -1,6 +1,7 @@
 'use client'
 
-// In-browser AI: a small language model (WebLLM, WebGPU) for the assistant and a
+// In-browser AI: an optional small writer model (WebLLM, WebGPU) that turns the agent's
+// grounded tool results into prose (the agent itself is Needle 3, see agent.ts), and a
 // text-to-image model (Janus-Pro 1B via Transformers.js, WebGPU) for visualising an
 // aesthetic. Nothing is sent to a server; models download once and are cached by the browser.
 import { toast } from 'sonner'
@@ -14,9 +15,9 @@ export interface ChatModel {
 }
 
 export const CHAT_MODELS: ChatModel[] = [
-  { id: 'Qwen2.5-1.5B-Instruct-q4f16_1-MLC', label: 'Qwen 2.5 · 1.5B', size: '≈1.1 GB', note: 'Best answers' },
-  { id: 'Llama-3.2-1B-Instruct-q4f16_1-MLC', label: 'Llama 3.2 · 1B', size: '≈0.9 GB', note: 'Balanced' },
-  { id: 'Qwen2.5-0.5B-Instruct-q4f16_1-MLC', label: 'Qwen 2.5 · 0.5B', size: '≈0.4 GB', note: 'Fastest, lightest' },
+  { id: 'Qwen3.5-0.8B-q4f16_1-MLC', label: 'Qwen 3.5 · 0.8B', size: '≈0.6 GB', note: 'Fast, recommended' },
+  { id: 'Qwen3.5-2B-q4f16_1-MLC', label: 'Qwen 3.5 · 2B', size: '≈1.4 GB', note: 'Richest answers' },
+  { id: 'Qwen3-0.6B-q4f16_1-MLC', label: 'Qwen 3 · 0.6B', size: '≈0.4 GB', note: 'Lightest' },
 ]
 
 export const IMAGE_MODEL = { id: 'onnx-community/Janus-Pro-1B-ONNX', label: 'Janus-Pro 1B', size: '≈2 GB' }
@@ -63,6 +64,33 @@ export async function getChatEngine(modelId: string): Promise<MLCEngineInterface
     toast.error(`Couldn’t load ${model.label}: ${err instanceof Error ? err.message : String(err)}`, { id: toastId, duration: 8000 })
   })
   return engine
+}
+
+/**
+ * Stream a short answer written only from `context` (the agent's tool results). Thinking mode
+ * is disabled so the small model answers directly.
+ */
+export async function writeAnswer(modelId: string, question: string, context: string, system: string, onDelta: (text: string) => void, shouldStop: () => boolean) {
+  const engine = await getChatEngine(modelId)
+  const stream = await engine.chat.completions.create({
+    stream: true,
+    temperature: 0.4,
+    max_tokens: 380,
+    messages: [
+      { role: 'system', content: `${system}\n\nCONTEXT:\n${context.slice(0, 6000)}` },
+      { role: 'user', content: question },
+    ],
+    extra_body: { enable_thinking: false },
+  } as Parameters<typeof engine.chat.completions.create>[0] & { stream: true })
+  let text = ''
+  for await (const chunk of stream) {
+    if (shouldStop()) {
+      await engine.interruptGenerate()
+      break
+    }
+    text += chunk.choices[0]?.delta?.content ?? ''
+    onDelta(text.replace(/<think>[\s\S]*?(<\/think>|$)/g, '').trimStart())
+  }
 }
 
 // ---------------------------------------------------------------------------

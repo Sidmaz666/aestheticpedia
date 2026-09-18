@@ -1,10 +1,11 @@
 // Export renderers for a single aesthetic. Used by /api/v1/aesthetics/{slug}?format=…,
 // the MCP server and the "Export" menu on every aesthetic page.
-import { STATUS_LABELS, ESTABLISHMENT_LABELS, DATA_QUALITY_LABELS, DNA_AXES, labelize, type AestheticFull, type ResolvedRelations } from '@/lib/aesthetic'
+import { STATUS_LABELS, ESTABLISHMENT_LABELS, DATA_QUALITY_LABELS, labelize, type AestheticFull, type ResolvedRelations } from '@/lib/aesthetic'
 
 import { SITE_NAME, SITE_TAGLINE, SITE_URL } from '@/lib/site'
 
 export { SITE_URL }
+import { METRIC_AXES } from '@/lib/palette-metrics'
 
 export { EXPORT_FORMATS, type ExportFormat } from '@/lib/export-formats'
 import { EXPORT_FORMATS } from '@/lib/export-formats'
@@ -90,8 +91,8 @@ export function toMarkdown(a: AestheticFull, rel?: ResolvedRelations): string {
   )
   section('Sound', a.sounds.map((m) => `- ${m}`))
   section(
-    'Style profile (0 = left pole, 100 = right pole)',
-    DNA_AXES.filter((x) => a.dnaAxes[x.key] !== undefined).map((x) => `- ${x.left} ↔ ${x.right}: ${Math.round(a.dnaAxes[x.key])}`)
+    'Palette analysis (measured from the palette, 0–100)',
+    a.metrics ? METRIC_AXES.map((x) => `- ${x.left} ↔ ${x.right}: ${a.metrics![x.key]}`) : []
   )
   if (rel) {
     section('Related aesthetics', [

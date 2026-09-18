@@ -23,7 +23,16 @@ spreadsheet-friendly; `mapAestheticFull` in `src/lib/aesthetic.ts` parses them d
 - `check-links.ts` — verifies Wikipedia titles in batches via the MediaWiki API, probes other URLs per host with
   politeness delays, samples Wikimedia media URLs, stores `check: { ok, status, checkedAt }` on each link. The site
   hides items whose check failed; bot-blocked sites (401/403/429/5xx) are kept as “unverifiable”.
-- `normalize.ts` — repairs palette shapes, bad URLs, duplicate strings, year ranges (“present”, centuries, BCE).
+- `images-search.ts` — for records still without images: Commons search for the exact name, Openverse as a capped
+  fallback. An image must name the aesthetic and share two distinctive descriptive words with the record; maps,
+  logos and AI-generated images are rejected; hand-reviewed non-matches are listed in the script.
+- `crawl-wikipedia.ts` + `import-wikidata.ts --from-crawl` — walks ~58 Wikipedia category trees (styles, crafts,
+  regional art, textiles, costume, cinema, photography…), resolves each page's Wikidata class, and imports pages
+  whose class is on the reviewed allow-list in `data/crawl-classes.json` (with an explicit title exclusion list).
+- `enrich-wikidata.ts`, `enrich-text-facts.ts` — fill empty origin/period from Wikidata statements, then from explicit
+  statements in the record's own sourced text (“originated in Japan”, “a 17th-century…”); never overwrite.
+- `normalize.ts` — repairs palette shapes, bad URLs, duplicate strings, year ranges (“present”, centuries, BCE);
+  removes unsourced AI style profiles and AI-generated images (except on records about AI imagery).
 - `validate.ts` — schema, integrity, quality report, strict mode for PRs; regenerates `data/schema.json`.
 - `new.ts` — scaffolds a record from Wikipedia/Wikidata and fetches images.
 
@@ -39,6 +48,19 @@ spreadsheet-friendly; `mapAestheticFull` in `src/lib/aesthetic.ts` parses them d
 - **Design system:** CSS variables in `src/app/globals.css` (“vault” dark default, “paper” light).
 - **Interactive islands:** gallery/lightbox, palette swatches, export menu, section scroll-spy, live style demo
   (`style-demo.tsx`, six templates) and the WebGL material study (`shader-lab.tsx`).
+- **On-device agent** (`src/components/ai/agent-dock.tsx`, `src/lib/ai/`):
+  - `robot.tsx` — the guide's 3D robot, raymarched in a single WebGL fragment shader. Every 400 ms it reads the
+    visible theme (`--fg`, `--accent`, `--accent-2`, `--bg`, `--r-scale`, from the overlay when one is open) and eases
+    towards it; moods (idle, think, happy, talk, sleep) drive the eyes and antenna. SVG fallback without WebGL.
+  - `needle.worker.ts` — Needle 3 (Cactus Compute, Apache-2.0) in a Web Worker: vendored WASM engine in
+    `public/vendor/needle/`, weights (35 MB) fetched once from Hugging Face at a pinned revision and kept in Cache
+    Storage. It maps a request to tool calls with a calibrated confidence.
+  - `tools.ts` — the tool schemas the model sees. `agent.ts` grounds the calls: drops calls whose arguments are not
+    in the request, resolves names against the library (expanding truncated ones, mapping “this” to the page on
+    screen), repairs misrouted calls (a style name passed as a colour), then runs the tools on `/api/v1` and returns
+    cards, tables, swatches and actions. Greetings, hex codes, “surprise me” and “similar to X” bypass the model.
+  - `engine.ts` — optional writer (WebLLM, WebGPU: Qwen 3.5 0.8B/2B, Qwen 3 0.6B) that writes prose only from the
+    agent's results; Janus-Pro 1B text-to-image for the “Imagine it” section.
 
 ## Public interfaces
 

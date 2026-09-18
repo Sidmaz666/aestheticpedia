@@ -9,7 +9,7 @@ export const OPTIONS = options
 
 /**
  * GET /api/v1/aesthetics — search, filter and page through the library.
- *   ?q= &category= (repeatable) &type= &status= &era= &region= &tag= &images=true
+ *   ?q= &category= (repeatable) &type= &status= &era= &region= &place= &from= &to= (years; &began=true = started in range) &tag= &images=true
  *   &sort=popular|name|recent|oldest|newest &page= &pageSize= (≤100) &facets=false
  *   &format=json (default) | ndjson | csv | md   (non-JSON formats return full records, ≤5000)
  */

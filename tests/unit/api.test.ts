@@ -24,8 +24,8 @@ describe('queries', () => {
   })
 
   it('discovers by style profile and ignores unknown dimensions', async () => {
-    expect(parseDims('minimal_maximal:10,bogus:50').size).toBe(1)
-    const items = await discover(parseDims('minimal_maximal:5,quiet_loud:5'), undefined, 5)
+    expect(parseDims('warmth:10,bogus:50').size).toBe(1)
+    const items = await discover(parseDims('warmth:5,saturation:5'), undefined, 5)
     expect(items).toHaveLength(5)
     expect(items[0].distance).toBeLessThanOrEqual(items[4].distance)
   })
