@@ -1,0 +1,300 @@
+{
+  "slug": "jpeg-blockiness",
+  "name": "JPEG Blockiness",
+  "aliases": [
+    "JPEG Artifacts",
+    "Compression Aesthetics",
+    "Digital Compression"
+  ],
+  "category": "Visual Effects & Phenomena",
+  "subcategory": "Visual Effects & Phenomena",
+  "establishment": "internet_aesthetic",
+  "status": "draft",
+  "confidence": 85,
+  "origin": "Global",
+  "geography": "global",
+  "periodStart": "1990s",
+  "periodEnd": "2010s",
+  "startYear": 1990,
+  "endYear": 2010,
+  "era": "Digital",
+  "summary": "A visual style characterized by the distinctive 8x8 pixel blocks that appear in heavily compressed JPEG images.",
+  "description": "It manifests as visible square patterns and color banding in areas of gradual tone transitions, resulting from the JPEG compression algorithm's discrete cosine transformation. This became unintentionally iconic with early digital photography and web imagery before compression improved.",
+  "culturalContext": "",
+  "colors": [
+    {
+      "hex": "#ff0000",
+      "name": "Red"
+    },
+    {
+      "hex": "#00ff00",
+      "name": "Green"
+    },
+    {
+      "hex": "#0000ff",
+      "name": "Blue"
+    },
+    {
+      "hex": "#808080",
+      "name": "Medium Gray"
+    },
+    {
+      "hex": "#ffff00",
+      "name": "Yellow"
+    }
+  ],
+  "visualDNA": {},
+  "typography": {},
+  "typePairing": {
+    "display": "Courier New",
+    "body": "Courier New",
+    "notes": "Monospace fonts mimic pixel grid alignment"
+  },
+  "materials": [
+    "Compressed Digital Images",
+    "JPEG Files",
+    "Web Graphics"
+  ],
+  "textures": [
+    "Pixelated",
+    "Blocky",
+    "Digital Artifact"
+  ],
+  "lighting": {},
+  "photography": {},
+  "architecture": {},
+  "fashion": {},
+  "objects": [
+    "Early Web Images",
+    "Digital Photos",
+    "Low-Quality Transcodes"
+  ],
+  "environment": {},
+  "graphicDesign": {},
+  "uiTranslation": {},
+  "recipe": {},
+  "emotionProfile": {
+    "warm": 40,
+    "cold": 60,
+    "playful": 30,
+    "serious": 70,
+    "chaotic": 60,
+    "ordered": 40,
+    "nostalgic": 80,
+    "futuristic": 20,
+    "peaceful": 40,
+    "ominous": 30
+  },
+  "dnaAxes": {
+    "minimal_maximal": 80,
+    "organic_geometric": 20,
+    "warm_cold": 50,
+    "natural_synthetic": 70,
+    "analog_digital": 90,
+    "historical_futuristic": 30,
+    "refined_raw": 90,
+    "playful_serious": 20,
+    "soft_harsh": 80,
+    "quiet_loud": 70,
+    "orderly_chaotic": 70,
+    "dense_spacious": 60,
+    "realistic_surreal": 40,
+    "elegant_utilitarian": 10,
+    "nostalgic_progressive": 70
+  },
+  "keyExamples": [
+    "Early 2000s MySpace photos",
+    "Geocities websites",
+    "First-generation digital cameras"
+  ],
+  "sounds": [],
+  "tags": [
+    "digital",
+    "compression",
+    "technical",
+    "nostalgic",
+    "web",
+    "imperfect"
+  ],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Jpg_scaling_example_combined.png/1280px-Jpg_scaling_example_combined.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Jpg_scaling_example_combined.png/500px-Jpg_scaling_example_combined.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Jpg_scaling_example_combined.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jpg_scaling_example_combined.png",
+      "caption": "From the original description: \"When posting your art [on social media], if you don't want it completely mangled, export at 16x the original size (or a multiple of 8) because JPEG processes blocks of 8 pixels. At 16x, the artifacts are very minimal, and similar to JPEG quality of",
+      "source": "Wikimedia Commons",
+      "artist": "PureAsbestos (original) Croomfolk (collage)",
+      "date": "2024-10-21",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "422"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Dctjpeg.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/23/Dctjpeg.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/23/Dctjpeg.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dctjpeg.png",
+      "caption": "Basis functions of the discrete cosine transformation used by jpeg image file format and various video encoding standards.",
+      "source": "Wikimedia Commons",
+      "artist": "No machine-readable author provided. FelixH~commonswiki assumed (based on copyright claims).",
+      "date": "25 January 2007 (original upload date)",
+      "license": "Public domain",
+      "width": "584",
+      "height": "584"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Lichtenstein_jpeg_difference.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Lichtenstein_jpeg_difference.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Lichtenstein_jpeg_difference.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lichtenstein_jpeg_difference.png",
+      "caption": "The picture shows the difference pixel-by-pixel between an image and its JPEG compressed version: white=no-difference; black=big-difference The original image is Image:Lichtenstein img processing test.png , that I have renamed castle.png on my hard-disk to make it simpler. Then I",
+      "source": "Wikimedia Commons",
+      "artist": "Alessio Damato",
+      "date": "2007-05-19",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "512",
+      "height": "512"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Lichtenstein_img_processing_test.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/39/Lichtenstein_img_processing_test.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/39/Lichtenstein_img_processing_test.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lichtenstein_img_processing_test.png",
+      "caption": "I needed a test image to be used in some examples of image processing. In books and articles, Lenna is commonly used, but I can't use it on Commons because it is not in the public domain. I took a look at the featured pictures, and I have decided to use Image:Lichtenstein.jpg bec",
+      "source": "Wikimedia Commons",
+      "artist": "Andreas Tille , cropped by Alessio Damato",
+      "date": "Autumn 2001 date QS:P,+2001-00-00T00:00:00Z/9,P4241,Q4072056",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "512",
+      "height": "512"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Visual_impact_of_a_jpeg_compression_on_Photoshop.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Visual_impact_of_a_jpeg_compression_on_Photoshop.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Visual_impact_of_a_jpeg_compression_on_Photoshop.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Visual_impact_of_a_jpeg_compression_on_Photoshop.jpg",
+      "caption": "Visual impact of a jpeg compression on Photoshop on a picture of 4480x4480 pixels. This file of comparisons gives an idea about the quality of a jpeg image according to various rates of size and compression on Adobe Photoshop. The minimum rate of compression is 0/12 (lowest quali",
+      "source": "Wikimedia Commons",
+      "artist": "Basile Morin",
+      "date": "2018-05-19 01:42:13",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1220",
+      "height": "920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/JPS-sample.jpg/1280px-JPS-sample.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/JPS-sample.jpg/500px-JPS-sample.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c7/JPS-sample.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:JPS-sample.jpg",
+      "caption": "An example of a stereographic .JPS image (containing two images, one for each eye) when displayed using a normal (2D) image viewer.",
+      "source": "Wikimedia Commons",
+      "artist": "Matthias Stirner",
+      "date": "2011-08-10",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "372"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Wikipedia: JPEG",
+      "url": "https://en.wikipedia.org/wiki/JPEG",
+      "tier": "B"
+    },
+    {
+      "name": "Digital Photography Review: JPEG Quality",
+      "url": "https://dpnow.com",
+      "tier": "B"
+    },
+    {
+      "name": "Aesthetics Wiki: JPEG",
+      "url": "https://aesthetics.fandom.com/wiki/JPEG",
+      "tier": "C"
+    }
+  ],
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — JPEG",
+      "url": "https://commons.wikimedia.org/wiki/Category:JPEG",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:03:03.083Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2195",
+      "url": "https://www.wikidata.org/wiki/Q2195",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:03:03.083Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — JPEG",
+      "url": "https://en.wikipedia.org/wiki/JPEG",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:03:03.083Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — JPEG Blockiness",
+      "url": "https://en.wikipedia.org/wiki/JPEG_Blockiness",
+      "note": "Encyclopedia overview & history"
+    },
+    {
+      "type": "video",
+      "title": "JPEG Blockiness — documentaries & video essays",
+      "url": "https://www.youtube.com/results?search_query=JPEG%20Blockiness%20aesthetic%20documentary%20history",
+      "note": "YouTube search: films & video essays"
+    },
+    {
+      "type": "scholar",
+      "title": "JPEG Blockiness — academic literature",
+      "url": "https://scholar.google.com/scholar?q=JPEG%20Blockiness",
+      "note": "Google Scholar search"
+    },
+    {
+      "type": "archive",
+      "title": "JPEG Blockiness — archival films, scans & recordings",
+      "url": "https://archive.org/search?query=JPEG%20Blockiness",
+      "note": "Internet Archive search"
+    },
+    {
+      "type": "museum",
+      "title": "JPEG Blockiness — museum collections & exhibitions",
+      "url": "https://www.google.com/search?q=JPEG%20Blockiness%20museum%20collection%20exhibition",
+      "note": "Museum collections worldwide"
+    },
+    {
+      "type": "images",
+      "title": "JPEG Blockiness — visual reference board",
+      "url": "https://www.google.com/search?tbm=isch&q=JPEG%20Blockiness%20aesthetic%20examples",
+      "note": "Google Images search"
+    }
+  ],
+  "wikidata": "Q2195",
+  "wikipedia": "JPEG",
+  "popularity": 75,
+  "isNiche": false,
+  "dataQuality": "well_documented",
+  "verifiedAt": null,
+  "createdAt": "2026-09-13T02:29:25.050Z",
+  "updatedAt": "2026-09-18T05:03:03.083Z"
+}

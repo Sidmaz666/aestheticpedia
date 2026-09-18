@@ -1,0 +1,29 @@
+name: Suggest an aesthetic
+description: Propose an aesthetic that is missing from the vault
+labels: [new-aesthetic]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: The most widely used name (add alternatives below)
+    validations:
+      required: true
+  - type: input
+    id: aliases
+    attributes:
+      label: Also known as
+  - type: textarea
+    id: what
+    attributes:
+      label: What is it?
+      description: Two or three sentences — where and when it emerged, what it looks like.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Museum pages, scholarship, encyclopedia articles, reputable press. Links please.
+    validations:
+      required: true

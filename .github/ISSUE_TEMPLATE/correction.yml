@@ -1,0 +1,22 @@
+name: Report an error
+description: Something in a record is wrong, missing or badly sourced
+labels: [correction]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Record URL
+      placeholder: https://aestheticpedia.org/aesthetics/…
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: A source that supports the correction.

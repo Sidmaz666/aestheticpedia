@@ -1,0 +1,603 @@
+{
+  "title": "Aestheticpedia record",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Architectural Style",
+        "Art Movement",
+        "Color & Light",
+        "Drawing & Line Work",
+        "Fashion & Dress",
+        "Film & Cinema",
+        "Furniture & Product Design",
+        "Graphic Design",
+        "Historical Period Style",
+        "Illustration & Comics",
+        "Interior Design",
+        "Internet Aesthetic",
+        "Material & Surface",
+        "Music & Sonic Culture",
+        "Painting Technique & School",
+        "Photography",
+        "Regional & Cultural Tradition",
+        "Religious & Sacred Art",
+        "Science Fiction & Fantasy",
+        "Subculture Style",
+        "Technology & Retrofuturism",
+        "Textile & Craft",
+        "Texture & Material Study",
+        "Visual Effects & Phenomena"
+      ]
+    },
+    "subcategory": {
+      "type": "string"
+    },
+    "establishment": {
+      "type": "string",
+      "enum": [
+        "historical",
+        "regional_tradition",
+        "community_subculture",
+        "commercial_style",
+        "internet_aesthetic",
+        "experimental_hybrid"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "researched",
+        "verified",
+        "flagged"
+      ]
+    },
+    "confidence": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "origin": {
+      "type": "string"
+    },
+    "geography": {
+      "type": "string"
+    },
+    "periodStart": {
+      "type": "string"
+    },
+    "periodEnd": {
+      "type": "string"
+    },
+    "startYear": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": -50000,
+          "maximum": 2100
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "endYear": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": -50000,
+          "maximum": 2100
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "era": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "culturalContext": {
+      "type": "string"
+    },
+    "visualDNA": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "colors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "hex": {
+            "type": "string",
+            "pattern": "^#[0-9a-fA-F]{6}$"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "hex",
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "typography": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "materials": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "textures": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "lighting": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "photography": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "architecture": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "fashion": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "objects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "environment": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "graphicDesign": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "uiTranslation": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "recipe": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "emotionProfile": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      }
+    },
+    "dnaAxes": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      }
+    },
+    "keyExamples": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sounds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "tier": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "check": {
+            "type": "object",
+            "properties": {
+              "ok": {
+                "type": "boolean"
+              },
+              "status": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              },
+              "checkedAt": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "ok",
+              "checkedAt"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "thumb": {
+            "type": "string",
+            "format": "uri"
+          },
+          "full": {
+            "type": "string",
+            "format": "uri"
+          },
+          "pageUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "caption": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "artist": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string"
+          },
+          "license": {
+            "type": "string"
+          },
+          "licenseUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "width": {
+            "type": [
+              "string",
+              "number"
+            ]
+          },
+          "height": {
+            "type": [
+              "string",
+              "number"
+            ]
+          },
+          "check": {
+            "type": "object",
+            "properties": {
+              "ok": {
+                "type": "boolean"
+              },
+              "status": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              },
+              "checkedAt": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "ok",
+              "checkedAt"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "url",
+          "caption",
+          "source",
+          "width",
+          "height"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "article",
+              "video",
+              "museum",
+              "exhibition",
+              "web",
+              "archive",
+              "scholar",
+              "images"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "note": {
+            "type": "string"
+          },
+          "check": {
+            "type": "object",
+            "properties": {
+              "ok": {
+                "type": "boolean"
+              },
+              "status": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              },
+              "checkedAt": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "ok",
+              "checkedAt"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "type",
+          "title",
+          "url"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "typePairing": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "wikidata": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^Q\\d+$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "wikipedia": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "popularity": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "isNiche": {
+      "type": "boolean"
+    },
+    "dataQuality": {
+      "type": "string",
+      "enum": [
+        "well_documented",
+        "moderately_documented",
+        "emerging",
+        "interpretive",
+        "experimental"
+      ]
+    },
+    "verifiedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "slug",
+    "name",
+    "aliases",
+    "category",
+    "subcategory",
+    "establishment",
+    "status",
+    "confidence",
+    "origin",
+    "geography",
+    "periodStart",
+    "periodEnd",
+    "startYear",
+    "endYear",
+    "era",
+    "summary",
+    "description",
+    "culturalContext",
+    "visualDNA",
+    "colors",
+    "typography",
+    "materials",
+    "textures",
+    "lighting",
+    "photography",
+    "architecture",
+    "fashion",
+    "objects",
+    "environment",
+    "graphicDesign",
+    "uiTranslation",
+    "recipe",
+    "emotionProfile",
+    "dnaAxes",
+    "keyExamples",
+    "sounds",
+    "sources",
+    "images",
+    "references",
+    "typePairing",
+    "tags",
+    "popularity",
+    "isNiche",
+    "dataQuality",
+    "verifiedAt",
+    "createdAt",
+    "updatedAt"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,238 @@
+{
+  "slug": "8-bit-palette-snapping",
+  "name": "8-Bit Palette Snapping",
+  "aliases": [
+    "Color Reduction",
+    "Palette Clamping",
+    "Dithered Color"
+  ],
+  "category": "Visual Effects & Phenomena",
+  "subcategory": "Visual Effects & Phenomena",
+  "establishment": "internet_aesthetic",
+  "status": "researched",
+  "confidence": 75,
+  "origin": "Japan",
+  "geography": "global",
+  "periodStart": "1980s",
+  "periodEnd": "Present",
+  "startYear": 1980,
+  "endYear": null,
+  "era": "Digital Retro",
+  "summary": "A visual style where colors are forced to match limited 8-bit color palettes, creating distinctive color mapping.",
+  "description": "It appears as abrupt color transitions where full-color images are reduced to 256 colors, often with dithering to smooth transitions. This emerged from technical limitations of early computer and console graphics systems, particularly the 8-bit era, and has been revived as a retro aesthetic in modern digital art.",
+  "culturalContext": "8-bit palette snapping — the constraint of 256 (or fewer) colors forcing gradients into visible steps — is the defining look of early computing and modern retro pixel art: NES's 25-color reality, EGA/VGA dithering patterns, web-safe 216 colors, and games (Hyper Light Drifter, Shovel Knight) that design within snaps. The aesthetic makes banding and dither pattern aesthetic subjects; \"palette swap\" culture turns the constraint into a design sport.",
+  "colors": [
+    {
+      "hex": "#ff0000",
+      "name": "Red"
+    },
+    {
+      "hex": "#00ff00",
+      "name": "Green"
+    },
+    {
+      "hex": "#0000ff",
+      "name": "Blue"
+    },
+    {
+      "hex": "#ffff00",
+      "name": "Yellow"
+    },
+    {
+      "hex": "#000000",
+      "name": "Black"
+    }
+  ],
+  "visualDNA": {
+    "shape": "stepped gradient bands replacing smooth transitions",
+    "composition": "dither checkerboards bridging color fields",
+    "line": "pixel-grid hard edges",
+    "texture": "flat indexed color, ordered dither patterns, banding stair-steps"
+  },
+  "typography": {
+    "display": "bitmap font lettering with palette limits",
+    "body": "tile-based character grids",
+    "notes": "color count is the style's law"
+  },
+  "typePairing": {
+    "display": "Press Start 2P",
+    "body": "VT323",
+    "notes": "Pixel font for retro digital aesthetic"
+  },
+  "materials": [
+    "Digital Images",
+    "Game Consoles",
+    "Computer Graphics"
+  ],
+  "textures": [
+    "Pixelated",
+    "Limited Color",
+    "Dithered"
+  ],
+  "lighting": {
+    "quality": "CRT phosphor glow over flat fields",
+    "temperature": "cool-toned",
+    "shadow": "dither fakes all shadow"
+  },
+  "photography": {},
+  "architecture": {},
+  "fashion": {},
+  "objects": [
+    "Retro Games",
+    "Digital Art",
+    "Pixel Images"
+  ],
+  "environment": {},
+  "graphicDesign": {},
+  "uiTranslation": {
+    "background": "indexed color field",
+    "surface": "palette-snap cards",
+    "components": "color-count meters",
+    "motion": "frame-snap animation steps"
+  },
+  "recipe": {},
+  "emotionProfile": {
+    "warm": 50,
+    "cold": 50,
+    "playful": 70,
+    "serious": 30,
+    "chaotic": 40,
+    "ordered": 80,
+    "nostalgic": 90,
+    "futuristic": 10,
+    "peaceful": 50,
+    "ominous": 10
+  },
+  "dnaAxes": {
+    "minimal_maximal": 90,
+    "organic_geometric": 10,
+    "warm_cold": 50,
+    "natural_synthetic": 70,
+    "analog_digital": 80,
+    "historical_futuristic": 20,
+    "refined_raw": 70,
+    "playful_serious": 40,
+    "soft_harsh": 80,
+    "quiet_loud": 70,
+    "orderly_chaotic": 90,
+    "dense_spacious": 80,
+    "realistic_surreal": 20,
+    "elegant_utilitarian": 10,
+    "nostalgic_progressive": 90
+  },
+  "keyExamples": [
+    "NES games",
+    "Commodore 64 graphics",
+    "Modern pixel art"
+  ],
+  "sounds": [],
+  "tags": [
+    "digital",
+    "retro",
+    "limited-color",
+    "pixel",
+    "gaming",
+    "nostalgic"
+  ],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/16777216colors.png/1280px-16777216colors.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/16777216colors.png/500px-16777216colors.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e9/16777216colors.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:16777216colors.png",
+      "caption": "All 16,777,216 colors of 24-bit RGB palette ( truecolor ) in a 4096 × 4096 bitmap. This image was made by zooming Image:Redgreen.png to 4096 × 4096 pixels then adding Image:Blue256.png on every 16 × 16 pixels block of fixed red-green value.",
+      "source": "Wikimedia Commons",
+      "artist": "Marc Mongenet",
+      "date": "2005-10-29",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/CIExy1931_srgb_gamut.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d3/CIExy1931_srgb_gamut.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d3/CIExy1931_srgb_gamut.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:CIExy1931_srgb_gamut.png",
+      "caption": "Based on: CIExy1931 As a replacement for an existing image with an unclear copyright status. The image highlights the sRGB gamut. The description of that image follows:",
+      "source": "Wikimedia Commons",
+      "artist": "Hankwang at English Wikipedia",
+      "date": "6 May 2006 (original upload date)",
+      "license": "Public domain",
+      "width": "542",
+      "height": "599"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Wikipedia: Color Depth",
+      "url": "https://en.wikipedia.org/wiki/Color_depth",
+      "tier": "B"
+    },
+    {
+      "name": "Aesthetics Wiki: 8-Bit",
+      "url": "https://aesthetics.fandom.com/wiki/8-Bit",
+      "tier": "C"
+    },
+    {
+      "name": "Retrospec: Game Boy Color Palette",
+      "url": "https://retrospec.info",
+      "tier": "C"
+    }
+  ],
+  "references": [
+    {
+      "type": "article",
+      "title": "Wikipedia — Color depth (related)",
+      "url": "https://en.wikipedia.org/wiki/Color_depth",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T04:53:32.344Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — 8-Bit Palette Snapping",
+      "url": "https://en.wikipedia.org/wiki/8-Bit_Palette_Snapping",
+      "note": "Encyclopedia overview & history"
+    },
+    {
+      "type": "video",
+      "title": "8-Bit Palette Snapping — documentaries & video essays",
+      "url": "https://www.youtube.com/results?search_query=8-Bit%20Palette%20Snapping%20aesthetic%20documentary%20history",
+      "note": "YouTube search: films & video essays"
+    },
+    {
+      "type": "scholar",
+      "title": "8-Bit Palette Snapping — academic literature",
+      "url": "https://scholar.google.com/scholar?q=8-Bit%20Palette%20Snapping",
+      "note": "Google Scholar search"
+    },
+    {
+      "type": "archive",
+      "title": "8-Bit Palette Snapping — archival films, scans & recordings",
+      "url": "https://archive.org/search?query=8-Bit%20Palette%20Snapping",
+      "note": "Internet Archive search"
+    },
+    {
+      "type": "museum",
+      "title": "8-Bit Palette Snapping — museum collections & exhibitions",
+      "url": "https://www.google.com/search?q=8-Bit%20Palette%20Snapping%20museum%20collection%20exhibition",
+      "note": "Museum collections worldwide"
+    },
+    {
+      "type": "images",
+      "title": "8-Bit Palette Snapping — visual reference board",
+      "url": "https://www.google.com/search?tbm=isch&q=8-Bit%20Palette%20Snapping%20aesthetic%20examples",
+      "note": "Google Images search"
+    }
+  ],
+  "popularity": 85,
+  "isNiche": false,
+  "dataQuality": "moderately_documented",
+  "verifiedAt": null,
+  "createdAt": "2026-09-13T02:29:25.070Z",
+  "updatedAt": "2026-09-18T04:53:32.344Z"
+}

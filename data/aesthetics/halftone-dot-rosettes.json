@@ -1,0 +1,318 @@
+{
+  "slug": "halftone-dot-rosettes",
+  "name": "Halftone Dot Rosettes",
+  "aliases": [
+    "Screen Tones",
+    "Ben-Day Dots"
+  ],
+  "category": "Visual Effects & Phenomena",
+  "subcategory": "Visual Effects & Phenomena",
+  "establishment": "commercial_style",
+  "status": "researched",
+  "confidence": 95,
+  "origin": "United States",
+  "geography": "Global",
+  "periodStart": "1873",
+  "periodEnd": "present",
+  "startYear": 1873,
+  "endYear": null,
+  "era": "Industrial Era",
+  "summary": "A printing technique that simulates continuous-tone imagery through varying sizes of dots arranged in a rosette pattern.",
+  "description": "Created by varying the size of cyan, magenta, yellow, and black dots in a specific angle to create the illusion of continuous tone. Developed by Benjamin Day for newspaper printing, it became fundamental to commercial printing and photomechanical reproduction.",
+  "culturalContext": "Halftone rosettes — the CMYK dot lattice where four screens meet at different angles — are the invisible architecture of print color: misaligned angles cause moiré, perfect angles create the rosette pattern visible under a loupe, and dot gain determines the whole gamut. Newspaper-era offset made rosettes the texture of mass media; risograph and zine revivalists celebrate the dot, and \"visible halftone\" is now a deliberate aesthetic from comic art to editorial design.",
+  "colors": [
+    {
+      "hex": "#000000",
+      "name": "Black"
+    },
+    {
+      "hex": "#ff0000",
+      "name": "Cyan"
+    },
+    {
+      "hex": "#00ff00",
+      "name": "Magenta"
+    },
+    {
+      "hex": "#0000ff",
+      "name": "Yellow"
+    },
+    {
+      "hex": "#808080",
+      "name": "Mid Gray"
+    }
+  ],
+  "visualDNA": {
+    "shape": "angle-offset dot lattices forming rosette clusters",
+    "composition": "four-color screens registering into continuous tone",
+    "line": "dot-edge circle logic at magnification",
+    "texture": "ink-dot spread, paper absorb fuzz, moiré interference patterns"
+  },
+  "typography": {
+    "display": "none",
+    "body": "print credits as loupe-worthy artifacts",
+    "notes": "the rosette is print's fingerprint"
+  },
+  "typePairing": {
+    "display": "Impact",
+    "body": "Arial",
+    "notes": "Bold sans-serif for print media"
+  },
+  "materials": [
+    "Paper",
+    "Printing Plates",
+    "Ink"
+  ],
+  "textures": [
+    "Dot Grain",
+    "Screen Pattern",
+    "Halftone Texture"
+  ],
+  "lighting": {
+    "quality": "flat print-illumination neutrality",
+    "temperature": "neutral-toned",
+    "shadow": "dots ARE the shadow"
+  },
+  "photography": {},
+  "architecture": {},
+  "fashion": {},
+  "objects": [
+    "Newspaper Images",
+    "Comic Books",
+    "Magazines",
+    "Advertising Posters"
+  ],
+  "environment": {},
+  "graphicDesign": {},
+  "uiTranslation": {
+    "background": "paper white",
+    "surface": "rosette-macro cards",
+    "components": "screen-angle selectors",
+    "motion": "registration-shift wobbles"
+  },
+  "recipe": {},
+  "emotionProfile": {
+    "warm": 40,
+    "cold": 60,
+    "playful": 30,
+    "serious": 70,
+    "chaotic": 30,
+    "ordered": 80,
+    "nostalgic": 70,
+    "futuristic": 20,
+    "peaceful": 30,
+    "ominous": 40
+  },
+  "dnaAxes": {
+    "minimal_maximal": 70,
+    "organic_geometric": 30,
+    "warm_cold": 40,
+    "natural_synthetic": 60,
+    "analog_digital": 90,
+    "historical_futuristic": 70,
+    "refined_raw": 50,
+    "playful_serious": 30,
+    "soft_harsh": 70,
+    "quiet_loud": 60,
+    "orderly_chaotic": 70,
+    "dense_spacious": 60,
+    "realistic_surreal": 80,
+    "elegant_utilitarian": 40,
+    "nostalgic_progressive": 60
+  },
+  "keyExamples": [
+    "War Propaganda Posters",
+    "Vintage Comics",
+    "Newspaper Photographs",
+    "Screen Printed T-Shirts"
+  ],
+  "sounds": [],
+  "tags": [
+    "printing",
+    "reproduction",
+    "dots",
+    "pattern",
+    "mechanical",
+    "vintage"
+  ],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Grayscale_Cat.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/12/Grayscale_Cat.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/12/Grayscale_Cat.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Grayscale_Cat.jpg",
+      "caption": "This is a grayscale image of a cat. It serves as the input for halftoning and descreening results.",
+      "source": "Wikimedia Commons",
+      "artist": "Conansc",
+      "date": "2019-02-24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "914",
+      "height": "610"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Dithered_Cat.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Dithered_Cat.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Dithered_Cat.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dithered_Cat.jpg",
+      "caption": "This is an image of a cat. It was dithered using the Floyd–Steinberg algorithm from grayscale to a 1-bit image.",
+      "source": "Wikimedia Commons",
+      "artist": "Conansc",
+      "date": "2019-02-24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "914",
+      "height": "610"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Descreened_Cat.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/13/Descreened_Cat.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/13/Descreened_Cat.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Descreened_Cat.jpg",
+      "caption": "This is an image of a cat. It was descreened using a Gaussian blur. Additionally, edge enhancement was applied to emphasize the details and preserve the edges. The input image was dithered with the Floyd–Steinberg algorithm.",
+      "source": "Wikimedia Commons",
+      "artist": "Conansc",
+      "date": "2019-02-24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "914",
+      "height": "610"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Canadian_Illustrated_News_Volume_1_Number_1_Cover.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Canadian_Illustrated_News_Volume_1_Number_1_Cover.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Canadian_Illustrated_News_Volume_1_Number_1_Cover.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Canadian_Illustrated_News_Volume_1_Number_1_Cover.jpg",
+      "caption": "The first known commercially printed halftone photograph. Created by William Leggo for the Canadian Illustrated News.",
+      "source": "Wikimedia Commons",
+      "artist": "The Canadian Illustrated News, William Leggo, and George Desbarats",
+      "date": "1869-10-30",
+      "license": "Public domain",
+      "width": "1000",
+      "height": "1460"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Julemotiv_tegnet_av_Jenny_Nystr%C3%B8m_%2824207693358%29.jpg/1280px-Julemotiv_tegnet_av_Jenny_Nystr%C3%B8m_%2824207693358%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Julemotiv_tegnet_av_Jenny_Nystr%C3%B8m_%2824207693358%29.jpg/500px-Julemotiv_tegnet_av_Jenny_Nystr%C3%B8m_%2824207693358%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Julemotiv_tegnet_av_Jenny_Nystr%C3%B8m_%2824207693358%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Julemotiv_tegnet_av_Jenny_Nystr%C3%B8m_(24207693358).jpg",
+      "caption": "Christmas card by Jenny Nyström showing the jultomte she popularised.",
+      "source": "Wikimedia Commons",
+      "artist": "Jenny Nyström / Adam Cuerden",
+      "date": "circa 1899 date QS:P,+1899-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1871"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Screens._Halftone_process_in_printing._img_01.jpg/1280px-Screens._Halftone_process_in_printing._img_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Screens._Halftone_process_in_printing._img_01.jpg/500px-Screens._Halftone_process_in_printing._img_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/84/Screens._Halftone_process_in_printing._img_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_01.jpg",
+      "caption": "Screens. Halftone process in printing. Purple Screens. Angles 90, 105 , 165.",
+      "source": "Wikimedia Commons",
+      "artist": "Dmitry Makeev",
+      "date": "2020-03",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "759"
+    }
+  ],
+  "sources": [
+    {
+      "name": "The Museum of Modern Art",
+      "url": "https://www.moma.org",
+      "tier": "A"
+    },
+    {
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Halftone",
+      "tier": "B"
+    },
+    {
+      "name": "Printing Museum",
+      "url": "https://printingmuseum.org",
+      "tier": "B"
+    }
+  ],
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Halftone",
+      "url": "https://commons.wikimedia.org/wiki/Category:Halftone",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:01:16.791Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1110021",
+      "url": "https://www.wikidata.org/wiki/Q1110021",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:01:16.791Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Halftone",
+      "url": "https://en.wikipedia.org/wiki/Halftone",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:01:16.791Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Halftone Dot Rosettes",
+      "url": "https://en.wikipedia.org/wiki/Halftone_Dot_Rosettes",
+      "note": "Encyclopedia overview & history"
+    },
+    {
+      "type": "video",
+      "title": "Halftone Dot Rosettes — documentaries & video essays",
+      "url": "https://www.youtube.com/results?search_query=Halftone%20Dot%20Rosettes%20aesthetic%20documentary%20history",
+      "note": "YouTube search: films & video essays"
+    },
+    {
+      "type": "scholar",
+      "title": "Halftone Dot Rosettes — academic literature",
+      "url": "https://scholar.google.com/scholar?q=Halftone%20Dot%20Rosettes",
+      "note": "Google Scholar search"
+    },
+    {
+      "type": "archive",
+      "title": "Halftone Dot Rosettes — archival films, scans & recordings",
+      "url": "https://archive.org/search?query=Halftone%20Dot%20Rosettes",
+      "note": "Internet Archive search"
+    },
+    {
+      "type": "museum",
+      "title": "Halftone Dot Rosettes — museum collections & exhibitions",
+      "url": "https://www.google.com/search?q=Halftone%20Dot%20Rosettes%20museum%20collection%20exhibition",
+      "note": "Museum collections worldwide"
+    },
+    {
+      "type": "images",
+      "title": "Halftone Dot Rosettes — visual reference board",
+      "url": "https://www.google.com/search?tbm=isch&q=Halftone%20Dot%20Rosettes%20aesthetic%20examples",
+      "note": "Google Images search"
+    }
+  ],
+  "wikidata": "Q1110021",
+  "wikipedia": "Halftone",
+  "popularity": 85,
+  "isNiche": false,
+  "dataQuality": "well_documented",
+  "verifiedAt": null,
+  "createdAt": "2026-09-13T02:28:57.498Z",
+  "updatedAt": "2026-09-18T05:01:16.791Z"
+}

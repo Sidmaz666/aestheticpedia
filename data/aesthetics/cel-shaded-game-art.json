@@ -1,0 +1,305 @@
+{
+  "slug": "cel-shaded-game-art",
+  "name": "Cel-Shaded Game Art",
+  "aliases": [
+    "cel shading",
+    "toon shading",
+    "ink outlines 3D",
+    "cartoon render"
+  ],
+  "category": "Internet Aesthetic",
+  "subcategory": "3D rendering styled as hand-inked animation",
+  "establishment": "experimental_hybrid",
+  "status": "verified",
+  "confidence": 75,
+  "origin": "game R&D (Jet Set Radio, 2000)",
+  "geography": "Japanese and global studios, anime-adjacent games",
+  "periodStart": "2000",
+  "periodEnd": "present",
+  "startYear": 2000,
+  "endYear": null,
+  "era": "Dreamcast toon-shading era to anime-game standard",
+  "summary": "Polygons pretending to be cels: flat color, black ink, animation confidence.",
+  "description": "Cel shading (toon shading) maps 3D geometry onto hand-drawn animation logic: two or three flat color bands per surface, hard terminator edges, and deliberately inked outlines that stay constant width on screen. Jet Set Radio (2000) and Zelda: The Wind Waker (2002) proved the style's legs; Dragon Ball Z, Guilty Gear Xrd and Genshin Impact carried it into anime-gaming mainstream. The craft is in the normals and edge detection — making 3D lie convincingly about being 2D — and its appeal is timelessness: cel-shaded games rarely date as hard as realistic renders.",
+  "culturalContext": "Cel shading answered anime fandom's demand for \"the cartoon, playable\": from Jet Set Radio's street culture to Genshin's global anime-game economy, the style defines Japanese game export identity, and its shaders are standard teaching content in game-art education worldwide.",
+  "colors": [
+    {
+      "hex": "#e8c14a",
+      "name": "highlight yellow"
+    },
+    {
+      "hex": "#c93636",
+      "name": "cel red"
+    },
+    {
+      "hex": "#141414",
+      "name": "ink outline black"
+    },
+    {
+      "hex": "#2979ff",
+      "name": "sky blue band"
+    },
+    {
+      "hex": "#f2efe4",
+      "name": "paper white"
+    }
+  ],
+  "visualDNA": {
+    "shape": "volume simplified to poster planes",
+    "line": "constant ink contour",
+    "composition": "anime-key-frame framing",
+    "texture": "flat color, no surface noise"
+  },
+  "typography": {
+    "display": "anime display katakana/logos",
+    "body": "sub-clean minimal UI text",
+    "notes": "lettering mimics anime title cards"
+  },
+  "typePairing": {},
+  "materials": [
+    "toon shader ramps",
+    "outline pass (backface or edge detect)",
+    "hand-painted textures",
+    "color-band ramp maps"
+  ],
+  "textures": [
+    "flat cel color bands",
+    "constant-width ink lines",
+    "posterized light steps"
+  ],
+  "lighting": {},
+  "photography": {},
+  "architecture": {},
+  "fashion": {},
+  "objects": [
+    "cel-shaded characters",
+    "painted-look environments",
+    "action-comic cutscenes",
+    "anime-style effects sprites"
+  ],
+  "environment": {},
+  "graphicDesign": {},
+  "uiTranslation": {},
+  "recipe": {},
+  "emotionProfile": {
+    "warm": 50,
+    "cold": 50,
+    "playful": 50,
+    "serious": 50,
+    "chaotic": 50,
+    "ordered": 50,
+    "nostalgic": 50,
+    "futuristic": 50,
+    "peaceful": 50,
+    "ominous": 50
+  },
+  "dnaAxes": {
+    "minimal_maximal": 50,
+    "organic_geometric": 50,
+    "warm_cold": 50,
+    "natural_synthetic": 50,
+    "analog_digital": 50,
+    "historical_futuristic": 50,
+    "refined_raw": 50,
+    "playful_serious": 50,
+    "soft_harsh": 50,
+    "quiet_loud": 50,
+    "orderly_chaotic": 50,
+    "dense_spacious": 50,
+    "realistic_surreal": 50,
+    "elegant_utilitarian": 50,
+    "nostalgic_progressive": 50
+  },
+  "keyExamples": [
+    "Jet Set Radio (2000) street-cel look",
+    "The Wind Waker sailing vistas",
+    "Guilty Gear Xrd anime-accurate models"
+  ],
+  "sounds": [],
+  "tags": [
+    "celshading",
+    "toon",
+    "anime",
+    "rendering",
+    "outlines",
+    "games"
+  ],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Cel_shading_no_outlines.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Cel_shading_no_outlines.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Cel_shading_no_outlines.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cel_shading_no_outlines.png",
+      "caption": "a cel-shaded scene without contour lines",
+      "source": "Wikimedia Commons",
+      "artist": "Donnie DeBoer",
+      "date": "2008-06-21",
+      "license": "Public domain",
+      "width": "511",
+      "height": "383"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cel_shading_depth.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cel_shading_depth.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cel_shading_depth.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cel_shading_depth.png",
+      "caption": "a depth texture used in image-based toon rendering",
+      "source": "Wikimedia Commons",
+      "artist": "Donnie DeBoer",
+      "date": "2008-06-21",
+      "license": "Public domain",
+      "width": "511",
+      "height": "383"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cel_shading_normals.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cel_shading_normals.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cel_shading_normals.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cel_shading_normals.png",
+      "caption": "a world-space surface normal texture used in toon shading",
+      "source": "Wikimedia Commons",
+      "artist": "Donnie DeBoer",
+      "date": "2008-06-21",
+      "license": "Public domain",
+      "width": "512",
+      "height": "385"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Cel_shading_edge_detection.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/97/Cel_shading_edge_detection.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/97/Cel_shading_edge_detection.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cel_shading_edge_detection.png",
+      "caption": "an edge texture used in image-based toon rendering",
+      "source": "Wikimedia Commons",
+      "artist": "Donnie DeBoer",
+      "date": "2008-06-21",
+      "license": "Public domain",
+      "width": "511",
+      "height": "383"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Cel_shading_with_outlines.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Cel_shading_with_outlines.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Cel_shading_with_outlines.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cel_shading_with_outlines.png",
+      "caption": "a cel-shaded scene with contour lines",
+      "source": "Wikimedia Commons",
+      "artist": "Donnie DeBoer",
+      "date": "2008-06-21",
+      "license": "Public domain",
+      "width": "511",
+      "height": "383"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Particle_in_a_box_cel_shaded.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Particle_in_a_box_cel_shaded.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Particle_in_a_box_cel_shaded.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Particle_in_a_box_cel_shaded.png",
+      "caption": "This is a cel shaded rendering of two isosurfaces , one opaque and one semi-transparent, of the probability density of a particle in a quantum mechanical system. The image was taken as a screenshot in a simulation of a particle in a box . The colors are obtained from the phase an",
+      "source": "Wikimedia Commons",
+      "artist": "Kri",
+      "date": "2011-07-11",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1153",
+      "height": "665"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Wikipedia — Cel shading",
+      "url": "https://en.wikipedia.org/wiki/Cel_shading",
+      "tier": "B"
+    },
+    {
+      "name": "Sega — Jet Set Radio press materials",
+      "url": "https://www.sega.com",
+      "tier": "C"
+    }
+  ],
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Cel shading",
+      "url": "https://commons.wikimedia.org/wiki/Category:Cel_shading",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T04:56:21.766Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1049253",
+      "url": "https://www.wikidata.org/wiki/Q1049253",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T04:56:21.766Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cel shading",
+      "url": "https://en.wikipedia.org/wiki/Cel_shading",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T04:56:21.766Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cel-Shaded Game Art",
+      "url": "https://en.wikipedia.org/wiki/Cel-Shaded_Game_Art",
+      "note": "Encyclopedia overview & history"
+    },
+    {
+      "type": "video",
+      "title": "Cel-Shaded Game Art — documentaries & video essays",
+      "url": "https://www.youtube.com/results?search_query=Cel-Shaded%20Game%20Art%20aesthetic%20documentary%20history",
+      "note": "YouTube search: films & video essays"
+    },
+    {
+      "type": "scholar",
+      "title": "Cel-Shaded Game Art — academic literature",
+      "url": "https://scholar.google.com/scholar?q=Cel-Shaded%20Game%20Art",
+      "note": "Google Scholar search"
+    },
+    {
+      "type": "archive",
+      "title": "Cel-Shaded Game Art — archival films, scans & recordings",
+      "url": "https://archive.org/search?query=Cel-Shaded%20Game%20Art",
+      "note": "Internet Archive search"
+    },
+    {
+      "type": "museum",
+      "title": "Cel-Shaded Game Art — museum collections & exhibitions",
+      "url": "https://www.google.com/search?q=Cel-Shaded%20Game%20Art%20museum%20collection%20exhibition",
+      "note": "Museum collections worldwide"
+    },
+    {
+      "type": "images",
+      "title": "Cel-Shaded Game Art — visual reference board",
+      "url": "https://www.google.com/search?tbm=isch&q=Cel-Shaded%20Game%20Art%20aesthetic%20examples",
+      "note": "Google Images search"
+    },
+    {
+      "type": "web",
+      "title": "Aesthetics Wiki — Cel-Shaded Game Art",
+      "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Cel-Shaded%20Game%20Art",
+      "note": "Community documentation"
+    }
+  ],
+  "wikidata": "Q1049253",
+  "wikipedia": "Cel shading",
+  "popularity": 52,
+  "isNiche": false,
+  "dataQuality": "moderately_documented",
+  "verifiedAt": null,
+  "createdAt": "2026-09-14T03:04:09.347Z",
+  "updatedAt": "2026-09-18T04:56:21.766Z"
+}

@@ -1,4 +1,4 @@
-// Aesthetic Atlas — shared types, defensive JSON parsing, region + era mapping.
+// Aestheticpedia — shared types, defensive JSON parsing, region + era mapping.
 // Used by both API route handlers (server) and frontend components (client).
 // Contains no server-only imports.
 
@@ -15,12 +15,24 @@ export interface SourceEntry {
   name: string
   url?: string
   tier?: string
+  verified?: boolean
 }
 
 export interface ImageEntry {
+  /** Display-size image URL. */
   url: string
+  /** Small grid thumbnail (falls back to url). */
+  thumb?: string
+  /** Original full-resolution file. */
+  full?: string
+  /** Human page for the object/file (Commons file page, museum object page). */
+  pageUrl?: string
   caption: string
   source: string
+  artist?: string
+  date?: string
+  license?: string
+  licenseUrl?: string
   width: string
   height: string
 }
@@ -31,6 +43,8 @@ export interface ReferenceEntry {
   title: string
   url: string
   note?: string
+  /** True when the last link check resolved the URL (2xx/3xx). */
+  verified?: boolean
 }
 
 /** Compact record used in grids/lists. */
@@ -54,8 +68,10 @@ export interface AestheticSummary {
   popularity: number
   isNiche: boolean
   dataQuality: string
-  /** First example image URL (or null) — used for card thumbnails. */
+  /** First image thumbnail URL (or null) — used for cards. */
   image: string | null
+  /** Number of images attached to the record. */
+  imageCount: number
 }
 
 /** Full record — every JSON column parsed, ready for the detail view. */
@@ -87,6 +103,12 @@ export interface AestheticFull extends AestheticSummary {
   references: ReferenceEntry[]
   /** Real typeface pairing: { display, body, notes } (font family names). */
   typePairing: Record<string, string>
+  /** Where the palette came from: editors ("curated") or the record's images ("derived"). */
+  paletteSource: 'curated' | 'derived'
+  /** Wikidata item id, e.g. "Q40415". */
+  wikidata: string | null
+  /** Verified English Wikipedia article title. */
+  wikipedia: string | null
   verifiedAt: string | null
   createdAt: string
   updatedAt: string
@@ -96,6 +118,7 @@ export interface RelationTarget {
   slug: string
   name: string
   category: string
+  image?: string | null
 }
 
 export interface ResolvedRelations {
@@ -128,38 +151,45 @@ export interface AestheticDetailResponse {
 export interface StatsResponse {
   total: number
   relations: number
+  withImages: number
+  images: number
+  withWikidata: number
   byStatus: { name: string; count: number }[]
   byCategory: { name: string; count: number }[]
   byEstablishment: { name: string; count: number }[]
   byEra: { name: string; count: number }[]
   byRegion: { name: string; count: number }[]
   byDataQuality: { name: string; count: number }[]
-  pipeline: PipelineInfo
   lastUpdated: string | null
 }
 
-export interface PipelineBatch {
-  domain: string
-  kind: string
-  status: string
-  inserted: number
-  duplicates: number
-  error: string
-  finishedAt: string | null
-  createdAt: string
+export interface DataFileInfo {
+  name: string
+  path: string
+  bytes: number
+  sha256: string
 }
 
-export interface PipelineInfo {
-  queued: number
-  running: number
-  done: number
-  failed: number
-  backlogOpen: number
-  recent: PipelineBatch[]
+export interface DataManifest {
+  name: string
+  license: string
+  builtAt: string
+  counts: Record<string, number>
+  files: DataFileInfo[]
 }
 
-export interface PipelineResponse extends PipelineInfo {
-  queuedDomains: { domain: string; kind: string }[]
+export interface ValidationReport {
+  checkedAt: string
+  schemaErrors: number
+  records: number
+  images: { total: number; ok: number; broken: number; entriesWithImages: number }
+  links: { total: number; ok: number; broken: number; unverifiable: number; search: number }
+  brokenSamples: { slug: string; url: string; status: number }[]
+}
+
+export interface DataInfoResponse {
+  manifest: DataManifest | null
+  validation: ValidationReport | null
 }
 
 export interface ExploreResult {
@@ -168,6 +198,7 @@ export interface ExploreResult {
   category: string
   summary: string
   colors: ColorEntry[]
+  image: string | null
   distance: number
   delta: Record<string, number>
 }
@@ -182,6 +213,7 @@ export interface TimelineItem {
   colors: ColorEntry[]
   popularity: number
   establishment: string
+  image: string | null
 }
 
 export interface TimelineResponse {
@@ -194,6 +226,7 @@ export interface SuggestItem {
   slug: string
   name: string
   category: string
+  image?: string | null
 }
 
 export interface HybridResult {
@@ -289,8 +322,13 @@ export function asSourceArray(value: unknown, fallback: SourceEntry[] = []): Sou
       if (!name) return null
       return {
         name,
-        url: typeof rec.url === 'string' ? rec.url : undefined,
+        // A source whose link failed the last check keeps its citation but loses the dead URL.
+        url:
+          typeof rec.url === 'string' && (rec.check as { ok?: boolean } | undefined)?.ok !== false
+            ? rec.url
+            : undefined,
         tier: typeof rec.tier === 'string' ? rec.tier : undefined,
+        verified: (rec.check as { ok?: boolean } | undefined)?.ok,
       }
     })
     .filter((s): s is SourceEntry => s !== null)
@@ -327,10 +365,11 @@ export function asReferenceArray(value: unknown, fallback: ReferenceEntry[] = []
         title: title.slice(0, 160),
         url,
         note: typeof rec.note === 'string' && rec.note.trim() ? rec.note.trim().slice(0, 200) : undefined,
+        verified: (rec.check as { ok?: boolean } | undefined)?.ok,
       }
     })
-    .filter((ref): ref is ReferenceEntry => ref !== null)
-    .slice(0, 10)
+    .filter((ref): ref is ReferenceEntry => ref !== null && ref.verified !== false)
+    .slice(0, 16)
 }
 
 export function asImageArray(value: unknown, fallback: ImageEntry[] = []): ImageEntry[] {
@@ -342,19 +381,35 @@ export function asImageArray(value: unknown, fallback: ImageEntry[] = []): Image
       const url = typeof rec.url === 'string' && /^https?:\/\//.test(rec.url) ? rec.url : ''
       if (!url) return null
       const str = (v: unknown, max: number) => (typeof v === 'string' ? v.slice(0, max) : '')
-      return {
+      const link = (v: unknown) => (typeof v === 'string' && /^https?:\/\//.test(v) ? v : undefined)
+      const opt = (v: unknown, max: number) => (typeof v === 'string' && v.trim() ? v.slice(0, max) : undefined)
+      const num = (v: unknown) => (typeof v === 'number' ? String(v) : str(v, 10))
+      const out: ImageEntry = {
         url,
-        caption: str(rec.caption, 200),
+        caption: str(rec.caption, 300),
         source: str(rec.source, 80),
-        width: str(rec.width, 10),
-        height: str(rec.height, 10),
+        width: num(rec.width),
+        height: num(rec.height),
       }
+      const extra = {
+        thumb: link(rec.thumb),
+        full: link(rec.full),
+        pageUrl: link(rec.pageUrl),
+        artist: opt(rec.artist, 160),
+        date: opt(rec.date, 60),
+        license: opt(rec.license, 60),
+        licenseUrl: link(rec.licenseUrl),
+      }
+      for (const [k, v] of Object.entries(extra)) if (v) (out as unknown as Record<string, string>)[k] = v
+      // Drop images whose last link check failed.
+      const check = rec.check as { ok?: boolean } | undefined
+      return check && check.ok === false ? null : out
     })
     .filter((img): img is ImageEntry => img !== null)
 }
 
 // ---------------------------------------------------------------------------
-// Raw row → API shapes (rows come from Prisma with JSON columns as strings)
+// Raw row → API shapes (rows come from DuckDB with nested fields as JSON strings)
 // ---------------------------------------------------------------------------
 
 export interface AestheticRow {
@@ -402,6 +457,9 @@ export interface AestheticRow {
   popularity: number
   isNiche: boolean
   dataQuality: string
+  wikidata?: string | null
+  wikipedia?: string | null
+  paletteSource?: string | null
   verifiedAt?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
@@ -438,7 +496,8 @@ export function mapAestheticSummary(row: AestheticRow): AestheticSummary {
     popularity: row.popularity,
     isNiche: row.isNiche,
     dataQuality: row.dataQuality,
-    image: images[0]?.url ?? null,
+    image: images[0] ? (images[0].thumb ?? images[0].url) : null,
+    imageCount: images.length,
   }
 }
 
@@ -470,6 +529,9 @@ export function mapAestheticFull(row: AestheticRow): AestheticFull {
     images: asImageArray(safeParse<unknown>(row.images, [])),
     references: asReferenceArray(safeParse<unknown>(row.references, [])),
     typePairing: asStringRecord(safeParse<unknown>(row.typePairing, {})),
+    paletteSource: row.paletteSource === 'derived' ? 'derived' : 'curated',
+    wikidata: row.wikidata ?? null,
+    wikipedia: row.wikipedia ?? null,
     verifiedAt: iso(row.verifiedAt),
     createdAt: iso(row.createdAt) ?? new Date(0).toISOString(),
     updatedAt: iso(row.updatedAt) ?? new Date(0).toISOString(),
@@ -610,28 +672,38 @@ export const EMOTION_KEYS = [
 
 export const KNOWN_DIMS = new Set<string>([...DNA_AXES.map((a) => a.key), ...EMOTION_KEYS])
 
+/** Record type: what kind of cultural phenomenon the aesthetic is. */
 export const ESTABLISHMENT_LABELS: Record<string, string> = {
-  historical: 'Historical',
-  regional_tradition: 'Regional Tradition',
-  community_subculture: 'Community Subculture',
-  commercial_style: 'Commercial Style',
-  internet_aesthetic: 'Internet Aesthetic',
-  experimental_hybrid: 'Experimental Hybrid',
+  historical: 'Historical movement',
+  regional_tradition: 'Cultural tradition',
+  community_subculture: 'Subculture',
+  commercial_style: 'Commercial style',
+  internet_aesthetic: 'Internet aesthetic',
+  experimental_hybrid: 'Hybrid',
 }
 
+/** Editorial status of the record (stored keys kept stable for the data files). */
 export const STATUS_LABELS: Record<string, string> = {
-  draft: 'Draft',
-  researched: 'Researched',
-  verified: 'Verified',
-  flagged: 'Flagged',
+  draft: 'Stub',
+  researched: 'Documented',
+  verified: 'Reviewed',
+  flagged: 'Needs review',
 }
 
+export const STATUS_HINTS: Record<string, string> = {
+  draft: 'Core facts only — open for contributions',
+  researched: 'Full description with visual analysis and sources',
+  verified: 'Checked against primary sources by an editor',
+  flagged: 'Disputed or possibly inaccurate — being checked',
+}
+
+/** Strength of the evidence behind the record. */
 export const DATA_QUALITY_LABELS: Record<string, string> = {
   well_documented: 'Well documented',
-  moderately_documented: 'Moderately documented',
+  moderately_documented: 'Documented',
   emerging: 'Emerging',
   interpretive: 'Interpretive',
-  experimental: 'Experimental',
+  experimental: 'Speculative',
 }
 
 // ---------------------------------------------------------------------------
@@ -695,4 +767,9 @@ export function filtersToQuery(f: AtlasFilters): string {
   sp.set('page', String(f.page))
   sp.set('pageSize', '24')
   return sp.toString()
+}
+
+/** "Artist · date · license · provider" attribution line for an image. */
+export function imageCredit(img: ImageEntry): string {
+  return [img.artist, img.date, img.license, img.source].filter(Boolean).join(' · ')
 }
