@@ -5,6 +5,7 @@ import { HeroWall } from '@/components/site/hero-wall'
 import { SearchTrigger } from '@/components/site/search-trigger'
 import { getCategoryOverview, getShowcase, getStats } from '@/lib/queries'
 import { CONTRIBUTING_URL, SITE_TAGLINE } from '@/lib/site'
+import { Carousel } from '@/components/ui/carousel'
 
 export const revalidate = 3600
 
@@ -99,15 +100,20 @@ export default async function Home() {
       {/* ---------- Featured ---------- */}
       <section className="pt-24" aria-labelledby="featured-title">
         <div className="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-10">
-          <p className="eyebrow">Selected</p>
-          <h2 id="featured-title" className="display mt-2 text-5xl sm:text-6xl">From the vault</h2>
-        </div>
-        <div data-reveal-group className="no-scrollbar mt-10 flex snap-x gap-4 overflow-x-auto px-4 pb-2 sm:px-6 lg:px-10">
-          {showcase.slice(0, 18).map((a, i) => (
-            <div key={a.slug} className="w-64 shrink-0 snap-start sm:w-72">
-              <AestheticCard a={a} variant="rail" priority={i < 4} />
-            </div>
-          ))}
+          <Carousel
+            label="From the vault"
+            slideClassName="w-64 sm:w-72"
+            title={
+              <>
+                <p className="eyebrow">Selected</p>
+                <h2 id="featured-title" className="display mt-2 text-5xl sm:text-6xl">From the vault</h2>
+              </>
+            }
+          >
+            {showcase.slice(0, 18).map((a, i) => (
+              <AestheticCard key={a.slug} a={a} variant="rail" priority={i < 4} />
+            ))}
+          </Carousel>
         </div>
       </section>
 

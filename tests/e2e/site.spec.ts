@@ -141,3 +141,24 @@ test('the robot guide opens, adapts to the page, doubles as back-to-top and tuck
   await expect(page.getByRole('button', { name: 'Ask the vault guide' })).toBeVisible()
   expect(errors).toEqual([])
 })
+
+test('live demo shows only the record’s real images, and related records scroll as a carousel', async ({ page }) => {
+  await page.goto('/aesthetics/art-nouveau')
+  const tabs = page.getByRole('tablist', { name: 'Live demo views' })
+  await tabs.scrollIntoViewIfNeeded()
+  await expect(tabs.getByRole('tab', { name: '3D gallery' })).toBeVisible()
+  const ring = page.locator('[aria-roledescription="3D carousel"] figure img')
+  expect(await ring.count()).toBeGreaterThan(2)
+  // Every picture in the demo is one of the record's documented images (Wikimedia/museum URLs).
+  for (const src of await ring.evaluateAll((els) => els.map((e) => (e as HTMLImageElement).src))) expect(src).toMatch(/^https:\/\/(upload|thumb)\.wikimedia\.org|artic\.edu|metmuseum/)
+  await tabs.getByRole('tab', { name: 'Palette map' }).click()
+  await expect(page.getByRole('slider', { name: /Compare original and palette-mapped/ })).toBeVisible()
+
+  const rail = page.getByRole('region', { name: /^More in / })
+  await rail.scrollIntoViewIfNeeded()
+  const next = rail.getByRole('button', { name: 'Next' })
+  const prev = rail.getByRole('button', { name: 'Previous' })
+  await expect(prev).toBeDisabled()
+  await next.click()
+  await expect(prev).toBeEnabled()
+})

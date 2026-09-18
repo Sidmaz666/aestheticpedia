@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
-import { firstFontFamily, loadGoogleFont, lookupGoogleFont } from './style-demo'
+import { firstFontFamily, loadGoogleFont, lookupGoogleFont } from './fonts'
 
 /**
  * Applies an aesthetic's own typefaces while its page is on screen. Colours are

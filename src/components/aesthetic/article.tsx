@@ -23,7 +23,8 @@ import { PaletteSwatches } from './palette-swatches'
 import { SectionNav } from './section-nav'
 import { MaterialGallery } from './materials'
 import { Imagine } from '@/components/ai/imagine'
-import { StyleDemo } from './style-demo'
+import { AppliedDemo } from './applied-demo'
+import { Carousel } from '@/components/ui/carousel'
 import { SITE_NAME, repoEdit } from '@/lib/site'
 
 
@@ -456,8 +457,8 @@ export function AestheticArticle({
         ) : null}
 
         {a.colors.length > 0 && (
-          <Section id="demo" eyebrow="Interactive" title="Live demo" intro="The aesthetic rendered as working interfaces, posters and a real-time 3D material study — generated from this record’s palette, textures and type.">
-            <StyleDemo a={a} />
+          <Section id="demo" eyebrow="Interactive" title="Live demo" intro="The aesthetic applied — a 3D gallery, a web page, a poster, a palette map and a UI kit, built only from this record’s documented images, palette and type.">
+            <AppliedDemo a={a} />
           </Section>
         )}
 
@@ -497,16 +498,11 @@ export function AestheticArticle({
                 </div>
               ))}
               {similar.length > 0 && (
-                <div>
-                  <p className="eyebrow mb-3">More in {a.category}</p>
-                  <div className="no-scrollbar -mx-4 flex snap-x gap-3 overflow-x-auto px-4 sm:-mx-6 sm:px-6 lg:-mx-10 lg:px-10">
-                    {similar.map((s) => (
-                      <div key={s.slug} className="w-56 shrink-0 snap-start sm:w-64">
-                        <AestheticCard a={s} variant="rail" />
-                      </div>
-                    ))}
-                  </div>
-                </div>
+                <Carousel label={`More in ${a.category}`} title={<p className="eyebrow">More in {a.category}</p>} slideClassName="w-56 sm:w-64">
+                  {similar.map((s) => (
+                    <AestheticCard key={s.slug} a={s} variant="rail" />
+                  ))}
+                </Carousel>
               )}
             </div>
           </Section>

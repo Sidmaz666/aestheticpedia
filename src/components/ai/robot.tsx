@@ -12,20 +12,25 @@ const VERT = `attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}`
 const FRAG = `precision highp float;
 uniform vec2 uRes;uniform float uTime;uniform vec2 uLook;uniform vec3 uBody;uniform vec3 uAccent;uniform vec3 uVisor;uniform vec3 uAccent2;
 uniform float uRound;uniform float uState;uniform float uBlink;uniform float uBob;
+uniform float uLean;uniform float uRoll;uniform vec2 uAnt;uniform float uHop;
 mat2 rot(float a){float c=cos(a),s=sin(a);return mat2(c,-s,s,c);}
 float sdRBox(vec3 p,vec3 b,float r){vec3 q=abs(p)-b+r;return length(max(q,0.))+min(max(q.x,max(q.y,q.z)),0.)-r;}
 float sdCap(vec3 p,vec3 a,vec3 b,float r){vec3 pa=p-a,ba=b-a;float h=clamp(dot(pa,ba)/dot(ba,ba),0.,1.);return length(pa-ba*h)-r;}
 float sdCylX(vec3 p,float r,float h){vec2 d=abs(vec2(length(p.yz),p.x))-vec2(r,h);return min(max(d.x,d.y),0.)+length(max(d,0.));}
-vec3 headSpace(vec3 p){p.y-=uBob;vec3 h=p-vec3(0.,.1,0.);h.xz=rot(uLook.x*.5)*h.xz;h.yz=rot(-uLook.y*.32)*h.yz;return h;}
+// Whole-body lean (pivot at the feet) and hop, then the head's own turn, nod and roll.
+vec3 bodySpace(vec3 p){p.y-=uHop;p.y+=.85;p.xy=rot(uLean)*p.xy;p.y-=.85;return p;}
+vec3 headSpace(vec3 p){p=bodySpace(p);p.y-=uBob;vec3 h=p-vec3(0.,.1,0.);h.xy=rot(uRoll)*h.xy;h.xz=rot(uLook.x*.62)*h.xz;h.yz=rot(-uLook.y*.4)*h.yz;return h;}
 vec2 map(vec3 p){
-  vec3 bp=p-vec3(0.,-.66+uBob*.6,0.);
+  vec3 bp=bodySpace(p)-vec3(0.,-.66+uBob*.6,0.);
   vec2 r=vec2(sdRBox(bp,vec3(.32,.19,.24),min(uRound*.55+.05,.18)),1.);
   vec3 h=headSpace(p);
   float head=sdRBox(h,vec3(.56,.44,.42),uRound);if(head<r.x)r=vec2(head,1.);
   float vis=sdRBox(h-vec3(0.,-.01,.37),vec3(.45,.3,.07),clamp(uRound*.8,.04,.26));if(vis<r.x)r=vec2(vis,2.);
   float ear=sdCylX(h,.15,.65);if(ear<r.x)r=vec2(ear,4.);
-  float st=sdCap(h,vec3(0.,.44,0.),vec3(0.,.64,0.),.024);if(st<r.x)r=vec2(st,4.);
-  float bl=length(h-vec3(0.,.69,0.))-.072;if(bl<r.x)r=vec2(bl,3.);
+  // Antenna: a spring-driven tip (uAnt) so it wobbles as the head moves.
+  vec3 tip=vec3(uAnt.x,.64,uAnt.y);
+  float st=sdCap(h,vec3(0.,.44,0.),tip,.024);if(st<r.x)r=vec2(st,4.);
+  float bl=length(h-(tip+vec3(uAnt.x*.25,.05,uAnt.y*.25)))-.072;if(bl<r.x)r=vec2(bl,3.);
   return r;
 }
 vec3 nrm(vec3 p){vec2 e=vec2(.0015,-.0015);return normalize(e.xyy*map(p+e.xyy).x+e.yyx*map(p+e.yyx).x+e.yxy*map(p+e.yxy).x+e.xxx*map(p+e.xxx).x);}
@@ -40,7 +45,7 @@ void main(){
   vec3 ro=vec3(0.,0.,3.4),rd=normalize(vec3(uv*.34,-1.));
   float t=0.;vec2 hit=vec2(0.);
   for(int i=0;i<72;i++){vec2 m=map(ro+rd*t);if(m.x<.001){hit=vec2(t,m.y);break;}t+=m.x;if(t>6.)break;}
-  if(hit.y<.5){float s=exp(-pow(uv.x/.42,2.)-pow((uv.y+.93-uBob*.4)/.055,2.))*.3;gl_FragColor=vec4(0.,0.,0.,s);return;}
+  if(hit.y<.5){float sc=1.-uHop*1.2;float s=exp(-pow(uv.x/(.42*sc),2.)-pow((uv.y+.93)/.055,2.))*.3*sc;gl_FragColor=vec4(0.,0.,0.,s);return;}
   vec3 p=ro+rd*hit.x,n=nrm(p),L=normalize(vec3(-.55,.8,.65));
   vec3 body=pow(uBody,vec3(2.2)),acc=pow(uAccent,vec3(2.2)),acc2=pow(uAccent2,vec3(2.2)),vis=pow(uVisor,vec3(2.2));
   float dif=max(dot(n,L),0.),amb=.5+.5*n.y,fre=pow(1.-max(dot(n,-rd),0.),3.);
@@ -50,7 +55,7 @@ void main(){
   if(hit.y<1.5){col=body*(dif*.85+amb*.35)*ao+spec*.55+acc*fre*.55;}
   else if(hit.y<2.5){
     col=vis*(.35+.25*amb)+spec*.9+fre*.25*acc;
-    vec3 h=headSpace(p);vec2 q=h.xy-vec2(0.,.02)-uLook*vec2(.07,.05);
+    vec3 h=headSpace(p);vec2 q=h.xy-vec2(0.,.02)-uLook*vec2(.1,.075);
     float d=min(eye(q-vec2(-.17,0.)),eye(q-vec2(.17,0.)));
     if(uState>3.5){float w=.03+.045*abs(sin(uTime*13.))*abs(sin(uTime*3.1));vec2 m=abs(q-vec2(0.,-.15))-vec2(w,.006);d=min(d,length(max(m,0.))-.01);}
     vec3 glow=mix(acc,vec3(1.),.35)*1.6;
@@ -145,7 +150,7 @@ export function Robot({ mood, className, size = 76 }: { mood: RobotMood; classNa
     gl.enable(gl.BLEND)
     gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA)
     const U = (n: string) => gl.getUniformLocation(prog, n)
-    const u = { res: U('uRes'), time: U('uTime'), look: U('uLook'), body: U('uBody'), accent: U('uAccent'), visor: U('uVisor'), accent2: U('uAccent2'), round: U('uRound'), state: U('uState'), blink: U('uBlink'), bob: U('uBob') }
+    const u = { res: U('uRes'), time: U('uTime'), look: U('uLook'), body: U('uBody'), accent: U('uAccent'), visor: U('uVisor'), accent2: U('uAccent2'), round: U('uRound'), state: U('uState'), blink: U('uBlink'), bob: U('uBob'), lean: U('uLean'), roll: U('uRoll'), ant: U('uAnt'), hop: U('uHop') }
 
     const dpr = Math.min(2, window.devicePixelRatio || 1)
     canvas.width = Math.round(size * dpr)
@@ -156,9 +161,17 @@ export function Robot({ mood, className, size = 76 }: { mood: RobotMood; classNa
     const resolve = makeResolver()
     let target = readTheme(resolve)
     const cur = structuredClone(target)
-    const look = { x: 0, y: 0, tx: 0, ty: 0 }
+    const look = { x: 0, y: 0, tx: 0, ty: 0, vx: 0 }
+    const pose = { lean: 0, roll: 0 }
+    // Antenna tip: a damped spring pushed by head motion.
+    const ant = { x: 0, z: 0, vx: 0, vz: 0 }
+    const hop = { y: 0, v: 0 }
     let blink = 0
     let nextBlink = 2 + Math.random() * 3
+    let lastMove = performance.now()
+    let glance = { x: 0, y: 0, until: 0 }
+    let scrollLook = 0
+    let lastScroll = window.scrollY
     let raf = 0
     let last = 0
     let visible = true
@@ -168,11 +181,24 @@ export function Robot({ mood, className, size = 76 }: { mood: RobotMood; classNa
       const dx = e.clientX - (r.left + r.width / 2)
       const dy = e.clientY - (r.top + r.height / 2)
       const d = Math.hypot(dx, dy) || 1
-      const k = Math.min(1, d / 420)
+      // Near the robot it looks almost straight at the pointer; far away it turns fully.
+      const k = Math.min(1, d / 360)
       look.tx = (dx / d) * k
       look.ty = (-dy / d) * k
+      lastMove = performance.now()
+    }
+    const onScroll = () => {
+      const y = window.scrollY
+      scrollLook = Math.max(-1, Math.min(1, scrollLook + (lastScroll - y) / 300))
+      lastScroll = y
+    }
+    const onDown = (e: PointerEvent) => {
+      const r = canvas.getBoundingClientRect()
+      if (e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom && !reduce) hop.v = 1.9
     }
     window.addEventListener('pointermove', onMove, { passive: true })
+    window.addEventListener('scroll', onScroll, { passive: true, capture: true })
+    window.addEventListener('pointerdown', onDown, { passive: true })
     const themeTimer = window.setInterval(() => (target = readTheme(resolve)), 400)
     const io = new IntersectionObserver(([e]) => (visible = e.isIntersecting))
     io.observe(canvas)
@@ -191,11 +217,37 @@ export function Robot({ mood, className, size = 76 }: { mood: RobotMood; classNa
       lerp(cur.visor, target.visor, 0.08)
       lerp(cur.accent2, target.accent2, 0.08)
       cur.round += (target.round - cur.round) * 0.08
-      // Eyes: follow the pointer; wander a little when asleep or thinking.
-      const tx = m === 'sleep' ? 0 : m === 'think' ? Math.sin(t * 0.7) * 0.3 : look.tx
-      const ty = m === 'sleep' ? -0.35 : m === 'think' ? 0.35 : look.ty
-      look.x += (tx - look.x) * Math.min(1, dt * 6)
-      look.y += (ty - look.y) * Math.min(1, dt * 6)
+      // Gaze: the pointer; when it has been still for a while, glance around; scrolling
+      // pulls the gaze up or down; thinking looks up and aside; sleeping droops.
+      const idle = ms - lastMove > 3500
+      if (idle && ms > glance.until) glance = { x: (Math.random() * 2 - 1) * 0.8, y: Math.random() * 0.8 - 0.2, until: ms + 1400 + Math.random() * 2200 }
+      scrollLook *= Math.pow(0.1, dt)
+      let tx = idle ? glance.x : look.tx
+      let ty = (idle ? glance.y : look.ty) + scrollLook * 0.7
+      if (m === 'think') {
+        tx = Math.sin(t * 0.8) * 0.45
+        ty = 0.45
+      } else if (m === 'sleep') {
+        tx = 0
+        ty = -0.4
+      }
+      const prevX = look.x
+      look.x += (tx - look.x) * Math.min(1, dt * 7)
+      look.y += (Math.max(-1, Math.min(1, ty)) - look.y) * Math.min(1, dt * 7)
+      look.vx = (look.x - prevX) / Math.max(dt, 1e-3)
+      // Body leans towards the gaze, head rolls slightly into the turn (and wobbles when happy).
+      const happyWiggle = m === 'happy' ? Math.sin(t * 9) * 0.08 : 0
+      pose.lean += (-look.x * 0.16 - pose.lean) * Math.min(1, dt * 4)
+      pose.roll += (-look.x * 0.14 + happyWiggle - pose.roll) * Math.min(1, dt * 6)
+      // Antenna spring, driven by the head's angular velocity.
+      ant.vx += (-60 * ant.x - 5 * ant.vx - look.vx * 1.2) * dt
+      ant.vz += (-60 * ant.z - 5 * ant.vz + (m === 'talk' ? Math.sin(t * 20) * 4 : 0)) * dt
+      ant.x = Math.max(-0.14, Math.min(0.14, ant.x + ant.vx * dt))
+      ant.z = Math.max(-0.14, Math.min(0.14, ant.z + ant.vz * dt))
+      // Hop: simple ballistic arc on click.
+      hop.v -= 12 * dt
+      hop.y = Math.max(0, hop.y + hop.v * dt)
+      if (hop.y === 0 && hop.v < 0) hop.v = 0
       nextBlink -= dt
       if (nextBlink < 0) {
         blink = 1
@@ -213,6 +265,10 @@ export function Robot({ mood, className, size = 76 }: { mood: RobotMood; classNa
       gl.uniform1f(u.state, MOOD_ID[m])
       gl.uniform1f(u.blink, blink > 0.5 ? 1 : blink * 2)
       gl.uniform1f(u.bob, reduce ? 0 : Math.sin(t * (m === 'sleep' ? 0.9 : 1.8)) * (m === 'sleep' ? 0.015 : 0.035))
+      gl.uniform1f(u.lean, reduce ? 0 : pose.lean)
+      gl.uniform1f(u.roll, reduce ? 0 : pose.roll)
+      gl.uniform2f(u.ant, reduce ? 0 : ant.x, reduce ? 0 : ant.z)
+      gl.uniform1f(u.hop, hop.y)
       gl.clearColor(0, 0, 0, 0)
       gl.clear(gl.COLOR_BUFFER_BIT)
       gl.drawArrays(gl.TRIANGLES, 0, 3)
@@ -223,6 +279,8 @@ export function Robot({ mood, className, size = 76 }: { mood: RobotMood; classNa
       clearInterval(themeTimer)
       io.disconnect()
       window.removeEventListener('pointermove', onMove)
+      window.removeEventListener('scroll', onScroll, { capture: true })
+      window.removeEventListener('pointerdown', onDown)
       // Free GPU objects but keep the context: React may remount on the same canvas.
       gl.deleteBuffer(buf)
       gl.deleteProgram(prog)
