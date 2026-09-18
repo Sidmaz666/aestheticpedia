@@ -77,7 +77,7 @@ const staging = path.join(CACHE_DIR, 'staging')
 mkdirSync(staging, { recursive: true })
 const flat = clean.map((a) => {
   const o: Record<string, unknown> = { ...a, wikidata: a.wikidata ?? null, wikipedia: a.wikipedia ?? null }
-  for (const f of NESTED_FIELDS) o[f] = JSON.stringify(a[f])
+  for (const f of NESTED_FIELDS) o[f] = JSON.stringify(a[f] ?? [])
   return o
 })
 writeFileSync(path.join(staging, 'a.ndjson'), flat.map((o) => JSON.stringify(o)).join('\n'))

@@ -13,20 +13,21 @@ import { cache, getJSON, loadLibrary, saveAesthetic, saveRelations, sleep, slugi
 
 const DRY = process.argv.includes('--dry')
 
-const CLASSES: { qid: string; label: string; category: AestheticRecord['category']; establishment: AestheticRecord['establishment'] }[] = [
-  { qid: 'Q968159', label: 'art movement', category: 'Art Movement', establishment: 'historical' },
-  { qid: 'Q1792644', label: 'art style', category: 'Art Movement', establishment: 'historical' },
+const CLASSES: { qid: string; label: string; category: AestheticRecord['category']; establishment: AestheticRecord['establishment']; direct?: boolean }[] = [
+  // Specific classes first: a record is assigned to the first class that lists it.
   { qid: 'Q32880', label: 'architectural style', category: 'Architectural Style', establishment: 'historical' },
   { qid: 'Q4442611', label: 'fashion style', category: 'Fashion & Dress', establishment: 'community_subculture' },
   { qid: 'Q264965', label: 'subculture', category: 'Subculture Style', establishment: 'community_subculture' },
   { qid: 'Q113561882', label: 'internet aesthetic', category: 'Internet Aesthetic', establishment: 'internet_aesthetic' },
   { qid: 'Q1231896', label: 'painting technique', category: 'Painting Technique & School', establishment: 'historical' },
   { qid: 'Q7708485', label: 'textile process', category: 'Textile & Craft', establishment: 'regional_tradition' },
-  { qid: 'Q1792379', label: 'art genre', category: 'Painting Technique & School', establishment: 'historical' },
+  { qid: 'Q1792379', label: 'art genre', category: 'Painting Technique & School', establishment: 'historical', direct: true },
   { qid: 'Q24017852', label: 'pottery style', category: 'Textile & Craft', establishment: 'regional_tradition' },
   { qid: 'Q96338860', label: 'garden type', category: 'Architectural Style', establishment: 'historical' },
   { qid: 'Q3172759', label: 'traditional costume', category: 'Fashion & Dress', establishment: 'regional_tradition' },
   { qid: 'Q335261', label: 'ornament', category: 'Material & Surface', establishment: 'historical' },
+{ qid: 'Q968159', label: 'art movement', category: 'Art Movement', establishment: 'historical' },
+  { qid: 'Q1792644', label: 'art style', category: 'Art Movement', establishment: 'historical' },
 ]
 
 const http = cache<unknown>('wikidata')
@@ -68,7 +69,7 @@ const norm = (s: string) =>
     .trim()
 
 // Titles that are never aesthetics (lists, people, institutions).
-const REJECT = /^(list of|index of|outline of|timeline of)\b|\b(company|corporation|university|school district|band|album|film|magazine|museum|foundation)\)?$/i
+const REJECT = /\b(literature|poetry|poets?|literary|music|musical|opera|theat(re|er)|philosophy|novel|drama)\b|^(list of|index of|outline of|timeline of)\b|\b(company|corporation|university|school district|band|album|film|magazine|museum|foundation)\)?$/i
 
 const { aesthetics, relations } = loadLibrary()
 const haveQ = new Set(aesthetics.map((a) => a.wikidata).filter(Boolean) as string[])
@@ -105,7 +106,9 @@ const listed = new Map<string, { title: string; cls: (typeof CLASSES)[number] }>
 for (const cls of CLASSES) {
   const rows = await sparql(`
 SELECT DISTINCT ?item ?title WHERE {
-  { ?item wdt:P31 wd:${cls.qid} } UNION { ?item wdt:P31 ?sub . ?sub wdt:P279 wd:${cls.qid} }
+  ${cls.direct ? `?item wdt:P31 wd:${cls.qid} .` : `{ ?item wdt:P31 wd:${cls.qid} } UNION { ?item wdt:P31 ?sub . ?sub wdt:P279 wd:${cls.qid} }`}
+  # Not visual aesthetics: music, literary, film, video-game and TV genres.
+  FILTER NOT EXISTS { VALUES ?g { wd:Q188451 wd:Q223393 wd:Q201658 wd:Q659563 wd:Q15961987 wd:Q3326717 } ?item wdt:P31 ?g }
   ?article schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> ; schema:name ?title .
 }`)
   let fresh = 0

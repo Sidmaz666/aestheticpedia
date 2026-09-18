@@ -151,6 +151,13 @@
         "additionalProperties": false
       }
     },
+    "paletteSource": {
+      "type": "string",
+      "enum": [
+        "curated",
+        "derived"
+      ]
+    },
     "typography": {
       "type": "object",
       "propertyNames": {
@@ -483,6 +490,52 @@
           "type",
           "title",
           "url"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "audio": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "title": {
+            "type": "string"
+          },
+          "pageUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "source": {
+            "type": "string"
+          },
+          "mime": {
+            "type": "string"
+          },
+          "duration": {
+            "type": "number"
+          },
+          "artist": {
+            "type": "string"
+          },
+          "license": {
+            "type": "string"
+          },
+          "licenseUrl": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": [
+          "url",
+          "title",
+          "pageUrl",
+          "source",
+          "mime"
         ],
         "additionalProperties": false
       }

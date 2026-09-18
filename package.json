@@ -21,7 +21,8 @@
     "data:enrich": "node scripts/data/enrich-text.ts",
     "data:refresh": "npm run data:normalize && npm run data:images && npm run data:palette && npm run data:enrich && npm run data:links && npm run data:build",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@duckdb/node-api": "^1.5.5-r.5",
@@ -41,6 +42,7 @@
     "zod": "^4.0.2"
   },
   "devDependencies": {
+    "@playwright/test": "^1.63.0",
     "@tailwindcss/postcss": "^4",
     "@types/d3-force": "^3.0.10",
     "@types/d3-hierarchy": "^3.1.7",

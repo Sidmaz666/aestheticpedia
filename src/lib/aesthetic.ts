@@ -37,6 +37,18 @@ export interface ImageEntry {
   height: string
 }
 
+export interface AudioEntry {
+  url: string
+  title: string
+  pageUrl: string
+  source: string
+  mime: string
+  duration?: number
+  artist?: string
+  license?: string
+  licenseUrl?: string
+}
+
 /** One "where to read / watch / visit / explore it" deep link. */
 export interface ReferenceEntry {
   type: string
@@ -99,6 +111,8 @@ export interface AestheticFull extends AestheticSummary {
   sounds: string[]
   sources: SourceEntry[]
   images: ImageEntry[]
+  /** Freely licensed recordings (Commons). */
+  audio: AudioEntry[]
   /** Curated external links grouped by kind (article/video/museum/...). */
   references: ReferenceEntry[]
   /** Real typeface pairing: { display, body, notes } (font family names). */
@@ -451,6 +465,7 @@ export interface AestheticRow {
   sounds: string
   sources: string
   images: string
+  audio?: string | null
   references: string
   typePairing: string
   tags: string
@@ -527,6 +542,7 @@ export function mapAestheticFull(row: AestheticRow): AestheticFull {
     sounds: asStringArray(safeParse<unknown>(row.sounds, [])),
     sources: asSourceArray(safeParse<unknown>(row.sources, [])),
     images: asImageArray(safeParse<unknown>(row.images, [])),
+    audio: (safeParse<unknown>(row.audio ?? '[]', []) as AudioEntry[]).filter((x) => x && typeof x.url === 'string' && /^https:\/\//.test(x.url)),
     references: asReferenceArray(safeParse<unknown>(row.references, [])),
     typePairing: asStringRecord(safeParse<unknown>(row.typePairing, {})),
     paletteSource: row.paletteSource === 'derived' ? 'derived' : 'curated',

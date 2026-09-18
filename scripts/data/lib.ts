@@ -24,7 +24,7 @@ export const KEY_ORDER = [
   'colors', 'paletteSource', 'visualDNA', 'typography', 'typePairing', 'materials', 'textures', 'lighting', 'photography',
   'architecture', 'fashion', 'objects', 'environment', 'graphicDesign', 'uiTranslation', 'recipe',
   'emotionProfile', 'dnaAxes', 'keyExamples', 'sounds', 'tags',
-  'images', 'sources', 'references', 'wikidata', 'wikipedia',
+  'images', 'audio', 'sources', 'references', 'wikidata', 'wikipedia',
   'popularity', 'isNiche', 'dataQuality', 'verifiedAt', 'createdAt', 'updatedAt',
 ] as const
 

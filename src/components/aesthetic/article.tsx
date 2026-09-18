@@ -215,6 +215,7 @@ export function AestheticArticle({
     { id: 'overview', label: 'Overview', show: true },
     { id: 'gallery', label: `Gallery${a.images.length ? ` (${a.images.length})` : ''}`, show: a.images.length > 0 },
     { id: 'palette', label: 'Palette', show: a.colors.length > 0 },
+    { id: 'listen', label: 'Listen', show: a.audio.length > 0 },
     { id: 'language', label: 'Visual language', show: !!hasLanguage },
     { id: 'applied', label: 'In practice', show: !!hasApplied },
     { id: 'demo', label: 'Live demo', show: a.colors.length > 0 },
@@ -347,6 +348,28 @@ export function AestheticArticle({
             }
           >
             <PaletteSwatches colors={a.colors} name={a.name} />
+          </Section>
+        )}
+
+        {a.audio.length > 0 && (
+          <Section id="listen" eyebrow="Sound" title="Listen" intro="Freely licensed recordings from the record's encyclopedia article on Wikimedia Commons.">
+            <ul className="grid gap-3 md:grid-cols-2">
+              {a.audio.map((t) => (
+                <li key={t.url} className="rounded-2xl border border-line bg-surface p-4">
+                  <p className="text-sm text-fg">{t.title}</p>
+                  <p className="mt-0.5 text-xs text-fg-subtle">
+                    {[t.artist, t.license, t.duration ? `${Math.floor(t.duration / 60)}:${String(t.duration % 60).padStart(2, '0')}` : ''].filter(Boolean).join(' · ')}{' '}
+                    ·{' '}
+                    <a href={t.pageUrl} target="_blank" rel="noopener noreferrer" className="link-underline">
+                      source
+                    </a>
+                  </p>
+                  <audio controls preload="none" src={t.url} className="mt-3 w-full">
+                    <a href={t.url}>Download recording</a>
+                  </audio>
+                </li>
+              ))}
+            </ul>
           </Section>
         )}
 

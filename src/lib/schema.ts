@@ -114,6 +114,18 @@ export const ImageSchema = z.object({
   check: LinkCheck.optional(),
 })
 
+export const AudioSchema = z.object({
+  url: httpUrl,
+  title: z.string(),
+  pageUrl: httpUrl,
+  source: z.string(),
+  mime: z.string(),
+  duration: z.number().optional(),
+  artist: z.string().optional(),
+  license: z.string().optional(),
+  licenseUrl: httpUrl.optional(),
+})
+
 const strRecord = z.record(z.string(), z.string())
 const numRecord = z.record(z.string(), z.number().min(0).max(100))
 
@@ -159,6 +171,8 @@ export const AestheticSchema = z.object({
   sources: z.array(SourceSchema),
   images: z.array(ImageSchema),
   references: z.array(ReferenceSchema),
+  /** Freely licensed recordings related to the aesthetic (music, ambience, performance). */
+  audio: z.array(AudioSchema).optional(),
   typePairing: strRecord,
   tags: z.array(z.string()),
   /** Wikidata item id (e.g. "Q40415") when the aesthetic maps to one. */
@@ -210,6 +224,7 @@ export const NESTED_FIELDS = [
   'sources',
   'images',
   'references',
+  'audio',
   'typePairing',
   'tags',
 ] as const
