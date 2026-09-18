@@ -74,7 +74,35 @@
     "isolation",
     "history"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Convict_Church%2C_Port_Arthur.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Convict_Church%2C_Port_Arthur.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Convict_Church%2C_Port_Arthur.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Convict_Church,_Port_Arthur.jpg",
+      "caption": "Convict-built church at Port Arthur, Tasmania, Australia",
+      "source": "Wikimedia Commons",
+      "artist": "D. Gordon E. Robertson",
+      "date": "2004-12-27",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1000",
+      "height": "845"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Skull_of_Alexander_Pearce.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/49/Skull_of_Alexander_Pearce.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/49/Skull_of_Alexander_Pearce.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Skull_of_Alexander_Pearce.jpg",
+      "caption": "Black and white photo of the skull of Alexander Pearce, which is held in the University of Pennsylvania, Philadelphia.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "Unknown date",
+      "license": "Public domain",
+      "width": "640",
+      "height": "417"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Australian Gothic (CC BY-SA)",
@@ -82,13 +110,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7687455",
+      "url": "https://www.wikidata.org/wiki/Q7687455",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:10:29.886Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Tasmanian Gothic",
+      "url": "https://en.wikipedia.org/wiki/Tasmanian_Gothic",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:10:29.886Z"
+      }
+    }
+  ],
+  "wikidata": "Q7687455",
+  "wikipedia": "Tasmanian Gothic",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:10:29.886Z"
 }

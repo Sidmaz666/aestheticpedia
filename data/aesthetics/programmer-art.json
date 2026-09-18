@@ -85,13 +85,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7248479",
+      "url": "https://www.wikidata.org/wiki/Q7248479",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:26:19.029Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Programmer art",
+      "url": "https://en.wikipedia.org/wiki/Programmer_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:26:19.029Z"
+      }
+    }
+  ],
+  "wikidata": "Q7248479",
+  "wikipedia": "Programmer art",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:26:19.029Z"
 }

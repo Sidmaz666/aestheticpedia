@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "New Zealand",
   "geography": "Online",
   "periodStart": "Around the middle of the 20th century",
   "periodEnd": "",
@@ -17,7 +17,33 @@
   "summary": "Kiwiana is a term referring to the culture, heritage of New Zealand predominantly from the 20th century that are iconic and exclusive to New Zealand.",
   "description": "Kiwiana is a term referring to the culture, heritage of New Zealand predominantly from the 20th century that are iconic and exclusive to New Zealand. The term Kiwiana refers to the Kiwi, the national bird of New Zealand and the nickname of New Zealand peoples. The term is also used to describe any and all New Zealand icons, pop culture items such as toys or branded foods; national icons of New Zealand have become Kiwiana. These include the kiwi and the hei-tiki.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c5c6c4",
+      "name": "silver"
+    },
+    {
+      "hex": "#abadab",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#3c454b",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#496e6d",
+      "name": "graphite"
+    },
+    {
+      "hex": "#888c7b",
+      "name": "stone"
+    },
+    {
+      "hex": "#657051",
+      "name": "olive green"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -47,7 +73,50 @@
   "tags": [
     "aesthetics wiki"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Prince_Charles%2C_Princess_Diana_and_Prince_William_at_Government_House%2C_1983.jpg/1280px-Prince_Charles%2C_Princess_Diana_and_Prince_William_at_Government_House%2C_1983.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Prince_Charles%2C_Princess_Diana_and_Prince_William_at_Government_House%2C_1983.jpg/500px-Prince_Charles%2C_Princess_Diana_and_Prince_William_at_Government_House%2C_1983.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Prince_Charles%2C_Princess_Diana_and_Prince_William_at_Government_House%2C_1983.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Prince_Charles,_Princess_Diana_and_Prince_William_at_Government_House,_1983.jpg",
+      "caption": "Prince Charles, Princess Diana and Prince William at Government House, with Buzzy Bee. Government House lawns, Auckland, New Zealand. Auckland Libraries Heritage Collections 1423-0465",
+      "source": "Wikimedia Commons",
+      "artist": "Tucker, Robert John, 1948-2023",
+      "date": "1983-04-23",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "845"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Foxton_Fizz_Bottles.jpg/1280px-Foxton_Fizz_Bottles.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Foxton_Fizz_Bottles.jpg/500px-Foxton_Fizz_Bottles.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Foxton_Fizz_Bottles.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Foxton_Fizz_Bottles.jpg",
+      "caption": "Bottles of Foxton Fizz (flavours raspberry, lemonade, kola, creaming soda & lime)",
+      "source": "Wikimedia Commons",
+      "artist": "Kiwichris",
+      "date": "2018-04-17 15:08:25",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Smiling_Kiwi_and_Leaf_Drawing_-_New_Zealand_North_Island_Highway_scenes_%2850801197347%29.jpg/1280px-Smiling_Kiwi_and_Leaf_Drawing_-_New_Zealand_North_Island_Highway_scenes_%2850801197347%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Smiling_Kiwi_and_Leaf_Drawing_-_New_Zealand_North_Island_Highway_scenes_%2850801197347%29.jpg/500px-Smiling_Kiwi_and_Leaf_Drawing_-_New_Zealand_North_Island_Highway_scenes_%2850801197347%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Smiling_Kiwi_and_Leaf_Drawing_-_New_Zealand_North_Island_Highway_scenes_%2850801197347%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Smiling_Kiwi_and_Leaf_Drawing_-_New_Zealand_North_Island_Highway_scenes_(50801197347).jpg",
+      "caption": "Smiling kiwi dressed as an All Black with rugby ball and silver fern flag, painted on a roadside water tank on SH5 from Rotorua to the Waikato, just before Fitzgerald Glade. A view of the countryside as we traveled through the North Island of New Zealand from Rotorua to Auckland.",
+      "source": "Wikimedia Commons",
+      "artist": "Joe Ross from Lansing, Michigan",
+      "date": "2016-09-23 08:40",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "848"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Kiwiana (CC BY-SA)",
@@ -55,13 +124,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Kiwiana",
+      "url": "https://commons.wikimedia.org/wiki/Category:Kiwiana",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:21:04.560Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1744000",
+      "url": "https://www.wikidata.org/wiki/Q1744000",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:21:04.560Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Kiwiana",
+      "url": "https://en.wikipedia.org/wiki/Kiwiana",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:21:04.560Z"
+      }
+    }
+  ],
+  "wikidata": "Q1744000",
+  "wikipedia": "Kiwiana",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:34.547Z"
 }

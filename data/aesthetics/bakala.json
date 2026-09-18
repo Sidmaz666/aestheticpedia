@@ -13,7 +13,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Spain",
   "geography": "Online",
   "periodStart": "1980s (Late) – 2000s (Early)",
   "periodEnd": "",
@@ -87,7 +87,22 @@
     "speed",
     "music appreciation (mákina"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Discoteca_Akuarela.jpg/1280px-Discoteca_Akuarela.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Discoteca_Akuarela.jpg/500px-Discoteca_Akuarela.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Discoteca_Akuarela.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Discoteca_Akuarela.jpg",
+      "caption": "La discoteca Akuarela Playa, antiga ACTV (altres noms: Tropical, Luna Rossa ...)",
+      "source": "Wikimedia Commons",
+      "artist": "Francesc Fort",
+      "date": "2019-08-11 11:24:50",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Bakala (CC BY-SA)",
@@ -95,13 +110,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6113950",
+      "url": "https://www.wikidata.org/wiki/Q6113950",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:11:01.556Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Ruta del Bakalao",
+      "url": "https://en.wikipedia.org/wiki/Ruta_del_Bakalao",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:11:01.556Z"
+      }
+    }
+  ],
+  "wikidata": "Q6113950",
+  "wikipedia": "Ruta del Bakalao",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:11:01.556Z"
 }

@@ -74,7 +74,22 @@
     "irony",
     "nostalgia"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Revolution-fh-2014.JPG/1280px-Revolution-fh-2014.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Revolution-fh-2014.JPG/500px-Revolution-fh-2014.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/99/Revolution-fh-2014.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Revolution-fh-2014.JPG",
+      "caption": "Stand de Révolution au village du livre, lors de la fête de l'humanité, en septembre 2014.",
+      "source": "Wikimedia Commons",
+      "artist": "Révolution-organisation",
+      "date": "2014-09-13 09:58:24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Communist Chic (CC BY-SA)",
@@ -82,13 +97,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q60463402",
+      "url": "https://www.wikidata.org/wiki/Q60463402",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:14:09.074Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Communist chic",
+      "url": "https://en.wikipedia.org/wiki/Communist_chic",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:14:09.074Z"
+      }
+    }
+  ],
+  "wikidata": "Q60463402",
+  "wikipedia": "Communist chic",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:14:09.074Z"
 }

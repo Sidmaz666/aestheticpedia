@@ -80,13 +80,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6569632",
+      "url": "https://www.wikidata.org/wiki/Q6569632",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:21:17.701Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — List of Eagle comic strips",
+      "url": "https://en.wikipedia.org/wiki/List_of_Eagle_comic_strips",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:21:17.701Z"
+      }
+    }
+  ],
+  "wikidata": "Q6569632",
+  "wikipedia": "List of Eagle comic strips",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:21:17.701Z"
 }

@@ -9,7 +9,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Australia, United Kingdom, United States",
   "geography": "Online",
   "periodStart": "2010s",
   "periodEnd": "",
@@ -103,13 +103,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q117317407",
+      "url": "https://www.wikidata.org/wiki/Q117317407",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:33:06.516Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Wizards!",
+      "url": "https://en.wikipedia.org/wiki/Wizards!",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:33:06.516Z"
+      }
+    }
+  ],
+  "wikidata": "Q117317407",
+  "wikipedia": "Wizards!",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:46.032Z"
 }

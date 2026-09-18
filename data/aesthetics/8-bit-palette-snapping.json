@@ -91,35 +91,8 @@
     "motion": "frame-snap animation steps"
   },
   "recipe": {},
-  "emotionProfile": {
-    "warm": 50,
-    "cold": 50,
-    "playful": 70,
-    "serious": 30,
-    "chaotic": 40,
-    "ordered": 80,
-    "nostalgic": 90,
-    "futuristic": 10,
-    "peaceful": 50,
-    "ominous": 10
-  },
-  "dnaAxes": {
-    "minimal_maximal": 90,
-    "organic_geometric": 10,
-    "warm_cold": 50,
-    "natural_synthetic": 70,
-    "analog_digital": 80,
-    "historical_futuristic": 20,
-    "refined_raw": 70,
-    "playful_serious": 40,
-    "soft_harsh": 80,
-    "quiet_loud": 70,
-    "orderly_chaotic": 90,
-    "dense_spacious": 80,
-    "realistic_surreal": 20,
-    "elegant_utilitarian": 10,
-    "nostalgic_progressive": 90
-  },
+  "emotionProfile": {},
+  "dnaAxes": {},
   "keyExamples": [
     "NES games",
     "Commodore 64 graphics",
@@ -134,45 +107,7 @@
     "gaming",
     "nostalgic"
   ],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/16777216colors.png/1280px-16777216colors.png",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/16777216colors.png/500px-16777216colors.png",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e9/16777216colors.png",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:16777216colors.png",
-      "caption": "All 16,777,216 colors of 24-bit RGB palette ( truecolor ) in a 4096 × 4096 bitmap. This image was made by zooming Image:Redgreen.png to 4096 × 4096 pixels then adding Image:Blue256.png on every 16 × 16 pixels block of fixed red-green value.",
-      "source": "Wikimedia Commons",
-      "artist": "Marc Mongenet",
-      "date": "2005-10-29",
-      "license": "CC BY-SA 2.5",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-      "width": "1280",
-      "height": "1280",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/CIExy1931_srgb_gamut.png",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d3/CIExy1931_srgb_gamut.png",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d3/CIExy1931_srgb_gamut.png",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:CIExy1931_srgb_gamut.png",
-      "caption": "Based on: CIExy1931 As a replacement for an existing image with an unclear copyright status. The image highlights the sRGB gamut. The description of that image follows:",
-      "source": "Wikimedia Commons",
-      "artist": "Hankwang at English Wikipedia",
-      "date": "6 May 2006 (original upload date)",
-      "license": "Public domain",
-      "width": "542",
-      "height": "599",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    }
-  ],
+  "images": [],
   "sources": [
     {
       "name": "Wikipedia: Color Depth",
@@ -214,7 +149,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
+        "checkedAt": "2026-09-18T15:08:43.206Z"
       }
     }
   ],
@@ -223,5 +158,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:29:25.070Z",
-  "updatedAt": "2026-09-18T04:53:32.344Z"
+  "updatedAt": "2026-09-18T15:46:00.794Z"
 }

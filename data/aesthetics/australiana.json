@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Australia",
   "geography": "Online",
   "periodStart": "1980s",
   "periodEnd": "",
@@ -19,8 +19,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Nostalgia, Irreverence, Occasionally iconoclastic, 'Larrikin' spirit, Fun, Laidback, Ironic",
   "colors": [
     {
-      "hex": "#ffffff",
-      "name": "white"
+      "hex": "#dab783",
+      "name": "tan"
+    },
+    {
+      "hex": "#a8795c",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#6a8ae1",
+      "name": "lavender"
+    },
+    {
+      "hex": "#f1e7d2",
+      "name": "linen"
+    },
+    {
+      "hex": "#c1330c",
+      "name": "rust"
+    },
+    {
+      "hex": "#ea802d",
+      "name": "ochre"
     }
   ],
   "paletteSource": "derived",
@@ -66,7 +86,49 @@
     "fun",
     "laidback"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Windrose_Outback_AUS.JPG/1280px-Windrose_Outback_AUS.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Windrose_Outback_AUS.JPG/500px-Windrose_Outback_AUS.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Windrose_Outback_AUS.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Windrose_Outback_AUS.JPG",
+      "caption": "Windrose Outback AUS",
+      "source": "Wikimedia Commons",
+      "artist": "Jan Schubert",
+      "date": "2003-06",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Meat_pie.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Meat_pie.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Meat_pie.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Meat_pie.jpg",
+      "caption": "Traditional Aussie Meat Pie",
+      "source": "Wikimedia Commons",
+      "artist": "fir0002 flagstaffotos [at] gmail.com Canon 20D + Canon 17-40mm f/4 L",
+      "license": "GFDL 1.2",
+      "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+      "width": "886",
+      "height": "611"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Mixed_Berry_Pavlova.jpg/1280px-Mixed_Berry_Pavlova.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Mixed_Berry_Pavlova.jpg/500px-Mixed_Berry_Pavlova.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Mixed_Berry_Pavlova.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mixed_Berry_Pavlova.jpg",
+      "caption": "Mixed Berry Pavlova",
+      "source": "Wikimedia Commons",
+      "artist": "Kimberly Vardeman",
+      "date": "2010-07-18 13:24:03",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "850"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Australiana (CC BY-SA)",
@@ -74,13 +136,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4825240",
+      "url": "https://www.wikidata.org/wiki/Q4825240",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:10:31.299Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Australiana",
+      "url": "https://en.wikipedia.org/wiki/Australiana",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:10:31.299Z"
+      }
+    }
+  ],
+  "wikidata": "Q4825240",
+  "wikipedia": "Australiana",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:24.093Z"
 }

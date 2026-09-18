@@ -75,7 +75,50 @@
     "tactile interaction",
     "cleanliness"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Neumorphism-fixed.jpg/1280px-Neumorphism-fixed.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Neumorphism-fixed.jpg/500px-Neumorphism-fixed.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Neumorphism-fixed.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Neumorphism-fixed.jpg",
+      "caption": "File:Neumorphism.jpg with the Accept text fixed with GIMP",
+      "source": "Wikimedia Commons",
+      "artist": "Awesomecat",
+      "date": "2026-01-29",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Neumorfismus_%E2%80%93_tla%C4%8D%C3%ADtka.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Neumorfismus_%E2%80%93_tla%C4%8D%C3%ADtka.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Neumorfismus_%E2%80%93_tla%C4%8D%C3%ADtka.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Neumorfismus_%E2%80%93_tla%C4%8D%C3%ADtka.jpg",
+      "caption": "Ukázka tlačítka v designu neumorfismu na světlém a tmavém pozadí.",
+      "source": "Wikimedia Commons",
+      "artist": "Joefou",
+      "date": "2020-11-20",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "578",
+      "height": "644"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Neumorphism.jpg/1280px-Neumorphism.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Neumorphism.jpg/500px-Neumorphism.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Neumorphism.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Neumorphism.jpg",
+      "caption": "Exemple d'éléments adoptant les style neumorphique",
+      "source": "Wikimedia Commons",
+      "artist": "Vectorium",
+      "date": "2020",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1280"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Neumorphism (CC BY-SA)",
@@ -83,13 +126,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Neumorphism",
+      "url": "https://commons.wikimedia.org/wiki/Category:Neumorphism",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:06.530Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q102244095",
+      "url": "https://www.wikidata.org/wiki/Q102244095",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:06.530Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Neumorphism",
+      "url": "https://en.wikipedia.org/wiki/Neumorphism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:06.530Z"
+      }
+    }
+  ],
+  "wikidata": "Q102244095",
+  "wikipedia": "Neumorphism",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:24:06.530Z"
 }

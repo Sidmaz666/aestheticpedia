@@ -21,8 +21,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Survival, thievery, gang loyalty (depending)",
   "colors": [
     {
-      "hex": "#808080",
-      "name": "grey"
+      "hex": "#442819",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#25140d",
+      "name": "black"
+    },
+    {
+      "hex": "#684730",
+      "name": "walnut brown 2"
+    },
+    {
+      "hex": "#b18c66",
+      "name": "camel"
+    },
+    {
+      "hex": "#97694b",
+      "name": "bronze"
+    },
+    {
+      "hex": "#a69e85",
+      "name": "warm grey"
     }
   ],
   "paletteSource": "derived",
@@ -62,7 +82,129 @@
     "thievery",
     "gang loyalty"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Apocalypse-Albert_Goodwin.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/57/Apocalypse-Albert_Goodwin.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/57/Apocalypse-Albert_Goodwin.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Apocalypse-Albert_Goodwin.jpg",
+      "caption": "Apocalypse-Albert Goodwin",
+      "source": "Wikimedia Commons",
+      "artist": "Albert Goodwin",
+      "date": "1903 date QS:P571,+1903-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1000",
+      "height": "619"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/The_Stand_%281978%29_front_cover%2C_first_edition.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/52/The_Stand_%281978%29_front_cover%2C_first_edition.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/52/The_Stand_%281978%29_front_cover%2C_first_edition.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Stand_(1978)_front_cover,_first_edition.png",
+      "caption": "The Stand (1978) dust jacket, first edition",
+      "source": "Wikimedia Commons",
+      "artist": "Jacket illustration by John Cayea Jacket typography by Elizabeth Levine Photo by Lawrence Robins Blurring: Own work",
+      "date": "published 1978",
+      "license": "Public domain",
+      "width": "760",
+      "height": "1188"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Science_and_Invention_Feb_1922_pg912_-_War_of_the_Future.jpg/1280px-Science_and_Invention_Feb_1922_pg912_-_War_of_the_Future.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Science_and_Invention_Feb_1922_pg912_-_War_of_the_Future.jpg/500px-Science_and_Invention_Feb_1922_pg912_-_War_of_the_Future.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Science_and_Invention_Feb_1922_pg912_-_War_of_the_Future.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Science_and_Invention_Feb_1922_pg912_-_War_of_the_Future.jpg",
+      "caption": "An illustration, drawn by illustrator Frank R. Paul , of inventor Nikola Tesla 's speculative vision of what war will be like in the future, as described by him in an interview in the magazine. Tesla had experimented extensively with \"telaumatons\", wheeled carts and boats remotel",
+      "source": "Wikimedia Commons",
+      "artist": "Signed lower L by Gernsback's illustrator, Frank R. Paul",
+      "date": "1922-02",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1809"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Fallout_Cosplayer_Villa_Carrara.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Fallout_Cosplayer_Villa_Carrara.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Fallout_Cosplayer_Villa_Carrara.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fallout_Cosplayer_Villa_Carrara.jpg",
+      "caption": "A Fallout Cosplayer photographed during a comic-con at Villa Carrara, Salerno",
+      "source": "Wikimedia Commons",
+      "artist": "Doomdragon1993",
+      "date": "2019-11-23",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "720"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg/1280px-The_Blue_Marble%2C_AS17-148-22727.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg/500px-The_Blue_Marble%2C_AS17-148-22727.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Blue_Marble,_AS17-148-22727.jpg",
+      "caption": "The Blue Marble, by Apollo 17, AS17-148-22727.",
+      "source": "Wikimedia Commons",
+      "artist": "Harrison Schmitt / Apollo 17",
+      "date": "1972-12-07",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Baseline_Drive-in_Ad_-_3_September_1958%2C_Highland%2C_CA.jpg/1280px-Baseline_Drive-in_Ad_-_3_September_1958%2C_Highland%2C_CA.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Baseline_Drive-in_Ad_-_3_September_1958%2C_Highland%2C_CA.jpg/500px-Baseline_Drive-in_Ad_-_3_September_1958%2C_Highland%2C_CA.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Baseline_Drive-in_Ad_-_3_September_1958%2C_Highland%2C_CA.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Baseline_Drive-in_Ad_-_3_September_1958,_Highland,_CA.jpg",
+      "caption": "Baseline Drive-In theater advertisement for the double-feature, American horror/Sci fi adventure films: How to Make a Monster and Teenage Caveman. 3 Sep, 1958.",
+      "source": "Wikimedia Commons",
+      "artist": "American International Pictures",
+      "date": "1958-09-03",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1714"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Charleroi_-_station_Janson_-_Jeremiah_-_01.jpg/1280px-Charleroi_-_station_Janson_-_Jeremiah_-_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Charleroi_-_station_Janson_-_Jeremiah_-_01.jpg/500px-Charleroi_-_station_Janson_-_Jeremiah_-_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Charleroi_-_station_Janson_-_Jeremiah_-_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Charleroi_-_station_Janson_-_Jeremiah_-_01.jpg",
+      "caption": "Charleroi ( Belgique ) - Station Janson du métro léger . Jeremiah .",
+      "source": "Wikimedia Commons",
+      "artist": "Jmh2o",
+      "date": "2015-07-11 10:36:05",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "2120"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Graffiti_post-apocalyptique_%22The_End%22_-_Quartier_des_Grottes%2C_Gen%C3%A8ve_%28Suisse%29.jpg/1280px-Graffiti_post-apocalyptique_%22The_End%22_-_Quartier_des_Grottes%2C_Gen%C3%A8ve_%28Suisse%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Graffiti_post-apocalyptique_%22The_End%22_-_Quartier_des_Grottes%2C_Gen%C3%A8ve_%28Suisse%29.jpg/500px-Graffiti_post-apocalyptique_%22The_End%22_-_Quartier_des_Grottes%2C_Gen%C3%A8ve_%28Suisse%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Graffiti_post-apocalyptique_%22The_End%22_-_Quartier_des_Grottes%2C_Gen%C3%A8ve_%28Suisse%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Graffiti_post-apocalyptique_%22The_End%22_-_Quartier_des_Grottes,_Gen%C3%A8ve_(Suisse).jpg",
+      "caption": "Photo prise pendant la visite de la Genève alternative et féministe du 19 novembre 2017 (les sans pagEs)",
+      "source": "Wikimedia Commons",
+      "artist": "Opsylac",
+      "date": "2017-11-19 12:26:41",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/OldTown_02.jpg/1280px-OldTown_02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/OldTown_02.jpg/500px-OldTown_02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/21/OldTown_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:OldTown_02.jpg",
+      "caption": "photo from OldTown festival",
+      "source": "Wikimedia Commons",
+      "artist": "Thekolak",
+      "date": "2017-07-22 15:28:46",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Post-Apocalyptic (CC BY-SA)",
@@ -70,13 +212,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Post-apocalyptic fiction",
+      "url": "https://commons.wikimedia.org/wiki/Category:Post-apocalyptic_fiction",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:26:10.421Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q197949",
+      "url": "https://www.wikidata.org/wiki/Q197949",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:26:10.421Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Apocalyptic and post-apocalyptic fiction",
+      "url": "https://en.wikipedia.org/wiki/Apocalyptic_and_post-apocalyptic_fiction",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:26:10.421Z"
+      }
+    }
+  ],
+  "wikidata": "Q197949",
+  "wikipedia": "Apocalyptic and post-apocalyptic fiction",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:26:10.421Z"
 }

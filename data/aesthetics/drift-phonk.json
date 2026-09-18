@@ -14,7 +14,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (TikTok)",
   "geography": "Online",
   "periodStart": "Late 2010s",
   "periodEnd": "",
@@ -81,6 +81,30 @@
     "aesthetics wiki"
   ],
   "images": [],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Phonk_sample.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Phonk sample",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Phonk_sample.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 14,
+      "artist": "Zanahary",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/LL-Q1860_%28eng%29-Vealhurl-phonk.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "LL-Q1860 (eng)-Vealhurl-phonk",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-phonk.wav",
+      "source": "Wikimedia Commons",
+      "mime": "audio/wav",
+      "duration": 1,
+      "artist": "Speaker: Vealhurl Recorder: Vealhurl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Drift Phonk (CC BY-SA)",
@@ -88,13 +112,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q90568328",
+      "url": "https://www.wikidata.org/wiki/Q90568328",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:16:02.382Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Phonk",
+      "url": "https://en.wikipedia.org/wiki/Phonk",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:16:02.382Z"
+      }
+    }
+  ],
+  "wikidata": "Q90568328",
+  "wikipedia": "Phonk",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:16:02.382Z"
 }

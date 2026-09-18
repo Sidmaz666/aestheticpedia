@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (YouTube, TikTok)",
   "geography": "Online",
   "periodStart": "2010s",
   "periodEnd": "",
@@ -73,13 +73,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q65943851",
+      "url": "https://www.wikidata.org/wiki/Q65943851",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:32:01.228Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — UK drill",
+      "url": "https://en.wikipedia.org/wiki/UK_drill",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:32:01.228Z"
+      }
+    }
+  ],
+  "wikidata": "Q65943851",
+  "wikipedia": "UK drill",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:32:01.228Z"
 }

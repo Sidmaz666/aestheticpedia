@@ -9,7 +9,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "United Kingdom",
   "geography": "Online",
   "periodStart": "c. 1880s–1910s",
   "periodEnd": "",
@@ -21,12 +21,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Realism, truth to life, social documentation, appreciation for traditional labor, depiction of natural light",
   "colors": [
     {
-      "hex": "#808080",
-      "name": "gray"
+      "hex": "#e0ba90",
+      "name": "tan"
     },
     {
-      "hex": "#0000ff",
-      "name": "blue"
+      "hex": "#f0d9b6",
+      "name": "cream"
+    },
+    {
+      "hex": "#c9966f",
+      "name": "camel"
+    },
+    {
+      "hex": "#a99ba2",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#a37b65",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#83798e",
+      "name": "taupe"
     }
   ],
   "paletteSource": "derived",
@@ -65,7 +81,34 @@
     "appreciation for traditional labor",
     "depiction of natural light"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Dame_Laura_Knight_-_Boys-_1910.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/87/Dame_Laura_Knight_-_Boys-_1910.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/87/Dame_Laura_Knight_-_Boys-_1910.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dame_Laura_Knight_-_Boys-_1910.jpg",
+      "caption": "Painter Laura Knight capture a common scene at the shore in Cornwall in 1910, showing crowds of naked boys on the shore and in the water with young females wearing Edwardian dresses.",
+      "source": "Wikimedia Commons",
+      "artist": "Dame Laura Knight",
+      "date": "1910",
+      "license": "Public domain",
+      "width": "700",
+      "height": "564"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Newlyn_Group_1884.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Newlyn_Group_1884.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Newlyn_Group_1884.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Newlyn_Group_1884.jpg",
+      "caption": "A photograph of the Newlyn Group. Shown are standing from left to right Frank Bodilly, Fred Millard, Frank Bramley, William Blandford Fletcher, William Breakspeare, Ralph Todd, William Wainwright, Edwin Harris and seated lower right Stanhope Forbes.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1884",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "978"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Newlyn School (CC BY-SA)",
@@ -73,13 +116,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Newlyn School",
+      "url": "https://commons.wikimedia.org/wiki/Category:Newlyn_School",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:12.590Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q557532",
+      "url": "https://www.wikidata.org/wiki/Q557532",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:12.590Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Newlyn School",
+      "url": "https://en.wikipedia.org/wiki/Newlyn_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:12.590Z"
+      }
+    }
+  ],
+  "wikidata": "Q557532",
+  "wikipedia": "Newlyn School",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:38.181Z"
 }

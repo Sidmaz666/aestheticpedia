@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Spain",
   "geography": "Online",
   "periodStart": "c. 1948–1951",
   "periodEnd": "",
@@ -64,13 +64,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1172762",
+      "url": "https://www.wikidata.org/wiki/Q1172762",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:15:09.060Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Dau al Set",
+      "url": "https://en.wikipedia.org/wiki/Dau_al_Set",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:15:09.060Z"
+      }
+    }
+  ],
+  "wikidata": "Q1172762",
+  "wikipedia": "Dau al Set",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:28.319Z"
 }

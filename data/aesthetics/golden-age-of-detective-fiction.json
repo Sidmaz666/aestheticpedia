@@ -48,7 +48,21 @@
   "tags": [
     "aesthetics wiki"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/American_cover_of_%C2%ABThe_Mysterious_Affair_at_Styles%C2%BB.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1b/American_cover_of_%C2%ABThe_Mysterious_Affair_at_Styles%C2%BB.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1b/American_cover_of_%C2%ABThe_Mysterious_Affair_at_Styles%C2%BB.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:American_cover_of_%C2%ABThe_Mysterious_Affair_at_Styles%C2%BB.png",
+      "caption": "Издание «Загадочное происшествие в Стайлзе», опубликованное издательством John Lane в 1920 году",
+      "source": "Wikimedia Commons",
+      "artist": "John Lane",
+      "date": "1920",
+      "license": "Public domain",
+      "width": "728",
+      "height": "1112"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Golden Age of Detective Fiction (CC BY-SA)",
@@ -56,13 +70,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3704447",
+      "url": "https://www.wikidata.org/wiki/Q3704447",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:18:06.269Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Golden Age of Detective Fiction",
+      "url": "https://en.wikipedia.org/wiki/Golden_Age_of_Detective_Fiction",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:18:06.269Z"
+      }
+    }
+  ],
+  "wikidata": "Q3704447",
+  "wikipedia": "Golden Age of Detective Fiction",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:18:06.269Z"
 }

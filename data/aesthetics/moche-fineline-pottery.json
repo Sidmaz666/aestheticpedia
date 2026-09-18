@@ -23,26 +23,31 @@
   "culturalContext": "",
   "colors": [
     {
-      "hex": "#f5f5dc",
-      "name": "Creamy White"
+      "hex": "#c1b1b0",
+      "name": "dove grey"
     },
     {
-      "hex": "#8b4513",
-      "name": "Dark Brown"
+      "hex": "#050201",
+      "name": "black"
     },
     {
-      "hex": "#d2691e",
-      "name": "Sienna"
+      "hex": "#312d50",
+      "name": "aubergine"
     },
     {
-      "hex": "#2f4f4f",
-      "name": "Dark Slate Gray"
+      "hex": "#75524f",
+      "name": "umber"
     },
     {
-      "hex": "#ffffff",
-      "name": "Ivory"
+      "hex": "#bc9472",
+      "name": "camel"
+    },
+    {
+      "hex": "#a06d4f",
+      "name": "bronze"
     }
   ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -75,35 +80,8 @@
   "graphicDesign": {},
   "uiTranslation": {},
   "recipe": {},
-  "emotionProfile": {
-    "warm": 45,
-    "cold": 55,
-    "playful": 30,
-    "serious": 70,
-    "chaotic": 25,
-    "ordered": 75,
-    "nostalgic": 80,
-    "futuristic": 20,
-    "peaceful": 40,
-    "ominous": 35
-  },
-  "dnaAxes": {
-    "minimal_maximal": 35,
-    "organic_geometric": 60,
-    "warm_cold": 45,
-    "natural_synthetic": 30,
-    "analog_digital": 85,
-    "historical_futuristic": 75,
-    "refined_raw": 65,
-    "playful_serious": 25,
-    "soft_harsh": 35,
-    "quiet_loud": 50,
-    "orderly_chaotic": 40,
-    "dense_spacious": 60,
-    "realistic_surreal": 75,
-    "elegant_utilitarian": 60,
-    "nostalgic_progressive": 55
-  },
+  "emotionProfile": {},
+  "dnaAxes": {},
   "keyExamples": [
     "Lambayeque portrait vessels",
     "Moche erotic pottery",
@@ -121,23 +99,6 @@
   ],
   "images": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/H_Luna_Frisorestaurado_lou.jpg",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5f/H_Luna_Frisorestaurado_lou.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5f/H_Luna_Frisorestaurado_lou.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:H_Luna_Frisorestaurado_lou.jpg",
-      "caption": "H Luna Frisorestaurado lou",
-      "source": "Wikimedia Commons",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "width": "1004",
-      "height": "748",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Moche_portrait_ceramic_Quai_Branly_71.1930.19.162_n2.jpg/1280px-Moche_portrait_ceramic_Quai_Branly_71.1930.19.162_n2.jpg",
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Moche_portrait_ceramic_Quai_Branly_71.1930.19.162_n2.jpg/500px-Moche_portrait_ceramic_Quai_Branly_71.1930.19.162_n2.jpg",
       "full": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Moche_portrait_ceramic_Quai_Branly_71.1930.19.162_n2.jpg",
@@ -148,49 +109,7 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "1828",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lombards_Museum_162.JPG/1280px-Lombards_Museum_162.JPG",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lombards_Museum_162.JPG/500px-Lombards_Museum_162.JPG",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Lombards_Museum_162.JPG",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lombards_Museum_162.JPG",
-      "caption": "alpaca wool tapestry, Moche 600-900 A.D.",
-      "source": "Wikimedia Commons",
-      "artist": "Lombards Museum",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-      "width": "1280",
-      "height": "963",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Ear_ornaments_from_Peru.jpg/1280px-Ear_ornaments_from_Peru.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Ear_ornaments_from_Peru.jpg/500px-Ear_ornaments_from_Peru.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Ear_ornaments_from_Peru.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ear_ornaments_from_Peru.jpg",
-      "caption": "A pair of ear ornaments from Peru (Moche), ca. AD 200-600 Gold; shell; stome (turquoise or malachite) The Getty Center in Los Angeles, California",
-      "source": "Wikimedia Commons",
-      "artist": "Thad Zajdowicz from Pasadena, California, USA",
-      "date": "2017-09-28 14:34",
-      "license": "CC0",
-      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "width": "1280",
-      "height": "652",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
+      "height": "1828"
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Fellatiomoche.jpg",
@@ -204,12 +123,7 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "765",
-      "height": "732",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
+      "height": "732"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Analsexmoche.jpg/1280px-Analsexmoche.jpg",
@@ -221,12 +135,7 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "1619",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
+      "height": "1619"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Moche_warrior_pot_at_the_British_Museum.jpg/1280px-Moche_warrior_pot_at_the_British_Museum.jpg",
@@ -240,66 +149,7 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1904",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Moche._Crescent-Shaped_Ornament_with_Bat%2C_C.E._1_-_300.jpg",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Moche._Crescent-Shaped_Ornament_with_Bat%2C_C.E._1_-_300.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Moche._Crescent-Shaped_Ornament_with_Bat%2C_C.E._1_-_300.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Moche._Crescent-Shaped_Ornament_with_Bat,_C.E._1_-_300.jpg",
-      "caption": "Moche. Crescent-Shaped Ornament with Bat, C.E. 1 - 300. Hammered copper, 4 1/8 x 4 5/8 in. (10.5 x 11.7 cm). Brooklyn Museum, Gift of the Ernest Erickson Foundation, Inc., 86.224.202",
-      "source": "Wikimedia Commons",
-      "artist": "Moche",
-      "date": "0300",
-      "license": "No restrictions",
-      "width": "768",
-      "height": "541",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Moche_-_Mask_Adornment_-_Walters_2009203_-_Three_Quarter_Left.jpg/1280px-Moche_-_Mask_Adornment_-_Walters_2009203_-_Three_Quarter_Left.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Moche_-_Mask_Adornment_-_Walters_2009203_-_Three_Quarter_Left.jpg/500px-Moche_-_Mask_Adornment_-_Walters_2009203_-_Three_Quarter_Left.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Moche_-_Mask_Adornment_-_Walters_2009203_-_Three_Quarter_Left.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Moche_-_Mask_Adornment_-_Walters_2009203_-_Three_Quarter_Left.jpg",
-      "caption": "Mask Adornment",
-      "source": "Wikimedia Commons",
-      "artist": "Anonymous ( Moche culture ) Unknown author",
-      "date": "AD 100-600",
-      "license": "Public domain",
-      "width": "1280",
-      "height": "1569",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Moche_-_Knife_%28tumi%29_with_Removable_Figural_Handle_-_Walters_543078.jpg",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Moche_-_Knife_%28tumi%29_with_Removable_Figural_Handle_-_Walters_543078.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Moche_-_Knife_%28tumi%29_with_Removable_Figural_Handle_-_Walters_543078.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Moche_-_Knife_(tumi)_with_Removable_Figural_Handle_-_Walters_543078.jpg",
-      "caption": "Knife (tumi) with Removable Figural Handle",
-      "source": "Wikimedia Commons",
-      "artist": "Anonymous ( Moche culture ) Unknown author",
-      "date": "AD 50-800 (Early Intermediate-Middle Horizon)",
-      "license": "Public domain",
-      "width": "1034",
-      "height": "1799",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
+      "height": "1904"
     }
   ],
   "sources": [
@@ -343,7 +193,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:06:28.055Z"
+        "checkedAt": "2026-09-18T15:23:12.171Z"
       }
     }
   ],
@@ -352,5 +202,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T05:19:16.060Z",
-  "updatedAt": "2026-09-18T05:06:28.055Z"
+  "updatedAt": "2026-09-18T15:46:00.787Z"
 }

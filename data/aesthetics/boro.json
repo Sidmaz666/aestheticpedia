@@ -75,35 +75,8 @@
   "graphicDesign": {},
   "uiTranslation": {},
   "recipe": {},
-  "emotionProfile": {
-    "warm": 25,
-    "cold": 75,
-    "playful": 15,
-    "serious": 85,
-    "chaotic": 65,
-    "ordered": 35,
-    "nostalgic": 90,
-    "futuristic": 10,
-    "peaceful": 40,
-    "ominous": 5
-  },
-  "dnaAxes": {
-    "minimal_maximal": 60,
-    "organic_geometric": 75,
-    "warm_cold": 35,
-    "natural_synthetic": 85,
-    "analog_digital": 95,
-    "historical_futuristic": 70,
-    "refined_raw": 90,
-    "playful_serious": 20,
-    "soft_harsh": 40,
-    "quiet_loud": 30,
-    "orderly_chaotic": 70,
-    "dense_spacious": 60,
-    "realistic_surreal": 80,
-    "elegant_utilitarian": 30,
-    "nostalgic_progressive": 70
-  },
+  "emotionProfile": {},
+  "dnaAxes": {},
   "keyExamples": [
     "Boro textiles at Kyoto Costume Institute",
     "Collections at the Japanese Folk Crafts Museum"
@@ -117,7 +90,56 @@
     "folk",
     "traditional"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/7444/16365971746_47ffe457c8_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/f8adadc9-2886-448c-8227-35b072cdff9d/thumb/",
+      "pageUrl": "https://www.flickr.com/photos/34828272@N07/16365971746",
+      "caption": "Tri-Boro Bridge",
+      "source": "Openverse · flickr",
+      "artist": "JoshuaPomales",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": "1024",
+      "height": "683"
+    },
+    {
+      "url": "https://live.staticflickr.com/65535/47651385082_1c0298d921_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/7b78b134-e6fd-4728-b51e-1c4a3b864236/thumb/",
+      "pageUrl": "https://www.flickr.com/photos/141571345@N02/47651385082",
+      "caption": "5 Boro bike tour",
+      "source": "Openverse · flickr",
+      "artist": "NotifyNYC",
+      "license": "Public domain 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": "744",
+      "height": "1024"
+    },
+    {
+      "url": "https://live.staticflickr.com/8147/29375895832_96f7c9a66d_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/e40d758f-24da-413a-b548-4150bba4c145/thumb/",
+      "pageUrl": "https://www.flickr.com/photos/17587393@N03/29375895832",
+      "caption": "Boro bag",
+      "source": "Openverse · flickr",
+      "artist": "davis.jacque",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": "1010",
+      "height": "1024"
+    },
+    {
+      "url": "https://live.staticflickr.com/1008/1449930955_13fa3efa7f_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/7154deef-f953-40b9-afbb-5237b2a3ee20/thumb/",
+      "pageUrl": "https://www.flickr.com/photos/36521958172@N01/1449930955",
+      "caption": "Obesity: So big it could be the sixth boro",
+      "source": "Openverse · flickr",
+      "artist": "stan",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "1024",
+      "height": "768"
+    }
+  ],
   "sources": [
     {
       "name": "Japanese Folk Crafts Museum",
@@ -181,5 +203,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T03:21:53.306Z",
-  "updatedAt": "2026-09-18T10:38:59.633Z"
+  "updatedAt": "2026-09-18T11:46:46.951Z"
 }

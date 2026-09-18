@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "United States",
   "geography": "Online",
   "periodStart": "2020s",
   "periodEnd": "",
@@ -78,7 +78,21 @@
     "romanticized summer",
     "natural beauty"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Tom_Sawyer_1876_frontispiece.jpg/1280px-Tom_Sawyer_1876_frontispiece.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Tom_Sawyer_1876_frontispiece.jpg/500px-Tom_Sawyer_1876_frontispiece.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Tom_Sawyer_1876_frontispiece.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tom_Sawyer_1876_frontispiece.jpg",
+      "caption": "Frontispiece from The Adventures of Tom Sawyer by Mark Twain (1st ed., 1876): [Tom Sawyer fishing]",
+      "source": "Wikimedia Commons",
+      "artist": "True Williams",
+      "date": "1876",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1753"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Strawberry Girl (CC BY-SA)",
@@ -86,13 +100,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7622428",
+      "url": "https://www.wikidata.org/wiki/Q7622428",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:30:08.371Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Strawberry Girl",
+      "url": "https://en.wikipedia.org/wiki/Strawberry_Girl",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:30:08.371Z"
+      }
+    }
+  ],
+  "wikidata": "Q7622428",
+  "wikipedia": "Strawberry Girl",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:42.953Z"
 }

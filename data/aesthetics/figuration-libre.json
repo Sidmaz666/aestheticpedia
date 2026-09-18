@@ -9,17 +9,43 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
-  "periodStart": "",
+  "origin": "France",
+  "geography": "France",
+  "periodStart": "1980s",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 1980,
   "endYear": null,
-  "era": "",
+  "era": "1980s",
   "summary": "Figuration Libre (French pronunciation: [fiɡyʁasjɔ̃ libʁ], Free Figuration) is a French art movement which began in the 1980s.",
   "description": "Figuration Libre (French pronunciation: [fiɡyʁasjɔ̃ libʁ], Free Figuration) is a French art movement which began in the 1980s. It is the French equivalent of Bad Painting and Neo-expressionism in America and Europe, Junge Wilde in Germany and Transvanguardia in Italy. Artists in the movement typically incorporate elements of comic book art and graffiti into their work. They use bright colors and exaggerated, caricature-like figures.\n\nThe group was formed in 1981 by Robert Combas, Remi Blanchard, François Boisrond and  Hervé Di Rosa. The term 'Figuration Libre' was coined by Fluxus artist Ben Vautier. Other figures include Richard Di Rosa and Louis Jammes. Between 1982 and 1985, these artists exhibited alongside their American counterparts Keith Haring, Jean-Michel Basquiat, and Kenny Scharf in New York City, London, Pittsburgh and Paris.\n\nFiguration Libre (Free Figuration) can be translated as \"Free Style\".",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#10111e",
+      "name": "black"
+    },
+    {
+      "hex": "#302f45",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#5c5c6b",
+      "name": "graphite"
+    },
+    {
+      "hex": "#918d98",
+      "name": "stone"
+    },
+    {
+      "hex": "#184387",
+      "name": "cobalt"
+    },
+    {
+      "hex": "#944a73",
+      "name": "plum"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/STAN_MUSQUER%2C_SPECTRAPOLOGIA%2C_29x42cm_acrylique_sur_papier_maroufl%C3%A9_sur_panneau_de_bois%2C_1992%2C_Morne-Salines%2C_Guadeloupe.jpg/1280px-STAN_MUSQUER%2C_SPECTRAPOLOGIA%2C_29x42cm_acrylique_sur_papier_maroufl%C3%A9_sur_panneau_de_bois%2C_1992%2C_Morne-Salines%2C_Guadeloupe.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/STAN_MUSQUER%2C_SPECTRAPOLOGIA%2C_29x42cm_acrylique_sur_papier_maroufl%C3%A9_sur_panneau_de_bois%2C_1992%2C_Morne-Salines%2C_Guadeloupe.jpg/500px-STAN_MUSQUER%2C_SPECTRAPOLOGIA%2C_29x42cm_acrylique_sur_papier_maroufl%C3%A9_sur_panneau_de_bois%2C_1992%2C_Morne-Salines%2C_Guadeloupe.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/02/STAN_MUSQUER%2C_SPECTRAPOLOGIA%2C_29x42cm_acrylique_sur_papier_maroufl%C3%A9_sur_panneau_de_bois%2C_1992%2C_Morne-Salines%2C_Guadeloupe.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:STAN_MUSQUER,_SPECTRAPOLOGIA,_29x42cm_acrylique_sur_papier_maroufl%C3%A9_sur_panneau_de_bois,_1992,_Morne-Salines,_Guadeloupe.jpg",
+      "caption": "SPECTRAPOLOGIA interroge le principe d’occidentalisation de la « figure noire ». Bien que le sujet jouant de cet instrument -dont il ne reste symboliquement qu’une seule corde- soit leucoderme, l’ombre qui se projette étrangement sur son visage soulève un syndrome identitaire mât",
+      "source": "Wikimedia Commons",
+      "artist": "Collection Artistes De la Guadeloupe",
+      "date": "2004-10-07 17:02:49",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1765"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Figuration Libre",
@@ -95,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:45:17.491Z"
+  "updatedAt": "2026-09-18T14:58:37.792Z"
 }

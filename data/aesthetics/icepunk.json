@@ -21,12 +21,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Isolation, desolation, the beauty of coldness, the power of nature",
   "colors": [
     {
-      "hex": "#ffffff",
-      "name": "white"
+      "hex": "#26466a",
+      "name": "charcoal"
     },
     {
-      "hex": "#0000ff",
-      "name": "blue"
+      "hex": "#33617e",
+      "name": "graphite"
+    },
+    {
+      "hex": "#799794",
+      "name": "slate"
+    },
+    {
+      "hex": "#192b3f",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#465eba",
+      "name": "cerulean"
+    },
+    {
+      "hex": "#6891e5",
+      "name": "verdigris"
     }
   ],
   "paletteSource": "derived",
@@ -64,7 +80,36 @@
     "the beauty of coldness",
     "the power of nature"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Seapunk_is_Alive%21.png/1280px-Seapunk_is_Alive%21.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Seapunk_is_Alive%21.png/500px-Seapunk_is_Alive%21.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Seapunk_is_Alive%21.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Seapunk_is_Alive!.png",
+      "caption": "Image seapunk.",
+      "source": "Wikimedia Commons",
+      "artist": "Ridley369",
+      "date": "2014-06-29",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "620"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Geek_Fashion_Show_2013_-_Mermaid_Atlantis_%288844815861%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/75/Geek_Fashion_Show_2013_-_Mermaid_Atlantis_%288844815861%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/75/Geek_Fashion_Show_2013_-_Mermaid_Atlantis_%288844815861%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Geek_Fashion_Show_2013_-_Mermaid_Atlantis_(8844815861).jpg",
+      "caption": "Little Mermaid Goes Punk .",
+      "source": "Wikimedia Commons",
+      "artist": "[2] from Jeffrey Kilmere, USA",
+      "date": "March 2, 2012 15:33",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "753",
+      "height": "500"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Icepunk (CC BY-SA)",
@@ -72,13 +117,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3476798",
+      "url": "https://www.wikidata.org/wiki/Q3476798",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:19:21.269Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Seapunk",
+      "url": "https://en.wikipedia.org/wiki/Seapunk",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:19:21.269Z"
+      }
+    }
+  ],
+  "wikidata": "Q3476798",
+  "wikipedia": "Seapunk",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:19:21.269Z"
 }

@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "United Kingdom",
   "geography": "Online",
   "periodStart": "1990s",
   "periodEnd": "",
@@ -22,12 +22,16 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Aspiration, glamour, hedonism, multiculturalism, smoothness",
   "colors": [
     {
-      "hex": "#c0c0c0",
-      "name": "silver"
+      "hex": "#9493ad",
+      "name": "warm grey"
     },
     {
-      "hex": "#ffd700",
-      "name": "gold"
+      "hex": "#0e0a14",
+      "name": "black"
+    },
+    {
+      "hex": "#797896",
+      "name": "slate"
     }
   ],
   "paletteSource": "derived",
@@ -65,7 +69,36 @@
     "multiculturalism",
     "smoothness"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Roam%2C_Music_Producer.jpg/1280px-Roam%2C_Music_Producer.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Roam%2C_Music_Producer.jpg/500px-Roam%2C_Music_Producer.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Roam%2C_Music_Producer.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Roam,_Music_Producer.jpg",
+      "caption": "Roam, the Toronto music producer. standing with face turned away",
+      "source": "Wikimedia Commons",
+      "artist": "Thehiredgunphotography",
+      "date": "2019-12-16 17:07:50",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1933"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Roam%2C_Toronto%2C_uk_garage_producer.jpg/1280px-Roam%2C_Toronto%2C_uk_garage_producer.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Roam%2C_Toronto%2C_uk_garage_producer.jpg/500px-Roam%2C_Toronto%2C_uk_garage_producer.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Roam%2C_Toronto%2C_uk_garage_producer.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Roam,_Toronto,_uk_garage_producer.jpg",
+      "caption": "Roam the music producer, back turned, looking upwards",
+      "source": "Wikimedia Commons",
+      "artist": "Thehiredgunphotography",
+      "date": "2019-12-16 17:04:09",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "2154"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — UK Garage (CC BY-SA)",
@@ -73,13 +106,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — UK garage",
+      "url": "https://commons.wikimedia.org/wiki/Category:UK_garage",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:32:00.758Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1165777",
+      "url": "https://www.wikidata.org/wiki/Q1165777",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:32:00.758Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — UK garage",
+      "url": "https://en.wikipedia.org/wiki/UK_garage",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:32:00.758Z"
+      }
+    }
+  ],
+  "wikidata": "Q1165777",
+  "wikipedia": "UK garage",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:44.483Z"
 }

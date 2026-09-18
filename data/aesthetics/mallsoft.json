@@ -9,7 +9,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (Bandcamp, YouTube, 4chan)",
   "geography": "Online",
   "periodStart": "2010s",
   "periodEnd": "",
@@ -85,7 +85,35 @@
     "comfort",
     "isolation"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Palm_Mall_%28_%E7%8C%AB_%E3%82%B7_Corp.%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Palm_Mall_%28_%E7%8C%AB_%E3%82%B7_Corp.%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Palm_Mall_%28_%E7%8C%AB_%E3%82%B7_Corp.%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Palm_Mall_(_%E7%8C%AB_%E3%82%B7_Corp.).jpg",
+      "caption": "Album cover for Palm Mall by 猫 シ Corp.",
+      "source": "Wikimedia Commons",
+      "artist": "Jornt Elzinga (猫 シ Corp.)",
+      "date": "2014-10-02",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1200",
+      "height": "1200"
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Palm_Mall_by_Cat_System_Corp.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Palm Mall by Cat System Corp",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Palm_Mall_by_Cat_System_Corp.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1342,
+      "artist": "Jornt Elzinga",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Mallsoft (CC BY-SA)",
@@ -93,13 +121,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Mallsoft",
+      "url": "https://commons.wikimedia.org/wiki/Category:Mallsoft",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:22:16.680Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q80725067",
+      "url": "https://www.wikidata.org/wiki/Q80725067",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:22:16.680Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Mallsoft",
+      "url": "https://en.wikipedia.org/wiki/Mallsoft",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:22:16.680Z"
+      }
+    }
+  ],
+  "wikidata": "Q80725067",
+  "wikipedia": "Mallsoft",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:22:16.680Z"
 }

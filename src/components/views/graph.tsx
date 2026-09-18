@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { forceCenter, forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY, type Simulation, type SimulationLinkDatum, type SimulationNodeDatum } from 'd3-force'
-import { Maximize, Minus, Plus, Search } from 'lucide-react'
+import { ChevronLeft, ChevronRight, Maximize, Minus, Plus, Search } from 'lucide-react'
 import type { GraphLink, GraphNode } from '@/lib/queries'
 import { categoryColor } from '@/lib/category-colors'
 import { Thumb } from '@/components/aesthetic/thumb'
@@ -282,8 +282,9 @@ export function GraphView({ nodes: rawNodes, links: rawLinks }: { nodes: GraphNo
 
   return (
     <main className="relative flex h-[calc(100svh-4rem)] flex-col overflow-hidden">
+      <div className="relative min-h-0 flex-1">
       <div ref={wrapRef} className="absolute inset-0">
-        <canvas ref={canvasRef} className="block touch-none" aria-label="Network of related aesthetics" role="img" />
+        <canvas ref={canvasRef} className="block touch-none" aria-label="Network of related aesthetics" role="img" data-graph />
       </div>
 
       {/* Title + search */}
@@ -341,9 +342,9 @@ export function GraphView({ nodes: rawNodes, links: rawLinks }: { nodes: GraphNo
         </div>
       </div>
 
-      {/* Hover card */}
+      {/* Hover card — inside the graph area, so the filter bar can never cover it */}
       {hover && (
-        <div className="pointer-events-none absolute bottom-24 left-1/2 z-10 flex w-[min(24rem,calc(100%-2rem))] -translate-x-1/2 items-center gap-3 rounded-2xl border border-line bg-bg/90 p-3 backdrop-blur-xl sm:bottom-6">
+        <div className="pointer-events-none absolute bottom-4 left-1/2 z-10 flex w-[min(24rem,calc(100%-2rem))] -translate-x-1/2 items-center gap-3 rounded-2xl border border-line-strong bg-bg/90 p-3 shadow-2xl shadow-black/40 backdrop-blur-xl">
           <Thumb image={hover.image} name={hover.name} className="size-14 rounded-xl" />
           <span className="min-w-0">
             <span className="block truncate font-medium">{hover.name}</span>
@@ -355,9 +356,15 @@ export function GraphView({ nodes: rawNodes, links: rawLinks }: { nodes: GraphNo
         </div>
       )}
 
+      </div>
+
       {/* Legend / filters */}
-      <div className="absolute inset-x-0 bottom-0 z-10 border-t border-line bg-bg/80 backdrop-blur-xl">
-        <div className="no-scrollbar flex gap-1.5 overflow-x-auto px-4 py-3 sm:px-6 lg:px-10">
+      <CategoryBar
+        count={categories.length}
+        hiddenCount={hidden.size}
+        onAll={() => setHidden(new Set())}
+        onNone={() => setHidden(new Set(categories.map(([c]) => c)))}
+      >
           {categories.map(([c, n]) => {
             const off = hidden.has(c)
             return (
@@ -380,9 +387,8 @@ export function GraphView({ nodes: rawNodes, links: rawLinks }: { nodes: GraphNo
               </button>
             )
           })}
-        </div>
-        <p className="sr-only">Relation types: {Object.values(LINK_LABEL).join(', ')}</p>
-      </div>
+      </CategoryBar>
+      <p className="sr-only">Relation types: {Object.values(LINK_LABEL).join(', ')}</p>
     </main>
   )
 }
@@ -392,5 +398,57 @@ function IconBtn({ label, onClick, children }: { label: string; onClick: () => v
     <button type="button" onClick={onClick} aria-label={label} title={label} className="grid size-9 place-items-center rounded-full text-fg-muted hover:bg-surface-2 hover:text-fg">
       {children}
     </button>
+  )
+}
+
+/** Bottom filter bar: wheel scrolls it sideways, arrows page through it, edges fade when there is more. */
+function CategoryBar({ children, count, hiddenCount, onAll, onNone }: { children: React.ReactNode; count: number; hiddenCount: number; onAll: () => void; onNone: () => void }) {
+  const track = useRef<HTMLDivElement>(null)
+  const [edge, setEdge] = useState({ start: true, end: false })
+  const measure = () => {
+    const el = track.current
+    if (!el) return
+    setEdge({ start: el.scrollLeft <= 2, end: el.scrollLeft + el.clientWidth >= el.scrollWidth - 2 })
+  }
+  useEffect(() => {
+    const el = track.current
+    if (!el) return
+    measure()
+    const ro = new ResizeObserver(measure)
+    ro.observe(el)
+    // A vertical mouse wheel scrolls the bar sideways (it has no vertical overflow).
+    const onWheel = (e: WheelEvent) => {
+      if (Math.abs(e.deltaY) > Math.abs(e.deltaX) && el.scrollWidth > el.clientWidth) {
+        e.preventDefault()
+        el.scrollLeft += e.deltaY
+      }
+    }
+    el.addEventListener('wheel', onWheel, { passive: false })
+    return () => {
+      ro.disconnect()
+      el.removeEventListener('wheel', onWheel)
+    }
+  }, [])
+  const page = (d: number) => track.current?.scrollBy({ left: d * track.current.clientWidth * 0.8, behavior: 'smooth' })
+  const btn = 'grid size-8 shrink-0 place-items-center rounded-full border border-line-strong text-fg-muted transition-colors hover:text-fg disabled:opacity-30'
+  return (
+    <div className="relative z-10 flex items-center gap-2 border-t border-line bg-bg/90 py-2.5 pl-4 pr-24 backdrop-blur-xl sm:pl-6 sm:pr-28 lg:pl-10">
+      <button type="button" className={btn} onClick={() => page(-1)} disabled={edge.start} aria-label="Scroll categories left">
+        <ChevronLeft className="size-4" aria-hidden />
+      </button>
+      <div className="relative min-w-0 flex-1">
+        <div ref={track} onScroll={measure} role="group" aria-label={`Filter by category (${count})`} className="no-scrollbar flex gap-1.5 overflow-x-auto scroll-smooth">
+          {children}
+        </div>
+        <span className={`pointer-events-none absolute inset-y-0 left-0 w-8 bg-gradient-to-r from-bg to-transparent transition-opacity ${edge.start ? 'opacity-0' : ''}`} />
+        <span className={`pointer-events-none absolute inset-y-0 right-0 w-8 bg-gradient-to-l from-bg to-transparent transition-opacity ${edge.end ? 'opacity-0' : ''}`} />
+      </div>
+      <button type="button" className={btn} onClick={() => page(1)} disabled={edge.end} aria-label="Scroll categories right">
+        <ChevronRight className="size-4" aria-hidden />
+      </button>
+      <button type="button" onClick={hiddenCount ? onAll : onNone} className="hidden shrink-0 rounded-full border border-line-strong px-3 py-1.5 text-xs text-fg-muted hover:text-fg sm:block">
+        {hiddenCount ? 'Show all' : 'Hide all'}
+      </button>
+    </div>
   )
 }

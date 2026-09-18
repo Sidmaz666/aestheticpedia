@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (Gyaru magazines, Shibuya 109, Laforet Harajuku, Ameba and CROOZ blogs)",
   "geography": "Online",
   "periodStart": "2000s",
   "periodEnd": "",
@@ -101,13 +101,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2749428",
+      "url": "https://www.wikidata.org/wiki/Q2749428",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:27:27.158Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Renku",
+      "url": "https://en.wikipedia.org/wiki/Renku",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:27:27.158Z"
+      }
+    }
+  ],
+  "wikidata": "Q2749428",
+  "wikipedia": "Renku",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:27:27.158Z"
 }

@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "United States",
   "geography": "Online",
   "periodStart": "Late 2000s",
   "periodEnd": "",
@@ -75,7 +75,22 @@
     "dark atmospheres",
     "diy ethos"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/AliceCarryingFlamingoPurple.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f8/AliceCarryingFlamingoPurple.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/AliceCarryingFlamingoPurple.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:AliceCarryingFlamingoPurple.png",
+      "caption": "Alice with flamingo",
+      "source": "Wikimedia Commons",
+      "artist": "John Tenniel",
+      "date": "2008-01-25",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "630",
+      "height": "885"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Witch House (CC BY-SA)",
@@ -83,13 +98,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q8027839",
+      "url": "https://www.wikidata.org/wiki/Q8027839",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:33:03.679Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Witch House",
+      "url": "https://en.wikipedia.org/wiki/Witch_House",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:33:03.679Z"
+      }
+    }
+  ],
+  "wikidata": "Q8027839",
+  "wikipedia": "Witch House",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:46.025Z"
 }

@@ -23,26 +23,31 @@
   "culturalContext": "",
   "colors": [
     {
-      "hex": "#e8e2d4",
-      "name": "nacre white"
+      "hex": "#5e574c",
+      "name": "umber"
     },
     {
-      "hex": "#4a3627",
-      "name": "walnut brown"
+      "hex": "#33100a",
+      "name": "black"
     },
     {
-      "hex": "#1f1a14",
-      "name": "ebony black"
+      "hex": "#443a32",
+      "name": "aubergine"
     },
     {
-      "hex": "#b08d57",
-      "name": "brass wire gold"
+      "hex": "#656c6e",
+      "name": "slate"
     },
     {
-      "hex": "#8a9ba8",
-      "name": "pearl grey-blue"
+      "hex": "#a6a9a8",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#8a8e8d",
+      "name": "stone"
     }
   ],
+  "paletteSource": "derived",
   "visualDNA": {
     "shape": "star polygons, tulip and carnation sprays, pointed-arch medallions",
     "line": "brass fillets tracing silhouettes of each nacre piece",
@@ -100,23 +105,6 @@
   ],
   "images": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/NautilusCutawayLogarithmicSpiral.jpg/1280px-NautilusCutawayLogarithmicSpiral.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/NautilusCutawayLogarithmicSpiral.jpg/500px-NautilusCutawayLogarithmicSpiral.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/0/08/NautilusCutawayLogarithmicSpiral.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:NautilusCutawayLogarithmicSpiral.jpg",
-      "caption": "NautilusCutawayLogarithmicSpiral",
-      "source": "Wikimedia Commons",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "width": "1280",
-      "height": "967",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Fl%C3%BCgelretabel_Perlmutt_Augsburg_um_1520.jpg/1280px-Fl%C3%BCgelretabel_Perlmutt_Augsburg_um_1520.jpg",
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Fl%C3%BCgelretabel_Perlmutt_Augsburg_um_1520.jpg/500px-Fl%C3%BCgelretabel_Perlmutt_Augsburg_um_1520.jpg",
       "full": "https://upload.wikimedia.org/wikipedia/commons/0/06/Fl%C3%BCgelretabel_Perlmutt_Augsburg_um_1520.jpg",
@@ -127,12 +115,7 @@
       "date": "2007",
       "license": "Public domain",
       "width": "1280",
-      "height": "1562",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
+      "height": "1562"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Powder_flask_img_2091.jpg/1280px-Powder_flask_img_2091.jpg",
@@ -144,12 +127,7 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "1231",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
+      "height": "1231"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Istanbul.Topkapi046.jpg/1280px-Istanbul.Topkapi046.jpg",
@@ -163,125 +141,7 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "1707",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Ile_Salomon_Pendentif_MHNT_ETH_AC_SL_23_Roquemaurel.jpg/1280px-Ile_Salomon_Pendentif_MHNT_ETH_AC_SL_23_Roquemaurel.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Ile_Salomon_Pendentif_MHNT_ETH_AC_SL_23_Roquemaurel.jpg/500px-Ile_Salomon_Pendentif_MHNT_ETH_AC_SL_23_Roquemaurel.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/Ile_Salomon_Pendentif_MHNT_ETH_AC_SL_23_Roquemaurel.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ile_Salomon_Pendentif_MHNT_ETH_AC_SL_23_Roquemaurel.jpg",
-      "caption": "Mother of pearl pendant engraved. Two views of same object. Population : Solomon Islands Collector and collection : Gaston de Roquemaurel - The second travel of Dumont D'Urville (1837 - 1840) Date of collection : 1838 Materials : Vegetable fibers, Nacre Size : 9,5 x12 x2,5 cm",
-      "source": "Wikimedia Commons",
-      "artist": "Didier Descouens",
-      "date": "2014-12-24",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "width": "1280",
-      "height": "854",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Train_photo_enhanced_with_mother_of_pearl.jpg/1280px-Train_photo_enhanced_with_mother_of_pearl.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Train_photo_enhanced_with_mother_of_pearl.jpg/500px-Train_photo_enhanced_with_mother_of_pearl.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/8/87/Train_photo_enhanced_with_mother_of_pearl.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Train_photo_enhanced_with_mother_of_pearl.jpg",
-      "caption": "Train photo enhanced with mother of pearl. Made for display in the office of E. J. Gorman, president of the Chicago, Rock Island & Pacific RR. On display at the Western Trails Museum, Knott's Berry Farm, Buena Park, CA.",
-      "source": "Wikimedia Commons",
-      "artist": "DTParker1000",
-      "date": "2025-09-01 10:10:48",
-      "license": "CC0",
-      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "width": "1280",
-      "height": "960",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Nacre_microscopic_structure.png",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/09/Nacre_microscopic_structure.png",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/Nacre_microscopic_structure.png",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nacre_microscopic_structure.png",
-      "caption": "This is a simple schematic of what nacre looks like on a microscopic scale.",
-      "source": "Wikimedia Commons",
-      "artist": "Kebes",
-      "date": "4 November 2005 (original upload date)",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "width": "793",
-      "height": "364",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bruchfl%C3%A4che_eines_Perlmuttst%C3%BCcks.JPG",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bruchfl%C3%A4che_eines_Perlmuttst%C3%BCcks.JPG",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bruchfl%C3%A4che_eines_Perlmuttst%C3%BCcks.JPG",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bruchfl%C3%A4che_eines_Perlmuttst%C3%BCcks.JPG",
-      "caption": "SEM of mother of pearl lamellae",
-      "source": "Wikimedia Commons",
-      "artist": "Fabian Heinemann",
-      "date": "2007-12-14",
-      "license": "Public domain",
-      "width": "766",
-      "height": "488",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Fossil_nautiloid_shell_with_original_iridescent_nacre_in_fossiliferous_asphaltic_limestone.jpg/1280px-Fossil_nautiloid_shell_with_original_iridescent_nacre_in_fossiliferous_asphaltic_limestone.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Fossil_nautiloid_shell_with_original_iridescent_nacre_in_fossiliferous_asphaltic_limestone.jpg/500px-Fossil_nautiloid_shell_with_original_iridescent_nacre_in_fossiliferous_asphaltic_limestone.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Fossil_nautiloid_shell_with_original_iridescent_nacre_in_fossiliferous_asphaltic_limestone.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fossil_nautiloid_shell_with_original_iridescent_nacre_in_fossiliferous_asphaltic_limestone.jpg",
-      "caption": "Buckhorn Asphalt (2.4 cm from top to bottom) - nautiloid shell preserved with original iridescent nacre (mother-of-pearl). This deposit has the oldest fossil nacre known anywhere in the world. In paleontology, the term \"lagerstätten\" refers to sedimentary deposits having exceptio",
-      "source": "Wikimedia Commons",
-      "artist": "James St. John",
-      "date": "2007-07-31 00:39",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "width": "1280",
-      "height": "1361",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Nacre_sticks.JPG/1280px-Nacre_sticks.JPG",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Nacre_sticks.JPG/500px-Nacre_sticks.JPG",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Nacre_sticks.JPG",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nacre_sticks.JPG",
-      "caption": "Nacre sticks of various colors.",
-      "source": "Wikimedia Commons",
-      "artist": "Mauro Cateb",
-      "date": "2012-04-21 06:30:21",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "width": "1280",
-      "height": "781",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
+      "height": "1707"
     }
   ],
   "sources": [
@@ -325,7 +185,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
+        "checkedAt": "2026-09-18T15:28:15.168Z"
       }
     }
   ],
@@ -334,5 +194,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-14T00:56:22.997Z",
-  "updatedAt": "2026-09-18T05:10:15.876Z"
+  "updatedAt": "2026-09-18T15:46:00.793Z"
 }

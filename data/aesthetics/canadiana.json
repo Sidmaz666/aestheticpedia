@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Canada",
   "geography": "Online",
   "periodStart": "1960s",
   "periodEnd": "",
@@ -60,7 +60,21 @@
     "survival",
     "nature"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Sugar_Making_in_Canada%2C_1852._By_Cornelius_Krieghoff_%281815-1872%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/45/Sugar_Making_in_Canada%2C_1852._By_Cornelius_Krieghoff_%281815-1872%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/45/Sugar_Making_in_Canada%2C_1852._By_Cornelius_Krieghoff_%281815-1872%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sugar_Making_in_Canada,_1852._By_Cornelius_Krieghoff_(1815-1872).jpg",
+      "caption": "Sugar Making in Montreal, October 1852. By Cornelius Krieghoff (1815-1872). Library and Archives Canada, Acc. No. R9266-551 Peter Winkworth Collection of Canadiana. https://www.flickr.com/photos/lac-bac/31367042872/",
+      "source": "Wikimedia Commons",
+      "artist": "Cornelius Krieghoff (artist); Sarony & Major (engraver)",
+      "date": "1852 date QS:P571,+1852-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "800",
+      "height": "558"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Canadiana (CC BY-SA)",
@@ -68,13 +82,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5030903",
+      "url": "https://www.wikidata.org/wiki/Q5030903",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:13:00.815Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Canadiana",
+      "url": "https://en.wikipedia.org/wiki/Canadiana",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:13:00.815Z"
+      }
+    }
+  ],
+  "wikidata": "Q5030903",
+  "wikipedia": "Canadiana",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:25.640Z"
 }

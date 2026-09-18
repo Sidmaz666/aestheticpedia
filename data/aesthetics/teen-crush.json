@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "United States",
   "geography": "Online",
   "periodStart": "Late 2010s",
   "periodEnd": "",
@@ -82,13 +82,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q111696355",
+      "url": "https://www.wikidata.org/wiki/Q111696355",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:30:26.219Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Crush (2022 film)",
+      "url": "https://en.wikipedia.org/wiki/Crush_(2022_film)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:30:26.219Z"
+      }
+    }
+  ],
+  "wikidata": "Q111696355",
+  "wikipedia": "Crush (2022 film)",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:44.496Z"
 }

@@ -92,13 +92,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Neko",
+      "url": "https://commons.wikimedia.org/wiki/Category:Neko",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:03.350Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3337880",
+      "url": "https://www.wikidata.org/wiki/Q3337880",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:03.350Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Neko (software)",
+      "url": "https://en.wikipedia.org/wiki/Neko_(software)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:03.350Z"
+      }
+    }
+  ],
+  "wikidata": "Q3337880",
+  "wikipedia": "Neko (software)",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:24:03.350Z"
 }

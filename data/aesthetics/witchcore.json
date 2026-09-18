@@ -14,7 +14,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "United States",
   "geography": "Online",
   "periodStart": "",
   "periodEnd": "",
@@ -101,13 +101,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q472193",
+      "url": "https://www.wikidata.org/wiki/Q472193",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:33:04.947Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Teen Witch",
+      "url": "https://en.wikipedia.org/wiki/Teen_Witch",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:33:04.947Z"
+      }
+    }
+  ],
+  "wikidata": "Q472193",
+  "wikipedia": "Teen Witch",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:46.015Z"
 }

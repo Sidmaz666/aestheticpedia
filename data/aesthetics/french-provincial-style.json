@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "France",
   "geography": "Online",
   "periodStart": "17th-18th Century",
   "periodEnd": "",
@@ -67,13 +67,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3492401",
+      "url": "https://www.wikidata.org/wiki/Q3492401",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:17:16.957Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — French Provincial",
+      "url": "https://en.wikipedia.org/wiki/French_Provincial",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:17:16.957Z"
+      }
+    }
+  ],
+  "wikidata": "Q3492401",
+  "wikipedia": "French Provincial",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:30.456Z"
 }

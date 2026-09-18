@@ -19,7 +19,33 @@
   "summary": "Cyberdelia is an aesthetic and counterculture movement from the late 1980s to the mid-1990s that fused the emerging cyberculture with the psychedelic subculture.",
   "description": "Cyberdelia is an aesthetic and counterculture movement from the late 1980s to the mid-1990s that fused the emerging cyberculture with the psychedelic subculture. The term, a portmanteau of \"cybernetic\" and \"psychedelic,\" describes the use of technology to induce altered states of consciousness, framing the immersion in cyberspace as a psychedelic experience. The movement embraced technology as a tool for liberation and transcendence, drawing parallels between the mind-expanding potential of psychedelic drugs and the limitless possibilities of virtual reality. While it shares a timeline and some visual elements with Cyberpunk , Cyberdelia is distinct in its optimistic, utopian outlook, contrasting with Cyberpunk's often dystopian themes. [ 1 ]",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#2586a0",
+      "name": "teal"
+    },
+    {
+      "hex": "#185f84",
+      "name": "teal 2"
+    },
+    {
+      "hex": "#183539",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#97aea2",
+      "name": "sage"
+    },
+    {
+      "hex": "#52b2b7",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#5b9993",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Rainbow, neon, fluorescent colors"
   },
@@ -55,7 +81,21 @@
   "tags": [
     "aesthetics wiki"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/CAVE_Crayoland.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6d/CAVE_Crayoland.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6d/CAVE_Crayoland.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:CAVE_Crayoland.jpg",
+      "caption": "The Cave Automatic Virtual Environment at EVL, University of Illinois at Chicago. This shows a user (me) inside the CAVE. It was taken when the CAVE was being upgraded to use new 5000-lumen Christie Mirage DLP projectors.",
+      "source": "Wikimedia Commons",
+      "artist": "User:Davepape",
+      "date": "2001-08-27",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Cyberdelia (CC BY-SA)",
@@ -63,13 +103,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5197764",
+      "url": "https://www.wikidata.org/wiki/Q5197764",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:14:25.136Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cyberdelic",
+      "url": "https://en.wikipedia.org/wiki/Cyberdelic",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:14:25.136Z"
+      }
+    }
+  ],
+  "wikidata": "Q5197764",
+  "wikipedia": "Cyberdelic",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:14:25.136Z"
 }

@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "South Africa",
   "geography": "Online",
   "periodStart": "2000s",
   "periodEnd": "",
@@ -17,7 +17,33 @@
   "summary": "Zef is a South African counterculture movement and aesthetic that emerged from the white, working-class suburbs of Cape Town in the 2000s.",
   "description": "Zef is a South African counterculture movement and aesthetic that emerged from the white, working-class suburbs of Cape Town in the 2000s. The term is Afrikaans slang, historically used as a derogatory term similar to \"common\" or \"white trash.\" The subculture reclaims this slur, transforming it into a proud identity defined by an ironic and exaggerated embrace of aesthetics considered lowbrow, tacky, or outdated. [ 1 ]\n\nThe Zef aesthetic was brought to international prominence in the early 2010s by the rap-rave group Die Antwoord. Member Yolandi Visser famously defined the style by stating, \"It's about people who soup their cars up and rock gold and shit. Zef is, you're poor but you're fancy. You're poor but you're sexy, you've got style.\" [ 2 ] The subculture is characterized by a DIY ethos , a confrontational sense of humor, and a visual style that is intentionally garish and provocative.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Reclaiming stereotypes, unapologetic attitude, individuality, shock value, anti-establishment irony",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#827067",
+      "name": "bronze"
+    },
+    {
+      "hex": "#615849",
+      "name": "umber"
+    },
+    {
+      "hex": "#343b2c",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#131415",
+      "name": "black"
+    },
+    {
+      "hex": "#908c8e",
+      "name": "stone"
+    },
+    {
+      "hex": "#b5c5de",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -51,7 +77,22 @@
     "shock value",
     "anti-establishment irony"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Xeni_Jardin%2C_Yo-Landi_%28die_Antwoord%29_%26_Philip_Nelson_%28cropped%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Xeni_Jardin%2C_Yo-Landi_%28die_Antwoord%29_%26_Philip_Nelson_%28cropped%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Xeni_Jardin%2C_Yo-Landi_%28die_Antwoord%29_%26_Philip_Nelson_%28cropped%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Xeni_Jardin,_Yo-Landi_(die_Antwoord)_%26_Philip_Nelson_(cropped).jpg",
+      "caption": "\"Xeni and Philip chat with Yo-Landi of die Antwoord during an interview at the Coachella Oasis 2010\" (original description at the Flickr source)",
+      "source": "Wikimedia Commons",
+      "artist": "Philip Nelson",
+      "date": "2010-04-18 17:49:18",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "716",
+      "height": "1335"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Zef (CC BY-SA)",
@@ -59,13 +100,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3575095",
+      "url": "https://www.wikidata.org/wiki/Q3575095",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:33:20.083Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Zef",
+      "url": "https://en.wikipedia.org/wiki/Zef",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:33:20.083Z"
+      }
+    }
+  ],
+  "wikidata": "Q3575095",
+  "wikipedia": "Zef",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:33:20.083Z"
 }

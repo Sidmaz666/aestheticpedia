@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (SoundCloud, Bandcamp)",
   "geography": "Online",
   "periodStart": "Late 2000s",
   "periodEnd": "",
@@ -73,7 +73,49 @@
   "tags": [
     "aesthetics wiki"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Lil_B_Nuemos_2012.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/66/Lil_B_Nuemos_2012.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/66/Lil_B_Nuemos_2012.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lil_B_Nuemos_2012.jpg",
+      "caption": "Nuemos, 2012 #RARE #LEGENDARY",
+      "source": "Wikimedia Commons",
+      "artist": "taffy dale from Seattle, Washington",
+      "date": "2012-06-27 09:43",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ledeni_live_in_F-_club%2C_Ljubljana.jpeg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ledeni_live_in_F-_club%2C_Ljubljana.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ledeni_live_in_F-_club%2C_Ljubljana.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ledeni_live_in_F-_club,_Ljubljana.jpeg",
+      "caption": "Ledeni live performance in F-club, Ljubljana, Slovenia.",
+      "source": "Wikimedia Commons",
+      "artist": "Astroortolani",
+      "date": "2015-10-07",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "721",
+      "height": "721"
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Cloud_rap_beat.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Cloud rap beat",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cloud_rap_beat.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 12,
+      "artist": "Zanahary",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Trillwave (CC BY-SA)",
@@ -81,13 +123,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Cloud rap",
+      "url": "https://commons.wikimedia.org/wiki/Category:Cloud_rap",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:31:20.773Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16829781",
+      "url": "https://www.wikidata.org/wiki/Q16829781",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:31:20.773Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cloud rap",
+      "url": "https://en.wikipedia.org/wiki/Cloud_rap",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:31:20.773Z"
+      }
+    }
+  ],
+  "wikidata": "Q16829781",
+  "wikipedia": "Cloud rap",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:31:20.773Z"
 }

@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (Spotify, TikTok, YouTube)",
   "geography": "Online",
   "periodStart": "Late 2010s",
   "periodEnd": "",
@@ -87,13 +87,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Corrido tumbado",
+      "url": "https://commons.wikimedia.org/wiki/Category:Corrido_tumbado",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:31:26.687Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q108665706",
+      "url": "https://www.wikidata.org/wiki/Q108665706",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:31:26.687Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Corridos tumbados",
+      "url": "https://en.wikipedia.org/wiki/Corridos_tumbados",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:31:26.687Z"
+      }
+    }
+  ],
+  "wikidata": "Q108665706",
+  "wikipedia": "Corridos tumbados",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:31:26.687Z"
 }

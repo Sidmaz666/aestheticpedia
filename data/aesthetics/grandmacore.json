@@ -9,15 +9,41 @@
   "confidence": 45,
   "origin": "",
   "geography": "Online",
-  "periodStart": "",
+  "periodStart": "2010s",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 2018,
   "endYear": null,
-  "era": "",
+  "era": "2010s",
   "summary": "Grandmacore refers to an aesthetic that is based around cottage and stereotypical grandma-related things such as gardening, soft knitted fabric, crocheting, farmland animals, fresh baked bread, and other visuals.",
   "description": "Grandmacore refers to an aesthetic that is based around cottage and stereotypical grandma-related things such as gardening, soft knitted fabric, crocheting, farmland animals, fresh baked bread, and other visuals.",
   "culturalContext": "Key values (per the Aesthetics Wiki): kindness, love of kitsch, honing expertise, comfort, cosiness, altruism, wisdom, enjoying favorite activities",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0d1213",
+      "name": "black"
+    },
+    {
+      "hex": "#524e36",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#333324",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#bc9d75",
+      "name": "camel"
+    },
+    {
+      "hex": "#7f623f",
+      "name": "bronze"
+    },
+    {
+      "hex": "#867b6e",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -61,7 +87,89 @@
     "cosiness",
     "altruism"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Anne_Hathaways_Cottage_1_%285662418953%29.jpg/1280px-Anne_Hathaways_Cottage_1_%285662418953%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Anne_Hathaways_Cottage_1_%285662418953%29.jpg/500px-Anne_Hathaways_Cottage_1_%285662418953%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Anne_Hathaways_Cottage_1_%285662418953%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Anne_Hathaways_Cottage_1_(5662418953).jpg",
+      "caption": "Listed Building Site",
+      "source": "Wikimedia Commons",
+      "artist": "Tony Hisgett from Birmingham, UK",
+      "date": "2011-04-27 13:28",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "991"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Honey_milk_bread.jpg/1280px-Honey_milk_bread.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Honey_milk_bread.jpg/500px-Honey_milk_bread.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Honey_milk_bread.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Honey_milk_bread.jpg",
+      "caption": "Honey milk bread 650g plain strong flour 300g warm milk and ~100g warm water 75g margarine quick acting yeast tbsp honey 2 tsp salt Mix dry ingredients with margarine. Dissolve honey in warmed milk, and knead into mix for 10 minutes adding water as necessary to make a soft dough.",
+      "source": "Wikimedia Commons",
+      "artist": "Fæ",
+      "date": "2018-09-20",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1249"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/William-Adolphe_Bouguereau_-_La_pastorale_des_loisirs_%281868%29.jpg/1280px-William-Adolphe_Bouguereau_-_La_pastorale_des_loisirs_%281868%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/William-Adolphe_Bouguereau_-_La_pastorale_des_loisirs_%281868%29.jpg/500px-William-Adolphe_Bouguereau_-_La_pastorale_des_loisirs_%281868%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d7/William-Adolphe_Bouguereau_-_La_pastorale_des_loisirs_%281868%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:William-Adolphe_Bouguereau_-_La_pastorale_des_loisirs_(1868).jpg",
+      "caption": "The Pastoral Recreation",
+      "source": "Wikimedia Commons",
+      "artist": "William-Adolphe Bouguereau",
+      "date": "1868 date QS:P571,+1868-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "887"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/William_Morris_design_for_Trellis_wallpaper_1862.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b4/William_Morris_design_for_Trellis_wallpaper_1862.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b4/William_Morris_design_for_Trellis_wallpaper_1862.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:William_Morris_design_for_Trellis_wallpaper_1862.jpg",
+      "caption": "Original design for Trellis wallpaper by William Morris, 1862.",
+      "source": "Wikimedia Commons",
+      "artist": "William Morris",
+      "date": "1862",
+      "license": "Public domain",
+      "width": "1131",
+      "height": "1184"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Taylor_Swift_Eras_Tour_-_Arlington%2C_TX_-_Folklore_act_2.jpg/1280px-Taylor_Swift_Eras_Tour_-_Arlington%2C_TX_-_Folklore_act_2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Taylor_Swift_Eras_Tour_-_Arlington%2C_TX_-_Folklore_act_2.jpg/500px-Taylor_Swift_Eras_Tour_-_Arlington%2C_TX_-_Folklore_act_2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Taylor_Swift_Eras_Tour_-_Arlington%2C_TX_-_Folklore_act_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Taylor_Swift_Eras_Tour_-_Arlington,_TX_-_Folklore_act_2.jpg",
+      "caption": "Taylor Swift Eras Tour - Arlington TX American singer-songwriter Taylor Swift on the Eras Tour in Arlington, Texas, April 2, 2023",
+      "source": "Wikimedia Commons",
+      "artist": "Ronald Woan from Redmond, WA, USA",
+      "date": "2023-04-02 21:43",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "799"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BathingSuit1920s.jpg",
+      "caption": "Woman's bathing suit from 1920s. Photo postcard. No copyright notice on card. This is a SOL postcard, series 2832. Here is a larger example of the posted image.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "early 1920s date QS:P,+1920-00-00T00:00:00Z/8,P4241,Q4071972",
+      "license": "Public domain",
+      "width": "768",
+      "height": "490"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Grandmacore (CC BY-SA)",
@@ -69,13 +177,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Cottagecore",
+      "url": "https://commons.wikimedia.org/wiki/Category:Cottagecore",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:18:11.746Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q96375589",
+      "url": "https://www.wikidata.org/wiki/Q96375589",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:18:11.746Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cottagecore",
+      "url": "https://en.wikipedia.org/wiki/Cottagecore",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:18:11.746Z"
+      }
+    }
+  ],
+  "wikidata": "Q96375589",
+  "wikipedia": "Cottagecore",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:32.315Z"
 }

@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "India",
   "geography": "Online",
   "periodStart": "2010s",
   "periodEnd": "",
@@ -82,7 +82,22 @@
     "mindfulness",
     "growth"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Sridevi_2014.jpg/1280px-Sridevi_2014.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Sridevi_2014.jpg/500px-Sridevi_2014.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sridevi_2014.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sridevi_2014.jpg",
+      "caption": "Sridevi at IIFA 2014",
+      "source": "Wikimedia Commons",
+      "artist": "Laura Lee Dooley from Arlington, VA, USA",
+      "date": "2014-04-25 20:23",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1858"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Plant Mom (CC BY-SA)",
@@ -90,13 +105,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q25302758",
+      "url": "https://www.wikidata.org/wiki/Q25302758",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:26:06.020Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Mom (film)",
+      "url": "https://en.wikipedia.org/wiki/Mom_(film)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:26:06.020Z"
+      }
+    }
+  ],
+  "wikidata": "Q25302758",
+  "wikipedia": "Mom (film)",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:39.694Z"
 }

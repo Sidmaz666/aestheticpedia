@@ -21,12 +21,28 @@
   "culturalContext": "",
   "colors": [
     {
-      "hex": "#000000",
-      "name": "black"
+      "hex": "#444444",
+      "name": "charcoal"
     },
     {
-      "hex": "#0000ff",
-      "name": "blue"
+      "hex": "#9b6d49",
+      "name": "bronze"
+    },
+    {
+      "hex": "#774c32",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#512f23",
+      "name": "walnut brown 2"
+    },
+    {
+      "hex": "#1c1c1c",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#656463",
+      "name": "umber"
     }
   ],
   "paletteSource": "derived",
@@ -57,7 +73,109 @@
   "tags": [
     "aesthetics wiki"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Tsiolk_na_lune_%28pic_Gofman%29_3.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Tsiolk_na_lune_%28pic_Gofman%29_3.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Tsiolk_na_lune_%28pic_Gofman%29_3.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tsiolk_na_lune_(pic_Gofman)_3.png",
+      "caption": "Picture from book \"На Луне\" (1893)",
+      "source": "Wikimedia Commons",
+      "artist": "Александр Эмильевич Гофман (1861-1939)",
+      "date": "1893",
+      "license": "Public domain",
+      "width": "1240",
+      "height": "1736"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Pasternak_fedorov.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Pasternak_fedorov.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Pasternak_fedorov.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pasternak_fedorov.jpg",
+      "caption": "Pasternak fedorov",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "528",
+      "height": "587"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Vladimir_Solovyov_1892_by_Nikolay_Yarochenko.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Vladimir_Solovyov_1892_by_Nikolay_Yarochenko.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Vladimir_Solovyov_1892_by_Nikolay_Yarochenko.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vladimir_Solovyov_1892_by_Nikolay_Yarochenko.jpg",
+      "caption": "Portrait of philosopher Vladimir Soloviev",
+      "source": "Wikimedia Commons",
+      "artist": "Nikolai Yaroshenko",
+      "date": "1895 date QS:P571,+1895-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "850",
+      "height": "1120"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Skrjabin_Alexander.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/53/Skrjabin_Alexander.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/53/Skrjabin_Alexander.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Skrjabin_Alexander.jpg",
+      "caption": "Skrjabin, Alexander Nikolajevitch. The great Russian composer and musician",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "642",
+      "height": "900"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/1934-V_I_Vernadsky.jpg/1280px-1934-V_I_Vernadsky.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/1934-V_I_Vernadsky.jpg/500px-1934-V_I_Vernadsky.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c4/1934-V_I_Vernadsky.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:1934-V_I_Vernadsky.jpg",
+      "caption": "Vladimir Vernadsky, 1934.",
+      "source": "Wikimedia Commons",
+      "artist": "АН СССР",
+      "date": "1934",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Konstantin_Tsiolkovsky_in_his_working_room_%28by_Feodosiy_Chmil%29%2C_1934.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Konstantin_Tsiolkovsky_in_his_working_room_%28by_Feodosiy_Chmil%29%2C_1934.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Konstantin_Tsiolkovsky_in_his_working_room_%28by_Feodosiy_Chmil%29%2C_1934.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Konstantin_Tsiolkovsky_in_his_working_room_(by_Feodosiy_Chmil),_1934.png",
+      "caption": "К.Э.Циолковский в своём кабинете в новом доме (ул. Циолковского, 1). Изображение поясное, голова 3/4 влево. В белой блузе. Сидит в кресле за столом и просматривает журналы. На заднем плане слева - этажерка с книгами. 1934 г. г. Калуга. Негатив. 9x12. Копия. Фотограф Феодосий Андр",
+      "source": "Wikimedia Commons",
+      "artist": "Феодосий Андроникович Чмиль (1900-е - 1945)",
+      "date": "1936-09-18",
+      "license": "Public domain",
+      "width": "1100",
+      "height": "737"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/%D0%A1%D0%BA%D1%83%D0%BC%D1%96%D0%BD_%D1%83_%D1%81%D0%B5%D1%80%D0%BF%D0%BD%D1%96_2020_%D1%80%D0%BE%D0%BA%D1%83.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5a/%D0%A1%D0%BA%D1%83%D0%BC%D1%96%D0%BD_%D1%83_%D1%81%D0%B5%D1%80%D0%BF%D0%BD%D1%96_2020_%D1%80%D0%BE%D0%BA%D1%83.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/%D0%A1%D0%BA%D1%83%D0%BC%D1%96%D0%BD_%D1%83_%D1%81%D0%B5%D1%80%D0%BF%D0%BD%D1%96_2020_%D1%80%D0%BE%D0%BA%D1%83.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%BA%D1%83%D0%BC%D1%96%D0%BD_%D1%83_%D1%81%D0%B5%D1%80%D0%BF%D0%BD%D1%96_2020_%D1%80%D0%BE%D0%BA%D1%83.jpg",
+      "caption": "Скумін В.А. у серпні 2020 року. На майці - герб Міжнародного Руху \"WOCH\".",
+      "source": "Wikimedia Commons",
+      "artist": "Chair98",
+      "date": "2020-08-30",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Alexander_Scriabin_%28by_Alexander_Mozer%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Alexander_Scriabin_%28by_Alexander_Mozer%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Alexander_Scriabin_%28by_Alexander_Mozer%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Scriabin_(by_Alexander_Mozer).jpg",
+      "caption": "Фотография. Скрябин А.Н. после окончания «Прометея». Период создания:1910 Материал, техника:фотобумага глянцевая, фотопечать ч/б Размер:13,1х8,6 см. Номер в Госкаталоге:26742317 Номер по КП (ГИК):МС ОФ-407 Инвентарный номер:ФТ-773 Местонахождение Государственное бюджетное учрежде",
+      "source": "Wikimedia Commons",
+      "artist": "Александр Эдмундович Мозер (1870-1958)",
+      "date": "1910",
+      "license": "Public domain",
+      "width": "627",
+      "height": "800"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Russian Cosmism (CC BY-SA)",
@@ -65,13 +183,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1577741",
+      "url": "https://www.wikidata.org/wiki/Q1577741",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:28:04.666Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Russian cosmism",
+      "url": "https://en.wikipedia.org/wiki/Russian_cosmism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:28:04.666Z"
+      }
+    }
+  ],
+  "wikidata": "Q1577741",
+  "wikipedia": "Russian cosmism",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:28:04.666Z"
 }

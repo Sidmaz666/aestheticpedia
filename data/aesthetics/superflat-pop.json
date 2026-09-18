@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Japan",
   "geography": "Online",
   "periodStart": "2000s",
   "periodEnd": "",
@@ -20,7 +20,33 @@
   "summary": "Superflat Pop is an aesthetic and graphic design style that was prevalent from the late 2000s to early 2010s, inspired by Murakami's established art movement called Superflat .",
   "description": "Superflat Pop is an aesthetic and graphic design style that was prevalent from the late 2000s to early 2010s, inspired by Murakami's established art movement called Superflat . It is characterized by the use of vibrant color palettes, kawaii motifs, and funky clothing. It is often used in animation, video games, advertisements, and fashion. It bears similarities to Y2K Futurism , McBling , Frutiger Aero and Vectordelia , but focuses more on kawaii elements.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#17110b",
+      "name": "black"
+    },
+    {
+      "hex": "#dfceb1",
+      "name": "beige"
+    },
+    {
+      "hex": "#c6b89e",
+      "name": "khaki"
+    },
+    {
+      "hex": "#422519",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#98a097",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#927c6b",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Rainbow"
   },
@@ -52,7 +78,22 @@
   "tags": [
     "aesthetics wiki"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Katsushika_Hokusai%2C_tempesta_sotto_la_vetta%2C_dalla_serie_delle_36_vedute_del_monte_fuji%2C_1831_ca.jpg/1280px-Katsushika_Hokusai%2C_tempesta_sotto_la_vetta%2C_dalla_serie_delle_36_vedute_del_monte_fuji%2C_1831_ca.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Katsushika_Hokusai%2C_tempesta_sotto_la_vetta%2C_dalla_serie_delle_36_vedute_del_monte_fuji%2C_1831_ca.jpg/500px-Katsushika_Hokusai%2C_tempesta_sotto_la_vetta%2C_dalla_serie_delle_36_vedute_del_monte_fuji%2C_1831_ca.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Katsushika_Hokusai%2C_tempesta_sotto_la_vetta%2C_dalla_serie_delle_36_vedute_del_monte_fuji%2C_1831_ca.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai,_tempesta_sotto_la_vetta,_dalla_serie_delle_36_vedute_del_monte_fuji,_1831_ca.jpg",
+      "caption": "Thunderstorm Beneath the Summit, a Japanese woodblock print by Hokusai",
+      "source": "Wikimedia Commons",
+      "artist": "Sailko",
+      "date": "2017-11-07 05:45:59",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "866"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Superflat Pop (CC BY-SA)",
@@ -60,13 +101,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1444581",
+      "url": "https://www.wikidata.org/wiki/Q1444581",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:30:18.530Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Superflat",
+      "url": "https://en.wikipedia.org/wiki/Superflat",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:30:18.530Z"
+      }
+    }
+  ],
+  "wikidata": "Q1444581",
+  "wikipedia": "Superflat",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:44.483Z"
 }

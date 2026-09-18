@@ -17,7 +17,33 @@
   "summary": "Bikiniarze (singular: bikiniarz , meaning \"bikini boys\") were a youth subculture in Stalinist-era Poland, active from the late 1940s through the 1950s.",
   "description": "Bikiniarze (singular: bikiniarz , meaning \"bikini boys\") were a youth subculture in Stalinist-era Poland, active from the late 1940s through the 1950s. They were characterized by their flamboyant Western-inspired fashion and a love for jazz music, which was a form of cultural rebellion against the gray, state-enforced uniformity of communism.\n\nAccording to writer Leopold Tyrmand, their name originated from their iconic hand-painted neckties, which often featured imagery related to the Bikini Atoll, such as palm trees, women in bikinis, and even atomic bomb mushroom clouds. [ 1 ]\n\nThe movement was the Polish equivalent of similar post-war youth subcultures across Europe, such as the Stilyagi in the Soviet Union or the Zazou in France. Their aesthetic was a conscious rejection of socialist realist doctrine and a \"small gesture of independence\" in a time of repression.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Individualism, rebellion, non-conformism, freedom, fascination with Western (American) culture, jazz",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b9b9b9",
+      "name": "silver"
+    },
+    {
+      "hex": "#515151",
+      "name": "graphite"
+    },
+    {
+      "hex": "#3d3d3d",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#d3d3d3",
+      "name": "bone white"
+    },
+    {
+      "hex": "#6c6c6c",
+      "name": "slate"
+    },
+    {
+      "hex": "#898989",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Bright, contrasting colors (especially on neckties and socks) against toned-down clothing"
   },
@@ -54,7 +80,47 @@
     "fascination with western  culture",
     "jazz"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Kino_Stolica_w_Warszawie_w_latach_50.jpg/1280px-Kino_Stolica_w_Warszawie_w_latach_50.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Kino_Stolica_w_Warszawie_w_latach_50.jpg/500px-Kino_Stolica_w_Warszawie_w_latach_50.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Kino_Stolica_w_Warszawie_w_latach_50.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kino_Stolica_w_Warszawie_w_latach_50.jpg",
+      "caption": "Kino \"Stolica\" w Warszawie w latach 50.",
+      "source": "Wikimedia Commons",
+      "artist": "Zbyszko Siemaszko",
+      "date": "around 1955",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1515"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/P%C3%A1sek_Dikobraz_1953.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7d/P%C3%A1sek_Dikobraz_1953.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/P%C3%A1sek_Dikobraz_1953.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:P%C3%A1sek_Dikobraz_1953.png",
+      "caption": "\"Pásek\" (Czech subculture in 1950s)",
+      "source": "Wikimedia Commons",
+      "artist": "Anonymous Unknown author",
+      "date": "1953",
+      "license": "Public domain",
+      "width": "542",
+      "height": "633"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/The_USS_Arizona_%28BB-39%29_burning_after_the_Japanese_attack_on_Pearl_Harbor_-_NARA_195617_-_Edit.jpg/1280px-The_USS_Arizona_%28BB-39%29_burning_after_the_Japanese_attack_on_Pearl_Harbor_-_NARA_195617_-_Edit.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/The_USS_Arizona_%28BB-39%29_burning_after_the_Japanese_attack_on_Pearl_Harbor_-_NARA_195617_-_Edit.jpg/500px-The_USS_Arizona_%28BB-39%29_burning_after_the_Japanese_attack_on_Pearl_Harbor_-_NARA_195617_-_Edit.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/The_USS_Arizona_%28BB-39%29_burning_after_the_Japanese_attack_on_Pearl_Harbor_-_NARA_195617_-_Edit.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_USS_Arizona_(BB-39)_burning_after_the_Japanese_attack_on_Pearl_Harbor_-_NARA_195617_-_Edit.jpg",
+      "caption": "The USS Arizona (BB-39) burning after the Japanese attack on Pearl Harbor, 7 December 1941. USS Arizona sunk at en:Pearl Harbor . The ship is resting on the harbor bottom. The supporting structure of the forward tripod mast has collapsed after the forward magazine exploded.",
+      "source": "Wikimedia Commons",
+      "artist": "Photographer: Unknown Unknown Retouched by: Mmxx",
+      "date": "1941-12-07",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1013"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Bikiniarze (CC BY-SA)",
@@ -62,13 +128,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q126682236",
+      "url": "https://www.wikidata.org/wiki/Q126682236",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:11:20.771Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Bikini boys",
+      "url": "https://en.wikipedia.org/wiki/Bikini_boys",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:11:20.771Z"
+      }
+    }
+  ],
+  "wikidata": "Q126682236",
+  "wikipedia": "Bikini boys",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:11:20.771Z"
 }

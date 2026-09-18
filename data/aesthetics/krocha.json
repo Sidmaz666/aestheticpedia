@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (Netlog)",
   "geography": "Online",
   "periodStart": "Late 2000s",
   "periodEnd": "",
@@ -78,7 +78,22 @@
     "trend-following",
     "fun"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Austrian_Beerenauslese.jpg/1280px-Austrian_Beerenauslese.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Austrian_Beerenauslese.jpg/500px-Austrian_Beerenauslese.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/11/Austrian_Beerenauslese.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Austrian_Beerenauslese.jpg",
+      "caption": "Kracher 2003 Beerenauslese. An unusual wine, it's a rose beerenauslese with about 20% botrytis.",
+      "source": "Wikimedia Commons",
+      "artist": "Charles Haynes",
+      "date": "2007-08-02 06:01:42",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "3395"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Krocha (CC BY-SA)",
@@ -86,13 +101,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q89328",
+      "url": "https://www.wikidata.org/wiki/Q89328",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:21:10.358Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Alois Kracher",
+      "url": "https://en.wikipedia.org/wiki/Alois_Kracher",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:21:10.358Z"
+      }
+    }
+  ],
+  "wikidata": "Q89328",
+  "wikipedia": "Alois Kracher",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:21:10.358Z"
 }

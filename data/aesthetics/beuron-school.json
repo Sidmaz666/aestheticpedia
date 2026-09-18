@@ -19,7 +19,33 @@
   "summary": "The Beuron school was an art movement founded by a confederation of Benedictine monks in Germany in the late 19th century.",
   "description": "The Beuron school was an art movement founded by a confederation of Benedictine monks in Germany in the late 19th century.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#676765",
+      "name": "umber"
+    },
+    {
+      "hex": "#7f7f7e",
+      "name": "taupe"
+    },
+    {
+      "hex": "#979795",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#4b4b4a",
+      "name": "graphite"
+    },
+    {
+      "hex": "#303030",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#141414",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,74 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Byzantine_Angel_in_St_Anselm_Bronx.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/63/Byzantine_Angel_in_St_Anselm_Bronx.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/63/Byzantine_Angel_in_St_Anselm_Bronx.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Byzantine_Angel_in_St_Anselm_Bronx.jpg",
+      "caption": "Byzantine Angel in St Anselm Church, Bronx, News York, Beuron Art School, by Adelbert Gresnigt",
+      "source": "Wikimedia Commons",
+      "artist": "ViaBarbastro",
+      "date": "1922-1926",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "531",
+      "height": "600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Zod%C3%ADaco_Mosteiro_de_S%C3%A3o_Bento_de_S%C3%A3o_Paulo_%28Brasil%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Zod%C3%ADaco_Mosteiro_de_S%C3%A3o_Bento_de_S%C3%A3o_Paulo_%28Brasil%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Zod%C3%ADaco_Mosteiro_de_S%C3%A3o_Bento_de_S%C3%A3o_Paulo_%28Brasil%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Zod%C3%ADaco_Mosteiro_de_S%C3%A3o_Bento_de_S%C3%A3o_Paulo_(Brasil).jpg",
+      "caption": "Zodiac painting in Saint Benedict Abbey in Sao Paulo (Brazil) Beuron Art School",
+      "source": "Wikimedia Commons",
+      "artist": "Adelbert Gresnigt",
+      "date": "between 1914 and 1922 date QS:P,+1950-00-00T00:00:00Z/7,P131",
+      "license": "Public domain",
+      "width": "800",
+      "height": "597"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Desiderius_Lenz_%E2%80%94_Founder_of_Beuron_Art_School.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Desiderius_Lenz_%E2%80%94_Founder_of_Beuron_Art_School.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Desiderius_Lenz_%E2%80%94_Founder_of_Beuron_Art_School.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Desiderius_Lenz_%E2%80%94_Founder_of_Beuron_Art_School.jpg",
+      "caption": "Desiderius Lenz — Founder of Beuron Art School",
+      "source": "Wikimedia Commons",
+      "artist": "Beuron Abbey Archive",
+      "date": "1900-1910",
+      "license": "Public domain",
+      "width": "898",
+      "height": "1328"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Benedictine_monks_artists_of_Beuron_Art_School_in_Montecassino_Abbey.jpg/1280px-Benedictine_monks_artists_of_Beuron_Art_School_in_Montecassino_Abbey.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Benedictine_monks_artists_of_Beuron_Art_School_in_Montecassino_Abbey.jpg/500px-Benedictine_monks_artists_of_Beuron_Art_School_in_Montecassino_Abbey.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/18/Benedictine_monks_artists_of_Beuron_Art_School_in_Montecassino_Abbey.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Benedictine_monks_artists_of_Beuron_Art_School_in_Montecassino_Abbey.jpg",
+      "caption": "Benedictine monks artists of Beuron Art School in Montecassino Abbey",
+      "source": "Wikimedia Commons",
+      "artist": "L'Art public : revue de l'Institut international d'art public",
+      "date": "1900-1908",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "899"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Desiderius_Lenz_O.S.B._%28Peter_Lenz%29_founder_of_Beuron_Art_School.jpg/1280px-Desiderius_Lenz_O.S.B._%28Peter_Lenz%29_founder_of_Beuron_Art_School.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Desiderius_Lenz_O.S.B._%28Peter_Lenz%29_founder_of_Beuron_Art_School.jpg/500px-Desiderius_Lenz_O.S.B._%28Peter_Lenz%29_founder_of_Beuron_Art_School.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Desiderius_Lenz_O.S.B._%28Peter_Lenz%29_founder_of_Beuron_Art_School.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Desiderius_Lenz_O.S.B._(Peter_Lenz)_founder_of_Beuron_Art_School.jpg",
+      "caption": "Portrait of 1910 from the magazine Die Christliche Kunst; Monatsschrift für alle Gebiete der christlichen Kunst und Kunstwissenschaft",
+      "source": "Wikimedia Commons",
+      "artist": "Die Christliche Kunst; Monatsschrift für alle Gebiete der christlichen Kunst und Kunstwissenschaft",
+      "date": "1910",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1730"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Beuron school",
@@ -95,5 +188,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:38:04.739Z"
+  "updatedAt": "2026-09-18T11:46:12.663Z"
 }

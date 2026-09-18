@@ -60,7 +60,47 @@
     "aesthetics wiki",
     "modernism"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Der_junge_Richard_Strauss.JPG/1280px-Der_junge_Richard_Strauss.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Der_junge_Richard_Strauss.JPG/500px-Der_junge_Richard_Strauss.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Der_junge_Richard_Strauss.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Der_junge_Richard_Strauss.JPG",
+      "caption": "The young Richard Strauss",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1888",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1668"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/45_record.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c3/45_record.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c3/45_record.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:45_record.png",
+      "caption": "Here is an Inkscape drawing of a vintage 45 record",
+      "source": "Wikimedia Commons",
+      "artist": "laurianne",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "792",
+      "height": "800"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Mikrotonzeichen-neu.png/1280px-Mikrotonzeichen-neu.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Mikrotonzeichen-neu.png/500px-Mikrotonzeichen-neu.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Mikrotonzeichen-neu.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mikrotonzeichen-neu.png",
+      "caption": "Microtonal signs for musical scores (24 equal temperament & 36 equal temperament). The main commonly used signs for microtones are represented.",
+      "source": "Wikimedia Commons",
+      "artist": "kmbembe self",
+      "date": "2007-03-14",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "437"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Military Modernism (CC BY-SA)",
@@ -68,13 +108,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Musical modernism",
+      "url": "https://commons.wikimedia.org/wiki/Category:Musical_modernism",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:23:05.758Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2426218",
+      "url": "https://www.wikidata.org/wiki/Q2426218",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:23:05.758Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Modernism (music)",
+      "url": "https://en.wikipedia.org/wiki/Modernism_(music)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:23:05.758Z"
+      }
+    }
+  ],
+  "wikidata": "Q2426218",
+  "wikipedia": "Modernism (music)",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:23:05.758Z"
 }

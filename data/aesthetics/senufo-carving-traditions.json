@@ -22,22 +22,31 @@
   "culturalContext": "",
   "colors": [
     {
-      "hex": "#241d16",
-      "name": "blackened hardwood"
+      "hex": "#f8f8f8",
+      "name": "ivory"
     },
     {
-      "hex": "#8a6a45",
-      "name": "worn patina brown"
+      "hex": "#cfb991",
+      "name": "tan"
     },
     {
-      "hex": "#c9b06a",
-      "name": "libation crust"
+      "hex": "#473f36",
+      "name": "walnut brown"
     },
     {
-      "hex": "#f2efe4",
-      "name": "kaolin accent"
+      "hex": "#61584c",
+      "name": "umber"
+    },
+    {
+      "hex": "#b49d74",
+      "name": "camel"
+    },
+    {
+      "hex": "#7d776e",
+      "name": "taupe"
     }
   ],
+  "paletteSource": "derived",
   "visualDNA": {
     "shape": "hybrid animal masks and elongated standing figures",
     "line": "clean flowing contours with abrupt beaks and horns",
@@ -93,44 +102,6 @@
   ],
   "images": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Belle_femme_senoufo.jpg",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/23/Belle_femme_senoufo.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/2/23/Belle_femme_senoufo.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Belle_femme_senoufo.jpg",
-      "caption": "This is an image of Cultural Fashion or Adornment from",
-      "source": "Wikimedia Commons",
-      "artist": "Mr2KM",
-      "date": "2015-11-30",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "width": "960",
-      "height": "791",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/COLLECTIE_TROPENMUSEUM_Vrouw_bezig_met_het_wannen_van_rijst_TMnr_20012698.jpg",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/11/COLLECTIE_TROPENMUSEUM_Vrouw_bezig_met_het_wannen_van_rijst_TMnr_20012698.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/1/11/COLLECTIE_TROPENMUSEUM_Vrouw_bezig_met_het_wannen_van_rijst_TMnr_20012698.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Vrouw_bezig_met_het_wannen_van_rijst_TMnr_20012698.jpg",
-      "caption": "Vrouw bezig met het wannen van rijst",
-      "source": "Wikimedia Commons",
-      "artist": "Jan Broekhuijse",
-      "date": "1966 date QS:P571,+1966-00-00T00:00:00Z/9",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "width": "506",
-      "height": "700",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Brooklyn_Museum_74.214_Rhythm_Pounder_Siibele_%284%29.jpg",
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Brooklyn_Museum_74.214_Rhythm_Pounder_Siibele_%284%29.jpg",
       "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Brooklyn_Museum_74.214_Rhythm_Pounder_Siibele_%284%29.jpg",
@@ -142,12 +113,7 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "683",
-      "height": "1484",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
+      "height": "1484"
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/COLLECTIE_TROPENMUSEUM_Houten_stoel_naar_Europees_model_TMnr_3305-21.jpg",
@@ -160,12 +126,7 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "700",
-      "height": "465",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
+      "height": "465"
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/COLLECTIE_TROPENMUSEUM_Geelkoperen_enkelsieraad_met_figuren_van_beschermende_goden_TMnr_3912-941.jpg",
@@ -178,12 +139,7 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "700",
-      "height": "503",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
+      "height": "503"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Mus%C3%A9e_royal_d%27Afrique_centrale_-_Masque_d%27ancetre%2C_kuli%C3%A9%2C_SENUFO%2C_c%C3%B4te_d_Ivoire.jpg/1280px-Mus%C3%A9e_royal_d%27Afrique_centrale_-_Masque_d%27ancetre%2C_kuli%C3%A9%2C_SENUFO%2C_c%C3%B4te_d_Ivoire.jpg",
@@ -197,31 +153,7 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1707",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Tenue_S%C3%A9noufo_de_Waran%C3%A9n%C3%A9.JPG/1280px-Tenue_S%C3%A9noufo_de_Waran%C3%A9n%C3%A9.JPG",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Tenue_S%C3%A9noufo_de_Waran%C3%A9n%C3%A9.JPG/500px-Tenue_S%C3%A9noufo_de_Waran%C3%A9n%C3%A9.JPG",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Tenue_S%C3%A9noufo_de_Waran%C3%A9n%C3%A9.JPG",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tenue_S%C3%A9noufo_de_Waran%C3%A9n%C3%A9.JPG",
-      "caption": "This is an image of Cultural Fashion or Adornment from",
-      "source": "Wikimedia Commons",
-      "artist": "Papischou",
-      "date": "2015-11-29 08:05:05",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "width": "1280",
-      "height": "1927",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
+      "height": "1707"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Figure%2C_Senufo%2C_used_during_tyekpa_society_funeral_ceremonies_-_Glenbow_Museum_-_DSC00210.JPG/1280px-Figure%2C_Senufo%2C_used_during_tyekpa_society_funeral_ceremonies_-_Glenbow_Museum_-_DSC00210.JPG",
@@ -235,12 +167,7 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1920",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
+      "height": "1920"
     }
   ],
   "sources": [
@@ -274,7 +201,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
+        "checkedAt": "2026-09-18T15:28:15.481Z"
       }
     }
   ],
@@ -283,5 +210,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-14T01:24:49.988Z",
-  "updatedAt": "2026-09-18T05:10:16.766Z"
+  "updatedAt": "2026-09-18T15:46:00.793Z"
 }

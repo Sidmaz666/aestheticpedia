@@ -73,7 +73,22 @@
     "brand loyalty",
     "anti-authoritarianism"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/EC1835_C_cut.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/27/EC1835_C_cut.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/EC1835_C_cut.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:EC1835_C_cut.jpg",
+      "caption": "Robotron Personalcomputer EC 1835 Prototype (1990), recorded in \"Industriemuseum Chemnitz\", Germany",
+      "source": "Wikimedia Commons",
+      "artist": "Procolotor",
+      "date": "2009-08-27",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "506",
+      "height": "600"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Eshay (CC BY-SA)",
@@ -81,13 +96,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q107293075",
+      "url": "https://www.wikidata.org/wiki/Q107293075",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:16:21.592Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Eshay",
+      "url": "https://en.wikipedia.org/wiki/Eshay",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:16:21.592Z"
+      }
+    }
+  ],
+  "wikidata": "Q107293075",
+  "wikipedia": "Eshay",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:16:21.592Z"
 }

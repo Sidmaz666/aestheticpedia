@@ -19,7 +19,33 @@
   "summary": "Rolinga, rollinga, or \"stones\" are names of an Argentine subculture comprising fans of the Rolling Stones and Argentine bands influenced by the aforementioned group.",
   "description": "Rolinga, rollinga, or \"stones\" are names of an Argentine subculture comprising fans of the Rolling Stones and Argentine bands influenced by the aforementioned group. The musical genre associated with such bands is known as \"rock rolinga\". The term \"stone\" in Argentina is also used to refer to any fan of the Rolling Stones, regardless of whether they belong to this particular subculture or not.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bc9d8c",
+      "name": "khaki"
+    },
+    {
+      "hex": "#d1c2b4",
+      "name": "beige"
+    },
+    {
+      "hex": "#534239",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#84988a",
+      "name": "stone"
+    },
+    {
+      "hex": "#f3f0e8",
+      "name": "paper white"
+    },
+    {
+      "hex": "#8f7061",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,78 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/J._K._Rowling_2010.jpg/1280px-J._K._Rowling_2010.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/J._K._Rowling_2010.jpg/500px-J._K._Rowling_2010.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5d/J._K._Rowling_2010.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:J._K._Rowling_2010.jpg",
+      "caption": "J.K. Rowling reads from Harry Potter and the Sorcerer's Stone at the Easter Egg Roll at the White House in 2010.",
+      "source": "Wikimedia Commons",
+      "artist": "Daniel Ogren",
+      "date": "2010-04-05 13:49:24",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1578"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/The_former_1st_floor_Nicholson%27s_Cafe_now_renamed_Spoon_in_Edinburgh.jpg/1280px-The_former_1st_floor_Nicholson%27s_Cafe_now_renamed_Spoon_in_Edinburgh.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/The_former_1st_floor_Nicholson%27s_Cafe_now_renamed_Spoon_in_Edinburgh.jpg/500px-The_former_1st_floor_Nicholson%27s_Cafe_now_renamed_Spoon_in_Edinburgh.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/12/The_former_1st_floor_Nicholson%27s_Cafe_now_renamed_Spoon_in_Edinburgh.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_former_1st_floor_Nicholson%27s_Cafe_now_renamed_Spoon_in_Edinburgh.jpg",
+      "caption": "The former Nicholson's Cafe (now renamed Spoon) on the 1st floor is where J. K. Rowling sat at a table in the window and wrote the first few chapters of Harry Potter and the Philosopher's Stone. The cafe is situated at 6A Nicolson St, in Edinburgh.",
+      "source": "Wikimedia Commons",
+      "artist": "1march1hare",
+      "date": "2020-04-08 18:34:45",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "840"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/J.K.Rowling_Plaque_outside_the_former_Nicholson%27s_Cafe%2C_Edinburgh.jpg/1280px-J.K.Rowling_Plaque_outside_the_former_Nicholson%27s_Cafe%2C_Edinburgh.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/J.K.Rowling_Plaque_outside_the_former_Nicholson%27s_Cafe%2C_Edinburgh.jpg/500px-J.K.Rowling_Plaque_outside_the_former_Nicholson%27s_Cafe%2C_Edinburgh.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b2/J.K.Rowling_Plaque_outside_the_former_Nicholson%27s_Cafe%2C_Edinburgh.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:J.K.Rowling_Plaque_outside_the_former_Nicholson%27s_Cafe,_Edinburgh.jpg",
+      "caption": "The J.K.Rowling plaque on the corner of the former Nicholson's Cafe (now named Spoon) is at 6A Nicolson St, Edinburgh. The cafe is on the 1st floor and is where J.K.Rowling sat at a table in the window and wrote the first few chapters of Harry Potter and the Philosopher's Stone.",
+      "source": "Wikimedia Commons",
+      "artist": "1march1hare",
+      "date": "2020-04-08",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1914"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/J._K._Rowling_2010_%28cropped%29.jpeg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/db/J._K._Rowling_2010_%28cropped%29.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/db/J._K._Rowling_2010_%28cropped%29.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:J._K._Rowling_2010_(cropped).jpeg",
+      "caption": "J.K. Rowling reads from Harry Potter and the Sorcerer's Stone at the Easter Egg Roll at the White House in 2010.",
+      "source": "Wikimedia Commons",
+      "artist": "Daniel Ogren",
+      "date": "2010-04-05 13:49:24",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "600",
+      "height": "800"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/The_former_1st_floor_Nicholson%27s_Cafe_now_named_Spoon%2C_Edinburgh.jpg/1280px-The_former_1st_floor_Nicholson%27s_Cafe_now_named_Spoon%2C_Edinburgh.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/The_former_1st_floor_Nicholson%27s_Cafe_now_named_Spoon%2C_Edinburgh.jpg/500px-The_former_1st_floor_Nicholson%27s_Cafe_now_named_Spoon%2C_Edinburgh.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a7/The_former_1st_floor_Nicholson%27s_Cafe_now_named_Spoon%2C_Edinburgh.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_former_1st_floor_Nicholson%27s_Cafe_now_named_Spoon,_Edinburgh.jpg",
+      "caption": "This is a corner picture of the upper-floor cafe formerly known as Nicholson's Cafe (now named Spoon) in Edinburgh where novelist J. K. Rowling wrote the first few chapters of Harry Potter and the Philosopher's Stone. The building is located at 6A Nicolson St, Edinburgh EH8 9DH.",
+      "source": "Wikimedia Commons",
+      "artist": "1march1hare",
+      "date": "2020-04-08 18:34:39",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "785"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Rolinga",
@@ -95,5 +192,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T11:30:51.114Z"
+  "updatedAt": "2026-09-18T11:55:29.572Z"
 }

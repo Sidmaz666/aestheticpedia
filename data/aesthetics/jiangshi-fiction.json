@@ -19,7 +19,33 @@
   "summary": "Jiangshi ( 僵尸 ) films are a horror-comedy and martial-arts film genre mainly established and popularized in Hong Kong cinema from the 1980s to the mid-1990s.",
   "description": "Jiangshi ( 僵尸 ) films are a horror-comedy and martial-arts film genre mainly established and popularized in Hong Kong cinema from the 1980s to the mid-1990s. This genre mixes Chinese folk horror, slapstick comedy, and kung-fu. Visually, it uses classic folk symbols such as Qing Dynasty official robes, yellow Taoist fulu (符箓), and glutinous rice. [ 1 ]",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#161412",
+      "name": "black"
+    },
+    {
+      "hex": "#82715d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#4c4945",
+      "name": "graphite"
+    },
+    {
+      "hex": "#bda893",
+      "name": "khaki"
+    },
+    {
+      "hex": "#938d87",
+      "name": "stone"
+    },
+    {
+      "hex": "#843f2a",
+      "name": "burnt sienna"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -44,7 +70,36 @@
   "tags": [
     "aesthetics wiki"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/SammoHung.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bc/SammoHung.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bc/SammoHung.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:SammoHung.jpg",
+      "caption": "Sammo Hung at the Toronto International Film Festival in 2005.",
+      "source": "Wikimedia Commons",
+      "artist": "Sasoriza / Bryan Chan",
+      "date": "2005-09-17",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "768",
+      "height": "1024"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Longxinba_as_Lam_Ching-ying_standing%2C_left_side_20210327a.jpg/1280px-Longxinba_as_Lam_Ching-ying_standing%2C_left_side_20210327a.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Longxinba_as_Lam_Ching-ying_standing%2C_left_side_20210327a.jpg/500px-Longxinba_as_Lam_Ching-ying_standing%2C_left_side_20210327a.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/01/Longxinba_as_Lam_Ching-ying_standing%2C_left_side_20210327a.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Longxinba_as_Lam_Ching-ying_standing,_left_side_20210327a.jpg",
+      "caption": "​第57屆台灣同人誌販售會， 瀧新八 cosplay林正英道士裝站姿左側。",
+      "source": "Wikimedia Commons",
+      "artist": "Kaisars Fang",
+      "date": "2021-03-27 14:49:16",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "1920"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Jiangshi fiction (CC BY-SA)",
@@ -52,13 +107,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q11125297",
+      "url": "https://www.wikidata.org/wiki/Q11125297",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:20:15.266Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Jiangshi fiction",
+      "url": "https://en.wikipedia.org/wiki/Jiangshi_fiction",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:20:15.266Z"
+      }
+    }
+  ],
+  "wikidata": "Q11125297",
+  "wikipedia": "Jiangshi fiction",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:20:15.266Z"
 }

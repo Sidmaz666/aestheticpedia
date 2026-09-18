@@ -22,8 +22,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Positivity, joy, reinterpretation of the 1920s",
   "colors": [
     {
-      "hex": "#704214",
-      "name": "sepia"
+      "hex": "#0b0907",
+      "name": "black"
+    },
+    {
+      "hex": "#2f221b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#573e33",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#856152",
+      "name": "bronze"
+    },
+    {
+      "hex": "#daceb5",
+      "name": "beige"
+    },
+    {
+      "hex": "#a48873",
+      "name": "stone"
     }
   ],
   "paletteSource": "derived",
@@ -64,7 +84,22 @@
     "joy",
     "reinterpretation of the 1920s"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Bal_de_la_bourse_2014.jpg/1280px-Bal_de_la_bourse_2014.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Bal_de_la_bourse_2014.jpg/500px-Bal_de_la_bourse_2014.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Bal_de_la_bourse_2014.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bal_de_la_bourse_2014.jpg",
+      "caption": "Bart&Baker perform at the Bal de la Bourse 2014 in Paris",
+      "source": "Wikimedia Commons",
+      "artist": "Supersonic2014",
+      "date": "2014-11-21",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "861"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Electro Swing (CC BY-SA)",
@@ -72,13 +107,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Electro swing",
+      "url": "https://commons.wikimedia.org/wiki/Category:Electro_swing",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:16:09.639Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q602561",
+      "url": "https://www.wikidata.org/wiki/Q602561",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:16:09.639Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Electro swing",
+      "url": "https://en.wikipedia.org/wiki/Electro_swing",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:16:09.639Z"
+      }
+    }
+  ],
+  "wikidata": "Q602561",
+  "wikipedia": "Electro swing",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:16:09.639Z"
 }

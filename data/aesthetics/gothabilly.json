@@ -74,7 +74,22 @@
     "campiness",
     "macabre humor"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Cramps1982-07.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/79/Cramps1982-07.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/79/Cramps1982-07.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cramps1982-07.jpg",
+      "caption": "The Cramps (Lux Interior on vocals, Poison Ivy on guitar) perform at Larry's Hideaway in Toronto, June 14, 1982",
+      "source": "Wikimedia Commons",
+      "artist": "Canada Jack aka Jeremy Gilbert",
+      "date": "Taken on 14 June 1982",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "790",
+      "height": "1002"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Gothabilly (CC BY-SA)",
@@ -82,13 +97,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1538765",
+      "url": "https://www.wikidata.org/wiki/Q1538765",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:18:10.003Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gothabilly",
+      "url": "https://en.wikipedia.org/wiki/Gothabilly",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:18:10.003Z"
+      }
+    }
+  ],
+  "wikidata": "Q1538765",
+  "wikipedia": "Gothabilly",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:18:10.003Z"
 }

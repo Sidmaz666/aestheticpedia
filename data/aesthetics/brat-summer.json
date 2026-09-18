@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (TikTok, Twitter (X))",
   "geography": "Online",
   "periodStart": "2020s",
   "periodEnd": "",
@@ -75,7 +75,34 @@
     "irony",
     "chaos"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Charli_XCX_-_Brat_%28album_cover%29.png/1280px-Charli_XCX_-_Brat_%28album_cover%29.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Charli_XCX_-_Brat_%28album_cover%29.png/500px-Charli_XCX_-_Brat_%28album_cover%29.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/Charli_XCX_-_Brat_%28album_cover%29.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Charli_XCX_-_Brat_(album_cover).png",
+      "caption": "This is the cover art for the album Brat by Charli XCX",
+      "source": "Wikimedia Commons",
+      "artist": "Asylum , Atlantic and Warner UK",
+      "date": "2024-02-28",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Kamala_HQ_Twitter_Header.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Kamala_HQ_Twitter_Header.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Kamala_HQ_Twitter_Header.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kamala_HQ_Twitter_Header.png",
+      "caption": "Kamala HQ Twitter Header",
+      "source": "Wikimedia Commons",
+      "artist": "Kamala HQ",
+      "date": "2024-07-21",
+      "license": "Public domain",
+      "width": "860",
+      "height": "500"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Brat Summer (CC BY-SA)",
@@ -83,13 +110,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q134428950",
+      "url": "https://www.wikidata.org/wiki/Q134428950",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:12:08.702Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Brat Summer",
+      "url": "https://en.wikipedia.org/wiki/Brat_Summer",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:12:08.702Z"
+      }
+    }
+  ],
+  "wikidata": "Q134428950",
+  "wikipedia": "Brat Summer",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:12:08.702Z"
 }

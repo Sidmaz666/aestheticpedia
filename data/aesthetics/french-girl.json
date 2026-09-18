@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Canada",
   "geography": "Online",
   "periodStart": "1950s",
   "periodEnd": "",
@@ -80,7 +80,22 @@
     "minimalism",
     "romanticism"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/William_Fichtner_at_SBIFF_2024.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0c/William_Fichtner_at_SBIFF_2024.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0c/William_Fichtner_at_SBIFF_2024.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:William_Fichtner_at_SBIFF_2024.jpg",
+      "caption": "William Fichtner at SBIFF 2024. Uploaded to Youtube by DPNews under CC-BY-3.0 Unported license on February 20, 2024.",
+      "source": "Wikimedia Commons",
+      "artist": "DPNews",
+      "date": "2024-02-20",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "519",
+      "height": "703"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — French Girl (CC BY-SA)",
@@ -88,13 +103,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — French Girl",
+      "url": "https://commons.wikimedia.org/wiki/Category:French_Girl",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:17:14.862Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q124605382",
+      "url": "https://www.wikidata.org/wiki/Q124605382",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:17:14.862Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — French Girl",
+      "url": "https://en.wikipedia.org/wiki/French_Girl",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:17:14.862Z"
+      }
+    }
+  ],
+  "wikidata": "Q124605382",
+  "wikipedia": "French Girl",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:30.463Z"
 }

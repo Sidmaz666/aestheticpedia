@@ -120,35 +120,8 @@
     "music": "electronic, ambient",
     "scent": "clean, sterile"
   },
-  "emotionProfile": {
-    "warm": 30,
-    "cold": 70,
-    "playful": 40,
-    "serious": 60,
-    "chaotic": 20,
-    "ordered": 80,
-    "nostalgic": 10,
-    "futuristic": 60,
-    "peaceful": 70,
-    "ominous": 10
-  },
-  "dnaAxes": {
-    "minimal_maximal": 90,
-    "organic_geometric": 20,
-    "warm_cold": 40,
-    "natural_synthetic": 60,
-    "analog_digital": 95,
-    "historical_futuristic": 50,
-    "refined_raw": 70,
-    "playful_serious": 30,
-    "soft_harsh": 40,
-    "quiet_loud": 60,
-    "orderly_chaotic": 70,
-    "dense_spacious": 80,
-    "realistic_surreal": 20,
-    "elegant_utilitarian": 60,
-    "nostalgic_progressive": 50
-  },
+  "emotionProfile": {},
+  "dnaAxes": {},
   "keyExamples": [
     "Google Material Design",
     "Flat Icons by Noun Project",
@@ -169,22 +142,108 @@
   ],
   "images": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/en/3/3a/Flat_widgets.png",
-      "thumb": "https://upload.wikimedia.org/wikipedia/en/3/3a/Flat_widgets.png",
-      "full": "https://upload.wikimedia.org/wikipedia/en/3/3a/Flat_widgets.png",
-      "pageUrl": "https://en.wikipedia.org/wiki/File:Flat_widgets.png",
-      "caption": "A collection of GUI widgets using flat design .",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Chemistry_Class_in_School.jpg/1280px-Chemistry_Class_in_School.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Chemistry_Class_in_School.jpg/500px-Chemistry_Class_in_School.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/57/Chemistry_Class_in_School.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chemistry_Class_in_School.jpg",
+      "caption": "Graphic of a tutor in front of a class teaching chemistry. This image has been licensed under the Attribution Creative Commons licence, so you may use it as long as you credit us with ownership by lin",
       "source": "Wikimedia Commons",
-      "artist": "User:Totie",
-      "date": "29 June 2015",
-      "license": "Public domain",
-      "width": "576",
-      "height": "866",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
+      "artist": "Preply.com Images",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "958"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Research_Scene_Vector.svg/1280px-Research_Scene_Vector.svg.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Research_Scene_Vector.svg/500px-Research_Scene_Vector.svg.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Research_Scene_Vector.svg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Research_Scene_Vector.svg",
+      "caption": "A top view scene of someone doing some research and going through the pages of a book and using a magnifying glass on it. The scene happens on a wooden background. There are also some other research r",
+      "source": "Wikimedia Commons",
+      "artist": "VideoPlasty",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "720"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Writing_Scene_Vector.svg/1280px-Writing_Scene_Vector.svg.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Writing_Scene_Vector.svg/500px-Writing_Scene_Vector.svg.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Writing_Scene_Vector.svg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Writing_Scene_Vector.svg",
+      "caption": "A top view scene of someone writing on a piece of A4 paper on a clipboard. The scene happens on a brown wooden background with a pair of glasses, a calculator, some paper clips, a folder and a report",
+      "source": "Wikimedia Commons",
+      "artist": "VideoPlasty",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "720"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Packing_Scene_Vector.svg/1280px-Packing_Scene_Vector.svg.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Packing_Scene_Vector.svg/500px-Packing_Scene_Vector.svg.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/69/Packing_Scene_Vector.svg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Packing_Scene_Vector.svg",
+      "caption": "A top view scene of someone packing a brown suitcase with a blue shirt and black jeans. Right hand appears holding a ticket. The scene happens on a wooden background and around the suitcase, there is ",
+      "source": "Wikimedia Commons",
+      "artist": "VideoPlasty",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "720"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/To_Do_List_Scene_Vector.svg/1280px-To_Do_List_Scene_Vector.svg.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/To_Do_List_Scene_Vector.svg/500px-To_Do_List_Scene_Vector.svg.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e4/To_Do_List_Scene_Vector.svg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:To_Do_List_Scene_Vector.svg",
+      "caption": "A top view scene of someone checking off all four items on a to-do list. The scene happens on a brown wooden desk, where we there is also a gray keyboard, an eraser, a smartphone and a notebook",
+      "source": "Wikimedia Commons",
+      "artist": "VideoPlasty",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "720"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Laptop_Typing_Scene_Vector.svg/1280px-Laptop_Typing_Scene_Vector.svg.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Laptop_Typing_Scene_Vector.svg/500px-Laptop_Typing_Scene_Vector.svg.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Laptop_Typing_Scene_Vector.svg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Laptop_Typing_Scene_Vector.svg",
+      "caption": "A top view scene of someone typing on the keyboard of a laptop looking like an Apple Macbook. The scene takes place on a wooden table or desk, where there is also a blue notebook, a pen, a smartphone,",
+      "source": "Wikimedia Commons",
+      "artist": "VideoPlasty",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "720"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Covid-19_banner_How_to_wear_a_non-medical_fabric_mask_safely.png/1280px-Covid-19_banner_How_to_wear_a_non-medical_fabric_mask_safely.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Covid-19_banner_How_to_wear_a_non-medical_fabric_mask_safely.png/500px-Covid-19_banner_How_to_wear_a_non-medical_fabric_mask_safely.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/36/Covid-19_banner_How_to_wear_a_non-medical_fabric_mask_safely.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Covid-19_banner_How_to_wear_a_non-medical_fabric_mask_safely.png",
+      "caption": "How to wear a non-medical fabric mask safely - Do's - infographic explaining what to look out for when wearing a non-medical fabric mask. A fabric mask can protect others around you. To protect yourse",
+      "source": "Wikimedia Commons",
+      "artist": "World Health Organization",
+      "license": "CC BY-SA 3.0 igo",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+      "width": "1280",
+      "height": "183"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Check_the_date_IFLA.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Check_the_date_IFLA.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Check_the_date_IFLA.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Check_the_date_IFLA.jpg",
+      "caption": "IFLA infographic based on FactCheck.org’s 2016 article \"How to Spot Fake News\" in JPG format",
+      "source": "Wikimedia Commons",
+      "artist": "IFLA",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "1248"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/7-arrazoi-Zergatik-erabili-ikasgelan-software-librea-CEDEC.png/1280px-7-arrazoi-Zergatik-erabili-ikasgelan-software-librea-CEDEC.png",
@@ -193,74 +252,11 @@
       "pageUrl": "https://commons.wikimedia.org/wiki/File:7-arrazoi-Zergatik-erabili-ikasgelan-software-librea-CEDEC.png",
       "caption": "Zergatik erabili ikastetxeetan software askea? Zazpi arrazoi.",
       "source": "Wikimedia Commons",
-      "artist": "CEDEC - C entro N acional de D esarrollo C urricular en S istemas no P ropietarios. Ministerio de Educación y Formación Profesional Instituto Nacional de Tecnol",
-      "date": "2018-10-03",
+      "artist": "CEDEC - C entro N acional de D esarrollo C urricular en S istemas no P ropietarios. Ministerio de Educación y Formación ",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1810",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Android_Persian_Calendar_-_ng.png",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/db/Android_Persian_Calendar_-_ng.png",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/d/db/Android_Persian_Calendar_-_ng.png",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Android_Persian_Calendar_-_ng.png",
-      "caption": "Android Persian Calendar icon, per the new Google Play guideline",
-      "source": "Wikimedia Commons",
-      "artist": "I, the copyright holder of this work, hereby publish it under the following license:",
-      "date": "2019-06-24",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "width": "512",
-      "height": "512",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/BWoF_Process.png/1280px-BWoF_Process.png",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/BWoF_Process.png/500px-BWoF_Process.png",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/7/79/BWoF_Process.png",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:BWoF_Process.png",
-      "caption": "BWoF Process",
-      "source": "Wikimedia Commons",
-      "artist": "BWoF Ltd",
-      "date": "2020-12-02",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "width": "1280",
-      "height": "881",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Chemistry_Class_in_School.jpg/1280px-Chemistry_Class_in_School.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Chemistry_Class_in_School.jpg/500px-Chemistry_Class_in_School.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/5/57/Chemistry_Class_in_School.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chemistry_Class_in_School.jpg",
-      "caption": "Graphic of a tutor in front of a class teaching chemistry. This image has been licensed under the Attribution Creative Commons licence, so you may use it as long as you credit us with ownership by linking to preply.com",
-      "source": "Wikimedia Commons",
-      "artist": "Preply.com Images",
-      "date": "2021-11-08",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "width": "1280",
-      "height": "958",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
+      "height": "1810"
     }
   ],
   "sources": [
@@ -337,5 +333,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:40:02.370Z",
-  "updatedAt": "2026-09-18T04:59:28.223Z"
+  "updatedAt": "2026-09-18T15:25:12.496Z"
 }

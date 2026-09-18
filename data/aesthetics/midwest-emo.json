@@ -22,7 +22,33 @@
   "summary": "Midwest Emo , or Midwestern Emo , is an Emo scene that surged in the Midwestern United States during the 1990s.",
   "description": "Midwest Emo , or Midwestern Emo , is an Emo scene that surged in the Midwestern United States during the 1990s.",
   "culturalContext": "Key values (per the Aesthetics Wiki): friendship, acceptance",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0a0a18",
+      "name": "black"
+    },
+    {
+      "hex": "#6c512f",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#3f2e2c",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#876e5f",
+      "name": "bronze"
+    },
+    {
+      "hex": "#d1c6ac",
+      "name": "beige"
+    },
+    {
+      "hex": "#0c2754",
+      "name": "prussian blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "plaid patterns, earth tones, faded colors"
   },
@@ -57,7 +83,50 @@
     "friendship",
     "acceptance"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Mike_Kinsella%2C_American_Football_-_First_Avenue_-_Minnesota_-_Band_-_Reunion_5_17.jpg/1280px-Mike_Kinsella%2C_American_Football_-_First_Avenue_-_Minnesota_-_Band_-_Reunion_5_17.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Mike_Kinsella%2C_American_Football_-_First_Avenue_-_Minnesota_-_Band_-_Reunion_5_17.jpg/500px-Mike_Kinsella%2C_American_Football_-_First_Avenue_-_Minnesota_-_Band_-_Reunion_5_17.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Mike_Kinsella%2C_American_Football_-_First_Avenue_-_Minnesota_-_Band_-_Reunion_5_17.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mike_Kinsella,_American_Football_-_First_Avenue_-_Minnesota_-_Band_-_Reunion_5_17.jpg",
+      "caption": "American Football - First Avenue - Minnesota - Band - Reunion 5/17",
+      "source": "Wikimedia Commons",
+      "artist": "Andy Witchger",
+      "date": "2017-04-29 22:04",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Capn-jazz.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Capn-jazz.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Capn-jazz.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Capn-jazz.jpg",
+      "caption": "Cap'n Jazz performing at Starlight Ballroom in Philadelphia, Pennsylvania .",
+      "source": "Wikimedia Commons",
+      "artist": "Nicole Kibert (elawgrrl)",
+      "date": "2010-07-24",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1024",
+      "height": "642"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Algernon_Cadwallader.jpg/1280px-Algernon_Cadwallader.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Algernon_Cadwallader.jpg/500px-Algernon_Cadwallader.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Algernon_Cadwallader.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Algernon_Cadwallader.jpg",
+      "caption": "All members of Algernon Cadwallader; Tank Bergman, Nick Tazza, Colin Mahony, Peter Helmis and Joe Reinhart",
+      "source": "Wikimedia Commons",
+      "artist": "Fourleafclovers",
+      "date": "2015-08-30 22:12:07",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "720"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Midwest Emo (CC BY-SA)",
@@ -65,13 +134,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q39052425",
+      "url": "https://www.wikidata.org/wiki/Q39052425",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:23:03.608Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Midwest emo",
+      "url": "https://en.wikipedia.org/wiki/Midwest_emo",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:23:03.608Z"
+      }
+    }
+  ],
+  "wikidata": "Q39052425",
+  "wikipedia": "Midwest emo",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:23:03.608Z"
 }

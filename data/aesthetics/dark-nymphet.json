@@ -11,7 +11,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "France, United States",
   "geography": "Online",
   "periodStart": "2010s",
   "periodEnd": "",
@@ -72,7 +72,22 @@
   "tags": [
     "aesthetics wiki"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/EC1835_C_cut.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/27/EC1835_C_cut.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/EC1835_C_cut.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:EC1835_C_cut.jpg",
+      "caption": "Robotron Personalcomputer EC 1835 Prototype (1990), recorded in \"Industriemuseum Chemnitz\", Germany",
+      "source": "Wikimedia Commons",
+      "artist": "Procolotor",
+      "date": "2009-08-27",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "506",
+      "height": "600"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Dark Nymphet (CC BY-SA)",
@@ -80,13 +95,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q593877",
+      "url": "https://www.wikidata.org/wiki/Q593877",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:15:07.843Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Lolita (1997 film)",
+      "url": "https://en.wikipedia.org/wiki/Lolita_(1997_film)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:15:07.843Z"
+      }
+    }
+  ],
+  "wikidata": "Q593877",
+  "wikipedia": "Lolita (1997 film)",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:28.316Z"
 }

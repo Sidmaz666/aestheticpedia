@@ -17,7 +17,33 @@
   "summary": "The Club Kids were a youth subculture of artists, performers, and nightlife personalities active in New York City from the late 1980s through the mid-1990s.",
   "description": "The Club Kids were a youth subculture of artists, performers, and nightlife personalities active in New York City from the late 1980s through the mid-1990s. Led by figures like Michael Alig and James St. James, the movement was defined by its members' outrageous, DIY costumes, theatrical makeup, and a fluid approach to gender expression. [ 1 ] The term was first coined in a 1988 New York Magazine cover story that brought the burgeoning scene into the public eye.\n\nEmerging from the shadow of the 1980s AIDS crisis, the Club Kids created a hedonistic and inclusive community that celebrated flamboyant individualism. They treated nightlife as a form of performance art, using their self-made looks and audacious behavior to gain notoriety and media attention. [ 2 ] The scene's prominence faded in the mid-1990s following a highly publicized murder within their inner circle and a city-wide crackdown on nightlife.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Individuality, self-expression, creativity, fame, inclusivity, hedonism",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fbfdfc",
+      "name": "ivory"
+    },
+    {
+      "hex": "#b8b1a0",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#96928b",
+      "name": "stone"
+    },
+    {
+      "hex": "#dcd8cc",
+      "name": "bone white"
+    },
+    {
+      "hex": "#666660",
+      "name": "umber"
+    },
+    {
+      "hex": "#363a3c",
+      "name": "charcoal"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -55,7 +81,35 @@
     "inclusivity",
     "hedonism"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Avalon_NYC_2007_006.jpg/1280px-Avalon_NYC_2007_006.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Avalon_NYC_2007_006.jpg/500px-Avalon_NYC_2007_006.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/84/Avalon_NYC_2007_006.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Avalon_NYC_2007_006.jpg",
+      "caption": "Avalon nightclub, 662 6th Ave at 20th Street, located in a former church.",
+      "source": "Wikimedia Commons",
+      "artist": "Gryffindor",
+      "date": "2007-08",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/EC1835_C_cut.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/27/EC1835_C_cut.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/EC1835_C_cut.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:EC1835_C_cut.jpg",
+      "caption": "Robotron Personalcomputer EC 1835 Prototype (1990), recorded in \"Industriemuseum Chemnitz\", Germany",
+      "source": "Wikimedia Commons",
+      "artist": "Procolotor",
+      "date": "2009-08-27",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "506",
+      "height": "600"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Club Kids (CC BY-SA)",
@@ -63,13 +117,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2979942",
+      "url": "https://www.wikidata.org/wiki/Q2979942",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:14:01.686Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Club Kids",
+      "url": "https://en.wikipedia.org/wiki/Club_Kids",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:14:01.686Z"
+      }
+    }
+  ],
+  "wikidata": "Q2979942",
+  "wikipedia": "Club Kids",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:14:01.686Z"
 }

@@ -11,7 +11,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (Street culture, Fotolog (historically), Facebook, TikTok)",
   "geography": "Online",
   "periodStart": "1990s",
   "periodEnd": "",
@@ -82,13 +82,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5457063",
+      "url": "https://www.wikidata.org/wiki/Q5457063",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:17:07.289Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Flaite",
+      "url": "https://en.wikipedia.org/wiki/Flaite",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:17:07.289Z"
+      }
+    }
+  ],
+  "wikidata": "Q5457063",
+  "wikipedia": "Flaite",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:17:07.289Z"
 }

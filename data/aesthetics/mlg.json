@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "United States",
   "geography": "Online",
   "periodStart": "2010s",
   "periodEnd": "",
@@ -71,7 +71,21 @@
     "sensory overload",
     "nostalgia"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Major-league-gaming.png/1280px-Major-league-gaming.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Major-league-gaming.png/500px-Major-league-gaming.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Major-league-gaming.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Major-league-gaming.png",
+      "caption": "Major-league-gaming",
+      "source": "Wikimedia Commons",
+      "artist": "MLG",
+      "date": "2017-11-20",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "468"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — MLG (CC BY-SA)",
@@ -79,13 +93,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Major League Gaming",
+      "url": "https://commons.wikimedia.org/wiki/Category:Major_League_Gaming",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:23:11.834Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1320732",
+      "url": "https://www.wikidata.org/wiki/Q1320732",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:23:11.834Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Major League Gaming",
+      "url": "https://en.wikipedia.org/wiki/Major_League_Gaming",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:23:11.834Z"
+      }
+    }
+  ],
+  "wikidata": "Q1320732",
+  "wikipedia": "Major League Gaming",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:36.290Z"
 }

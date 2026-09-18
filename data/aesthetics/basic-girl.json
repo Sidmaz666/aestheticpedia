@@ -59,7 +59,22 @@
     "self-love",
     "romance"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Uggs2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Uggs2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Uggs2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Uggs2.jpg",
+      "caption": "Cropped version of original photo by User:TexasDex",
+      "source": "Wikimedia Commons",
+      "artist": "Taken from original enwiki upload log: 03:12, 5 October 2008 TexasDex (372 bytes) ( Description Uggs2.jpg Ugg brand boots. Date Oct. 4 2008 Source Taken myself.",
+      "date": "2013-02-27 08:17:53",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "624",
+      "height": "701"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Basic Girl (CC BY-SA)",
@@ -67,13 +82,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q18205447",
+      "url": "https://www.wikidata.org/wiki/Q18205447",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:11:11.457Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Basic (slang)",
+      "url": "https://en.wikipedia.org/wiki/Basic_(slang)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:11:11.457Z"
+      }
+    }
+  ],
+  "wikidata": "Q18205447",
+  "wikipedia": "Basic (slang)",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:11:11.457Z"
 }

@@ -95,35 +95,8 @@
     "motion": "focus-contract pulses"
   },
   "recipe": {},
-  "emotionProfile": {
-    "warm": 60,
-    "cold": 40,
-    "playful": 10,
-    "serious": 70,
-    "chaotic": 30,
-    "ordered": 60,
-    "nostalgic": 70,
-    "futuristic": 20,
-    "peaceful": 40,
-    "ominous": 40
-  },
-  "dnaAxes": {
-    "minimal_maximal": 40,
-    "organic_geometric": 50,
-    "warm_cold": 60,
-    "natural_synthetic": 50,
-    "analog_digital": 85,
-    "historical_futuristic": 30,
-    "refined_raw": 70,
-    "playful_serious": 20,
-    "soft_harsh": 60,
-    "quiet_loud": 40,
-    "orderly_chaotic": 50,
-    "dense_spacious": 80,
-    "realistic_surreal": 40,
-    "elegant_utilitarian": 60,
-    "nostalgic_progressive": 70
-  },
+  "emotionProfile": {},
+  "dnaAxes": {},
   "keyExamples": [
     "Diane Arbus photographs",
     "Vincent Laforet night photography",
@@ -139,7 +112,36 @@
     "digital",
     "artistic"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Distant_Husband_%287624745644%29.jpg/1280px-Distant_Husband_%287624745644%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Distant_Husband_%287624745644%29.jpg/500px-Distant_Husband_%287624745644%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Distant_Husband_%287624745644%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Distant_Husband_(7624745644).jpg",
+      "caption": "A shot from about a month ago when I was in Dublin on a business trip. This is the statue of Oscar Wilde's wife, Costance, at the Oscar Wilde Memorial in Merrion Square Park. The Oscar Wilde statue is in the background. I quite liked the way the arrangement of the statues emphasi",
+      "source": "Wikimedia Commons",
+      "artist": "Tim Sackton from Somerville, MA",
+      "date": "2012-06-23 12:44",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Great_Falls_National_Park_%288490167041%29.jpg/1280px-Great_Falls_National_Park_%288490167041%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Great_Falls_National_Park_%288490167041%29.jpg/500px-Great_Falls_National_Park_%288490167041%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/25/Great_Falls_National_Park_%288490167041%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Great_Falls_National_Park_(8490167041).jpg",
+      "caption": "The vignetting is NOT on purpose. I used a B&amp;W 10-stop ND filter on my wide angle. Wide angle lenses tend to get heavy vignetting when used with these filters. I didn't have any other lens with me (went to the park on a whim). This was also taken without a tripod.",
+      "source": "Wikimedia Commons",
+      "artist": "m01229 from USA",
+      "date": "2013-02-18 14:09",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "848"
+    }
+  ],
   "sources": [
     {
       "name": "Digital Photography School",
@@ -185,5 +187,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:24:44.138Z",
-  "updatedAt": "2026-09-18T10:48:23.148Z"
+  "updatedAt": "2026-09-18T11:51:32.513Z"
 }

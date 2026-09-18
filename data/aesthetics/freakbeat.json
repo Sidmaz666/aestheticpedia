@@ -11,7 +11,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "United Kingdom",
   "geography": "Online",
   "periodStart": "1960s, 1980s (term coined)",
   "periodEnd": "",
@@ -21,7 +21,33 @@
   "summary": "Freakbeat is a music genre, graphic design style, and aesthetic that was prevalent throughout the mid-to-late 1960s .",
   "description": "Freakbeat is a music genre, graphic design style, and aesthetic that was prevalent throughout the mid-to-late 1960s . Closely connected to the Mod and Swinging London scene, Freakbeat bands combined aspects of British rhythm & blues, beat, and pop rock with psychedelic , proto-punk , and distorted studio effects, culminating in a genre which embodied British 1960s counterculture. Visually, Freakbeat places high emphasis on psychedelic graphic design, sometimes utilising photographs of bands associated with the genre.\n\nThe initial Freakbeat scene was a product of Liverpudlian beat music, Mod-driven Swinging London, and combining it with heavier more uncommercial sounds to create a sonically distinct genre often drawing parallels with American garage rock. Freakbeat largely fell out of popularity towards the end of the 1960s into the 1970s , experiencing a resurgence and recognition in the 1980s spurred on by the Mod revival. [ 2 ]",
   "culturalContext": "Key values (per the Aesthetics Wiki): Modernity , psychedelia , youth culture",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fcfcfc",
+      "name": "ivory"
+    },
+    {
+      "hex": "#2979ab",
+      "name": "denim blue"
+    },
+    {
+      "hex": "#a7a34d",
+      "name": "brass"
+    },
+    {
+      "hex": "#151010",
+      "name": "black"
+    },
+    {
+      "hex": "#e6bd41",
+      "name": "saffron yellow"
+    },
+    {
+      "hex": "#46534f",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "All"
   },
@@ -63,7 +89,20 @@
     "psychedelia",
     "youth culture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Flowerpowerportfolio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/75/Flowerpowerportfolio.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/75/Flowerpowerportfolio.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Flowerpowerportfolio.jpg",
+      "caption": "VW Bug - Flower Power Hippie Paint Job",
+      "source": "Wikimedia Commons",
+      "artist": "Rightleftright",
+      "license": "Public domain",
+      "width": "698",
+      "height": "361"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Freakbeat (CC BY-SA)",
@@ -71,13 +110,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2607836",
+      "url": "https://www.wikidata.org/wiki/Q2607836",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:17:14.851Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Freakbeat",
+      "url": "https://en.wikipedia.org/wiki/Freakbeat",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:17:14.851Z"
+      }
+    }
+  ],
+  "wikidata": "Q2607836",
+  "wikipedia": "Freakbeat",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:30.455Z"
 }

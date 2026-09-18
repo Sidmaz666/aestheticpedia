@@ -11,8 +11,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Russia",
+  "geography": "Russia",
   "periodStart": "1910s",
   "periodEnd": "1910s",
   "startYear": 1911,
@@ -21,7 +21,33 @@
   "summary": "Rayonism (or Rayism or Rayonnism) was a style of abstract art that developed in Russia in 1910–1914.",
   "description": "Rayonism (or Rayism or Rayonnism) was a style of abstract art that developed in Russia in 1910–1914. Founded and named by Russian Cubo-Futurists Mikhail Larionov and Natalia Goncharova, it was one of Russia's first abstract art movements.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#d32111",
+      "name": "rust"
+    },
+    {
+      "hex": "#e44f27",
+      "name": "vermilion"
+    },
+    {
+      "hex": "#6b1616",
+      "name": "burgundy"
+    },
+    {
+      "hex": "#f1d73d",
+      "name": "saffron yellow"
+    },
+    {
+      "hex": "#a13a34",
+      "name": "brick"
+    },
+    {
+      "hex": "#f2f2e8",
+      "name": "paper white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -121,5 +147,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T11:02:09.319Z"
+  "updatedAt": "2026-09-18T14:58:41.437Z"
 }

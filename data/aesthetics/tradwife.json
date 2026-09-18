@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (TikTok, Instagram, YouTube)",
   "geography": "Online",
   "periodStart": "Late 2010s–2020s",
   "periodEnd": "",
@@ -22,8 +22,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Traditional gender roles, domesticity, anti-feminism, family, submission, homemaking",
   "colors": [
     {
-      "hex": "#ffd1dc",
-      "name": "pastel"
+      "hex": "#e9e9d8",
+      "name": "paper white"
+    },
+    {
+      "hex": "#c9c9bd",
+      "name": "silver"
+    },
+    {
+      "hex": "#abab9f",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#777977",
+      "name": "slate"
+    },
+    {
+      "hex": "#9e8d80",
+      "name": "stone"
+    },
+    {
+      "hex": "#765b50",
+      "name": "umber"
     }
   ],
   "paletteSource": "derived",
@@ -64,7 +84,48 @@
     "submission",
     "homemaking"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/The_Ladies%27_home_journal_%281948%29_%2814764187131%29.jpg/1280px-The_Ladies%27_home_journal_%281948%29_%2814764187131%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/The_Ladies%27_home_journal_%281948%29_%2814764187131%29.jpg/500px-The_Ladies%27_home_journal_%281948%29_%2814764187131%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c0/The_Ladies%27_home_journal_%281948%29_%2814764187131%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Ladies%27_home_journal_(1948)_(14764187131).jpg",
+      "caption": "Identifier : ladieshomejourna65janwyet ( find matches ) Title : The Ladies' home journal Year : 1889 ( 1880s ) Authors : Wyeth, N. C. (Newell Convers), 1882-1945 Subjects : Women's periodicals Janice Bluestein Longone Culinary Archive Publisher : Philadelphia : (s.n.) Contributin",
+      "source": "Wikimedia Commons",
+      "artist": "Albert Dorne",
+      "date": "1948",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1204"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Good_housekeeping_1908_08_a.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/47/Good_housekeeping_1908_08_a.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/47/Good_housekeeping_1908_08_a.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Good_housekeeping_1908_08_a.jpg",
+      "caption": "A cover of \"Good Housekeeping\" magazine, 1908, made en:John Cecil Clay .",
+      "source": "Wikimedia Commons",
+      "artist": "John Cecil Clay",
+      "date": "1908",
+      "license": "Public domain",
+      "width": "565",
+      "height": "800"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Ninot_infantil_falla_Antic_Regne.JPG/1280px-Ninot_infantil_falla_Antic_Regne.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Ninot_infantil_falla_Antic_Regne.JPG/500px-Ninot_infantil_falla_Antic_Regne.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Ninot_infantil_falla_Antic_Regne.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ninot_infantil_falla_Antic_Regne.JPG",
+      "caption": "\"Gracias Mamá\"... sense comentaris",
+      "source": "Wikimedia Commons",
+      "artist": "Coentor",
+      "date": "2012-03-16",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Tradwife (CC BY-SA)",
@@ -72,13 +133,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Tradwife",
+      "url": "https://commons.wikimedia.org/wiki/Category:Tradwife",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:31:16.429Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q85810382",
+      "url": "https://www.wikidata.org/wiki/Q85810382",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:31:16.429Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Tradwife",
+      "url": "https://en.wikipedia.org/wiki/Tradwife",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:31:16.429Z"
+      }
+    }
+  ],
+  "wikidata": "Q85810382",
+  "wikipedia": "Tradwife",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:31:16.429Z"
 }

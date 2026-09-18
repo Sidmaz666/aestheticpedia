@@ -11,7 +11,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (Tumblr)",
   "geography": "Online",
   "periodStart": "2010s",
   "periodEnd": "",
@@ -77,7 +77,22 @@
     "ddlg",
     "femininity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Paris_Hilton_Cannes_2016.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Paris_Hilton_Cannes_2016.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Paris_Hilton_Cannes_2016.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paris_Hilton_Cannes_2016.jpg",
+      "caption": "Paris Hilton au festival de Cannes",
+      "source": "Wikimedia Commons",
+      "artist": "Georges Biard",
+      "date": "2016-05-17",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "566",
+      "height": "800"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Bubblegum Coquette (CC BY-SA)",
@@ -85,13 +100,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2281589",
+      "url": "https://www.wikidata.org/wiki/Q2281589",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:12:19.594Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Bimbo",
+      "url": "https://en.wikipedia.org/wiki/Bimbo",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:12:19.594Z"
+      }
+    }
+  ],
+  "wikidata": "Q2281589",
+  "wikipedia": "Bimbo",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:12:19.594Z"
 }

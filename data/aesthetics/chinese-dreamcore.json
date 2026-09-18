@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "China",
   "geography": "Online",
   "periodStart": "2020s",
   "periodEnd": "",
@@ -17,7 +17,33 @@
   "summary": "Chinese Dreamcore ( 中式梦核 ) is the Chinese intepretation of Dreamcore , with less focus on surrealism and more on nostalgia of Millennium China.",
   "description": "Chinese Dreamcore ( 中式梦核 ) is the Chinese intepretation of Dreamcore , with less focus on surrealism and more on nostalgia of Millennium China. A more accurate but less used name for the aesthetic is Chinese Nostalgiacore . [ 1 ] [ 2 ]",
   "culturalContext": "Key values (per the Aesthetics Wiki): Nostalgia",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#3464af",
+      "name": "cerulean"
+    },
+    {
+      "hex": "#66620a",
+      "name": "sepia"
+    },
+    {
+      "hex": "#50749c",
+      "name": "slate"
+    },
+    {
+      "hex": "#a58973",
+      "name": "stone"
+    },
+    {
+      "hex": "#77767d",
+      "name": "slate 2"
+    },
+    {
+      "hex": "#120b0a",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -45,7 +71,36 @@
     "aesthetics wiki",
     "nostalgia"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Dreamcore1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Dreamcore1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Dreamcore1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dreamcore1.jpg",
+      "caption": "Dreamcore1",
+      "source": "Wikimedia Commons",
+      "artist": "Daniel.fox123",
+      "date": "2026-01-05",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "736",
+      "height": "736"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Dreamcore2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/28/Dreamcore2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/Dreamcore2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dreamcore2.jpg",
+      "caption": "A dreamcore linked image using surreal elements.",
+      "source": "Wikimedia Commons",
+      "artist": "Secret-Walrus2872",
+      "date": "2026-06-19",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Chinese Dreamcore (CC BY-SA)",
@@ -53,13 +108,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q140984086",
+      "url": "https://www.wikidata.org/wiki/Q140984086",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:13:15.195Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Dreamcore (aesthetic)",
+      "url": "https://en.wikipedia.org/wiki/Dreamcore_(aesthetic)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:13:15.195Z"
+      }
+    }
+  ],
+  "wikidata": "Q140984086",
+  "wikipedia": "Dreamcore (aesthetic)",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:13:15.195Z"
 }

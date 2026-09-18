@@ -19,26 +19,31 @@
   "culturalContext": "",
   "colors": [
     {
-      "hex": "#ffa500",
-      "name": "Safety Orange"
+      "hex": "#240e04",
+      "name": "black"
     },
     {
-      "hex": "#ff8c00",
-      "name": "Dark Orange"
+      "hex": "#592905",
+      "name": "sepia"
     },
     {
-      "hex": "#ffd700",
-      "name": "Gold"
+      "hex": "#8c4d08",
+      "name": "chocolate"
     },
     {
-      "hex": "#ff4500",
-      "name": "Orange Red"
+      "hex": "#c6c9d6",
+      "name": "silver"
     },
     {
-      "hex": "#8b4513",
-      "name": "Saddle Brown"
+      "hex": "#f4e0cf",
+      "name": "bone white"
+    },
+    {
+      "hex": "#2d335c",
+      "name": "charcoal"
     }
   ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -72,35 +77,8 @@
   "graphicDesign": {},
   "uiTranslation": {},
   "recipe": {},
-  "emotionProfile": {
-    "warm": 90,
-    "cold": 10,
-    "playful": 10,
-    "serious": 60,
-    "chaotic": 20,
-    "ordered": 50,
-    "nostalgic": 90,
-    "futuristic": 10,
-    "peaceful": 40,
-    "ominous": 30
-  },
-  "dnaAxes": {
-    "minimal_maximal": 70,
-    "organic_geometric": 50,
-    "warm_cold": 80,
-    "natural_synthetic": 60,
-    "analog_digital": 90,
-    "historical_futuristic": 40,
-    "refined_raw": 60,
-    "playful_serious": 20,
-    "soft_harsh": 40,
-    "quiet_loud": 50,
-    "orderly_chaotic": 30,
-    "dense_spacious": 60,
-    "realistic_surreal": 40,
-    "elegant_utilitarian": 30,
-    "nostalgic_progressive": 80
-  },
+  "emotionProfile": {},
+  "dnaAxes": {},
   "keyExamples": [
     "American suburban streets at night",
     "Highway rest stops",
@@ -129,12 +107,7 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1920",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
+      "height": "1920"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/A_High_Pressure_Sodium_Light_in_Toronto.jpg/1280px-A_High_Pressure_Sodium_Light_in_Toronto.jpg",
@@ -148,12 +121,7 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1707",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
+      "height": "1707"
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/SOX_lamp_Wrexham_2004.jpg",
@@ -167,12 +135,7 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "558",
-      "height": "374",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
+      "height": "374"
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Paaltoppers_met_sox.jpg",
@@ -186,123 +149,7 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "969",
-      "height": "731",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/LPS_Lamp_35W.jpg/1280px-LPS_Lamp_35W.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/LPS_Lamp_35W.jpg/500px-LPS_Lamp_35W.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e7/LPS_Lamp_35W.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:LPS_Lamp_35W.jpg",
-      "caption": "Low Pressure Sodium Lamp, OSRAM 35W SOX",
-      "source": "Wikimedia Commons",
-      "artist": "Proton02",
-      "date": "2007-02-04",
-      "license": "Public domain",
-      "width": "1280",
-      "height": "370",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/LPS_lamp_warm-up.png/1280px-LPS_lamp_warm-up.png",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/LPS_lamp_warm-up.png/500px-LPS_lamp_warm-up.png",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e4/LPS_lamp_warm-up.png",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:LPS_lamp_warm-up.png",
-      "caption": "Warm-up sequence of a Philips SOX 35W U-shaped low-pressure sodium-vapor lamp : 1., 2. As the lamp's turned on, the Penning mixture starts glowing in a faint pink color (strongly resembling the light of the neon signs ). 3., 4. As the sodium evaporates, gradually the whole lamp g",
-      "source": "Wikimedia Commons",
-      "artist": "CoolKoon",
-      "date": "2018-01-28",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "width": "1280",
-      "height": "1185",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/LPS_Lamp_35W_running.jpg/1280px-LPS_Lamp_35W_running.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/LPS_Lamp_35W_running.jpg/500px-LPS_Lamp_35W_running.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0d/LPS_Lamp_35W_running.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:LPS_Lamp_35W_running.jpg",
-      "caption": "Low Pressure Sodium Lamp, OSRAM 35W SOX, running",
-      "source": "Wikimedia Commons",
-      "artist": "Proton02",
-      "date": "2007-02-04",
-      "license": "Public domain",
-      "width": "1280",
-      "height": "371",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sodium-glow.jpg/1280px-Sodium-glow.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sodium-glow.jpg/500px-Sodium-glow.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Sodium-glow.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sodium-glow.jpg",
-      "caption": "Sodium glows in a very specific yellow. A common application for this are sodium vapor lamps, which are often used as street lights, like the one shown here. Those spend relatively little energy, give a good contrast and are more compatible for nocturnal insects.",
-      "source": "Wikimedia Commons",
-      "artist": "Jurii",
-      "date": "25 July 2009",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-      "width": "1280",
-      "height": "1280",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/SON-T-Master-600W.jpg/1280px-SON-T-Master-600W.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/SON-T-Master-600W.jpg/500px-SON-T-Master-600W.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/4/47/SON-T-Master-600W.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:SON-T-Master-600W.jpg",
-      "caption": "600W SON Master PIA in operation pictured through ND4 filter.",
-      "source": "Wikimedia Commons",
-      "artist": "Skatebiker",
-      "date": "2011-03-04",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-      "width": "1280",
-      "height": "960",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/SON-T_Master_600W.jpg/1280px-SON-T_Master_600W.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/SON-T_Master_600W.jpg/500px-SON-T_Master_600W.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/9/91/SON-T_Master_600W.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:SON-T_Master_600W.jpg",
-      "caption": "High pressure sodium lamp Philips SON-T Master 600W.",
-      "source": "Wikimedia Commons",
-      "artist": "Skatebiker",
-      "date": "2008-12-21",
-      "license": "Public domain",
-      "width": "1280",
-      "height": "531",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
+      "height": "731"
     }
   ],
   "sources": [
@@ -346,7 +193,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
+        "checkedAt": "2026-09-18T15:29:12.355Z"
       }
     }
   ],
@@ -355,5 +202,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:52:20.016Z",
-  "updatedAt": "2026-09-18T05:10:41.854Z"
+  "updatedAt": "2026-09-18T15:46:00.789Z"
 }

@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "France",
   "geography": "Online",
   "periodStart": "Late 90s/Early 2000s",
   "periodEnd": "",
@@ -17,7 +17,33 @@
   "summary": "This fashion is heavily associated with certain brands specializing in Lolita and different substyles, and Lolitas must purchase their clothes through these stores and the secondhand market instead of typical fashion retailers, which would not have such clothes.",
   "description": "This fashion is heavily associated with certain brands specializing in Lolita and different substyles, and Lolitas must purchase their clothes through these stores and the secondhand market instead of typical fashion retailers, which would not have such clothes.\n\nLolita is a subculture that revolves around fashion, so only people who wear the fashion are considered a part of it. Like other fashion subcultures, the emphasis is always on the clothing and the visuals not associated with the fashion are based on other aesthetics, such as Dollcore , Kawaii , or Gothic . However, there may be a \"lifestyle\" component to Lolita, wherein some Lolitas participate in princess-like activities such as tea-drinking. Participating in lifestyle elements is less popular and considered unnecessary from 2018-2020 onwards, and the fashion has always been focused on collecting garments and coordinating pieces together.\n\nFor more information on Lolita, feel free to visit the Lolita Fashion Wiki .",
   "culturalContext": "Key values (per the Aesthetics Wiki): Femininity, confidence, independence from the male gaze, and youth",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#6e8944",
+      "name": "olive green"
+    },
+    {
+      "hex": "#363a32",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#181818",
+      "name": "black"
+    },
+    {
+      "hex": "#555555",
+      "name": "graphite"
+    },
+    {
+      "hex": "#757575",
+      "name": "slate"
+    },
+    {
+      "hex": "#959595",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Depends on the substyle"
   },
@@ -47,7 +73,34 @@
     "independence from the male gaze",
     "youth"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Lolita_1955.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/57/Lolita_1955.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/57/Lolita_1955.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lolita_1955.JPG",
+      "caption": "Cover of the first edition of Lolita by Vladmir Nabokov .",
+      "source": "Wikimedia Commons",
+      "artist": "Olympia Press",
+      "date": "1955",
+      "license": "Public domain",
+      "width": "666",
+      "height": "1051"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Vladimir_Nabokov_1973.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/87/Vladimir_Nabokov_1973.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/87/Vladimir_Nabokov_1973.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vladimir_Nabokov_1973.jpg",
+      "caption": "Vladimir Nabokov",
+      "source": "Wikimedia Commons",
+      "artist": "Walter Mori (Mondadori Publishers)",
+      "date": "1973",
+      "license": "Public domain",
+      "width": "671",
+      "height": "1024"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Lolita (CC BY-SA)",
@@ -55,13 +108,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q127149",
+      "url": "https://www.wikidata.org/wiki/Q127149",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:22:08.997Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Lolita",
+      "url": "https://en.wikipedia.org/wiki/Lolita",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:22:08.997Z"
+      }
+    }
+  ],
+  "wikidata": "Q127149",
+  "wikipedia": "Lolita",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:36.289Z"
 }

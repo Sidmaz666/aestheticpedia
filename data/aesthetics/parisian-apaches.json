@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "French Third Republic",
   "geography": "Online",
   "periodStart": "1890s–1910s",
   "periodEnd": "",
@@ -70,7 +70,48 @@
     "hypermasculinity",
     "territoriality"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Apachesvspolicebastille.jpg/1280px-Apachesvspolicebastille.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Apachesvspolicebastille.jpg/500px-Apachesvspolicebastille.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/17/Apachesvspolicebastille.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Apachesvspolicebastille.jpg",
+      "caption": "\"The Prowlers Again! An Encounter Between Apaches and Police Officers on the Place de la Bastille.\" Illustrated Supplement to \"Le Petit Journal\", August 14, C.E.1904.",
+      "source": "Wikimedia Commons",
+      "artist": "Le Petit Journal",
+      "date": "1904-08-14",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "885"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Le_Petit_Journal_-_Apache.jpg/1280px-Le_Petit_Journal_-_Apache.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Le_Petit_Journal_-_Apache.jpg/500px-Le_Petit_Journal_-_Apache.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/Le_Petit_Journal_-_Apache.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Le_Petit_Journal_-_Apache.jpg",
+      "caption": "Cover page of \"Le Petit Journal\", 20 0ctober 1907. \"L'apache est la plaie de Paris. Plus de 30.000 rôdeurs contre 8.000 sergents de ville.\"",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1907-10-20",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1795"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Apache_revolver.jpg/1280px-Apache_revolver.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Apache_revolver.jpg/500px-Apache_revolver.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/Apache_revolver.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Apache_revolver.jpg",
+      "caption": "secure.wikimedia.org/wikipedia/en/wiki/Apache_revolver Revolver \"casse-tete\" Liége, 1875",
+      "source": "Wikimedia Commons",
+      "artist": "Latente Flickr",
+      "date": "2011-08-19 12:02",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "822"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Parisian Apaches (CC BY-SA)",
@@ -78,13 +119,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2747828",
+      "url": "https://www.wikidata.org/wiki/Q2747828",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:25:18.769Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Apaches (subculture)",
+      "url": "https://en.wikipedia.org/wiki/Apaches_(subculture)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:25:18.769Z"
+      }
+    }
+  ],
+  "wikidata": "Q2747828",
+  "wikipedia": "Apaches (subculture)",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:39.680Z"
 }

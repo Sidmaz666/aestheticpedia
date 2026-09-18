@@ -11,7 +11,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Sweden",
   "geography": "Online",
   "periodStart": "Late 18th century (c. 1764)",
   "periodEnd": "",
@@ -87,7 +87,21 @@
     "fascination with the past",
     "the supernatural"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Carta_Marina_Ex_Scandia.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Carta_Marina_Ex_Scandia.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Carta_Marina_Ex_Scandia.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Carta_Marina_Ex_Scandia.jpg",
+      "caption": "Table of tribes originating from Scandinavia, with reference to authors like Jordanes, Paulus Diakonos, etcetera",
+      "source": "Wikimedia Commons",
+      "artist": "Olaus Magnus, Johannes Magnus",
+      "date": "1539",
+      "license": "Public domain",
+      "width": "568",
+      "height": "791"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Gothic (CC BY-SA)",
@@ -95,13 +109,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2390991",
+      "url": "https://www.wikidata.org/wiki/Q2390991",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:18:10.149Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gothicism",
+      "url": "https://en.wikipedia.org/wiki/Gothicism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:18:10.149Z"
+      }
+    }
+  ],
+  "wikidata": "Q2390991",
+  "wikipedia": "Gothicism",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:32.307Z"
 }

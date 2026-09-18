@@ -79,7 +79,61 @@
     "bravery",
     "gang loyalty"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/MHBgreaser.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/20/MHBgreaser.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/20/MHBgreaser.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:MHBgreaser.jpg",
+      "caption": "Picture of my father, Michel H Beaudoin.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "circa 1960 date QS:P,+1960-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "496",
+      "height": "958"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/LA_teens.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/12/LA_teens.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/12/LA_teens.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:LA_teens.jpg",
+      "caption": "Mexican-American teens at Venice Senior High school. [Ref: Venice Senior High School yearbook: The Gondolier . 1974]",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1974",
+      "license": "Public domain",
+      "width": "935",
+      "height": "492"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Valentino_evening_gown_for_Audrey_Hepburn.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Valentino_evening_gown_for_Audrey_Hepburn.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Valentino_evening_gown_for_Audrey_Hepburn.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Valentino_evening_gown_for_Audrey_Hepburn.jpg",
+      "caption": "Dress made by Valentino, worn by Audrey Hepburn. Photographed at the exhibition \"Valentino a Roma\" at Museo Ara Pacis in Rome",
+      "source": "Wikimedia Commons",
+      "artist": "Loquax",
+      "date": "2008-08",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "670",
+      "height": "1763"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BathingSuit1920s.jpg",
+      "caption": "Woman's bathing suit from 1920s. Photo postcard. No copyright notice on card. This is a SOL postcard, series 2832. Here is a larger example of the posted image.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "early 1920s date QS:P,+1920-00-00T00:00:00Z/8,P4241,Q4071972",
+      "license": "Public domain",
+      "width": "768",
+      "height": "490"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Greaser (CC BY-SA)",
@@ -87,13 +141,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2726691",
+      "url": "https://www.wikidata.org/wiki/Q2726691",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:18:13.766Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Greaser (subculture)",
+      "url": "https://en.wikipedia.org/wiki/Greaser_(subculture)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:18:13.766Z"
+      }
+    }
+  ],
+  "wikidata": "Q2726691",
+  "wikipedia": "Greaser (subculture)",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:18:13.766Z"
 }

@@ -21,7 +21,33 @@
   "summary": "The Swingjugend (Swing Youth) were a youth counterculture in Nazi Germany during the late 1930s and early 1940s, primarily active in cities like Hamburg and Berlin.",
   "description": "The Swingjugend (Swing Youth) were a youth counterculture in Nazi Germany during the late 1930s and early 1940s, primarily active in cities like Hamburg and Berlin. The movement consisted of teenagers and young adults who expressed their opposition to the Nazi regime through an aesthetic of cultural rebellion. Their defiance was centered on an affinity for American and British swing and jazz music, and the adoption of a distinct Anglo-American fashion style. [ 1 ]\n\nWhile largely apolitical in their initial aims, the Swingjugend's celebration of individualism, personal freedom, and \"degenerate\" foreign music was a direct affront to the Nazi ideals of militarism, nationalism, and uniformity. Their very existence was perceived as a political threat, leading to brutal persecution by the Gestapo. [ 2 ]",
   "culturalContext": "Key values (per the Aesthetics Wiki): Individuality, freedom, non-conformism, internationalism, love of life, self-determination",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#9f9c95",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#8c857d",
+      "name": "taupe"
+    },
+    {
+      "hex": "#b8b8b3",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#4b4847",
+      "name": "graphite"
+    },
+    {
+      "hex": "#666564",
+      "name": "umber"
+    },
+    {
+      "hex": "#292827",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Varies, often featuring checked patterns and brighter colors than military uniforms"
   },
@@ -60,7 +86,49 @@
     "love of life",
     "self-determination"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Swing_tanzen_verboten_Humboldt_Forum.jpg/1280px-Swing_tanzen_verboten_Humboldt_Forum.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Swing_tanzen_verboten_Humboldt_Forum.jpg/500px-Swing_tanzen_verboten_Humboldt_Forum.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/23/Swing_tanzen_verboten_Humboldt_Forum.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Swing_tanzen_verboten_Humboldt_Forum.jpg",
+      "caption": "\"Swing tanzen verboten\", Illustration in Ausstellung im Humboldt Forum",
+      "source": "Wikimedia Commons",
+      "artist": "ChickSR",
+      "date": "2021-08-12 12:05:12",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Scholl-Denkmal%2C_M%C3%BCnchen.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/88/Scholl-Denkmal%2C_M%C3%BCnchen.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Scholl-Denkmal%2C_M%C3%BCnchen.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Scholl-Denkmal,_M%C3%BCnchen.jpg",
+      "caption": "Monument to Hans and Sophie Scholl and the \" White Rose \" (German: Die Weiße Rose ) resistance movement against the Nazi regime, in front of Ludwig-Maximilians-Universität in Munich, Bavaria, Germany.",
+      "source": "Wikimedia Commons",
+      "artist": "Gryffindor",
+      "date": "2005-07-10",
+      "license": "Public domain",
+      "width": "1024",
+      "height": "1454"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Bundesarchiv_Bild_183-1985-0417-15%2C_Ravensbr%C3%BCck%2C_Konzentrationslager.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/18/Bundesarchiv_Bild_183-1985-0417-15%2C_Ravensbr%C3%BCck%2C_Konzentrationslager.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/18/Bundesarchiv_Bild_183-1985-0417-15%2C_Ravensbr%C3%BCck%2C_Konzentrationslager.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1985-0417-15,_Ravensbr%C3%BCck,_Konzentrationslager.jpg",
+      "caption": "For documentary purposes the German Federal Archive often retained the original image captions , which may be erroneous, biased, obsolete or politically extreme . Ravensbrück, Konzentrationslager ADN-ZB 17.4.85 [Herausgabedatum] Bez. Potsdam: Zum 40. Jahrestag der Befreiung des K",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown Unknown",
+      "date": "1939 date QS:P571,+1939-00-00T00:00:00Z/9",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "width": "878",
+      "height": "611"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Swingjugend (CC BY-SA)",
@@ -68,13 +136,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q512889",
+      "url": "https://www.wikidata.org/wiki/Q512889",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:30:18.903Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Swingjugend",
+      "url": "https://en.wikipedia.org/wiki/Swingjugend",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:30:18.903Z"
+      }
+    }
+  ],
+  "wikidata": "Q512889",
+  "wikipedia": "Swingjugend",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:30:18.903Z"
 }

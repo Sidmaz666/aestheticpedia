@@ -87,35 +87,8 @@
     "motion": "stage-set courtyard pans"
   },
   "recipe": {},
-  "emotionProfile": {
-    "warm": 75,
-    "cold": 25,
-    "playful": 65,
-    "serious": 35,
-    "chaotic": 60,
-    "ordered": 40,
-    "nostalgic": 60,
-    "futuristic": 20,
-    "peaceful": 40,
-    "ominous": 20
-  },
-  "dnaAxes": {
-    "minimal_maximal": 50,
-    "organic_geometric": 50,
-    "warm_cold": 70,
-    "natural_synthetic": 60,
-    "analog_digital": 90,
-    "historical_futuristic": 50,
-    "refined_raw": 40,
-    "playful_serious": 60,
-    "soft_harsh": 60,
-    "quiet_loud": 70,
-    "orderly_chaotic": 60,
-    "dense_spacious": 70,
-    "realistic_surreal": 50,
-    "elegant_utilitarian": 50,
-    "nostalgic_progressive": 45
-  },
+  "emotionProfile": {},
+  "dnaAxes": {},
   "keyExamples": [
     "Palazzo Piccolomini",
     "Baptistry of Siena",
@@ -130,198 +103,7 @@
     "baroque",
     "colorful"
   ],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Siena_Cattedrale_nuova_Vista_su_la_Piazza_del_Campo_2.jpg/1280px-Siena_Cattedrale_nuova_Vista_su_la_Piazza_del_Campo_2.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Siena_Cattedrale_nuova_Vista_su_la_Piazza_del_Campo_2.jpg/500px-Siena_Cattedrale_nuova_Vista_su_la_Piazza_del_Campo_2.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/2/20/Siena_Cattedrale_nuova_Vista_su_la_Piazza_del_Campo_2.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Siena_Cattedrale_nuova_Vista_su_la_Piazza_del_Campo_2.jpg",
-      "caption": "View from the new Cathedral to the Field Square, Siena, Province of Siena, Region of Tuscany, Italy",
-      "source": "Wikimedia Commons",
-      "artist": "Zairon",
-      "date": "2023-04-19 14:26:19",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "width": "1280",
-      "height": "857",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Siena_Palazzo-Pubblico-Campanile-JBU02.jpg/1280px-Siena_Palazzo-Pubblico-Campanile-JBU02.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Siena_Palazzo-Pubblico-Campanile-JBU02.jpg/500px-Siena_Palazzo-Pubblico-Campanile-JBU02.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/1/11/Siena_Palazzo-Pubblico-Campanile-JBU02.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Siena_Palazzo-Pubblico-Campanile-JBU02.jpg",
-      "caption": "View of Siena (Tuscany) with the campanile or bell tower, Torre del Mangia, built between 1325 and 1344, of the Palazzo Pubblico (town hall).",
-      "source": "Wikimedia Commons",
-      "artist": "Jörg Bittner (Unna)",
-      "date": "2012-10-02 17:57:40",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "width": "1280",
-      "height": "720",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Siena_Duomo_JBU03.jpg/1280px-Siena_Duomo_JBU03.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Siena_Duomo_JBU03.jpg/500px-Siena_Duomo_JBU03.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Siena_Duomo_JBU03.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Siena_Duomo_JBU03.jpg",
-      "caption": "View of Siena (Tuscany) with the Duomo. Cathedral begun in the 12th century, Italian Romanesque-Gothic architecture. Its main façade was completed in 1380.",
-      "source": "Wikimedia Commons",
-      "artist": "Jörg Bittner (Unna)",
-      "date": "2012-10-02 17:57:47",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "width": "1280",
-      "height": "720",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Interior_of_the_dome%2C_Duomo%2C_Siena%2C_Italy.jpg/1280px-Interior_of_the_dome%2C_Duomo%2C_Siena%2C_Italy.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Interior_of_the_dome%2C_Duomo%2C_Siena%2C_Italy.jpg/500px-Interior_of_the_dome%2C_Duomo%2C_Siena%2C_Italy.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Interior_of_the_dome%2C_Duomo%2C_Siena%2C_Italy.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_the_dome,_Duomo,_Siena,_Italy.jpg",
-      "caption": "The interior of the dome in the Siena cathedral",
-      "source": "Wikimedia Commons",
-      "artist": "Peter K Burian",
-      "date": "2017-05-23 05:24:50",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "width": "1280",
-      "height": "1920",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Siena_city_center_view_from_top_of_Torre_del_Mangia%2C_Siena%2C_Italy.jpg/1280px-Siena_city_center_view_from_top_of_Torre_del_Mangia%2C_Siena%2C_Italy.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Siena_city_center_view_from_top_of_Torre_del_Mangia%2C_Siena%2C_Italy.jpg/500px-Siena_city_center_view_from_top_of_Torre_del_Mangia%2C_Siena%2C_Italy.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/3/36/Siena_city_center_view_from_top_of_Torre_del_Mangia%2C_Siena%2C_Italy.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Siena_city_center_view_from_top_of_Torre_del_Mangia,_Siena,_Italy.jpg",
-      "caption": "Siena, Tuscany, Italy. Siena's enduring artistic glories are largely Gothic. The historic centre is a Unesco World Heritage Site. When it's 12 a.m in Moscow, it's still 1200 in Siena.",
-      "source": "Wikimedia Commons",
-      "artist": "Vyacheslav Argenberg",
-      "date": "2006-05-14 14:20:41",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "width": "1280",
-      "height": "853",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Italy_tuscany_siena1.jpg/1280px-Italy_tuscany_siena1.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Italy_tuscany_siena1.jpg/500px-Italy_tuscany_siena1.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Italy_tuscany_siena1.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Italy_tuscany_siena1.jpg",
-      "caption": "Die Piazza del Campo in Siena mit der kurzen Eingangspforte \"Costarella dei Barbieri\" zum Platz von der Hauptstrasse \" Via di Città \" hinter den Palazzi und hohen Häusern am Stadtplatz.",
-      "source": "Wikimedia Commons",
-      "artist": "Guido Haeger",
-      "date": "2006-05-01",
-      "license": "CC BY-SA 2.0 de",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
-      "width": "1280",
-      "height": "851",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/San_Domenico_church_in_Siena%2C_Italy.jpg/1280px-San_Domenico_church_in_Siena%2C_Italy.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/San_Domenico_church_in_Siena%2C_Italy.jpg/500px-San_Domenico_church_in_Siena%2C_Italy.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/b/be/San_Domenico_church_in_Siena%2C_Italy.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:San_Domenico_church_in_Siena,_Italy.jpg",
-      "caption": "San Domenico Church in Siena, Italy",
-      "source": "Wikimedia Commons",
-      "artist": "User:Pichote",
-      "date": "2004-09-29",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "width": "1280",
-      "height": "960",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/201105_Toscane_Sienne.jpg/1280px-201105_Toscane_Sienne.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/201105_Toscane_Sienne.jpg/500px-201105_Toscane_Sienne.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e4/201105_Toscane_Sienne.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:201105_Toscane_Sienne.jpg",
-      "caption": "Siena, Tuscany view from the Campanile",
-      "source": "Wikimedia Commons",
-      "artist": "Raymondlafourchette",
-      "date": "2011-07-16",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "width": "1280",
-      "height": "440",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Sienese_She-Wolf_at_Siena_Duomo.jpg/1280px-Sienese_She-Wolf_at_Siena_Duomo.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Sienese_She-Wolf_at_Siena_Duomo.jpg/500px-Sienese_She-Wolf_at_Siena_Duomo.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sienese_She-Wolf_at_Siena_Duomo.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sienese_She-Wolf_at_Siena_Duomo.jpg",
-      "caption": "Capitoline Wolf at Siena Duomo. By legend Siena was founded by Senius and Aschius, two sons of Remus. When they fled Rome, they took the statue of She-wolf to Siena, what becomes symbol of the town.",
-      "source": "Wikimedia Commons",
-      "artist": "Petar Milošević",
-      "date": "2014-10-27 13:55:45",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "width": "1280",
-      "height": "850",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Siena_aerial_panorama._June_2024.jpg/1280px-Siena_aerial_panorama._June_2024.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Siena_aerial_panorama._June_2024.jpg/500px-Siena_aerial_panorama._June_2024.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Siena_aerial_panorama._June_2024.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Siena_aerial_panorama._June_2024.jpg",
-      "caption": "Siena aerial panorama. June 2024.",
-      "source": "Wikimedia Commons",
-      "artist": "BobTanGo",
-      "date": "2024-06-12 01:46:45",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "width": "1280",
-      "height": "520",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
-    }
-  ],
+  "images": [],
   "sources": [
     {
       "name": "Sienese Renaissance Art",
@@ -363,7 +145,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
+        "checkedAt": "2026-09-18T15:29:02.010Z"
       }
     }
   ],
@@ -372,5 +154,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-11T04:12:02.246Z",
-  "updatedAt": "2026-09-18T05:10:35.307Z"
+  "updatedAt": "2026-09-18T15:46:00.789Z"
 }

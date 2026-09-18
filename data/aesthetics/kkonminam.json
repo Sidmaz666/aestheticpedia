@@ -21,12 +21,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Aesthetic perfection, emotional sensitivity, politeness, challenging the patriarchy",
   "colors": [
     {
-      "hex": "#ffd1dc",
-      "name": "pastel"
+      "hex": "#cb712c",
+      "name": "ochre"
     },
     {
-      "hex": "#ffffff",
-      "name": "white"
+      "hex": "#ed8c39",
+      "name": "raw sienna"
+    },
+    {
+      "hex": "#a39ba5",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#a46128",
+      "name": "copper"
+    },
+    {
+      "hex": "#e2bec9",
+      "name": "beige"
+    },
+    {
+      "hex": "#efe6ee",
+      "name": "paper white"
     }
   ],
   "paletteSource": "derived",
@@ -73,7 +89,47 @@
     "politeness",
     "challenging the patriarchy"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Dam_yeom_rip_bon_wang_hee_do%2C_from_Gugong_Bowuguan_China%2C_6th_century.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/11/Dam_yeom_rip_bon_wang_hee_do%2C_from_Gugong_Bowuguan_China%2C_6th_century.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/11/Dam_yeom_rip_bon_wang_hee_do%2C_from_Gugong_Bowuguan_China%2C_6th_century.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dam_yeom_rip_bon_wang_hee_do,_from_Gugong_Bowuguan_China,_6th_century.jpg",
+      "caption": "6th century CE, envoys (ambassadors) visit China (Tang dynasty). Left to right: Wa (Japan), Silla and Baekje (Korean kingdoms). Silla and Baekje were tributary kingdoms of China. Japan was outside the Tributary system of China. It was not a vassal of China in the 6th century. It'",
+      "source": "Wikimedia Commons",
+      "artist": "Gugong Bowuguan Taiwan",
+      "license": "Public domain",
+      "width": "535",
+      "height": "472"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/140120_Minho_Lee_c.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c8/140120_Minho_Lee_c.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c8/140120_Minho_Lee_c.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:140120_Minho_Lee_c.jpg",
+      "caption": "Lee Min-ho at the vip premiere of the movie \"Hot Young Bloods\" on January 20, 2014",
+      "source": "Wikimedia Commons",
+      "artist": "Idol Story",
+      "date": "2014-10-20 10:39:19",
+      "license": "CC BY 2.0 kr",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+      "width": "486",
+      "height": "608"
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Ko-%EA%BD%83%EB%AF%B8%EB%82%A8.oga?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Ko-꽃미남",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ko-%EA%BD%83%EB%AF%B8%EB%82%A8.oga",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "Teemeah",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Kkonminam (CC BY-SA)",
@@ -81,13 +137,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1054029",
+      "url": "https://www.wikidata.org/wiki/Q1054029",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:21:05.316Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Kkonminam",
+      "url": "https://en.wikipedia.org/wiki/Kkonminam",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:21:05.316Z"
+      }
+    }
+  ],
+  "wikidata": "Q1054029",
+  "wikipedia": "Kkonminam",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:21:05.316Z"
 }

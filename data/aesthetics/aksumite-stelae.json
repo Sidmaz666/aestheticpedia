@@ -22,22 +22,31 @@
   "culturalContext": "",
   "colors": [
     {
-      "hex": "#8a8f94",
-      "name": "granite grey"
+      "hex": "#737052",
+      "name": "bronze"
     },
     {
-      "hex": "#5c6166",
-      "name": "weathered shadow"
+      "hex": "#59563c",
+      "name": "umber"
     },
     {
-      "hex": "#c9c2b0",
-      "name": "dry season pale"
+      "hex": "#6f8fc7",
+      "name": "slate"
     },
     {
-      "hex": "#3f5d4a",
-      "name": "acacia green"
+      "hex": "#928c75",
+      "name": "stone"
+    },
+    {
+      "hex": "#a0b0c8",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#bfaf8f",
+      "name": "khaki"
     }
   ],
+  "paletteSource": "derived",
   "visualDNA": {
     "shape": "tapering storey-carved towers",
     "line": "horizontal beam-and-window registers",
@@ -92,44 +101,6 @@
   ],
   "images": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/KingEndybisEthiopia227-235CE.jpg/1280px-KingEndybisEthiopia227-235CE.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/KingEndybisEthiopia227-235CE.jpg/500px-KingEndybisEthiopia227-235CE.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7a/KingEndybisEthiopia227-235CE.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:KingEndybisEthiopia227-235CE.jpg",
-      "caption": "King Endybis Ethiopia 227-235 A.D",
-      "source": "Wikimedia Commons",
-      "artist": "PHGCOM",
-      "date": "2007",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "width": "1280",
-      "height": "650",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ethio_w3.jpg",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ethio_w3.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ethio_w3.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ethio_w3.jpg",
-      "caption": "Reconstruction/ Vue d'artiste du site de Dungur, Axoum, Éthiopie - Musée national d'Addis Abeba",
-      "source": "Wikimedia Commons",
-      "artist": "Zheim",
-      "date": "2007-12-04",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "width": "500",
-      "height": "333",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/The_North_Stelae_Park%2C_Axum%2C_Ethiopia_%282812686646%29.jpg/1280px-The_North_Stelae_Park%2C_Axum%2C_Ethiopia_%282812686646%29.jpg",
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/The_North_Stelae_Park%2C_Axum%2C_Ethiopia_%282812686646%29.jpg/500px-The_North_Stelae_Park%2C_Axum%2C_Ethiopia_%282812686646%29.jpg",
       "full": "https://upload.wikimedia.org/wikipedia/commons/7/76/The_North_Stelae_Park%2C_Axum%2C_Ethiopia_%282812686646%29.jpg",
@@ -141,12 +112,7 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "828",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
+      "height": "828"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Rome_Stele.jpg/1280px-Rome_Stele.jpg",
@@ -160,88 +126,7 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "1707",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Axumite_Palace_%282827701317%29.jpg/1280px-Axumite_Palace_%282827701317%29.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Axumite_Palace_%282827701317%29.jpg/500px-Axumite_Palace_%282827701317%29.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Axumite_Palace_%282827701317%29.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Axumite_Palace_(2827701317).jpg",
-      "caption": "This is a model of a palace, and a well-fortified one at that, believed to date to the Axumite period in Ethiopian history. The Axumite Kingdom evolved from a city-state to a regional power between the second century before the current era and the second century of the current er",
-      "source": "Wikimedia Commons",
-      "artist": "A. Davey from Where I Live Now: Pacific Northwest",
-      "date": "2007-10-30 11:43",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "width": "1280",
-      "height": "805",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Axumite_Architectural_Fragments_%282823506028%29.jpg/1280px-Axumite_Architectural_Fragments_%282823506028%29.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Axumite_Architectural_Fragments_%282823506028%29.jpg/500px-Axumite_Architectural_Fragments_%282823506028%29.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Axumite_Architectural_Fragments_%282823506028%29.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Axumite_Architectural_Fragments_(2823506028).jpg",
-      "caption": "I will go out on a limb and identify these as feline-headed waterspouts. I've seen these desribed as lion gargoyles. Since they lack obvious manes, I'd settle for calling them lionesses. I would even concede they could be lions rendered according to the conventions of their time.",
-      "source": "Wikimedia Commons",
-      "artist": "A. Davey from Where I Live Now: Pacific Northwest",
-      "date": "2007-10-30 11:38",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "width": "1280",
-      "height": "930",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Axumite_Jar_With_Figural_Spout_%282822617017%29.jpg/1280px-Axumite_Jar_With_Figural_Spout_%282822617017%29.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Axumite_Jar_With_Figural_Spout_%282822617017%29.jpg/500px-Axumite_Jar_With_Figural_Spout_%282822617017%29.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Axumite_Jar_With_Figural_Spout_%282822617017%29.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Axumite_Jar_With_Figural_Spout_(2822617017).jpg",
-      "caption": "In the collection of the Archaeological Museum in Axum, Ethiopia. These are examples of an interesting type of figural spout found on Axumite ceramic vessels. Spouts of this type feature a female head with a distinctive hairstyle or head covering that conforms tightly to the skul",
-      "source": "Wikimedia Commons",
-      "artist": "A. Davey from Where I Live Now: Pacific Northwest",
-      "date": "2007-10-30 11:34",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "width": "1280",
-      "height": "967",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/ET_Axum_asv2018-01_img41_Stelae_Park.jpg/1280px-ET_Axum_asv2018-01_img41_Stelae_Park.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/ET_Axum_asv2018-01_img41_Stelae_Park.jpg/500px-ET_Axum_asv2018-01_img41_Stelae_Park.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/1/10/ET_Axum_asv2018-01_img41_Stelae_Park.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:ET_Axum_asv2018-01_img41_Stelae_Park.jpg",
-      "caption": "Northern Stelae Park in Aksum, Tigray Region, Ethiopia",
-      "source": "Wikimedia Commons",
-      "artist": "A.Savin",
-      "date": "2018-01-31",
-      "license": "FAL",
-      "licenseUrl": "http://artlibre.org/licence/lal/en",
-      "width": "1280",
-      "height": "1706",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
+      "height": "1707"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Stelenpark_in_Axum_2010.JPG/1280px-Stelenpark_in_Axum_2010.JPG",
@@ -255,12 +140,7 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "859",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
+      "height": "859"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Small_Steles_near_Aksum.jpg/1280px-Small_Steles_near_Aksum.jpg",
@@ -272,12 +152,7 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "960",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
-      }
+      "height": "960"
     }
   ],
   "sources": [
@@ -311,7 +186,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:51:07.868Z"
+        "checkedAt": "2026-09-18T15:08:57.835Z"
       }
     }
   ],
@@ -320,5 +195,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-14T01:24:50.000Z",
-  "updatedAt": "2026-09-18T04:53:42.426Z"
+  "updatedAt": "2026-09-18T15:46:00.778Z"
 }

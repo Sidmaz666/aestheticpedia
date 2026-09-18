@@ -21,7 +21,33 @@
   "summary": "Bro Culture is a broad subculture that stereotypically depicts hypermasculine behaviors and mannerisms commonly found in young men in sports clubs, fraternities, Rock and Metal subcultures, and more recently raves and electronic music festivals.",
   "description": "Bro Culture is a broad subculture that stereotypically depicts hypermasculine behaviors and mannerisms commonly found in young men in sports clubs, fraternities, Rock and Metal subcultures, and more recently raves and electronic music festivals.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Fraternity culture, masculinity, elitism/narcissism, status, the collegiate life",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b38075",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#5b5b5d",
+      "name": "graphite"
+    },
+    {
+      "hex": "#454648",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#a36a5b",
+      "name": "dusty rose 2"
+    },
+    {
+      "hex": "#6b767e",
+      "name": "slate"
+    },
+    {
+      "hex": "#959aa0",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -65,7 +91,50 @@
     "status",
     "the collegiate life"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Frat_boys_%284656878550%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Frat_boys_%284656878550%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Frat_boys_%284656878550%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Frat_boys_(4656878550).jpg",
+      "caption": "Frat boys (4656878550)",
+      "source": "Wikimedia Commons",
+      "artist": "earauchway",
+      "date": "Taken on 31 May 2010, 10:17",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "604",
+      "height": "427"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Neil_Patrick_Harris_2008.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Neil_Patrick_Harris_2008.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Neil_Patrick_Harris_2008.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Neil_Patrick_Harris_2008.jpg",
+      "caption": "Neil Patrick Harris - CBS Comedies Premiere Party Sponsored by Flo TV, Area on La Cienega, Los Angeles - Sept. 17, 2008",
+      "source": "Wikimedia Commons",
+      "artist": "Kristin Dos Santos",
+      "date": "2008-09-17 08:20",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "823",
+      "height": "988"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Ryan_Lochte_after_winning_100_butterfly_%289002490850%29.jpg/1280px-Ryan_Lochte_after_winning_100_butterfly_%289002490850%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Ryan_Lochte_after_winning_100_butterfly_%289002490850%29.jpg/500px-Ryan_Lochte_after_winning_100_butterfly_%289002490850%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Ryan_Lochte_after_winning_100_butterfly_%289002490850%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ryan_Lochte_after_winning_100_butterfly_(9002490850).jpg",
+      "caption": "At the 2013 Santa Clara Grand Prix. Photo by JD Lasica.",
+      "source": "Wikimedia Commons",
+      "artist": "JD Lasica from Pleasanton, CA, US",
+      "date": "2013-05-31 18:23",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "881"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Bro Culture (CC BY-SA)",
@@ -73,13 +142,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Bro culture",
+      "url": "https://commons.wikimedia.org/wiki/Category:Bro_culture",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:12:14.296Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16237319",
+      "url": "https://www.wikidata.org/wiki/Q16237319",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:12:14.296Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Bro culture",
+      "url": "https://en.wikipedia.org/wiki/Bro_culture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:12:14.296Z"
+      }
+    }
+  ],
+  "wikidata": "Q16237319",
+  "wikipedia": "Bro culture",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:12:14.296Z"
 }

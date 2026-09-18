@@ -26,12 +26,28 @@
   "culturalContext": "",
   "colors": [
     {
-      "hex": "#000000",
+      "hex": "#191505",
       "name": "black"
     },
     {
-      "hex": "#ffffff",
-      "name": "white"
+      "hex": "#595033",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#353019",
+      "name": "walnut brown 2"
+    },
+    {
+      "hex": "#b6a282",
+      "name": "sand"
+    },
+    {
+      "hex": "#74694d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#938569",
+      "name": "stone"
     }
   ],
   "paletteSource": "derived",
@@ -60,7 +76,36 @@
   "tags": [
     "aesthetics wiki"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/James_Ferraro_%28cropped%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/89/James_Ferraro_%28cropped%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/89/James_Ferraro_%28cropped%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:James_Ferraro_(cropped).jpg",
+      "caption": "James Ferraro",
+      "source": "Wikimedia Commons",
+      "artist": "James_Ferraro_(original).jpg : Carlos Solares from Mexico City, Mexico derivative work: Cinemantique",
+      "date": "2012-06-10 05:29",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "840",
+      "height": "584"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Ariel_pink_%283439870529%29.jpg/1280px-Ariel_pink_%283439870529%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Ariel_pink_%283439870529%29.jpg/500px-Ariel_pink_%283439870529%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ariel_pink_%283439870529%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariel_pink_(3439870529).jpg",
+      "caption": "Ariel pink (3439870529)",
+      "source": "Wikimedia Commons",
+      "artist": "Hope Collins",
+      "date": "2009-04-13 20:39",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "848"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Blogspot Scene (CC BY-SA)",
@@ -68,13 +113,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q136908397",
+      "url": "https://www.wikidata.org/wiki/Q136908397",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:12:01.271Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Post-noise",
+      "url": "https://en.wikipedia.org/wiki/Post-noise",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:12:01.271Z"
+      }
+    }
+  ],
+  "wikidata": "Q136908397",
+  "wikipedia": "Post-noise",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:12:01.271Z"
 }

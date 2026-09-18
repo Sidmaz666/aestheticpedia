@@ -9,7 +9,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Spain",
   "geography": "Online",
   "periodStart": "1970s - 1980s",
   "periodEnd": "",
@@ -82,13 +82,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5908714",
+      "url": "https://www.wikidata.org/wiki/Q5908714",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:27:05.225Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Quinqui jargon",
+      "url": "https://en.wikipedia.org/wiki/Quinqui_jargon",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:27:05.225Z"
+      }
+    }
+  ],
+  "wikidata": "Q5908714",
+  "wikipedia": "Quinqui jargon",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:27:05.225Z"
 }

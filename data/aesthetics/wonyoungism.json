@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (TikTok, YouTube, Pinterest)",
   "geography": "Online",
   "periodStart": "2020s",
   "periodEnd": "",
@@ -75,7 +75,22 @@
     "productivity",
     "\"glowing up\""
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Wonyoung_in_2025.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/99/Wonyoung_in_2025.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/99/Wonyoung_in_2025.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Wonyoung_in_2025.png",
+      "caption": "Wonyoung departing aiport in 2025",
+      "source": "Wikimedia Commons",
+      "artist": "https://www.youtube.com/@_TV10",
+      "date": "2025-10-04",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "639",
+      "height": "805"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Wonyoungism (CC BY-SA)",
@@ -83,13 +98,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q135990549",
+      "url": "https://www.wikidata.org/wiki/Q135990549",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:33:06.240Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Wonyoungism",
+      "url": "https://en.wikipedia.org/wiki/Wonyoungism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:33:06.240Z"
+      }
+    }
+  ],
+  "wikidata": "Q135990549",
+  "wikipedia": "Wonyoungism",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:33:06.240Z"
 }

@@ -9,7 +9,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "South Korea",
   "geography": "Online",
   "periodStart": "2010s",
   "periodEnd": "",
@@ -79,13 +79,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q123102759",
+      "url": "https://www.wikidata.org/wiki/Q123102759",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:11:01.024Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Baddie (song)",
+      "url": "https://en.wikipedia.org/wiki/Baddie_(song)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:11:01.024Z"
+      }
+    }
+  ],
+  "wikidata": "Q123102759",
+  "wikipedia": "Baddie (song)",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:24.109Z"
 }

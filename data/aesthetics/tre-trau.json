@@ -11,7 +11,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (Flickr)",
   "geography": "Online",
   "periodStart": "Late 2000s - Late 2010s",
   "periodEnd": "",
@@ -61,13 +61,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q15052684",
+      "url": "https://www.wikidata.org/wiki/Q15052684",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:31:18.780Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Young Buffalo",
+      "url": "https://en.wikipedia.org/wiki/Young_Buffalo",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:31:18.780Z"
+      }
+    }
+  ],
+  "wikidata": "Q15052684",
+  "wikipedia": "Young Buffalo",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:31:18.780Z"
 }

@@ -9,7 +9,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "United States",
   "geography": "Online",
   "periodStart": "1970s-2000s",
   "periodEnd": "",
@@ -78,13 +78,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5303442",
+      "url": "https://www.wikidata.org/wiki/Q5303442",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:16:01.736Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Downtown Girls",
+      "url": "https://en.wikipedia.org/wiki/Downtown_Girls",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:16:01.736Z"
+      }
+    }
+  ],
+  "wikidata": "Q5303442",
+  "wikipedia": "Downtown Girls",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:28.324Z"
 }

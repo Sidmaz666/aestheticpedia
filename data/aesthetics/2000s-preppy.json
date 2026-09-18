@@ -69,7 +69,21 @@
   "tags": [
     "aesthetics wiki"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Columbiaman.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Columbiaman.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Columbiaman.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Columbiaman.jpg",
+      "caption": "A classic 1902 college poster for Columbia University. A new century was in progress and this poster captured the life of a college student of the era. An undergraduate student is captured in a white turtleneck with the Columbia “C” on the front. He is seated in a chair smoking a",
+      "source": "Wikimedia Commons",
+      "artist": "John E. Sheridan",
+      "date": "1902",
+      "license": "Public domain",
+      "width": "626",
+      "height": "993"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — 2000s Preppy (CC BY-SA)",
@@ -77,13 +91,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1573001",
+      "url": "https://www.wikidata.org/wiki/Q1573001",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:08:39.150Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Preppy",
+      "url": "https://en.wikipedia.org/wiki/Preppy",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:08:39.150Z"
+      }
+    }
+  ],
+  "wikidata": "Q1573001",
+  "wikipedia": "Preppy",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:08:39.150Z"
 }

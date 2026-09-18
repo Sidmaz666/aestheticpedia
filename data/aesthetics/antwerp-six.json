@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Belgium",
   "geography": "Online",
   "periodStart": "Mid-1980s",
   "periodEnd": "",
@@ -83,13 +83,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2271310",
+      "url": "https://www.wikidata.org/wiki/Q2271310",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:09:15.108Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Antwerp Six",
+      "url": "https://en.wikipedia.org/wiki/Antwerp_Six",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:09:15.108Z"
+      }
+    }
+  ],
+  "wikidata": "Q2271310",
+  "wikipedia": "Antwerp Six",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:22.328Z"
 }

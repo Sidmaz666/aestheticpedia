@@ -9,7 +9,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "United Kingdom",
   "geography": "Online",
   "periodStart": "Mid-to-late 1980s",
   "periodEnd": "",
@@ -21,8 +21,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Nerdiness, sweetness, romanticism, shyness, carefree attitude, simplicity, suspicion of adulthood, essential goodness, cultivation of passion projects, rejection of conventional \"cool\", romanticization of the nerd/geek/dork/virgin archetypes",
   "colors": [
     {
-      "hex": "#ffd1dc",
-      "name": "pastel"
+      "hex": "#1b1716",
+      "name": "black"
+    },
+    {
+      "hex": "#494948",
+      "name": "graphite"
+    },
+    {
+      "hex": "#636261",
+      "name": "umber"
+    },
+    {
+      "hex": "#c3c3c2",
+      "name": "silver"
+    },
+    {
+      "hex": "#7f7e7d",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a3a2a0",
+      "name": "warm grey"
     }
   ],
   "paletteSource": "derived",
@@ -69,7 +89,36 @@
     "carefree attitude",
     "simplicity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Heavenly_indie_1994.jpg/1280px-Heavenly_indie_1994.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Heavenly_indie_1994.jpg/500px-Heavenly_indie_1994.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Heavenly_indie_1994.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Heavenly_indie_1994.jpg",
+      "caption": "the Emerald Centre Hammersmith, London February 1994 PIAO photo set. Neate photos facebook page. More neate photos.",
+      "source": "Wikimedia Commons",
+      "artist": "Greg Neate",
+      "date": "2014-03-16 09:21:20",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "912"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Television_Personalities_%285363667797%29.jpg/1280px-Television_Personalities_%285363667797%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Television_Personalities_%285363667797%29.jpg/500px-Television_Personalities_%285363667797%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Television_Personalities_%285363667797%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Television_Personalities_(5363667797).jpg",
+      "caption": "Dan Treacy with Television Personalities at Antiknock, Shinjuku, Tokyo, Japan",
+      "source": "Wikimedia Commons",
+      "artist": "Masao Nakagami",
+      "date": "Unknown date 18 January 2011, 00:59 (upload date)",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "839"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Twee (CC BY-SA)",
@@ -77,13 +126,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q370778",
+      "url": "https://www.wikidata.org/wiki/Q370778",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:31:59.378Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Twee pop",
+      "url": "https://en.wikipedia.org/wiki/Twee_pop",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:31:59.378Z"
+      }
+    }
+  ],
+  "wikidata": "Q370778",
+  "wikipedia": "Twee pop",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:44.479Z"
 }

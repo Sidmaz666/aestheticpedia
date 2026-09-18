@@ -11,7 +11,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (Tumblr, Whisper, Pinterest, Instagram)",
   "geography": "Online",
   "periodStart": "Early 2020s",
   "periodEnd": "",
@@ -93,7 +93,21 @@
     "embracing \"unlikable\" traits",
     "female protagonists"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Fortunes_of_a_Street_Waif.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Fortunes_of_a_Street_Waif.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Fortunes_of_a_Street_Waif.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fortunes_of_a_Street_Waif.jpg",
+      "caption": "The Fortunes of a Street Waif , an illustration from the book below",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown, signature at bottom but illegible",
+      "date": "1884",
+      "license": "Public domain",
+      "width": "512",
+      "height": "771"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Waif (CC BY-SA)",
@@ -101,13 +115,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3999792",
+      "url": "https://www.wikidata.org/wiki/Q3999792",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:32:24.315Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Waif",
+      "url": "https://en.wikipedia.org/wiki/Waif",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:32:24.315Z"
+      }
+    }
+  ],
+  "wikidata": "Q3999792",
+  "wikipedia": "Waif",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:32:24.315Z"
 }

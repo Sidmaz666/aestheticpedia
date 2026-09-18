@@ -22,7 +22,33 @@
   "summary": ", Cite error: &lt;ref&gt; tags exist for a group named \"Note\", but no corresponding &lt;references group=\"Note\"/&gt; tag was found",
   "description": ", Cite error: &lt;ref&gt; tags exist for a group named \"Note\", but no corresponding &lt;references group=\"Note\"/&gt; tag was found",
   "culturalContext": "Key values (per the Aesthetics Wiki): Nonchalance, grace, dignity, authenticity, confidence, individuality, comfort",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#ad9373",
+      "name": "camel"
+    },
+    {
+      "hex": "#332722",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#564236",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#78634d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#a37754",
+      "name": "bronze 2"
+    },
+    {
+      "hex": "#a6acb5",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -60,7 +86,34 @@
     "confidence",
     "individuality"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Raffaello_-_Spozalizio_-_Web_Gallery_of_Art.jpg/1280px-Raffaello_-_Spozalizio_-_Web_Gallery_of_Art.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Raffaello_-_Spozalizio_-_Web_Gallery_of_Art.jpg/500px-Raffaello_-_Spozalizio_-_Web_Gallery_of_Art.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/06/Raffaello_-_Spozalizio_-_Web_Gallery_of_Art.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Raffaello_-_Spozalizio_-_Web_Gallery_of_Art.jpg",
+      "caption": "Spozalizio (The Engagement of the Virgin Mary). Oil on the roundheaded panel, 170 x 117 cm. Pinacoteca di Brera, Milan",
+      "source": "Wikimedia Commons",
+      "artist": "Raphael",
+      "date": "1504 date QS:P571,+1504-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1836"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Pietro_Perugino_016.jpg/1280px-Pietro_Perugino_016.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Pietro_Perugino_016.jpg/500px-Pietro_Perugino_016.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Pietro_Perugino_016.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pietro_Perugino_016.jpg",
+      "caption": "marriage of the Virgin",
+      "source": "Wikimedia Commons",
+      "artist": "Pietro Perugino",
+      "date": "between circa 1503 and circa 1504 date QS:P571,+1503-00-00T0",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1658"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Sprezzatura (CC BY-SA)",
@@ -68,13 +121,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q545839",
+      "url": "https://www.wikidata.org/wiki/Q545839",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:30:00.280Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Sprezzatura",
+      "url": "https://en.wikipedia.org/wiki/Sprezzatura",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:30:00.280Z"
+      }
+    }
+  ],
+  "wikidata": "Q545839",
+  "wikipedia": "Sprezzatura",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:30:00.280Z"
 }

@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "United States",
   "geography": "Online",
   "periodStart": "2010s",
   "periodEnd": "",
@@ -52,13 +52,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q957844",
+      "url": "https://www.wikidata.org/wiki/Q957844",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:11:59.092Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — The Blob (1988 film)",
+      "url": "https://en.wikipedia.org/wiki/The_Blob_(1988_film)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:11:59.092Z"
+      }
+    }
+  ],
+  "wikidata": "Q957844",
+  "wikipedia": "The Blob (1988 film)",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:24.087Z"
 }

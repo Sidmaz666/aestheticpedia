@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (SoundCloud, TikTok)",
   "geography": "Online",
   "periodStart": "Late 2010s",
   "periodEnd": "",
@@ -80,13 +80,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q115485183",
+      "url": "https://www.wikidata.org/wiki/Q115485183",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:29:02.509Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Sigilkore",
+      "url": "https://en.wikipedia.org/wiki/Sigilkore",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:29:02.509Z"
+      }
+    }
+  ],
+  "wikidata": "Q115485183",
+  "wikipedia": "Sigilkore",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:29:02.509Z"
 }

@@ -71,7 +71,22 @@
     "unity",
     "pacifism"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Bijelo_dugme_%281986%29.jpg/1280px-Bijelo_dugme_%281986%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Bijelo_dugme_%281986%29.jpg/500px-Bijelo_dugme_%281986%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Bijelo_dugme_%281986%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bijelo_dugme_(1986).jpg",
+      "caption": "Photo taken at a concert in Sombor, Republic of Serbia, 1986.",
+      "source": "Wikimedia Commons",
+      "artist": "Milorad Cakardic",
+      "date": "2012-08-10 13:02:08",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "854"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — New Partisans (CC BY-SA)",
@@ -79,13 +94,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q130660185",
+      "url": "https://www.wikidata.org/wiki/Q130660185",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:08.731Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — New Partisans",
+      "url": "https://en.wikipedia.org/wiki/New_Partisans",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:08.731Z"
+      }
+    }
+  ],
+  "wikidata": "Q130660185",
+  "wikipedia": "New Partisans",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:24:08.731Z"
 }

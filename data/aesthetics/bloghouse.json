@@ -22,7 +22,33 @@
   "summary": "It is named that way because artists and listeners discovered music and supported each other through internet blogs such as Hype Machine and Gorilla vs.",
   "description": "It is named that way because artists and listeners discovered music and supported each other through internet blogs such as Hype Machine and Gorilla vs. Bear . [ 2 ] They used platforms like MySpace to connect and share MP3s. [ 3 ] Musically, it features influences from French house, electroclash , eurodisco, nu-disco, and nu-rave.\n\nBloghouse is a retrospective term, coined in 2008 right when its popularity began to decline. This means that people who participated in this online subculture most likely called it another more generic term such as \"electro house\" or simply \"house.\" It is considered a predecessor to the Indie Sleaze aesthetic, which was coined in 2021.",
   "culturalContext": "Key values (per the Aesthetics Wiki): DIY ethos , hipster elements, PLUR, sexuality, music piracy, tackiness",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0f0f0f",
+      "name": "black"
+    },
+    {
+      "hex": "#525050",
+      "name": "graphite"
+    },
+    {
+      "hex": "#2b2a2a",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#8da1a2",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#667578",
+      "name": "slate"
+    },
+    {
+      "hex": "#8b8782",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -54,7 +80,22 @@
     "music piracy",
     "tackiness"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Justice_%40_Rock_Werchter_2008.jpg/1280px-Justice_%40_Rock_Werchter_2008.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Justice_%40_Rock_Werchter_2008.jpg/500px-Justice_%40_Rock_Werchter_2008.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/70/Justice_%40_Rock_Werchter_2008.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Justice_@_Rock_Werchter_2008.jpg",
+      "caption": "Justice at the end of their show at the Rock Werchter festival, Belgium 2008.",
+      "source": "Wikimedia Commons",
+      "artist": "Edwin van Dalen",
+      "date": "6 July 2008, 20:09:50 (according to Exif data)",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "1925"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Bloghouse (CC BY-SA)",
@@ -62,13 +103,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q132324210",
+      "url": "https://www.wikidata.org/wiki/Q132324210",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:11:59.647Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Bloghouse",
+      "url": "https://en.wikipedia.org/wiki/Bloghouse",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:11:59.647Z"
+      }
+    }
+  ],
+  "wikidata": "Q132324210",
+  "wikipedia": "Bloghouse",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:11:59.647Z"
 }

@@ -12,7 +12,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (SoundCloud, YouTube)",
   "geography": "Online",
   "periodStart": "Late 2010s",
   "periodEnd": "",
@@ -24,12 +24,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Aggression, nihilism, rebellion, shock value, emotional turmoil, anti-mainstream sentiment",
   "colors": [
     {
-      "hex": "#000000",
+      "hex": "#282f39",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#47484f",
+      "name": "graphite"
+    },
+    {
+      "hex": "#070d15",
       "name": "black"
     },
     {
-      "hex": "#ff0000",
-      "name": "red"
+      "hex": "#6c646a",
+      "name": "umber"
+    },
+    {
+      "hex": "#908887",
+      "name": "taupe"
+    },
+    {
+      "hex": "#c4cfdc",
+      "name": "silver"
     }
   ],
   "paletteSource": "derived",
@@ -72,7 +88,36 @@
     "emotional turmoil",
     "anti-mainstream sentiment"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Anthrax_at_Wacken_Open_Air_2013_05.jpg/1280px-Anthrax_at_Wacken_Open_Air_2013_05.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Anthrax_at_Wacken_Open_Air_2013_05.jpg/500px-Anthrax_at_Wacken_Open_Air_2013_05.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Anthrax_at_Wacken_Open_Air_2013_05.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Anthrax_at_Wacken_Open_Air_2013_05.jpg",
+      "caption": "Anthrax at Wacken Open Air 2013",
+      "source": "Wikimedia Commons",
+      "artist": "Jonas Rogowski",
+      "date": "2013-08-03 16:23:16",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "655"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Limp_Bizkit_Baltimore_2013.jpg/1280px-Limp_Bizkit_Baltimore_2013.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Limp_Bizkit_Baltimore_2013.jpg/500px-Limp_Bizkit_Baltimore_2013.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Limp_Bizkit_Baltimore_2013.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Limp_Bizkit_Baltimore_2013.jpg",
+      "caption": "Limp Bizkit live at the Rams Head Live in Baltimore Maryland on May 3, 2013.",
+      "source": "Wikimedia Commons",
+      "artist": "Matthew Straubmuller",
+      "date": "2013-05-03 23:24:07",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1256"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Trap Metal (CC BY-SA)",
@@ -80,13 +125,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q856872",
+      "url": "https://www.wikidata.org/wiki/Q856872",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:31:16.761Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Rap metal",
+      "url": "https://en.wikipedia.org/wiki/Rap_metal",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:31:16.761Z"
+      }
+    }
+  ],
+  "wikidata": "Q856872",
+  "wikipedia": "Rap metal",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:31:16.761Z"
 }

@@ -80,8 +80,14 @@ describe('curated corrections stick', () => {
     expect(bad).toEqual([])
   })
 
-  it('hand-curated image sets are present', () => {
-    const { slugs } = JSON.parse(readFileSync(path.join(process.cwd(), 'data', 'curated-images.json'), 'utf8')) as { slugs: string[] }
-    for (const s of slugs) expect(bySlug.get(s)?.images.length, s).toBeGreaterThan(2)
+  it('hand-curated image sets keep what the review kept (and nothing from the wrong article)', () => {
+    const { slugs, notes } = JSON.parse(readFileSync(path.join(process.cwd(), 'data', 'curated-images.json'), 'utf8')) as { slugs: string[]; notes: Record<string, string> }
+    for (const s of slugs) {
+      const a = bySlug.get(s)
+      expect(a, s).toBeDefined()
+      const kept = /kept (\d+) of/.exec(notes[s] ?? '')?.[1]
+      if (kept) expect(a.images.length, s).toBe(Number(kept))
+    }
+    expect(bySlug.get('flat-vector-illustration')?.images.length).toBeGreaterThanOrEqual(9)
   })
 })

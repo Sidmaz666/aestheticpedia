@@ -72,35 +72,8 @@
   "graphicDesign": {},
   "uiTranslation": {},
   "recipe": {},
-  "emotionProfile": {
-    "warm": 50,
-    "cold": 50,
-    "playful": 20,
-    "serious": 70,
-    "chaotic": 20,
-    "ordered": 80,
-    "nostalgic": 60,
-    "futuristic": 30,
-    "peaceful": 60,
-    "ominous": 10
-  },
-  "dnaAxes": {
-    "minimal_maximal": 40,
-    "organic_geometric": 30,
-    "warm_cold": 40,
-    "natural_synthetic": 70,
-    "analog_digital": 90,
-    "historical_futuristic": 40,
-    "refined_raw": 40,
-    "playful_serious": 20,
-    "soft_harsh": 40,
-    "quiet_loud": 30,
-    "orderly_chaotic": 60,
-    "dense_spacious": 50,
-    "realistic_surreal": 20,
-    "elegant_utilitarian": 90,
-    "nostalgic_progressive": 50
-  },
+  "emotionProfile": {},
+  "dnaAxes": {},
   "keyExamples": [
     "Venetian palazzos",
     "Modern luxury interiors",
@@ -115,7 +88,22 @@
     "elegant",
     "decorative"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Evolution_of_Faux_Finishing.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Evolution_of_Faux_Finishing.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Evolution_of_Faux_Finishing.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Evolution_of_Faux_Finishing.jpg",
+      "caption": "Faux finishing is the term used to describe decorative texturized finishes that replicate the appearance of materials such as marble, wood or stone. The term comes from the French word faux , meaning false, as these techniques started as a form of replicating materials such as ma",
+      "source": "Wikimedia Commons",
+      "artist": "Michael Coghlan",
+      "date": "2010-10-29 15:06:28",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1024",
+      "height": "768"
+    }
+  ],
   "sources": [
     {
       "name": "Venetian Plaster Association",
@@ -179,5 +167,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:22:01.954Z",
-  "updatedAt": "2026-09-18T11:10:22.479Z"
+  "updatedAt": "2026-09-18T11:57:17.548Z"
 }

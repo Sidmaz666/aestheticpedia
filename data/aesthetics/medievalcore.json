@@ -89,7 +89,35 @@
     "historical fantasy",
     "\"weird girl\" individuality"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Weirdcore_Example.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/52/Weirdcore_Example.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/52/Weirdcore_Example.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Weirdcore_Example.jpg",
+      "caption": "An example of the Weirdcore internet asthetic",
+      "source": "Wikimedia Commons",
+      "artist": "Crafts97",
+      "date": "8/4/2026",
+      "license": "Public domain",
+      "width": "600",
+      "height": "450"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Weirdcore_52486.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/07/Weirdcore_52486.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/07/Weirdcore_52486.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Weirdcore_52486.jpg",
+      "caption": "weirdcore \"don't be afraid\"",
+      "source": "Wikimedia Commons",
+      "artist": "YDK1122",
+      "date": "2026-07-31 20:23:44",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "839"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Medievalcore (CC BY-SA)",
@@ -97,13 +125,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q139032496",
+      "url": "https://www.wikidata.org/wiki/Q139032496",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:22:28.202Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Weirdcore",
+      "url": "https://en.wikipedia.org/wiki/Weirdcore",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:22:28.202Z"
+      }
+    }
+  ],
+  "wikidata": "Q139032496",
+  "wikipedia": "Weirdcore",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:22:28.202Z"
 }

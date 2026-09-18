@@ -6,6 +6,7 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties, type PointerEvent as ReactPointerEvent } from 'react'
 import { ImageOff, Move3d } from 'lucide-react'
 import type { AestheticFull, ColorEntry } from '@/lib/aesthetic'
+import { useHorizontalWheel } from '@/lib/use-horizontal-wheel'
 
 type Tab = 'web' | 'poster' | 'ui' | 'type' | 'map' | 'gallery3d'
 const TABS: { id: Tab; label: string; needsImages?: boolean }[] = [
@@ -52,13 +53,15 @@ const credit = (img: AestheticFull['images'][number]) => [img.artist, img.date, 
 // ---------------------------------------------------------------------------
 export function AppliedDemo({ a }: { a: AestheticFull }) {
   const [tab, setTab] = useState<Tab>(() => autoTab(a))
+  const tabsRef = useRef<HTMLDivElement>(null)
+  useHorizontalWheel(tabsRef)
   const images = a.images.filter((i) => i.url)
   const colors = a.colors.length ? a.colors : [{ hex: '#888888', name: 'neutral' }]
   const available = TABS.filter((t) => !t.needsImages || images.length > (t.id === 'gallery3d' ? 2 : 0))
 
   return (
     <div>
-      <div role="tablist" aria-label="Live demo views" className="no-scrollbar -mx-1 mb-5 flex gap-1.5 overflow-x-auto px-1">
+      <div ref={tabsRef} role="tablist" aria-label="Live demo views" className="no-scrollbar -mx-1 mb-5 flex gap-1.5 overflow-x-auto px-1">
         {available.map((t) => (
           <button
             key={t.id}

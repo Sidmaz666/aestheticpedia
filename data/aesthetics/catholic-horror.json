@@ -93,7 +93,21 @@
     "possession",
     "exorcism"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Jason_Miller_and_Max_von_Sydow_in_The_Exorcist.jpg/1280px-Jason_Miller_and_Max_von_Sydow_in_The_Exorcist.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Jason_Miller_and_Max_von_Sydow_in_The_Exorcist.jpg/500px-Jason_Miller_and_Max_von_Sydow_in_The_Exorcist.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/80/Jason_Miller_and_Max_von_Sydow_in_The_Exorcist.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jason_Miller_and_Max_von_Sydow_in_The_Exorcist.jpg",
+      "caption": "Jason Miller and Max von Sydow as Fathers Karras and Merrin in The Exorcist (1973)",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown; likely a still photographer employed or hired by Warner Bros. Cropped and edited slightly by Daniel Case prior to upload",
+      "date": "During film production in 1973",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "930"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Catholic Horror (CC BY-SA)",
@@ -101,13 +115,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q123291714",
+      "url": "https://www.wikidata.org/wiki/Q123291714",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:13:07.775Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Religious horror",
+      "url": "https://en.wikipedia.org/wiki/Religious_horror",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:13:07.775Z"
+      }
+    }
+  ],
+  "wikidata": "Q123291714",
+  "wikipedia": "Religious horror",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:13:07.775Z"
 }

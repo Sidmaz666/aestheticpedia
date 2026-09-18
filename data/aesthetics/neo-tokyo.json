@@ -9,7 +9,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Japan",
   "geography": "Online",
   "periodStart": "1980s",
   "periodEnd": "",
@@ -95,13 +95,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2525680",
+      "url": "https://www.wikidata.org/wiki/Q2525680",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:03.573Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Neo Tokyo (film)",
+      "url": "https://en.wikipedia.org/wiki/Neo_Tokyo_(film)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:03.573Z"
+      }
+    }
+  ],
+  "wikidata": "Q2525680",
+  "wikipedia": "Neo Tokyo (film)",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:38.184Z"
 }

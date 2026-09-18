@@ -9,7 +9,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Weimar Republic",
   "geography": "Online",
   "periodStart": "1920s",
   "periodEnd": "",
@@ -77,7 +77,21 @@
     "rejection of traditional femininity",
     "freedom of movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/FrauenliebeCover.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/13/FrauenliebeCover.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/13/FrauenliebeCover.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:FrauenliebeCover.jpg",
+      "caption": "Frauenliebe : Wochenschrift für Freundschaft, Liebe und sexuelle Aufklärung 3. Jahrgang, Heftnummer 7, 1928",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1928",
+      "license": "Public domain",
+      "width": "680",
+      "height": "888"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Garçonne (CC BY-SA)",
@@ -85,13 +99,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Frauenliebe",
+      "url": "https://commons.wikimedia.org/wiki/Category:Frauenliebe",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:17:23.662Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q18130381",
+      "url": "https://www.wikidata.org/wiki/Q18130381",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:17:23.662Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Garçonne (magazine)",
+      "url": "https://en.wikipedia.org/wiki/Gar%C3%A7onne_(magazine)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:17:23.662Z"
+      }
+    }
+  ],
+  "wikidata": "Q18130381",
+  "wikipedia": "Garçonne (magazine)",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:30.462Z"
 }

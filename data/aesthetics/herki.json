@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (Vkontakte (VK), LiveJournal)",
   "geography": "Online",
   "periodStart": "Late 1990s – Early 2000s",
   "periodEnd": "",
@@ -78,7 +78,36 @@
     "musical fandom (him",
     "lacrimosa)"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Herkiyan.jpg/1280px-Herkiyan.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Herkiyan.jpg/500px-Herkiyan.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/04/Herkiyan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Herkiyan.jpg",
+      "caption": "Fattah Agha Herki (Left), Hajji Sahe (Center), Sayyide Agha Herki (Right)",
+      "source": "Wikimedia Commons",
+      "artist": "Abgansah",
+      "date": "2021-03-24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1985"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Herkitribe.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/44/Herkitribe.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/44/Herkitribe.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Herkitribe.png",
+      "caption": "Divisions and clans and of the Herki Kurds.",
+      "source": "Wikimedia Commons",
+      "artist": "Zarbium",
+      "date": "2025-03-04",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1124",
+      "height": "1289"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Herki (CC BY-SA)",
@@ -86,13 +115,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3672957",
+      "url": "https://www.wikidata.org/wiki/Q3672957",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:19:06.443Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Herki (tribe)",
+      "url": "https://en.wikipedia.org/wiki/Herki_(tribe)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:19:06.443Z"
+      }
+    }
+  ],
+  "wikidata": "Q3672957",
+  "wikipedia": "Herki (tribe)",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:19:06.443Z"
 }

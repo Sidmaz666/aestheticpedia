@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (SoundCloud)",
   "geography": "Online",
   "periodStart": "2010s",
   "periodEnd": "",
@@ -72,7 +72,61 @@
     "experimental pop",
     "nostalgia"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Kane_West_-_Western_Beats.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Kane_West_-_Western_Beats.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Kane_West_-_Western_Beats.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kane_West_-_Western_Beats.jpg",
+      "caption": "Promotional artwork for the Western Beats EP by Kane West",
+      "source": "Wikimedia Commons",
+      "artist": "Kane West/PC Music",
+      "date": "2014-09-01",
+      "license": "Public domain",
+      "width": "900",
+      "height": "900"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Lil_Data_-_Sup_website.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Lil_Data_-_Sup_website.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Lil_Data_-_Sup_website.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lil_Data_-_Sup_website.png",
+      "caption": "Screenshot of the promotional site for Sup by Lil Data",
+      "source": "Wikimedia Commons",
+      "artist": "PC Music",
+      "date": "2015-03-04",
+      "license": "Public domain",
+      "width": "948",
+      "height": "911"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Danny_L_Harle_-_Always_Remember_artwork.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Danny_L_Harle_-_Always_Remember_artwork.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Danny_L_Harle_-_Always_Remember_artwork.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Danny_L_Harle_-_Always_Remember_artwork.jpg",
+      "caption": "Promotional artwork for \"Always Remember\" by Danny L Harle",
+      "source": "Wikimedia Commons",
+      "artist": "PC Music",
+      "date": "2015-11-20",
+      "license": "Public domain",
+      "width": "600",
+      "height": "600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Lil_Data_live_coding_performance.jpg/1280px-Lil_Data_live_coding_performance.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Lil_Data_live_coding_performance.jpg/500px-Lil_Data_live_coding_performance.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Lil_Data_live_coding_performance.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lil_Data_live_coding_performance.jpg",
+      "caption": "Lil Data live coding performance",
+      "source": "Wikimedia Commons",
+      "artist": "Maggie Kane https://www.instagram.com/streetcat.media/",
+      "date": "2017-11-28 10:36:05",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — PC Music (CC BY-SA)",
@@ -80,13 +134,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — PC Music",
+      "url": "https://commons.wikimedia.org/wiki/Category:PC_Music",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:25:20.556Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q18161125",
+      "url": "https://www.wikidata.org/wiki/Q18161125",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:25:20.556Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — PC Music",
+      "url": "https://en.wikipedia.org/wiki/PC_Music",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:25:20.556Z"
+      }
+    }
+  ],
+  "wikidata": "Q18161125",
+  "wikipedia": "PC Music",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:25:20.556Z"
 }

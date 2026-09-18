@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "United Kingdom",
   "geography": "Online",
   "periodStart": "Late 1970s",
   "periodEnd": "",
@@ -53,7 +53,22 @@
     "youth rebellion",
     "musical identity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Mod_style_Lambretta_scooters.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/41/Mod_style_Lambretta_scooters.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/Mod_style_Lambretta_scooters.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mod_style_Lambretta_scooters.jpg",
+      "caption": "Mod style Lambretta scooters",
+      "source": "Wikimedia Commons",
+      "artist": "Reg Mckenna",
+      "date": "2007-04-29 11:41:58",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "800",
+      "height": "600"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Mod Revival (CC BY-SA)",
@@ -61,13 +76,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2280273",
+      "url": "https://www.wikidata.org/wiki/Q2280273",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:23:12.913Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Mod revival",
+      "url": "https://en.wikipedia.org/wiki/Mod_revival",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:23:12.913Z"
+      }
+    }
+  ],
+  "wikidata": "Q2280273",
+  "wikipedia": "Mod revival",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:23:12.913Z"
 }

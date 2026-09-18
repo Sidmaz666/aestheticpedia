@@ -9,7 +9,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "United States",
   "geography": "Online",
   "periodStart": "1990s",
   "periodEnd": "",
@@ -88,7 +88,21 @@
     "artificiality",
     "nostalgia"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Jerry_Kasenetz_and_Jeffry_Katz.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/65/Jerry_Kasenetz_and_Jeffry_Katz.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/65/Jerry_Kasenetz_and_Jeffry_Katz.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jerry_Kasenetz_and_Jeffry_Katz.png",
+      "caption": "Jerry Kasenetz and Jeffry Katz,, 1974",
+      "source": "Wikimedia Commons",
+      "artist": "K&K Studio",
+      "date": "December 14, 1974",
+      "license": "Public domain",
+      "width": "842",
+      "height": "661"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Bubblegum Dance (CC BY-SA)",
@@ -96,13 +110,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q997481",
+      "url": "https://www.wikidata.org/wiki/Q997481",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:12:19.884Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Bubblegum music",
+      "url": "https://en.wikipedia.org/wiki/Bubblegum_music",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:12:19.884Z"
+      }
+    }
+  ],
+  "wikidata": "Q997481",
+  "wikipedia": "Bubblegum music",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:25.638Z"
 }

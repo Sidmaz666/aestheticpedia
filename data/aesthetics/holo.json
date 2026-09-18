@@ -17,7 +17,29 @@
   "summary": "Holo is a discontinued design language developed by Google for the Android operating system.",
   "description": "Holo is a discontinued design language developed by Google for the Android operating system. Google described it as a theme rather than a design language.\n\nHolo first appeared in Android Ice Cream Sandwich, evolving from the user interface introduced by Android Honeycomb. Still, the same futuristic aesthetics of Android Honeycomb were used in favor of flat design with neon blue accenting, hard edges, and drop shadows. Holo also introduced a new default system font, Roboto; designed to replace the Droid font family, Roboto was primarily optimized for use on high-resolution mobile displays.\n\nGoogle discontinued Holo in 2014 and it was replaced by its successor Material Design in Android Lollipop. Material Design is also used in Google Workspace apps.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#080250",
+      "name": "navy"
+    },
+    {
+      "hex": "#110b85",
+      "name": "navy 2"
+    },
+    {
+      "hex": "#2d0fb7",
+      "name": "indigo"
+    },
+    {
+      "hex": "#213dde",
+      "name": "cerulean"
+    },
+    {
+      "hex": "#2b7bfb",
+      "name": "denim blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},

@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (YouTube (music video thumbnails), wallpaper websites, imageboards)",
   "geography": "Online",
   "periodStart": "2000s",
   "periodEnd": "",
@@ -74,7 +74,22 @@
     "purity",
     "digital fantasy"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Dojikko.png/1280px-Dojikko.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Dojikko.png/500px-Dojikko.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/Dojikko.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dojikko.png",
+      "caption": "The girl at the right is a Dojikko . She is portrayed as if she is going to fall. The left girl is intentionally outside the image, giving the feeling she is pressed against an invisible wall, with no escape from what is coming.",
+      "source": "Wikimedia Commons",
+      "artist": "User:Niabot",
+      "date": "2010-07-09",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Nightcore (aesthetic) (CC BY-SA)",
@@ -82,13 +97,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3876770",
+      "url": "https://www.wikidata.org/wiki/Q3876770",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:12.752Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Nightcore",
+      "url": "https://en.wikipedia.org/wiki/Nightcore",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:12.752Z"
+      }
+    }
+  ],
+  "wikidata": "Q3876770",
+  "wikipedia": "Nightcore",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:24:12.752Z"
 }

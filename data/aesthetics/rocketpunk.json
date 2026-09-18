@@ -21,7 +21,33 @@
   "summary": "The Rocketpunk aesthetic is based on retro-futuristic or near-futuristic depictions of spaceflight, space exploration, and settlement, usually with realistic (as in hard science fiction ) or semi-realistic science and engineering considerations.",
   "description": "The Rocketpunk aesthetic is based on retro-futuristic or near-futuristic depictions of spaceflight, space exploration, and settlement, usually with realistic (as in hard science fiction ) or semi-realistic science and engineering considerations.\n\nAs quoted by Winchell Chung's Atomic Rockets website, Rick Robinson of the Rocketpunk Manifesto blog specifically defines the term as retro-futuristic visions of space travel from the 1950s: advanced and cheap aerospace technology with primitive electronics. [ 1 ]\n\nThe term \"NASApunk\" has been used by the developers of the video game Starfield to refer to an aesthetic inspired by real-life space programs like NASA (but not necessarily hard sci-fi). [ 2 ]\n\nThe aesthetic of realistic cylindrical and conical space warships has sometimes been jokingly referred to as \"COADEcore\" on the ToughSF Discord server, [ 3 ] in reference to the video game Children of a Dead Earth .",
   "culturalContext": "Key values (per the Aesthetics Wiki): Human expansion into space",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1c1a1b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#c9c3d0",
+      "name": "silver"
+    },
+    {
+      "hex": "#373839",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#dcd9ec",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#64564f",
+      "name": "umber"
+    },
+    {
+      "hex": "#927369",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -58,7 +84,35 @@
     "aesthetics wiki",
     "human expansion into space"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Arthur_C._Clarke_sm.jpg/1280px-Arthur_C._Clarke_sm.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Arthur_C._Clarke_sm.jpg/500px-Arthur_C._Clarke_sm.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Arthur_C._Clarke_sm.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Arthur_C._Clarke_sm.jpg",
+      "caption": "Sir Arthur C. Clarke at his home in Colombo , Sri Lanka . A visionary who predicted artificial intelligence and communications satellites that orbit the earth in fixed positions, Clarke characterizes the slow rebuilding process in the tsunami zone as \"survival of the fittest.\" He",
+      "source": "Wikimedia Commons",
+      "artist": "en:User:Mamyjomarash (Amy Marash)",
+      "date": "2005-03-28",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Larry_Niven_-_Utopiales_2010.jpg/1280px-Larry_Niven_-_Utopiales_2010.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Larry_Niven_-_Utopiales_2010.jpg/500px-Larry_Niven_-_Utopiales_2010.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Larry_Niven_-_Utopiales_2010.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Larry_Niven_-_Utopiales_2010.jpg",
+      "caption": "Author Larry Niven at Utopiales 2010 (France).",
+      "source": "Wikimedia Commons",
+      "artist": "Ceridwen",
+      "date": "2010-09-18",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "1920"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Rocketpunk (CC BY-SA)",
@@ -66,13 +120,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q725757",
+      "url": "https://www.wikidata.org/wiki/Q725757",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:27:26.532Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Hard science fiction",
+      "url": "https://en.wikipedia.org/wiki/Hard_science_fiction",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:27:26.532Z"
+      }
+    }
+  ],
+  "wikidata": "Q725757",
+  "wikipedia": "Hard science fiction",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:27:26.532Z"
 }

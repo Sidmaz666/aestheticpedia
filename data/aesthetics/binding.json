@@ -17,7 +17,33 @@
   "summary": "In sewing, binding is used as both a noun and a verb to refer to finishing a seam or hem of a garment, usually by rolling or pressing then stitching on an edging or trim.",
   "description": "In sewing, binding is used as both a noun and a verb to refer to finishing a seam or hem of a garment, usually by rolling or pressing then stitching on an edging or trim.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#010100",
+      "name": "black"
+    },
+    {
+      "hex": "#a31302",
+      "name": "carmine red"
+    },
+    {
+      "hex": "#997202",
+      "name": "copper"
+    },
+    {
+      "hex": "#030cb9",
+      "name": "navy"
+    },
+    {
+      "hex": "#18cd1e",
+      "name": "forest green"
+    },
+    {
+      "hex": "#057958",
+      "name": "bottle green"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "textile process"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/2DB2_DHX30_human.png/1280px-2DB2_DHX30_human.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/2DB2_DHX30_human.png/500px-2DB2_DHX30_human.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5e/2DB2_DHX30_human.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:2DB2_DHX30_human.png",
+      "caption": "Solution NMR structure of the dsRNA binding domain 1 of the human DHX30 helicase enzyme based on PDB accession number 2DB2",
+      "source": "Wikimedia Commons",
+      "artist": "Boghog",
+      "date": "2026-07-17",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1204"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Binding (sewing)",
@@ -93,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:38:10.023Z"
+  "updatedAt": "2026-09-18T11:46:23.887Z"
 }

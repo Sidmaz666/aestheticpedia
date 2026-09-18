@@ -19,12 +19,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Hospitality, charm, propriety, traditional femininity, family honor, purity",
   "colors": [
     {
-      "hex": "#ffd1dc",
-      "name": "pastel"
+      "hex": "#f3f3f3",
+      "name": "paper white"
     },
     {
-      "hex": "#ffffff",
-      "name": "white"
+      "hex": "#bcbcbc",
+      "name": "silver"
+    },
+    {
+      "hex": "#a5a5a5",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#d6d6d6",
+      "name": "bone white"
+    },
+    {
+      "hex": "#8d8d8d",
+      "name": "stone"
+    },
+    {
+      "hex": "#505050",
+      "name": "graphite"
     }
   ],
   "paletteSource": "derived",
@@ -69,7 +85,85 @@
     "family honor",
     "purity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Portrait_of_Sallie_Ward_by_George_Peter_Alexander_Healy%2C_1860.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Portrait_of_Sallie_Ward_by_George_Peter_Alexander_Healy%2C_1860.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Portrait_of_Sallie_Ward_by_George_Peter_Alexander_Healy%2C_1860.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sallie_Ward_by_George_Peter_Alexander_Healy,_1860.jpg",
+      "caption": "Portrait of Sally Ward Lawrence Hunt Armstrong Downs (1827-1896)",
+      "source": "Wikimedia Commons",
+      "artist": "George Peter Alexander Healy",
+      "date": "1860 date QS:P571,+1860-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "920",
+      "height": "1262"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Leslie-Howard-Gone-With-The-Wind-1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Leslie-Howard-Gone-With-The-Wind-1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Leslie-Howard-Gone-With-The-Wind-1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Leslie-Howard-Gone-With-The-Wind-1.jpg",
+      "caption": "Gone with the Wind (1939).",
+      "source": "Wikimedia Commons",
+      "artist": "Selznick International Pictures; Fred Parrish, photographer",
+      "date": "1939",
+      "license": "Public domain",
+      "width": "703",
+      "height": "883"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Southern_belle-correns.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/18/Southern_belle-correns.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/18/Southern_belle-correns.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Southern_belle-correns.jpg",
+      "caption": "Southern Belle , lithography after a painting by Erich Correns",
+      "source": "Wikimedia Commons",
+      "artist": "Erich Correns",
+      "date": "circa 1850 date QS:P,+1850-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "750",
+      "height": "1000"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Southern-belle-civil-war.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Southern-belle-civil-war.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Southern-belle-civil-war.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Southern-belle-civil-war.jpg",
+      "caption": "Cover Illustration taken from the cover of Harper's Weekly , September 7, 1861 showing a stereotypical \"Southern belle\" in Baltimore",
+      "source": "Wikimedia Commons",
+      "date": "1861",
+      "license": "Public domain",
+      "width": "907",
+      "height": "1061"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/The_southern_belle_LCCN2001706242.jpg/1280px-The_southern_belle_LCCN2001706242.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/The_southern_belle_LCCN2001706242.jpg/500px-The_southern_belle_LCCN2001706242.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/62/The_southern_belle_LCCN2001706242.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_southern_belle_LCCN2001706242.jpg",
+      "caption": "Title: The southern belle Abstract: Print shows a young woman with a rose in her hair, head-and-shoulders portrait, facing left, pulling a diaphanous shawl over her shoulders. Physical description: 1 print : hand-colored lithograph ; sheet 35.3 x 25.3 cm. Notes: Forms part of: Po",
+      "source": "Wikimedia Commons",
+      "artist": "Popular Graphic Arts",
+      "date": "between 1872 and 1874 date QS:P,+1872-00-00T00:00:00Z/8,P131",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1766"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Tara_Gone_with_the_Wind.jpg/1280px-Tara_Gone_with_the_Wind.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Tara_Gone_with_the_Wind.jpg/500px-Tara_Gone_with_the_Wind.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Tara_Gone_with_the_Wind.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tara_Gone_with_the_Wind.jpg",
+      "caption": "Gone with the Wind (1939).",
+      "source": "Wikimedia Commons",
+      "artist": "Selznick International Pictures; Fred Parrish, photographer",
+      "date": "1939",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "970"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Southern Belle (CC BY-SA)",
@@ -77,13 +171,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Southern belles",
+      "url": "https://commons.wikimedia.org/wiki/Category:Southern_belles",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:29:16.947Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q478109",
+      "url": "https://www.wikidata.org/wiki/Q478109",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:29:16.947Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Southern belle",
+      "url": "https://en.wikipedia.org/wiki/Southern_belle",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:29:16.947Z"
+      }
+    }
+  ],
+  "wikidata": "Q478109",
+  "wikipedia": "Southern belle",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:29:16.947Z"
 }

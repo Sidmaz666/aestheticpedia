@@ -17,7 +17,33 @@
   "summary": "In design, New Wave or Swiss Punk Typography refers to an approach to typography that defies strict grid-based arrangement conventions.",
   "description": "In design, New Wave or Swiss Punk Typography refers to an approach to typography that defies strict grid-based arrangement conventions. Characteristics include inconsistent letterspacing, varying typeweights within single words and type set at non-right angles.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#252525",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#cbcbcb",
+      "name": "silver"
+    },
+    {
+      "hex": "#f7f7f7",
+      "name": "paper white"
+    },
+    {
+      "hex": "#b3b3b3",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#9a9a9a",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#7e7e7e",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Janito_of_Lunacy.jpg/1280px-Janito_of_Lunacy.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Janito_of_Lunacy.jpg/500px-Janito_of_Lunacy.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/33/Janito_of_Lunacy.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Janito_of_Lunacy.jpg",
+      "caption": "Janitor of Lunacy, an Italian new wave group active from 1980 to 1987, in a photograph by Furio Bettinzoli",
+      "source": "Wikimedia Commons",
+      "artist": "Kovre",
+      "date": "1985",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "1016"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — New Wave (design)",
@@ -93,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:58:02.734Z"
+  "updatedAt": "2026-09-18T11:53:41.245Z"
 }

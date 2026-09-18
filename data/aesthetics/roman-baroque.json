@@ -119,35 +119,8 @@
     "music": "orchestral, dramatic, emotional, Baroque compositions",
     "scent": "incense, candle wax, rich perfumes, old stone"
   },
-  "emotionProfile": {
-    "warm": 75,
-    "cold": 25,
-    "playful": 20,
-    "serious": 80,
-    "chaotic": 30,
-    "ordered": 70,
-    "nostalgic": 40,
-    "futuristic": 20,
-    "peaceful": 30,
-    "ominous": 60
-  },
-  "dnaAxes": {
-    "minimal_maximal": 60,
-    "organic_geometric": 65,
-    "warm_cold": 70,
-    "natural_synthetic": 45,
-    "analog_digital": 95,
-    "historical_futuristic": 80,
-    "refined_raw": 70,
-    "playful_serious": 30,
-    "soft_harsh": 65,
-    "quiet_loud": 75,
-    "orderly_chaotic": 55,
-    "dense_spacious": 65,
-    "realistic_surreal": 40,
-    "elegant_utilitarian": 75,
-    "nostalgic_progressive": 60
-  },
+  "emotionProfile": {},
+  "dnaAxes": {},
   "keyExamples": [
     "St. Peter's Basilica",
     "Palazzo Barberini",
@@ -163,7 +136,91 @@
     "emotional",
     "grandiose"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Massa_Duomo_San_Francesco_Cappella_Ducale_03.JPG/1280px-Massa_Duomo_San_Francesco_Cappella_Ducale_03.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Massa_Duomo_San_Francesco_Cappella_Ducale_03.JPG/500px-Massa_Duomo_San_Francesco_Cappella_Ducale_03.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/Massa_Duomo_San_Francesco_Cappella_Ducale_03.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Massa_Duomo_San_Francesco_Cappella_Ducale_03.JPG",
+      "caption": "Italy , Tuscany , Massa , St. Francis Cathedral. The Ducal Chapel or “Chapel of the Blessed Sacrament” was built by the will of Dukes Alberico II and Carlo II between 1687 and 1694 in late Roman Baroque. It was designed by Domenico Martinelli. The Chapel is dedicated to the “Nati",
+      "source": "Wikimedia Commons",
+      "artist": "Piergiuliano Chesi",
+      "date": "2014-03-25",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Massa_Duomo_San_Francesco_Cappella_Ducale_06.JPG/1280px-Massa_Duomo_San_Francesco_Cappella_Ducale_06.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Massa_Duomo_San_Francesco_Cappella_Ducale_06.JPG/500px-Massa_Duomo_San_Francesco_Cappella_Ducale_06.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/Massa_Duomo_San_Francesco_Cappella_Ducale_06.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Massa_Duomo_San_Francesco_Cappella_Ducale_06.JPG",
+      "caption": "Italy , Tuscany , Massa , St. Francis Cathedral. The Ducal Chapel or “Chapel of the Blessed Sacrament” was built by the will of Dukes Alberico II and Carlo II between 1687 and 1694 in late Roman Baroque. It was designed by Domenico Martinelli. The Chapel is dedicated to the “Nati",
+      "source": "Wikimedia Commons",
+      "artist": "Piergiuliano Chesi",
+      "date": "2014-03-11",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "874"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Massa_Duomo_San_Francesco_Cappella_Ducale_01.JPG/1280px-Massa_Duomo_San_Francesco_Cappella_Ducale_01.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Massa_Duomo_San_Francesco_Cappella_Ducale_01.JPG/500px-Massa_Duomo_San_Francesco_Cappella_Ducale_01.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Massa_Duomo_San_Francesco_Cappella_Ducale_01.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Massa_Duomo_San_Francesco_Cappella_Ducale_01.JPG",
+      "caption": "Italy , Tuscany , Massa , St. Francis Cathedral. The Ducal Chapel or “Chapel of the Blessed Sacrament” was built by the will of Dukes Alberico II and Carlo II between 1687 and 1694 in late Roman Baroque. It was designed by Domenico Martinelli. The Chapel is dedicated to the “Nati",
+      "source": "Wikimedia Commons",
+      "artist": "Piergiuliano Chesi",
+      "date": "2014-03-11",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Angel_with_a_Cross%2C_Ponte_SantAngelo%2C_Rome_%285936740645%29.jpg/1280px-Angel_with_a_Cross%2C_Ponte_SantAngelo%2C_Rome_%285936740645%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Angel_with_a_Cross%2C_Ponte_SantAngelo%2C_Rome_%285936740645%29.jpg/500px-Angel_with_a_Cross%2C_Ponte_SantAngelo%2C_Rome_%285936740645%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Angel_with_a_Cross%2C_Ponte_SantAngelo%2C_Rome_%285936740645%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Angel_with_a_Cross,_Ponte_SantAngelo,_Rome_(5936740645).jpg",
+      "caption": "Ercole Ferrata (1610 – July 10, 1686) was an Italian sculptor of the Roman Baroque.",
+      "source": "Wikimedia Commons",
+      "artist": "Alex Proimos from Sydney, Australia",
+      "date": "2011-07-10 22:59",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Giuseppe_Bartolomeo_Chiari_-_Susannah_and_the_Elders_-_Walters_371880.jpg/1280px-Giuseppe_Bartolomeo_Chiari_-_Susannah_and_the_Elders_-_Walters_371880.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Giuseppe_Bartolomeo_Chiari_-_Susannah_and_the_Elders_-_Walters_371880.jpg/500px-Giuseppe_Bartolomeo_Chiari_-_Susannah_and_the_Elders_-_Walters_371880.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Giuseppe_Bartolomeo_Chiari_-_Susannah_and_the_Elders_-_Walters_371880.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Giuseppe_Bartolomeo_Chiari_-_Susannah_and_the_Elders_-_Walters_371880.jpg",
+      "caption": "The biblical book of Daniel tells of Susanna, a married woman who is spied upon by two old judges while bathing in her garden. They attempt to force themselves upon her, saying that if she does not submit, they will accuse her of adultery. With Daniel's assistance, Susanna's inno",
+      "source": "Wikimedia Commons",
+      "artist": "Giuseppe Bartolomeo Chiari",
+      "date": "between circa 1700 and circa 1727 date QS:P571,+1750-00-00T0",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1059"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Roma_-_Sant%27Ivo_alla_Sapienza_%2842077609034%29.jpg/1280px-Roma_-_Sant%27Ivo_alla_Sapienza_%2842077609034%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Roma_-_Sant%27Ivo_alla_Sapienza_%2842077609034%29.jpg/500px-Roma_-_Sant%27Ivo_alla_Sapienza_%2842077609034%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Roma_-_Sant%27Ivo_alla_Sapienza_%2842077609034%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Roma_-_Sant%27Ivo_alla_Sapienza_(42077609034).jpg",
+      "caption": "Sant'Eustachio - Corso del Rinascimento Sant'Ivo alla Sapienza is a Roman Catholic church and a masterpiece of Roman Baroque architecture. Arch. Francesco Borromini 1642-60 The church is at the rear of a courtyard ; the complex is now used by the State Archives of Rome.",
+      "source": "Wikimedia Commons",
+      "artist": "Fred Romero from Paris, France",
+      "date": "Taken on 22 May 2018, 18:26",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1920"
+    }
+  ],
   "sources": [
     {
       "name": "The Grove Encyclopedia of Art",
@@ -227,5 +284,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": "2026-09-11T05:11:25.602Z",
   "createdAt": "2026-09-11T04:12:48.521Z",
-  "updatedAt": "2026-09-18T11:03:10.037Z"
+  "updatedAt": "2026-09-18T11:55:32.810Z"
 }

@@ -73,35 +73,8 @@
   "graphicDesign": {},
   "uiTranslation": {},
   "recipe": {},
-  "emotionProfile": {
-    "warm": 30,
-    "cold": 70,
-    "playful": 20,
-    "serious": 60,
-    "chaotic": 30,
-    "ordered": 70,
-    "nostalgic": 30,
-    "futuristic": 40,
-    "peaceful": 80,
-    "ominous": 10
-  },
-  "dnaAxes": {
-    "minimal_maximal": 70,
-    "organic_geometric": 40,
-    "warm_cold": 30,
-    "natural_synthetic": 60,
-    "analog_digital": 40,
-    "historical_futuristic": 30,
-    "refined_raw": 40,
-    "playful_serious": 30,
-    "soft_harsh": 50,
-    "quiet_loud": 60,
-    "orderly_chaotic": 50,
-    "dense_spacious": 60,
-    "realistic_surreal": 40,
-    "elegant_utilitarian": 60,
-    "nostalgic_progressive": 50
-  },
+  "emotionProfile": {},
+  "dnaAxes": {},
   "keyExamples": [
     "Hotel lobbies",
     "Co-working spaces",
@@ -117,7 +90,36 @@
     "minimalist",
     "wellness"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Railway_master_mechanic_%28microform%29_%281895%29_%2814574979070%29.jpg/1280px-Railway_master_mechanic_%28microform%29_%281895%29_%2814574979070%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Railway_master_mechanic_%28microform%29_%281895%29_%2814574979070%29.jpg/500px-Railway_master_mechanic_%28microform%29_%281895%29_%2814574979070%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Railway_master_mechanic_%28microform%29_%281895%29_%2814574979070%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Railway_master_mechanic_(microform)_(1895)_(14574979070).jpg",
+      "caption": "Identifier : railwaymastermec33newy ( find matches ) Title : Railway master mechanic (microform) Year : 1895 ( 1890s ) Authors : Subjects : Railroads Railroads Publisher : New York : (Simmons-Boardman Pub. Corp.) Contributing Library : MIT Libraries Digitizing Sponsor : Boston Li",
+      "source": "Wikimedia Commons",
+      "artist": "Internet Archive Book Images",
+      "date": "1895",
+      "license": "No restrictions",
+      "licenseUrl": "https://www.flickr.com/commons/usage/",
+      "width": "1280",
+      "height": "671"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/10-16-1945_blueprint_room_%287846598472%29.jpg/1280px-10-16-1945_blueprint_room_%287846598472%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/10-16-1945_blueprint_room_%287846598472%29.jpg/500px-10-16-1945_blueprint_room_%287846598472%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bb/10-16-1945_blueprint_room_%287846598472%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:10-16-1945_blueprint_room_(7846598472).jpg",
+      "caption": "Eleventh Naval District Public Works Department 1945",
+      "source": "Wikimedia Commons",
+      "artist": "NAVFAC",
+      "date": "2012-08-23 11:38",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1024"
+    }
+  ],
   "sources": [
     {
       "name": "ArchDaily - Monochrome Interiors",
@@ -181,5 +183,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T03:20:05.513Z",
-  "updatedAt": "2026-09-18T10:38:18.951Z"
+  "updatedAt": "2026-09-18T11:46:35.675Z"
 }

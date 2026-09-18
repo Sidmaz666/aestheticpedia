@@ -9,7 +9,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Soviet Union",
   "geography": "Online",
   "periodStart": "1940s",
   "periodEnd": "",
@@ -19,7 +19,33 @@
   "summary": "Stilyagi (Russian: стиляги), meaning \"style hunters,\" were members of a youth subculture in the Soviet Union from the late-1940s to the early-1960s, primarily based in large cities.",
   "description": "Stilyagi (Russian: стиляги), meaning \"style hunters,\" were members of a youth subculture in the Soviet Union from the late-1940s to the early-1960s, primarily based in large cities. They were young adults who imitated American and Western lifestyles, particularly in fashion, music, and dance. The term \" stilyagi \" originated from the satirical magazine Krokodil in 1949, where it was used to ridicule Soviet youth who imitated the Teddy Boys of the United Kingdom. Some stilyagi, known as \" shtatniki ,\" exclusively wore American clothing brands.\n\nStilyagi were often apolitical and cynical, and they rejected or disregarded certain Soviet social norms. They were recognizable by their bright clothing, unique slang, and interest in foreign music and dance. The subculture served as a spontaneous protest against the conformist nature of Soviet society, particularly in terms of behavior, clothing, music, and lifestyle. Until the mid-1960s, Soviet media and officials often labeled any young person who followed Western fashion trends and was perceived as having an \"immoral\" lifestyle as a \"stilyaga.\"",
   "culturalContext": "Key values (per the Aesthetics Wiki): Individuality, rebellion against conformity, Westernization",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bfbda4",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#98a6ae",
+      "name": "dove grey 2"
+    },
+    {
+      "hex": "#474945",
+      "name": "graphite"
+    },
+    {
+      "hex": "#6883a3",
+      "name": "slate"
+    },
+    {
+      "hex": "#2a312f",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#908a7d",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Bright colors"
   },
@@ -56,7 +82,36 @@
     "rebellion against conformity",
     "westernization"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Hammond_Slides_Unlabeled_28.jpg/1280px-Hammond_Slides_Unlabeled_28.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Hammond_Slides_Unlabeled_28.jpg/500px-Hammond_Slides_Unlabeled_28.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Hammond_Slides_Unlabeled_28.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hammond_Slides_Unlabeled_28.jpg",
+      "caption": "These images were taken by Thomas T. Hammond during his trip to the Soviet Union. These photos are unlabeled, so the places, time, and people are unknown. This specific photo features a poster in Ukrainian saying \"This kind of man will sell his father and mother for the words 'ma",
+      "source": "Wikimedia Commons",
+      "artist": "Thomas Taylor Hammond (1920-1993)",
+      "date": "20 th century date QS:P,+1950-00-00T00:00:00Z/7",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1824"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/1-IMG_9713.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c2/1-IMG_9713.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/1-IMG_9713.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:1-IMG_9713.jpg",
+      "caption": "Стиляги Бэнд в клубе им. Виторгана",
+      "source": "Wikimedia Commons",
+      "artist": "MarinaChizh",
+      "date": "2017-02-17 22:22:50",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1200",
+      "height": "800"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Stilyagi (CC BY-SA)",
@@ -64,13 +119,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Stilyagi",
+      "url": "https://commons.wikimedia.org/wiki/Category:Stilyagi",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:30:04.741Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4442617",
+      "url": "https://www.wikidata.org/wiki/Q4442617",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:30:04.741Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Stilyagi",
+      "url": "https://en.wikipedia.org/wiki/Stilyagi",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:30:04.741Z"
+      }
+    }
+  ],
+  "wikidata": "Q4442617",
+  "wikipedia": "Stilyagi",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:42.951Z"
 }

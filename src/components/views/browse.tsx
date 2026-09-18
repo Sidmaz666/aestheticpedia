@@ -1,6 +1,7 @@
 'use client'
 
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState, useRef } from 'react'
+import { useHorizontalWheel } from '@/lib/use-horizontal-wheel'
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import { keepPreviousData, useInfiniteQuery } from '@tanstack/react-query'
 import { Loader2, Search, SlidersHorizontal, X } from 'lucide-react'
@@ -19,6 +20,8 @@ const SORTS = [
 
 export function BrowseView({ initialFacets }: { initialFacets: Facets }) {
   const router = useRouter()
+  const pillsRef = useRef<HTMLElement>(null)
+  useHorizontalWheel(pillsRef)
   const pathname = usePathname()
   const sp = useSearchParams()
   const [q, setQ] = useState(sp.get('q') ?? '')
@@ -112,7 +115,7 @@ export function BrowseView({ initialFacets }: { initialFacets: Facets }) {
       </div>
 
       {/* Category pills */}
-      <nav aria-label="Categories" className="no-scrollbar mask-fade-x -mx-4 mt-8 flex gap-2 overflow-x-auto px-4 sm:-mx-6 sm:px-6 lg:-mx-10 lg:px-10">
+      <nav ref={pillsRef} aria-label="Categories" className="no-scrollbar mask-fade-x -mx-4 mt-8 flex gap-2 overflow-x-auto px-4 sm:-mx-6 sm:px-6 lg:-mx-10 lg:px-10">
         <Pill active={!category} onClick={() => set('category', null)}>
           All
         </Pill>

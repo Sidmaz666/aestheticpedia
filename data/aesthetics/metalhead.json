@@ -24,20 +24,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Authenticity (anti- poser ), loyalty, anti-commercialism (refusal to \"sell out\"), devotion to metal music",
   "colors": [
     {
-      "hex": "#c0c0c0",
-      "name": "silver"
-    },
-    {
-      "hex": "#000000",
+      "hex": "#121310",
       "name": "black"
     },
     {
-      "hex": "#ffffff",
-      "name": "white"
+      "hex": "#34332e",
+      "name": "ink blue"
     },
     {
-      "hex": "#ff0000",
-      "name": "red"
+      "hex": "#59534e",
+      "name": "umber"
+    },
+    {
+      "hex": "#e8eae8",
+      "name": "paper white"
+    },
+    {
+      "hex": "#787875",
+      "name": "slate"
+    },
+    {
+      "hex": "#9c9b96",
+      "name": "warm grey"
     }
   ],
   "paletteSource": "derived",
@@ -78,7 +86,89 @@
     "anti-commercialism",
     "devotion to metal music"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Metalhead_Kids.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Metalhead_Kids.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Metalhead_Kids.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Metalhead_Kids.jpg",
+      "caption": "Teenage fans of Heavy Metal",
+      "source": "Wikimedia Commons",
+      "artist": "Jerzy Durczak",
+      "date": "2006-06-11 13:33",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "800",
+      "height": "542"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Sabs.jpg/1280px-Sabs.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Sabs.jpg/500px-Sabs.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/42/Sabs.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sabs.jpg",
+      "caption": "Trade ad for Black Sabbath 's album Black Sabbath (1970). From left to right: Geezer Butler, Tony Iommi, Bill Ward, Ozzy Osbourne.",
+      "source": "Wikimedia Commons",
+      "artist": "Warner Bros. Records",
+      "date": "1970-07-18",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "882"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Metalhead2015.jpg/1280px-Metalhead2015.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Metalhead2015.jpg/500px-Metalhead2015.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Metalhead2015.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Metalhead2015.jpg",
+      "caption": "Ja na festivale",
+      "source": "Wikimedia Commons",
+      "artist": "Michal Žilinský",
+      "date": "2015-08-29",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "848"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/PriestScorpionsNEC_017_Halford.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/53/PriestScorpionsNEC_017_Halford.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/53/PriestScorpionsNEC_017_Halford.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:PriestScorpionsNEC_017_Halford.jpg",
+      "caption": "Rob Halford . Cropped version. Photo taken by Andrew Dale.",
+      "source": "Wikimedia Commons",
+      "artist": "Cropped version uploaded by Naufana ; original uploader was Christopher Dale at en.wikipedia",
+      "date": "2007-07-20",
+      "license": "Public domain",
+      "width": "1048",
+      "height": "1200"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/HeavyMetalJckt.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e0/HeavyMetalJckt.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e0/HeavyMetalJckt.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:HeavyMetalJckt.jpg",
+      "caption": "Heavy Metal Jean Jacket",
+      "source": "Wikimedia Commons",
+      "artist": "A metalhead in Boston",
+      "date": "2 January 2008 (original upload date) ( Original text: Somet",
+      "license": "Public domain",
+      "width": "494",
+      "height": "465"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/AsphyxBand.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8c/AsphyxBand.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8c/AsphyxBand.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:AsphyxBand.jpg",
+      "caption": "Asphyx, during a concert in 2007 in London. I ( en:User:Hervegirod ) made this picture myself. The original is on my flickr home page, which states this image is my own work",
+      "source": "Wikimedia Commons",
+      "artist": "Hervegirod at English Wikipedia",
+      "date": "8 March 2008 (original upload date)",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1024",
+      "height": "683"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Metalhead (CC BY-SA)",
@@ -86,13 +176,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1451483",
+      "url": "https://www.wikidata.org/wiki/Q1451483",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:28:10.577Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Heavy metal subculture",
+      "url": "https://en.wikipedia.org/wiki/Heavy_metal_subculture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:28:10.577Z"
+      }
+    }
+  ],
+  "wikidata": "Q1451483",
+  "wikipedia": "Heavy metal subculture",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:28:10.577Z"
 }

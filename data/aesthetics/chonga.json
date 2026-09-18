@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "United States",
   "geography": "Online",
   "periodStart": "1980s-2000s",
   "periodEnd": "",
@@ -19,8 +19,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Working-class empowerment, sexual liberation, sassiness, cultural pride",
   "colors": [
     {
-      "hex": "#ff69b4",
-      "name": "hot pink"
+      "hex": "#341818",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#d7b4aa",
+      "name": "blush"
+    },
+    {
+      "hex": "#b99a91",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#5c3330",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#a6776d",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#828387",
+      "name": "taupe"
     }
   ],
   "paletteSource": "derived",
@@ -54,7 +74,64 @@
     "sassiness",
     "cultural pride"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/2011_July_Chonga_01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7e/2011_July_Chonga_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7e/2011_July_Chonga_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:2011_July_Chonga_01.jpg",
+      "caption": "Latino Gay Pride. July 14-17, 2011, in Portland, Oregon. Photos by Marty Davis / Just Out.",
+      "source": "Wikimedia Commons",
+      "artist": "Just Out",
+      "date": "2011-07-17 12:02",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1024",
+      "height": "683"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/2011_July_Chonga_02.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/52/2011_July_Chonga_02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/52/2011_July_Chonga_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:2011_July_Chonga_02.jpg",
+      "caption": "Latino Gay Pride. July 14-17, 2011, in Portland, Oregon. Photos by Marty Davis / Just Out.",
+      "source": "Wikimedia Commons",
+      "artist": "Just Out",
+      "date": "2011-07-17 12:02",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1024",
+      "height": "683"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2011_July_Chonga_03.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2011_July_Chonga_03.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2011_July_Chonga_03.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:2011_July_Chonga_03.jpg",
+      "caption": "Latino Gay Pride. July 14-17, 2011, in Portland, Oregon. Photos by Marty Davis / Just Out.",
+      "source": "Wikimedia Commons",
+      "artist": "Just Out",
+      "date": "2011-07-17 12:02",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1024",
+      "height": "683"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/BellaCongaStyle2011.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/ff/BellaCongaStyle2011.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/ff/BellaCongaStyle2011.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BellaCongaStyle2011.jpg",
+      "caption": "A beautiful lass with chonga style earings and top, at the Latino Gay Pride. July 17, 2011, Portland, Oregon. Pic taken by Marty Davis / Just Out",
+      "source": "Wikimedia Commons",
+      "artist": "Marty Davis / Just Out.",
+      "date": "2011-07-17",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1024",
+      "height": "683"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Chonga (CC BY-SA)",
@@ -62,13 +139,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Chonga",
+      "url": "https://commons.wikimedia.org/wiki/Category:Chonga",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:13:21.820Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5104619",
+      "url": "https://www.wikidata.org/wiki/Q5104619",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:13:21.820Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Chonga",
+      "url": "https://en.wikipedia.org/wiki/Chonga",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:13:21.820Z"
+      }
+    }
+  ],
+  "wikidata": "Q5104619",
+  "wikipedia": "Chonga",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:25.642Z"
 }

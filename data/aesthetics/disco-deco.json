@@ -9,7 +9,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Japan",
   "geography": "Online",
   "periodStart": "Mid-1960s",
   "periodEnd": "",
@@ -80,13 +80,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5281549",
+      "url": "https://www.wikidata.org/wiki/Q5281549",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:15:17.333Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Disco No. 1",
+      "url": "https://en.wikipedia.org/wiki/Disco_No._1",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:15:17.333Z"
+      }
+    }
+  ],
+  "wikidata": "Q5281549",
+  "wikipedia": "Disco No. 1",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:28.323Z"
 }

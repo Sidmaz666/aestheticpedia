@@ -12,7 +12,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (4chan, Discord, TikTok)",
   "geography": "Online",
   "periodStart": "2020s",
   "periodEnd": "",
@@ -22,7 +22,33 @@
   "summary": "Hyperborean , also known as Save Europe or Agartha Edits , is a TikTok aesthetic [ 1 ] that combines far-right extremist ideologies with esoteric mythology, conspiracy theories, and a distinct audio-visual style.",
   "description": "Hyperborean , also known as Save Europe or Agartha Edits , is a TikTok aesthetic [ 1 ] that combines far-right extremist ideologies with esoteric mythology, conspiracy theories, and a distinct audio-visual style. Evolving from Fashwave , the aesthetic is defined by chaotic, fast-paced video edits that layer historical and mythological imagery with internet memes and coded language (dog whistles). It is primarily disseminated on platforms like TikTok, where it often blurs the line between ironic shitposting and the genuine promotion of white supremacist, anti-immigrant, and neo-Nazi beliefs. [ 2 ]",
   "culturalContext": "Key values (per the Aesthetics Wiki): Far-right ideologies, esoteric Nazism, anti-immigration sentiments, traditionalism (often presented through a lens of irony and memetic chaos)",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#020203",
+      "name": "black"
+    },
+    {
+      "hex": "#788289",
+      "name": "slate"
+    },
+    {
+      "hex": "#9b9b9e",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#a6926a",
+      "name": "camel"
+    },
+    {
+      "hex": "#beb3a7",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#516279",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -58,7 +84,34 @@
     "traditionalism (often presented through a lens of irony",
     "memetic chaos)"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Typus_Orbis_Terrarum.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Typus_Orbis_Terrarum.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Typus_Orbis_Terrarum.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Typus_Orbis_Terrarum.jpg",
+      "caption": "Typus Orbis Terrarum. (Imagem da Terra) ORTELIUS, Abraham 1587 Buril e aquarela sobre papel 10 x 10 cm Acervo Fundação Biblioteca Nacional, Rio de Janeiro",
+      "source": "Wikimedia Commons",
+      "artist": "ORTELIUS, Abraham",
+      "date": "1587",
+      "license": "Public domain",
+      "width": "800",
+      "height": "588"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg/1280px-The_Blue_Marble%2C_AS17-148-22727.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg/500px-The_Blue_Marble%2C_AS17-148-22727.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Blue_Marble,_AS17-148-22727.jpg",
+      "caption": "The Blue Marble, by Apollo 17, AS17-148-22727.",
+      "source": "Wikimedia Commons",
+      "artist": "Harrison Schmitt / Apollo 17",
+      "date": "1972-12-07",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1280"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Hyperborean (CC BY-SA)",
@@ -66,13 +119,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q243333",
+      "url": "https://www.wikidata.org/wiki/Q243333",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:19:19.797Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Hyperborea",
+      "url": "https://en.wikipedia.org/wiki/Hyperborea",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:19:19.797Z"
+      }
+    }
+  ],
+  "wikidata": "Q243333",
+  "wikipedia": "Hyperborea",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:19:19.797Z"
 }

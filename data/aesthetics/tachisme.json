@@ -71,35 +71,8 @@
   "graphicDesign": {},
   "uiTranslation": {},
   "recipe": {},
-  "emotionProfile": {
-    "warm": 50,
-    "cold": 50,
-    "playful": 40,
-    "serious": 60,
-    "chaotic": 75,
-    "ordered": 25,
-    "nostalgic": 35,
-    "futuristic": 65,
-    "peaceful": 30,
-    "ominous": 55
-  },
-  "dnaAxes": {
-    "minimal_maximal": 70,
-    "organic_geometric": 65,
-    "warm_cold": 45,
-    "natural_synthetic": 50,
-    "analog_digital": 85,
-    "historical_futuristic": 60,
-    "refined_raw": 45,
-    "playful_serious": 55,
-    "soft_harsh": 70,
-    "quiet_loud": 65,
-    "orderly_chaotic": 70,
-    "dense_spacious": 45,
-    "realistic_surreal": 75,
-    "elegant_utilitarian": 25,
-    "nostalgic_progressive": 60
-  },
+  "emotionProfile": {},
+  "dnaAxes": {},
   "keyExamples": [
     "Pierre Soulages",
     "Jean-Paul Riopelle",
@@ -115,7 +88,22 @@
     "postwar",
     "experimental"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Tachisme_%2844146771320%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/57/Tachisme_%2844146771320%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/57/Tachisme_%2844146771320%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tachisme_(44146771320).jpg",
+      "caption": "São Paulo, Brazil. November 2018",
+      "source": "Wikimedia Commons",
+      "artist": "Carlos Ebert from São Paulo, BrazilGRU",
+      "date": "2018-11-19 23:42",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1080",
+      "height": "810"
+    }
+  ],
   "audio": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/LL-Q150_%28fra%29-WikiLucas00-tachisme.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -180,5 +168,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-11T03:56:10.443Z",
-  "updatedAt": "2026-09-18T11:08:08.869Z"
+  "updatedAt": "2026-09-18T11:56:29.030Z"
 }

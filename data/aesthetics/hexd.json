@@ -11,7 +11,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (SoundCloud)",
   "geography": "Online",
   "periodStart": "Late 2010s",
   "periodEnd": "",
@@ -87,13 +87,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q107697234",
+      "url": "https://www.wikidata.org/wiki/Q107697234",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:19:08.942Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — HexD",
+      "url": "https://en.wikipedia.org/wiki/HexD",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:19:08.942Z"
+      }
+    }
+  ],
+  "wikidata": "Q107697234",
+  "wikipedia": "HexD",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:19:08.942Z"
 }

@@ -69,7 +69,35 @@
     "kitsch",
     "creativity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Brian_Eno_2015.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Brian_Eno_2015.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Brian_Eno_2015.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Brian_Eno_2015.png",
+      "caption": "Brian Eno in a 2015 interview",
+      "source": "Wikimedia Commons",
+      "artist": "How We Get To Next",
+      "date": "2015-12-19",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "832",
+      "height": "988"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Lou_Reed_1977.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/59/Lou_Reed_1977.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/Lou_Reed_1977.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lou_Reed_1977.JPG",
+      "caption": "Photo of Lou Reed.",
+      "source": "Wikimedia Commons",
+      "artist": "Arista Records/Photo by Mick Rock.",
+      "date": "1977-01-20",
+      "license": "Public domain",
+      "width": "1106",
+      "height": "1554"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Avant Basic (CC BY-SA)",
@@ -77,13 +105,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4866933",
+      "url": "https://www.wikidata.org/wiki/Q4866933",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:10:33.931Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Basic (Robert Quine and Fred Maher album)",
+      "url": "https://en.wikipedia.org/wiki/Basic_(Robert_Quine_and_Fred_Maher_album)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:10:33.931Z"
+      }
+    }
+  ],
+  "wikidata": "Q4866933",
+  "wikipedia": "Basic (Robert Quine and Fred Maher album)",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:10:33.931Z"
 }

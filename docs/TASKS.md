@@ -6,11 +6,21 @@ A running log of what has been done and what is next. Newest first. Keep entries
 
 | Metric | Value |
 |---|---|
-| Records | 3,765 (1,127 curated · 1,805 Wikidata/Wikipedia · 833 Aesthetics Wiki); 2,574 with images, 3,084 with palettes; live counts in `public/data/manifest.json` |
-| Images | 10,000+ freely licensed, all with artist/license/source page; 8,036 original URLs link-checked (100% OK) |
+| Records | 4,228 (1,127 curated · 2,268 Wikidata/Wikipedia · 833 Aesthetics Wiki); 3,484 with images, 3,711 with palettes; live counts in `public/data/manifest.json` |
+| Images | 23,450 freely licensed, all with artist/license/source page |
+| Known gaps | 744 records without images (472 internet aesthetics), 1,803 without a start year, 1,649 without an origin, 517 without a palette — left empty rather than guessed |
 | Material/texture photos | 1,764 terms with real photos (`data/materials.json`) |
 | Relations | 8,500+ (curated + Wikidata P737/P279/P155 + Aesthetics Wiki "related") |
-| Tests | 56 unit (Vitest) · 24 e2e (Playwright, desktop + mobile) — all passing |
+| Tests | 63 unit (Vitest) · 27 e2e (Playwright, desktop + mobile) — all passing |
+
+## 2026-09-18 — Round 3: coverage, real data only, on-device agent
+
+- [x] Coverage: crawl of ~58 Wikipedia category trees (styles, crafts, regional art, textiles, costume, cinema, photography) → Wikidata classes reviewed into an allow-list (`data/crawl-classes.json`, with explicit exclusions) → 463 new records: rug traditions, Japanese traditional crafts, pottery styles, lace/embroidery, regional art of Asia, Africa, Oceania and the Middle East.
+- [x] Gap filling: 910 more records illustrated, net of removals (Wikipedia + Commons/Openverse search with two-word context check); origins for ~640 and periods for 526 from Wikidata and explicit statements in each record's own sources; 96 records with audio.
+- [x] Quality: 905 unsourced AI style profiles removed (palette metrics measured from real colours instead); AI-generated images removed (except on AI-art records); 22 wrong Wikipedia matches undone with their images, references, Wikidata ids and palettes (`fix-wikipedia-links.ts`); 25 records with images from a related article reviewed by contact sheet — 7 cleared, 17 pruned to the images that depict the subject (`data/curated-images.json`); ~50 search-image false positives rejected by hand.
+- [x] Live demo rebuilt from real data only (3D gallery of the record's images, web page, poster, palette map, UI kit, type); procedural line art/painting/pattern/shader removed.
+- [x] On-device agent: Needle 3 (Cactus Compute, 35 MB WASM) routes to 14 grounded tools; optional Qwen 3.5 writer; 3D robot guide that takes on each aesthetic, follows the pointer, doubles as back-to-top.
+- [x] UI: Connections page restructured (graph above a filter bar with wheel scrolling, arrows, show/hide all; hover card no longer clipped); wheel scrolling for chip and tab rows; proper carousels, palette thumbnails instead of blank boxes, pointer cursor on every interactive element, hydration and script-tag warnings fixed, redundant "Full page" button removed.
 
 ## 2026-09-18 — Round 2: scale, visuals, AI, deployment
 
@@ -41,6 +51,7 @@ A running log of what has been done and what is next. Newest first. Keep entries
 ## Next
 
 - [ ] Editorial depth for imported Stubs: visual grammar, typography, style profiles (by contributors — never auto-generated).
-- [ ] More image sources for records still without images (Met, Rijksmuseum, Smithsonian Open Access, Europeana).
+- [ ] More image sources for the 744 records still without images (Met, Rijksmuseum, Smithsonian Open Access, Europeana; an Openverse API key would lift the anonymous 200/day limit).
+- [ ] Origins/periods for the remaining records need editorial research — do not infer.
 - [ ] Multilingual names from Wikidata labels; non-English Wikipedia fallbacks for regional traditions.
 - [ ] Scheduled link checks in CI once the workflow is enabled.

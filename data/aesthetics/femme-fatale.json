@@ -26,20 +26,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Enticement, scheming, heartlessness, lust",
   "colors": [
     {
-      "hex": "#006400",
-      "name": "dark green"
-    },
-    {
-      "hex": "#000000",
+      "hex": "#1a130f",
       "name": "black"
     },
     {
-      "hex": "#0000ff",
-      "name": "blue"
+      "hex": "#2f2925",
+      "name": "ink blue"
     },
     {
-      "hex": "#ff0000",
-      "name": "red"
+      "hex": "#c0b7b1",
+      "name": "silver"
+    },
+    {
+      "hex": "#b69d84",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#a37a51",
+      "name": "bronze"
+    },
+    {
+      "hex": "#dcdadb",
+      "name": "bone white"
     }
   ],
   "paletteSource": "derived",
@@ -76,7 +84,61 @@
     "heartlessness",
     "lust"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Wood_carving_detail2_-_Vishnu_Mohini.jpg/1280px-Wood_carving_detail2_-_Vishnu_Mohini.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Wood_carving_detail2_-_Vishnu_Mohini.jpg/500px-Wood_carving_detail2_-_Vishnu_Mohini.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Wood_carving_detail2_-_Vishnu_Mohini.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Wood_carving_detail2_-_Vishnu_Mohini.jpg",
+      "caption": "Details of wood carvings in a deserted temple car belonging to the Ayodhyapattinam Sri Rama temple.",
+      "source": "Wikimedia Commons",
+      "artist": "Balaji Srinivasan",
+      "date": "2009-02-26 11:47:44",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "1597"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Franz_von_Stuck_010.jpg/1280px-Franz_von_Stuck_010.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Franz_von_Stuck_010.jpg/500px-Franz_von_Stuck_010.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Franz_von_Stuck_010.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Franz_von_Stuck_010.jpg",
+      "caption": "Salome",
+      "source": "Wikimedia Commons",
+      "artist": "Franz von Stuck",
+      "date": "1906 date QS:P571,+1906-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1634"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Thedarose.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Thedarose.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Thedarose.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Thedarose.jpg",
+      "caption": "Actress Theda Bara in a promotional photo",
+      "source": "Wikimedia Commons",
+      "artist": "Orval Hixon & H. Kenyon Newman",
+      "date": "cc. 1910s",
+      "license": "Public domain",
+      "width": "500",
+      "height": "750"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Double-Indemnity-LIFE-1944-2.jpg/1280px-Double-Indemnity-LIFE-1944-2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Double-Indemnity-LIFE-1944-2.jpg/500px-Double-Indemnity-LIFE-1944-2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/51/Double-Indemnity-LIFE-1944-2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Double-Indemnity-LIFE-1944-2.jpg",
+      "caption": "Promotional still from the 1944 film Double Indemnity",
+      "source": "Wikimedia Commons",
+      "artist": "Time Inc.; photograph by Paramount Pictures (no photographer credited)",
+      "date": "1944-07-10",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "899"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Femme Fatale (CC BY-SA)",
@@ -84,13 +146,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q222573",
+      "url": "https://www.wikidata.org/wiki/Q222573",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:28:04.233Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Femme fatale",
+      "url": "https://en.wikipedia.org/wiki/Femme_fatale",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:28:04.233Z"
+      }
+    }
+  ],
+  "wikidata": "Q222573",
+  "wikipedia": "Femme fatale",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:28:04.233Z"
 }

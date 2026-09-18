@@ -20,7 +20,33 @@
   "summary": "Space Western (also known as Space Cowboy or Frontier Sci-Fi ) is a subgenre of science fiction that merges the thematic and visual motifs of the classic Western with futuristic, interstellar settings.",
   "description": "Space Western (also known as Space Cowboy or Frontier Sci-Fi ) is a subgenre of science fiction that merges the thematic and visual motifs of the classic Western with futuristic, interstellar settings. It often reimagines outer space as a “final frontier”: a vast, lawless expanse where rugged individualism, exploration, and frontier justice remain central. This aesthetic emphasizes a blend of old and new: traditional cowboy archetypes, frontier-style morality, and pastoral or lawless settlements, set against high technology, starships, and distant planets.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Freedom, survival, exploration, escape from monotony",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#390613",
+      "name": "black"
+    },
+    {
+      "hex": "#a9bcd0",
+      "name": "silver"
+    },
+    {
+      "hex": "#deded5",
+      "name": "bone white"
+    },
+    {
+      "hex": "#30302f",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#a1938a",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#d3c1a5",
+      "name": "beige"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Depends on the variant, but mostly colors used in the Wild West era."
   },
@@ -61,7 +87,60 @@
     "exploration",
     "escape from monotony"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Space_Western_40_pg00_fc.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/83/Space_Western_40_pg00_fc.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/83/Space_Western_40_pg00_fc.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Space_Western_40_pg00_fc.jpg",
+      "caption": "Space Western comics",
+      "source": "Wikimedia Commons",
+      "artist": "John Belfi",
+      "date": "1952-10",
+      "license": "Public domain",
+      "width": "1122",
+      "height": "1600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Stanley_L._Wood00.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/09/Stanley_L._Wood00.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/Stanley_L._Wood00.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Stanley_L._Wood00.jpg",
+      "caption": "Texas cowboy by Stanley L. Wood (1866-1928), English illustrator",
+      "source": "Wikimedia Commons",
+      "artist": "Stanley L. Wood (1866-1928)",
+      "license": "Public domain",
+      "width": "688",
+      "height": "750"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/GalaxyOct50rearcover.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fe/GalaxyOct50rearcover.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fe/GalaxyOct50rearcover.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:GalaxyOct50rearcover.jpg",
+      "caption": "rear cover of Galaxy Science Fiction, October 1950. Published by World Editions. Works copyrighted before 1964 had to have the copyright renewed sometime in the 28th year. If the copyright was not renewed the work is in the public domain. These records are in the online catalog f",
+      "source": "Wikimedia Commons",
+      "artist": "H.L. Gold",
+      "date": "2 October 2010 (original upload date)",
+      "license": "Public domain",
+      "width": "1080",
+      "height": "1518"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Thrilling_Adventure_Hour_-_August_2011_-_Photo_By_LifeofReilly.jpg/1280px-Thrilling_Adventure_Hour_-_August_2011_-_Photo_By_LifeofReilly.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Thrilling_Adventure_Hour_-_August_2011_-_Photo_By_LifeofReilly.jpg/500px-Thrilling_Adventure_Hour_-_August_2011_-_Photo_By_LifeofReilly.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/61/Thrilling_Adventure_Hour_-_August_2011_-_Photo_By_LifeofReilly.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Thrilling_Adventure_Hour_-_August_2011_-_Photo_By_LifeofReilly.jpg",
+      "caption": "Thrilling Adventure Hour in August 2011; left to right: Joshua Malina , Busy Philipps , Marc Evan Jackson , Linda Cardellini , Nathan Fillion , Mark Gagliardi",
+      "source": "Wikimedia Commons",
+      "artist": "TheodoraManzana",
+      "date": "2011-08-06 20:02:42",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "651"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Space Western (CC BY-SA)",
@@ -69,13 +148,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Space Western",
+      "url": "https://commons.wikimedia.org/wiki/Category:Space_Western",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:29:21.817Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4235011",
+      "url": "https://www.wikidata.org/wiki/Q4235011",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:29:21.817Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Space Western",
+      "url": "https://en.wikipedia.org/wiki/Space_Western",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:29:21.817Z"
+      }
+    }
+  ],
+  "wikidata": "Q4235011",
+  "wikipedia": "Space Western",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:29:21.817Z"
 }

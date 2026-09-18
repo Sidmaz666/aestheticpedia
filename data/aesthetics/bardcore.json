@@ -81,6 +81,19 @@
     "online community engagement"
   ],
   "images": [],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Bardcore_Christmas_Music_-_Copyright_Free_Music.opus?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Bardcore Christmas Music - Copyright Free Music",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bardcore_Christmas_Music_-_Copyright_Free_Music.opus",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1518,
+      "artist": "PGN Music",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Bardcore (CC BY-SA)",
@@ -88,13 +101,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q96647680",
+      "url": "https://www.wikidata.org/wiki/Q96647680",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:11:09.615Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Bardcore",
+      "url": "https://en.wikipedia.org/wiki/Bardcore",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:11:09.615Z"
+      }
+    }
+  ],
+  "wikidata": "Q96647680",
+  "wikipedia": "Bardcore",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:11:09.615Z"
 }

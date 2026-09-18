@@ -57,13 +57,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1188977",
+      "url": "https://www.wikidata.org/wiki/Q1188977",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:32:03.805Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Urban fantasy",
+      "url": "https://en.wikipedia.org/wiki/Urban_fantasy",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:32:03.805Z"
+      }
+    }
+  ],
+  "wikidata": "Q1188977",
+  "wikipedia": "Urban fantasy",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:32:03.805Z"
 }

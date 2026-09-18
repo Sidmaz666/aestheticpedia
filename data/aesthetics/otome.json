@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Japan",
   "geography": "Online",
   "periodStart": "1970s",
   "periodEnd": "",
@@ -17,7 +17,25 @@
   "summary": "Otome ( 乙女 ) is a Japanese fashion and lifestyle that emerged in the late 1970s.",
   "description": "Otome ( 乙女 ) is a Japanese fashion and lifestyle that emerged in the late 1970s. It is characterized by casual, feminine clothing with youthful, vintage-inspired visuals and an emphasis on traditional handicrafts and hobbies. The style is widely regarded as one of the predecessors of Lolita fashion. While the term \"otome\" was once solely used as name for the aesthetic in Japan, its meaning later shifted due to an increasing association with female-oriented otaku culture, diluting the association with fashion.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#d3d4d5",
+      "name": "bone white"
+    },
+    {
+      "hex": "#9e9fa2",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#000000",
+      "name": "black"
+    },
+    {
+      "hex": "#fb8492",
+      "name": "coral"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "earthy, muted, or vintage-inspired color palettes"
   },
@@ -41,7 +59,21 @@
   "tags": [
     "aesthetics wiki"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Super-Famicom-Angelique-1994-Cartridge.jpg/1280px-Super-Famicom-Angelique-1994-Cartridge.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Super-Famicom-Angelique-1994-Cartridge.jpg/500px-Super-Famicom-Angelique-1994-Cartridge.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Super-Famicom-Angelique-1994-Cartridge.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Super-Famicom-Angelique-1994-Cartridge.jpg",
+      "caption": "The game software cartridge for Super Famicom of the Otome Game Angelique . There is the image at the upper right-hand of the cartridge surface. The image is copyrighted material, therefore it is mosaic censored.",
+      "source": "Wikimedia Commons",
+      "artist": "Nintendo, Koei, and Flora fon Esth",
+      "date": "2019-05-18 11:14:33",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "939"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Otome (CC BY-SA)",
@@ -49,13 +81,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Otome games",
+      "url": "https://commons.wikimedia.org/wiki/Category:Otome_games",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:25:11.328Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1049203",
+      "url": "https://www.wikidata.org/wiki/Q1049203",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:25:11.328Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Otome game",
+      "url": "https://en.wikipedia.org/wiki/Otome_game",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:25:11.328Z"
+      }
+    }
+  ],
+  "wikidata": "Q1049203",
+  "wikipedia": "Otome game",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:25:11.328Z"
 }

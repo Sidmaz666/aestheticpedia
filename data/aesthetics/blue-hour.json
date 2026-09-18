@@ -74,35 +74,8 @@
   "graphicDesign": {},
   "uiTranslation": {},
   "recipe": {},
-  "emotionProfile": {
-    "warm": 20,
-    "cold": 80,
-    "playful": 10,
-    "serious": 60,
-    "chaotic": 30,
-    "ordered": 40,
-    "nostalgic": 50,
-    "futuristic": 20,
-    "peaceful": 50,
-    "ominous": 30
-  },
-  "dnaAxes": {
-    "minimal_maximal": 50,
-    "organic_geometric": 70,
-    "warm_cold": 20,
-    "natural_synthetic": 100,
-    "analog_digital": 40,
-    "historical_futuristic": 40,
-    "refined_raw": 50,
-    "playful_serious": 20,
-    "soft_harsh": 40,
-    "quiet_loud": 70,
-    "orderly_chaotic": 40,
-    "dense_spacious": 60,
-    "realistic_surreal": 70,
-    "elegant_utilitarian": 50,
-    "nostalgic_progressive": 40
-  },
+  "emotionProfile": {},
+  "dnaAxes": {},
   "keyExamples": [
     "Edward Hopper paintings",
     "Night photography by Andreas Gursky",
@@ -118,7 +91,50 @@
     "mood",
     "atmospheric"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Museo_Pr%C3%ADncipe_Felipe%2C_Ciudad_de_las_Artes_y_las_Ciencias%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-29%2C_DD_56.JPG/1280px-Museo_Pr%C3%ADncipe_Felipe%2C_Ciudad_de_las_Artes_y_las_Ciencias%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-29%2C_DD_56.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Museo_Pr%C3%ADncipe_Felipe%2C_Ciudad_de_las_Artes_y_las_Ciencias%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-29%2C_DD_56.JPG/500px-Museo_Pr%C3%ADncipe_Felipe%2C_Ciudad_de_las_Artes_y_las_Ciencias%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-29%2C_DD_56.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/64/Museo_Pr%C3%ADncipe_Felipe%2C_Ciudad_de_las_Artes_y_las_Ciencias%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-29%2C_DD_56.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Museo_Pr%C3%ADncipe_Felipe,_Ciudad_de_las_Artes_y_las_Ciencias,_Valencia,_Espa%C3%B1a,_2014-06-29,_DD_56.JPG",
+      "caption": "Blue hour shot of the Prince Philip Science Museum , part of the City of Arts and Sciences , Valencia , Spain. The 40,000 m 2 museum was opened on November 13 th 2000 and was designed by Santiago Calatrava .",
+      "source": "Wikimedia Commons",
+      "artist": "Diego Delso",
+      "date": "2014-06-29 21:01:24",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "854"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Tower_in_Uptown%2C_Saanich%2C_British_Columbia%2C_Canada_05.jpg/1280px-Tower_in_Uptown%2C_Saanich%2C_British_Columbia%2C_Canada_05.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Tower_in_Uptown%2C_Saanich%2C_British_Columbia%2C_Canada_05.jpg/500px-Tower_in_Uptown%2C_Saanich%2C_British_Columbia%2C_Canada_05.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Tower_in_Uptown%2C_Saanich%2C_British_Columbia%2C_Canada_05.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tower_in_Uptown,_Saanich,_British_Columbia,_Canada_05.jpg",
+      "caption": "The hexagon-shaped tower which sits on top of an elevator going down to underground garages in Uptown, Saanich, British Columbia, Canada. The picture was taken during the blue hour , about 25 minutes after sunset.",
+      "source": "Wikimedia Commons",
+      "artist": "Michal Klajban",
+      "date": "2018-06-11 21:43:28",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "2231"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Illuminated_facade_of_a_3-storey_restaurant_with_Japanese_signs_and_red_paper_lanterns%2C_Chiyoda%2C_Tokyo.jpg/1280px-Illuminated_facade_of_a_3-storey_restaurant_with_Japanese_signs_and_red_paper_lanterns%2C_Chiyoda%2C_Tokyo.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Illuminated_facade_of_a_3-storey_restaurant_with_Japanese_signs_and_red_paper_lanterns%2C_Chiyoda%2C_Tokyo.jpg/500px-Illuminated_facade_of_a_3-storey_restaurant_with_Japanese_signs_and_red_paper_lanterns%2C_Chiyoda%2C_Tokyo.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Illuminated_facade_of_a_3-storey_restaurant_with_Japanese_signs_and_red_paper_lanterns%2C_Chiyoda%2C_Tokyo.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Illuminated_facade_of_a_3-storey_restaurant_with_Japanese_signs_and_red_paper_lanterns,_Chiyoda,_Tokyo.jpg",
+      "caption": "Illuminated facade of a 3-storey restaurant with Japanese signs and red paper lanterns, at blue hour, in Yūrakuchō , Chiyoda , Tokyo , Japan .",
+      "source": "Wikimedia Commons",
+      "artist": "Basile Morin",
+      "date": "Taken on 5 June 2019, 18:50:13",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1551"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia",
@@ -182,5 +198,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:24:34.380Z",
-  "updatedAt": "2026-09-18T10:38:18.273Z"
+  "updatedAt": "2026-09-18T11:46:34.970Z"
 }

@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "United Kingdom",
   "geography": "Online",
   "periodStart": "Mid-2000s (c. 2006–2008)",
   "periodEnd": "",
@@ -20,7 +20,33 @@
   "summary": "The visual style and fashion involved appropriating the signifiers of rave (such as glowsticks, whistles, and neon or fluorescent clothing) and applying them to a typical indie fashion of skinny jeans and band t-shirts.",
   "description": "The visual style and fashion involved appropriating the signifiers of rave (such as glowsticks, whistles, and neon or fluorescent clothing) and applying them to a typical indie fashion of skinny jeans and band t-shirts. The scene, which included bands like Klaxons, Late of the Pier, Trash Fashion, New Young Pony Club, and Cansei de Ser Sexy (CSS), was known for its hedonistic, DIY, and chaotic live shows.\n\nDespite the initial media hype, the New Rave movement faced significant backlash and was quickly dismissed by many as a joke. Critics argued that the term itself was an inauthentic marketing buzzword manufactured by the music magazine NME, rather than a genuine, organic subculture, cementing its status as a brief but memorable fad.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Hedonism, irony, DIY ethos , indie music scene, party culture",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#212b63",
+      "name": "prussian blue"
+    },
+    {
+      "hex": "#131741",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#27358a",
+      "name": "cobalt"
+    },
+    {
+      "hex": "#334ab2",
+      "name": "cerulean"
+    },
+    {
+      "hex": "#3e587a",
+      "name": "graphite"
+    },
+    {
+      "hex": "#5b7e98",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Bright, fluorescent neon colors"
   },
@@ -59,7 +85,22 @@
     "indie music scene",
     "party culture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Klaxons_Queens_May_Ball_2007.jpg/1280px-Klaxons_Queens_May_Ball_2007.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Klaxons_Queens_May_Ball_2007.jpg/500px-Klaxons_Queens_May_Ball_2007.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Klaxons_Queens_May_Ball_2007.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Klaxons_Queens_May_Ball_2007.jpg",
+      "caption": "By Richard Wheeler ( Zephyris ) 2007.",
+      "source": "Wikimedia Commons",
+      "artist": "User:Zephyris",
+      "date": "19 June 2007 (according to Exif data)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — New Rave (CC BY-SA)",
@@ -67,13 +108,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1995980",
+      "url": "https://www.wikidata.org/wiki/Q1995980",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:09.989Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — New rave",
+      "url": "https://en.wikipedia.org/wiki/New_rave",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:24:09.989Z"
+      }
+    }
+  ],
+  "wikidata": "Q1995980",
+  "wikipedia": "New rave",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:40:38.183Z"
 }

@@ -79,13 +79,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q118252062",
+      "url": "https://www.wikidata.org/wiki/Q118252062",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:27:27.738Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Rockstar (Dolly Parton album)",
+      "url": "https://en.wikipedia.org/wiki/Rockstar_(Dolly_Parton_album)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:27:27.738Z"
+      }
+    }
+  ],
+  "wikidata": "Q118252062",
+  "wikipedia": "Rockstar (Dolly Parton album)",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:27:27.738Z"
 }

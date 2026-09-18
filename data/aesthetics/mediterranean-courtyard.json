@@ -72,35 +72,8 @@
   "graphicDesign": {},
   "uiTranslation": {},
   "recipe": {},
-  "emotionProfile": {
-    "warm": 75,
-    "cold": 25,
-    "playful": 45,
-    "serious": 55,
-    "chaotic": 20,
-    "ordered": 65,
-    "nostalgic": 70,
-    "futuristic": 10,
-    "peaceful": 80,
-    "ominous": 10
-  },
-  "dnaAxes": {
-    "minimal_maximal": 50,
-    "organic_geometric": 60,
-    "warm_cold": 75,
-    "natural_synthetic": 60,
-    "analog_digital": 85,
-    "historical_futuristic": 20,
-    "refined_raw": 40,
-    "playful_serious": 45,
-    "soft_harsh": 35,
-    "quiet_loud": 50,
-    "orderly_chaotic": 65,
-    "dense_spacious": 60,
-    "realistic_surreal": 40,
-    "elegant_utilitarian": 55,
-    "nostalgic_progressive": 45
-  },
+  "emotionProfile": {},
+  "dnaAxes": {},
   "keyExamples": [
     "Alhambra Palace courtyards",
     "Andalusian patios in Seville",
@@ -116,7 +89,36 @@
     "traditional",
     "social"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Mediterranean_courtyard_in_Tashkent_%281%29.jpg/1280px-Mediterranean_courtyard_in_Tashkent_%281%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Mediterranean_courtyard_in_Tashkent_%281%29.jpg/500px-Mediterranean_courtyard_in_Tashkent_%281%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/63/Mediterranean_courtyard_in_Tashkent_%281%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mediterranean_courtyard_in_Tashkent_(1).jpg",
+      "caption": "A white stucco courtyard with an arched wooden door, terracotta roof tiles, and a flowering tree with bright pink blossoms. Girl is walking through the foreground.",
+      "source": "Wikimedia Commons",
+      "artist": "Mrshaxas",
+      "date": "2026-06-17 19:55:58",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Mediterranean_courtyard_in_Tashkent.jpg/1280px-Mediterranean_courtyard_in_Tashkent.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Mediterranean_courtyard_in_Tashkent.jpg/500px-Mediterranean_courtyard_in_Tashkent.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Mediterranean_courtyard_in_Tashkent.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mediterranean_courtyard_in_Tashkent.jpg",
+      "caption": "A white stucco courtyard with an arched wooden door, terracotta roof tiles, and a flowering tree with bright pink blossoms. Several people are walking through the foreground.",
+      "source": "Wikimedia Commons",
+      "artist": "Mrshaxas",
+      "date": "2026-06-17 19:56:04",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Mediterranean Houses: Courtyard Design",
@@ -143,5 +145,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-11T04:24:23.589Z",
-  "updatedAt": "2026-09-18T10:54:18.236Z"
+  "updatedAt": "2026-09-18T14:57:48.115Z"
 }

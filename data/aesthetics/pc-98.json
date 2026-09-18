@@ -17,7 +17,33 @@
   "summary": "PC-98 is an aesthetic that originated from the NEC PC-9800 series of personal computers, which were prevalent in Japan from the early 1980s to the late 1990s.",
   "description": "PC-98 is an aesthetic that originated from the NEC PC-9800 series of personal computers, which were prevalent in Japan from the early 1980s to the late 1990s. This distinctive art style, associated with visual novels and eroge (adult games) of the era, is characterized by its limited color palette, relatively high-resolution for its time, and a highly detailed anime pixel art style. Artists utilized techniques like dithering and carefully placing pixels to create the illusion of gradients and depth.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Eroticism, intimacy, emotional connection, melancholy, nostalgia",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bdb5ad",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#817c72",
+      "name": "taupe"
+    },
+    {
+      "hex": "#4d4d46",
+      "name": "graphite"
+    },
+    {
+      "hex": "#5f6565",
+      "name": "graphite 2"
+    },
+    {
+      "hex": "#a09283",
+      "name": "stone"
+    },
+    {
+      "hex": "#151517",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Limited palette (16-256)"
   },
@@ -50,7 +76,147 @@
     "melancholy",
     "nostalgia"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/PC-9801-1st-001.jpg/1280px-PC-9801-1st-001.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/PC-9801-1st-001.jpg/500px-PC-9801-1st-001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4f/PC-9801-1st-001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:PC-9801-1st-001.jpg",
+      "caption": "初代PC-9801と8インチフロッピーディスクドライブ PC-9881",
+      "source": "Wikimedia Commons",
+      "artist": "MH0301",
+      "date": "2006-05-20",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/PC-9801_computer_set.jpg/1280px-PC-9801_computer_set.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/PC-9801_computer_set.jpg/500px-PC-9801_computer_set.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4e/PC-9801_computer_set.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:PC-9801_computer_set.jpg",
+      "caption": "NEC PC-9801 with a monochrome monitor and 8-inch floppy drives, displayed at the KCG Museum in Kyoto, Japan.",
+      "source": "Wikimedia Commons",
+      "artist": "Darklanlan",
+      "date": "2024-05-23 11:04:50",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "970"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/NEC_PC-9801F_Motherboard_with_V30.jpg/1280px-NEC_PC-9801F_Motherboard_with_V30.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/NEC_PC-9801F_Motherboard_with_V30.jpg/500px-NEC_PC-9801F_Motherboard_with_V30.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/00/NEC_PC-9801F_Motherboard_with_V30.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:NEC_PC-9801F_Motherboard_with_V30.jpg",
+      "caption": "NEC PC-9801F motherboard manufactured in January 1985. The original machine contained NEC clone of 8086-2 processor, but this one is replaced with NEC V30 by the user.",
+      "source": "Wikimedia Commons",
+      "artist": "Darklanlan",
+      "date": "2010-12-27 09:53:13",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/NEC_PC-9801VM_Front.jpg/1280px-NEC_PC-9801VM_Front.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/NEC_PC-9801VM_Front.jpg/500px-NEC_PC-9801VM_Front.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c6/NEC_PC-9801VM_Front.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:NEC_PC-9801VM_Front.jpg",
+      "caption": "NEC PC-9801VM computer (1985)",
+      "source": "Wikimedia Commons",
+      "artist": "htomari",
+      "date": "2014-06-22 10:19:28",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/NEC_PC-9821Ap_5-inch_FDD_model.jpg/1280px-NEC_PC-9821Ap_5-inch_FDD_model.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/NEC_PC-9821Ap_5-inch_FDD_model.jpg/500px-NEC_PC-9821Ap_5-inch_FDD_model.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6b/NEC_PC-9821Ap_5-inch_FDD_model.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:NEC_PC-9821Ap_5-inch_FDD_model.jpg",
+      "caption": "NEC PC-9821Ap 5-inch FDD model (1993)",
+      "source": "Wikimedia Commons",
+      "artist": "htomari",
+      "date": "2013-12-28 15:54:26",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "596"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/PC-9801DX_expansion_slot.jpg/1280px-PC-9801DX_expansion_slot.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/PC-9801DX_expansion_slot.jpg/500px-PC-9801DX_expansion_slot.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/PC-9801DX_expansion_slot.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:PC-9801DX_expansion_slot.jpg",
+      "caption": "NEC PC-9801 DX expansion slot often called \"C-Bus\" by users. See w:ja:Cバス .",
+      "source": "Wikimedia Commons",
+      "artist": "Darklanlan",
+      "date": "2011-10-10 11:03:54",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Buffalo_EMJ-4000_EMS_RAM_board.jpg/1280px-Buffalo_EMJ-4000_EMS_RAM_board.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Buffalo_EMJ-4000_EMS_RAM_board.jpg/500px-Buffalo_EMJ-4000_EMS_RAM_board.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Buffalo_EMJ-4000_EMS_RAM_board.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Buffalo_EMJ-4000_EMS_RAM_board.jpg",
+      "caption": "Buffalo ( Melco Inc.) EMJ-4000 4 MB EMS memory expansion board and the driver disk for NEC PC-9800 series .",
+      "source": "Wikimedia Commons",
+      "artist": "Darklanlan",
+      "date": "2016-02-27 14:22:03",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "961"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/NEC_PC-9800_series_keyboard.jpg/1280px-NEC_PC-9800_series_keyboard.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/NEC_PC-9800_series_keyboard.jpg/500px-NEC_PC-9800_series_keyboard.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/49/NEC_PC-9800_series_keyboard.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:NEC_PC-9800_series_keyboard.jpg",
+      "caption": "Japanese keyboard of NEC PC-9800 series computers.",
+      "source": "Wikimedia Commons",
+      "artist": "Darklanlan",
+      "date": "2011-09-14 11:30:19",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "720"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Epson_PC-286L.jpg/1280px-Epson_PC-286L.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Epson_PC-286L.jpg/500px-Epson_PC-286L.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Epson_PC-286L.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Epson_PC-286L.jpg",
+      "caption": "Epson PC-286L laptop computer released for Japanese personal computer market in 1987.",
+      "source": "Wikimedia Commons",
+      "artist": "htomari",
+      "date": "2010-06-24 23:08:07",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Lotus_1-2-3_on_PC-98_DOS_spreadsheet.jpg/1280px-Lotus_1-2-3_on_PC-98_DOS_spreadsheet.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Lotus_1-2-3_on_PC-98_DOS_spreadsheet.jpg/500px-Lotus_1-2-3_on_PC-98_DOS_spreadsheet.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Lotus_1-2-3_on_PC-98_DOS_spreadsheet.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lotus_1-2-3_on_PC-98_DOS_spreadsheet.jpg",
+      "caption": "Screenshot of a spreadsheet created with Lotus 1-2-3 R2.2J for NEC PC-9800 series . Lotus 1-2-3 Release 2.2J (Japanese version) was released in 1990 by Lotus Development Corporation. The series was originated from Lotus 1-2-3 Release 2J of 1986 in Japan, and the first version was",
+      "source": "Wikimedia Commons",
+      "artist": "Darklanlan",
+      "date": "2013-03-10",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "766"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — PC-98 (CC BY-SA)",
@@ -58,13 +224,47 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — NEC PC-98",
+      "url": "https://commons.wikimedia.org/wiki/Category:NEC_PC-98",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:25:20.371Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q183505",
+      "url": "https://www.wikidata.org/wiki/Q183505",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:25:20.371Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — PC-98",
+      "url": "https://en.wikipedia.org/wiki/PC-98",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:25:20.371Z"
+      }
+    }
+  ],
+  "wikidata": "Q183505",
+  "wikipedia": "PC-98",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:25:20.371Z"
 }

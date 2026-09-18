@@ -11,7 +11,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (Newgrounds, deviantART, hi5, friendster, Windows MSN)",
   "geography": "Online",
   "periodStart": "Late 1990s-late 2000s",
   "periodEnd": "",
@@ -80,7 +80,35 @@
     "rebellion",
     "self-expression"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Prats_in_2013-_2014-05-18_19-50.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/19/Prats_in_2013-_2014-05-18_19-50.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/19/Prats_in_2013-_2014-05-18_19-50.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Prats_in_2013-_2014-05-18_19-50.png",
+      "caption": "Prats in 2013.",
+      "source": "Wikimedia Commons",
+      "artist": "User:Fearlcss",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "574",
+      "height": "973"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Jodi_Sta._Maria_06-19-16.jpg/1280px-Jodi_Sta._Maria_06-19-16.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Jodi_Sta._Maria_06-19-16.jpg/500px-Jodi_Sta._Maria_06-19-16.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Jodi_Sta._Maria_06-19-16.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jodi_Sta._Maria_06-19-16.jpg",
+      "caption": "Jodi Santamaria at Barrio Fiesta sa London 2016 - Saturday",
+      "source": "Wikimedia Commons",
+      "artist": "Enrique Guadiz",
+      "date": "Taken on 16 July 2016, 16:07:46",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "1341"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Jologs (CC BY-SA)",
@@ -88,13 +116,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6270140",
+      "url": "https://www.wikidata.org/wiki/Q6270140",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:20:17.402Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Jologs",
+      "url": "https://en.wikipedia.org/wiki/Jologs",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:20:17.402Z"
+      }
+    }
+  ],
+  "wikidata": "Q6270140",
+  "wikipedia": "Jologs",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:20:17.402Z"
 }

@@ -21,7 +21,33 @@
   "summary": "Weeaboo is a subculture and derogatory term used to describe obsessive Western fans of Japanese animanga culture, primarily from 2006 (Release of Crunchyroll) to 2016 (Filthy Frank and Cringe Compilations).",
   "description": "Weeaboo is a subculture and derogatory term used to describe obsessive Western fans of Japanese animanga culture, primarily from 2006 (Release of Crunchyroll) to 2016 (Filthy Frank and Cringe Compilations). Weeaboos emulate the behavior of fictional anime characters rather than actual Japanese social norms. The Weeaboo visual aesthetic incorporates the incongruous fashion and visual blend developed by Western fans attempting to emulate anime.\n\nThis subculture originated out of a transitional era in the Western anime fandom, between the niche era of Animecore and the modern consumerism of Oshi Culture . While originally a derogatory term. \"Weeb\" has been reclaimed by members of the anime fandom to describe their distinct identity centered around conventions and online communities.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Fandom, Romanticization of Japan",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#dee0d7",
+      "name": "bone white"
+    },
+    {
+      "hex": "#2b2f32",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#4c4e50",
+      "name": "graphite"
+    },
+    {
+      "hex": "#b2b1aa",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#7b7979",
+      "name": "taupe"
+    },
+    {
+      "hex": "#979591",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -49,7 +75,21 @@
     "fandom",
     "romanticization of japan"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Lafcadio_Hearn_portrait.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/07/Lafcadio_Hearn_portrait.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/07/Lafcadio_Hearn_portrait.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lafcadio_Hearn_portrait.jpg",
+      "caption": "Patrick Lafcadio Hearn, aka Koizumi Yakumo",
+      "source": "Wikimedia Commons",
+      "artist": "Frederick Gutekunst",
+      "date": "1889",
+      "license": "Public domain",
+      "width": "712",
+      "height": "1024"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Weeaboo (CC BY-SA)",
@@ -57,13 +97,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2983393",
+      "url": "https://www.wikidata.org/wiki/Q2983393",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:32:26.275Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Japanophilia",
+      "url": "https://en.wikipedia.org/wiki/Japanophilia",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:32:26.275Z"
+      }
+    }
+  ],
+  "wikidata": "Q2983393",
+  "wikipedia": "Japanophilia",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:32:26.275Z"
 }

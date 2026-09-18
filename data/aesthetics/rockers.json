@@ -10,7 +10,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "United Kingdom",
   "geography": "Online",
   "periodStart": "1950s",
   "periodEnd": "",
@@ -22,12 +22,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Masculinity, rebellion, speed, group loyalty, 1950s rock and roll music",
   "colors": [
     {
-      "hex": "#000000",
-      "name": "black"
+      "hex": "#50333a",
+      "name": "aubergine"
     },
     {
-      "hex": "#0000ff",
-      "name": "blue"
+      "hex": "#391d1f",
+      "name": "aubergine 2"
+    },
+    {
+      "hex": "#a26655",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b17d6b",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#c09681",
+      "name": "camel"
+    },
+    {
+      "hex": "#885246",
+      "name": "bronze 2"
     }
   ],
   "paletteSource": "derived",
@@ -67,7 +83,35 @@
     "1950s rock",
     "roll music"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/The_Rockers%2C_1987.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/22/The_Rockers%2C_1987.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/22/The_Rockers%2C_1987.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Rockers,_1987.jpg",
+      "caption": "American professional wrestlers Shawn Michaels and Marty Jannetty , known together as The (Midnight) Rockers, as the AWA World Tag Team Champions in the spring of 1987",
+      "source": "Wikimedia Commons",
+      "artist": "Bruce Krietzman",
+      "date": "1987-02-01",
+      "license": "Public domain",
+      "width": "790",
+      "height": "873"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/The_Rockers_-_Michaels_and_Jannetty.jpg/1280px-The_Rockers_-_Michaels_and_Jannetty.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/The_Rockers_-_Michaels_and_Jannetty.jpg/500px-The_Rockers_-_Michaels_and_Jannetty.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d8/The_Rockers_-_Michaels_and_Jannetty.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Rockers_-_Michaels_and_Jannetty.jpg",
+      "caption": "Professional wrestling tag team Shawn Michaels and Marty Jannetty after a tag team match on 7 March 1989 at the El Paso Civic Center for a video taping of a WWF \"Superstars of Wrestling\" event.",
+      "source": "Wikimedia Commons",
+      "artist": "John McKeon",
+      "date": "7 March 1989",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "1257"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Rockers (CC BY-SA)",
@@ -75,13 +119,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q980436",
+      "url": "https://www.wikidata.org/wiki/Q980436",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:27:26.851Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — The Rockers",
+      "url": "https://en.wikipedia.org/wiki/The_Rockers",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:27:26.851Z"
+      }
+    }
+  ],
+  "wikidata": "Q980436",
+  "wikipedia": "The Rockers",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:27:26.851Z"
 }

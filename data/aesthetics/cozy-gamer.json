@@ -7,7 +7,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Online (TikTok, Pinterest, YouTube)",
   "geography": "Online",
   "periodStart": "2020s",
   "periodEnd": "",
@@ -83,7 +83,22 @@
     "slow living",
     "soft productivity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/A_Short_Hike_Screenshot_1.png/1280px-A_Short_Hike_Screenshot_1.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/A_Short_Hike_Screenshot_1.png/500px-A_Short_Hike_Screenshot_1.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0d/A_Short_Hike_Screenshot_1.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:A_Short_Hike_Screenshot_1.png",
+      "caption": "Screenshot taken from the game A Short Hike on November 28, 2020. Here, the player character, Claire, flies over a forested area of the park, showing off the flying mechanics and scenery.",
+      "source": "Wikimedia Commons",
+      "artist": "Adam Robinson-Yu",
+      "date": "2020-11-28",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "720"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Cozy Gamer (CC BY-SA)",
@@ -91,13 +106,36 @@
       "tier": "C"
     }
   ],
-  "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q124973056",
+      "url": "https://www.wikidata.org/wiki/Q124973056",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:14:19.867Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cozy game",
+      "url": "https://en.wikipedia.org/wiki/Cozy_game",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T15:14:19.867Z"
+      }
+    }
+  ],
+  "wikidata": "Q124973056",
+  "wikipedia": "Cozy game",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T10:41:11.990Z"
+  "updatedAt": "2026-09-18T15:14:19.867Z"
 }

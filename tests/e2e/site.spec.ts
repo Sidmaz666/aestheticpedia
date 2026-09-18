@@ -98,7 +98,7 @@ test('the timeline has no visible scrollbars and jumps to eras', async ({ page }
 
 test('connections network renders on canvas', async ({ page }) => {
   await page.goto('/connections')
-  const canvas = page.locator('canvas')
+  const canvas = page.locator('canvas[data-graph]')
   await expect(canvas).toBeVisible()
   expect((await canvas.boundingBox())!.width).toBeGreaterThan(300)
 })
@@ -161,4 +161,22 @@ test('live demo shows only the record’s real images, and related records scrol
   await expect(prev).toBeDisabled()
   await next.click()
   await expect(prev).toBeEnabled()
+})
+
+test('connections: filter bar is on screen and scrollable; graph area ends above it', async ({ page }) => {
+  await page.goto('/connections')
+  const bar = page.getByRole('group', { name: /Filter by category/ })
+  await expect(bar).toBeVisible()
+  const vh = page.viewportSize()!.height
+  const barBox = (await bar.boundingBox())!
+  expect(barBox.y + barBox.height).toBeLessThanOrEqual(vh)
+  const graphBox = (await page.locator('canvas[data-graph]').boundingBox())!
+  expect(graphBox.y + graphBox.height).toBeLessThanOrEqual(barBox.y + 1)
+  const scrollable = await bar.evaluate((el) => el.scrollWidth > el.clientWidth)
+  if (scrollable) {
+    await bar.hover()
+    await page.mouse.wheel(0, 400)
+    await expect.poll(() => bar.evaluate((el) => el.scrollLeft)).toBeGreaterThan(0)
+    await page.getByRole('button', { name: 'Scroll categories left' }).click()
+  }
 })
