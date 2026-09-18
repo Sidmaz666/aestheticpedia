@@ -19,7 +19,33 @@
   "summary": "Gnathia vases are a type of pottery belonging to ancient Apulian vase painting of the 4th century BC.",
   "description": "Gnathia vases are a type of pottery belonging to ancient Apulian vase painting of the 4th century BC.\n\nThey are named after the ancient city of Gnathia (now Egnazia) in Eastern Apulia. There, the first examples of the style were discovered in the mid-19th century. Their production began in Apulia around 370/360 BC, in parallel to the local version of the red-figure style which developed tendencies towards polychromy around that time. Typical of Gnathia vases is the application of different paints directly onto the glazed vase body. Additionally, internal details could be added by incision. The themes depicted include erotes, images from the life of women, theatre scenes and dionysiac motifs. Figural, painting is often limited to the upper half of the vessel body, while the bottom half often bears only ornamental decoration. The most common shapes were bell kraters, pelikes, oinochoai and skyphoi. The most important artists are the Konnakis Painter and the Rose Painter.\n\nInitially, a broad palette of paints, including white, yellow, orange, red, brown, green and others, was used, but after 330 BC the extensive use of white paint dominated. At the same time, the thematic range was reduced, limiting itself to tendrils of vine, ivy or laurel, theatrical masks, and, within the tendrils, male and female heads, doves and swans. The lower half of the vessels was now often ribbed. Apart from oinochoai, skyphos and pelikes, shapes also included bottles, lekythoi, bowls and kantharoi. The most important painters of this phase are the Painter of the Louvre Bottle and the Dunedin Painter.\n\nThe final phase, of about 25 years, is marked by a return to figural painting, predominantly depicting erotes. Kantharoi and bowls with painted-on handles are now the main shapes. Ribbing is still in use, as is the copious application of white paint, now with yellow added for shading.\n\nUnlike local red-figure pottery, South Italian Gnathia vases were also traded to other regions of the Mediterranean and Black Sea areas. They had considerable influence on some local pottery styles, such as West Slope pottery. Gnathia vases were not only produced in Apulian, but also in Campanian, Paestan and Sicilian vase painting. In South Italy, only Lucanian vase painting did not generally imitate them. In Etruria, the Pocolum Class was produced by a vase painter who had emigrated from Southern Italy",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0c0b0c",
+      "name": "black"
+    },
+    {
+      "hex": "#125049",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#262727",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#a8aba8",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#494846",
+      "name": "graphite"
+    },
+    {
+      "hex": "#8b8e89",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,33 @@
   "tags": [
     "pottery style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Epichysis_Louvre_ED859.jpg/1280px-Epichysis_Louvre_ED859.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Epichysis_Louvre_ED859.jpg/500px-Epichysis_Louvre_ED859.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Epichysis_Louvre_ED859.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Epichysis_Louvre_ED859.jpg",
+      "caption": "Epichysis with decoration in superposed colour, Gnathia style, ca. 325–300 BC. From Apulia.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown artist Unknown artist",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1939"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Bell-krater_hare_BM_F547.jpg/1280px-Bell-krater_hare_BM_F547.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Bell-krater_hare_BM_F547.jpg/500px-Bell-krater_hare_BM_F547.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Bell-krater_hare_BM_F547.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bell-krater_hare_BM_F547.jpg",
+      "caption": "Hare and wines. Apulian bell-krater of the Gnathia style. From Gnathia.",
+      "source": "Wikimedia Commons",
+      "artist": "Laurel Spray Group",
+      "date": "circa 330 BC",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1426"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gnathia vases",
@@ -64,7 +116,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q750145",
+      "url": "https://www.wikidata.org/wiki/Q750145",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:11.598Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gnathia vases",
+      "url": "https://en.wikipedia.org/wiki/Gnathia_vases",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:11.598Z"
+      }
+    }
+  ],
   "wikidata": "Q750145",
   "wikipedia": "Gnathia vases",
   "popularity": 35,
@@ -72,5 +147,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:47:11.598Z"
 }

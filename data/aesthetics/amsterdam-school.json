@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Netherlands",
+  "geography": "Netherlands",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Amsterdam School (Dutch: Amsterdamse School) is a style of architecture that arose from 1910 through about 1930 in the Netherlands.",
   "description": "The Amsterdam School (Dutch: Amsterdamse School) is a style of architecture that arose from 1910 through about 1930 in the Netherlands. The Amsterdam School movement is part of international Expressionist architecture, sometimes linked to German Brick Expressionism.\n\nBuildings of the Amsterdam School are characterized by brick construction with complicated masonry with a rounded or organic appearance, relatively traditional massing, and the integration of an elaborate scheme of building elements inside and out: decorative masonry, art glass, wrought ironwork, spires or \"ladder\" windows (with horizontal bars), and integrated architectural sculpture. The aim was to create a total architectural experience, interior and exterior.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#715f4e",
+      "name": "umber"
+    },
+    {
+      "hex": "#4b3f37",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#c3d1e8",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#261f21",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#938076",
+      "name": "taupe"
+    },
+    {
+      "hex": "#f5f6f7",
+      "name": "paper white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,47 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Aschool1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Aschool1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Aschool1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Aschool1.jpg",
+      "caption": "Het Schip gezien vanaf de Zaanstraat met vooraan het vroegere postkantoor. Het originele bestand staat hier en wordt hier gebruikt.",
+      "source": "Wikimedia Commons",
+      "artist": "bureau Monumenten & Archeologie (bMA)",
+      "date": "7 September 2006 (original upload date)",
+      "license": "Attribution",
+      "width": "740",
+      "height": "470"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Amsterdam_Scheepvaarthuis_002.JPG/1280px-Amsterdam_Scheepvaarthuis_002.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Amsterdam_Scheepvaarthuis_002.JPG/500px-Amsterdam_Scheepvaarthuis_002.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/96/Amsterdam_Scheepvaarthuis_002.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Amsterdam_Scheepvaarthuis_002.JPG",
+      "caption": "Scheepvaarthuis te Amsterdam",
+      "source": "Wikimedia Commons",
+      "artist": "Janericloebe",
+      "date": "2011-05",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "895"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Olstadion.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Olstadion.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Olstadion.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Olstadion.jpg",
+      "caption": "Olympisch Stadion Bron: bmz.amsterdam.nl/adam/nl/omd/omd07a.html",
+      "source": "Wikimedia Commons",
+      "artist": "http://www.bmz.amsterdam.nl",
+      "license": "Attribution",
+      "width": "740",
+      "height": "493"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Amsterdam School",
@@ -62,7 +128,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q478742",
+      "url": "https://www.wikidata.org/wiki/Q478742",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:13.543Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Amsterdam School",
+      "url": "https://en.wikipedia.org/wiki/Amsterdam_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:13.543Z"
+      }
+    }
+  ],
   "wikidata": "Q478742",
   "wikipedia": "Amsterdam School",
   "popularity": 35,
@@ -70,5 +159,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.743Z"
 }

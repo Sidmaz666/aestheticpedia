@@ -17,7 +17,33 @@
   "summary": "Palazzo style refers to an architectural style of the 19th and 20th centuries based upon the palazzi (palaces) built by wealthy families of the Italian Renaissance.",
   "description": "Palazzo style refers to an architectural style of the 19th and 20th centuries based upon the palazzi (palaces) built by wealthy families of the Italian Renaissance. The term refers to the general shape, proportion and a cluster of characteristics, rather than a specific design; hence it is applied to buildings spanning a period of nearly two hundred years, regardless of date, provided they are a symmetrical, corniced, basemented and with neat rows of windows. \"Palazzo style\" buildings of the 19th century are sometimes referred to as being of Italianate architecture, but this term is also applied to a much more ornate style, particularly of residences and public buildings.\n\nWhile early Palazzo style buildings followed the forms and scale of the Italian originals closely, by the late 19th century the style was more loosely adapted and applied to commercial buildings many times larger than the originals. The architects of these buildings sometimes drew their details from sources other than the Italian Renaissance, such as Romanesque and occasionally Gothic architecture.  In the 20th century, the style was superficially applied, like the Gothic Revival style, to multi-storey buildings. In the late 20th and 21st century some Postmodern architects have again drawn on the Palazzo style for city buildings.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#9b8d7e",
+      "name": "stone"
+    },
+    {
+      "hex": "#c6bfaf",
+      "name": "silver"
+    },
+    {
+      "hex": "#f6f5e9",
+      "name": "paper white"
+    },
+    {
+      "hex": "#736150",
+      "name": "umber"
+    },
+    {
+      "hex": "#84b6e3",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#d5704c",
+      "name": "raw sienna"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,145 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Ryrie_Building_-_perspective_of_the_south_and_west_facades.jpg/1280px-Ryrie_Building_-_perspective_of_the_south_and_west_facades.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Ryrie_Building_-_perspective_of_the_south_and_west_facades.jpg/500px-Ryrie_Building_-_perspective_of_the_south_and_west_facades.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Ryrie_Building_-_perspective_of_the_south_and_west_facades.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ryrie_Building_-_perspective_of_the_south_and_west_facades.jpg",
+      "caption": "Ryrie Building : perspective of the south and west facades. Toronto, Canada.",
+      "source": "Wikimedia Commons",
+      "artist": "Burke, Horwood and White, Architects",
+      "date": "between 1913 and 1915 date QS:P,+1913-00-00T00:00:00Z/8,P131",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1046"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Athenaeum_Club%2C_London_-_Nov_2006.jpg/1280px-Athenaeum_Club%2C_London_-_Nov_2006.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Athenaeum_Club%2C_London_-_Nov_2006.jpg/500px-Athenaeum_Club%2C_London_-_Nov_2006.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/Athenaeum_Club%2C_London_-_Nov_2006.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Athenaeum_Club,_London_-_Nov_2006.jpg",
+      "caption": "The Athenaeum Club on Pall Mall, London. Taken by myself with a Canon 5D and 24-105mm f/4L IS lens.",
+      "source": "Wikimedia Commons",
+      "artist": "Diliff",
+      "date": "2006-11-19",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "887"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Bauakademie_Schinkel_%28Eduard_Gaertner%29.jpg/1280px-Bauakademie_Schinkel_%28Eduard_Gaertner%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Bauakademie_Schinkel_%28Eduard_Gaertner%29.jpg/500px-Bauakademie_Schinkel_%28Eduard_Gaertner%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/24/Bauakademie_Schinkel_%28Eduard_Gaertner%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bauakademie_Schinkel_(Eduard_Gaertner).jpg",
+      "caption": "German: Die Bauakademie The Academy of Architecture",
+      "source": "Wikimedia Commons",
+      "artist": "Eduard Gaertner",
+      "date": "1868",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1011"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/The_Free_Trade_Hall%2C_Manchester_straight.JPG/1280px-The_Free_Trade_Hall%2C_Manchester_straight.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/The_Free_Trade_Hall%2C_Manchester_straight.JPG/500px-The_Free_Trade_Hall%2C_Manchester_straight.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e6/The_Free_Trade_Hall%2C_Manchester_straight.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Free_Trade_Hall,_Manchester_straight.JPG",
+      "caption": "The historical Free Trade Hall building in Peter street. The building was sold in 1997 and has since been completely rebuilt, only the facade is original. Today it houses the Radisson Edwardian Hotel .",
+      "source": "Wikimedia Commons",
+      "artist": "Bernt Rostad from Oslo, Norway",
+      "date": "2008-06-28 20:40",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "996"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/38_and_42_Mosley_Street%2C_Manchester_4_straight.JPG/1280px-38_and_42_Mosley_Street%2C_Manchester_4_straight.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/38_and_42_Mosley_Street%2C_Manchester_4_straight.JPG/500px-38_and_42_Mosley_Street%2C_Manchester_4_straight.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/57/38_and_42_Mosley_Street%2C_Manchester_4_straight.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:38_and_42_Mosley_Street,_Manchester_4_straight.JPG",
+      "caption": "38 and 42 Mosley Street, Manchester",
+      "source": "Wikimedia Commons",
+      "artist": "KJP1",
+      "date": "2011-04-02",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "982"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/1Bank_Of_NSW1.JPG/1280px-1Bank_Of_NSW1.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/1Bank_Of_NSW1.JPG/500px-1Bank_Of_NSW1.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f2/1Bank_Of_NSW1.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:1Bank_Of_NSW1.JPG",
+      "caption": "Former Bank, Sydney",
+      "source": "Wikimedia Commons",
+      "artist": "Hermione9753 ( talk ) 10:33, 30 September 2010 (UTC)",
+      "date": "30.9.10",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Prudential_buffalo_louis_sullivan.jpg/1280px-Prudential_buffalo_louis_sullivan.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Prudential_buffalo_louis_sullivan.jpg/500px-Prudential_buffalo_louis_sullivan.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Prudential_buffalo_louis_sullivan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Prudential_buffalo_louis_sullivan.jpg",
+      "caption": "Louis Sullivan 's Prudential Building, Buffalo, New York",
+      "source": "Wikimedia Commons",
+      "artist": "Jack E. Boucher",
+      "date": "1965-05",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1800"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/IIT_Machinery_Hall.jpg/1280px-IIT_Machinery_Hall.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/IIT_Machinery_Hall.jpg/500px-IIT_Machinery_Hall.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ae/IIT_Machinery_Hall.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:IIT_Machinery_Hall.jpg",
+      "caption": "The Machinery Hall at Illinois Institute of Technology in Chicago, USA was designed by C. V. Kerr of Patten & Fisher and built in 1901. The building was gifted by Malvina Armour and dedicated to the memory of her son, Philip D. Armour, Jr. The Armour Institute initially used the ",
+      "source": "Wikimedia Commons",
+      "artist": "Joe Ravi",
+      "date": "2011-05-10",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1024"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Equitable_Building_%28Manhattan%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/98/Equitable_Building_%28Manhattan%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/Equitable_Building_%28Manhattan%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Equitable_Building_(Manhattan).jpg",
+      "caption": "Corner view of the Equitable Building in downtown Manhattan at Broadway and Cedar.",
+      "source": "Wikimedia Commons",
+      "artist": "Fletcher6",
+      "date": "Taken on 22 May 2010",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "851",
+      "height": "1280"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/St._Regis_Washington%2C_D.C.jpg/1280px-St._Regis_Washington%2C_D.C.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/St._Regis_Washington%2C_D.C.jpg/500px-St._Regis_Washington%2C_D.C.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5e/St._Regis_Washington%2C_D.C.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:St._Regis_Washington,_D.C.jpg",
+      "caption": "The St. Regis in Washington, D.C.",
+      "source": "Wikimedia Commons",
+      "artist": "APK",
+      "date": "2022-04-11 16:25:27",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "964"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Palazzo style architecture",
@@ -62,7 +226,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7127018",
+      "url": "https://www.wikidata.org/wiki/Q7127018",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:15.005Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Palazzo style architecture",
+      "url": "https://en.wikipedia.org/wiki/Palazzo_style_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:15.005Z"
+      }
+    }
+  ],
   "wikidata": "Q7127018",
   "wikipedia": "Palazzo style architecture",
   "popularity": 35,
@@ -70,5 +257,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:59:15.005Z"
 }

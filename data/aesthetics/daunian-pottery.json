@@ -11,15 +11,41 @@
   "confidence": 60,
   "origin": "",
   "geography": "",
-  "periodStart": "",
+  "periodStart": "classical antiquity",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": -1198,
   "endYear": null,
-  "era": "",
+  "era": "1198 BCE",
   "summary": "Daunian pottery was produced in Daunia, located in the modern Italian provinces of Barletta-Andria-Trani and Foggia.",
   "description": "Daunian pottery was produced in Daunia, located in the modern Italian provinces of Barletta-Andria-Trani and Foggia. It was created by the Daunians, a tribe of the Iapygian civilization who had probably migrated from Illyria.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#6d7861",
+      "name": "olive green"
+    },
+    {
+      "hex": "#b0b4b3",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#99968e",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#5e533d",
+      "name": "umber"
+    },
+    {
+      "hex": "#3c3226",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#110c0b",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,48 @@
   "tags": [
     "pottery style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Terracotta_one-handled_vase_with_strainer_MET_DP1439.jpg/1280px-Terracotta_one-handled_vase_with_strainer_MET_DP1439.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Terracotta_one-handled_vase_with_strainer_MET_DP1439.jpg/500px-Terracotta_one-handled_vase_with_strainer_MET_DP1439.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/db/Terracotta_one-handled_vase_with_strainer_MET_DP1439.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Terracotta_one-handled_vase_with_strainer_MET_DP1439.jpg",
+      "caption": "Native Italic, Daunian; Strainer; Vases",
+      "source": "Wikimedia Commons",
+      "date": "mid-5th century B.C.",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Jug_Daunia_550-400BC_MAN_Madrid.jpg/1280px-Jug_Daunia_550-400BC_MAN_Madrid.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Jug_Daunia_550-400BC_MAN_Madrid.jpg/500px-Jug_Daunia_550-400BC_MAN_Madrid.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/04/Jug_Daunia_550-400BC_MAN_Madrid.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jug_Daunia_550-400BC_MAN_Madrid.jpg",
+      "caption": "Jug with double triangle decoration. Terracotta, Subgeometric style (Daunian II), . From Daunia, Italy.",
+      "source": "Wikimedia Commons",
+      "date": "between circa 550 and circa 400 BC",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "1066"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Daunisch-subgeometrischer_Kyathos_3%2C_Hetjens-Museum_D%C3%BCsseldorf_%28DerHexer%29.JPG/1280px-Daunisch-subgeometrischer_Kyathos_3%2C_Hetjens-Museum_D%C3%BCsseldorf_%28DerHexer%29.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Daunisch-subgeometrischer_Kyathos_3%2C_Hetjens-Museum_D%C3%BCsseldorf_%28DerHexer%29.JPG/500px-Daunisch-subgeometrischer_Kyathos_3%2C_Hetjens-Museum_D%C3%BCsseldorf_%28DerHexer%29.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Daunisch-subgeometrischer_Kyathos_3%2C_Hetjens-Museum_D%C3%BCsseldorf_%28DerHexer%29.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Daunisch-subgeometrischer_Kyathos_3,_Hetjens-Museum_D%C3%BCsseldorf_(DerHexer).JPG",
+      "caption": "Picture taken in w:de:Hetjens-Museum Düsseldorf before Duisburg summer meetup 2010 .",
+      "source": "Wikimedia Commons",
+      "artist": "DerHexer",
+      "date": "2010-08-13",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1791"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Daunian pottery",
@@ -64,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1172998",
+      "url": "https://www.wikidata.org/wiki/Q1172998",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:05.663Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Daunian pottery",
+      "url": "https://en.wikipedia.org/wiki/Daunian_pottery",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:05.663Z"
+      }
+    }
+  ],
   "wikidata": "Q1172998",
   "wikipedia": "Daunian pottery",
   "popularity": 35,
@@ -72,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:05.468Z"
 }

@@ -17,7 +17,33 @@
   "summary": "Corporate architecture refers to the use of architectural design to construct physical spaces (buildings, workplaces, etc.) that can promote the image of a corporation.",
   "description": "Corporate architecture refers to the use of architectural design to construct physical spaces (buildings, workplaces, etc.) that can promote the image of a corporation. During the 20th century corporate architecture underwent a transformation from functional design philosophies to more creative endeavours, which are able to be an expression of the firm’s institutional identity and play a role in stakeholders’ image of the organisation.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a3a8ad",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#5a5f63",
+      "name": "graphite"
+    },
+    {
+      "hex": "#416e97",
+      "name": "slate"
+    },
+    {
+      "hex": "#808487",
+      "name": "taupe"
+    },
+    {
+      "hex": "#c0d1e2",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#2b3c4f",
+      "name": "charcoal"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,35 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/PERSPECTIVE_VIEW_FROM_SOUTHWEST_OF_THE_ALCOA_BUILDING%2C_A_WELL-KNOWN_POST-WAR_CORPORATE_SKYSCRAPER_BUILT_IN_1953_AND_DESIGNED_BY_THE_FIRM_OF_HARRISON_AND_ABRAMOVITZ._-_ALCOA_Building%2C_HABS_PA-6724-1.tif/lossy-page1-1280px-thumbnail.tif.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/PERSPECTIVE_VIEW_FROM_SOUTHWEST_OF_THE_ALCOA_BUILDING%2C_A_WELL-KNOWN_POST-WAR_CORPORATE_SKYSCRAPER_BUILT_IN_1953_AND_DESIGNED_BY_THE_FIRM_OF_HARRISON_AND_ABRAMOVITZ._-_ALCOA_Building%2C_HABS_PA-6724-1.tif/lossy-page1-1280px-thumbnail.tif.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/69/PERSPECTIVE_VIEW_FROM_SOUTHWEST_OF_THE_ALCOA_BUILDING%2C_A_WELL-KNOWN_POST-WAR_CORPORATE_SKYSCRAPER_BUILT_IN_1953_AND_DESIGNED_BY_THE_FIRM_OF_HARRISON_AND_ABRAMOVITZ._-_ALCOA_Building%2C_HABS_PA-6724-1.tif",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:PERSPECTIVE_VIEW_FROM_SOUTHWEST_OF_THE_ALCOA_BUILDING,_A_WELL-KNOWN_POST-WAR_CORPORATE_SKYSCRAPER_BUILT_IN_1953_AND_DESIGNED_BY_THE_FIRM_OF_HARRISON_AND_ABRAMOVITZ._-_ALCOA_Building,_HABS_PA-6724-1.tif",
+      "caption": "PERSPECTIVE VIEW FROM SOUTHWEST OF THE ALCOA BUILDING, A WELL-KNOWN POST-WAR CORPORATE SKYSCRAPER BUILT IN 1953 AND DESIGNED BY THE FIRM OF HARRISON AND ABRAMOVITZ. - ALCOA Building, 425 Sixth Avenue,",
+      "source": "Wikimedia Commons",
+      "artist": "Traub, Nicholas, creator",
+      "date": "2005",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1589"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Bank_of_China_Tower_%28Hong_Kong%29.jpg/1280px-Bank_of_China_Tower_%28Hong_Kong%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Bank_of_China_Tower_%28Hong_Kong%29.jpg/500px-Bank_of_China_Tower_%28Hong_Kong%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Bank_of_China_Tower_%28Hong_Kong%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bank_of_China_Tower_(Hong_Kong).jpg",
+      "caption": "Bank of China Tower, 1 Garden Road, Central, Hong Kong.",
+      "source": "Wikimedia Commons",
+      "artist": "Mk2010",
+      "date": "2010-08-01",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Corporate architecture",
@@ -62,7 +116,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1134673",
+      "url": "https://www.wikidata.org/wiki/Q1134673",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:09.173Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Corporate architecture",
+      "url": "https://en.wikipedia.org/wiki/Corporate_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:09.173Z"
+      }
+    }
+  ],
   "wikidata": "Q1134673",
   "wikipedia": "Corporate architecture",
   "popularity": 35,
@@ -70,5 +147,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:42:09.173Z"
 }

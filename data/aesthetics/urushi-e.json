@@ -17,7 +17,33 @@
   "summary": "Urushi-e (漆絵 \"lacquer picture[s]\") refers to three different techniques in Japanese art.",
   "description": "Urushi-e (漆絵 \"lacquer picture[s]\") refers to three different techniques in Japanese art. Though urushi-e is most associated with woodblock, the term urushi-e is not exclusive to that medium. It can also refer to pictures using lacquer as a paint on three-dimensional lacquered objects; and paintings using actual lacquer on paper or occasionally silk.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e7ceb1",
+      "name": "beige"
+    },
+    {
+      "hex": "#71675f",
+      "name": "umber"
+    },
+    {
+      "hex": "#a07e63",
+      "name": "stone"
+    },
+    {
+      "hex": "#99624d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#242624",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#c2aa90",
+      "name": "khaki"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toshusai_Sharaku-_Otani_Oniji,_1794.jpg",
+      "caption": "Oniji Ōtani III (aka. Nakazō Nakamura II) as Edobee in the May 1794 production of Koi Nyōbo Somewake Tazuna at Edo Kawarasaki-za theater. Polychrome woodcut print on paper; 15 x 9 7/8 in. (38.1 x 22.9 cm) Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939 (JP2822)",
+      "source": "Wikimedia Commons",
+      "artist": "Sharaku",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "802",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Urushi-e",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q13422166",
+      "url": "https://www.wikidata.org/wiki/Q13422166",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:13.344Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Urushi-e",
+      "url": "https://en.wikipedia.org/wiki/Urushi-e",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:13.344Z"
+      }
+    }
+  ],
   "wikidata": "Q13422166",
   "wikipedia": "Urushi-e",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:10:13.344Z"
 }

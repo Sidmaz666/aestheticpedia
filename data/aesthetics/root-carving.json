@@ -17,7 +17,33 @@
   "summary": "Root carving is a traditional Chinese art form that involves carving and polishing tree roots into various artistic creations.",
   "description": "Root carving is a traditional Chinese art form that involves carving and polishing tree roots into various artistic creations.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#625e5a",
+      "name": "umber"
+    },
+    {
+      "hex": "#868280",
+      "name": "taupe"
+    },
+    {
+      "hex": "#d0d4d4",
+      "name": "bone white"
+    },
+    {
+      "hex": "#e9edef",
+      "name": "paper white"
+    },
+    {
+      "hex": "#393635",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#a6a5a4",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,120 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/A_root-carving_table.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8e/A_root-carving_table.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8e/A_root-carving_table.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:A_root-carving_table.jpg",
+      "caption": "A Chinese tea table carved from tree root. Note the flat \"terraces\". Each drains tea into a waste reservoir under the table.",
+      "source": "Wikimedia Commons",
+      "artist": "NNU-10-24100105",
+      "date": "2011-11-20",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Fauteuil_racine_Chine_Quianlong_musee_arts_asiatiques_Nice.jpg/1280px-Fauteuil_racine_Chine_Quianlong_musee_arts_asiatiques_Nice.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Fauteuil_racine_Chine_Quianlong_musee_arts_asiatiques_Nice.jpg/500px-Fauteuil_racine_Chine_Quianlong_musee_arts_asiatiques_Nice.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/Fauteuil_racine_Chine_Quianlong_musee_arts_asiatiques_Nice.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fauteuil_racine_Chine_Quianlong_musee_arts_asiatiques_Nice.jpg",
+      "caption": "Armchair made from roots. Qing Dynasty, Qianlong reign.",
+      "source": "Wikimedia Commons",
+      "artist": "Anonymous ( China ) Unknown author",
+      "date": "18 th century date QS:P571,+1750-00-00T00:00:00Z/7",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Root_carving_in_Haikou_-_06.JPG/1280px-Root_carving_in_Haikou_-_06.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Root_carving_in_Haikou_-_06.JPG/500px-Root_carving_in_Haikou_-_06.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/76/Root_carving_in_Haikou_-_06.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Root_carving_in_Haikou_-_06.JPG",
+      "caption": "Root carving in progress, Haikou, Hainan, China.",
+      "source": "Wikimedia Commons",
+      "artist": "Anna Frodesiak",
+      "date": "2013-04-10 03:12:20",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/d9067d6e-e133-705c-cf53-528c035a5201/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/d9067d6e-e133-705c-cf53-528c035a5201/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/d9067d6e-e133-705c-cf53-528c035a5201/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/594",
+      "caption": "Ring with a Scarab Bezel, Second Intermediate Period, Dynasty 15 (about 1650–1550 BCE)",
+      "source": "Art Institute of Chicago",
+      "artist": "Egyptian",
+      "date": "Second Intermediate Period, Dynasty 15 (about 1650–1550 BCE)",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "674"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/e0d13f7f-785b-c5b6-ee06-67d55da42396/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/e0d13f7f-785b-c5b6-ee06-67d55da42396/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/e0d13f7f-785b-c5b6-ee06-67d55da42396/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/14768",
+      "caption": "Madonna, 1700–10",
+      "source": "Art Institute of Chicago",
+      "artist": "Paolo Callalo (Venetian, 1655–1725)",
+      "date": "1700–10",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1241"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/fec5d023-0b46-45df-eb57-cbf64e24121d/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/fec5d023-0b46-45df-eb57-cbf64e24121d/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/fec5d023-0b46-45df-eb57-cbf64e24121d/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/102611",
+      "caption": "Veranda Post (Òpó Ògògá), 1910-14",
+      "source": "Art Institute of Chicago",
+      "artist": "Olowe of Ise (died 1938)",
+      "date": "1910-14",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1265"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/1e70b08e-31d2-58aa-d538-2d2cbfed4028/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/1e70b08e-31d2-58aa-d538-2d2cbfed4028/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/1e70b08e-31d2-58aa-d538-2d2cbfed4028/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/27024",
+      "caption": "Virgin of the Annunciation, 1275–1300",
+      "source": "Art Institute of Chicago",
+      "artist": "French; Picardy",
+      "date": "1275–1300",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1686"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/aee665f2-bb63-2a25-832e-260b73c278a8/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/aee665f2-bb63-2a25-832e-260b73c278a8/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/aee665f2-bb63-2a25-832e-260b73c278a8/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/61600",
+      "caption": "Statue of the Aphrodite of Knidos, 2nd century",
+      "source": "Art Institute of Chicago",
+      "artist": "Roman",
+      "date": "2nd century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1124"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Root carving",
@@ -62,7 +201,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1030213",
+      "url": "https://www.wikidata.org/wiki/Q1030213",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:20.679Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Root carving",
+      "url": "https://en.wikipedia.org/wiki/Root_carving",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:20.679Z"
+      }
+    }
+  ],
   "wikidata": "Q1030213",
   "wikipedia": "Root carving",
   "popularity": 35,
@@ -70,5 +232,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:03:20.679Z"
 }

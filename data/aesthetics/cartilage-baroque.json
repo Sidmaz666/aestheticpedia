@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Germany, Scandinavia",
+  "geography": "Germany, Scandinavia",
   "periodStart": "17th century",
   "periodEnd": "17th century",
   "startYear": 1620,
@@ -17,7 +17,33 @@
   "summary": "Cartilage Baroque, or Bruskbarokk and similar terms, denotes a stylistic period centering around the middle of the 17th century in Northern Europe, particularly in Scandinavia and Germany.",
   "description": "Cartilage Baroque, or Bruskbarokk and similar terms, denotes a stylistic period centering around the middle of the 17th century in Northern Europe, particularly in Scandinavia and Germany. Primarily a style of ornament, it is known as Bruskbarokk in Norwegian, Bruskbarok in Danish and Knorpelbarock in German (all these use the local words for cartilage), and style cartilage may be encountered in French, often referring to work in Alsace. However, the various terms can be applied to a bewildering range of styles of Northern Mannerist and Baroque ornament. In English these terms are mainly found in translated texts from European languages.\n\nThere is much use of strapwork in which, instead of leather or paper forms being imitated, the shapes may give the impression of imitating flayed skin or cartilage, including the cartilage giving the ear its shape, whether or not this was actually the intention, hence the origin of the name. The style has some relation to the auricular style of the same period, which is seen in its purest and most famous form in Dutch silverwork. This does take its name from resembling somewhat the shape of the ear, as does the German term Ohrmuschelstil.\n\nDealing mainly with interior architecture, it marked the transition from High-Renaissance and Mannerism to established Baroque, placing it during the years 1620–1660. Cartilage Baroque draws heavily on established Renaissance art forms, but gets its distinctive style from added ornamental elements, such as leaves and garlands, and suppressed curvature.\n\nThe Scottish craftsman, woodcutter and painter Andrew Lawrenceson Smith is seen as one of the leading examples in the use of cartilage baroque, especially for his work in Stavanger Cathedral.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#20191a",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#8c8784",
+      "name": "taupe"
+    },
+    {
+      "hex": "#4a433b",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#69635b",
+      "name": "umber"
+    },
+    {
+      "hex": "#785831",
+      "name": "umber 2"
+    },
+    {
+      "hex": "#aca9a6",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Heraldry_Matias_Tausan.JPG/1280px-Heraldry_Matias_Tausan.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Heraldry_Matias_Tausan.JPG/500px-Heraldry_Matias_Tausan.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Heraldry_Matias_Tausan.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Heraldry_Matias_Tausan.JPG",
+      "caption": "Heraldry of Matias Tausan. Stavanger Cathedral.",
+      "source": "Wikimedia Commons",
+      "artist": "Arnstein Rønning",
+      "date": "2010-10-30",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "1497"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Cartilage Baroque",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1777427",
+      "url": "https://www.wikidata.org/wiki/Q1777427",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:07.878Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cartilage Baroque",
+      "url": "https://en.wikipedia.org/wiki/Cartilage_Baroque",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:07.878Z"
+      }
+    }
+  ],
   "wikidata": "Q1777427",
   "wikipedia": "Cartilage Baroque",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.935Z"
 }

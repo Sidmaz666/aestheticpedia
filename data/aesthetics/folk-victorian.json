@@ -17,7 +17,33 @@
   "summary": "Folk Victorian is an architectural style employed for some homes in the United States and Europe between 1870 and 1910, though isolated examples continued to be built well into the 1930s.",
   "description": "Folk Victorian is an architectural style employed for some homes in the United States and Europe between 1870 and 1910, though isolated examples continued to be built well into the 1930s. Folk Victorian homes are relatively plain in their construction but embellished with decorative trim. Folk Victorian is a subset of Victorian architecture. It differentiates itself from other subsets of Victorian architecture (such as Queen Anne) by being less elaborate and having more regular floor plans. Examples include the Bacon Hotel, Albert Spencer Wilcox Beach House, Lost Creek Baltimore and Ohio Railroad Depot (1892), James B. Carden House (1885), Ephriam M. Baynard House, and Sibley's General Store (1899) in the Sibley's and James Store Historic District.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5a5d3a",
+      "name": "umber"
+    },
+    {
+      "hex": "#736b5a",
+      "name": "bronze"
+    },
+    {
+      "hex": "#444239",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#8a8272",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a09a8d",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#e8d3b6",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Folk-Victorian_Home_.jpg/1280px-Folk-Victorian_Home_.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Folk-Victorian_Home_.jpg/500px-Folk-Victorian_Home_.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Folk-Victorian_Home_.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Folk-Victorian_Home_.jpg",
+      "caption": "Missouri home built in 1904. Features large front porch with ornate front door. Inside has much wood work; features a built-in china cabinet with pass through and large wooden pocket doors.",
+      "source": "Wikimedia Commons",
+      "artist": "LibertyThomas",
+      "date": "2016-05-02",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "915"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Orin_Jordan_House%2C_Whittier.JPG/1280px-Orin_Jordan_House%2C_Whittier.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Orin_Jordan_House%2C_Whittier.JPG/500px-Orin_Jordan_House%2C_Whittier.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/Orin_Jordan_House%2C_Whittier.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Orin_Jordan_House,_Whittier.JPG",
+      "caption": "Orin Jordan House, Whittier, California",
+      "source": "Wikimedia Commons",
+      "artist": "Los Angeles",
+      "date": "2008-05",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Folk_Victorian_Home.jpg/1280px-Folk_Victorian_Home.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Folk_Victorian_Home.jpg/500px-Folk_Victorian_Home.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/58/Folk_Victorian_Home.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Folk_Victorian_Home.jpg",
+      "caption": "Early Folk Victorian Home in Elgin, TX",
+      "source": "Wikimedia Commons",
+      "artist": "ResidentElgin",
+      "date": "2016-07-10",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Folk Victorian",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16911022",
+      "url": "https://www.wikidata.org/wiki/Q16911022",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:02.124Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Folk Victorian",
+      "url": "https://en.wikipedia.org/wiki/Folk_Victorian",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:02.124Z"
+      }
+    }
+  ],
   "wikidata": "Q16911022",
   "wikipedia": "Folk Victorian",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:46:02.124Z"
 }

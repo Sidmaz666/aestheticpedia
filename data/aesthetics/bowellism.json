@@ -17,7 +17,33 @@
   "summary": "Bowellism is a modern architectural style heavily associated with Richard Rogers.",
   "description": "Bowellism is a modern architectural style heavily associated with Richard Rogers. It is described as a transient architectural and flippant style that was influenced by Le Corbusier and Antoni Gaudí. The style consists of services for the building, such as ducts, sewage pipes, and lifts, being located on the exterior to maximise space in the interior.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5a5752",
+      "name": "umber"
+    },
+    {
+      "hex": "#7096be",
+      "name": "slate"
+    },
+    {
+      "hex": "#3b3939",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#b4ab99",
+      "name": "khaki"
+    },
+    {
+      "hex": "#82817c",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a6c8fc",
+      "name": "sky blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/95/Pompidou_center.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/en/9/95/Pompidou_center.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/en/9/95/Pompidou_center.jpg",
+      "pageUrl": "https://en.wikipedia.org/wiki/File:Pompidou_center.jpg",
+      "caption": "The Pompidou Centre in Paris, France",
+      "source": "Wikimedia Commons",
+      "artist": "Leland",
+      "date": "April 16, 2004.",
+      "license": "Cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "500",
+      "height": "375"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Rotterdam_bibliotheek.jpg/1280px-Rotterdam_bibliotheek.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Rotterdam_bibliotheek.jpg/500px-Rotterdam_bibliotheek.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Rotterdam_bibliotheek.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rotterdam_bibliotheek.jpg",
+      "caption": "Zicht op een deel van de centrale Bibliotheek Rotterdam",
+      "source": "Wikimedia Commons",
+      "artist": "F.Eveleens",
+      "date": "6-5-2008",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "779"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Bowellism",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4950799",
+      "url": "https://www.wikidata.org/wiki/Q4950799",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:03.058Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Bowellism",
+      "url": "https://en.wikipedia.org/wiki/Bowellism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:03.058Z"
+      }
+    }
+  ],
   "wikidata": "Q4950799",
   "wikipedia": "Bowellism",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:39:03.058Z"
 }

@@ -17,7 +17,33 @@
   "summary": "Fumage is a surrealist art technique popularized by Wolfgang Paalen in which impressions are made by the smoke of a candle or kerosene lamp on a piece of paper or canvas.",
   "description": "Fumage is a surrealist art technique popularized by Wolfgang Paalen in which impressions are made by the smoke of a candle or kerosene lamp on a piece of paper or canvas. The earliest documented practitioner of the technique was American clockmaker Silas Hoadley whose circa 1810-1820 fumage decorated clock is in the permanent collection of the Museum of Fine Arts Boston. Paalen's first fumage, Dictated by a Candle, was presented 1936 in the International Surrealist Exhibition in London. In the same year Paalen painted Pays interdit (\"Forbidden Land\"), his first oil painting, which he based on the fumage technique. Several other Surrealists as Roberto Matta, but also Salvador Dalí later utilized the technique, Dali calling the technique \"sfumato\". The technique has been utilized by artists including Bimal Banerjee, Alberto Burri, Burhan Doğançay, Jiri Georg Dokoupil, Hugh Parker Guiler, Yves Klein, Julia Thecla, Antonio Muñiz, and Otto Piene.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1d1e1d",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#373b3c",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#c8e680",
+      "name": "beige"
+    },
+    {
+      "hex": "#535b5c",
+      "name": "graphite"
+    },
+    {
+      "hex": "#657e7e",
+      "name": "slate"
+    },
+    {
+      "hex": "#a4c384",
+      "name": "sage"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,35 @@
   "tags": [
     "painting technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/1936-003_Paalen.jpg/1280px-1936-003_Paalen.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/1936-003_Paalen.jpg/500px-1936-003_Paalen.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d2/1936-003_Paalen.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:1936-003_Paalen.jpg",
+      "caption": "Pays interdit",
+      "source": "Wikimedia Commons",
+      "artist": "Wolfgang Paalen",
+      "date": "between 1936 and 1937 date QS:P571,+1936-00-00T00:00:00Z/8,P",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "width": "1280",
+      "height": "2005"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vincent_Willem_van_Gogh_107.jpg",
+      "caption": "\"Van Gogh painted this self-portrait in the winter of 1887–1888, when he had been living in Paris for nearly two years. Since his arrival in the city he had devoted much study to the dotted Pointillist technique, thereby learning how he might apply it in his own fashion. His use ",
+      "source": "Wikimedia Commons",
+      "artist": "Vincent van Gogh",
+      "date": "Winter 1887–1888",
+      "license": "Public domain",
+      "width": "1256",
+      "height": "1539"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Fumage",
@@ -62,7 +116,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2064059",
+      "url": "https://www.wikidata.org/wiki/Q2064059",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:15.871Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Fumage",
+      "url": "https://en.wikipedia.org/wiki/Fumage",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:15.871Z"
+      }
+    }
+  ],
   "wikidata": "Q2064059",
   "wikipedia": "Fumage",
   "popularity": 35,
@@ -70,5 +147,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:46:15.871Z"
 }

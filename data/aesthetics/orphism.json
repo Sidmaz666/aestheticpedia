@@ -21,7 +21,33 @@
   "summary": "Orphism or Orphic Cubism is a school of visual art which was an offshoot of Cubism and focused on pure abstraction and bright colors.",
   "description": "Orphism or Orphic Cubism is a school of visual art which was an offshoot of Cubism and focused on pure abstraction and bright colors. The term was coined by the French poet Guillaume Apollinaire in 1912. Orphism was influenced by Fauvism, the theoretical writings of Paul Signac, Charles Henry and the dye chemist Michel Eugène Chevreul. This movement, perceived as key in the transition from Cubism to Abstract art, was pioneered by František Kupka, Robert Delaunay and Sonia Delaunay, who relaunched the use of color during the monochromatic phase of Cubism.\n\nOrphism art scrutinizes color and the effects of light. Orphism art was painted in the early 1910s, when modern technology innovations altered the perceived time and space. Artists who engaged with Orphism explored the transformative possibilities of color, form, and motion. Artists whose work have been classified in, or influenced by, this style include Marcel Duchamp, Mainie Jellett, Francis Picabia, Amadeo de Souza-Cardoso, Stanton Macdonald-Wright, and Morgan Russell.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1c161b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#333743",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#67707a",
+      "name": "slate"
+    },
+    {
+      "hex": "#9a9994",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#cdc3b0",
+      "name": "beige"
+    },
+    {
+      "hex": "#702a27",
+      "name": "burnt sienna"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,59 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Delaunay-Windows.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/61/Delaunay-Windows.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/61/Delaunay-Windows.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Delaunay-Windows.jpg",
+      "caption": "Simultaneous Windows on the City , 1912, by Robert Delaunay, Kunsthalle Hamburg",
+      "source": "Wikimedia Commons",
+      "artist": "Robert Delaunay",
+      "date": "1912 date QS:P571,+1912-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "487",
+      "height": "567"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f3/Franti%C5%A1ek_Kupka_-_Katedr%C3%A1la_-_Google_Art_Project.jpg/1280px-Franti%C5%A1ek_Kupka_-_Katedr%C3%A1la_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f3/Franti%C5%A1ek_Kupka_-_Katedr%C3%A1la_-_Google_Art_Project.jpg/500px-Franti%C5%A1ek_Kupka_-_Katedr%C3%A1la_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/en/f/f3/Franti%C5%A1ek_Kupka_-_Katedr%C3%A1la_-_Google_Art_Project.jpg",
+      "pageUrl": "https://en.wikipedia.org/wiki/File:Franti%C5%A1ek_Kupka_-_Katedr%C3%A1la_-_Google_Art_Project.jpg",
+      "caption": "Katedrála ( The Cathedral )",
+      "source": "Wikimedia Commons",
+      "artist": "František Kupka",
+      "license": "PD-US",
+      "width": "1280",
+      "height": "1543"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/f6/Sonia_Delaunay%2C_1914%2C_Prismes_%C3%A9lectriques%2C_oil_on_canvas%2C_250_x_250_cm%2C_Mus%C3%A9e_National_d%27Art_Moderne.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/en/f/f6/Sonia_Delaunay%2C_1914%2C_Prismes_%C3%A9lectriques%2C_oil_on_canvas%2C_250_x_250_cm%2C_Mus%C3%A9e_National_d%27Art_Moderne.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/en/f/f6/Sonia_Delaunay%2C_1914%2C_Prismes_%C3%A9lectriques%2C_oil_on_canvas%2C_250_x_250_cm%2C_Mus%C3%A9e_National_d%27Art_Moderne.jpg",
+      "pageUrl": "https://en.wikipedia.org/wiki/File:Sonia_Delaunay,_1914,_Prismes_%C3%A9lectriques,_oil_on_canvas,_250_x_250_cm,_Mus%C3%A9e_National_d%27Art_Moderne.jpg",
+      "caption": "Sonia Delaunay , 1914, Prismes électriques , oil on canvas, 250 x 250 cm, Musée National d'Art Moderne",
+      "source": "Wikimedia Commons",
+      "artist": "Sonia Delaunay , Blaise Cendrars",
+      "date": "1914",
+      "license": "PD-US",
+      "width": "620",
+      "height": "621"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Delaunay_ChampDeMars.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Delaunay_ChampDeMars.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Delaunay_ChampDeMars.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Delaunay_ChampDeMars.jpg",
+      "caption": "Graphic Champs de Mars: La Tour Rouge . 1911 - 1923 , Robert Delaunay . Oil on canvas. The Art Institute of Chicago .",
+      "source": "Wikimedia Commons",
+      "artist": "Robert Delaunay",
+      "date": "1911 date QS:P571,+1911-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1000",
+      "height": "1256"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Orphism (art)",
@@ -66,7 +144,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q519443",
+      "url": "https://www.wikidata.org/wiki/Q519443",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:04.983Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Orphism (art)",
+      "url": "https://en.wikipedia.org/wiki/Orphism_(art)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:04.983Z"
+      }
+    }
+  ],
   "wikidata": "Q519443",
   "wikipedia": "Orphism (art)",
   "popularity": 35,
@@ -74,5 +175,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:59:04.983Z"
 }

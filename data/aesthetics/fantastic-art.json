@@ -17,7 +17,33 @@
   "summary": "Fantastic art is a broad and loosely defined art genre.",
   "description": "Fantastic art is a broad and loosely defined art genre. It is not restricted to a specific school of artists, geographical location or historical period. It can be characterised by subject matter—which portrays non-realistic, mystical, mythical or folkloric subjects or events—and style, which is representational and naturalistic, rather than abstract—or in the case of magazine illustrations and similar, in the style of graphic novel art such as manga.\n\nFantasy has been an integral part of art since its beginnings, but has been particularly important in mannerism, magic realist painting, romantic art, symbolism, surrealism and lowbrow. In French, the genre is called le fantastique, in English it is sometimes referred to as visionary art, grotesque art or mannerist art. It has had a deep and circular interaction with fantasy literature.\n\nThe subject matter of fantastic art may resemble the product of hallucinations, and Fantastic artist Richard Dadd spent much of his life in mental institutions. Salvador Dalí famously said: \"the only difference between me and a madman is that I am not mad\".  Some recent fantastic art draws on the artist's experience, or purported experience, of hallucinogenic drugs.\n\nThe term fantasy art is closely related, and is applied primarily to recent art (typically 20th century on wards) inspired by, or illustrating fantasy literature.\n\nFantastic art has traditionally been largely confined to painting and illustration, but since the 1970s has increasingly been found also in photography. Fantastic art explores fantasy, imagination, the dream state, the grotesque, visions and the uncanny, as well as so-called \"Goth\" and \"Dark\" art.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1e211b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#3f4025",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#5f592d",
+      "name": "walnut brown 2"
+    },
+    {
+      "hex": "#7a6f39",
+      "name": "bronze"
+    },
+    {
+      "hex": "#8e8b70",
+      "name": "stone"
+    },
+    {
+      "hex": "#988a3b",
+      "name": "moss"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg/1280px-The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg/500px-The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6d/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg",
+      "caption": "The Garden of Earthly Delights",
+      "source": "Wikimedia Commons",
+      "artist": "Hieronymus Bosch",
+      "date": "between 1490 and 1500 date QS:P,+1500-00-00T00:00:00Z/6,P131",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "729"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/God_kv%C3%A4ll%2C_farbror%21_H%C3%A4lsade_pojken.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4b/God_kv%C3%A4ll%2C_farbror%21_H%C3%A4lsade_pojken.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4b/God_kv%C3%A4ll%2C_farbror%21_H%C3%A4lsade_pojken.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:God_kv%C3%A4ll,_farbror!_H%C3%A4lsade_pojken.jpg",
+      "caption": "Illustration for \"Pojken och trollen eller Äventyret\" ( The boy and the trolls or The Adventure ) by Walter Stenström in \"Bland tomtar och troll\" ( Among gnomes and trolls ), 1915.",
+      "source": "Wikimedia Commons",
+      "artist": "John Bauer",
+      "date": "1915 date QS:P571,+1915-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "819",
+      "height": "855"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Fantastic art",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q782129",
+      "url": "https://www.wikidata.org/wiki/Q782129",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:06.041Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Fantastic art",
+      "url": "https://en.wikipedia.org/wiki/Fantastic_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:06.041Z"
+      }
+    }
+  ],
   "wikidata": "Q782129",
   "wikipedia": "Fantastic art",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:45:06.041Z"
 }

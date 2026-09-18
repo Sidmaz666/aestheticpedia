@@ -39,7 +39,34 @@
   "tags": [
     "fashion style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Paul_Newman_1954.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Paul_Newman_1954.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Paul_Newman_1954.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paul_Newman_1954.JPG",
+      "caption": "Original studio publicity photo of Paul Newman. See also: film still article.",
+      "source": "Wikimedia Commons",
+      "artist": "Studio",
+      "date": "1954",
+      "license": "Public domain",
+      "width": "1007",
+      "height": "1237"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kennedy_aboard_Manitou.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kennedy_aboard_Manitou.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kennedy_aboard_Manitou.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kennedy_aboard_Manitou.jpg",
+      "caption": "President Kennedy sails aboard the U. S. Coast Guard yacht \"Manitou\" off the coast of Maine. 11 August 1962. Photograph taken by Robert Knudsen, White House photographer. John Fitzgerald Kennedy Library, Boston\". Accession number KN-C23202.",
+      "source": "Wikimedia Commons",
+      "artist": "Robert Knudsen",
+      "date": "1962-08-11",
+      "license": "Public domain",
+      "width": "982",
+      "height": "1000"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Ivy League (clothes)",
@@ -62,7 +89,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6099882",
+      "url": "https://www.wikidata.org/wiki/Q6099882",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:05.077Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Ivy League (clothes)",
+      "url": "https://en.wikipedia.org/wiki/Ivy_League_(clothes)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:05.077Z"
+      }
+    }
+  ],
   "wikidata": "Q6099882",
   "wikipedia": "Ivy League (clothes)",
   "popularity": 35,
@@ -70,5 +120,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:51:05.077Z"
 }

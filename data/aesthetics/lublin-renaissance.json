@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Poland",
+  "geography": "Poland",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Lublin Renaissance was an architectural style developed in the Lublin region of Poland at the end of the 16th century.",
   "description": "The Lublin Renaissance was an architectural style developed in the Lublin region of Poland at the end of the 16th century.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c8a76a",
+      "name": "camel"
+    },
+    {
+      "hex": "#e4e2da",
+      "name": "bone white"
+    },
+    {
+      "hex": "#dfc392",
+      "name": "beige"
+    },
+    {
+      "hex": "#644e41",
+      "name": "umber"
+    },
+    {
+      "hex": "#3e2e24",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#265daf",
+      "name": "cerulean"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,59 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/1280px-Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/500px-Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "caption": "Vitruvian Man",
+      "source": "Wikimedia Commons",
+      "artist": "Leonardo da Vinci",
+      "date": "circa 1492 date QS:P571,+1492-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1740"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Lublin_Dominikanie.jpg/1280px-Lublin_Dominikanie.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Lublin_Dominikanie.jpg/500px-Lublin_Dominikanie.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/42/Lublin_Dominikanie.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lublin_Dominikanie.jpg",
+      "caption": "Dominican Church in Lublin as seen from Old Town Market.",
+      "source": "Wikimedia Commons",
+      "artist": "This file was created and uploaded by User:Szater Ten plik został stworzony i dodany przez Wikipedystę:Szater Szater Wikimedia Commons Polska Wikipedia",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Kazimierz_Dolny_%28kamienica_pod_sw_Mikolajem_i_Krzysztofem%29_01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Kazimierz_Dolny_%28kamienica_pod_sw_Mikolajem_i_Krzysztofem%29_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Kazimierz_Dolny_%28kamienica_pod_sw_Mikolajem_i_Krzysztofem%29_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kazimierz_Dolny_(kamienica_pod_sw_Mikolajem_i_Krzysztofem)_01.jpg",
+      "caption": "Kazimierz Dolny (kamienica pod sw Mikolajem i Krzysztofem) 01",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1024",
+      "height": "768"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Agnieszki.jpg/1280px-Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Agnieszki.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Agnieszki.jpg/500px-Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Agnieszki.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Agnieszki.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Agnieszki.jpg",
+      "caption": "Lublin, kościół św. Agnieszki, 1646-1647, 1685-1698, 1831",
+      "source": "Wikimedia Commons",
+      "artist": "Ateliers",
+      "date": "2013-09-08 10:03:10",
+      "license": "CC BY-SA 3.0 pl",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+      "width": "1280",
+      "height": "1839"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Lublin Renaissance",
@@ -62,7 +140,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6695419",
+      "url": "https://www.wikidata.org/wiki/Q6695419",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:15.362Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Lublin Renaissance",
+      "url": "https://en.wikipedia.org/wiki/Lublin_Renaissance",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:15.362Z"
+      }
+    }
+  ],
   "wikidata": "Q6695419",
   "wikipedia": "Lublin Renaissance",
   "popularity": 35,
@@ -70,5 +171,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.690Z"
 }

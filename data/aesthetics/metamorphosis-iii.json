@@ -17,7 +17,33 @@
   "summary": "Metamorphosis III is a woodcut print by the Dutch artist M.",
   "description": "Metamorphosis III is a woodcut print by the Dutch artist M. C. Escher created during 1967 and 1968. Measuring 19 cm × 680 cm (7+1⁄2 in × 22 ft 3+1⁄2 in), this is Escher's largest print. It was printed on thirty-three blocks on six combined sheets.\n\nIt begins identically to Metamorphosis II, with the word metamorphose (the Dutch form of the word metamorphosis) forming a grid pattern and then becoming a black-and-white checkered pattern. Then the first set of new imagery begins. The angles of the checkered pattern change to elongated diamond shapes. These then become an image of flowers with bees. This image then returns to the diamond pattern and back into the checkered pattern.\n\nIt then resumes with the Metamorphosis II imagery until the bird pattern. The birds then become sailing boats. From the sailing boats the image changes to a second fish pattern. Then from the fish to horses. The horses then become a second bird pattern. The second bird pattern then becomes black-and-white triangles, which then become envelopes with wings. These winged envelopes then return to the black-and-white triangles and then to the original bird pattern. It then resumes with the Metamorphosis II print until its conclusion.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#335978",
+      "name": "graphite"
+    },
+    {
+      "hex": "#a25043",
+      "name": "brick"
+    },
+    {
+      "hex": "#b2b5b5",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#929fa9",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#607991",
+      "name": "slate"
+    },
+    {
+      "hex": "#042e57",
+      "name": "prussian blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg/1280px-Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg/500px-Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai_-_Fine_Wind,_Clear_Morning_(Gaif%C5%AB_kaisei)_-_Google_Art_Project.jpg",
+      "caption": "Fine Wind, Clear Morning (Gaifū kaisei)",
+      "source": "Wikimedia Commons",
+      "artist": "Katsushika Hokusai",
+      "date": "about 1800-1849",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "864"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Metamorphosis III",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6823054",
+      "url": "https://www.wikidata.org/wiki/Q6823054",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:25.727Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Metamorphosis III",
+      "url": "https://en.wikipedia.org/wiki/Metamorphosis_III",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:25.727Z"
+      }
+    }
+  ],
   "wikidata": "Q6823054",
   "wikipedia": "Metamorphosis III",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:54:25.727Z"
 }

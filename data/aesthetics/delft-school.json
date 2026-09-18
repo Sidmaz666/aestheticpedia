@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Dutch Republic",
+  "geography": "Dutch Republic",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Delft school is a category of mid-17th-century Dutch Golden Age painting based in the city of Delft.",
   "description": "The Delft school is a category of mid-17th-century Dutch Golden Age painting based in the city of Delft. Its artists favoured images of domestic life, views of households, church interiors, courtyards, squares and the streets of the city. The movement began with Carel Fabritius and Nicolaes Maes in the 1640s followed a decade later by Pieter de Hooch and Johannes Vermeer, who is the best known of these painters today. The architectural interiors of Gerard Houckgeest, Emanuel de Witte and Hendrick Cornelisz. van Vliet are also notable. Delft painters also produced still life and history paintings, portraits for patrons and the court, and decorative pieces of art that reflect more general tendencies in Dutch art of the period.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#251d16",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#51412b",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#d5cebc",
+      "name": "beige"
+    },
+    {
+      "hex": "#958b73",
+      "name": "stone"
+    },
+    {
+      "hex": "#715d40",
+      "name": "umber"
+    },
+    {
+      "hex": "#b1a68c",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/FabritiusViewOfDelft.jpg/1280px-FabritiusViewOfDelft.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/FabritiusViewOfDelft.jpg/500px-FabritiusViewOfDelft.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d9/FabritiusViewOfDelft.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:FabritiusViewOfDelft.jpg",
+      "caption": "Dutch: Gezicht op Delft A View of Delft",
+      "source": "Wikimedia Commons",
+      "artist": "Carel Fabritius",
+      "date": "1652 date QS:P571,+1652-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "644"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1280px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/500px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+      "caption": "Arabic: ساقية الحليب The Milkmaid",
+      "source": "Wikimedia Commons",
+      "artist": "Johannes Vermeer",
+      "date": "circa 1660 date QS:P571,+1660-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1435"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Delft school (painting)",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q252645",
+      "url": "https://www.wikidata.org/wiki/Q252645",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:09.060Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Delft school (painting)",
+      "url": "https://en.wikipedia.org/wiki/Delft_school_(painting)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:09.060Z"
+      }
+    }
+  ],
   "wikidata": "Q252645",
   "wikipedia": "Delft school (painting)",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:05.470Z"
 }

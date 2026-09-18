@@ -11,8 +11,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "roof",
+  "geography": "roof",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -21,7 +21,29 @@
   "summary": "A roof garden is a garden on the roof of a building.",
   "description": "A roof garden is a garden on the roof of a building.  Besides the decorative benefit, roof plantings may provide food, temperature control, hydrological benefits, architectural enhancement, habitats or corridors for wildlife, recreational opportunities, and in large scale it may even have ecological benefits. The practice of cultivating food on the rooftop of buildings is sometimes referred to as rooftop farming. Rooftop farming is usually done using green roof, hydroponics, aeroponics or air-dynaponics systems or container gardens.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#767b7a",
+      "name": "slate"
+    },
+    {
+      "hex": "#939596",
+      "name": "stone"
+    },
+    {
+      "hex": "#5a6565",
+      "name": "graphite"
+    },
+    {
+      "hex": "#354e50",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#a1916f",
+      "name": "stone 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +65,148 @@
   "tags": [
     "garden type"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/30_Rockefeller_Center_rooftop.jpg/1280px-30_Rockefeller_Center_rooftop.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/30_Rockefeller_Center_rooftop.jpg/500px-30_Rockefeller_Center_rooftop.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/84/30_Rockefeller_Center_rooftop.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:30_Rockefeller_Center_rooftop.jpg",
+      "caption": "Rockefeller center building rooftops, most people very seldom get to see this rooftop.",
+      "source": "Wikimedia Commons",
+      "artist": "Jwilly77",
+      "date": "Taken on 18 August 2008",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Temperature_profiles.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Temperature_profiles.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Temperature_profiles.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Temperature_profiles.JPG",
+      "caption": "Temperature profiles of rooftop gardens vs reference roof at different times of a certain day",
+      "source": "Wikimedia Commons",
+      "artist": "Karen Liu",
+      "date": "2002-03",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "590",
+      "height": "666"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Villa_Arson_jardin_terasses2011.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Villa_Arson_jardin_terasses2011.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Villa_Arson_jardin_terasses2011.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Villa_Arson_jardin_terasses2011.jpg",
+      "caption": "Jardin sur terrasse",
+      "source": "Wikimedia Commons",
+      "artist": "Maunier",
+      "date": "2011-04-12",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "990",
+      "height": "869"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Villa_Arson_jardin_terrasses_2011-3.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/00/Villa_Arson_jardin_terrasses_2011-3.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/00/Villa_Arson_jardin_terrasses_2011-3.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Villa_Arson_jardin_terrasses_2011-3.jpg",
+      "caption": "Jardin suspendu sur terrasse",
+      "source": "Wikimedia Commons",
+      "artist": "Maunier",
+      "date": "2010-04-30",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1000",
+      "height": "750"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Acrosfukuoka02.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/93/Acrosfukuoka02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/93/Acrosfukuoka02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Acrosfukuoka02.jpg",
+      "caption": "Acros Fukuoka building with Roof garden, in Fukuoka city, Japan.",
+      "source": "Wikimedia Commons",
+      "artist": "Pontafon",
+      "date": "2009-08-07",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1200",
+      "height": "800"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Herb_garden_of_National_Museum_of_Nature_and_Science_Tokyo_01.jpg/1280px-Herb_garden_of_National_Museum_of_Nature_and_Science_Tokyo_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Herb_garden_of_National_Museum_of_Nature_and_Science_Tokyo_01.jpg/500px-Herb_garden_of_National_Museum_of_Nature_and_Science_Tokyo_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Herb_garden_of_National_Museum_of_Nature_and_Science_Tokyo_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Herb_garden_of_National_Museum_of_Nature_and_Science_Tokyo_01.jpg",
+      "caption": "Herb garden. Roof of Global Gallery of the National Museum of Nature and Science , Tokyo , Japan .",
+      "source": "Wikimedia Commons",
+      "artist": "Momotarou2012",
+      "date": "2013-02-17",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "720"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Zen_little_roof_garden.jpg/1280px-Zen_little_roof_garden.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Zen_little_roof_garden.jpg/500px-Zen_little_roof_garden.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/18/Zen_little_roof_garden.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Zen_little_roof_garden.jpg",
+      "caption": "It is funny to see as the moss gathered together on the glass tiles of this roof. It makes me think of Hạ Long Bay in miniature.",
+      "source": "Wikimedia Commons",
+      "artist": "Olivier",
+      "date": "Taken on 14 November 2008, 14:02",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "720"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Sveav%C3%A4gen_44%2C_takterass_-03.JPG/1280px-Sveav%C3%A4gen_44%2C_takterass_-03.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Sveav%C3%A4gen_44%2C_takterass_-03.JPG/500px-Sveav%C3%A4gen_44%2C_takterass_-03.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sveav%C3%A4gen_44%2C_takterass_-03.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sveav%C3%A4gen_44,_takterass_-03.JPG",
+      "caption": "Urban Delis takterass på Sveavägen 44 This is a photo of a building (without protection) in Sweden, number 21420000012893 in the RAÄ buildings database.",
+      "source": "Wikimedia Commons",
+      "artist": "I99pema",
+      "date": "2015-06-27 13:07:41",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/A_Solarpunk_tower.png/1280px-A_Solarpunk_tower.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/A_Solarpunk_tower.png/500px-A_Solarpunk_tower.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9f/A_Solarpunk_tower.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:A_Solarpunk_tower.png",
+      "caption": "Created in collaboration with Scan101 aka Scandinavian101",
+      "source": "Wikimedia Commons",
+      "artist": "The.lemonaut.ukr",
+      "date": "2024-09-04",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "1420"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Inari_Daimyojin_on_the_roof_of_Hankyu_Department_Stores_Umeda_main_store.JPG/1280px-Inari_Daimyojin_on_the_roof_of_Hankyu_Department_Stores_Umeda_main_store.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Inari_Daimyojin_on_the_roof_of_Hankyu_Department_Stores_Umeda_main_store.JPG/500px-Inari_Daimyojin_on_the_roof_of_Hankyu_Department_Stores_Umeda_main_store.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/68/Inari_Daimyojin_on_the_roof_of_Hankyu_Department_Stores_Umeda_main_store.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Inari_Daimyojin_on_the_roof_of_Hankyu_Department_Stores_Umeda_main_store.JPG",
+      "caption": "阪急百貨店梅田本店屋上にある稲荷大明神の神社を撮影。",
+      "source": "Wikimedia Commons",
+      "artist": "Tokumeigakarinoaoshima",
+      "date": "2013-10-24 13:25:08",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "948"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Roof garden",
@@ -66,7 +229,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1156696",
+      "url": "https://www.wikidata.org/wiki/Q1156696",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:20.364Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Roof garden",
+      "url": "https://en.wikipedia.org/wiki/Roof_garden",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:20.364Z"
+      }
+    }
+  ],
   "wikidata": "Q1156696",
   "wikipedia": "Roof garden",
   "popularity": 35,
@@ -74,5 +260,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.091Z"
 }

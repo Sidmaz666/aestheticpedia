@@ -17,7 +17,33 @@
   "summary": "A pastiche (; French: [pastiʃ] ) is a work of visual art, literature, theatre, music, or architecture that imitates the style or character of the work of one or more other artists.",
   "description": "A pastiche (; French: [pastiʃ] ) is a work of visual art, literature, theatre, music, or architecture that imitates the style or character of the work of one or more other artists. Unlike parody, pastiche pays homage to the work it imitates, rather than mocking it.\n\nThe word pastiche is the French borrowing of the Italian noun pasticcio, which is a pâté or pie-filling mixed from diverse ingredients. Its first recorded use in this sense was in 1878.  Metaphorically, pastiche and pasticcio describe works that are either composed by several authors, or that incorporate stylistic elements of other artists' work. Pastiche is an example of eclecticism in art.\n\nAllusion is not pastiche. A literary allusion may refer to another work, but it does not reiterate it. Allusion requires the audience to share in the author's cultural knowledge. Allusion and pastiche are both mechanisms of intertextuality.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#826b60",
+      "name": "bronze"
+    },
+    {
+      "hex": "#625148",
+      "name": "umber"
+    },
+    {
+      "hex": "#3b3430",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#a78e7d",
+      "name": "stone"
+    },
+    {
+      "hex": "#abc7e8",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#bfac95",
+      "name": "khaki"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,48 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Pastiche.jpg/1280px-Pastiche.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Pastiche.jpg/500px-Pastiche.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/61/Pastiche.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pastiche.jpg",
+      "caption": "A pastiche created by the user, by combining elements of two PD-art files, in Photoshop, in order to illustrate the term \"pastiche\" and for use in Wikipedia:art forgery",
+      "source": "Wikimedia Commons",
+      "artist": "User",
+      "date": "created by user 6/30/06",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1680"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Parliament_at_Sunset.JPG/1280px-Parliament_at_Sunset.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Parliament_at_Sunset.JPG/500px-Parliament_at_Sunset.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/75/Parliament_at_Sunset.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Parliament_at_Sunset.JPG",
+      "caption": "The Palace of Westminster in London, the meeting place of the Parliament of the United Kingdom .",
+      "source": "Wikimedia Commons",
+      "artist": "Mайкл Гиммельфарб (Mike Gimelfarb)",
+      "date": "2008-07",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "857"
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/LL-Q150_%28fra%29-Pamputt-pastiche.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "LL-Q150 (fra)-Pamputt-pastiche",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:LL-Q150_(fra)-Pamputt-pastiche.wav",
+      "source": "Wikimedia Commons",
+      "mime": "audio/wav",
+      "duration": 1,
+      "artist": "Speaker: Pamputt Recorder: Pamputt",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Pastiche",
@@ -62,7 +129,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1128018",
+      "url": "https://www.wikidata.org/wiki/Q1128018",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:24.439Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Pastiche",
+      "url": "https://en.wikipedia.org/wiki/Pastiche",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:24.439Z"
+      }
+    }
+  ],
   "wikidata": "Q1128018",
   "wikipedia": "Pastiche",
   "popularity": 35,
@@ -70,5 +160,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:59:24.439Z"
 }

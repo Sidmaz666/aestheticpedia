@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Ilkhanate",
+  "geography": "Ilkhanate",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Ilkhanid architecture was a period in Iranian and Islamic architecture corresponding with the Mongol-ruled Ilkhanate in and around the region of Iran.",
   "description": "Ilkhanid architecture was a period in Iranian and Islamic architecture corresponding with the Mongol-ruled Ilkhanate in and around the region of Iran. Architecture in this region and period continued earlier Iranian Islamic features but brought advancements in the design of domed structures and in the production of glazed tile decoration. These developments set the stage for later periods, including Timurid architecture.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#987d5f",
+      "name": "moss"
+    },
+    {
+      "hex": "#ac9478",
+      "name": "camel"
+    },
+    {
+      "hex": "#7e6347",
+      "name": "bronze"
+    },
+    {
+      "hex": "#c1ae97",
+      "name": "khaki"
+    },
+    {
+      "hex": "#ddccb3",
+      "name": "beige"
+    },
+    {
+      "hex": "#4f3d2b",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,106 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/%D9%86%D9%85%D8%A7%DB%8C%DB%8C_%D8%A7%D8%B2_%D9%85%D9%82%D8%A8%D8%B1%D9%87_%D8%B3%D9%84%D8%B7%D8%A7%D9%86_%D9%85%D8%AD%D9%85%D8%AF_%D8%AE%D8%AF%D8%A7%D8%A8%D9%86%D8%AF%D9%87_%D8%A7%D9%84%D8%AC%D8%A7%DB%8C%D8%AA%D9%88_%DB%B2.jpg/1280px-%D9%86%D9%85%D8%A7%DB%8C%DB%8C_%D8%A7%D8%B2_%D9%85%D9%82%D8%A8%D8%B1%D9%87_%D8%B3%D9%84%D8%B7%D8%A7%D9%86_%D9%85%D8%AD%D9%85%D8%AF_%D8%AE%D8%AF%D8%A7%D8%A8%D9%86%D8%AF%D9%87_%D8%A7%D9%84%D8%AC%D8%A7%DB%8C%D8%AA%D9%88_%DB%B2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/%D9%86%D9%85%D8%A7%DB%8C%DB%8C_%D8%A7%D8%B2_%D9%85%D9%82%D8%A8%D8%B1%D9%87_%D8%B3%D9%84%D8%B7%D8%A7%D9%86_%D9%85%D8%AD%D9%85%D8%AF_%D8%AE%D8%AF%D8%A7%D8%A8%D9%86%D8%AF%D9%87_%D8%A7%D9%84%D8%AC%D8%A7%DB%8C%D8%AA%D9%88_%DB%B2.jpg/500px-%D9%86%D9%85%D8%A7%DB%8C%DB%8C_%D8%A7%D8%B2_%D9%85%D9%82%D8%A8%D8%B1%D9%87_%D8%B3%D9%84%D8%B7%D8%A7%D9%86_%D9%85%D8%AD%D9%85%D8%AF_%D8%AE%D8%AF%D8%A7%D8%A8%D9%86%D8%AF%D9%87_%D8%A7%D9%84%D8%AC%D8%A7%DB%8C%D8%AA%D9%88_%DB%B2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7c/%D9%86%D9%85%D8%A7%DB%8C%DB%8C_%D8%A7%D8%B2_%D9%85%D9%82%D8%A8%D8%B1%D9%87_%D8%B3%D9%84%D8%B7%D8%A7%D9%86_%D9%85%D8%AD%D9%85%D8%AF_%D8%AE%D8%AF%D8%A7%D8%A8%D9%86%D8%AF%D9%87_%D8%A7%D9%84%D8%AC%D8%A7%DB%8C%D8%AA%D9%88_%DB%B2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D9%86%D9%85%D8%A7%DB%8C%DB%8C_%D8%A7%D8%B2_%D9%85%D9%82%D8%A8%D8%B1%D9%87_%D8%B3%D9%84%D8%B7%D8%A7%D9%86_%D9%85%D8%AD%D9%85%D8%AF_%D8%AE%D8%AF%D8%A7%D8%A8%D9%86%D8%AF%D9%87_%D8%A7%D9%84%D8%AC%D8%A7%DB%8C%D8%AA%D9%88_%DB%B2.jpg",
+      "caption": "This is a photo of a monument in Iran identified by the ID",
+      "source": "Wikimedia Commons",
+      "artist": "Milad.afshari",
+      "date": "2012-03-22 16:58:13",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Abdul_Samad_Isfahani_Shrine_Natanz.jpg/1280px-Abdul_Samad_Isfahani_Shrine_Natanz.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Abdul_Samad_Isfahani_Shrine_Natanz.jpg/500px-Abdul_Samad_Isfahani_Shrine_Natanz.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Abdul_Samad_Isfahani_Shrine_Natanz.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Abdul_Samad_Isfahani_Shrine_Natanz.jpg",
+      "caption": "This is a photo of a monument in Iran identified by the ID",
+      "source": "Wikimedia Commons",
+      "artist": "Hmd.shirazi",
+      "date": "Taken on 6 April 2017, 09:09:12",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Irnt038-Isfahan-Meczet_Pi%C4%85tkowy.jpg/1280px-Irnt038-Isfahan-Meczet_Pi%C4%85tkowy.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Irnt038-Isfahan-Meczet_Pi%C4%85tkowy.jpg/500px-Irnt038-Isfahan-Meczet_Pi%C4%85tkowy.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/71/Irnt038-Isfahan-Meczet_Pi%C4%85tkowy.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Irnt038-Isfahan-Meczet_Pi%C4%85tkowy.jpg",
+      "caption": "Iran in 2018 (photographed by Wojciech Kocot)",
+      "source": "Wikimedia Commons",
+      "artist": "Wojciech Kocot",
+      "date": "12 January 2018",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "851"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Frieze_Tile_with_Inscription%2C_Birds%2C_and_Flowers%2C_c._1270s%2C_Ilkhanid_dynasty%2C_probably_Takht-i_Sylayman%2C_Iran_-_Sackler_Museum_-_DSC02487.JPG/1280px-Frieze_Tile_with_Inscription%2C_Birds%2C_and_Flowers%2C_c._1270s%2C_Ilkhanid_dynasty%2C_probably_Takht-i_Sylayman%2C_Iran_-_Sackler_Museum_-_DSC02487.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Frieze_Tile_with_Inscription%2C_Birds%2C_and_Flowers%2C_c._1270s%2C_Ilkhanid_dynasty%2C_probably_Takht-i_Sylayman%2C_Iran_-_Sackler_Museum_-_DSC02487.JPG/500px-Frieze_Tile_with_Inscription%2C_Birds%2C_and_Flowers%2C_c._1270s%2C_Ilkhanid_dynasty%2C_probably_Takht-i_Sylayman%2C_Iran_-_Sackler_Museum_-_DSC02487.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Frieze_Tile_with_Inscription%2C_Birds%2C_and_Flowers%2C_c._1270s%2C_Ilkhanid_dynasty%2C_probably_Takht-i_Sylayman%2C_Iran_-_Sackler_Museum_-_DSC02487.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Frieze_Tile_with_Inscription,_Birds,_and_Flowers,_c._1270s,_Ilkhanid_dynasty,_probably_Takht-i_Sylayman,_Iran_-_Sackler_Museum_-_DSC02487.JPG",
+      "caption": "Exhibit in the Sackler Museum, Harvard University, Cambridge, Massachusetts, USA. The museum permitted photography of this artwork without restriction. This artwork is in the public domain because the artist died more than 70 years ago.",
+      "source": "Wikimedia Commons",
+      "artist": "Daderot",
+      "date": "2012-11-17 12:18:38",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1190"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/%D8%AE%D8%A7%D9%86_%D9%85%D8%B1%D8%AC%D8%A7%D9%86.jpg/1280px-%D8%AE%D8%A7%D9%86_%D9%85%D8%B1%D8%AC%D8%A7%D9%86.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/%D8%AE%D8%A7%D9%86_%D9%85%D8%B1%D8%AC%D8%A7%D9%86.jpg/500px-%D8%AE%D8%A7%D9%86_%D9%85%D8%B1%D8%AC%D8%A7%D9%86.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/36/%D8%AE%D8%A7%D9%86_%D9%85%D8%B1%D8%AC%D8%A7%D9%86.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D8%AE%D8%A7%D9%86_%D9%85%D8%B1%D8%AC%D8%A7%D9%86.jpg",
+      "caption": "خان مرجان الاثري",
+      "source": "Wikimedia Commons",
+      "artist": "Zaid isam",
+      "date": "Taken on 29 September 2012, 12:58:22",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Mezquita_del_Viernes%2C_Yazd%2C_Ir%C3%A1n%2C_2016-09-21%2C_DD_10.jpg/1280px-Mezquita_del_Viernes%2C_Yazd%2C_Ir%C3%A1n%2C_2016-09-21%2C_DD_10.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Mezquita_del_Viernes%2C_Yazd%2C_Ir%C3%A1n%2C_2016-09-21%2C_DD_10.jpg/500px-Mezquita_del_Viernes%2C_Yazd%2C_Ir%C3%A1n%2C_2016-09-21%2C_DD_10.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Mezquita_del_Viernes%2C_Yazd%2C_Ir%C3%A1n%2C_2016-09-21%2C_DD_10.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mezquita_del_Viernes,_Yazd,_Ir%C3%A1n,_2016-09-21,_DD_10.jpg",
+      "caption": "Masjed-e Jomeh mosque, Yazd, Iran",
+      "source": "Wikimedia Commons",
+      "artist": "Diego Delso",
+      "date": "2016-09-21 10:21:53",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1941"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Oljeitu_Mausoleum_%28Gonbad-e_Soltaniyeh%29%2C_Soltaniyeh_%285110139183%29.jpg/1280px-Oljeitu_Mausoleum_%28Gonbad-e_Soltaniyeh%29%2C_Soltaniyeh_%285110139183%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Oljeitu_Mausoleum_%28Gonbad-e_Soltaniyeh%29%2C_Soltaniyeh_%285110139183%29.jpg/500px-Oljeitu_Mausoleum_%28Gonbad-e_Soltaniyeh%29%2C_Soltaniyeh_%285110139183%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Oljeitu_Mausoleum_%28Gonbad-e_Soltaniyeh%29%2C_Soltaniyeh_%285110139183%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Oljeitu_Mausoleum_(Gonbad-e_Soltaniyeh),_Soltaniyeh_(5110139183).jpg",
+      "caption": "Oljeitu Mausoleum (Gonbad-e Soltaniyeh), Soltaniyeh",
+      "source": "Wikimedia Commons",
+      "artist": "Fulvio Spada from Torino, Italy",
+      "date": "2007-08-20 13:06",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Ilkhanid architecture",
@@ -62,7 +187,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q98399895",
+      "url": "https://www.wikidata.org/wiki/Q98399895",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:01.285Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Ilkhanid architecture",
+      "url": "https://en.wikipedia.org/wiki/Ilkhanid_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:01.285Z"
+      }
+    }
+  ],
   "wikidata": "Q98399895",
   "wikipedia": "Ilkhanid architecture",
   "popularity": 35,
@@ -70,5 +218,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.880Z"
 }

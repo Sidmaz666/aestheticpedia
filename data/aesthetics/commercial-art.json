@@ -17,7 +17,33 @@
   "summary": "Commercial art is the art of creative services, referring to art created for commercial purposes, primarily advertising.",
   "description": "Commercial art is the art of creative services, referring to art created for commercial purposes, primarily advertising. Commercial art uses a variety of platforms (magazines, websites, apps, television, etc.) for viewers with the intent of promoting the sale and interest of products, services, and ideas. It relies on the iconic image (pictorial representations that are recognized easily to members of a culture) to enhance recall and favorable recognition for a product or service. An example of a product could be a magazine ad promoting a new soda through complementary colors, a catchy message, and appealing illustrative features. Another example could be promoting the prevention of global warming by encouraging people to walk or ride a bike instead of driving in an eye catching poster. It communicates something specific to an audience.\n\nPeople can obtain training, certifications, and degrees that incorporate commercial arts in many exercises, activities, and programs.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#beb2a4",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#e8e0b7",
+      "name": "cream"
+    },
+    {
+      "hex": "#978b7f",
+      "name": "stone"
+    },
+    {
+      "hex": "#804c35",
+      "name": "umber"
+    },
+    {
+      "hex": "#d3ae5c",
+      "name": "gold"
+    },
+    {
+      "hex": "#3f2a2c",
+      "name": "aubergine"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,61 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Michelin_Poster_1898.jpg/1280px-Michelin_Poster_1898.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Michelin_Poster_1898.jpg/500px-Michelin_Poster_1898.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Michelin_Poster_1898.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Michelin_Poster_1898.jpg",
+      "caption": "The first depiction of the Michelin Man making a toast. He is also known as Bibendum, possibly because of this poster. The phrase Nunc est Bibendum! is taken from the Odes of Horace.",
+      "source": "Wikimedia Commons",
+      "artist": "O'Galop",
+      "date": "1898 date QS:P571,+1898-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1719"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Droste_Cacao_-_Pastilles_blikje_van_250_gram%2C_foto_9.JPG/1280px-Droste_Cacao_-_Pastilles_blikje_van_250_gram%2C_foto_9.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Droste_Cacao_-_Pastilles_blikje_van_250_gram%2C_foto_9.JPG/500px-Droste_Cacao_-_Pastilles_blikje_van_250_gram%2C_foto_9.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/55/Droste_Cacao_-_Pastilles_blikje_van_250_gram%2C_foto_9.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Droste_Cacao_-_Pastilles_blikje_van_250_gram,_foto_9.JPG",
+      "caption": "Photographed at a collector of Droste. For info see tincollectors.nl or email info@tincollectors.nl",
+      "source": "Wikimedia Commons",
+      "artist": "Alf van Beem",
+      "date": "2013-12-15 12:25:34",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1708"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/California_Dream_orange_crate_label.jpg/1280px-California_Dream_orange_crate_label.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/California_Dream_orange_crate_label.jpg/500px-California_Dream_orange_crate_label.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9b/California_Dream_orange_crate_label.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:California_Dream_orange_crate_label.jpg",
+      "caption": "There are no known copyright restrictions on this image. All future uses of this photo should include the courtesy line, \"Photo courtesy Orange County Archives.\" Comments are welcome after reading our Comment Policy.",
+      "source": "Wikimedia Commons",
+      "artist": "Orange County Archives",
+      "date": "circa 1928 date QS:P,+1928-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1171"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg/1280px-Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg/500px-Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg",
+      "caption": "Andy Warhol's Campbell's Soup Cans paintings displayed at the Museum of Modern Art",
+      "source": "Wikimedia Commons",
+      "artist": "Brandon Fick",
+      "date": "2006-05-12",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "744"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Commercial art",
@@ -62,7 +142,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1497126",
+      "url": "https://www.wikidata.org/wiki/Q1497126",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:26.395Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Commercial art",
+      "url": "https://en.wikipedia.org/wiki/Commercial_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:26.395Z"
+      }
+    }
+  ],
   "wikidata": "Q1497126",
   "wikipedia": "Commercial art",
   "popularity": 35,
@@ -70,5 +173,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:41:26.395Z"
 }

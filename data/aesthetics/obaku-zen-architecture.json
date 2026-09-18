@@ -17,7 +17,25 @@
   "summary": "The Ōbaku school of Zen arrived in Japan in the middle of the seventeenth century, several  centuries after the other Zen schools, and as a consequence its temples typically have a different architecture, based on Chinese Ming and Qing architectures.",
   "description": "The Ōbaku school of Zen arrived in Japan in the middle of the seventeenth century, several  centuries after the other Zen schools, and as a consequence its temples typically have a different architecture, based on Chinese Ming and Qing architectures.\n\nA great example of the style is Manpuku-ji in Uji, near Kyoto, whose main building, the Daiyūhōden, was built in 1668.\n\nAnother important Ōbaku temple is Sōfuku-ji, built in 1629 in Nagasaki by Chinese immigrants. The Daiippōmon, a National Treasure, was built in 1644 by Chinese carpenters. Rebuilt in 1694 with material imported from China, it is one of the best examples of the style. Painted in typically Chinese polychromy, it has four-step brackets (\"tokyō\") in the front and back, and ordinary three-step brackets on the sides.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5b341c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#735840",
+      "name": "umber"
+    },
+    {
+      "hex": "#878072",
+      "name": "taupe"
+    },
+    {
+      "hex": "#2a170b",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +57,33 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Nagasaki_Sofukuji_M5564.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Nagasaki_Sofukuji_M5564.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Nagasaki_Sofukuji_M5564.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nagasaki_Sofukuji_M5564.jpg",
+      "caption": "第一峰門（海天門、唐門、二の門、中門、赤門）江戸時代 at Sōfuku-ji in Nagasaki , Japan . National Treasure",
+      "source": "Wikimedia Commons",
+      "artist": "Fg2",
+      "date": "2007-05-02",
+      "license": "Public domain",
+      "width": "1250",
+      "height": "862"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/500px-Himeji_model7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Himeji_model7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Himeji_model7.JPG",
+      "caption": "Himeji model7",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Ōbaku Zen architecture",
@@ -62,7 +106,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2860288",
+      "url": "https://www.wikidata.org/wiki/Q2860288",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:20.676Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Ōbaku Zen architecture",
+      "url": "https://en.wikipedia.org/wiki/%C5%8Cbaku_Zen_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:20.676Z"
+      }
+    }
+  ],
   "wikidata": "Q2860288",
   "wikipedia": "Ōbaku Zen architecture",
   "popularity": 35,
@@ -70,5 +137,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:58:20.676Z"
 }

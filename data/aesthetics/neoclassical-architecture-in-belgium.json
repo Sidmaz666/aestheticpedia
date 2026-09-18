@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Belgium",
+  "geography": "Belgium",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Neoclassical architecture appeared in Belgium during the period of Austrian occupation in the mid-18th century and enjoyed considerable longevity in the country, surviving through periods of French and Dutch occupation, and the birth of independent Belgium, surviving well into the 20th century.",
   "description": "Neoclassical architecture appeared in Belgium during the period of Austrian occupation in the mid-18th century and enjoyed considerable longevity in the country, surviving through periods of French and Dutch occupation, and the birth of independent Belgium, surviving well into the 20th century.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bbb6ac",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#90897c",
+      "name": "stone"
+    },
+    {
+      "hex": "#686358",
+      "name": "umber"
+    },
+    {
+      "hex": "#e7e2db",
+      "name": "bone white"
+    },
+    {
+      "hex": "#363527",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#5c88b9",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,148 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Palais_de_la_Nation_%28DSC01812%29.jpg/1280px-Palais_de_la_Nation_%28DSC01812%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Palais_de_la_Nation_%28DSC01812%29.jpg/500px-Palais_de_la_Nation_%28DSC01812%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Palais_de_la_Nation_%28DSC01812%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Palais_de_la_Nation_(DSC01812).jpg",
+      "caption": "Palais de la Nation: Federal Parliament of Belgium",
+      "source": "Wikimedia Commons",
+      "artist": "Trougnouf (Benoit Brummer)",
+      "date": "2022-03-30 19:03:44",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "966"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Brussels_-_2018-04-27_-_%C3%89glise_Saint_Jacques-sur-Coudenberg.jpg/1280px-Brussels_-_2018-04-27_-_%C3%89glise_Saint_Jacques-sur-Coudenberg.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Brussels_-_2018-04-27_-_%C3%89glise_Saint_Jacques-sur-Coudenberg.jpg/500px-Brussels_-_2018-04-27_-_%C3%89glise_Saint_Jacques-sur-Coudenberg.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Brussels_-_2018-04-27_-_%C3%89glise_Saint_Jacques-sur-Coudenberg.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Brussels_-_2018-04-27_-_%C3%89glise_Saint_Jacques-sur-Coudenberg.jpg",
+      "caption": "This is a photo of a monument in Brussels, number:",
+      "source": "Wikimedia Commons",
+      "artist": "Pierre-Selim Huard",
+      "date": "2018-04-27",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/H%C3%B4tel_de_Ligne_01.JPG/1280px-H%C3%B4tel_de_Ligne_01.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/H%C3%B4tel_de_Ligne_01.JPG/500px-H%C3%B4tel_de_Ligne_01.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/17/H%C3%B4tel_de_Ligne_01.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Ligne_01.JPG",
+      "caption": "Belgique - Bruxelles - Hôtel de Ligne",
+      "source": "Wikimedia Commons",
+      "artist": "EmDee",
+      "date": "Taken in 2011",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "974"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/H%C3%B4tel_Errera_1.JPG/1280px-H%C3%B4tel_Errera_1.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/H%C3%B4tel_Errera_1.JPG/500px-H%C3%B4tel_Errera_1.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5f/H%C3%B4tel_Errera_1.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Errera_1.JPG",
+      "caption": "Belgique - Bruxelles - Hôtel Errera",
+      "source": "Wikimedia Commons",
+      "artist": "EmDee",
+      "date": "Taken in 2004",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "886"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Abbaye_d%27H%C3%A9l%C3%A9cine_01.jpg/1280px-Abbaye_d%27H%C3%A9l%C3%A9cine_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Abbaye_d%27H%C3%A9l%C3%A9cine_01.jpg/500px-Abbaye_d%27H%C3%A9l%C3%A9cine_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Abbaye_d%27H%C3%A9l%C3%A9cine_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Abbaye_d%27H%C3%A9l%C3%A9cine_01.jpg",
+      "caption": "Belgique - Wallonie - Abbaye d'Hélécine",
+      "source": "Wikimedia Commons",
+      "artist": "EmDee",
+      "date": "Taken in 2006",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Abbaye_d%27H%C3%A9l%C3%A9cine_05.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Abbaye_d%27H%C3%A9l%C3%A9cine_05.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Abbaye_d%27H%C3%A9l%C3%A9cine_05.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Abbaye_d%27H%C3%A9l%C3%A9cine_05.jpg",
+      "caption": "Belgique - Wallonie - Abbaye d'Hélécine",
+      "source": "Wikimedia Commons",
+      "artist": "EmDee",
+      "date": "2006",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1024",
+      "height": "1642"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Abbaye_d%27H%C3%A9l%C3%A9cine_08.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Abbaye_d%27H%C3%A9l%C3%A9cine_08.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Abbaye_d%27H%C3%A9l%C3%A9cine_08.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Abbaye_d%27H%C3%A9l%C3%A9cine_08.jpg",
+      "caption": "Belgique - Wallonie - Abbaye d'Hélécine",
+      "source": "Wikimedia Commons",
+      "artist": "EmDee",
+      "date": "Taken in 2006",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1062",
+      "height": "1462"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Le_Palais_Royal_%C3%A0_Bruxelles_-_panoramio.jpg/1280px-Le_Palais_Royal_%C3%A0_Bruxelles_-_panoramio.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Le_Palais_Royal_%C3%A0_Bruxelles_-_panoramio.jpg/500px-Le_Palais_Royal_%C3%A0_Bruxelles_-_panoramio.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Le_Palais_Royal_%C3%A0_Bruxelles_-_panoramio.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Le_Palais_Royal_%C3%A0_Bruxelles_-_panoramio.jpg",
+      "caption": "Le Palais Royal à Bruxelles",
+      "source": "Wikimedia Commons",
+      "artist": "charles lecompte",
+      "date": "Taken on 30 July 2008",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "718"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Place_des_Martyrs_01x.JPG/1280px-Place_des_Martyrs_01x.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Place_des_Martyrs_01x.JPG/500px-Place_des_Martyrs_01x.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/70/Place_des_Martyrs_01x.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Place_des_Martyrs_01x.JPG",
+      "caption": "Belgique - Bruxelles - Place des Martyrs",
+      "source": "Wikimedia Commons",
+      "artist": "EmDee",
+      "date": "Taken in 2008",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "854"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/0_Gembloux_-_Palais_de_l%27ancienne_abbaye_St-Pierre_%282%29.JPG/1280px-0_Gembloux_-_Palais_de_l%27ancienne_abbaye_St-Pierre_%282%29.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/0_Gembloux_-_Palais_de_l%27ancienne_abbaye_St-Pierre_%282%29.JPG/500px-0_Gembloux_-_Palais_de_l%27ancienne_abbaye_St-Pierre_%282%29.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/0_Gembloux_-_Palais_de_l%27ancienne_abbaye_St-Pierre_%282%29.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:0_Gembloux_-_Palais_de_l%27ancienne_abbaye_St-Pierre_(2).JPG",
+      "caption": "This is a photo of a monument in Wallonia, number:",
+      "source": "Wikimedia Commons",
+      "artist": "Jean-Pol GRANDMONT",
+      "date": "1 May 2005 (according to Exif data)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "962"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Neoclassical architecture in Belgium",
@@ -62,7 +229,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2510655",
+      "url": "https://www.wikidata.org/wiki/Q2510655",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:06.784Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Neoclassical architecture in Belgium",
+      "url": "https://en.wikipedia.org/wiki/Neoclassical_architecture_in_Belgium",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:06.784Z"
+      }
+    }
+  ],
   "wikidata": "Q2510655",
   "wikipedia": "Neoclassical architecture in Belgium",
   "popularity": 35,
@@ -70,5 +260,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.403Z"
 }

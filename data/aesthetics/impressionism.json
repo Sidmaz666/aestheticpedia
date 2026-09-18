@@ -17,7 +17,33 @@
   "summary": "Impressionism was a 19th-century art movement characterised by visible brush strokes, open composition, emphasis on accurate depiction of light in its changing qualities (often accentuating the effects of the passage of time), ordinary subject matter, unusual visual angles, and i",
   "description": "Impressionism was a 19th-century art movement characterised by visible brush strokes, open composition, emphasis on accurate depiction of light in its changing qualities (often accentuating the effects of the passage of time), ordinary subject matter, unusual visual angles, and inclusion of movement as a crucial element of human perception and experience. Impressionism originated with a group of Paris-based artists whose independent exhibitions brought them to prominence during the 1870s and 1880s.\n\nThe Impressionists faced harsh opposition from the conventional art community in France. The name of the style derives from the title of a Claude Monet work, Impression, Sunrise, which provoked the critic Louis Leroy to coin the term in a satirical 1874 review of the First Impressionist Exhibition published in the Parisian newspaper Le Charivari. The development of Impressionism in the visual arts was soon followed by analogous styles in other media that became known as Impressionist music and Impressionist literature.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#7c8a86",
+      "name": "taupe"
+    },
+    {
+      "hex": "#b7bdbf",
+      "name": "silver"
+    },
+    {
+      "hex": "#e0dfd2",
+      "name": "bone white"
+    },
+    {
+      "hex": "#869fc2",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#66736e",
+      "name": "slate"
+    },
+    {
+      "hex": "#beae8b",
+      "name": "khaki"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,151 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/1280px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/500px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Claude_Monet,_Impression,_soleil_levant.jpg",
+      "caption": "Impression, Sunrise",
+      "source": "Wikimedia Commons",
+      "artist": "Claude Monet",
+      "date": "1872 date QS:P571,+1872-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "996"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Frederic_Bazille_Paysage_au_bord_du_Lez.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Frederic_Bazille_Paysage_au_bord_du_Lez.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Frederic_Bazille_Paysage_au_bord_du_Lez.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Frederic_Bazille_Paysage_au_bord_du_Lez.jpg",
+      "caption": "«Пейзаж берега Лес» ( фр. Paysage au bord du Lez ). 1870. Холст, масло. 138,4 × 201,9 см. Институт искусств Миннеаполиса , Миннеаполис ( США )",
+      "source": "Wikimedia Commons",
+      "artist": "Frédéric Bazille",
+      "date": "1870 date QS:P571,+1870-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "896",
+      "height": "600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Sisley-Bridge_at_Villeneuve-la-Garenne.jpg/1280px-Sisley-Bridge_at_Villeneuve-la-Garenne.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Sisley-Bridge_at_Villeneuve-la-Garenne.jpg/500px-Sisley-Bridge_at_Villeneuve-la-Garenne.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Sisley-Bridge_at_Villeneuve-la-Garenne.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sisley-Bridge_at_Villeneuve-la-Garenne.jpg",
+      "caption": "French: Le Pont de Villeneuve-la-Garenne The Bridge at Villeneuve-la-Garenne",
+      "source": "Wikimedia Commons",
+      "artist": "Alfred Sisley",
+      "date": "1872 date QS:P571,+1872-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "970"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Berthe_Morisot%2C_Le_berceau_%28The_Cradle%29%2C_1872.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/42/Berthe_Morisot%2C_Le_berceau_%28The_Cradle%29%2C_1872.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/42/Berthe_Morisot%2C_Le_berceau_%28The_Cradle%29%2C_1872.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Berthe_Morisot,_Le_berceau_(The_Cradle),_1872.jpg",
+      "caption": "The Cradle",
+      "source": "Wikimedia Commons",
+      "artist": "Berthe Morisot",
+      "date": "1872",
+      "license": "Public domain",
+      "width": "828",
+      "height": "1020"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Guillaumin_SoleilCouchantAIvry.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/13/Guillaumin_SoleilCouchantAIvry.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/13/Guillaumin_SoleilCouchantAIvry.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Guillaumin_SoleilCouchantAIvry.jpg",
+      "caption": "French: Soleil couchant à Ivry Sunset at Ivry",
+      "source": "Wikimedia Commons",
+      "artist": "Armand Guillaumin",
+      "date": "1873 date QS:P571,+1873-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "740",
+      "height": "596"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Edouard_Manet_Boating.jpg/1280px-Edouard_Manet_Boating.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Edouard_Manet_Boating.jpg/500px-Edouard_Manet_Boating.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/43/Edouard_Manet_Boating.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Edouard_Manet_Boating.jpg",
+      "caption": "Boating",
+      "source": "Wikimedia Commons",
+      "artist": "Édouard Manet",
+      "date": "1874 date QS:P571,+1874-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "966"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Edouard_Manet_-_The_Plum_-_National_Gallery_of_Art.jpg/1280px-Edouard_Manet_-_The_Plum_-_National_Gallery_of_Art.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Edouard_Manet_-_The_Plum_-_National_Gallery_of_Art.jpg/500px-Edouard_Manet_-_The_Plum_-_National_Gallery_of_Art.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Edouard_Manet_-_The_Plum_-_National_Gallery_of_Art.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Edouard_Manet_-_The_Plum_-_National_Gallery_of_Art.jpg",
+      "caption": "The Plum",
+      "source": "Wikimedia Commons",
+      "artist": "Édouard Manet",
+      "date": "circa 1877 date QS:P571,+1877-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1914"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/La_Falaise_%C3%A0_F%C3%A9camp_-_Claude_Monet_-_ABDAG003046.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/03/La_Falaise_%C3%A0_F%C3%A9camp_-_Claude_Monet_-_ABDAG003046.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/03/La_Falaise_%C3%A0_F%C3%A9camp_-_Claude_Monet_-_ABDAG003046.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:La_Falaise_%C3%A0_F%C3%A9camp_-_Claude_Monet_-_ABDAG003046.jpg",
+      "caption": "La Falaise à Fécamp",
+      "source": "Wikimedia Commons",
+      "artist": "Claude Monet",
+      "date": "1881",
+      "license": "Public domain",
+      "width": "800",
+      "height": "642"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/%22Un_Bar_aux_Folies-Berg%C3%A8re%22_by_%C3%89douard_Manet_%281882%29.jpg/1280px-%22Un_Bar_aux_Folies-Berg%C3%A8re%22_by_%C3%89douard_Manet_%281882%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/%22Un_Bar_aux_Folies-Berg%C3%A8re%22_by_%C3%89douard_Manet_%281882%29.jpg/500px-%22Un_Bar_aux_Folies-Berg%C3%A8re%22_by_%C3%89douard_Manet_%281882%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b1/%22Un_Bar_aux_Folies-Berg%C3%A8re%22_by_%C3%89douard_Manet_%281882%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%22Un_Bar_aux_Folies-Berg%C3%A8re%22_by_%C3%89douard_Manet_(1882).jpg",
+      "caption": "French: Un bar aux Folies Bergère A Bar at the Folies-Bergère",
+      "source": "Wikimedia Commons",
+      "artist": "Édouard Manet",
+      "date": "1882",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "940"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Edgar_Degas_-_After_the_bath%2C_woman_drying_herself_-_Google_Art_Project.jpg/1280px-Edgar_Degas_-_After_the_bath%2C_woman_drying_herself_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Edgar_Degas_-_After_the_bath%2C_woman_drying_herself_-_Google_Art_Project.jpg/500px-Edgar_Degas_-_After_the_bath%2C_woman_drying_herself_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Edgar_Degas_-_After_the_bath%2C_woman_drying_herself_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_After_the_bath,_woman_drying_herself_-_Google_Art_Project.jpg",
+      "caption": "After the bath, woman drying herself",
+      "source": "Wikimedia Commons",
+      "artist": "Edgar Degas",
+      "date": "1884/1886",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1670"
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Debussy_%2C_Reflets_dans_l%27eau.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "\"Reflets dans l'eau\"",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Debussy_,_Reflets_dans_l%27eau.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 333,
+      "artist": "Claude Debussy",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Impressionism",
@@ -62,7 +232,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q40415",
+      "url": "https://www.wikidata.org/wiki/Q40415",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:04.779Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Impressionism",
+      "url": "https://en.wikipedia.org/wiki/Impressionism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:04.779Z"
+      }
+    }
+  ],
   "wikidata": "Q40415",
   "wikipedia": "Impressionism",
   "popularity": 35,
@@ -70,5 +263,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:50:04.779Z"
 }

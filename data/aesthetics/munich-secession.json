@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Germany",
+  "geography": "Germany",
   "periodStart": "1890s",
   "periodEnd": "",
   "startYear": 1892,
@@ -19,7 +19,33 @@
   "summary": "The Munich Secession (German Münchener Secession) was an association of visual artists who broke away from the mainstream Munich Artists' Association in 1892, to promote and defend their art in the face of what they considered official paternalism and its conservative policies.",
   "description": "The Munich Secession (German Münchener Secession) was an association of visual artists who broke away from the mainstream Munich Artists' Association in 1892, to promote and defend their art in the face of what they considered official paternalism and its conservative policies. They acted as a form of cooperative, using their influence to assure their economic survival and obtain commissions. In 1901, the association split again when some dissatisfied members formed the group Phalanx. Another split occurred in 1913, with the founding of the New Munich Secession.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e8e8e8",
+      "name": "paper white"
+    },
+    {
+      "hex": "#201d1b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#bdbbb6",
+      "name": "silver"
+    },
+    {
+      "hex": "#9c978f",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#46413d",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#73706c",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,47 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Internationale_Kunstausstellung_Muenchen_1897.jpg/1280px-Internationale_Kunstausstellung_Muenchen_1897.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Internationale_Kunstausstellung_Muenchen_1897.jpg/500px-Internationale_Kunstausstellung_Muenchen_1897.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Internationale_Kunstausstellung_Muenchen_1897.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Internationale_Kunstausstellung_Muenchen_1897.jpg",
+      "caption": "Poster of the 7th International Art Exhibition in Munich, Germany, in summer 1898",
+      "source": "Wikimedia Commons",
+      "artist": "Franz von Stuck (1863-1928)",
+      "date": "1 January 1897 date QS:P571,+1897-01-01T00:00:00Z/11",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "873"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Franz_von_Lenbach.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Franz_von_Lenbach.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Franz_von_Lenbach.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Franz_von_Lenbach.jpg",
+      "caption": "Franz von Lenbach",
+      "source": "Wikimedia Commons",
+      "artist": "Ad. Baumann (Hofphotograph in München)",
+      "date": "circa 1900 date QS:P,+1900-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "815",
+      "height": "1129"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Ausstellungspalast%2C_Berlin_1885.jpg/1280px-Ausstellungspalast%2C_Berlin_1885.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Ausstellungspalast%2C_Berlin_1885.jpg/500px-Ausstellungspalast%2C_Berlin_1885.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Ausstellungspalast%2C_Berlin_1885.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ausstellungspalast,_Berlin_1885.jpg",
+      "caption": "The ULAP Ausstellungspalast (“exhibition palace”) in Moabit , Berlin . The building was destroyed in an allied attack in 1943.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "circa 1885 date QS:P,+1885-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "801"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Munich Secession",
@@ -64,7 +130,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q24312",
+      "url": "https://www.wikidata.org/wiki/Q24312",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:10.463Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Munich Secession",
+      "url": "https://en.wikipedia.org/wiki/Munich_Secession",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:10.463Z"
+      }
+    }
+  ],
   "wikidata": "Q24312",
   "wikipedia": "Munich Secession",
   "popularity": 35,
@@ -72,5 +161,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.390Z"
 }

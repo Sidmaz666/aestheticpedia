@@ -17,7 +17,25 @@
   "summary": "Neoclassical Hellenism is a term introduced primarily during the European Romantic era by Johann Joachim Winckelmann.",
   "description": "Neoclassical Hellenism is a term introduced primarily during the European Romantic era by Johann Joachim Winckelmann.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5e5653",
+      "name": "umber"
+    },
+    {
+      "hex": "#756f6e",
+      "name": "slate"
+    },
+    {
+      "hex": "#c6c1bd",
+      "name": "silver"
+    },
+    {
+      "hex": "#b2aba6",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +57,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Perseus_Canova_Pio-Clementino_Inv969.jpg/1280px-Perseus_Canova_Pio-Clementino_Inv969.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Perseus_Canova_Pio-Clementino_Inv969.jpg/500px-Perseus_Canova_Pio-Clementino_Inv969.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Perseus_Canova_Pio-Clementino_Inv969.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Perseus_Canova_Pio-Clementino_Inv969.jpg",
+      "caption": "Perseus holding Medusa's head.",
+      "source": "Wikimedia Commons",
+      "artist": "Antonio Canova",
+      "date": "circa 1800 date QS:P571,+1800-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1463"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Hellenism (neoclassicism)",
@@ -62,7 +94,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q13635766",
+      "url": "https://www.wikidata.org/wiki/Q13635766",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:26.120Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Hellenism (neoclassicism)",
+      "url": "https://en.wikipedia.org/wiki/Hellenism_(neoclassicism)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:26.120Z"
+      }
+    }
+  ],
   "wikidata": "Q13635766",
   "wikipedia": "Hellenism (neoclassicism)",
   "popularity": 35,
@@ -70,5 +125,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:48:26.120Z"
 }

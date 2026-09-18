@@ -19,7 +19,33 @@
   "summary": "String art, pin and thread art, or filography is characterized by an arrangement of colored thread strung between points to form geometric patterns or representational designs such as a ship's sails, sometimes with other artist material comprising the remainder of the work.",
   "description": "String art, pin and thread art, or filography is characterized by an arrangement of colored thread strung between points to form geometric patterns or representational designs such as a ship's sails, sometimes with other artist material comprising the remainder of the work. Thread, wire, or string is wound around a grid of nails hammered into a velvet-covered wooden board. Though straight lines are formed by the string, the slightly different angles and metric positions at which strings intersect gives the appearance of Bézier curves (as in the mathematical concept of envelope of a family of straight lines). Quadratic Bézier curves are obtained from strings based on two intersecting segments. Other forms of string art include Spirelli, which is used for cardmaking and scrapbooking, and curve stitching, in which string is stitched through holes.\n\nString art has its origins in the 'curve stitch' activities invented by Mary Everest Boole at the end of the 19th century to make mathematical ideas more accessible to children. It was popularised as a decorative craft in the late 1960s through kits and books.\n\nA computational form of string art that can produce photo-realistic artwork was introduced by Petros Vrellis, in 2016.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f4f2f1",
+      "name": "paper white"
+    },
+    {
+      "hex": "#282322",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#d1b5b4",
+      "name": "silver"
+    },
+    {
+      "hex": "#e3cdc8",
+      "name": "bone white"
+    },
+    {
+      "hex": "#4c4543",
+      "name": "graphite"
+    },
+    {
+      "hex": "#ce9e8b",
+      "name": "khaki"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,75 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/f7/StringArt.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/en/f/f7/StringArt.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/en/f/f7/StringArt.jpg",
+      "pageUrl": "https://en.wikipedia.org/wiki/File:StringArt.jpg",
+      "caption": "An example of String art .",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "905",
+      "height": "801"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/String-art-star-design.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5f/String-art-star-design.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5f/String-art-star-design.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:String-art-star-design.jpg",
+      "caption": "String Art Star Design",
+      "source": "Wikimedia Commons",
+      "artist": "Soniya Goyal",
+      "date": "2015",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "750",
+      "height": "715"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Knit_1.jpg/1280px-Knit_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Knit_1.jpg/500px-Knit_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Knit_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Knit_1.jpg",
+      "caption": "Circular loom The loom is an 28’’ aluminum rim, with 200 anchor pegs on its circumference. Knitting pattern In contrast to conventional knitting, absolutely no knitting is done inside the area of the loom. Instead, the thread is knitted as straight lines across the anchor pegs on",
+      "source": "Wikimedia Commons",
+      "artist": "Pvrellis",
+      "date": "2017-06-07 18:38:46",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/E8-with-thread.jpg/1280px-E8-with-thread.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/E8-with-thread.jpg/500px-E8-with-thread.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/37/E8-with-thread.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:E8-with-thread.jpg",
+      "caption": "en:Root system of E8 made by hand with thread, based on the famous computer picture by en:John Stembridge .",
+      "source": "Wikimedia Commons",
+      "artist": "Jlrodri",
+      "date": "Taken on 10 October 2010",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1129"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/95533e79-adcf-ce20-8c99-e1ab0f32ae6b/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/95533e79-adcf-ce20-8c99-e1ab0f32ae6b/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/95533e79-adcf-ce20-8c99-e1ab0f32ae6b/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/109470",
+      "caption": "Female Figure with Bowl, Late 19th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Abogunde of Ede (active late 19th century)",
+      "date": "Late 19th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1589"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — String art",
@@ -64,7 +158,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q304435",
+      "url": "https://www.wikidata.org/wiki/Q304435",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:14.061Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — String art",
+      "url": "https://en.wikipedia.org/wiki/String_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:14.061Z"
+      }
+    }
+  ],
   "wikidata": "Q304435",
   "wikipedia": "String art",
   "popularity": 35,
@@ -72,5 +189,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:07:14.061Z"
 }

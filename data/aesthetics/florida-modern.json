@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5461746",
+      "url": "https://www.wikidata.org/wiki/Q5461746",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:25.065Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Florida modern",
+      "url": "https://en.wikipedia.org/wiki/Florida_modern",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:25.065Z"
+      }
+    }
+  ],
   "wikidata": "Q5461746",
   "wikipedia": "Florida modern",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:45:25.065Z"
 }

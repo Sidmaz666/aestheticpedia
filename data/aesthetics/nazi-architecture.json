@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "German Reich",
+  "geography": "German Reich",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -19,7 +19,33 @@
   "summary": "Nazi architecture is the architecture promoted by Adolf Hitler and the Nazi regime from 1933 until its fall in 1945, connected with urban planning in Nazi Germany.",
   "description": "Nazi architecture is the architecture promoted by Adolf Hitler and the Nazi regime from 1933 until its fall in 1945, connected with urban planning in Nazi Germany. It is characterized by three forms: a stripped neoclassicism, typified by the designs of Albert Speer; a vernacular style that drew inspiration from traditional rural architecture, especially alpine; and a utilitarian style followed for major infrastructure projects and industrial or military complexes. Nazi ideology took a pluralist attitude to architecture; however, Hitler himself believed that form follows function and wrote against \"stupid imitations of the past\".\n\nWhile similar to Classicism, the official Nazi style is distinguished by the impression it leaves on viewers. Architectural style was used by the Nazis to deliver and enforce their ideology. Formal elements like flat roofs, horizontal extension, uniformity, and the lack of décor created \"an impression of simplicity, uniformity, monumentality, solidity and eternity,\" which is how the Nazi Party wanted to appear. Greek and Roman influence could also be seen in Nazi architecture and typography, as they drew inspiration from monumental architecture of ancient Rome and Greece to create a sense of power. The Nazis also shut down the Bauhaus movement, which emphasized functionalism and simplicity. The Nazi regime also staged several \"Degenerate Art\" exhibitions to condemn modern art as harmful to German culture. This led to the persecution of many artists and architects, including members of the Bauhaus movement.\n\nThe Volkswagen was also a product of Nazi architecture and industrial design. Hitler commissioned Ferdinand Porsche to design a \"people's car\" that was supposed to be affordable and accessible to all Germans, which resulted in the creation of the Volkswagen Beetle. Adlerhorst bunker complex looked like a collection of Fachwerk (half-timbered) cottages. Seven buildings in the style of Franconian half-timbered houses were constructed in Nuremberg in 1939 and 1940. German Jewish architects were banned, e.g. Erich Mendelsohn and Julius Posener emigrated in 1933.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#75706c",
+      "name": "slate"
+    },
+    {
+      "hex": "#989089",
+      "name": "stone"
+    },
+    {
+      "hex": "#4d514c",
+      "name": "graphite"
+    },
+    {
+      "hex": "#bbb1a8",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#b5d2de",
+      "name": "silver"
+    },
+    {
+      "hex": "#122f65",
+      "name": "prussian blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,132 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Bundesarchiv_Bild_146III-373%2C_Modell_der_Neugestaltung_Berlins_%28%22Germania%22%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/40/Bundesarchiv_Bild_146III-373%2C_Modell_der_Neugestaltung_Berlins_%28%22Germania%22%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/40/Bundesarchiv_Bild_146III-373%2C_Modell_der_Neugestaltung_Berlins_%28%22Germania%22%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146III-373,_Modell_der_Neugestaltung_Berlins_(%22Germania%22).jpg",
+      "caption": "Modell der Neugestaltung Berlins (\"Germania\")",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1939 date QS:P571,+1939-00-00T00:00:00Z/9",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "width": "608",
+      "height": "800"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Berlin_Finanzministerium_Wilhelmstr_asv2019-07.jpg/1280px-Berlin_Finanzministerium_Wilhelmstr_asv2019-07.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Berlin_Finanzministerium_Wilhelmstr_asv2019-07.jpg/500px-Berlin_Finanzministerium_Wilhelmstr_asv2019-07.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/67/Berlin_Finanzministerium_Wilhelmstr_asv2019-07.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Berlin_Finanzministerium_Wilhelmstr_asv2019-07.jpg",
+      "caption": "Building of German Finance Ministry in Berlin, Germany",
+      "source": "Wikimedia Commons",
+      "artist": "A.Savin",
+      "date": "2019-07-18",
+      "license": "FAL",
+      "licenseUrl": "http://artlibre.org/licence/lal/en",
+      "width": "1280",
+      "height": "640"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Urzad_Wojewodzki_%28cropped%29.jpg/1280px-Urzad_Wojewodzki_%28cropped%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Urzad_Wojewodzki_%28cropped%29.jpg/500px-Urzad_Wojewodzki_%28cropped%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Urzad_Wojewodzki_%28cropped%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Urzad_Wojewodzki_(cropped).jpg",
+      "caption": "Lower Silesian Voivodeship Office in Wrocław , Poland. Former Regierungspräsidium of Breslau , it was inspired by the Nazi Neue Reichskanzlei in Berlin.",
+      "source": "Wikimedia Commons",
+      "artist": "Jaroslaw Ciurus",
+      "date": "2016-03-25 05:26:49",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "741"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Haus_der_Kunst_-_Munich_-_2013.jpg/1280px-Haus_der_Kunst_-_Munich_-_2013.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Haus_der_Kunst_-_Munich_-_2013.jpg/500px-Haus_der_Kunst_-_Munich_-_2013.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Haus_der_Kunst_-_Munich_-_2013.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Haus_der_Kunst_-_Munich_-_2013.jpg",
+      "caption": "Haus der Kunst - Munich - 2013",
+      "source": "Wikimedia Commons",
+      "artist": "Avda",
+      "date": "2013-04-25 19:25:35",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "543"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bundesarchiv_Bild_146-1986-029-02%2C_%22Germania%22%2C_Modell_%22Gro%C3%9Fe_Halle%22.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bundesarchiv_Bild_146-1986-029-02%2C_%22Germania%22%2C_Modell_%22Gro%C3%9Fe_Halle%22.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bundesarchiv_Bild_146-1986-029-02%2C_%22Germania%22%2C_Modell_%22Gro%C3%9Fe_Halle%22.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1986-029-02,_%22Germania%22,_Modell_%22Gro%C3%9Fe_Halle%22.jpg",
+      "caption": "\"Germania\", Modell \"Große Halle\"",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1939 date QS:P571,+1939-00-00T00:00:00Z/9",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "width": "800",
+      "height": "494"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/KZ_Mauthausen_Eingangstor_Appellplatz_Sep_2020_4.jpg/1280px-KZ_Mauthausen_Eingangstor_Appellplatz_Sep_2020_4.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/KZ_Mauthausen_Eingangstor_Appellplatz_Sep_2020_4.jpg/500px-KZ_Mauthausen_Eingangstor_Appellplatz_Sep_2020_4.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f1/KZ_Mauthausen_Eingangstor_Appellplatz_Sep_2020_4.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:KZ_Mauthausen_Eingangstor_Appellplatz_Sep_2020_4.jpg",
+      "caption": "Eingangstor zum Appellplatz und Gefangenenbaracken im KZ Mauthausen, Sept. 2020",
+      "source": "Wikimedia Commons",
+      "artist": "Kasa Fue",
+      "date": "2020-09-06 14:40:04",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "821"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Haus_des_Meeres_-_panoramio_%287%29.jpg/1280px-Haus_des_Meeres_-_panoramio_%287%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Haus_des_Meeres_-_panoramio_%287%29.jpg/500px-Haus_des_Meeres_-_panoramio_%287%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Haus_des_Meeres_-_panoramio_%287%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Haus_des_Meeres_-_panoramio_(7).jpg",
+      "caption": "Haus des Meeres",
+      "source": "Wikimedia Commons",
+      "artist": "Lajos Gál",
+      "date": "Taken on 14 August 2015",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Bundesarchiv_Bild_146-1987-003-09A%2C_Berlin%2C_Neue_Reichskanzlei%2C_Innenhof.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/98/Bundesarchiv_Bild_146-1987-003-09A%2C_Berlin%2C_Neue_Reichskanzlei%2C_Innenhof.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/Bundesarchiv_Bild_146-1987-003-09A%2C_Berlin%2C_Neue_Reichskanzlei%2C_Innenhof.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1987-003-09A,_Berlin,_Neue_Reichskanzlei,_Innenhof.jpg",
+      "caption": "For documentary purposes the German Federal Archive often retained the original image captions , which may be erroneous, biased, obsolete or politically extreme . Neue Reichskanzlei Der Innenhof der Reichskanzlei in Berlin",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "September 1940 date QS:P571,+1940-09-00T00:00:00Z/10",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "width": "800",
+      "height": "561"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Wroclaw_Urzad_Wojewodzki.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/41/Wroclaw_Urzad_Wojewodzki.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/Wroclaw_Urzad_Wojewodzki.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Wroclaw_Urzad_Wojewodzki.jpg",
+      "caption": "The seat building of the Lower-Silesia Voivodship authorities in Wrocław",
+      "source": "Wikimedia Commons",
+      "artist": "Julo",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "728"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Nazi architecture",
@@ -64,7 +215,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q287025",
+      "url": "https://www.wikidata.org/wiki/Q287025",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:23.693Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Nazi architecture",
+      "url": "https://en.wikipedia.org/wiki/Nazi_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:23.693Z"
+      }
+    }
+  ],
   "wikidata": "Q287025",
   "wikipedia": "Nazi architecture",
   "popularity": 35,
@@ -72,5 +246,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.394Z"
 }

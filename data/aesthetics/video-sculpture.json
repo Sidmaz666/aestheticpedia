@@ -39,7 +39,22 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/70f69d6a-2cac-0e55-9913-7027ca19f5cb/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/70f69d6a-2cac-0e55-9913-7027ca19f5cb/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/70f69d6a-2cac-0e55-9913-7027ca19f5cb/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/11143",
+      "caption": "The Fear of Love, 1742",
+      "source": "Art Institute of Chicago",
+      "artist": "Jean Louis Lemoyne (French, 1665–1755)",
+      "date": "1742",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1375"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Video sculpture",
@@ -62,7 +77,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7927987",
+      "url": "https://www.wikidata.org/wiki/Q7927987",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:02.657Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Video sculpture",
+      "url": "https://en.wikipedia.org/wiki/Video_sculpture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:02.657Z"
+      }
+    }
+  ],
   "wikidata": "Q7927987",
   "wikipedia": "Video sculpture",
   "popularity": 35,
@@ -70,5 +108,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:11:02.657Z"
 }

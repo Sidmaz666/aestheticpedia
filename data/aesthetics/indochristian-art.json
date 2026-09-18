@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Mexico",
+  "geography": "Mexico",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -39,7 +39,35 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Malinalco_Hallway.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/69/Malinalco_Hallway.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/69/Malinalco_Hallway.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Malinalco_Hallway.jpg",
+      "caption": "Malinalco, MX",
+      "source": "Wikimedia Commons",
+      "artist": "Karen Apricot",
+      "date": "2012-12-17 17:29:12",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "768",
+      "height": "1024"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Sor_Mar%C3%ADa_Juana_de_Se%C3%B1or_San_Rafael_y_Mart%C3%ADnez.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/57/Sor_Mar%C3%ADa_Juana_de_Se%C3%B1or_San_Rafael_y_Mart%C3%ADnez.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/57/Sor_Mar%C3%ADa_Juana_de_Se%C3%B1or_San_Rafael_y_Mart%C3%ADnez.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sor_Mar%C3%ADa_Juana_de_Se%C3%B1or_San_Rafael_y_Mart%C3%ADnez.jpg",
+      "caption": "Sor María Juana de Señor San Rafael y Martínez",
+      "source": "Wikimedia Commons",
+      "artist": "anonymous",
+      "date": "1810 date QS:P571,+1810-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "481",
+      "height": "633"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Indochristian art",
@@ -62,7 +90,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6025696",
+      "url": "https://www.wikidata.org/wiki/Q6025696",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:08.937Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Indochristian art",
+      "url": "https://en.wikipedia.org/wiki/Indochristian_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:08.937Z"
+      }
+    }
+  ],
   "wikidata": "Q6025696",
   "wikipedia": "Indochristian art",
   "popularity": 35,
@@ -70,5 +121,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.862Z"
 }

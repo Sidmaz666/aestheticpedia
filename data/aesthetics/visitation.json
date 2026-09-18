@@ -17,7 +17,33 @@
   "summary": "Visitation is a 1503 woodcut by the German Renaissance artist Albrecht Dürer, from his series on the Life of the Virgin.",
   "description": "Visitation is a 1503 woodcut by the German Renaissance artist Albrecht Dürer, from his series on the Life of the Virgin. It depicts the Visitation, an episode in the Gospel of Luke,  Luke 1:39–56 when Mary, heavily pregnant, travels to see her much older cousin Elisabeth, who is now also late with child.\n\nThe women embrace at the house of Elisabeth's husband Zacharias, who is shown standing at the doorway to the left of the woodcut. Both Zacharias and his wife are old; he is struck into silence by the fact of his long barren wife having finally conceived a child.\n\nThe highly detailed landscape shown in the background is likely inspired by the artist's two journeys through the Alps during 1494–95.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1a1710",
+      "name": "black"
+    },
+    {
+      "hex": "#aca59a",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#c6beb2",
+      "name": "silver"
+    },
+    {
+      "hex": "#90887e",
+      "name": "stone"
+    },
+    {
+      "hex": "#726b61",
+      "name": "bronze"
+    },
+    {
+      "hex": "#dfd8cb",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,49 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/The_Visitation%2C_from_The_Life_of_the_Virgin_MET_DP816275.jpg/1280px-The_Visitation%2C_from_The_Life_of_the_Virgin_MET_DP816275.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/The_Visitation%2C_from_The_Life_of_the_Virgin_MET_DP816275.jpg/500px-The_Visitation%2C_from_The_Life_of_the_Virgin_MET_DP816275.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/35/The_Visitation%2C_from_The_Life_of_the_Virgin_MET_DP816275.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Visitation,_from_The_Life_of_the_Virgin_MET_DP816275.jpg",
+      "caption": "Print; Prints",
+      "source": "Wikimedia Commons",
+      "artist": "Albrecht Dürer",
+      "date": "1503–4",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1816"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/D%C3%BCrer_Alte_Pinakothek.jpg/1280px-D%C3%BCrer_Alte_Pinakothek.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/D%C3%BCrer_Alte_Pinakothek.jpg/500px-D%C3%BCrer_Alte_Pinakothek.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/40/D%C3%BCrer_Alte_Pinakothek.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:D%C3%BCrer_Alte_Pinakothek.jpg",
+      "caption": "Frontal portrait with idealization comparable to depictions of Christ; emphasized gaze and the creative hand as tools of the artist",
+      "source": "Wikimedia Commons",
+      "artist": "Albrecht Dürer",
+      "date": "1500",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1805"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/cfab75a4-0c96-7687-21c8-71e56c07cbc1/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/cfab75a4-0c96-7687-21c8-71e56c07cbc1/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/cfab75a4-0c96-7687-21c8-71e56c07cbc1/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/80785",
+      "caption": "The Visitation of St. Elizabeth, from The Life of the Virgin, n.d.",
+      "source": "Art Institute of Chicago",
+      "artist": "Jacques Callot",
+      "date": "n.d.",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1251"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Visitation (Dürer)",
@@ -62,7 +130,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7936304",
+      "url": "https://www.wikidata.org/wiki/Q7936304",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:06.567Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Visitation (Dürer)",
+      "url": "https://en.wikipedia.org/wiki/Visitation_(D%C3%BCrer)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:06.567Z"
+      }
+    }
+  ],
   "wikidata": "Q7936304",
   "wikipedia": "Visitation (Dürer)",
   "popularity": 35,
@@ -70,5 +161,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:11:06.567Z"
 }

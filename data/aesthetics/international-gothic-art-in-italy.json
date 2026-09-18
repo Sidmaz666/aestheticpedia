@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Italy",
+  "geography": "Italy",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "International Gothic (or Late Gothic) art is a style of figurative art datable between about 1370 and, in Italy, the first half of the 15th century.",
   "description": "International Gothic (or Late Gothic) art is a style of figurative art datable between about 1370 and, in Italy, the first half of the 15th century.\n\nAs the name emphasizes, this stylistic phase had an international scope, with common features as well as many local variables. The style did not spread from a center of irradiation, as had been the case, for example, with Gothic art and the Île-de-France, but was rather the result of a dialogue between European courts, fostered by the numerous mutual exchanges. Among these courts, the papal court played a prominent role, particularly the Avignon court, a true center of gathering and exchange for artists from all over the continent.\n\nItaly, politically divided, was traversed by artists who spread this style, moving constantly (especially Pisanello, Michelino da Besozzo and Gentile da Fabriano) and also generating numerous regional variations. The \"international\" Gothic style meant the rejuvenation of the Gothic tradition (still linked at the end of the 14th century to the style of Giotto), but only some areas offered original and \"leading\" contributions to the European scene, while others only partially and more superficially acquired individual stylistic features. Prominent among the areas were Lombardy and, to varying degrees, Venice and Verona. In Florence International Gothic art came into early competition with the nascent Renaissance style, but it nevertheless met with favor among the rich and cultured clientele, both religious and private.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#9c794a",
+      "name": "bronze"
+    },
+    {
+      "hex": "#aca8a3",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#5a442e",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#97877f",
+      "name": "stone"
+    },
+    {
+      "hex": "#c9c7be",
+      "name": "silver"
+    },
+    {
+      "hex": "#bd9e6a",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,145 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Gentile_da_fabriano%2C_adorazione_dei_magi.jpg/1280px-Gentile_da_fabriano%2C_adorazione_dei_magi.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Gentile_da_fabriano%2C_adorazione_dei_magi.jpg/500px-Gentile_da_fabriano%2C_adorazione_dei_magi.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Gentile_da_fabriano%2C_adorazione_dei_magi.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gentile_da_fabriano,_adorazione_dei_magi.jpg",
+      "caption": "adoration of the Magi",
+      "source": "Wikimedia Commons",
+      "artist": "Gentile da Fabriano",
+      "date": "1423 date QS:P571,+1423-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "810"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/864MilanoDuomo.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/39/864MilanoDuomo.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/39/864MilanoDuomo.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:864MilanoDuomo.JPG",
+      "caption": "Milano - Abside del Duomo",
+      "source": "Wikimedia Commons",
+      "artist": "MarkusMark",
+      "date": "2009-02",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "525",
+      "height": "700"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Santa_Maria_dei_Ghirli_-_Last_Judgement_by_Franco_e_Filippolo_de_Veris%2C_Campione_d%27Italia_02.jpg/1280px-Santa_Maria_dei_Ghirli_-_Last_Judgement_by_Franco_e_Filippolo_de_Veris%2C_Campione_d%27Italia_02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Santa_Maria_dei_Ghirli_-_Last_Judgement_by_Franco_e_Filippolo_de_Veris%2C_Campione_d%27Italia_02.jpg/500px-Santa_Maria_dei_Ghirli_-_Last_Judgement_by_Franco_e_Filippolo_de_Veris%2C_Campione_d%27Italia_02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/06/Santa_Maria_dei_Ghirli_-_Last_Judgement_by_Franco_e_Filippolo_de_Veris%2C_Campione_d%27Italia_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Santa_Maria_dei_Ghirli_-_Last_Judgement_by_Franco_e_Filippolo_de_Veris,_Campione_d%27Italia_02.jpg",
+      "caption": "Santa Maria dei Ghirli - Last Judgement by Franco e Filippolo de Veris, Campione d'Italia",
+      "source": "Wikimedia Commons",
+      "artist": "Carlo Dell'Orto",
+      "date": "2022-04-10 11:17:48",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Fratelli_zavattari%2C_banchetto_di_nozze%2C_cappella_di_teodolinda%2C_duomo_di_monza%2C_1444.jpg/1280px-Fratelli_zavattari%2C_banchetto_di_nozze%2C_cappella_di_teodolinda%2C_duomo_di_monza%2C_1444.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Fratelli_zavattari%2C_banchetto_di_nozze%2C_cappella_di_teodolinda%2C_duomo_di_monza%2C_1444.jpg/500px-Fratelli_zavattari%2C_banchetto_di_nozze%2C_cappella_di_teodolinda%2C_duomo_di_monza%2C_1444.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Fratelli_zavattari%2C_banchetto_di_nozze%2C_cappella_di_teodolinda%2C_duomo_di_monza%2C_1444.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fratelli_zavattari,_banchetto_di_nozze,_cappella_di_teodolinda,_duomo_di_monza,_1444.jpg",
+      "caption": "Fratelli zavattari, banchetto di nozze, cappella di teodolinda, duomo di monza, 1444",
+      "source": "Wikimedia Commons",
+      "artist": "see filename or category",
+      "date": "1444",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1303"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Visconti_erb.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/74/Visconti_erb.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/74/Visconti_erb.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Visconti_erb.jpg",
+      "caption": "Coats of arms of the House of Visconti",
+      "source": "Wikimedia Commons",
+      "artist": "Michelino da Besozzo",
+      "date": "1403",
+      "license": "Public domain",
+      "width": "719",
+      "height": "345"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Castello_Visconteo_12.JPG/1280px-Castello_Visconteo_12.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Castello_Visconteo_12.JPG/500px-Castello_Visconteo_12.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/71/Castello_Visconteo_12.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Castello_Visconteo_12.JPG",
+      "caption": "This is a photo of a monument which is part of cultural heritage of Italy . This monument participates in the contest Wiki Loves Monuments Italia . See authorisations . (wiki-ID: 01811067 )",
+      "source": "Wikimedia Commons",
+      "artist": "Paperkat",
+      "date": "2012-09-14 15:19:08",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "848"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Certosa_nawa.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Certosa_nawa.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Certosa_nawa.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Certosa_nawa.jpg",
+      "caption": "Certosa - Nawa kościoła",
+      "source": "Wikimedia Commons",
+      "artist": "Danielkwiat",
+      "date": "2008-04-09",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1134",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Venezia_-_Panorama_011%2C_Palazzo_ducale.jpg/1280px-Venezia_-_Panorama_011%2C_Palazzo_ducale.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Venezia_-_Panorama_011%2C_Palazzo_ducale.jpg/500px-Venezia_-_Panorama_011%2C_Palazzo_ducale.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/23/Venezia_-_Panorama_011%2C_Palazzo_ducale.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Venezia_-_Panorama_011,_Palazzo_ducale.jpg",
+      "caption": "Veduta di Palazzo Ducale a Venezia",
+      "source": "Wikimedia Commons",
+      "artist": "Luca Aless",
+      "date": "2016-06-17 08:15:12",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/C%C3%A0_Foscari_and_Giustinian_palaces_from_San_Toma%27.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b4/C%C3%A0_Foscari_and_Giustinian_palaces_from_San_Toma%27.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b4/C%C3%A0_Foscari_and_Giustinian_palaces_from_San_Toma%27.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:C%C3%A0_Foscari_and_Giustinian_palaces_from_San_Toma%27.JPG",
+      "caption": "Cà Foscari (right) and Giustinian palaces in Venice shot from \"San Toma'\" landing station for water buses",
+      "source": "Wikimedia Commons",
+      "artist": "Stefano Remo",
+      "date": "0008-01-27",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "640",
+      "height": "480"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Palazzo_Bernardo_%28Venice%29.jpg/1280px-Palazzo_Bernardo_%28Venice%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Palazzo_Bernardo_%28Venice%29.jpg/500px-Palazzo_Bernardo_%28Venice%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Palazzo_Bernardo_%28Venice%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Palazzo_Bernardo_(Venice).jpg",
+      "caption": "Palazzo Bernardo Venice . Façade on Grand Canal.",
+      "source": "Wikimedia Commons",
+      "artist": "Didier Descouens",
+      "date": "Taken on 7 May 2012",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "997"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — International Gothic art in Italy",
@@ -62,7 +226,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3773652",
+      "url": "https://www.wikidata.org/wiki/Q3773652",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:13.036Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — International Gothic art in Italy",
+      "url": "https://en.wikipedia.org/wiki/International_Gothic_art_in_Italy",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:13.036Z"
+      }
+    }
+  ],
   "wikidata": "Q3773652",
   "wikipedia": "International Gothic art in Italy",
   "popularity": 35,
@@ -70,5 +257,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.853Z"
 }

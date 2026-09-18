@@ -17,7 +17,33 @@
   "summary": "Kushi (櫛, \"Comb\", c. 1795–96) is a title given to a print by the Japanese ukiyo-e artist Kitagawa Utamaro.",
   "description": "Kushi (櫛, \"Comb\", c. 1795–96) is a title given to a print by the Japanese ukiyo-e artist Kitagawa Utamaro.  It depicts a woman looking through a clear glass comb.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#ecd69f",
+      "name": "cream"
+    },
+    {
+      "hex": "#d2b079",
+      "name": "sand"
+    },
+    {
+      "hex": "#c58a66",
+      "name": "camel"
+    },
+    {
+      "hex": "#100f0c",
+      "name": "black"
+    },
+    {
+      "hex": "#9a7a69",
+      "name": "taupe"
+    },
+    {
+      "hex": "#705a47",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Flickr_-_%E2%80%A6trialsanderrors_-_Utamaro%2C_Kushi_%28Comb%29%2C_ca._1785.jpg/1280px-Flickr_-_%E2%80%A6trialsanderrors_-_Utamaro%2C_Kushi_%28Comb%29%2C_ca._1785.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Flickr_-_%E2%80%A6trialsanderrors_-_Utamaro%2C_Kushi_%28Comb%29%2C_ca._1785.jpg/500px-Flickr_-_%E2%80%A6trialsanderrors_-_Utamaro%2C_Kushi_%28Comb%29%2C_ca._1785.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Flickr_-_%E2%80%A6trialsanderrors_-_Utamaro%2C_Kushi_%28Comb%29%2C_ca._1785.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_%E2%80%A6trialsanderrors_-_Utamaro,_Kushi_(Comb),_ca._1785.jpg",
+      "caption": "A woodcut entitled Kushi (translated: Comb).",
+      "source": "Wikimedia Commons",
+      "artist": "Kitagawa Utamaro",
+      "date": "Original: between 1780 and 1789 date QS:P,+1780-00-00T00:00:",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1976"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Utamaro_%28c._1802%E2%80%9303%29_Giyaman_Oshima.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/25/Utamaro_%28c._1802%E2%80%9303%29_Giyaman_Oshima.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/25/Utamaro_%28c._1802%E2%80%9303%29_Giyaman_Oshima.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Utamaro_(c._1802%E2%80%9303)_Giyaman_Oshima.jpg",
+      "caption": "Ukiyo-e painting of a woman looking through a clear comb",
+      "source": "Wikimedia Commons",
+      "artist": "Kitagawa Utamaro",
+      "date": "c. 1802–03",
+      "license": "Public domain",
+      "width": "480",
+      "height": "378"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Kushi (Utamaro)",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q30599215",
+      "url": "https://www.wikidata.org/wiki/Q30599215",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:16.630Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Kushi (Utamaro)",
+      "url": "https://en.wikipedia.org/wiki/Kushi_(Utamaro)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:16.630Z"
+      }
+    }
+  ],
   "wikidata": "Q30599215",
   "wikipedia": "Kushi (Utamaro)",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:52:16.630Z"
 }

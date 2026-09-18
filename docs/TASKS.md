@@ -2,58 +2,45 @@
 
 A running log of what has been done and what is next. Newest first. Keep entries factual (numbers, files).
 
-## Status snapshot
+## Status snapshot (2026-09-18)
 
 | Metric | Value |
 |---|---|
-| Records | 1,133 curated + Wikidata import (see `public/data/manifest.json` for live counts) |
-| Records with images | 994 of the original 1,133 (from 128 before 2026-09-18) |
-| Images | 8,036 freely licensed, each with artist/license/source page |
-| Linked to Wikidata | 859 of the original 1,133 |
-| Relations | 3,115 (+ Wikidata-derived) |
+| Records | 3,765 (1,127 curated · 1,805 Wikidata/Wikipedia · 833 Aesthetics Wiki); 2,574 with images, 3,084 with palettes; live counts in `public/data/manifest.json` |
+| Images | 10,000+ freely licensed, all with artist/license/source page; 8,036 original URLs link-checked (100% OK) |
+| Material/texture photos | 1,764 terms with real photos (`data/materials.json`) |
+| Relations | 8,500+ (curated + Wikidata P737/P279/P155 + Aesthetics Wiki "related") |
+| Tests | 56 unit (Vitest) · 24 e2e (Playwright, desktop + mobile) — all passing |
 
-## 2026-09-18 — Platform rebuild
+## 2026-09-18 — Round 2: scale, visuals, AI, deployment
 
-**Data layer**
-- [x] Replaced Prisma/SQLite with files: one JSON per aesthetic in `data/aesthetics/`, relations in `data/relations.json`.
-- [x] `scripts/data/build.ts`: zod validation → JSON, NDJSON, CSV, Parquet, DuckDB + manifest (SHA-256) in `public/data/`.
-- [x] Runtime queries through an in-memory DuckDB over Parquet (`src/lib/store.ts`, `src/lib/queries.ts`).
-- [x] Normaliser fixes: `{h,n}` palettes → `{hex,name}` (31 records), malformed URLs, 21 inverted year ranges ("present" parsed as a year), BCE starts.
-- [x] Validator (`validate.ts`) with strict contribution bar and generated JSON Schema (`data/schema.json`).
+- [x] Site identity from environment (`src/lib/site.ts`, `.env.example`): URL (defaults to Vercel URL), name, tagline, description, repo. No hard-coded domains.
+- [x] Link cleanup: 1,167 dead links and ~5,700 generic search-engine links removed; dead source URLs stripped (citation kept).
+- [x] Wikipedia mismatches corrected via `data/wikipedia-overrides.json` (e.g. Anthropophagy → Anthropophagic movement).
+- [x] Maps/diagrams filtered out of galleries (multilingual: map, Karte, Verbreitung, carte…).
+- [x] Import from Wikidata: art movements/styles, architectural styles, fashion styles, subcultures, painting techniques, textile processes, art genres, pottery styles, gardens, traditional costume, ornament — specific classes first; literary/music/film/game genres and non-visual movements excluded; 76 non-aesthetics pruned by review; homonyms disambiguated; 6 duplicates merged.
+- [x] Import from the Aesthetics Wiki (CC BY-SA): 833 internet/community aesthetics with motifs, values, colour names, related aesthetics; wiki images not used (licensing unclear).
+- [x] Real material/texture photos (replacing procedural swatches); Commons audio + "Listen" section (69 records).
+- [x] Images for 1,588 newly imported records; 1,434 palettes derived from images; origins for 578 and periods for 58 more records from Wikidata (P495/P17/P276/P2348).
+- [x] 222 placeholder style/mood profiles (all values 50) removed; Discover ranks only assessed records.
+- [x] Data page charts: category treemap, century histogram, origins, record types, image licences.
+- [x] Visualisations: Connections network (canvas, d3-force), Colour atlas (+ search by colour API), lineage tree and connection map per record.
+- [x] Motion: GSAP reveals/counters/split headlines; registered CSS colour properties animate theme changes; radius and body font follow the aesthetic.
+- [x] On-device AI: WebLLM assistant (Web Worker, retrieval tools: search, current record, colour, blend) and Janus-Pro 1B image generation; opt-in downloads with progress toasts; outputs labelled.
+- [x] Tests: data integrity, WCAG theme contrast for every palette, exports, queries, MCP, hygiene (control characters); Playwright e2e for pages, overlay close button, API, MCP, AI files, mobile overflow.
+- [x] Git: history authored by sidmaz666; pushed to GitHub. CI workflow parked in `docs/ci/ci.yml` (token lacks `workflow` scope).
 
-**Images & links**
-- [x] Removed 766 dead sandbox-CDN image URLs (`z-cdn.chatglm.cn`).
-- [x] `images.ts`: Wikipedia article matching → article images in reading order → Wikidata Commons category → Art Institute of Chicago public domain. Non-free/icon/map files excluded. 994 records illustrated, 8,036 images.
-- [x] Thumbnails use Wikimedia standard sizes (500/1280px — 480px is rejected by Wikimedia).
-- [x] `check-links.ts`: Wikipedia titles verified via API (catches invented titles), other URLs probed; failures hidden in the UI. Report in `public/data/validation.json`.
-- [x] `palette.ts`: palettes derived from images for records without curated colours (`paletteSource: "derived"`).
+## 2026-09-18 — Round 1: platform rebuild
 
-**Collection**
-- [x] `import-wikidata.ts`: art movements, art styles, architectural styles, fashion styles, subcultures, internet aesthetics, painting techniques, textile processes with English Wikipedia articles; de-duplicated against existing names/aliases/titles/QIDs; Wikidata relations (P737, P279, P155).
-
-**API & AI access**
-- [x] `/api/v1` REST (list/search/detail/discover/blend/compare/timeline/categories/stats/formats), CORS, OpenAPI 3.1.
-- [x] 16 per-record export formats (`src/lib/formats.ts`).
-- [x] MCP server `/api/mcp` (tools, resources, prompts, completion) + `/.well-known/mcp.json`.
-- [x] `/llms.txt`, `/llms-full.txt`, sitemap, robots, JSON-LD.
-
-**Frontend**
-- [x] Next.js 16.3 / React 19.3 / Tailwind 4; removed ~40 unused shadcn components and 60+ unused packages; npm only.
-- [x] New design system (dark "vault" / light "paper"); aesthetic pages re-theme the whole site from their palette (WCAG-checked) and load their typefaces.
-- [x] Full-screen record overlay via intercepted routes, with a round, high-contrast close button (Esc/back).
-- [x] Pages: home, browse (URL-synced filters, infinite scroll), record, timeline (era chart, no scrollbars), discover, blend, data & API, about/terminology.
-- [x] Terminology: Stub / Documented / Reviewed / Needs review; Evidence ratings; "Type" instead of "establishment"; "Data & API" replaces the dashboard.
-
-**Project**
-- [x] README, CONTRIBUTING, ARCHITECTURE, this record; CI (validate + build + typecheck + lint); issue/PR templates.
-- [x] Removed sandbox leftovers (`.zscripts`, `mini-services`, agent logs, tool dumps, old research pipeline — all recoverable from git history).
+- [x] Prisma/SQLite → one JSON file per aesthetic + DuckDB over Parquet; JSON/NDJSON/CSV/Parquet/DuckDB downloads.
+- [x] Images resolved from Wikipedia/Commons/AIC (994 records, 8,036 images) replacing dead sandbox-CDN URLs.
+- [x] `/api/v1` REST + 16 export formats + OpenAPI; MCP server; llms.txt, sitemap, JSON-LD.
+- [x] Redesign (Next.js 16, React 19, Tailwind 4): full-screen record overlay with round close button, per-aesthetic theming, timeline without scrollbars, Data & API page replacing the dashboard, new terminology.
+- [x] npm + Node only; unused dependencies and sandbox leftovers removed.
 
 ## Next
 
-- [ ] Review Wikipedia matches marked `related` and search-based matches for mismatched imagery (e.g. a plant photo on a weaving record).
-- [ ] Illustrate the remaining records without images (Commons search by native-language names; more museum APIs: Met, Rijksmuseum, Smithsonian Open Access).
-- [ ] Write visual grammar, typography and style profiles for imported Stubs (editorial work — do not auto-generate).
-- [ ] Import from more Wikidata classes (craft techniques, costume, garden styles, typefaces/lettering traditions, ornament).
-- [ ] Multilingual names (Wikidata labels) and non-English Wikipedia fallbacks for regional traditions.
-- [ ] Scheduled CI job running `data:links` weekly.
-- [ ] Choose a production domain and set `NEXT_PUBLIC_SITE_URL`.
+- [ ] Editorial depth for imported Stubs: visual grammar, typography, style profiles (by contributors — never auto-generated).
+- [ ] More image sources for records still without images (Met, Rijksmuseum, Smithsonian Open Access, Europeana).
+- [ ] Multilingual names from Wikidata labels; non-English Wikipedia fallbacks for regional traditions.
+- [ ] Scheduled link checks in CI once the workflow is enabled.

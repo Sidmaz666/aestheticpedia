@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7338891",
+      "url": "https://www.wikidata.org/wiki/Q7338891",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:05.893Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Rivington School",
+      "url": "https://en.wikipedia.org/wiki/Rivington_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:05.893Z"
+      }
+    }
+  ],
   "wikidata": "Q7338891",
   "wikipedia": "Rivington School",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:03:05.893Z"
 }

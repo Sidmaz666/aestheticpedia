@@ -9,15 +9,41 @@
   "confidence": 60,
   "origin": "",
   "geography": "",
-  "periodStart": "",
+  "periodStart": "classical antiquity",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": -1198,
   "endYear": null,
-  "era": "",
+  "era": "1198 BCE",
   "summary": "Group E (or  E Group) was a group of Attic vase painters of the black-figure style.",
   "description": "Group E (or  E Group) was a group of Attic vase painters of the black-figure style. They were active between 560 and 540 BC.\n\nGroup E – the E stands for Exekias is stylistically quite homogeneous. It is the fertile ground from which the art of Exekias grew. Chronologically, the group is somewhat earlier than most of Exekias' work. Although most Group E vases were painted by the same painter, several artists belonged to it. Group E is considered the most significant anonymous group of Attic vase painters, because it created high-quality works on the one hand, and on the other abandoned the artistic tradition established by Lydos and associated painters, exploring new avenues of expression.\n\nThe main vase shape painted by the group E artists was the belly amphora of type A. Older shapes were abandoned totally (e.g. ovoid neck amphorae) or mostly (e.g. column kraters). The group painted nearly no small vessel types. It introduced a neck amphora with ornamented handles. Before he became visibly active as a painter in his own right, Exekias potted two of the surviving vessels painted by the group. They are the only E group vessels to bear a potter's signature.\n\nThe drawings by the group lack the monumentality of earlier work by Lydos or later vases by Exekias. The animal frieze had been abandoned completely. In terms of content, the same themes occurred repeatedly: Herakles with the Nemean Lion or with Geryon, Theseus with the Minotaur. The E group style became increasingly dominant during the second half of the 6th century BC.\n\nAnother important innovations were the Kalos inscriptions, first introduced by the E Group. The first Ephebe thus honoured was a certain Stesias.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#443730",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#684d40",
+      "name": "umber"
+    },
+    {
+      "hex": "#aa6738",
+      "name": "copper"
+    },
+    {
+      "hex": "#23201c",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#c48259",
+      "name": "raw sienna"
+    },
+    {
+      "hex": "#726766",
+      "name": "umber 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Amphora_birth_Athena_Louvre_F32.jpg/1280px-Amphora_birth_Athena_Louvre_F32.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Amphora_birth_Athena_Louvre_F32.jpg/500px-Amphora_birth_Athena_Louvre_F32.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/42/Amphora_birth_Athena_Louvre_F32.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Amphora_birth_Athena_Louvre_F32.jpg",
+      "caption": "Athena is \"born\" from Zeus's forehead as a result of him having swallowed her mother Metis, as he grasps the clothing of Aphrodite on the right; black-figured amphora, 550–525 BC. Louvre, Paris",
+      "source": "Wikimedia Commons",
+      "artist": "User:Bibi Saint-Pol",
+      "date": "6 June 2007",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1149"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Heracles_Geryon_Louvre_F55.jpg/1280px-Heracles_Geryon_Louvre_F55.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Heracles_Geryon_Louvre_F55.jpg/500px-Heracles_Geryon_Louvre_F55.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/82/Heracles_Geryon_Louvre_F55.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Heracles_Geryon_Louvre_F55.jpg",
+      "caption": "Herakles fighting Geryon (dying Eurytion on the ground). Side A from an Attic black-figure amphora.",
+      "source": "Wikimedia Commons",
+      "artist": "E Group",
+      "date": "circa 540 BC",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1065"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Group E (vase painting)",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q161776",
+      "url": "https://www.wikidata.org/wiki/Q161776",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:03.870Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Group E (vase painting)",
+      "url": "https://en.wikipedia.org/wiki/Group_E_(vase_painting)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:03.870Z"
+      }
+    }
+  ],
   "wikidata": "Q161776",
   "wikipedia": "Group E (vase painting)",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.837Z"
 }

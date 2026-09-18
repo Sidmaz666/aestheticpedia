@@ -19,7 +19,33 @@
   "summary": "Kibitsu-zukuri (吉備津造), kibi-zukuri (吉備造) or hiyoku irimoya-zukuri (入母屋造; paired wing hip-and-gable roof style) is a traditional Japanese Shinto architectural style characterized by four dormer gables, two per lateral side, on the roof of a very large honden (sanctuary).",
   "description": "Kibitsu-zukuri (吉備津造), kibi-zukuri (吉備造) or hiyoku irimoya-zukuri (入母屋造; paired wing hip-and-gable roof style) is a traditional Japanese Shinto architectural style characterized by four dormer gables, two per lateral side, on the roof of a very large honden (sanctuary). The gables are set at a right angle to the main roof ridge, and the  honden  is part of a single complex also including a haiden (worship hall). Kibitsu Shrine in Okayama, Okayama Prefecture, Japan is the sole example of the style, although the Soshi-dō of Hokekyō-ji in Chiba prefecture is believed to have been modeled on it.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#4e3729",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#624e40",
+      "name": "umber"
+    },
+    {
+      "hex": "#2c2016",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#7b6c5e",
+      "name": "bronze"
+    },
+    {
+      "hex": "#988a7b",
+      "name": "stone"
+    },
+    {
+      "hex": "#cadbea",
+      "name": "periwinkle"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,48 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Kibitsu_Jinja_10_cropped.jpg/1280px-Kibitsu_Jinja_10_cropped.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Kibitsu_Jinja_10_cropped.jpg/500px-Kibitsu_Jinja_10_cropped.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Kibitsu_Jinja_10_cropped.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kibitsu_Jinja_10_cropped.jpg",
+      "caption": "A variation of an irimoya roof called a hiyoku irimoya-zukuri is a defining feature of the w:Kibitsu-zukuri style of architecture. Kibitsu jinja",
+      "source": "Wikimedia Commons",
+      "artist": "Kibitsu_Jinja_10.JPG : Reggaeman derivative work: Urashimataro ( talk )",
+      "date": "2011-08-19 04:51",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "871"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Kibitsu_Jinja_04.JPG/1280px-Kibitsu_Jinja_04.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Kibitsu_Jinja_04.JPG/500px-Kibitsu_Jinja_04.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/32/Kibitsu_Jinja_04.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kibitsu_Jinja_04.JPG",
+      "caption": "The haiden (Worship Hall)",
+      "source": "Wikimedia Commons",
+      "artist": "Reggaeman",
+      "date": "2008-06-06",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1927"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/500px-Himeji_model7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Himeji_model7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Himeji_model7.JPG",
+      "caption": "Himeji model7",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Kibitsu-zukuri",
@@ -64,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3196321",
+      "url": "https://www.wikidata.org/wiki/Q3196321",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:06.511Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Kibitsu-zukuri",
+      "url": "https://en.wikipedia.org/wiki/Kibitsu-zukuri",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:06.511Z"
+      }
+    }
+  ],
   "wikidata": "Q3196321",
   "wikipedia": "Kibitsu-zukuri",
   "popularity": 35,
@@ -72,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:52:06.511Z"
 }

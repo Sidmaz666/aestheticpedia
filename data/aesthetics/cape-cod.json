@@ -20,7 +20,33 @@
   "summary": "A Cape Cod house is a low, broad, single or double-story frame building with a moderately-steep-pitched gabled roof, a large central chimney, and very little ornamentation.",
   "description": "A Cape Cod house is a low, broad, single or double-story frame building with a moderately-steep-pitched gabled roof, a large central chimney, and very little ornamentation. Originating in New England in the 17th century, the simple symmetrical design was constructed of local materials to withstand the stormy weather of Cape Cod. It features a central front door flanked by multipaned windows. The space above the first floor was often left as unfinished attic space, with or without windows on the gable ends.\n\nThe building type enjoyed a boom in popularity and adaptation to modern needs in the 1930s–1950s, particularly with Colonial Revival embellishments. It remains a feature of New England homebuilding.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fbf9fb",
+      "name": "ivory"
+    },
+    {
+      "hex": "#717044",
+      "name": "olive green"
+    },
+    {
+      "hex": "#8f8a96",
+      "name": "taupe"
+    },
+    {
+      "hex": "#7b7072",
+      "name": "slate"
+    },
+    {
+      "hex": "#aea6b3",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#dfd5de",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,99 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Hartford_Residence%2C_Bridgton%2C_ME.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/53/Hartford_Residence%2C_Bridgton%2C_ME.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/53/Hartford_Residence%2C_Bridgton%2C_ME.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hartford_Residence,_Bridgton,_ME.jpg",
+      "caption": "Hartford residence, Bridgton, Maine",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown photographer",
+      "date": "circa 1920 date QS:P,+1920-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "810",
+      "height": "508"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Hoyt-BarnumHouse.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/08/Hoyt-BarnumHouse.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/08/Hoyt-BarnumHouse.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hoyt-BarnumHouse.jpg",
+      "caption": "The Hoyt-Barnum House at 713 Bedford St. Stamford, Connecticut",
+      "source": "Wikimedia Commons",
+      "artist": "KForce at English Wikipedia",
+      "date": "11 January 2012 (original upload date)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Oldest_House_in_Brockton_Heights%2C_MA.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/78/Oldest_House_in_Brockton_Heights%2C_MA.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/78/Oldest_House_in_Brockton_Heights%2C_MA.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Oldest_House_in_Brockton_Heights,_MA.jpg",
+      "caption": "The oldest house in Brockton Heights, Massachusetts",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown photographer",
+      "date": "1910",
+      "license": "Public domain",
+      "width": "764",
+      "height": "475"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Harlow_Old_Fort_House_in_Plymouth_MA.jpg/1280px-Harlow_Old_Fort_House_in_Plymouth_MA.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Harlow_Old_Fort_House_in_Plymouth_MA.jpg/500px-Harlow_Old_Fort_House_in_Plymouth_MA.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/11/Harlow_Old_Fort_House_in_Plymouth_MA.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Harlow_Old_Fort_House_in_Plymouth_MA.jpg",
+      "caption": "My 2009 photo of the Harlow Old Fort House in Plymouth, MA, Massachusetts, USA.",
+      "source": "Wikimedia Commons",
+      "artist": "Swampyank at English Wikipedia",
+      "date": "26 December 2009 (original upload date)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Ephraim_Hawley_house_circa_1880.jpg/1280px-Ephraim_Hawley_house_circa_1880.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Ephraim_Hawley_house_circa_1880.jpg/500px-Ephraim_Hawley_house_circa_1880.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/47/Ephraim_Hawley_house_circa_1880.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ephraim_Hawley_house_circa_1880.jpg",
+      "caption": "Picture of Ephraim Hawley House taken before 1881",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "before 1881 date QS:P,+1881-00-00T00:00:00Z/7,P1326,+1881-00",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1057"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Royal_Barry_Wills.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/88/Royal_Barry_Wills.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Royal_Barry_Wills.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Royal_Barry_Wills.jpg",
+      "caption": "Royal Barry Wills",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "868",
+      "height": "1059"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Standard_Floor_Plans_for_a_Cape_Cod_Cottage_-_NARA_-_5928284.jpg/1280px-Standard_Floor_Plans_for_a_Cape_Cod_Cottage_-_NARA_-_5928284.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Standard_Floor_Plans_for_a_Cape_Cod_Cottage_-_NARA_-_5928284.jpg/500px-Standard_Floor_Plans_for_a_Cape_Cod_Cottage_-_NARA_-_5928284.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/31/Standard_Floor_Plans_for_a_Cape_Cod_Cottage_-_NARA_-_5928284.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Standard_Floor_Plans_for_a_Cape_Cod_Cottage_-_NARA_-_5928284.jpg",
+      "caption": "Floor plans for a Cape Cod Cottage , circa 1940.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1940",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1789"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Cape Cod (house)",
@@ -65,7 +183,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5034667",
+      "url": "https://www.wikidata.org/wiki/Q5034667",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:01.261Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cape Cod (house)",
+      "url": "https://en.wikipedia.org/wiki/Cape_Cod_(house)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:01.261Z"
+      }
+    }
+  ],
   "wikidata": "Q5034667",
   "wikipedia": "Cape Cod (house)",
   "popularity": 35,
@@ -73,5 +214,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:40:01.261Z"
 }

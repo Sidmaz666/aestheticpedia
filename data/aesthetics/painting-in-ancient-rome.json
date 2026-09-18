@@ -13,15 +13,41 @@
   "confidence": 60,
   "origin": "",
   "geography": "",
-  "periodStart": "",
+  "periodStart": "classical antiquity",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": -1198,
   "endYear": null,
-  "era": "",
+  "era": "1198 BCE",
   "summary": "Painting in ancient Rome is a rather poorly understood aspect of Roman art, as there are few survivals, which are mostly wall-paintings from Pompeii, Herculaneum and other sites buried by the eruption of Mount Vesuvius in AD 79, where many decorative wall paintings were preserved under the ashes and hardened lava.",
   "description": "Painting in ancient Rome is a rather poorly understood aspect of Roman art, as there are few survivals, which are mostly wall-paintings from Pompeii, Herculaneum and other sites buried by the eruption of Mount Vesuvius in AD 79, where many decorative wall paintings were preserved under the ashes and hardened lava. A smaller number of paintings survive from other areas, including Rome itself.\n\nFrom the study of surviving paintings it has been possible to form a panorama of the artistic life of Ancient Rome between the end of the Republic and the beginning of the Empire. Nevertheless, this body of works is only a tiny fraction of the great quantity of painting produced in the Roman Empire during its long history, and there is a lack of significant remains from earlier and later periods, particularly in techniques other than fresco and from Romanized regions besides Campania.\n\nRome was always an avid consumer and producer of art. Originally under Etruscan rule, the Romans developed an art that was largely indebted to them, which was itself heavily influenced by archaic Greek art. As Roman power grew it came into contact with Hellenistic Greek culture, and began to assimilate its principles into all artistic fields, including painting. Greek paintings were highly coveted luxuries and enormous quantities were imported during the conquest of Greek cultural areas, and it became customary to copy famous works and to vary on Greek techniques and subjects.\n\nMuch of what is known about Greek painting is owed to Rome, since hardly any original Greek paintings survive from any era, except for vase painting. Were it not for the preservation of Pompeii and Herculaneum in fairly good condition, whose murals are numerous and of great quality, the contemporary idea of the painting of both Ancient Greece and Rome would be based almost solely on literary descriptions.\n\nRoman painting had a significant influence on the evolution of Western painting. Its traditions continued into Paleochristian Byzantine, and Romanesque art. Much later on, renewed interest in emulating Classical painting provided an impetus for the art of the Renaissance, Neoclassicism, and Romanticism. Roman painting has been an active area of scholarly research for centuries, as archeological excavations have continued to uncover new artworks.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c3b794",
+      "name": "khaki"
+    },
+    {
+      "hex": "#dad1c0",
+      "name": "bone white"
+    },
+    {
+      "hex": "#a39879",
+      "name": "stone"
+    },
+    {
+      "hex": "#bfa15e",
+      "name": "camel"
+    },
+    {
+      "hex": "#a77c47",
+      "name": "copper"
+    },
+    {
+      "hex": "#7a694e",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,136 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Pompeii_-_Casa_dei_Vettii_-_Ixion.jpg/1280px-Pompeii_-_Casa_dei_Vettii_-_Ixion.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Pompeii_-_Casa_dei_Vettii_-_Ixion.jpg/500px-Pompeii_-_Casa_dei_Vettii_-_Ixion.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Pompeii_-_Casa_dei_Vettii_-_Ixion.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pompeii_-_Casa_dei_Vettii_-_Ixion.jpg",
+      "caption": "Punishment of Ixion: in the center is Mercury holding the caduceus. On the right is Juno on her throne, and behind her Iris stands and gestures. On the left is Vulcanus (blond figure) manning the wheel, with Ixion already tied to the wheel. Nephele sits at Mercury's feet. Roman f",
+      "source": "Wikimedia Commons",
+      "artist": "WolfgangRieger",
+      "date": "2009-03-13",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1396"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Danseurs_et_musiciens%2C_tombe_des_l%C3%A9opards.jpg/1280px-Danseurs_et_musiciens%2C_tombe_des_l%C3%A9opards.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Danseurs_et_musiciens%2C_tombe_des_l%C3%A9opards.jpg/500px-Danseurs_et_musiciens%2C_tombe_des_l%C3%A9opards.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/92/Danseurs_et_musiciens%2C_tombe_des_l%C3%A9opards.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Danseurs_et_musiciens,_tombe_des_l%C3%A9opards.jpg",
+      "caption": "Dancers and musicians, tomb of the leopards, Monterozzi necropolis, Tarquinia, Italy. UNESCO World Heritage Site. Fresco a secco . Height (of the wall): 1.70 m.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "475 BCE",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "709"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Hades_abducting_Persephone.jpg/1280px-Hades_abducting_Persephone.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Hades_abducting_Persephone.jpg/500px-Hades_abducting_Persephone.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/61/Hades_abducting_Persephone.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hades_abducting_Persephone.jpg",
+      "caption": "Hades abducting Persephone, fresco in the small royal tomb at Vergina, Macedonia, Greece.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "340 BCE",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "466"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Villa-Farnesina22.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Villa-Farnesina22.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Villa-Farnesina22.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Villa-Farnesina22.jpg",
+      "caption": "Villa Farnesina, Rom",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "c. 20 BC",
+      "license": "Public domain",
+      "width": "600",
+      "height": "656"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Casa-del-bracciale-d%27oro---.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/53/Casa-del-bracciale-d%27oro---.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/53/Casa-del-bracciale-d%27oro---.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Casa-del-bracciale-d%27oro---.jpg",
+      "caption": "Garden room . Ancient Roman fresco from the House of the Golden Bracelet, Pompeii , Italy .",
+      "source": "Wikimedia Commons",
+      "artist": "original file by Stefano Bolognini File:Affresco romano giardino pompei 4.JPG",
+      "license": "Attribution",
+      "width": "1000",
+      "height": "1460"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Parete_con_paesaggio_idillico-sacrale_002.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Parete_con_paesaggio_idillico-sacrale_002.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Parete_con_paesaggio_idillico-sacrale_002.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Parete_con_paesaggio_idillico-sacrale_002.jpg",
+      "caption": "Museo Archeologico Nazionale di Napoli (inv. nr. 147501). Da Boscotrecase , Villa di Agrippa Postumo. Parete in III Stile pompeiano con paesaggio idillico-sacrale.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1 st century date QS:P,+050-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "945",
+      "height": "855"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Europa_on_a_Bull.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/13/Europa_on_a_Bull.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/13/Europa_on_a_Bull.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Europa_on_a_Bull.jpg",
+      "caption": "Europa on a Bull, fresco from Pompeii, at the Museo Archeologico di Napoli, Naples, Italy",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown / Desconhecido",
+      "date": "20 AC / 20 BC",
+      "license": "Public domain",
+      "width": "482",
+      "height": "383"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/R%C3%B6mischer_Meister_um_125_v._Chr._001.jpg/1280px-R%C3%B6mischer_Meister_um_125_v._Chr._001.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/R%C3%B6mischer_Meister_um_125_v._Chr._001.jpg/500px-R%C3%B6mischer_Meister_um_125_v._Chr._001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/10/R%C3%B6mischer_Meister_um_125_v._Chr._001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:R%C3%B6mischer_Meister_um_125_v._Chr._001.jpg",
+      "caption": "Landschaft zur Odyssee",
+      "source": "Wikimedia Commons",
+      "artist": "Römischer Meister um 125 v. Chr.",
+      "date": "circa 60-40 BCE",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "913"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Casa_della_farnesina%2C_sala_nera.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/93/Casa_della_farnesina%2C_sala_nera.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/93/Casa_della_farnesina%2C_sala_nera.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Casa_della_farnesina,_sala_nera.jpg",
+      "caption": "Affresco romano dalla Casa della Farnesina (Roma), sala nera.",
+      "source": "Wikimedia Commons",
+      "artist": "see filename or category",
+      "date": "30-20 bc",
+      "license": "Public domain",
+      "width": "1200",
+      "height": "952"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Affresco_romano_-_Enea_e_di.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/22/Affresco_romano_-_Enea_e_di.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/22/Affresco_romano_-_Enea_e_di.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Affresco_romano_-_Enea_e_di.jpg",
+      "caption": "Aeneas and Dido (Mars and Venus) . Ancient Roman fresco in the National Archaeological Museum of Naples (inv. 112282); fresco from the House of Citharist in Pompeii , Italy ; Pompeian Third Style (10 BC - 45 AD)",
+      "source": "Wikimedia Commons",
+      "artist": "Stefano Bolognini",
+      "license": "Attribution",
+      "width": "1000",
+      "height": "1544"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Painting in ancient Rome",
@@ -66,7 +221,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2164653",
+      "url": "https://www.wikidata.org/wiki/Q2164653",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:13.854Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Painting in ancient Rome",
+      "url": "https://en.wikipedia.org/wiki/Painting_in_ancient_Rome",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:13.854Z"
+      }
+    }
+  ],
   "wikidata": "Q2164653",
   "wikipedia": "Painting in ancient Rome",
   "popularity": 35,
@@ -74,5 +252,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.850Z"
 }

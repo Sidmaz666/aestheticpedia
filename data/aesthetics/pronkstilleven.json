@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Belgium",
+  "geography": "Belgium",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Pronkstilleven (Dutch for 'ostentatious', 'ornate' or 'sumptuous' still life) is a style of ornate still life painting, characterised by large and complex compositions and an elaborate palette.",
   "description": "Pronkstilleven (Dutch for 'ostentatious', 'ornate' or 'sumptuous' still life) is a style of ornate still life painting, characterised by large and complex compositions and an elaborate palette. Pronkstillevens typically depict a wide variety of objects, fruits, flowers and inanimate animals, often accompanied by live human and animal figures. The genre was developed in the 1640s in Antwerp from where it spread quickly to the Dutch Republic.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#261e13",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#534028",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#7e6947",
+      "name": "bronze"
+    },
+    {
+      "hex": "#94825d",
+      "name": "moss"
+    },
+    {
+      "hex": "#a89a77",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#bab195",
+      "name": "khaki"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Banquet_Still_Life%2C_Adriaen_van_Utrecht%2C_1644_-_Rijksmuseum.jpg/1280px-Banquet_Still_Life%2C_Adriaen_van_Utrecht%2C_1644_-_Rijksmuseum.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Banquet_Still_Life%2C_Adriaen_van_Utrecht%2C_1644_-_Rijksmuseum.jpg/500px-Banquet_Still_Life%2C_Adriaen_van_Utrecht%2C_1644_-_Rijksmuseum.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/37/Banquet_Still_Life%2C_Adriaen_van_Utrecht%2C_1644_-_Rijksmuseum.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Banquet_Still_Life,_Adriaen_van_Utrecht,_1644_-_Rijksmuseum.jpg",
+      "caption": "Dutch: Pronkstilleven Banquet Still Life",
+      "source": "Wikimedia Commons",
+      "artist": "Adriaen van Utrecht",
+      "date": "1644",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "965"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Cornelis_Norbertus_Gijsbrechts_-_Silverware_in_an_Open_Cabinet.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Cornelis_Norbertus_Gijsbrechts_-_Silverware_in_an_Open_Cabinet.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Cornelis_Norbertus_Gijsbrechts_-_Silverware_in_an_Open_Cabinet.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cornelis_Norbertus_Gijsbrechts_-_Silverware_in_an_Open_Cabinet.jpg",
+      "caption": "Trompe l'oeil of an open cupboard with precious vessels",
+      "source": "Wikimedia Commons",
+      "artist": "Attributed to Cornelis Norbertus Gijsbrechts",
+      "date": "between circa 1665 and circa 1670 date QS:P,+1650-00-00T00:0",
+      "license": "Public domain",
+      "width": "673",
+      "height": "887"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Pronkstilleven",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16821439",
+      "url": "https://www.wikidata.org/wiki/Q16821439",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:16.502Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Pronkstilleven",
+      "url": "https://en.wikipedia.org/wiki/Pronkstilleven",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:16.502Z"
+      }
+    }
+  ],
   "wikidata": "Q16821439",
   "wikipedia": "Pronkstilleven",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.078Z"
 }

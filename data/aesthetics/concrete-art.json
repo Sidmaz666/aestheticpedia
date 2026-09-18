@@ -21,7 +21,33 @@
   "summary": "Concrete art was an art movement with a strong emphasis on geometrical abstraction.",
   "description": "Concrete art was an art movement with a strong emphasis on geometrical abstraction. The term was first formulated by Theo van Doesburg and was then used by him in 1930 to define the difference between his vision of art and that of other abstract artists of the time. After his death in 1931, the term was further defined and popularized by Max Bill, who organized the first international exhibition in 1944 and went on to help promote the style in Latin America. The term was taken up widely after World War 2 and promoted through a number of international exhibitions and art movements.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#ededd9",
+      "name": "paper white"
+    },
+    {
+      "hex": "#283026",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#058f89",
+      "name": "teal"
+    },
+    {
+      "hex": "#515e52",
+      "name": "graphite"
+    },
+    {
+      "hex": "#87938b",
+      "name": "stone"
+    },
+    {
+      "hex": "#b3c1b6",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,48 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Art_Concret_vol_01_no_01_front_cover_01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Art_Concret_vol_01_no_01_front_cover_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Art_Concret_vol_01_no_01_front_cover_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Art_Concret_vol_01_no_01_front_cover_01.jpg",
+      "caption": "Omslag voor het introductienummer van Art Concret . Drukwerk. Amsterdam, Instituut Collectie Nederland. Inventory number AB5033.",
+      "source": "Wikimedia Commons",
+      "artist": "Theo van Doesburg",
+      "date": "1930-04",
+      "license": "Public domain",
+      "width": "606",
+      "height": "793"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/FFM_Sculpture_Kontinuitaet_2012_Max_Bill_1986_6.jpg/1280px-FFM_Sculpture_Kontinuitaet_2012_Max_Bill_1986_6.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/FFM_Sculpture_Kontinuitaet_2012_Max_Bill_1986_6.jpg/500px-FFM_Sculpture_Kontinuitaet_2012_Max_Bill_1986_6.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c7/FFM_Sculpture_Kontinuitaet_2012_Max_Bill_1986_6.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:FFM_Sculpture_Kontinuitaet_2012_Max_Bill_1986_6.jpg",
+      "caption": "Kontinuität (auch „Koloss von Frankfurt“) ist eine 1986 vollendete Skulptur des schweizer Bildhauers Max Bill (1908–1994). Das Kunstwerk, das mit 80 Tonnen Gewicht zu den schwersten Granitskulpturen der Welt zählt, steht in der deutschen Stadt Frankfurt am Main an den Hochhaus-Zw",
+      "source": "Wikimedia Commons",
+      "artist": "Frank Behnsen",
+      "date": "2012-08-13",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Black_circle.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Black_circle.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Black_circle.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_circle.jpg",
+      "caption": "Russian: «Чёрный круг » Black Circle",
+      "source": "Wikimedia Commons",
+      "artist": "Kazimir Malevich",
+      "date": "motive 1915 / painted 1924",
+      "license": "Public domain",
+      "width": "550",
+      "height": "543"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Concrete art",
@@ -66,7 +133,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q10822316",
+      "url": "https://www.wikidata.org/wiki/Q10822316",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:03.690Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Concrete art",
+      "url": "https://en.wikipedia.org/wiki/Concrete_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:03.690Z"
+      }
+    }
+  ],
   "wikidata": "Q10822316",
   "wikipedia": "Concrete art",
   "popularity": 35,
@@ -74,5 +164,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:42:03.690Z"
 }

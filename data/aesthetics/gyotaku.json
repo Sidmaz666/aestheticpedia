@@ -20,7 +20,33 @@
   "summary": "Gyotaku (魚拓; from gyo 'fish' + taku 'stone impression', fish print(ing)) is the traditional Japanese method of printing fish, a practice which dates back to the mid-1800s.",
   "description": "Gyotaku (魚拓; from gyo 'fish' + taku 'stone impression', fish print(ing)) is the traditional Japanese method of printing fish, a practice which dates back to the mid-1800s.  This form of nature printing, where ink is applied to a fish which is then pressed onto paper, was used by fishermen to record their catches, but has also become an art form of its own.\n\nThe gyotaku method of printmaking uses fish, sea creatures, or similar subjects as its \"printing plates\". Prints are made using sumi ink and washi paper. It is rumored that samurai would settle fishing competitions using gyotaku prints. This original form of gyotaku, as a recording method for fishermen, is still utilized today, and can be seen hanging in tackle shops in Japan.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e7dbc0",
+      "name": "bone white"
+    },
+    {
+      "hex": "#95775c",
+      "name": "bronze"
+    },
+    {
+      "hex": "#a98f73",
+      "name": "camel"
+    },
+    {
+      "hex": "#bea687",
+      "name": "khaki"
+    },
+    {
+      "hex": "#d4c2a2",
+      "name": "beige"
+    },
+    {
+      "hex": "#030408",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,120 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Yuta.jpg/1280px-Yuta.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Yuta.jpg/500px-Yuta.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/Yuta.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Yuta.jpg",
+      "caption": "Yuta",
+      "source": "Wikimedia Commons",
+      "artist": "DigiPub / J.G. Wang",
+      "date": "Taken on 21 November 2005",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "817"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/13bb7117-5115-b409-1dbb-1d9c1d70a5c9/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/13bb7117-5115-b409-1dbb-1d9c1d70a5c9/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/13bb7117-5115-b409-1dbb-1d9c1d70a5c9/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/111",
+      "caption": "Martin Vanden Bogaert Desjardins, n.d.",
+      "source": "Art Institute of Chicago",
+      "artist": "Gérard Edelinck (French, born Flanders, 1640-1707)",
+      "date": "n.d.",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1094"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/ab107179-7106-937e-7676-e0263b02e530/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/ab107179-7106-937e-7676-e0263b02e530/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/ab107179-7106-937e-7676-e0263b02e530/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/27",
+      "caption": "Remembrance of Italy, c. 1866",
+      "source": "Art Institute of Chicago",
+      "artist": "Jean-Baptiste-Camille Corot (French, 1796-1875)",
+      "date": "c. 1866",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1217"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/6983bf9e-3cd8-c42d-4c91-cd646c97399c/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/6983bf9e-3cd8-c42d-4c91-cd646c97399c/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/6983bf9e-3cd8-c42d-4c91-cd646c97399c/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/65",
+      "caption": "Fishing Craft near the Cliffs at Collioure, 1878",
+      "source": "Art Institute of Chicago",
+      "artist": "Adolphe Appian",
+      "date": "1878",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "575"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/e82b61d4-1d5b-a15d-4d2e-ff9caca3fb51/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/e82b61d4-1d5b-a15d-4d2e-ff9caca3fb51/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/e82b61d4-1d5b-a15d-4d2e-ff9caca3fb51/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/16",
+      "caption": "The Fall of the Giants, 1663",
+      "source": "Art Institute of Chicago",
+      "artist": "Salvator Rosa",
+      "date": "1663",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1284"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/67f10695-cb9d-f716-9cd0-902217ebb317/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/67f10695-cb9d-f716-9cd0-902217ebb317/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/67f10695-cb9d-f716-9cd0-902217ebb317/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/20",
+      "caption": "It Rocks but is Not Sunk, 1854",
+      "source": "Art Institute of Chicago",
+      "artist": "Charles Meryon",
+      "date": "1854",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1186"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/72cc9b54-7549-dda8-9720-51c36e67ba3b/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/72cc9b54-7549-dda8-9720-51c36e67ba3b/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/72cc9b54-7549-dda8-9720-51c36e67ba3b/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/28",
+      "caption": "Souvenir of Tuscany, c. 1845",
+      "source": "Art Institute of Chicago",
+      "artist": "Jean-Baptiste-Camille Corot",
+      "date": "c. 1845",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "591"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/5df51c9d-dac5-d962-4d4b-300339219e54/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/5df51c9d-dac5-d962-4d4b-300339219e54/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/5df51c9d-dac5-d962-4d4b-300339219e54/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/24",
+      "caption": "Portrait of Edouard Molé, 1653",
+      "source": "Art Institute of Chicago",
+      "artist": "Robert Nanteuil",
+      "date": "1653",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1226"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gyotaku",
@@ -65,7 +204,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q580890",
+      "url": "https://www.wikidata.org/wiki/Q580890",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:09.404Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gyotaku",
+      "url": "https://en.wikipedia.org/wiki/Gyotaku",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:09.404Z"
+      }
+    }
+  ],
   "wikidata": "Q580890",
   "wikipedia": "Gyotaku",
   "popularity": 35,
@@ -73,5 +235,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:48:09.404Z"
 }

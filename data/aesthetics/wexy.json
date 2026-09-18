@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Royal Stables of the Netherlands",
+  "geography": "Royal Stables of the Netherlands",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -39,7 +39,22 @@
   "tags": [
     "ornament"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Veldslag_bij_Waterloo%2C_den_18_Juny_1815._Op_het_Oogenblik%2C_waarin_zyne_Koninklyke_Hoogheyd._de_Prins_van_Oranje%2C_Gewond_is_Bataille_de_Waterloo%2C_le_18_Juin_1915_%28..%29_%28titel_op_object%29%2C_RP-P-1882-A-6081_%28cropped%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Veldslag_bij_Waterloo%2C_den_18_Juny_1815._Op_het_Oogenblik%2C_waarin_zyne_Koninklyke_Hoogheyd._de_Prins_van_Oranje%2C_Gewond_is_Bataille_de_Waterloo%2C_le_18_Juin_1915_%28..%29_%28titel_op_object%29%2C_RP-P-1882-A-6081_%28cropped%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Veldslag_bij_Waterloo%2C_den_18_Juny_1815._Op_het_Oogenblik%2C_waarin_zyne_Koninklyke_Hoogheyd._de_Prins_van_Oranje%2C_Gewond_is_Bataille_de_Waterloo%2C_le_18_Juin_1915_%28..%29_%28titel_op_object%29%2C_RP-P-1882-A-6081_%28cropped%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Veldslag_bij_Waterloo,_den_18_Juny_1815._Op_het_Oogenblik,_waarin_zyne_Koninklyke_Hoogheyd._de_Prins_van_Oranje,_Gewond_is_Bataille_de_Waterloo,_le_18_Juin_1915_(..)_(titel_op_object),_RP-P-1882-A-6081_(cropped).jpg",
+      "caption": "Identificatie Titel(s): Veldslag bij Waterloo, den 18 Juny 1815. Op het Oogenblik, waarin zyne Koninklyke Hoogheyd. de Prins van Oranje, Gewond is / Bataille de Waterloo, le 18 Juin 1915 (...) (titel op object) Objecttype: prent Objectnummer: RP-P-1882-A-6081 Catalogusreferentie:",
+      "source": "Wikimedia Commons",
+      "artist": "Rijksmuseum",
+      "date": "1815",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "638",
+      "height": "851"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Wexy",
@@ -62,7 +77,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q110897070",
+      "url": "https://www.wikidata.org/wiki/Q110897070",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:28.179Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Wexy",
+      "url": "https://en.wikipedia.org/wiki/Wexy",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:28.179Z"
+      }
+    }
+  ],
   "wikidata": "Q110897070",
   "wikipedia": "Wexy",
   "popularity": 35,
@@ -70,5 +108,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:06.022Z"
 }

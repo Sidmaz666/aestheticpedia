@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,29 @@
   "summary": "The Northwest School was an American art movement established in the Seattle area.",
   "description": "The Northwest School was an American art movement established in the Seattle area. It flourished in the 1930s–40s.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#181214",
+      "name": "black"
+    },
+    {
+      "hex": "#484133",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#645c49",
+      "name": "umber"
+    },
+    {
+      "hex": "#827560",
+      "name": "bronze"
+    },
+    {
+      "hex": "#968e80",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +61,34 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/7b/Ambrose_Patterson_-_Self-portrait_%28La_Fen%C3%AAtre_de_l%27atelier%29_-_Google_Art_Project.jpg/1280px-Ambrose_Patterson_-_Self-portrait_%28La_Fen%C3%AAtre_de_l%27atelier%29_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/7b/Ambrose_Patterson_-_Self-portrait_%28La_Fen%C3%AAtre_de_l%27atelier%29_-_Google_Art_Project.jpg/500px-Ambrose_Patterson_-_Self-portrait_%28La_Fen%C3%AAtre_de_l%27atelier%29_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/en/7/7b/Ambrose_Patterson_-_Self-portrait_%28La_Fen%C3%AAtre_de_l%27atelier%29_-_Google_Art_Project.jpg",
+      "pageUrl": "https://en.wikipedia.org/wiki/File:Ambrose_Patterson_-_Self-portrait_(La_Fen%C3%AAtre_de_l%27atelier)_-_Google_Art_Project.jpg",
+      "caption": "English: Self-portrait (La Fenêtre de l'atelier)",
+      "source": "Wikimedia Commons",
+      "artist": "Ambrose PATTERSON (29 June 1877 - 8-Oct-66) ( Details of artist on Google Art Project )",
+      "license": "PD-US",
+      "width": "1280",
+      "height": "2061"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Seattle_-_James_W._Washington_garden_and_studio_02.jpg/1280px-Seattle_-_James_W._Washington_garden_and_studio_02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Seattle_-_James_W._Washington_garden_and_studio_02.jpg/500px-Seattle_-_James_W._Washington_garden_and_studio_02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Seattle_-_James_W._Washington_garden_and_studio_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Seattle_-_James_W._Washington_garden_and_studio_02.jpg",
+      "caption": "Garden and studio of artist James W. Washington, Jr. 1816 26th Ave., Seattle, Washington. The house and studio have official status as a city landmark.",
+      "source": "Wikimedia Commons",
+      "artist": "Joe Mabel",
+      "date": "Taken on 30 March 2008",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Northwest School (art)",
@@ -62,7 +111,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7060194",
+      "url": "https://www.wikidata.org/wiki/Q7060194",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:12.763Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Northwest School (art)",
+      "url": "https://en.wikipedia.org/wiki/Northwest_School_(art)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:12.763Z"
+      }
+    }
+  ],
   "wikidata": "Q7060194",
   "wikipedia": "Northwest School (art)",
   "popularity": 35,
@@ -70,5 +142,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.875Z"
 }

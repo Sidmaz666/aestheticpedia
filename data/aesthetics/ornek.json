@@ -17,7 +17,29 @@
   "summary": "Örnek is a national Crimean Tatar ornament and one of the oldest cultural achievements of the Crimean Tatars.",
   "description": "Örnek is a national Crimean Tatar ornament and one of the oldest cultural achievements of the Crimean Tatars. In 2021, Örnek and its knowledge was inscribed in the UNESCO Intangible Cultural Heritage Lists.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#ceab80",
+      "name": "sand"
+    },
+    {
+      "hex": "#a67a5f",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#dcc2a3",
+      "name": "beige"
+    },
+    {
+      "hex": "#8d8a79",
+      "name": "stone"
+    },
+    {
+      "hex": "#755543",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +61,21 @@
   "tags": [
     "ornament"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Adaviye_Efendiyeva_01.JPG/1280px-Adaviye_Efendiyeva_01.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Adaviye_Efendiyeva_01.JPG/500px-Adaviye_Efendiyeva_01.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Adaviye_Efendiyeva_01.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Adaviye_Efendiyeva_01.JPG",
+      "caption": "Малюнок Адавіє Ефендієвої (1920 р.)",
+      "source": "Wikimedia Commons",
+      "artist": "Adavie Efendiyeva",
+      "date": "2016-01-12 21:59:04",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1197"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Örnek (ornament)",
@@ -62,7 +98,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q50747824",
+      "url": "https://www.wikidata.org/wiki/Q50747824",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:04.347Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Örnek (ornament)",
+      "url": "https://en.wikipedia.org/wiki/%C3%96rnek_(ornament)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:04.347Z"
+      }
+    }
+  ],
   "wikidata": "Q50747824",
   "wikipedia": "Örnek (ornament)",
   "popularity": 35,
@@ -70,5 +129,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:59:04.347Z"
 }

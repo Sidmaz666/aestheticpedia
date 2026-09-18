@@ -7,17 +7,43 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
-  "periodStart": "",
+  "origin": "Republic of Venice",
+  "geography": "Republic of Venice",
+  "periodStart": "17th century",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 1601,
   "endYear": null,
-  "era": "",
+  "era": "17th century",
   "summary": "The Seicento ( say-CHEN-toh, Italian: [ˌsɛiˈtʃɛnto]) is Italian history and culture during the 17th century.",
   "description": "The Seicento ( say-CHEN-toh, Italian: [ˌsɛiˈtʃɛnto]) is Italian history and culture during the 17th century. The Seicento saw the end of the Renaissance movement in Italy and the beginning of the Counter-Reformation and the Baroque era. The word seicento means 'six hundred' and is short for milleseicento, '1600'.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#100a06",
+      "name": "black"
+    },
+    {
+      "hex": "#503a2a",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#b4a69b",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#83725d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#ac7e45",
+      "name": "copper"
+    },
+    {
+      "hex": "#c7d1c2",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,128 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Collage_arte_italiana.jpg/1280px-Collage_arte_italiana.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Collage_arte_italiana.jpg/500px-Collage_arte_italiana.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Collage_arte_italiana.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Collage_arte_italiana.jpg",
+      "caption": "Collage di varie foto sull'arte italiana.",
+      "source": "Wikimedia Commons",
+      "artist": "collection by DanieleDF1995 ( talk )",
+      "date": "2010-03-29",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "2276"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Saint_Jerome_Writing-Caravaggio_%28c._1607%29.jpg/1280px-Saint_Jerome_Writing-Caravaggio_%28c._1607%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Saint_Jerome_Writing-Caravaggio_%28c._1607%29.jpg/500px-Saint_Jerome_Writing-Caravaggio_%28c._1607%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Saint_Jerome_Writing-Caravaggio_%28c._1607%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Saint_Jerome_Writing-Caravaggio_(c._1607).jpg",
+      "caption": "Saint Jerome Writing",
+      "source": "Wikimedia Commons",
+      "artist": "Caravaggio",
+      "date": "circa 1608 date QS:P571,+1608-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "875"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/BerniniAngel03.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/00/BerniniAngel03.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/00/BerniniAngel03.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BerniniAngel03.jpg",
+      "caption": "BerniniAngel03",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "768",
+      "height": "1024"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Statue_of_Saint_Paul%2C_on_Saint_Peter_Square_Rome_Italy.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/15/Statue_of_Saint_Paul%2C_on_Saint_Peter_Square_Rome_Italy.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/15/Statue_of_Saint_Paul%2C_on_Saint_Peter_Square_Rome_Italy.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Statue_of_Saint_Paul,_on_Saint_Peter_Square_Rome_Italy.jpg",
+      "caption": "Statue de Saint Paul, Place Saint Pierre Rome Italie",
+      "source": "Wikimedia Commons",
+      "artist": "MAMJODH",
+      "date": "2008-03-13 18:30:37",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1200",
+      "height": "1600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Villa_torrigiani_di_lucca_05.JPG/1280px-Villa_torrigiani_di_lucca_05.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Villa_torrigiani_di_lucca_05.JPG/500px-Villa_torrigiani_di_lucca_05.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/57/Villa_torrigiani_di_lucca_05.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Villa_torrigiani_di_lucca_05.JPG",
+      "caption": "Villa torrigiani di lucca",
+      "source": "Wikimedia Commons",
+      "artist": "sailko",
+      "date": "2007-08-25 13:03:24",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Micco_Spadaro_-_Punizione_dei_ladri_al_tempo_di_Masaniello.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Micco_Spadaro_-_Punizione_dei_ladri_al_tempo_di_Masaniello.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Micco_Spadaro_-_Punizione_dei_ladri_al_tempo_di_Masaniello.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Micco_Spadaro_-_Punizione_dei_ladri_al_tempo_di_Masaniello.jpg",
+      "caption": "Punishment of the thefts at Masaniello's time.",
+      "source": "Wikimedia Commons",
+      "artist": "Domenico Gargiulo",
+      "date": "circa 1647 date QS:P571,+1647-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "631",
+      "height": "480"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Elena_Piscopia_portrait.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Elena_Piscopia_portrait.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Elena_Piscopia_portrait.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Elena_Piscopia_portrait.jpg",
+      "caption": "(sec. X, Milano. (book : F. L. Maschietto, Elena Lucrezia Cornaro Piscopia (1646-1684).",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "18 th century date QS:P571,+1750-00-00T00:00:00Z/7 ?",
+      "license": "Public domain",
+      "width": "586",
+      "height": "792"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Justus_Sustermans_-_Portrait_of_Galileo_Galilei_%28Uffizi%29.jpg/1280px-Justus_Sustermans_-_Portrait_of_Galileo_Galilei_%28Uffizi%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Justus_Sustermans_-_Portrait_of_Galileo_Galilei_%28Uffizi%29.jpg/500px-Justus_Sustermans_-_Portrait_of_Galileo_Galilei_%28Uffizi%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Justus_Sustermans_-_Portrait_of_Galileo_Galilei_%28Uffizi%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Justus_Sustermans_-_Portrait_of_Galileo_Galilei_(Uffizi).jpg",
+      "caption": "Portrait of Galileo Galilei",
+      "source": "Wikimedia Commons",
+      "artist": "Justus Sustermans",
+      "date": "1635 date QS:P571,+1635-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1514"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/PalacioReal_Stradivarius1.jpg/1280px-PalacioReal_Stradivarius1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/PalacioReal_Stradivarius1.jpg/500px-PalacioReal_Stradivarius1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6b/PalacioReal_Stradivarius1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:PalacioReal_Stradivarius1.jpg",
+      "caption": "Spanish Stradivarius II of c. 1687, on exhibit at Palacio Real de Madrid",
+      "source": "Wikimedia Commons",
+      "artist": "Håkan Svensson ( Xauxa )",
+      "date": "2003-07-23",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Seicento",
@@ -62,7 +209,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1419845",
+      "url": "https://www.wikidata.org/wiki/Q1419845",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:02.905Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Seicento",
+      "url": "https://en.wikipedia.org/wiki/Seicento",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:02.905Z"
+      }
+    }
+  ],
   "wikidata": "Q1419845",
   "wikipedia": "Seicento",
   "popularity": 35,
@@ -70,5 +240,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:54.475Z"
 }

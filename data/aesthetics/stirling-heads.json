@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Kingdom of Scotland, United Kingdom, Stirling Castle",
+  "geography": "Kingdom of Scotland, United Kingdom, Stirling Castle",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Stirling Heads are a group of large oak portrait medallions made around the year 1540 to decorate the ceiling of a room at Stirling Castle.",
   "description": "The Stirling Heads are a group of large oak portrait medallions made around the year 1540 to decorate the ceiling of a room at Stirling Castle. The style, in origin, was based on Italian architectural decoration and at Stirling was probably derived from a French source. Similar medallions carved in stone adorn Falkland Palace.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#4d2f1d",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#221613",
+      "name": "black"
+    },
+    {
+      "hex": "#6f5b50",
+      "name": "umber"
+    },
+    {
+      "hex": "#7b4523",
+      "name": "sepia"
+    },
+    {
+      "hex": "#9e6437",
+      "name": "bronze"
+    },
+    {
+      "hex": "#ad7c5f",
+      "name": "dusty rose"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,49 @@
   "tags": [
     "ornament"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Stirling_Head%2C_Margaret_Tudor_%287272051824%29.jpg/1280px-Stirling_Head%2C_Margaret_Tudor_%287272051824%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Stirling_Head%2C_Margaret_Tudor_%287272051824%29.jpg/500px-Stirling_Head%2C_Margaret_Tudor_%287272051824%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Stirling_Head%2C_Margaret_Tudor_%287272051824%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Stirling_Head,_Margaret_Tudor_(7272051824).jpg",
+      "caption": "Stirling Heads Exhibition, Stirling Castle. Mother of James V. Sister of Henry VIII of England.",
+      "source": "Wikimedia Commons",
+      "artist": "dun_deagh",
+      "date": "2012-05-22 15:52:45",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "1246"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/William_Fettes_Douglas_%281822-1891%29_-_David_Laing_%281793%E2%80%931878%29%2C_Antiquary_-_PG_2041_-_National_Galleries_of_Scotland.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b2/William_Fettes_Douglas_%281822-1891%29_-_David_Laing_%281793%E2%80%931878%29%2C_Antiquary_-_PG_2041_-_National_Galleries_of_Scotland.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b2/William_Fettes_Douglas_%281822-1891%29_-_David_Laing_%281793%E2%80%931878%29%2C_Antiquary_-_PG_2041_-_National_Galleries_of_Scotland.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:William_Fettes_Douglas_(1822-1891)_-_David_Laing_(1793%E2%80%931878),_Antiquary_-_PG_2041_-_National_Galleries_of_Scotland.jpg",
+      "caption": "David Laing, 1793 - 1878. Antiquary",
+      "source": "Wikimedia Commons",
+      "artist": "William Fettes Douglas",
+      "date": "1862",
+      "license": "Public domain",
+      "width": "800",
+      "height": "438"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Stirling_Heads_-_Mary_of_Guise.JPG/1280px-Stirling_Heads_-_Mary_of_Guise.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Stirling_Heads_-_Mary_of_Guise.JPG/500px-Stirling_Heads_-_Mary_of_Guise.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/50/Stirling_Heads_-_Mary_of_Guise.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Stirling_Heads_-_Mary_of_Guise.JPG",
+      "caption": "Mary of Guise, James V’s second wife and mother of Mary Queen of Scots. One of 37 replica \"Stirling Heads\" on the ceiling of the King's Inner Hall in Stirling Castle.",
+      "source": "Wikimedia Commons",
+      "artist": "Stefan Schäfer, Lich",
+      "date": "2012-03-10",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1297"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Stirling Heads",
@@ -62,7 +130,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q130243596",
+      "url": "https://www.wikidata.org/wiki/Q130243596",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:08.407Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Stirling Heads",
+      "url": "https://en.wikipedia.org/wiki/Stirling_Heads",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:08.407Z"
+      }
+    }
+  ],
   "wikidata": "Q130243596",
   "wikipedia": "Stirling Heads",
   "popularity": 35,
@@ -70,5 +161,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:02.217Z"
 }

@@ -17,7 +17,33 @@
   "summary": "The Pombaline style was a Portuguese architectural style of the 18th century, named after Sebastião José de Carvalho e Melo, the first Marquês de Pombal, who was instrumental in reconstructing Lisbon after the earthquake of 1755.",
   "description": "The Pombaline style was a Portuguese architectural style of the 18th century, named after Sebastião José de Carvalho e Melo, the first Marquês de Pombal, who was instrumental in reconstructing Lisbon after the earthquake of 1755. Pombal supervised the plans drawn up by the military engineers Manuel da Maia, Eugénio dos Santos and Elias Sebastião Pope (later succeeded by Carlos Mardel). The new city (mostly the Baixa area now called Baixa Pombalina) was laid out on a grid plan with roads and pavements fixed at 40 ft wide (12 m). The previously standing Royal Palace was replaced with the Praça do Comércio which, along with square Rossio, defines the limits of the new city.\n\nMaia and Santos also outlined the form of the facades that were to line the streets, conceived on a hierarchical scheme whereby detail and size were delineated by the importance of the street. These were in a notably restrained Neoclassical style partly the result of limited funds and the urgency of building but also thanks to the enlightenment concept of architectural rationality adhered to by Pombal. A standardized system of decoration was applied both inside and out with a distinctively reduced application of azulejo tiling.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c4d4e3",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#aaa8a8",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#8a888a",
+      "name": "taupe"
+    },
+    {
+      "hex": "#6a6c70",
+      "name": "slate"
+    },
+    {
+      "hex": "#484948",
+      "name": "graphite"
+    },
+    {
+      "hex": "#222420",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/33852-Lisbon_%2836128680341%29.jpg/1280px-33852-Lisbon_%2836128680341%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/33852-Lisbon_%2836128680341%29.jpg/500px-33852-Lisbon_%2836128680341%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7f/33852-Lisbon_%2836128680341%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:33852-Lisbon_(36128680341).jpg",
+      "caption": "33852-Lisbon",
+      "source": "Wikimedia Commons",
+      "artist": "xiquinhosilva from Cacau",
+      "date": "2017-05-04 12:18",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "855"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Fachada1_Lisboa.JPG/1280px-Fachada1_Lisboa.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Fachada1_Lisboa.JPG/500px-Fachada1_Lisboa.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/02/Fachada1_Lisboa.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fachada1_Lisboa.JPG",
+      "caption": "Typical building in Baixa Pombalina in the Pombaline style",
+      "source": "Wikimedia Commons",
+      "artist": "User:Lusitana",
+      "date": "2005-12",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/View_of_Pal%C3%A1cio_Nacional_da_Pena-1453029.jpg/1280px-View_of_Pal%C3%A1cio_Nacional_da_Pena-1453029.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/View_of_Pal%C3%A1cio_Nacional_da_Pena-1453029.jpg/500px-View_of_Pal%C3%A1cio_Nacional_da_Pena-1453029.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6d/View_of_Pal%C3%A1cio_Nacional_da_Pena-1453029.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:View_of_Pal%C3%A1cio_Nacional_da_Pena-1453029.jpg",
+      "caption": "View of Palácio Nacional da Pena",
+      "source": "Wikimedia Commons",
+      "artist": "breakpoint",
+      "date": "2016-06-11",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "877"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Pombaline style",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3501291",
+      "url": "https://www.wikidata.org/wiki/Q3501291",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:23.870Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Pombaline style",
+      "url": "https://en.wikipedia.org/wiki/Pombaline_style",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:23.870Z"
+      }
+    }
+  ],
   "wikidata": "Q3501291",
   "wikipedia": "Pombaline style",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:00:23.870Z"
 }

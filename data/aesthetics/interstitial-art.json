@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q17092619",
+      "url": "https://www.wikidata.org/wiki/Q17092619",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:16.554Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Interstitial art",
+      "url": "https://en.wikipedia.org/wiki/Interstitial_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:16.554Z"
+      }
+    }
+  ],
   "wikidata": "Q17092619",
   "wikipedia": "Interstitial art",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:50:16.554Z"
 }

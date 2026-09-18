@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "China",
+  "geography": "China",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Sharawadgi or sharawaggi is a style of landscape gardening or architecture in which rigid lines and symmetry are avoided to give the scene an organic, naturalistic appearance.",
   "description": "Sharawadgi or sharawaggi is a style of landscape gardening or architecture in which rigid lines and symmetry are avoided to give the scene an organic, naturalistic appearance. This was supposedly a concept in the Chinese garden, and starting with Sir William Temple's essay Upon the gardens of Epicurus, may have been influential in English landscape gardening in the 18th century (Temple had in fact never visited China).  The reports from China of the Jesuit missionary, Father Attiret added to this. Sir William Temple first used the word \"sharawadgi\" in discussing the Chinese idea of beauty without order in garden design, in contrast to the straight lines, regularity, and symmetries then popular in the formal Baroque gardens of Europe, led by the French formal garden. The style indicates a certain irregularity in the design.\n\nThe term seems in fact to derive from a version of a Japanese word, though much scholarly effort has been devoted to trying to find a Chinese origin for it.  Irregular, non-geometric, planning is a strong feature of the design of many types of Chinese and indeed Japanese gardens, though less so in others, such as grand imperial palace gardens. Sharawadgi was defined in the 1980s as an \"artful irregularity in garden design and, more recently, in town planning\". The word inspired the coinage of the term \"sharawadji effect\" by composer Claude Schryer, which is used in relation to music and the listening experience.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#ded0af",
+      "name": "beige"
+    },
+    {
+      "hex": "#8e7656",
+      "name": "bronze"
+    },
+    {
+      "hex": "#bdb09b",
+      "name": "khaki"
+    },
+    {
+      "hex": "#a39072",
+      "name": "stone"
+    },
+    {
+      "hex": "#4a4011",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#e4e4e5",
+      "name": "paper white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Beautiful_Scene_of_the_Square_Pot.jpg/1280px-Beautiful_Scene_of_the_Square_Pot.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Beautiful_Scene_of_the_Square_Pot.jpg/500px-Beautiful_Scene_of_the_Square_Pot.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Beautiful_Scene_of_the_Square_Pot.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Beautiful_Scene_of_the_Square_Pot.jpg",
+      "caption": "​方壺勝景 fāng hú shèng jǐng",
+      "source": "Wikimedia Commons",
+      "artist": "(清) 唐岱、沈源，汪由敦.",
+      "date": "2011-12-20 07:55:43",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1286"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Kew_Gardens_Pagoda.jpg/1280px-Kew_Gardens_Pagoda.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Kew_Gardens_Pagoda.jpg/500px-Kew_Gardens_Pagoda.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Kew_Gardens_Pagoda.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kew_Gardens_Pagoda.jpg",
+      "caption": "Pagoda in Kew Gardens, London",
+      "source": "Wikimedia Commons",
+      "artist": "Targeman",
+      "date": "2006-04",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Sharawadgi",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16934191",
+      "url": "https://www.wikidata.org/wiki/Q16934191",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:14.224Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Sharawadgi",
+      "url": "https://en.wikipedia.org/wiki/Sharawadgi",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:14.224Z"
+      }
+    }
+  ],
   "wikidata": "Q16934191",
   "wikipedia": "Sharawadgi",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:54.482Z"
 }

@@ -10,8 +10,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Iran",
+  "geography": "Iran",
   "periodStart": "1960s",
   "periodEnd": "1970s",
   "startYear": 1969,
@@ -42,7 +42,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/9c7b0976-8396-5a6c-5437-40b83a38f1e7/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/9c7b0976-8396-5a6c-5437-40b83a38f1e7/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/9c7b0976-8396-5a6c-5437-40b83a38f1e7/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/106372",
+      "caption": "Turban Helmet, c. 1475–1500",
+      "source": "Art Institute of Chicago",
+      "artist": "Eastern Turkey or Western Iran",
+      "date": "c. 1475–1500",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1325"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Iranian New Wave",
@@ -65,7 +80,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3178754",
+      "url": "https://www.wikidata.org/wiki/Q3178754",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:21.037Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Iranian New Wave",
+      "url": "https://en.wikipedia.org/wiki/Iranian_New_Wave",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:21.037Z"
+      }
+    }
+  ],
   "wikidata": "Q3178754",
   "wikipedia": "Iranian New Wave",
   "popularity": 35,
@@ -73,5 +111,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.851Z"
 }

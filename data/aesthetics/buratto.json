@@ -17,7 +17,33 @@
   "summary": "Buratto is an Italian needle lace made by darning patterns onto a net.",
   "description": "Buratto is an Italian needle lace made by darning patterns onto a net. Buratto, meaning sieve or cheesecloth in Italian, refers to the net used. It is similar in appearance to filet lace however it is made using a woven net rather than a knotted net.  Buratto also tends to be heavier in appearance due to the woven nature of the netting used\n\nGrid patterns can be used to make buratto, each square representing a space in the net. Thread is woven into the net using a needle to make solid areas.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5d5447",
+      "name": "umber"
+    },
+    {
+      "hex": "#fefefe",
+      "name": "ivory"
+    },
+    {
+      "hex": "#7e6d59",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b59e83",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#4a3227",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#d9c4ac",
+      "name": "beige"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Italy%2C_16th_century_-_Chalice_Veil_with_Monogram_of_Christ_-_1920.1156_-_Cleveland_Museum_of_Art.tif/lossy-page1-1280px-Italy%2C_16th_century_-_Chalice_Veil_with_Monogram_of_Christ_-_1920.1156_-_Cleveland_Museum_of_Art.tif.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Italy%2C_16th_century_-_Chalice_Veil_with_Monogram_of_Christ_-_1920.1156_-_Cleveland_Museum_of_Art.tif/lossy-page1-1280px-Italy%2C_16th_century_-_Chalice_Veil_with_Monogram_of_Christ_-_1920.1156_-_Cleveland_Museum_of_Art.tif.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/66/Italy%2C_16th_century_-_Chalice_Veil_with_Monogram_of_Christ_-_1920.1156_-_Cleveland_Museum_of_Art.tif",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Italy,_16th_century_-_Chalice_Veil_with_Monogram_of_Christ_-_1920.1156_-_Cleveland_Museum_of_Art.tif",
+      "caption": "Lauren Maceross, a graduate student at Case Western Reserve University, has identified this as a veil used to cover the chalice that holds the wine until the moment of communion in a Catholic Mass. The central monogram abbreviates the name of Christ in Greek, surrounded by a circ",
+      "source": "Wikimedia Commons",
+      "date": "1500 date QS:P571,+1500-00-00T00:00:00Z/9",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1172"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BathingSuit1920s.jpg",
+      "caption": "Woman's bathing suit from 1920s. Photo postcard. No copyright notice on card. This is a SOL postcard, series 2832. Here is a larger example of the posted image.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "early 1920s date QS:P,+1920-00-00T00:00:00Z/8,P4241,Q4071972",
+      "license": "Public domain",
+      "width": "768",
+      "height": "490"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Buratto",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4998130",
+      "url": "https://www.wikidata.org/wiki/Q4998130",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:18.220Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Buratto",
+      "url": "https://en.wikipedia.org/wiki/Buratto",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:18.220Z"
+      }
+    }
+  ],
   "wikidata": "Q4998130",
   "wikipedia": "Buratto",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:39:18.220Z"
 }

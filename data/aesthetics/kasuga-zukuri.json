@@ -17,7 +17,33 @@
   "summary": "Kasuga-zukuri (春日造) is a traditional Shinto shrine architectural style which takes its name from Kasuga Taisha's honden.",
   "description": "Kasuga-zukuri (春日造) is a traditional Shinto shrine architectural style which takes its name from Kasuga Taisha's honden.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#492e23",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#201b16",
+      "name": "black"
+    },
+    {
+      "hex": "#4c5146",
+      "name": "graphite"
+    },
+    {
+      "hex": "#6e4631",
+      "name": "walnut brown 2"
+    },
+    {
+      "hex": "#736e63",
+      "name": "bronze"
+    },
+    {
+      "hex": "#8e8b81",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,60 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Udamikumari_Shr_Kami_detail.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Udamikumari_Shr_Kami_detail.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Udamikumari_Shr_Kami_detail.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Udamikumari_Shr_Kami_detail.jpg",
+      "caption": "Udamikumari Shrine Kamigu The main shrine of Udamikumari Shrine Kamigu (left) is jointed 3 shinto shrines in the Kasuga style, built in 1320 (the end of the Kamakura period), had Japanese national treasure status. Massha Kasuga Shrine (center) in the Kasuga style, built in the mi",
+      "source": "Wikimedia Commons",
+      "artist": "Udamikumari_Shr_Kami.jpg : Tawashi2006 derivative work: Urashimataro ( talk )",
+      "date": "2009-12-05 07:18",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "693",
+      "height": "526"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Hiraoka_Shrine_honden.jpeg/1280px-Hiraoka_Shrine_honden.jpeg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Hiraoka_Shrine_honden.jpeg/500px-Hiraoka_Shrine_honden.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/51/Hiraoka_Shrine_honden.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hiraoka_Shrine_honden.jpeg",
+      "caption": "the honden of Hiraoka Shrine, Higashiōsaka, Ōsaka, Japan w:ja:枚岡神社 本殿（大阪府東大阪市）",
+      "source": "Wikimedia Commons",
+      "artist": "nnh",
+      "date": "2006-07-09",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Hushimi-inari-taisha_honden.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Hushimi-inari-taisha_honden.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Hushimi-inari-taisha_honden.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hushimi-inari-taisha_honden.jpg",
+      "caption": "Main shrine ( honden ) of Fushimi Inari shrine",
+      "source": "Wikimedia Commons",
+      "artist": "ja:利用者:Stanislaus",
+      "date": "2004-03-27",
+      "license": "Public domain",
+      "width": "533",
+      "height": "400"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/500px-Himeji_model7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Himeji_model7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Himeji_model7.JPG",
+      "caption": "Himeji model7",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Kasuga-zukuri",
@@ -62,7 +141,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3193781",
+      "url": "https://www.wikidata.org/wiki/Q3193781",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:01.882Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Kasuga-zukuri",
+      "url": "https://en.wikipedia.org/wiki/Kasuga-zukuri",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:01.882Z"
+      }
+    }
+  ],
   "wikidata": "Q3193781",
   "wikipedia": "Kasuga-zukuri",
   "popularity": 35,
@@ -70,5 +172,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:52:01.882Z"
 }

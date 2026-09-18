@@ -17,7 +17,33 @@
   "summary": "Generative art is post-conceptual art that has been created (in whole or in part) with the use of an autonomous system.",
   "description": "Generative art is post-conceptual art that has been created (in whole or in part) with the use of an autonomous system. An autonomous system in this context is generally one that is non-human and can independently determine features of an artwork that would otherwise require decisions made directly by the artist. In some cases the human creator may claim that the generative system represents their own artistic idea, and in others that the system takes on the role of the creator.\n\n\"Generative art\" often refers to algorithmic art (algorithmically determined computer generated artwork) and synthetic media (general term for any algorithmically generated media), but artists can also make generative art using systems of chemistry, biology, mechanics and robotics, smart materials, manual randomization, mathematics, data mapping, symmetry, and tiling.\n\nGenerative algorithms, algorithms programmed to produce artistic works through predefined rules, stochastic methods, or procedural logic, often yielding dynamic, unique, and contextually adaptable outputs—are central to many of these practices.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#160f0c",
+      "name": "black"
+    },
+    {
+      "hex": "#c6cbd3",
+      "name": "silver"
+    },
+    {
+      "hex": "#e6edeb",
+      "name": "paper white"
+    },
+    {
+      "hex": "#778aaf",
+      "name": "slate"
+    },
+    {
+      "hex": "#a2abbd",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#332a28",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,62 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Dombis_1687.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/41/Dombis_1687.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/Dombis_1687.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dombis_1687.jpg",
+      "caption": "Irrationnal Geometrics",
+      "source": "Wikimedia Commons",
+      "artist": "Cracksinthestreet",
+      "date": "2008",
+      "license": "Public domain",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/10%27000_moving_cities_V3%2C_net-and-telepresence-based_installation%2C_2015.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e5/10%27000_moving_cities_V3%2C_net-and-telepresence-based_installation%2C_2015.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e5/10%27000_moving_cities_V3%2C_net-and-telepresence-based_installation%2C_2015.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:10%27000_moving_cities_V3,_net-and-telepresence-based_installation,_2015.jpg",
+      "caption": "10.000 Moving Cities – Same but Different, VR (Virtual Reality) is an interactive net-and-telepresence-based installation and deals with globalization, cities and ‘Non-Places’. Visitors can select any city, using a digital interface. About the chosen city, latest posts on social ",
+      "source": "Wikimedia Commons",
+      "artist": "Marc Lee",
+      "date": "2015-09-10",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "800",
+      "height": "450"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Astronaut_Riding_a_Horse_Picasso_and_Juan_Gris_%28FLUX_1.1_Pro%29.webp",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Astronaut_Riding_a_Horse_Picasso_and_Juan_Gris_%28FLUX_1.1_Pro%29.webp",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Astronaut_Riding_a_Horse_Picasso_and_Juan_Gris_%28FLUX_1.1_Pro%29.webp",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_Picasso_and_Juan_Gris_(FLUX_1.1_Pro).webp",
+      "caption": "A generative art of an astronaut riding a horse created in the style of Picasso and Juan Gris in Le Chat with Flux Pro. Prompt is an astronaut riding a horse, by Picasso and Juan Gris . This artwork was created with text-to-image (txt2img) process.",
+      "source": "Wikimedia Commons",
+      "artist": "VulcanSphere",
+      "date": "2024-12-22",
+      "license": "Public domain",
+      "width": "1024",
+      "height": "768"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Iapetus_1985.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Iapetus_1985.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Iapetus_1985.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Iapetus_1985.jpg",
+      "caption": "Sculpture métallique Sculpture et prise de vue par Jean-Max Albert",
+      "source": "Wikimedia Commons",
+      "artist": "Jean-Max Albert",
+      "date": "1985",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "850",
+      "height": "674"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Generative art",
@@ -62,7 +143,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1502032",
+      "url": "https://www.wikidata.org/wiki/Q1502032",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:24.932Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Generative art",
+      "url": "https://en.wikipedia.org/wiki/Generative_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:24.932Z"
+      }
+    }
+  ],
   "wikidata": "Q1502032",
   "wikipedia": "Generative art",
   "popularity": 35,
@@ -70,5 +174,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:46:24.932Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Japan",
+  "geography": "Japan",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Inuyama ware (犬山焼, Inuyama-yaki) is a type of Japanese pottery, stoneware, and ceramics produced in and around the municipality of Inuyama, Owari Province, in central Japan.",
   "description": "Inuyama ware (犬山焼, Inuyama-yaki) is a type of Japanese pottery, stoneware, and ceramics produced in and around the municipality of Inuyama, Owari Province, in central Japan.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fdfbf7",
+      "name": "ivory"
+    },
+    {
+      "hex": "#c2aa93",
+      "name": "khaki"
+    },
+    {
+      "hex": "#e5d2bc",
+      "name": "bone white"
+    },
+    {
+      "hex": "#5b4e47",
+      "name": "umber"
+    },
+    {
+      "hex": "#3b2f30",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#a58f7e",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,76 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Aichi_Prefectural_Ceramic_Museum_%2872%29.jpg/1280px-Aichi_Prefectural_Ceramic_Museum_%2872%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Aichi_Prefectural_Ceramic_Museum_%2872%29.jpg/500px-Aichi_Prefectural_Ceramic_Museum_%2872%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Aichi_Prefectural_Ceramic_Museum_%2872%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Aichi_Prefectural_Ceramic_Museum_(72).jpg",
+      "caption": "Bowl, overglaze enamels Inuyama ware Edo period, 19th century Aichi Prefectural Ceramic Museum (Gift of Mr. Kawasaki Otozo)",
+      "source": "Wikimedia Commons",
+      "artist": "Gryffindor",
+      "date": "2017-11-24 15:39:10",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1024"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Aichi_Prefectural_Ceramic_Museum_2018_%28133%29.jpg/1280px-Aichi_Prefectural_Ceramic_Museum_2018_%28133%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Aichi_Prefectural_Ceramic_Museum_2018_%28133%29.jpg/500px-Aichi_Prefectural_Ceramic_Museum_2018_%28133%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Aichi_Prefectural_Ceramic_Museum_2018_%28133%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Aichi_Prefectural_Ceramic_Museum_2018_(133).jpg",
+      "caption": "Water jar, decorated with flower and bird in overglaze enamels. Inuyama Edo period, 19th century Gift of Asai Fujio Aichi Prefectural Ceramic Museum",
+      "source": "Wikimedia Commons",
+      "artist": "Gryffindor",
+      "date": "2018-11-10 13:20:07",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1706"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Aichi_Prefectural_Ceramic_Museum_%2847%29.jpg/1280px-Aichi_Prefectural_Ceramic_Museum_%2847%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Aichi_Prefectural_Ceramic_Museum_%2847%29.jpg/500px-Aichi_Prefectural_Ceramic_Museum_%2847%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/90/Aichi_Prefectural_Ceramic_Museum_%2847%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Aichi_Prefectural_Ceramic_Museum_(47).jpg",
+      "caption": "Tea bowl, design of fans, brown glaze and overglaze enamels. Inuyama ware Meiji-Shōwa era, 20th century",
+      "source": "Wikimedia Commons",
+      "artist": "Gryffindor",
+      "date": "2017-11-24 15:32:58",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Hon%27ami_Koetsu_Fujisan_1.jpg/1280px-Hon%27ami_Koetsu_Fujisan_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Hon%27ami_Koetsu_Fujisan_1.jpg/500px-Hon%27ami_Koetsu_Fujisan_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Hon%27ami_Koetsu_Fujisan_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hon%27ami_Koetsu_Fujisan_1.jpg",
+      "caption": "Hon'ami Koetsu Fujisan 1",
+      "source": "Wikimedia Commons",
+      "artist": "retouch: Qurren ( talk ).",
+      "date": "unknown (before 1937-09-15)",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "959"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/NINSEI_Wisteria_TeaJar_MOA.JPG/1280px-NINSEI_Wisteria_TeaJar_MOA.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/NINSEI_Wisteria_TeaJar_MOA.JPG/500px-NINSEI_Wisteria_TeaJar_MOA.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cf/NINSEI_Wisteria_TeaJar_MOA.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:NINSEI_Wisteria_TeaJar_MOA.JPG",
+      "caption": "Tea-leaf jar with a design of wisteria, enamelware and gold and silver, height: 28.8 cm (11.3 in), bore diameter: 10.1 cm (4.0 in), trunk diameter: 27.3 cm (10.7 in), bottom diameter: 10.5 cm (4.1 in) MOA Museum, Atami, Shizuoka, Japan",
+      "source": "Wikimedia Commons",
+      "artist": "Association of Cultural Properties, Tokyo",
+      "date": "1952-03-30",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1459"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Inuyama ware",
@@ -62,7 +157,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q28154239",
+      "url": "https://www.wikidata.org/wiki/Q28154239",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:18.303Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Inuyama ware",
+      "url": "https://en.wikipedia.org/wiki/Inuyama_ware",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:18.303Z"
+      }
+    }
+  ],
   "wikidata": "Q28154239",
   "wikipedia": "Inuyama ware",
   "popularity": 35,
@@ -70,5 +188,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.876Z"
 }

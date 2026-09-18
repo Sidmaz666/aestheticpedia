@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "India",
+  "geography": "India",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Most Goan houses standing today were built between the 18th century and the early part of the 20th century.",
   "description": "Most Goan houses standing today were built between the 18th century and the early part of the 20th century. They display a mix of neo-Classic and neo-Gothic styles.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c8f9fb",
+      "name": "paper white"
+    },
+    {
+      "hex": "#b16f5b",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#ae8d78",
+      "name": "camel"
+    },
+    {
+      "hex": "#dbaca0",
+      "name": "blush"
+    },
+    {
+      "hex": "#3b3f2a",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#545462",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Costa_Residence_Margao.jpg/1280px-Costa_Residence_Margao.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Costa_Residence_Margao.jpg/500px-Costa_Residence_Margao.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Costa_Residence_Margao.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Costa_Residence_Margao.jpg",
+      "caption": "A Goan-Portuguese Noble House at Margao",
+      "source": "Wikimedia Commons",
+      "artist": "Portugal Editor Exploration",
+      "date": "2014-12-16",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "854"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Goan houses",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q25689202",
+      "url": "https://www.wikidata.org/wiki/Q25689202",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:12.399Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Goan houses",
+      "url": "https://en.wikipedia.org/wiki/Goan_houses",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:12.399Z"
+      }
+    }
+  ],
   "wikidata": "Q25689202",
   "wikipedia": "Goan houses",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.236Z"
 }

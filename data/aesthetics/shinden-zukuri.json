@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Japan",
+  "geography": "Japan",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Shinden-zukuri (寝殿造)  refers to an architectural style created in the Heian period (794－1185) in Japan and used mainly for palaces and residences of nobles.",
   "description": "Shinden-zukuri (寝殿造)  refers to an architectural style created in the Heian period (794－1185) in Japan and used mainly for palaces and residences of nobles.\n\nIn 894, Japan abolished the kentōshi (Japanese missions to Tang China), distanced itself from Chinese culture, and brought into bloom a culture called 'Kokufu bunka (lit., national culture), which was in keeping with the Japanese climate and aesthetic sense. This style was an expression of Kokufu bunka in architecture, clearly showing the uniqueness of Japanese architecture and defining the characteristics of later Japanese architecture. Its features include an open structure with few walls that can be opened and closed with doors, shitomi and sudare, a structure in which people take off their shoes and enter the house on stilts, sitting or sleeping directly on tatami mats without using chairs or beds, a roof made of laminated hinoki (Japanese cypress) bark instead of ceramic tiles, and a natural texture that is not painted on pillars.\n\nThis style reached its peak in the 10th to 11th century, but when the samurai class gained power in the Kamakura period (1185－1333), the buke-zukuri style became popular, and declined in the Muromachi period (1336－1573) due to the development of the shoin-zukuri style.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#7a5f41",
+      "name": "bronze"
+    },
+    {
+      "hex": "#614228",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#a17445",
+      "name": "bronze 2"
+    },
+    {
+      "hex": "#96846d",
+      "name": "stone"
+    },
+    {
+      "hex": "#c39668",
+      "name": "camel"
+    },
+    {
+      "hex": "#3f2717",
+      "name": "walnut brown 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,61 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Miniature_Model_of_HigashiSanjoDono.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/db/Miniature_Model_of_HigashiSanjoDono.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/db/Miniature_Model_of_HigashiSanjoDono.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Miniature_Model_of_HigashiSanjoDono.jpg",
+      "caption": "Miniature Model of the Higashi-Sanjō Dono in Kyoto.",
+      "source": "Wikimedia Commons",
+      "artist": "Wikiwikiyarou",
+      "date": "2007-06-09",
+      "license": "Public domain",
+      "width": "800",
+      "height": "580"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Saik%C5%AB_Historical_Museum_-_Display_item04_-_The_palace_of_Sai%C3%B4_-_Miniature_model.jpg/1280px-Saik%C5%AB_Historical_Museum_-_Display_item04_-_The_palace_of_Sai%C3%B4_-_Miniature_model.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Saik%C5%AB_Historical_Museum_-_Display_item04_-_The_palace_of_Sai%C3%B4_-_Miniature_model.jpg/500px-Saik%C5%AB_Historical_Museum_-_Display_item04_-_The_palace_of_Sai%C3%B4_-_Miniature_model.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Saik%C5%AB_Historical_Museum_-_Display_item04_-_The_palace_of_Sai%C3%B4_-_Miniature_model.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Saik%C5%AB_Historical_Museum_-_Display_item04_-_The_palace_of_Sai%C3%B4_-_Miniature_model.jpg",
+      "caption": "斎宮歴史博物館 展示物 斎王御殿 復元模型 1/15",
+      "source": "Wikimedia Commons",
+      "artist": "Yanajin33",
+      "date": "2014-05-31 11:02:58",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Saik%C5%AB_Historical_Museum_-_Display_item05_-_The_room_of_Sai%C3%B4.jpg/1280px-Saik%C5%AB_Historical_Museum_-_Display_item05_-_The_room_of_Sai%C3%B4.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Saik%C5%AB_Historical_Museum_-_Display_item05_-_The_room_of_Sai%C3%B4.jpg/500px-Saik%C5%AB_Historical_Museum_-_Display_item05_-_The_room_of_Sai%C3%B4.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Saik%C5%AB_Historical_Museum_-_Display_item05_-_The_room_of_Sai%C3%B4.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Saik%C5%AB_Historical_Museum_-_Display_item05_-_The_room_of_Sai%C3%B4.jpg",
+      "caption": "Room of the Saiō (Ise priest) at Saikū, late Heian period , museum reconstruction. The Saiō sits on a dais, with a byōbu behind her, a kichō to her left, and a boxlike chōdai to her right. Above and before her, a kabeshiro is rolled and tied up.",
+      "source": "Wikimedia Commons",
+      "artist": "Yanajin33",
+      "date": "2014-05-31 11:08:48",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/500px-Himeji_model7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Himeji_model7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Himeji_model7.JPG",
+      "caption": "Himeji model7",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Shinden-zukuri",
@@ -62,7 +142,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2975225",
+      "url": "https://www.wikidata.org/wiki/Q2975225",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:19.031Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Shinden-zukuri",
+      "url": "https://en.wikipedia.org/wiki/Shinden-zukuri",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:19.031Z"
+      }
+    }
+  ],
   "wikidata": "Q2975225",
   "wikipedia": "Shinden-zukuri",
   "popularity": 35,
@@ -70,5 +173,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:54.509Z"
 }

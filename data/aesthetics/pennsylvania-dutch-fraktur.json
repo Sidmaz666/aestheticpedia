@@ -81,35 +81,8 @@
   "graphicDesign": {},
   "uiTranslation": {},
   "recipe": {},
-  "emotionProfile": {
-    "warm": 50,
-    "cold": 50,
-    "playful": 50,
-    "serious": 50,
-    "chaotic": 50,
-    "ordered": 50,
-    "nostalgic": 50,
-    "futuristic": 50,
-    "peaceful": 50,
-    "ominous": 50
-  },
-  "dnaAxes": {
-    "minimal_maximal": 50,
-    "organic_geometric": 50,
-    "warm_cold": 50,
-    "natural_synthetic": 50,
-    "analog_digital": 50,
-    "historical_futuristic": 50,
-    "refined_raw": 50,
-    "playful_serious": 50,
-    "soft_harsh": 50,
-    "quiet_loud": 50,
-    "orderly_chaotic": 50,
-    "dense_spacious": 50,
-    "realistic_surreal": 50,
-    "elegant_utilitarian": 50,
-    "nostalgic_progressive": 50
-  },
+  "emotionProfile": {},
+  "dnaAxes": {},
   "keyExamples": [
     "Free Library of Philadelphia fraktur collection",
     "Schwenkfelder Library & Heritage Center",
@@ -214,24 +187,19 @@
         "status": 200,
         "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
+    }
+  ],
+  "audio": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Scripts_in_Europe_%281901%29.jpg/1280px-Scripts_in_Europe_%281901%29.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Scripts_in_Europe_%281901%29.jpg/500px-Scripts_in_Europe_%281901%29.jpg",
-      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/Scripts_in_Europe_%281901%29.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Scripts_in_Europe_(1901).jpg",
-      "caption": "The spread of main scripts in Europe. However the information shown on this map did not depict an accurate portrait of Fraktur usage in Europe at the time. It was in fact far less used than shown, as both Denmark and Norway had switched to using antiqua in a majority of publicati",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/De-Fraktur.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "De-Fraktur",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:De-Fraktur.ogg",
       "source": "Wikimedia Commons",
-      "artist": "own scan",
-      "date": "1901",
-      "license": "Public domain",
-      "width": "1280",
-      "height": "1066",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T09:36:05.056Z"
-      }
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "Sebastian Negraszus",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     }
   ],
   "sources": [

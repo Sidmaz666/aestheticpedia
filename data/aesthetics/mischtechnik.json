@@ -20,7 +20,33 @@
   "summary": "Mischtechnik or mixed technique is a term spanning various methods of layering paint, including the usage of different substances.",
   "description": "Mischtechnik or mixed technique is a term spanning various methods of layering paint, including the usage of different substances. The term gained popularity after Max Doerner's 1921 book The Materials of the Artist and Their Use in Painting: With Notes on the Techniques of the Old Masters However, Doerner made some conclusions about the usage by painters and Mischtechnik which today are no longer considered completely accurate.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#504d65",
+      "name": "graphite"
+    },
+    {
+      "hex": "#566286",
+      "name": "slate"
+    },
+    {
+      "hex": "#423849",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#905938",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b17f4d",
+      "name": "copper"
+    },
+    {
+      "hex": "#daa059",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,21 @@
   "tags": [
     "painting technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vincent_Willem_van_Gogh_107.jpg",
+      "caption": "\"Van Gogh painted this self-portrait in the winter of 1887–1888, when he had been living in Paris for nearly two years. Since his arrival in the city he had devoted much study to the dotted Pointillist technique, thereby learning how he might apply it in his own fashion. His use ",
+      "source": "Wikimedia Commons",
+      "artist": "Vincent van Gogh",
+      "date": "Winter 1887–1888",
+      "license": "Public domain",
+      "width": "1256",
+      "height": "1539"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Mischtechnik",
@@ -65,7 +105,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q17141444",
+      "url": "https://www.wikidata.org/wiki/Q17141444",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:11.992Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Mischtechnik",
+      "url": "https://en.wikipedia.org/wiki/Mischtechnik",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:11.992Z"
+      }
+    }
+  ],
   "wikidata": "Q17141444",
   "wikipedia": "Mischtechnik",
   "popularity": 35,
@@ -73,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:55:11.992Z"
 }

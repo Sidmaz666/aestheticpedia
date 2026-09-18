@@ -17,7 +17,33 @@
   "summary": "Heavy metal fashion is the style of dress, body modification, make-up, and hairstyle taken on by fans of heavy metal, or metalheads.",
   "description": "Heavy metal fashion is the style of dress, body modification, make-up, and hairstyle taken on by fans of heavy metal, or metalheads. While the style has changed from the 1970s to the 2020s, certain key elements have remained constant, such as black clothes, long hair and leather jackets. In the 1980s, some bands began wearing spandex. Other attire includes denim or leather vests or jackets with band patches and logos, t-shirts with band names, and spiked wristbands. Fans of heavier subgenres of metal tend to wear bullet belts, gas masks, and war gear.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#393533",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#5a463c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#171715",
+      "name": "black"
+    },
+    {
+      "hex": "#cbcac8",
+      "name": "silver"
+    },
+    {
+      "hex": "#777671",
+      "name": "slate"
+    },
+    {
+      "hex": "#8a5635",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,119 @@
   "tags": [
     "fashion style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/JudasPriest.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/09/JudasPriest.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/JudasPriest.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:JudasPriest.jpg",
+      "caption": "Judas Priest, in typical heavy metal attire, performing at the VH1 Rock Honors on May 25, 2006. Typical heavy metal fashion was pioneered by Judas Priest.",
+      "source": "Wikimedia Commons",
+      "artist": "Zach Petersen from Cedar Rapids, Iowa, USA",
+      "date": "2005-10-02 10:03",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Spike_band.JPG/1280px-Spike_band.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Spike_band.JPG/500px-Spike_band.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Spike_band.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Spike_band.JPG",
+      "caption": "A spike band",
+      "source": "Wikimedia Commons",
+      "artist": "Orlovic",
+      "date": "2007",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1300"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/4536c3e2-e07d-87f6-f4cb-0897f3ee445c/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/4536c3e2-e07d-87f6-f4cb-0897f3ee445c/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/4536c3e2-e07d-87f6-f4cb-0897f3ee445c/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/106279",
+      "caption": "Garniture for Field and Foot Tourney at the Barriers, c. 1575",
+      "source": "Art Institute of Chicago",
+      "artist": "Northern Italian, Milan",
+      "date": "c. 1575",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1155"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/710d0cb3-a1a5-cd82-014b-fc647d6a67b8/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/710d0cb3-a1a5-cd82-014b-fc647d6a67b8/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/710d0cb3-a1a5-cd82-014b-fc647d6a67b8/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/1905",
+      "caption": "Fragment, 1575/1625",
+      "source": "Art Institute of Chicago",
+      "artist": "Italy",
+      "date": "1575/1625",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1801"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/005f82e8-fe78-0395-c03f-894a246fb922/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/005f82e8-fe78-0395-c03f-894a246fb922/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/005f82e8-fe78-0395-c03f-894a246fb922/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/97907",
+      "caption": "A Mexican Vaquero, 1890",
+      "source": "Art Institute of Chicago",
+      "artist": "Frederic Remington (American, 1861–1909)",
+      "date": "1890",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1248"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/513678a8-6b70-d2f4-addc-3640b0e1191f/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/513678a8-6b70-d2f4-addc-3640b0e1191f/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/513678a8-6b70-d2f4-addc-3640b0e1191f/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/102777",
+      "caption": "Abigail Chesebrough (Mrs. Alexander Grant), 1754",
+      "source": "Art Institute of Chicago",
+      "artist": "Joseph Blackburn (English, active in British colonies in North America and Bermuda, 1752–64)",
+      "date": "1754",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1046"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/074c1b1b-fe92-01ce-9e62-cc99369142dd/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/074c1b1b-fe92-01ce-9e62-cc99369142dd/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/074c1b1b-fe92-01ce-9e62-cc99369142dd/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/4749",
+      "caption": "Mrs. George Swinton (Elizabeth Ebsworth), 1897",
+      "source": "Art Institute of Chicago",
+      "artist": "John Singer Sargent (American, 1856–1925)",
+      "date": "1897",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1587"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b74a8640-df4a-6e61-dcd9-0e54c23fbc66/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b74a8640-df4a-6e61-dcd9-0e54c23fbc66/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b74a8640-df4a-6e61-dcd9-0e54c23fbc66/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/24320",
+      "caption": "Collar (Made from Border), 1575/1625",
+      "source": "Art Institute of Chicago",
+      "artist": "Italy",
+      "date": "1575/1625",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "682"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Heavy metal fashion",
@@ -62,7 +200,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3084003",
+      "url": "https://www.wikidata.org/wiki/Q3084003",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:21.802Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Heavy metal fashion",
+      "url": "https://en.wikipedia.org/wiki/Heavy_metal_fashion",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:21.802Z"
+      }
+    }
+  ],
   "wikidata": "Q3084003",
   "wikipedia": "Heavy metal fashion",
   "popularity": 35,
@@ -70,5 +231,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:48:21.802Z"
 }

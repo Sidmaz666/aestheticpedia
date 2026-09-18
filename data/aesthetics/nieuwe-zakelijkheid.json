@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Netherlands",
+  "geography": "Netherlands",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Nieuwe Zakelijkheid, translated as New Objectivity or New Pragmatism, is a Dutch period of modernist architecture that started in the 1920s and continued into the 1930s.",
   "description": "Nieuwe Zakelijkheid, translated as New Objectivity or New Pragmatism, is a Dutch period of modernist architecture that started in the 1920s and continued into the 1930s. The term is also used to denote a (brief) period in art and literature (especially the early novels Blokken, Knorrende Beesten, and Bint by Ferdinand Bordewijk). Related to and descended from the German movement Neue Sachlichkeit, Nieuwe Zakelijkheid is characterized by angular shapes and designs that are generally free of ornamentation and decoration. The architecture is based on functional considerations and often includes open layouts that allow spaces to be used with flexibility. Sliding doors were included in some of the designs.\n\nThe movement is associated with Het Nieuwe Bouwen (new building) and was contemporary and related to cubism and De Stijl, and applies similar design principles to architecture. Dutch architects working in this style included Theo van Doesburg, Gerrit Rietveld, and J.J.P. Oud. The architectural style is similar to the artwork of Piet Mondrian, who was working contemporaneously with the architects. Common influences are also seen in furniture designs.\n\nSome critics associated the style with dogmatic Marxism or Capitalism, seeing in the buildings a reflection of the mass-produced values that comes with a focus on economy rather than craftsmanship.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#476fac",
+      "name": "cerulean"
+    },
+    {
+      "hex": "#62625b",
+      "name": "umber"
+    },
+    {
+      "hex": "#484843",
+      "name": "graphite"
+    },
+    {
+      "hex": "#aeaba3",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#81817b",
+      "name": "taupe"
+    },
+    {
+      "hex": "#5c84c6",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/COLLECTIE_TROPENMUSEUM_Luchtfoto_van_het_gebouw_van_de_NHM_in_Djakarta_Kota_TMnr_60054793.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8c/COLLECTIE_TROPENMUSEUM_Luchtfoto_van_het_gebouw_van_de_NHM_in_Djakarta_Kota_TMnr_60054793.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8c/COLLECTIE_TROPENMUSEUM_Luchtfoto_van_het_gebouw_van_de_NHM_in_Djakarta_Kota_TMnr_60054793.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Luchtfoto_van_het_gebouw_van_de_NHM_in_Djakarta_Kota_TMnr_60054793.jpg",
+      "caption": "Air photo of the NHM building at Djakarta's Kota area",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "between 1950 and 1960 date QS:P,+1950-00-00T00:00:00Z/7,P131",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "700",
+      "height": "536"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Nieuwe Zakelijkheid",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q17104714",
+      "url": "https://www.wikidata.org/wiki/Q17104714",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:05.421Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Nieuwe Zakelijkheid",
+      "url": "https://en.wikipedia.org/wiki/Nieuwe_Zakelijkheid",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:05.421Z"
+      }
+    }
+  ],
   "wikidata": "Q17104714",
   "wikipedia": "Nieuwe Zakelijkheid",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.891Z"
 }

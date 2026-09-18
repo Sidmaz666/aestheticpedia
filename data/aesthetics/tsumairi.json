@@ -20,7 +20,25 @@
   "summary": "Tsumairi or Tsumairi-zukuri (妻入・妻入造) is a Japanese traditional architectural structure where the building has its main entrance on one or both of the gabled sides (妻, tsuma).",
   "description": "Tsumairi or Tsumairi-zukuri (妻入・妻入造) is a Japanese traditional architectural structure where the building has its main entrance on one or both of the gabled sides (妻, tsuma). The kasuga-zukuri, taisha-zukuri, and sumiyoshi-zukuri Shinto architectural styles all belong to this type.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5b341c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#735840",
+      "name": "umber"
+    },
+    {
+      "hex": "#878072",
+      "name": "taupe"
+    },
+    {
+      "hex": "#2a170b",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +60,34 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Kawasaki%28Ise%29-01.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Kawasaki%28Ise%29-01.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Kawasaki%28Ise%29-01.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kawasaki(Ise)-01.JPG",
+      "caption": "Traditional private houses in Kawasaki, Ise-shi, Mie, Japan. The first and the third ones from the right have a gable roof (Kiriduma-dukuri). The second from the right has a roof with eaves below the gables (Iriomoya-dukuri). All three houses have a door on the gable end (Tsuma-i",
+      "source": "Wikimedia Commons",
+      "artist": "No machine-readable author provided. N yotarou assumed (based on copyright claims).",
+      "date": "30 September 2006 (original upload date)",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "704",
+      "height": "528"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/500px-Himeji_model7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Himeji_model7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Himeji_model7.JPG",
+      "caption": "Himeji model7",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Tsumairi",
@@ -65,7 +110,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7883237",
+      "url": "https://www.wikidata.org/wiki/Q7883237",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:01.389Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Tsumairi",
+      "url": "https://en.wikipedia.org/wiki/Tsumairi",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:01.389Z"
+      }
+    }
+  ],
   "wikidata": "Q7883237",
   "wikipedia": "Tsumairi",
   "popularity": 35,
@@ -73,5 +141,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:10:01.389Z"
 }

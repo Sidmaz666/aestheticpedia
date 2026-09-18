@@ -19,7 +19,33 @@
   "summary": "The brogue (from Scottish Gaelic bròg and Irish Gaelic bróg, both meaning \"shoe\") is a style of low-heeled shoe or boot traditionally characterised by multiple-piece, sturdy leather uppers with decorative perforations (or \"broguing\") and serration along the pieces' visible edges.",
   "description": "The brogue (from Scottish Gaelic bròg and Irish Gaelic bróg, both meaning \"shoe\") is a style of low-heeled shoe or boot traditionally characterised by multiple-piece, sturdy leather uppers with decorative perforations (or \"broguing\") and serration along the pieces' visible edges.\n\nBrogues were traditionally considered to be outdoor or country footwear, as the perforations were originally intended to allow the upper to dry more quickly in wet climates. As such, they were otherwise considered not appropriate for casual or business occasions, but brogues are now considered appropriate in most contexts. Brogues are most commonly found in one of four toe cap styles — full or \"wingtip\", semi-, quarter and longwing — and four closure styles, namely Oxford, Derby, ghillie, and monk. Today, as well as their typical form of sturdy leather shoes or boots, brogues may take the form of business dress shoes, sneakers, high-heeled women's shoes, or any other shoe form that utilises or evokes the multi-piece construction and perforated, serrated piece edges characteristic of brogues.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#cb985f",
+      "name": "camel"
+    },
+    {
+      "hex": "#a86e41",
+      "name": "copper"
+    },
+    {
+      "hex": "#664f51",
+      "name": "umber"
+    },
+    {
+      "hex": "#422e31",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#8b7f7c",
+      "name": "taupe"
+    },
+    {
+      "hex": "#d4ccbb",
+      "name": "beige"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,148 @@
   "tags": [
     "fashion style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Fullbrogue_%28Grenson%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Fullbrogue_%28Grenson%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Fullbrogue_%28Grenson%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fullbrogue_(Grenson).jpg",
+      "caption": "Beschreibung, was ist zu sehen/hören?",
+      "source": "Wikimedia Commons",
+      "artist": "Rainer Ersfeld",
+      "date": "2005-09",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1141",
+      "height": "1077"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Halfbrogue_%28Grenson%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/82/Halfbrogue_%28Grenson%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/82/Halfbrogue_%28Grenson%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Halfbrogue_(Grenson).jpg",
+      "caption": "Halfbrogue (Grenson)",
+      "source": "Wikimedia Commons",
+      "artist": "Rainer Ersfeld",
+      "date": "2005-09",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "784",
+      "height": "723"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Acorn_captoes_side.JPG/1280px-Acorn_captoes_side.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Acorn_captoes_side.JPG/500px-Acorn_captoes_side.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Acorn_captoes_side.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Acorn_captoes_side.JPG",
+      "caption": "Men's acorn colored, cap toe, quarter brogue oxfords.",
+      "source": "Wikimedia Commons",
+      "artist": "ASuitableWardrobe",
+      "date": "2006-03-26",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "1011"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Illu-fullbrouge-longwing-s.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/20/Illu-fullbrouge-longwing-s.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/20/Illu-fullbrouge-longwing-s.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Illu-fullbrouge-longwing-s.png",
+      "caption": "Picture/Illustration of a Fullbrogue Longwing (shoe)",
+      "source": "Wikimedia Commons",
+      "artist": "Tim Keding",
+      "date": "05.08.2009",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "698",
+      "height": "564"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Oxford_full_brogue_spectator_shoes.jpg/1280px-Oxford_full_brogue_spectator_shoes.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Oxford_full_brogue_spectator_shoes.jpg/500px-Oxford_full_brogue_spectator_shoes.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/31/Oxford_full_brogue_spectator_shoes.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Oxford_full_brogue_spectator_shoes.jpg",
+      "caption": "Men's circa 1930s full brogue (or wingtip) oxford spectator shoes",
+      "source": "Wikimedia Commons",
+      "artist": "Sobebunny",
+      "date": "2009-01-22",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1167"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ghillie_Brogues.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ghillie_Brogues.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ghillie_Brogues.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ghillie_Brogues.jpg",
+      "caption": "Men's full brogue ghillie shoes",
+      "source": "Wikimedia Commons",
+      "artist": "Sbaitz",
+      "date": "2009-05-23",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1265",
+      "height": "1177"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Shoes_MET_CI53.76.23ab.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/48/Shoes_MET_CI53.76.23ab.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/Shoes_MET_CI53.76.23ab.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Shoes_MET_CI53.76.23ab.jpg",
+      "caption": "French; Shoes;",
+      "source": "Wikimedia Commons",
+      "artist": "Pierre Yantorny",
+      "date": "1914–19",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1040",
+      "height": "728"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Trickers_Stow_boots_in_burnished_expresso.jpg/1280px-Trickers_Stow_boots_in_burnished_expresso.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Trickers_Stow_boots_in_burnished_expresso.jpg/500px-Trickers_Stow_boots_in_burnished_expresso.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/df/Trickers_Stow_boots_in_burnished_expresso.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Trickers_Stow_boots_in_burnished_expresso.jpg",
+      "caption": "A pair of Tricker's Stow country boots in burnished expresso leather with commando soles",
+      "source": "Wikimedia Commons",
+      "artist": "Nick-D",
+      "date": "2019-06-02 13:00:39",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "962"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Tasselloafer.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/36/Tasselloafer.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/36/Tasselloafer.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tasselloafer.jpg",
+      "caption": "Schwarze Tasselloafer, Detail Ziersenkel",
+      "source": "Wikimedia Commons",
+      "artist": "The County Clerk auf Flickr",
+      "date": "2008-04-30",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1024",
+      "height": "768"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/First_Minister_is_sworn_in_at_the_Court_of_Session_%28cropped%29.jpg/1280px-First_Minister_is_sworn_in_at_the_Court_of_Session_%28cropped%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/First_Minister_is_sworn_in_at_the_Court_of_Session_%28cropped%29.jpg/500px-First_Minister_is_sworn_in_at_the_Court_of_Session_%28cropped%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d4/First_Minister_is_sworn_in_at_the_Court_of_Session_%28cropped%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:First_Minister_is_sworn_in_at_the_Court_of_Session_(cropped).jpg",
+      "caption": "First Minister is sworn in at the Court of Session",
+      "source": "Wikimedia Commons",
+      "artist": "Scottish Government",
+      "date": "2026-05-20 09:34:36",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "2305"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Brogue shoe",
@@ -64,7 +231,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4845639",
+      "url": "https://www.wikidata.org/wiki/Q4845639",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:12.511Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Brogue shoe",
+      "url": "https://en.wikipedia.org/wiki/Brogue_shoe",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:12.511Z"
+      }
+    }
+  ],
   "wikidata": "Q4845639",
   "wikipedia": "Brogue shoe",
   "popularity": 35,
@@ -72,5 +262,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:39:12.511Z"
 }

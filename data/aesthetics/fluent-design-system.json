@@ -21,7 +21,25 @@
   "summary": "Fluent Design System (codenamed \"Project Neon\") is a design language developed in 2017 by Microsoft.",
   "description": "Fluent Design System (codenamed \"Project Neon\") is a design language developed in 2017 by Microsoft. Fluent Design is a revamp of Microsoft Design Language 2 (\"Metro\") that includes guidelines for the designs and interactions used within software designed for the company's Windows 10 and Windows 11 devices and platforms. The system is based on five key components: light, depth, motion, material, and scale. The new design language includes more prominent use of motion, depth, and translucency effects.\n\nThe transition to Fluent is a long-term project; aspects of the design started appearing in Windows 10 beginning with the \"Fall Creators Update\" released in October 2017, as well as an update to the Xbox One system software released alongside it. It was later revealed to be designed in conjunction with Windows 10X, in addition to Windows 11 which has a similar design.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#89afcb",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#f8f8f8",
+      "name": "ivory"
+    },
+    {
+      "hex": "#c6a185",
+      "name": "khaki"
+    },
+    {
+      "hex": "#c6d0d7",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +61,91 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Fluent_design_light_mode.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Fluent_design_light_mode.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Fluent_design_light_mode.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fluent_design_light_mode.png",
+      "caption": "Screenshot of Notepad and Calculator in light mode",
+      "source": "Wikimedia Commons",
+      "artist": "Microsoft",
+      "date": "2023-01-23",
+      "license": "Public domain",
+      "width": "850",
+      "height": "680"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Reveal_Highlight.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Reveal_Highlight.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Reveal_Highlight.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Reveal_Highlight.png",
+      "caption": "A graphical representation of Microsoft's Fluent Design Reveal Highlight.",
+      "source": "Wikimedia Commons",
+      "artist": "Hstoops",
+      "date": "2022-10-24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "750",
+      "height": "550"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Reveal_Focus.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Reveal_Focus.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Reveal_Focus.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Reveal_Focus.png",
+      "caption": "A graphical representation of Microsoft's Fluent Design Reveal Focus.",
+      "source": "Wikimedia Commons",
+      "artist": "Hstoops",
+      "date": "2022-10-24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "750",
+      "height": "550"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Acrylic_Material.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/67/Acrylic_Material.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/67/Acrylic_Material.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Acrylic_Material.png",
+      "caption": "A graphical representation of Microsoft's Fluent Design Acrylic Material.",
+      "source": "Wikimedia Commons",
+      "artist": "Hstoops",
+      "date": "2022-10-24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "750",
+      "height": "550"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Mica_Material.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/82/Mica_Material.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/82/Mica_Material.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mica_Material.png",
+      "caption": "A graphical representation of Microsoft's Fluent Design Mica Material.",
+      "source": "Wikimedia Commons",
+      "artist": "Hstoops",
+      "date": "2022-10-24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "750",
+      "height": "550"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Smoke_Material.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Smoke_Material.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Smoke_Material.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Smoke_Material.png",
+      "caption": "A graphical representation of Microsoft's Fluent Design Smoke Material",
+      "source": "Wikimedia Commons",
+      "artist": "Hstoops",
+      "date": "2022-10-24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "750",
+      "height": "550"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Fluent Design System",
@@ -66,7 +168,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q29900635",
+      "url": "https://www.wikidata.org/wiki/Q29900635",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:27.878Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Fluent Design System",
+      "url": "https://en.wikipedia.org/wiki/Fluent_Design_System",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:27.878Z"
+      }
+    }
+  ],
   "wikidata": "Q29900635",
   "wikipedia": "Fluent Design System",
   "popularity": 35,
@@ -74,5 +199,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:45:27.878Z"
 }

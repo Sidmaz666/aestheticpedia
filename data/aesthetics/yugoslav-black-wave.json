@@ -17,7 +17,33 @@
   "summary": "Yugoslav Black Wave (also referred to as Black Wave; Serbo-Croatian: Crni val / Црни вал or Crni talas / Црни талас) is a blanket term for a Yugoslav film and broader cultural movement starting from the early 1960s and ending in the early 1970s.",
   "description": "Yugoslav Black Wave (also referred to as Black Wave; Serbo-Croatian: Crni val / Црни вал or Crni talas / Црни талас) is a blanket term for a Yugoslav film and broader cultural movement starting from the early 1960s and ending in the early 1970s. Notable directors include Dušan Makavejev, Žika Pavlović, Aleksandar Petrović, Želimir Žilnik, Mika Antić, Lordan Zafranović, Mića Popović, Đorđe Kadijević and Marko Babac. Black Wave films are known for their non-traditional approach to filmmaking, dark humor and their critical examination of socialist Yugoslav society.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#546568",
+      "name": "graphite"
+    },
+    {
+      "hex": "#031818",
+      "name": "black"
+    },
+    {
+      "hex": "#354848",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#708085",
+      "name": "slate"
+    },
+    {
+      "hex": "#8a99a2",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#a5b4c2",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Ranko_Munitic_%281943-2009%29%2C_standing%2C_with_Zelimir_Zilnik_%26_Dusan_Makavejev%2C_TVNS_1989.jpg/1280px-Ranko_Munitic_%281943-2009%29%2C_standing%2C_with_Zelimir_Zilnik_%26_Dusan_Makavejev%2C_TVNS_1989.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Ranko_Munitic_%281943-2009%29%2C_standing%2C_with_Zelimir_Zilnik_%26_Dusan_Makavejev%2C_TVNS_1989.jpg/500px-Ranko_Munitic_%281943-2009%29%2C_standing%2C_with_Zelimir_Zilnik_%26_Dusan_Makavejev%2C_TVNS_1989.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/95/Ranko_Munitic_%281943-2009%29%2C_standing%2C_with_Zelimir_Zilnik_%26_Dusan_Makavejev%2C_TVNS_1989.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ranko_Munitic_(1943-2009),_standing,_with_Zelimir_Zilnik_%26_Dusan_Makavejev,_TVNS_1989.jpg",
+      "caption": "Ranko Munitić (1943-2009), standing, with Želimir Žilnik & Dušan Makavejev, TVNS 1989",
+      "source": "Wikimedia Commons",
+      "artist": "Centar za medije \"Ranko Munitic\", Belgrade, Serbia",
+      "date": "2011-01-21 10:37:46",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "891"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Yugoslav Black Wave",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2330738",
+      "url": "https://www.wikidata.org/wiki/Q2330738",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:14.757Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Yugoslav Black Wave",
+      "url": "https://en.wikipedia.org/wiki/Yugoslav_Black_Wave",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:14.757Z"
+      }
+    }
+  ],
   "wikidata": "Q2330738",
   "wikipedia": "Yugoslav Black Wave",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:12:14.757Z"
 }

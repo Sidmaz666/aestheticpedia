@@ -17,7 +17,33 @@
   "summary": "Psychogeography is the exploration of urban environments that emphasizes interpersonal connections to places and arbitrary routes.",
   "description": "Psychogeography is the exploration of urban environments that emphasizes interpersonal connections to places and arbitrary routes. It was developed by members of the Letterist International and Situationist International, which were revolutionary groups influenced by Marxist and anarchist theory as well as the attitudes and methods of Dadaists and Surrealists.\n\nIn 1955, Guy Debord defined psychogeography as \"the study of the precise laws and specific effects of the geographical environment, consciously organized or not, on the emotions and behavior of individuals.\" The key tactic for exploring psychogeography is the loosely defined urban walking practice known as the dérive. As a practice and theory, psychogeography has influenced a broad set of cultural actors, including artists, activists and academics.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#979797",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#dedede",
+      "name": "bone white"
+    },
+    {
+      "hex": "#b2b2b2",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#7c7c7c",
+      "name": "taupe"
+    },
+    {
+      "hex": "#626262",
+      "name": "umber"
+    },
+    {
+      "hex": "#484848",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Situationist.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/66/Situationist.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/66/Situationist.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Situationist.jpg",
+      "caption": "Situationist grafitti, Menton, France, 2006 (the 1968 slogan Il est interdit d’interdire ! , “It is forbidden to forbid!”, with missing apostrophe).",
+      "source": "Wikimedia Commons",
+      "artist": "Espencat",
+      "date": "2008-04-20",
+      "license": "Public domain",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/CHINTREUIL_-_Le_Boulot_blanc.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/45/CHINTREUIL_-_Le_Boulot_blanc.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/45/CHINTREUIL_-_Le_Boulot_blanc.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:CHINTREUIL_-_Le_Boulot_blanc.JPG",
+      "caption": "CHINTREUIL - Le Boulot blanc",
+      "source": "Wikimedia Commons",
+      "artist": "Antoine Chintreuil",
+      "date": "4 October 2008 (upload date)",
+      "license": "Public domain",
+      "width": "1078",
+      "height": "1646"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Psychogeography",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2115993",
+      "url": "https://www.wikidata.org/wiki/Q2115993",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:18.652Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Psychogeography",
+      "url": "https://en.wikipedia.org/wiki/Psychogeography",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:18.652Z"
+      }
+    }
+  ],
   "wikidata": "Q2115993",
   "wikipedia": "Psychogeography",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:01:18.652Z"
 }

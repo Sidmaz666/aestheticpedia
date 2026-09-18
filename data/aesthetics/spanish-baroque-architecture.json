@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Spain",
+  "geography": "Spain",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -19,7 +19,33 @@
   "summary": "Spanish Baroque is a strand of Baroque architecture that evolved in Spain, its provinces, and former colonies.",
   "description": "Spanish Baroque is a strand of Baroque architecture that evolved in Spain, its provinces, and former colonies.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c6d9ee",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#6d93c7",
+      "name": "slate"
+    },
+    {
+      "hex": "#796858",
+      "name": "bronze"
+    },
+    {
+      "hex": "#a68865",
+      "name": "camel"
+    },
+    {
+      "hex": "#594d41",
+      "name": "umber"
+    },
+    {
+      "hex": "#8e8c86",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,148 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Royal_Palace_of_Madrid_02.jpg/1280px-Royal_Palace_of_Madrid_02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Royal_Palace_of_Madrid_02.jpg/500px-Royal_Palace_of_Madrid_02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Royal_Palace_of_Madrid_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Royal_Palace_of_Madrid_02.jpg",
+      "caption": "Courtyard of the Royal Palace of Madrid , Spain",
+      "source": "Wikimedia Commons",
+      "artist": "Bernard Gagnon",
+      "date": "2009-09-22",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "670"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Metropolitan_Cathedral_of_Mexico_City_2015_03.jpg/1280px-Metropolitan_Cathedral_of_Mexico_City_2015_03.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Metropolitan_Cathedral_of_Mexico_City_2015_03.jpg/500px-Metropolitan_Cathedral_of_Mexico_City_2015_03.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Metropolitan_Cathedral_of_Mexico_City_2015_03.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Metropolitan_Cathedral_of_Mexico_City_2015_03.jpg",
+      "caption": "Metropolitan Cathedral of Mexico City, Mexico City, Mexico.",
+      "source": "Wikimedia Commons",
+      "artist": "Photograph by Mike Peel ( www.mikepeel.net ).",
+      "date": "2015-07-14 17:54:07",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Salamanca_-_Plaza_Mayor_%2813347610863%29_edited.jpg/1280px-Salamanca_-_Plaza_Mayor_%2813347610863%29_edited.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Salamanca_-_Plaza_Mayor_%2813347610863%29_edited.jpg/500px-Salamanca_-_Plaza_Mayor_%2813347610863%29_edited.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/90/Salamanca_-_Plaza_Mayor_%2813347610863%29_edited.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Salamanca_-_Plaza_Mayor_(13347610863)_edited.jpg",
+      "caption": "Salamanca - Plaza Mayor",
+      "source": "Wikimedia Commons",
+      "artist": "muffinn",
+      "date": "2014-01-23 16:54:42",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1280",
+      "height": "605"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Catedral_de_Santiago_de_Compostela_agosto_2018_%28cropped%29.jpg/1280px-Catedral_de_Santiago_de_Compostela_agosto_2018_%28cropped%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Catedral_de_Santiago_de_Compostela_agosto_2018_%28cropped%29.jpg/500px-Catedral_de_Santiago_de_Compostela_agosto_2018_%28cropped%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Catedral_de_Santiago_de_Compostela_agosto_2018_%28cropped%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_Santiago_de_Compostela_agosto_2018_(cropped).jpg",
+      "caption": "Imagen en agosto de 2018 de la fachada principal de la catedral de Santiago de Compostela.",
+      "source": "Wikimedia Commons",
+      "artist": "stephenD",
+      "date": "2018-08-04",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Palacio_de_San_Telmo_%281681-1796%29.jpg/1280px-Palacio_de_San_Telmo_%281681-1796%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Palacio_de_San_Telmo_%281681-1796%29.jpg/500px-Palacio_de_San_Telmo_%281681-1796%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/23/Palacio_de_San_Telmo_%281681-1796%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Palacio_de_San_Telmo_(1681-1796).jpg",
+      "caption": "Sede del Excelentísimo Señor Presidente de la Junta de Andalucía.",
+      "source": "Wikimedia Commons",
+      "artist": "José Luis Filpo Cabana",
+      "date": "2010-05",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "720"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Val%C3%A8ncia%2C_Museo_Nacional_de_Cer%C3%A1mica_Palacio_Marques_Dos_Aguas-PM_51835.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Val%C3%A8ncia%2C_Museo_Nacional_de_Cer%C3%A1mica_Palacio_Marques_Dos_Aguas-PM_51835.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Val%C3%A8ncia%2C_Museo_Nacional_de_Cer%C3%A1mica_Palacio_Marques_Dos_Aguas-PM_51835.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Val%C3%A8ncia,_Museo_Nacional_de_Cer%C3%A1mica_Palacio_Marques_Dos_Aguas-PM_51835.jpg",
+      "caption": "Cultural Heritage Spain",
+      "source": "Wikimedia Commons",
+      "artist": "PMRMaeyaert",
+      "date": "2010-07-17",
+      "license": "CC BY-SA 3.0 es",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/es/deed.en",
+      "width": "607",
+      "height": "1000"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Kathedrale.Murcia.Spanien.JPG/1280px-Kathedrale.Murcia.Spanien.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Kathedrale.Murcia.Spanien.JPG/500px-Kathedrale.Murcia.Spanien.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/Kathedrale.Murcia.Spanien.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kathedrale.Murcia.Spanien.JPG",
+      "caption": "the cathedral of Murcia in Spain",
+      "source": "Wikimedia Commons",
+      "artist": "Claudia H",
+      "date": "1 September 2007, 15:30:13 (according to Exif data)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Catedral%2C_Arquitectura_Colonial%2C_Zacatecas_%2816461248359%29.jpg/1280px-Catedral%2C_Arquitectura_Colonial%2C_Zacatecas_%2816461248359%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Catedral%2C_Arquitectura_Colonial%2C_Zacatecas_%2816461248359%29.jpg/500px-Catedral%2C_Arquitectura_Colonial%2C_Zacatecas_%2816461248359%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/96/Catedral%2C_Arquitectura_Colonial%2C_Zacatecas_%2816461248359%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Catedral,_Arquitectura_Colonial,_Zacatecas_(16461248359).jpg",
+      "caption": "Catedral, Arquitectura Colonial, Zacatecas",
+      "source": "Wikimedia Commons",
+      "artist": "Comisión Mexicana de Filmaciones from México D. F., México",
+      "date": "2007-06-12 20:51",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "857"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Quito-La_Compania-01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Quito-La_Compania-01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Quito-La_Compania-01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Quito-La_Compania-01.jpg",
+      "caption": "Iglesia de la Compañía de Jesús (1535~1630), Quito, Ecuador.",
+      "source": "Wikimedia Commons",
+      "artist": "Alfredo Chaves",
+      "date": "2004-04",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1200",
+      "height": "1600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Ru%C3%ADnas_1.jpg/1280px-Ru%C3%ADnas_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Ru%C3%ADnas_1.jpg/500px-Ru%C3%ADnas_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Ru%C3%ADnas_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ru%C3%ADnas_1.jpg",
+      "caption": "This is a photo of a monument in Brazil identified by the ID",
+      "source": "Wikimedia Commons",
+      "artist": "Ian Storni Machado",
+      "date": "2015-05-02 15:32:30",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "833"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Spanish Baroque architecture",
@@ -64,7 +231,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7573157",
+      "url": "https://www.wikidata.org/wiki/Q7573157",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:20.655Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Spanish Baroque architecture",
+      "url": "https://en.wikipedia.org/wiki/Spanish_Baroque_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:20.655Z"
+      }
+    }
+  ],
   "wikidata": "Q7573157",
   "wikipedia": "Spanish Baroque architecture",
   "popularity": 35,
@@ -72,5 +262,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:54.478Z"
 }

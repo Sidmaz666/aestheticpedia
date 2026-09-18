@@ -17,7 +17,33 @@
   "summary": "The Serbo-Byzantine architectural style or Vardar architectural school (or \"style\"), is an ecclesiastical architectural style that flourished in the Serbian Late Middle Ages (ca.",
   "description": "The Serbo-Byzantine architectural style or Vardar architectural school (or \"style\"), is an ecclesiastical architectural style that flourished in the Serbian Late Middle Ages (ca. 1300–1389), during the reign of the Nemanjić dynasty. It was developed through fusing contemporary Byzantine architecture and the Raška architectural school to form a new style; by the mid-14th century the Serbian state had expanded to include southern Macedonia, Epirus and Thessaly up to the Aegean Sea. On these new territories Serbian art was even more influenced by the Byzantine art tradition. The architectural school was also promoted as a counter to the dominance of Western styles such as Neo-Baroque.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#585835",
+      "name": "umber"
+    },
+    {
+      "hex": "#d0cfce",
+      "name": "bone white"
+    },
+    {
+      "hex": "#827564",
+      "name": "bronze"
+    },
+    {
+      "hex": "#6a98d4",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#9cbcdf",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#3c332a",
+      "name": "aubergine"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Gra%C4%8Danica_Monastery%2C_Kosovo.JPG/1280px-Gra%C4%8Danica_Monastery%2C_Kosovo.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Gra%C4%8Danica_Monastery%2C_Kosovo.JPG/500px-Gra%C4%8Danica_Monastery%2C_Kosovo.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Gra%C4%8Danica_Monastery%2C_Kosovo.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gra%C4%8Danica_Monastery,_Kosovo.JPG",
+      "caption": "Gračanica Monastery, Kosovo",
+      "source": "Wikimedia Commons",
+      "artist": "Pudelek (Marcin Szala)",
+      "date": "2012-08",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "913"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Manastir_Visoki_De%C4%8Dani_%28%D0%9C%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%80_%D0%92%D0%B8%D1%81%D0%BE%D0%BA%D0%B8_%D0%94%D0%B5%D1%87%D0%B0%D0%BD%D0%B8%29_-_by_Pudelek..jpg/1280px-Manastir_Visoki_De%C4%8Dani_%28%D0%9C%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%80_%D0%92%D0%B8%D1%81%D0%BE%D0%BA%D0%B8_%D0%94%D0%B5%D1%87%D0%B0%D0%BD%D0%B8%29_-_by_Pudelek..jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Manastir_Visoki_De%C4%8Dani_%28%D0%9C%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%80_%D0%92%D0%B8%D1%81%D0%BE%D0%BA%D0%B8_%D0%94%D0%B5%D1%87%D0%B0%D0%BD%D0%B8%29_-_by_Pudelek..jpg/500px-Manastir_Visoki_De%C4%8Dani_%28%D0%9C%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%80_%D0%92%D0%B8%D1%81%D0%BE%D0%BA%D0%B8_%D0%94%D0%B5%D1%87%D0%B0%D0%BD%D0%B8%29_-_by_Pudelek..jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Manastir_Visoki_De%C4%8Dani_%28%D0%9C%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%80_%D0%92%D0%B8%D1%81%D0%BE%D0%BA%D0%B8_%D0%94%D0%B5%D1%87%D0%B0%D0%BD%D0%B8%29_-_by_Pudelek..jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Manastir_Visoki_De%C4%8Dani_(%D0%9C%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%80_%D0%92%D0%B8%D1%81%D0%BE%D0%BA%D0%B8_%D0%94%D0%B5%D1%87%D0%B0%D0%BD%D0%B8)_-_by_Pudelek..jpg",
+      "caption": "Visoki Dečani Monastery, Kosovo",
+      "source": "Wikimedia Commons",
+      "artist": "Pudelek (Marcin Szala)",
+      "date": "2012-08",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1024"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Serbo-Byzantine architecture",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1810654",
+      "url": "https://www.wikidata.org/wiki/Q1810654",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:05.710Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Serbo-Byzantine architecture",
+      "url": "https://en.wikipedia.org/wiki/Serbo-Byzantine_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:05.710Z"
+      }
+    }
+  ],
   "wikidata": "Q1810654",
   "wikipedia": "Serbo-Byzantine architecture",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:05:05.710Z"
 }

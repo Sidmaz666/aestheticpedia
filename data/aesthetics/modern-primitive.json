@@ -17,7 +17,33 @@
   "summary": "Modern primitives or urban primitives are adherents of an alternative subculture in developed, Western countries who engage in body modification rituals and practices inspired by the ceremonies, rites of passage, or bodily ornamentation in what they consider \"traditional\", non-Western cultures.",
   "description": "Modern primitives or urban primitives are adherents of an alternative subculture in developed, Western countries who engage in body modification rituals and practices inspired by the ceremonies, rites of passage, or bodily ornamentation in what they consider \"traditional\", non-Western cultures. These practices may include body piercing, tattooing, play piercing, flesh hook suspension, corset training, scarification, branding, penile subincision, and cutting.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#15100d",
+      "name": "black"
+    },
+    {
+      "hex": "#496b78",
+      "name": "slate"
+    },
+    {
+      "hex": "#302f2c",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#5b6847",
+      "name": "umber"
+    },
+    {
+      "hex": "#334e58",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#aa6c64",
+      "name": "dusty rose"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Scarification_by_Lestyn_Flye.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Scarification_by_Lestyn_Flye.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Scarification_by_Lestyn_Flye.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Scarification_by_Lestyn_Flye.jpg",
+      "caption": "Scarification by Iestyn Flye",
+      "source": "Wikimedia Commons",
+      "artist": "Ning Chang",
+      "date": "2010-10-22",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1024",
+      "height": "683"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Arnizsanz.jpg/1280px-Arnizsanz.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Arnizsanz.jpg/500px-Arnizsanz.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Arnizsanz.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Arnizsanz.jpg",
+      "caption": "Detalle del rostro tatuado de Juan Carlos Arniz Sanz. En El Puerto de Santa María , España, 2013.",
+      "source": "Wikimedia Commons",
+      "artist": "Juan Carlos Arniz Sanz",
+      "date": "2013",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "896"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Modern primitive",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1942010",
+      "url": "https://www.wikidata.org/wiki/Q1942010",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:19.311Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Modern primitive",
+      "url": "https://en.wikipedia.org/wiki/Modern_primitive",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:19.311Z"
+      }
+    }
+  ],
   "wikidata": "Q1942010",
   "wikipedia": "Modern primitive",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:55:19.311Z"
 }

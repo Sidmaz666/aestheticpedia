@@ -9,15 +9,41 @@
   "confidence": 60,
   "origin": "",
   "geography": "",
-  "periodStart": "",
+  "periodStart": "1990s",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 1990,
   "endYear": null,
-  "era": "",
+  "era": "1990s",
   "summary": "Utopian scholastic is a kitsch aesthetic based upon the visual identity of edutainment media produced from the late 1980s to late 1990s, such as nonfiction books (especially the Eyewitness series), multimedia encyclopedias on CD-ROM, documentaries, scientific communication programs, and open educational resources (OER).",
   "description": "Utopian scholastic is a kitsch aesthetic based upon the visual identity of edutainment media produced from the late 1980s to late 1990s, such as nonfiction books (especially the Eyewitness series), multimedia encyclopedias on CD-ROM, documentaries, scientific communication programs, and open educational resources (OER).\n\nThis aesthetic often incorporates animals, historical imagery, planets and other celestial objects, and other things that are associated with education.\n\nThe term was first coined in 2017 by the Facebook group \"utopian scholastic designs from a pre-9/11 world\", as a spin-off from the Global Village Coffeehouse group. These groups would later evolve into the more centralized Consumer Aesthetics Research Institute.\n\nIn the mid-2020s, this niche style of cultural study has been revisited as a response to anti-intellectualism through the understanding of the role of universal exhibitions' total artwork and cabinets of curiosities' encyclopedic knowledge in the development of steampunk, cyberpunk, vaporwave, and solarpunk nostalgia retrowave.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#010c74",
+      "name": "navy"
+    },
+    {
+      "hex": "#110d0c",
+      "name": "black"
+    },
+    {
+      "hex": "#e5d8d5",
+      "name": "bone white"
+    },
+    {
+      "hex": "#b0a4a0",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#735f57",
+      "name": "umber"
+    },
+    {
+      "hex": "#082ea0",
+      "name": "cobalt"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,35 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Frankfurta_librofoiro_2012_eldonejo_DK.JPG/1280px-Frankfurta_librofoiro_2012_eldonejo_DK.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Frankfurta_librofoiro_2012_eldonejo_DK.JPG/500px-Frankfurta_librofoiro_2012_eldonejo_DK.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Frankfurta_librofoiro_2012_eldonejo_DK.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Frankfurta_librofoiro_2012_eldonejo_DK.JPG",
+      "caption": "stando de la eldonejo DK ( Dorling Kindersley ) en la Frankfurta librofoiro 2012",
+      "source": "Wikimedia Commons",
+      "artist": "Thomas Pusch",
+      "date": "2012-10-14",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Mandel_zoom_00_mandelbrot_set.jpg/1280px-Mandel_zoom_00_mandelbrot_set.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Mandel_zoom_00_mandelbrot_set.jpg/500px-Mandel_zoom_00_mandelbrot_set.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/21/Mandel_zoom_00_mandelbrot_set.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mandel_zoom_00_mandelbrot_set.jpg",
+      "caption": "Mandelbrot set . Initial image of a zoom sequence: Mandelbrot set with continuously colored environment. Coordinates of the center: Re(c) = -.7, Im(c) = 0 Horizontal diameter of the image: 3.076,9 Created by Wolfgang Beyer with the program Ultra Fractal 3 . Uploaded by the creato",
+      "source": "Wikimedia Commons",
+      "artist": "Created by Wolfgang Beyer with the program Ultra Fractal 3 .",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Utopian scholastic",
@@ -62,7 +116,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q137661927",
+      "url": "https://www.wikidata.org/wiki/Q137661927",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:14.926Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Utopian scholastic",
+      "url": "https://en.wikipedia.org/wiki/Utopian_scholastic",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:14.926Z"
+      }
+    }
+  ],
   "wikidata": "Q137661927",
   "wikipedia": "Utopian scholastic",
   "popularity": 35,
@@ -70,5 +147,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:06.011Z"
 }

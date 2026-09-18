@@ -17,7 +17,33 @@
   "summary": "The Pacific lodge style of architecture is based loosely on vague notions of cedar lodges and log cabin dwellings of early inhabitants of the Pacific Northwest region of the United States and Canada.",
   "description": "The Pacific lodge style of architecture is based loosely on vague notions of cedar lodges and log cabin dwellings of early inhabitants of the Pacific Northwest region of the United States and Canada. This style can be seen in historic National Park hotels, such as the Lake Quinault Lodge, and in the houses of some wealthier Seattleites of the timber baron era. However, most early Seattleites preferred to mimic the accepted styles of the East; to this day, historical pastiches remain more popular throughout the region.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#989692",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#807f7b",
+      "name": "taupe"
+    },
+    {
+      "hex": "#656363",
+      "name": "umber"
+    },
+    {
+      "hex": "#39add8",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#486027",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#66c2d9",
+      "name": "sky blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Chateau-Oregon-Caves-1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/29/Chateau-Oregon-Caves-1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/Chateau-Oregon-Caves-1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chateau-Oregon-Caves-1.jpg",
+      "caption": "The Oregon Caves Chateau at Oregon Caves National Monument , Oregon , United States .",
+      "source": "Wikimedia Commons",
+      "artist": "Jess Stryker, http://historic-hotels-lodges.com JessStryker at en.wikipedia",
+      "date": "5 May 2007 (original upload date)",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Big_single-family_home_2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/af/Big_single-family_home_2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/af/Big_single-family_home_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Big_single-family_home_2.jpg",
+      "caption": "Big single-family home",
+      "source": "Wikimedia Commons",
+      "artist": "SanjibLemar",
+      "license": "Public domain",
+      "width": "800",
+      "height": "604"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Pacific lodge",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3360219",
+      "url": "https://www.wikidata.org/wiki/Q3360219",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:12.368Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Pacific lodge",
+      "url": "https://en.wikipedia.org/wiki/Pacific_lodge",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:12.368Z"
+      }
+    }
+  ],
   "wikidata": "Q3360219",
   "wikipedia": "Pacific lodge",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:59:12.368Z"
 }

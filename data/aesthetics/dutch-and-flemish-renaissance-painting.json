@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Low Countries",
+  "geography": "Low Countries",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Dutch and Flemish Renaissance painting represents the 16th-century response to Italian Renaissance art in the Low Countries, as well as many continuities with the preceding Early Netherlandish painting.",
   "description": "Dutch and Flemish Renaissance painting represents the 16th-century response to Italian Renaissance art in the Low Countries, as well as many continuities with the preceding Early Netherlandish painting. The period spans from the Antwerp Mannerists and Hieronymus Bosch at the start of the 16th century to the late Northern Mannerists such as Hendrik Goltzius and Joachim Wtewael at the end. Artists drew on both the recent innovations of Italian painting and the local traditions of the Early Netherlandish artists.\n\nAntwerp was the most important artistic centre in the region. Many artists worked for European courts, including Bosch, whose fantastic painted images left a long legacy. Jan Mabuse, Maarten van Heemskerck and Frans Floris were all instrumental in adopting Italian models and incorporating them into their own artistic language. Pieter Brueghel the Elder, with Bosch the only artist from the period to remain widely familiar, may seem atypical, but in fact his many innovations drew on the fertile artistic scene in Antwerp.\n\nDutch and Flemish painters were also instrumental in establishing new subjects such as landscape painting and genre painting. Joachim Patinir, for example, played an important role in developing landscape painting, inventing the compositional type of the world landscape, which was perfected by Pieter Bruegel the Elder who, followed by Pieter Aertsen, also helped popularise genre painting. From the mid-century Pieter Aertsen, later followed by his nephew Joachim Beuckelaer, established a type of \"monumental still life\" featuring large spreads of food with genre figures, and in the background small religious of moral scenes. Like the world landscapes, these represented a typically \"Mannerist inversion\" of the normal decorum of the hierarchy of genres, giving the \"lower\" subject matter more space than the \"higher\". Anthonis Mor was the leading portraitist of the mid-century, in demand in courts all over Europe for his reliable portraits in a style that combined Netherlandish precision with the lessons of Titian and other Italian painters.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#332a1c",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#13100d",
+      "name": "black"
+    },
+    {
+      "hex": "#50462a",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#a8aa89",
+      "name": "sage"
+    },
+    {
+      "hex": "#6f5f37",
+      "name": "umber"
+    },
+    {
+      "hex": "#828c72",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,117 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bruegel%2C_Pieter_de_Oude_-_De_val_van_icarus_-_hi_res.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bruegel%2C_Pieter_de_Oude_-_De_val_van_icarus_-_hi_res.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bruegel%2C_Pieter_de_Oude_-_De_val_van_icarus_-_hi_res.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bruegel,_Pieter_de_Oude_-_De_val_van_icarus_-_hi_res.jpg",
+      "caption": "Landscape with the Fall of Icarus",
+      "source": "Wikimedia Commons",
+      "artist": "After Miep Gies",
+      "date": "from 1582 until 1625 date QS:P,+1500-00-00T00:00:00Z/6,P580,",
+      "license": "Public domain",
+      "width": "1143",
+      "height": "755"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Hieronymus_Bosch_-_The_Garden_of_Earthly_Delights_-_Hell.jpg/1280px-Hieronymus_Bosch_-_The_Garden_of_Earthly_Delights_-_Hell.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Hieronymus_Bosch_-_The_Garden_of_Earthly_Delights_-_Hell.jpg/500px-Hieronymus_Bosch_-_The_Garden_of_Earthly_Delights_-_Hell.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/17/Hieronymus_Bosch_-_The_Garden_of_Earthly_Delights_-_Hell.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_-_The_Garden_of_Earthly_Delights_-_Hell.jpg",
+      "caption": "The Garden of Earthly Delights , inner right wing ( Hell ).",
+      "source": "Wikimedia Commons",
+      "artist": "Hieronymus Bosch",
+      "date": "between 1480 and 1505 date QS:P571,+1500-00-00T00:00:00Z/6,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "3113"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Janvanscorel.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Janvanscorel.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Janvanscorel.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Janvanscorel.jpg",
+      "caption": "Portrait attributed to Jan Van Scorel (1495-1562), possibly of Cornelis Aerentsz van der Dussen (1481-1551), Secretary of Delft from 1536.",
+      "source": "Wikimedia Commons",
+      "artist": "Attributed to Jan van Scorel",
+      "date": "between 1535 and 1540 date QS:P571,+1550-00-00T00:00:00Z/7,P",
+      "license": "Public domain",
+      "width": "539",
+      "height": "709"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/086f1a92-1a07-1805-3321-d238009fcda0/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/086f1a92-1a07-1805-3321-d238009fcda0/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/086f1a92-1a07-1805-3321-d238009fcda0/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/62460",
+      "caption": "The Terrace, c. 1660",
+      "source": "Art Institute of Chicago",
+      "artist": "Dutch; Delft",
+      "date": "c. 1660",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1039"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/474d2283-78fc-1dbe-1d45-f67908f69033/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/474d2283-78fc-1dbe-1d45-f67908f69033/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/474d2283-78fc-1dbe-1d45-f67908f69033/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/56133",
+      "caption": "Christ on the Cross, c. 1580–c. 1600",
+      "source": "Art Institute of Chicago",
+      "artist": "Flemish",
+      "date": "c. 1580–c. 1600",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1061"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/0c840df0-6d98-46d2-9828-b23ddcd34081/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/0c840df0-6d98-46d2-9828-b23ddcd34081/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/0c840df0-6d98-46d2-9828-b23ddcd34081/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/39851",
+      "caption": "Philip the Good, Duke of Burgundy; Isabelle of Bourbon (?), 1510–30",
+      "source": "Art Institute of Chicago",
+      "artist": "Flemish",
+      "date": "1510–30",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "546"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/530e3441-5178-f017-e519-6e6a8d996eb9/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/530e3441-5178-f017-e519-6e6a8d996eb9/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/530e3441-5178-f017-e519-6e6a8d996eb9/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/51430",
+      "caption": "Aeolus and the Winds, 1600–1700",
+      "source": "Art Institute of Chicago",
+      "artist": "Flemish",
+      "date": "1600–1700",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1027"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/5efa3af7-3e68-29c9-f63b-f4ca41951e22/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/5efa3af7-3e68-29c9-f63b-f4ca41951e22/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/5efa3af7-3e68-29c9-f63b-f4ca41951e22/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/111078",
+      "caption": "Portrait of a Man, c. 1575",
+      "source": "Art Institute of Chicago",
+      "artist": "Flemish",
+      "date": "c. 1575",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1173"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Dutch and Flemish Renaissance painting",
@@ -62,7 +198,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2632089",
+      "url": "https://www.wikidata.org/wiki/Q2632089",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:26.851Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Dutch and Flemish Renaissance painting",
+      "url": "https://en.wikipedia.org/wiki/Dutch_and_Flemish_Renaissance_painting",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:26.851Z"
+      }
+    }
+  ],
   "wikidata": "Q2632089",
   "wikipedia": "Dutch and Flemish Renaissance painting",
   "popularity": 35,
@@ -70,5 +229,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:05.484Z"
 }

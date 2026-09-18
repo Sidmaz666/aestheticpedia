@@ -10,17 +10,39 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
-  "periodStart": "",
+  "origin": "Kubota Domain, Japan",
+  "geography": "Kubota Domain, Japan",
+  "periodStart": "Edo period",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 1603,
   "endYear": null,
-  "era": "",
+  "era": "17th century",
   "summary": "Akita ranga (秋田蘭画), also known as the Akita-ha (秋田派), was a short-lived school of painting within the larger Japanese genre of ranga, or Dutch-style painting which lasted roughly from 1773 to 1780.",
   "description": "Akita ranga (秋田蘭画), also known as the Akita-ha (秋田派), was a short-lived school of painting within the larger Japanese genre of ranga, or Dutch-style painting which lasted roughly from 1773 to 1780. Based in Kubota Domain, a feudal domain, in the Tōhoku region of Honshū, northern Japan, in what is now Akita Prefecture, it was headed by the domain's lord Satake Shozan and his retainer Odano Naotake. Though many ranga artists, most prominently Shiba Kōkan, produced works on European themes, the Akita painters for the most part painted traditional Japanese themes and compositions using Western-style techniques and an approximation of oil paints.\n\nSome of the chief features that distinguish Akita ranga from traditional Japanese painting (nihonga) are the inclusion of shadows, the use of perspective, reflections in water, and the use of blue for sky and sea. In addition, ranga artists left little or no blank space on a work, emulating Western art traditions and going against East Asian ones, and used oils and resins in addition to Japanese pigments to simulate the appearance of oil paint. Many of their works feature a large foreground subject which displays techniques in light and shadow, with a small, distant, landscape, displaying an understanding of perspective projection techniques.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#ddc296",
+      "name": "beige"
+    },
+    {
+      "hex": "#c6a77e",
+      "name": "sand"
+    },
+    {
+      "hex": "#9d8b6b",
+      "name": "stone"
+    },
+    {
+      "hex": "#706852",
+      "name": "umber"
+    },
+    {
+      "hex": "#4d4d40",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +64,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Naotake1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Naotake1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Naotake1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Naotake1.jpg",
+      "caption": "不忍池（The Shinobazuike）98.5×132.5cm 絹本着色（Color on silk）",
+      "source": "Wikimedia Commons",
+      "artist": "Odano Naotake（1750-1780）,Samurai Artist of Akita ranga",
+      "date": "1770s date QS:P,+1770-00-00T00:00:00Z/8",
+      "license": "Public domain",
+      "width": "771",
+      "height": "577"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Akita ranga",
@@ -65,7 +101,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1000039",
+      "url": "https://www.wikidata.org/wiki/Q1000039",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:02.139Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Akita ranga",
+      "url": "https://en.wikipedia.org/wiki/Akita_ranga",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:02.139Z"
+      }
+    }
+  ],
   "wikidata": "Q1000039",
   "wikipedia": "Akita ranga",
   "popularity": 35,
@@ -73,5 +132,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.736Z"
 }

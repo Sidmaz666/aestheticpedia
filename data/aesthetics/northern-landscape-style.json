@@ -17,7 +17,25 @@
   "summary": "The northern landscape style (Chinese: 北宗画; pinyin: běi zōng huà) was a manner of Chinese landscape painting centered on a loose group of artists who worked and lived in Northern China during the Five Dynasties period that occupied the time between the collapse of the Tang dynasty and the rise of the Song.",
   "description": "The northern landscape style (Chinese: 北宗画; pinyin: běi zōng huà) was a manner of Chinese landscape painting centered on a loose group of artists who worked and lived in Northern China during the Five Dynasties period that occupied the time between the collapse of the Tang dynasty and the rise of the Song. The style stands in opposition to the Southern School of Chinese painting.\n\nThis style, in retrospect, focuses around the development of a distinct tradition of landscape painting in China. At the beginning of this brief period there was no clear image of how landscape painting would be realised. At its end there existed an idea of a national style.\n\nThis style is considered to be founded by Jing Hao who was among the first distinctive masters of landscape. His styles were propagated by his pupil Guan Tong, who in turn influenced Northern Song painters such as Li Cheng and Fan Kuan. Li Cheng uses the dramatic high mountain composition of Jing Hao and Guan Tong. Later his style was enshrined within the artistic orthodoxy of Northern Song dynasty. Guo Xi, patronized by Emperor Shenzong, had his name joined to name the Li-Guo school. The tradition the two men created is the classical, imperially sanctioned, official canon of Song Landscape painting.\n\nLi Cheng was also influenced by the southern Jiangnan Landscape style. Juran travelled to the Song court around 975. Li Cheng's combination of the northern and southern styles is as if it were a microcosm symbolic of the physical reunification of China under the Song dynasty. Later Dong Qichang would find it useful to contrast the Jiangnan style and the Northern Landscape style in order to support his theories. However, his writings ignore the heavy influence both played on the formation of the artistic tradition in the Song and the subsequent dynasties.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#896d38",
+      "name": "bronze"
+    },
+    {
+      "hex": "#68532c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#a38142",
+      "name": "copper"
+    },
+    {
+      "hex": "#46391f",
+      "name": "walnut brown 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +57,35 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Li_Cheng._Reading_Stele_Nest_Stone_10c._Osaka%2C_Municipal_museum..jpg/1280px-Li_Cheng._Reading_Stele_Nest_Stone_10c._Osaka%2C_Municipal_museum..jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Li_Cheng._Reading_Stele_Nest_Stone_10c._Osaka%2C_Municipal_museum..jpg/500px-Li_Cheng._Reading_Stele_Nest_Stone_10c._Osaka%2C_Municipal_museum..jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Li_Cheng._Reading_Stele_Nest_Stone_10c._Osaka%2C_Municipal_museum..jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Li_Cheng._Reading_Stele_Nest_Stone_10c._Osaka,_Municipal_museum..jpg",
+      "caption": "Li_Cheng._Reading_Stele_Nest_Stone_10c._Osaka,_Municipal__museum",
+      "source": "Wikimedia Commons",
+      "artist": "Li_Cheng._",
+      "date": "10 th century date QS:P,+950-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1704"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/82b1ac6e-de4e-7e80-6bd8-e1f1bb0cb889/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/82b1ac6e-de4e-7e80-6bd8-e1f1bb0cb889/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/82b1ac6e-de4e-7e80-6bd8-e1f1bb0cb889/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/102098",
+      "caption": "Phaeton Driving the Chariot of Phoebus, 1475–1500",
+      "source": "Art Institute of Chicago",
+      "artist": "Northern Italian; possibly Verona",
+      "date": "1475–1500",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "854"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Northern landscape style",
@@ -62,7 +108,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16934127",
+      "url": "https://www.wikidata.org/wiki/Q16934127",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:10.308Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Northern landscape style",
+      "url": "https://en.wikipedia.org/wiki/Northern_landscape_style",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:10.308Z"
+      }
+    }
+  ],
   "wikidata": "Q16934127",
   "wikipedia": "Northern landscape style",
   "popularity": 35,
@@ -70,5 +139,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:58:10.308Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Japan",
+  "geography": "Japan",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Minka (Japanese: 民家; lit. 'folk houses'), sometimes called kominka (古民家; lit.",
   "description": "Minka (Japanese: 民家; lit. 'folk houses'), sometimes called kominka (古民家; lit. 'old folk houses') are vernacular houses constructed in any one of several traditional Japanese building styles.\n\nIn the context of the four divisions of society, Minka were the dwellings of farmers, artisans, and merchants (i.e., the three non-samurai castes). This connotation no longer exists in the modern Japanese language, and any traditional Japanese-style residence of appropriate age could be referred to as Minka.\n\nMinka are characterized by their basic structure, their roof structure, and their roof shape. Minka developed through history with distinctive styles emerging in the Edo period.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1a1814",
+      "name": "black"
+    },
+    {
+      "hex": "#393326",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#58542e",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#96836c",
+      "name": "stone"
+    },
+    {
+      "hex": "#726656",
+      "name": "umber"
+    },
+    {
+      "hex": "#b49b7f",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,145 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Shirakawago_Japanese_Old_Village_001.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Shirakawago_Japanese_Old_Village_001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Shirakawago_Japanese_Old_Village_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Shirakawago_Japanese_Old_Village_001.jpg",
+      "caption": "Shirakawago in Gifu Pref,Japan. Shirakawago include Japanese World Heritage site Historic Villages of Shirakawa-go and Gokayama .",
+      "source": "Wikimedia Commons",
+      "artist": "Yosemite",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Okugame_minka.jpg/1280px-Okugame_minka.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Okugame_minka.jpg/500px-Okugame_minka.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Okugame_minka.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Okugame_minka.jpg",
+      "caption": "Traditional Japanese farmhouse in Okugame",
+      "source": "Wikimedia Commons",
+      "artist": "ThermostatMan2",
+      "date": "2017-05-28 14:20:47",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "956"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Gassho-zukuri_farmhouse-03.jpg/1280px-Gassho-zukuri_farmhouse-03.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Gassho-zukuri_farmhouse-03.jpg/500px-Gassho-zukuri_farmhouse-03.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/Gassho-zukuri_farmhouse-03.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gassho-zukuri_farmhouse-03.jpg",
+      "caption": "Gassho-zukuri Wada House, Ogimachi Village, Shirakawa-go, Gifu Prefecture, Japan",
+      "source": "Wikimedia Commons",
+      "artist": "Bernard Gagnon",
+      "date": "2008-04-06",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Gassho-zukuri_farmhouse-02.jpg/1280px-Gassho-zukuri_farmhouse-02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Gassho-zukuri_farmhouse-02.jpg/500px-Gassho-zukuri_farmhouse-02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Gassho-zukuri_farmhouse-02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gassho-zukuri_farmhouse-02.jpg",
+      "caption": "Gassho-zukuri farmhouse, Ogimachi Village, Shirakawa-go, Gifu Prefecture, Japan",
+      "source": "Wikimedia Commons",
+      "artist": "Bernard Gagnon",
+      "date": "2008-04-06",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "929"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/%E7%A5%9E%E6%88%B8%E5%B8%82%E5%8C%97%E5%8C%BA%E5%8C%97%E5%83%A7%E5%B0%BE%E3%81%AE%E5%8F%A4%E6%B0%91%E5%AE%B6P9149865.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2f/%E7%A5%9E%E6%88%B8%E5%B8%82%E5%8C%97%E5%8C%BA%E5%8C%97%E5%83%A7%E5%B0%BE%E3%81%AE%E5%8F%A4%E6%B0%91%E5%AE%B6P9149865.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2f/%E7%A5%9E%E6%88%B8%E5%B8%82%E5%8C%97%E5%8C%BA%E5%8C%97%E5%83%A7%E5%B0%BE%E3%81%AE%E5%8F%A4%E6%B0%91%E5%AE%B6P9149865.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%E7%A5%9E%E6%88%B8%E5%B8%82%E5%8C%97%E5%8C%BA%E5%8C%97%E5%83%A7%E5%B0%BE%E3%81%AE%E5%8F%A4%E6%B0%91%E5%AE%B6P9149865.jpg",
+      "caption": "神戸市北区北僧尾の古民家",
+      "source": "Wikimedia Commons",
+      "artist": "Akiyoshi's Room",
+      "date": "2007-09-14",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Udatsu_closeup.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Udatsu_closeup.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Udatsu_closeup.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Udatsu_closeup.jpg",
+      "caption": "うだつのクローズアップ cropped with Finepix Viewer.",
+      "source": "Wikimedia Commons",
+      "artist": "Sakurai Midori",
+      "date": "2005-12-17",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "933",
+      "height": "660"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Gokayama_Japanese_Old_Village_002.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/db/Gokayama_Japanese_Old_Village_002.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/db/Gokayama_Japanese_Old_Village_002.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gokayama_Japanese_Old_Village_002.jpg",
+      "caption": "Gokayama Old Villeage in Japan. Gokayama include Japanese World Heritage site Historic Villages of Shirakawa-go and Gokayama .",
+      "source": "Wikimedia Commons",
+      "artist": "Yosemite",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Shirakawa-go_-_Shirakawa156.jpg/1280px-Shirakawa-go_-_Shirakawa156.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Shirakawa-go_-_Shirakawa156.jpg/500px-Shirakawa-go_-_Shirakawa156.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Shirakawa-go_-_Shirakawa156.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Shirakawa-go_-_Shirakawa156.jpg",
+      "caption": "Interior of a traditional gassho-zukuri farmhouse, showing the steep thatched roof framework bound with rope.",
+      "source": "Wikimedia Commons",
+      "artist": "lumoplank",
+      "date": "2023-10-21",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Japanese_Traditional_Hearth_L4817.jpg/1280px-Japanese_Traditional_Hearth_L4817.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Japanese_Traditional_Hearth_L4817.jpg/500px-Japanese_Traditional_Hearth_L4817.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/19/Japanese_Traditional_Hearth_L4817.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Traditional_Hearth_L4817.jpg",
+      "caption": "This photograph shows the hearth in a traditional Japanese house .",
+      "source": "Wikimedia Commons",
+      "artist": "No machine-readable author provided. Fg2 assumed (based on copyright claims).",
+      "date": "11 November 2005 (original upload date)",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Kabuto_Kazari_-01.jpg/1280px-Kabuto_Kazari_-01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Kabuto_Kazari_-01.jpg/500px-Kabuto_Kazari_-01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Kabuto_Kazari_-01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kabuto_Kazari_-01.jpg",
+      "caption": "The Kabuto Kazari. Kodomono-hi on May 5. This located is Chigasaki-satoyama park in Chigasaki , Kanagawa , Japan .",
+      "source": "Wikimedia Commons",
+      "artist": "Aimaimyi",
+      "date": "2010-05-05",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Minka",
@@ -62,7 +226,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q935445",
+      "url": "https://www.wikidata.org/wiki/Q935445",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:09.814Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Minka",
+      "url": "https://en.wikipedia.org/wiki/Minka",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:09.814Z"
+      }
+    }
+  ],
   "wikidata": "Q935445",
   "wikipedia": "Minka",
   "popularity": 35,
@@ -70,5 +257,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.397Z"
 }

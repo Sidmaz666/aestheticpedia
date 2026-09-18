@@ -43,7 +43,34 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Durer%2C_vita_della_vergine_03.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/99/Durer%2C_vita_della_vergine_03.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/99/Durer%2C_vita_della_vergine_03.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Durer,_vita_della_vergine_03.jpg",
+      "caption": "meeting of Joachim and Anne at the Golden Gate",
+      "source": "Wikimedia Commons",
+      "artist": "Albrecht Dürer",
+      "date": "1504",
+      "license": "Public domain",
+      "width": "650",
+      "height": "908"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/D%C3%BCrer_Alte_Pinakothek.jpg/1280px-D%C3%BCrer_Alte_Pinakothek.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/D%C3%BCrer_Alte_Pinakothek.jpg/500px-D%C3%BCrer_Alte_Pinakothek.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/40/D%C3%BCrer_Alte_Pinakothek.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:D%C3%BCrer_Alte_Pinakothek.jpg",
+      "caption": "Frontal portrait with idealization comparable to depictions of Christ; emphasized gaze and the creative hand as tools of the artist",
+      "source": "Wikimedia Commons",
+      "artist": "Albrecht Dürer",
+      "date": "1500",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1805"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Joachim and Anne Meeting at the Golden Gate (Dürer)",
@@ -66,7 +93,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4127688",
+      "url": "https://www.wikidata.org/wiki/Q4127688",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:18.279Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Joachim and Anne Meeting at the Golden Gate (Dürer)",
+      "url": "https://en.wikipedia.org/wiki/Joachim_and_Anne_Meeting_at_the_Golden_Gate_(D%C3%BCrer)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:18.279Z"
+      }
+    }
+  ],
   "wikidata": "Q4127688",
   "wikipedia": "Joachim and Anne Meeting at the Golden Gate (Dürer)",
   "popularity": 35,
@@ -74,5 +124,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:51:18.279Z"
 }

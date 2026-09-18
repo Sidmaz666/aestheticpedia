@@ -17,7 +17,33 @@
   "summary": "The term aizuri-e (Japanese: 藍摺絵 \"blue printed picture\") usually refers to Japanese woodblock prints that are printed entirely or predominantly in blue.",
   "description": "The term aizuri-e (Japanese: 藍摺絵 \"blue printed picture\") usually refers to Japanese woodblock prints that are printed entirely or predominantly in blue. When a second color is used, it is usually red. Even if only a single type of blue ink was used, variations in lightness and darkness (value) could be achieved by superimposing multiple printings of parts of the design or by the application of a gradation of ink to the wooden printing block (bokashi).\n\nThe development of aizuri-e was associated with the import of the pigment Prussian blue from Europe in the 1820s. This pigment had a number of advantages over the indigo or dayflower petal dyes that were previously used to create blue. It was more vivid, had greater tonal range and was more resistant to fading. It proved to be particularly effective in expressing depth and distance, and its popularity may have been a major factor in establishing pure landscape as a new genre of ukiyo-e print.\n\nEarly adopters included Hokusai in his Thirty-six Views of Mount Fuji (1830), most notably in The Great Wave off Kanagawa and Kajikazawa in Kai Province. Hiroshige also used Prussian blue extensively in his landscape prints. Other prominent Japanese artists to use it included Keisai Eisen, Utagawa Kunisada and Utagawa Sadahide.\n\nThe theory that aizuri-e production was prompted by the 1842 sumptuary laws known as the Tenpō Reforms is no longer widely accepted.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bebba0",
+      "name": "khaki"
+    },
+    {
+      "hex": "#dfdfc1",
+      "name": "bone white"
+    },
+    {
+      "hex": "#6d625b",
+      "name": "umber"
+    },
+    {
+      "hex": "#6f8a8a",
+      "name": "slate"
+    },
+    {
+      "hex": "#98a192",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#a66c51",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,47 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Kajikazawa_in_Kai_Province_%28Koshu_Kajikazawa%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Kajikazawa_in_Kai_Province_%28Koshu_Kajikazawa%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Kajikazawa_in_Kai_Province_%28Koshu_Kajikazawa%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kajikazawa_in_Kai_Province_(Koshu_Kajikazawa).jpg",
+      "caption": "Part of the series Thirty-six Views of Mount Fuji , no. 45 , 9 th additional woodcut.",
+      "source": "Wikimedia Commons",
+      "artist": "Katsushika Hokusai",
+      "date": "1831 date QS:P571,+1831-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "750",
+      "height": "513"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Kinryuzan_Temple_in_Asakusa_from_the_series_Famous_Places_in_the_Eastern_Capital_by_Hiroshige_II.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/35/Kinryuzan_Temple_in_Asakusa_from_the_series_Famous_Places_in_the_Eastern_Capital_by_Hiroshige_II.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/35/Kinryuzan_Temple_in_Asakusa_from_the_series_Famous_Places_in_the_Eastern_Capital_by_Hiroshige_II.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kinryuzan_Temple_in_Asakusa_from_the_series_Famous_Places_in_the_Eastern_Capital_by_Hiroshige_II.jpg",
+      "caption": "Kinryuzan Temple in Asakusa - from the series Famous Places in the Eastern Capital - by Hiroshige II",
+      "source": "Wikimedia Commons",
+      "artist": "Utagawa Hiroshige II",
+      "date": "Mid 19th century",
+      "license": "Public domain",
+      "width": "990",
+      "height": "662"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toshusai_Sharaku-_Otani_Oniji,_1794.jpg",
+      "caption": "Oniji Ōtani III (aka. Nakazō Nakamura II) as Edobee in the May 1794 production of Koi Nyōbo Somewake Tazuna at Edo Kawarasaki-za theater. Polychrome woodcut print on paper; 15 x 9 7/8 in. (38.1 x 22.9 cm) Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939 (JP2822)",
+      "source": "Wikimedia Commons",
+      "artist": "Sharaku",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "802",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Aizuri-e",
@@ -62,7 +128,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2828843",
+      "url": "https://www.wikidata.org/wiki/Q2828843",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:01.096Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Aizuri-e",
+      "url": "https://en.wikipedia.org/wiki/Aizuri-e",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:01.096Z"
+      }
+    }
+  ],
   "wikidata": "Q2828843",
   "wikipedia": "Aizuri-e",
   "popularity": 35,
@@ -70,5 +159,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:35:01.096Z"
 }

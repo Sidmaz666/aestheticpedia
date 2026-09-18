@@ -39,7 +39,21 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/A_little_cuckoo_across_a_hydrangea%28Haiga%29_by_Yosa_Buson.jpg/1280px-A_little_cuckoo_across_a_hydrangea%28Haiga%29_by_Yosa_Buson.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/A_little_cuckoo_across_a_hydrangea%28Haiga%29_by_Yosa_Buson.jpg/500px-A_little_cuckoo_across_a_hydrangea%28Haiga%29_by_Yosa_Buson.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/84/A_little_cuckoo_across_a_hydrangea%28Haiga%29_by_Yosa_Buson.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:A_little_cuckoo_across_a_hydrangea(Haiga)_by_Yosa_Buson.jpg",
+      "caption": "A_little_cuckoo_across_a_hydrangea(Haiga) ほととぎす自画賛 紙本墨画 inscribed lower right: 蕪村 (Buson) marked lower right: 「謝長庚」「春星氏」 () inscribed lower right: 岩くらの狂女恋せよほとときす ()",
+      "source": "Wikimedia Commons",
+      "artist": "Yosa Buson(1716 - 1784) 与謝蕪村",
+      "date": "18c 江戸時代中期",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "763"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Haiga",
@@ -62,7 +76,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3136512",
+      "url": "https://www.wikidata.org/wiki/Q3136512",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:11.333Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Haiga",
+      "url": "https://en.wikipedia.org/wiki/Haiga",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:11.333Z"
+      }
+    }
+  ],
   "wikidata": "Q3136512",
   "wikipedia": "Haiga",
   "popularity": 35,
@@ -70,5 +107,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:48:11.333Z"
 }

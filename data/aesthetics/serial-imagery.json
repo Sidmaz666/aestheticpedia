@@ -17,7 +17,33 @@
   "summary": "Serial imagery is the repeating of one image in many variations or forms.",
   "description": "Serial imagery is the repeating of one image in many variations or forms. It is a central idea in modern and contemporary art. It can take several forms. A portrait can painted in differing hues and backgrounds with subtle changes to the subject as in Van Gogh's L'Arlésienne and Claude Monet's Rouen Cathedral. Another type is where the same subject is painted at different times of day or seasons of the year for example Claude Monet in his Poplars, Haystacks. The same subject may also be rendered in different mediums, and in different poses, thus, the practice of underpainting may be considered a form of serial imagery even if the image is lost in the completed work. It is common in photography where multiple exposures at various angles are taken with different lenses etc. in search of the desired effect. It is also used in literature, especially poetry.\n\nThe Impressionists and their contemporaries were usually credited as the first to employ serial imagery. However, there has been evidence of earlier usage in works by Francisco Goya with his La maja desnuda and La maja vestida (1797-1800). It is also seen in classical art whenever studies were made and used to produce a finished work. This was a common practice for Leonardo da Vinci, Michelangelo and most of the other classical artists, although most of their studies and sketches did not survive.\n\nJohn Coplans supplied a critical approach in an exhibition at the Pasadena Art Museum in 1968.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#504d65",
+      "name": "graphite"
+    },
+    {
+      "hex": "#566286",
+      "name": "slate"
+    },
+    {
+      "hex": "#423849",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#905938",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b17f4d",
+      "name": "copper"
+    },
+    {
+      "hex": "#daa059",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vincent_Willem_van_Gogh_107.jpg",
+      "caption": "\"Van Gogh painted this self-portrait in the winter of 1887–1888, when he had been living in Paris for nearly two years. Since his arrival in the city he had devoted much study to the dotted Pointillist technique, thereby learning how he might apply it in his own fashion. His use ",
+      "source": "Wikimedia Commons",
+      "artist": "Vincent van Gogh",
+      "date": "Winter 1887–1888",
+      "license": "Public domain",
+      "width": "1256",
+      "height": "1539"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Serial imagery",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2273674",
+      "url": "https://www.wikidata.org/wiki/Q2273674",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:07.352Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Serial imagery",
+      "url": "https://en.wikipedia.org/wiki/Serial_imagery",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:07.352Z"
+      }
+    }
+  ],
   "wikidata": "Q2273674",
   "wikipedia": "Serial imagery",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:05:07.352Z"
 }

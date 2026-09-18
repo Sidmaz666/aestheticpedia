@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Italy",
+  "geography": "Italy",
   "periodStart": "1920s",
   "periodEnd": "",
   "startYear": 1920,
@@ -19,7 +19,33 @@
   "summary": "Aeropittura (Aeropainting) was a major expression of the second generation of Italian Futurism, from 1929 through the early 1940s.",
   "description": "Aeropittura (Aeropainting) was a major expression of the second generation of Italian Futurism, from 1929 through the early 1940s.  The technology and excitement of flight, directly experienced by most aeropainters, offered aeroplanes and aerial landscape as new subject matter.\n\nAeropainting was varied in subject matter and treatment, including realism (especially in works of propaganda), abstraction, dynamism, quiet Umbrian landscapes, portraits of Benito Mussolini (e.g., Dottori's Portrait of il Duce), devotional religious paintings, and decorative art.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e0bd60",
+      "name": "gold"
+    },
+    {
+      "hex": "#c29e4e",
+      "name": "brass"
+    },
+    {
+      "hex": "#9a8149",
+      "name": "bronze"
+    },
+    {
+      "hex": "#101514",
+      "name": "black"
+    },
+    {
+      "hex": "#6d6749",
+      "name": "umber"
+    },
+    {
+      "hex": "#c8bea4",
+      "name": "beige"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Alfredo_Gauro_Ambrosi_%22Aeroritratto_di_Mussolini_aviatore%22.jpg/1280px-Alfredo_Gauro_Ambrosi_%22Aeroritratto_di_Mussolini_aviatore%22.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Alfredo_Gauro_Ambrosi_%22Aeroritratto_di_Mussolini_aviatore%22.jpg/500px-Alfredo_Gauro_Ambrosi_%22Aeroritratto_di_Mussolini_aviatore%22.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Alfredo_Gauro_Ambrosi_%22Aeroritratto_di_Mussolini_aviatore%22.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Alfredo_Gauro_Ambrosi_%22Aeroritratto_di_Mussolini_aviatore%22.jpg",
+      "caption": "Aeroritratto di Mussolini aviatore",
+      "source": "Wikimedia Commons",
+      "artist": "Alfredo Gauro Ambrosi",
+      "date": "1930",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1696"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Aeropittura",
@@ -64,7 +104,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1479489",
+      "url": "https://www.wikidata.org/wiki/Q1479489",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:34:56.998Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Aeropittura",
+      "url": "https://en.wikipedia.org/wiki/Aeropittura",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:34:56.998Z"
+      }
+    }
+  ],
   "wikidata": "Q1479489",
   "wikipedia": "Aeropittura",
   "popularity": 35,
@@ -72,5 +135,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.749Z"
 }

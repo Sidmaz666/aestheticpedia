@@ -39,7 +39,21 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/1580_-_anamorphosis_-_mary%2C_queen_of_scots.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/47/1580_-_anamorphosis_-_mary%2C_queen_of_scots.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/47/1580_-_anamorphosis_-_mary%2C_queen_of_scots.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:1580_-_anamorphosis_-_mary,_queen_of_scots.jpg",
+      "caption": "two views of a tabula scalata oil painting from 1580 in the Scottish National Portrait Gallery",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1580",
+      "license": "Public domain",
+      "width": "887",
+      "height": "585"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Tabula scalata",
@@ -62,7 +76,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2152113",
+      "url": "https://www.wikidata.org/wiki/Q2152113",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:07.826Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Tabula scalata",
+      "url": "https://en.wikipedia.org/wiki/Tabula_scalata",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:07.826Z"
+      }
+    }
+  ],
   "wikidata": "Q2152113",
   "wikipedia": "Tabula scalata",
   "popularity": 35,
@@ -70,5 +107,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:08:07.826Z"
 }

@@ -39,7 +39,22 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/CrocsAccessories.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d0/CrocsAccessories.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d0/CrocsAccessories.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:CrocsAccessories.jpg",
+      "caption": "Crocs with accessories Crocs Meeting",
+      "source": "Wikimedia Commons",
+      "artist": "jespahjoy from Unknown",
+      "date": "Taken on 31 March 2007",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1024",
+      "height": "768"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — VSCO girl",
@@ -62,7 +77,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q77304538",
+      "url": "https://www.wikidata.org/wiki/Q77304538",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:11.093Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — VSCO girl",
+      "url": "https://en.wikipedia.org/wiki/VSCO_girl",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:11.093Z"
+      }
+    }
+  ],
   "wikidata": "Q77304538",
   "wikipedia": "VSCO girl",
   "popularity": 35,
@@ -70,5 +108,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:11:11.093Z"
 }

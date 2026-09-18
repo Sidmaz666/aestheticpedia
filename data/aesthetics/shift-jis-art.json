@@ -44,7 +44,34 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Yukarin1128.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Yukarin1128.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Yukarin1128.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Yukarin1128.jpg",
+      "caption": "The Gikoneko MugCup Photo by Anonymous user(空白 Kūhaku),at jan.24,2001.",
+      "source": "Wikimedia Commons",
+      "artist": "No machine-readable author provided. Gikoneko assumed (based on copyright claims).",
+      "date": "24 January 2001 (according to Exif data)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "640",
+      "height": "480"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/2ch_goods.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a5/2ch_goods.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a5/2ch_goods.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:2ch_goods.jpg",
+      "caption": "2ch goods",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1200",
+      "height": "1600"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Shift JIS art",
@@ -67,7 +94,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5242502",
+      "url": "https://www.wikidata.org/wiki/Q5242502",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:17.376Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Shift JIS art",
+      "url": "https://en.wikipedia.org/wiki/Shift_JIS_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:17.376Z"
+      }
+    }
+  ],
   "wikidata": "Q5242502",
   "wikipedia": "Shift JIS art",
   "popularity": 35,
@@ -75,5 +125,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:05:17.376Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States, Miami",
+  "geography": "United States, Miami",
   "periodStart": "1990s",
   "periodEnd": "",
   "startYear": 1990,
@@ -17,7 +17,33 @@
   "summary": "SoFlo Superflat describes an art genre started in Miami in the 1990s.",
   "description": "SoFlo Superflat describes an art genre started in Miami in the 1990s. It is an urban pop art movement in South Florida that combines super bright colors and ultra flat images. The subject matters are very diverse. It is an outcrop of the Japanese Superflat movement, founded by the artist Takashi Murakami.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f7f94e",
+      "name": "lemon"
+    },
+    {
+      "hex": "#2e17b4",
+      "name": "indigo"
+    },
+    {
+      "hex": "#978e56",
+      "name": "moss"
+    },
+    {
+      "hex": "#e44b0e",
+      "name": "vermilion"
+    },
+    {
+      "hex": "#58272c",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#f471db",
+      "name": "hot pink"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Sunshine_and_moon_%28Caron_Bowman_painting%29.jpg/1280px-Sunshine_and_moon_%28Caron_Bowman_painting%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Sunshine_and_moon_%28Caron_Bowman_painting%29.jpg/500px-Sunshine_and_moon_%28Caron_Bowman_painting%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/52/Sunshine_and_moon_%28Caron_Bowman_painting%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sunshine_and_moon_(Caron_Bowman_painting).jpg",
+      "caption": "Sunshine and Moon by Caron Bowman, 40x60, Pastel, w:SoFlo Superflat image",
+      "source": "Wikimedia Commons",
+      "artist": "Bowmanga1278",
+      "date": "2004-01-01",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "623"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — SoFlo Superflat",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7548994",
+      "url": "https://www.wikidata.org/wiki/Q7548994",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:14.924Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — SoFlo Superflat",
+      "url": "https://en.wikipedia.org/wiki/SoFlo_Superflat",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:14.924Z"
+      }
+    }
+  ],
   "wikidata": "Q7548994",
   "wikipedia": "SoFlo Superflat",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:54.478Z"
 }

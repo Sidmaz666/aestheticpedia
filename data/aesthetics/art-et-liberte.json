@@ -14,8 +14,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Egypt",
+  "geography": "Egypt",
   "periodStart": "1930s",
   "periodEnd": "",
   "startYear": 1939,
@@ -24,7 +24,33 @@
   "summary": "Groupe Art et Liberté (Arabic: جماعة الفن والحرية; English: Art and Liberty Group, Art and Freedom Group) was an Egyptian artistic and political movement active from 1938 to 1948, about the time of the Second World War.",
   "description": "Groupe Art et Liberté (Arabic: جماعة الفن والحرية; English: Art and Liberty Group, Art and Freedom Group) was an Egyptian artistic and political movement active from 1938 to 1948, about the time of the Second World War. Among the founders was the Surrealist poet Georges Henein; the group was based mostly but not exclusively on Surrealism.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#4d4d4d",
+      "name": "graphite"
+    },
+    {
+      "hex": "#d8d8d8",
+      "name": "bone white"
+    },
+    {
+      "hex": "#f4f4f4",
+      "name": "paper white"
+    },
+    {
+      "hex": "#c4c4c4",
+      "name": "silver"
+    },
+    {
+      "hex": "#727272",
+      "name": "slate"
+    },
+    {
+      "hex": "#909090",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -46,7 +72,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Art_et_Libert%C3%A9_group_photo.jpg/1280px-Art_et_Libert%C3%A9_group_photo.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Art_et_Libert%C3%A9_group_photo.jpg/500px-Art_et_Libert%C3%A9_group_photo.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/24/Art_et_Libert%C3%A9_group_photo.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Art_et_Libert%C3%A9_group_photo.jpg",
+      "caption": "Members of the Art et Liberté Group, an Egyptian Surrealist group. Front row, left to right: Jean Moscatelli, Kamel el Telmissany, Angelo de Riz, Ramses Younan, Fouad Kamel. Back row, left to right: Albert Cossery, unidentified, Georges Henein, Maurice Fahmy, Raoul Curiel.",
+      "source": "Wikimedia Commons",
+      "artist": "The Younan Family Archive",
+      "date": "1941",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1005"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Art et Liberté",
@@ -69,7 +109,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q65080389",
+      "url": "https://www.wikidata.org/wiki/Q65080389",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:17.015Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Art et Liberté",
+      "url": "https://en.wikipedia.org/wiki/Art_et_Libert%C3%A9",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:17.015Z"
+      }
+    }
+  ],
   "wikidata": "Q65080389",
   "wikipedia": "Art et Liberté",
   "popularity": 35,
@@ -77,5 +140,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.786Z"
 }

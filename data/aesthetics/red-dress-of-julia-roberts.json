@@ -39,7 +39,22 @@
   "tags": [
     "fashion style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/e726dfa6-69f0-c73c-5881-905816b8f89a/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/e726dfa6-69f0-c73c-5881-905816b8f89a/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/e726dfa6-69f0-c73c-5881-905816b8f89a/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/18089",
+      "caption": "Anne Thackeray Ritchie, May 1870",
+      "source": "Art Institute of Chicago",
+      "artist": "Julia Margaret Cameron",
+      "date": "May 1870",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1023"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Red dress of Julia Roberts",
@@ -62,7 +77,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q109297658",
+      "url": "https://www.wikidata.org/wiki/Q109297658",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:11.943Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Red dress of Julia Roberts",
+      "url": "https://en.wikipedia.org/wiki/Red_dress_of_Julia_Roberts",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:11.943Z"
+      }
+    }
+  ],
   "wikidata": "Q109297658",
   "wikipedia": "Red dress of Julia Roberts",
   "popularity": 35,
@@ -70,5 +108,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:02:11.943Z"
 }

@@ -17,7 +17,33 @@
   "summary": "A Caeretan hydria is a type of ancient Greek painted vase, belonging to the black-figure style.",
   "description": "A Caeretan hydria is a type of ancient Greek painted vase, belonging to the black-figure style.\n\nCaeretan hydria is a particularly colourful type of Greek vase painting. Their geographic origin is disputed by scholars, but in recent years the view that they were produced by two potter-painters who had emigrated from East Greece to Caere in Etruria has gained ground. Based on their style, they were for a long time considered as either Etruscan or Corinthian products. However, added inscriptions in Ionic Greek support the hypothesis of immigration. The workshop only lasted for one generation. Currently, about 40 vases of this style are known, all produced by the two masters and their assistants. None have been discovered outside Etruria, with the majority excavated in Caere, after which site they were named by Carl Humann and Otto Puchstein. They are dated to between about 530 and 510/500 BC.\n\nThe hydriai have a height of 40 to 45 cm. Attached to the body are off-set widely swaying necks; the body itself features broad shoulders. Low ring-bases shaped like upturned chalices are attached at the bottom. The technical quality of the vases is rather low. Many are warped or show signs of bad firing. Additionally, many have dints that must be derived from rough handling before firing. The painting of the body is separated in four zones: the shoulder, a figural and an ornamental zone on the belly, and a bottom area. Except the figural zone on the belly, all other areas bore ornamental decoration. Only a single piece with two figural zones on the belly is known.\n\nThe striking feature of the vases is their colourful decoration In this regard they differ from all other styles of black-figure vase painting. The style resembles Ionian vase painting and multicoloured wooden panels found in Egypt. Their figural decoration is on the belly. Men are depicted with red, black or white skin, women virtually always in white. Contours and interior detail were incised, as is common in black-figure vases. Areas covered in black shiny slip  were often covered with an additional layer of white shiny slip, so that the underlying black would be visible in incised details. The front imagery is always dynamic, the back often heraldic in nature.\n\nThe ornamentation is a major constituent of the hydriai, it is not upstaged by the figural motifs. Stencils were used to create the ornaments; the",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#97755a",
+      "name": "bronze"
+    },
+    {
+      "hex": "#7f614a",
+      "name": "bronze 2"
+    },
+    {
+      "hex": "#5f4f3f",
+      "name": "umber"
+    },
+    {
+      "hex": "#43392e",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#b29173",
+      "name": "camel"
+    },
+    {
+      "hex": "#23201b",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,35 @@
   "tags": [
     "pottery style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Herakles_Kerberos_Eurystheus_Louvre_E701.jpg/1280px-Herakles_Kerberos_Eurystheus_Louvre_E701.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Herakles_Kerberos_Eurystheus_Louvre_E701.jpg/500px-Herakles_Kerberos_Eurystheus_Louvre_E701.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Herakles_Kerberos_Eurystheus_Louvre_E701.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Herakles_Kerberos_Eurystheus_Louvre_E701.jpg",
+      "caption": "Side A: Herakles, Cerberus and Eurystheus. Side B: two eagles flying and a hare.",
+      "source": "Wikimedia Commons",
+      "artist": "Eagle Painter",
+      "date": "circa 525 BC",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "972"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Lernaean_Hydra_Getty_Villa_83.AE.346.jpg/1280px-Lernaean_Hydra_Getty_Villa_83.AE.346.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Lernaean_Hydra_Getty_Villa_83.AE.346.jpg/500px-Lernaean_Hydra_Getty_Villa_83.AE.346.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/be/Lernaean_Hydra_Getty_Villa_83.AE.346.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lernaean_Hydra_Getty_Villa_83.AE.346.jpg",
+      "caption": "Etruscan hydrya detail.",
+      "source": "Wikimedia Commons",
+      "artist": "Wolfgang Sauber ( User:Xenophon ). Image renamed from Image:Herakles gegen Hydra.jpg",
+      "date": "2008-04-10",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Caeretan hydria",
@@ -62,7 +116,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1025392",
+      "url": "https://www.wikidata.org/wiki/Q1025392",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:21.164Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Caeretan hydria",
+      "url": "https://en.wikipedia.org/wiki/Caeretan_hydria",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:21.164Z"
+      }
+    }
+  ],
   "wikidata": "Q1025392",
   "wikipedia": "Caeretan hydria",
   "popularity": 35,
@@ -70,5 +147,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:39:21.164Z"
 }

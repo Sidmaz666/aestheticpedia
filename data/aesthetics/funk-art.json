@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,29 @@
   "summary": "Funk art is an American art movement that was a reaction against the nonobjectivity of abstract expressionism.",
   "description": "Funk art is an American art movement that was a reaction against the nonobjectivity of abstract expressionism. An anti-establishment movement, Funk art brought figuration back as subject matter in painting again rather than limiting itself to the non-figurative, abstract forms that abstract expressionists such as Jackson Pollock and Mark Rothko were depicting. The movement's name was derived from the jazz musical term \"funky\", describing the passionate, sensuous, and quirky. During the 1920s, jazz was thought of as very basic, unsophisticated music, and many people believed Funk was an unrefined style of art as well. The term funk also had negative connotations because the word had an association with a foul odor. Throughout the 1960s and 1970s, Funk was a popular art form, mainly in California's Bay Area in the United States. Although discussed as a cohesive movement, Funk artists did not feel as if they belonged to a collective art style or group. This is because while its artists shared the same attitudes and created similar works, they were not necessarily working together.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#af9479",
+      "name": "camel"
+    },
+    {
+      "hex": "#c0aa96",
+      "name": "khaki"
+    },
+    {
+      "hex": "#816b57",
+      "name": "bronze"
+    },
+    {
+      "hex": "#f6f8fa",
+      "name": "ivory"
+    },
+    {
+      "hex": "#d6cdc9",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +61,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/George_Moscone_by_Robert_Arneson.jpg/1280px-George_Moscone_by_Robert_Arneson.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/George_Moscone_by_Robert_Arneson.jpg/500px-George_Moscone_by_Robert_Arneson.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fc/George_Moscone_by_Robert_Arneson.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:George_Moscone_by_Robert_Arneson.jpg",
+      "caption": "Portrait of George (Moscone) (1981) Glazed ceramic bust of George Moscone by Robert Arneson, 1981. Currently housed at the San Francisco Museum of Modern Art.",
+      "source": "Wikimedia Commons",
+      "artist": "Gary Stevens",
+      "date": "2013-03-18 14:27:41",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Funk art",
@@ -62,7 +99,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5509243",
+      "url": "https://www.wikidata.org/wiki/Q5509243",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:17.841Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Funk art",
+      "url": "https://en.wikipedia.org/wiki/Funk_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:17.841Z"
+      }
+    }
+  ],
   "wikidata": "Q5509243",
   "wikipedia": "Funk art",
   "popularity": 35,
@@ -70,5 +130,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.260Z"
 }

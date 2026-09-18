@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "North Korea",
+  "geography": "North Korea",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q139915361",
+      "url": "https://www.wikidata.org/wiki/Q139915361",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:10.943Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Chosŏnhwa",
+      "url": "https://en.wikipedia.org/wiki/Chos%C5%8Fnhwa",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:10.943Z"
+      }
+    }
+  ],
   "wikidata": "Q139915361",
   "wikipedia": "Chosŏnhwa",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:05.516Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Jamaica",
+  "geography": "Jamaica",
   "periodStart": "2000s",
   "periodEnd": "",
   "startYear": 2004,
@@ -17,7 +17,25 @@
   "summary": "Dready is a character and a style of art created by West Indian (Jamaican born) artist Shane Aquart.",
   "description": "Dready is a character and a style of art created by West Indian (Jamaican born) artist Shane Aquart. The art began by focusing on a humorous Caribbean character called Dready but grew over time to become a style of its own in which the artist himself is ″Dready″.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e4dfd5",
+      "name": "bone white"
+    },
+    {
+      "hex": "#cec7bf",
+      "name": "silver"
+    },
+    {
+      "hex": "#c75038",
+      "name": "terracotta"
+    },
+    {
+      "hex": "#c76c62",
+      "name": "dusty rose"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +57,22 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Dready_pablo_takes_a_breeze_out_-_fiat_500.jpg/1280px-Dready_pablo_takes_a_breeze_out_-_fiat_500.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Dready_pablo_takes_a_breeze_out_-_fiat_500.jpg/500px-Dready_pablo_takes_a_breeze_out_-_fiat_500.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Dready_pablo_takes_a_breeze_out_-_fiat_500.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dready_pablo_takes_a_breeze_out_-_fiat_500.jpg",
+      "caption": "Dready pablo takes a breeze out - fiat 500",
+      "source": "Wikimedia Commons",
+      "artist": "Dreadyworld shane",
+      "date": "2017-03-11",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1280"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Dready",
@@ -62,7 +95,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5306235",
+      "url": "https://www.wikidata.org/wiki/Q5306235",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:22.546Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Dready",
+      "url": "https://en.wikipedia.org/wiki/Dready",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:22.546Z"
+      }
+    }
+  ],
   "wikidata": "Q5306235",
   "wikipedia": "Dready",
   "popularity": 35,
@@ -70,5 +126,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:05.500Z"
 }

@@ -39,7 +39,21 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vincent_Willem_van_Gogh_107.jpg",
+      "caption": "\"Van Gogh painted this self-portrait in the winter of 1887–1888, when he had been living in Paris for nearly two years. Since his arrival in the city he had devoted much study to the dotted Pointillist technique, thereby learning how he might apply it in his own fashion. His use ",
+      "source": "Wikimedia Commons",
+      "artist": "Vincent van Gogh",
+      "date": "Winter 1887–1888",
+      "license": "Public domain",
+      "width": "1256",
+      "height": "1539"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Fire art",
@@ -62,7 +76,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5451548",
+      "url": "https://www.wikidata.org/wiki/Q5451548",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:19.180Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Fire art",
+      "url": "https://en.wikipedia.org/wiki/Fire_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:19.180Z"
+      }
+    }
+  ],
   "wikidata": "Q5451548",
   "wikipedia": "Fire art",
   "popularity": 35,
@@ -70,5 +107,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:45:19.180Z"
 }

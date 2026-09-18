@@ -17,7 +17,33 @@
   "summary": "All-over painting refers to the non-differential treatment of the surface of a work of two-dimensional art, for instance a painting.",
   "description": "All-over painting refers to the non-differential treatment of the surface of a work of two-dimensional art, for instance a painting. This concept is most popularly thought of as emerging in relation to the so-called \"drip\" paintings of Jackson Pollock and the \"automatic writing\" or \"abstract calligraphy\" of Mark Tobey in the 1950s, though the applicability of the term all-over painting would be wider than that. \"All-over painting\" is not a formal style of painting and the term does not represent an \"art movement.\" Some painting under the heading color field painting displays the \"all-over\" painting style. Such a painting would fail to treat the top, for instance, differently from the bottom; the left than the right. Uniform treatment of all sections of the surface are the hallmark of all-over painting. All-over paintings would lack a dominant point of interest, or any indication of which way is \"up.\" Some paintings by Cy Twombly have had this term applied to them.\n\nClement Greenberg cited Janet Sobel's as the first instance of all-over painting he had seen.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#4a5699",
+      "name": "cerulean"
+    },
+    {
+      "hex": "#d09483",
+      "name": "camel"
+    },
+    {
+      "hex": "#35645b",
+      "name": "graphite"
+    },
+    {
+      "hex": "#b57f76",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#8c7077",
+      "name": "taupe"
+    },
+    {
+      "hex": "#66606e",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,119 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/La_danse_%28I%29_by_Matisse.jpg/1280px-La_danse_%28I%29_by_Matisse.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/La_danse_%28I%29_by_Matisse.jpg/500px-La_danse_%28I%29_by_Matisse.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2e/La_danse_%28I%29_by_Matisse.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:La_danse_(I)_by_Matisse.jpg",
+      "caption": "​Henri Matisse, La danse (first version) 1909, oil on canvas, 8' 6 1/2\" x 12' 9 1/2\" (259.7 x 390.1 cm)",
+      "source": "Wikimedia Commons",
+      "artist": "Henri Matisse （存活時間：1954）",
+      "date": "1909",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "849"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/11",
+      "caption": "Self-Portrait, 1878",
+      "source": "Art Institute of Chicago",
+      "artist": "Walter Shirlaw (American, 1838–1909)",
+      "date": "1878",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1101"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/27992",
+      "caption": "A Sunday on La Grande Jatte — 1884, 1884–86, border added 1888–89",
+      "source": "Art Institute of Chicago",
+      "artist": "Georges Seurat (French, 1859–1891)",
+      "date": "1884–86, border added 1888–89",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "565"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/20684",
+      "caption": "Paris Street; Rainy Day, 1877",
+      "source": "Art Institute of Chicago",
+      "artist": "Gustave Caillebotte (French, 1848–1894)",
+      "date": "1877",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "655"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/9",
+      "caption": "Interior of St. Mark's, Venice, 1869",
+      "source": "Art Institute of Chicago",
+      "artist": "David Dalhoff Neal (American, 1838–1915)",
+      "date": "1869",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "979"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/16568",
+      "caption": "Water Lilies, 1906",
+      "source": "Art Institute of Chicago",
+      "artist": "Claude Monet (French, 1840–1926)",
+      "date": "1906",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "810"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/28560",
+      "caption": "The Bedroom, 1889",
+      "source": "Art Institute of Chicago",
+      "artist": "Vincent van Gogh (Dutch, 1853–1890)",
+      "date": "1889",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "660"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/a34d9d72-c4ec-0750-389e-a01215c9aab0/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/a34d9d72-c4ec-0750-389e-a01215c9aab0/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/a34d9d72-c4ec-0750-389e-a01215c9aab0/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/863",
+      "caption": "Pastoral Landscape with Ruins, 1664",
+      "source": "Art Institute of Chicago",
+      "artist": "Adriaen van de Velde (Dutch, 1636–1672)",
+      "date": "1664",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "714"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — All-over painting",
@@ -62,7 +200,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1484999",
+      "url": "https://www.wikidata.org/wiki/Q1484999",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:04.129Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — All-over painting",
+      "url": "https://en.wikipedia.org/wiki/All-over_painting",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:04.129Z"
+      }
+    }
+  ],
   "wikidata": "Q1484999",
   "wikipedia": "All-over painting",
   "popularity": 35,
@@ -70,5 +231,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:35:04.129Z"
 }

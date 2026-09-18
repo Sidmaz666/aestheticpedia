@@ -39,7 +39,19 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/PB_Ostergotland_CoA.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b0/PB_Ostergotland_CoA.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b0/PB_Ostergotland_CoA.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:PB_Ostergotland_CoA.png",
+      "caption": "PB Ostergotland CoA",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "733",
+      "height": "906"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Blazon",
@@ -62,7 +74,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q494452",
+      "url": "https://www.wikidata.org/wiki/Q494452",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:14.743Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Blazon",
+      "url": "https://en.wikipedia.org/wiki/Blazon",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:14.743Z"
+      }
+    }
+  ],
   "wikidata": "Q494452",
   "wikipedia": "Blazon",
   "popularity": 35,
@@ -70,5 +105,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:38:14.743Z"
 }

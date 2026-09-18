@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Emilia, Italy",
+  "geography": "Emilia, Italy",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -19,7 +19,33 @@
   "summary": "The Renaissance in Emilia concerns multiple realities in a dense network of exchanges with all the surrounding areas.",
   "description": "The Renaissance in Emilia concerns multiple realities in a dense network of exchanges with all the surrounding areas. In the fifteenth and sixteenth centuries, Emilia was fractured into several lordships, among which Ferrara of the Este, Bologna of the Bentivoglio, and Parma of the Farnese became known as art centers.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#46381d",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#271e16",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#664d36",
+      "name": "walnut brown 2"
+    },
+    {
+      "hex": "#8f7350",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b7946c",
+      "name": "camel"
+    },
+    {
+      "hex": "#c6b49c",
+      "name": "khaki"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,116 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Parmigianino_012.jpg/1280px-Parmigianino_012.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Parmigianino_012.jpg/500px-Parmigianino_012.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/de/Parmigianino_012.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Parmigianino_012.jpg",
+      "caption": "Conversion of Paul the Apostle",
+      "source": "Wikimedia Commons",
+      "artist": "Parmigianino",
+      "date": "circa 1527/1528",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1761"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Studiolo_di_belfiore%2C_calliope_di_cosm%C3%A8_tura%2C_national_gallery_di_londra.jpg/1280px-Studiolo_di_belfiore%2C_calliope_di_cosm%C3%A8_tura%2C_national_gallery_di_londra.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Studiolo_di_belfiore%2C_calliope_di_cosm%C3%A8_tura%2C_national_gallery_di_londra.jpg/500px-Studiolo_di_belfiore%2C_calliope_di_cosm%C3%A8_tura%2C_national_gallery_di_londra.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Studiolo_di_belfiore%2C_calliope_di_cosm%C3%A8_tura%2C_national_gallery_di_londra.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Studiolo_di_belfiore,_calliope_di_cosm%C3%A8_tura,_national_gallery_di_londra.jpg",
+      "caption": "A Muse (Calliope?)",
+      "source": "Wikimedia Commons",
+      "artist": "Cosimo Tura",
+      "date": "1460",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "2092"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Francesco_Francia_attributed_-_likely_Isabella_d%27Este.jpg/1280px-Francesco_Francia_attributed_-_likely_Isabella_d%27Este.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Francesco_Francia_attributed_-_likely_Isabella_d%27Este.jpg/500px-Francesco_Francia_attributed_-_likely_Isabella_d%27Este.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Francesco_Francia_attributed_-_likely_Isabella_d%27Este.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Francesco_Francia_attributed_-_likely_Isabella_d%27Este.jpg",
+      "caption": "Francesco Francia attributed and likely Isabella d'Este in 1511",
+      "source": "Wikimedia Commons",
+      "artist": "Mitglied5",
+      "date": "2022-03-27",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1603"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Amico_Aspertini%2C_Oratorio_di_Santa_Cecilia.jpg/1280px-Amico_Aspertini%2C_Oratorio_di_Santa_Cecilia.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Amico_Aspertini%2C_Oratorio_di_Santa_Cecilia.jpg/500px-Amico_Aspertini%2C_Oratorio_di_Santa_Cecilia.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Amico_Aspertini%2C_Oratorio_di_Santa_Cecilia.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Amico_Aspertini,_Oratorio_di_Santa_Cecilia.jpg",
+      "caption": "View of the room",
+      "source": "Wikimedia Commons",
+      "artist": "Amico Aspertini",
+      "date": "1504-1506",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "742"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Correggio_013.jpg/1280px-Correggio_013.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Correggio_013.jpg/500px-Correggio_013.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/13/Correggio_013.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Correggio_013.jpg",
+      "caption": "Deckenfresko im Nonnekloser San Paolo in Parma, Übersicht",
+      "source": "Wikimedia Commons",
+      "artist": "Antonio da Correggio",
+      "date": "1519 date QS:P571,+1519-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1284"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b4ccdf0f-8b1b-2969-e447-5402cbe56985/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b4ccdf0f-8b1b-2969-e447-5402cbe56985/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b4ccdf0f-8b1b-2969-e447-5402cbe56985/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/14690",
+      "caption": "Fragment, Late 14th/15th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Italy",
+      "date": "Late 14th/15th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "671"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/f17aa6ce-bda2-53b2-1be7-07fed381715a/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/f17aa6ce-bda2-53b2-1be7-07fed381715a/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/f17aa6ce-bda2-53b2-1be7-07fed381715a/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/1895",
+      "caption": "Panel, 16th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Italy",
+      "date": "16th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "973"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/155c11f8-0e76-501f-12eb-bd1f6d06aaa2/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/155c11f8-0e76-501f-12eb-bd1f6d06aaa2/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/155c11f8-0e76-501f-12eb-bd1f6d06aaa2/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/14693",
+      "caption": "Fragment, 1401-1425",
+      "source": "Art Institute of Chicago",
+      "artist": "Italy",
+      "date": "1401-1425",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "949"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Renaissance in Emilia",
@@ -64,7 +199,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3935974",
+      "url": "https://www.wikidata.org/wiki/Q3935974",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:21.578Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Renaissance in Emilia",
+      "url": "https://en.wikipedia.org/wiki/Renaissance_in_Emilia",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:21.578Z"
+      }
+    }
+  ],
   "wikidata": "Q3935974",
   "wikipedia": "Renaissance in Emilia",
   "popularity": 35,
@@ -72,5 +230,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.108Z"
 }

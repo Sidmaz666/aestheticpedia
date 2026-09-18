@@ -13,8 +13,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Najd",
+  "geography": "Najd",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -23,7 +23,33 @@
   "summary": "Najdi architecture (Arabic: العمارة النجدية) is a vernacular architecture indigenous to the Najd region of modern-day Saudi Arabia.",
   "description": "Najdi architecture (Arabic: العمارة النجدية) is a vernacular architecture indigenous to the Najd region of modern-day Saudi Arabia. The style flourished roughly between 13th and 18th centuries and is known for its desert adaptive urban patterns with low-contour earth-structured mudbrick buildings that are characterized by elements such as triangular or rectangular openings (furjat) and battlements (shurfat) as well as peepholes projecting outward from the main façade (tarma). The presence of a central courtyard and open spaces also forms a distinct part of the architectural style.\n\nThe influence of Najdi style can be felt in neighboring regions, such as Kuwait and inland Qatar.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e6e5e1",
+      "name": "paper white"
+    },
+    {
+      "hex": "#c9c7c4",
+      "name": "silver"
+    },
+    {
+      "hex": "#b0adaa",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#734b2d",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#a2886f",
+      "name": "stone"
+    },
+    {
+      "hex": "#55504b",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -45,7 +71,145 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/%EC%82%AC%EC%9A%B0%EB%94%94_%EB%A6%AC%EC%95%BC%EB%93%9C_%EC%9C%A0%EC%A0%81%28Old_diriyah%29_-_panoramio_-_%EC%9A%B0%ED%95%9C%EA%B8%B8%28HK_Woo%29.jpg/1280px-%EC%82%AC%EC%9A%B0%EB%94%94_%EB%A6%AC%EC%95%BC%EB%93%9C_%EC%9C%A0%EC%A0%81%28Old_diriyah%29_-_panoramio_-_%EC%9A%B0%ED%95%9C%EA%B8%B8%28HK_Woo%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/%EC%82%AC%EC%9A%B0%EB%94%94_%EB%A6%AC%EC%95%BC%EB%93%9C_%EC%9C%A0%EC%A0%81%28Old_diriyah%29_-_panoramio_-_%EC%9A%B0%ED%95%9C%EA%B8%B8%28HK_Woo%29.jpg/500px-%EC%82%AC%EC%9A%B0%EB%94%94_%EB%A6%AC%EC%95%BC%EB%93%9C_%EC%9C%A0%EC%A0%81%28Old_diriyah%29_-_panoramio_-_%EC%9A%B0%ED%95%9C%EA%B8%B8%28HK_Woo%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4e/%EC%82%AC%EC%9A%B0%EB%94%94_%EB%A6%AC%EC%95%BC%EB%93%9C_%EC%9C%A0%EC%A0%81%28Old_diriyah%29_-_panoramio_-_%EC%9A%B0%ED%95%9C%EA%B8%B8%28HK_Woo%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%EC%82%AC%EC%9A%B0%EB%94%94_%EB%A6%AC%EC%95%BC%EB%93%9C_%EC%9C%A0%EC%A0%81(Old_diriyah)_-_panoramio_-_%EC%9A%B0%ED%95%9C%EA%B8%B8(HK_Woo).jpg",
+      "caption": "사우디 리야드 유적(Old diriyah)",
+      "source": "Wikimedia Commons",
+      "artist": "우한길(HK Woo)",
+      "date": "Taken on 27 March 2009",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Old_mosque_at_al-Shinana%2C_near_al-Rass%2C_Qasim_region_%2811%29_%2849320896056%29.jpg/1280px-Old_mosque_at_al-Shinana%2C_near_al-Rass%2C_Qasim_region_%2811%29_%2849320896056%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Old_mosque_at_al-Shinana%2C_near_al-Rass%2C_Qasim_region_%2811%29_%2849320896056%29.jpg/500px-Old_mosque_at_al-Shinana%2C_near_al-Rass%2C_Qasim_region_%2811%29_%2849320896056%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/20/Old_mosque_at_al-Shinana%2C_near_al-Rass%2C_Qasim_region_%2811%29_%2849320896056%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Old_mosque_at_al-Shinana,_near_al-Rass,_Qasim_region_(11)_(49320896056).jpg",
+      "caption": "Old mosque at al-Shinana, near al-Rass, Qasim region (11)",
+      "source": "Wikimedia Commons",
+      "artist": "Richard Mortel from Riyadh, Saudi Arabia",
+      "date": "2019-12-31 10:57",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Qa%E1%B9%A3r_al-Shams%C4%AByya.jpg/1280px-Qa%E1%B9%A3r_al-Shams%C4%AByya.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Qa%E1%B9%A3r_al-Shams%C4%AByya.jpg/500px-Qa%E1%B9%A3r_al-Shams%C4%AByya.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Qa%E1%B9%A3r_al-Shams%C4%AByya.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Qa%E1%B9%A3r_al-Shams%C4%AByya.jpg",
+      "caption": "Riyadh, Saudi Arabia, Qaṣr al-Shamsīyya, as documented 1974, from the south-east, built in the 1930s.",
+      "source": "Wikimedia Commons",
+      "artist": "Shirazibustan",
+      "date": "2024-04-27",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "656"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Fu%E1%B9%ADah.jpg/1280px-Fu%E1%B9%ADah.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Fu%E1%B9%ADah.jpg/500px-Fu%E1%B9%ADah.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Fu%E1%B9%ADah.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fu%E1%B9%ADah.jpg",
+      "caption": "Riyadh, Saudi Arabia. Palaces in al-Futa neighbourhood, 1974",
+      "source": "Wikimedia Commons",
+      "artist": "Shirazibustan",
+      "date": "2024-08-05",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "791"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/%D9%82%D8%B5%D8%B1_%D8%A7%D9%84%D9%85%D8%B1%D8%A8%D8%B9-1980.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/63/%D9%82%D8%B5%D8%B1_%D8%A7%D9%84%D9%85%D8%B1%D8%A8%D8%B9-1980.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/63/%D9%82%D8%B5%D8%B1_%D8%A7%D9%84%D9%85%D8%B1%D8%A8%D8%B9-1980.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D9%82%D8%B5%D8%B1_%D8%A7%D9%84%D9%85%D8%B1%D8%A8%D8%B9-1980.jpg",
+      "caption": ".قصر المربع، كما يبدو في نيسان/أبريل، 1980م",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1980-04",
+      "license": "Public domain",
+      "width": "1200",
+      "height": "786"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/%D8%A7%D9%84%D9%85%D8%B5%D9%85%D9%831.jpg/1280px-%D8%A7%D9%84%D9%85%D8%B5%D9%85%D9%831.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/%D8%A7%D9%84%D9%85%D8%B5%D9%85%D9%831.jpg/500px-%D8%A7%D9%84%D9%85%D8%B5%D9%85%D9%831.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/44/%D8%A7%D9%84%D9%85%D8%B5%D9%85%D9%831.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D9%85%D8%B5%D9%85%D9%831.jpg",
+      "caption": "قصر المصمك، حصن مبني من اللبن (الطوب الطيني) يقع في وسط العاصمة السعودية الرياض",
+      "source": "Wikimedia Commons",
+      "artist": "Heritage Commission",
+      "date": "2020-08-24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "854"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Bab_al-Thumairi%2C_Riyadh%2C_2023.jpg/1280px-Bab_al-Thumairi%2C_Riyadh%2C_2023.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Bab_al-Thumairi%2C_Riyadh%2C_2023.jpg/500px-Bab_al-Thumairi%2C_Riyadh%2C_2023.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/80/Bab_al-Thumairi%2C_Riyadh%2C_2023.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bab_al-Thumairi,_Riyadh,_2023.jpg",
+      "caption": "Bab al Thumairi in Qasr al-Hukm District, Riyadh, Saudi Arabia",
+      "source": "Wikimedia Commons",
+      "artist": "Hamza A. Durrani",
+      "date": "2023-07-08",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1979"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Margab_Fort_Riyadh%2C_1939.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Margab_Fort_Riyadh%2C_1939.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Margab_Fort_Riyadh%2C_1939.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Margab_Fort_Riyadh,_1939.jpg",
+      "caption": "Margab Fort in Riyadh, 1939",
+      "source": "Wikimedia Commons",
+      "artist": "De Gaury",
+      "date": "1939",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "720"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Thumairi_Street_in_Riyadh%2C_1938.jpg/1280px-Thumairi_Street_in_Riyadh%2C_1938.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Thumairi_Street_in_Riyadh%2C_1938.jpg/500px-Thumairi_Street_in_Riyadh%2C_1938.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Thumairi_Street_in_Riyadh%2C_1938.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Thumairi_Street_in_Riyadh,_1938.jpg",
+      "caption": "Thumairi Street in Riyadh, 1938",
+      "source": "Wikimedia Commons",
+      "artist": "Bob Landry",
+      "date": "1938",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1263"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/%D9%82%D8%B5%D8%B1_%D8%B3%D8%B9%D8%AF_%D8%A7%D9%84%D8%AF%D8%B1%D8%B9%D9%8A%D8%A9.jpg/1280px-%D9%82%D8%B5%D8%B1_%D8%B3%D8%B9%D8%AF_%D8%A7%D9%84%D8%AF%D8%B1%D8%B9%D9%8A%D8%A9.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/%D9%82%D8%B5%D8%B1_%D8%B3%D8%B9%D8%AF_%D8%A7%D9%84%D8%AF%D8%B1%D8%B9%D9%8A%D8%A9.jpg/500px-%D9%82%D8%B5%D8%B1_%D8%B3%D8%B9%D8%AF_%D8%A7%D9%84%D8%AF%D8%B1%D8%B9%D9%8A%D8%A9.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9c/%D9%82%D8%B5%D8%B1_%D8%B3%D8%B9%D8%AF_%D8%A7%D9%84%D8%AF%D8%B1%D8%B9%D9%8A%D8%A9.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D9%82%D8%B5%D8%B1_%D8%B3%D8%B9%D8%AF_%D8%A7%D9%84%D8%AF%D8%B1%D8%B9%D9%8A%D8%A9.jpg",
+      "caption": "هو قصر الأمير سعد بن سعود بن عبدالعزيز بن محمد بن سعود، أحد أبناء الإمام سعود بن عبدالعزيز ثالث أئمة الدولة السعودية الأولى",
+      "source": "Wikimedia Commons",
+      "artist": "Heritage Commission",
+      "date": "2020-08-26",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "854"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Najdi architecture",
@@ -68,7 +232,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q35583408",
+      "url": "https://www.wikidata.org/wiki/Q35583408",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:17.595Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Najdi architecture",
+      "url": "https://en.wikipedia.org/wiki/Najdi_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:17.595Z"
+      }
+    }
+  ],
   "wikidata": "Q35583408",
   "wikipedia": "Najdi architecture",
   "popularity": 35,
@@ -76,5 +263,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.381Z"
 }

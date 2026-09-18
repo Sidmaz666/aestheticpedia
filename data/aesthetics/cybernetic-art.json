@@ -17,7 +17,33 @@
   "summary": "Cybernetic art is contemporary art that builds upon the legacy of cybernetics, where feedback involved in the work takes precedence over traditional aesthetic and material concerns.",
   "description": "Cybernetic art is contemporary art that builds upon the legacy of cybernetics, where feedback involved in the work takes precedence over traditional aesthetic and material concerns. The relationship between cybernetics and art can be summarised in three ways: cybernetics can be used to study art, to create works of art or may itself be regarded as an art form in its own right.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#6aade0",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#39321a",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#1d1c15",
+      "name": "black"
+    },
+    {
+      "hex": "#6e5b2d",
+      "name": "umber"
+    },
+    {
+      "hex": "#746d54",
+      "name": "bronze"
+    },
+    {
+      "hex": "#7f7e72",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Tour_cybernetique_de_N._SCH%C3%96FFER_-_Li%C3%A8ge.jpg/1280px-Tour_cybernetique_de_N._SCH%C3%96FFER_-_Li%C3%A8ge.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Tour_cybernetique_de_N._SCH%C3%96FFER_-_Li%C3%A8ge.jpg/500px-Tour_cybernetique_de_N._SCH%C3%96FFER_-_Li%C3%A8ge.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/03/Tour_cybernetique_de_N._SCH%C3%96FFER_-_Li%C3%A8ge.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tour_cybernetique_de_N._SCH%C3%96FFER_-_Li%C3%A8ge.jpg",
+      "caption": "This is a photo of a monument in Wallonia, number:",
+      "source": "Wikimedia Commons",
+      "artist": "Pierre-Jacques Despa",
+      "date": "2011-10-26 13:19:04",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Cybernetic art",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2864597",
+      "url": "https://www.wikidata.org/wiki/Q2864597",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:23.423Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cybernetic art",
+      "url": "https://en.wikipedia.org/wiki/Cybernetic_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:23.423Z"
+      }
+    }
+  ],
   "wikidata": "Q2864597",
   "wikipedia": "Cybernetic art",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:42:23.423Z"
 }

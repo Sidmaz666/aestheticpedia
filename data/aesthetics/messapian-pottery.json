@@ -17,7 +17,33 @@
   "summary": "Messapian pottery is a type of Messapian ceramic, produced between the 7th century BC until the 3rd century BC on the Italian region of southern Apulia.",
   "description": "Messapian pottery is a type of Messapian ceramic, produced between the 7th century BC until the 3rd century BC on the Italian region of southern Apulia. Messapian pottery was made by the Messapii, an ancient people inhabiting the heel of Italy since around 1000 BC, who migrated from Crete and Illyria. Messapian pottery consisted first primarily, with geometric patterns like circles, squares, diamonds, horizontal dash patterns, swastika and other similar motifs. Late through Greek influence the meander was added.\n\nFrom about the beginning of the 5th century BC again under Greek influence, with imports of Attic pottery, figurative decoration was added. In addition, leaf motifs, new elements such as ivy and other repertoire were included. Up to then only fragments of the pottery was decorated in contrast to the whole surface being decorated after the 5th century BC. In the fourth century BC, the artists came back again to geometric ornamentation, but by then the ceramics were almost completely under Greek influence.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c7820d",
+      "name": "ochre"
+    },
+    {
+      "hex": "#6c3e0a",
+      "name": "sepia"
+    },
+    {
+      "hex": "#776542",
+      "name": "bronze"
+    },
+    {
+      "hex": "#c0ae87",
+      "name": "sand"
+    },
+    {
+      "hex": "#dbcba7",
+      "name": "beige"
+    },
+    {
+      "hex": "#9d8b63",
+      "name": "moss"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "pottery style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Nestoris_trozzella_MBA_Lyon_X681.jpg/1280px-Nestoris_trozzella_MBA_Lyon_X681.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Nestoris_trozzella_MBA_Lyon_X681.jpg/500px-Nestoris_trozzella_MBA_Lyon_X681.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Nestoris_trozzella_MBA_Lyon_X681.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nestoris_trozzella_MBA_Lyon_X681.jpg",
+      "caption": "Nestoris trozzella MBA Lyon X681",
+      "source": "Wikimedia Commons",
+      "artist": "Marie-Lan Nguyen",
+      "date": "2008",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Messapian pottery",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1923968",
+      "url": "https://www.wikidata.org/wiki/Q1923968",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:23.807Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Messapian pottery",
+      "url": "https://en.wikipedia.org/wiki/Messapian_pottery",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:23.807Z"
+      }
+    }
+  ],
   "wikidata": "Q1923968",
   "wikipedia": "Messapian pottery",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:54:23.807Z"
 }

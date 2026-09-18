@@ -17,7 +17,33 @@
   "summary": "The Lyon School (French: École de Lyon) is a term for a group of French artists which gathered around Paul Chenavard.",
   "description": "The Lyon School (French: École de Lyon) is a term for a group of French artists which gathered around Paul Chenavard. It was founded by Pierre Revoil, one of the representatives of the Troubadour style. It included Victor Orsel, Louis Janmot and Hippolyte Flandrin, and was nicknamed \"the prison of painting\" by Charles Baudelaire. It was principally inspired by philosophical-moral and religious themes, and as a current was closely related to the British Pre-Raphaelite painters and poets.\n\nRecognized at the Salon of 1819, the school was consecrated 16 February 1851 by the creation of the gallery of painters from Lyon (galerie des Artistes lyonnais) at the Museum of Fine Arts of Lyon.\n\nBetween 1890 and 1909 a younger generation of artists of divers inspirations would become associated with L'École de Lyon (or École lyonnaise) exhibiting at the Le Salon in Lyon (Salon de la Société Lyonnaise des Beaux-Arts): artists such as Joanny Arlin, Philippe Audras, Jean Bardon, Alexandre Baudin, André Baudin, Camille Bouvagne, Marguerite Brun, Jean-Louis Chorel, Anna Dugoin, Marie Saubiez-Euler, Pierre Euler, Étienne Victor Exbrayat, Horace Antoine Fonville, Marie Giron, Georges Glaise, Gustave Karcher, Marthe Koch, Théodore Lévigne, Jules Medard, Hugues Méray, Alphonse Muscat, Henry Oberkampff, Edouard Paupin, Victor-Philippe Flipsen (Philipsen), Louis Piot, Henri Ray, Henri Raynaud, Ernest Roman, Jean Seignemartin, Glaudius Seignol, Gabriel Trévoux, Louis Vollen, André Cruz and Pedro Damas.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#2c2d22",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#b4c4b5",
+      "name": "silver"
+    },
+    {
+      "hex": "#eccdb6",
+      "name": "apricot"
+    },
+    {
+      "hex": "#4c5036",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#d2ac91",
+      "name": "tan"
+    },
+    {
+      "hex": "#71765b",
+      "name": "olive green"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Janmot-Louis_Fleur-des-champs_1500px.jpg/1280px-Janmot-Louis_Fleur-des-champs_1500px.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Janmot-Louis_Fleur-des-champs_1500px.jpg/500px-Janmot-Louis_Fleur-des-champs_1500px.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/36/Janmot-Louis_Fleur-des-champs_1500px.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Janmot-Louis_Fleur-des-champs_1500px.jpg",
+      "caption": "French: Fleurs des champs Flower of fields",
+      "source": "Wikimedia Commons",
+      "artist": "Louis Janmot",
+      "date": "1845 date QS:P571,+1845-00-00T00:00:00Z/9",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1593"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Lyon School",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q568622",
+      "url": "https://www.wikidata.org/wiki/Q568622",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:19.135Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Lyon School",
+      "url": "https://en.wikipedia.org/wiki/Lyon_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:19.135Z"
+      }
+    }
+  ],
   "wikidata": "Q568622",
   "wikipedia": "Lyon School",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:53:19.135Z"
 }

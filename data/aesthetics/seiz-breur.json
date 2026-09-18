@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "France",
+  "geography": "France",
   "periodStart": "1920s",
   "periodEnd": "",
   "startYear": 1923,
@@ -17,7 +17,33 @@
   "summary": "Seiz Breur was an artistic movement founded in 1923 in Brittany.",
   "description": "Seiz Breur was an artistic movement founded in 1923 in Brittany. Although it adopted the symbolic name seiz breur, meaning seven brothers in the Breton language, this did not refer to the number of members, but to the title of a folk-story. At its height it had fifty members united as the \"Unvaniezh Seiz Breur\" (Union of the Seven Brothers).\n\nThough predominantly dedicated to the visual arts, the group also included writers, composers and architects. It is recognised today as an initiator of modern Celto-Breton art, but its memory has been marred by the association of several of its members with Nazi ideology and collaborationism.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#4f423f",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#a5674c",
+      "name": "bronze"
+    },
+    {
+      "hex": "#c88e6f",
+      "name": "camel"
+    },
+    {
+      "hex": "#2b2123",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#666261",
+      "name": "umber"
+    },
+    {
+      "hex": "#a6afa7",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,60 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Brittany_of_the_future.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Brittany_of_the_future.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Brittany_of_the_future.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Brittany_of_the_future.jpg",
+      "caption": "illustration from L'Histoire de Notre Bretagne, 1922 pastiching Jean Boucher's monument at Rennes",
+      "source": "Wikimedia Commons",
+      "artist": "Jeanne Malivel - died 1926",
+      "date": "1922",
+      "license": "Public domain",
+      "width": "1127",
+      "height": "1826"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Marivel.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Marivel.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Marivel.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Marivel.JPG",
+      "caption": "plates designed by Jeanne Malivel",
+      "source": "Wikimedia Commons",
+      "artist": "Paul Barlow",
+      "date": "2008-04",
+      "license": "Public domain",
+      "width": "751",
+      "height": "1530"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Creston-debeauvais.jpg/1280px-Creston-debeauvais.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Creston-debeauvais.jpg/500px-Creston-debeauvais.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Creston-debeauvais.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Creston-debeauvais.jpg",
+      "caption": "photograph of a piece of furniture designed by Jeanne Malivel and Rene-Yves Creston",
+      "source": "Wikimedia Commons",
+      "artist": "Paul Barlow",
+      "date": "2008",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Nominoe_triumphant.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Nominoe_triumphant.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Nominoe_triumphant.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nominoe_triumphant.jpg",
+      "caption": "illustration from L'Histoire de Notre Bretagne, 1922",
+      "source": "Wikimedia Commons",
+      "artist": "Jeanne Malivel - died 1926",
+      "date": "1922",
+      "license": "Public domain",
+      "width": "1130",
+      "height": "1331"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Seiz Breur",
@@ -62,7 +141,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3477959",
+      "url": "https://www.wikidata.org/wiki/Q3477959",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:03.446Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Seiz Breur",
+      "url": "https://en.wikipedia.org/wiki/Seiz_Breur",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:03.446Z"
+      }
+    }
+  ],
   "wikidata": "Q3477959",
   "wikipedia": "Seiz Breur",
   "popularity": 35,
@@ -70,5 +172,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:54.512Z"
 }

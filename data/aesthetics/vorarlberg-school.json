@@ -17,7 +17,33 @@
   "summary": "The Vorarlberg School of Architecture (German: Vorarlberger Schule) or Guild of Au (German: Auer Zunft) refers to a group of architects and builders founded in 1657 by Johann Michael Beer in the town of Au im Bregenzerwald in Vorarlberg (Austria).",
   "description": "The Vorarlberg School of Architecture (German: Vorarlberger Schule) or Guild of Au (German: Auer Zunft) refers to a group of architects and builders founded in 1657 by Johann Michael Beer in the town of Au im Bregenzerwald in Vorarlberg (Austria).\n\nThe school remained active in southern Germany and Switzerland until the end of the 18th century. Its most important members came from the Beer (for example Franz Beer), Moosbrugger and Thumb families (for example Peter Thumb). The Vorarlberg School developed a distinct design for churches known as Vorarlberger Münsterschema. The school is notable for its skillful blending of buildings (most of which are abbeys) with the surrounding landscape.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#8c827d",
+      "name": "taupe"
+    },
+    {
+      "hex": "#56483e",
+      "name": "umber"
+    },
+    {
+      "hex": "#736761",
+      "name": "umber 2"
+    },
+    {
+      "hex": "#a69a95",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#2d2c1e",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#bcb7b1",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Residenz_und_St._Lorenz_Kempten.jpg/1280px-Residenz_und_St._Lorenz_Kempten.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Residenz_und_St._Lorenz_Kempten.jpg/500px-Residenz_und_St._Lorenz_Kempten.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Residenz_und_St._Lorenz_Kempten.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Residenz_und_St._Lorenz_Kempten.jpg",
+      "caption": "Fürstäbtliche Residenz und Basilika St. Lorenz in Kempten (Allgäu)",
+      "source": "Wikimedia Commons",
+      "artist": "Ralf Lienert",
+      "date": "11 September 2011, 12:01:44 (according to Exif data)",
+      "license": "CC BY 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+      "width": "1280",
+      "height": "830"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Vorarlberg School",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q759191",
+      "url": "https://www.wikidata.org/wiki/Q759191",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:10.453Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Vorarlberg School",
+      "url": "https://en.wikipedia.org/wiki/Vorarlberg_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:10.453Z"
+      }
+    }
+  ],
   "wikidata": "Q759191",
   "wikipedia": "Vorarlberg School",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:11:10.453Z"
 }

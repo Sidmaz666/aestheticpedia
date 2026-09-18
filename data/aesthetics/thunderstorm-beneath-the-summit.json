@@ -24,7 +24,33 @@
   "summary": "Thunderstorm Beneath the Summit (Japanese: 山下白雨, Hepburn: Sanka hakuu), also known as Rainstorm Beneath the Summit, or sometimes Black Fuji (黒富士 Kurofuji) is a woodcut print by the Japanese ukiyo-e master Hokusai (1760–1849).",
   "description": "Thunderstorm Beneath the Summit (Japanese: 山下白雨, Hepburn: Sanka hakuu), also known as Rainstorm Beneath the Summit, or sometimes Black Fuji (黒富士 Kurofuji) is a woodcut print by the Japanese ukiyo-e master Hokusai (1760–1849). It is one of the most famous prints from his celebrated Thirty-six Views of Mount Fuji series, published c. 1830–1832.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1a1410",
+      "name": "black"
+    },
+    {
+      "hex": "#f7f7f3",
+      "name": "paper white"
+    },
+    {
+      "hex": "#ddd0b7",
+      "name": "beige"
+    },
+    {
+      "hex": "#3e2a25",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#52898c",
+      "name": "slate"
+    },
+    {
+      "hex": "#b4a597",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -46,7 +72,35 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Katsushika_Hokusai%2C_tempesta_sotto_la_vetta%2C_dalla_serie_delle_36_vedute_del_monte_fuji%2C_1831_ca.jpg/1280px-Katsushika_Hokusai%2C_tempesta_sotto_la_vetta%2C_dalla_serie_delle_36_vedute_del_monte_fuji%2C_1831_ca.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Katsushika_Hokusai%2C_tempesta_sotto_la_vetta%2C_dalla_serie_delle_36_vedute_del_monte_fuji%2C_1831_ca.jpg/500px-Katsushika_Hokusai%2C_tempesta_sotto_la_vetta%2C_dalla_serie_delle_36_vedute_del_monte_fuji%2C_1831_ca.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Katsushika_Hokusai%2C_tempesta_sotto_la_vetta%2C_dalla_serie_delle_36_vedute_del_monte_fuji%2C_1831_ca.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai,_tempesta_sotto_la_vetta,_dalla_serie_delle_36_vedute_del_monte_fuji,_1831_ca.jpg",
+      "caption": "Thunderstorm Beneath the Summit, a Japanese woodblock print by Hokusai",
+      "source": "Wikimedia Commons",
+      "artist": "Sailko",
+      "date": "2017-11-07 05:45:59",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "866"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Thunderstorm_fuji_variation.jpg/1280px-Thunderstorm_fuji_variation.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Thunderstorm_fuji_variation.jpg/500px-Thunderstorm_fuji_variation.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Thunderstorm_fuji_variation.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Thunderstorm_fuji_variation.jpg",
+      "caption": "Thunderstorm Beneath the Summit variation From Hokusai 's 36 Views of Mount Fuji",
+      "source": "Wikimedia Commons",
+      "artist": "Hokusai",
+      "date": "circa 1830 date QS:P,+1830-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "885"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Thunderstorm Beneath the Summit",
@@ -69,7 +123,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q18173384",
+      "url": "https://www.wikidata.org/wiki/Q18173384",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:01.428Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Thunderstorm Beneath the Summit",
+      "url": "https://en.wikipedia.org/wiki/Thunderstorm_Beneath_the_Summit",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:01.428Z"
+      }
+    }
+  ],
   "wikidata": "Q18173384",
   "wikipedia": "Thunderstorm Beneath the Summit",
   "popularity": 35,
@@ -77,5 +154,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:09:01.428Z"
 }

@@ -17,7 +17,33 @@
   "summary": "American realism was a movement in art, music and literature that depicted contemporary social realities and the lives and everyday activities of ordinary people.",
   "description": "American realism was a movement in art, music and literature that depicted contemporary social realities and the lives and everyday activities of ordinary people. The movement began in literature in the mid-19th century, and became an important tendency in visual art in the early 20th century. Whether a cultural portrayal or a scenic view of downtown Manhattan, American realist works attempted to define what was real.\n\nIn the U.S. at the beginning of the 20th century a new generation of painters, writers and journalists were coming of age. Many of the painters felt the influence of older U.S. artists such as Thomas Eakins, Mary Cassatt, John Singer Sargent, James McNeill Whistler, Winslow Homer, Childe Hassam, J. Alden Weir, Thomas Pollock Anshutz, and William Merritt Chase. However they were interested in creating new and more urbane works that reflected city life and a population that was more urban than rural in the U.S. as it entered the new century.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#3e4743",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#292b2c",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#536661",
+      "name": "graphite"
+    },
+    {
+      "hex": "#a9aa97",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#929583",
+      "name": "stone"
+    },
+    {
+      "hex": "#947657",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,111 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Bellows_George_Dempsey_and_Firpo_1924.jpg/1280px-Bellows_George_Dempsey_and_Firpo_1924.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Bellows_George_Dempsey_and_Firpo_1924.jpg/500px-Bellows_George_Dempsey_and_Firpo_1924.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Bellows_George_Dempsey_and_Firpo_1924.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bellows_George_Dempsey_and_Firpo_1924.jpg",
+      "caption": "Dempsey and Firpo",
+      "source": "Wikimedia Commons",
+      "artist": "George Bellows",
+      "date": "June 1924 date QS:P571,+1924-06-00T00:00:00Z/10",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1038"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Alfred_Stieglitz_Winter_Fifth_Avenue_1892.jpg/1280px-Alfred_Stieglitz_Winter_Fifth_Avenue_1892.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Alfred_Stieglitz_Winter_Fifth_Avenue_1892.jpg/500px-Alfred_Stieglitz_Winter_Fifth_Avenue_1892.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Alfred_Stieglitz_Winter_Fifth_Avenue_1892.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_Winter_Fifth_Avenue_1892.jpg",
+      "caption": "Camera Work: Winter - Fifth Avenue",
+      "source": "Wikimedia Commons",
+      "artist": "Alfred Stieglitz",
+      "date": "1893 / 1892",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1839"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Steichen_flatiron.jpg/1280px-Steichen_flatiron.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Steichen_flatiron.jpg/500px-Steichen_flatiron.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Steichen_flatiron.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Steichen_flatiron.jpg",
+      "caption": "Edward Steichen : The Flatiron",
+      "source": "Wikimedia Commons",
+      "artist": "Edward Steichen",
+      "date": "Taken in 1904",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1622"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Brooklyn_Museum_-_The_Old_Ships_Draw_to_Home_Again_-_Jonas_Lie_-_overall.jpg/1280px-Brooklyn_Museum_-_The_Old_Ships_Draw_to_Home_Again_-_Jonas_Lie_-_overall.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Brooklyn_Museum_-_The_Old_Ships_Draw_to_Home_Again_-_Jonas_Lie_-_overall.jpg/500px-Brooklyn_Museum_-_The_Old_Ships_Draw_to_Home_Again_-_Jonas_Lie_-_overall.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Brooklyn_Museum_-_The_Old_Ships_Draw_to_Home_Again_-_Jonas_Lie_-_overall.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_The_Old_Ships_Draw_to_Home_Again_-_Jonas_Lie_-_overall.jpg",
+      "caption": "The Old Ships Draw to Home Again",
+      "source": "Wikimedia Commons",
+      "artist": "Jonas Lie",
+      "date": "circa 1920 date QS:P571,+1920-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1030"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/George_Bellows_-_New_York.jpg/1280px-George_Bellows_-_New_York.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/George_Bellows_-_New_York.jpg/500px-George_Bellows_-_New_York.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/50/George_Bellows_-_New_York.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:George_Bellows_-_New_York.jpg",
+      "caption": "New York",
+      "source": "Wikimedia Commons",
+      "artist": "George Bellows",
+      "date": "1911 date QS:P571,+1911-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "889"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/John_French_Sloan_Studio.jpg/1280px-John_French_Sloan_Studio.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/John_French_Sloan_Studio.jpg/500px-John_French_Sloan_Studio.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4d/John_French_Sloan_Studio.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:John_French_Sloan_Studio.jpg",
+      "caption": "Sloan pictured among a group of his friends at his studio in Philadelphia. Photographer unknown.",
+      "source": "Wikimedia Commons",
+      "artist": "Unidentified photographer",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "937"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Ten_American_Painters_%28The_Ten%29.jpg/1280px-Ten_American_Painters_%28The_Ten%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Ten_American_Painters_%28The_Ten%29.jpg/500px-Ten_American_Painters_%28The_Ten%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ten_American_Painters_%28The_Ten%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ten_American_Painters_(The_Ten).jpg",
+      "caption": "Ten American Painters (The Ten), 1908 Ten American Painters (The Ten), 1908, by Haeseler Photographic Studios, Philadelphia, Pennsylvania. Courtesy of the Smithsonian American Art Museum, Photograph Archives, Washington, D. C. Seated, left to right: Edward Simmons , Willard L. Me",
+      "source": "Wikimedia Commons",
+      "artist": "Haeseler Photographic Studios, Philadelphia, Pennsylvania.",
+      "date": "1908",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "921"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Shinn_Henri_Sloan.jpg/1280px-Shinn_Henri_Sloan.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Shinn_Henri_Sloan.jpg/500px-Shinn_Henri_Sloan.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/81/Shinn_Henri_Sloan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Shinn_Henri_Sloan.jpg",
+      "caption": "Everett Shinn , Robert Henri and John Sloan ; Painters; members of the group, \" The Eight .\"",
+      "source": "Wikimedia Commons",
+      "artist": "Unidentified photographer",
+      "date": "circa 1896 date QS:P571,+1896-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1453"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — American realism",
@@ -62,7 +192,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4745527",
+      "url": "https://www.wikidata.org/wiki/Q4745527",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:10.603Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — American realism",
+      "url": "https://en.wikipedia.org/wiki/American_realism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:10.603Z"
+      }
+    }
+  ],
   "wikidata": "Q4745527",
   "wikipedia": "American realism",
   "popularity": 35,
@@ -70,5 +223,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:35:10.603Z"
 }

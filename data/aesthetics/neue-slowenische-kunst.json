@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1266300",
+      "url": "https://www.wikidata.org/wiki/Q1266300",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:13.965Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Neue Slowenische Kunst",
+      "url": "https://en.wikipedia.org/wiki/Neue_Slowenische_Kunst",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:13.965Z"
+      }
+    }
+  ],
   "wikidata": "Q1266300",
   "wikipedia": "Neue Slowenische Kunst",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:57:13.965Z"
 }

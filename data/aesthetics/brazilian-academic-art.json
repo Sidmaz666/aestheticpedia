@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Brazil",
+  "geography": "Brazil",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Brazilian academic art was the institutionalized expression of the entire art system that prevailed in Brazil from the early 19th century until the early 20th century, based on the principles of European art academies.",
   "description": "Brazilian academic art was the institutionalized expression of the entire art system that prevailed in Brazil from the early 19th century until the early 20th century, based on the principles of European art academies. It originated with the Royal School of Sciences, Arts and Crafts founded by John VI in 1816, encouraged by the French Artistic Mission, flourished under the Imperial Academy of Fine Arts and the patronage of Dom Pedro II, and concluded with the incorporation of its republican successor, the National School of Fine Arts, into the Federal University of Rio de Janeiro in 1931.\n\nAcademicism, in its strictest sense, refers to a structured artistic training program at the post-secondary level, comparable to contemporary university education. In Brazil, this system was introduced during the period of Neoclassicism, a style it significantly helped to disseminate, and later absorbed Romantic, Realist, Symbolist, and other aesthetics that characterized the turn of the 19th to the 20th century, while filtering out elements that did not align with the Academy’s formality.\n\nThe close connection between Brazilian academic art and the established power broadened the term’s meaning, making national Academicism not only a teaching system but also a philosophical movement and a political act. It served as a laboratory for formulating significant symbols of national identity and a platform for their dissemination, contributing to making its period of influence one of the richest, most complex, and dynamic in the history of Brazilian art. Its substantial legacy in art remains significant to this day. Although the term Academicism is most commonly applied in Brazilian Art History to the period outlined above, the academic teaching system survived the challenges of Modernism and 20th-century avant-garde movements, albeit transformed, integrating into the environment of modern university art schools, which today produce and theorize art at a high level and are direct descendants of the School founded by John VI and the French.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#463414",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#2a1c08",
+      "name": "black"
+    },
+    {
+      "hex": "#634c25",
+      "name": "walnut brown 2"
+    },
+    {
+      "hex": "#6e6851",
+      "name": "umber"
+    },
+    {
+      "hex": "#5980a1",
+      "name": "slate"
+    },
+    {
+      "hex": "#9b7139",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,151 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Meirelles-primeiramissa2.jpg/1280px-Meirelles-primeiramissa2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Meirelles-primeiramissa2.jpg/500px-Meirelles-primeiramissa2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Meirelles-primeiramissa2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Meirelles-primeiramissa2.jpg",
+      "caption": "The First Mass in Brazil",
+      "source": "Wikimedia Commons",
+      "artist": "Victor Meirelles",
+      "date": "1860 date QS:P571,+1860-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "983"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/F%C3%A9lix-%C3%89mile_Taunay_Epitome_de_Anatomia_Relativa_as_Bellas_Artes.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4c/F%C3%A9lix-%C3%89mile_Taunay_Epitome_de_Anatomia_Relativa_as_Bellas_Artes.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4c/F%C3%A9lix-%C3%89mile_Taunay_Epitome_de_Anatomia_Relativa_as_Bellas_Artes.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:F%C3%A9lix-%C3%89mile_Taunay_Epitome_de_Anatomia_Relativa_as_Bellas_Artes.jpg",
+      "caption": "Capa do tratado “Epitome de Anatomia Relativa as Bellas Artes\"",
+      "source": "Wikimedia Commons",
+      "artist": "Félix Taunay, Baron of Taunay",
+      "date": "1837",
+      "license": "Public domain",
+      "width": "1173",
+      "height": "827"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Le_Brun_-_L%27Admiration.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Le_Brun_-_L%27Admiration.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Le_Brun_-_L%27Admiration.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Le_Brun_-_L%27Admiration.jpg",
+      "caption": "Estudo das expressões - a admiração",
+      "source": "Wikimedia Commons",
+      "artist": "gravuiras a partir de desenhos originais de Charles Le Brun",
+      "date": "1727",
+      "license": "Public domain",
+      "width": "730",
+      "height": "863"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Motivo_decorativo_-_museu_dom_joao_vi.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Motivo_decorativo_-_museu_dom_joao_vi.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Motivo_decorativo_-_museu_dom_joao_vi.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Motivo_decorativo_-_museu_dom_joao_vi.jpg",
+      "caption": "estampa com motivo ornamental para estudo dos alunos dos cursos técnicos da Academia Imperial de Belas Artes do Brasil",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "19 th century date QS:P,+1850-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "835",
+      "height": "615"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Victor_Meirelles_-_%27Battle_of_Guararapes%27%2C_1879%2C_oil_on_canvas%2C_Museu_Nacional_de_Belas_Artes%2C_Rio_de_Janeiro.JPG/1280px-Victor_Meirelles_-_%27Battle_of_Guararapes%27%2C_1879%2C_oil_on_canvas%2C_Museu_Nacional_de_Belas_Artes%2C_Rio_de_Janeiro.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Victor_Meirelles_-_%27Battle_of_Guararapes%27%2C_1879%2C_oil_on_canvas%2C_Museu_Nacional_de_Belas_Artes%2C_Rio_de_Janeiro.JPG/500px-Victor_Meirelles_-_%27Battle_of_Guararapes%27%2C_1879%2C_oil_on_canvas%2C_Museu_Nacional_de_Belas_Artes%2C_Rio_de_Janeiro.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Victor_Meirelles_-_%27Battle_of_Guararapes%27%2C_1879%2C_oil_on_canvas%2C_Museu_Nacional_de_Belas_Artes%2C_Rio_de_Janeiro.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Victor_Meirelles_-_%27Battle_of_Guararapes%27,_1879,_oil_on_canvas,_Museu_Nacional_de_Belas_Artes,_Rio_de_Janeiro.JPG",
+      "caption": "Battle of Guararapes",
+      "source": "Wikimedia Commons",
+      "artist": "Victor Meirelles",
+      "date": "from 1875 until 1879 date QS:P571,+1875-00-00T00:00:00Z/8,P5",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "745"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Bernardelli-cristo.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Bernardelli-cristo.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Bernardelli-cristo.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bernardelli-cristo.jpg",
+      "caption": "Rodolpho Bernardelli: Cristo e a mulher adúltera, mármore, 1881, Museu Nacional de Belas Artes",
+      "source": "Wikimedia Commons",
+      "artist": "Rodolfo Bernardelli",
+      "date": "2008",
+      "license": "Public domain",
+      "width": "482",
+      "height": "638"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/PetropolisMuseuImperial1-CCBYSA.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/38/PetropolisMuseuImperial1-CCBYSA.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/38/PetropolisMuseuImperial1-CCBYSA.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:PetropolisMuseuImperial1-CCBYSA.jpg",
+      "caption": "Museu Imperial in Petropolis, Brazil",
+      "source": "Wikimedia Commons",
+      "artist": "Alexandre Machado [2] , modified by Fulviusbsas",
+      "date": "2006",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "739",
+      "height": "479"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Ultimo_tamoio_1883.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/22/Ultimo_tamoio_1883.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/22/Ultimo_tamoio_1883.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ultimo_tamoio_1883.jpg",
+      "caption": "Portuguese: Último Tamoio The Last Tamoio",
+      "source": "Wikimedia Commons",
+      "artist": "Rodolfo Amoedo",
+      "date": "1883 date QS:P571,+1883-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1000",
+      "height": "686"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Vista_do_caval%C3%A3o_by_Georg_Grimm.jpg/1280px-Vista_do_caval%C3%A3o_by_Georg_Grimm.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Vista_do_caval%C3%A3o_by_Georg_Grimm.jpg/500px-Vista_do_caval%C3%A3o_by_Georg_Grimm.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Vista_do_caval%C3%A3o_by_Georg_Grimm.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vista_do_caval%C3%A3o_by_Georg_Grimm.jpg",
+      "caption": "Portuguese: Vista do cavalão.",
+      "source": "Wikimedia Commons",
+      "artist": "Georg Grimm",
+      "date": "1884 date QS:P571,+1884-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1665"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/O_violeiro%2C_1899.jpg/1280px-O_violeiro%2C_1899.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/O_violeiro%2C_1899.jpg/500px-O_violeiro%2C_1899.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ce/O_violeiro%2C_1899.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:O_violeiro,_1899.jpg",
+      "caption": "The Guitar Player",
+      "source": "Wikimedia Commons",
+      "artist": "José Ferraz de Almeida Júnior",
+      "date": "1899 date QS:P571,+1899-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1033"
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Carlos_Gomes_-_Alvorada.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Carlos Gomes - Alvorada",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Carlos_Gomes_-_Alvorada.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 432,
+      "artist": "Carlos Gomes",
+      "license": "Public domain"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Brazilian academic art",
@@ -62,7 +232,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q189772",
+      "url": "https://www.wikidata.org/wiki/Q189772",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:06.175Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Brazilian academic art",
+      "url": "https://en.wikipedia.org/wiki/Brazilian_academic_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:06.175Z"
+      }
+    }
+  ],
   "wikidata": "Q189772",
   "wikipedia": "Brazilian academic art",
   "popularity": 35,
@@ -70,5 +263,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.928Z"
 }

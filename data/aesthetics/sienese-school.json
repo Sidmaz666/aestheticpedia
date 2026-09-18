@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Italy, Siena",
+  "geography": "Italy, Siena",
   "periodStart": "14th century",
   "periodEnd": "",
   "startYear": 1300,
@@ -17,7 +17,33 @@
   "summary": "The Sienese school of painting flourished in Siena, Italy, between the 13th and 15th centuries.",
   "description": "The Sienese school of painting flourished in Siena, Italy, between the 13th and 15th centuries. Its most important artists include Duccio, whose work shows Byzantine influence, his pupil Simone Martini, the brothers Pietro and Ambrogio Lorenzetti and Domenico and Taddeo di Bartolo, Sassetta, and Matteo di Giovanni.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#8e714b",
+      "name": "bronze"
+    },
+    {
+      "hex": "#ab8a58",
+      "name": "camel"
+    },
+    {
+      "hex": "#c4a56c",
+      "name": "camel 2"
+    },
+    {
+      "hex": "#bfb5a1",
+      "name": "khaki"
+    },
+    {
+      "hex": "#66593f",
+      "name": "umber"
+    },
+    {
+      "hex": "#433428",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,85 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Simone_Martini_%E2%80%94_Annunciation_with_St._Margaret_and_St._Ansanus.jpg/1280px-Simone_Martini_%E2%80%94_Annunciation_with_St._Margaret_and_St._Ansanus.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Simone_Martini_%E2%80%94_Annunciation_with_St._Margaret_and_St._Ansanus.jpg/500px-Simone_Martini_%E2%80%94_Annunciation_with_St._Margaret_and_St._Ansanus.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/Simone_Martini_%E2%80%94_Annunciation_with_St._Margaret_and_St._Ansanus.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Simone_Martini_%E2%80%94_Annunciation_with_St._Margaret_and_St._Ansanus.jpg",
+      "caption": "Simone Martini — Annunciation with St. Margaret and St. Ansanus",
+      "source": "Wikimedia Commons",
+      "artist": "Gleb Simonov",
+      "date": "2023-12-27",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1111"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Pietro_lorenzetti%2C_compianto_%28dettaglio%29_basilica_inferiore_di_assisi_%281310-1329%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/34/Pietro_lorenzetti%2C_compianto_%28dettaglio%29_basilica_inferiore_di_assisi_%281310-1329%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/34/Pietro_lorenzetti%2C_compianto_%28dettaglio%29_basilica_inferiore_di_assisi_%281310-1329%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pietro_lorenzetti,_compianto_(dettaglio)_basilica_inferiore_di_assisi_(1310-1329).jpg",
+      "caption": "Pietro lorenzetti, compianto (dettaglio) basilica inferiore di assisi (1310-1329)",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "500",
+      "height": "500"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Duccio_Maest%C3%A0.jpg/1280px-Duccio_Maest%C3%A0.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Duccio_Maest%C3%A0.jpg/500px-Duccio_Maest%C3%A0.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Duccio_Maest%C3%A0.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Duccio_Maest%C3%A0.jpg",
+      "caption": "Maestà Raising of Lazarus",
+      "source": "Wikimedia Commons",
+      "artist": "Duccio di Buoninsegna",
+      "date": "between 1308 and 1311 date QS:P571,+1350-00-00T00:00:00Z/7,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "652"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/1%D0%B3_Ugolino_di_Nerio._The_Last_Supper_Metropolitan_mus._N-Y.jpg/1280px-1%D0%B3_Ugolino_di_Nerio._The_Last_Supper_Metropolitan_mus._N-Y.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/1%D0%B3_Ugolino_di_Nerio._The_Last_Supper_Metropolitan_mus._N-Y.jpg/500px-1%D0%B3_Ugolino_di_Nerio._The_Last_Supper_Metropolitan_mus._N-Y.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6e/1%D0%B3_Ugolino_di_Nerio._The_Last_Supper_Metropolitan_mus._N-Y.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:1%D0%B3_Ugolino_di_Nerio._The_Last_Supper_Metropolitan_mus._N-Y.jpg",
+      "caption": "The Last Supper",
+      "source": "Wikimedia Commons",
+      "artist": "Ugolino di Nerio",
+      "date": "May 1324 date QS:P571,+1324-05-00T00:00:00Z/10",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "839"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Giovanni_di_Paolo_-_Madonna_of_Humility_c._1442_Boston_MFA.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Giovanni_di_Paolo_-_Madonna_of_Humility_c._1442_Boston_MFA.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Giovanni_di_Paolo_-_Madonna_of_Humility_c._1442_Boston_MFA.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Giovanni_di_Paolo_-_Madonna_of_Humility_c._1442_Boston_MFA.jpg",
+      "caption": "Madonna and Child",
+      "source": "Wikimedia Commons",
+      "artist": "Giovanni di Paolo",
+      "date": "1442",
+      "license": "Public domain",
+      "width": "1069",
+      "height": "1422"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Domenico_Beccafumi_-_Public_Virtues_of_Greek_and_Roman_Heroes-_The_Sacrifice_of_King_Codron_of_Athens_-_Google_Art_Project.jpg/1280px-Domenico_Beccafumi_-_Public_Virtues_of_Greek_and_Roman_Heroes-_The_Sacrifice_of_King_Codron_of_Athens_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Domenico_Beccafumi_-_Public_Virtues_of_Greek_and_Roman_Heroes-_The_Sacrifice_of_King_Codron_of_Athens_-_Google_Art_Project.jpg/500px-Domenico_Beccafumi_-_Public_Virtues_of_Greek_and_Roman_Heroes-_The_Sacrifice_of_King_Codron_of_Athens_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/Domenico_Beccafumi_-_Public_Virtues_of_Greek_and_Roman_Heroes-_The_Sacrifice_of_King_Codron_of_Athens_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Domenico_Beccafumi_-_Public_Virtues_of_Greek_and_Roman_Heroes-_The_Sacrifice_of_King_Codron_of_Athens_-_Google_Art_Project.jpg",
+      "caption": "Public Virtues of Greek and Roman Heroes: The Sacrifice of King Codrus of Athens",
+      "source": "Wikimedia Commons",
+      "artist": "Domenico Beccafumi",
+      "date": "(1529 - 1535)",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "845"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Sienese school",
@@ -62,7 +166,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1332178",
+      "url": "https://www.wikidata.org/wiki/Q1332178",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:28.028Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Sienese school",
+      "url": "https://en.wikipedia.org/wiki/Sienese_school",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:28.028Z"
+      }
+    }
+  ],
   "wikidata": "Q1332178",
   "wikipedia": "Sienese school",
   "popularity": 35,
@@ -70,5 +197,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:54.502Z"
 }

@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7233581",
+      "url": "https://www.wikidata.org/wiki/Q7233581",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:07.299Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Post-socialist art",
+      "url": "https://en.wikipedia.org/wiki/Post-socialist_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:07.299Z"
+      }
+    }
+  ],
   "wikidata": "Q7233581",
   "wikipedia": "Post-socialist art",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:01:07.299Z"
 }

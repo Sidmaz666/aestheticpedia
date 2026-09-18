@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Sweden, Gripsholm Castle",
+  "geography": "Sweden, Gripsholm Castle",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Lion of Gripsholm Castle (Swedish: Lejonet på Gripsholms slott) is a taxidermied lion that is presented on a mount in Gripsholm Castle, Sweden.",
   "description": "The Lion of Gripsholm Castle (Swedish: Lejonet på Gripsholms slott) is a taxidermied lion that is presented on a mount in Gripsholm Castle, Sweden. It has been retroactively regarded as poorly executed and comically deformed, drawing amusement and speculation since it was created in the 18th century.\n\nIn 1731, the dey of Algiers, Baba Abdi, presented King Frederick I of Sweden with a lion, one of the first lions in Scandinavia. When alive, the lion was kept in a cage near Junibacken. When the lion died, it was stuffed and mounted. There are two main theories that give insight into an explanation of the exaggerated features of the restoration. A popular theory is that the taxidermist and the museum-keepers may have never actually seen a lion before, and did not know how they were supposed to look. The lion has a ferocious appearance only from the side, which also explains the inaccuracies in the rest of the body, as the taxidermist may have simply focused on the intended viewing perspective.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#231e12",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#4b402c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#c08b43",
+      "name": "raw sienna"
+    },
+    {
+      "hex": "#6b6250",
+      "name": "umber"
+    },
+    {
+      "hex": "#e7b569",
+      "name": "tan"
+    },
+    {
+      "hex": "#936429",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "ornament"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Gripsholm_Leo_24_BG.jpg/1280px-Gripsholm_Leo_24_BG.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Gripsholm_Leo_24_BG.jpg/500px-Gripsholm_Leo_24_BG.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/56/Gripsholm_Leo_24_BG.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gripsholm_Leo_24_BG.jpg",
+      "caption": "Lion of Gripsholm Castle",
+      "source": "Wikimedia Commons",
+      "artist": "Bingar1234",
+      "date": "2024-08-11",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "975"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Gripsholm_Leo_23_BG.jpg/1280px-Gripsholm_Leo_23_BG.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Gripsholm_Leo_23_BG.jpg/500px-Gripsholm_Leo_23_BG.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/35/Gripsholm_Leo_23_BG.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gripsholm_Leo_23_BG.jpg",
+      "caption": "Lion of Gripsholm Castle",
+      "source": "Wikimedia Commons",
+      "artist": "Bingar1234",
+      "date": "2024-08-11",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1594"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Lion of Gripsholm Castle",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q15964681",
+      "url": "https://www.wikidata.org/wiki/Q15964681",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:05.957Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Lion of Gripsholm Castle",
+      "url": "https://en.wikipedia.org/wiki/Lion_of_Gripsholm_Castle",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:05.957Z"
+      }
+    }
+  ],
   "wikidata": "Q15964681",
   "wikipedia": "Lion of Gripsholm Castle",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.650Z"
 }

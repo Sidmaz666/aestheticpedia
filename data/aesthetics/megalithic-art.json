@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7573930",
+      "url": "https://www.wikidata.org/wiki/Q7573930",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:18.953Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Megalithic art",
+      "url": "https://en.wikipedia.org/wiki/Megalithic_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:18.953Z"
+      }
+    }
+  ],
   "wikidata": "Q7573930",
   "wikipedia": "Megalithic art",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:54:18.953Z"
 }

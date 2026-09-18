@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Venezuela",
+  "geography": "Venezuela",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q9023985",
+      "url": "https://www.wikidata.org/wiki/Q9023985",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:09.775Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Los disidentes",
+      "url": "https://en.wikipedia.org/wiki/Los_disidentes",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:09.775Z"
+      }
+    }
+  ],
   "wikidata": "Q9023985",
   "wikipedia": "Los disidentes",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.649Z"
 }

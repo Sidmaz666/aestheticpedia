@@ -17,7 +17,33 @@
   "summary": "Medieval architecture was the art and science of designing and constructing buildings in the Middle Ages.",
   "description": "Medieval architecture was the art and science of designing and constructing buildings in the Middle Ages. The major styles of the period included pre-Romanesque, Romanesque, and Gothic. In the fifteenth century, architects began to favour classical forms again, in the Renaissance style, marking the end of the medieval period. Many examples of religious, civic, and military architecture from the Middle Ages survive throughout Europe.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#9e8872",
+      "name": "stone"
+    },
+    {
+      "hex": "#8d6e54",
+      "name": "bronze"
+    },
+    {
+      "hex": "#bda889",
+      "name": "khaki"
+    },
+    {
+      "hex": "#6b5334",
+      "name": "umber"
+    },
+    {
+      "hex": "#e5ebf6",
+      "name": "paper white"
+    },
+    {
+      "hex": "#e0cca6",
+      "name": "beige"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,105 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Durham_Cathedral_Nave.jpg/1280px-Durham_Cathedral_Nave.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Durham_Cathedral_Nave.jpg/500px-Durham_Cathedral_Nave.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Durham_Cathedral_Nave.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Durham_Cathedral_Nave.jpg",
+      "caption": "Here is a photograph taken from the nave inside Durham Cathedral. Located in Durham, England, UK.",
+      "source": "Wikimedia Commons",
+      "artist": "Michael D Beckwith",
+      "date": "2019-06-21 06:50:29",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Santa_Mar%C3%ADa_del_Naranco%2C_Oviedo_edited.jpg/1280px-Santa_Mar%C3%ADa_del_Naranco%2C_Oviedo_edited.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Santa_Mar%C3%ADa_del_Naranco%2C_Oviedo_edited.jpg/500px-Santa_Mar%C3%ADa_del_Naranco%2C_Oviedo_edited.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Santa_Mar%C3%ADa_del_Naranco%2C_Oviedo_edited.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Santa_Mar%C3%ADa_del_Naranco,_Oviedo_edited.jpg",
+      "caption": "Santa María del Naranco, Oviedo (2018)",
+      "source": "Wikimedia Commons",
+      "artist": "Alonso de Mendoza",
+      "date": "2018-12-27 15:40:45",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Pisa_Cattedrale_di_Santa_Maria_Assunta_Esterno_Angolo_Sud_Ovest_4.jpg/1280px-Pisa_Cattedrale_di_Santa_Maria_Assunta_Esterno_Angolo_Sud_Ovest_4.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Pisa_Cattedrale_di_Santa_Maria_Assunta_Esterno_Angolo_Sud_Ovest_4.jpg/500px-Pisa_Cattedrale_di_Santa_Maria_Assunta_Esterno_Angolo_Sud_Ovest_4.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/86/Pisa_Cattedrale_di_Santa_Maria_Assunta_Esterno_Angolo_Sud_Ovest_4.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pisa_Cattedrale_di_Santa_Maria_Assunta_Esterno_Angolo_Sud_Ovest_4.jpg",
+      "caption": "Southwest Corner of the Cathedral of St. Mary Assumption, Pisa, Province of Pisa, Region of Tuscany, Italy",
+      "source": "Wikimedia Commons",
+      "artist": "Zairon",
+      "date": "2023-04-20 10:53:36",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "723"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sainte_Chapelle_-_Upper_level_1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sainte_Chapelle_-_Upper_level_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sainte_Chapelle_-_Upper_level_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sainte_Chapelle_-_Upper_level_1.jpg",
+      "caption": "Sainte Chapelle - Upper Chapel, Paris, France",
+      "source": "Wikimedia Commons",
+      "artist": "Didier B ( Sam67fr )",
+      "date": "2005-10-14",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "989",
+      "height": "1961"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/20130808_Kings_College_Chapel_01.jpg/1280px-20130808_Kings_College_Chapel_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/20130808_Kings_College_Chapel_01.jpg/500px-20130808_Kings_College_Chapel_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bf/20130808_Kings_College_Chapel_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:20130808_Kings_College_Chapel_01.jpg",
+      "caption": "King's College Chapel, Cambridge. View from front court.",
+      "source": "Wikimedia Commons",
+      "artist": "Dmitry Tonkonog",
+      "date": "2013-08-10 01:13:19",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "604"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Santa_Mar%C3%ADa_La_Blanca_%5E_sinagoga_en_TOLEDO_-_panoramio_edited.jpg/1280px-Santa_Mar%C3%ADa_La_Blanca_%5E_sinagoga_en_TOLEDO_-_panoramio_edited.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Santa_Mar%C3%ADa_La_Blanca_%5E_sinagoga_en_TOLEDO_-_panoramio_edited.jpg/500px-Santa_Mar%C3%ADa_La_Blanca_%5E_sinagoga_en_TOLEDO_-_panoramio_edited.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/80/Santa_Mar%C3%ADa_La_Blanca_%5E_sinagoga_en_TOLEDO_-_panoramio_edited.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Santa_Mar%C3%ADa_La_Blanca_%5E_sinagoga_en_TOLEDO_-_panoramio_edited.jpg",
+      "caption": "Straighten and color correct.",
+      "source": "Wikimedia Commons",
+      "artist": "wortofree madrid",
+      "date": "2013-03-24",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "854"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Zolyomcivertanlegi1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/04/Zolyomcivertanlegi1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/04/Zolyomcivertanlegi1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Zolyomcivertanlegi1.jpg",
+      "caption": "Zolyomcivertanlegi1",
+      "source": "Wikimedia Commons",
+      "artist": "Civertan",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "600",
+      "height": "389"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Medieval architecture",
@@ -62,7 +186,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1349760",
+      "url": "https://www.wikidata.org/wiki/Q1349760",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:16.597Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Medieval architecture",
+      "url": "https://en.wikipedia.org/wiki/Medieval_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:16.597Z"
+      }
+    }
+  ],
   "wikidata": "Q1349760",
   "wikipedia": "Medieval architecture",
   "popularity": 35,
@@ -70,5 +217,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:54:16.597Z"
 }

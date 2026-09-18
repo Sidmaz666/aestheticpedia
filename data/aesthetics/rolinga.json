@@ -9,8 +9,8 @@
   "establishment": "community_subculture",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Argentina",
+  "geography": "Argentina",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -64,7 +64,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6111286",
+      "url": "https://www.wikidata.org/wiki/Q6111286",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:09.011Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Rolinga",
+      "url": "https://en.wikipedia.org/wiki/Rolinga",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:09.011Z"
+      }
+    }
+  ],
   "wikidata": "Q6111286",
   "wikipedia": "Rolinga",
   "popularity": 35,
@@ -72,5 +95,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.114Z"
 }

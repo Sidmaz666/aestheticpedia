@@ -39,7 +39,77 @@
   "tags": [
     "painting technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vincent_Willem_van_Gogh_107.jpg",
+      "caption": "\"Van Gogh painted this self-portrait in the winter of 1887–1888, when he had been living in Paris for nearly two years. Since his arrival in the city he had devoted much study to the dotted Pointillist technique, thereby learning how he might apply it in his own fashion. His use ",
+      "source": "Wikimedia Commons",
+      "artist": "Vincent van Gogh",
+      "date": "Winter 1887–1888",
+      "license": "Public domain",
+      "width": "1256",
+      "height": "1539"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b3d007fb-fa8d-f32d-67cb-6936cc053ab5/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b3d007fb-fa8d-f32d-67cb-6936cc053ab5/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b3d007fb-fa8d-f32d-67cb-6936cc053ab5/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/107853",
+      "caption": "Lace Borders, Mid-18th century",
+      "source": "Art Institute of Chicago",
+      "artist": "France, Valenciennes",
+      "date": "Mid-18th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "599"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/629e6e88-5776-8ba5-e49f-fda92cdbac93/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/629e6e88-5776-8ba5-e49f-fda92cdbac93/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/629e6e88-5776-8ba5-e49f-fda92cdbac93/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/218072",
+      "caption": "Portrait of a Man in a Red Cap, c. 1480",
+      "source": "Art Institute of Chicago",
+      "artist": "South German; possibly Ulm",
+      "date": "c. 1480",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1231"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/7d8d7310-32ec-3ad6-edbd-555528f21838/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/7d8d7310-32ec-3ad6-edbd-555528f21838/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/7d8d7310-32ec-3ad6-edbd-555528f21838/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/47625",
+      "caption": "Chasuble, 1800/50",
+      "source": "Art Institute of Chicago",
+      "artist": "Probably England or France",
+      "date": "1800/50",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1276"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/31cffced-e17e-524d-4b0a-adb27742fa81/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/31cffced-e17e-524d-4b0a-adb27742fa81/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/31cffced-e17e-524d-4b0a-adb27742fa81/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/30947",
+      "caption": "Tunic, 18th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Iran (Persia)",
+      "date": "18th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "917"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Carnation (painting)",
@@ -62,7 +132,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5043809",
+      "url": "https://www.wikidata.org/wiki/Q5043809",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:04.479Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Carnation (painting)",
+      "url": "https://en.wikipedia.org/wiki/Carnation_(painting)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:04.479Z"
+      }
+    }
+  ],
   "wikidata": "Q5043809",
   "wikipedia": "Carnation (painting)",
   "popularity": 35,
@@ -70,5 +163,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:40:04.479Z"
 }

@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Uraku-en, Meitetsu Inuyama Hotel, Japan",
+  "geography": "Uraku-en, Meitetsu Inuyama Hotel, Japan",
   "periodStart": "17th century",
   "periodEnd": "",
   "startYear": 1618,
@@ -19,7 +19,33 @@
   "summary": "Jo-an (如庵) is a seventeenth-century Japanese teahouse (chashitsu) located in Inuyama, Aichi Prefecture.",
   "description": "Jo-an (如庵) is a seventeenth-century Japanese teahouse (chashitsu) located in Inuyama, Aichi Prefecture. Jo-an is said to be one of the three finest teahouses in Japan and has been in its current location in Inuyama since 1972. It was designated a National Treasure in 1951.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f5fcfb",
+      "name": "ivory"
+    },
+    {
+      "hex": "#655e4c",
+      "name": "umber"
+    },
+    {
+      "hex": "#7c766c",
+      "name": "taupe"
+    },
+    {
+      "hex": "#443d35",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#201b1d",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#8798f6",
+      "name": "lavender"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,48 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Joan_in_Urakuen%2C_Gomonsaki_Inuyama_Inuyama_City_2023.jpg/1280px-Joan_in_Urakuen%2C_Gomonsaki_Inuyama_Inuyama_City_2023.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Joan_in_Urakuen%2C_Gomonsaki_Inuyama_Inuyama_City_2023.jpg/500px-Joan_in_Urakuen%2C_Gomonsaki_Inuyama_Inuyama_City_2023.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Joan_in_Urakuen%2C_Gomonsaki_Inuyama_Inuyama_City_2023.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Joan_in_Urakuen,_Gomonsaki_Inuyama_Inuyama_City_2023.jpg",
+      "caption": "有楽苑にある如庵（愛知県犬山市大字犬山字御門先、2023年（令和5年）3月）",
+      "source": "Wikimedia Commons",
+      "artist": "Tomio344456",
+      "date": "2023-03-28 11:05:31",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/TeaHouseWindowInuYama.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/89/TeaHouseWindowInuYama.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/89/TeaHouseWindowInuYama.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:TeaHouseWindowInuYama.jpg",
+      "caption": "TeaHouseWindowInuYama",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1024",
+      "height": "946"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Matsue_castle_keep_DSC02052.jpg/1280px-Matsue_castle_keep_DSC02052.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Matsue_castle_keep_DSC02052.jpg/500px-Matsue_castle_keep_DSC02052.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Matsue_castle_keep_DSC02052.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Matsue_castle_keep_DSC02052.jpg",
+      "caption": "The keep of en:Matsue Castle . Copyright (c) 2003 David Monniaux",
+      "source": "Wikimedia Commons",
+      "artist": "Original uploader was David.Monniaux at en.wikipedia",
+      "date": "17 August 2004 (original upload date)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Jo-an",
@@ -64,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4924573",
+      "url": "https://www.wikidata.org/wiki/Q4924573",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:16.727Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Jo-an",
+      "url": "https://en.wikipedia.org/wiki/Jo-an",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:16.727Z"
+      }
+    }
+  ],
   "wikidata": "Q4924573",
   "wikipedia": "Jo-an",
   "popularity": 35,
@@ -72,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.646Z"
 }

@@ -41,7 +41,22 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Aerolineas_live.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Aerolineas_live.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Aerolineas_live.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Aerolineas_live.jpg",
+      "caption": "Foto de mi colección",
+      "source": "Wikimedia Commons",
+      "artist": "díaz carreras",
+      "date": "1985",
+      "license": "FAL",
+      "licenseUrl": "http://artlibre.org/licence/lal/en",
+      "width": "800",
+      "height": "529"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Movida viguesa",
@@ -64,7 +79,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5669970",
+      "url": "https://www.wikidata.org/wiki/Q5669970",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:05.135Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Movida viguesa",
+      "url": "https://en.wikipedia.org/wiki/Movida_viguesa",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:05.135Z"
+      }
+    }
+  ],
   "wikidata": "Q5669970",
   "wikipedia": "Movida viguesa",
   "popularity": 35,
@@ -72,5 +110,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:56:05.135Z"
 }

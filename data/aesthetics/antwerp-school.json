@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Belgium, Antwerp",
+  "geography": "Belgium, Antwerp",
   "periodStart": "17th century",
   "periodEnd": "18th century",
   "startYear": 1600,
@@ -39,7 +39,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Paul_de_Vos%2C_Ark_van_Noah.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/18/Paul_de_Vos%2C_Ark_van_Noah.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/18/Paul_de_Vos%2C_Ark_van_Noah.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paul_de_Vos,_Ark_van_Noah.jpg",
+      "caption": "This painting has been enlarged at the top and is an old copy. The boar's head was redone during the restoration of 1990–93. In the background the ark and various animals moving towards it can be seen. The motif of the parrots derives from Snyders, Paul's brother-in-law (see a pa",
+      "source": "Wikimedia Commons",
+      "artist": "After Paul de Vos",
+      "date": "17 th century date QS:P,+1650-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "700",
+      "height": "447"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Antwerp school",
@@ -62,7 +76,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2107376",
+      "url": "https://www.wikidata.org/wiki/Q2107376",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:03.203Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Antwerp school",
+      "url": "https://en.wikipedia.org/wiki/Antwerp_school",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:03.203Z"
+      }
+    }
+  ],
   "wikidata": "Q2107376",
   "wikipedia": "Antwerp school",
   "popularity": 35,
@@ -70,5 +107,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.750Z"
 }

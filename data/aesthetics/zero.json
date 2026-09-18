@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Germany",
+  "geography": "Germany",
   "periodStart": "1950s",
   "periodEnd": "1960s",
   "startYear": 1957,
@@ -39,7 +39,63 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Heinz_Mack_by_Lothar_Wolleh.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Heinz_Mack_by_Lothar_Wolleh.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Heinz_Mack_by_Lothar_Wolleh.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Heinz_Mack_by_Lothar_Wolleh.jpg",
+      "caption": "Heinz Mack by Lothar Wolleh",
+      "source": "Wikimedia Commons",
+      "artist": "Lothar Wolleh",
+      "date": "2000-08-08",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "585",
+      "height": "576"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Otto_Piene.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Otto_Piene.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Otto_Piene.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Otto_Piene.jpg",
+      "caption": "Otto Piene photographed by Lothar Wolleh",
+      "source": "Wikimedia Commons",
+      "artist": "Lothar Wolleh",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "574",
+      "height": "565"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/G%C3%BCnther_Uecker%2C_barefoot%2C_by_Lothar_Wolleh.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/97/G%C3%BCnther_Uecker%2C_barefoot%2C_by_Lothar_Wolleh.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/97/G%C3%BCnther_Uecker%2C_barefoot%2C_by_Lothar_Wolleh.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:G%C3%BCnther_Uecker,_barefoot,_by_Lothar_Wolleh.jpg",
+      "caption": "Günther Uecker by Lothar Wolleh",
+      "source": "Wikimedia Commons",
+      "artist": "Lothar Wolleh",
+      "date": "2002-09-03",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "607",
+      "height": "607"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/ZERO_Guggenheim.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/db/ZERO_Guggenheim.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/db/ZERO_Guggenheim.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:ZERO_Guggenheim.jpg",
+      "caption": "Guggenheim New York, Zero",
+      "source": "Wikimedia Commons",
+      "artist": "Matvisser",
+      "date": "2018-04-12",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1100",
+      "height": "732"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Zero (art)",
@@ -62,7 +118,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q136046",
+      "url": "https://www.wikidata.org/wiki/Q136046",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:19.982Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Zero (art)",
+      "url": "https://en.wikipedia.org/wiki/Zero_(art)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:19.982Z"
+      }
+    }
+  ],
   "wikidata": "Q136046",
   "wikipedia": "Zero (art)",
   "popularity": 35,
@@ -70,5 +149,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:06.025Z"
 }

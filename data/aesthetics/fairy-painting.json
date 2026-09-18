@@ -17,7 +17,33 @@
   "summary": "Fairy painting is a genre of painting and illustration featuring fairies and fairy tale settings, often with extreme attention to detail, seen as escapism for Victorians.",
   "description": "Fairy painting is a genre of painting and illustration featuring fairies and fairy tale settings, often with extreme attention to detail, seen as escapism for Victorians. The genre is most closely associated with Victorian painting in the United Kingdom and has experienced a contemporary revival, led with noted examples by Brian Froud and Alan Lee.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#120f10",
+      "name": "black"
+    },
+    {
+      "hex": "#442c1f",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#743f25",
+      "name": "sepia"
+    },
+    {
+      "hex": "#6d5a3c",
+      "name": "umber"
+    },
+    {
+      "hex": "#9a7147",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b89160",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,116 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Henry_Fuseli_-_Titania_and_Bottom_-_Google_Art_Project.jpg/1280px-Henry_Fuseli_-_Titania_and_Bottom_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Henry_Fuseli_-_Titania_and_Bottom_-_Google_Art_Project.jpg/500px-Henry_Fuseli_-_Titania_and_Bottom_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Henry_Fuseli_-_Titania_and_Bottom_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Henry_Fuseli_-_Titania_and_Bottom_-_Google_Art_Project.jpg",
+      "caption": "Titania and Bottom",
+      "source": "Wikimedia Commons",
+      "artist": "Henry Fuseli",
+      "date": "circa 1790 date QS:P571,+1790-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1029"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/SophieAndersonTakethefairfaceofWoman.jpg/1280px-SophieAndersonTakethefairfaceofWoman.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/SophieAndersonTakethefairfaceofWoman.jpg/500px-SophieAndersonTakethefairfaceofWoman.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/52/SophieAndersonTakethefairfaceofWoman.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:SophieAndersonTakethefairfaceofWoman.jpg",
+      "caption": "Take the Fair Face of Woman, and Gently Suspending, With Butterflies, Flowers, and Jewels Attending, Thus Your Fairy is Made of Most Beautiful Things",
+      "source": "Wikimedia Commons",
+      "artist": "Sophie Gengembre Anderson",
+      "date": "Unknown date",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1605"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Image-Dadd_-_Fairy_Feller%27s.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/95/Image-Dadd_-_Fairy_Feller%27s.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/95/Image-Dadd_-_Fairy_Feller%27s.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Image-Dadd_-_Fairy_Feller%27s.jpg",
+      "caption": "Fairy Feller's Master-Stroke",
+      "source": "Wikimedia Commons",
+      "artist": "Richard Dadd",
+      "date": "1855–64",
+      "license": "Public domain",
+      "width": "1127",
+      "height": "1471"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/The_captive_robin.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3a/The_captive_robin.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3a/The_captive_robin.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_captive_robin.jpg",
+      "caption": "The Captive Robin",
+      "source": "Wikimedia Commons",
+      "artist": "John Anster Fitzgerald",
+      "date": "circa 1864 date QS:P571,+1864-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "580",
+      "height": "387"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/11",
+      "caption": "Self-Portrait, 1878",
+      "source": "Art Institute of Chicago",
+      "artist": "Walter Shirlaw (American, 1838–1909)",
+      "date": "1878",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1101"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b42c5036-147b-fafb-9bdb-f46b3d1b7f76/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b42c5036-147b-fafb-9bdb-f46b3d1b7f76/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b42c5036-147b-fafb-9bdb-f46b3d1b7f76/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/29728",
+      "caption": "Fairy Land, 1881",
+      "source": "Art Institute of Chicago",
+      "artist": "Gustave Doré",
+      "date": "1881",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "621"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/27992",
+      "caption": "A Sunday on La Grande Jatte — 1884, 1884–86, border added 1888–89",
+      "source": "Art Institute of Chicago",
+      "artist": "Georges Seurat (French, 1859–1891)",
+      "date": "1884–86, border added 1888–89",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "565"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/20684",
+      "caption": "Paris Street; Rainy Day, 1877",
+      "source": "Art Institute of Chicago",
+      "artist": "Gustave Caillebotte (French, 1848–1894)",
+      "date": "1877",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "655"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Fairy painting",
@@ -62,7 +197,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2405999",
+      "url": "https://www.wikidata.org/wiki/Q2405999",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:03.462Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Fairy painting",
+      "url": "https://en.wikipedia.org/wiki/Fairy_painting",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:03.462Z"
+      }
+    }
+  ],
   "wikidata": "Q2405999",
   "wikipedia": "Fairy painting",
   "popularity": 35,
@@ -70,5 +228,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:45:03.462Z"
 }

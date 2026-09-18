@@ -17,7 +17,33 @@
   "summary": "The panopticon is a design of institutional building with an inbuilt system of control, originated by the English philosopher and social theorist Jeremy Bentham in the 18th century.",
   "description": "The panopticon is a design of institutional building with an inbuilt system of control, originated by the English philosopher and social theorist Jeremy Bentham in the 18th century. The concept is to allow all prisoners of an institution to be observed by a single prison officer, without the inmates knowing whether or not they are being watched.\n\nAlthough it is physically impossible for the single guard to observe all the inmates' cells at once, the fact that the inmates cannot know when they are being watched motivates them to act as though they are all being watched at all times. They are effectively compelled to self-regulation. The architecture consists of a rotunda with an inspection house at its centre. From the centre, the manager or staff are able to watch the inmates. Bentham conceived the basic plan as being equally applicable to hospitals, schools, sanatoriums, and asylums. He devoted most of his efforts to developing a design for a panopticon prison, so the term now usually refers to that.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f9f9f9",
+      "name": "ivory"
+    },
+    {
+      "hex": "#dcdcd9",
+      "name": "bone white"
+    },
+    {
+      "hex": "#c3c1b9",
+      "name": "silver"
+    },
+    {
+      "hex": "#aaa697",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#2b2a27",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#a18c71",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,128 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Millbank_Prison_Plan.jpg/1280px-Millbank_Prison_Plan.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Millbank_Prison_Plan.jpg/500px-Millbank_Prison_Plan.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Millbank_Prison_Plan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Millbank_Prison_Plan.jpg",
+      "caption": "Plan of Millbank Prison",
+      "source": "Wikimedia Commons",
+      "artist": "G.P. Holford",
+      "date": "1828",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1142"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/J_F_A_McNair%2C_architectural_drawing_of_a_proposed_prison_at_Outram%2C_Singapore_%281880s%29.jpg/1280px-J_F_A_McNair%2C_architectural_drawing_of_a_proposed_prison_at_Outram%2C_Singapore_%281880s%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/J_F_A_McNair%2C_architectural_drawing_of_a_proposed_prison_at_Outram%2C_Singapore_%281880s%29.jpg/500px-J_F_A_McNair%2C_architectural_drawing_of_a_proposed_prison_at_Outram%2C_Singapore_%281880s%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/J_F_A_McNair%2C_architectural_drawing_of_a_proposed_prison_at_Outram%2C_Singapore_%281880s%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:J_F_A_McNair,_architectural_drawing_of_a_proposed_prison_at_Outram,_Singapore_(1880s).jpg",
+      "caption": "An architectural drawing by J.F.A. McNair, the Executive Engineer and Superintendent of Convicts of the Straits Settlements . It depicts a proposed panopticon -style prison at Outram , Singapore , that was never built.",
+      "source": "Wikimedia Commons",
+      "artist": "John Frederick Adolphus McNair (23 October 1828 – 17 May 1910); photograph by jiattison from Singapore.",
+      "date": "1880s date QS:P,+1880-00-00T00:00:00Z/8 ; photograph taken o",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Presidio-modelo2.JPG/1280px-Presidio-modelo2.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Presidio-modelo2.JPG/500px-Presidio-modelo2.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Presidio-modelo2.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Presidio-modelo2.JPG",
+      "caption": "Inside one of the prison buildings at Presidio Modelo, Isla de la Juventud, Cuba.",
+      "source": "Wikimedia Commons",
+      "artist": "Friman",
+      "date": "2005-12-23",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "857"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Presidio_Modelo.JPG/1280px-Presidio_Modelo.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Presidio_Modelo.JPG/500px-Presidio_Modelo.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/66/Presidio_Modelo.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Presidio_Modelo.JPG",
+      "caption": "The prison \"Presidio Modelo\" on the island Isla de la Juventud ( Cuba ) where Fidel Castro was held prisoner in 1953 . Picture taken by Friman , December 1st 2005, with a very special Cuban re-cycled camera. -- Friman 23:09, 21 April 2006 (UTC)",
+      "source": "Wikimedia Commons",
+      "artist": "Friman",
+      "date": "2005-12-01",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "857"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bentham_industry-house_1812.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bentham_industry-house_1812.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bentham_industry-house_1812.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bentham_industry-house_1812.png",
+      "caption": "One page of Jeremy Bentham 's 1812 writing \"Pauper management improved: particularly by means of an application of the Panopticon principle of construction\", he included a building for an \"industry-house establishment\" that could hold 2000 persons.",
+      "source": "Wikimedia Commons",
+      "artist": "Jeremy Bentham",
+      "date": "1812",
+      "license": "Public domain",
+      "width": "600",
+      "height": "968"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Contrasted_Residences_for_the_Poor.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Contrasted_Residences_for_the_Poor.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Contrasted_Residences_for_the_Poor.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Contrasted_Residences_for_the_Poor.jpg",
+      "caption": "A comparison by Augustus Pugin of the new 1834 Workhouse plan, with his romanticised ideal of \"ye olde workhouse\"",
+      "source": "Wikimedia Commons",
+      "artist": "Augustus Pugin",
+      "date": "2011-10-05",
+      "license": "Public domain",
+      "width": "910",
+      "height": "1302"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/BigBrother.jpg/1280px-BigBrother.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/BigBrother.jpg/500px-BigBrother.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/BigBrother.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BigBrother.jpg",
+      "caption": "Big Brother Orwell \"1984\" in Donetsk, Ukraine",
+      "source": "Wikimedia Commons",
+      "artist": "Борис У.",
+      "date": "2010-04-11",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/THE_CENTRAL_POLICE_CONTROL_STATION%2C_MANNED_24_HOURS_A_DAY_CONTROLS_ALL_TRAFFIC_LIGHTS%2C_RECEIVES_REMOTE_TV_INPUTS_FROM..._-_NARA_-_551905.tif/lossy-page1-1280px-THE_CENTRAL_POLICE_CONTROL_STATION%2C_MANNED_24_HOURS_A_DAY_CONTROLS_ALL_TRAFFIC_LIGHTS%2C_RECEIVES_REMOTE_TV_INPUTS_FROM..._-_NARA_-_551905.tif.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/THE_CENTRAL_POLICE_CONTROL_STATION%2C_MANNED_24_HOURS_A_DAY_CONTROLS_ALL_TRAFFIC_LIGHTS%2C_RECEIVES_REMOTE_TV_INPUTS_FROM..._-_NARA_-_551905.tif/lossy-page1-1280px-THE_CENTRAL_POLICE_CONTROL_STATION%2C_MANNED_24_HOURS_A_DAY_CONTROLS_ALL_TRAFFIC_LIGHTS%2C_RECEIVES_REMOTE_TV_INPUTS_FROM..._-_NARA_-_551905.tif.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5c/THE_CENTRAL_POLICE_CONTROL_STATION%2C_MANNED_24_HOURS_A_DAY_CONTROLS_ALL_TRAFFIC_LIGHTS%2C_RECEIVES_REMOTE_TV_INPUTS_FROM..._-_NARA_-_551905.tif",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:THE_CENTRAL_POLICE_CONTROL_STATION,_MANNED_24_HOURS_A_DAY_CONTROLS_ALL_TRAFFIC_LIGHTS,_RECEIVES_REMOTE_TV_INPUTS_FROM..._-_NARA_-_551905.tif",
+      "caption": "THE CENTRAL POLICE CONTROL STATION, MANNED 24 HOURS A DAY CONTROLS ALL TRAFFIC LIGHTS, RECEIVES REMOTE TV INPUTS FROM MAJOR INTERSECTIONS, AND MAINTAINS RADIO CONTACT WITH ALL TRAFFIC CONTROL VEHICLES",
+      "source": "Wikimedia Commons",
+      "artist": "Yoichi Okamoto",
+      "date": "September 1973 date QS:P571,+1973-09-00T00:00:00Z/10",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "867"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bansky_one_nation_under_cctv.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bansky_one_nation_under_cctv.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bansky_one_nation_under_cctv.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bansky_one_nation_under_cctv.jpg",
+      "caption": "Located in Central London. A group of gentlemen badgered the Royal Mail about construction work that needed doing on one of the walls. After many requests the Royal Mail eventually agreed to let these \"builders\" put up scaffolding and sort out whatever problem there was. 6 days l",
+      "source": "Wikimedia Commons",
+      "artist": "Banksy",
+      "date": "1974 ; 2008-04-15 08:47",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "800",
+      "height": "535"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Panopticon",
@@ -62,7 +209,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q828310",
+      "url": "https://www.wikidata.org/wiki/Q828310",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:18.849Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Panopticon",
+      "url": "https://en.wikipedia.org/wiki/Panopticon",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:18.849Z"
+      }
+    }
+  ],
   "wikidata": "Q828310",
   "wikipedia": "Panopticon",
   "popularity": 35,
@@ -70,5 +240,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:59:18.849Z"
 }

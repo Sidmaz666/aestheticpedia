@@ -22,7 +22,33 @@
   "summary": "Ironing is the use of an iron, usually heated, to remove wrinkles and unwanted creases from fabric.",
   "description": "Ironing is the use of an iron, usually heated, to remove wrinkles and unwanted creases from fabric. The heating is commonly done to a temperature of 180–220 °C (360–430 °F), depending on the fabric. Ironing works by loosening the bonds between the long-chain polymer molecules in the fibres of the material. While the molecules are hot, the fibres are straightened by the weight of the iron, and they hold their new shape as they cool. Some fabrics, such as cotton, require the addition of water to loosen the intermolecular bonds. Many modern fabrics (developed in or after the mid-twentieth century) are advertised as needing little or no ironing. Permanent press clothing was developed to reduce the ironing necessary by combining wrinkle-resistant polyester with cotton.\n\nThe first known use of heated metal to \"iron\" clothes is known to have occurred in China. The electric iron was invented in 1882, by Henry W. Seely. Seely patented his \"electric flatiron\" on June 6, 1882 (U.S. Patent no. 259,054).",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#95a0b3",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#bdbebc",
+      "name": "silver"
+    },
+    {
+      "hex": "#6c7b99",
+      "name": "slate"
+    },
+    {
+      "hex": "#282347",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#4d4f66",
+      "name": "graphite"
+    },
+    {
+      "hex": "#d1d9e2",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -44,7 +70,119 @@
   "tags": [
     "textile process"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Ironing_a_shirt.jpg/1280px-Ironing_a_shirt.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Ironing_a_shirt.jpg/500px-Ironing_a_shirt.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/af/Ironing_a_shirt.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ironing_a_shirt.jpg",
+      "caption": "Ironing a shirt using a modern electric steam iron made by Russell Hobbs .",
+      "source": "Wikimedia Commons",
+      "artist": "Colin",
+      "date": "2012-02-12",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1923"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Flat-iron-stove_2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/33/Flat-iron-stove_2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/33/Flat-iron-stove_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Flat-iron-stove_2.jpg",
+      "caption": "Flat-iron-stove.",
+      "source": "Wikimedia Commons",
+      "artist": "-- Kuerschner 17:20, 1 March 2008 (UTC)",
+      "date": "Unknown date / 2008-03-01",
+      "license": "Public domain",
+      "width": "1175",
+      "height": "1761"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/24f95cb3-6020-6476-806e-dfd00e9c4369/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/24f95cb3-6020-6476-806e-dfd00e9c4369/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/24f95cb3-6020-6476-806e-dfd00e9c4369/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/129",
+      "caption": "Articulated Dragon, c. 1880",
+      "source": "Art Institute of Chicago",
+      "artist": "Myochin School",
+      "date": "c. 1880",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "632"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/48dbb1fa-030b-1800-0176-82c5c74307e5/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/48dbb1fa-030b-1800-0176-82c5c74307e5/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/48dbb1fa-030b-1800-0176-82c5c74307e5/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/152849",
+      "caption": "Krishna Yamari, Dali kingdom (937–1253), c. 12th century",
+      "source": "Art Institute of Chicago",
+      "artist": "China, Yunnan province",
+      "date": "Dali kingdom (937–1253), c. 12th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1054"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/0b4e2580-b53e-03d9-180a-ec416fcdd591/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/0b4e2580-b53e-03d9-180a-ec416fcdd591/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/0b4e2580-b53e-03d9-180a-ec416fcdd591/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/106187",
+      "caption": "Garniture for Field and Foot Tourney at the Barriers, c. 1575",
+      "source": "Art Institute of Chicago",
+      "artist": "Italian, Milan",
+      "date": "c. 1575",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1062"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/3c82d887-a0d3-b314-d6b1-ed14ab94135a/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/3c82d887-a0d3-b314-d6b1-ed14ab94135a/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/3c82d887-a0d3-b314-d6b1-ed14ab94135a/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/17435",
+      "caption": "Elevator Grilles from the Chicago Stock Exchange, 1894",
+      "source": "Art Institute of Chicago",
+      "artist": "Adler & Sullivan, Architects",
+      "date": "1894",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "877"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b324adce-a654-c0f9-8f88-c3f5aa433de9/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b324adce-a654-c0f9-8f88-c3f5aa433de9/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b324adce-a654-c0f9-8f88-c3f5aa433de9/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/116229",
+      "caption": "Armor for Heavy Calvary (Cuirassier), about 1610",
+      "source": "Art Institute of Chicago",
+      "artist": "Italian; Milan",
+      "date": "about 1610",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1108"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/7672ab1e-8618-6b56-1da6-890d84256f35/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/7672ab1e-8618-6b56-1da6-890d84256f35/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/7672ab1e-8618-6b56-1da6-890d84256f35/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/106386",
+      "caption": "Brigandine, 1590/99",
+      "source": "Art Institute of Chicago",
+      "artist": "Eastern European (Probably)",
+      "date": "1590/99",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1068"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Ironing",
@@ -67,7 +205,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1650142",
+      "url": "https://www.wikidata.org/wiki/Q1650142",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:23.779Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Ironing",
+      "url": "https://en.wikipedia.org/wiki/Ironing",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:23.779Z"
+      }
+    }
+  ],
   "wikidata": "Q1650142",
   "wikipedia": "Ironing",
   "popularity": 35,
@@ -75,5 +236,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:50:23.779Z"
 }

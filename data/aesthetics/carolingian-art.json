@@ -17,7 +17,33 @@
   "summary": "Carolingian art comes from the Frankish Empire in the period of roughly 120 years from about 780 to 900—during the reign of Charlemagne and his immediate heirs—popularly known as the Carolingian Renaissance.",
   "description": "Carolingian art comes from the Frankish Empire in the period of roughly 120 years from about 780 to 900—during the reign of Charlemagne and his immediate heirs—popularly known as the Carolingian Renaissance. The art was produced by and for the court circle and a group of important monasteries under Imperial patronage; survivals from outside this charmed circle show a considerable drop in quality of workmanship and sophistication of design. The art was produced in several centres in what are now France, Germany, Austria, northern Italy and the Low Countries, and received considerable influence, via continental mission centres, from the Insular art of the British Isles, as well as a number of Byzantine artists who appear to have been resident in Carolingian centres.\n\nThere was for the first time a thoroughgoing attempt in Northern Europe to revive and emulate classical Mediterranean art forms and styles, that resulted in a blending of classical and Northern elements in a sumptuous and dignified style, in particular introducing to the North confidence in representing the human figure, and setting the stage for the rise of Romanesque art and eventually Gothic art in the West.  The Carolingian era is part of the period in medieval art sometimes called the \"Pre-Romanesque\".  After a rather chaotic interval following the Carolingian period, the new Ottonian dynasty revived Imperial art from about 950, building on and further developing Carolingian style in Ottonian art.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#937749",
+      "name": "bronze"
+    },
+    {
+      "hex": "#4f4330",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#b69257",
+      "name": "camel"
+    },
+    {
+      "hex": "#7b5d30",
+      "name": "bronze 2"
+    },
+    {
+      "hex": "#635e5d",
+      "name": "umber"
+    },
+    {
+      "hex": "#8b847d",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,100 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Karolingischer_Buchmaler_um_820_001.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Karolingischer_Buchmaler_um_820_001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Karolingischer_Buchmaler_um_820_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Karolingischer_Buchmaler_um_820_001.jpg",
+      "caption": "Aachen Gospels",
+      "source": "Wikimedia Commons",
+      "artist": "Karolingischer Buchmaler um 820",
+      "date": "circa 820",
+      "license": "Public domain",
+      "width": "1256",
+      "height": "1571"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Lothair_Crystal_AD_855-869_%28Carolingian_Empire%29.jpg/1280px-Lothair_Crystal_AD_855-869_%28Carolingian_Empire%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Lothair_Crystal_AD_855-869_%28Carolingian_Empire%29.jpg/500px-Lothair_Crystal_AD_855-869_%28Carolingian_Empire%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Lothair_Crystal_AD_855-869_%28Carolingian_Empire%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lothair_Crystal_AD_855-869_(Carolingian_Empire).jpg",
+      "caption": "Engraved rock crystal probably made for King Lothair II. The Biblical story of Susanna and the Elders is depicted.",
+      "source": "Wikimedia Commons",
+      "artist": "Ashley Van Haeften",
+      "date": "2016-01-29 20:16:22",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "903"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Mus%C3%A9e_Picardie_M%C3%A9di%C3%A9val_01.jpg/1280px-Mus%C3%A9e_Picardie_M%C3%A9di%C3%A9val_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Mus%C3%A9e_Picardie_M%C3%A9di%C3%A9val_01.jpg/500px-Mus%C3%A9e_Picardie_M%C3%A9di%C3%A9val_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Mus%C3%A9e_Picardie_M%C3%A9di%C3%A9val_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Picardie_M%C3%A9di%C3%A9val_01.jpg",
+      "caption": "Plaque de reliure en ivoire, Reims, dernier quart du IXème siècle, Musée de Picardie à Amiens . Scènes de la vie de St Remi : au registre supérieur, St Remi ressuscite une jeune fille ; au centre : la Main de Dieu remplit deux flacons ; au registre inférieur, le baptême de Clovis",
+      "source": "Wikimedia Commons",
+      "artist": "Vassil",
+      "date": "12/08/07",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1821"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Codexaureus_25.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Codexaureus_25.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Codexaureus_25.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Codexaureus_25.jpg",
+      "caption": "Codexaureus 25",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "728",
+      "height": "1024"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Codex_Aureus_Sankt_Emmeram.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Codex_Aureus_Sankt_Emmeram.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Codex_Aureus_Sankt_Emmeram.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Codex_Aureus_Sankt_Emmeram.jpg",
+      "caption": "Image of the Cover of the famous Carolingian Gospel Codex Aureus of Sankt Emmeram. Made in ca. 870 at the Palace of Holy Roman Emperor Charles the Bald. Emperor Charles the Bald donated it to Arnulf of Carinthia who donated it to the Sankt Emmeram Abbey.",
+      "source": "Wikimedia Commons",
+      "artist": "Image was made by the Bayerische Staatsbibliothek München and the work itself was made by Carolingian craftsmen in ca. 870 AD.",
+      "date": "0870",
+      "license": "Public domain",
+      "width": "797",
+      "height": "1024"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Germigny_Des_Pres_2007_01.jpg/1280px-Germigny_Des_Pres_2007_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Germigny_Des_Pres_2007_01.jpg/500px-Germigny_Des_Pres_2007_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/03/Germigny_Des_Pres_2007_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Germigny_Des_Pres_2007_01.jpg",
+      "caption": "Basilica Germigny-Des-Prés - the central apse of the east contains a rich and complex mosaic showing two cherubin above the Ark of the Covenant.",
+      "source": "Wikimedia Commons",
+      "artist": "Manfred Heyde",
+      "date": "2007-10-22",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "916"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Digitale_Rekonstruktion_-_Geometrische_Ausmalung%2C_Innenansicht.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/05/Digitale_Rekonstruktion_-_Geometrische_Ausmalung%2C_Innenansicht.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/05/Digitale_Rekonstruktion_-_Geometrische_Ausmalung%2C_Innenansicht.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Digitale_Rekonstruktion_-_Geometrische_Ausmalung,_Innenansicht.jpg",
+      "caption": "Ingelheim, digitale Rekonstruktion der Aula regia von innen, mit Blick in die Apsis",
+      "source": "Wikimedia Commons",
+      "artist": "ArchimediX GbR, Ober-Ramstadt",
+      "date": "14 January 2008 (original upload date)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1200",
+      "height": "900"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Carolingian art",
@@ -62,7 +181,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q614082",
+      "url": "https://www.wikidata.org/wiki/Q614082",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:06.034Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Carolingian art",
+      "url": "https://en.wikipedia.org/wiki/Carolingian_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:06.034Z"
+      }
+    }
+  ],
   "wikidata": "Q614082",
   "wikipedia": "Carolingian art",
   "popularity": 35,
@@ -70,5 +212,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:40:06.034Z"
 }

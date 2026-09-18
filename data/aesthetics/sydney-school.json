@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Australia",
+  "geography": "Australia",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -19,7 +19,33 @@
   "summary": "The Sydney School, sometimes referred to as 'nuts and berries style', describes an architectural typology and approach developed by a peer group of architects in Sydney, Australia who were reacting against international Modernism with their own regionalist style, over a period from the mid–1950s to the mid–1970s.",
   "description": "The Sydney School, sometimes referred to as 'nuts and berries style', describes an architectural typology and approach developed by a peer group of architects in Sydney, Australia who were reacting against international Modernism with their own regionalist style, over a period from the mid–1950s to the mid–1970s. In contrast to the purism of the international modernist style, they were drawn to the natural environment, topography, rustic materials, clinker bricks, low gutter lines, and often raked roof lines. The architectural approach drew from a number of influences including Japanese and Scandinavian architecture and particularly the work of architects Alvar Aalto and Frank Lloyd Wright.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0d151f",
+      "name": "black"
+    },
+    {
+      "hex": "#363225",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#143c61",
+      "name": "prussian blue"
+    },
+    {
+      "hex": "#5a5244",
+      "name": "umber"
+    },
+    {
+      "hex": "#89755c",
+      "name": "bronze"
+    },
+    {
+      "hex": "#fbfdfd",
+      "name": "ivory"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,50 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Exterior_of_The_Glass_House_by_Bill_and_Ruth_Lucas.jpg/1280px-Exterior_of_The_Glass_House_by_Bill_and_Ruth_Lucas.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Exterior_of_The_Glass_House_by_Bill_and_Ruth_Lucas.jpg/500px-Exterior_of_The_Glass_House_by_Bill_and_Ruth_Lucas.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Exterior_of_The_Glass_House_by_Bill_and_Ruth_Lucas.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Exterior_of_The_Glass_House_by_Bill_and_Ruth_Lucas.jpg",
+      "caption": "External view of timber walkway and roof eaves of the northside of the house, with internal lights on and view of the garden settting.",
+      "source": "Wikimedia Commons",
+      "artist": "ColonelLight",
+      "date": "2021-02-12 19:50:56",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/FifteenHousesCatalogue.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/71/FifteenHousesCatalogue.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/71/FifteenHousesCatalogue.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:FifteenHousesCatalogue.jpg",
+      "caption": "Cover of 15 Houses by Sydney Architects exhibition catalogue, 1961",
+      "source": "Wikimedia Commons",
+      "artist": "Royal Australian Insititute of Architects, NSW Chapter",
+      "date": "1961-08-23",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1206",
+      "height": "1458"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/ThePenthousesDarlingPointSydney.jpg/1280px-ThePenthousesDarlingPointSydney.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/ThePenthousesDarlingPointSydney.jpg/500px-ThePenthousesDarlingPointSydney.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cd/ThePenthousesDarlingPointSydney.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:ThePenthousesDarlingPointSydney.jpg",
+      "caption": "The Penthouses, Darling Point, Sydney by Ancher Mortlock Murray and Woolley, built 1967",
+      "source": "Wikimedia Commons",
+      "artist": "ColonelLight",
+      "date": "2015-11-22 09:03:51",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1280"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Sydney School",
@@ -64,7 +133,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7660129",
+      "url": "https://www.wikidata.org/wiki/Q7660129",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:03.566Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Sydney School",
+      "url": "https://en.wikipedia.org/wiki/Sydney_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:03.566Z"
+      }
+    }
+  ],
   "wikidata": "Q7660129",
   "wikipedia": "Sydney School",
   "popularity": 35,
@@ -72,5 +164,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:02.236Z"
 }

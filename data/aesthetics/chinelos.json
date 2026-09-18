@@ -7,8 +7,8 @@
   "establishment": "regional_tradition",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Mexico",
+  "geography": "Mexico",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Chinelos are a kind of traditional costumed dancer which is popular in the Mexican state of Morelos, parts of the State of Mexico and the Federal District of Mexico City, especially the boroughs of Milpa Alta, Tlalpan, Xochimilco and Magdalena Contreras.",
   "description": "Chinelos are a kind of traditional costumed dancer which is popular in the Mexican state of Morelos, parts of the State of Mexico and the Federal District of Mexico City, especially the boroughs of Milpa Alta, Tlalpan, Xochimilco and Magdalena Contreras. The tradition arose from the blending of indigenous and Catholic traditions, most notably Carnival, with its permission to be masked and to mock. Chinelos mock Europeans and European mannerisms from the colonial period up to the end of the 19th century.  The Chinelos tradition is strongest in Morelos, especially around Carnival, but Chinelos now appear at other festivities such as Independence Day celebrations, private parties and more.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1e1315",
+      "name": "black"
+    },
+    {
+      "hex": "#52433c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#85766d",
+      "name": "taupe"
+    },
+    {
+      "hex": "#b8aea4",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#f2ebdf",
+      "name": "paper white"
+    },
+    {
+      "hex": "#c88a64",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,64 @@
   "tags": [
     "traditional costume"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/ChineloToritoCereria.JPG/1280px-ChineloToritoCereria.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/ChineloToritoCereria.JPG/500px-ChineloToritoCereria.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f2/ChineloToritoCereria.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:ChineloToritoCereria.JPG",
+      "caption": "Mannequin dressed as a Chinelo and a \"torito\" fireworks frame in the La Cereria museum in Tlayacapan, Morelos, Mexico",
+      "source": "Wikimedia Commons",
+      "artist": "AlejandroLinaresGarcia",
+      "date": "2010-08-21",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "857"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/ProcessionNi%C3%B1opa31.JPG/1280px-ProcessionNi%C3%B1opa31.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/ProcessionNi%C3%B1opa31.JPG/500px-ProcessionNi%C3%B1opa31.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b1/ProcessionNi%C3%B1opa31.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:ProcessionNi%C3%B1opa31.JPG",
+      "caption": "Chinelo in the atrium of San Bernadino after the procession of the Niñopa in Xochimilco",
+      "source": "Wikimedia Commons",
+      "artist": "AlejandroLinaresGarcia",
+      "date": "2012-04-22",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "2174"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/ChinelosPalacioCV.JPG/1280px-ChinelosPalacioCV.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/ChinelosPalacioCV.JPG/500px-ChinelosPalacioCV.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/58/ChinelosPalacioCV.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:ChinelosPalacioCV.JPG",
+      "caption": "Chinelos mannequin with mask, hat and garb on display at the Palace of Cortes, Cuernavaca, Mexico",
+      "source": "Wikimedia Commons",
+      "artist": "AlejandroLinaresGarcia",
+      "date": "2010-11-27",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1912"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/ProcessionNi%C3%B1opa29.JPG/1280px-ProcessionNi%C3%B1opa29.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/ProcessionNi%C3%B1opa29.JPG/500px-ProcessionNi%C3%B1opa29.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/46/ProcessionNi%C3%B1opa29.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:ProcessionNi%C3%B1opa29.JPG",
+      "caption": "Chinelos in the atrium of San Bernadino in Xochimilco at end of procession of the Niñopa",
+      "source": "Wikimedia Commons",
+      "artist": "AlejandroLinaresGarcia",
+      "date": "2012-04-22",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1218"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Chinelos",
@@ -62,7 +145,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5100354",
+      "url": "https://www.wikidata.org/wiki/Q5100354",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:04.389Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Chinelos",
+      "url": "https://en.wikipedia.org/wiki/Chinelos",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:04.389Z"
+      }
+    }
+  ],
   "wikidata": "Q5100354",
   "wikipedia": "Chinelos",
   "popularity": 35,
@@ -70,5 +176,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.948Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Poland",
+  "geography": "Poland",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Romanesque architecture in Poland dates back to the 11th century to the reign of Casimir I the Restorer.",
   "description": "Romanesque architecture in Poland dates back to the 11th century to the reign of Casimir I the Restorer. It was developed in and ranging approximately from the 11th century until well into the half 13th century and it was succeeded by Polish Gothic architecture.\n\nRomanesque style in Poland was preceded by Pre-Romanesque architecture of the early Polish state. Its prime foundations were the Wawel Cathedral in Kraków, the Gniezno Cathedral and the Poznań Cathedral (later re-built in different styles). Polish Romanesque architecture was influenced by the Polish Pre-Romanesque style. Most of Romanesque buildings in Poland can be found in Greater Poland, Kuyavia, Lower Silesia and Lesser Poland regions. Many Polish Romanesque buildings represent the characteristic Brick Romanesque style due to limited stone resources. Majority of these buildings are churches, rotundas and chapels. Most significant Polish Romanesque buildings include the Collegiate church in Tum, St. Nicholas Church in Wysocice, St. Peter and Paul-Collegiate in Kruszwica and the Saint Nicholas rotunda church in Cieszyn.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a4bed8",
+      "name": "silver"
+    },
+    {
+      "hex": "#7d7462",
+      "name": "bronze"
+    },
+    {
+      "hex": "#6892cb",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#29291c",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#4a4234",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#73593a",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,148 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Collegiate_Church_in_Tum.jpg/1280px-Collegiate_Church_in_Tum.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Collegiate_Church_in_Tum.jpg/500px-Collegiate_Church_in_Tum.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Collegiate_Church_in_Tum.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Collegiate_Church_in_Tum.jpg",
+      "caption": "Collegiate church in Tum, Poland",
+      "source": "Wikimedia Commons",
+      "artist": "Chrumps",
+      "date": "2014-07-22 17:16:57",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "918"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Cieszyn_9891_crop.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Cieszyn_9891_crop.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Cieszyn_9891_crop.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cieszyn_9891_crop.JPG",
+      "caption": "Saint Nicholas Rotunda in Cieszyn, Poland",
+      "source": "Wikimedia Commons",
+      "artist": "User:Darwinek",
+      "date": "2011-06-11",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1253",
+      "height": "1754"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Czerwinsk1.jpg/1280px-Czerwinsk1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Czerwinsk1.jpg/500px-Czerwinsk1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Czerwinsk1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Czerwinsk1.jpg",
+      "caption": "Romanesque church in Czerwińsk nad Wisłą.",
+      "source": "Wikimedia Commons",
+      "artist": "Ed88",
+      "date": "3 May 2006 (according to Exif data)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1765"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Inow%C5%82%C3%B3dz_ko%C5%9Bci%C3%B3%C5%82_s_Idziego_08_23.jpg/1280px-Inow%C5%82%C3%B3dz_ko%C5%9Bci%C3%B3%C5%82_s_Idziego_08_23.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Inow%C5%82%C3%B3dz_ko%C5%9Bci%C3%B3%C5%82_s_Idziego_08_23.jpg/500px-Inow%C5%82%C3%B3dz_ko%C5%9Bci%C3%B3%C5%82_s_Idziego_08_23.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/90/Inow%C5%82%C3%B3dz_ko%C5%9Bci%C3%B3%C5%82_s_Idziego_08_23.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Inow%C5%82%C3%B3dz_ko%C5%9Bci%C3%B3%C5%82_s_Idziego_08_23.jpg",
+      "caption": "Inowłódz, Kościół św. Idziego w Inowłodzu",
+      "source": "Wikimedia Commons",
+      "artist": "LDukowicz",
+      "date": "2023-08-14 08:23:21",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1040"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Inowroclaw_kosciol_NMP.jpg/1280px-Inowroclaw_kosciol_NMP.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Inowroclaw_kosciol_NMP.jpg/500px-Inowroclaw_kosciol_NMP.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Inowroclaw_kosciol_NMP.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Inowroclaw_kosciol_NMP.jpg",
+      "caption": "Inowrocław, St. Mary church, view from east.",
+      "source": "Wikimedia Commons",
+      "artist": "Pko",
+      "date": "2004",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "982"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Church_of_St._Andrew%2C_54_Grodzka_street%2C_Old_Town%2C_Krak%C3%B3w%2C_Poland.jpg/1280px-Church_of_St._Andrew%2C_54_Grodzka_street%2C_Old_Town%2C_Krak%C3%B3w%2C_Poland.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Church_of_St._Andrew%2C_54_Grodzka_street%2C_Old_Town%2C_Krak%C3%B3w%2C_Poland.jpg/500px-Church_of_St._Andrew%2C_54_Grodzka_street%2C_Old_Town%2C_Krak%C3%B3w%2C_Poland.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Church_of_St._Andrew%2C_54_Grodzka_street%2C_Old_Town%2C_Krak%C3%B3w%2C_Poland.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Church_of_St._Andrew,_54_Grodzka_street,_Old_Town,_Krak%C3%B3w,_Poland.jpg",
+      "caption": "Church of St. Andrew, 54 Grodzka street, Old Town, Kraków, Poland",
+      "source": "Wikimedia Commons",
+      "artist": "Zygmunt Put",
+      "date": "2020-03-27",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1550"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Kruszwica._Kolegiata_%C5%9Bw._Piotra_i_Paw%C5%82a_1.jpg/1280px-Kruszwica._Kolegiata_%C5%9Bw._Piotra_i_Paw%C5%82a_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Kruszwica._Kolegiata_%C5%9Bw._Piotra_i_Paw%C5%82a_1.jpg/500px-Kruszwica._Kolegiata_%C5%9Bw._Piotra_i_Paw%C5%82a_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Kruszwica._Kolegiata_%C5%9Bw._Piotra_i_Paw%C5%82a_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kruszwica._Kolegiata_%C5%9Bw._Piotra_i_Paw%C5%82a_1.jpg",
+      "caption": "Kruszwica. Kolegiata św. Piotra i Pawła (1124)",
+      "source": "Wikimedia Commons",
+      "artist": "Gorofil",
+      "date": "2016-11-27 11:58:44",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "936"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Lw%C3%B3wek_%C5%9Al%C4%85ski%2C_Ko%C5%9Bci%C3%B3%C5%82_Wniebowzi%C4%99cia_NMP_-_fotopolska.eu_%28254351%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/83/Lw%C3%B3wek_%C5%9Al%C4%85ski%2C_Ko%C5%9Bci%C3%B3%C5%82_Wniebowzi%C4%99cia_NMP_-_fotopolska.eu_%28254351%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/83/Lw%C3%B3wek_%C5%9Al%C4%85ski%2C_Ko%C5%9Bci%C3%B3%C5%82_Wniebowzi%C4%99cia_NMP_-_fotopolska.eu_%28254351%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lw%C3%B3wek_%C5%9Al%C4%85ski,_Ko%C5%9Bci%C3%B3%C5%82_Wniebowzi%C4%99cia_NMP_-_fotopolska.eu_(254351).jpg",
+      "caption": "Kościół Wniebowzięcia NMP",
+      "source": "Wikimedia Commons",
+      "artist": "s_mile",
+      "date": "2011-10-29",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "800",
+      "height": "1152"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Opatow%2C_kolegiata_sw._Marcina_3.jpg/1280px-Opatow%2C_kolegiata_sw._Marcina_3.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Opatow%2C_kolegiata_sw._Marcina_3.jpg/500px-Opatow%2C_kolegiata_sw._Marcina_3.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/89/Opatow%2C_kolegiata_sw._Marcina_3.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Opatow,_kolegiata_sw._Marcina_3.jpg",
+      "caption": "Kolegiata św. Marcina w Opatowie",
+      "source": "Wikimedia Commons",
+      "artist": "Krzysztof Dudzik-Górnicki ( User:ToSter )",
+      "date": "2010-04-17",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1930"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Jana_Jerozolimskiego_za_murami_w_Poznaniu_2014.jpg/1280px-Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Jana_Jerozolimskiego_za_murami_w_Poznaniu_2014.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Jana_Jerozolimskiego_za_murami_w_Poznaniu_2014.jpg/500px-Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Jana_Jerozolimskiego_za_murami_w_Poznaniu_2014.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Jana_Jerozolimskiego_za_murami_w_Poznaniu_2014.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Jana_Jerozolimskiego_za_murami_w_Poznaniu_2014.jpg",
+      "caption": "Kościół św. Jana Jerozolimskiego za murami w Poznaniu",
+      "source": "Wikimedia Commons",
+      "artist": "Marcin Białek",
+      "date": "2014-08-19 15:47:46",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "986"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Romanesque architecture in Poland",
@@ -62,7 +229,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q9159154",
+      "url": "https://www.wikidata.org/wiki/Q9159154",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:12.752Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Romanesque architecture in Poland",
+      "url": "https://en.wikipedia.org/wiki/Romanesque_architecture_in_Poland",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:12.752Z"
+      }
+    }
+  ],
   "wikidata": "Q9159154",
   "wikipedia": "Romanesque architecture in Poland",
   "popularity": 35,
@@ -70,5 +260,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.073Z"
 }

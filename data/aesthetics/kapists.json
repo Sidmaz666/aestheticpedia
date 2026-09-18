@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Poland",
+  "geography": "Poland",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Kapists or KPists (Polish: Kapiści, from KP, the Polish acronym for the Paris Committee), also known as the Colourists, were a group of Polish painters of the 1930s who dominated the Polish artistic landscape of the epoch.",
   "description": "Kapists or KPists (Polish: Kapiści, from KP, the Polish acronym for the Paris Committee), also known as the Colourists, were a group of Polish painters of the 1930s who dominated the Polish artistic landscape of the epoch. Contrary to Polish romanticist traditions, the Kapists underlined the independence of art from any historical tradition, symbolism or influences of literature and history. They were formed around Józef Pankiewicz and were under the strong influence of the French Post-Impressionists.\n\nThe name of the movement was derived from the full name of the so-called Paris Committee, or Paris Committee of Relief for Students Leaving for Artistic Studies in France (Polish: Komitet Paryskiej Pomocy dla Wyjeżdżających Studentów na Studia Malarskie do Francji). Apart from Pankiewicz, among the best-known Kapists were Jan Cybis, Józef Czapski, Józef Jarema, Artur Nacht-Samborski, Eugeniusz Geppert, Piotr Potworowski, Hanna Rudzka and Zygmunt Waliszewski.\n\nIn 1930, the Kapists held an exhibition at the Galerie Zak in Paris and in 1931 another exhibit at the Galerie Moos in Geneva.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#413c3a",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#65605e",
+      "name": "umber"
+    },
+    {
+      "hex": "#7c7977",
+      "name": "taupe"
+    },
+    {
+      "hex": "#93908f",
+      "name": "stone"
+    },
+    {
+      "hex": "#a8a5a4",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#c9c7c7",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Komitet_Paryski_%281925%29.jpg/1280px-Komitet_Paryski_%281925%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Komitet_Paryski_%281925%29.jpg/500px-Komitet_Paryski_%281925%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/da/Komitet_Paryski_%281925%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Komitet_Paryski_(1925).jpg",
+      "caption": "Członkowie grupy artystycznej Komitet Paryski w 1925 roku - widoczni m.in. Hanna Rudzka-Cybis (na dole po prawej), Jan Cybis (na dole po lewej), Józef Czapski, Artur Nacht-Cymborski, Tytus Czyżewski, Zygmunt Waliszewski, Piotr Potworowski, Seweryn Boraczok, Józef Jarema",
+      "source": "Wikimedia Commons",
+      "artist": "fot. nieznany",
+      "date": "1925",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "898"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Kapists",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2102557",
+      "url": "https://www.wikidata.org/wiki/Q2102557",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:24.876Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Kapists",
+      "url": "https://en.wikipedia.org/wiki/Kapists",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:24.876Z"
+      }
+    }
+  ],
   "wikidata": "Q2102557",
   "wikipedia": "Kapists",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.674Z"
 }

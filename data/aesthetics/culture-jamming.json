@@ -64,7 +64,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1143564",
+      "url": "https://www.wikidata.org/wiki/Q1143564",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:21.320Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Culture jamming",
+      "url": "https://en.wikipedia.org/wiki/Culture_jamming",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:21.320Z"
+      }
+    }
+  ],
   "wikidata": "Q1143564",
   "wikipedia": "Culture jamming",
   "popularity": 35,
@@ -72,5 +95,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:42:21.320Z"
 }

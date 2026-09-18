@@ -21,7 +21,33 @@
   "summary": "Weaving is a method of textile production in which two distinct sets of yarns or threads are interlaced at right angles to form a fabric or cloth.",
   "description": "Weaving is a method of textile production in which two distinct sets of yarns or threads are interlaced at right angles to form a fabric or cloth.  The longitudinal threads are called the warp and the lateral threads are the weft, woof, or filling. The method in which these threads are interwoven affects the characteristics of the cloth.\n\nCloth is usually woven on a loom, a device that holds warp threads in place while filling threads are woven through them. A fabric band that meets this definition of cloth (warp threads with a weft thread winding between) can also be made using other methods, including tablet weaving, backstrap loom, or other techniques that can be done without looms.\n\nThe way the warp and filling threads interlace with each other is called the weave.  The majority of woven products are created with one of three basic weaves: plain weave, satin weave, or twill weave. Woven cloth can be plain or classic (in one colour or a simple pattern), or can be woven in decorative or artistic design.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f0f4f4",
+      "name": "paper white"
+    },
+    {
+      "hex": "#d0c9c3",
+      "name": "silver"
+    },
+    {
+      "hex": "#aea79e",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#75422c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#907d74",
+      "name": "taupe"
+    },
+    {
+      "hex": "#594d4d",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,147 @@
   "tags": [
     "textile process"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Equipment_for_unravelling_silk_cocoons._Khotan.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Equipment_for_unravelling_silk_cocoons._Khotan.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Equipment_for_unravelling_silk_cocoons._Khotan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Equipment_for_unravelling_silk_cocoons._Khotan.jpg",
+      "caption": "Equipment for unravelling silk cocoons. Khotan",
+      "source": "Wikimedia Commons",
+      "artist": "John Hill",
+      "date": "2011-06-17 20:38:36",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1024",
+      "height": "768"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Women_weaving_silk._Kashgar.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Women_weaving_silk._Kashgar.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Women_weaving_silk._Kashgar.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Women_weaving_silk._Kashgar.jpg",
+      "caption": "Women weaving silk. Kashgar",
+      "source": "Wikimedia Commons",
+      "artist": "John Hill",
+      "date": "2011-06-10 21:52:02",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1024",
+      "height": "768"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Viet_Nam_%E2%80%93_The_Colors_of_Traditional_Brocade_and_Silk_3.jpg/1280px-Viet_Nam_%E2%80%93_The_Colors_of_Traditional_Brocade_and_Silk_3.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Viet_Nam_%E2%80%93_The_Colors_of_Traditional_Brocade_and_Silk_3.jpg/500px-Viet_Nam_%E2%80%93_The_Colors_of_Traditional_Brocade_and_Silk_3.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/18/Viet_Nam_%E2%80%93_The_Colors_of_Traditional_Brocade_and_Silk_3.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Viet_Nam_%E2%80%93_The_Colors_of_Traditional_Brocade_and_Silk_3.jpg",
+      "caption": "A traditional Vietnamese brocade and silk products weaver demonstrating her craft during the opening of the “Viet Nam – The Colors of Traditional Brocade and Silk\" exhibition. Held one the sidelines of the Assemblies of WIPO Member States, which met from September 30 to October 9",
+      "source": "Wikimedia Commons",
+      "artist": "Violaine Martin",
+      "date": "30 September 2019, 13:18",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Pi%C3%B1a-Seda-_Pineapple_and_Silk_Cloths_from_the_Philippines_13.jpg/1280px-Pi%C3%B1a-Seda-_Pineapple_and_Silk_Cloths_from_the_Philippines_13.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Pi%C3%B1a-Seda-_Pineapple_and_Silk_Cloths_from_the_Philippines_13.jpg/500px-Pi%C3%B1a-Seda-_Pineapple_and_Silk_Cloths_from_the_Philippines_13.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/84/Pi%C3%B1a-Seda-_Pineapple_and_Silk_Cloths_from_the_Philippines_13.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pi%C3%B1a-Seda-_Pineapple_and_Silk_Cloths_from_the_Philippines_13.jpg",
+      "caption": "Weaving and embroidery demonstration at the “Piña-Seda: Pineapple and Silk Cloths from the Philippines” exhibition. Held on the sidelines of the Assemblies of WIPO Member States, which met from September 30 to October 9, 2019, the exhibition showcased pineapple-plant fiber and si",
+      "source": "Wikimedia Commons",
+      "artist": "Violaine Martin",
+      "date": "1 October 2019, 10:55",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "854"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Pi%C3%B1a-Seda-_Pineapple_and_Silk_Cloths_from_the_Philippines_12.jpg/1280px-Pi%C3%B1a-Seda-_Pineapple_and_Silk_Cloths_from_the_Philippines_12.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Pi%C3%B1a-Seda-_Pineapple_and_Silk_Cloths_from_the_Philippines_12.jpg/500px-Pi%C3%B1a-Seda-_Pineapple_and_Silk_Cloths_from_the_Philippines_12.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Pi%C3%B1a-Seda-_Pineapple_and_Silk_Cloths_from_the_Philippines_12.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pi%C3%B1a-Seda-_Pineapple_and_Silk_Cloths_from_the_Philippines_12.jpg",
+      "caption": "Weaving and embroidery demonstration at the “Piña-Seda: Pineapple and Silk Cloths from the Philippines” exhibition. Held on the sidelines of the Assemblies of WIPO Member States, which met from September 30 to October 9, 2019, the exhibition showcased pineapple-plant fiber and si",
+      "source": "Wikimedia Commons",
+      "artist": "Violaine Martin",
+      "date": "1 October 2019, 10:53",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "852"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_%28Philippines%3B_Kalahan_Educational_Foundation%29_%2840246611432%29.jpg/1280px-USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_%28Philippines%3B_Kalahan_Educational_Foundation%29_%2840246611432%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_%28Philippines%3B_Kalahan_Educational_Foundation%29_%2840246611432%29.jpg/500px-USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_%28Philippines%3B_Kalahan_Educational_Foundation%29_%2840246611432%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1e/USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_%28Philippines%3B_Kalahan_Educational_Foundation%29_%2840246611432%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Philippines;_Kalahan_Educational_Foundation)_(40246611432).jpg",
+      "caption": "July 2017. T'nalak, aka \"Dream Cloth\", is a tradition and spirit-infused cloth woven from abaca fibers by the T'boli \"Dream Weavers\" and represents natural patterns 'seen' by the weavers in their dreams after meditating and praying. T'nalak production is a labour intensive proces",
+      "source": "Wikimedia Commons",
+      "artist": "USAID Biodiversity & Forestry",
+      "date": "2017-07-17 10:27",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Security_Guard_Weaving_-_Old_City_-_Dhaka_-_Bangladesh_%2812850517463%29.jpg/1280px-Security_Guard_Weaving_-_Old_City_-_Dhaka_-_Bangladesh_%2812850517463%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Security_Guard_Weaving_-_Old_City_-_Dhaka_-_Bangladesh_%2812850517463%29.jpg/500px-Security_Guard_Weaving_-_Old_City_-_Dhaka_-_Bangladesh_%2812850517463%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Security_Guard_Weaving_-_Old_City_-_Dhaka_-_Bangladesh_%2812850517463%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Security_Guard_Weaving_-_Old_City_-_Dhaka_-_Bangladesh_(12850517463).jpg",
+      "caption": "Ansar Weaving on Duty - Old City - Dhaka - Bangladesh",
+      "source": "Wikimedia Commons",
+      "artist": "https://www.flickr.com/photos/199859389@N08/53427245402/in/dateposted-public/",
+      "date": "2014-01-03 22:55",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Weaving_Pattern_Cards.jpg/500px-Weaving_Pattern_Cards.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Weaving_Pattern_Cards.jpg/500px-Weaving_Pattern_Cards.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/56/Weaving_Pattern_Cards.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Weaving_Pattern_Cards.jpg",
+      "caption": "Weaving Patters Cards used by Skye Weavers, Isle of Skye",
+      "source": "Wikimedia Commons",
+      "artist": "Melissa Highton",
+      "date": "2017-06-27 11:13:12",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "640",
+      "height": "640"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Traditional-Loom.jpg/1280px-Traditional-Loom.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Traditional-Loom.jpg/500px-Traditional-Loom.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Traditional-Loom.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Traditional-Loom.jpg",
+      "caption": "Create a basic weaving pattern.",
+      "source": "Wikimedia Commons",
+      "artist": "Raj Enee",
+      "date": "2024-02-01",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Tzutujil.weaving.jpg/1280px-Tzutujil.weaving.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Tzutujil.weaving.jpg/500px-Tzutujil.weaving.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Tzutujil.weaving.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tzutujil.weaving.jpg",
+      "caption": "Here an indigenous Maya women uses a traditional loom to make textiles. She is from the Maya Tzutujil culture and has been using this type of back-strap weaving since she was a girl.",
+      "source": "Wikimedia Commons",
+      "artist": "Chelalinda",
+      "date": "2019-10-06 15:27:56",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Weaving",
@@ -66,7 +232,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q192296",
+      "url": "https://www.wikidata.org/wiki/Q192296",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:17.353Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Weaving",
+      "url": "https://en.wikipedia.org/wiki/Weaving",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:17.353Z"
+      }
+    }
+  ],
   "wikidata": "Q192296",
   "wikipedia": "Weaving",
   "popularity": 35,
@@ -74,5 +263,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:11:17.353Z"
 }

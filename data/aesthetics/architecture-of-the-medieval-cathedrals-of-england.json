@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United Kingdom",
+  "geography": "United Kingdom",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The medieval cathedrals of England, which date from between approximately 1040 and 1540, are a group of twenty-six buildings that constitute a major aspect of the country's artistic heritage and are among the most significant material symbols of Christianity.",
   "description": "The medieval cathedrals of England, which date from between approximately 1040 and 1540, are a group of twenty-six buildings that constitute a major aspect of the country's artistic heritage and are among the most significant material symbols of Christianity. Though diverse in style, they are united by a common function. As cathedrals, each of these buildings serves as central church for an administrative region (or diocese) and houses the throne of a bishop (Late Latin ecclēsia cathedrālis, from the Greek, καθέδρα). Each cathedral also serves as a regional centre and a focus of regional pride and affection.\n\nOnly sixteen of these buildings had been cathedrals at the time of the Reformation: eight that were served by secular canons, and eight that were monastic. A further five cathedrals are former abbey churches which were reconstituted with secular canons as cathedrals of new dioceses by Henry VIII following the dissolution of the monasteries and which comprise, together with the former monastic cathedrals, the \"Cathedrals of the New Foundation\". Two further pre-Reformation monastic churches, which had survived as ordinary parish churches for 350 years, became cathedrals in the 19th and 20th centuries, as did the three medieval collegiate churches that retained their foundations for choral worship.\n\nWhile there are characteristics of each building that are distinctly English, these cathedrals are marked by their architectural diversity, both from one to another and also within each individual building. This is much more the case than in the medieval cathedrals of Northern France, for example, where the cathedrals and large abbeys form a relatively homogenous group and the architectural development can easily be traced from building to building.\n\nOne of the points of interest of the English cathedrals is the way in which much of the history of medieval architecture can be demonstrated within a single building, which typically has important parts constructed in several different centuries with no attempt whatsoever to make the later work match or follow through on an earlier plan. For this reason a comprehensive architectural chronology must jump backwards and forwards from one building to another. Only at one building, Salisbury Cathedral, is stylistic unity demonstrated.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#645a53",
+      "name": "umber"
+    },
+    {
+      "hex": "#7f7366",
+      "name": "bronze"
+    },
+    {
+      "hex": "#5a5f83",
+      "name": "slate"
+    },
+    {
+      "hex": "#8f8a8c",
+      "name": "taupe"
+    },
+    {
+      "hex": "#3c3f62",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#483d35",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,146 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Fullingmill.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Fullingmill.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Fullingmill.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fullingmill.jpg",
+      "caption": "Photograph of Durham Cathedral by Robin Widdison.",
+      "source": "Wikimedia Commons",
+      "artist": "The original uploader was Robin Widdison at English Wikipedia .",
+      "date": "4 March 2006 (original upload date)",
+      "license": "Public domain",
+      "width": "480",
+      "height": "600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Bristol_Cathedral_vaults_of_crossing_and_nave.jpg/1280px-Bristol_Cathedral_vaults_of_crossing_and_nave.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Bristol_Cathedral_vaults_of_crossing_and_nave.jpg/500px-Bristol_Cathedral_vaults_of_crossing_and_nave.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Bristol_Cathedral_vaults_of_crossing_and_nave.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bristol_Cathedral_vaults_of_crossing_and_nave.jpg",
+      "caption": "Panoramic view of Bristol Cathedral vaults: crossing (late 15th or early 16th Century) and nave (19th Century)",
+      "source": "Wikimedia Commons",
+      "artist": "Kognos",
+      "date": "2019-08-05",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "2247"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Canterbury_Cathedral_020_Poor_Mans_Bbible_Window_01_adj.JPG/1280px-Canterbury_Cathedral_020_Poor_Mans_Bbible_Window_01_adj.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Canterbury_Cathedral_020_Poor_Mans_Bbible_Window_01_adj.JPG/500px-Canterbury_Cathedral_020_Poor_Mans_Bbible_Window_01_adj.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Canterbury_Cathedral_020_Poor_Mans_Bbible_Window_01_adj.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Canterbury_Cathedral_020_Poor_Mans_Bbible_Window_01_adj.JPG",
+      "caption": "Canterbury Cathedral, Poor Man's Bible window, of salvaged pieces from (probably) three windows, showing Old and New Testament stories and a parable.",
+      "source": "Wikimedia Commons",
+      "artist": "Template:Unknown 13th century Stained Glass artists",
+      "date": "13th Century?",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "2419"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Carlisle_Cathedral_TheNave.jpg/1280px-Carlisle_Cathedral_TheNave.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Carlisle_Cathedral_TheNave.jpg/500px-Carlisle_Cathedral_TheNave.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/02/Carlisle_Cathedral_TheNave.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Carlisle_Cathedral_TheNave.jpg",
+      "caption": "The nave of the Carlisle Cathedral , Cumbria , England.",
+      "source": "Wikimedia Commons",
+      "artist": "CarlisleCathedral-Cumbria-1.jpg : Catriona Savage from Paris, France uploaded and derivative work by: MrPanyGoff",
+      "date": "2011-02-17 23:21",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Chester_Cathedral_stalls_Hamilton_0156.JPG/1280px-Chester_Cathedral_stalls_Hamilton_0156.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Chester_Cathedral_stalls_Hamilton_0156.JPG/500px-Chester_Cathedral_stalls_Hamilton_0156.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/05/Chester_Cathedral_stalls_Hamilton_0156.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chester_Cathedral_stalls_Hamilton_0156.JPG",
+      "caption": "Chester Cathedral choir stalls, 1380, detail of the carving on a choir stall, showing a sleeping man, perhaps Joseph the Carpenter, touched by an angel.",
+      "source": "Wikimedia Commons",
+      "artist": "Stephen Hamilton",
+      "date": "2012-05",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Bell_Tower_Chichester_%285696047433%29.jpg/1280px-Bell_Tower_Chichester_%285696047433%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Bell_Tower_Chichester_%285696047433%29.jpg/500px-Bell_Tower_Chichester_%285696047433%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Bell_Tower_Chichester_%285696047433%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bell_Tower_Chichester_(5696047433).jpg",
+      "caption": "Bell tower at Chichester Cathedral, West Sussex, England",
+      "source": "Wikimedia Commons",
+      "artist": "Tony Hisgett from Birmingham, UK",
+      "date": "2011-05-04 12:29",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "2122"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Durham_Cathedral_3.jpg/1280px-Durham_Cathedral_3.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Durham_Cathedral_3.jpg/500px-Durham_Cathedral_3.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/46/Durham_Cathedral_3.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Durham_Cathedral_3.jpg",
+      "caption": "Inside Durham Cathedral .mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;bo",
+      "source": "Wikimedia Commons",
+      "artist": "Amourgirl1",
+      "date": "2020-08-10 15:48:27",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Ely_Cathedral_Octagon_Lantern_2%2C_Cambridgeshire%2C_UK_-_Diliff.jpg/1280px-Ely_Cathedral_Octagon_Lantern_2%2C_Cambridgeshire%2C_UK_-_Diliff.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Ely_Cathedral_Octagon_Lantern_2%2C_Cambridgeshire%2C_UK_-_Diliff.jpg/500px-Ely_Cathedral_Octagon_Lantern_2%2C_Cambridgeshire%2C_UK_-_Diliff.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ely_Cathedral_Octagon_Lantern_2%2C_Cambridgeshire%2C_UK_-_Diliff.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ely_Cathedral_Octagon_Lantern_2,_Cambridgeshire,_UK_-_Diliff.jpg",
+      "caption": "The Lantern viewed from the octagon in Ely Cathedral, Cambridgeshire, England.",
+      "source": "Wikimedia Commons",
+      "artist": "Diliff",
+      "date": "2014-07-29",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1733"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Exeter_Cathedral_%28St._Peter%29_%2815195373597%29.jpg/1280px-Exeter_Cathedral_%28St._Peter%29_%2815195373597%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Exeter_Cathedral_%28St._Peter%29_%2815195373597%29.jpg/500px-Exeter_Cathedral_%28St._Peter%29_%2815195373597%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/99/Exeter_Cathedral_%28St._Peter%29_%2815195373597%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Exeter_Cathedral_(St._Peter)_(15195373597).jpg",
+      "caption": "The central doorway of the Decorated (1370) West Front of Exeter Cathedral (St. Peter), 06/09/14.",
+      "source": "Wikimedia Commons",
+      "artist": "Hugh Llewelyn from Keynsham, UK",
+      "date": "2014-09-28 18:05",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "1923"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Gloucester_Cathedral_Choir.jpg/1280px-Gloucester_Cathedral_Choir.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Gloucester_Cathedral_Choir.jpg/500px-Gloucester_Cathedral_Choir.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Gloucester_Cathedral_Choir.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gloucester_Cathedral_Choir.jpg",
+      "caption": "Inside the Choir of Gloucester Cathedral, Gloucester, Gloucestershire, England, UK, looking toward the east window",
+      "source": "Wikimedia Commons",
+      "artist": "Michael D Beckwith",
+      "date": "2016-05-23 13:56:42",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1921"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Architecture of the medieval cathedrals of England",
@@ -62,7 +227,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4438509",
+      "url": "https://www.wikidata.org/wiki/Q4438509",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:11.763Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Architecture of the medieval cathedrals of England",
+      "url": "https://en.wikipedia.org/wiki/Architecture_of_the_medieval_cathedrals_of_England",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:11.763Z"
+      }
+    }
+  ],
   "wikidata": "Q4438509",
   "wikipedia": "Architecture of the medieval cathedrals of England",
   "popularity": 35,
@@ -70,5 +258,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.764Z"
 }

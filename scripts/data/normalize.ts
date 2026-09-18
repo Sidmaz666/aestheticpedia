@@ -20,6 +20,9 @@ const hex6 = (h: unknown): string | null => {
   if (/^#[0-9a-f]{3}$/.test(s)) s = '#' + [...s.slice(1)].map((c) => c + c).join('')
   return /^#[0-9a-f]{6}$/.test(s) ? s : null
 }
+// Same rule as scripts/data/images.ts: maps/diagrams/logos are not examples of an aesthetic.
+const NOT_EXAMPLE =
+  /\b(maps?|karte|carte|mapa|mappa|verbreitung|distribution|locator|location|sites with|extent of|territor(y|ies)|floor ?plan|ground ?plan|diagram|chart|graph|timeline|family tree|flowchart|coat of arms|flag of|logo|seal of|signature)\b/i
 const SEARCH_LINK =
   /^https:\/\/(www\.youtube\.com\/results|scholar\.google\.com\/scholar\?|www\.google\.com\/search|archive\.org\/search|artsandculture\.google\.com\/search|www\.pinterest\.com\/search|commons\.wikimedia\.org\/w\/index\.php\?search)/
 const uniqStr =(xs: unknown[]) => [
@@ -59,7 +62,9 @@ for (const a of aesthetics as any[]) {
   a.references = (a.references ?? []).filter(
     (r: any) => isUrl(r?.url) && r?.title && r?.check?.ok !== false && !SEARCH_LINK.test(r.url)
   )
-  a.images = (a.images ?? []).filter((i: any) => i?.check?.ok !== false)
+  a.images = (a.images ?? []).filter(
+    (i: any) => i?.check?.ok !== false && !NOT_EXAMPLE.test(`${decodeURIComponent(String(i.url).split('/').pop() ?? '')} ${i.caption ?? ''}`.replace(/_/g, ' '))
+  )
   a.images = (a.images ?? []).filter((i: any) => isUrl(i?.url))
   for (const f of ['aliases', 'materials', 'textures', 'objects', 'keyExamples', 'sounds', 'tags']) a[f] = uniqStr(a[f] ?? [])
   for (const f of ['summary', 'description', 'culturalContext', 'origin', 'geography', 'era', 'periodStart', 'periodEnd'])
@@ -70,7 +75,9 @@ for (const a of aesthetics as any[]) {
       const n = Number(v)
       if (Number.isFinite(n)) o[k] = Math.max(0, Math.min(100, Math.round(n)))
     }
-    a[f] = o
+    // A profile where every score is identical (e.g. all 50) is a placeholder, not an assessment.
+    const vals = Object.values(o)
+    a[f] = vals.length && new Set(vals).size === 1 ? {} : o
   }
   if (JSON.stringify(a) !== before) {
     fixes++

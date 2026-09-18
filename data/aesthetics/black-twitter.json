@@ -7,8 +7,8 @@
   "establishment": "community_subculture",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Black Twitter is an internet community largely consisting of black X (formerly Twitter) users in the United States and other nations, focused on issues of interest to the black community.",
   "description": "Black Twitter is an internet community largely consisting of black X (formerly Twitter) users in the United States and other nations, focused on issues of interest to the black community. Feminista Jones described it in Salon as \"a collective of active, primarily African-American X users who have created a virtual community proving adept at bringing about a wide range of sociopolitical changes.\" A similar Black Twitter community arose in South Africa in the early 2010s.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#2c2524",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#8e9098",
+      "name": "stone"
+    },
+    {
+      "hex": "#d4d5d6",
+      "name": "bone white"
+    },
+    {
+      "hex": "#725245",
+      "name": "umber"
+    },
+    {
+      "hex": "#b7acaa",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#f4f4f5",
+      "name": "paper white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,49 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Justice_for_Trayvon_%26_Byron_Carter_in_Austin%2C_TX.jpg/1280px-Justice_for_Trayvon_%26_Byron_Carter_in_Austin%2C_TX.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Justice_for_Trayvon_%26_Byron_Carter_in_Austin%2C_TX.jpg/500px-Justice_for_Trayvon_%26_Byron_Carter_in_Austin%2C_TX.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/78/Justice_for_Trayvon_%26_Byron_Carter_in_Austin%2C_TX.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Justice_for_Trayvon_%26_Byron_Carter_in_Austin,_TX.jpg",
+      "caption": "Black people protest",
+      "source": "Wikimedia Commons",
+      "artist": "ann harkness",
+      "date": "2013-07-14 19:05:33",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/BLM_mural_in_Greenpoint_%2835406p%29.jpg/1280px-BLM_mural_in_Greenpoint_%2835406p%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/BLM_mural_in_Greenpoint_%2835406p%29.jpg/500px-BLM_mural_in_Greenpoint_%2835406p%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c3/BLM_mural_in_Greenpoint_%2835406p%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BLM_mural_in_Greenpoint_(35406p).jpg",
+      "caption": "Black Lives Matter mural in Greenpoint, Brooklyn",
+      "source": "Wikimedia Commons",
+      "artist": "Rhododendrites",
+      "date": "2021-10-03 13:43:31",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "545"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Wandbild_Portrait_George_Floyd_von_Eme_Street_Art_im_Mauerpark_%28Berlin%29.jpg/1280px-Wandbild_Portrait_George_Floyd_von_Eme_Street_Art_im_Mauerpark_%28Berlin%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Wandbild_Portrait_George_Floyd_von_Eme_Street_Art_im_Mauerpark_%28Berlin%29.jpg/500px-Wandbild_Portrait_George_Floyd_von_Eme_Street_Art_im_Mauerpark_%28Berlin%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Wandbild_Portrait_George_Floyd_von_Eme_Street_Art_im_Mauerpark_%28Berlin%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Wandbild_Portrait_George_Floyd_von_Eme_Street_Art_im_Mauerpark_(Berlin).jpg",
+      "caption": "Mural showing the portrait of George Floyd in Mauerpark in Berlin. To the left of the portrait the lettering \"I can't Breathe\" was added, on the right side the three hashtags #GeorgeFloyd, #Icantbreathe and #Sayhisname. The mural was completed by Eme Street Art (facebook name) / ",
+      "source": "Wikimedia Commons",
+      "artist": "Singlespeedfahrer",
+      "date": "2020-05-31 14:10:26",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Black Twitter",
@@ -62,7 +130,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16927700",
+      "url": "https://www.wikidata.org/wiki/Q16927700",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:13.759Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Black Twitter",
+      "url": "https://en.wikipedia.org/wiki/Black_Twitter",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:13.759Z"
+      }
+    }
+  ],
   "wikidata": "Q16927700",
   "wikipedia": "Black Twitter",
   "popularity": 35,
@@ -70,5 +161,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.956Z"
 }

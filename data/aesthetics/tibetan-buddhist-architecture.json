@@ -10,8 +10,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Bhutan, Nepal, Tibet",
+  "geography": "Bhutan, Nepal, Tibet",
   "periodStart": "1st century",
   "periodEnd": "",
   "startYear": 21,
@@ -20,7 +20,33 @@
   "summary": "Tibetan Buddhist architecture, in the cultural regions of the Tibetan people, has been highly influenced by Nepal, China and India.",
   "description": "Tibetan Buddhist architecture, in the cultural regions of the Tibetan people, has been highly influenced by Nepal, China and India. For example, the Buddhist prayer wheel, along with two dragons, can be seen on nearly every temple in Tibet. Many of the houses and monasteries are typically built on elevated, sunny sites facing the south. Rocks, wood, cement and earth are the primary building materials. Flat roofs are built to conserve heat and multiple windows are constructed to let in the sunlight. Due to frequent earthquakes, walls are usually sloped inward at 10 degrees.\n\nThe Potala Palace is considered the most important example of Tibetan architecture. Formerly the residence of the Dalai Lama, it contains over a thousand rooms within thirteen stories. Portraits of the past Dalai Lamas and statues of the Buddha are on display. The palace is divided between the outer White Palace (which serves as the administrative quarters), and the inner Red Quarters (which houses the assembly hall of the Lamas, chapels, 10,000 shrines, and a vast library of Buddhist scriptures).\n\nTemples and monasteries were all built by Tibetan Buddhist followers. All decorations—plated statues, elaborate frescoes, and expensive silk hangings—were bought and paid for by donations. The following list contains only a portion of all Tibetan Buddhist Monasteries, as many of the Monasteries were destroyed when Tibet was annexed by China.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#4b74af",
+      "name": "slate"
+    },
+    {
+      "hex": "#e6e3d2",
+      "name": "bone white"
+    },
+    {
+      "hex": "#c1bcad",
+      "name": "silver"
+    },
+    {
+      "hex": "#9b9384",
+      "name": "stone"
+    },
+    {
+      "hex": "#83796c",
+      "name": "taupe"
+    },
+    {
+      "hex": "#766450",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Potala_-_panoramio_-_Matthew_Summerton_cropped.jpg/1280px-Potala_-_panoramio_-_Matthew_Summerton_cropped.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Potala_-_panoramio_-_Matthew_Summerton_cropped.jpg/500px-Potala_-_panoramio_-_Matthew_Summerton_cropped.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/49/Potala_-_panoramio_-_Matthew_Summerton_cropped.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Potala_-_panoramio_-_Matthew_Summerton_cropped.jpg",
+      "caption": "Potala Palace",
+      "source": "Wikimedia Commons",
+      "artist": "Matthew Summerton",
+      "date": "2008-01-25 10:12:30",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "501"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Tibetan Buddhist architecture",
@@ -65,7 +106,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7800408",
+      "url": "https://www.wikidata.org/wiki/Q7800408",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:02.781Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Tibetan Buddhist architecture",
+      "url": "https://en.wikipedia.org/wiki/Tibetan_Buddhist_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:02.781Z"
+      }
+    }
+  ],
   "wikidata": "Q7800408",
   "wikipedia": "Tibetan Buddhist architecture",
   "popularity": 35,
@@ -73,5 +137,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:02.187Z"
 }

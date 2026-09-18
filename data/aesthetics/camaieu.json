@@ -17,7 +17,33 @@
   "summary": "Camaïeu (also called en camaïeu) is a technique that employs two or three tints of a single color, other than gray, to create a monochromatic image without regard to local or realistic color.",
   "description": "Camaïeu (also called en camaïeu) is a technique that employs two or three tints of a single color, other than gray, to create a monochromatic image without regard to local or realistic color. When a picture is monochromatically rendered in gray, it is called grisaille; when in yellow, cirage.\n\nThe term is also applied to monochrome painting in enamels. This technique uses a buildup of white enamel to create highlights and light areas. However, instead of using a black background, as in grisaille, transparent enamel is laid in first, beneath the whites. This technique is frequently used on snuffboxes, watches and medallions.\n\nCamaïeu can also refer, following the French usage, to chiaroscuro woodcut prints that imitate highlighted drawing on tinted paper. However, the correct term in English for these is chiaroscuro woodcuts.\n\nThis French word once was synonymous with cameo, but its meaning became restricted in the early eighteenth century.\n\nCamaïeu is also a registered trademark of a manufacturer.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fbeddc",
+      "name": "linen"
+    },
+    {
+      "hex": "#e7ba85",
+      "name": "tan"
+    },
+    {
+      "hex": "#c07e46",
+      "name": "raw sienna"
+    },
+    {
+      "hex": "#efd1b8",
+      "name": "apricot"
+    },
+    {
+      "hex": "#a96433",
+      "name": "copper"
+    },
+    {
+      "hex": "#d59d63",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "painting technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Burgkirchen_-_Pfarrkirche_Hl_Maximilian_3.jpg/1280px-Burgkirchen_-_Pfarrkirche_Hl_Maximilian_3.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Burgkirchen_-_Pfarrkirche_Hl_Maximilian_3.jpg/500px-Burgkirchen_-_Pfarrkirche_Hl_Maximilian_3.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/Burgkirchen_-_Pfarrkirche_Hl_Maximilian_3.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Burgkirchen_-_Pfarrkirche_Hl_Maximilian_3.jpg",
+      "caption": "Leiden der Apostel in Camaieu-Art",
+      "source": "Wikimedia Commons",
+      "artist": "HaSt",
+      "date": "2019-07-06 09:54:18",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "824"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Camaïeu",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1027977",
+      "url": "https://www.wikidata.org/wiki/Q1027977",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:59.052Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Camaïeu",
+      "url": "https://en.wikipedia.org/wiki/Cama%C3%AFeu",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:59.052Z"
+      }
+    }
+  ],
   "wikidata": "Q1027977",
   "wikipedia": "Camaïeu",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:39:59.052Z"
 }

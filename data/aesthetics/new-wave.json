@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Japan",
+  "geography": "Japan",
   "periodStart": "1970s",
   "periodEnd": "",
   "startYear": 1979,
@@ -17,7 +17,33 @@
   "summary": "New Wave (Japanese: ニューウェーブ, Hepburn: Nyū Uēbu) was a movement within the Japanese manga industry during the late 1970s and early 1980s.",
   "description": "New Wave (Japanese: ニューウェーブ, Hepburn: Nyū Uēbu) was a movement within the Japanese manga industry during the late 1970s and early 1980s. Critics together with artists challenged the by then conventional frameworks of shōnen manga, shōjo manga and gekiga by introducing innovative means of expression and non-gendered approaches to manga. While artists differed vastly in terms of style, the visual language of Katsuhiro Otomo, new approaches to science fiction, and a less feminine approach to shōjo manga were the main New Wave characteristics. The short-lived movement was centered around smaller manga magazines that were initiated by manga critics, but had a wide impact onto the development of mainstream manga.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#050303",
+      "name": "black"
+    },
+    {
+      "hex": "#23211b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#3b3b51",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#dad7e0",
+      "name": "bone white"
+    },
+    {
+      "hex": "#a29ace",
+      "name": "lilac"
+    },
+    {
+      "hex": "#6468ae",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/FIBD2019Matsumoto_02.jpg/1280px-FIBD2019Matsumoto_02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/FIBD2019Matsumoto_02.jpg/500px-FIBD2019Matsumoto_02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2a/FIBD2019Matsumoto_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:FIBD2019Matsumoto_02.jpg",
+      "caption": "Masterclass de Taiyō Matsumoto, animée par Lloyd Chery, cinéma CGR, Festival BD d'Angoulême 2019",
+      "source": "Wikimedia Commons",
+      "artist": "Selbymay",
+      "date": "2019-01-26 14:41:32",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — New Wave (manga)",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q11324646",
+      "url": "https://www.wikidata.org/wiki/Q11324646",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:03.157Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — New Wave (manga)",
+      "url": "https://en.wikipedia.org/wiki/New_Wave_(manga)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:03.157Z"
+      }
+    }
+  ],
   "wikidata": "Q11324646",
   "wikipedia": "New Wave (manga)",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.882Z"
 }

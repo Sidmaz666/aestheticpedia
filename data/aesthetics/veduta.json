@@ -19,7 +19,33 @@
   "summary": "A veduta (Italian for 'view'; pl. vedute) is a highly detailed, usually large-scale painting or, more often, print of a cityscape or some other vista.",
   "description": "A veduta (Italian for 'view'; pl. vedute) is a highly detailed, usually large-scale painting or, more often, print of a cityscape or some other vista. The painters of vedute are referred to as vedutisti.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a4a99a",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#e6e0d1",
+      "name": "bone white"
+    },
+    {
+      "hex": "#807754",
+      "name": "bronze"
+    },
+    {
+      "hex": "#959576",
+      "name": "stone"
+    },
+    {
+      "hex": "#d6c7ab",
+      "name": "beige"
+    },
+    {
+      "hex": "#99bad7",
+      "name": "sky blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,73 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Rome%2C_a_view_of_the_Tiber%2C_Castel_Sant%27Angelo%2C_Ponte_Sant%27Angleo%2C_Saint_Peter%27s_Basilica_%28by_Hendrik_Frans_van_Lint%29.jpg/1280px-Rome%2C_a_view_of_the_Tiber%2C_Castel_Sant%27Angelo%2C_Ponte_Sant%27Angleo%2C_Saint_Peter%27s_Basilica_%28by_Hendrik_Frans_van_Lint%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Rome%2C_a_view_of_the_Tiber%2C_Castel_Sant%27Angelo%2C_Ponte_Sant%27Angleo%2C_Saint_Peter%27s_Basilica_%28by_Hendrik_Frans_van_Lint%29.jpg/500px-Rome%2C_a_view_of_the_Tiber%2C_Castel_Sant%27Angelo%2C_Ponte_Sant%27Angleo%2C_Saint_Peter%27s_Basilica_%28by_Hendrik_Frans_van_Lint%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Rome%2C_a_view_of_the_Tiber%2C_Castel_Sant%27Angelo%2C_Ponte_Sant%27Angleo%2C_Saint_Peter%27s_Basilica_%28by_Hendrik_Frans_van_Lint%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rome,_a_view_of_the_Tiber,_Castel_Sant%27Angelo,_Ponte_Sant%27Angleo,_Saint_Peter%27s_Basilica_(by_Hendrik_Frans_van_Lint).jpg",
+      "caption": "Rome, a view of the Tiber, Castel Sant'Angelo, Ponte Sant'Angleo, Saint Peter's Basilica.",
+      "source": "Wikimedia Commons",
+      "artist": "Hendrik Frans van Lint",
+      "date": "1734 date QS:P571,+1734-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "819"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Paul_Bril_-_View_of_Bracciano_-_Google_Art_Project.jpg/1280px-Paul_Bril_-_View_of_Bracciano_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Paul_Bril_-_View_of_Bracciano_-_Google_Art_Project.jpg/500px-Paul_Bril_-_View_of_Bracciano_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Paul_Bril_-_View_of_Bracciano_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paul_Bril_-_View_of_Bracciano_-_Google_Art_Project.jpg",
+      "caption": "View of Bracciano",
+      "source": "Wikimedia Commons",
+      "artist": "Paul Bril",
+      "date": "early 1620s date QS:P,+1620-00-00T00:00:00Z/8,P4241,Q4071972",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "569"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Canaletto_-_Westminster_Bridge%2C_with_the_Lord_Mayor%27s_Procession_on_the_Thames_-_Google_Art_Project.jpg/1280px-Canaletto_-_Westminster_Bridge%2C_with_the_Lord_Mayor%27s_Procession_on_the_Thames_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Canaletto_-_Westminster_Bridge%2C_with_the_Lord_Mayor%27s_Procession_on_the_Thames_-_Google_Art_Project.jpg/500px-Canaletto_-_Westminster_Bridge%2C_with_the_Lord_Mayor%27s_Procession_on_the_Thames_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Canaletto_-_Westminster_Bridge%2C_with_the_Lord_Mayor%27s_Procession_on_the_Thames_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Canaletto_-_Westminster_Bridge,_with_the_Lord_Mayor%27s_Procession_on_the_Thames_-_Google_Art_Project.jpg",
+      "caption": "Westminster Bridge, with the Lord Mayor's Procession on the Thames",
+      "source": "Wikimedia Commons",
+      "artist": "Canaletto",
+      "date": "1747",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "962"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Lieven_Cruyl_-_Eighteen_Views_of_Rome-_The_Quattro_Fontane_Looking_Toward_Santa_Maria_Maggiore.tiff/lossless-page1-500px-Lieven_Cruyl_-_Eighteen_Views_of_Rome-_The_Quattro_Fontane_Looking_Toward_Santa_Maria_Maggiore.tiff.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Lieven_Cruyl_-_Eighteen_Views_of_Rome-_The_Quattro_Fontane_Looking_Toward_Santa_Maria_Maggiore.tiff/lossless-page1-500px-Lieven_Cruyl_-_Eighteen_Views_of_Rome-_The_Quattro_Fontane_Looking_Toward_Santa_Maria_Maggiore.tiff.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Lieven_Cruyl_-_Eighteen_Views_of_Rome-_The_Quattro_Fontane_Looking_Toward_Santa_Maria_Maggiore.tiff",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lieven_Cruyl_-_Eighteen_Views_of_Rome-_The_Quattro_Fontane_Looking_Toward_Santa_Maria_Maggiore.tiff",
+      "caption": "Eighteen Views of Rome - The Quattro Fontane Looking Toward Santa Maria Maggiore",
+      "source": "Wikimedia Commons",
+      "artist": "Lievin Cruyl",
+      "date": "1665 date QS:P571,+1665-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "746",
+      "height": "597"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/La_Chiesa_Gesuati_by_Federico_del_Campo.jpg/1280px-La_Chiesa_Gesuati_by_Federico_del_Campo.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/La_Chiesa_Gesuati_by_Federico_del_Campo.jpg/500px-La_Chiesa_Gesuati_by_Federico_del_Campo.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/df/La_Chiesa_Gesuati_by_Federico_del_Campo.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:La_Chiesa_Gesuati_by_Federico_del_Campo.jpg",
+      "caption": "La Chiesa Gesuati",
+      "source": "Wikimedia Commons",
+      "artist": "Federico del Campo",
+      "date": "1899 date QS:P571,+1899-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "759"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Veduta",
@@ -64,7 +156,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q166030",
+      "url": "https://www.wikidata.org/wiki/Q166030",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:19.745Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Veduta",
+      "url": "https://en.wikipedia.org/wiki/Veduta",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:19.745Z"
+      }
+    }
+  ],
   "wikidata": "Q166030",
   "wikipedia": "Veduta",
   "popularity": 35,
@@ -72,5 +187,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:10:19.745Z"
 }

@@ -17,7 +17,33 @@
   "summary": "The Henry IV style was the predominant architectural idiom in France under the patronage of Henry IV (1589–1610).",
   "description": "The Henry IV style was the predominant architectural idiom in France under the patronage of Henry IV (1589–1610). The modernisation of Paris was a major concern of Henry's, and the Place des Vosges is the greatest monument to his architectural style and urban planning. Among Henry's other works are the Pont Neuf, the Place Dauphine, and some renovations at the Château de Fontainebleau.\n\nThough the second School of Fontainebleau was active in painting at the time, it is not generally considered part of the Henry IV style. The style may be characterised by the Encyclopædia Britannica's statement that Henry was a man of \"the grand concept who did not lose himself in detail\".",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#3c4a2b",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#1d2814",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#90887a",
+      "name": "stone"
+    },
+    {
+      "hex": "#d2d9eb",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#686856",
+      "name": "umber"
+    },
+    {
+      "hex": "#a29d95",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Paris_PlaceDesVosges_Ouest.JPG/1280px-Paris_PlaceDesVosges_Ouest.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Paris_PlaceDesVosges_Ouest.JPG/500px-Paris_PlaceDesVosges_Ouest.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/Paris_PlaceDesVosges_Ouest.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paris_PlaceDesVosges_Ouest.JPG",
+      "caption": "Place des Vosges, Paris, France.",
+      "source": "Wikimedia Commons",
+      "artist": "AlNo (discuter/talk/hablar/falar)",
+      "date": "2005-07-29",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Henry IV style",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5723565",
+      "url": "https://www.wikidata.org/wiki/Q5723565",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:02.186Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Henry IV style",
+      "url": "https://en.wikipedia.org/wiki/Henry_IV_style",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:02.186Z"
+      }
+    }
+  ],
   "wikidata": "Q5723565",
   "wikipedia": "Henry IV style",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:49:02.186Z"
 }

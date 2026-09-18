@@ -17,7 +17,33 @@
   "summary": "In Japanese art, mitate-e (見立絵) is a subgenre of ukiyo-e that employs allusions, puns, and incongruities, often to parody classical art or events.",
   "description": "In Japanese art, mitate-e (見立絵) is a subgenre of ukiyo-e that employs allusions, puns, and incongruities, often to parody classical art or events.\n\nThe term derives from two roots: mitateru (見立る, \"to liken one thing to another\") and e (絵, \"picture\"). The mitate technique arose first in poetry and became prominent during the Heian period (794–1185). Haiku poets revived the technique during the Edo period (1603–1868), from which it spread to the other arts of the era. Such works typically employ allusions, puns, and incongruities, and frequently recall classical artworks.\n\nIn the context of ukiyo-e, mitate-e is often translated into English as \"parody picture\". This usage of the term arose much later; the term itself was used in different ways during the Edo period. Those works today called mitate-e used different labels at the time, such as fūryū (風流, \"elegant\" or \"fashionable\") which appeared frequently in the 18th century in works by Okumura Masanobu (1686–1764) and Suzuki Harunobu (1725–1770). In Edo-period, mitate-e are not only limited to just substitution or pictorial analogy, but usually emphasizing playful or humorous interpretation.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#8f6d48",
+      "name": "bronze"
+    },
+    {
+      "hex": "#675c53",
+      "name": "umber"
+    },
+    {
+      "hex": "#ddcbae",
+      "name": "beige"
+    },
+    {
+      "hex": "#32312c",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#c6a778",
+      "name": "sand"
+    },
+    {
+      "hex": "#9b8c7e",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,46 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Painting%2C_hanging_scroll%2C_mitate-e_%28BM_1913%2C0501%2C0.406_5%29.jpg/1280px-Painting%2C_hanging_scroll%2C_mitate-e_%28BM_1913%2C0501%2C0.406_5%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Painting%2C_hanging_scroll%2C_mitate-e_%28BM_1913%2C0501%2C0.406_5%29.jpg/500px-Painting%2C_hanging_scroll%2C_mitate-e_%28BM_1913%2C0501%2C0.406_5%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Painting%2C_hanging_scroll%2C_mitate-e_%28BM_1913%2C0501%2C0.406_5%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Painting,_hanging_scroll,_mitate-e_(BM_1913,0501,0.406_5).jpg",
+      "caption": "Painting, hanging scroll, mitate-e. Parody of Zhuang Zi's dream of butterflies: courtesan wearing surcoat decorated with hanging coloured wisteria blooms and green brocade belt with design of water-wheels and trailing leaves of aquatic candock plant, seated leaning on Chinese wri",
+      "source": "Wikimedia Commons",
+      "date": "between 1804 and 1818 date QS:P571,+1850-00-00T00:00:00Z/7,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1190"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Hideyoshi_and_his_wives.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Hideyoshi_and_his_wives.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Hideyoshi_and_his_wives.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hideyoshi_and_his_wives.jpg",
+      "caption": "Ukiyo-e print by Kitigawa Utamaro depicting the samurai and daimyō, Totoyomi Hideyoshi, having tea and being attended to by four women.",
+      "source": "Wikimedia Commons",
+      "artist": "Kitagawa Utamaro",
+      "date": "1804-1806",
+      "license": "Public domain",
+      "width": "665",
+      "height": "1024"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toshusai_Sharaku-_Otani_Oniji,_1794.jpg",
+      "caption": "Oniji Ōtani III (aka. Nakazō Nakamura II) as Edobee in the May 1794 production of Koi Nyōbo Somewake Tazuna at Edo Kawarasaki-za theater. Polychrome woodcut print on paper; 15 x 9 7/8 in. (38.1 x 22.9 cm) Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939 (JP2822)",
+      "source": "Wikimedia Commons",
+      "artist": "Sharaku",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "802",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Mitate-e",
@@ -62,7 +127,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q11630233",
+      "url": "https://www.wikidata.org/wiki/Q11630233",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:14.597Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Mitate-e",
+      "url": "https://en.wikipedia.org/wiki/Mitate-e",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:14.597Z"
+      }
+    }
+  ],
   "wikidata": "Q11630233",
   "wikipedia": "Mitate-e",
   "popularity": 35,
@@ -70,5 +158,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:55:14.597Z"
 }

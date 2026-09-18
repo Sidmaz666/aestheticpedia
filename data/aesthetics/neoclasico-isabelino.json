@@ -17,7 +17,33 @@
   "summary": "Neoclasico Isabelino is an architectural style that applies to houses and other buildings in Puerto Rico.",
   "description": "Neoclasico Isabelino is an architectural style that applies to houses and other buildings in Puerto Rico. These include a number of buildings in Ponce that are listed on the U.S. National Register of Historic Places:\n\nAlbergue Caritativo Tricoche\n\nAntiguo Cuartel Militar Español de Ponce\n\nAntiguo Hospital Militar Español de Ponce\n\nCasa Alcaldía de Ponce-City Hall\n\nManuel V. Domenech, an architect from Isabela, Puerto Rico, was one of the architects who designed in this style, having designed, among others, the Puerto Rico Courthouse for the Ponce judicial district.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#817d72",
+      "name": "taupe"
+    },
+    {
+      "hex": "#9a958c",
+      "name": "stone"
+    },
+    {
+      "hex": "#dbeefb",
+      "name": "paper white"
+    },
+    {
+      "hex": "#40403c",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#656259",
+      "name": "umber"
+    },
+    {
+      "hex": "#c6b7ad",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Ponce_City_Hall.JPG/1280px-Ponce_City_Hall.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Ponce_City_Hall.JPG/500px-Ponce_City_Hall.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Ponce_City_Hall.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ponce_City_Hall.JPG",
+      "caption": "Front view of the Ponce City Hall — 1840s colonial era building within the Ponce Historic Zone , in Ponce, Puerto Rico . On the National Register of Historic Places in Ponce, Puerto Rico .",
+      "source": "Wikimedia Commons",
+      "artist": "User:Mtmelendez",
+      "date": "2007-03-11",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Neoclásico Isabelino",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6992203",
+      "url": "https://www.wikidata.org/wiki/Q6992203",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:05.889Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Neoclásico Isabelino",
+      "url": "https://en.wikipedia.org/wiki/Neocl%C3%A1sico_Isabelino",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:05.889Z"
+      }
+    }
+  ],
   "wikidata": "Q6992203",
   "wikipedia": "Neoclásico Isabelino",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:57:05.889Z"
 }

@@ -17,7 +17,33 @@
   "summary": "Antebellum architecture (from Antebellum South, Latin for \"pre-war\") is the neoclassical architectural style characteristic of the 19th-century Southern United States, especially the Deep South, from after the birth of the United States with the American Revolution, to the start of the American Civil War.",
   "description": "Antebellum architecture (from Antebellum South, Latin for \"pre-war\") is the neoclassical architectural style characteristic of the 19th-century Southern United States, especially the Deep South, from after the birth of the United States with the American Revolution, to the start of the American Civil War. Antebellum architecture is especially characterized by Georgian, Neo-classical, and Greek Revival style homes and mansions. These plantation houses were built in the southern American states during roughly the 30 years before the American Civil War; approximately between the 1830s to 1860s.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#cac6c3",
+      "name": "silver"
+    },
+    {
+      "hex": "#86817d",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a8a4a1",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#494235",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#635f5b",
+      "name": "umber"
+    },
+    {
+      "hex": "#25251c",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,49 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Barrington_Hall_North.JPG/1280px-Barrington_Hall_North.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Barrington_Hall_North.JPG/500px-Barrington_Hall_North.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/68/Barrington_Hall_North.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Barrington_Hall_North.JPG",
+      "caption": "Barrington Hall, North/front side, circa 1842 example of Greek Revival Temple Architecture, National Register of Historic Places, Roswell, Georgia, USA",
+      "source": "Wikimedia Commons",
+      "artist": "Galen Parks Smith ( Gsmith )",
+      "date": "2006-09-07",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "838"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Charlestonhome.jpg/1280px-Charlestonhome.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Charlestonhome.jpg/500px-Charlestonhome.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Charlestonhome.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Charlestonhome.jpg",
+      "caption": ":* Copyright held by Evan Schmidt Wikipedia User:EvanS Updated by -- EvanS 17:20, 20 July 2007 (UTC)",
+      "source": "Wikimedia Commons",
+      "artist": "The original uploader was Diligent Terrier at English Wikipedia .",
+      "date": "19 July 2007 (original upload date)",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Herndon-Glanton-Reeves_House%2C_524_Greenville_Street%2C_La_Grange%2C_Georgia.jpg/1280px-Herndon-Glanton-Reeves_House%2C_524_Greenville_Street%2C_La_Grange%2C_Georgia.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Herndon-Glanton-Reeves_House%2C_524_Greenville_Street%2C_La_Grange%2C_Georgia.jpg/500px-Herndon-Glanton-Reeves_House%2C_524_Greenville_Street%2C_La_Grange%2C_Georgia.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/10/Herndon-Glanton-Reeves_House%2C_524_Greenville_Street%2C_La_Grange%2C_Georgia.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Herndon-Glanton-Reeves_House,_524_Greenville_Street,_La_Grange,_Georgia.jpg",
+      "caption": "Detail of staircase newel post in first floor hall, first floor newel posts are identical - Herndon-Glanton-Reeves House, 524 Greenville Street, La Grange, Troup County, GA",
+      "source": "Wikimedia Commons",
+      "artist": "Related names: Herndon, John P Glanton, John H Reeves, Wiley A",
+      "date": "Documentation compiled after 1933",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1643"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Antebellum architecture",
@@ -62,7 +130,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q571648",
+      "url": "https://www.wikidata.org/wiki/Q571648",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:01.553Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Antebellum architecture",
+      "url": "https://en.wikipedia.org/wiki/Antebellum_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:01.553Z"
+      }
+    }
+  ],
   "wikidata": "Q571648",
   "wikipedia": "Antebellum architecture",
   "popularity": 35,
@@ -70,5 +161,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:36:01.553Z"
 }

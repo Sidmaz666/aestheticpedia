@@ -17,7 +17,33 @@
   "summary": "First Period is an American architectural style that flourished between 1626 and 1725, used primarily by British colonists during the Colonial era, particularly in Massachusetts and Virginia.",
   "description": "First Period is an American architectural style that flourished between 1626 and 1725, used primarily by British colonists during the Colonial era, particularly in Massachusetts and Virginia. Essex County, Massachusetts, has the highest number of preserved First Period buildings.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f6f6f7",
+      "name": "paper white"
+    },
+    {
+      "hex": "#9c968f",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#d0c7ba",
+      "name": "silver"
+    },
+    {
+      "hex": "#4d4741",
+      "name": "graphite"
+    },
+    {
+      "hex": "#2c2620",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#716b67",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,75 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/VIEW_FROM_WEST_END_-_Jonathan_Fairbanks_House%2C_511_East_Street%2C_Dedham%2C_Norfolk_County%2C_MA_HABS_MASS%2C11-DED%2C1-8.tif/lossy-page1-1280px-VIEW_FROM_WEST_END_-_Jonathan_Fairbanks_House%2C_511_East_Street%2C_Dedham%2C_Norfolk_County%2C_MA_HABS_MASS%2C11-DED%2C1-8.tif.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/VIEW_FROM_WEST_END_-_Jonathan_Fairbanks_House%2C_511_East_Street%2C_Dedham%2C_Norfolk_County%2C_MA_HABS_MASS%2C11-DED%2C1-8.tif/lossy-page1-1280px-VIEW_FROM_WEST_END_-_Jonathan_Fairbanks_House%2C_511_East_Street%2C_Dedham%2C_Norfolk_County%2C_MA_HABS_MASS%2C11-DED%2C1-8.tif.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/VIEW_FROM_WEST_END_-_Jonathan_Fairbanks_House%2C_511_East_Street%2C_Dedham%2C_Norfolk_County%2C_MA_HABS_MASS%2C11-DED%2C1-8.tif",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:VIEW_FROM_WEST_END_-_Jonathan_Fairbanks_House,_511_East_Street,_Dedham,_Norfolk_County,_MA_HABS_MASS,11-DED,1-8.tif",
+      "caption": "VIEW FROM WEST END - Jonathan Fairbanks House, 511 East Street, Dedham, Norfolk County, MA",
+      "source": "Wikimedia Commons",
+      "date": "Documentation compiled after 1933",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "917"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Fa%C3%A7ade-Gabled_House.jpg/1280px-Fa%C3%A7ade-Gabled_House.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Fa%C3%A7ade-Gabled_House.jpg/500px-Fa%C3%A7ade-Gabled_House.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/Fa%C3%A7ade-Gabled_House.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade-Gabled_House.jpg",
+      "caption": "It is an illustration of how façade-gabled house look like.",
+      "source": "Wikimedia Commons",
+      "artist": "Dokidory",
+      "date": "2020-10-13",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1657"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Barker_Tavern_in_Scituate_Massachusetts_MA_also_known_as_the_Williams-Barker_House_circa_1634.jpg/1280px-Barker_Tavern_in_Scituate_Massachusetts_MA_also_known_as_the_Williams-Barker_House_circa_1634.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Barker_Tavern_in_Scituate_Massachusetts_MA_also_known_as_the_Williams-Barker_House_circa_1634.jpg/500px-Barker_Tavern_in_Scituate_Massachusetts_MA_also_known_as_the_Williams-Barker_House_circa_1634.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Barker_Tavern_in_Scituate_Massachusetts_MA_also_known_as_the_Williams-Barker_House_circa_1634.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Barker_Tavern_in_Scituate_Massachusetts_MA_also_known_as_the_Williams-Barker_House_circa_1634.jpg",
+      "caption": "Barker Tavern in Scituate Massachusetts MA also known as the Williams-Barker House circa 1634",
+      "source": "Wikimedia Commons",
+      "artist": "Swampyank",
+      "date": "2019-10-20 17:16:43",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/OldShipChurchExterior.jpg/1280px-OldShipChurchExterior.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/OldShipChurchExterior.jpg/500px-OldShipChurchExterior.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/be/OldShipChurchExterior.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:OldShipChurchExterior.jpg",
+      "caption": "Old Ship Church in Hingham, Massachusetts.",
+      "source": "Wikimedia Commons",
+      "artist": "Timothy Valentine",
+      "date": "2008-02-25",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "1023"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Roof_Framing%2C_General_View%2C_Old_Ship_Church_by_the_Historic_American_Buildings_Survey.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Roof_Framing%2C_General_View%2C_Old_Ship_Church_by_the_Historic_American_Buildings_Survey.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Roof_Framing%2C_General_View%2C_Old_Ship_Church_by_the_Historic_American_Buildings_Survey.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Roof_Framing,_General_View,_Old_Ship_Church_by_the_Historic_American_Buildings_Survey.jpg",
+      "caption": "\"Roof framing, general view, Old Ship Church, 88 Main Street, Hingham, Plymouth County, Massachusetts,\" by an unknown photographer for the Historic American Buildings Survey (U.S. Government). 2.25 inches x 2.25 inches. Undated.",
+      "source": "Wikimedia Commons",
+      "artist": "Historic American Buildings Survey",
+      "date": "2013-03-25 01:27:40",
+      "license": "Public domain",
+      "width": "883",
+      "height": "879"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — First Period architecture",
@@ -62,7 +156,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5453505",
+      "url": "https://www.wikidata.org/wiki/Q5453505",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:20.464Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — First Period architecture",
+      "url": "https://en.wikipedia.org/wiki/First_Period_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:20.464Z"
+      }
+    }
+  ],
   "wikidata": "Q5453505",
   "wikipedia": "First Period architecture",
   "popularity": 35,
@@ -70,5 +187,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:45:20.464Z"
 }

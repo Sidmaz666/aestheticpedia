@@ -17,7 +17,33 @@
   "summary": "Cloisonnism is a style of post-Impressionist painting with bold and flat forms separated by dark contours.",
   "description": "Cloisonnism is a style of post-Impressionist painting with bold and flat forms separated by dark contours. The term was coined by critic Édouard Dujardin on the occasion of the Salon des Indépendants, in March 1888. Artists Émile Bernard, Louis Anquetin, Paul Gauguin, Paul Sérusier, and others started painting in this style in the late 19th century. The name evokes the technique of cloisonné, where wires (cloisons or \"compartments\") are soldered to the body of the piece, filled with powdered glass, and then fired. Many of the same painters also described their works as Synthetism, a closely related movement.\n\nIn The Yellow Christ (1889), often cited as a quintessential cloisonnist work, Gauguin reduced the image to areas of single colors separated by heavy black outlines. In such works he paid little attention to classical perspective and eliminated subtle gradations of color—two of the most characteristic principles of post-Renaissance painting.\n\nThe cloisonnist separation of colors reflects an appreciation for discontinuity that is characteristic of Modernism.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#6e9799",
+      "name": "slate"
+    },
+    {
+      "hex": "#73805e",
+      "name": "olive green"
+    },
+    {
+      "hex": "#8f591b",
+      "name": "brick"
+    },
+    {
+      "hex": "#4c655f",
+      "name": "graphite"
+    },
+    {
+      "hex": "#232323",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#454137",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,112 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Paul_Gauguin_-_The_Yellow_Christ_%28Le_Christ_jaune%29_1889.jpg/1280px-Paul_Gauguin_-_The_Yellow_Christ_%28Le_Christ_jaune%29_1889.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Paul_Gauguin_-_The_Yellow_Christ_%28Le_Christ_jaune%29_1889.jpg/500px-Paul_Gauguin_-_The_Yellow_Christ_%28Le_Christ_jaune%29_1889.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/54/Paul_Gauguin_-_The_Yellow_Christ_%28Le_Christ_jaune%29_1889.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin_-_The_Yellow_Christ_(Le_Christ_jaune)_1889.jpg",
+      "caption": "crucifixion of Jesus",
+      "source": "Wikimedia Commons",
+      "artist": "Paul Gauguin",
+      "date": "1889",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1610"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Zelfportret_met_portret_van_Gauguin_-_s0206V1962_-_Van_Gogh_Museum.jpg/1280px-Zelfportret_met_portret_van_Gauguin_-_s0206V1962_-_Van_Gogh_Museum.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Zelfportret_met_portret_van_Gauguin_-_s0206V1962_-_Van_Gogh_Museum.jpg/500px-Zelfportret_met_portret_van_Gauguin_-_s0206V1962_-_Van_Gogh_Museum.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Zelfportret_met_portret_van_Gauguin_-_s0206V1962_-_Van_Gogh_Museum.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Zelfportret_met_portret_van_Gauguin_-_s0206V1962_-_Van_Gogh_Museum.jpg",
+      "caption": "Painting by Émile Bernard, 1888",
+      "source": "Wikimedia Commons",
+      "artist": "Émile Bernard",
+      "date": "1888 date QS:P571,+1888-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1063"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/%C3%89mile_Bernard_-_The_Pardon_%28Le_Pardon%29_1888.jpeg/1280px-%C3%89mile_Bernard_-_The_Pardon_%28Le_Pardon%29_1888.jpeg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/%C3%89mile_Bernard_-_The_Pardon_%28Le_Pardon%29_1888.jpeg/500px-%C3%89mile_Bernard_-_The_Pardon_%28Le_Pardon%29_1888.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b4/%C3%89mile_Bernard_-_The_Pardon_%28Le_Pardon%29_1888.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%C3%89mile_Bernard_-_The_Pardon_(Le_Pardon)_1888.jpeg",
+      "caption": "French: Le Pardon The Pardon",
+      "source": "Wikimedia Commons",
+      "artist": "Émile Bernard",
+      "date": "1888",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1008"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/La_vision_apr%C3%A8s_le_sermon_%28Paul_Gauguin%29.jpg/1280px-La_vision_apr%C3%A8s_le_sermon_%28Paul_Gauguin%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/La_vision_apr%C3%A8s_le_sermon_%28Paul_Gauguin%29.jpg/500px-La_vision_apr%C3%A8s_le_sermon_%28Paul_Gauguin%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/56/La_vision_apr%C3%A8s_le_sermon_%28Paul_Gauguin%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:La_vision_apr%C3%A8s_le_sermon_(Paul_Gauguin).jpg",
+      "caption": "It's a painting of Paul Gauguin which is in National Gallery of Scotland.The picture shows us the vision that a few Breton women create after hearing the sermon during a mass.",
+      "source": "Wikimedia Commons",
+      "artist": "Paul Gauguin",
+      "date": "1888 date QS:P571,+1888-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1003"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Serusier_-_the_talisman.JPG/1280px-Serusier_-_the_talisman.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Serusier_-_the_talisman.JPG/500px-Serusier_-_the_talisman.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/20/Serusier_-_the_talisman.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Serusier_-_the_talisman.JPG",
+      "caption": "The Talisman , also known as Landscape at the Bois d'Amour",
+      "source": "Wikimedia Commons",
+      "artist": "Paul Sérusier",
+      "date": "1888 date QS:P571,+1888-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1644"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Anquetin_Avenue_de_Clichy.jpg/1280px-Anquetin_Avenue_de_Clichy.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Anquetin_Avenue_de_Clichy.jpg/500px-Anquetin_Avenue_de_Clichy.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Anquetin_Avenue_de_Clichy.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Anquetin_Avenue_de_Clichy.jpg",
+      "caption": "Avenue de Clichy: Five O’Clock in the Evening",
+      "source": "Wikimedia Commons",
+      "artist": "Louis Anquetin",
+      "date": "1887 date QS:P571,+1887-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1638"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Emile_Bernard_Le_march%C3%A9_aux_cochons_1892_83_%C3%97_116_cm.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Emile_Bernard_Le_march%C3%A9_aux_cochons_1892_83_%C3%97_116_cm.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Emile_Bernard_Le_march%C3%A9_aux_cochons_1892_83_%C3%97_116_cm.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Emile_Bernard_Le_march%C3%A9_aux_cochons_1892_83_%C3%97_116_cm.jpg",
+      "caption": "Emile Bernard;1868–1941. \"The pig market\", 1892. Oil on canvas, mounted on wood, 83 × 116 cm. Private collection.",
+      "source": "Wikimedia Commons",
+      "artist": "Émile Bernard",
+      "date": "1892 date QS:P571,+1892-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1237",
+      "height": "876"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/%C3%89mile_Bernard_Buckwheat_Harvesters_1888.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/39/%C3%89mile_Bernard_Buckwheat_Harvesters_1888.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/39/%C3%89mile_Bernard_Buckwheat_Harvesters_1888.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%C3%89mile_Bernard_Buckwheat_Harvesters_1888.jpg",
+      "caption": "Buckwheat Harvesters",
+      "source": "Wikimedia Commons",
+      "artist": "Émile Bernard",
+      "date": "1888",
+      "license": "Public domain",
+      "width": "700",
+      "height": "562"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Cloisonnism",
@@ -62,7 +193,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q889525",
+      "url": "https://www.wikidata.org/wiki/Q889525",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:22.430Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cloisonnism",
+      "url": "https://en.wikipedia.org/wiki/Cloisonnism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:22.430Z"
+      }
+    }
+  ],
   "wikidata": "Q889525",
   "wikipedia": "Cloisonnism",
   "popularity": 35,
@@ -70,5 +224,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:41:22.430Z"
 }

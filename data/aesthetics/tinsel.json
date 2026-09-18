@@ -17,7 +17,33 @@
   "summary": "Tinsel is a type of decorative material that mimics the effect of ice.",
   "description": "Tinsel is a type of decorative material that mimics the effect of ice. It consists of thin strips of sparkling material attached to a thread. When in long narrow strips not attached to thread, it is called \"lametta\", and emulates icicles. It was originally a metallic garland for Christmas decoration. The modern production of tinsel typically involves plastic, and is used particularly to decorate Christmas trees. It may be hung from ceilings or wrapped around statues and lampposts. Modern tinsel was invented in Nuremberg, Germany, in 1610, and was originally made of shredded silver.\n\nAccording to the Concise Oxford Dictionary, the word is from the Old French word estincele, meaning \"sparkle\".",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#665f42",
+      "name": "umber"
+    },
+    {
+      "hex": "#dfd6c6",
+      "name": "bone white"
+    },
+    {
+      "hex": "#a1988e",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#2c211f",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#741b19",
+      "name": "burgundy"
+    },
+    {
+      "hex": "#328eb0",
+      "name": "verdigris"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,62 @@
   "tags": [
     "ornament"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Wraxall_2014_MMB_07_Christmas_Tree.jpg/1280px-Wraxall_2014_MMB_07_Christmas_Tree.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Wraxall_2014_MMB_07_Christmas_Tree.jpg/500px-Wraxall_2014_MMB_07_Christmas_Tree.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Wraxall_2014_MMB_07_Christmas_Tree.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Wraxall_2014_MMB_07_Christmas_Tree.jpg",
+      "caption": "A Christmas tree in 2014.",
+      "source": "Wikimedia Commons",
+      "artist": "mattbuck ( category )",
+      "date": "2014-12-23 15:34:07",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "837"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Lametta_-_Christmas_decorations.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/36/Lametta_-_Christmas_decorations.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/36/Lametta_-_Christmas_decorations.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lametta_-_Christmas_decorations.jpg",
+      "caption": "Lametta - Christmas decorations",
+      "source": "Wikimedia Commons",
+      "artist": "Jüppsche",
+      "date": "2012-12-28",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1024",
+      "height": "1628"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Weihnachtsbaum_und_Geschenke_1970er.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Weihnachtsbaum_und_Geschenke_1970er.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Weihnachtsbaum_und_Geschenke_1970er.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Weihnachtsbaum_und_Geschenke_1970er.jpg",
+      "caption": "Weihnachtsbaum und Geschenke (mit Bobbycar), Deutschland, Mitte der 1970er Jahre",
+      "source": "Wikimedia Commons",
+      "artist": "Slavona",
+      "date": "1970s date QS:P,+1970-00-00T00:00:00Z/8",
+      "license": "Public domain",
+      "width": "521",
+      "height": "725"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Skelt%2C_Martin_and_Matthew_-_theatrical_tinsel_portrait_-_Madame_Vestris_as_Apollo_-_Google_Art_Project.jpg/1280px-Skelt%2C_Martin_and_Matthew_-_theatrical_tinsel_portrait_-_Madame_Vestris_as_Apollo_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Skelt%2C_Martin_and_Matthew_-_theatrical_tinsel_portrait_-_Madame_Vestris_as_Apollo_-_Google_Art_Project.jpg/500px-Skelt%2C_Martin_and_Matthew_-_theatrical_tinsel_portrait_-_Madame_Vestris_as_Apollo_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Skelt%2C_Martin_and_Matthew_-_theatrical_tinsel_portrait_-_Madame_Vestris_as_Apollo_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Skelt,_Martin_and_Matthew_-_theatrical_tinsel_portrait_-_Madame_Vestris_as_Apollo_-_Google_Art_Project.jpg",
+      "caption": "theatrical tinsel portrait - Madame Vestris as Apollo",
+      "source": "Wikimedia Commons",
+      "artist": "Skelt, Martin and Matthew Details on Google Art Project",
+      "date": "(1837 - 1840)",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1677"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Tinsel",
@@ -62,7 +143,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1707568",
+      "url": "https://www.wikidata.org/wiki/Q1707568",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:06.144Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Tinsel",
+      "url": "https://en.wikipedia.org/wiki/Tinsel",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:06.144Z"
+      }
+    }
+  ],
   "wikidata": "Q1707568",
   "wikipedia": "Tinsel",
   "popularity": 35,
@@ -70,5 +174,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:09:06.144Z"
 }

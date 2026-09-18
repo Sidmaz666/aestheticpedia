@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Portugal",
+  "geography": "Portugal",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Rococo architecture entered Portugal through the north, while Lisbon, due to the court pomp, remained in the Baroque.",
   "description": "Rococo architecture entered Portugal through the north, while Lisbon, due to the court pomp, remained in the Baroque.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#82b1ea",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#b7ada6",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#4c4932",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#b7c8e0",
+      "name": "silver"
+    },
+    {
+      "hex": "#5d89d2",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#1e2014",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Pal%C3%A1cio_Queluz_March_2018-2.jpg/1280px-Pal%C3%A1cio_Queluz_March_2018-2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Pal%C3%A1cio_Queluz_March_2018-2.jpg/500px-Pal%C3%A1cio_Queluz_March_2018-2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pal%C3%A1cio_Queluz_March_2018-2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Queluz_March_2018-2.jpg",
+      "caption": "Palace of Queluz, Portugal",
+      "source": "Wikimedia Commons",
+      "artist": "Alvesgaspar",
+      "date": "2018-04-01 19:38:48",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "689"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/View_of_Pal%C3%A1cio_Nacional_da_Pena-1453029.jpg/1280px-View_of_Pal%C3%A1cio_Nacional_da_Pena-1453029.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/View_of_Pal%C3%A1cio_Nacional_da_Pena-1453029.jpg/500px-View_of_Pal%C3%A1cio_Nacional_da_Pena-1453029.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6d/View_of_Pal%C3%A1cio_Nacional_da_Pena-1453029.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:View_of_Pal%C3%A1cio_Nacional_da_Pena-1453029.jpg",
+      "caption": "View of Palácio Nacional da Pena",
+      "source": "Wikimedia Commons",
+      "artist": "breakpoint",
+      "date": "2016-06-11",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "877"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Rococo architecture in Portugal",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4373402",
+      "url": "https://www.wikidata.org/wiki/Q4373402",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:07.491Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Rococo architecture in Portugal",
+      "url": "https://en.wikipedia.org/wiki/Rococo_architecture_in_Portugal",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:07.491Z"
+      }
+    }
+  ],
   "wikidata": "Q4373402",
   "wikipedia": "Rococo architecture in Portugal",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.114Z"
 }

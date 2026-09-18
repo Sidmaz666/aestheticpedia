@@ -17,7 +17,29 @@
   "summary": "Architecture terrible ([aʁ.ʃi.tɛk.tyʁ tɛ.ʁibl], lit.",
   "description": "Architecture terrible ([aʁ.ʃi.tɛk.tyʁ tɛ.ʁibl], lit. 'architecture which evokes terror') was an architectural style advocated by French architect Jacques-François Blondel in his nine-volume treatise Cours d'architecture (1771–77). Blondel promoted the style for the exterior design of prisons: the form of the building itself would proclaim its function and serve as a deterrent, and so achieve a \"repulsive style\" of heaviness that would \"declare to the spectators outside the confused lives of those detained inside, along with the force required for those in charge to hold them confined\". Blondel further described it as \"...a style where the principles of art seem to be crushed under the weight of the Artist's ignorance\".\n\nLondon's second Newgate Prison, built between 1768 and 1775, is an example of this style of architecture: reinforced walls almost without windows, a deliberate inelegance, and overt symbolism (such as carved chains over entrances) were all designed to instill terror in those who saw it.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#cfcfcf",
+      "name": "bone white"
+    },
+    {
+      "hex": "#9e9e9e",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#888888",
+      "name": "taupe"
+    },
+    {
+      "hex": "#717171",
+      "name": "slate"
+    },
+    {
+      "hex": "#5a5a5a",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +61,32 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/West_View_of_Newgate_by_George_Shepherd_%281784-1862%29_%28cropped%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6a/West_View_of_Newgate_by_George_Shepherd_%281784-1862%29_%28cropped%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6a/West_View_of_Newgate_by_George_Shepherd_%281784-1862%29_%28cropped%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:West_View_of_Newgate_by_George_Shepherd_(1784-1862)_(cropped).jpg",
+      "caption": "The second Newgate in a 19th century print: From en:Newgate Prison",
+      "source": "Wikimedia Commons",
+      "artist": "George Shepherd",
+      "date": "Approximate date: 1810",
+      "license": "Public domain",
+      "width": "573",
+      "height": "376"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Newgate_Prison_Publ_1800.jpg/1280px-Newgate_Prison_Publ_1800.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Newgate_Prison_Publ_1800.jpg/500px-Newgate_Prison_Publ_1800.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Newgate_Prison_Publ_1800.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Newgate_Prison_Publ_1800.jpg",
+      "caption": "Newgate Prison Publ 1800",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "965"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Architecture terrible",
@@ -62,7 +109,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4787219",
+      "url": "https://www.wikidata.org/wiki/Q4787219",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:12.870Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Architecture terrible",
+      "url": "https://en.wikipedia.org/wiki/Architecture_terrible",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:12.870Z"
+      }
+    }
+  ],
   "wikidata": "Q4787219",
   "wikipedia": "Architecture terrible",
   "popularity": 35,
@@ -70,5 +140,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:36:12.870Z"
 }

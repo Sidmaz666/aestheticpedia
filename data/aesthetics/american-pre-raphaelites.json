@@ -17,7 +17,33 @@
   "summary": "The American Pre-Raphaelites was a movement of landscape painters in the United States during the mid-19th century.",
   "description": "The American Pre-Raphaelites was a movement of landscape painters in the United States during the mid-19th century. It was named for its connection to the Pre-Raphaelite Brotherhood and for the influence of John Ruskin on its members. Painter Thomas Charles Farrer led the movement, and many members were active abolitionists. Their work together was short-lived, and the movement had mostly dissolved by 1870.\n\nThe American Pre-Raphaelites used a vivid, realistic style and, unlike their English counterparts, avoided figurative paintings in favor of landscapes and still lifes. American Pre-Raphaelites promoted still lifes and natural settings for paintings in the 1860s.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#cdc1ab",
+      "name": "beige"
+    },
+    {
+      "hex": "#2e220f",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#514222",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#cfd7d5",
+      "name": "bone white"
+    },
+    {
+      "hex": "#989a9d",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#747681",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,60 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/William_Trost_Richards_-_Sunset_on_the_Meadow_-_1996.194_-_Museum_of_Fine_Arts.jpg/1280px-William_Trost_Richards_-_Sunset_on_the_Meadow_-_1996.194_-_Museum_of_Fine_Arts.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/William_Trost_Richards_-_Sunset_on_the_Meadow_-_1996.194_-_Museum_of_Fine_Arts.jpg/500px-William_Trost_Richards_-_Sunset_on_the_Meadow_-_1996.194_-_Museum_of_Fine_Arts.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/66/William_Trost_Richards_-_Sunset_on_the_Meadow_-_1996.194_-_Museum_of_Fine_Arts.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:William_Trost_Richards_-_Sunset_on_the_Meadow_-_1996.194_-_Museum_of_Fine_Arts.jpg",
+      "caption": "Sunset on the Meadow",
+      "source": "Wikimedia Commons",
+      "artist": "William Trost Richards",
+      "date": "1861",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "845"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/John_Ruskin_-_Fragments_of_the_Alps.jpeg/1280px-John_Ruskin_-_Fragments_of_the_Alps.jpeg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/John_Ruskin_-_Fragments_of_the_Alps.jpeg/500px-John_Ruskin_-_Fragments_of_the_Alps.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9c/John_Ruskin_-_Fragments_of_the_Alps.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:John_Ruskin_-_Fragments_of_the_Alps.jpeg",
+      "caption": "Fragment of the Alps",
+      "source": "Wikimedia Commons",
+      "artist": "John Ruskin",
+      "date": "1854-1856",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "900"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Thomas_Charles_Farrer_-_A_Buckwheat_Field_on_Thomas_Cole%27s_Farm_-_62.265_-_Museum_of_Fine_Arts.jpg/1280px-Thomas_Charles_Farrer_-_A_Buckwheat_Field_on_Thomas_Cole%27s_Farm_-_62.265_-_Museum_of_Fine_Arts.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Thomas_Charles_Farrer_-_A_Buckwheat_Field_on_Thomas_Cole%27s_Farm_-_62.265_-_Museum_of_Fine_Arts.jpg/500px-Thomas_Charles_Farrer_-_A_Buckwheat_Field_on_Thomas_Cole%27s_Farm_-_62.265_-_Museum_of_Fine_Arts.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/58/Thomas_Charles_Farrer_-_A_Buckwheat_Field_on_Thomas_Cole%27s_Farm_-_62.265_-_Museum_of_Fine_Arts.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Charles_Farrer_-_A_Buckwheat_Field_on_Thomas_Cole%27s_Farm_-_62.265_-_Museum_of_Fine_Arts.jpg",
+      "caption": "A Buckwheat Field on Thomas Cole's Farm",
+      "source": "Wikimedia Commons",
+      "artist": "Thomas Charles Farrer",
+      "date": "1863",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "610"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/William_James_Stillman_%281828-1901%29_-_English_Wild_Flowers_-_1288961_-_National_Trust.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f6/William_James_Stillman_%281828-1901%29_-_English_Wild_Flowers_-_1288961_-_National_Trust.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f6/William_James_Stillman_%281828-1901%29_-_English_Wild_Flowers_-_1288961_-_National_Trust.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:William_James_Stillman_(1828-1901)_-_English_Wild_Flowers_-_1288961_-_National_Trust.jpg",
+      "caption": "English Wild Flowers",
+      "source": "Wikimedia Commons",
+      "artist": "William James Stillman",
+      "date": "1876",
+      "license": "Public domain",
+      "width": "781",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — American Pre-Raphaelites",
@@ -62,7 +141,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q106920489",
+      "url": "https://www.wikidata.org/wiki/Q106920489",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:09.731Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — American Pre-Raphaelites",
+      "url": "https://en.wikipedia.org/wiki/American_Pre-Raphaelites",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:09.731Z"
+      }
+    }
+  ],
   "wikidata": "Q106920489",
   "wikipedia": "American Pre-Raphaelites",
   "popularity": 35,
@@ -70,5 +172,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:35:09.731Z"
 }

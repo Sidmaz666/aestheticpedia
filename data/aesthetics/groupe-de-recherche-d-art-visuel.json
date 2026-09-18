@@ -12,8 +12,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "France",
+  "geography": "France",
   "periodStart": "1960s",
   "periodEnd": "",
   "startYear": 1960,
@@ -67,7 +67,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1332488",
+      "url": "https://www.wikidata.org/wiki/Q1332488",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:04.079Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Groupe de Recherche d'Art Visuel",
+      "url": "https://en.wikipedia.org/wiki/Groupe_de_Recherche_d'Art_Visuel",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:04.079Z"
+      }
+    }
+  ],
   "wikidata": "Q1332488",
   "wikipedia": "Groupe de Recherche d'Art Visuel",
   "popularity": 35,
@@ -75,5 +98,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.845Z"
 }

@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q126181232",
+      "url": "https://www.wikidata.org/wiki/Q126181232",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:21.961Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Menhera",
+      "url": "https://en.wikipedia.org/wiki/Menhera",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:21.961Z"
+      }
+    }
+  ],
   "wikidata": "Q126181232",
   "wikipedia": "Menhera",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:54:21.961Z"
 }

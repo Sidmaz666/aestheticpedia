@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Kingdom of Italy",
+  "geography": "Kingdom of Italy",
   "periodStart": "1860s",
   "periodEnd": "1860s",
   "startYear": 1863,
@@ -19,7 +19,21 @@
   "summary": "The School of Resina was a loosely linked group of Italian artists painting both landscapes and contemporary scenes in a non-academic realistic style.",
   "description": "The School of Resina was a loosely linked group of Italian artists painting both landscapes and contemporary scenes in a non-academic realistic style. The artists, mainly painters, gathered at the seaside hamlet of Resina (now incorporated into the towns of Herculaneum and Portici), just south of Naples.\n\nThe group nucleated around Giuseppe De Nittis, who after being expelled from the Naples Academy of Fine Arts, move away from the city with the express hope of painting real life outdoors, and not in a studio. Moving into rooms of the Royal Palace of Portici, he was joined by Marco De Gregorio, Federico Rossano, and Adriano Cecioni; later joined by Alceste Campriani, Antonino Leto, Filippo Palizzi, Giovanni Ponticelli, Giovanni Fattori and others.\n\nThe group was mockingly called the Republic of Portici by Neapolitan painter Domenico Morelli. It was influenced through De Nittis by the Florentine Macchiaioli, but had also been influenced by the School of Posillipo of an earlier generation. The movement was less cohesive with the departure of De Nittis to Paris in 1867.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#eccdab",
+      "name": "apricot"
+    },
+    {
+      "hex": "#e1b68f",
+      "name": "tan"
+    },
+    {
+      "hex": "#d5a077",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +55,34 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Le_Ricamatrici_by_Adriano_Cecioni_1866.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/56/Le_Ricamatrici_by_Adriano_Cecioni_1866.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/56/Le_Ricamatrici_by_Adriano_Cecioni_1866.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Le_Ricamatrici_by_Adriano_Cecioni_1866.jpg",
+      "caption": "Adriano Cecioniː The embroiderers (1865-66)",
+      "source": "Wikimedia Commons",
+      "artist": "Adriano Cecioni",
+      "date": "between 1865 and 1866 date QS:P571,+1865-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "780",
+      "height": "1026"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg/1280px-Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg/500px-Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg",
+      "caption": "presumed Self-portrait",
+      "source": "Wikimedia Commons",
+      "artist": "Leonardo da Vinci",
+      "date": "1569",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1995"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — School of Resina",
@@ -64,7 +105,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3953286",
+      "url": "https://www.wikidata.org/wiki/Q3953286",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:23.208Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — School of Resina",
+      "url": "https://en.wikipedia.org/wiki/School_of_Resina",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:23.208Z"
+      }
+    }
+  ],
   "wikidata": "Q3953286",
   "wikipedia": "School of Resina",
   "popularity": 35,
@@ -72,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:54.524Z"
 }

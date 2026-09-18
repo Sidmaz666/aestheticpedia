@@ -17,7 +17,33 @@
   "summary": "Sky and Water II is a lithograph print by the Dutch artist M.",
   "description": "Sky and Water II is a lithograph print by the Dutch artist M. C. Escher first printed in 1938. It is similar to the woodcut Sky and Water I, which was first printed only months earlier.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#335978",
+      "name": "graphite"
+    },
+    {
+      "hex": "#a25043",
+      "name": "brick"
+    },
+    {
+      "hex": "#b2b5b5",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#929fa9",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#607991",
+      "name": "slate"
+    },
+    {
+      "hex": "#042e57",
+      "name": "prussian blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,105 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg/1280px-Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg/500px-Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai_-_Fine_Wind,_Clear_Morning_(Gaif%C5%AB_kaisei)_-_Google_Art_Project.jpg",
+      "caption": "Fine Wind, Clear Morning (Gaifū kaisei)",
+      "source": "Wikimedia Commons",
+      "artist": "Katsushika Hokusai",
+      "date": "about 1800-1849",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "864"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/1de73bb7-52d6-e099-f4e1-763e201e78fa/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/1de73bb7-52d6-e099-f4e1-763e201e78fa/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/1de73bb7-52d6-e099-f4e1-763e201e78fa/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/38666",
+      "caption": "The Water Fan, 1898/99",
+      "source": "Art Institute of Chicago",
+      "artist": "Winslow Homer",
+      "date": "1898/99",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "587"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/d2905eaf-73c2-7796-5121-54600b4b2df4/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/d2905eaf-73c2-7796-5121-54600b4b2df4/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/d2905eaf-73c2-7796-5121-54600b4b2df4/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/90316",
+      "caption": "Guardian Spirit of the Waters, 1878",
+      "source": "Art Institute of Chicago",
+      "artist": "Odilon Redon",
+      "date": "1878",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1031"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/16568",
+      "caption": "Water Lilies, 1906",
+      "source": "Art Institute of Chicago",
+      "artist": "Claude Monet (French, 1840–1926)",
+      "date": "1906",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "810"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/80df29cd-493f-23c0-3e51-4ddc38b3f34f/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/80df29cd-493f-23c0-3e51-4ddc38b3f34f/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/80df29cd-493f-23c0-3e51-4ddc38b3f34f/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/889",
+      "caption": "Barks Fleeing Before the Storm, 1870–75",
+      "source": "Art Institute of Chicago",
+      "artist": "Jules Dupré (French, 1811–1889)",
+      "date": "1870–75",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "545"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/8be90e71-83c3-3f98-a972-4acb9ce0e773/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/8be90e71-83c3-3f98-a972-4acb9ce0e773/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/8be90e71-83c3-3f98-a972-4acb9ce0e773/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/81535",
+      "caption": "Sea View, Calm Weather (Vue de mer, temps calme), 1864",
+      "source": "Art Institute of Chicago",
+      "artist": "Édouard Manet (French, 1832–1883)",
+      "date": "1864",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "664"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/87088",
+      "caption": "Water Lily Pond, 1900",
+      "source": "Art Institute of Chicago",
+      "artist": "Claude Monet (French, 1840–1926)",
+      "date": "1900",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "750"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Sky and Water II",
@@ -62,7 +186,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7537569",
+      "url": "https://www.wikidata.org/wiki/Q7537569",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:08.131Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Sky and Water II",
+      "url": "https://en.wikipedia.org/wiki/Sky_and_Water_II",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:08.131Z"
+      }
+    }
+  ],
   "wikidata": "Q7537569",
   "wikipedia": "Sky and Water II",
   "popularity": 35,
@@ -70,5 +217,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:06:08.131Z"
 }

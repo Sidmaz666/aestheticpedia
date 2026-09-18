@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Canada",
+  "geography": "Canada",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -39,7 +39,64 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/03930df3-1e6c-eeca-8660-c0b22ca477ff/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/03930df3-1e6c-eeca-8660-c0b22ca477ff/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/03930df3-1e6c-eeca-8660-c0b22ca477ff/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/16584",
+      "caption": "Houses of Parliament, London, 1900–1",
+      "source": "Art Institute of Chicago",
+      "artist": "Claude Monet (French, 1840–1926)",
+      "date": "1900–1",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "736"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/e9179922-f68d-34c5-481d-abf49e046863/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/e9179922-f68d-34c5-481d-abf49e046863/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/e9179922-f68d-34c5-481d-abf49e046863/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/16544",
+      "caption": "Charing Cross Bridge, London, 1901",
+      "source": "Art Institute of Chicago",
+      "artist": "Claude Monet (French, 1840–1926)",
+      "date": "1901",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "589"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/6f61a6fc-dcd8-e801-0ad8-5f7e561d91b6/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/6f61a6fc-dcd8-e801-0ad8-5f7e561d91b6/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/6f61a6fc-dcd8-e801-0ad8-5f7e561d91b6/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/103139",
+      "caption": "Waterloo Bridge, Gray Weather, 1900",
+      "source": "Art Institute of Chicago",
+      "artist": "Claude Monet (French, 1840–1926)",
+      "date": "1900",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "597"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/f10bc39d-f0dc-e9b1-a3fc-c7f304992384/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/f10bc39d-f0dc-e9b1-a3fc-c7f304992384/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/f10bc39d-f0dc-e9b1-a3fc-c7f304992384/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/27057",
+      "caption": "Nelson's Column under Construction, Trafalgar Square, London, April 1844",
+      "source": "Art Institute of Chicago",
+      "artist": "William Henry Fox Talbot",
+      "date": "April 1844",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "691"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — London Regionalism",
@@ -62,7 +119,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q17108925",
+      "url": "https://www.wikidata.org/wiki/Q17108925",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:09.494Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — London Regionalism",
+      "url": "https://en.wikipedia.org/wiki/London_Regionalism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:09.494Z"
+      }
+    }
+  ],
   "wikidata": "Q17108925",
   "wikipedia": "London Regionalism",
   "popularity": 35,
@@ -70,5 +150,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.653Z"
 }

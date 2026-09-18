@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Netherlands",
+  "geography": "Netherlands",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Dutch Design is a term used to denote an informal artistic school of design in the Netherlands, particularly product design.",
   "description": "Dutch Design is a term used to denote an informal artistic school of design in the Netherlands, particularly product design. More specifically, the term refers to the design esthetic common to designers in the Netherlands.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#574533",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#6e6250",
+      "name": "umber"
+    },
+    {
+      "hex": "#b4aea2",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#a09580",
+      "name": "stone"
+    },
+    {
+      "hex": "#857a67",
+      "name": "taupe"
+    },
+    {
+      "hex": "#231a13",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,120 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Chest_of_Drawers.jpg/1280px-Chest_of_Drawers.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Chest_of_Drawers.jpg/500px-Chest_of_Drawers.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Chest_of_Drawers.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chest_of_Drawers.jpg",
+      "caption": "Chest of Drawers by Tejo Remy (1960), part of the Droog Design Collection.",
+      "source": "Wikimedia Commons",
+      "artist": "Sheila Thomson",
+      "date": "2007-08-16 05:12:05",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Marcel_Wanders_%22Knotted_Chair%22_%40_Context.jpg/1280px-Marcel_Wanders_%22Knotted_Chair%22_%40_Context.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Marcel_Wanders_%22Knotted_Chair%22_%40_Context.jpg/500px-Marcel_Wanders_%22Knotted_Chair%22_%40_Context.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Marcel_Wanders_%22Knotted_Chair%22_%40_Context.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Marcel_Wanders_%22Knotted_Chair%22_@_Context.jpg",
+      "caption": "Chair Knotted Chair from Marcel Wanders",
+      "source": "Wikimedia Commons",
+      "artist": "Dom Brady",
+      "date": "2008-04-04 08:02:16",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/WLANL_-_Pachango_-_Boijmans_van_Beuningen_-_Garderobe_%28Studio_Wieki_Somers%29.jpg/1280px-WLANL_-_Pachango_-_Boijmans_van_Beuningen_-_Garderobe_%28Studio_Wieki_Somers%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/WLANL_-_Pachango_-_Boijmans_van_Beuningen_-_Garderobe_%28Studio_Wieki_Somers%29.jpg/500px-WLANL_-_Pachango_-_Boijmans_van_Beuningen_-_Garderobe_%28Studio_Wieki_Somers%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/65/WLANL_-_Pachango_-_Boijmans_van_Beuningen_-_Garderobe_%28Studio_Wieki_Somers%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:WLANL_-_Pachango_-_Boijmans_van_Beuningen_-_Garderobe_(Studio_Wieki_Somers).jpg",
+      "caption": "Boijmans van Beuningen - Garderobe (Studio Wieki Somers)",
+      "source": "Wikimedia Commons",
+      "artist": "Niels from Amsterdam, NL",
+      "date": "2009-06-21 13:31",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/56909e17-e34d-9c18-d0b9-2a08ceff911c/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/56909e17-e34d-9c18-d0b9-2a08ceff911c/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/56909e17-e34d-9c18-d0b9-2a08ceff911c/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/110559",
+      "caption": "Portrait of a Woman, c. 1655",
+      "source": "Art Institute of Chicago",
+      "artist": "Dutch",
+      "date": "c. 1655",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "999"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/3dea7add-50e5-fe2c-8f05-2fb433a9e4ef/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/3dea7add-50e5-fe2c-8f05-2fb433a9e4ef/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/3dea7add-50e5-fe2c-8f05-2fb433a9e4ef/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/59894",
+      "caption": "The Rommel-Pot Player, c. 1630",
+      "source": "Art Institute of Chicago",
+      "artist": "Workshop of Frans Hals (Dutch, 1582–1666)",
+      "date": "c. 1630",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1095"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/12086520-2e48-cc75-df86-916bb801e61f/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/12086520-2e48-cc75-df86-916bb801e61f/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/12086520-2e48-cc75-df86-916bb801e61f/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/60755",
+      "caption": "Landscape with the Ruins of the Castle of Egmond, 1650–55",
+      "source": "Art Institute of Chicago",
+      "artist": "Jacob van Ruisdael (Dutch, 1628/29-1682)",
+      "date": "1650–55",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "646"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/8cd4328f-da34-dec3-00f5-5810a747c8e8/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/8cd4328f-da34-dec3-00f5-5810a747c8e8/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/8cd4328f-da34-dec3-00f5-5810a747c8e8/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/53495",
+      "caption": "A Witches' Sabbath, c. 1650",
+      "source": "Art Institute of Chicago",
+      "artist": "Cornelis Saftleven (Dutch, 1607–1681)",
+      "date": "c. 1650",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "578"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/5372920d-7536-64ec-bf48-264e084635f8/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/5372920d-7536-64ec-bf48-264e084635f8/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/5372920d-7536-64ec-bf48-264e084635f8/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/20887",
+      "caption": "Portrait of a Young Girl, 1633–35",
+      "source": "Art Institute of Chicago",
+      "artist": "Attributed to Pieter Dubordieu (Dutch, c. 1609–after 1678)",
+      "date": "1633–35",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1019"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Dutch Design",
@@ -62,7 +201,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2393747",
+      "url": "https://www.wikidata.org/wiki/Q2393747",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:01.403Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Dutch Design",
+      "url": "https://en.wikipedia.org/wiki/Dutch_Design",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:01.403Z"
+      }
+    }
+  ],
   "wikidata": "Q2393747",
   "wikipedia": "Dutch Design",
   "popularity": 35,
@@ -70,5 +232,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:05.482Z"
 }

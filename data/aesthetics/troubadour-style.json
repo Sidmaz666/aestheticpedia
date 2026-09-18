@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "France",
+  "geography": "France",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Taking its name from medieval troubadours, the Troubadour Style (French: Style troubadour) is a rather derisive term, in English usually applied to French historical painting of the early 19th century with idealised depictions of the Middle Ages and the Renaissance.",
   "description": "Taking its name from medieval troubadours, the Troubadour Style (French: Style troubadour) is a rather derisive term, in English usually applied to French historical painting of the early 19th century with idealised depictions of the Middle Ages and the Renaissance.  In French it also refers to the equivalent architectural styles. It can be seen as an aspect of Romanticism and a reaction against Neoclassicism, which was coming to an end at the end of the Consulate, and became particularly associated with Josephine Bonaparte and Caroline Ferdinande Louise, duchesse de Berry.  In architecture the style was an exuberant French equivalent to the Gothic Revival of the Germanic and Anglophone countries.  The style related to contemporary developments in French literature, and music, but the term is usually restricted to painting and architecture.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#573422",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#2a201c",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#725539",
+      "name": "umber"
+    },
+    {
+      "hex": "#953e22",
+      "name": "burnt sienna"
+    },
+    {
+      "hex": "#a1754d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#c5956a",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,139 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Pierre-Henri_R%C3%A9voil_-_Ren%C3%A9_d%27Anjou_at_Palam%C3%A8de_de_Forbin_-_WGA19322.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Pierre-Henri_R%C3%A9voil_-_Ren%C3%A9_d%27Anjou_at_Palam%C3%A8de_de_Forbin_-_WGA19322.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Pierre-Henri_R%C3%A9voil_-_Ren%C3%A9_d%27Anjou_at_Palam%C3%A8de_de_Forbin_-_WGA19322.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pierre-Henri_R%C3%A9voil_-_Ren%C3%A9_d%27Anjou_at_Palam%C3%A8de_de_Forbin_-_WGA19322.jpg",
+      "caption": "René d'Anjou at Palamède de Forbin 's house",
+      "source": "Wikimedia Commons",
+      "artist": "Pierre Révoil",
+      "date": "1820 date QS:P571,+1820-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1000",
+      "height": "770"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/IngresRaffaelAndFornarina.jpg/1280px-IngresRaffaelAndFornarina.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/IngresRaffaelAndFornarina.jpg/500px-IngresRaffaelAndFornarina.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/71/IngresRaffaelAndFornarina.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:IngresRaffaelAndFornarina.jpg",
+      "caption": "French: Raffael et La Fornarina Raphael and the Fornarina",
+      "source": "Wikimedia Commons",
+      "artist": "Jean-Auguste-Dominique Ingres",
+      "date": "1814 date QS:P571,+1814-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1557"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Francois_I_recoit_les_derniers_soupirs_de_Leonard_de_Vinci_by_Ingres.jpg/1280px-Francois_I_recoit_les_derniers_soupirs_de_Leonard_de_Vinci_by_Ingres.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Francois_I_recoit_les_derniers_soupirs_de_Leonard_de_Vinci_by_Ingres.jpg/500px-Francois_I_recoit_les_derniers_soupirs_de_Leonard_de_Vinci_by_Ingres.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/79/Francois_I_recoit_les_derniers_soupirs_de_Leonard_de_Vinci_by_Ingres.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Francois_I_recoit_les_derniers_soupirs_de_Leonard_de_Vinci_by_Ingres.jpg",
+      "caption": "French: François Ier reçoit les derniers soupirs de Léonard de Vinci Francis I Receives the Last Breaths of Leonardo da Vinci",
+      "source": "Wikimedia Commons",
+      "artist": "Jean-Auguste-Dominique Ingres",
+      "date": "1818 date QS:P571,+1818-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1044"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Jeanne_d%27arc_prisonni%C3%A8re_%C3%A0_Rouen-Pierre_R%C3%A9voil-MBA_Lyon_2014.jpeg/1280px-Jeanne_d%27arc_prisonni%C3%A8re_%C3%A0_Rouen-Pierre_R%C3%A9voil-MBA_Lyon_2014.jpeg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Jeanne_d%27arc_prisonni%C3%A8re_%C3%A0_Rouen-Pierre_R%C3%A9voil-MBA_Lyon_2014.jpeg/500px-Jeanne_d%27arc_prisonni%C3%A8re_%C3%A0_Rouen-Pierre_R%C3%A9voil-MBA_Lyon_2014.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/81/Jeanne_d%27arc_prisonni%C3%A8re_%C3%A0_Rouen-Pierre_R%C3%A9voil-MBA_Lyon_2014.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jeanne_d%27arc_prisonni%C3%A8re_%C3%A0_Rouen-Pierre_R%C3%A9voil-MBA_Lyon_2014.jpeg",
+      "caption": "Jeanne d’Arc prisonnière à Rouen, par Pierre REVOIL, exposée au Musée des beaux arts de Lyon en 2014.",
+      "source": "Wikimedia Commons",
+      "artist": "Pierre Révoil",
+      "date": "Salon of 1819 (n°944)",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1009"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Fleury-Fran%C3%A7ois_Richard_-_Montaigne_and_Tasso_-_WGA19448.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Fleury-Fran%C3%A7ois_Richard_-_Montaigne_and_Tasso_-_WGA19448.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Fleury-Fran%C3%A7ois_Richard_-_Montaigne_and_Tasso_-_WGA19448.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fleury-Fran%C3%A7ois_Richard_-_Montaigne_and_Tasso_-_WGA19448.jpg",
+      "caption": "Montaigne and Tasso",
+      "source": "Wikimedia Commons",
+      "artist": "François Fleury-Richard",
+      "date": "1821 date QS:P571,+1821-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "903",
+      "height": "1200"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Eug%C3%A8ne_Delacroix_-_The_Execution_of_Doge_Marino_Faliero_-_WGA06168.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Eug%C3%A8ne_Delacroix_-_The_Execution_of_Doge_Marino_Faliero_-_WGA06168.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Eug%C3%A8ne_Delacroix_-_The_Execution_of_Doge_Marino_Faliero_-_WGA06168.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_The_Execution_of_Doge_Marino_Faliero_-_WGA06168.jpg",
+      "caption": "The Execution of the Doge Marino Faliero",
+      "source": "Wikimedia Commons",
+      "artist": "Eugène Delacroix",
+      "date": "between 1825 and 1826 date QS:P571,+1825-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "880",
+      "height": "1121"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Pierre-Henri_R%C3%A9voil_-_Mary%2C_Queen_of_Scots%2C_Separated_from_Her_Faithfuls_-_WGA19321.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/27/Pierre-Henri_R%C3%A9voil_-_Mary%2C_Queen_of_Scots%2C_Separated_from_Her_Faithfuls_-_WGA19321.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/Pierre-Henri_R%C3%A9voil_-_Mary%2C_Queen_of_Scots%2C_Separated_from_Her_Faithfuls_-_WGA19321.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pierre-Henri_R%C3%A9voil_-_Mary,_Queen_of_Scots,_Separated_from_Her_Faithfuls_-_WGA19321.jpg",
+      "caption": "Mary, Queen of Scots, Separated from Her Faithfuls",
+      "source": "Wikimedia Commons",
+      "artist": "Pierre Révoil",
+      "date": "1822 date QS:P571,+1822-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1004",
+      "height": "804"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Richard_Parkes_Bonington_-_Henri_III_-_WGA02429.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Richard_Parkes_Bonington_-_Henri_III_-_WGA02429.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Richard_Parkes_Bonington_-_Henri_III_-_WGA02429.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Richard_Parkes_Bonington_-_Henri_III_-_WGA02429.jpg",
+      "caption": "Henri III",
+      "source": "Wikimedia Commons",
+      "artist": "Richard Parkes Bonington",
+      "date": "between 1827 and 1828 date QS:P571,+1827-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "1100",
+      "height": "900"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Jean-Baptiste_Goyet--Heloise_et_Abeilard--1830.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Jean-Baptiste_Goyet--Heloise_et_Abeilard--1830.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Jean-Baptiste_Goyet--Heloise_et_Abeilard--1830.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jean-Baptiste_Goyet--Heloise_et_Abeilard--1830.jpg",
+      "caption": "Jean-Baptiste Goyet, Heloise et Abailard, oil on copper, 1829, private collection",
+      "source": "Wikimedia Commons",
+      "artist": "Stevensaylor",
+      "date": "1829",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "667",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Revoil_Pharamond_eleve_sur_le_pavois.jpg/1280px-Revoil_Pharamond_eleve_sur_le_pavois.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Revoil_Pharamond_eleve_sur_le_pavois.jpg/500px-Revoil_Pharamond_eleve_sur_le_pavois.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/26/Revoil_Pharamond_eleve_sur_le_pavois.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Revoil_Pharamond_eleve_sur_le_pavois.jpg",
+      "caption": "Phramond is lifted on the shield by the Franks",
+      "source": "Wikimedia Commons",
+      "artist": "Pierre Révoil / Michel Philibert Genod",
+      "date": "Begun by Revoil in 1841, finished by Genod in 1845.",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "987"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Troubadour style",
@@ -62,7 +220,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3501307",
+      "url": "https://www.wikidata.org/wiki/Q3501307",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:25.230Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Troubadour style",
+      "url": "https://en.wikipedia.org/wiki/Troubadour_style",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:25.230Z"
+      }
+    }
+  ],
   "wikidata": "Q3501307",
   "wikipedia": "Troubadour style",
   "popularity": 35,
@@ -70,5 +251,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:02.230Z"
 }

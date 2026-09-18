@@ -64,7 +64,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4770402",
+      "url": "https://www.wikidata.org/wiki/Q4770402",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:01.010Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Another World (M. C. Escher)",
+      "url": "https://en.wikipedia.org/wiki/Another_World_(M._C._Escher)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:01.010Z"
+      }
+    }
+  ],
   "wikidata": "Q4770402",
   "wikipedia": "Another World (M. C. Escher)",
   "popularity": 35,
@@ -72,5 +95,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:36:01.010Z"
 }

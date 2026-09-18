@@ -19,7 +19,33 @@
   "summary": "An aka-e (赤絵 \"red picture\") is a type of ukiyo-e that is printed entirely or predominantly in red.",
   "description": "An aka-e (赤絵 \"red picture\") is a type of ukiyo-e that is printed entirely or predominantly in red.  Aka-e were said to be talismans against smallpox, especially when they bore images of Shōki the demon queller.  A woodblock print having a significant portion of the design entirely in red may also be considered to be an aka-e.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c4b1a8",
+      "name": "khaki"
+    },
+    {
+      "hex": "#6e645d",
+      "name": "umber"
+    },
+    {
+      "hex": "#e8d1b5",
+      "name": "apricot"
+    },
+    {
+      "hex": "#aa795d",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#2a2a28",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#98614c",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,34 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Okumura_Masanobu_-_%28aka-e%2C_Dai-oban_tate-e_22_x_13.5_in%29_Courtesan_and_Boy_Flower_Seller%2C_c._1730s.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/16/Okumura_Masanobu_-_%28aka-e%2C_Dai-oban_tate-e_22_x_13.5_in%29_Courtesan_and_Boy_Flower_Seller%2C_c._1730s.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/16/Okumura_Masanobu_-_%28aka-e%2C_Dai-oban_tate-e_22_x_13.5_in%29_Courtesan_and_Boy_Flower_Seller%2C_c._1730s.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Okumura_Masanobu_-_(aka-e,_Dai-oban_tate-e_22_x_13.5_in)_Courtesan_and_Boy_Flower_Seller,_c._1730s.jpg",
+      "caption": "Courtesan and Boy Flower Seller , woodblock print by Okumura Masanobu, c. 1730s, dai-oban tate-e 22 x 13.5 in.",
+      "source": "Wikimedia Commons",
+      "artist": "Okumura Masanobu",
+      "date": "circa 1730 date QS:P,+1730-00-00T00:00:00Z/9,P1480,Q5727902 ",
+      "license": "Public domain",
+      "width": "740",
+      "height": "1242"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toshusai_Sharaku-_Otani_Oniji,_1794.jpg",
+      "caption": "Oniji Ōtani III (aka. Nakazō Nakamura II) as Edobee in the May 1794 production of Koi Nyōbo Somewake Tazuna at Edo Kawarasaki-za theater. Polychrome woodcut print on paper; 15 x 9 7/8 in. (38.1 x 22.9 cm) Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939 (JP2822)",
+      "source": "Wikimedia Commons",
+      "artist": "Sharaku",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "802",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Aka-e",
@@ -64,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2828892",
+      "url": "https://www.wikidata.org/wiki/Q2828892",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:01.106Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Aka-e",
+      "url": "https://en.wikipedia.org/wiki/Aka-e",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:01.106Z"
+      }
+    }
+  ],
   "wikidata": "Q2828892",
   "wikipedia": "Aka-e",
   "popularity": 35,
@@ -72,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:35:01.106Z"
 }

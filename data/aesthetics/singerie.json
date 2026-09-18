@@ -17,7 +17,33 @@
   "summary": "Singerie is the name given to a visual arts genre depicting monkeys imitating human behavior, often fashionably attired, intended as a diverting sight, using satire.",
   "description": "Singerie is the name given to a visual arts genre depicting monkeys imitating human behavior, often fashionably attired, intended as a diverting sight, using satire.  The term is derived from the French word for \"Monkey Trick\".\n\nThough it has a long history, the height of the genre was in the 18th century, in the Rococo.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#231510",
+      "name": "black"
+    },
+    {
+      "hex": "#3b2b24",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#5b4133",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#fdfdfd",
+      "name": "ivory"
+    },
+    {
+      "hex": "#765d47",
+      "name": "umber"
+    },
+    {
+      "hex": "#8d7b60",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,47 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Abraham_Teniers_-_Barbershop_with_monkeys_and_cats.jpg/1280px-Abraham_Teniers_-_Barbershop_with_monkeys_and_cats.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Abraham_Teniers_-_Barbershop_with_monkeys_and_cats.jpg/500px-Abraham_Teniers_-_Barbershop_with_monkeys_and_cats.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Abraham_Teniers_-_Barbershop_with_monkeys_and_cats.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Abraham_Teniers_-_Barbershop_with_monkeys_and_cats.jpg",
+      "caption": "German: Barbierstube mit Affen und Katzen Barbershop with monkeys and cats",
+      "source": "Wikimedia Commons",
+      "artist": "Abraham Teniers",
+      "date": "between 1633 and 1667 date QS:P571,+1650-00-00T00:00:00Z/7,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1005"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Antoine_Watteau_-_Le_Singe_sculpteur.jpg/1280px-Antoine_Watteau_-_Le_Singe_sculpteur.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Antoine_Watteau_-_Le_Singe_sculpteur.jpg/500px-Antoine_Watteau_-_Le_Singe_sculpteur.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/de/Antoine_Watteau_-_Le_Singe_sculpteur.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Antoine_Watteau_-_Le_Singe_sculpteur.jpg",
+      "caption": "French: Le Singe sculpteur The Sculptor Monkey",
+      "source": "Wikimedia Commons",
+      "artist": "Jean-Antoine Watteau",
+      "date": "circa 1710 date QS:P571,+1710-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1353"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Emmanuel_Noterman_-_The_art_experts.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/03/Emmanuel_Noterman_-_The_art_experts.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/03/Emmanuel_Noterman_-_The_art_experts.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Emmanuel_Noterman_-_The_art_experts.jpg",
+      "caption": "The art experts",
+      "source": "Wikimedia Commons",
+      "artist": "Emmanuel Noterman",
+      "date": "between 1828 and 1863 date QS:P571,+1850-00-00T00:00:00Z/7,P",
+      "license": "Public domain",
+      "width": "805",
+      "height": "549"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Singerie",
@@ -62,7 +128,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7523427",
+      "url": "https://www.wikidata.org/wiki/Q7523427",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:04.777Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Singerie",
+      "url": "https://en.wikipedia.org/wiki/Singerie",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:04.777Z"
+      }
+    }
+  ],
   "wikidata": "Q7523427",
   "wikipedia": "Singerie",
   "popularity": 35,
@@ -70,5 +159,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:06:04.777Z"
 }

@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United Kingdom, Canada, United States",
+  "geography": "United Kingdom, Canada, United States",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -19,7 +19,33 @@
   "summary": "A Pepperpot or Salt Shaker lighthouse is a type of small lighthouse that has an architectural style similar to a scaled up salt or pepper shaker.",
   "description": "A Pepperpot or Salt Shaker lighthouse is a type of small lighthouse that has an architectural style similar to a scaled up salt or pepper shaker. These lighthouses feature a square tapered base with a single gallery and a square lantern. They are usually shingled in wood and painted white; the lantern and trim are red. Many such lighthouses still exist across Canada, especially in the Maritime provinces.\n\nThree Pepperpot lighthouses exist in the Caledonian Canal in Scotland. These are of a slightly different design, consisting of a short round tower with a conical roof. St. Catherine's Oratory a medieval lighthouse on St. Catherine's Down on the southern coast of the Isle of Wight, is also known locally as \"the pepperpot\".",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f8f8f8",
+      "name": "ivory"
+    },
+    {
+      "hex": "#63742d",
+      "name": "olive green"
+    },
+    {
+      "hex": "#5582b6",
+      "name": "slate"
+    },
+    {
+      "hex": "#242621",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#7d7b63",
+      "name": "moss"
+    },
+    {
+      "hex": "#8c979d",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,34 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Balache_Point_Lighthouse.jpg/1280px-Balache_Point_Lighthouse.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Balache_Point_Lighthouse.jpg/500px-Balache_Point_Lighthouse.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Balache_Point_Lighthouse.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Balache_Point_Lighthouse.jpg",
+      "caption": "Balache Point Lighthouse. This is the Rear Range Light that was built in 1963, there were two range lights but this is the only one still standing. The Front Range Light was replaced by a skeleton tower in 1991. This light is on top of a small hill on the Cape Breton side of the ",
+      "source": "Wikimedia Commons",
+      "artist": "Dennis G. Jarvis",
+      "date": "Taken on 16 September 2011, 14:34",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "875"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Pepperpot_lighthouse_on_the_Caledonian_Canal.jpg/1280px-Pepperpot_lighthouse_on_the_Caledonian_Canal.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Pepperpot_lighthouse_on_the_Caledonian_Canal.jpg/500px-Pepperpot_lighthouse_on_the_Caledonian_Canal.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/16/Pepperpot_lighthouse_on_the_Caledonian_Canal.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pepperpot_lighthouse_on_the_Caledonian_Canal.jpg",
+      "caption": "Pepperpot lighthouse on the Caledonian Canal",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "720"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Pepperpot (lighthouse)",
@@ -64,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7166434",
+      "url": "https://www.wikidata.org/wiki/Q7166434",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:03.744Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Pepperpot (lighthouse)",
+      "url": "https://en.wikipedia.org/wiki/Pepperpot_(lighthouse)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:03.744Z"
+      }
+    }
+  ],
   "wikidata": "Q7166434",
   "wikipedia": "Pepperpot (lighthouse)",
   "popularity": 35,
@@ -72,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.878Z"
 }

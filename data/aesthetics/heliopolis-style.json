@@ -17,7 +17,33 @@
   "summary": "Heliopolis style is an early 20th-century architectural style developed in the new suburb of Heliopolis in eastern Cairo, Egypt.",
   "description": "Heliopolis style is an early 20th-century architectural style developed in the new suburb of Heliopolis in eastern Cairo, Egypt. The Belgian Cairo Electric Railways and Heliopolis Oases Company, responsible for planning and developing the new suburb, created the new style to implement an exclusive distinctiveness to the design of its buildings. This revivalist style is a synthesis of Medieval Egyptian Revival, Moorish Revival, Persian Revival, and European Neoclassical architecture styles.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fefdef",
+      "name": "ivory"
+    },
+    {
+      "hex": "#a3a18d",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#c1bda3",
+      "name": "khaki"
+    },
+    {
+      "hex": "#8b8576",
+      "name": "taupe"
+    },
+    {
+      "hex": "#57444a",
+      "name": "graphite"
+    },
+    {
+      "hex": "#726761",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Basilique_Church_and_Korba_%282%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Basilique_Church_and_Korba_%282%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Basilique_Church_and_Korba_%282%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Basilique_Church_and_Korba_(2).jpg",
+      "caption": "The historical Korba buildings, Heliopolis",
+      "source": "Wikimedia Commons",
+      "artist": "Eslam M. Chalabi",
+      "date": "2014-09-29 01:13:19",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "612",
+      "height": "612"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Heliopolis style",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1945086",
+      "url": "https://www.wikidata.org/wiki/Q1945086",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:25.948Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Heliopolis style",
+      "url": "https://en.wikipedia.org/wiki/Heliopolis_style",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:25.948Z"
+      }
+    }
+  ],
   "wikidata": "Q1945086",
   "wikipedia": "Heliopolis style",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:48:25.948Z"
 }

@@ -17,7 +17,33 @@
   "summary": "The Nabis (French: les nabis, French pronunciation: [le nabi]) were a group of young French artists active in Paris from 1888 until 1900, who played a large part in the transition from Impressionism and academic art to abstract art, symbolism and the other early movements of modernism.",
   "description": "The Nabis (French: les nabis, French pronunciation: [le nabi]) were a group of young French artists active in Paris from 1888 until 1900, who played a large part in the transition from Impressionism and academic art to abstract art, symbolism and the other early movements of modernism. The members included Pierre Bonnard, Maurice Denis, Paul Ranson, Édouard Vuillard, Ker-Xavier Roussel, Félix Vallotton, Paul Sérusier and Auguste Cazalis. Most were students at the Académie Julian in Paris in the late 1880s. The artists shared a common admiration for Paul Gauguin and Paul Cézanne and a determination to renew the art of painting, but varied greatly in their individual styles. They believed that a work of art was not a depiction of nature, but a synthesis of metaphors and symbols created by the artist. In 1900, the artists held their final exhibition and went their separate ways.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#312b20",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#ab8b41",
+      "name": "raw sienna"
+    },
+    {
+      "hex": "#6d695a",
+      "name": "umber"
+    },
+    {
+      "hex": "#4e4d3a",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#d5ae25",
+      "name": "gold"
+    },
+    {
+      "hex": "#858689",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,140 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Serusier_-_the_talisman.JPG/1280px-Serusier_-_the_talisman.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Serusier_-_the_talisman.JPG/500px-Serusier_-_the_talisman.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/20/Serusier_-_the_talisman.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Serusier_-_the_talisman.JPG",
+      "caption": "The Talisman , also known as Landscape at the Bois d'Amour",
+      "source": "Wikimedia Commons",
+      "artist": "Paul Sérusier",
+      "date": "1888 date QS:P571,+1888-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1644"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Soir_de_septembre-Maurice_Denis-IMG_8192.JPG/1280px-Soir_de_septembre-Maurice_Denis-IMG_8192.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Soir_de_septembre-Maurice_Denis-IMG_8192.JPG/500px-Soir_de_septembre-Maurice_Denis-IMG_8192.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Soir_de_septembre-Maurice_Denis-IMG_8192.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Soir_de_septembre-Maurice_Denis-IMG_8192.JPG",
+      "caption": "French: Soir de septembre September evening",
+      "source": "Wikimedia Commons",
+      "artist": "Maurice Denis",
+      "date": "1891 Taken on 2 July 2015, 13:19 (according to Exif data)",
+      "license": "CC BY-SA 2.0 fr",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+      "width": "1280",
+      "height": "769"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/%C3%89douard_Vuillard%2C_1891%2C_The_Flowered_Dress_%28O_vestido_estampado%29%2C_oil_on_canvas%2C_38_x_46_cm%2C_Museu_de_Arte_de_S%C3%A3o_Paulo.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b3/%C3%89douard_Vuillard%2C_1891%2C_The_Flowered_Dress_%28O_vestido_estampado%29%2C_oil_on_canvas%2C_38_x_46_cm%2C_Museu_de_Arte_de_S%C3%A3o_Paulo.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b3/%C3%89douard_Vuillard%2C_1891%2C_The_Flowered_Dress_%28O_vestido_estampado%29%2C_oil_on_canvas%2C_38_x_46_cm%2C_Museu_de_Arte_de_S%C3%A3o_Paulo.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Vuillard,_1891,_The_Flowered_Dress_(O_vestido_estampado),_oil_on_canvas,_38_x_46_cm,_Museu_de_Arte_de_S%C3%A3o_Paulo.jpg",
+      "caption": "The Flowered Dress",
+      "source": "Wikimedia Commons",
+      "artist": "Édouard Vuillard",
+      "date": "1891 date QS:P571,+1891-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1024",
+      "height": "841"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Maurice_Denis%2C_1889%2C_Le_Calvaire_%28Climbing_to_Calvary%29%2C_oil_on_canvas%2C_41_x_32.5_cm%2C_Mus%C3%A9e_d%27Orsay.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Maurice_Denis%2C_1889%2C_Le_Calvaire_%28Climbing_to_Calvary%29%2C_oil_on_canvas%2C_41_x_32.5_cm%2C_Mus%C3%A9e_d%27Orsay.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Maurice_Denis%2C_1889%2C_Le_Calvaire_%28Climbing_to_Calvary%29%2C_oil_on_canvas%2C_41_x_32.5_cm%2C_Mus%C3%A9e_d%27Orsay.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Maurice_Denis,_1889,_Le_Calvaire_(Climbing_to_Calvary),_oil_on_canvas,_41_x_32.5_cm,_Mus%C3%A9e_d%27Orsay.jpg",
+      "caption": "The Climb to Calvary",
+      "source": "Wikimedia Commons",
+      "artist": "Maurice Denis",
+      "date": "1889",
+      "license": "Public domain",
+      "width": "512",
+      "height": "650"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/MauriceDenis-LaLegendeDeStHubert-7LArriveeALErmitage.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f8/MauriceDenis-LaLegendeDeStHubert-7LArriveeALErmitage.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/MauriceDenis-LaLegendeDeStHubert-7LArriveeALErmitage.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:MauriceDenis-LaLegendeDeStHubert-7LArriveeALErmitage.JPG",
+      "caption": "La légende de saint Hubert, L'Arrivée à l'hermitage, 7e panneau",
+      "source": "Wikimedia Commons",
+      "artist": "Maurice Denis",
+      "date": "between 1896 and 1897 date QS:P571,+1896-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "1246",
+      "height": "1600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Serusier-BoisSacre.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Serusier-BoisSacre.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Serusier-BoisSacre.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Serusier-BoisSacre.jpg",
+      "caption": "French: L'Incantation or French: Le Bois Sacré",
+      "source": "Wikimedia Commons",
+      "artist": "Paul Sérusier",
+      "date": "1891 date QS:P571,+1891-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "584",
+      "height": "752"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Seamstress_by_Edouard_Vuillard.jpg/1280px-Seamstress_by_Edouard_Vuillard.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Seamstress_by_Edouard_Vuillard.jpg/500px-Seamstress_by_Edouard_Vuillard.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Seamstress_by_Edouard_Vuillard.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Seamstress_by_Edouard_Vuillard.jpg",
+      "caption": "1893 oil painting by Edouard Vuillard of woman sewing.",
+      "source": "Wikimedia Commons",
+      "artist": "Édouard Vuillard",
+      "date": "1893 date QS:P571,+1893-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1434"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Edouard_Vuillard_-_Woman_in_a_Striped_Dress_-_Google_Art_Project.jpg/1280px-Edouard_Vuillard_-_Woman_in_a_Striped_Dress_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Edouard_Vuillard_-_Woman_in_a_Striped_Dress_-_Google_Art_Project.jpg/500px-Edouard_Vuillard_-_Woman_in_a_Striped_Dress_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Edouard_Vuillard_-_Woman_in_a_Striped_Dress_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Edouard_Vuillard_-_Woman_in_a_Striped_Dress_-_Google_Art_Project.jpg",
+      "caption": "Woman in a Striped Dress",
+      "source": "Wikimedia Commons",
+      "artist": "Édouard Vuillard",
+      "date": "1895 date QS:P571,+1895-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1429"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Vuilllard_Interior_1896.jpg/1280px-Vuilllard_Interior_1896.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Vuilllard_Interior_1896.jpg/500px-Vuilllard_Interior_1896.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Vuilllard_Interior_1896.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vuilllard_Interior_1896.jpg",
+      "caption": "\"People in an interior - Music , Edouard Vuillard (1896),",
+      "source": "Wikimedia Commons",
+      "artist": "Edouard Vuillard painting, painted 1896.",
+      "date": "2019-03-14 10:57:37",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1714"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Misia_at_the_Piano_MET_DT3150.jpg/1280px-Misia_at_the_Piano_MET_DT3150.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Misia_at_the_Piano_MET_DT3150.jpg/500px-Misia_at_the_Piano_MET_DT3150.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Misia_at_the_Piano_MET_DT3150.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Misia_at_the_Piano_MET_DT3150.jpg",
+      "caption": "Misia at the Piano",
+      "source": "Wikimedia Commons",
+      "artist": "Édouard Vuillard",
+      "date": "1895 or early 1896",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1329"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Nabis (art)",
@@ -62,7 +221,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q503708",
+      "url": "https://www.wikidata.org/wiki/Q503708",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:14.280Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Nabis (art)",
+      "url": "https://en.wikipedia.org/wiki/Nabis_(art)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:14.280Z"
+      }
+    }
+  ],
   "wikidata": "Q503708",
   "wikipedia": "Nabis (art)",
   "popularity": 35,
@@ -70,5 +252,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:56:14.280Z"
 }

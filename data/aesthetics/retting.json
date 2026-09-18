@@ -17,7 +17,33 @@
   "summary": "Retting is a textile process for separating the bast fibre in plants from the non-fibrous materials to create fibers that can be spun into yarn.",
   "description": "Retting is a textile process for separating the bast fibre in plants from the non-fibrous materials to create fibers that can be spun into yarn. The separation is primarily achieved through either a  microbial or chemical action degradating the cementing compounds that bind the bast fibres to other plant tissues, allowing the fibers to be isolated. Retting can be used to create fibers from plants such as flax, hemp, nettles, ramie, bamboo, and jute.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#8c8270",
+      "name": "taupe"
+    },
+    {
+      "hex": "#949596",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#e9e9e9",
+      "name": "paper white"
+    },
+    {
+      "hex": "#615e56",
+      "name": "umber"
+    },
+    {
+      "hex": "#9a9f41",
+      "name": "brass"
+    },
+    {
+      "hex": "#434342",
+      "name": "charcoal"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,35 @@
   "tags": [
     "textile process"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/The_Women%27s_Land_Army_in_Britain%2C_1915-1918_Q30902.jpg/1280px-The_Women%27s_Land_Army_in_Britain%2C_1915-1918_Q30902.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/The_Women%27s_Land_Army_in_Britain%2C_1915-1918_Q30902.jpg/500px-The_Women%27s_Land_Army_in_Britain%2C_1915-1918_Q30902.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bd/The_Women%27s_Land_Army_in_Britain%2C_1915-1918_Q30902.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Women%27s_Land_Army_in_Britain,_1915-1918_Q30902.jpg",
+      "caption": "The Women's Land Army in Britain, 1915-1918 College girls laying out flax for dew ripening on a farm in Yeovil, Somerset.",
+      "source": "Wikimedia Commons",
+      "artist": "Horace Nicholls",
+      "date": "between 1915 and 1918 date QS:P571,+1915-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "944"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Flax_field_Fecamp_01.JPG/1280px-Flax_field_Fecamp_01.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Flax_field_Fecamp_01.JPG/500px-Flax_field_Fecamp_01.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Flax_field_Fecamp_01.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Flax_field_Fecamp_01.JPG",
+      "caption": "Flax field near Fécamp , Département Seine-Maritime, Region Haute-Normandie, France.",
+      "source": "Wikimedia Commons",
+      "artist": "Rilegator",
+      "date": "Taken on 23 July 2009",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Retting",
@@ -62,7 +116,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q450426",
+      "url": "https://www.wikidata.org/wiki/Q450426",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:02.496Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Retting",
+      "url": "https://en.wikipedia.org/wiki/Retting",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:02.496Z"
+      }
+    }
+  ],
   "wikidata": "Q450426",
   "wikipedia": "Retting",
   "popularity": 35,
@@ -70,5 +147,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:03:02.496Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "regional_tradition",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "People's Republic of China",
+  "geography": "People's Republic of China",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -39,7 +39,35 @@
   "tags": [
     "traditional costume"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ming_dynasty_emperor_wearing_Pibian_and_Bianfu_%28%E7%9A%AE%E5%BC%81%E6%9C%8D%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ming_dynasty_emperor_wearing_Pibian_and_Bianfu_%28%E7%9A%AE%E5%BC%81%E6%9C%8D%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ming_dynasty_emperor_wearing_Pibian_and_Bianfu_%28%E7%9A%AE%E5%BC%81%E6%9C%8D%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ming_dynasty_emperor_wearing_Pibian_and_Bianfu_(%E7%9A%AE%E5%BC%81%E6%9C%8D).jpg",
+      "caption": "Ming dynasty emperor wearing Pibian and Bianfu (皮弁服).",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "ming dynasty",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "496",
+      "height": "695"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Imperial_Encyclopaedia_-_Ceremonial_Usages_-_pic351_-_%E5%A4%A7%E5%B8%B6.png/1280px-Imperial_Encyclopaedia_-_Ceremonial_Usages_-_pic351_-_%E5%A4%A7%E5%B8%B6.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Imperial_Encyclopaedia_-_Ceremonial_Usages_-_pic351_-_%E5%A4%A7%E5%B8%B6.png/500px-Imperial_Encyclopaedia_-_Ceremonial_Usages_-_pic351_-_%E5%A4%A7%E5%B8%B6.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Imperial_Encyclopaedia_-_Ceremonial_Usages_-_pic351_-_%E5%A4%A7%E5%B8%B6.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Imperial_Encyclopaedia_-_Ceremonial_Usages_-_pic351_-_%E5%A4%A7%E5%B8%B6.png",
+      "caption": "This is a vectorization of an illustration from the Chinese encyclopedia Gujin Tushu Jicheng , section \"Ceremonial Usages\". Please consider vectorizing this picture manually and upload to File:Imperial Encyclopaedia - Ceremonial Usages - pic351 - 大帶.svg .",
+      "source": "Wikimedia Commons",
+      "artist": "Chen Menglei",
+      "date": "between 1700 and 1725 date QS:P,+1750-00-00T00:00:00Z/7,P131",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1330"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Bianfu",
@@ -62,7 +90,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7191668",
+      "url": "https://www.wikidata.org/wiki/Q7191668",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:06.217Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Bianfu",
+      "url": "https://en.wikipedia.org/wiki/Bianfu",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:06.217Z"
+      }
+    }
+  ],
   "wikidata": "Q7191668",
   "wikipedia": "Bianfu",
   "popularity": 35,
@@ -70,5 +121,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.950Z"
 }

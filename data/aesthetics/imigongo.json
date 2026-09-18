@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3069464",
+      "url": "https://www.wikidata.org/wiki/Q3069464",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:02.518Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Imigongo",
+      "url": "https://en.wikipedia.org/wiki/Imigongo",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:02.518Z"
+      }
+    }
+  ],
   "wikidata": "Q3069464",
   "wikipedia": "Imigongo",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:50:02.518Z"
 }

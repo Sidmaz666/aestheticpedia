@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "India",
+  "geography": "India",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Assam-type architecture, also called Beton or Baton is a vernacular architecture building style that evolved in the Indian state of Assam (and the adjacent Sylhet in Bangladesh) during the late 19th and 20th centuries.",
   "description": "Assam-type architecture, also called Beton or Baton is a vernacular architecture building style that evolved in the Indian state of Assam (and the adjacent Sylhet in Bangladesh) during the late 19th and 20th centuries. The characteristics of this style are lightweight timber and bamboo construction, steeply pitched roofs, raised plinths, and wide verandas. These designs have evolved due to the region's heavy monsoon rainfall and frequent earthquakes. These houses had emerged when engineers of British India adapted traditional Assamese building practices for modern use.\n\nAfter the 1897 Assam earthquake, experts led by Japanese seismologist Fusakichi Omori studied local techniques and promoted a hybrid timber-reed-and-mud house that could withstand tremors and floods. Assam-type architecture is being used for both government and private residences throughout Assam (and present-day Sylhet, Bangladesh) in the first half of the 20th century. Assam-type architecture is often confused with stilted \"Chang ghar\" houses of the Mishing tribe, which are a separate indigenous tradition. Assam-type houses typically sit on short high plinths rather than on stilts.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#232516",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#424727",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#98adc5",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#656c3e",
+      "name": "olive green"
+    },
+    {
+      "hex": "#d8bd50",
+      "name": "gold"
+    },
+    {
+      "hex": "#9a9842",
+      "name": "moss"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Bezbaruah_Higher_Secondary_School.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/15/Bezbaruah_Higher_Secondary_School.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/15/Bezbaruah_Higher_Secondary_School.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bezbaruah_Higher_Secondary_School.png",
+      "caption": "Bezbaruah Higher Secondary School - Golaghat",
+      "source": "Wikimedia Commons",
+      "artist": "OmerMarcel",
+      "date": "2017-01-12",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "720",
+      "height": "408"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Bonoshree_lodge_in_Kaziranga.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Bonoshree_lodge_in_Kaziranga.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Bonoshree_lodge_in_Kaziranga.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bonoshree_lodge_in_Kaziranga.jpg",
+      "caption": "Bonoshree Tourist Lodge run by Assam state Govt. in Kaziranga National Park",
+      "source": "Wikimedia Commons",
+      "artist": "Amartyabag at English Wikipedia",
+      "date": "14 August 2007 (original upload date)",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "800",
+      "height": "534"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Chandrakanta_Handique_Bhawan.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Chandrakanta_Handique_Bhawan.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Chandrakanta_Handique_Bhawan.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chandrakanta_Handique_Bhawan.JPG",
+      "caption": "Chandrakanta Handique Bhawan is the head office of Asom Sahitya Sabha situated in Jorhat. It was donated by radhakanta Handique in memory of his youngest son Chandrakanta in 1926.",
+      "source": "Wikimedia Commons",
+      "artist": "Gitartha.bordoloi",
+      "date": "2012-10-20 17:34:09",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1024",
+      "height": "768"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Assam-type architecture",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q56275629",
+      "url": "https://www.wikidata.org/wiki/Q56275629",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:04.146Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Assam-type architecture",
+      "url": "https://en.wikipedia.org/wiki/Assam-type_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:04.146Z"
+      }
+    }
+  ],
   "wikidata": "Q56275629",
   "wikipedia": "Assam-type architecture",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.785Z"
 }

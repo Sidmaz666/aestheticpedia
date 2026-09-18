@@ -10,8 +10,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Taiwan",
+  "geography": "Taiwan",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -65,7 +65,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q11411984",
+      "url": "https://www.wikidata.org/wiki/Q11411984",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:10.757Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Taiwan New Cinema",
+      "url": "https://en.wikipedia.org/wiki/Taiwan_New_Cinema",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:10.757Z"
+      }
+    }
+  ],
   "wikidata": "Q11411984",
   "wikipedia": "Taiwan New Cinema",
   "popularity": 35,
@@ -73,5 +96,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:02.192Z"
 }

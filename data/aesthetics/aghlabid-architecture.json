@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Aghlabids",
+  "geography": "Aghlabids",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Aghlabid architecture dates to the rule of the Aghlabid dynasty in Ifriqiya (modern-day Tunisia) during the 9th century and the beginning of the 10th century.",
   "description": "Aghlabid architecture dates to the rule of the Aghlabid dynasty in Ifriqiya (modern-day Tunisia) during the 9th century and the beginning of the 10th century. The dynasty ruled nominally on behalf of the Abbasid Caliphs, with which they shared many political and cultural connections. Their architecture was heavily influenced by older antique (Roman and Byzantine) architecture in the region as well as by contemporary Abbasid architecture in the east. The Aghlabid period is also distinguished by a relatively large number of monuments that have survived to the present day, a situation unusual for early Islamic architecture. One of the most important monuments of this period, the Great Mosque of Kairouan, was a model for mosque architecture in the region. It features one of the oldest minarets in the world and contains one of the oldest surviving mihrabs in Islamic architecture.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#79674a",
+      "name": "bronze"
+    },
+    {
+      "hex": "#5f4b2f",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#938768",
+      "name": "moss"
+    },
+    {
+      "hex": "#afbac6",
+      "name": "silver"
+    },
+    {
+      "hex": "#c1b08e",
+      "name": "khaki"
+    },
+    {
+      "hex": "#86c0fd",
+      "name": "sky blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,147 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Grande_Mosqu%C3%A9e_de_Kairouan%2C_vue_d%27ensemble.jpg/1280px-Grande_Mosqu%C3%A9e_de_Kairouan%2C_vue_d%27ensemble.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Grande_Mosqu%C3%A9e_de_Kairouan%2C_vue_d%27ensemble.jpg/500px-Grande_Mosqu%C3%A9e_de_Kairouan%2C_vue_d%27ensemble.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/31/Grande_Mosqu%C3%A9e_de_Kairouan%2C_vue_d%27ensemble.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Grande_Mosqu%C3%A9e_de_Kairouan,_vue_d%27ensemble.jpg",
+      "caption": "Overview of the Great Mosque of Kairouan (in Tunisia). This mosque, also called the Mosque of Uqba, extends over an area of about 9,000 square meters. Founded in 670 AD by the Arab general Uqba ibn Nafi, it dates, in its present form, from the 9th century. Besides the fact of bei",
+      "source": "Wikimedia Commons",
+      "artist": "weetoon66",
+      "date": "2010-04-15 10:08:31",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "984"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/TUNISIE_SOUSSE_RIBAT_03.JPG/1280px-TUNISIE_SOUSSE_RIBAT_03.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/TUNISIE_SOUSSE_RIBAT_03.JPG/500px-TUNISIE_SOUSSE_RIBAT_03.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/ba/TUNISIE_SOUSSE_RIBAT_03.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:TUNISIE_SOUSSE_RIBAT_03.JPG",
+      "caption": "Ribat of Sousse in Tunisia",
+      "source": "Wikimedia Commons",
+      "artist": "GIRAUD Patrick",
+      "date": "10 February 2007, 14:49:52 (according to Exif data)",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1280",
+      "height": "851"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Medina_of_Sousse-130323.jpg/1280px-Medina_of_Sousse-130323.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Medina_of_Sousse-130323.jpg/500px-Medina_of_Sousse-130323.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/24/Medina_of_Sousse-130323.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Medina_of_Sousse-130323.jpg",
+      "caption": "Medina of Sousse (Tunisia)",
+      "source": "Wikimedia Commons",
+      "artist": "Christian Manhart",
+      "license": "CC BY-SA 3.0 igo",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Sousse_City_Walls.JPG/1280px-Sousse_City_Walls.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Sousse_City_Walls.JPG/500px-Sousse_City_Walls.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/Sousse_City_Walls.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sousse_City_Walls.JPG",
+      "caption": "Sousse City Walls",
+      "source": "Wikimedia Commons",
+      "artist": "Ad Meskens",
+      "date": "2012-08-01",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "876"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Sousse_archeological_museum.JPG/1280px-Sousse_archeological_museum.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Sousse_archeological_museum.JPG/500px-Sousse_archeological_museum.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Sousse_archeological_museum.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sousse_archeological_museum.JPG",
+      "caption": "Courtyard of the Archeological Museum of Sousse",
+      "source": "Wikimedia Commons",
+      "artist": "Ad Meskens",
+      "date": "2012-08-01",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Grande_Mosqu%C3%A9e_de_Kairouan_49.jpg/1280px-Grande_Mosqu%C3%A9e_de_Kairouan_49.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Grande_Mosqu%C3%A9e_de_Kairouan_49.jpg/500px-Grande_Mosqu%C3%A9e_de_Kairouan_49.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/Grande_Mosqu%C3%A9e_de_Kairouan_49.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Grande_Mosqu%C3%A9e_de_Kairouan_49.jpg",
+      "caption": "Grande Mosquée (Sidi Okba)",
+      "source": "Wikimedia Commons",
+      "artist": "Noomen9",
+      "date": "2017-01-08 10:26:07",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Coupole_dans_la_grande_Mosqu%C3%A9e_de_Kairouan_02%2C_juin_2013.jpg/1280px-Coupole_dans_la_grande_Mosqu%C3%A9e_de_Kairouan_02%2C_juin_2013.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Coupole_dans_la_grande_Mosqu%C3%A9e_de_Kairouan_02%2C_juin_2013.jpg/500px-Coupole_dans_la_grande_Mosqu%C3%A9e_de_Kairouan_02%2C_juin_2013.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Coupole_dans_la_grande_Mosqu%C3%A9e_de_Kairouan_02%2C_juin_2013.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Coupole_dans_la_grande_Mosqu%C3%A9e_de_Kairouan_02,_juin_2013.jpg",
+      "caption": "Grande Mosquée (Sidi Okba) , Kairouan",
+      "source": "Wikimedia Commons",
+      "artist": "Habib M'henni",
+      "date": "2013-06-02 17:40:42",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "887"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Nef_centrale_de_la_salle_de_pri%C3%A8re%2C_Grande_Mosqu%C3%A9e_de_Kairouan.jpg/1280px-Nef_centrale_de_la_salle_de_pri%C3%A8re%2C_Grande_Mosqu%C3%A9e_de_Kairouan.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Nef_centrale_de_la_salle_de_pri%C3%A8re%2C_Grande_Mosqu%C3%A9e_de_Kairouan.jpg/500px-Nef_centrale_de_la_salle_de_pri%C3%A8re%2C_Grande_Mosqu%C3%A9e_de_Kairouan.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Nef_centrale_de_la_salle_de_pri%C3%A8re%2C_Grande_Mosqu%C3%A9e_de_Kairouan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nef_centrale_de_la_salle_de_pri%C3%A8re,_Grande_Mosqu%C3%A9e_de_Kairouan.jpg",
+      "caption": "Vue des grands lustres de la nef centrale de la salle de prière de la Grande Mosquée de Kairouan, en Tunisie.",
+      "source": "Wikimedia Commons",
+      "artist": "Tab59",
+      "date": "2012-12-27 17:17:22",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/La_salle_de_pri%C3%A8re_de_la_Grande_Mosqu%C3%A9e_de_Kairouan.JPG/1280px-La_salle_de_pri%C3%A8re_de_la_Grande_Mosqu%C3%A9e_de_Kairouan.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/La_salle_de_pri%C3%A8re_de_la_Grande_Mosqu%C3%A9e_de_Kairouan.JPG/500px-La_salle_de_pri%C3%A8re_de_la_Grande_Mosqu%C3%A9e_de_Kairouan.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f5/La_salle_de_pri%C3%A8re_de_la_Grande_Mosqu%C3%A9e_de_Kairouan.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:La_salle_de_pri%C3%A8re_de_la_Grande_Mosqu%C3%A9e_de_Kairouan.JPG",
+      "caption": "Grande Mosquée (Sidi Okba) , Kairouan . La salle de prière.",
+      "source": "Wikimedia Commons",
+      "artist": "Abdel70",
+      "date": "2013-09-21 16:27:37",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "985"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Vue_du_mihrab_dans_la_salle_de_pri%C3%A8re_de_la_Grande_Mosqu%C3%A9e_de_Kairouan.jpg/1280px-Vue_du_mihrab_dans_la_salle_de_pri%C3%A8re_de_la_Grande_Mosqu%C3%A9e_de_Kairouan.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Vue_du_mihrab_dans_la_salle_de_pri%C3%A8re_de_la_Grande_Mosqu%C3%A9e_de_Kairouan.jpg/500px-Vue_du_mihrab_dans_la_salle_de_pri%C3%A8re_de_la_Grande_Mosqu%C3%A9e_de_Kairouan.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/14/Vue_du_mihrab_dans_la_salle_de_pri%C3%A8re_de_la_Grande_Mosqu%C3%A9e_de_Kairouan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vue_du_mihrab_dans_la_salle_de_pri%C3%A8re_de_la_Grande_Mosqu%C3%A9e_de_Kairouan.jpg",
+      "caption": "Grande Mosquée (Sidi Okba) , détails du mihrab",
+      "source": "Wikimedia Commons",
+      "artist": "IssamBarhoumi",
+      "date": "2016-03-19 11:54:29",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "962"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Aghlabid architecture",
@@ -62,7 +228,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q116148607",
+      "url": "https://www.wikidata.org/wiki/Q116148607",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:34:58.588Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Aghlabid architecture",
+      "url": "https://en.wikipedia.org/wiki/Aghlabid_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:34:58.588Z"
+      }
+    }
+  ],
   "wikidata": "Q116148607",
   "wikipedia": "Aghlabid architecture",
   "popularity": 35,
@@ -70,5 +259,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.794Z"
 }

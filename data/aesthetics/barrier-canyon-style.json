@@ -19,7 +19,33 @@
   "summary": "Barrier Canyon Style (BCS) describes a distinctive style of rock art which appears mostly in Utah, with the largest concentration of sites in and around the San Rafael Swell and Canyonlands National Park, but the full range extends into much of the state and western Colorado.",
   "description": "Barrier Canyon Style (BCS) describes a distinctive style of rock art which appears mostly in Utah, with the largest concentration of sites in and around the San Rafael Swell and Canyonlands National Park, but the full range extends into much of the state and western Colorado.  The term was first applied by Polly Schaafsma (The Rock Art of Utah, 1971) to describe a handful of similar sites known at the time, including several along Barrier Creek in Horseshoe Canyon (formerly known as Barrier Canyon).  Barrier Canyon Style rock art panels are mostly pictographs (painted) but there are also several petroglyphs (pecked)  in the style.  These panels are believed to have been created during the archaic period (probably late archaic) and are estimated (from direct and indirect carbon 14 dates) to be somewhere in the range of 1500 to 4000 years old, possibly older -- clay figurines of a similar style found in Cowboy Cave (in a tributary canyon to Horseshoe Canyon) have been dated to over 7000 years old.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#dba682",
+      "name": "tan"
+    },
+    {
+      "hex": "#c38f72",
+      "name": "camel"
+    },
+    {
+      "hex": "#e5bda6",
+      "name": "beige"
+    },
+    {
+      "hex": "#a87462",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#905b4b",
+      "name": "bronze"
+    },
+    {
+      "hex": "#674439",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,50 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/CourthouseWash.jpg/1280px-CourthouseWash.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/CourthouseWash.jpg/500px-CourthouseWash.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/72/CourthouseWash.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:CourthouseWash.jpg",
+      "caption": "Courthouse Wash Panel above Moab, Utah. Taken with Canon EOS Rebel XS and then fully saturated to increase visibility of pictographs.",
+      "source": "Wikimedia Commons",
+      "artist": "MoralMoney",
+      "date": "2009-05-25",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/GreatGalleryPanel.jpg/1280px-GreatGalleryPanel.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/GreatGalleryPanel.jpg/500px-GreatGalleryPanel.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/GreatGalleryPanel.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:GreatGalleryPanel.jpg",
+      "caption": "The Great Gallery, Pictographs, Canyonlands National Park, Horseshoe Canyon, Utah, 15 feet (4.6 m) by 200 feet (61 m), c. 1500 BCE. The Great Gallery, an extensive panel in the Barrier Canyon Style in Canyonlands National Park. The Great Gallery, Pictographs, Canyonlands National",
+      "source": "Wikimedia Commons",
+      "artist": "Surfsupusa at English Wikipedia",
+      "date": "28 November 2007 (original upload date)",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "431"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Barrier_Canyon_style%2C_Sego_Canyon.jpg/1280px-Barrier_Canyon_style%2C_Sego_Canyon.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Barrier_Canyon_style%2C_Sego_Canyon.jpg/500px-Barrier_Canyon_style%2C_Sego_Canyon.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/20/Barrier_Canyon_style%2C_Sego_Canyon.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Barrier_Canyon_style,_Sego_Canyon.jpg",
+      "caption": "These elaborate and well preserved Barrier Canyon style petroglyphs are located in Sego canyon in the Utah desert. They are among the best preserved pre-Columbian petroglyphs in the United States. This group is from the early Fremont Period, around 2,500 B.C. See http://net.indra",
+      "source": "Wikimedia Commons",
+      "artist": "Rennett Stowe from USA",
+      "date": "Taken on 16 July 2010, 09:27",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Barrier Canyon Style",
@@ -64,7 +133,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4863583",
+      "url": "https://www.wikidata.org/wiki/Q4863583",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:20.928Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Barrier Canyon Style",
+      "url": "https://en.wikipedia.org/wiki/Barrier_Canyon_Style",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:20.928Z"
+      }
+    }
+  ],
   "wikidata": "Q4863583",
   "wikipedia": "Barrier Canyon Style",
   "popularity": 35,
@@ -72,5 +164,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:37:20.928Z"
 }

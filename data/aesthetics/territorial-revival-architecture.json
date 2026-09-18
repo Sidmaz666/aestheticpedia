@@ -17,7 +17,33 @@
   "summary": "Territorial Revival architecture describes the style of architecture developed in the U.S.",
   "description": "Territorial Revival architecture describes the style of architecture developed in the U.S. state of New Mexico in the 1930s. It derived from New Mexico vernacular Territorial Style, an original style from Santa Fe de Nuevo México following the founding of Albuquerque in 1706. Territorial Revival incorporated elements of traditional Spanish Folk Territorial building techniques with revival style elements. The style was intended to recall the Territorial Style and was extensively employed for New Mexico state government buildings in Santa Fe.\n\nThe term Territorial architecture describes a variety of architectural features and regional styles in use during New Spain, Mexico, and American territorial period, from about 1706 until 1912. The revival began during the post-1846 timeframe when Greco-Roman and Gothic elements were being incorporated into the Spanish folk carpentry and Pueblo architecture. The style was encouraged by a State Planning Board proclamation of 1934, which advocated the redesign of the state capitol in \"the local Santa Fe type of architecture.\" Architect John Gaw Meem, a leading proponent of the related Pueblo Revival architectural movement, is considered to be the initiator of Territorial Revival architecture.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#8fccfd",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#8c7d6d",
+      "name": "taupe"
+    },
+    {
+      "hex": "#ad9684",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#6d5f4e",
+      "name": "umber"
+    },
+    {
+      "hex": "#c5b19d",
+      "name": "khaki"
+    },
+    {
+      "hex": "#454334",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Territorial_Revival_78.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/df/Territorial_Revival_78.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/df/Territorial_Revival_78.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Territorial_Revival_78.jpg",
+      "caption": "photo of the Villagra Building (1934) in Santa Fe, NM, USA",
+      "source": "Wikimedia Commons",
+      "artist": "Carptrash ( talk )",
+      "date": "00:13, 4 October 2011 (UTC)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1110",
+      "height": "833"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Bataan_Memorial_Building_Santa_Fe.jpg/1280px-Bataan_Memorial_Building_Santa_Fe.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Bataan_Memorial_Building_Santa_Fe.jpg/500px-Bataan_Memorial_Building_Santa_Fe.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Bataan_Memorial_Building_Santa_Fe.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bataan_Memorial_Building_Santa_Fe.jpg",
+      "caption": "The north facing facade of the Bataan Memorial Building in Santa Fe, New Mexico",
+      "source": "Wikimedia Commons",
+      "artist": "GiantRobot",
+      "date": "2007-08-20",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Cusco_Piedra_de_los_doce_angulos.jpg/1280px-Cusco_Piedra_de_los_doce_angulos.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Cusco_Piedra_de_los_doce_angulos.jpg/500px-Cusco_Piedra_de_los_doce_angulos.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Cusco_Piedra_de_los_doce_angulos.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cusco_Piedra_de_los_doce_angulos.jpg",
+      "caption": "Cusco, street Hatun Rumiyoq (\"the one with the big stone\"), with its stone of 12 angles",
+      "source": "Wikimedia Commons",
+      "artist": "Unukorno",
+      "date": "2013-09-20",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Territorial Revival architecture",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7703749",
+      "url": "https://www.wikidata.org/wiki/Q7703749",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:19.734Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Territorial Revival architecture",
+      "url": "https://en.wikipedia.org/wiki/Territorial_Revival_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:19.734Z"
+      }
+    }
+  ],
   "wikidata": "Q7703749",
   "wikipedia": "Territorial Revival architecture",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:08:19.734Z"
 }

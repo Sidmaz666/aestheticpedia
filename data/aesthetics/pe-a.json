@@ -17,7 +17,33 @@
   "summary": "Peʻa, or malofie, is the traditional male tattoo (tatau) of Samoa.",
   "description": "Peʻa, or malofie, is the traditional male tattoo (tatau) of Samoa. It covers the body from the waist to the knees, and consists of perfectly symmetrical heavy black lines, arrows, and dots. It is a common mistake for people to refer to the peʻa as sogaimiti, because sogaimiti refers to the man with the peʻa and not the peʻa itself.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e8e8e8",
+      "name": "paper white"
+    },
+    {
+      "hex": "#cfcfcf",
+      "name": "bone white"
+    },
+    {
+      "hex": "#b0b0b0",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#232323",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#939393",
+      "name": "stone"
+    },
+    {
+      "hex": "#595959",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,48 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Traditional_Samoan_Tattoo_-_back.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/99/Traditional_Samoan_Tattoo_-_back.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/99/Traditional_Samoan_Tattoo_-_back.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Traditional_Samoan_Tattoo_-_back.jpg",
+      "caption": "A traditional Samoan male tattoo from the waist to below the knees seen from the side and back.",
+      "source": "Wikimedia Commons",
+      "artist": "CloudSurfer",
+      "date": "05/01/2002",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1102",
+      "height": "2224"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Back_view_Samoan_male_tatau_-_photo_Thomas_Andrew_-_1890s.jpg/1280px-Back_view_Samoan_male_tatau_-_photo_Thomas_Andrew_-_1890s.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Back_view_Samoan_male_tatau_-_photo_Thomas_Andrew_-_1890s.jpg/500px-Back_view_Samoan_male_tatau_-_photo_Thomas_Andrew_-_1890s.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Back_view_Samoan_male_tatau_-_photo_Thomas_Andrew_-_1890s.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Back_view_Samoan_male_tatau_-_photo_Thomas_Andrew_-_1890s.jpg",
+      "caption": "Back view of Samoan male with traditional tattoo (tatau, pe'a).",
+      "source": "Wikimedia Commons",
+      "artist": "Thomas Andrew (1855 - 1939)",
+      "date": "circa 1890s date QS:P,+1890-00-00T00:00:00Z/8",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1741"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Samoan_tatau_-_tattooing_circa_1895_-_photo_Thomas_Andrew.jpg/1280px-Samoan_tatau_-_tattooing_circa_1895_-_photo_Thomas_Andrew.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Samoan_tatau_-_tattooing_circa_1895_-_photo_Thomas_Andrew.jpg/500px-Samoan_tatau_-_tattooing_circa_1895_-_photo_Thomas_Andrew.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/80/Samoan_tatau_-_tattooing_circa_1895_-_photo_Thomas_Andrew.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Samoan_tatau_-_tattooing_circa_1895_-_photo_Thomas_Andrew.jpg",
+      "caption": "A Samoan tattooist (left), Tufuga ta tatau and assistant (right), carrying out a traditional tatau on a man's back. The tattooist uses traditional tools.",
+      "source": "Wikimedia Commons",
+      "artist": "Thomas Andrew (1855-1939)",
+      "date": "circa 1895 date QS:P,+1895-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "924"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Peʻa",
@@ -62,7 +129,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7157155",
+      "url": "https://www.wikidata.org/wiki/Q7157155",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:26.557Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Peʻa",
+      "url": "https://en.wikipedia.org/wiki/Pe%CA%BBa",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:26.557Z"
+      }
+    }
+  ],
   "wikidata": "Q7157155",
   "wikipedia": "Peʻa",
   "popularity": 35,
@@ -70,5 +160,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:59:26.557Z"
 }

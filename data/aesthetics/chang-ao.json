@@ -7,8 +7,8 @@
   "establishment": "regional_tradition",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "People's Republic of China",
+  "geography": "People's Republic of China",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -39,7 +39,21 @@
   "tags": [
     "traditional costume"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Daao3.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/45/Daao3.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/45/Daao3.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Daao3.jpg",
+      "caption": "Portrait from China Ming Dynasty",
+      "source": "Wikimedia Commons",
+      "artist": "Anonymous Ming Chinese artist",
+      "date": "Ming Dynasty",
+      "license": "Public domain",
+      "width": "600",
+      "height": "512"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Chang'ao",
@@ -62,7 +76,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5071564",
+      "url": "https://www.wikidata.org/wiki/Q5071564",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:18.256Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Chang'ao",
+      "url": "https://en.wikipedia.org/wiki/Chang'ao",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:18.256Z"
+      }
+    }
+  ],
   "wikidata": "Q5071564",
   "wikipedia": "Chang'ao",
   "popularity": 35,
@@ -70,5 +107,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.946Z"
 }

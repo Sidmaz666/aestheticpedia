@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "1960s",
   "periodEnd": "",
   "startYear": 1960,
@@ -41,7 +41,64 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/1cddae1c-99d5-462f-4aa6-128c0732ac11/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/1cddae1c-99d5-462f-4aa6-128c0732ac11/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/1cddae1c-99d5-462f-4aa6-128c0732ac11/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/120154",
+      "caption": "Still Life—Strawberries, Nuts, &c., 1822",
+      "source": "Art Institute of Chicago",
+      "artist": "Raphaelle Peale (American, 1774–1825)",
+      "date": "1822",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "604"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/ec351aae-cf3f-b8c8-a2c2-9a4e35ba637b/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/ec351aae-cf3f-b8c8-a2c2-9a4e35ba637b/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/ec351aae-cf3f-b8c8-a2c2-9a4e35ba637b/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/74879",
+      "caption": "Coconut Cup with Biblical Scenes from the Life of David, 1577-78",
+      "source": "Art Institute of Chicago",
+      "artist": "Carving: Netherlands; mounts: London",
+      "date": "1577-78",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1274"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/29163982-8310-36bb-3530-2b5000ce7290/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/29163982-8310-36bb-3530-2b5000ce7290/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/29163982-8310-36bb-3530-2b5000ce7290/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/19333",
+      "caption": "Kitchen Still Life, c. 1640",
+      "source": "Art Institute of Chicago",
+      "artist": "Attributed to Paolo Antonio Barbieri (Italian, 1603–1649)",
+      "date": "c. 1640",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "694"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/574695d5-6bf3-fe58-a1d5-e6cbb5e10c77/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/574695d5-6bf3-fe58-a1d5-e6cbb5e10c77/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/574695d5-6bf3-fe58-a1d5-e6cbb5e10c77/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/21682",
+      "caption": "Still Life, c. 1625",
+      "source": "Art Institute of Chicago",
+      "artist": "Pieter Claesz (Dutch, 1596/97–1660)",
+      "date": "c. 1625",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "516"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Nut Art",
@@ -64,7 +121,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q17107771",
+      "url": "https://www.wikidata.org/wiki/Q17107771",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:20.046Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Nut Art",
+      "url": "https://en.wikipedia.org/wiki/Nut_Art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:20.046Z"
+      }
+    }
+  ],
   "wikidata": "Q17107771",
   "wikipedia": "Nut Art",
   "popularity": 35,
@@ -72,5 +152,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.892Z"
 }

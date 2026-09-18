@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States, Southern United States",
+  "geography": "United States, Southern United States",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Tidewater architecture is a style of architecture found mostly in coastal areas of the Southern United States.",
   "description": "Tidewater architecture is a style of architecture found mostly in coastal areas of the Southern United States. These homes, with large wraparound porches (or galleries) and hip roofs, were designed for wet, hot climates.\n\nTidewater homes have extensive porches sheltered by a broad hipped roof. The main roof extends over the porches without interruption. A crawlspace foundation allows for air circulation and protects the home from low-level flooding (this was important since tropical cyclones often flooded low-lying areas on middle and south Atlantic coasts). The large porches of Tidewater homes were also a reflection of the low-lying warm subtropical climate of the lower Atlantic coast – providing a breezy spot to enjoy the cooler air of the evening.\n\nTidewater style homes can be found along the Atlantic coastal plain from southeast Connecticut south to northern eastern Florida. However, they are the most common form of southern Delaware through south Georgia.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#4e6b28",
+      "name": "olive green"
+    },
+    {
+      "hex": "#384626",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#27291b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#6d7562",
+      "name": "olive green 2"
+    },
+    {
+      "hex": "#fbfcfb",
+      "name": "ivory"
+    },
+    {
+      "hex": "#838a7f",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/EDGERLEY%2C_LIVINGSTON_COUNTY.jpg/1280px-EDGERLEY%2C_LIVINGSTON_COUNTY.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/EDGERLEY%2C_LIVINGSTON_COUNTY.jpg/500px-EDGERLEY%2C_LIVINGSTON_COUNTY.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/39/EDGERLEY%2C_LIVINGSTON_COUNTY.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:EDGERLEY,_LIVINGSTON_COUNTY.jpg",
+      "caption": "1828 HOUSE IS A RARE EXAMPLE OF TIDEWATER ARCHITECTURE IN UPSTATE NEW YORK",
+      "source": "Wikimedia Commons",
+      "artist": "Jerrye & Roy Klotz, MD",
+      "date": "2008-01-11 15:32:14",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "849"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Tidewater architecture",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7800890",
+      "url": "https://www.wikidata.org/wiki/Q7800890",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:03.043Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Tidewater architecture",
+      "url": "https://en.wikipedia.org/wiki/Tidewater_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:03.043Z"
+      }
+    }
+  ],
   "wikidata": "Q7800890",
   "wikipedia": "Tidewater architecture",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:02.188Z"
 }

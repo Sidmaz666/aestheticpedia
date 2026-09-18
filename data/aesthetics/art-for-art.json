@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q60775109",
+      "url": "https://www.wikidata.org/wiki/Q60775109",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:17.390Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Art for art",
+      "url": "https://en.wikipedia.org/wiki/Art_for_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:17.390Z"
+      }
+    }
+  ],
   "wikidata": "Q60775109",
   "wikipedia": "Art for art",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:36:17.390Z"
 }

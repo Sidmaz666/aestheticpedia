@@ -17,7 +17,33 @@
   "summary": "Tortilla art is fine art that uses tortillas as a canvas.",
   "description": "Tortilla art is fine art that uses tortillas as a canvas. The tortilla(s) are baked, often coated with acrylic and painted or screenprinted. The purpose of tortilla art is to reflect the Chicano cultural roots of the artist. Tortilla art is a technique used in many countries.\n\nAccording to one tortilla artist,\"I use the Tortilla as a Canvas because it is an integral part of the Hispanic Culture and my heritage. For the subject matter of my tortilla paintings, I use imagery that is representative of Latinos, conveying their hopes, art, beliefs and history. As the tortilla has given us life, I give it new life by using it as an art medium.\"\n\nThe Great Tortilla Conspiracy is an art group that utilizes tortilla art as a medium. It is located in San Francisco's Mission district and the members include Joseph \"Jos\" Sances, René Yañez, Rio Yañez, and Art Hazelwood.\n\nCalifornian artist José Montoya created a series of artworks by burning images onto tortillas.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fefdfd",
+      "name": "ivory"
+    },
+    {
+      "hex": "#cb7667",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#af5a4e",
+      "name": "terracotta"
+    },
+    {
+      "hex": "#bf9894",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#a07775",
+      "name": "dusty rose 2"
+    },
+    {
+      "hex": "#d0bcbb",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Aztec_Sun_Stone_Replica_cropped.jpg/1280px-Aztec_Sun_Stone_Replica_cropped.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Aztec_Sun_Stone_Replica_cropped.jpg/500px-Aztec_Sun_Stone_Replica_cropped.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Aztec_Sun_Stone_Replica_cropped.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Aztec_Sun_Stone_Replica_cropped.jpg",
+      "caption": "Aztec sun stone replica",
+      "source": "Wikimedia Commons",
+      "artist": "en:User:Ancheta Wis",
+      "date": "2005-12-01",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1280",
+      "height": "1236"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Tortilla art",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7827296",
+      "url": "https://www.wikidata.org/wiki/Q7827296",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:11.579Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Tortilla art",
+      "url": "https://en.wikipedia.org/wiki/Tortilla_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:11.579Z"
+      }
+    }
+  ],
   "wikidata": "Q7827296",
   "wikipedia": "Tortilla art",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:09:11.579Z"
 }

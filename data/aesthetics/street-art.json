@@ -19,7 +19,33 @@
   "summary": "Street art is visual art created in public locations for public visibility.",
   "description": "Street art is visual art created in public locations for public visibility. It has been associated with the terms \"independent art\", \"post-graffiti\", \"neo-graffiti\" and guerrilla art.\n\nStreet art has evolved from the early forms of defiant graffiti into a more commercial form of art, as one of the main differences now lies in the messaging. Street art is often meant to provoke thought rather than rejection among the general audience by making its purpose more evident than that of graffiti. The issue of permission has also come to the heart of street art, as graffiti is usually done illegally, whereas street art can nowadays be the product of an agreement or even sometimes a commission. However, it remains different from traditional art exposed in public spaces by its explicit use of said space in the conception phase.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#4d4a4c",
+      "name": "graphite"
+    },
+    {
+      "hex": "#928789",
+      "name": "taupe"
+    },
+    {
+      "hex": "#726c6f",
+      "name": "slate"
+    },
+    {
+      "hex": "#acadb1",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#322b2d",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#f2f5f5",
+      "name": "paper white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,147 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Berlinermauer.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Berlinermauer.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Berlinermauer.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Berlinermauer.jpg",
+      "caption": "This image of the Berlin Wall was taken in 1986 by Thierry Noir at Bethaniendamm in Berlin-Kreuzberg.",
+      "source": "Wikimedia Commons",
+      "artist": "Noir",
+      "date": "1986",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1200",
+      "height": "913"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Graffiti_Per%C3%BA.jpg/1280px-Graffiti_Per%C3%BA.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Graffiti_Per%C3%BA.jpg/500px-Graffiti_Per%C3%BA.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/be/Graffiti_Per%C3%BA.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Graffiti_Per%C3%BA.jpg",
+      "caption": "Graffiti en la Calle Hipólito Unanue, Miraflores, Lima, Perú.",
+      "source": "Wikimedia Commons",
+      "artist": "Santiagostucchi",
+      "date": "2014-06-09 11:54:03",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Os_G%C3%AAmeos.jpg/1280px-Os_G%C3%AAmeos.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Os_G%C3%AAmeos.jpg/500px-Os_G%C3%AAmeos.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/87/Os_G%C3%AAmeos.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Os_G%C3%AAmeos.jpg",
+      "caption": "mural in Lisboa portugal",
+      "source": "Wikimedia Commons",
+      "artist": "Erdalito.",
+      "date": "2011-07-19",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/2007_011_CES_Schelling_Monsters.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4b/2007_011_CES_Schelling_Monsters.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4b/2007_011_CES_Schelling_Monsters.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:2007_011_CES_Schelling_Monsters.jpg",
+      "caption": "\"Painting in the Global tradition\" by Ces53",
+      "source": "Wikimedia Commons",
+      "artist": "Juanbobadilla",
+      "date": "2007-09-25",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1024",
+      "height": "768"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Sesimbra_Grafitti_Gemeniano_Cruz.jpg/1280px-Sesimbra_Grafitti_Gemeniano_Cruz.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Sesimbra_Grafitti_Gemeniano_Cruz.jpg/500px-Sesimbra_Grafitti_Gemeniano_Cruz.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/35/Sesimbra_Grafitti_Gemeniano_Cruz.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sesimbra_Grafitti_Gemeniano_Cruz.jpg",
+      "caption": "Sesimbra & Portinho 2013",
+      "source": "Wikimedia Commons",
+      "artist": "Freebird from Madrid, Spain",
+      "date": "2013-08-25 17:39",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "1928"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/P1060341komp.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6d/P1060341komp.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6d/P1060341komp.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:P1060341komp.JPG",
+      "caption": "Graphic-Domain in Heidelberg by Nicola Pragera",
+      "source": "Wikimedia Commons",
+      "artist": "Catanja",
+      "date": "2015-03-23 15:04:09",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1024",
+      "height": "768"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/BLU_prag.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/dd/BLU_prag.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dd/BLU_prag.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BLU_prag.jpg",
+      "caption": "Mural by BLU - \"Gaza Strip\" in Praha",
+      "source": "Wikimedia Commons",
+      "artist": "Adam Mittag",
+      "date": "2012-05-16",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1200",
+      "height": "800"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/015_Urban_art_in_Katowice%2C_Poland.jpg/1280px-015_Urban_art_in_Katowice%2C_Poland.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/015_Urban_art_in_Katowice%2C_Poland.jpg/500px-015_Urban_art_in_Katowice%2C_Poland.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c6/015_Urban_art_in_Katowice%2C_Poland.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:015_Urban_art_in_Katowice,_Poland.jpg",
+      "caption": "Katowice , Poland. Street art by Belgian artist ROA at Mariacka Tylna street.",
+      "source": "Wikimedia Commons",
+      "artist": "Marek Ślusarczyk ( Tupungato ) Photo gallery",
+      "date": "2013-09-01",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Modern_Prizren.jpg/1280px-Modern_Prizren.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Modern_Prizren.jpg/500px-Modern_Prizren.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Modern_Prizren.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Modern_Prizren.jpg",
+      "caption": "The old city of Prizren.",
+      "source": "Wikimedia Commons",
+      "artist": "Irvi Hyka",
+      "date": "2013-01-09 21:51:19",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Propagating_machine_NEVERCREW.jpg/1280px-Propagating_machine_NEVERCREW.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Propagating_machine_NEVERCREW.jpg/500px-Propagating_machine_NEVERCREW.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Propagating_machine_NEVERCREW.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Propagating_machine_NEVERCREW.jpg",
+      "caption": "Mural \"Propagating machine\" (2017) by artists NEVERCREW in Ulmenweg 40, 68167 Mannheim, Germany",
+      "source": "Wikimedia Commons",
+      "artist": "Mural: Nevercrew Photo: Hubert Berberich ( HubiB )",
+      "date": "2017-09-21",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1920"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Street art",
@@ -64,7 +230,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q17516",
+      "url": "https://www.wikidata.org/wiki/Q17516",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:12.811Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Street art",
+      "url": "https://en.wikipedia.org/wiki/Street_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:12.811Z"
+      }
+    }
+  ],
   "wikidata": "Q17516",
   "wikipedia": "Street art",
   "popularity": 35,
@@ -72,5 +261,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:07:12.811Z"
 }

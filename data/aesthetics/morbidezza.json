@@ -17,7 +17,33 @@
   "summary": "Morbidezza is a Renaissance artistic concept that describes an naturalistic delicacy in flesh tones.",
   "description": "Morbidezza is a Renaissance artistic concept that describes an naturalistic delicacy in flesh tones. It can also describe pejoratively as being soft, weak, and effeminate. The term was coined by the Florentine philosopher Marsilio Ficino.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#443e3e",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#1d1917",
+      "name": "black"
+    },
+    {
+      "hex": "#685e54",
+      "name": "umber"
+    },
+    {
+      "hex": "#908270",
+      "name": "taupe"
+    },
+    {
+      "hex": "#bea783",
+      "name": "sand"
+    },
+    {
+      "hex": "#d6c9ae",
+      "name": "beige"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Oberhausen_-_Gasometer_-_Der_sch%C3%B6ne_Schein_-_Primavera_%28Botticelli%29_01_ies.jpg/1280px-Oberhausen_-_Gasometer_-_Der_sch%C3%B6ne_Schein_-_Primavera_%28Botticelli%29_01_ies.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Oberhausen_-_Gasometer_-_Der_sch%C3%B6ne_Schein_-_Primavera_%28Botticelli%29_01_ies.jpg/500px-Oberhausen_-_Gasometer_-_Der_sch%C3%B6ne_Schein_-_Primavera_%28Botticelli%29_01_ies.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/32/Oberhausen_-_Gasometer_-_Der_sch%C3%B6ne_Schein_-_Primavera_%28Botticelli%29_01_ies.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Oberhausen_-_Gasometer_-_Der_sch%C3%B6ne_Schein_-_Primavera_(Botticelli)_01_ies.jpg",
+      "caption": "Oberhausen - Gasometer - Der schöne Schein - Primavera (Botticelli) 01 ies",
+      "source": "Wikimedia Commons",
+      "artist": "Frank Vincentz",
+      "date": "2015-10-31 14:24:12",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Morbidezza",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q26766742",
+      "url": "https://www.wikidata.org/wiki/Q26766742",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:30.152Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Morbidezza",
+      "url": "https://en.wikipedia.org/wiki/Morbidezza",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:30.152Z"
+      }
+    }
+  ],
   "wikidata": "Q26766742",
   "wikipedia": "Morbidezza",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:55:30.152Z"
 }

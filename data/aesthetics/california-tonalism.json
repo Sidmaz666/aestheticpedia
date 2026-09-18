@@ -17,7 +17,29 @@
   "summary": "California Tonalism was art movement that existed in California from circa 1890 to 1920.",
   "description": "California Tonalism was art movement that existed in California from circa 1890 to 1920.   Tonalist are usually intimate works, painted with a limited palette.  Tonalist paintings are softly expressive, suggestive rather than detailed, often depicting the landscape at twilight or evening, when there is an absence of contrast.  Tonalist paintings could also be figurative, but in them, the figure was usually out of doors or in an interior in a low-key setting with little detail.\n\nTonalism had its origins in the works of the French Barbizon school and in the works of American painters who were influenced by them. California Tonalism was born when the emphasis in California landscape painting passed from the grand landscapes of works like those of Thomas Hill and William Keith's early career, to more intimate views of a domesticated landscape.  At the same time, the parallel Pictorialist Photography movement was born with gauzy landscapes and figurative photographs that bore a strong resemblance to Tonalist Paintings.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#262021",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#514633",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#766a50",
+      "name": "bronze"
+    },
+    {
+      "hex": "#273c41",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#542517",
+      "name": "walnut brown 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +61,34 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Granville_Redmond_-_The_Passing_Storm.jpg/1280px-Granville_Redmond_-_The_Passing_Storm.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Granville_Redmond_-_The_Passing_Storm.jpg/500px-Granville_Redmond_-_The_Passing_Storm.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/11/Granville_Redmond_-_The_Passing_Storm.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Granville_Redmond_-_The_Passing_Storm.jpg",
+      "caption": "The Passing Storm",
+      "source": "Wikimedia Commons",
+      "artist": "Granville Redmond",
+      "date": "1912 date QS:P571,+1912-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1022"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Charles_Rollo_Peters_%281862-1928%29_Houseboats_in_Belvedere.jpg/1280px-Charles_Rollo_Peters_%281862-1928%29_Houseboats_in_Belvedere.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Charles_Rollo_Peters_%281862-1928%29_Houseboats_in_Belvedere.jpg/500px-Charles_Rollo_Peters_%281862-1928%29_Houseboats_in_Belvedere.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Charles_Rollo_Peters_%281862-1928%29_Houseboats_in_Belvedere.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Charles_Rollo_Peters_(1862-1928)_Houseboats_in_Belvedere.jpg",
+      "caption": "Charles Rollo Peters (1862-1928) Hausboote in Belvedere",
+      "source": "Wikimedia Commons",
+      "artist": "Charles Rollo Peters (1862-1928)",
+      "date": "vor 1916",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "955"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — California Tonalism",
@@ -62,7 +111,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5021142",
+      "url": "https://www.wikidata.org/wiki/Q5021142",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:22.799Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — California Tonalism",
+      "url": "https://en.wikipedia.org/wiki/California_Tonalism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:22.799Z"
+      }
+    }
+  ],
   "wikidata": "Q5021142",
   "wikipedia": "California Tonalism",
   "popularity": 35,
@@ -70,5 +142,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:39:22.799Z"
 }

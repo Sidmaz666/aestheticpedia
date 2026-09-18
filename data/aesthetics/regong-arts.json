@@ -17,7 +17,33 @@
   "summary": "The Regong arts (or Rebgong arts) are the popular arts on the subject of Tibetan Buddhism.",
   "description": "The Regong arts (or Rebgong arts) are the popular arts on the subject of Tibetan Buddhism.  They are painting, sculpture, engraving, architecture, and embroidery. They are associated with communities in Tongren County and along the river Rongwo which crosses the current Huangnan Tibetan Autonomous Prefecture in the province of Qinghai in China.\n\nRegong arts were included in 2009 on the representative list of intangible cultural heritage.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b07f50",
+      "name": "copper"
+    },
+    {
+      "hex": "#703c1c",
+      "name": "sepia"
+    },
+    {
+      "hex": "#1a0a03",
+      "name": "black"
+    },
+    {
+      "hex": "#d4bb8f",
+      "name": "tan"
+    },
+    {
+      "hex": "#bc510f",
+      "name": "rust"
+    },
+    {
+      "hex": "#424d65",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Thangkas.Tongren.JPG/1280px-Thangkas.Tongren.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Thangkas.Tongren.JPG/500px-Thangkas.Tongren.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/96/Thangkas.Tongren.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Thangkas.Tongren.JPG",
+      "caption": "Thangkas (tibetan paintings on silk) painted by local monks in the Wutun Si monastery near Tongren, Qinghai , China",
+      "source": "Wikimedia Commons",
+      "artist": "Mario Biondi (writer)",
+      "date": "2006-07-11",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1280",
+      "height": "1258"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Lower_Wutun_Monastery.jpg/1280px-Lower_Wutun_Monastery.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Lower_Wutun_Monastery.jpg/500px-Lower_Wutun_Monastery.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Lower_Wutun_Monastery.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lower_Wutun_Monastery.jpg",
+      "caption": "Longwu Temple (Lower Wutun Monastery) Tongren, Qinghai, China",
+      "source": "Wikimedia Commons",
+      "artist": "Rosemania",
+      "date": "2007-08-25",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Regong arts",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2306483",
+      "url": "https://www.wikidata.org/wiki/Q2306483",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:14.882Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Regong arts",
+      "url": "https://en.wikipedia.org/wiki/Regong_arts",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:14.882Z"
+      }
+    }
+  ],
   "wikidata": "Q2306483",
   "wikipedia": "Regong arts",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:02:14.882Z"
 }

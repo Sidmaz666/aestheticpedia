@@ -19,7 +19,25 @@
   "summary": "Jutaku or kyosho jutaku (Japanese: 狭小住宅) is a Japanese architectural style focused on delivering original, \"micro-home\" designs on very small sites.",
   "description": "Jutaku or kyosho jutaku (Japanese: 狭小住宅) is a Japanese architectural style focused on delivering original, \"micro-home\" designs on very small sites.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5b341c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#735840",
+      "name": "umber"
+    },
+    {
+      "hex": "#878072",
+      "name": "taupe"
+    },
+    {
+      "hex": "#2a170b",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +59,20 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/500px-Himeji_model7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Himeji_model7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Himeji_model7.JPG",
+      "caption": "Himeji model7",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Jutaku",
@@ -64,7 +95,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q11571716",
+      "url": "https://www.wikidata.org/wiki/Q11571716",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:20.157Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Jutaku",
+      "url": "https://en.wikipedia.org/wiki/Jutaku",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:20.157Z"
+      }
+    }
+  ],
   "wikidata": "Q11571716",
   "wikipedia": "Jutaku",
   "popularity": 35,
@@ -72,5 +126,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:51:20.157Z"
 }

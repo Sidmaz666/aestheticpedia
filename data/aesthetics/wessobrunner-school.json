@@ -39,7 +39,45 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Wieskirche_003.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Wieskirche_003.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Wieskirche_003.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Wieskirche_003.JPG",
+      "caption": "Wies church (Wieskirche), Germany",
+      "source": "Wikimedia Commons",
+      "artist": "Mattana",
+      "date": "2007-12-17",
+      "license": "Public domain",
+      "width": "1200",
+      "height": "900"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Steinhausen_Kapitell-1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Steinhausen_Kapitell-1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Steinhausen_Kapitell-1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Steinhausen_Kapitell-1.jpg",
+      "caption": "Steinhausen Kapitell-1",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "660",
+      "height": "495"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Memmingen_kreuzherrnkirche_innen.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Memmingen_kreuzherrnkirche_innen.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Memmingen_kreuzherrnkirche_innen.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Memmingen_kreuzherrnkirche_innen.jpg",
+      "caption": "Memmingen kreuzherrnkirche innen",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "607",
+      "height": "1024"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Wessobrunner School",
@@ -62,7 +100,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q461365",
+      "url": "https://www.wikidata.org/wiki/Q461365",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:19.480Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Wessobrunner School",
+      "url": "https://en.wikipedia.org/wiki/Wessobrunner_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:19.480Z"
+      }
+    }
+  ],
   "wikidata": "Q461365",
   "wikipedia": "Wessobrunner School",
   "popularity": 35,
@@ -70,5 +131,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:11:19.480Z"
 }

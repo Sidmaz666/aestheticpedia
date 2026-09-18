@@ -39,7 +39,36 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/9f08b895-4960-4bc6-5871-dc9bfab4c655/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/9f08b895-4960-4bc6-5871-dc9bfab4c655/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/9f08b895-4960-4bc6-5871-dc9bfab4c655/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/49195",
+      "caption": "Maharana Bhim Singh in Procession, c. 1820",
+      "source": "Art Institute of Chicago",
+      "artist": "India",
+      "date": "c. 1820",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1130"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/d1a7ad99-47d1-0a9b-5aed-2ccb0ca74e66/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/d1a7ad99-47d1-0a9b-5aed-2ccb0ca74e66/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/d1a7ad99-47d1-0a9b-5aed-2ccb0ca74e66/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/151359",
+      "caption": "Figure of a Seated Chieftain, 100 BCE–250 CE",
+      "source": "Art Institute of Chicago",
+      "artist": "Nayarit",
+      "date": "100 BCE–250 CE",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1124"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Five dots tattoo",
@@ -62,7 +91,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5456211",
+      "url": "https://www.wikidata.org/wiki/Q5456211",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:21.236Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Five dots tattoo",
+      "url": "https://en.wikipedia.org/wiki/Five_dots_tattoo",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:21.236Z"
+      }
+    }
+  ],
   "wikidata": "Q5456211",
   "wikipedia": "Five dots tattoo",
   "popularity": 35,
@@ -70,5 +122,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:45:21.236Z"
 }

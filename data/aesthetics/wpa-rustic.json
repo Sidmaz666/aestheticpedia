@@ -20,7 +20,33 @@
   "summary": "WPA Rustic architecture is an architectural style from the era of the U.S.",
   "description": "WPA Rustic architecture is an architectural style from the era of the U.S. New Deal Works Project Administration. The WPA provided funding for architects to create a variety of buildings, including amphitheaters and lodges. WPA architecture is akin to National Park Service rustic architecture.\n\nWPA Rustic, as opposed to National Park Service Rustic, as utilized in most national parks, involves more demarcation between the building and the landscape.\n\nThe term has been used by the National Park Service's National Register of Historic Places program to describe many buildings and structures, including American Legion meeting halls and other buildings built by the WPA in the 1930s.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#424427",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#595241",
+      "name": "umber"
+    },
+    {
+      "hex": "#918379",
+      "name": "taupe"
+    },
+    {
+      "hex": "#716a5d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#c9d3da",
+      "name": "bone white"
+    },
+    {
+      "hex": "#acb2b7",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,63 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Riggs-Hamilton_American_Legion_Post_No._20.JPG/1280px-Riggs-Hamilton_American_Legion_Post_No._20.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Riggs-Hamilton_American_Legion_Post_No._20.JPG/500px-Riggs-Hamilton_American_Legion_Post_No._20.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Riggs-Hamilton_American_Legion_Post_No._20.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Riggs-Hamilton_American_Legion_Post_No._20.JPG",
+      "caption": "Riggs-Hamilton American Legion Post No. 20",
+      "source": "Wikimedia Commons",
+      "artist": "Valis55",
+      "date": "2015-04-18 14:59:02",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "848"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Lake_Bronson_SP_observation_tower.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/78/Lake_Bronson_SP_observation_tower.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/78/Lake_Bronson_SP_observation_tower.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Bronson_SP_observation_tower.JPG",
+      "caption": "Water/observation tower built by the Works Progress Administration, Lake Bronson State Park, Minnesota, USA",
+      "source": "Wikimedia Commons",
+      "artist": "McGhiever",
+      "date": "2012-07-14",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "600",
+      "height": "800"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Grand_Forks_County_WPA_Structures.jpg/1280px-Grand_Forks_County_WPA_Structures.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Grand_Forks_County_WPA_Structures.jpg/500px-Grand_Forks_County_WPA_Structures.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Grand_Forks_County_WPA_Structures.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Grand_Forks_County_WPA_Structures.jpg",
+      "caption": "Grand Forks County Fairgrounds Structures Grand Forks, North Dakota. Built by the WPA. Added to National Register of Historic Places on April 21, 2009.",
+      "source": "Wikimedia Commons",
+      "artist": "Glorioussandwich",
+      "date": "2009-10-06",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/American_Legion_Hut_2012-09-26_15-03-51.jpg/1280px-American_Legion_Hut_2012-09-26_15-03-51.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/American_Legion_Hut_2012-09-26_15-03-51.jpg/500px-American_Legion_Hut_2012-09-26_15-03-51.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0b/American_Legion_Hut_2012-09-26_15-03-51.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:American_Legion_Hut_2012-09-26_15-03-51.jpg",
+      "caption": "American Legion Hut",
+      "source": "Wikimedia Commons",
+      "artist": "JDessary",
+      "date": "Taken on 26 September 2012",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — WPA Rustic",
@@ -65,7 +147,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7954160",
+      "url": "https://www.wikidata.org/wiki/Q7954160",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:03.380Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — WPA Rustic",
+      "url": "https://en.wikipedia.org/wiki/WPA_Rustic",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:03.380Z"
+      }
+    }
+  ],
   "wikidata": "Q7954160",
   "wikipedia": "WPA Rustic",
   "popularity": 35,
@@ -73,5 +178,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:12:03.380Z"
 }

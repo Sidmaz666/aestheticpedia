@@ -17,7 +17,33 @@
   "summary": "The Genoese School was a regional movement in Italian painting, initiated in the 17th century.",
   "description": "The Genoese School was a regional movement in Italian painting, initiated in the 17th century. The Republic of Genoa was a rich oligarchic republic, where the authorities were powerful bankers. Unlike Florence, Ferrara, Rome, Rimini, and Venice, Genoa was not developed into a significant arts center during the Renaissance. An original school of painting arose in the 1600s, developing Flemish contacts after visits by Rubens and van Dyck. The best painter was Bernardo Strozzi, called il Cappuccino or il Prete Genovese, of great importance also for Venice. Giovanni Benedetto Castiglione, called il Grechetto, took up a genre already made famous by Sinibaldo Scorza with paintings of animals and still lifes under Flemish and Venetian influence. Domenico Fiasella and Gioacchino Assereto employed a Caravaggesque style, while Valerio Castello was more eclectic. The decorators Domenico Piola and Gregorio de Ferrari worked in the churches and palaces of Genoa.\n\nIn the first half of the 18th century Alessandro Magnasco dominated painting with his strange personality, his nervous technique and his exaggerated chiaroscuro; his expressionistic distortions created a fantastic world reminiscent of Salvator Rosa, Marco Ricci, and Francesco Guardi.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bba68f",
+      "name": "khaki"
+    },
+    {
+      "hex": "#ccbba6",
+      "name": "beige"
+    },
+    {
+      "hex": "#d7d0c5",
+      "name": "bone white"
+    },
+    {
+      "hex": "#937761",
+      "name": "bronze"
+    },
+    {
+      "hex": "#9d8e7d",
+      "name": "stone"
+    },
+    {
+      "hex": "#7b5e4e",
+      "name": "bronze 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,33 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Luca_Cambiaso-Strada_Nuova-palazzo_Lercari_Parodi.jpg/1280px-Luca_Cambiaso-Strada_Nuova-palazzo_Lercari_Parodi.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Luca_Cambiaso-Strada_Nuova-palazzo_Lercari_Parodi.jpg/500px-Luca_Cambiaso-Strada_Nuova-palazzo_Lercari_Parodi.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Luca_Cambiaso-Strada_Nuova-palazzo_Lercari_Parodi.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Luca_Cambiaso-Strada_Nuova-palazzo_Lercari_Parodi.jpg",
+      "caption": "raffigurante la costruzione di Strada Nuova",
+      "source": "Wikimedia Commons",
+      "artist": "Luca Cambiaso",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "823"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Giovanni_Benedetto_Castiglione_-_Circe_-_WGA4544.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Giovanni_Benedetto_Castiglione_-_Circe_-_WGA4544.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Giovanni_Benedetto_Castiglione_-_Circe_-_WGA4544.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Giovanni_Benedetto_Castiglione_-_Circe_-_WGA4544.jpg",
+      "caption": "Circe",
+      "source": "Wikimedia Commons",
+      "artist": "Giovanni Benedetto Castiglione",
+      "date": "circa 1650 date QS:P571,+1650-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1030",
+      "height": "862"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Genoese School (painting)",
@@ -62,7 +114,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q12094730",
+      "url": "https://www.wikidata.org/wiki/Q12094730",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:25.653Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Genoese School (painting)",
+      "url": "https://en.wikipedia.org/wiki/Genoese_School_(painting)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:25.653Z"
+      }
+    }
+  ],
   "wikidata": "Q12094730",
   "wikipedia": "Genoese School (painting)",
   "popularity": 35,
@@ -70,5 +145,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:46:25.653Z"
 }

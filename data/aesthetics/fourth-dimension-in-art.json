@@ -17,7 +17,33 @@
   "summary": "New possibilities opened up by the concept of four-dimensional space (and difficulties involved in trying to visualize it) helped inspire many modern artists in the first half of the twentieth century.",
   "description": "New possibilities opened up by the concept of four-dimensional space (and difficulties involved in trying to visualize it) helped inspire many modern artists in the first half of the twentieth century. Early Cubists, Surrealists, Futurists, and abstract artists took ideas from higher-dimensional mathematics and used them to radically advance their work.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5d5b55",
+      "name": "umber"
+    },
+    {
+      "hex": "#424242",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#757167",
+      "name": "slate"
+    },
+    {
+      "hex": "#23252e",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#8b867a",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a09c90",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/68/Picasso_Portrait_of_Daniel-Henry_Kahnweiler_1910.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/en/6/68/Picasso_Portrait_of_Daniel-Henry_Kahnweiler_1910.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/en/6/68/Picasso_Portrait_of_Daniel-Henry_Kahnweiler_1910.jpg",
+      "pageUrl": "https://en.wikipedia.org/wiki/File:Picasso_Portrait_of_Daniel-Henry_Kahnweiler_1910.jpg",
+      "caption": "Pablo Picasso, 1910, oil on canvas, 100.4 x 72.4 cm (39 9/16 × 28 9/16 in.), Art Institute of Chicago",
+      "source": "Wikimedia Commons",
+      "artist": "Pablo Picasso",
+      "date": "Autumn 1910",
+      "license": "PD-US",
+      "width": "551",
+      "height": "768"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Albert_Gleizes%2C_1913%2C_Portrait_de_l%E2%80%99%C3%A9diteur_Eug%C3%A8ne_Figui%C3%A8re_%28The_Publisher_Eugene_Figuiere%29%2C_oil_on_canvas%2C_143.5_x_101.5_cm%2C_Mus%C3%A9e_des_Beaux-Arts_de_Lyon.jpg/1280px-thumbnail.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Albert_Gleizes%2C_1913%2C_Portrait_de_l%E2%80%99%C3%A9diteur_Eug%C3%A8ne_Figui%C3%A8re_%28The_Publisher_Eugene_Figuiere%29%2C_oil_on_canvas%2C_143.5_x_101.5_cm%2C_Mus%C3%A9e_des_Beaux-Arts_de_Lyon.jpg/500px-thumbnail.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Albert_Gleizes%2C_1913%2C_Portrait_de_l%E2%80%99%C3%A9diteur_Eug%C3%A8ne_Figui%C3%A8re_%28The_Publisher_Eugene_Figuiere%29%2C_oil_on_canvas%2C_143.5_x_101.5_cm%2C_Mus%C3%A9e_des_Beaux-Arts_de_Lyon.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Albert_Gleizes,_1913,_Portrait_de_l%E2%80%99%C3%A9diteur_Eug%C3%A8ne_Figui%C3%A8re_(The_Publisher_Eugene_Figuiere),_oil_on_canvas,_143.5_x_101.5_cm,_Mus%C3%A9e_des_Beaux-Arts_de_Lyon.jpg",
+      "caption": "Portrait de l’éditeur Eugène Figuière (The Publisher Eugène Figuière)",
+      "source": "Wikimedia Commons",
+      "artist": "w:Albert Gleizes",
+      "date": "1913 date QS:P571,+1913-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1798"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Fourth dimension in art",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3413630",
+      "url": "https://www.wikidata.org/wiki/Q3413630",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:08.911Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Fourth dimension in art",
+      "url": "https://en.wikipedia.org/wiki/Fourth_dimension_in_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:08.911Z"
+      }
+    }
+  ],
   "wikidata": "Q3413630",
   "wikipedia": "Fourth dimension in art",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:46:08.911Z"
 }

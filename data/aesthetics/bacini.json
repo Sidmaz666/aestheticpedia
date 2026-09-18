@@ -17,7 +17,33 @@
   "summary": "In architecture, bacini (plural, singular Italian: bacino, IPA: [baˈtʃiːno], \"bowl\") are ceramic bowls that were used for decoration in the medieval Europe.",
   "description": "In architecture, bacini (plural, singular Italian: bacino, IPA: [baˈtʃiːno], \"bowl\") are ceramic bowls that were used for decoration in the medieval Europe. The bowls were embedded into the external walls of (mostly religious) buildings and are thus also known as immured vessels. Bacini represent one of the traits of the Pisan Romanesque style. They can also be found in the Byzantine and Gothic buildings.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#767571",
+      "name": "slate"
+    },
+    {
+      "hex": "#92989a",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#5d5548",
+      "name": "umber"
+    },
+    {
+      "hex": "#2f2c25",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#bcb586",
+      "name": "sand"
+    },
+    {
+      "hex": "#1e3366",
+      "name": "prussian blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "ornament"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Pisa%2C_basilica_di_San_Pietro_Apostolo_%2802%29.jpg/1280px-Pisa%2C_basilica_di_San_Pietro_Apostolo_%2802%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Pisa%2C_basilica_di_San_Pietro_Apostolo_%2802%29.jpg/500px-Pisa%2C_basilica_di_San_Pietro_Apostolo_%2802%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/18/Pisa%2C_basilica_di_San_Pietro_Apostolo_%2802%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pisa,_basilica_di_San_Pietro_Apostolo_(02).jpg",
+      "caption": "Pisa, basilica di San Pietro Apostolo",
+      "source": "Wikimedia Commons",
+      "artist": "Gianni Careddu",
+      "date": "2016-06-22 17:58:47",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Bacino_ceramico_da_facciata_del_duomo_di_s._miniato%2C_nord-africa%2C_1190_ca._14.JPG/1280px-Bacino_ceramico_da_facciata_del_duomo_di_s._miniato%2C_nord-africa%2C_1190_ca._14.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Bacino_ceramico_da_facciata_del_duomo_di_s._miniato%2C_nord-africa%2C_1190_ca._14.JPG/500px-Bacino_ceramico_da_facciata_del_duomo_di_s._miniato%2C_nord-africa%2C_1190_ca._14.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Bacino_ceramico_da_facciata_del_duomo_di_s._miniato%2C_nord-africa%2C_1190_ca._14.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bacino_ceramico_da_facciata_del_duomo_di_s._miniato,_nord-africa,_1190_ca._14.JPG",
+      "caption": "Museo diocesano (San Miniato)",
+      "source": "Wikimedia Commons",
+      "artist": "Sailko",
+      "date": "2013-10-20 11:11:48",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "1239"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Bacini",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q48833674",
+      "url": "https://www.wikidata.org/wiki/Q48833674",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:11.364Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Bacini",
+      "url": "https://en.wikipedia.org/wiki/Bacini",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:11.364Z"
+      }
+    }
+  ],
   "wikidata": "Q48833674",
   "wikipedia": "Bacini",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:37:11.364Z"
 }

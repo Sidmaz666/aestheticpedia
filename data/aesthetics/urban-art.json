@@ -17,7 +17,33 @@
   "summary": "Urban art combines street art, guerrilla art, and graffiti and is often used to summarize all visual art forms arising in urban areas, often inspired by urban architecture and contemporary urban lifestyles.",
   "description": "Urban art combines street art, guerrilla art, and graffiti and is often used to summarize all visual art forms arising in urban areas, often inspired by urban architecture and contemporary urban lifestyles.\n\nBecause the urban arts are characterized by existing in the public space, they are often viewed as vandalism and destruction of private property.\n\nAlthough urban art started at the neighborhood level, where many people of different cultures live together, it is an international art form with an unlimited number of uses nowadays. Many urban artists travel from city to city and have social contacts all over the world. The notion of 'Urban Art' developed from street art which is primarily concerned with graffiti culture. Urban art represents a broader cross-section of artists that, in addition to covering traditional street artists working in formal gallery spaces, also cover artists using more traditional media but with a subject matter that deals with contemporary urban culture and political issues. In Paris, Le Mur is a public museum of urban art.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#060302",
+      "name": "black"
+    },
+    {
+      "hex": "#db6f19",
+      "name": "ochre"
+    },
+    {
+      "hex": "#72380d",
+      "name": "sepia"
+    },
+    {
+      "hex": "#d0cabf",
+      "name": "silver"
+    },
+    {
+      "hex": "#918066",
+      "name": "moss"
+    },
+    {
+      "hex": "#74acde",
+      "name": "sky blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Graffiti_de_Fasim%2C_en_Alcoy..jpg/1280px-Graffiti_de_Fasim%2C_en_Alcoy..jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Graffiti_de_Fasim%2C_en_Alcoy..jpg/500px-Graffiti_de_Fasim%2C_en_Alcoy..jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Graffiti_de_Fasim%2C_en_Alcoy..jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Graffiti_de_Fasim,_en_Alcoy..jpg",
+      "caption": "Graffiti mural made within the framework of the Urban Skills Festival in the city of Alcoy in 2018. Automatic drawing experiment in mural painting.",
+      "source": "Wikimedia Commons",
+      "artist": "Germán Bel",
+      "date": "2018-10-09",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1280"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Urban art",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q15852218",
+      "url": "https://www.wikidata.org/wiki/Q15852218",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:12.217Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Urban art",
+      "url": "https://en.wikipedia.org/wiki/Urban_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:12.217Z"
+      }
+    }
+  ],
   "wikidata": "Q15852218",
   "wikipedia": "Urban art",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:10:12.217Z"
 }

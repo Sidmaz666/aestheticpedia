@@ -17,7 +17,33 @@
   "summary": "Unisex is an adjective indicating something is not sex-specific, i.e.",
   "description": "Unisex is an adjective indicating something is not sex-specific, i.e. is suitable for any type of sex. The term can also mean sex blindness or gender neutral.\n\nThe term 'unisex' was coined in the 1960s and was used fairly informally. The combining prefix uni- is from Latin unus, meaning one or single. However, 'unisex' seems to have been influenced by words such as united and universal, in which uni- takes the related sense shared. Unisex then means shared by sexes.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f0f0f0",
+      "name": "paper white"
+    },
+    {
+      "hex": "#0c140d",
+      "name": "black"
+    },
+    {
+      "hex": "#786e61",
+      "name": "bronze"
+    },
+    {
+      "hex": "#9a9080",
+      "name": "stone"
+    },
+    {
+      "hex": "#06416b",
+      "name": "prussian blue"
+    },
+    {
+      "hex": "#464134",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "fashion style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/David_Bowie_Kingman_Hall.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/65/David_Bowie_Kingman_Hall.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/65/David_Bowie_Kingman_Hall.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:David_Bowie_Kingman_Hall.jpg",
+      "caption": "Mural in Kingman Hall, Berkeley Student Cooperative",
+      "source": "Wikimedia Commons",
+      "artist": "John Storey",
+      "date": "2016-05-12 10:23:34",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "720",
+      "height": "560"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Unisex",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q76976",
+      "url": "https://www.wikidata.org/wiki/Q76976",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:11.305Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Unisex",
+      "url": "https://en.wikipedia.org/wiki/Unisex",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:11.305Z"
+      }
+    }
+  ],
   "wikidata": "Q76976",
   "wikipedia": "Unisex",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:10:11.305Z"
 }

@@ -17,7 +17,33 @@
   "summary": "A gutter punk is a homeless or transient individual who displays a variety of specific lifestyle traits and characteristics that often, but not always, are associated with the punk subculture.",
   "description": "A gutter punk is a homeless or transient individual who displays a variety of specific lifestyle traits and characteristics that often, but not always, are associated with the punk subculture. Attributes may include unkempt dreadlocks, nose rings, Mohawk hairstyles, and tattooed faces. Gutter punks are sometimes referred to as \"crusties\", \"crust punks\", \"traveler kids\", \"traveling punks\", \"punk hobos”, or simply \"travelers\", among other terms. Some self-identified gutter punks may distinguish themselves from \"crust punks\" and \"travellers\", and vice versa; however, there is considerable overlap between the groups, and the terms are often used interchangeably.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#120b09",
+      "name": "black"
+    },
+    {
+      "hex": "#39271f",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#5d4b3e",
+      "name": "umber"
+    },
+    {
+      "hex": "#836f5f",
+      "name": "bronze"
+    },
+    {
+      "hex": "#c58a70",
+      "name": "camel"
+    },
+    {
+      "hex": "#cfb7a1",
+      "name": "tan"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/GutterPunksDecaturStreet2019.jpg/1280px-GutterPunksDecaturStreet2019.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/GutterPunksDecaturStreet2019.jpg/500px-GutterPunksDecaturStreet2019.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/00/GutterPunksDecaturStreet2019.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:GutterPunksDecaturStreet2019.jpg",
+      "caption": "A group of gutter punks in New Orleans, Louisiana, in December 2019",
+      "source": "Wikimedia Commons",
+      "artist": "JPetroviak",
+      "date": "2019-12-20",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gutter punk",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3410857",
+      "url": "https://www.wikidata.org/wiki/Q3410857",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:07.784Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gutter punk",
+      "url": "https://en.wikipedia.org/wiki/Gutter_punk",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:07.784Z"
+      }
+    }
+  ],
   "wikidata": "Q3410857",
   "wikipedia": "Gutter punk",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:48:07.784Z"
 }

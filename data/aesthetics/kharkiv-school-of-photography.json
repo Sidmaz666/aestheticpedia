@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Ukraine, Kharkiv",
+  "geography": "Ukraine, Kharkiv",
   "periodStart": "1960s",
   "periodEnd": "",
   "startYear": 1960,
@@ -17,7 +17,21 @@
   "summary": "The Kharkiv School of Photography (KSOP) (Ukrainian: Харківська Школа Фотографії) is a Ukrainian artistic photography movement.",
   "description": "The Kharkiv School of Photography (KSOP) (Ukrainian: Харківська Школа Фотографії) is a Ukrainian artistic photography movement. It was created in opposition to the Soviet socialist realism art style, which reigned from 1934 until the 1980s. KSOP started to form in the 1960s when artistic photography revived in Kharkiv during the period of the Khrushchev Thaw. KSOP's official formation as a non-conformist underground movement was denoted by the establishment of a group by Kharkiv photographers named the Vremia Group 1971; its foundation is considered the sign of the revival of modernist art in Kharkiv.\n\nThe Vremia Group built upon avant-garde traditions and brought socialist realism dogmas into play. They are known for extreme experimentations with photography techniques and methods and are credited for inventing and developing a number of them. One of their signature aesthetic inventions is the \"blow theory\" (or \"the theory of stroke\"), which uses a shocking element to make a strong photographic statement. Another advance was the concept of \"bad photography,\" which critics called the first example of conceptualism of Soviet photography. Some KSOP works are considered one-of-a-kind experiments in photography in the Soviet Union as well as the start of an aesthetic revolution in Ukrainian photography.\n\nThis first KSOP was represented by the Vremia Group founded in 1971 by Jury Rupin and Evgeniy Pavlov within the Kharkiv Regional Photo Club and later diverged from it. The group's other members were: Boris Mikhailov, Oleg Maliovany, Gennadiy Tubalev, Oleksandr Suprun, Oleksandr Sitnichenko, and Anatoliy Makiyenko. In 1975, the Vremia Group members joined the board of the Kharkiv Regional Photo Club and in 1975 or 1976, due to their radical artistic activity, the Photo Club was shut down. Nevertheless, the group continued unofficially, and the members kept in touch.\n\nLater, the artists of the next generation joined the movement. The Gosprom Group (initially called Kontakty Group: Misha Pedan, Sergey Bratkov, Volodymyr Starko, Igor Manko, Guennadi Maslov, Leonid Pesin, Kostiantyn Melnyk, and Boris Redko) worked on documentary photography (\"straightphotography,\" or candid photos). Other artists included Viktor Kochetov, Roman Pyatkovka, Sergiy Solonsky, Andriy Avdeyenko, Igor Chursin, Igor Karpenko, and others.\n\nThe latest generation of KSOP includes the Shilo Grou",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#cacac8",
+      "name": "silver"
+    },
+    {
+      "hex": "#9f9f96",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#808078",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +53,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Mikhailov_Exhibition_Sprengel_Museum_Hannover.JPG/1280px-Mikhailov_Exhibition_Sprengel_Museum_Hannover.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Mikhailov_Exhibition_Sprengel_Museum_Hannover.JPG/500px-Mikhailov_Exhibition_Sprengel_Museum_Hannover.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Mikhailov_Exhibition_Sprengel_Museum_Hannover.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mikhailov_Exhibition_Sprengel_Museum_Hannover.JPG",
+      "caption": "Exhibition of the works of Boris Mikhailov at the Sprengel Museum in Hannover, Germany.",
+      "source": "Wikimedia Commons",
+      "artist": "Sprengel Museum Hannover",
+      "date": "2012-02-25 07:30:02",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Kharkiv School of Photography",
@@ -62,7 +91,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q65209040",
+      "url": "https://www.wikidata.org/wiki/Q65209040",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:04.226Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Kharkiv School of Photography",
+      "url": "https://en.wikipedia.org/wiki/Kharkiv_School_of_Photography",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:04.226Z"
+      }
+    }
+  ],
   "wikidata": "Q65209040",
   "wikipedia": "Kharkiv School of Photography",
   "popularity": 35,
@@ -70,5 +122,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.659Z"
 }

@@ -24,7 +24,33 @@
   "summary": "Chashitsu (茶室, 'tea room') in Japanese tradition is an architectural space designed to be used for tea ceremony (chanoyu) gatherings.",
   "description": "Chashitsu (茶室, 'tea room') in Japanese tradition is an architectural space designed to be used for tea ceremony (chanoyu) gatherings.\n\nThe architectural style that developed for chashitsu is referred to as the sukiya style (sukiya-zukuri), and the term sukiya (数奇屋) may be used as a synonym for chashitsu. Related Japanese terms are chaseki (茶席), broadly meaning \"place for tea\", and implying any sort of space where people are seated to participate in tea ceremony, and chabana, \"tea flowers\", the style of flower arrangement associated with the tea ceremony.\n\nTypical features of chashitsu are shōji windows and sliding doors made of wooden lattice covered in a translucent Japanese paper; tatami mat floors; a tokonoma alcove; and simple, subdued colours and style. The most typical floor size of a chashitsu is 4.5 tatami mats (7.4 m2; 80 sq ft).",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#635a4d",
+      "name": "umber"
+    },
+    {
+      "hex": "#40392f",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#7d7567",
+      "name": "taupe"
+    },
+    {
+      "hex": "#1c110e",
+      "name": "black"
+    },
+    {
+      "hex": "#979280",
+      "name": "stone"
+    },
+    {
+      "hex": "#b3af9a",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -46,7 +72,147 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Joan_in_Urakuen%2C_Gomonsaki_Inuyama_Inuyama_City_2023.jpg/1280px-Joan_in_Urakuen%2C_Gomonsaki_Inuyama_Inuyama_City_2023.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Joan_in_Urakuen%2C_Gomonsaki_Inuyama_Inuyama_City_2023.jpg/500px-Joan_in_Urakuen%2C_Gomonsaki_Inuyama_Inuyama_City_2023.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Joan_in_Urakuen%2C_Gomonsaki_Inuyama_Inuyama_City_2023.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Joan_in_Urakuen,_Gomonsaki_Inuyama_Inuyama_City_2023.jpg",
+      "caption": "有楽苑にある如庵（愛知県犬山市大字犬山字御門先、2023年（令和5年）3月）",
+      "source": "Wikimedia Commons",
+      "artist": "Tomio344456",
+      "date": "2023-03-28 11:05:31",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Tokyo_National_Museum_Rokusoan_P3303189.jpg/1280px-Tokyo_National_Museum_Rokusoan_P3303189.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Tokyo_National_Museum_Rokusoan_P3303189.jpg/500px-Tokyo_National_Museum_Rokusoan_P3303189.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Tokyo_National_Museum_Rokusoan_P3303189.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_Rokusoan_P3303189.jpg",
+      "caption": "Rokusoan teahouse in the garden of the Tokyo National Museum. See [1] for further info.",
+      "source": "Wikimedia Commons",
+      "artist": "Kestrel",
+      "date": "2018-03-30 15:41:45",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Shokin-tei.jpg/1280px-Shokin-tei.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Shokin-tei.jpg/500px-Shokin-tei.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/Shokin-tei.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Shokin-tei.jpg",
+      "caption": "Shokin-tei tea pavillion",
+      "source": "Wikimedia Commons",
+      "artist": "Raphael Azevedo Franca",
+      "date": "01/05/07",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "846"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/2002_kenrokuen_hanami_0123.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/71/2002_kenrokuen_hanami_0123.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/71/2002_kenrokuen_hanami_0123.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:2002_kenrokuen_hanami_0123.jpg",
+      "caption": "Japanese tea house in Kenroku-en Garden, Kanazawa, Japan.",
+      "source": "Wikimedia Commons",
+      "artist": "Chris Spackman",
+      "date": "2002-04-03",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/KoudaijiIhoan.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c4/KoudaijiIhoan.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c4/KoudaijiIhoan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:KoudaijiIhoan.jpg",
+      "caption": "Ihō-an at Kodai-ji in Kyoto, Japan",
+      "source": "Wikimedia Commons",
+      "artist": "PlusMinus",
+      "date": "2005-06-05",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1152",
+      "height": "864"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Rokuonji_Sekkatei.jpg/1280px-Rokuonji_Sekkatei.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Rokuonji_Sekkatei.jpg/500px-Rokuonji_Sekkatei.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Rokuonji_Sekkatei.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rokuonji_Sekkatei.jpg",
+      "caption": "Rokuonji Sekkatei (夕佳亭)",
+      "source": "Wikimedia Commons",
+      "artist": "PlusMinus",
+      "date": "2006-06-04",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Kourinin_Tea_House_%28Jikouin%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Kourinin_Tea_House_%28Jikouin%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Kourinin_Tea_House_%28Jikouin%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kourinin_Tea_House_(Jikouin).jpg",
+      "caption": "慈光院 の 茶室 「高林庵」。 (2003/06/22 Jikouin Temple, Yamato-Koriyama , Nara , JAPAN ) TeaHouse \"Kourin-an\"",
+      "source": "Wikimedia Commons",
+      "artist": "Hyougushi / Hideyuki KAMON from Takarazuka / 宝塚, Hyogo / 兵庫, JAPAN / 日本",
+      "date": "2003-06-22",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1024",
+      "height": "1536"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Sh%C5%8Dk%C5%8D-ken.jpg/1280px-Sh%C5%8Dk%C5%8D-ken.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Sh%C5%8Dk%C5%8D-ken.jpg/500px-Sh%C5%8Dk%C5%8D-ken.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Sh%C5%8Dk%C5%8D-ken.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dk%C5%8D-ken.jpg",
+      "caption": "Shōkō-ken in Koutou-in is the Buddhist temple belong to Daitokuji in Kita-ku, Kyoto, Kyoto, Japan.",
+      "source": "Wikimedia Commons",
+      "artist": "Wiiii",
+      "date": "2008-09-01",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Isome-shi_Garden13s5s4410.jpg/1280px-Isome-shi_Garden13s5s4410.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Isome-shi_Garden13s5s4410.jpg/500px-Isome-shi_Garden13s5s4410.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/Isome-shi_Garden13s5s4410.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Isome-shi_Garden13s5s4410.jpg",
+      "caption": "Isome-shi Garden in Otsu , Shiga prefecture , Japan .",
+      "source": "Wikimedia Commons",
+      "artist": "663highland",
+      "date": "2010-08-28",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "859"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Kaisuian_Interior_window_crop.jpg/1280px-Kaisuian_Interior_window_crop.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Kaisuian_Interior_window_crop.jpg/500px-Kaisuian_Interior_window_crop.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Kaisuian_Interior_window_crop.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kaisuian_Interior_window_crop.jpg",
+      "caption": "江戸東京たてもの園の会水庵の室内。",
+      "source": "Wikimedia Commons",
+      "artist": "TANAKA Juuyoh (田中十洋) , cropped by User:HLHJ",
+      "date": "2010-02-14 12:50:47",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "2252"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Chashitsu",
@@ -69,7 +235,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q946790",
+      "url": "https://www.wikidata.org/wiki/Q946790",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:19.527Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Chashitsu",
+      "url": "https://en.wikipedia.org/wiki/Chashitsu",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:19.527Z"
+      }
+    }
+  ],
   "wikidata": "Q946790",
   "wikipedia": "Chashitsu",
   "popularity": 35,
@@ -77,5 +266,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:40:19.527Z"
 }

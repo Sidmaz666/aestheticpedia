@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1922216",
+      "url": "https://www.wikidata.org/wiki/Q1922216",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:23.109Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Merz (art style)",
+      "url": "https://en.wikipedia.org/wiki/Merz_(art_style)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:23.109Z"
+      }
+    }
+  ],
   "wikidata": "Q1922216",
   "wikipedia": "Merz (art style)",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:54:23.109Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Germany, Dresden",
+  "geography": "Germany, Dresden",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16833665",
+      "url": "https://www.wikidata.org/wiki/Q16833665",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:23.309Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Dresden school",
+      "url": "https://en.wikipedia.org/wiki/Dresden_school",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:23.309Z"
+      }
+    }
+  ],
   "wikidata": "Q16833665",
   "wikipedia": "Dresden school",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:05.507Z"
 }

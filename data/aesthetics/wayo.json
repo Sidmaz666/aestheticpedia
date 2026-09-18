@@ -9,15 +9,41 @@
   "confidence": 60,
   "origin": "",
   "geography": "",
-  "periodStart": "",
+  "periodStart": "Nara period",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 710,
   "endYear": null,
-  "era": "",
+  "era": "8th century",
   "summary": "Wayō (和様, lit. Japanese style) is a Buddhist architectural style developed in Japan before the Kamakura period (1185－1333), and is one of the important Buddhist architectural styles in Japan along with Daibutsuyō and the Zenshūyō, which were developed based on Chinese architectural styles from the Kamakura period.",
   "description": "Wayō (和様, lit. Japanese style) is a Buddhist architectural style developed in Japan before the Kamakura period (1185－1333), and is one of the important Buddhist architectural styles in Japan along with Daibutsuyō and the Zenshūyō, which were developed based on Chinese architectural styles from the Kamakura period. This style originated in the Asuka (538－710) and Nara period (710－794), when Japanese studied Buddhist architecture of the Tang dynasty, and was improved in the Heian period (794－1185) to suit the Japanese climate and aesthetic sense. After the Kamakura period, the Wayō developed into the Shin-wayō style by combining it with the Daibutsuyō, and further developed into the Setchūyō by combining it with the Zenshūyō, and pure Wayō architecture decreased.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#332111",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#573720",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#6d5338",
+      "name": "umber"
+    },
+    {
+      "hex": "#938a7a",
+      "name": "stone"
+    },
+    {
+      "hex": "#80715a",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b3c2d6",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Ichijoji_Kasai12n4272.jpg/1280px-Ichijoji_Kasai12n4272.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Ichijoji_Kasai12n4272.jpg/500px-Ichijoji_Kasai12n4272.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Ichijoji_Kasai12n4272.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ichijoji_Kasai12n4272.jpg",
+      "caption": "Ichijoji Kasai12n4272",
+      "source": "Wikimedia Commons",
+      "artist": "663highland",
+      "date": "2009-04-11",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/500px-Himeji_model7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Himeji_model7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Himeji_model7.JPG",
+      "caption": "Himeji model7",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Wayō",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3566879",
+      "url": "https://www.wikidata.org/wiki/Q3566879",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:16.043Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Wayō",
+      "url": "https://en.wikipedia.org/wiki/Way%C5%8D",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:16.043Z"
+      }
+    }
+  ],
   "wikidata": "Q3566879",
   "wikipedia": "Wayō",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:06.017Z"
 }

@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Dutch Republic",
+  "geography": "Dutch Republic",
   "periodStart": "17th century",
   "periodEnd": "17th century",
   "startYear": 1600,
@@ -19,7 +19,33 @@
   "summary": "Dutch Golden Age painting is the painting of the Dutch Golden Age, a period in Dutch history roughly spanning the 17th century, during and after the later part of the Eighty Years' War (1568–1648) for Dutch independence.",
   "description": "Dutch Golden Age painting is the painting of the Dutch Golden Age, a period in Dutch history roughly spanning the 17th century, during and after the later part of the Eighty Years' War (1568–1648) for Dutch independence.\n\nThe new Dutch Republic was the most prosperous nation in Europe and led European trade and science. The northern Netherlandish provinces that made up the new state had traditionally been less important artistic centres than cities in Flanders in the south. The upheavals and large-scale transfers of population of the war, and the sharp break with the old monarchist and Catholic cultural traditions, meant that Dutch art had to reinvent itself almost entirely, a task in which it was very largely successful. The painting of religious subjects declined very sharply, but a large new market for all kinds of secular subjects grew up.\n\nAlthough Dutch painting of the Golden Age is included in the general European period of Baroque painting, and often shows many of its characteristics, most lacks the idealization and love of splendour typical of much Baroque work, including that of neighbouring Flanders. Most work, including that for which the period is best known, reflects the traditions of detailed realism inherited from Early Netherlandish painting.\n\nA distinctive feature of the period is the proliferation of distinct genres of paintings, with the majority of artists producing the bulk of their work within one of these. The full development of this specialization is seen from the late 1620s, and the period from then until the French invasion of 1672 is the core of Golden Age painting.  Artists would spend most of their careers painting only portraits, genre scenes, landscapes, seascapes and ships, or still lifes, and often a particular sub-type within these categories. Many of these types of subjects were new in Western painting, and the way the Dutch painted them in this period was decisive for their future development.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#3c3024",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#5d4936",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#1b1717",
+      "name": "black"
+    },
+    {
+      "hex": "#786652",
+      "name": "bronze"
+    },
+    {
+      "hex": "#aea18a",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#938571",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,138 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1280px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/500px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+      "caption": "Arabic: ساقية الحليب The Milkmaid",
+      "source": "Wikimedia Commons",
+      "artist": "Johannes Vermeer",
+      "date": "circa 1660 date QS:P571,+1660-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1435"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Hendrick_Avercamp_-_Winterlandschap_met_ijsvermaak.jpg/1280px-Hendrick_Avercamp_-_Winterlandschap_met_ijsvermaak.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Hendrick_Avercamp_-_Winterlandschap_met_ijsvermaak.jpg/500px-Hendrick_Avercamp_-_Winterlandschap_met_ijsvermaak.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Hendrick_Avercamp_-_Winterlandschap_met_ijsvermaak.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hendrick_Avercamp_-_Winterlandschap_met_ijsvermaak.jpg",
+      "caption": "Winterlandschap met ijsvermaak. Dorpsgezicht met vele figuren op het ijs: schaatsers, kolfspelers, wandelaars. Rechts een arrenslede, links een kerk.",
+      "source": "Wikimedia Commons",
+      "artist": "Hendrick Avercamp",
+      "date": "1608",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "739"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Pieter_de_Hooch_-_The_Courtyard_of_a_House_in_Delft.jpg/1280px-Pieter_de_Hooch_-_The_Courtyard_of_a_House_in_Delft.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Pieter_de_Hooch_-_The_Courtyard_of_a_House_in_Delft.jpg/500px-Pieter_de_Hooch_-_The_Courtyard_of_a_House_in_Delft.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Pieter_de_Hooch_-_The_Courtyard_of_a_House_in_Delft.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pieter_de_Hooch_-_The_Courtyard_of_a_House_in_Delft.jpg",
+      "caption": "The Courtyard of a House in Delft",
+      "source": "Wikimedia Commons",
+      "artist": "Pieter de Hooch",
+      "date": "1658",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1527"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Judith_Leyster_A_Boy_and_a_Girl_with_a_Cat_and_an_Eel.jpg/1280px-Judith_Leyster_A_Boy_and_a_Girl_with_a_Cat_and_an_Eel.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Judith_Leyster_A_Boy_and_a_Girl_with_a_Cat_and_an_Eel.jpg/500px-Judith_Leyster_A_Boy_and_a_Girl_with_a_Cat_and_an_Eel.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/Judith_Leyster_A_Boy_and_a_Girl_with_a_Cat_and_an_Eel.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Judith_Leyster_A_Boy_and_a_Girl_with_a_Cat_and_an_Eel.jpg",
+      "caption": "A Boy and a Girl with a Cat and an Eel",
+      "source": "Wikimedia Commons",
+      "artist": "Judith Leyster",
+      "date": "1635",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1552"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/The_idle_servant.jpg/1280px-The_idle_servant.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/The_idle_servant.jpg/500px-The_idle_servant.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/The_idle_servant.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_idle_servant.jpg",
+      "caption": "The Idle Servant",
+      "source": "Wikimedia Commons",
+      "artist": "Nicolaes Maes",
+      "date": "1655",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1690"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/View_of_Haarlem_with_Bleaching_Grounds_c1665_Ruisdael.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/07/View_of_Haarlem_with_Bleaching_Grounds_c1665_Ruisdael.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/07/View_of_Haarlem_with_Bleaching_Grounds_c1665_Ruisdael.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:View_of_Haarlem_with_Bleaching_Grounds_c1665_Ruisdael.jpg",
+      "caption": "View of Haarlem with Bleaching Grounds",
+      "source": "Wikimedia Commons",
+      "artist": "Jacob van Ruisdael",
+      "date": "circa 1665 date QS:P571,+1665-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "867",
+      "height": "970"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Jan_Both%2C_1634_-_1652_-_Italiaans_landschap_met_tekenaar_-_Google_Art_Project.jpg/1280px-Jan_Both%2C_1634_-_1652_-_Italiaans_landschap_met_tekenaar_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Jan_Both%2C_1634_-_1652_-_Italiaans_landschap_met_tekenaar_-_Google_Art_Project.jpg/500px-Jan_Both%2C_1634_-_1652_-_Italiaans_landschap_met_tekenaar_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/38/Jan_Both%2C_1634_-_1652_-_Italiaans_landschap_met_tekenaar_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jan_Both,_1634_-_1652_-_Italiaans_landschap_met_tekenaar_-_Google_Art_Project.jpg",
+      "caption": "Italian Landscape with a Draughtsman",
+      "source": "Wikimedia Commons",
+      "artist": "Jan Both",
+      "date": "1650",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1003"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Everdingen%2C_Paysage_nordique.jpg/1280px-Van_Everdingen%2C_Paysage_nordique.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Everdingen%2C_Paysage_nordique.jpg/500px-Van_Everdingen%2C_Paysage_nordique.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Everdingen%2C_Paysage_nordique.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Van_Everdingen,_Paysage_nordique.jpg",
+      "caption": "Paysage nordique avec un château sur une colline; Paysage de Norvège (autre titre)",
+      "source": "Wikimedia Commons",
+      "artist": "Allaert van Everdingen",
+      "date": "1650 date QS:P571,+1650-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1037"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Jan_van_Goyen_004b.jpg/1280px-Jan_van_Goyen_004b.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Jan_van_Goyen_004b.jpg/500px-Jan_van_Goyen_004b.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/99/Jan_van_Goyen_004b.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jan_van_Goyen_004b.jpg",
+      "caption": "Dutch: Duinlandschap Dune Landscape",
+      "source": "Wikimedia Commons",
+      "artist": "Possibly Jan van Goyen",
+      "date": "between circa 1630 and circa 1635 date QS:P571,+1630-00-00T0",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "878"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Berckheyde%2C_Gerrit_-_Grote_Markt_in_Haarlem_with_the_Grote_or_St_Bavokerk_-_Frans_Hals_Museum.jpeg/1280px-Berckheyde%2C_Gerrit_-_Grote_Markt_in_Haarlem_with_the_Grote_or_St_Bavokerk_-_Frans_Hals_Museum.jpeg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Berckheyde%2C_Gerrit_-_Grote_Markt_in_Haarlem_with_the_Grote_or_St_Bavokerk_-_Frans_Hals_Museum.jpeg/500px-Berckheyde%2C_Gerrit_-_Grote_Markt_in_Haarlem_with_the_Grote_or_St_Bavokerk_-_Frans_Hals_Museum.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/34/Berckheyde%2C_Gerrit_-_Grote_Markt_in_Haarlem_with_the_Grote_or_St_Bavokerk_-_Frans_Hals_Museum.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Berckheyde,_Gerrit_-_Grote_Markt_in_Haarlem_with_the_Grote_or_St_Bavokerk_-_Frans_Hals_Museum.jpeg",
+      "caption": "Dutch: De Grote Markt met de St. Bavo te Haarlem The Grote Markt in Haarlem with the St. Bavo church, seen from the west",
+      "source": "Wikimedia Commons",
+      "artist": "Gerrit Adriaenszoon Berckheyde",
+      "date": "1696",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "972"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Dutch Golden Age painting",
@@ -64,7 +221,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2352880",
+      "url": "https://www.wikidata.org/wiki/Q2352880",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:02.201Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Dutch Golden Age painting",
+      "url": "https://en.wikipedia.org/wiki/Dutch_Golden_Age_painting",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:02.201Z"
+      }
+    }
+  ],
   "wikidata": "Q2352880",
   "wikipedia": "Dutch Golden Age painting",
   "popularity": 35,
@@ -72,5 +252,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:05.480Z"
 }

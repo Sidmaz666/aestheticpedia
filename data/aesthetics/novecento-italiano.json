@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Italy",
+  "geography": "Italy",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -19,7 +19,33 @@
   "summary": "Novecento Italiano (lit. 'Italian 1900s') was an Italian artistic movement founded in Milan in 1922 to create an art based on the rhetoric of the fascism of Mussolini.",
   "description": "Novecento Italiano (lit. 'Italian 1900s') was an Italian artistic movement founded in Milan in 1922 to create an art based on the rhetoric of the fascism of Mussolini.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bfbdb2",
+      "name": "silver"
+    },
+    {
+      "hex": "#543e2f",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#3b281f",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#645444",
+      "name": "umber"
+    },
+    {
+      "hex": "#150909",
+      "name": "black"
+    },
+    {
+      "hex": "#a39484",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Collage_arte_italiana.jpg/1280px-Collage_arte_italiana.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Collage_arte_italiana.jpg/500px-Collage_arte_italiana.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Collage_arte_italiana.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Collage_arte_italiana.jpg",
+      "caption": "Collage di varie foto sull'arte italiana.",
+      "source": "Wikimedia Commons",
+      "artist": "collection by DanieleDF1995 ( talk )",
+      "date": "2010-03-29",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "2276"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Novecento Italiano",
@@ -64,7 +105,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q933661",
+      "url": "https://www.wikidata.org/wiki/Q933661",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:15.547Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Novecento Italiano",
+      "url": "https://en.wikipedia.org/wiki/Novecento_Italiano",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:15.547Z"
+      }
+    }
+  ],
   "wikidata": "Q933661",
   "wikipedia": "Novecento Italiano",
   "popularity": 35,
@@ -72,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.862Z"
 }

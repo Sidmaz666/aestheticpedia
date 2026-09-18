@@ -17,7 +17,33 @@
   "summary": "Early Ottoman architecture developed through several stages during the 14th and 15th centuries, prior to the advent of what is generally considered \"classical\" Ottoman architecture in the 16th century.",
   "description": "Early Ottoman architecture developed through several stages during the 14th and 15th centuries, prior to the advent of what is generally considered \"classical\" Ottoman architecture in the 16th century. Ottoman architecture began as a continuation of earlier Seljuk and Beylik architecture while also incorporating local Byzantine influences. The new styles took shape in the capital cities of Bursa and Edirne as well as in other important early Ottoman cities such as Iznik.\n\nThree main types of structures predominated in the early period: single-domed mosques (e.g. the Green Mosque in Iznik), \"T-plan\" buildings (e.g. the Green Mosque in Bursa), and multi-domed buildings (e.g. the Great Mosque of Bursa). Religious buildings were often part of larger charitable complexes (külliyes) that included other structures such as madrasas, hammams, tombs, and commercial establishments.\n\nThe Üç Şerefeli Mosque in Edirne, completed in 1447, features a wide arcaded courtyard leading to a prayer hall dominated by a huge central dome. Its design marked a major step in the evolution towards the form of later imperial mosques. After the conquest of Constantinople in 1453 by Mehmed II, the first Ottoman imperial mosque in the city was the Fatih Mosque completed in 1470. Its design demonstrated an increasing influence of the ancient Hagia Sophia on Ottoman architects while also setting a precedent for vast külliye complexes with a highly organized site plan. The Mosque of Bayezid II, completed in 1505 in the same city, is often considered the culmination of architectural developments of the 15th century and the final step leading to the classical style of the 16th century.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#918576",
+      "name": "stone"
+    },
+    {
+      "hex": "#706356",
+      "name": "umber"
+    },
+    {
+      "hex": "#49443c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#bca991",
+      "name": "khaki"
+    },
+    {
+      "hex": "#21211f",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#86a4bd",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,148 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Bursa_Ye%C5%9Fil_Camii_-_Green_Mosque_%2815%29.jpg/1280px-Bursa_Ye%C5%9Fil_Camii_-_Green_Mosque_%2815%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Bursa_Ye%C5%9Fil_Camii_-_Green_Mosque_%2815%29.jpg/500px-Bursa_Ye%C5%9Fil_Camii_-_Green_Mosque_%2815%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Bursa_Ye%C5%9Fil_Camii_-_Green_Mosque_%2815%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bursa_Ye%C5%9Fil_Camii_-_Green_Mosque_(15).jpg",
+      "caption": "Green Mosque of Bursa, Turkey, 2017. Green Mosque (Turkish: Yeşil Camii, \"Yeşil Mosque\"), also known as Mosque of Sultan Mehmed I, is a part of the larger complex (a külliye) located on the east side of Bursa, Turkey, the former capital of the Ottoman Turks before they captured C",
+      "source": "Wikimedia Commons",
+      "artist": "Yahia.Mokhtar",
+      "date": "2017-11-27 12:01:22",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/71_Bursa_la_Grande_Moschea_%28Edited%29.jpg/1280px-71_Bursa_la_Grande_Moschea_%28Edited%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/71_Bursa_la_Grande_Moschea_%28Edited%29.jpg/500px-71_Bursa_la_Grande_Moschea_%28Edited%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/19/71_Bursa_la_Grande_Moschea_%28Edited%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:71_Bursa_la_Grande_Moschea_(Edited).jpg",
+      "caption": "Skyline view of the Grand Mosque of Bursa (Picture retouched and slightly cropped from original in order to improve clarity in thumbnail form)",
+      "source": "Wikimedia Commons",
+      "artist": "Beñat Irasuegi",
+      "date": "2007-05-19 15:21:42",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "943"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Uc_Serefeli_Mosque_DSCF4768.jpg/1280px-Uc_Serefeli_Mosque_DSCF4768.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Uc_Serefeli_Mosque_DSCF4768.jpg/500px-Uc_Serefeli_Mosque_DSCF4768.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/51/Uc_Serefeli_Mosque_DSCF4768.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Uc_Serefeli_Mosque_DSCF4768.jpg",
+      "caption": "Üç Şerefeli Mosque, Edirne",
+      "source": "Wikimedia Commons",
+      "artist": "R Prazeres",
+      "date": "2014-05-06 05:09:49",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Museum_of_Islamic_Art_%28Tiled_Kiosk%29._Istanbul_Archaeology_Museums%2C_Turkey.jpg/1280px-Museum_of_Islamic_Art_%28Tiled_Kiosk%29._Istanbul_Archaeology_Museums%2C_Turkey.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Museum_of_Islamic_Art_%28Tiled_Kiosk%29._Istanbul_Archaeology_Museums%2C_Turkey.jpg/500px-Museum_of_Islamic_Art_%28Tiled_Kiosk%29._Istanbul_Archaeology_Museums%2C_Turkey.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Museum_of_Islamic_Art_%28Tiled_Kiosk%29._Istanbul_Archaeology_Museums%2C_Turkey.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Museum_of_Islamic_Art_(Tiled_Kiosk)._Istanbul_Archaeology_Museums,_Turkey.jpg",
+      "caption": "Museum of Islamic Art (the Tiled Kiosk). Istanbul Archaeology Museums, Turkey.",
+      "source": "Wikimedia Commons",
+      "artist": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+      "date": "2018-08-25 10:39:29",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "854"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/IMG_Hac%C4%B1_%C3%96zbek_Mosque.jpg/1280px-IMG_Hac%C4%B1_%C3%96zbek_Mosque.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/IMG_Hac%C4%B1_%C3%96zbek_Mosque.jpg/500px-IMG_Hac%C4%B1_%C3%96zbek_Mosque.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/81/IMG_Hac%C4%B1_%C3%96zbek_Mosque.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:IMG_Hac%C4%B1_%C3%96zbek_Mosque.jpg",
+      "caption": "Hacı Özbek Camii İznik",
+      "source": "Wikimedia Commons",
+      "artist": "Paul",
+      "date": "2007-06-16 14:20:57",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Iznik_Ye%C5%9Fil_Camii_7.JPG/1280px-Iznik_Ye%C5%9Fil_Camii_7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Iznik_Ye%C5%9Fil_Camii_7.JPG/500px-Iznik_Ye%C5%9Fil_Camii_7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Iznik_Ye%C5%9Fil_Camii_7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Iznik_Ye%C5%9Fil_Camii_7.JPG",
+      "caption": "İznik Green Mosque",
+      "source": "Wikimedia Commons",
+      "artist": "Szoszv",
+      "date": "2010-10-17",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Green_Mosque_Iznik_DSCF2532.jpg/1280px-Green_Mosque_Iznik_DSCF2532.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Green_Mosque_Iznik_DSCF2532.jpg/500px-Green_Mosque_Iznik_DSCF2532.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Green_Mosque_Iznik_DSCF2532.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Green_Mosque_Iznik_DSCF2532.jpg",
+      "caption": "Yeşil Mosque (Green Mosque) in İznik. Dome of prayer hall.",
+      "source": "Wikimedia Commons",
+      "artist": "R Prazeres",
+      "date": "2014-05-16 10:21:54",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Iznik_Green_mosque_8180.jpg/1280px-Iznik_Green_mosque_8180.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Iznik_Green_mosque_8180.jpg/500px-Iznik_Green_mosque_8180.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Iznik_Green_mosque_8180.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Iznik_Green_mosque_8180.jpg",
+      "caption": "The mosque is close to the museum, which was being restored. The area surrounding it (a square, another mosque) was being renovated also. I also think there has been a more recent restoration at the mosque, somewhere in the mid-2010's, rather than the periode mentioned in the Wik",
+      "source": "Wikimedia Commons",
+      "artist": "Dosseman",
+      "date": "2019-03-27 14:22:49",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1923"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Iznik_Green_Mosque_003.jpg/1280px-Iznik_Green_Mosque_003.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Iznik_Green_Mosque_003.jpg/500px-Iznik_Green_Mosque_003.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/56/Iznik_Green_Mosque_003.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Iznik_Green_Mosque_003.jpg",
+      "caption": "One of the earliest examples of Ottoman architecture, the Yeşil Mosque was constructed by order of the Grand Vizier Çandarlı Kara Halil Hayreddin Pasha of Sultan Murad I in Iznik. It was later completed by his son Ali Pasha. The inscription on the mosque gives the date of constru",
+      "source": "Wikimedia Commons",
+      "artist": "Dosseman",
+      "date": "2020-10-20 14:23:53",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1982"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Mudurnu_Y%C4%B1ld%C4%B1r%C4%B1m_Bayezid_Mosque_in_2007_7400.jpg/1280px-Mudurnu_Y%C4%B1ld%C4%B1r%C4%B1m_Bayezid_Mosque_in_2007_7400.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Mudurnu_Y%C4%B1ld%C4%B1r%C4%B1m_Bayezid_Mosque_in_2007_7400.jpg/500px-Mudurnu_Y%C4%B1ld%C4%B1r%C4%B1m_Bayezid_Mosque_in_2007_7400.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Mudurnu_Y%C4%B1ld%C4%B1r%C4%B1m_Bayezid_Mosque_in_2007_7400.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mudurnu_Y%C4%B1ld%C4%B1r%C4%B1m_Bayezid_Mosque_in_2007_7400.jpg",
+      "caption": "The 'Yıldırım Camii' was built in 1374, 1382 is given at the nearby bath as the date that was built together with a madrasa, ordered by (the future sultan) Yıldırım Beyazıt, who was governor of the region at that time. 1382 was a moment of much building activity, for it is also t",
+      "source": "Wikimedia Commons",
+      "artist": "Dosseman",
+      "date": "2007-06-20 13:00:29",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "850"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Early Ottoman architecture",
@@ -62,7 +229,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q109284245",
+      "url": "https://www.wikidata.org/wiki/Q109284245",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:06.323Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Early Ottoman architecture",
+      "url": "https://en.wikipedia.org/wiki/Early_Ottoman_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:06.323Z"
+      }
+    }
+  ],
   "wikidata": "Q109284245",
   "wikipedia": "Early Ottoman architecture",
   "popularity": 35,
@@ -70,5 +260,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:44:06.323Z"
 }

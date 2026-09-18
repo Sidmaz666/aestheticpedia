@@ -17,7 +17,33 @@
   "summary": "Metamorphosis I is a woodcut print by the Dutch artist M.",
   "description": "Metamorphosis I is a woodcut print by the Dutch artist M. C. Escher which was first printed in May, 1937. This piece measures 19.5 cm × 90.8 cm (7+5⁄8 in × 35+3⁄4 in) and is printed on two sheets.\n\nThe concept of this work is to morph one image into a tessellated pattern, then gradually to alter the outlines of that pattern to become an altogether different image. From left to right, the image begins with a depiction of the coastal Italian town of Atrani (see Atrani, Coast of Amalfi). The outlines of the architecture then morph to a pattern of three-dimensional blocks. These blocks then slowly become a tessellated pattern of cartoon-like figures in oriental attire.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#335978",
+      "name": "graphite"
+    },
+    {
+      "hex": "#a25043",
+      "name": "brick"
+    },
+    {
+      "hex": "#b2b5b5",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#929fa9",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#607991",
+      "name": "slate"
+    },
+    {
+      "hex": "#042e57",
+      "name": "prussian blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg/1280px-Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg/500px-Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai_-_Fine_Wind,_Clear_Morning_(Gaif%C5%AB_kaisei)_-_Google_Art_Project.jpg",
+      "caption": "Fine Wind, Clear Morning (Gaifū kaisei)",
+      "source": "Wikimedia Commons",
+      "artist": "Katsushika Hokusai",
+      "date": "about 1800-1849",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "864"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Metamorphosis I",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6823055",
+      "url": "https://www.wikidata.org/wiki/Q6823055",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:24.702Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Metamorphosis I",
+      "url": "https://en.wikipedia.org/wiki/Metamorphosis_I",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:24.702Z"
+      }
+    }
+  ],
   "wikidata": "Q6823055",
   "wikipedia": "Metamorphosis I",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:54:24.702Z"
 }

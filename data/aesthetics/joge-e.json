@@ -19,7 +19,33 @@
   "summary": "Joge-e (上下絵) are special playful images that were often created in the Meiji era in Japan.",
   "description": "Joge-e (上下絵) are special playful images that were often created in the Meiji era in Japan. These images can be viewed from the top, or the bottom. Each viewing angle enables the viewer to see a different image.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#cea36c",
+      "name": "camel"
+    },
+    {
+      "hex": "#6d635c",
+      "name": "umber"
+    },
+    {
+      "hex": "#e7d0b3",
+      "name": "apricot"
+    },
+    {
+      "hex": "#9c6b4f",
+      "name": "bronze"
+    },
+    {
+      "hex": "#eac574",
+      "name": "tan"
+    },
+    {
+      "hex": "#91856f",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,34 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Kuniyoshi-1852-joge-e-bothperspect.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Kuniyoshi-1852-joge-e-bothperspect.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Kuniyoshi-1852-joge-e-bothperspect.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kuniyoshi-1852-joge-e-bothperspect.jpg",
+      "caption": "This is an image of a Kuniyoshi blockprint from 1852, it can not be under copyright anymore so I offer it here. This is a combined image with both perspectives in order to make comparison of perspectives easier.",
+      "source": "Wikimedia Commons",
+      "artist": "Kuniyoshi",
+      "date": "1852",
+      "license": "Public domain",
+      "width": "945",
+      "height": "696"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toshusai_Sharaku-_Otani_Oniji,_1794.jpg",
+      "caption": "Oniji Ōtani III (aka. Nakazō Nakamura II) as Edobee in the May 1794 production of Koi Nyōbo Somewake Tazuna at Edo Kawarasaki-za theater. Polychrome woodcut print on paper; 15 x 9 7/8 in. (38.1 x 22.9 cm) Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939 (JP2822)",
+      "source": "Wikimedia Commons",
+      "artist": "Sharaku",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "802",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Jōge-e",
@@ -64,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3180363",
+      "url": "https://www.wikidata.org/wiki/Q3180363",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:18.354Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Jōge-e",
+      "url": "https://en.wikipedia.org/wiki/J%C5%8Dge-e",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:18.354Z"
+      }
+    }
+  ],
   "wikidata": "Q3180363",
   "wikipedia": "Jōge-e",
   "popularity": 35,
@@ -72,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:51:18.354Z"
 }

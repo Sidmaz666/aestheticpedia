@@ -19,7 +19,33 @@
   "summary": "Escapology is the practice of escaping from restraints or other traps.",
   "description": "Escapology is the practice of escaping from restraints or other traps. Escapologists (also called escape artists) escape from handcuffs, straitjackets, cages, coffins, steel boxes, barrels, bags, burning buildings, fish-tanks, and other perils, often in combination.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#482d32",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#6b3d43",
+      "name": "umber"
+    },
+    {
+      "hex": "#954e57",
+      "name": "bronze"
+    },
+    {
+      "hex": "#1c1518",
+      "name": "black"
+    },
+    {
+      "hex": "#916e6c",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#af9893",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,35 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/HarryHoudini1899.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/37/HarryHoudini1899.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/37/HarryHoudini1899.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:HarryHoudini1899.jpg",
+      "caption": "Harry Houdini, full-length portrait, standing, facing front, in chains",
+      "source": "Wikimedia Commons",
+      "artist": "McManus-Young Collection",
+      "date": "circa 1899 date QS:P,+1899-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "646",
+      "height": "1093"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Curtis_Lovell_II_underwater_with_assistant.jpg/1280px-Curtis_Lovell_II_underwater_with_assistant.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Curtis_Lovell_II_underwater_with_assistant.jpg/500px-Curtis_Lovell_II_underwater_with_assistant.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Curtis_Lovell_II_underwater_with_assistant.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Curtis_Lovell_II_underwater_with_assistant.jpg",
+      "caption": "Curtis Lovell II in chains, being locked in a box filled with water by assistant",
+      "source": "Wikimedia Commons",
+      "artist": "Curtis Lovell II",
+      "date": "2007-10-31",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1920"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Escapology",
@@ -64,7 +118,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2293082",
+      "url": "https://www.wikidata.org/wiki/Q2293082",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:27.335Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Escapology",
+      "url": "https://en.wikipedia.org/wiki/Escapology",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:27.335Z"
+      }
+    }
+  ],
   "wikidata": "Q2293082",
   "wikipedia": "Escapology",
   "popularity": 35,
@@ -72,5 +149,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:44:27.335Z"
 }

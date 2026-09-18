@@ -17,7 +17,33 @@
   "summary": "The style sapin (the French \"sapin\" means fir tree, but better translates to \"conifer style\") is a variation of Art Nouveau created in La Chaux-de-Fonds, Switzerland, by the Swiss artist Charles L'Eplattenier (1874–1946), a professor of the school of art and design in that town.",
   "description": "The style sapin (the French \"sapin\" means fir tree, but better translates to \"conifer style\") is a variation of Art Nouveau created in La Chaux-de-Fonds, Switzerland, by the Swiss artist Charles L'Eplattenier (1874–1946), a professor of the school of art and design in that town. The basic principle taught by L'Eplattenier was that art should be inspired by nature, in this case by the conifers, in particular fir trees, that covered the Jura Mountains around the town.\n\nL'Eplattenier began teaching the higher course of art and decoration at the regional School of Art in 1905, where his students included Charles-Edouard Jeanneret, the future Le Corbusier. He declared that \"nature is the sole inspiration\" and urged his students to study the regional plants, flowers and wildlife. In his official report to the school administration, he wrote, \"the base of our studies or ornament remains always the fir/coniferous tree. This tree, at its different ages, studied in its different ages, in its totality, or in detail, offers an inexhaustible resource of decoration... The great silver chardon, the gentienes, as well as our Jurassian wildlife, add a considerable richness.\"\n\nThe most famous production of the school was a chalet, the Villa Fallet, designed in 1906 by the eighteen-year-old Jeanneret, which included a frieze with a fir tree motif over the front door. The students produced a variety of other decorative objects. A collection of one hundred eight decorative works designed by the students was presented at an international exposition in Milan in 1906, which earned the school an honorable mention. The artist Henriette Grandjean, a student in the upper course, also made numerous objects in the style sapin, which are now in the Musée d'Orsay in Paris.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#ac5902",
+      "name": "rust"
+    },
+    {
+      "hex": "#352118",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#873a02",
+      "name": "chocolate"
+    },
+    {
+      "hex": "#a2a3ac",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#bac0cb",
+      "name": "silver"
+    },
+    {
+      "hex": "#7b6b63",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,78 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Cdffallet.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Cdffallet.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Cdffallet.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cdffallet.jpg",
+      "caption": "La Chaux-de-Fonds, villa Fallet",
+      "source": "Wikimedia Commons",
+      "artist": "Archipat",
+      "date": "2006-01-28",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "900",
+      "height": "1200"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/CrematoireLaChauxdeFondsCH1.jpg/1280px-CrematoireLaChauxdeFondsCH1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/CrematoireLaChauxdeFondsCH1.jpg/500px-CrematoireLaChauxdeFondsCH1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cf/CrematoireLaChauxdeFondsCH1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:CrematoireLaChauxdeFondsCH1.jpg",
+      "caption": "The Crematoire in the town of La Chaux de Fonds",
+      "source": "Wikimedia Commons",
+      "artist": "Tomleighmartin",
+      "date": "2011-08-19",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Cr%C3%A9matoire_la_chaux_de_fonds_plafond.JPG/1280px-Cr%C3%A9matoire_la_chaux_de_fonds_plafond.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Cr%C3%A9matoire_la_chaux_de_fonds_plafond.JPG/500px-Cr%C3%A9matoire_la_chaux_de_fonds_plafond.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Cr%C3%A9matoire_la_chaux_de_fonds_plafond.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cr%C3%A9matoire_la_chaux_de_fonds_plafond.JPG",
+      "caption": "Crématoire de la Chaux-de-Fonds en Suisse romande. Style sapin. Début du 20ème siècle.",
+      "source": "Wikimedia Commons",
+      "artist": "michel Friche",
+      "date": "2009-05-22",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "857"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/La-Chaux-de-fonds-architecture-detail-1.jpg/1280px-La-Chaux-de-fonds-architecture-detail-1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/La-Chaux-de-fonds-architecture-detail-1.jpg/500px-La-Chaux-de-fonds-architecture-detail-1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/31/La-Chaux-de-fonds-architecture-detail-1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:La-Chaux-de-fonds-architecture-detail-1.jpg",
+      "caption": "Suisse, Crématoire de La Chaux-de-Fonds de style Art Nouveau",
+      "source": "Wikimedia Commons",
+      "artist": "Cédric Amey",
+      "date": "2011-05-21",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/La-Chaux-de-fonds-architecture-detail-2.jpg/1280px-La-Chaux-de-fonds-architecture-detail-2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/La-Chaux-de-fonds-architecture-detail-2.jpg/500px-La-Chaux-de-fonds-architecture-detail-2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/La-Chaux-de-fonds-architecture-detail-2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:La-Chaux-de-fonds-architecture-detail-2.jpg",
+      "caption": "Suisse, Crématoire de La Chaux-de-Fonds de style Art Nouveau",
+      "source": "Wikimedia Commons",
+      "artist": "Cédric Amey",
+      "date": "2011-05-21",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "851"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Style sapin",
@@ -62,7 +159,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3501296",
+      "url": "https://www.wikidata.org/wiki/Q3501296",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:17.371Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Style sapin",
+      "url": "https://en.wikipedia.org/wiki/Style_sapin",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:17.371Z"
+      }
+    }
+  ],
   "wikidata": "Q3501296",
   "wikipedia": "Style sapin",
   "popularity": 35,
@@ -70,5 +190,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:07:17.371Z"
 }

@@ -39,7 +39,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Teo_Spiller_net.art.trade_%28net.art%29_2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Teo_Spiller_net.art.trade_%28net.art%29_2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Teo_Spiller_net.art.trade_%28net.art%29_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Teo_Spiller_net.art.trade_(net.art)_2.jpg",
+      "caption": "A Screenshot of Teo Spiller's net.art net.art.trade",
+      "source": "Wikimedia Commons",
+      "artist": "Teo Spiller",
+      "date": "2017-12-01",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1024",
+      "height": "768"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Net.art",
@@ -62,7 +77,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2553758",
+      "url": "https://www.wikidata.org/wiki/Q2553758",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:12.495Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Net.art",
+      "url": "https://en.wikipedia.org/wiki/Net.art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:12.495Z"
+      }
+    }
+  ],
   "wikidata": "Q2553758",
   "wikipedia": "Net.art",
   "popularity": 35,
@@ -70,5 +108,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:57:12.495Z"
 }

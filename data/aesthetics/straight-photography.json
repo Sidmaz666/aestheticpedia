@@ -39,7 +39,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/60b6fdba-b20a-cdb5-32b0-602ba51ce3f6/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/60b6fdba-b20a-cdb5-32b0-602ba51ce3f6/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/60b6fdba-b20a-cdb5-32b0-602ba51ce3f6/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/103529",
+      "caption": "Blessed Art Thou Among Women, from \"American Pictorial Photography, Series II\" (1901); edition 34/150, 1899",
+      "source": "Art Institute of Chicago",
+      "artist": "Gertrude Käsebier",
+      "date": "1899",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1458"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Straight photography",
@@ -62,7 +77,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1886249",
+      "url": "https://www.wikidata.org/wiki/Q1886249",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:12.447Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Straight photography",
+      "url": "https://en.wikipedia.org/wiki/Straight_photography",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:12.447Z"
+      }
+    }
+  ],
   "wikidata": "Q1886249",
   "wikipedia": "Straight photography",
   "popularity": 35,
@@ -70,5 +108,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:07:12.447Z"
 }

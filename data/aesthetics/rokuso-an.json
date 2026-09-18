@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Tokyo National Museum, Japan",
+  "geography": "Tokyo National Museum, Japan",
   "periodStart": "18th century",
   "periodEnd": "",
   "startYear": 1700,
@@ -17,7 +17,33 @@
   "summary": "Rokusō-an (六窓庵 \"Six Window Hut\") is a chashitsu.",
   "description": "Rokusō-an (六窓庵 \"Six Window Hut\") is a chashitsu.\n\nIt was formerly located at Kōfuku-ji in Nara and considered one of the San-meiseki (三名席, Three Famous Tearooms). It was initially constructed during the Edo period and later relocated due to its deteriorated state and is now in the gardens of the Tokyo National Museum.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#413b2d",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#565245",
+      "name": "umber"
+    },
+    {
+      "hex": "#6a695e",
+      "name": "umber 2"
+    },
+    {
+      "hex": "#837f6c",
+      "name": "taupe"
+    },
+    {
+      "hex": "#9b9a82",
+      "name": "stone"
+    },
+    {
+      "hex": "#b3b69c",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Tokyo_National_Museum_Rokusoan_P3303189.jpg/1280px-Tokyo_National_Museum_Rokusoan_P3303189.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Tokyo_National_Museum_Rokusoan_P3303189.jpg/500px-Tokyo_National_Museum_Rokusoan_P3303189.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Tokyo_National_Museum_Rokusoan_P3303189.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_Rokusoan_P3303189.jpg",
+      "caption": "Rokusoan teahouse in the garden of the Tokyo National Museum. See [1] for further info.",
+      "source": "Wikimedia Commons",
+      "artist": "Kestrel",
+      "date": "2018-03-30 15:41:45",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Tokyo_National_Museum_Rokusoan_P5163857.jpg/1280px-Tokyo_National_Museum_Rokusoan_P5163857.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Tokyo_National_Museum_Rokusoan_P5163857.jpg/500px-Tokyo_National_Museum_Rokusoan_P5163857.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Tokyo_National_Museum_Rokusoan_P5163857.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_Rokusoan_P5163857.jpg",
+      "caption": "The Waiting Shelter of Rokusoan teahouse, in the garden of Tokyo National Museum. See [1] for further info.",
+      "source": "Wikimedia Commons",
+      "artist": "Kestrel",
+      "date": "2018-05-16 14:15:20",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Rokusō-an",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q99962830",
+      "url": "https://www.wikidata.org/wiki/Q99962830",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:08.531Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Rokusō-an",
+      "url": "https://en.wikipedia.org/wiki/Rokus%C5%8D-an",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:08.531Z"
+      }
+    }
+  ],
   "wikidata": "Q99962830",
   "wikipedia": "Rokusō-an",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.083Z"
 }

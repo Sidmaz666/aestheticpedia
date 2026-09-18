@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United Kingdom",
+  "geography": "United Kingdom",
   "periodStart": "1900s",
   "periodEnd": "",
   "startYear": 1901,
@@ -39,7 +39,22 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/8e29271d-e364-1a31-79f6-957c68097496/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/8e29271d-e364-1a31-79f6-957c68097496/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/8e29271d-e364-1a31-79f6-957c68097496/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/43784",
+      "caption": "E29: English Roman Catholic Church in the Gothic Style, 1275–1300, c. 1937",
+      "source": "Art Institute of Chicago",
+      "artist": "Designed by Narcissa Niblack Thorne",
+      "date": "c. 1937",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1257"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — New Gothic",
@@ -62,7 +77,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q10860710",
+      "url": "https://www.wikidata.org/wiki/Q10860710",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:20.313Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — New Gothic",
+      "url": "https://en.wikipedia.org/wiki/New_Gothic",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:20.313Z"
+      }
+    }
+  ],
   "wikidata": "Q10860710",
   "wikipedia": "New Gothic",
   "popularity": 35,
@@ -70,5 +108,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.881Z"
 }

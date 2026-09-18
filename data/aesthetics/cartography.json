@@ -24,7 +24,29 @@
   "summary": "Cartography () is the study and practice of making and using maps.",
   "description": "Cartography () is the study and practice of making and using maps. Combining science, aesthetics and technique, cartography builds on the premise that reality (or an imagined reality) can be modeled in ways that communicate spatial information effectively.\n\nThe fundamental objectives of traditional cartography are to:\n\nSet the map's agenda and select traits of the object to be mapped. This is the concern of map editing. Traits may be physical, such as roads or land masses, or may be abstract, such as toponyms or political boundaries.\n\nRepresent the terrain of the mapped object on flat media. This is the concern of map projections.\n\nEliminate the mapped object's characteristics that are irrelevant to the map's purpose. This is the concern of generalization.\n\nReduce the complexity of the characteristics that will be mapped. This is also the concern of generalization.\n\nOrchestrate the elements of the map to best convey its message to its audience. This is the concern of map design.\n\nModern cartography constitutes many theoretical and practical foundations of geographic information systems (GIS) and geographic information science (GISc).",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a28d69",
+      "name": "stone"
+    },
+    {
+      "hex": "#62604f",
+      "name": "umber"
+    },
+    {
+      "hex": "#757266",
+      "name": "slate"
+    },
+    {
+      "hex": "#bfab85",
+      "name": "sand"
+    },
+    {
+      "hex": "#545f75",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -46,7 +68,63 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Paspardo_roccia_Vite29_rilievo_foto.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Paspardo_roccia_Vite29_rilievo_foto.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Paspardo_roccia_Vite29_rilievo_foto.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paspardo_roccia_Vite29_rilievo_foto.jpg",
+      "caption": "Camonica Valley rock art, the rock 29 of Paspardo, a large topographic composition engraved during the late Neolithic or the first Copper age, IV mill. BC, picture and tracing (Footsteps of Man tracing)",
+      "source": "Wikimedia Commons",
+      "artist": "Ruparch",
+      "date": "1999",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "800",
+      "height": "637"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Bedolina_roccia_1_foto_rilievo.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Bedolina_roccia_1_foto_rilievo.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Bedolina_roccia_1_foto_rilievo.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bedolina_roccia_1_foto_rilievo.jpg",
+      "caption": "View of the Bedolina 1 rock and its tracing",
+      "source": "Wikimedia Commons",
+      "artist": "Ruparch",
+      "date": "1996",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "550",
+      "height": "366"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Abraham_Ortelius_by_Peter_Paul_Rubens.jpg/1280px-Abraham_Ortelius_by_Peter_Paul_Rubens.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Abraham_Ortelius_by_Peter_Paul_Rubens.jpg/500px-Abraham_Ortelius_by_Peter_Paul_Rubens.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/16/Abraham_Ortelius_by_Peter_Paul_Rubens.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Abraham_Ortelius_by_Peter_Paul_Rubens.jpg",
+      "caption": "Portrait of Abraham Ortelius (1527-1598)",
+      "source": "Wikimedia Commons",
+      "artist": "Peter Paul Rubens / After Adriaen Thomasz. Key",
+      "date": "1633 date QS:P571,+1633-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1784"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/GIS_Types.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/36/GIS_Types.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/36/GIS_Types.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:GIS_Types.png",
+      "caption": "This figure shows the relationship between different types of GIS in the literature.",
+      "source": "Wikimedia Commons",
+      "artist": "GeogSage",
+      "date": "2026-04-26",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "588",
+      "height": "520"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Cartography",
@@ -69,7 +147,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q42515",
+      "url": "https://www.wikidata.org/wiki/Q42515",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:08.207Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cartography",
+      "url": "https://en.wikipedia.org/wiki/Cartography",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:08.207Z"
+      }
+    }
+  ],
   "wikidata": "Q42515",
   "wikipedia": "Cartography",
   "popularity": 35,
@@ -77,5 +178,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:40:08.207Z"
 }

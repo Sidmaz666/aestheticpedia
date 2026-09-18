@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Russian Empire, Finland",
+  "geography": "Russian Empire, Finland",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1729220",
+      "url": "https://www.wikidata.org/wiki/Q1729220",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:26.532Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Karelianism",
+      "url": "https://en.wikipedia.org/wiki/Karelianism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:26.532Z"
+      }
+    }
+  ],
   "wikidata": "Q1729220",
   "wikipedia": "Karelianism",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.671Z"
 }

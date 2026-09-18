@@ -7,9 +7,9 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
-  "periodStart": "",
+  "origin": "South Korea",
+  "geography": "South Korea",
+  "periodStart": "Baekje",
   "periodEnd": "",
   "startYear": null,
   "endYear": null,
@@ -17,7 +17,33 @@
   "summary": "The gold diadem ornaments of King Muryeong is a pair of golden ornaments made in the kingdom of Baekje, Three Kingdoms of Korea which were excavated in 1971 in the tomb of King Muryeong in Gongju city, South Chungcheong Province, South Korea.",
   "description": "The gold diadem ornaments of King Muryeong is a pair of golden ornaments made in the kingdom of Baekje, Three Kingdoms of Korea which were excavated in 1971 in the tomb of King Muryeong in Gongju city, South Chungcheong Province, South Korea. Made public for the first time in 2017, Gongju National Museum holds the artifacts.\n\nIn 1971 excavation, more than 4,000 artifacts were discovered without a trail of theft. The king’s(154th) and queen’s ornaments (155th) have similar patterns such as flowers and flames. Found near the inner side of the king’s coffin, the pair shares similar scale: the heights(30.7 cm, 29.2 cm), the widths(14 cm,  13.6 cm).\n\nThe gold plaque was drilled so as to decorate the vine pattern, and there is a stem at the bottom with two or three small holes at the upper side which would be able to be attached to the crown. A beaded ornament was twisted with gold thread on the front.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#121210",
+      "name": "black"
+    },
+    {
+      "hex": "#9f7b4b",
+      "name": "bronze"
+    },
+    {
+      "hex": "#83663f",
+      "name": "bronze 2"
+    },
+    {
+      "hex": "#604c31",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#b78f58",
+      "name": "camel"
+    },
+    {
+      "hex": "#3a3022",
+      "name": "aubergine"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "ornament"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%EB%AC%B4%EB%A0%B9%EC%99%95_%EA%B8%88%EC%A0%9C%EA%B4%80%EC%8B%9D.jpg/1280px-%EB%AC%B4%EB%A0%B9%EC%99%95_%EA%B8%88%EC%A0%9C%EA%B4%80%EC%8B%9D.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%EB%AC%B4%EB%A0%B9%EC%99%95_%EA%B8%88%EC%A0%9C%EA%B4%80%EC%8B%9D.jpg/500px-%EB%AC%B4%EB%A0%B9%EC%99%95_%EA%B8%88%EC%A0%9C%EA%B4%80%EC%8B%9D.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cf/%EB%AC%B4%EB%A0%B9%EC%99%95_%EA%B8%88%EC%A0%9C%EA%B4%80%EC%8B%9D.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%EB%AC%B4%EB%A0%B9%EC%99%95_%EA%B8%88%EC%A0%9C%EA%B4%80%EC%8B%9D.jpg",
+      "caption": "Gold Diadem Ornaments of King Muryeong, National Treasure of Republic of Korea No. 154",
+      "source": "Wikimedia Commons",
+      "artist": "National Museum of Korea",
+      "date": "5 December 2012, 13:51:03",
+      "license": "KOGL Type 1",
+      "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+      "width": "1280",
+      "height": "1034"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gold Diadem Ornaments of King Muryeong",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4543149",
+      "url": "https://www.wikidata.org/wiki/Q4543149",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:13.899Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gold Diadem Ornaments of King Muryeong",
+      "url": "https://en.wikipedia.org/wiki/Gold_Diadem_Ornaments_of_King_Muryeong",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:13.899Z"
+      }
+    }
+  ],
   "wikidata": "Q4543149",
   "wikipedia": "Gold Diadem Ornaments of King Muryeong",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.227Z"
 }

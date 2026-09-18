@@ -22,7 +22,33 @@
   "summary": "The dogtrot, also known as a breezeway house, dog-run, or possum-trot, is a style of house that was common throughout the Southeastern United States during the 19th and early 20th centuries.",
   "description": "The dogtrot, also known as a breezeway house, dog-run, or possum-trot, is a style of house that was common throughout the Southeastern United States during the 19th and early 20th centuries. Some theories place its origins in the southern Appalachian Mountains. Some scholars believe the style developed in the post-Revolution frontiers of Kentucky and Tennessee. Others note its presence in the South Carolina Lowcountry from an early period. The main style point was a large breezeway (instead of a hallway) through the center of the house to cool occupants in the hot southern climate.\n\nArchitects continue to design variants of dogtrot houses using modern materials.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#868476",
+      "name": "taupe"
+    },
+    {
+      "hex": "#c8bfbf",
+      "name": "silver"
+    },
+    {
+      "hex": "#676659",
+      "name": "umber"
+    },
+    {
+      "hex": "#6893c3",
+      "name": "slate"
+    },
+    {
+      "hex": "#a49c98",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#b8bf73",
+      "name": "sand"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -44,7 +70,63 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Thornhill_Plantation_07.jpg/1280px-Thornhill_Plantation_07.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Thornhill_Plantation_07.jpg/500px-Thornhill_Plantation_07.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Thornhill_Plantation_07.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Thornhill_Plantation_07.jpg",
+      "caption": "Thornhill Plantation, County Road 19, Watsonia, Greene County, AL. OLD SLAVE QUARTERS.",
+      "source": "Wikimedia Commons",
+      "artist": "Alex Bush, Photographer",
+      "date": "1934-12-30",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "818"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/MiroDogwalkCottagesOct08J.jpg/1280px-MiroDogwalkCottagesOct08J.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/MiroDogwalkCottagesOct08J.jpg/500px-MiroDogwalkCottagesOct08J.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/23/MiroDogwalkCottagesOct08J.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:MiroDogwalkCottagesOct08J.jpg",
+      "caption": "New Orleans : Rare surviving example of 19th century Creole wooden rowhouses with intact \"dog-trots\" or \"dogwalks\" passages-- small homes with shared roof seperated by open corridor running from front to back. 300 block of North Miro Street, woods side.",
+      "source": "Wikimedia Commons",
+      "artist": "Infrogmation of New Orleans",
+      "date": "2008-10",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/John_Looney_House.jpg/1280px-John_Looney_House.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/John_Looney_House.jpg/500px-John_Looney_House.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/64/John_Looney_House.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:John_Looney_House.jpg",
+      "caption": "John Looney house at 4187 Greensport Rd. (Co. Rd. 24) in Ashville, Alabama. On the National Register of Historic Places.",
+      "source": "Wikimedia Commons",
+      "artist": "Chris from U.S.A.",
+      "date": "2010-01-12 22:36",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "954"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Autrey_House%2C_Lincoln_Parish%2C_LA_IMG_2543.JPG/1280px-Autrey_House%2C_Lincoln_Parish%2C_LA_IMG_2543.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Autrey_House%2C_Lincoln_Parish%2C_LA_IMG_2543.JPG/500px-Autrey_House%2C_Lincoln_Parish%2C_LA_IMG_2543.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/65/Autrey_House%2C_Lincoln_Parish%2C_LA_IMG_2543.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Autrey_House,_Lincoln_Parish,_LA_IMG_2543.JPG",
+      "caption": "I took photo with Canon camera of Autrey Dogtrot House in Lincoln Parish, west of Dubach, LA.",
+      "source": "Wikimedia Commons",
+      "artist": "Billy Hathorn",
+      "date": "2011-05-16",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Dogtrot house",
@@ -67,7 +149,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5288487",
+      "url": "https://www.wikidata.org/wiki/Q5288487",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:16.470Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Dogtrot house",
+      "url": "https://en.wikipedia.org/wiki/Dogtrot_house",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:16.470Z"
+      }
+    }
+  ],
   "wikidata": "Q5288487",
   "wikipedia": "Dogtrot house",
   "popularity": 35,
@@ -75,5 +180,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:43:16.470Z"
 }

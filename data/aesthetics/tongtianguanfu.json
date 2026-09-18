@@ -7,8 +7,8 @@
   "establishment": "regional_tradition",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Chinese Empire",
+  "geography": "Chinese Empire",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,29 @@
   "summary": "Tongtianguanfu (Chinese: 通天冠服) is a form of hanfu court attire which was worn by the emperor during the Song dynasty on very important occasions, such as grand court sessions and during major title-granting ceremonies.",
   "description": "Tongtianguanfu (Chinese: 通天冠服) is a form of hanfu court attire which was worn by the emperor during the Song dynasty on very important occasions, such as grand court sessions and during major title-granting ceremonies. The attire traces its origin from the Han dynasty.It was also worn in the Jin dynasty emperors when the apparel system of the Song dynasty was imitated and formed their own carriages and apparel system, and in the Ming dynasty. The tongtianguanfu was composed of a red outer robe, a white inner robe, a bixi, and a guan called tongtianguan, and a neck accessory called fangxin quling.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#6f563e",
+      "name": "umber"
+    },
+    {
+      "hex": "#995742",
+      "name": "bronze"
+    },
+    {
+      "hex": "#a98b59",
+      "name": "camel"
+    },
+    {
+      "hex": "#caae4c",
+      "name": "gold"
+    },
+    {
+      "hex": "#463f37",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +61,100 @@
   "tags": [
     "traditional costume"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Song_Xuanzu_%281%29.jpg/1280px-Song_Xuanzu_%281%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Song_Xuanzu_%281%29.jpg/500px-Song_Xuanzu_%281%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Song_Xuanzu_%281%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Song_Xuanzu_(1).jpg",
+      "caption": "Portrait assis de l'empereur Song Xuanzu",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "Song dynasty (960-1279)",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1771"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Imperial_Encyclopaedia_-_Ceremonial_Usages_-_pic391_-_%E6%96%B9%E5%BF%83%E6%9B%B2%E9%A0%98.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Imperial_Encyclopaedia_-_Ceremonial_Usages_-_pic391_-_%E6%96%B9%E5%BF%83%E6%9B%B2%E9%A0%98.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Imperial_Encyclopaedia_-_Ceremonial_Usages_-_pic391_-_%E6%96%B9%E5%BF%83%E6%9B%B2%E9%A0%98.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Imperial_Encyclopaedia_-_Ceremonial_Usages_-_pic391_-_%E6%96%B9%E5%BF%83%E6%9B%B2%E9%A0%98.png",
+      "caption": "This is a vectorization of an illustration from the Chinese encyclopedia Gujin Tushu Jicheng , section \"Ceremonial Usages\". Please consider vectorizing this picture manually and upload to File:Imperial Encyclopaedia - Ceremonial Usages - pic391 - 方心曲領.svg .",
+      "source": "Wikimedia Commons",
+      "artist": "Chen Menglei",
+      "date": "between 1700 and 1725 date QS:P,+1750-00-00T00:00:00Z/7,P131",
+      "license": "Public domain",
+      "width": "782",
+      "height": "2357"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Chu_Wuwang_and_Deng_Man.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/81/Chu_Wuwang_and_Deng_Man.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/81/Chu_Wuwang_and_Deng_Man.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chu_Wuwang_and_Deng_Man.png",
+      "caption": "​顧愷之《列女仁智圖》中的楚武王及夫人鄧曼",
+      "source": "Wikimedia Commons",
+      "artist": "Gu Kaizhi",
+      "date": "東晉時期",
+      "license": "Public domain",
+      "width": "742",
+      "height": "715"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Liang_Wudi.jpg/1280px-Liang_Wudi.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Liang_Wudi.jpg/500px-Liang_Wudi.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/Liang_Wudi.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Liang_Wudi.jpg",
+      "caption": "Xiao Yan, Martial Emperor of Liang. Hanging scroll, color on silk. Original size 76.8x56.4 cm (height x width). Image here is slightly cropped. Text is 梁武皇帝 (Emperor Wu of the Liang Dynasty). Located in National Palace Museum, Taipei.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1708"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Tongtianguan_%E9%80%9A%E5%A4%A9%E5%86%A0_%E9%80%81%E5%AD%90%E5%A4%A9%E7%8E%8B%E5%9B%BE%E5%8D%B7_%E5%90%B4%E9%81%93%E5%AD%90.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Tongtianguan_%E9%80%9A%E5%A4%A9%E5%86%A0_%E9%80%81%E5%AD%90%E5%A4%A9%E7%8E%8B%E5%9B%BE%E5%8D%B7_%E5%90%B4%E9%81%93%E5%AD%90.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Tongtianguan_%E9%80%9A%E5%A4%A9%E5%86%A0_%E9%80%81%E5%AD%90%E5%A4%A9%E7%8E%8B%E5%9B%BE%E5%8D%B7_%E5%90%B4%E9%81%93%E5%AD%90.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tongtianguan_%E9%80%9A%E5%A4%A9%E5%86%A0_%E9%80%81%E5%AD%90%E5%A4%A9%E7%8E%8B%E5%9B%BE%E5%8D%B7_%E5%90%B4%E9%81%93%E5%AD%90.jpg",
+      "caption": "the tongtianguan crown on Wu Daozi's painting",
+      "source": "Wikimedia Commons",
+      "artist": "ChenDaoIsHere",
+      "date": "2024-01-21",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "990",
+      "height": "1342"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/%E9%95%82%E7%A9%BA%E5%B1%B1%E8%A1%8C%E9%87%91%E9%A5%B0%E4%BB%B606330.jpg/1280px-%E9%95%82%E7%A9%BA%E5%B1%B1%E8%A1%8C%E9%87%91%E9%A5%B0%E4%BB%B606330.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/%E9%95%82%E7%A9%BA%E5%B1%B1%E8%A1%8C%E9%87%91%E9%A5%B0%E4%BB%B606330.jpg/500px-%E9%95%82%E7%A9%BA%E5%B1%B1%E8%A1%8C%E9%87%91%E9%A5%B0%E4%BB%B606330.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/%E9%95%82%E7%A9%BA%E5%B1%B1%E8%A1%8C%E9%87%91%E9%A5%B0%E4%BB%B606330.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%E9%95%82%E7%A9%BA%E5%B1%B1%E8%A1%8C%E9%87%91%E9%A5%B0%E4%BB%B606330.jpg",
+      "caption": "Gold ornament with openwork and shaped like a mountain.",
+      "source": "Wikimedia Commons",
+      "artist": "Augusthaiho",
+      "date": "2018-01-21 13:38:18",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Ornamental_plaque%2C_Eastern_Jin_dynasty%2C_Metropolitan_Museum_of_Art.JPG/1280px-Ornamental_plaque%2C_Eastern_Jin_dynasty%2C_Metropolitan_Museum_of_Art.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Ornamental_plaque%2C_Eastern_Jin_dynasty%2C_Metropolitan_Museum_of_Art.JPG/500px-Ornamental_plaque%2C_Eastern_Jin_dynasty%2C_Metropolitan_Museum_of_Art.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Ornamental_plaque%2C_Eastern_Jin_dynasty%2C_Metropolitan_Museum_of_Art.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ornamental_plaque,_Eastern_Jin_dynasty,_Metropolitan_Museum_of_Art.JPG",
+      "caption": "Ornamental plaque, Eastern Jin dynasty, Metropolitan Museum of Art",
+      "source": "Wikimedia Commons",
+      "artist": "Wmpearl",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1393"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Tongtianguanfu",
@@ -62,7 +177,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q110264269",
+      "url": "https://www.wikidata.org/wiki/Q110264269",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:09.278Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Tongtianguanfu",
+      "url": "https://en.wikipedia.org/wiki/Tongtianguanfu",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:09.278Z"
+      }
+    }
+  ],
   "wikidata": "Q110264269",
   "wikipedia": "Tongtianguanfu",
   "popularity": 35,
@@ -70,5 +208,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:02.213Z"
 }

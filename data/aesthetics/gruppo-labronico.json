@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Italy",
+  "geography": "Italy",
   "periodStart": "1920s",
   "periodEnd": "",
   "startYear": 1920,
@@ -17,7 +17,33 @@
   "summary": "The Gruppo Labronico is an Italian artistic association founded in Livorno in 1920.",
   "description": "The Gruppo Labronico is an Italian artistic association founded in Livorno in 1920.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f8f8f7",
+      "name": "ivory"
+    },
+    {
+      "hex": "#464644",
+      "name": "graphite"
+    },
+    {
+      "hex": "#646461",
+      "name": "umber"
+    },
+    {
+      "hex": "#080807",
+      "name": "black"
+    },
+    {
+      "hex": "#a6a7a4",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#dfe0dd",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Caff%C3%A8-Bardi.jpg/1280px-Caff%C3%A8-Bardi.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Caff%C3%A8-Bardi.jpg/500px-Caff%C3%A8-Bardi.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/76/Caff%C3%A8-Bardi.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Caff%C3%A8-Bardi.jpg",
+      "caption": "Caffé Bardi Livorno (1908-1921)",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1920-12-31",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "930"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gruppo Labronico",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3777377",
+      "url": "https://www.wikidata.org/wiki/Q3777377",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:06.426Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gruppo Labronico",
+      "url": "https://en.wikipedia.org/wiki/Gruppo_Labronico",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:06.426Z"
+      }
+    }
+  ],
   "wikidata": "Q3777377",
   "wikipedia": "Gruppo Labronico",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.854Z"
 }

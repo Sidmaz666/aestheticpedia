@@ -17,7 +17,33 @@
   "summary": "The I-house is a vernacular house type, popular in the United States from the colonial period onward.",
   "description": "The I-house is a vernacular house type, popular in the United States from the colonial period onward. The I-house was so named in the 1930s by Fred Kniffen, a cultural geographer at Louisiana State University who was a specialist in folk architecture. He identified and analyzed the type in his 1936 study of Louisiana house types.\n\nHe chose the name \"I-house\" because the style was commonly built in the rural farm areas of Indiana, Illinois and Iowa, all states beginning with the letter \"I\". But he was not implying that this house type originated in, or was restricted to, those three states. It is also referred to as Plantation Plain style.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#90c9fd",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#44413f",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#818281",
+      "name": "taupe"
+    },
+    {
+      "hex": "#64645f",
+      "name": "umber"
+    },
+    {
+      "hex": "#2b2826",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#9d9d9c",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,47 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Estaline_Valley_collapsing_I-house.jpg/1280px-Estaline_Valley_collapsing_I-house.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Estaline_Valley_collapsing_I-house.jpg/500px-Estaline_Valley_collapsing_I-house.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Estaline_Valley_collapsing_I-house.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Estaline_Valley_collapsing_I-house.jpg",
+      "caption": "Front and western end of a partially collapsed I-house on Estaline Valley Road just southwest of the Augusta Correctional Center in Augusta County , Virginia , United States . This angle provides a partial view of the interior structure of the house, which featured a mix of Feder",
+      "source": "Wikimedia Commons",
+      "artist": "Nyttend",
+      "date": "Taken on 4 June 2017",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "851"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Moss_Hill_House.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/30/Moss_Hill_House.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/Moss_Hill_House.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Moss_Hill_House.jpg",
+      "caption": "Moss Hill historic home near Pine Apple, Alabama.",
+      "source": "Wikimedia Commons",
+      "artist": "Carol M. Highsmith",
+      "date": "2010",
+      "license": "Public domain",
+      "width": "1024",
+      "height": "706"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Cohasset.jpg/1280px-Cohasset.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Cohasset.jpg/500px-Cohasset.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/01/Cohasset.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cohasset.jpg",
+      "caption": "Cohasset, US 601, 1 mile North of Crocketville, Crocketville vicinity, Hampton County, SC. SOUTHEAST (FRONT) AND SOUTHWEST SIDE ELEVATIONS, LOOKING EAST. (From HABS: Built in 1873. Significance: Excellent example of Carolina I house, a vernacular house type popular from the late ",
+      "source": "Wikimedia Commons",
+      "artist": "Jack Boucher",
+      "date": "1987-03",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "869"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — I-house",
@@ -62,7 +128,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5967732",
+      "url": "https://www.wikidata.org/wiki/Q5967732",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:23.014Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — I-house",
+      "url": "https://en.wikipedia.org/wiki/I-house",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:23.014Z"
+      }
+    }
+  ],
   "wikidata": "Q5967732",
   "wikipedia": "I-house",
   "popularity": 35,
@@ -70,5 +159,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:49:23.014Z"
 }

@@ -17,7 +17,33 @@
   "summary": "An ishizuri-e (石摺絵) is a Japanese woodblock print that mimics a stone rubbing.",
   "description": "An ishizuri-e (石摺絵) is a Japanese woodblock print that mimics a stone rubbing.  It has uninked images or text on a dark, usually black, background.\n\nAn ishizuri-e is a Japanese woodblock print that mimics a stone rubbing. It has uninked images or text on a dark, usually black, background. Okumura Masanobu was among the earliest artists to experiment with the technique, in which lines appear reversed, white against a roughened black background, so as to imitate the effect of rubbings taken from Chinese stone inscriptions.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#34322e",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#6d625a",
+      "name": "umber"
+    },
+    {
+      "hex": "#514a40",
+      "name": "umber 2"
+    },
+    {
+      "hex": "#ead4b8",
+      "name": "bone white"
+    },
+    {
+      "hex": "#937c65",
+      "name": "taupe"
+    },
+    {
+      "hex": "#99634e",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,47 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Poet_Kakinomoto_Hitomaro_by_Okumura_Masanobu.JPG/1280px-Poet_Kakinomoto_Hitomaro_by_Okumura_Masanobu.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Poet_Kakinomoto_Hitomaro_by_Okumura_Masanobu.JPG/500px-Poet_Kakinomoto_Hitomaro_by_Okumura_Masanobu.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Poet_Kakinomoto_Hitomaro_by_Okumura_Masanobu.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Poet_Kakinomoto_Hitomaro_by_Okumura_Masanobu.JPG",
+      "caption": "Poet Kakinomoto Hitomaro by Okumura Masanobu, woodblock print, James Michener Collection, Honolulu Museum of Art accession 14509",
+      "source": "Wikimedia Commons",
+      "artist": "Okumura Masanobu",
+      "date": "late 1740s",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "2749"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Ishizuri-Taito-II.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/42/Ishizuri-Taito-II.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/42/Ishizuri-Taito-II.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ishizuri-Taito-II.jpg",
+      "caption": "woodblock print, ishizuri-e, Katsushika Taito II, Chrysanthemum, c. 1830",
+      "source": "Wikimedia Commons",
+      "artist": "Katsushika Taito II",
+      "date": "circa 1830 date QS:P,+1830-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "882",
+      "height": "2445"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toshusai_Sharaku-_Otani_Oniji,_1794.jpg",
+      "caption": "Oniji Ōtani III (aka. Nakazō Nakamura II) as Edobee in the May 1794 production of Koi Nyōbo Somewake Tazuna at Edo Kawarasaki-za theater. Polychrome woodcut print on paper; 15 x 9 7/8 in. (38.1 x 22.9 cm) Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939 (JP2822)",
+      "source": "Wikimedia Commons",
+      "artist": "Sharaku",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "802",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Ishizuri-e",
@@ -62,7 +128,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1673900",
+      "url": "https://www.wikidata.org/wiki/Q1673900",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:25.738Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Ishizuri-e",
+      "url": "https://en.wikipedia.org/wiki/Ishizuri-e",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:25.738Z"
+      }
+    }
+  ],
   "wikidata": "Q1673900",
   "wikipedia": "Ishizuri-e",
   "popularity": 35,
@@ -70,5 +159,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:50:25.738Z"
 }

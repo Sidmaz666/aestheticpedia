@@ -17,7 +17,33 @@
   "summary": "The Português Suave (which can be translated as \"Portuguese soft\" or \"Portuguese smooth\") was an architectural style promoted by the Portuguese Estado Novo (New State) regime, essentially during the 1940s and the early 1950s.",
   "description": "The Português Suave (which can be translated as \"Portuguese soft\" or \"Portuguese smooth\") was an architectural style promoted by the Portuguese Estado Novo (New State) regime, essentially during the 1940s and the early 1950s. Officially promoted by the Portuguese government at the time as Estilo Português (\"Portuguese Style\"), it became more popularly known as \"Português Suave\" after a brand of cigarettes of the same name. This architectural style is also known as Estado Novo style, but this last denomination is not very correct, since during the Estado Novo diverse architectural styles have been applied in public buildings (namely the Art Deco and the Modern movement until the 1940s and the International Style after the late 1950s).",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b5aba3",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#93867d",
+      "name": "stone"
+    },
+    {
+      "hex": "#756a62",
+      "name": "bronze"
+    },
+    {
+      "hex": "#7fa6d6",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#d8d2ce",
+      "name": "bone white"
+    },
+    {
+      "hex": "#534c43",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,145 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Pra%C3%A7a_do_Areeiro_8924.jpg/1280px-Pra%C3%A7a_do_Areeiro_8924.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Pra%C3%A7a_do_Areeiro_8924.jpg/500px-Pra%C3%A7a_do_Areeiro_8924.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Pra%C3%A7a_do_Areeiro_8924.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pra%C3%A7a_do_Areeiro_8924.jpg",
+      "caption": "Praça do Areeiro",
+      "source": "Wikimedia Commons",
+      "artist": "João Carvalho",
+      "date": "2011-09-29",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Plano_geral_da_Casa_dos_Patudos.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Plano_geral_da_Casa_dos_Patudos.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Plano_geral_da_Casa_dos_Patudos.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Plano_geral_da_Casa_dos_Patudos.jpg",
+      "caption": "Casa dos Patudos - palacete e museu em Alpiarça, Portugal",
+      "source": "Wikimedia Commons",
+      "artist": "Senhormario",
+      "date": "2014-06-23 22:13:26",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1240",
+      "height": "821"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Museu_Aboim.JPG/1280px-Museu_Aboim.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Museu_Aboim.JPG/500px-Museu_Aboim.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Museu_Aboim.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Museu_Aboim.JPG",
+      "caption": "Museum in Aboim, Fafe Portugal",
+      "source": "Wikimedia Commons",
+      "artist": "Joseolgon",
+      "date": "2009-10-18",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Reis_Camelo_Caixa_Geral_de_Dep%C3%B3sitos_Faro.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/04/Reis_Camelo_Caixa_Geral_de_Dep%C3%B3sitos_Faro.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/04/Reis_Camelo_Caixa_Geral_de_Dep%C3%B3sitos_Faro.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Reis_Camelo_Caixa_Geral_de_Dep%C3%B3sitos_Faro.jpg",
+      "caption": "Veloso Reis Camelo, Caixa Geral de Depósitos, Faro",
+      "source": "Wikimedia Commons",
+      "artist": "Manuelvbotelho",
+      "date": "2013-07-07",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "750",
+      "height": "1000"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Cgd_santar%C3%A9m.jpg/1280px-Cgd_santar%C3%A9m.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Cgd_santar%C3%A9m.jpg/500px-Cgd_santar%C3%A9m.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Cgd_santar%C3%A9m.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cgd_santar%C3%A9m.jpg",
+      "caption": "CGD bank branch in Santarém, Portugal",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Teatro_Micaelense%2C_Ponta_Delgada%2C_isla_de_San_Miguel%2C_Azores%2C_Portugal%2C_2020-07-30%2C_DD_01.jpg/1280px-Teatro_Micaelense%2C_Ponta_Delgada%2C_isla_de_San_Miguel%2C_Azores%2C_Portugal%2C_2020-07-30%2C_DD_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Teatro_Micaelense%2C_Ponta_Delgada%2C_isla_de_San_Miguel%2C_Azores%2C_Portugal%2C_2020-07-30%2C_DD_01.jpg/500px-Teatro_Micaelense%2C_Ponta_Delgada%2C_isla_de_San_Miguel%2C_Azores%2C_Portugal%2C_2020-07-30%2C_DD_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/24/Teatro_Micaelense%2C_Ponta_Delgada%2C_isla_de_San_Miguel%2C_Azores%2C_Portugal%2C_2020-07-30%2C_DD_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Teatro_Micaelense,_Ponta_Delgada,_isla_de_San_Miguel,_Azores,_Portugal,_2020-07-30,_DD_01.jpg",
+      "caption": "Teatro Micaelense, Ponta Delgada, São Miguel Island, Azores, Portugal",
+      "source": "Wikimedia Commons",
+      "artist": "Diego Delso",
+      "date": "2020-07-30 11:24:33",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "842"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Pra%C3%A7a_do_Areeiro_8929.jpg/1280px-Pra%C3%A7a_do_Areeiro_8929.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Pra%C3%A7a_do_Areeiro_8929.jpg/500px-Pra%C3%A7a_do_Areeiro_8929.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Pra%C3%A7a_do_Areeiro_8929.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pra%C3%A7a_do_Areeiro_8929.jpg",
+      "caption": "Praça do Areeiro",
+      "source": "Wikimedia Commons",
+      "artist": "João Carvalho",
+      "date": "2011-09-29",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Lisbon_BW_2018-10-02_18-25-06.jpg/1280px-Lisbon_BW_2018-10-02_18-25-06.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Lisbon_BW_2018-10-02_18-25-06.jpg/500px-Lisbon_BW_2018-10-02_18-25-06.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/92/Lisbon_BW_2018-10-02_18-25-06.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lisbon_BW_2018-10-02_18-25-06.jpg",
+      "caption": "Portugal, Lisbon, Building at Avenida Sidónio Pais",
+      "source": "Wikimedia Commons",
+      "artist": "Berthold Werner",
+      "date": "2018-10-02 18:25:06",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "937"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/MuseuOriente.JPG/1280px-MuseuOriente.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/MuseuOriente.JPG/500px-MuseuOriente.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c8/MuseuOriente.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:MuseuOriente.JPG",
+      "caption": "Edifício Pedro Álvares Cabral , antigos Armazéns Frigoríficos do Bacalhau, actual Museu do Oriente, Alcântara, Lisboa",
+      "source": "Wikimedia Commons",
+      "artist": "Manuel Correia",
+      "date": "2008-05",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Banco_de_Portugal_%282%29.jpg/1280px-Banco_de_Portugal_%282%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Banco_de_Portugal_%282%29.jpg/500px-Banco_de_Portugal_%282%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Banco_de_Portugal_%282%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Banco_de_Portugal_(2).jpg",
+      "caption": "Madeira 2019",
+      "source": "Wikimedia Commons",
+      "artist": "Alberto-g-rovi",
+      "date": "2019-07-06 11:30:00",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "850"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Português Suave architecture",
@@ -62,7 +226,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3501299",
+      "url": "https://www.wikidata.org/wiki/Q3501299",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:27.073Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Português Suave architecture",
+      "url": "https://en.wikipedia.org/wiki/Portugu%C3%AAs_Suave_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:27.073Z"
+      }
+    }
+  ],
   "wikidata": "Q3501299",
   "wikipedia": "Português Suave architecture",
   "popularity": 35,
@@ -70,5 +257,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:00:27.073Z"
 }

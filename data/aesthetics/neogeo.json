@@ -43,7 +43,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Jeff_Koons_Tulips_Nord_LB.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Jeff_Koons_Tulips_Nord_LB.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Jeff_Koons_Tulips_Nord_LB.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jeff_Koons_Tulips_Nord_LB.jpg",
+      "caption": "Jeff Koons Tulips Nord LB",
+      "source": "Wikimedia Commons",
+      "artist": "Axel Hindemith",
+      "date": "2010-04",
+      "license": "Public domain",
+      "width": "995",
+      "height": "679"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Neogeo (art)",
@@ -66,7 +80,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q432026",
+      "url": "https://www.wikidata.org/wiki/Q432026",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:09.445Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Neogeo (art)",
+      "url": "https://en.wikipedia.org/wiki/Neogeo_(art)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:09.445Z"
+      }
+    }
+  ],
   "wikidata": "Q432026",
   "wikipedia": "Neogeo (art)",
   "popularity": 35,
@@ -74,5 +111,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:57:09.445Z"
 }

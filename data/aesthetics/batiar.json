@@ -7,8 +7,8 @@
   "establishment": "community_subculture",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Ukraine",
+  "geography": "Ukraine",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Batiar (Polish: batiar, baciar; Ukrainian: батяр, romanized: batiar), plural form batiary (baciary, батяри) is a popular name for a certain class of inhabitants of the city of Lviv (Polish: Lwów, German: Lemberg), considered to be a part of the city's subculture.",
   "description": "Batiar (Polish: batiar, baciar; Ukrainian: батяр, romanized: batiar), plural form batiary (baciary, батяри) is a popular name for a certain class of inhabitants of the city of Lviv (Polish: Lwów, German: Lemberg), considered to be a part of the city's subculture. Associated with Lviv's knajpa lifestyle, batiary became a cultural phenomenon at the beginning of the twentieth century, although their roots go back to the mid-nineteenth century, when Lviv was part of the Austro-Hungarian Empire. The batiar subculture declined following the Soviet annexation of Eastern Galicia and Volhynia and Lviv's attachment to the Ukrainian SSR, during which Soviet authorities expelled most of the Polish inhabitants and suppressed the local Polish culture. However, the use of the word \"batiar\" continued, and it remains a popular term of endearment in today's Lviv. Since 2008 Lviv has celebrated \"International Batiar Day\", started by the \"Dik-Art\" company in cooperation with the Lviv City Council.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#151514",
+      "name": "black"
+    },
+    {
+      "hex": "#5e5b55",
+      "name": "umber"
+    },
+    {
+      "hex": "#3c3b38",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#807b71",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a4988a",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#cdcac3",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,35 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Lw%C3%B3w_-_Lemberg._Ul.Karola_Ludwika._Yiddish.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Lw%C3%B3w_-_Lemberg._Ul.Karola_Ludwika._Yiddish.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Lw%C3%B3w_-_Lemberg._Ul.Karola_Ludwika._Yiddish.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lw%C3%B3w_-_Lemberg._Ul.Karola_Ludwika._Yiddish.jpg",
+      "caption": "Улица К. Людвика - Легионов - еврейский торговый центр Львова того времени, слева - вывеска на идиш. \"Батяр\" на переднем плане известен и по другим львовским открыткам.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1904",
+      "license": "Public domain",
+      "width": "1024",
+      "height": "671"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/%D0%92%D0%9F_%D0%94%D0%B5%D0%BD%D1%8C_%D0%B1%D0%B0%D1%82%D1%8F%D1%80%D0%B0_2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d2/%D0%92%D0%9F_%D0%94%D0%B5%D0%BD%D1%8C_%D0%B1%D0%B0%D1%82%D1%8F%D1%80%D0%B0_2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d2/%D0%92%D0%9F_%D0%94%D0%B5%D0%BD%D1%8C_%D0%B1%D0%B0%D1%82%D1%8F%D1%80%D0%B0_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%9F_%D0%94%D0%B5%D0%BD%D1%8C_%D0%B1%D0%B0%D1%82%D1%8F%D1%80%D0%B0_2.jpg",
+      "caption": "Празднование Дня батяра во Львове",
+      "source": "Wikimedia Commons",
+      "artist": "Водник",
+      "date": "Taken on 1 May 2008",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "533",
+      "height": "800"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Batiar",
@@ -62,7 +116,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2011022",
+      "url": "https://www.wikidata.org/wiki/Q2011022",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:22.909Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Batiar",
+      "url": "https://en.wikipedia.org/wiki/Batiar",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:22.909Z"
+      }
+    }
+  ],
   "wikidata": "Q2011022",
   "wikipedia": "Batiar",
   "popularity": 35,
@@ -70,5 +147,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.935Z"
 }

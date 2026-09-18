@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "People's Republic of China",
+  "geography": "People's Republic of China",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -19,7 +19,33 @@
   "summary": "Chungongtu (春宮圖, lit. spring palace illustration or spring palace picture), also known as chungonghua (春宮畵) or chungongmihua (春宮密畵) is a generic term for the traditional erotic art in China.",
   "description": "Chungongtu (春宮圖, lit. spring palace illustration or spring palace picture), also known as chungonghua (春宮畵) or chungongmihua (春宮密畵) is a generic term for the traditional erotic art in China.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#eed3a8",
+      "name": "apricot"
+    },
+    {
+      "hex": "#d1b38a",
+      "name": "tan"
+    },
+    {
+      "hex": "#927541",
+      "name": "bronze"
+    },
+    {
+      "hex": "#ae9369",
+      "name": "camel"
+    },
+    {
+      "hex": "#635830",
+      "name": "umber"
+    },
+    {
+      "hex": "#1c1a17",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,47 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/%E6%B8%85%E5%BA%B7%E7%86%99_%E3%80%88%E6%84%89%E6%82%85%E6%BB%BF%E5%9C%92%E3%80%89_%281%29.jpg/1280px-%E6%B8%85%E5%BA%B7%E7%86%99_%E3%80%88%E6%84%89%E6%82%85%E6%BB%BF%E5%9C%92%E3%80%89_%281%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/%E6%B8%85%E5%BA%B7%E7%86%99_%E3%80%88%E6%84%89%E6%82%85%E6%BB%BF%E5%9C%92%E3%80%89_%281%29.jpg/500px-%E6%B8%85%E5%BA%B7%E7%86%99_%E3%80%88%E6%84%89%E6%82%85%E6%BB%BF%E5%9C%92%E3%80%89_%281%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4a/%E6%B8%85%E5%BA%B7%E7%86%99_%E3%80%88%E6%84%89%E6%82%85%E6%BB%BF%E5%9C%92%E3%80%89_%281%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%E6%B8%85%E5%BA%B7%E7%86%99_%E3%80%88%E6%84%89%E6%82%85%E6%BB%BF%E5%9C%92%E3%80%89_(1).jpg",
+      "caption": "Gardens of Pleasure, Qing dynasty, Kangxi era (1)",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "Kangxi era (1661–1722)",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "916"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/18XX_Spring_Picture_01_anagoria.JPG/1280px-18XX_Spring_Picture_01_anagoria.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/18XX_Spring_Picture_01_anagoria.JPG/500px-18XX_Spring_Picture_01_anagoria.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ac/18XX_Spring_Picture_01_anagoria.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:18XX_Spring_Picture_01_anagoria.JPG",
+      "caption": "\"Spring Picture\"",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "19 th century date QS:P,+1850-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1354"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Qingero29.jpg/1280px-Qingero29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Qingero29.jpg/500px-Qingero29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Qingero29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Qingero29.jpg",
+      "caption": "Qingero29",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "2011-04-22 06:58:46",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "936"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Chungongtu",
@@ -64,7 +130,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q117210325",
+      "url": "https://www.wikidata.org/wiki/Q117210325",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:12.663Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Chungongtu",
+      "url": "https://en.wikipedia.org/wiki/Chungongtu",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:12.663Z"
+      }
+    }
+  ],
   "wikidata": "Q117210325",
   "wikipedia": "Chungongtu",
   "popularity": 35,
@@ -72,5 +161,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:05.515Z"
 }

@@ -23,7 +23,25 @@
   "summary": "Freehand brush work is a genre of Chinese traditional painting which includes poem, calligraphy, painting and seal.",
   "description": "Freehand brush work is a genre of Chinese traditional painting which includes poem, calligraphy, painting and seal. In Chinese, it is called Hsieh yi (traditional Chinese: 寫意; simplified Chinese: 写意; pinyin: Xiěyì), which literally means \"writing ideas\".  It was formed in a long period of artistic activities and promoted by the literati. Through the inheritance and development in the past dynasties, freehand brush work has gradually become the most influential and popular genre.\n\nThe freehand brush work emphasizes the semblance in the spiritual aspect. This kind of artwork does not chase for the physical similarity and the cooperation of reality. And it might be the essence of freehand brush work that it mostly grasps the most obvious or essential spiritual characteristics. The first rule of freehand brush work is the use of connotation which is a kind of spiritual meaning. It focuses on the personality and the cooperation of every element in the painting.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c9a949",
+      "name": "gold"
+    },
+    {
+      "hex": "#554a3f",
+      "name": "umber"
+    },
+    {
+      "hex": "#a89049",
+      "name": "brass"
+    },
+    {
+      "hex": "#7c6a44",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -45,7 +63,35 @@
   "tags": [
     "painting technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Watching_the_Spring_and_Listening_to_the_Wind_by_Tang_Yin.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Watching_the_Spring_and_Listening_to_the_Wind_by_Tang_Yin.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Watching_the_Spring_and_Listening_to_the_Wind_by_Tang_Yin.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Watching_the_Spring_and_Listening_to_the_Wind_by_Tang_Yin.jpg",
+      "caption": "Watching the Spring and Listening to the Wind , Tang Yin, Ming Dynasty, China, Nanjing Museum.",
+      "source": "Wikimedia Commons",
+      "artist": "Tang Yin",
+      "date": "16th century, Ming Dynasty",
+      "license": "Public domain",
+      "width": "487",
+      "height": "1034"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/f8b4c4c9-535b-4e23-8de7-dbb5cc7d7b90/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/f8b4c4c9-535b-4e23-8de7-dbb5cc7d7b90/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/f8b4c4c9-535b-4e23-8de7-dbb5cc7d7b90/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/14686",
+      "caption": "Four Studies of a Jockey, 1866",
+      "source": "Art Institute of Chicago",
+      "artist": "Edgar Degas",
+      "date": "1866",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1221"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Freehand brush work",
@@ -68,7 +114,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q10894988",
+      "url": "https://www.wikidata.org/wiki/Q10894988",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:09.840Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Freehand brush work",
+      "url": "https://en.wikipedia.org/wiki/Freehand_brush_work",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:09.840Z"
+      }
+    }
+  ],
   "wikidata": "Q10894988",
   "wikipedia": "Freehand brush work",
   "popularity": 35,
@@ -76,5 +145,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:46:09.840Z"
 }

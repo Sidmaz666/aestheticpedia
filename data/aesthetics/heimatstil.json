@@ -17,7 +17,33 @@
   "summary": "The Heimatstil is an architectural style of the second half of the nineteenth century and the first half of the twentieth referring to the historicist tendencies which one encounters in the German-speaking countries, including Switzerland (the architecture of chalets), but also i",
   "description": "The Heimatstil is an architectural style of the second half of the nineteenth century and the first half of the twentieth referring to the historicist tendencies which one encounters in the German-speaking countries, including Switzerland (the architecture of chalets), but also in Victorian England and even in the north and eastern parts of France, as well as Belgium and Flanders. The Heimatstil is characterized by the use of wood on the façade and sculpted beams, connected by protruding or rusticated stone, recalling the illustrations from literature and folklore, especially Germanic ones, from the time period.\n\nThe Heimatstil should not be confused with the closely related Neo-Germanic modern style (Heimatschutzarchitektur), a kind of modern historicism that emerged about 1905.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#3f423b",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#24251c",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#eaebee",
+      "name": "paper white"
+    },
+    {
+      "hex": "#a7a3a0",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#5b5f5a",
+      "name": "graphite"
+    },
+    {
+      "hex": "#d3ccc9",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,84 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Suedbahnhotel2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/95/Suedbahnhotel2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/95/Suedbahnhotel2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Suedbahnhotel2.jpg",
+      "caption": "Südbahnhotel Semmering, selfmade photograph from April 15 2007.",
+      "source": "Wikimedia Commons",
+      "artist": "No machine-readable author provided. Acp~commonswiki assumed (based on copyright claims).",
+      "date": "15 April 2007 (original upload date)",
+      "license": "Public domain",
+      "width": "1024",
+      "height": "680"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Reichenau_an_der_Rax_Villa_Wartholz_1900.jpg/1280px-Reichenau_an_der_Rax_Villa_Wartholz_1900.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Reichenau_an_der_Rax_Villa_Wartholz_1900.jpg/500px-Reichenau_an_der_Rax_Villa_Wartholz_1900.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/Reichenau_an_der_Rax_Villa_Wartholz_1900.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Reichenau_an_der_Rax_Villa_Wartholz_1900.jpg",
+      "caption": "Reichenau an der Rax, Villa Wartholz, um 1900",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "between 1890 and 1905 date QS:P,+1500-00-00T00:00:00Z/6,P131",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "952"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Kalfar.2.jpg/1280px-Kalfar.2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Kalfar.2.jpg/500px-Kalfar.2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/71/Kalfar.2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kalfar.2.jpg",
+      "caption": "Kalfar.2",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1280",
+      "height": "811"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Hotel_%22R%C3%B6mischer_Kaiser%22%2C_Stresemannstra%C3%9Fe_26_in_D%C3%BCsseldorf%2C_erbaut_durch_Josef_Kleesattel_von_1903_bis_1904%2C_Stra%C3%9Fenansicht.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Hotel_%22R%C3%B6mischer_Kaiser%22%2C_Stresemannstra%C3%9Fe_26_in_D%C3%BCsseldorf%2C_erbaut_durch_Josef_Kleesattel_von_1903_bis_1904%2C_Stra%C3%9Fenansicht.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Hotel_%22R%C3%B6mischer_Kaiser%22%2C_Stresemannstra%C3%9Fe_26_in_D%C3%BCsseldorf%2C_erbaut_durch_Josef_Kleesattel_von_1903_bis_1904%2C_Stra%C3%9Fenansicht.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hotel_%22R%C3%B6mischer_Kaiser%22,_Stresemannstra%C3%9Fe_26_in_D%C3%BCsseldorf,_erbaut_durch_Josef_Kleesattel_von_1903_bis_1904,_Stra%C3%9Fenansicht.jpg",
+      "caption": "Hotel \"Römischer Kaiser\", Stresemannstraße 26 in Düsseldorf, erbaut durch Josef Kleesattel von 1903 bis 1904, Straßenansicht",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1904",
+      "license": "Public domain",
+      "width": "1080",
+      "height": "1305"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Kviknebalestrand.jpg/1280px-Kviknebalestrand.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Kviknebalestrand.jpg/500px-Kviknebalestrand.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/91/Kviknebalestrand.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kviknebalestrand.jpg",
+      "caption": "Kviknebalestrand",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1280",
+      "height": "648"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Cottage_Hasenauerstra%C3%9Fe.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Cottage_Hasenauerstra%C3%9Fe.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Cottage_Hasenauerstra%C3%9Fe.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cottage_Hasenauerstra%C3%9Fe.jpg",
+      "caption": "de:Cottage (Wien) , Hasenauerstraße seen from Gregor-Mendel-Straße in 1900.",
+      "source": "Wikimedia Commons",
+      "artist": "Max Mayer Sperling ( † 1925 )",
+      "date": "circa 1900 date QS:P,+1900-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "1122",
+      "height": "699"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Heimatstil",
@@ -62,7 +165,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1595728",
+      "url": "https://www.wikidata.org/wiki/Q1595728",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:24.518Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Heimatstil",
+      "url": "https://en.wikipedia.org/wiki/Heimatstil",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:24.518Z"
+      }
+    }
+  ],
   "wikidata": "Q1595728",
   "wikipedia": "Heimatstil",
   "popularity": 35,
@@ -70,5 +196,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:48:24.518Z"
 }

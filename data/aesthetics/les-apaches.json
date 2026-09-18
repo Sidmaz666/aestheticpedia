@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "French Third Republic",
+  "geography": "French Third Republic",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -19,7 +19,33 @@
   "summary": "Les Apaches (or Société des Apaches) was a group of musicians, writers and artists which formed in Paris, France, in 1903.",
   "description": "Les Apaches (or Société des Apaches) was a group of musicians, writers and artists which formed in Paris, France, in 1903. The core was formed by the French composer Maurice Ravel,  the Spanish pianist Ricardo Viñes and the writer and critic Michel-Dimitri Calvocoressi. The group was private but never formal, and the wider membership was fluid; over 20 unofficial members would attend meetings of Les Apaches until it came to an end during World War I. During their active years, Les Apaches met weekly. The meetings were a chance for the members to perform and show new works or ideas to a small group, discuss contemporary artistic interests and collaborate.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#80543c",
+      "name": "bronze"
+    },
+    {
+      "hex": "#6e3e25",
+      "name": "sepia"
+    },
+    {
+      "hex": "#59240e",
+      "name": "sepia 2"
+    },
+    {
+      "hex": "#bda793",
+      "name": "khaki"
+    },
+    {
+      "hex": "#a5856f",
+      "name": "stone"
+    },
+    {
+      "hex": "#d2bfaf",
+      "name": "beige"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,44 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Claude_Debussy_by_Atelier_Nadar.jpg/1280px-Claude_Debussy_by_Atelier_Nadar.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Claude_Debussy_by_Atelier_Nadar.jpg/500px-Claude_Debussy_by_Atelier_Nadar.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Claude_Debussy_by_Atelier_Nadar.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Claude_Debussy_by_Atelier_Nadar.jpg",
+      "caption": "Photograph of Claude Debussy by Atelier Nadar (the studio of Nadar ). From Album de référence de l'Atelier Nadar. Vol. 13. Albumen print from a silver bromide glass negative. 22.3 x 16.2 cm (not clear if that's with mount or not)",
+      "source": "Wikimedia Commons",
+      "artist": "Adam Cuerden",
+      "date": "1890-1910",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1790"
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Borodin_2_opening_theme.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Borodin 2 opening theme",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Borodin_2_opening_theme.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 16,
+      "artist": "Amitchell125",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Maurice_Ravel_-_Miroirs_-_1._Noctuelles.flac?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Miroirs. 1 - Noctuelles",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Miroirs_-_1._Noctuelles.flac",
+      "source": "Wikimedia Commons",
+      "mime": "audio/x-flac",
+      "duration": 259,
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Les Apaches",
@@ -64,7 +127,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1820450",
+      "url": "https://www.wikidata.org/wiki/Q1820450",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:25.460Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Les Apaches",
+      "url": "https://en.wikipedia.org/wiki/Les_Apaches",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:25.460Z"
+      }
+    }
+  ],
   "wikidata": "Q1820450",
   "wikipedia": "Les Apaches",
   "popularity": 35,
@@ -72,5 +158,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.673Z"
 }

@@ -19,7 +19,33 @@
   "summary": "Chinsō (Japanese: 頂相 [tɕiɰ̃soː]; alternatively pronounced Chinzō [tɕindzoː]) are commemorative portraits of Zen masters, a traditional form of East Asian art, specifically Zen art.",
   "description": "Chinsō (Japanese: 頂相 [tɕiɰ̃soː]; alternatively pronounced Chinzō [tɕindzoː]) are commemorative portraits of Zen masters, a traditional form of East Asian art, specifically Zen art. They can be painted or sculpted and usually present a Zen master ceremonially dressed and seated upright in chair. Chinsō include realistic portraits of prominent Zen monks, possibly commissioned by them and painted while they were alive or shortly after they died, as well as depictions of famous Zen patriarchs from the past commissioned by his disciples.\n\nChinsō were believed to have been passed down by Zen masters to their disciples as a symbol of dharma transmission, and known to have been meant for use in rituals, especially to represent the deceased during memorial services, and as an icon for their followers. Before monks would die, they would sometimes write a simple poem in the upper part of their portrait called eulogy, or have another author or monk write an inscription at the top. In Japan many remaining sculptural Buddhist chinsō are made out of wood, which may explain why so few remain in China and Korea on account of the Huichang persecution when most wooden sculptures perished. Some of the oldest surviving chinsō of Chan masters were brought from China to Japan; about 12 of those are extant.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#867c77",
+      "name": "taupe"
+    },
+    {
+      "hex": "#55474f",
+      "name": "graphite"
+    },
+    {
+      "hex": "#cac2b8",
+      "name": "silver"
+    },
+    {
+      "hex": "#a49a8f",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#382c35",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#6e6265",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,34 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Zhongfeng_Mingben.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Zhongfeng_Mingben.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Zhongfeng_Mingben.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Zhongfeng_Mingben.jpg",
+      "caption": "Portrait of Zhongfeng Mingben. Private collection.",
+      "source": "Wikimedia Commons",
+      "artist": "Zhong",
+      "date": "Early 14th century",
+      "license": "Public domain",
+      "width": "723",
+      "height": "1600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Portrait_of_Ikky%C5%AB_S%C5%8Djun.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Portrait_of_Ikky%C5%AB_S%C5%8Djun.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Portrait_of_Ikky%C5%AB_S%C5%8Djun.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Ikky%C5%AB_S%C5%8Djun.jpg",
+      "caption": "Alternate version of a portrait of 休宗純 Ikkyū Sōjun (1394-1481)",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "Unknown date",
+      "license": "Public domain",
+      "width": "500",
+      "height": "375"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Chinsō",
@@ -64,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q11664408",
+      "url": "https://www.wikidata.org/wiki/Q11664408",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:08.626Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Chinsō",
+      "url": "https://en.wikipedia.org/wiki/Chins%C5%8D",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:08.626Z"
+      }
+    }
+  ],
   "wikidata": "Q11664408",
   "wikipedia": "Chinsō",
   "popularity": 35,
@@ -72,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:41:08.626Z"
 }

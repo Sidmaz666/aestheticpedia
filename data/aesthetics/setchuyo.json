@@ -17,7 +17,33 @@
   "summary": "Setchūyō (折衷様, lit. eclectic style) is an architectural style born in Japan during the Muromachi period from the fusion of elements from three different antecedent styles: wayō,  daibutsuyō, and zenshūyō.",
   "description": "Setchūyō (折衷様, lit. eclectic style) is an architectural style born in Japan during the Muromachi period from the fusion of elements from three different antecedent styles: wayō,  daibutsuyō, and zenshūyō. It is exemplified by the main hall at Kakurin-ji.  The combination of wayō and daibutsuyō in particular became so frequent that sometimes it is classed separately by scholars under the name Shin-wayō (新和様, new wayō).",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#4b321f",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#645039",
+      "name": "umber"
+    },
+    {
+      "hex": "#17120b",
+      "name": "black"
+    },
+    {
+      "hex": "#8f8a7e",
+      "name": "stone"
+    },
+    {
+      "hex": "#726f63",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b3aa99",
+      "name": "khaki"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Kakogawa_Kakurinji12n4592.jpg/1280px-Kakogawa_Kakurinji12n4592.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Kakogawa_Kakurinji12n4592.jpg/500px-Kakogawa_Kakurinji12n4592.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Kakogawa_Kakurinji12n4592.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kakogawa_Kakurinji12n4592.jpg",
+      "caption": "Kakurinji Buddhist temple in Kakogawa , Hyogo prefecture , Japan Opening in 589. This photograph is the Hondo (Japan's National Treasure). It was rebuilt in 1397.",
+      "source": "Wikimedia Commons",
+      "artist": "663highland",
+      "date": "2008-12-07",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "852"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/500px-Himeji_model7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Himeji_model7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Himeji_model7.JPG",
+      "caption": "Himeji model7",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Setchūyō",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3480647",
+      "url": "https://www.wikidata.org/wiki/Q3480647",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:10.387Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Setchūyō",
+      "url": "https://en.wikipedia.org/wiki/Setch%C5%ABy%C5%8D",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:10.387Z"
+      }
+    }
+  ],
   "wikidata": "Q3480647",
   "wikipedia": "Setchūyō",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:05:10.387Z"
 }

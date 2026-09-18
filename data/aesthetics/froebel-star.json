@@ -24,7 +24,33 @@
   "summary": "A Froebel star (German: Fröbelstern) is a Christmas decoration made of paper, common in Germany.",
   "description": "A Froebel star (German: Fröbelstern) is a Christmas decoration made of paper, common in Germany. In English it does not have a commonly recognised name; it can be referred to as an Advent star, Danish star, German star, Nordic star, Pennsylvanian star, Polish star, Swedish star, Christmas star, or Froebel star. It is also sometimes called a Moravian star, though the Moravian star is a general category of geometrical shapes and the sixteen tipped piece of origami is specifically called the Froebel star.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#cdc9c5",
+      "name": "silver"
+    },
+    {
+      "hex": "#261419",
+      "name": "black"
+    },
+    {
+      "hex": "#40322e",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#aa9f98",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#625351",
+      "name": "umber"
+    },
+    {
+      "hex": "#5d7088",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -46,7 +72,50 @@
   "tags": [
     "ornament"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/A_froebel_star.jpg/1280px-A_froebel_star.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/A_froebel_star.jpg/500px-A_froebel_star.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b3/A_froebel_star.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:A_froebel_star.jpg",
+      "caption": "on a christmas tree",
+      "source": "Wikimedia Commons",
+      "artist": "Jeremy Noble",
+      "date": "2008-12-06 08:26:18",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1917"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Fr%C3%B6belstern.jpg/1280px-Fr%C3%B6belstern.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Fr%C3%B6belstern.jpg/500px-Fr%C3%B6belstern.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/81/Fr%C3%B6belstern.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fr%C3%B6belstern.jpg",
+      "caption": "de:Fröbelstern",
+      "source": "Wikimedia Commons",
+      "artist": "Adrian Michael",
+      "date": "2013-12",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1166"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Lauhala_German_stars_DSC4752.jpg/1280px-Lauhala_German_stars_DSC4752.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Lauhala_German_stars_DSC4752.jpg/500px-Lauhala_German_stars_DSC4752.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/75/Lauhala_German_stars_DSC4752.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lauhala_German_stars_DSC4752.jpg",
+      "caption": "German stars made from lauhala (see Lauhala weaving ) in Puna, Hawaiʻi; lauhala weave as taught by Lynda Saffery (Puna, Hawaiʻi)",
+      "source": "Wikimedia Commons",
+      "artist": "This file was created by Thomas Tunsch . It is not in the public domain and use of this file outside of the licensing terms is a copyright violation. Please cre",
+      "date": "2015-04-08 11:57:35",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "848"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Froebel star",
@@ -69,7 +138,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1471736",
+      "url": "https://www.wikidata.org/wiki/Q1471736",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:13.458Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Froebel star",
+      "url": "https://en.wikipedia.org/wiki/Froebel_star",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:13.458Z"
+      }
+    }
+  ],
   "wikidata": "Q1471736",
   "wikipedia": "Froebel star",
   "popularity": 35,
@@ -77,5 +169,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:46:13.458Z"
 }

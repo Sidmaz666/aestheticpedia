@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Japan, Nagoya Castle",
+  "geography": "Japan, Nagoya Castle",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -41,7 +41,21 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Sarumen_Chaseki_002_colourised_AI.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Sarumen_Chaseki_002_colourised_AI.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Sarumen_Chaseki_002_colourised_AI.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sarumen_Chaseki_002_colourised_AI.jpg",
+      "caption": "Sarumen Chaseki tea house in Nagoya (at Tsuruma Park?)",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "before 1945 date QS:P,+1945-00-00T00:00:00Z/7,P1326,+1945-00",
+      "license": "Public domain",
+      "width": "1263",
+      "height": "848"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Sarumen Chaseki",
@@ -64,7 +78,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q85851866",
+      "url": "https://www.wikidata.org/wiki/Q85851866",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:14.910Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Sarumen Chaseki",
+      "url": "https://en.wikipedia.org/wiki/Sarumen_Chaseki",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:14.910Z"
+      }
+    }
+  ],
   "wikidata": "Q85851866",
   "wikipedia": "Sarumen Chaseki",
   "popularity": 35,
@@ -72,5 +109,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:54.490Z"
 }

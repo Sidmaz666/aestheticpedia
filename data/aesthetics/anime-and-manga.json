@@ -22,7 +22,33 @@
   "summary": "Anime and manga, or animanga for short, are forms of mass media produced by the content industry of Japan.",
   "description": "Anime and manga, or animanga for short, are forms of mass media produced by the content industry of Japan.\n\nThe anime and manga industry forms an integral part of Japan's soft power as one of its most prominent cultural exports. Anime are Japanese animated shows with a distinctive artstyle. Anime storylines can include fantasy or real life. They are famous for elements like vivid graphics and character expressions. In contrast, manga is strictly paper drawings, with comic book style drawings. Usually, anime are adaptations of manga but some of the anime with original stories are adapted into manga form.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#11152b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#39375c",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#baa29e",
+      "name": "khaki"
+    },
+    {
+      "hex": "#6c6a8b",
+      "name": "slate"
+    },
+    {
+      "hex": "#0f39a3",
+      "name": "cobalt"
+    },
+    {
+      "hex": "#624e48",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -44,7 +70,22 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/20140118174713IMG_5618_M_-_Desucon_Frostbite_2014_-_matiast1_%28cropped%29.jpg/1280px-20140118174713IMG_5618_M_-_Desucon_Frostbite_2014_-_matiast1_%28cropped%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/20140118174713IMG_5618_M_-_Desucon_Frostbite_2014_-_matiast1_%28cropped%29.jpg/500px-20140118174713IMG_5618_M_-_Desucon_Frostbite_2014_-_matiast1_%28cropped%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/df/20140118174713IMG_5618_M_-_Desucon_Frostbite_2014_-_matiast1_%28cropped%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:20140118174713IMG_5618_M_-_Desucon_Frostbite_2014_-_matiast1_(cropped).jpg",
+      "caption": "A group of cosplayers on stage at Yukicon 2014 convention in Finland",
+      "source": "Wikimedia Commons",
+      "artist": "Matias Tukiainen from Espoo, Finland",
+      "date": "2014-01-18 16:47",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "534"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Anime and manga",
@@ -67,7 +108,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q10901350",
+      "url": "https://www.wikidata.org/wiki/Q10901350",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:58.707Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Anime and manga",
+      "url": "https://en.wikipedia.org/wiki/Anime_and_manga",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:58.707Z"
+      }
+    }
+  ],
   "wikidata": "Q10901350",
   "wikipedia": "Anime and manga",
   "popularity": 35,
@@ -75,5 +139,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:35:58.707Z"
 }

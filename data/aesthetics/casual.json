@@ -17,7 +17,33 @@
   "summary": "The casual subculture is a subset of football culture that is characterised by the wearing of expensive designer clothing and hooliganism.",
   "description": "The casual subculture is a subset of football culture that is characterised by the wearing of expensive designer clothing and hooliganism. The subculture emerged in the United Kingdom during the late 1970s, as a significant number of young men attending football matches began wearing clothing produced by designer sportswear brands, including Burberry, Fred Perry, Sergio Tacchini, Lacoste, Fila, Lyle & Scott, and Ellesse. In the 1980s, casuals also began to wear other Italian brands including Stone Island and C.P. Company. Some participants dislike the term 'casuals', preferring the term ‘dresser’, with regional variations including Perry boys, trendies, and scallies.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#968672",
+      "name": "stone"
+    },
+    {
+      "hex": "#b7a68f",
+      "name": "khaki"
+    },
+    {
+      "hex": "#694628",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#ead9c3",
+      "name": "bone white"
+    },
+    {
+      "hex": "#d0bfa8",
+      "name": "beige"
+    },
+    {
+      "hex": "#493320",
+      "name": "walnut brown 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Casual_subculture_trainers_tobacco_and_forrest_hills.JPG/1280px-Casual_subculture_trainers_tobacco_and_forrest_hills.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Casual_subculture_trainers_tobacco_and_forrest_hills.JPG/500px-Casual_subculture_trainers_tobacco_and_forrest_hills.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Casual_subculture_trainers_tobacco_and_forrest_hills.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Casual_subculture_trainers_tobacco_and_forrest_hills.JPG",
+      "caption": "Photo of Adidas tobacco and Forrest Hills trainers of the type worn by the Casual subculture",
+      "source": "Wikimedia Commons",
+      "artist": "Genei",
+      "date": "2023-02",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "577"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Casual (subculture)",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1145738",
+      "url": "https://www.wikidata.org/wiki/Q1145738",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:12.675Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Casual (subculture)",
+      "url": "https://en.wikipedia.org/wiki/Casual_(subculture)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:12.675Z"
+      }
+    }
+  ],
   "wikidata": "Q1145738",
   "wikipedia": "Casual (subculture)",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:40:12.675Z"
 }

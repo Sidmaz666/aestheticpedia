@@ -64,7 +64,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7564437",
+      "url": "https://www.wikidata.org/wiki/Q7564437",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:17.431Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Soulboy",
+      "url": "https://en.wikipedia.org/wiki/Soulboy",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:17.431Z"
+      }
+    }
+  ],
   "wikidata": "Q7564437",
   "wikipedia": "Soulboy",
   "popularity": 35,
@@ -72,5 +95,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:06:17.431Z"
 }

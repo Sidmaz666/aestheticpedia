@@ -19,7 +19,33 @@
   "summary": "Soviet parallel cinema is a genre of film and underground cinematic movement that occurred in the Soviet Union in the 1970s onwards.",
   "description": "Soviet parallel cinema is a genre of film and underground cinematic movement that occurred in the Soviet Union in the 1970s onwards. The term parallel cinema (known in Russian as параллельное кино, parallel'noe kino) was first associated with the samizdat films made out of the official Soviet state system. Films from the parallel movement are considered to be avant-garde, non-conventionalist and cinematographically subversive.\n\nThe two main groups and founders of the parallel cinema movement are Evgenii Iufit and the Necrorealists in Leningrad (now known as Saint Petersburg), and the circle of Aleinikov brothers in Moscow. These two groups achieved phenomenal fame in Russia in the 1980s – and during the dissolution of the Soviet Union – for their involvement in the parallel cinema movement and \"late socialism\".",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fbfbfb",
+      "name": "ivory"
+    },
+    {
+      "hex": "#a9a9a9",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#3c3c3c",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#535353",
+      "name": "graphite"
+    },
+    {
+      "hex": "#6f6f6f",
+      "name": "slate"
+    },
+    {
+      "hex": "#d0d0d0",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,35 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Chien-Gorbachev%2C_1994-03-21.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Chien-Gorbachev%2C_1994-03-21.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Chien-Gorbachev%2C_1994-03-21.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chien-Gorbachev,_1994-03-21.jpg",
+      "caption": "Chien-Gorbachev, 1994-03-21",
+      "source": "Wikimedia Commons",
+      "artist": "故事封面圖片",
+      "date": "1994-03-21",
+      "license": "Public domain",
+      "width": "1001",
+      "height": "685"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Boris_Yukhananov_06.jpg/1280px-Boris_Yukhananov_06.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Boris_Yukhananov_06.jpg/500px-Boris_Yukhananov_06.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Boris_Yukhananov_06.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Boris_Yukhananov_06.jpg",
+      "caption": "Театральный режиссёр Борис Юхананов",
+      "source": "Wikimedia Commons",
+      "artist": "Dmitry Rozhkov",
+      "date": "2017-04-20 22:49:06",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1280"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Soviet parallel cinema",
@@ -64,7 +118,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4344910",
+      "url": "https://www.wikidata.org/wiki/Q4344910",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:18.576Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Soviet parallel cinema",
+      "url": "https://en.wikipedia.org/wiki/Soviet_parallel_cinema",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:18.576Z"
+      }
+    }
+  ],
   "wikidata": "Q4344910",
   "wikipedia": "Soviet parallel cinema",
   "popularity": 35,
@@ -72,5 +149,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:06:18.576Z"
 }

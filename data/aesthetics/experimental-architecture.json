@@ -17,7 +17,33 @@
   "summary": "Experimental Architecture is a visionary branch of architecture and research practice that aims to bring about change, and develop forms of architecture never seen before.",
   "description": "Experimental Architecture is a visionary branch of architecture and research practice that aims to bring about change, and develop forms of architecture never seen before. The common concept behind experimental architecture is the challenging of conventional methods of architecture in order to change the way in which we relate to the natural world, while meeting the needs of all peoples.\n\nRather than using architecture to control the environment, experimental architecture seeks to utilize the natural environment in its design, by searching for new ways in which we can inhabit our ecosystem.  Experimental architecture considers the contribution of non-humans to our living space. There is also a large emphasis, within experimental architecture, on the inclusivity of all peoples, disadvantaged included, as it addresses the realities of diverse bodies and abilities. Combating climate change, and reducing wastage and pollution is another main focus behind the concept of experimental architecture.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e4e4de",
+      "name": "bone white"
+    },
+    {
+      "hex": "#666343",
+      "name": "umber"
+    },
+    {
+      "hex": "#7b7e39",
+      "name": "olive green"
+    },
+    {
+      "hex": "#434028",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#bcb7af",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#857c69",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Supertree_Grove%2C_Gardens_by_the_Bay%2C_Singapore_-_20120712-02.jpg/1280px-Supertree_Grove%2C_Gardens_by_the_Bay%2C_Singapore_-_20120712-02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Supertree_Grove%2C_Gardens_by_the_Bay%2C_Singapore_-_20120712-02.jpg/500px-Supertree_Grove%2C_Gardens_by_the_Bay%2C_Singapore_-_20120712-02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Supertree_Grove%2C_Gardens_by_the_Bay%2C_Singapore_-_20120712-02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Supertree_Grove,_Gardens_by_the_Bay,_Singapore_-_20120712-02.jpg",
+      "caption": "The \"supertrees\" tower over Gardens by the Bay , Singapore. The tallest one even has a restaurant in it. An elevated walkway spans around the trees for visitors.",
+      "source": "Wikimedia Commons",
+      "artist": "Shiny Things .",
+      "date": "2012-07-12 16:08:38",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Supertrees%2C_Singapore_%2827428306290%29.jpg/1280px-Supertrees%2C_Singapore_%2827428306290%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Supertrees%2C_Singapore_%2827428306290%29.jpg/500px-Supertrees%2C_Singapore_%2827428306290%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Supertrees%2C_Singapore_%2827428306290%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Supertrees,_Singapore_(27428306290).jpg",
+      "caption": "Supertrees, Singapore (27428306290)",
+      "source": "Wikimedia Commons",
+      "artist": "Rod Waddington",
+      "date": "2016-06-16 21:50:52",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "740"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Experimental architecture",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5421149",
+      "url": "https://www.wikidata.org/wiki/Q5421149",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:00.822Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Experimental architecture",
+      "url": "https://en.wikipedia.org/wiki/Experimental_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:00.822Z"
+      }
+    }
+  ],
   "wikidata": "Q5421149",
   "wikipedia": "Experimental architecture",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:45:00.822Z"
 }

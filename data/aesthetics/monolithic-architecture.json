@@ -17,7 +17,33 @@
   "summary": "Monolithic architecture describes buildings which are carved, cast or excavated from a single piece of material, historically from rock.",
   "description": "Monolithic architecture describes buildings which are carved, cast or excavated from a single piece of material, historically from rock. The most basic form of monolithic architecture is a rock-cut building, such as the monolithic churches of Ethiopia built by the Zagwe dynasty, or the Pancha Rathas in India.  These are cut out of solid rock, to which they remain attached at the base.  In most cases, this is evident from the remaining surrounding rock, but sometimes a building is cut from an outcrop, as in the Shore Temple in southern India, and only inspection at close quarters reveals that the building is monolithic.\n\nThe terms monolith and monolithic column are normally used for objects made from a single large piece of rock which is detached from the ground. They may have been moved a considerable distance, as with several ancient Egyptian obelisks, which have been moved around the world. Buildings with a structural material that is poured into place, most commonly concrete, can also be described as monolithic. Extreme examples are monolithic domes, where the material is sprayed inside of a form to produce the solid structure.\n\nAn ancient example of a monolithic dome is that of the Mausoleum of Theodoric in Ravenna, Italy, the roof of which is made from a single stone.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#be9d81",
+      "name": "camel"
+    },
+    {
+      "hex": "#318ac8",
+      "name": "denim blue"
+    },
+    {
+      "hex": "#55a1d6",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#9b8474",
+      "name": "stone"
+    },
+    {
+      "hex": "#ccb199",
+      "name": "khaki"
+    },
+    {
+      "hex": "#726359",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Mahabalipuram%2C_Pancha_Rathas%2C_Tamil_Nadu%2C_India.jpg/1280px-Mahabalipuram%2C_Pancha_Rathas%2C_Tamil_Nadu%2C_India.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Mahabalipuram%2C_Pancha_Rathas%2C_Tamil_Nadu%2C_India.jpg/500px-Mahabalipuram%2C_Pancha_Rathas%2C_Tamil_Nadu%2C_India.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/35/Mahabalipuram%2C_Pancha_Rathas%2C_Tamil_Nadu%2C_India.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mahabalipuram,_Pancha_Rathas,_Tamil_Nadu,_India.jpg",
+      "caption": "Pancha Rathas (Pandava Rathas), a monument complex of monolithic ancient Dravidian rock-cut architecture dating to 7th century AD. Each of the five monuments resembles a chariot (ratha), and each is carved out of a single monolithic granite rock. Ratha temples, monolithic chariot",
+      "source": "Wikimedia Commons",
+      "artist": "Vyacheslav Argenberg",
+      "date": "2009-12-20 13:09:18",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Monolithic architecture",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q966937",
+      "url": "https://www.wikidata.org/wiki/Q966937",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:27.915Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Monolithic architecture",
+      "url": "https://en.wikipedia.org/wiki/Monolithic_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:27.915Z"
+      }
+    }
+  ],
   "wikidata": "Q966937",
   "wikipedia": "Monolithic architecture",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:55:27.915Z"
 }

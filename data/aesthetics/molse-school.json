@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Belgium",
+  "geography": "Belgium",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Molse School, translated as \"School of Mol\", is a common term for some international paint artists or a specific genre of paintings in late 19th and early 20th century.",
   "description": "Molse School, translated as \"School of Mol\", is a common term for some international paint artists or a specific genre of paintings in late 19th and early 20th century.  The paintings typically show picturesque and rustic places, farms, ... of the Belgian municipality Mol, which is located in the Campine.  The most famous painters of the  Molse School were Jakob Smits and Dirk Baksteen who lived in Achterbos, a hamlet of Mol.\n\nBased upon the Barbizon school the municipality Mol organized an international art exhibition in 1907 and invited painters from all over the world.   Most of these artists had not met before and their only connection was their stay in a local hotel during the exhibition. These artists were not tied by a fine art society, neither was there a common style. In total 68 artists participated at this event, showing  212 works. This exhibition was also an attempt to show the artists the beauty of Mol, its heath, the white sand flats and how the inhabitants (mostly farmers) lived.  This attempt succeeded.\n\nUpon their return home, the artists showed their paintings to their colleagues. This resulted in those colleagues also coming over to Mol making painting en plein air popular.\n\nSome artists commonly categorized under the  Molse School are Dirk Baksteen, Gerard Baksteen, Charles Claessens, Leon Delderenne, Paul Mathieu, Ernest Midy, Erneste Rinquet, Jakob Smits, Willem Battaille, Emile Van Damme-Sylva, Paula Van Rompa-Zenke, Gaston De Biemme",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#6f7374",
+      "name": "slate"
+    },
+    {
+      "hex": "#d2c6b2",
+      "name": "beige"
+    },
+    {
+      "hex": "#4f585e",
+      "name": "graphite"
+    },
+    {
+      "hex": "#45443f",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#73583e",
+      "name": "umber"
+    },
+    {
+      "hex": "#8d8d83",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,60 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Jacob_Smits_Het_Gehucht.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Jacob_Smits_Het_Gehucht.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Jacob_Smits_Het_Gehucht.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jacob_Smits_Het_Gehucht.jpg",
+      "caption": "nl:Jakob Smits , schilderij Het Gehucht, museum Jakob Smits te Mol, Belgie, olieverf/doek 105 x 100 cm",
+      "source": "Wikimedia Commons",
+      "artist": "Jacob Smits, Dutch Painter, 1855-1928",
+      "license": "Public domain",
+      "width": "1230",
+      "height": "1212"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Paul_Mathieu_001.jpg/1280px-Paul_Mathieu_001.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Paul_Mathieu_001.jpg/500px-Paul_Mathieu_001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/92/Paul_Mathieu_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paul_Mathieu_001.jpg",
+      "caption": "\"Old houses - sunny afternoon\", oil painting on canvas by Paul Mathieu (1872-1932)",
+      "source": "Wikimedia Commons",
+      "artist": "JoJan - artwork by Paul Mathieu",
+      "date": "1920",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1039"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Willem_Battaille_001.JPG/1280px-Willem_Battaille_001.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Willem_Battaille_001.JPG/500px-Willem_Battaille_001.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Willem_Battaille_001.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Willem_Battaille_001.JPG",
+      "caption": "\"Rivierlandschap\", olieverf op doek (33 x 60 cm), getekend door Willem Battaille (1867-1933)",
+      "source": "Wikimedia Commons",
+      "artist": "JoJan - artwork by Willem Battaille",
+      "date": "2010-05-01",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "726"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/0009_Kempisch_landschap_1927.jpg/1280px-0009_Kempisch_landschap_1927.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/0009_Kempisch_landschap_1927.jpg/500px-0009_Kempisch_landschap_1927.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/0009_Kempisch_landschap_1927.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:0009_Kempisch_landschap_1927.jpg",
+      "caption": "schilderij ( http://vocab.getty.edu/aat/300033799 ), Jakob Smits ( https://viaf.org/viaf/5087835 ), Jakob Smits Museum ( https://viaf.org/viaf/172730427 )",
+      "source": "Wikimedia Commons",
+      "artist": "Jakob Smits",
+      "date": "1927 date QS:P571,+1927-00-00T00:00:00Z/9",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1213"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Molse School",
@@ -62,7 +141,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1940971",
+      "url": "https://www.wikidata.org/wiki/Q1940971",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:24.856Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Molse School",
+      "url": "https://en.wikipedia.org/wiki/Molse_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:24.856Z"
+      }
+    }
+  ],
   "wikidata": "Q1940971",
   "wikipedia": "Molse School",
   "popularity": 35,
@@ -70,5 +172,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.399Z"
 }

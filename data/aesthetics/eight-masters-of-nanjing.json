@@ -19,7 +19,29 @@
   "summary": "The Eight Masters of Nanjing (Chinese: 南京八家; pinyin: Nánjīng Bā Jiā) or Eight Masters of Jinling (Chinese: 金陵八家; pinyin: Jīnlíng Bā Jiā) were a group of 17th century Chinese painters living in Nanjing who were leaders of the Nanjing school.",
   "description": "The Eight Masters of Nanjing (Chinese: 南京八家; pinyin: Nánjīng Bā Jiā) or Eight Masters of Jinling (Chinese: 金陵八家; pinyin: Jīnlíng Bā Jiā) were a group of 17th century Chinese painters living in Nanjing who were leaders of the Nanjing school. The most prominent of them was Gong Xian. The Eight Masters of Nanjing were:\n\nGong Xian (ca. 1618–1689)\n\nFan Qi (1615–1616-ca. 1694)\n\nYe Xin (fl. 1650-1670s)\n\nZou Zhe (1636-ca. 1708)\n\nGao Cen (fl. 1670s; d. 1689)\n\nHu Zao (fl. 1681)\n\nWu Hong (fl. 1670s-1680s)\n\nXie Sun (fl. 1679)",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a14130",
+      "name": "brick"
+    },
+    {
+      "hex": "#d9a14a",
+      "name": "gold"
+    },
+    {
+      "hex": "#b99e75",
+      "name": "camel"
+    },
+    {
+      "hex": "#a77d54",
+      "name": "copper"
+    },
+    {
+      "hex": "#ab623f",
+      "name": "copper 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +63,20 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Huizong.jpg/1280px-Huizong.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Huizong.jpg/500px-Huizong.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Huizong.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Huizong.jpg",
+      "caption": "Emperor Huizong of Song, emperor of China from 1100-1126 AD.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1708"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Eight Masters of Nanjing",
@@ -64,7 +99,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5348995",
+      "url": "https://www.wikidata.org/wiki/Q5348995",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:16.008Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Eight Masters of Nanjing",
+      "url": "https://en.wikipedia.org/wiki/Eight_Masters_of_Nanjing",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:16.008Z"
+      }
+    }
+  ],
   "wikidata": "Q5348995",
   "wikipedia": "Eight Masters of Nanjing",
   "popularity": 35,
@@ -72,5 +130,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:44:16.008Z"
 }

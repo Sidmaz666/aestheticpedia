@@ -7,17 +7,43 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
-  "periodStart": "",
+  "origin": "Republic of Florence, Republic of Venice",
+  "geography": "Republic of Florence, Republic of Venice",
+  "periodStart": "16th century",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 1501,
   "endYear": null,
-  "era": "",
+  "era": "16th century",
   "summary": "The cultural and artistic events of Italy during the period 1500 to 1599 are collectively referred to as the Cinquecento ( CHING-kwih-CHEN-toh, Italian: [ˌtʃiŋkweˈtʃɛnto]), from the Italian for the number '500', in turn from millecinquecento, '1500'.",
   "description": "The cultural and artistic events of Italy during the period 1500 to 1599 are collectively referred to as the Cinquecento ( CHING-kwih-CHEN-toh, Italian: [ˌtʃiŋkweˈtʃɛnto]), from the Italian for the number '500', in turn from millecinquecento, '1500'. Cinquecento encompasses the styles and events of the High Italian Renaissance, and Mannerism.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#332b22",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#1a1413",
+      "name": "black"
+    },
+    {
+      "hex": "#5f4b36",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#a18862",
+      "name": "moss"
+    },
+    {
+      "hex": "#8d6e43",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b6a99e",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,62 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Collage_arte_italiana.jpg/1280px-Collage_arte_italiana.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Collage_arte_italiana.jpg/500px-Collage_arte_italiana.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Collage_arte_italiana.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Collage_arte_italiana.jpg",
+      "caption": "Collage di varie foto sull'arte italiana.",
+      "source": "Wikimedia Commons",
+      "artist": "collection by DanieleDF1995 ( talk )",
+      "date": "2010-03-29",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "2276"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Titian_-_Self-portrait_%28Museo_del_Prado%29.jpg/1280px-Titian_-_Self-portrait_%28Museo_del_Prado%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Titian_-_Self-portrait_%28Museo_del_Prado%29.jpg/500px-Titian_-_Self-portrait_%28Museo_del_Prado%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Titian_-_Self-portrait_%28Museo_del_Prado%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Titian_-_Self-portrait_(Museo_del_Prado).jpg",
+      "caption": "Self-portrait of the Italian painter Tiziano Vecellio (c. 1490-1576), better known as Titian.",
+      "source": "Wikimedia Commons",
+      "artist": "Titian",
+      "date": "circa 1562 date QS:P571,+1562-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1738"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Tintoretto-selfport.jpg/1280px-Tintoretto-selfport.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Tintoretto-selfport.jpg/500px-Tintoretto-selfport.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/Tintoretto-selfport.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tintoretto-selfport.jpg",
+      "caption": "Tintoretto-selfport",
+      "source": "Wikimedia Commons",
+      "artist": "Jim.kovic",
+      "date": "2014-09-20 12:49:36",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1564"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Paolo_Veronese%2C_avtoportret.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Paolo_Veronese%2C_avtoportret.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Paolo_Veronese%2C_avtoportret.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paolo_Veronese,_avtoportret.jpg",
+      "caption": "Self-Portrait",
+      "source": "Wikimedia Commons",
+      "artist": "Paolo Veronese",
+      "date": "between 1558 and 1563 date QS:P,+1550-00-00T00:00:00Z/7,P131",
+      "license": "Public domain",
+      "width": "751",
+      "height": "944"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Cinquecento",
@@ -62,7 +143,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q847706",
+      "url": "https://www.wikidata.org/wiki/Q847706",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:16.434Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cinquecento",
+      "url": "https://en.wikipedia.org/wiki/Cinquecento",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:16.434Z"
+      }
+    }
+  ],
   "wikidata": "Q847706",
   "wikipedia": "Cinquecento",
   "popularity": 35,
@@ -70,5 +174,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:05.468Z"
 }

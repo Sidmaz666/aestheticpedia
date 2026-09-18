@@ -17,7 +17,33 @@
   "summary": "Shed style refers to a style of architecture that makes use of single-sloped roofs (commonly called \"shed roofs\").",
   "description": "Shed style refers to a style of architecture that makes use of single-sloped roofs (commonly called \"shed roofs\").\n\nThe style originated from the designs of architects Charles Willard Moore and Robert Venturi in the 1960s. Their works were influential to the style that would include the Sea Ranch in California (Moore)  and the Vanna Venturi House (Venturi).  Shed style architecture became very popular in the 1970s and 1980s, but most shed style homes stopped being built after the mid to late 1980s, though, today, houses use some characteristics from the shed style houses.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#809bae",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#907a61",
+      "name": "bronze"
+    },
+    {
+      "hex": "#aaa9ae",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#667b8a",
+      "name": "slate"
+    },
+    {
+      "hex": "#595e59",
+      "name": "graphite"
+    },
+    {
+      "hex": "#cdccd7",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/V_Venturi_H_720am.JPG/1280px-V_Venturi_H_720am.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/V_Venturi_H_720am.JPG/500px-V_Venturi_H_720am.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/V_Venturi_H_720am.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:V_Venturi_H_720am.JPG",
+      "caption": "Front facade of the Vanna Venturi house, one of the first major works of post modern architecture, known especially for the facade and its split gable.",
+      "source": "Wikimedia Commons",
+      "artist": "Smallbones",
+      "date": "2010-12-11",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Shed style",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7492291",
+      "url": "https://www.wikidata.org/wiki/Q7492291",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:16.420Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Shed style",
+      "url": "https://en.wikipedia.org/wiki/Shed_style",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:16.420Z"
+      }
+    }
+  ],
   "wikidata": "Q7492291",
   "wikipedia": "Shed style",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:05:16.420Z"
 }

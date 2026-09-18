@@ -17,7 +17,33 @@
   "summary": "Normcore is a  unisex fashion trend characterized by unpretentious, average-looking clothing.",
   "description": "Normcore is a  unisex fashion trend characterized by unpretentious, average-looking clothing. Normcore fashion includes jeans, T-shirts, sweats, button-downs, and sneakers.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fefefe",
+      "name": "ivory"
+    },
+    {
+      "hex": "#bda285",
+      "name": "sand"
+    },
+    {
+      "hex": "#dac6ae",
+      "name": "beige"
+    },
+    {
+      "hex": "#957456",
+      "name": "bronze"
+    },
+    {
+      "hex": "#7b5739",
+      "name": "umber"
+    },
+    {
+      "hex": "#773b1d",
+      "name": "sepia"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,35 @@
   "tags": [
     "fashion style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Valentino_evening_gown_for_Audrey_Hepburn.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Valentino_evening_gown_for_Audrey_Hepburn.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Valentino_evening_gown_for_Audrey_Hepburn.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Valentino_evening_gown_for_Audrey_Hepburn.jpg",
+      "caption": "Dress made by Valentino, worn by Audrey Hepburn. Photographed at the exhibition \"Valentino a Roma\" at Museo Ara Pacis in Rome",
+      "source": "Wikimedia Commons",
+      "artist": "Loquax",
+      "date": "2008-08",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "670",
+      "height": "1763"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BathingSuit1920s.jpg",
+      "caption": "Woman's bathing suit from 1920s. Photo postcard. No copyright notice on card. This is a SOL postcard, series 2832. Here is a larger example of the posted image.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "early 1920s date QS:P,+1920-00-00T00:00:00Z/8,P4241,Q4071972",
+      "license": "Public domain",
+      "width": "768",
+      "height": "490"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Normcore",
@@ -62,7 +116,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16079538",
+      "url": "https://www.wikidata.org/wiki/Q16079538",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:09.623Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Normcore",
+      "url": "https://en.wikipedia.org/wiki/Normcore",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:09.623Z"
+      }
+    }
+  ],
   "wikidata": "Q16079538",
   "wikipedia": "Normcore",
   "popularity": 35,
@@ -70,5 +147,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:58:09.623Z"
 }

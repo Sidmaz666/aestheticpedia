@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Papua New Guinea",
+  "geography": "Papua New Guinea",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -39,7 +39,21 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/People_of_Papua%2C_New_Guinea_%28from_a_book_published_in_1906%29.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/54/People_of_Papua%2C_New_Guinea_%28from_a_book_published_in_1906%29.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/54/People_of_Papua%2C_New_Guinea_%28from_a_book_published_in_1906%29.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:People_of_Papua,_New_Guinea_(from_a_book_published_in_1906).png",
+      "caption": "ニューギニアのパプア人（1906年発行の本より）",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1906",
+      "license": "Public domain",
+      "width": "913",
+      "height": "669"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Traditional architecture of Papua New Guinea",
@@ -62,7 +76,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q120052860",
+      "url": "https://www.wikidata.org/wiki/Q120052860",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:15.181Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Traditional architecture of Papua New Guinea",
+      "url": "https://en.wikipedia.org/wiki/Traditional_architecture_of_Papua_New_Guinea",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:15.181Z"
+      }
+    }
+  ],
   "wikidata": "Q120052860",
   "wikipedia": "Traditional architecture of Papua New Guinea",
   "popularity": 35,
@@ -70,5 +107,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:02.216Z"
 }

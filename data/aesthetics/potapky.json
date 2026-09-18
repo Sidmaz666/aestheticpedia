@@ -7,8 +7,8 @@
   "establishment": "community_subculture",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Protectorate of Bohemia and Moravia, Czechoslovakia",
+  "geography": "Protectorate of Bohemia and Moravia, Czechoslovakia",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q12046534",
+      "url": "https://www.wikidata.org/wiki/Q12046534",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:10.748Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Potápky",
+      "url": "https://en.wikipedia.org/wiki/Pot%C3%A1pky",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:10.748Z"
+      }
+    }
+  ],
   "wikidata": "Q12046534",
   "wikipedia": "Potápky",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.076Z"
 }

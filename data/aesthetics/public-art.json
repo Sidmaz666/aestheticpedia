@@ -19,7 +19,33 @@
   "summary": "Public art is art in any media whose form, function, and meaning are created for the general public through a public process.",
   "description": "Public art is art in any media whose form, function, and meaning are created for the general public through a public process. It is a specific art genre with its own professional and critical discourse. Public art is visually and physically accessible to the public; it is installed in public spaces in both outdoor and indoor settings.  Public art often seeks to embody public or universal concepts rather than commercial, partisan, or personal concepts or interests. Notably, public art is also the direct or indirect product of a public process of creation, procurement and maintenance.\n\nIndependent art created or staged in or near the public realm (for example, graffiti, street art) lacks official or tangible public sanction has not been recognized as part of the public art genre, however the popularity of some street artists have led to this notion being reconsidered by many. Such unofficial artwork may exist on private or public property immediately adjacent to the public realm, or in natural settings but, however ubiquitous, it sometimes falls outside the definition of public art by its absence of public process or public sanction as \"bona fide\" public art.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#6f747a",
+      "name": "slate"
+    },
+    {
+      "hex": "#4c4f50",
+      "name": "graphite"
+    },
+    {
+      "hex": "#aab7c9",
+      "name": "silver"
+    },
+    {
+      "hex": "#3a2f19",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#8e949b",
+      "name": "stone"
+    },
+    {
+      "hex": "#cfd2d6",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,144 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/The_Scallop%2C_Maggi_Hambling%2C_Aldeburgh.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a7/The_Scallop%2C_Maggi_Hambling%2C_Aldeburgh.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a7/The_Scallop%2C_Maggi_Hambling%2C_Aldeburgh.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Scallop,_Maggi_Hambling,_Aldeburgh.jpg",
+      "caption": "The Scallop, Maggi Hambling, Aldeburgh",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1156",
+      "height": "768"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/The_Spire.jpg/1280px-The_Spire.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/The_Spire.jpg/500px-The_Spire.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2f/The_Spire.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Spire.jpg",
+      "caption": "The Spire in Dublin .",
+      "source": "Wikimedia Commons",
+      "artist": "Almbauer",
+      "date": "Taken on 26 September 2016, 15:32:27",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "931"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Le_Penseur_Mus%C3%A9e_Rodin_Paris_S.1295.jpg/1280px-Le_Penseur_Mus%C3%A9e_Rodin_Paris_S.1295.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Le_Penseur_Mus%C3%A9e_Rodin_Paris_S.1295.jpg/500px-Le_Penseur_Mus%C3%A9e_Rodin_Paris_S.1295.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Le_Penseur_Mus%C3%A9e_Rodin_Paris_S.1295.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Le_Penseur_Mus%C3%A9e_Rodin_Paris_S.1295.jpg",
+      "caption": "Le Penseur, grand modèle",
+      "source": "Wikimedia Commons",
+      "artist": "Auguste Rodin",
+      "date": "1903. 1904 for cast. 2017-06-04 for photograph",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1819"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Manneken_Pis_%28DSCF4463%29.jpg/1280px-Manneken_Pis_%28DSCF4463%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Manneken_Pis_%28DSCF4463%29.jpg/500px-Manneken_Pis_%28DSCF4463%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/03/Manneken_Pis_%28DSCF4463%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Manneken_Pis_(DSCF4463).jpg",
+      "caption": "Manneken Pis (Brussels, Belgium)",
+      "source": "Wikimedia Commons",
+      "artist": "Trougnouf",
+      "date": "2018-02-26 14:58:49",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "990"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Angel_of_the_North_2016_011.jpg/1280px-Angel_of_the_North_2016_011.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Angel_of_the_North_2016_011.jpg/500px-Angel_of_the_North_2016_011.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/Angel_of_the_North_2016_011.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Angel_of_the_North_2016_011.jpg",
+      "caption": "Antony Gormley, Angel of the North, 1998.",
+      "source": "Wikimedia Commons",
+      "artist": "Photograph by Mike Peel ( www.mikepeel.net ).",
+      "date": "2016-08-12 09:31:51",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Peace_Flame_Hiroshima_20120128.JPG/1280px-Peace_Flame_Hiroshima_20120128.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Peace_Flame_Hiroshima_20120128.JPG/500px-Peace_Flame_Hiroshima_20120128.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Peace_Flame_Hiroshima_20120128.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Peace_Flame_Hiroshima_20120128.JPG",
+      "caption": "Peace Flame Hiroshima 20120128",
+      "source": "Wikimedia Commons",
+      "artist": "Taisyo",
+      "date": "2012-01-28",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "944"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Jp-riopelle-joute.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Jp-riopelle-joute.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Jp-riopelle-joute.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jp-riopelle-joute.jpg",
+      "caption": "La Joute by Jean-Paul Riopelle, in the Place Jean-Paul-Riopelle, Montreal. La joute de Jean-Paul Riopelle, dans la place Jean-Paul-Riopelle, Montréal.",
+      "source": "Wikimedia Commons",
+      "artist": "Montrealais",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "896",
+      "height": "592"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Salifou_Lindou_MG_8562.jpg/1280px-Salifou_Lindou_MG_8562.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Salifou_Lindou_MG_8562.jpg/500px-Salifou_Lindou_MG_8562.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Salifou_Lindou_MG_8562.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Salifou_Lindou_MG_8562.jpg",
+      "caption": "SUD-Salon Urbain de Douala - Salifou Lindou",
+      "source": "Wikimedia Commons",
+      "artist": "Lard Buurman",
+      "date": "2010-12-06 17:38:22",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "854"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Clarence_Dock_Public_Art.jpg/1280px-Clarence_Dock_Public_Art.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Clarence_Dock_Public_Art.jpg/500px-Clarence_Dock_Public_Art.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Clarence_Dock_Public_Art.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Clarence_Dock_Public_Art.jpg",
+      "caption": "Public art displayed at Clarence Dock",
+      "source": "Wikimedia Commons",
+      "artist": "Mtaylor848 ( talk )",
+      "date": "2008-08-16",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Hydraulophone_water-pipe-organ-flute_as_public_interactive_art.jpg/1280px-Hydraulophone_water-pipe-organ-flute_as_public_interactive_art.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Hydraulophone_water-pipe-organ-flute_as_public_interactive_art.jpg/500px-Hydraulophone_water-pipe-organ-flute_as_public_interactive_art.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Hydraulophone_water-pipe-organ-flute_as_public_interactive_art.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hydraulophone_water-pipe-organ-flute_as_public_interactive_art.jpg",
+      "caption": "Picture of outdoor public art sculpture, Ontario , Canada.",
+      "source": "Wikimedia Commons",
+      "artist": "Original uploader was Glogger at en.wikipedia",
+      "date": "8 August 2007 (original upload date)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "805"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Public art",
@@ -64,7 +227,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q557141",
+      "url": "https://www.wikidata.org/wiki/Q557141",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:19.719Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Public art",
+      "url": "https://en.wikipedia.org/wiki/Public_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:19.719Z"
+      }
+    }
+  ],
   "wikidata": "Q557141",
   "wikipedia": "Public art",
   "popularity": 35,
@@ -72,5 +258,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:01:19.719Z"
 }

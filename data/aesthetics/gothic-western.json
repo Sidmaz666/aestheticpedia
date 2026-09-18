@@ -7,8 +7,8 @@
   "establishment": "community_subculture",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Gothic Western (sometimes referred to as Western Gothic and Gothic prairie) is a subculture, artistically similar to Gothic Americana, but blends goth and Western lifestyles that are notably visible in fashion, music, film and literature.",
   "description": "Gothic Western (sometimes referred to as Western Gothic and Gothic prairie) is a subculture, artistically similar to Gothic Americana, but blends goth and Western lifestyles that are notably visible in fashion, music, film and literature.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b2bdd6",
+      "name": "silver"
+    },
+    {
+      "hex": "#423633",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#dfdac8",
+      "name": "bone white"
+    },
+    {
+      "hex": "#7d4ee1",
+      "name": "fuchsia"
+    },
+    {
+      "hex": "#9d8bc9",
+      "name": "lavender"
+    },
+    {
+      "hex": "#706078",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,48 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Stanley_L._Wood00.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/09/Stanley_L._Wood00.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/Stanley_L._Wood00.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Stanley_L._Wood00.jpg",
+      "caption": "Texas cowboy by Stanley L. Wood (1866-1928), English illustrator",
+      "source": "Wikimedia Commons",
+      "artist": "Stanley L. Wood (1866-1928)",
+      "license": "Public domain",
+      "width": "688",
+      "height": "750"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/SinisterSeymour1973.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/ce/SinisterSeymour1973.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ce/SinisterSeymour1973.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:SinisterSeymour1973.jpg",
+      "caption": "Sinister Seymour at Knott's Berry Farm's Halloween Haunt in 1973.",
+      "source": "Wikimedia Commons",
+      "artist": "Author unknown; Photo courtesy Orange County Archives",
+      "date": "1973",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1014",
+      "height": "1417"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Fields_of_the_Nephilim.jpg/1280px-Fields_of_the_Nephilim.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Fields_of_the_Nephilim.jpg/500px-Fields_of_the_Nephilim.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/be/Fields_of_the_Nephilim.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fields_of_the_Nephilim.jpg",
+      "caption": "Fields of the Nephilim, live at WGT 2008",
+      "source": "Wikimedia Commons",
+      "artist": "Grant Mitchell",
+      "date": "2008-05-12 01:32:14",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "851"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gothic Western",
@@ -62,7 +129,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q97402168",
+      "url": "https://www.wikidata.org/wiki/Q97402168",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:22.362Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gothic Western",
+      "url": "https://en.wikipedia.org/wiki/Gothic_Western",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:22.362Z"
+      }
+    }
+  ],
   "wikidata": "Q97402168",
   "wikipedia": "Gothic Western",
   "popularity": 35,
@@ -70,5 +160,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.878Z"
 }

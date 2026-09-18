@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q9032006",
+      "url": "https://www.wikidata.org/wiki/Q9032006",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:25.305Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Metamorphosis II",
+      "url": "https://en.wikipedia.org/wiki/Metamorphosis_II",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:25.305Z"
+      }
+    }
+  ],
   "wikidata": "Q9032006",
   "wikipedia": "Metamorphosis II",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:54:25.305Z"
 }

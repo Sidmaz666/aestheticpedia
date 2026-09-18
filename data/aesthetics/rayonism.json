@@ -43,7 +43,20 @@
   "tags": [
     "painting technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/ad/Larionov_red_rayonism.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/en/a/ad/Larionov_red_rayonism.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/en/a/ad/Larionov_red_rayonism.jpg",
+      "pageUrl": "https://en.wikipedia.org/wiki/File:Larionov_red_rayonism.jpg",
+      "caption": "Red Rayonism. 1913. Watercolor on paper, 26,3 x 36,4 cm. The Merzinger collection, Switzerland.",
+      "source": "Wikimedia Commons",
+      "artist": "Mikhail Larionov",
+      "license": "PD",
+      "width": "595",
+      "height": "481"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Rayonism",
@@ -66,7 +79,41 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Rayonism",
+      "url": "https://commons.wikimedia.org/wiki/Category:Rayonism",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:09.319Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q941875",
+      "url": "https://www.wikidata.org/wiki/Q941875",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:09.319Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Rayonism",
+      "url": "https://en.wikipedia.org/wiki/Rayonism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:09.319Z"
+      }
+    }
+  ],
   "wikidata": "Q941875",
   "wikipedia": "Rayonism",
   "popularity": 35,
@@ -74,5 +121,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:02:09.319Z"
 }

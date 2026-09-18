@@ -17,7 +17,33 @@
   "summary": "Snakes is a woodcut print by the Dutch artist M.",
   "description": "Snakes is a woodcut print by the Dutch artist M. C. Escher. The work was first printed in July 1969, and was Escher's last print before his death.\n\nSnakes depicts a disc made up of interlocking circles that grow progressively smaller towards the center and towards the edge. There are three snakes laced through the edge of the disc. The image is printed in three colours: green, orange and black. The use of snakes and the color palette of this composition recalls an earlier woodcut by the artist, Möbius Strip I (1960).\n\nThe print has rotational symmetry of order 3, comprising a single wedge-shaped image repeated three times in a circle. This means that it was printed from three blocks that were rotated on a pin to make three impressions each. Close inspection reveals the central mark left by the pin.\n\nIn several earlier works Escher explored the limits of infinitesimal size and infinite number, for example the Circle Limit series, by actually carrying through the rendering of smaller and smaller figures to the smallest possible sizes. By contrast, in Snakes, the infinite diminution of size – and infinite increase in number – is only suggested in the finished work. Nevertheless, the print shows very clearly how this rendering would have been carried out to the limits of human visibility.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#335978",
+      "name": "graphite"
+    },
+    {
+      "hex": "#a25043",
+      "name": "brick"
+    },
+    {
+      "hex": "#b2b5b5",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#929fa9",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#607991",
+      "name": "slate"
+    },
+    {
+      "hex": "#042e57",
+      "name": "prussian blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,119 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg/1280px-Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg/500px-Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai_-_Fine_Wind,_Clear_Morning_(Gaif%C5%AB_kaisei)_-_Google_Art_Project.jpg",
+      "caption": "Fine Wind, Clear Morning (Gaifū kaisei)",
+      "source": "Wikimedia Commons",
+      "artist": "Katsushika Hokusai",
+      "date": "about 1800-1849",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "864"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/7c47fc48-c549-6a65-4965-2e6aba493d74/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/7c47fc48-c549-6a65-4965-2e6aba493d74/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/7c47fc48-c549-6a65-4965-2e6aba493d74/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/140647",
+      "caption": "Nehebkau Amulet, Late Period, Dynasty 26–30 (664–332 BCE)",
+      "source": "Art Institute of Chicago",
+      "artist": "Egyptian",
+      "date": "Late Period, Dynasty 26–30 (664–332 BCE)",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1054"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/13438eb9-d7b2-03fb-ea48-c17d04b938a7/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/13438eb9-d7b2-03fb-ea48-c17d04b938a7/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/13438eb9-d7b2-03fb-ea48-c17d04b938a7/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/78161",
+      "caption": "Trial Piece with Hieroglyphs, Early Ptolemaic Period, about 300 BCE",
+      "source": "Art Institute of Chicago",
+      "artist": "Egyptian",
+      "date": "Early Ptolemaic Period, about 300 BCE",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1313"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/3f5e800e-777c-8feb-d07e-28f61714568c/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/3f5e800e-777c-8feb-d07e-28f61714568c/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/3f5e800e-777c-8feb-d07e-28f61714568c/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/135831",
+      "caption": "Amulet of Sekhmet, Third Intermediate Period (about 1069–664 BCE)",
+      "source": "Art Institute of Chicago",
+      "artist": "Egyptian",
+      "date": "Third Intermediate Period (about 1069–664 BCE)",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1124"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/8e2e67a1-e353-16fa-c927-21ebbfe70673/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/8e2e67a1-e353-16fa-c927-21ebbfe70673/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/8e2e67a1-e353-16fa-c927-21ebbfe70673/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/130025",
+      "caption": "Statuette of a Sphinx from a Barque Standard, Third Intermediate Period, late Dynasty 21–Dynasty 22, about 984–715 BCE",
+      "source": "Art Institute of Chicago",
+      "artist": "Egyptian",
+      "date": "Third Intermediate Period, late Dynasty 21–Dynasty 22, about 984–715 BCE",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "843"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/88efa819-0734-3aab-a3c2-91131c8db9d2/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/88efa819-0734-3aab-a3c2-91131c8db9d2/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/88efa819-0734-3aab-a3c2-91131c8db9d2/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/135855",
+      "caption": "Amulet of a Cobra, Third Intermediate Period, Dynasty 21–25 (1070–656 BCE)",
+      "source": "Art Institute of Chicago",
+      "artist": "Egyptian",
+      "date": "Third Intermediate Period, Dynasty 21–25 (1070–656 BCE)",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1258"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/6ea5abef-be8f-d4c7-f86f-8f57b15850be/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/6ea5abef-be8f-d4c7-f86f-8f57b15850be/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/6ea5abef-be8f-d4c7-f86f-8f57b15850be/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/135993",
+      "caption": "Box for a Mummified Animal with Snake Figure, Late Period–Ptolemaic Period (664–30 BCE)",
+      "source": "Art Institute of Chicago",
+      "artist": "Egyptian",
+      "date": "Late Period–Ptolemaic Period (664–30 BCE)",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "632"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/fc025369-8850-2812-c80a-20fb03a3b873/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/fc025369-8850-2812-c80a-20fb03a3b873/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/fc025369-8850-2812-c80a-20fb03a3b873/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/34680",
+      "caption": "Needlework Picture Depicting the Five Senses, 1601-25",
+      "source": "Art Institute of Chicago",
+      "artist": "England",
+      "date": "1601-25",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "701"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Snakes (M. C. Escher)",
@@ -62,7 +200,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7547192",
+      "url": "https://www.wikidata.org/wiki/Q7547192",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:10.917Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Snakes (M. C. Escher)",
+      "url": "https://en.wikipedia.org/wiki/Snakes_(M._C._Escher)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:10.917Z"
+      }
+    }
+  ],
   "wikidata": "Q7547192",
   "wikipedia": "Snakes (M. C. Escher)",
   "popularity": 35,
@@ -70,5 +231,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:06:10.917Z"
 }

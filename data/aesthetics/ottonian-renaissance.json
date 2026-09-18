@@ -13,8 +13,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Holy Roman Empire",
+  "geography": "Holy Roman Empire",
   "periodStart": "10th century",
   "periodEnd": "11th century",
   "startYear": 936,
@@ -23,7 +23,33 @@
   "summary": "The Ottonian Renaissance was a renaissance of Byzantine and Late Antique art in Central and Southern Europe that accompanied the reigns of the first three Holy Roman Emperors of the Ottonian (or Saxon) dynasty: Otto I (936–973), Otto II (973–983), and Otto III (983–1002), and whi",
   "description": "The Ottonian Renaissance was a renaissance of Byzantine and Late Antique art in Central and Southern Europe that accompanied the reigns of the first three Holy Roman Emperors of the Ottonian (or Saxon) dynasty: Otto I (936–973), Otto II (973–983), and Otto III (983–1002), and which in large part depended upon their patronage. The leading figures in this movement were Pope Sylvester II and Abbo of Fleury. Renewed contact between the Ottonian court and Byzantine Constantinople spurred the hybridisation of the Eastern-Byzantine and Western-Latin cultures, particularly in arts, architecture and metalwork, while the Ottonians revitalised the cathedral school network which promoted learning based on the seven liberal arts. Ottonian intellectual activity was largely a continuation of Carolingian works, but circulated mainly in the cathedral schools and the courts of bishops (such as Liège, Cologne and Magdeburg), rather than the royal court.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#030202",
+      "name": "black"
+    },
+    {
+      "hex": "#947b61",
+      "name": "moss"
+    },
+    {
+      "hex": "#aa9d82",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#cab57e",
+      "name": "sand"
+    },
+    {
+      "hex": "#745f4e",
+      "name": "umber"
+    },
+    {
+      "hex": "#9c5930",
+      "name": "brick"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -45,7 +71,118 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Kreuz-Gro%C3%9Fe-Senkschmelzen-Domschatz-Essen-2025.jpg/1280px-Kreuz-Gro%C3%9Fe-Senkschmelzen-Domschatz-Essen-2025.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Kreuz-Gro%C3%9Fe-Senkschmelzen-Domschatz-Essen-2025.jpg/500px-Kreuz-Gro%C3%9Fe-Senkschmelzen-Domschatz-Essen-2025.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kreuz-Gro%C3%9Fe-Senkschmelzen-Domschatz-Essen-2025.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kreuz-Gro%C3%9Fe-Senkschmelzen-Domschatz-Essen-2025.jpg",
+      "caption": "Cross with the Large Enamels from Essen Cathedral Treasury",
+      "source": "Wikimedia Commons",
+      "artist": "Tuxyso",
+      "date": "2025-10-21",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1712"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Meister_des_Registrum_Gregorii_001.jpg/1280px-Meister_des_Registrum_Gregorii_001.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Meister_des_Registrum_Gregorii_001.jpg/500px-Meister_des_Registrum_Gregorii_001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/64/Meister_des_Registrum_Gregorii_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Meister_des_Registrum_Gregorii_001.jpg",
+      "caption": "Registrum Gregorii, Szene: Porträt Kaiser Otto II., mit den Symbolen der vier Teile seines Reiches",
+      "source": "Wikimedia Commons",
+      "artist": "Master of the Registrum Gregorii",
+      "date": "circa 985 date QS:P571,+0985-00-00T00:00:00Z/9,P1480,Q572790",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1743"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Byrthferth_enchiridion.jpg/1280px-Byrthferth_enchiridion.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Byrthferth_enchiridion.jpg/500px-Byrthferth_enchiridion.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Byrthferth_enchiridion.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Byrthferth_enchiridion.jpg",
+      "caption": "Diagramme de Byrthferth : les mystères de l'univers. Adam (centre), les quatre points cardinaux (nord à gauche), les quatre éléments (terre, eau, air, feu), les quatre saisons et les quatre âges correspondants de la vie, et enfin les douze signes du zodiaque. Byrthferth de Ramsey",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "circa 1080 date QS:P,+1080-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1761"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b4ccdf0f-8b1b-2969-e447-5402cbe56985/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b4ccdf0f-8b1b-2969-e447-5402cbe56985/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b4ccdf0f-8b1b-2969-e447-5402cbe56985/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/14690",
+      "caption": "Fragment, Late 14th/15th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Italy",
+      "date": "Late 14th/15th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "671"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/f17aa6ce-bda2-53b2-1be7-07fed381715a/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/f17aa6ce-bda2-53b2-1be7-07fed381715a/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/f17aa6ce-bda2-53b2-1be7-07fed381715a/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/1895",
+      "caption": "Panel, 16th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Italy",
+      "date": "16th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "973"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/155c11f8-0e76-501f-12eb-bd1f6d06aaa2/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/155c11f8-0e76-501f-12eb-bd1f6d06aaa2/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/155c11f8-0e76-501f-12eb-bd1f6d06aaa2/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/14693",
+      "caption": "Fragment, 1401-1425",
+      "source": "Art Institute of Chicago",
+      "artist": "Italy",
+      "date": "1401-1425",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "949"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/2b47fefc-7e54-5c56-f0f7-9d75f4d81aa1/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2b47fefc-7e54-5c56-f0f7-9d75f4d81aa1/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2b47fefc-7e54-5c56-f0f7-9d75f4d81aa1/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/11147",
+      "caption": "Orphrey, 16th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Spain",
+      "date": "16th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "3293"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/5e8dcfd7-11f8-3bd4-a666-05c0a1301994/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/5e8dcfd7-11f8-3bd4-a666-05c0a1301994/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/5e8dcfd7-11f8-3bd4-a666-05c0a1301994/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/156525",
+      "caption": "\"Renaissance\" Fringe, 16th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Italy",
+      "date": "16th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "578"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Ottonian Renaissance",
@@ -68,7 +205,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1399604",
+      "url": "https://www.wikidata.org/wiki/Q1399604",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:08.754Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Ottonian Renaissance",
+      "url": "https://en.wikipedia.org/wiki/Ottonian_Renaissance",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:08.754Z"
+      }
+    }
+  ],
   "wikidata": "Q1399604",
   "wikipedia": "Ottonian Renaissance",
   "popularity": 35,
@@ -76,5 +236,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.864Z"
 }

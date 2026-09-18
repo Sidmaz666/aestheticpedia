@@ -17,7 +17,33 @@
   "summary": "Muzan-e (無残絵), also known as \"Bloody Prints\", refers to Japanese woodcut prints of violent nature published in the late Edo and Meiji periods.",
   "description": "Muzan-e (無残絵), also known as \"Bloody Prints\", refers to Japanese woodcut prints of violent nature published in the late Edo and Meiji periods.\n\nOne of the earliest and most well-known examples is the collection Twenty-Eight Famous Murders with Verse (英名二十八衆句, eimei nijūhasshūku) by the artists Yoshitoshi and Yoshiiku from the 1860s, which depicted several gruesome acts of murder or torture based on historical events or scenes in Kabuki plays.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f5eed7",
+      "name": "linen"
+    },
+    {
+      "hex": "#e5d3b4",
+      "name": "bone white"
+    },
+    {
+      "hex": "#695e59",
+      "name": "umber"
+    },
+    {
+      "hex": "#97715a",
+      "name": "bronze"
+    },
+    {
+      "hex": "#2d2d2a",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#d5ba8f",
+      "name": "tan"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Inada_Kyuzo_Shinsuke.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Inada_Kyuzo_Shinsuke.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Inada_Kyuzo_Shinsuke.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Inada_Kyuzo_Shinsuke.jpg",
+      "caption": "Yoshitoshi Series: Eimei nijûhasshûku (Twenty-eight famous murders with verse)",
+      "source": "Wikimedia Commons",
+      "artist": "Yoshitoshi",
+      "date": "27 April 2007 (original upload date)",
+      "license": "Public domain",
+      "width": "919",
+      "height": "1358"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toshusai_Sharaku-_Otani_Oniji,_1794.jpg",
+      "caption": "Oniji Ōtani III (aka. Nakazō Nakamura II) as Edobee in the May 1794 production of Koi Nyōbo Somewake Tazuna at Edo Kawarasaki-za theater. Polychrome woodcut print on paper; 15 x 9 7/8 in. (38.1 x 22.9 cm) Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939 (JP2822)",
+      "source": "Wikimedia Commons",
+      "artist": "Sharaku",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "802",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Muzan-e",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6944391",
+      "url": "https://www.wikidata.org/wiki/Q6944391",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:13.130Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Muzan-e",
+      "url": "https://en.wikipedia.org/wiki/Muzan-e",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:13.130Z"
+      }
+    }
+  ],
   "wikidata": "Q6944391",
   "wikipedia": "Muzan-e",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:56:13.130Z"
 }

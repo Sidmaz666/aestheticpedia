@@ -19,7 +19,33 @@
   "summary": "French Provincial architecture, also known as French Eclectic architecture, is a revivalist architectural style based on manor houses or chateaux homes which were built by French aristocrats beginning in the 1600s.",
   "description": "French Provincial architecture, also known as French Eclectic architecture, is a revivalist architectural style based on manor houses or chateaux homes which were built by French aristocrats beginning in the 1600s. The homes are characterized by arched doorways and symmetrically placed elements. They are usually two stories tall with steep hipped roofs. The design came to the United States after American servicemen returned from fighting in France during World War I.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#606463",
+      "name": "umber"
+    },
+    {
+      "hex": "#eef2f6",
+      "name": "paper white"
+    },
+    {
+      "hex": "#4f4d48",
+      "name": "graphite"
+    },
+    {
+      "hex": "#747a7c",
+      "name": "slate"
+    },
+    {
+      "hex": "#d2d2d2",
+      "name": "bone white"
+    },
+    {
+      "hex": "#373632",
+      "name": "aubergine"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Glen_Manor_House_west_facade.jpg/1280px-Glen_Manor_House_west_facade.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Glen_Manor_House_west_facade.jpg/500px-Glen_Manor_House_west_facade.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/61/Glen_Manor_House_west_facade.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Glen_Manor_House_west_facade.jpg",
+      "caption": "Glen Manor House at 3 Frank Coehlo Drive in Portsmouth, Rhode Island, was built from 1921 to 1923 by H. A. C. Taylor and, after his death, by his son Moses. It was designed in the French Chateau manner by noted architect John Russell Pope after the Petit Trianon at Versailles. Th",
+      "source": "Wikimedia Commons",
+      "artist": "Beyond My Ken",
+      "date": "2021-04-05",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "669"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — French Provincial architecture",
@@ -64,7 +105,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q113158860",
+      "url": "https://www.wikidata.org/wiki/Q113158860",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:11.871Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — French Provincial architecture",
+      "url": "https://en.wikipedia.org/wiki/French_Provincial_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:11.871Z"
+      }
+    }
+  ],
   "wikidata": "Q113158860",
   "wikipedia": "French Provincial architecture",
   "popularity": 35,
@@ -72,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:46:11.871Z"
 }

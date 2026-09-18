@@ -17,7 +17,33 @@
   "summary": "Abstract impressionism is an art movement that originated in New York City, in the 1940s.",
   "description": "Abstract impressionism is an art movement that originated in New York City, in the 1940s. It involves the painting of a subject such as real-life scenes, objects, or people (portraits) in an Impressionist style, but with an emphasis on varying measures of abstraction. The paintings are often painted en plein air, an artistic style involving painting outside with the landscape directly in front of the artist. The movement works delicately between the lines of pure abstraction (the extent of which varies greatly) and the allowance of an impression of reality in the painting.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#202020",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#6b6b66",
+      "name": "umber"
+    },
+    {
+      "hex": "#4d4a46",
+      "name": "graphite"
+    },
+    {
+      "hex": "#fab750",
+      "name": "saffron yellow"
+    },
+    {
+      "hex": "#999a91",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#966a4c",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,118 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Danilo_Soligo_-_Pittura_%22en_plein_air%22-_Foto_-_%281976%29.jpg/1280px-Danilo_Soligo_-_Pittura_%22en_plein_air%22-_Foto_-_%281976%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Danilo_Soligo_-_Pittura_%22en_plein_air%22-_Foto_-_%281976%29.jpg/500px-Danilo_Soligo_-_Pittura_%22en_plein_air%22-_Foto_-_%281976%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Danilo_Soligo_-_Pittura_%22en_plein_air%22-_Foto_-_%281976%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Danilo_Soligo_-_Pittura_%22en_plein_air%22-_Foto_-_(1976).jpg",
+      "caption": "Foto di Danilo Soligo mentre dipinge all'aperto",
+      "source": "Wikimedia Commons",
+      "artist": "Soligo Stefano",
+      "date": "1976",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1821"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Guillaumin_SoleilCouchantAIvry.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/13/Guillaumin_SoleilCouchantAIvry.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/13/Guillaumin_SoleilCouchantAIvry.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Guillaumin_SoleilCouchantAIvry.jpg",
+      "caption": "French: Soleil couchant à Ivry Sunset at Ivry",
+      "source": "Wikimedia Commons",
+      "artist": "Armand Guillaumin",
+      "date": "1873 date QS:P571,+1873-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "740",
+      "height": "596"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/64729",
+      "caption": "Early Morning, Tarpon Springs, 1892",
+      "source": "Art Institute of Chicago",
+      "artist": "George Inness (American, 1825–1894)",
+      "date": "1892",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1103"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/e72305c9-1a1c-8a36-7450-582619366338/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/e72305c9-1a1c-8a36-7450-582619366338/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/e72305c9-1a1c-8a36-7450-582619366338/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/138",
+      "caption": "Flower Girl in Holland, 1887",
+      "source": "Art Institute of Chicago",
+      "artist": "George Hitchcock",
+      "date": "1887",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "445"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/9af8c354-e223-256b-6aa9-71738010d4d5/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/9af8c354-e223-256b-6aa9-71738010d4d5/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/9af8c354-e223-256b-6aa9-71738010d4d5/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/253",
+      "caption": "Hydria (Water Jar), about 300 BCE",
+      "source": "Art Institute of Chicago",
+      "artist": "Greek; possibly Apulia or Campania, Italy",
+      "date": "about 300 BCE",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1124"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/27992",
+      "caption": "A Sunday on La Grande Jatte — 1884, 1884–86, border added 1888–89",
+      "source": "Art Institute of Chicago",
+      "artist": "Georges Seurat (French, 1859–1891)",
+      "date": "1884–86, border added 1888–89",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "565"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/71573",
+      "caption": "A Holiday, c. 1915",
+      "source": "Art Institute of Chicago",
+      "artist": "Edward Henry Potthast (American, 1857–1927)",
+      "date": "c. 1915",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "631"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/074c1b1b-fe92-01ce-9e62-cc99369142dd/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/074c1b1b-fe92-01ce-9e62-cc99369142dd/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/074c1b1b-fe92-01ce-9e62-cc99369142dd/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/4749",
+      "caption": "Mrs. George Swinton (Elizabeth Ebsworth), 1897",
+      "source": "Art Institute of Chicago",
+      "artist": "John Singer Sargent (American, 1856–1925)",
+      "date": "1897",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1587"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Abstract impressionism",
@@ -62,7 +199,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4414064",
+      "url": "https://www.wikidata.org/wiki/Q4414064",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:34:50.112Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Abstract impressionism",
+      "url": "https://en.wikipedia.org/wiki/Abstract_impressionism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:34:50.112Z"
+      }
+    }
+  ],
   "wikidata": "Q4414064",
   "wikipedia": "Abstract impressionism",
   "popularity": 35,
@@ -70,5 +230,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:34:50.112Z"
 }

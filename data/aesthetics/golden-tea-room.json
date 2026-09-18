@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Osaka Castle, Japan",
+  "geography": "Osaka Castle, Japan",
   "periodStart": "16th century",
   "periodEnd": "",
   "startYear": 1585,
@@ -17,7 +17,33 @@
   "summary": "The Golden Tea Room (黄金の茶室, Ōgon no chashitsu) was a portable gilded chashitsu (tea room) constructed during the late 16th century Azuchi–Momoyama period for the Japanese regent Lord Toyotomi Hideyoshi's tea ceremonies.",
   "description": "The Golden Tea Room (黄金の茶室, Ōgon no chashitsu) was a portable gilded chashitsu (tea room) constructed during the late 16th century Azuchi–Momoyama period for the Japanese regent Lord Toyotomi Hideyoshi's tea ceremonies.  The original Golden Tea Room is lost, but a number of reconstructions have been made.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#4c3f3c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#211814",
+      "name": "black"
+    },
+    {
+      "hex": "#8b5a33",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b78c35",
+      "name": "raw sienna"
+    },
+    {
+      "hex": "#75797e",
+      "name": "slate"
+    },
+    {
+      "hex": "#dbc387",
+      "name": "tan"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,62 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Golden_Tea_Room_MOA_Museum_%284%29.jpg/1280px-Golden_Tea_Room_MOA_Museum_%284%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Golden_Tea_Room_MOA_Museum_%284%29.jpg/500px-Golden_Tea_Room_MOA_Museum_%284%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/66/Golden_Tea_Room_MOA_Museum_%284%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Golden_Tea_Room_MOA_Museum_(4).jpg",
+      "caption": "The Golden Tea room in the MOA Museum, Atami, Shizuoka Prefecture, central Japan.",
+      "source": "Wikimedia Commons",
+      "artist": "Gryffindor",
+      "date": "2017-11-22 14:22:05",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1024"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Toyotomi_Hideyoshi_%28Kodaiji%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Toyotomi_Hideyoshi_%28Kodaiji%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Toyotomi_Hideyoshi_%28Kodaiji%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toyotomi_Hideyoshi_(Kodaiji).jpg",
+      "caption": "Portrait of Toyotomi Hideyoshi at Kodaiji temple warehouse, Kyoto, Japan",
+      "source": "Wikimedia Commons",
+      "artist": "Kanō Mitsunobu",
+      "date": "circa 1601 date QS:P,+1601-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "1000",
+      "height": "1806"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/FushimijoChashitsu.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/29/FushimijoChashitsu.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/FushimijoChashitsu.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:FushimijoChashitsu.jpg",
+      "caption": "Reconstructed Golden Tea Room in Fushimi Castle , Momoyama, Kyoto .",
+      "source": "Wikimedia Commons",
+      "artist": "Fg2 at English Wikipedia",
+      "date": "1 August 2004 (original upload date)",
+      "license": "Public domain",
+      "width": "640",
+      "height": "503"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Taishi.jpg/1280px-Taishi.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Taishi.jpg/500px-Taishi.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Taishi.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Taishi.jpg",
+      "caption": "Replicated golden tea utensils from the Golden Tea Room. Exhibit at the Kyoto City Archaeological Museum.",
+      "source": "Wikimedia Commons",
+      "artist": "投稿者が撮影",
+      "date": "2010-04-27",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "818"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Golden Tea Room",
@@ -62,7 +143,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q11677842",
+      "url": "https://www.wikidata.org/wiki/Q11677842",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:15.531Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Golden Tea Room",
+      "url": "https://en.wikipedia.org/wiki/Golden_Tea_Room",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:15.531Z"
+      }
+    }
+  ],
   "wikidata": "Q11677842",
   "wikipedia": "Golden Tea Room",
   "popularity": 35,
@@ -70,5 +174,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.233Z"
 }

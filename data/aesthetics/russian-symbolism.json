@@ -17,7 +17,33 @@
   "summary": "Russian symbolism was an intellectual, literary and artistic movement predominant at the end of the 19th and beginning of the 20th century.",
   "description": "Russian symbolism was an intellectual, literary and artistic movement predominant at the end of the 19th and beginning of the 20th century. It arose separately from West European symbolism, and emphasized defamiliarization and the mysticism of Sophiology.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1f1d19",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#776b4d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#5c523e",
+      "name": "umber"
+    },
+    {
+      "hex": "#978350",
+      "name": "moss"
+    },
+    {
+      "hex": "#b3a066",
+      "name": "camel"
+    },
+    {
+      "hex": "#3c3833",
+      "name": "aubergine"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,89 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Alexandre_Benois_004.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Alexandre_Benois_004.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Alexandre_Benois_004.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Alexandre_Benois_004.jpg",
+      "caption": "Illustrations by Benois for Pushkin's \"The Bronze Horseman\" 1899-1905",
+      "source": "Wikimedia Commons",
+      "artist": "Alexandre Benois",
+      "date": "between 1899 and 1905 date QS:P,+1500-00-00T00:00:00Z/6,P131",
+      "license": "Public domain",
+      "width": "545",
+      "height": "700"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Mikhail_Nesterov_001.jpg/1280px-Mikhail_Nesterov_001.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Mikhail_Nesterov_001.jpg/500px-Mikhail_Nesterov_001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/26/Mikhail_Nesterov_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mikhail_Nesterov_001.jpg",
+      "caption": "one of a series of works depicting the acts of the Venerable St Sergius of Radonezh (c.1321-91), baptised Bartholomew or Varfolomei, shown here encountering a monk who helps him learn to read by sharing a piece of holy bread",
+      "source": "Wikimedia Commons",
+      "artist": "Mikhail Nesterov",
+      "date": "between 1889 and 1890 date QS:P571,+1850-00-00T00:00:00Z/7,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "959"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Petrutxca_de_Fokine-1911.jpg/1280px-Petrutxca_de_Fokine-1911.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Petrutxca_de_Fokine-1911.jpg/500px-Petrutxca_de_Fokine-1911.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Petrutxca_de_Fokine-1911.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Petrutxca_de_Fokine-1911.jpg",
+      "caption": "Ballet \"Petrushka\" by Benois",
+      "source": "Wikimedia Commons",
+      "artist": "Benois",
+      "date": "1911",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "791"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/1cddae1c-99d5-462f-4aa6-128c0732ac11/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/1cddae1c-99d5-462f-4aa6-128c0732ac11/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/1cddae1c-99d5-462f-4aa6-128c0732ac11/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/120154",
+      "caption": "Still Life—Strawberries, Nuts, &c., 1822",
+      "source": "Art Institute of Chicago",
+      "artist": "Raphaelle Peale (American, 1774–1825)",
+      "date": "1822",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "604"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/3e82db48-5f93-ada3-7ab2-f97328ccc1bd/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/3e82db48-5f93-ada3-7ab2-f97328ccc1bd/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/3e82db48-5f93-ada3-7ab2-f97328ccc1bd/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/22857",
+      "caption": "The Garden of Paradise, c. 1500–c. 1520",
+      "source": "Art Institute of Chicago",
+      "artist": "Workshop of Hieronymus Bosch (Netherlandish, c. 1450–1516)",
+      "date": "c. 1500–c. 1520",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "554"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/48268fc7-2eb4-ded6-1293-e91f27b66478/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/48268fc7-2eb4-ded6-1293-e91f27b66478/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/48268fc7-2eb4-ded6-1293-e91f27b66478/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/60812",
+      "caption": "Merahi metua no Tehamana (Tehamana Has Many Parents or The Ancestors of Tehamana), 1893",
+      "source": "Art Institute of Chicago",
+      "artist": "Paul Gauguin (French, 1848–1903)",
+      "date": "1893",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1199"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Russian symbolism",
@@ -62,7 +170,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1879488",
+      "url": "https://www.wikidata.org/wiki/Q1879488",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:02.372Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Russian symbolism",
+      "url": "https://en.wikipedia.org/wiki/Russian_symbolism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:02.372Z"
+      }
+    }
+  ],
   "wikidata": "Q1879488",
   "wikipedia": "Russian symbolism",
   "popularity": 35,
@@ -70,5 +201,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:04:02.372Z"
 }

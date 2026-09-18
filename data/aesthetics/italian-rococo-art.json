@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Italy",
+  "geography": "Italy",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -19,7 +19,33 @@
   "summary": "Italian Rococo art refers to painting and the plastic arts in Italy during the Rococo period, which went from about the early/mid-18th to the late 18th century.",
   "description": "Italian Rococo art refers to painting and the plastic arts in Italy during the Rococo period, which went from about the early/mid-18th to the late 18th century.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#514136",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#abacab",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#7d7866",
+      "name": "taupe"
+    },
+    {
+      "hex": "#261917",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#c1c7c1",
+      "name": "silver"
+    },
+    {
+      "hex": "#775e43",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,119 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Collage_arte_italiana.jpg/1280px-Collage_arte_italiana.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Collage_arte_italiana.jpg/500px-Collage_arte_italiana.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Collage_arte_italiana.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Collage_arte_italiana.jpg",
+      "caption": "Collage di varie foto sull'arte italiana.",
+      "source": "Wikimedia Commons",
+      "artist": "collection by DanieleDF1995 ( talk )",
+      "date": "2010-03-29",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "2276"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Giovanni_Battista_Tiepolo_-_Allegory_of_the_Planets_and_Continents.jpg/1280px-Giovanni_Battista_Tiepolo_-_Allegory_of_the_Planets_and_Continents.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Giovanni_Battista_Tiepolo_-_Allegory_of_the_Planets_and_Continents.jpg/500px-Giovanni_Battista_Tiepolo_-_Allegory_of_the_Planets_and_Continents.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/34/Giovanni_Battista_Tiepolo_-_Allegory_of_the_Planets_and_Continents.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Tiepolo_-_Allegory_of_the_Planets_and_Continents.jpg",
+      "caption": "Allegory of the Planets and Continents",
+      "source": "Wikimedia Commons",
+      "artist": "Giovanni Battista Tiepolo",
+      "date": "1752 date QS:P571,+1752-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1696"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Il_Ritorno_del_Bucintoro_al_molo_nel_giorno_dell%27Ascensione_%28c.1738%29_Canaletto_-_Wells-Next-The-Sea%2C_The_Earl_of_Leicester_and_Trustees_of_the_Holkham_Estate.jpg/1280px-thumbnail.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Il_Ritorno_del_Bucintoro_al_molo_nel_giorno_dell%27Ascensione_%28c.1738%29_Canaletto_-_Wells-Next-The-Sea%2C_The_Earl_of_Leicester_and_Trustees_of_the_Holkham_Estate.jpg/500px-thumbnail.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Il_Ritorno_del_Bucintoro_al_molo_nel_giorno_dell%27Ascensione_%28c.1738%29_Canaletto_-_Wells-Next-The-Sea%2C_The_Earl_of_Leicester_and_Trustees_of_the_Holkham_Estate.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Il_Ritorno_del_Bucintoro_al_molo_nel_giorno_dell%27Ascensione_(c.1738)_Canaletto_-_Wells-Next-The-Sea,_The_Earl_of_Leicester_and_Trustees_of_the_Holkham_Estate.jpg",
+      "caption": "Галера «Бучинторо» возвращается на пирс в День Вознесения",
+      "source": "Wikimedia Commons",
+      "artist": "Didier Descouens",
+      "date": "Taken on 4 May 2019",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1284"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/32c7afd7-bcc0-e5cd-9d4c-74dc04504bd6/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/32c7afd7-bcc0-e5cd-9d4c-74dc04504bd6/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/32c7afd7-bcc0-e5cd-9d4c-74dc04504bd6/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/19118",
+      "caption": "Door Boss: Bust of a Satyress, c. 1580",
+      "source": "Art Institute of Chicago",
+      "artist": "Northern Italian",
+      "date": "c. 1580",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "997"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/24853b28-97c5-5146-4fde-969559b40618/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/24853b28-97c5-5146-4fde-969559b40618/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/24853b28-97c5-5146-4fde-969559b40618/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/5462",
+      "caption": "Goat and Bee Cream Jug, c. 1745",
+      "source": "Art Institute of Chicago",
+      "artist": "Chelsea Porcelain Manufactory",
+      "date": "c. 1745",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1084"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/322d6d16-0fe2-c03e-9441-8a6c25cc6396/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/322d6d16-0fe2-c03e-9441-8a6c25cc6396/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/322d6d16-0fe2-c03e-9441-8a6c25cc6396/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/90060",
+      "caption": "Sinan Reis and Hayreddin Barbarossa, c. 1535",
+      "source": "Art Institute of Chicago",
+      "artist": "Italian",
+      "date": "c. 1535",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "882"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/7cee5861-b881-bbc0-40d6-1a2dc625d978/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/7cee5861-b881-bbc0-40d6-1a2dc625d978/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/7cee5861-b881-bbc0-40d6-1a2dc625d978/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/80089",
+      "caption": "Bureau Secretary, c. 1775",
+      "source": "Art Institute of Chicago",
+      "artist": "David Roentgen (born Hesse-Darmstadt [now Germany], 1743–1807)",
+      "date": "c. 1775",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1105"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/f9ddd674-29dd-9d0a-ad23-cc3dcc5f2b5f/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/f9ddd674-29dd-9d0a-ad23-cc3dcc5f2b5f/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/f9ddd674-29dd-9d0a-ad23-cc3dcc5f2b5f/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/50874",
+      "caption": "Madonna and Child, 1300–1400",
+      "source": "Art Institute of Chicago",
+      "artist": "Italian",
+      "date": "1300–1400",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1174"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Italian Rococo art",
@@ -64,7 +202,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q17100657",
+      "url": "https://www.wikidata.org/wiki/Q17100657",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:03.491Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Italian Rococo art",
+      "url": "https://en.wikipedia.org/wiki/Italian_Rococo_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:03.491Z"
+      }
+    }
+  ],
   "wikidata": "Q17100657",
   "wikipedia": "Italian Rococo art",
   "popularity": 35,
@@ -72,5 +233,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.652Z"
 }

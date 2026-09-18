@@ -13,17 +13,43 @@
   "establishment": "community_subculture",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
-  "periodStart": "",
+  "origin": "Los Angeles, United States",
+  "geography": "Los Angeles, United States",
+  "periodStart": "2000s",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 2000,
   "endYear": null,
-  "era": "",
+  "era": "2000s",
   "summary": "Party crews were organized groups of Latino teenagers that planned and hosted underground events, parties, and raves during the late-1990s and early-2000s in Los Angeles, California.",
   "description": "Party crews were organized groups of Latino teenagers that planned and hosted underground events, parties, and raves during the late-1990s and early-2000s in Los Angeles, California.\n\nMost are not nearly as prominent as they once were.\n\nMuch like Tagger crews, party crews or pc’s did not have a structure as many gangs of the time. They were often very problematic for police due to lack of infrastructure and leadership, in most cases making it uncontainable and difficult to identify potential members .",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#87989b",
+      "name": "stone"
+    },
+    {
+      "hex": "#073034",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#6f8078",
+      "name": "slate"
+    },
+    {
+      "hex": "#435341",
+      "name": "graphite"
+    },
+    {
+      "hex": "#586659",
+      "name": "graphite 2"
+    },
+    {
+      "hex": "#cbccd5",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -45,7 +71,21 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Los_Angeles_Basin_JPLLandsat.jpg/1280px-Los_Angeles_Basin_JPLLandsat.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Los_Angeles_Basin_JPLLandsat.jpg/500px-Los_Angeles_Basin_JPLLandsat.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Los_Angeles_Basin_JPLLandsat.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Los_Angeles_Basin_JPLLandsat.jpg",
+      "caption": "3-D Perspective image of the Los Angeles Basin from the Landsat satellite using NASA's Shuttle Radar Topography Mission (SRTM) for topography information. The vertical scale is exaggerated one and half times.",
+      "source": "Wikimedia Commons",
+      "artist": "This image uses high-resolution digital topography data from NASA's Shuttle Radar Topography Mission (SRTM) at JPL-Caltech [1] . It is in the public domain in t",
+      "date": "2000-02",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "880"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Party crews",
@@ -68,7 +108,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q120967560",
+      "url": "https://www.wikidata.org/wiki/Q120967560",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:23.921Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Party crews",
+      "url": "https://en.wikipedia.org/wiki/Party_crews",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:23.921Z"
+      }
+    }
+  ],
   "wikidata": "Q120967560",
   "wikipedia": "Party crews",
   "popularity": 35,
@@ -76,5 +139,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.846Z"
 }

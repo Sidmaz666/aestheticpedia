@@ -17,7 +17,33 @@
   "summary": "New Edge was a design language used by Ford Motor Company for many of its passenger vehicles in the late 1990s and early 2000s and initially authored by Jack Telnack, who served as Vice President of Design for Ford from 1980 to 1997.",
   "description": "New Edge was a design language used by Ford Motor Company for many of its passenger vehicles in the late 1990s and early 2000s and initially authored by Jack Telnack, who served as Vice President of Design for Ford from 1980 to 1997. Under Telnack's oversight, New Edge was implemented by other Ford designers, including Claude Lobo and Australian John Doughty. The first Ford to showcase this design was their supercar concept, the GT90.\n\nNew Edge distinctively combined intersecting arcs and other features, creating \"surface tension by adding creases to soft aerodynamic shapes.\" Describing the 2000 Ford Focus's implementation of the styling theme, New York Times writer Michelle Krebs said the Focus \"features crisp lines and taut surfaces. The Focus will not be mistaken for anything else on the road. I found more people liked its look than hated it, and few were indifferent.\"  Reputedly, New Edge design saved production time, the edges themselves ostensibly making the panels much easier to align.\n\nAfter the international Ford Focus had won the prestigious European Car of the Year (1999), William Diem of the New York Times wrote, \"To some extent, the prize vindicates Ford's risky design for the Focus, especially the New Edge styling -- a combination of straight lines, curves and planes.\"\n\nThe styling theme began to be replaced by Kinetic Design in 2006 with the Ford S-Max and Ford Galaxy.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#6b6d6d",
+      "name": "slate"
+    },
+    {
+      "hex": "#4b4946",
+      "name": "graphite"
+    },
+    {
+      "hex": "#1e1f1b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#939da2",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#bfc7d0",
+      "name": "silver"
+    },
+    {
+      "hex": "#861419",
+      "name": "burgundy"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,49 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Ford_Ka_front.jpg/1280px-Ford_Ka_front.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Ford_Ka_front.jpg/500px-Ford_Ka_front.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Ford_Ka_front.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ford_Ka_front.jpg",
+      "caption": "Ford Ka front",
+      "source": "Wikimedia Commons",
+      "artist": "M 93",
+      "date": "2008-07-16",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "881"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/1999_Ford_Focus_Zetec_1.8_Front.jpg/1280px-1999_Ford_Focus_Zetec_1.8_Front.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/1999_Ford_Focus_Zetec_1.8_Front.jpg/500px-1999_Ford_Focus_Zetec_1.8_Front.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/80/1999_Ford_Focus_Zetec_1.8_Front.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:1999_Ford_Focus_Zetec_1.8_Front.jpg",
+      "caption": "1999 Ford Focus Zetec 1.8 Front Taken in Leamington Spa",
+      "source": "Wikimedia Commons",
+      "artist": "Vauxford",
+      "date": "2018-12-31 11:48:26",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "673"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/2000_Ford_Fairmont_%28AU_II%29_Ghia_sedan_%282015-05-29%29_01.jpg/1280px-2000_Ford_Fairmont_%28AU_II%29_Ghia_sedan_%282015-05-29%29_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/2000_Ford_Fairmont_%28AU_II%29_Ghia_sedan_%282015-05-29%29_01.jpg/500px-2000_Ford_Fairmont_%28AU_II%29_Ghia_sedan_%282015-05-29%29_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1e/2000_Ford_Fairmont_%28AU_II%29_Ghia_sedan_%282015-05-29%29_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:2000_Ford_Fairmont_(AU_II)_Ghia_sedan_(2015-05-29)_01.jpg",
+      "caption": "2000 Ford Falcon (AU II) Ghia sedan. Photographed in Thornbury, Victoria , Australia.",
+      "source": "Wikimedia Commons",
+      "artist": "OSX",
+      "date": "2015-05-29",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "846"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — New Edge (design language)",
@@ -62,7 +130,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q844589",
+      "url": "https://www.wikidata.org/wiki/Q844589",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:17.285Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — New Edge (design language)",
+      "url": "https://en.wikipedia.org/wiki/New_Edge_(design_language)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:17.285Z"
+      }
+    }
+  ],
   "wikidata": "Q844589",
   "wikipedia": "New Edge (design language)",
   "popularity": 35,
@@ -70,5 +161,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:57:17.285Z"
 }

@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7067781",
+      "url": "https://www.wikidata.org/wiki/Q7067781",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:17.100Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Nuagisme",
+      "url": "https://en.wikipedia.org/wiki/Nuagisme",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:17.100Z"
+      }
+    }
+  ],
   "wikidata": "Q7067781",
   "wikipedia": "Nuagisme",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:58:17.100Z"
 }

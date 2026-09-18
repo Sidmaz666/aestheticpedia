@@ -9,15 +9,41 @@
   "confidence": 60,
   "origin": "",
   "geography": "",
-  "periodStart": "",
+  "periodStart": "Meiji era",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 1868,
   "endYear": null,
-  "era": "",
+  "era": "1860s",
   "summary": "Kaika-e (Japanese: 開化絵) is a genre of Japanese woodblock prints (ukiyo-e) during the Meiji period that celebrated the Westernization of Tokyo and its people.",
   "description": "Kaika-e (Japanese: 開化絵) is a genre of Japanese woodblock prints (ukiyo-e) during the Meiji period that celebrated the Westernization of Tokyo and its people.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#6b6864",
+      "name": "umber"
+    },
+    {
+      "hex": "#594d40",
+      "name": "umber 2"
+    },
+    {
+      "hex": "#9c8972",
+      "name": "stone"
+    },
+    {
+      "hex": "#cdc3a7",
+      "name": "beige"
+    },
+    {
+      "hex": "#936b4b",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b6ab8f",
+      "name": "khaki"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,60 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Kobayashi_Kiyochika_%281879%29_View_of_Takanawa_Ushimachi_under_a_Shrouded_Moon.jpg/1280px-Kobayashi_Kiyochika_%281879%29_View_of_Takanawa_Ushimachi_under_a_Shrouded_Moon.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Kobayashi_Kiyochika_%281879%29_View_of_Takanawa_Ushimachi_under_a_Shrouded_Moon.jpg/500px-Kobayashi_Kiyochika_%281879%29_View_of_Takanawa_Ushimachi_under_a_Shrouded_Moon.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/12/Kobayashi_Kiyochika_%281879%29_View_of_Takanawa_Ushimachi_under_a_Shrouded_Moon.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kobayashi_Kiyochika_(1879)_View_of_Takanawa_Ushimachi_under_a_Shrouded_Moon.jpg",
+      "caption": "Full-colour print by Japanese artist Kobayashi Kiyochika",
+      "source": "Wikimedia Commons",
+      "artist": "Kobayashi Kiyochika",
+      "date": "1879",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "819"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Steam-Locomotive-on-the-coast-in-Yokohama-1874-Utagawa-Hiroshige-III.png/1280px-Steam-Locomotive-on-the-coast-in-Yokohama-1874-Utagawa-Hiroshige-III.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Steam-Locomotive-on-the-coast-in-Yokohama-1874-Utagawa-Hiroshige-III.png/500px-Steam-Locomotive-on-the-coast-in-Yokohama-1874-Utagawa-Hiroshige-III.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/11/Steam-Locomotive-on-the-coast-in-Yokohama-1874-Utagawa-Hiroshige-III.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Steam-Locomotive-on-the-coast-in-Yokohama-1874-Utagawa-Hiroshige-III.png",
+      "caption": "View of a steam locomotive on the railway on the coast of Yokohama (Yokohama Kaigan Tetsudo Jokisha Zu). At the time of the opening of Yokohama station. Ships are in the background. Drawn by Utagawa Hiroshige III (三代歌川広重), 1874.",
+      "source": "Wikimedia Commons",
+      "artist": "Utagawa Hiroshige III",
+      "date": "1874",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "658"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/An_Illustrated_Explanation_Of_Japanese_Women%E2%80%99s_Hairstyles_%281885%29.jpg/1280px-An_Illustrated_Explanation_Of_Japanese_Women%E2%80%99s_Hairstyles_%281885%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/An_Illustrated_Explanation_Of_Japanese_Women%E2%80%99s_Hairstyles_%281885%29.jpg/500px-An_Illustrated_Explanation_Of_Japanese_Women%E2%80%99s_Hairstyles_%281885%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/An_Illustrated_Explanation_Of_Japanese_Women%E2%80%99s_Hairstyles_%281885%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:An_Illustrated_Explanation_Of_Japanese_Women%E2%80%99s_Hairstyles_(1885).jpg",
+      "caption": "An Illustrated Explanation Of Japanese Women’s Hairstyles (1885)",
+      "source": "Wikimedia Commons",
+      "artist": "Adachi Ginko",
+      "date": "1885",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "678"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toshusai_Sharaku-_Otani_Oniji,_1794.jpg",
+      "caption": "Oniji Ōtani III (aka. Nakazō Nakamura II) as Edobee in the May 1794 production of Koi Nyōbo Somewake Tazuna at Edo Kawarasaki-za theater. Polychrome woodcut print on paper; 15 x 9 7/8 in. (38.1 x 22.9 cm) Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939 (JP2822)",
+      "source": "Wikimedia Commons",
+      "artist": "Sharaku",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "802",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Kaika-e",
@@ -62,7 +141,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q11655180",
+      "url": "https://www.wikidata.org/wiki/Q11655180",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:22.453Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Kaika-e",
+      "url": "https://en.wikipedia.org/wiki/Kaika-e",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:22.453Z"
+      }
+    }
+  ],
   "wikidata": "Q11655180",
   "wikipedia": "Kaika-e",
   "popularity": 35,
@@ -70,5 +172,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.643Z"
 }

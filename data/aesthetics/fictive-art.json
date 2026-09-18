@@ -17,7 +17,33 @@
   "summary": "Fictive art is a practice that involves the production of objects, events, and entities designed to support the plausibility of a central narrative.",
   "description": "Fictive art is a practice that involves the production of objects, events, and entities designed to support the plausibility of a central narrative. Fictive art projects disguise their fictional essence by incorporating materials that stand as evidence for narrative factuality and thus are designed to deceive the viewer as to their ontological status. Very often, these materials take a form that carries presumptive cultural authority, such as 'historical' photographs or 'scientific' data. The key tension in fictive art projects stems from the impossibility of 'making real' a fiction, no matter how many or what kinds of objects are produced as evidence. Since fictive art projects are designed to pass at least temporarily as 'real', fictive artists may draw opprobrium as hoaxers, pranksters, forgers, or con artists when their projects are revealed as fictional.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#010b72",
+      "name": "navy"
+    },
+    {
+      "hex": "#020101",
+      "name": "black"
+    },
+    {
+      "hex": "#052296",
+      "name": "navy 2"
+    },
+    {
+      "hex": "#1851b9",
+      "name": "cerulean"
+    },
+    {
+      "hex": "#4788d1",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#7d9399",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Mandel_zoom_00_mandelbrot_set.jpg/1280px-Mandel_zoom_00_mandelbrot_set.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Mandel_zoom_00_mandelbrot_set.jpg/500px-Mandel_zoom_00_mandelbrot_set.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/21/Mandel_zoom_00_mandelbrot_set.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mandel_zoom_00_mandelbrot_set.jpg",
+      "caption": "Mandelbrot set . Initial image of a zoom sequence: Mandelbrot set with continuously colored environment. Coordinates of the center: Re(c) = -.7, Im(c) = 0 Horizontal diameter of the image: 3.076,9 Created by Wolfgang Beyer with the program Ultra Fractal 3 . Uploaded by the creato",
+      "source": "Wikimedia Commons",
+      "artist": "Created by Wolfgang Beyer with the program Ultra Fractal 3 .",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Fictive art",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q17013472",
+      "url": "https://www.wikidata.org/wiki/Q17013472",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:15.515Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Fictive art",
+      "url": "https://en.wikipedia.org/wiki/Fictive_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:15.515Z"
+      }
+    }
+  ],
   "wikidata": "Q17013472",
   "wikipedia": "Fictive art",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:45:15.515Z"
 }

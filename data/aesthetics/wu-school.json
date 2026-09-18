@@ -9,7 +9,7 @@
   "confidence": 60,
   "origin": "",
   "geography": "",
-  "periodStart": "",
+  "periodStart": "Ming dynasty",
   "periodEnd": "",
   "startYear": null,
   "endYear": null,
@@ -17,7 +17,33 @@
   "summary": "Wu or Wumen School (Chinese: 吳門畫派) is a group of painters of the Southern School during the Ming period of Chinese history.",
   "description": "Wu or Wumen School (Chinese: 吳門畫派) is a group of painters of the Southern School during the Ming period of Chinese history. It was not an academy or educational institution, but rather a group united largely by the artistic theories of its members.  Often classified as Literati, scholars, or amateur painters (as opposed to professionals), members idealized the concepts of personalizing works and integrating the artists into the art.  A Wu School painting is characterized by inscriptions describing the painting, the date, method, or reason for the work, which is usually seen as a vehicle for personal expression. Shen Zhou (1427–1509) is usually cited as the founder of the Wu School.\n\nThe Zhe School is usually referenced in opposition to the Wu School.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b29d7d",
+      "name": "camel"
+    },
+    {
+      "hex": "#a14230",
+      "name": "brick"
+    },
+    {
+      "hex": "#d0be9b",
+      "name": "tan"
+    },
+    {
+      "hex": "#8e8373",
+      "name": "taupe"
+    },
+    {
+      "hex": "#d5a04d",
+      "name": "gold"
+    },
+    {
+      "hex": "#6b655c",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,33 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Lofty_Mt.Lu_by_Shen_Zhou.jpg/1280px-Lofty_Mt.Lu_by_Shen_Zhou.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Lofty_Mt.Lu_by_Shen_Zhou.jpg/500px-Lofty_Mt.Lu_by_Shen_Zhou.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Lofty_Mt.Lu_by_Shen_Zhou.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lofty_Mt.Lu_by_Shen_Zhou.jpg",
+      "caption": "Lofty Mount Lu 廬山高",
+      "source": "Wikimedia Commons",
+      "artist": "Shen Zhou",
+      "date": "Ming dynasty, 1467 明 成化丁亥",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "2525"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Huizong.jpg/1280px-Huizong.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Huizong.jpg/500px-Huizong.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Huizong.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Huizong.jpg",
+      "caption": "Emperor Huizong of Song, emperor of China from 1100-1126 AD.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1708"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Wu School",
@@ -62,7 +114,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q558875",
+      "url": "https://www.wikidata.org/wiki/Q558875",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:04.785Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Wu School",
+      "url": "https://en.wikipedia.org/wiki/Wu_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:04.785Z"
+      }
+    }
+  ],
   "wikidata": "Q558875",
   "wikipedia": "Wu School",
   "popularity": 35,
@@ -70,5 +145,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:06.014Z"
 }

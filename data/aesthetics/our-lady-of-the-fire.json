@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Forli cathedral",
+  "geography": "Forli cathedral",
   "periodStart": "15th century",
   "periodEnd": "",
   "startYear": 1425,
@@ -19,7 +19,33 @@
   "summary": "Our Lady of the Fire (Italian: Madonna del Fuoco) is an early 15th-century image of the Madonna and Child, venerated by Catholics in Forlì and considered by them to be the protector of salt workers since the 17th century.She is the patroness saint of Forli.",
   "description": "Our Lady of the Fire (Italian: Madonna del Fuoco) is an early 15th-century image of the Madonna and Child, venerated by Catholics in Forlì and considered by them to be the protector of salt workers since the 17th century.She is the patroness saint of Forli.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#898177",
+      "name": "taupe"
+    },
+    {
+      "hex": "#9d9792",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#b5b1af",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#76695c",
+      "name": "bronze"
+    },
+    {
+      "hex": "#0e4db5",
+      "name": "cobalt"
+    },
+    {
+      "hex": "#3275d3",
+      "name": "denim blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,58 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Madonna_del_Fuoco.JPG/1280px-Madonna_del_Fuoco.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Madonna_del_Fuoco.JPG/500px-Madonna_del_Fuoco.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/78/Madonna_del_Fuoco.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Madonna_del_Fuoco.JPG",
+      "caption": "Madonna of the Fire (Madonna del Fuoco) is an early Italian devotional print, displayed in a school in Forli, Italy starting in 1425. It survived the 1428 fire that destroyed the school, and was subsequently venerated and moved to the city's cathedral. It is a hand-colored woodcu",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Cronaca_di_Giovanni_di_Pedrino_sulla_Madonna_del_Fuoco.JPG/1280px-Cronaca_di_Giovanni_di_Pedrino_sulla_Madonna_del_Fuoco.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Cronaca_di_Giovanni_di_Pedrino_sulla_Madonna_del_Fuoco.JPG/500px-Cronaca_di_Giovanni_di_Pedrino_sulla_Madonna_del_Fuoco.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/14/Cronaca_di_Giovanni_di_Pedrino_sulla_Madonna_del_Fuoco.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cronaca_di_Giovanni_di_Pedrino_sulla_Madonna_del_Fuoco.JPG",
+      "caption": "Cronaca di Giovanni di Pedrino sulla Madonna del Fuoco. Giovanni di pedrino era uno dei principali cronisti della storia forlivese tra '400 e '500",
+      "source": "Wikimedia Commons",
+      "artist": "sconosciuto",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "686"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Madona_del_gran_duque%2C_por_Rafael.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/48/Madona_del_gran_duque%2C_por_Rafael.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/Madona_del_gran_duque%2C_por_Rafael.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Madona_del_gran_duque,_por_Rafael.jpg",
+      "caption": "Madonna and Child",
+      "source": "Wikimedia Commons",
+      "artist": "Raphael",
+      "date": "between 1506 and 1507 date QS:P,+1506-00-00T00:00:00Z/8,P131",
+      "license": "Public domain",
+      "width": "1275",
+      "height": "1876"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:046CupolaSPietro.jpg",
+      "caption": "Città del Vaticano - Cupola della Basilica di S. Pietro",
+      "source": "Wikimedia Commons",
+      "artist": "MarkusMark",
+      "date": "2006-01",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "800",
+      "height": "600"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Our Lady of the Fire",
@@ -64,7 +141,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3842611",
+      "url": "https://www.wikidata.org/wiki/Q3842611",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:10.199Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Our Lady of the Fire",
+      "url": "https://en.wikipedia.org/wiki/Our_Lady_of_the_Fire",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:10.199Z"
+      }
+    }
+  ],
   "wikidata": "Q3842611",
   "wikipedia": "Our Lady of the Fire",
   "popularity": 35,
@@ -72,5 +172,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.872Z"
 }

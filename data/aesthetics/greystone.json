@@ -17,7 +17,33 @@
   "summary": "Greystones are a style of residential building most commonly found in Chicago, Illinois, United States.",
   "description": "Greystones are a style of residential building most commonly found in Chicago, Illinois, United States. As the name suggests, the buildings are typically grey in color and were most often built with Bedford Limestone quarried from South Central Indiana. In Chicago, there are roughly 30,000 greystones, usually built as a semi- or fully detached townhouse.\n\nThe term \"greystone\" is also used to refer to buildings in Montreal, Quebec, Canada (known in French as pierre grise). It refers to the grey limestone facades of many buildings, both residential and institutional, constructed between 1730 and 1920.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#8a887c",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a2a29e",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#6c6c62",
+      "name": "umber"
+    },
+    {
+      "hex": "#fbfbfc",
+      "name": "ivory"
+    },
+    {
+      "hex": "#474c3a",
+      "name": "graphite"
+    },
+    {
+      "hex": "#20241c",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,63 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Dewes_House.JPG/1280px-Dewes_House.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Dewes_House.JPG/500px-Dewes_House.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Dewes_House.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dewes_House.JPG",
+      "caption": "Francis J. Dewes House on NRHP since August 14, 1973 at 503 W. Wrightwood Avenue in the Lincoln Park neighborhood of Chicago",
+      "source": "Wikimedia Commons",
+      "artist": "Smallbones",
+      "date": "2010-02-02",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/20070601_Wells_House_%282%29.JPG/1280px-20070601_Wells_House_%282%29.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/20070601_Wells_House_%282%29.JPG/500px-20070601_Wells_House_%282%29.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/20/20070601_Wells_House_%282%29.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:20070601_Wells_House_(2).JPG",
+      "caption": "Ida B. Wells-Barnett House , Chicago, Illinois",
+      "source": "Wikimedia Commons",
+      "artist": "en:User:TonyTheTiger",
+      "date": "2007-06-01",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/King-Nash_%28Patrick_J._King%29_House.jpg/1280px-King-Nash_%28Patrick_J._King%29_House.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/King-Nash_%28Patrick_J._King%29_House.jpg/500px-King-Nash_%28Patrick_J._King%29_House.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f7/King-Nash_%28Patrick_J._King%29_House.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:King-Nash_(Patrick_J._King)_House.jpg",
+      "caption": "3234 W Washington Blvd Chicago, IL 60624",
+      "source": "Wikimedia Commons",
+      "artist": "Zol87 from Chicago, IL, USA",
+      "date": "2009-05-26 16:47",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Church-of-Vuolijoki.jpg/1280px-Church-of-Vuolijoki.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Church-of-Vuolijoki.jpg/500px-Church-of-Vuolijoki.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/72/Church-of-Vuolijoki.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Church-of-Vuolijoki.jpg",
+      "caption": "Church of Vuolijoki in June, 2011",
+      "source": "Wikimedia Commons",
+      "artist": "Tumi-1983",
+      "date": "2011-06-19",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Greystone (architecture)",
@@ -62,7 +144,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5608488",
+      "url": "https://www.wikidata.org/wiki/Q5608488",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:01.275Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Greystone (architecture)",
+      "url": "https://en.wikipedia.org/wiki/Greystone_(architecture)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:01.275Z"
+      }
+    }
+  ],
   "wikidata": "Q5608488",
   "wikipedia": "Greystone (architecture)",
   "popularity": 35,
@@ -70,5 +175,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:48:01.275Z"
 }

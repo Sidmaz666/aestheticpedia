@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Italy",
+  "geography": "Italy",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Gothic art and architecture flourished in the city of Monza (near Milan) between the late 13th century and the first half of the 15th.",
   "description": "Gothic art and architecture flourished in the city of Monza (near Milan) between the late 13th century and the first half of the 15th. During this period, the city, still proud of having been the capital of the Lombard Kingdom, hosted significant works by the Visconti, Lords of Milan, aimed at asserting their power over Monza and suggesting continuity with the kingdom of Queen Theodelinda. After this initial phase of artistic splendor, the city of Monza gradually lost importance, giving way to the capital of the duchy.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5b5149",
+      "name": "umber"
+    },
+    {
+      "hex": "#433934",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#85796d",
+      "name": "taupe"
+    },
+    {
+      "hex": "#84624e",
+      "name": "bronze"
+    },
+    {
+      "hex": "#a2958a",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#282221",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,105 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Monza%2C_Duomo.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/03/Monza%2C_Duomo.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/03/Monza%2C_Duomo.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Monza,_Duomo.jpg",
+      "caption": "Facade of Monza Cathedral",
+      "source": "Wikimedia Commons",
+      "artist": "Giorgio Pallavicini",
+      "date": "2020-11-18",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1158",
+      "height": "1544"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Monza_Duomo_di_San_Giovanni_Battista_Esterno_Facciata_Frontone_1.jpg/1280px-Monza_Duomo_di_San_Giovanni_Battista_Esterno_Facciata_Frontone_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Monza_Duomo_di_San_Giovanni_Battista_Esterno_Facciata_Frontone_1.jpg/500px-Monza_Duomo_di_San_Giovanni_Battista_Esterno_Facciata_Frontone_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/df/Monza_Duomo_di_San_Giovanni_Battista_Esterno_Facciata_Frontone_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Monza_Duomo_di_San_Giovanni_Battista_Esterno_Facciata_Frontone_1.jpg",
+      "caption": "Gable of the Church of St. John the Baptist, Monza, Province of Monza & Brianza, Region of Lombardy, Italy",
+      "source": "Wikimedia Commons",
+      "artist": "Zairon",
+      "date": "2020-09-19",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "959"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/01_-_Authari%2C_King_of_the_Lombards%2C_sends_ambassadors_to_Childebert%2C_King_of_the_Franks%2C_to_ask_the_hand_of_his_sister_Ingarde.jpg/1280px-01_-_Authari%2C_King_of_the_Lombards%2C_sends_ambassadors_to_Childebert%2C_King_of_the_Franks%2C_to_ask_the_hand_of_his_sister_Ingarde.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/01_-_Authari%2C_King_of_the_Lombards%2C_sends_ambassadors_to_Childebert%2C_King_of_the_Franks%2C_to_ask_the_hand_of_his_sister_Ingarde.jpg/500px-01_-_Authari%2C_King_of_the_Lombards%2C_sends_ambassadors_to_Childebert%2C_King_of_the_Franks%2C_to_ask_the_hand_of_his_sister_Ingarde.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e4/01_-_Authari%2C_King_of_the_Lombards%2C_sends_ambassadors_to_Childebert%2C_King_of_the_Franks%2C_to_ask_the_hand_of_his_sister_Ingarde.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:01_-_Authari,_King_of_the_Lombards,_sends_ambassadors_to_Childebert,_King_of_the_Franks,_to_ask_the_hand_of_his_sister_Ingarde.jpg",
+      "caption": "Authari, King of the Lombards, sends ambassadors to Childebert, King of the Franks, to ask the hand of his sister Ingarde.",
+      "source": "Wikimedia Commons",
+      "artist": "Zavattari",
+      "date": "1444",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "634"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Monza_-_Chiesa_Santa_Maria_in_Strada.jpg/1280px-Monza_-_Chiesa_Santa_Maria_in_Strada.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Monza_-_Chiesa_Santa_Maria_in_Strada.jpg/500px-Monza_-_Chiesa_Santa_Maria_in_Strada.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Monza_-_Chiesa_Santa_Maria_in_Strada.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Monza_-_Chiesa_Santa_Maria_in_Strada.jpg",
+      "caption": "La Facciata della Chiesa Santa maria in Strada di Monza",
+      "source": "Wikimedia Commons",
+      "artist": "photo uploaded by User:RicciSpeziari. Photographer: Riccardo Speziari",
+      "date": "2009-01-04",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1934"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/MonzaArengario.jpg/1280px-MonzaArengario.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/MonzaArengario.jpg/500px-MonzaArengario.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b7/MonzaArengario.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:MonzaArengario.jpg",
+      "caption": "Arengario in Monza",
+      "source": "Wikimedia Commons",
+      "artist": "Remulazz",
+      "date": "2008-08-16",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1102"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/8e29271d-e364-1a31-79f6-957c68097496/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/8e29271d-e364-1a31-79f6-957c68097496/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/8e29271d-e364-1a31-79f6-957c68097496/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/43784",
+      "caption": "E29: English Roman Catholic Church in the Gothic Style, 1275–1300, c. 1937",
+      "source": "Art Institute of Chicago",
+      "artist": "Designed by Narcissa Niblack Thorne",
+      "date": "c. 1937",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1257"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/9",
+      "caption": "Interior of St. Mark's, Venice, 1869",
+      "source": "Art Institute of Chicago",
+      "artist": "David Dalhoff Neal (American, 1838–1915)",
+      "date": "1869",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "979"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gothic art and architecture in Monza",
@@ -62,7 +186,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q24940137",
+      "url": "https://www.wikidata.org/wiki/Q24940137",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:17.573Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gothic art and architecture in Monza",
+      "url": "https://en.wikipedia.org/wiki/Gothic_art_and_architecture_in_Monza",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:17.573Z"
+      }
+    }
+  ],
   "wikidata": "Q24940137",
   "wikipedia": "Gothic art and architecture in Monza",
   "popularity": 35,
@@ -70,5 +217,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.873Z"
 }

@@ -20,7 +20,25 @@
   "summary": "Ishi-no-ma-zukuri (石の間造), also called gongen-zukuri (権現造), yatsumune-zukuri (八棟造) and miyadera-zukuri (宮寺造), is a complex Shinto shrine structure in which the haiden, or worship hall, and the honden, or main sanctuary, are interconnected under the same roof in the shape of an H.",
   "description": "Ishi-no-ma-zukuri (石の間造), also called gongen-zukuri (権現造), yatsumune-zukuri (八棟造) and miyadera-zukuri (宮寺造), is a complex Shinto shrine structure in which the haiden, or worship hall, and the honden, or main sanctuary, are interconnected under the same roof in the shape of an H.\n\nThe connecting passage can be called ai-no-ma (相の間), ishi-no-ma (石の間), or chūden (中殿) (\"intermediate hall\"). The floor of each of the three halls can be at a different level. If the ai-no-ma is paved with stones it is called ishi-no-ma, whence the name of the style. It can, however, be paved with planks or tatami. Its width is often the same as the honden's, with the haiden from one to three ken wider.\n\nThis style, rather than the structure of a building, defines the relationship between member structures of a shrine. Each member then belongs to a particular architectural style. For example, the honden and haiden at Ōsaki Hachiman Shrine (大崎八幡宮, Ōsaki Hachiman-gū) are single-storied, irimoya-zukuri edifices. Because they are connected by a passage called ishi-no-ma and are covered by a single roof, however, the complex is classified as belonging to the ishi-no-ma-zukuri style.\n\nOne of the oldest examples is Kitano Tenman-gū in Kyoto. The gongen-zukuri name comes from Nikkō Tōshō-gū in Nikkō, which enshrines the Tōshō Daigongen (Tokugawa Ieyasu) and adopts this structure.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5b341c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#735840",
+      "name": "umber"
+    },
+    {
+      "hex": "#878072",
+      "name": "taupe"
+    },
+    {
+      "hex": "#2a170b",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +60,33 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Gongen_Zukuri.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/af/Gongen_Zukuri.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/af/Gongen_Zukuri.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gongen_Zukuri.png",
+      "caption": "Gongen Zukuri( Honden structure of Shrine )",
+      "source": "Wikimedia Commons",
+      "artist": "user:Hiroyuki0904",
+      "date": "2008-04-03",
+      "license": "Public domain",
+      "width": "523",
+      "height": "642"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/500px-Himeji_model7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Himeji_model7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Himeji_model7.JPG",
+      "caption": "Himeji model7",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Ishi-no-ma-zukuri",
@@ -65,7 +109,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3155268",
+      "url": "https://www.wikidata.org/wiki/Q3155268",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:24.101Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Ishi-no-ma-zukuri",
+      "url": "https://en.wikipedia.org/wiki/Ishi-no-ma-zukuri",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:24.101Z"
+      }
+    }
+  ],
   "wikidata": "Q3155268",
   "wikipedia": "Ishi-no-ma-zukuri",
   "popularity": 35,
@@ -73,5 +140,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:50:24.101Z"
 }

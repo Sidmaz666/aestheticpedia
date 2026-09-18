@@ -23,7 +23,33 @@
   "summary": "Body modification (or body alteration) is the deliberate altering of the human anatomy or human physical appearance.",
   "description": "Body modification (or body alteration) is the deliberate altering of the human anatomy or human physical appearance. In its broadest definition it includes skin tattooing, socially acceptable decoration (e.g., common body piercing in many societies), and religious rites of passage (e.g., circumcision in a number of cultures), as well as the modern primitive movement.\n\nBody modification is performed for a large variety of reasons, including aesthetics, sexual enhancement, rites of passage, religious beliefs, to display group membership or affiliation, in remembrance of lived experience, traditional symbolism such as axis mundi and mythology, to create body art, for shock value, and as self-expression, among other reasons.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0d0b0f",
+      "name": "black"
+    },
+    {
+      "hex": "#28272a",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#f3f3f1",
+      "name": "paper white"
+    },
+    {
+      "hex": "#4c4547",
+      "name": "graphite"
+    },
+    {
+      "hex": "#a49c95",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#cac2c1",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -45,7 +71,36 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Scarification_by_Lestyn_Flye.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Scarification_by_Lestyn_Flye.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Scarification_by_Lestyn_Flye.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Scarification_by_Lestyn_Flye.jpg",
+      "caption": "Scarification by Iestyn Flye",
+      "source": "Wikimedia Commons",
+      "artist": "Ning Chang",
+      "date": "2010-10-22",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1024",
+      "height": "683"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/First_piercing.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d1/First_piercing.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d1/First_piercing.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:First_piercing.jpg",
+      "caption": "First piercing I've done",
+      "source": "Wikimedia Commons",
+      "artist": "kill",
+      "date": "2011-11-14 18:54",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "765",
+      "height": "1024"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Body modification",
@@ -68,7 +123,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q890057",
+      "url": "https://www.wikidata.org/wiki/Q890057",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:20.552Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Body modification",
+      "url": "https://en.wikipedia.org/wiki/Body_modification",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:20.552Z"
+      }
+    }
+  ],
   "wikidata": "Q890057",
   "wikipedia": "Body modification",
   "popularity": 35,
@@ -76,5 +154,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:38:20.552Z"
 }

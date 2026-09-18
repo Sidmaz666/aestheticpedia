@@ -41,7 +41,22 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/a1712a1f-44bf-9dd2-d482-895e7d0f1260/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/a1712a1f-44bf-9dd2-d482-895e7d0f1260/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/a1712a1f-44bf-9dd2-d482-895e7d0f1260/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/11052",
+      "caption": "¡Terrible y verdadera noticia! (Terrible and Real News!), 1910",
+      "source": "Art Institute of Chicago",
+      "artist": "José Guadalupe Posada",
+      "date": "1910",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "621"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Photo-text art",
@@ -64,7 +79,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q124459157",
+      "url": "https://www.wikidata.org/wiki/Q124459157",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:08.609Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Photo-text art",
+      "url": "https://en.wikipedia.org/wiki/Photo-text_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:08.609Z"
+      }
+    }
+  ],
   "wikidata": "Q124459157",
   "wikipedia": "Photo-text art",
   "popularity": 35,
@@ -72,5 +110,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:00:08.609Z"
 }

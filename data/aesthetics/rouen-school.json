@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "France",
+  "geography": "France",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Rouen School (L'École de Rouen) is a term used for artists or artisans born or working in Rouen, or for all artistic products from Rouen, such as Rouen faience of the 16th to 18th centuries.",
   "description": "The Rouen School (L'École de Rouen) is a term used for artists or artisans born or working in Rouen, or for all artistic products from Rouen, such as Rouen faience of the 16th to 18th centuries.\n\nThe term was first used in 1902 by Arsène Alexandre in his catalogue to an exhibition by Joseph Delattre in the galerie Durand-Ruel in Paris. Alexandre used it to refer to Joseph Delattre, Léon-Jules Lemaître, Charles Angrand and Charles Frechon, four Post-Impressionist artists interested in Neo-Impressionism (and particularly Seurat's pointillism) towards the end of the 1880s. Alexandre also used the term for a second generation of l'École de Rouen, including Robert Antoine Pinchon and Pierre Dumont among others, in relation to Fauvism and Cubism.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b8b9c5",
+      "name": "silver"
+    },
+    {
+      "hex": "#19191b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#8f8a85",
+      "name": "stone"
+    },
+    {
+      "hex": "#6d6c6d",
+      "name": "slate"
+    },
+    {
+      "hex": "#2e2e31",
+      "name": "ink blue 2"
+    },
+    {
+      "hex": "#a0a0a7",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,137 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Salon_des_Artistes_Rouennais%2C_Mus%C3%A9e_des_Beaux-Arts_de_Rouen%2C_c.1930.jpg/1280px-Salon_des_Artistes_Rouennais%2C_Mus%C3%A9e_des_Beaux-Arts_de_Rouen%2C_c.1930.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Salon_des_Artistes_Rouennais%2C_Mus%C3%A9e_des_Beaux-Arts_de_Rouen%2C_c.1930.jpg/500px-Salon_des_Artistes_Rouennais%2C_Mus%C3%A9e_des_Beaux-Arts_de_Rouen%2C_c.1930.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Salon_des_Artistes_Rouennais%2C_Mus%C3%A9e_des_Beaux-Arts_de_Rouen%2C_c.1930.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Salon_des_Artistes_Rouennais,_Mus%C3%A9e_des_Beaux-Arts_de_Rouen,_c.1930.jpg",
+      "caption": "Salon des Artistes Rouennais, c.1930, Musée des Beaux-Arts de Rouen",
+      "source": "Wikimedia Commons",
+      "artist": "Anonymous Unknown author",
+      "date": "circa 1930 date QS:P,+1930-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "950"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Robert_Antoine_Pinchon%2C_Le_Pont_aux_Anglais%2C_soleil_couchant%2C_1905%2C_oil_on_canvas%2C_54_x_73_cm%2C_Mus%C3%A9e_des_Beaux-Arts_de_Rouen.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/af/Robert_Antoine_Pinchon%2C_Le_Pont_aux_Anglais%2C_soleil_couchant%2C_1905%2C_oil_on_canvas%2C_54_x_73_cm%2C_Mus%C3%A9e_des_Beaux-Arts_de_Rouen.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/af/Robert_Antoine_Pinchon%2C_Le_Pont_aux_Anglais%2C_soleil_couchant%2C_1905%2C_oil_on_canvas%2C_54_x_73_cm%2C_Mus%C3%A9e_des_Beaux-Arts_de_Rouen.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Robert_Antoine_Pinchon,_Le_Pont_aux_Anglais,_soleil_couchant,_1905,_oil_on_canvas,_54_x_73_cm,_Mus%C3%A9e_des_Beaux-Arts_de_Rouen.jpg",
+      "caption": "Le Pont aux Anglais, soleil couchant",
+      "source": "Wikimedia Commons",
+      "artist": "Robert Antoine Pinchon",
+      "date": "1905 date QS:P571,+1905-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1052",
+      "height": "769"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Rouen_pont_Corneille_Lemaitre_1890.jpg/1280px-Rouen_pont_Corneille_Lemaitre_1890.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Rouen_pont_Corneille_Lemaitre_1890.jpg/500px-Rouen_pont_Corneille_Lemaitre_1890.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Rouen_pont_Corneille_Lemaitre_1890.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rouen_pont_Corneille_Lemaitre_1890.jpg",
+      "caption": "Le Pont Corneille, Rouen. 1890",
+      "source": "Wikimedia Commons",
+      "artist": "Léon-Jules Lemaître",
+      "date": "1890 date QS:P571,+1890-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "862"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Lebourg-Albert-Charles-Tow-boats-in-Rouen-Sun.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/df/Lebourg-Albert-Charles-Tow-boats-in-Rouen-Sun.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/df/Lebourg-Albert-Charles-Tow-boats-in-Rouen-Sun.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lebourg-Albert-Charles-Tow-boats-in-Rouen-Sun.jpg",
+      "caption": "Tow-boats-in-Rouen-Sun",
+      "source": "Wikimedia Commons",
+      "artist": "Charles Lebourg",
+      "date": "circa 1900 date QS:P,+1900-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "1136",
+      "height": "792"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Joseph_Delattre_-_Port_de_Rouen.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/15/Joseph_Delattre_-_Port_de_Rouen.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/15/Joseph_Delattre_-_Port_de_Rouen.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Delattre_-_Port_de_Rouen.jpg",
+      "caption": "Le Port de Rouen",
+      "source": "Wikimedia Commons",
+      "artist": "Joseph Delattre",
+      "date": "19 th century date QS:P571,+1850-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "800",
+      "height": "640"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Marcel_Couchaux_-_P%C3%AAcheurs_%C3%A0_Honfleur.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/99/Marcel_Couchaux_-_P%C3%AAcheurs_%C3%A0_Honfleur.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/99/Marcel_Couchaux_-_P%C3%AAcheurs_%C3%A0_Honfleur.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Marcel_Couchaux_-_P%C3%AAcheurs_%C3%A0_Honfleur.JPG",
+      "caption": "Pêcheurs dans le port de Honfleur",
+      "source": "Wikimedia Commons",
+      "artist": "Marcel Couchaux",
+      "date": "1920 date QS:P571,+1920-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "792",
+      "height": "620"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Charles_Th%C3%A9ophile_Angrand_001.jpg/1280px-Charles_Th%C3%A9ophile_Angrand_001.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Charles_Th%C3%A9ophile_Angrand_001.jpg/500px-Charles_Th%C3%A9ophile_Angrand_001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Charles_Th%C3%A9ophile_Angrand_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Charles_Th%C3%A9ophile_Angrand_001.jpg",
+      "caption": "Man and Woman in the Street",
+      "source": "Wikimedia Commons",
+      "artist": "Charles Angrand",
+      "date": "1887 date QS:P571,+1887-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1499"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Robert_Antoine_Pinchon%2C_Le_Vallon_du_temps_perdu%2C_oil_on_canvas%2C_73_x_92_cm.jpg/1280px-Robert_Antoine_Pinchon%2C_Le_Vallon_du_temps_perdu%2C_oil_on_canvas%2C_73_x_92_cm.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Robert_Antoine_Pinchon%2C_Le_Vallon_du_temps_perdu%2C_oil_on_canvas%2C_73_x_92_cm.jpg/500px-Robert_Antoine_Pinchon%2C_Le_Vallon_du_temps_perdu%2C_oil_on_canvas%2C_73_x_92_cm.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Robert_Antoine_Pinchon%2C_Le_Vallon_du_temps_perdu%2C_oil_on_canvas%2C_73_x_92_cm.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Robert_Antoine_Pinchon,_Le_Vallon_du_temps_perdu,_oil_on_canvas,_73_x_92_cm.jpg",
+      "caption": "Le Vallon du temps perdu",
+      "source": "Wikimedia Commons",
+      "artist": "Robert Antoine Pinchon",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "935"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Albert-lebourg-chalou-moulineux-1910.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/68/Albert-lebourg-chalou-moulineux-1910.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/68/Albert-lebourg-chalou-moulineux-1910.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Albert-lebourg-chalou-moulineux-1910.jpg",
+      "caption": "Chalou Moulineux",
+      "source": "Wikimedia Commons",
+      "artist": "A Lebourg",
+      "date": "1910",
+      "license": "Public domain",
+      "width": "540",
+      "height": "362"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Robert_Antoine_Pinchon%2C_c.1920%2C_Le_jardin_aux_iris%2C_oil_on_canvas%2C_80.9_x_116.2_cm.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Robert_Antoine_Pinchon%2C_c.1920%2C_Le_jardin_aux_iris%2C_oil_on_canvas%2C_80.9_x_116.2_cm.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Robert_Antoine_Pinchon%2C_c.1920%2C_Le_jardin_aux_iris%2C_oil_on_canvas%2C_80.9_x_116.2_cm.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Robert_Antoine_Pinchon,_c.1920,_Le_jardin_aux_iris,_oil_on_canvas,_80.9_x_116.2_cm.jpg",
+      "caption": "The Iris Garden",
+      "source": "Wikimedia Commons",
+      "artist": "Robert Antoine Pinchon",
+      "date": "circa 1920 date QS:P571,+1920-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1065",
+      "height": "737"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Rouen School",
@@ -62,7 +218,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3577819",
+      "url": "https://www.wikidata.org/wiki/Q3577819",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:22.636Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Rouen School",
+      "url": "https://en.wikipedia.org/wiki/Rouen_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:22.636Z"
+      }
+    }
+  ],
   "wikidata": "Q3577819",
   "wikipedia": "Rouen School",
   "popularity": 35,
@@ -70,5 +249,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:54.513Z"
 }

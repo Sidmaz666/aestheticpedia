@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Brazil",
+  "geography": "Brazil",
   "periodStart": "1980s",
   "periodEnd": "",
   "startYear": 1980,
@@ -39,7 +39,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/2bc4d353-e61a-7589-8585-2000a23689bb/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2bc4d353-e61a-7589-8585-2000a23689bb/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2bc4d353-e61a-7589-8585-2000a23689bb/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/186047",
+      "caption": "Sideboard, Designed 1867, made c. 1876",
+      "source": "Art Institute of Chicago",
+      "artist": "Designed by Edward William Godwin (English, 1833-1886)",
+      "date": "Designed 1867, made c. 1876",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "602"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Porn Art Movement",
@@ -62,7 +77,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q18476421",
+      "url": "https://www.wikidata.org/wiki/Q18476421",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:25.395Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Porn Art Movement",
+      "url": "https://en.wikipedia.org/wiki/Porn_Art_Movement",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:25.395Z"
+      }
+    }
+  ],
   "wikidata": "Q18476421",
   "wikipedia": "Porn Art Movement",
   "popularity": 35,
@@ -70,5 +108,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.079Z"
 }

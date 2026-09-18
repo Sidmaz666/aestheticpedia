@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3115672",
+      "url": "https://www.wikidata.org/wiki/Q3115672",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:07.933Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Fat over lean",
+      "url": "https://en.wikipedia.org/wiki/Fat_over_lean",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:07.933Z"
+      }
+    }
+  ],
   "wikidata": "Q3115672",
   "wikipedia": "Fat over lean",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:45:07.933Z"
 }

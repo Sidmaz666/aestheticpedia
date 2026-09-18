@@ -17,7 +17,33 @@
   "summary": "Yamato-e (大和絵) is a style of Japanese painting inspired by Tang dynasty paintings and fully developed by the late Heian period.",
   "description": "Yamato-e (大和絵) is a style of Japanese painting inspired by Tang dynasty paintings and fully developed by the late Heian period. It is considered the classical Japanese style. From the Muromachi period (15th century), the term yamato-e has been used to distinguish work from contemporary Chinese-style paintings kara-e (唐絵), which were inspired by Chinese Song and Yuan-era ink wash paintings.\n\nCharacteristic features of yamato-e include many small figures and careful depictions of details of buildings and other objects, the selection of only some elements of a scene to be fully depicted, the rest either being ignored or covered by a \"floating cloud\", an oblique view from above showing interiors of buildings as though through a cutaway roof, and very stylised depiction of landscape.\n\nYamato-e very often depict narrative stories, with or without accompanying text, but also show the beauty of nature, with famous places meisho-e (名所絵) or the four seasons shiki-e (四季絵).  The pictures are often on scrolls that can be hung on a wall (kakemono), handscrolls (emakimono) that are read from right to left, or on a folding screen (byōbu) or panel (shōji). Although they received their name from the Yamato period, no yamato-e paintings from this period survive, nor from several centuries afterwards.  Yamato-e pictures rather stand for a style and are not restricted to a particular period.\n\nThere was a revival of the yamato-e style in the 15th century by the Tosa school, including a return to narrative subjects, and although the rival Kanō school grew out of the alternative tradition of Chinese-style works, the style it developed from the late 16th century for large paintings decorating Japanese castles included some elements of the yamato-e style.  In the 17th century, the simplified and stylised depiction of landscape backgrounds in yamato-e was revived as a style for large landscape works by the Rinpa school.  Later the narrative element of yamato-e, the interest in the depiction of everyday life, and the choice of oblique and partial views in a composition heavily influenced the ukiyo-e style, as well as the nihonga.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#80674a",
+      "name": "bronze"
+    },
+    {
+      "hex": "#808169",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a87e4d",
+      "name": "copper"
+    },
+    {
+      "hex": "#c4a576",
+      "name": "camel"
+    },
+    {
+      "hex": "#554c3f",
+      "name": "umber"
+    },
+    {
+      "hex": "#d6c096",
+      "name": "beige"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,73 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ch5_wakamurasaki.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ch5_wakamurasaki.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ch5_wakamurasaki.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ch5_wakamurasaki.jpg",
+      "caption": "Ilustration of the The Tale of Genji , ch.5–Wakamurasaki, traditionally credited to Tosa Mitsuoki (1617–1691), part of the Burke Albums, property of Mary Griggs Burke",
+      "source": "Wikimedia Commons",
+      "artist": "Tosa Mitsuoki",
+      "date": "c. late 17 th century date QS:P,+1650-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "803",
+      "height": "904"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Genji_emaki_sekiya.jpg/1280px-Genji_emaki_sekiya.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Genji_emaki_sekiya.jpg/500px-Genji_emaki_sekiya.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Genji_emaki_sekiya.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Genji_emaki_sekiya.jpg",
+      "caption": "A sceneof the Chapter \"SEKI YA\"(Gate Hut) of Illustrated handscroll of Tale of Genji (written by MURASAKI SHIKIBU(11th cent.). The handscroll was made in about ACE1130 and stored in TOKUGAWA Museum, Japan. The handscrolls were separated to each sections and mounted to frame for c",
+      "source": "Wikimedia Commons",
+      "artist": "Imperial court in Kyoto",
+      "date": "Twelfth century",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "580"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Genji_emaki_azumaya.jpg/1280px-Genji_emaki_azumaya.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Genji_emaki_azumaya.jpg/500px-Genji_emaki_azumaya.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Genji_emaki_azumaya.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Genji_emaki_azumaya.jpg",
+      "caption": "A scene (AZUMA YA: East Wing) of Illustrated scroll of Tale of Genji (written by MURASAKI SHIKIBU (11th cent.). The multi-panel curtain at the center bottom of the image is a kichō . The decorated sliding door panels at the top of the image are fusuma . The scroll was made in abo",
+      "source": "Wikimedia Commons",
+      "artist": "Imperial court in Kyoto",
+      "date": "circa 1130 date QS:P,+1130-00-00T00:00:00Z/9,P1480,Q5727902 ",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "699"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Sigisanengi_tobikura.jpg/1280px-Sigisanengi_tobikura.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Sigisanengi_tobikura.jpg/500px-Sigisanengi_tobikura.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/da/Sigisanengi_tobikura.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sigisanengi_tobikura.jpg",
+      "caption": "Shigisan Engi, scroll of Tobikura(part)",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "12 th century date QS:P,+1150-00-00T00:00:00Z/7 Heian period",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "684"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Japanischer_Maler_001.jpg/1280px-Japanischer_Maler_001.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Japanischer_Maler_001.jpg/500px-Japanischer_Maler_001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/Japanischer_Maler_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Japanischer_Maler_001.jpg",
+      "caption": "Uji Bridge",
+      "source": "Wikimedia Commons",
+      "artist": "Japanischer Maler",
+      "date": "17 th century date QS:P571,+1650-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "576"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Yamato-e",
@@ -62,7 +154,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q597365",
+      "url": "https://www.wikidata.org/wiki/Q597365",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:08.270Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Yamato-e",
+      "url": "https://en.wikipedia.org/wiki/Yamato-e",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:08.270Z"
+      }
+    }
+  ],
   "wikidata": "Q597365",
   "wikipedia": "Yamato-e",
   "popularity": 35,
@@ -70,5 +185,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:12:08.270Z"
 }

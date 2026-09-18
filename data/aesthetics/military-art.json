@@ -20,7 +20,33 @@
   "summary": "Military art is art with a military subject matter, regardless of its style or medium.",
   "description": "Military art is art with a military subject matter, regardless of its style or medium. The battle scene is one of the oldest types of art in developed civilizations, as rulers have always been keen to celebrate their victories and intimidate potential opponents. The depiction of other aspects of warfare, especially the suffering of casualties and civilians, has taken much longer to develop. As well as portraits of military figures, depictions of anonymous soldiers on the battlefield have been very common; since the introduction of military uniforms such works often concentrate on showing the variety of these.\n\nNaval scenes are very common, and battle scenes and \"ship portraits\" are mostly considered as a branch of marine art; the development of other large types of military equipment such as warplanes and tanks has led to new types of work portraying these, either in action or at rest. In 20th century wars official war artists were retained to depict the military in action; despite artists now being very close to the action the battle scene is mostly left to popular graphic media and the cinema. The term war art is sometimes used, mostly in relation to 20th century military art made during wartime. A Veterans Art Institute website was launched in 2019, where service members and veterans can publish their work.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#eee0cd",
+      "name": "bone white"
+    },
+    {
+      "hex": "#524b42",
+      "name": "umber"
+    },
+    {
+      "hex": "#6d6f6a",
+      "name": "slate"
+    },
+    {
+      "hex": "#31271f",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#869394",
+      "name": "stone"
+    },
+    {
+      "hex": "#c3a06f",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,137 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Velazquez-The_Surrender_of_Breda.jpg/1280px-Velazquez-The_Surrender_of_Breda.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Velazquez-The_Surrender_of_Breda.jpg/500px-Velazquez-The_Surrender_of_Breda.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Velazquez-The_Surrender_of_Breda.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Velazquez-The_Surrender_of_Breda.jpg",
+      "caption": "La obra representa el momento en que Justino de Nassau rindió la ciudad de Breda , en 1625, a las tropas españolas al mando del general Ambrosio Spínola , que aparece recibiendo las llaves de la ciudad de manos de su enemigo.",
+      "source": "Wikimedia Commons",
+      "artist": "Diego Velázquez",
+      "date": "Ca. 1635",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1056"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Knight-Death-and-the-Devil.jpg/1280px-Knight-Death-and-the-Devil.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Knight-Death-and-the-Devil.jpg/500px-Knight-Death-and-the-Devil.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/23/Knight-Death-and-the-Devil.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Knight-Death-and-the-Devil.jpg",
+      "caption": "Albrecht Dürer . Knight, Death and the Devil . 1513. Engraving. 24,6 × 18,9 cm.",
+      "source": "Wikimedia Commons",
+      "artist": "Albrecht Dürer",
+      "date": "1513",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1681"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/R%C3%A9giment_de_Bercheny_1720-1789.PNG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f4/R%C3%A9giment_de_Bercheny_1720-1789.PNG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f4/R%C3%A9giment_de_Bercheny_1720-1789.PNG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:R%C3%A9giment_de_Bercheny_1720-1789.PNG",
+      "caption": "Bercheny's Hussars in 1776. French light cavalry",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1776",
+      "license": "Public domain",
+      "width": "564",
+      "height": "415"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sowar%2C_Madras_Light_Cavalry%2C_1847_%28c%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sowar%2C_Madras_Light_Cavalry%2C_1847_%28c%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sowar%2C_Madras_Light_Cavalry%2C_1847_%28c%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sowar,_Madras_Light_Cavalry,_1847_(c).jpg",
+      "caption": "Sowar, Madras Light Cavalry, 1847 (c)",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1847-01-01",
+      "license": "Public domain",
+      "width": "960",
+      "height": "716"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Scotland_Forever%21.jpg/1280px-Scotland_Forever%21.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Scotland_Forever%21.jpg/500px-Scotland_Forever%21.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Scotland_Forever%21.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Scotland_Forever!.jpg",
+      "caption": "\" Scotland Forever! \" is an 1881 painting by Lady Butler depicting the start of the cavalry charge of the Royal Scots Greys who charged alongside the British heavy cavalry at the Battle of Waterloo in 1815 during the Napoleonic wars.\"",
+      "source": "Wikimedia Commons",
+      "artist": "Elizabeth Thompson",
+      "date": "1881",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "648"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Vuelvan_caras.jpg/1280px-Vuelvan_caras.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Vuelvan_caras.jpg/500px-Vuelvan_caras.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Vuelvan_caras.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vuelvan_caras.jpg",
+      "caption": "Vuelvan Caras es una pintura de Arturo Michelena donde relata un episodio de la Batalla de Las Queseras del Medio , en el momento en que José Antonio Páez ordena a sus jinetes dar la vuelta para atacar a la caballeria española que los perseguía.",
+      "source": "Wikimedia Commons",
+      "artist": "Arturo Michelena",
+      "date": "1890 date QS:P571,+1890-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "800"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Edouard_Detaille_-_Vive_L%27Empereur_-_Google_Art_Project.jpg/1280px-Edouard_Detaille_-_Vive_L%27Empereur_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Edouard_Detaille_-_Vive_L%27Empereur_-_Google_Art_Project.jpg/500px-Edouard_Detaille_-_Vive_L%27Empereur_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Edouard_Detaille_-_Vive_L%27Empereur_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Edouard_Detaille_-_Vive_L%27Empereur_-_Google_Art_Project.jpg",
+      "caption": "Charge of the 4th Hussars at the battle of Friedland, 14 June 1807",
+      "source": "Wikimedia Commons",
+      "artist": "Édouard Detaille",
+      "date": "1891 date QS:P571,+1891-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1093"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/1807%2C_Friedland.jpg/1280px-1807%2C_Friedland.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/1807%2C_Friedland.jpg/500px-1807%2C_Friedland.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e1/1807%2C_Friedland.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:1807,_Friedland.jpg",
+      "caption": "Painting by Ernest Meissonier (1815–1891), gift of Henry Hilton to the Metropolitan Museum of Arts, 1887. Meissonier, largely self-taught, established his reputation in the 1840s as a painter of small-scale genre scenes rendered in meticulous detail. An 1864 history painting, \"18",
+      "source": "Wikimedia Commons",
+      "artist": "Jean-Louis-Ernest Meissonier",
+      "date": "circa 1861–75",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "705"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Meissonier_-_Relief_After_the_Battle.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Meissonier_-_Relief_After_the_Battle.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Meissonier_-_Relief_After_the_Battle.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Meissonier_-_Relief_After_the_Battle.jpg",
+      "caption": "en:Jean-Louis-Ernest Meissonier - Relief after the battle - 31 cm x 42 cm - oil on panel - Private collection.",
+      "source": "Wikimedia Commons",
+      "artist": "Jean-Louis-Ernest Meissonier",
+      "license": "Public domain",
+      "width": "1077",
+      "height": "827"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Giving_a_sick_man_a_drink_as_US_POWs_of_Japanese%2C_Philippine_Islands%2C_Cabanatuan_prison_camp.jpg/1280px-Giving_a_sick_man_a_drink_as_US_POWs_of_Japanese%2C_Philippine_Islands%2C_Cabanatuan_prison_camp.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Giving_a_sick_man_a_drink_as_US_POWs_of_Japanese%2C_Philippine_Islands%2C_Cabanatuan_prison_camp.jpg/500px-Giving_a_sick_man_a_drink_as_US_POWs_of_Japanese%2C_Philippine_Islands%2C_Cabanatuan_prison_camp.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Giving_a_sick_man_a_drink_as_US_POWs_of_Japanese%2C_Philippine_Islands%2C_Cabanatuan_prison_camp.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Giving_a_sick_man_a_drink_as_US_POWs_of_Japanese,_Philippine_Islands,_Cabanatuan_prison_camp.jpg",
+      "caption": "Titled: American POW of Japs giving his buddy a drink at Cabanatuan prison camp",
+      "source": "Wikimedia Commons",
+      "artist": "Benjamin Charles Steele",
+      "date": "1946-07-05",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "962"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Military art",
@@ -65,7 +221,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q383898",
+      "url": "https://www.wikidata.org/wiki/Q383898",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:03.130Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Military art",
+      "url": "https://en.wikipedia.org/wiki/Military_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:03.130Z"
+      }
+    }
+  ],
   "wikidata": "Q383898",
   "wikipedia": "Military art",
   "popularity": 35,
@@ -73,5 +252,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:55:03.130Z"
 }

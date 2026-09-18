@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "2000s",
   "periodEnd": "",
   "startYear": 2002,
@@ -17,7 +17,33 @@
   "summary": "Times Square, often referred to as the hum or the Times Square Hum, is a permanent sound art installation created by Max Neuhaus in Times Square in New York City.",
   "description": "Times Square, often referred to as the hum or the Times Square Hum, is a permanent sound art installation created by Max Neuhaus in Times Square in New York City. Originally installed in 1977, it was removed in 1992 and reinstalled in 2002. It is maintained by the Dia Art Foundation, who consider it one of the twelve locations and sites they manage.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#7c7a78",
+      "name": "taupe"
+    },
+    {
+      "hex": "#9fa29c",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#5d5c5b",
+      "name": "umber"
+    },
+    {
+      "hex": "#c6d7e5",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#292624",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#654239",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Times_Square_4.jpg/1280px-Times_Square_4.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Times_Square_4.jpg/500px-Times_Square_4.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Times_Square_4.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Times_Square_4.jpg",
+      "caption": "In the crowd of tourists in Times Square, Manhattan, NY",
+      "source": "Wikimedia Commons",
+      "artist": "Rosapicci",
+      "date": "Taken on 19 June 2017, 16:11:53",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Times_Square_New_York_City_-_1977.jpg/1280px-Times_Square_New_York_City_-_1977.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Times_Square_New_York_City_-_1977.jpg/500px-Times_Square_New_York_City_-_1977.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Times_Square_New_York_City_-_1977.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Times_Square_New_York_City_-_1977.jpg",
+      "caption": "Times Square , Manhattan, New York (1977)",
+      "source": "Wikimedia Commons",
+      "artist": "Derzsi Elekes Andor",
+      "date": "1977",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "847"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Times_Square_by_Max_Neuhaus_1.jpg/1280px-Times_Square_by_Max_Neuhaus_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Times_Square_by_Max_Neuhaus_1.jpg/500px-Times_Square_by_Max_Neuhaus_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Times_Square_by_Max_Neuhaus_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Times_Square_by_Max_Neuhaus_1.jpg",
+      "caption": "Subway grate in Times Square where \"Times Square\" by Max Neuhaus emanates.",
+      "source": "Wikimedia Commons",
+      "artist": "Found5dollar",
+      "date": "2021-05-14 11:27:01",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Times Square (Neuhaus)",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q96409917",
+      "url": "https://www.wikidata.org/wiki/Q96409917",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:05.295Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Times Square (Neuhaus)",
+      "url": "https://en.wikipedia.org/wiki/Times_Square_(Neuhaus)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:05.295Z"
+      }
+    }
+  ],
   "wikidata": "Q96409917",
   "wikipedia": "Times Square (Neuhaus)",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:02.208Z"
 }

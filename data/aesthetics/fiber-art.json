@@ -19,7 +19,33 @@
   "summary": "Fiber art (fibre art in British spelling) refers to fine art whose material consists of natural or synthetic fiber and other components, such as fabric or yarn.",
   "description": "Fiber art (fibre art in British spelling) refers to fine art whose material consists of natural or synthetic fiber and other components, such as fabric or yarn.  It focuses on the materials and on the manual labor on the part of the artist as part of the works' significance, and prioritizes aesthetic value over utility.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a0958a",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#aeaaa8",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#7d746a",
+      "name": "taupe"
+    },
+    {
+      "hex": "#5b4754",
+      "name": "graphite"
+    },
+    {
+      "hex": "#5f8ed1",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#a25375",
+      "name": "dusty rose"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,76 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Olek_-_NuEdge_-_03.jpg/1280px-Olek_-_NuEdge_-_03.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Olek_-_NuEdge_-_03.jpg/500px-Olek_-_NuEdge_-_03.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/14/Olek_-_NuEdge_-_03.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Olek_-_NuEdge_-_03.jpg",
+      "caption": "Devant la galerie NuEdge de la rue Sherbrooke à Montréal, l'artiste d'origine polonaise Olek (Agata Oleksiak) a crocheté une oeuvre sur une sculpture existante. Son art consiste à ajouter une seconde peau, très colorée; ce qui modifie radicalement l'apparence de l'objet. Montreal",
+      "source": "Wikimedia Commons",
+      "artist": "Jeangagnon",
+      "date": "2012-08-23 09:37:09",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Morris_Bluebell_printed_fabric_design_detail.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/84/Morris_Bluebell_printed_fabric_design_detail.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/84/Morris_Bluebell_printed_fabric_design_detail.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Morris_Bluebell_printed_fabric_design_detail.jpg",
+      "caption": "Design for Bluebell also known as Columbine",
+      "source": "Wikimedia Commons",
+      "artist": "William Morris",
+      "date": "1876 date QS:P571,+1876-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "872",
+      "height": "1466"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/FlailArnault.jpg/1280px-FlailArnault.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/FlailArnault.jpg/500px-FlailArnault.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e0/FlailArnault.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:FlailArnault.jpg",
+      "caption": "'Flail' a fiber sculpture by artist Madeline Arnault",
+      "source": "Wikimedia Commons",
+      "artist": "MadiMaud",
+      "date": "2023-09-01 13:34:23",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/A_Sky_Full_of_Hope_%E2%80%93_Earthtime_1.78_Frankfurt_by_Janet_Echelman_-_1.jpg/1280px-A_Sky_Full_of_Hope_%E2%80%93_Earthtime_1.78_Frankfurt_by_Janet_Echelman_-_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/A_Sky_Full_of_Hope_%E2%80%93_Earthtime_1.78_Frankfurt_by_Janet_Echelman_-_1.jpg/500px-A_Sky_Full_of_Hope_%E2%80%93_Earthtime_1.78_Frankfurt_by_Janet_Echelman_-_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4d/A_Sky_Full_of_Hope_%E2%80%93_Earthtime_1.78_Frankfurt_by_Janet_Echelman_-_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:A_Sky_Full_of_Hope_%E2%80%93_Earthtime_1.78_Frankfurt_by_Janet_Echelman_-_1.jpg",
+      "caption": "A Sky Full of Hope – Earthtime 1.78 Frankfurt by Janet Echelman at the Konstablerwache in Frankfurt",
+      "source": "Wikimedia Commons",
+      "artist": "Dr. Thomas Liptak",
+      "date": "Taken on 14 August 2026, 09:49:11",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "720"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Alpackaull.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Alpackaull.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Alpackaull.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Alpackaull.jpg",
+      "caption": "Alpaca-wool.",
+      "source": "Wikimedia Commons",
+      "artist": "Foto: Damast . User Damast on sv.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "756",
+      "height": "567"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Fiber art",
@@ -64,7 +159,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5446356",
+      "url": "https://www.wikidata.org/wiki/Q5446356",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:15.250Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Fiber art",
+      "url": "https://en.wikipedia.org/wiki/Fiber_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:15.250Z"
+      }
+    }
+  ],
   "wikidata": "Q5446356",
   "wikipedia": "Fiber art",
   "popularity": 35,
@@ -72,5 +190,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:45:15.250Z"
 }

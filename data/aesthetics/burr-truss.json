@@ -20,7 +20,33 @@
   "summary": "The Burr Arch Truss—or, simply, Burr Truss or Burr Arch—is a combination of an arch and a multiple kingpost truss design.",
   "description": "The Burr Arch Truss—or, simply, Burr Truss or Burr Arch—is a combination of an arch and a multiple kingpost truss design. It was invented in 1804 by Theodore Burr, patented on April 3, 1817, and used in bridges, usually covered bridges.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#805b2d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#aa8240",
+      "name": "copper"
+    },
+    {
+      "hex": "#af9879",
+      "name": "camel"
+    },
+    {
+      "hex": "#83786b",
+      "name": "taupe"
+    },
+    {
+      "hex": "#debf7e",
+      "name": "tan"
+    },
+    {
+      "hex": "#c3c7b2",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,105 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Burr_Truss_P4230093_Sims_Smith.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Burr_Truss_P4230093_Sims_Smith.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Burr_Truss_P4230093_Sims_Smith.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Burr_Truss_P4230093_Sims_Smith.jpg",
+      "caption": "Sims Smith Bridge, Parke County, Indiana",
+      "source": "Wikimedia Commons",
+      "artist": "Chris Light ( talk )",
+      "date": "2006-04-23",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Burr_Truss_P4230099_Sims_Smith.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/65/Burr_Truss_P4230099_Sims_Smith.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/65/Burr_Truss_P4230099_Sims_Smith.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Burr_Truss_P4230099_Sims_Smith.jpg",
+      "caption": "Sims Smith Bridge, Parke County, Indiana",
+      "source": "Wikimedia Commons",
+      "artist": "Chris Light ( talk )",
+      "date": "2006-04-23",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Burr_Truss_%282_span%29_P4230017_Mansfield_CB_%28Parke_Cty%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Burr_Truss_%282_span%29_P4230017_Mansfield_CB_%28Parke_Cty%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Burr_Truss_%282_span%29_P4230017_Mansfield_CB_%28Parke_Cty%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Burr_Truss_(2_span)_P4230017_Mansfield_CB_(Parke_Cty).jpg",
+      "caption": "Mansfield Covered Bridge, Parke County, Indiana",
+      "source": "Wikimedia Commons",
+      "artist": "Chris Light ( talk )",
+      "date": "2006-04-23",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Burr_Truss_%282_span%29_P4230125_Mansfield_CB_%28Parke_Cty%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Burr_Truss_%282_span%29_P4230125_Mansfield_CB_%28Parke_Cty%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Burr_Truss_%282_span%29_P4230125_Mansfield_CB_%28Parke_Cty%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Burr_Truss_(2_span)_P4230125_Mansfield_CB_(Parke_Cty).jpg",
+      "caption": "Mansfield Covered Bridge, Park County, Indiana",
+      "source": "Wikimedia Commons",
+      "artist": "Chris Light ( talk )",
+      "date": "2006-04-23",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Burr_Truss_%283_span%29_011_09A_%28Medora%2C_Jackson_Cty%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Burr_Truss_%283_span%29_011_09A_%28Medora%2C_Jackson_Cty%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Burr_Truss_%283_span%29_011_09A_%28Medora%2C_Jackson_Cty%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Burr_Truss_(3_span)_011_09A_(Medora,_Jackson_Cty).jpg",
+      "caption": "Medora Covered Bridge, Jackson County, Indiana",
+      "source": "Wikimedia Commons",
+      "artist": "Chris Light ( talk )",
+      "date": "Autumn 2007 date QS:P,+2007-00-00T00:00:00Z/9,P4241,Q4072056",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "800",
+      "height": "533"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Baumgardener%27s_Covered_Bridge_Inside_Center_3008px.jpg/1280px-Baumgardener%27s_Covered_Bridge_Inside_Center_3008px.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Baumgardener%27s_Covered_Bridge_Inside_Center_3008px.jpg/500px-Baumgardener%27s_Covered_Bridge_Inside_Center_3008px.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/af/Baumgardener%27s_Covered_Bridge_Inside_Center_3008px.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Baumgardener%27s_Covered_Bridge_Inside_Center_3008px.jpg",
+      "caption": "A photograph of the Baumgardener's Covered Bridge from inside the bridge. The bridge is located in Lancaster County, Pennsylvania . This photo shows the double Burr Arch Trusses and steel hanger rods. Camera and Exposure Details: Camera: Nikon D50 Lens: Tokina 12-24mm f/4 Exposur",
+      "source": "Wikimedia Commons",
+      "artist": "Photo by and (c)2006 Derek Ramsey ( Ram-Man )",
+      "date": "2006-07-09",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1280",
+      "height": "851"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Burr_Arch_Deer%27s_Mill_CB%2C_Sugar_Creek%2C_Montgomery_County%2C_IN_00002r.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/12/Burr_Arch_Deer%27s_Mill_CB%2C_Sugar_Creek%2C_Montgomery_County%2C_IN_00002r.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/12/Burr_Arch_Deer%27s_Mill_CB%2C_Sugar_Creek%2C_Montgomery_County%2C_IN_00002r.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Burr_Arch_Deer%27s_Mill_CB,_Sugar_Creek,_Montgomery_County,_IN_00002r.jpg",
+      "caption": "HAER (Historic Ameircan Engineering Records, Department of the Interior, Deer Mill Covered Bridge, Shades State Park, Montgomery County",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "2008-10",
+      "license": "Public domain",
+      "width": "800",
+      "height": "637"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Burr Truss",
@@ -65,7 +189,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1016889",
+      "url": "https://www.wikidata.org/wiki/Q1016889",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:19.140Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Burr Truss",
+      "url": "https://en.wikipedia.org/wiki/Burr_Truss",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:19.140Z"
+      }
+    }
+  ],
   "wikidata": "Q1016889",
   "wikipedia": "Burr Truss",
   "popularity": 35,
@@ -73,5 +220,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:39:19.140Z"
 }

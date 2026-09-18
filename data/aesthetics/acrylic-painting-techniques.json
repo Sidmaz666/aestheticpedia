@@ -19,7 +19,33 @@
   "summary": "Acrylic painting techniques are different styles of manipulating and working with polymer-based acrylic paints.",
   "description": "Acrylic painting techniques are different styles of manipulating and working with polymer-based acrylic paints.  Acrylics differ from oil paints in that they have shorter drying times (as little as 10 minutes) and are soluble in water. Since acrylic paint dries at a faster rate than other types of paint, some techniques require more swift execution before the paint dries. There are benefits to adding water before it dries out completely, because the paint can be manipulated for longer before drying. Acrylic paint eliminates the need for turpentine and gesso, and can be applied directly onto the canvas, though gesso can still be used to improve the look of a painting and provide a smoother surface to work with. Artists use various paint brushes and a multi color palette to help them find and refine painting techniques.  Aside from painting with concentrated color paints, acrylics can also be watered down to a consistency that can be poured or used for glazes.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#83555e",
+      "name": "umber"
+    },
+    {
+      "hex": "#4f443f",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#727873",
+      "name": "slate"
+    },
+    {
+      "hex": "#9d8d8d",
+      "name": "stone"
+    },
+    {
+      "hex": "#802931",
+      "name": "burnt sienna"
+    },
+    {
+      "hex": "#418b53",
+      "name": "olive green"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,22 @@
   "tags": [
     "painting technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Acrylmalerei.jpg/1280px-Acrylmalerei.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Acrylmalerei.jpg/500px-Acrylmalerei.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/95/Acrylmalerei.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Acrylmalerei.jpg",
+      "caption": "Acrylic painting with different painting techniques: partly by applying the impasto technique, partly by pouring in horizontal and vertical directions.",
+      "source": "Wikimedia Commons",
+      "artist": "Mabit1",
+      "date": "2020-07-26 16:44:21",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "963"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Acrylic painting techniques",
@@ -64,7 +105,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2812894",
+      "url": "https://www.wikidata.org/wiki/Q2812894",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:34:53.931Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Acrylic painting techniques",
+      "url": "https://en.wikipedia.org/wiki/Acrylic_painting_techniques",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:34:53.931Z"
+      }
+    }
+  ],
   "wikidata": "Q2812894",
   "wikipedia": "Acrylic painting techniques",
   "popularity": 35,
@@ -72,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:34:53.931Z"
 }

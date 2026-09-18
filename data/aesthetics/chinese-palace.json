@@ -17,7 +17,33 @@
   "summary": "A Chinese palace is an imperial complex where the court, civil government, royal garden and defensive fortress resided.",
   "description": "A Chinese palace is an imperial complex where the court, civil government, royal garden and defensive fortress resided. Its structures are considerable and elaborate. The Chinese character Gong (宮; meaning \"palace\") represents two connected rooms (呂) under a roof (宀). Originally the character applied to any residence or mansion, but  it was used in reference to solely the imperial residence since the Qin dynasty (3rd century BC).\n\nA traditional Chinese palace comprises multiple buildings arranged within expansive walled and moated compounds. It contains large halls (殿) for ceremonies and official functions, along with smaller structures such as temples, towers, residences, galleries, courtyards, gardens, and auxiliary buildings.\n\nThe world's largest palace to have ever existed, the Weiyang Palace, was built by the Western Han dynasty on the order of the Emperor Gaozu. The world's largest palace currently still in existence, the Forbidden City, was constructed by the Ming dynasty during the reign of the Yongle Emperor.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#787978",
+      "name": "slate"
+    },
+    {
+      "hex": "#8d908d",
+      "name": "stone"
+    },
+    {
+      "hex": "#b1a9a1",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#c3c9cb",
+      "name": "silver"
+    },
+    {
+      "hex": "#805f52",
+      "name": "bronze"
+    },
+    {
+      "hex": "#4e97ef",
+      "name": "verdigris"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,143 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Hall_of_Supreme_Harmony_%2820241127120000%29.jpg/1280px-Hall_of_Supreme_Harmony_%2820241127120000%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Hall_of_Supreme_Harmony_%2820241127120000%29.jpg/500px-Hall_of_Supreme_Harmony_%2820241127120000%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/23/Hall_of_Supreme_Harmony_%2820241127120000%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_(20241127120000).jpg",
+      "caption": "12:00 sharp!",
+      "source": "Wikimedia Commons",
+      "artist": "N509FZ",
+      "date": "2024-11-27 12:00:00",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Daming_Palace_National_Heritage_Park_-_Hanyuan_Hall_01.jpg/1280px-Daming_Palace_National_Heritage_Park_-_Hanyuan_Hall_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Daming_Palace_National_Heritage_Park_-_Hanyuan_Hall_01.jpg/500px-Daming_Palace_National_Heritage_Park_-_Hanyuan_Hall_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Daming_Palace_National_Heritage_Park_-_Hanyuan_Hall_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Daming_Palace_National_Heritage_Park_-_Hanyuan_Hall_01.jpg",
+      "caption": "The Daming Palace, once the grand imperial palace of the Tang Dynasty, stands as a testament to China's rich history and architectural grandeur. Located in Xi'an, Shaanxi, this palace was the political heart of the dynasty, where emperors conducted state affairs and celebrated gr",
+      "source": "Wikimedia Commons",
+      "artist": "xiquinhosilva",
+      "date": "2024-06-08 15:05:23",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "823"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Reconstruction_Model_of_Hanyuan_Hall_of_Daming_Palace.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/10/Reconstruction_Model_of_Hanyuan_Hall_of_Daming_Palace.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/10/Reconstruction_Model_of_Hanyuan_Hall_of_Daming_Palace.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Reconstruction_Model_of_Hanyuan_Hall_of_Daming_Palace.jpg",
+      "caption": "CG restoration of Hanyuan Hall in Daming Palace in the Tang Dynasty",
+      "source": "Wikimedia Commons",
+      "artist": "(Uiki bastard) うぃき野郎",
+      "date": "2016-07-09 23:03:06",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "960",
+      "height": "540"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Mogao_Cave_217_architecture_02.jpg/1280px-Mogao_Cave_217_architecture_02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Mogao_Cave_217_architecture_02.jpg/500px-Mogao_Cave_217_architecture_02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Mogao_Cave_217_architecture_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mogao_Cave_217_architecture_02.jpg",
+      "caption": "​敦煌莫高窟第217窟壁画《观无量寿经变》局部",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "Tang dynasty",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "504"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Mogao_Cave_217_architecture_01.jpg/1280px-Mogao_Cave_217_architecture_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Mogao_Cave_217_architecture_01.jpg/500px-Mogao_Cave_217_architecture_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/17/Mogao_Cave_217_architecture_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mogao_Cave_217_architecture_01.jpg",
+      "caption": "​敦煌莫高窟第217窟壁画《观无量寿经变》局部",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "Tang dynasty",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1021"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Pavilion_of_the_old_summer_palace_2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/70/Pavilion_of_the_old_summer_palace_2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/70/Pavilion_of_the_old_summer_palace_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pavilion_of_the_old_summer_palace_2.jpg",
+      "caption": "Pavilion of the old summer palace c.1900",
+      "source": "Wikimedia Commons",
+      "artist": "John Thomson",
+      "date": "1874-01-01",
+      "license": "Public domain",
+      "width": "976",
+      "height": "1221"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Pavilion_of_the_old_summer_palace.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/23/Pavilion_of_the_old_summer_palace.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/23/Pavilion_of_the_old_summer_palace.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pavilion_of_the_old_summer_palace.png",
+      "caption": "Pavilion of the old summer palace c.1870",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1870-01-01",
+      "license": "Public domain",
+      "width": "1144",
+      "height": "1138"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Residence_dete828.JPG/1280px-Residence_dete828.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Residence_dete828.JPG/500px-Residence_dete828.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Residence_dete828.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Residence_dete828.JPG",
+      "caption": "Residence dete",
+      "source": "Wikimedia Commons",
+      "artist": "Viault",
+      "date": "2012-02-23 03:57:34",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "721"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Vue_prise_en_ballon_du_Palais_Imp%C3%A9rial_%C3%A0_P%C3%A9kin.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/37/Vue_prise_en_ballon_du_Palais_Imp%C3%A9rial_%C3%A0_P%C3%A9kin.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/37/Vue_prise_en_ballon_du_Palais_Imp%C3%A9rial_%C3%A0_P%C3%A9kin.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vue_prise_en_ballon_du_Palais_Imp%C3%A9rial_%C3%A0_P%C3%A9kin.jpg",
+      "caption": "Image from La Chine à terre et en ballon .",
+      "source": "Wikimedia Commons",
+      "artist": "capitaine Plaisant",
+      "date": "between 1900 and 1901 date QS:P,+1900-00-00T00:00:00Z/8,P131",
+      "license": "Public domain",
+      "width": "1138",
+      "height": "738"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Forbiden_city-Beijing-China_-_panoramio_%2818%29.jpg/1280px-Forbiden_city-Beijing-China_-_panoramio_%2818%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Forbiden_city-Beijing-China_-_panoramio_%2818%29.jpg/500px-Forbiden_city-Beijing-China_-_panoramio_%2818%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Forbiden_city-Beijing-China_-_panoramio_%2818%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Forbiden_city-Beijing-China_-_panoramio_(18).jpg",
+      "caption": "Forbiden city-Beijing-China",
+      "source": "Wikimedia Commons",
+      "artist": "Haluk Comertel",
+      "date": "Taken on 9 July 2011",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "741"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Chinese palace",
@@ -62,7 +224,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5100577",
+      "url": "https://www.wikidata.org/wiki/Q5100577",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:06.721Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Chinese palace",
+      "url": "https://en.wikipedia.org/wiki/Chinese_palace",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:06.721Z"
+      }
+    }
+  ],
   "wikidata": "Q5100577",
   "wikipedia": "Chinese palace",
   "popularity": 35,
@@ -70,5 +255,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:41:06.721Z"
 }

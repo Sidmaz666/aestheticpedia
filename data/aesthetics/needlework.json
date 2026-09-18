@@ -23,7 +23,33 @@
   "summary": "Needlework refers to decorative sewing and other textile handicrafts that involve the use of a needle.",
   "description": "Needlework refers to decorative sewing and other textile handicrafts that involve the use of a needle. Needlework may also include related textile crafts like crochet (which uses a hook), or tatting (which uses a shuttle).\n\nSimilar abilities often transfer well between different varieties of needlework, such as fine motor skill and knowledge of textile fibers. Some of the same tools may be used in several different varieties of needlework.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a5a7aa",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#fefdfd",
+      "name": "ivory"
+    },
+    {
+      "hex": "#050507",
+      "name": "black"
+    },
+    {
+      "hex": "#d3bba2",
+      "name": "beige"
+    },
+    {
+      "hex": "#785b43",
+      "name": "umber"
+    },
+    {
+      "hex": "#6e331a",
+      "name": "sepia"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -45,7 +71,102 @@
   "tags": [
     "textile process"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Elizabeth1book.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/98/Elizabeth1book.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/Elizabeth1book.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Elizabeth1book.jpg",
+      "caption": "Embroidered bookbinding, The Miroir or Glasse of the Synneful Soul , manuscript by the Princess Elizabeth (later Elizabeth I of England) at age 11, 1544, and presented to her stepmother Catherine or Katherine Parr. \"...Translated 'out of frenche ryme into english prose, joyning t",
+      "source": "Wikimedia Commons",
+      "artist": "Elizabeth I of England",
+      "date": "Image published 1899. Original embroidery 1544.",
+      "license": "Public domain",
+      "width": "1089",
+      "height": "1527"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Woman%27s_embroidered_boots_1885.jpg/1280px-Woman%27s_embroidered_boots_1885.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Woman%27s_embroidered_boots_1885.jpg/500px-Woman%27s_embroidered_boots_1885.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Woman%27s_embroidered_boots_1885.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Woman%27s_embroidered_boots_1885.jpg",
+      "caption": "Pair of woman’s boots",
+      "source": "Wikimedia Commons",
+      "artist": "F. Pinet, Paris",
+      "date": "circa 1885 date QS:P571,+1885-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1417"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Alpackaull.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Alpackaull.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Alpackaull.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Alpackaull.jpg",
+      "caption": "Alpaca-wool.",
+      "source": "Wikimedia Commons",
+      "artist": "Foto: Damast . User Damast on sv.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "756",
+      "height": "567"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BathingSuit1920s.jpg",
+      "caption": "Woman's bathing suit from 1920s. Photo postcard. No copyright notice on card. This is a SOL postcard, series 2832. Here is a larger example of the posted image.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "early 1920s date QS:P,+1920-00-00T00:00:00Z/8,P4241,Q4071972",
+      "license": "Public domain",
+      "width": "768",
+      "height": "490"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/516d9e71-6e59-1e6d-2db0-f29f3b40dd6c/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/516d9e71-6e59-1e6d-2db0-f29f3b40dd6c/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/516d9e71-6e59-1e6d-2db0-f29f3b40dd6c/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/11144",
+      "caption": "Orphrey Band, 1375/1400",
+      "source": "Art Institute of Chicago",
+      "artist": "Probably England",
+      "date": "1375/1400",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1625"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/077a96b5-3106-e7b7-1d0f-3c024be4f1f3/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/077a96b5-3106-e7b7-1d0f-3c024be4f1f3/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/077a96b5-3106-e7b7-1d0f-3c024be4f1f3/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/2057",
+      "caption": "Fragment (Border), 100 BCE-200 CE",
+      "source": "Art Institute of Chicago",
+      "artist": "Nasca",
+      "date": "100 BCE-200 CE",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "159"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/0ae367f8-e885-e201-3df9-38c84f2a5e32/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/0ae367f8-e885-e201-3df9-38c84f2a5e32/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/0ae367f8-e885-e201-3df9-38c84f2a5e32/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/9400",
+      "caption": "Uchikake (Over Kimono), late Edo (1789–1868)/Meiji period (1868–1912), 19th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Japan",
+      "date": "late Edo (1789–1868)/Meiji period (1868–1912), 19th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1295"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Needlework",
@@ -68,7 +189,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1817291",
+      "url": "https://www.wikidata.org/wiki/Q1817291",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:25.404Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Needlework",
+      "url": "https://en.wikipedia.org/wiki/Needlework",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:25.404Z"
+      }
+    }
+  ],
   "wikidata": "Q1817291",
   "wikipedia": "Needlework",
   "popularity": 35,
@@ -76,5 +220,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:56:25.404Z"
 }

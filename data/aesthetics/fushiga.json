@@ -17,7 +17,33 @@
   "summary": "Fushiga (Japanese: 風刺画, lit. 'satirical caricature') is a genre of ukiyo-e woodblock prints depicting satirical pictures accompanied by text.",
   "description": "Fushiga (Japanese: 風刺画, lit. 'satirical caricature') is a genre of ukiyo-e woodblock prints depicting satirical pictures accompanied by text. Fushiga prints usually depicted ordinary people in their everyday activities, with their exclamations written next to them, and not celebrities or famous landscapes. Fushiga relied more on text than on the image, and because of that was \"virtually ignored by Western critics of the print\".",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#8d927f",
+      "name": "stone"
+    },
+    {
+      "hex": "#7d7768",
+      "name": "taupe"
+    },
+    {
+      "hex": "#665e51",
+      "name": "umber"
+    },
+    {
+      "hex": "#b3aa93",
+      "name": "khaki"
+    },
+    {
+      "hex": "#4f493f",
+      "name": "graphite"
+    },
+    {
+      "hex": "#dcd5c0",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,85 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Minamoto_no_Yorimitsu-ko_no_yakata_ni_tsuchigumo_yokai_o_nasu_zu_%E6%BA%90%E9%A0%BC%E5%85%89%E5%85%AC%E9%A4%A8%E5%9C%9F%E8%9C%98%E4%BD%9C%E5%A6%96%E6%80%AA%E5%9C%96_%28The_Earth_Spider_Conjures_up_Demons_at_the_Mansion_of_Minamoto_no_Raiko%29_%28BM_2008%2C3037.20906%29.jpg/1280px-thumbnail.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Minamoto_no_Yorimitsu-ko_no_yakata_ni_tsuchigumo_yokai_o_nasu_zu_%E6%BA%90%E9%A0%BC%E5%85%89%E5%85%AC%E9%A4%A8%E5%9C%9F%E8%9C%98%E4%BD%9C%E5%A6%96%E6%80%AA%E5%9C%96_%28The_Earth_Spider_Conjures_up_Demons_at_the_Mansion_of_Minamoto_no_Raiko%29_%28BM_2008%2C3037.20906%29.jpg/500px-thumbnail.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Minamoto_no_Yorimitsu-ko_no_yakata_ni_tsuchigumo_yokai_o_nasu_zu_%E6%BA%90%E9%A0%BC%E5%85%89%E5%85%AC%E9%A4%A8%E5%9C%9F%E8%9C%98%E4%BD%9C%E5%A6%96%E6%80%AA%E5%9C%96_%28The_Earth_Spider_Conjures_up_Demons_at_the_Mansion_of_Minamoto_no_Raiko%29_%28BM_2008%2C3037.20906%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Minamoto_no_Yorimitsu-ko_no_yakata_ni_tsuchigumo_yokai_o_nasu_zu_%E6%BA%90%E9%A0%BC%E5%85%89%E5%85%AC%E9%A4%A8%E5%9C%9F%E8%9C%98%E4%BD%9C%E5%A6%96%E6%80%AA%E5%9C%96_(The_Earth_Spider_Conjures_up_Demons_at_the_Mansion_of_Minamoto_no_Raiko)_(BM_2008,3037.20906).jpg",
+      "caption": "Woodblock triptych print, oban tate-e. The Earth Spider (right) conjures up demons at the mansion of Minamoto no Raiko (Minamoto no Yorimitsu) (right), who lies sick in bed. Two of his bodyguards, Watanabe no Tsuna and Sakata no Kintoki, play go (centre), while Urabe no Suetake (",
+      "source": "Wikimedia Commons",
+      "artist": "Print artist: Utagawa Kuniyoshi (歌川国芳)",
+      "date": "circa 1843 date QS:P571,+1843-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "604"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Kawanabe_Kyosai%27s_%22The_lazy_one_in_the_middle%22.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/31/Kawanabe_Kyosai%27s_%22The_lazy_one_in_the_middle%22.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/31/Kawanabe_Kyosai%27s_%22The_lazy_one_in_the_middle%22.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kawanabe_Kyosai%27s_%22The_lazy_one_in_the_middle%22.jpg",
+      "caption": "Kawanabe Kyosai's \"The lazy one in the middle, a satirical interpretation of Aesop's fable of \"Tale of Stomach and Body Parts\". in Isoho Monogotari (1870-80) The various body parts had a grudge against the stomach. It sat in the middle and consumed the food which all the other bo",
+      "source": "Wikimedia Commons",
+      "artist": "Kawanabe Kyōsai",
+      "date": "明治8年出版",
+      "license": "Public domain",
+      "width": "683",
+      "height": "879"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Isoho_monogatari_no_uchi%2C_nezumi_no_s%C5%8Ddan_no_hanashi_by_Kawanabe_Ky%C5%8Dsai.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/02/Isoho_monogatari_no_uchi%2C_nezumi_no_s%C5%8Ddan_no_hanashi_by_Kawanabe_Ky%C5%8Dsai.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/02/Isoho_monogatari_no_uchi%2C_nezumi_no_s%C5%8Ddan_no_hanashi_by_Kawanabe_Ky%C5%8Dsai.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Isoho_monogatari_no_uchi,_nezumi_no_s%C5%8Ddan_no_hanashi_by_Kawanabe_Ky%C5%8Dsai.jpg",
+      "caption": "\" The Mice in Council (\"nezumi no sōdan\" no hanashi)\", from the series Tales of Aesop (Isoho monogatari), Woodblock print.",
+      "source": "Wikimedia Commons",
+      "artist": "Kawanabe Kyōsai",
+      "date": "明治8年出版",
+      "license": "Public domain",
+      "width": "604",
+      "height": "800"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bake_Bake_Gakko.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bake_Bake_Gakko.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bake_Bake_Gakko.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bake_Bake_Gakko.jpg",
+      "caption": "\"Bake-Bake Gakkō\" (化々學校)",
+      "source": "Wikimedia Commons",
+      "artist": "Kawanabe Kyōsai",
+      "license": "Public domain",
+      "width": "890",
+      "height": "1326"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/NDL-DC_1312046-Utagawa_Hirokage-%E9%9D%92%E7%89%A9%E9%AD%9A%E8%BB%8D%E5%8B%A2%E5%A4%A7%E5%90%88%E6%88%A6%E4%B9%8B%E5%9B%B3-%E5%AE%89%E6%94%BF6-cmb.jpg/1280px-NDL-DC_1312046-Utagawa_Hirokage-%E9%9D%92%E7%89%A9%E9%AD%9A%E8%BB%8D%E5%8B%A2%E5%A4%A7%E5%90%88%E6%88%A6%E4%B9%8B%E5%9B%B3-%E5%AE%89%E6%94%BF6-cmb.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/NDL-DC_1312046-Utagawa_Hirokage-%E9%9D%92%E7%89%A9%E9%AD%9A%E8%BB%8D%E5%8B%A2%E5%A4%A7%E5%90%88%E6%88%A6%E4%B9%8B%E5%9B%B3-%E5%AE%89%E6%94%BF6-cmb.jpg/500px-NDL-DC_1312046-Utagawa_Hirokage-%E9%9D%92%E7%89%A9%E9%AD%9A%E8%BB%8D%E5%8B%A2%E5%A4%A7%E5%90%88%E6%88%A6%E4%B9%8B%E5%9B%B3-%E5%AE%89%E6%94%BF6-cmb.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0a/NDL-DC_1312046-Utagawa_Hirokage-%E9%9D%92%E7%89%A9%E9%AD%9A%E8%BB%8D%E5%8B%A2%E5%A4%A7%E5%90%88%E6%88%A6%E4%B9%8B%E5%9B%B3-%E5%AE%89%E6%94%BF6-cmb.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:NDL-DC_1312046-Utagawa_Hirokage-%E9%9D%92%E7%89%A9%E9%AD%9A%E8%BB%8D%E5%8B%A2%E5%A4%A7%E5%90%88%E6%88%A6%E4%B9%8B%E5%9B%B3-%E5%AE%89%E6%94%BF6-cmb.jpg",
+      "caption": "from the picture album \"Azuma Nishiki-e‎\"",
+      "source": "Wikimedia Commons",
+      "artist": "Utagawa Hirokage",
+      "date": "1859 date QS:P571,+1859-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "621"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toshusai_Sharaku-_Otani_Oniji,_1794.jpg",
+      "caption": "Oniji Ōtani III (aka. Nakazō Nakamura II) as Edobee in the May 1794 production of Koi Nyōbo Somewake Tazuna at Edo Kawarasaki-za theater. Polychrome woodcut print on paper; 15 x 9 7/8 in. (38.1 x 22.9 cm) Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939 (JP2822)",
+      "source": "Wikimedia Commons",
+      "artist": "Sharaku",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "802",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Fushiga",
@@ -62,7 +166,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q109973630",
+      "url": "https://www.wikidata.org/wiki/Q109973630",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:18.346Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Fushiga",
+      "url": "https://en.wikipedia.org/wiki/Fushiga",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:18.346Z"
+      }
+    }
+  ],
   "wikidata": "Q109973630",
   "wikipedia": "Fushiga",
   "popularity": 35,
@@ -70,5 +197,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:46:18.346Z"
 }

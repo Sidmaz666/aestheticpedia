@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Japan",
+  "geography": "Japan",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "A nagaya (長屋, lit. 'longhouse') is a type of Japanese rowhouse that was typical during the Edo period (1603–1868).",
   "description": "A nagaya (長屋, lit. 'longhouse') is a type of Japanese rowhouse that was typical during the Edo period (1603–1868).\n\nA nagaya was a long housing complex under the same ridge, one or two stories high, divided into small compartments for rent. The well, toilet and waste facilities were shared. Except for a bedroom, each household only had a kitchen. Historically, similar houses were built around a rich manor or castle for low-ranking samurai. Later, they accommodated both samurai and commoners. At the ends of the building shops were located, typically, their owners living in adjacent rooms.\n\nThe wealthier tenants lived in the rooms facing the street. Usually, the tenants of a nagaya didn't have a family. The rooms had an earthen floor, with a size of 8–10 square meters.\n\nNagaya were also known as yakeya (焼け家, burning house), due to their tendency to catch fire.\n\nIf a gateway was located in one section, that structure was called a nagayamon (長屋門, longhouse-gate).",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#2b2621",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#0a0909",
+      "name": "black"
+    },
+    {
+      "hex": "#827666",
+      "name": "taupe"
+    },
+    {
+      "hex": "#4e4237",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#6c5e4d",
+      "name": "umber"
+    },
+    {
+      "hex": "#998d7a",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,48 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Fukagawa_Edo_Museum_on_the_30th_of_october_2010_-_89.jpg/1280px-Fukagawa_Edo_Museum_on_the_30th_of_october_2010_-_89.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Fukagawa_Edo_Museum_on_the_30th_of_october_2010_-_89.jpg/500px-Fukagawa_Edo_Museum_on_the_30th_of_october_2010_-_89.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Fukagawa_Edo_Museum_on_the_30th_of_october_2010_-_89.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fukagawa_Edo_Museum_on_the_30th_of_october_2010_-_89.jpg",
+      "caption": "Fukagawa Edo Museum in Tokyo , Japan .",
+      "source": "Wikimedia Commons",
+      "artist": "Lionel Allorge",
+      "date": "Taken on 30 October 2010, 03:53:32",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Edo-ward-edotokyohakub.jpg/1280px-Edo-ward-edotokyohakub.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Edo-ward-edotokyohakub.jpg/500px-Edo-ward-edotokyohakub.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Edo-ward-edotokyohakub.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Edo-ward-edotokyohakub.jpg",
+      "caption": "Edo. Ward. Model in Edo-Tokyo Hakubutsukan",
+      "source": "Wikimedia Commons",
+      "artist": "Electroliner",
+      "date": "2007-07",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Nagaya.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Nagaya.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Nagaya.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nagaya.jpg",
+      "caption": "長屋の図。 喜田川季荘 著 『類聚近世風俗志 : 原名守貞漫稿』",
+      "source": "Wikimedia Commons",
+      "artist": "喜田川季荘",
+      "date": "2015-05-04",
+      "license": "Public domain",
+      "width": "924",
+      "height": "598"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Nagaya (architecture)",
@@ -62,7 +129,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q93154241",
+      "url": "https://www.wikidata.org/wiki/Q93154241",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:15.978Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Nagaya (architecture)",
+      "url": "https://en.wikipedia.org/wiki/Nagaya_(architecture)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:15.978Z"
+      }
+    }
+  ],
   "wikidata": "Q93154241",
   "wikipedia": "Nagaya (architecture)",
   "popularity": 35,
@@ -70,5 +160,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.384Z"
 }

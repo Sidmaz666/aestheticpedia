@@ -23,7 +23,33 @@
   "summary": "The Herrerian style (Spanish: estilo herreriano or arquitectura herreriana) of architecture was developed in Spain during the last third of the 16th century under the reign of Philip II (1556–1598), and continued in force in the 17th century, but transformed by the Baroque style of the time.",
   "description": "The Herrerian style (Spanish: estilo herreriano or arquitectura herreriana) of architecture was developed in Spain during the last third of the 16th century under the reign of Philip II (1556–1598), and continued in force in the 17th century, but transformed by the Baroque style of the time. It corresponds to the third and final stage of Spanish Renaissance architecture, whose dominant trend had been towards austerity and minimal decoration. The ornate Plateresque style had given way to classical Purism in the second third of the 16th century. Purism in turn had given way to the geometric simplicity of the Herrerian style.\n\nIt originated with the construction of the Monastery of El Escorial (San Lorenzo de El Escorial, Community of Madrid) and, more specifically, with the reorganization of the project made by Cantabrian architect Juan de Herrera (1530–1597), after the death of Juan Bautista de Toledo (1515–1567), author of the first design.\n\nIts main representatives are the aforementioned Herrera, to whom the style owes its name, and Francisco de Mora (1553–1610), Herrera's disciple and architect of the Ducal Palace of Lerma and other key works of Herrerian architecture.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#6a5e54",
+      "name": "umber"
+    },
+    {
+      "hex": "#88786b",
+      "name": "taupe"
+    },
+    {
+      "hex": "#43413d",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#4b7db2",
+      "name": "slate"
+    },
+    {
+      "hex": "#f0ebca",
+      "name": "bone white"
+    },
+    {
+      "hex": "#a0afbd",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -45,7 +71,133 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/San_Lorenzo_de_El_Escorial-atardecer-DavidDaguerro.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d5/San_Lorenzo_de_El_Escorial-atardecer-DavidDaguerro.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d5/San_Lorenzo_de_El_Escorial-atardecer-DavidDaguerro.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:San_Lorenzo_de_El_Escorial-atardecer-DavidDaguerro.jpg",
+      "caption": "Monasterio de El Escorial al atardecer en invierno.",
+      "source": "Wikimedia Commons",
+      "artist": "DavidDaguerro (Madrid)",
+      "date": "2009-12-27 18:49:36",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "950",
+      "height": "624"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Toledo%2C_Ayuntamiento-PM_65578.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Toledo%2C_Ayuntamiento-PM_65578.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Toledo%2C_Ayuntamiento-PM_65578.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toledo,_Ayuntamiento-PM_65578.jpg",
+      "caption": "Toledo City Hall, Spain",
+      "source": "Wikimedia Commons",
+      "artist": "PMRMaeyaert",
+      "date": "2011-07-21",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1000",
+      "height": "808"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Alc%C3%A1zar_de_Toledo_-_03.jpg/1280px-Alc%C3%A1zar_de_Toledo_-_03.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Alc%C3%A1zar_de_Toledo_-_03.jpg/500px-Alc%C3%A1zar_de_Toledo_-_03.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/49/Alc%C3%A1zar_de_Toledo_-_03.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Alc%C3%A1zar_de_Toledo_-_03.jpg",
+      "caption": "Alcázar of Toledo, Spain.",
+      "source": "Wikimedia Commons",
+      "artist": "Carlos Delgado",
+      "date": "2013-09-17 18:15:17",
+      "license": "CC BY-SA 3.0 es",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/es/deed.en",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Hospital_de_San_Agust%C3%ADn%2C_El_Burgo_de_Osma._Fachada_principal.jpg/1280px-Hospital_de_San_Agust%C3%ADn%2C_El_Burgo_de_Osma._Fachada_principal.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Hospital_de_San_Agust%C3%ADn%2C_El_Burgo_de_Osma._Fachada_principal.jpg/500px-Hospital_de_San_Agust%C3%ADn%2C_El_Burgo_de_Osma._Fachada_principal.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Hospital_de_San_Agust%C3%ADn%2C_El_Burgo_de_Osma._Fachada_principal.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hospital_de_San_Agust%C3%ADn,_El_Burgo_de_Osma._Fachada_principal.jpg",
+      "caption": "Fachada principal a la Plaza Mayor.",
+      "source": "Wikimedia Commons",
+      "artist": "José Luis Filpo Cabana",
+      "date": "2016-06",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Ucl%C3%A9s_-_Monasterio_de_Ucl%C3%A9s_02_2015-11-19.jpg/1280px-Ucl%C3%A9s_-_Monasterio_de_Ucl%C3%A9s_02_2015-11-19.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Ucl%C3%A9s_-_Monasterio_de_Ucl%C3%A9s_02_2015-11-19.jpg/500px-Ucl%C3%A9s_-_Monasterio_de_Ucl%C3%A9s_02_2015-11-19.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/58/Ucl%C3%A9s_-_Monasterio_de_Ucl%C3%A9s_02_2015-11-19.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ucl%C3%A9s_-_Monasterio_de_Ucl%C3%A9s_02_2015-11-19.jpg",
+      "caption": "This is a photo of a monument listed in the Spanish heritage register of Bienes de Interés Cultural under the reference RI-51-0000548 .",
+      "source": "Wikimedia Commons",
+      "artist": "Rafa Esteve",
+      "date": "2015-11-19 11:44:20",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Catedral_de_Puebla%2C_M%C3%A9xico%2C_2013-10-11%2C_DD_03.JPG/1280px-Catedral_de_Puebla%2C_M%C3%A9xico%2C_2013-10-11%2C_DD_03.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Catedral_de_Puebla%2C_M%C3%A9xico%2C_2013-10-11%2C_DD_03.JPG/500px-Catedral_de_Puebla%2C_M%C3%A9xico%2C_2013-10-11%2C_DD_03.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/12/Catedral_de_Puebla%2C_M%C3%A9xico%2C_2013-10-11%2C_DD_03.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_Puebla,_M%C3%A9xico,_2013-10-11,_DD_03.JPG",
+      "caption": "Puebla Cathedral, Mexico",
+      "source": "Wikimedia Commons",
+      "artist": "Diego Delso",
+      "date": "2013-10-11 19:06:11",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1601"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Iglesia_de_San_Gin%C3%A9s_%28Madrid%29_05.jpg/1280px-Iglesia_de_San_Gin%C3%A9s_%28Madrid%29_05.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Iglesia_de_San_Gin%C3%A9s_%28Madrid%29_05.jpg/500px-Iglesia_de_San_Gin%C3%A9s_%28Madrid%29_05.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/61/Iglesia_de_San_Gin%C3%A9s_%28Madrid%29_05.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Gin%C3%A9s_(Madrid)_05.jpg",
+      "caption": "View, from the south-west angle, of St. Genesius Church in Madrid ( Spain ).",
+      "source": "Wikimedia Commons",
+      "artist": "Luis García ( Zaqarbal )",
+      "date": "2009-01-10",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "2522"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Madrid_-_Calle_de_Alcal%C3%A1_in_18th-century_by_Antonio_Joli.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/87/Madrid_-_Calle_de_Alcal%C3%A1_in_18th-century_by_Antonio_Joli.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/87/Madrid_-_Calle_de_Alcal%C3%A1_in_18th-century_by_Antonio_Joli.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Madrid_-_Calle_de_Alcal%C3%A1_in_18th-century_by_Antonio_Joli.jpg",
+      "caption": "Calle de Alcalá, Madrid'-1750",
+      "source": "Wikimedia Commons",
+      "artist": "Antonio Joli",
+      "date": "1750",
+      "license": "Public domain",
+      "width": "1132",
+      "height": "728"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg/1280px-%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg/500px-%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/26/%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg",
+      "caption": "View of Sagrada Familia from Placa de Gaudi. The cranes have been digitally removed.",
+      "source": "Wikimedia Commons",
+      "artist": "C messier",
+      "date": "2017-08-24 10:37:15",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1891"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Herrerian style",
@@ -68,7 +220,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1614189",
+      "url": "https://www.wikidata.org/wiki/Q1614189",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:03.614Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Herrerian style",
+      "url": "https://en.wikipedia.org/wiki/Herrerian_style",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:03.614Z"
+      }
+    }
+  ],
   "wikidata": "Q1614189",
   "wikipedia": "Herrerian style",
   "popularity": 35,
@@ -76,5 +251,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:49:03.614Z"
 }

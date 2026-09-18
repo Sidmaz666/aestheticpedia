@@ -17,7 +17,33 @@
   "summary": "Monumentalism is a term used in architectural and art history to describe a design approach or aesthetic style that emphasizes grandeur, colossal scale, durability, and potent symbolic significance.",
   "description": "Monumentalism is a term used in architectural and art history to describe a design approach or aesthetic style that emphasizes grandeur, colossal scale, durability, and potent symbolic significance. It is defined less by a specific historical period than by a recurring intention to evoke awe, project authority, and ensure the lasting memory of a culture, event, or political ideology. Characteristic features often include a simplified, austere aesthetic using strong symmetry, simple geometric volumes, and robust, permanent materials like stone or concrete, designed to create a powerful and unified visual impression that dominates the physical environment.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a29a8f",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#867f76",
+      "name": "taupe"
+    },
+    {
+      "hex": "#eaecea",
+      "name": "paper white"
+    },
+    {
+      "hex": "#636568",
+      "name": "umber"
+    },
+    {
+      "hex": "#c0c1bd",
+      "name": "silver"
+    },
+    {
+      "hex": "#46474a",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,63 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Foreign_Ministery.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Foreign_Ministery.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Foreign_Ministery.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Foreign_Ministery.jpg",
+      "caption": "Foreign Ministery of Ukraine",
+      "source": "Wikimedia Commons",
+      "artist": "Alexander Noskin",
+      "date": "2005-12-08",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Arnaldo_Dell%27Ira_%281903-1943%29%2C_Tempio_degli_Eroi_1.jpg/1280px-Arnaldo_Dell%27Ira_%281903-1943%29%2C_Tempio_degli_Eroi_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Arnaldo_Dell%27Ira_%281903-1943%29%2C_Tempio_degli_Eroi_1.jpg/500px-Arnaldo_Dell%27Ira_%281903-1943%29%2C_Tempio_degli_Eroi_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/14/Arnaldo_Dell%27Ira_%281903-1943%29%2C_Tempio_degli_Eroi_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Arnaldo_Dell%27Ira_(1903-1943),_Tempio_degli_Eroi_1.jpg",
+      "caption": "Arnaldo Dell'Ira (1903-1943), Tempio degli Eroi 1",
+      "source": "Wikimedia Commons",
+      "artist": "Arnaldo Dell'Ira",
+      "date": "2014-03-16 18:23:17",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1494"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Parliament_House_of_Finland.jpg/1280px-Parliament_House_of_Finland.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Parliament_House_of_Finland.jpg/500px-Parliament_House_of_Finland.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/de/Parliament_House_of_Finland.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Parliament_House_of_Finland.jpg",
+      "caption": "Parliament House , Helsinki",
+      "source": "Wikimedia Commons",
+      "artist": "Miraceti at Czech Wikipedia",
+      "date": "2003-09-05",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Facultad_de_Derecho_%288617641510%29.jpg/1280px-Facultad_de_Derecho_%288617641510%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Facultad_de_Derecho_%288617641510%29.jpg/500px-Facultad_de_Derecho_%288617641510%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Facultad_de_Derecho_%288617641510%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Facultad_de_Derecho_(8617641510).jpg",
+      "caption": "Buenos Aires, Argentina",
+      "source": "Wikimedia Commons",
+      "artist": "Juanedc from Zaragoza, España",
+      "date": "2013-02-23 15:35",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Monumentalism",
@@ -62,7 +144,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q21652111",
+      "url": "https://www.wikidata.org/wiki/Q21652111",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:28.651Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Monumentalism",
+      "url": "https://en.wikipedia.org/wiki/Monumentalism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:28.651Z"
+      }
+    }
+  ],
   "wikidata": "Q21652111",
   "wikipedia": "Monumentalism",
   "popularity": 35,
@@ -70,5 +175,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:55:28.651Z"
 }

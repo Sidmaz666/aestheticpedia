@@ -17,7 +17,33 @@
   "summary": "Western American Art broadly refers to artistic works which depict subjects related to or associated with the Western United States region and the Old West period.",
   "description": "Western American Art broadly refers to artistic works which depict subjects related to or associated with the Western United States region and the Old West period. It was often overlooked before the twentieth century, during which it became the subject of academic study. In contrast with much Modern art, which focuses largely on abstraction, Western American art tends to focus more on subject and narrative than style. Commonly depicted subjects in Western American art include Cowboys, Native Americans, horses, and scenic landscapes. Narratives often include scenes demonstrating the daily life and activities in the American West.\n\nThe development of Western American art was affected by the social, political and economic factors in American society. On the one hand, factors like U.S. westward expansion fostered its development; on the other hand, the progress of Western American art was also threatened by the accompanying industrial development and spread of the modern lifestyle in the West. Western American Art experienced periods of waxing and waning popularity during its history.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a8bbcf",
+      "name": "silver"
+    },
+    {
+      "hex": "#dddfd7",
+      "name": "bone white"
+    },
+    {
+      "hex": "#d8c8a8",
+      "name": "beige"
+    },
+    {
+      "hex": "#bfa27c",
+      "name": "camel"
+    },
+    {
+      "hex": "#522b1e",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#a0552e",
+      "name": "brick"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,137 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Stanley_L._Wood00.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/09/Stanley_L._Wood00.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/Stanley_L._Wood00.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Stanley_L._Wood00.jpg",
+      "caption": "Texas cowboy by Stanley L. Wood (1866-1928), English illustrator",
+      "source": "Wikimedia Commons",
+      "artist": "Stanley L. Wood (1866-1928)",
+      "license": "Public domain",
+      "width": "688",
+      "height": "750"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/The_Bucker.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/50/The_Bucker.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/50/The_Bucker.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Bucker.jpg",
+      "caption": "The Bucker",
+      "source": "Wikimedia Commons",
+      "artist": "Charles Marion Russell",
+      "date": "1904 date QS:P571,+1904-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "600",
+      "height": "799"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Remington_the_outlier.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/db/Remington_the_outlier.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/db/Remington_the_outlier.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Remington_the_outlier.jpg",
+      "caption": "Painting by Frederic Remington (October 4, 1861 - December 26, 1909), The Outlier (1909). Oil on canvas, 40 x 27 inches, The Brooklyn Museum, New York.",
+      "source": "Wikimedia Commons",
+      "artist": "Frederic Remington",
+      "date": "1909",
+      "license": "Public domain",
+      "width": "671",
+      "height": "1000"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Charles_Marion_Russell_-_Buccaroos_%281902%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Charles_Marion_Russell_-_Buccaroos_%281902%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Charles_Marion_Russell_-_Buccaroos_%281902%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Charles_Marion_Russell_-_Buccaroos_(1902).jpg",
+      "caption": "\"Buccaroos\" by Charles Marion Russell . Lithograph. Compare his 1899 (?) painting, \" Herd Quitters \".",
+      "source": "Wikimedia Commons",
+      "artist": "Charles Marion Russell",
+      "date": "1902 date QS:P571,+1902-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1129",
+      "height": "781"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Frederic_Remington_-_Change_of_Ownership_%28The_Stampede%3B_Horse_Thieves%29_-_Google_Art_Project.jpg/1280px-Frederic_Remington_-_Change_of_Ownership_%28The_Stampede%3B_Horse_Thieves%29_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Frederic_Remington_-_Change_of_Ownership_%28The_Stampede%3B_Horse_Thieves%29_-_Google_Art_Project.jpg/500px-Frederic_Remington_-_Change_of_Ownership_%28The_Stampede%3B_Horse_Thieves%29_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/69/Frederic_Remington_-_Change_of_Ownership_%28The_Stampede%3B_Horse_Thieves%29_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Frederic_Remington_-_Change_of_Ownership_(The_Stampede;_Horse_Thieves)_-_Google_Art_Project.jpg",
+      "caption": "Change of Ownership (The Stampede; Horse Thieves)",
+      "source": "Wikimedia Commons",
+      "artist": "Frederic Remington",
+      "date": "1903 date QS:P571,+1903-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "863"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Shotgun_hospitality.jpg/1280px-Shotgun_hospitality.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Shotgun_hospitality.jpg/500px-Shotgun_hospitality.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Shotgun_hospitality.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Shotgun_hospitality.jpg",
+      "caption": "Shotgun Hospitality",
+      "source": "Wikimedia Commons",
+      "artist": "Frederic Remington",
+      "date": "1908 date QS:P571,+1908-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "868"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Winslow_Homer_-_The_Reaper.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Winslow_Homer_-_The_Reaper.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Winslow_Homer_-_The_Reaper.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Winslow_Homer_-_The_Reaper.jpg",
+      "caption": "The Reaper",
+      "source": "Wikimedia Commons",
+      "artist": "Winslow Homer",
+      "date": "1878 date QS:P571,+1878-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "792",
+      "height": "1131"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/The_Milk_Maid_by_Winslow_Homer%2C_1878.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6a/The_Milk_Maid_by_Winslow_Homer%2C_1878.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6a/The_Milk_Maid_by_Winslow_Homer%2C_1878.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Milk_Maid_by_Winslow_Homer,_1878.png",
+      "caption": "The Milk Maid",
+      "source": "Wikimedia Commons",
+      "artist": "Winslow Homer",
+      "date": "1878 date QS:P571,+1878-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "940",
+      "height": "1300"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Winslow_Homer_-_Girl_and_Laurel.jpg/1280px-Winslow_Homer_-_Girl_and_Laurel.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Winslow_Homer_-_Girl_and_Laurel.jpg/500px-Winslow_Homer_-_Girl_and_Laurel.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Winslow_Homer_-_Girl_and_Laurel.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Winslow_Homer_-_Girl_and_Laurel.jpg",
+      "caption": "Girl and Laurel",
+      "source": "Wikimedia Commons",
+      "artist": "Winslow Homer",
+      "date": "1879 date QS:P571,+1879-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1858"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Catlinpaint.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/95/Catlinpaint.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/95/Catlinpaint.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Catlinpaint.jpg",
+      "caption": "Sioux War Council",
+      "source": "Wikimedia Commons",
+      "artist": "George Catlin",
+      "date": "circa 1850 date QS:P,+1850-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "1185",
+      "height": "952"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Western American Art",
@@ -62,7 +218,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q85815150",
+      "url": "https://www.wikidata.org/wiki/Q85815150",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:19.845Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Western American Art",
+      "url": "https://en.wikipedia.org/wiki/Western_American_Art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:19.845Z"
+      }
+    }
+  ],
   "wikidata": "Q85815150",
   "wikipedia": "Western American Art",
   "popularity": 35,
@@ -70,5 +249,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:11:19.845Z"
 }

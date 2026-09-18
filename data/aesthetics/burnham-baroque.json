@@ -17,7 +17,33 @@
   "summary": "Burnham Baroque is an architectural style developed by American architect Daniel Burnham at the end of the 19th and start of the 20th century.",
   "description": "Burnham Baroque is an architectural style developed by American architect Daniel Burnham at the end of the 19th and start of the 20th century. It relies heavily on a stripped Classicism with Baroque and Beaux-Arts inflections. It was popular primarily during the first three decades of the 20th century, particularly among designers of railroad stations.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bdb6ad",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#70736a",
+      "name": "slate"
+    },
+    {
+      "hex": "#d0d0d0",
+      "name": "bone white"
+    },
+    {
+      "hex": "#968469",
+      "name": "stone"
+    },
+    {
+      "hex": "#92948e",
+      "name": "stone 2"
+    },
+    {
+      "hex": "#b39a78",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,33 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Union_Station_Washington%2C_D.C._1906.tif/lossy-page1-1280px-Union_Station_Washington%2C_D.C._1906.tif.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Union_Station_Washington%2C_D.C._1906.tif/lossy-page1-1280px-Union_Station_Washington%2C_D.C._1906.tif.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/43/Union_Station_Washington%2C_D.C._1906.tif",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Union_Station_Washington,_D.C._1906.tif",
+      "caption": "Union Station Washington, D.C. 1906",
+      "source": "Wikimedia Commons",
+      "artist": "Penn Engraving Co. Phila.",
+      "date": "1906-01-01",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "808"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/1713_PACIFIC_AVE._UNION_DEPOT%2C_TACOMA._REED_AND_STEM%2C_ARCHITECTS._GENERAL_VIEW_FROM_SOUTHWEST._-_Union_Depot_Area_Study%2C_Tacoma%2C_Pierce_County%2C_WA_HABS_WASH%2C27-TACO%2C6-10.tif/lossy-page1-1280px-thumbnail.tif.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/1713_PACIFIC_AVE._UNION_DEPOT%2C_TACOMA._REED_AND_STEM%2C_ARCHITECTS._GENERAL_VIEW_FROM_SOUTHWEST._-_Union_Depot_Area_Study%2C_Tacoma%2C_Pierce_County%2C_WA_HABS_WASH%2C27-TACO%2C6-10.tif/lossy-page1-1280px-thumbnail.tif.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/58/1713_PACIFIC_AVE._UNION_DEPOT%2C_TACOMA._REED_AND_STEM%2C_ARCHITECTS._GENERAL_VIEW_FROM_SOUTHWEST._-_Union_Depot_Area_Study%2C_Tacoma%2C_Pierce_County%2C_WA_HABS_WASH%2C27-TACO%2C6-10.tif",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:1713_PACIFIC_AVE._UNION_DEPOT,_TACOMA._REED_AND_STEM,_ARCHITECTS._GENERAL_VIEW_FROM_SOUTHWEST._-_Union_Depot_Area_Study,_Tacoma,_Pierce_County,_WA_HABS_WASH,27-TACO,6-10.tif",
+      "caption": "1713 PACIFIC AVE. UNION DEPOT, TACOMA. REED AND STEM, ARCHITECTS. GENERAL VIEW FROM SOUTHWEST. - Union Depot Area Study, Tacoma, Pierce County, WA",
+      "source": "Wikimedia Commons",
+      "date": "Documentation compiled after 1933",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1031"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Burnham Baroque",
@@ -62,7 +114,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q56279167",
+      "url": "https://www.wikidata.org/wiki/Q56279167",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:18.897Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Burnham Baroque",
+      "url": "https://en.wikipedia.org/wiki/Burnham_Baroque",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:18.897Z"
+      }
+    }
+  ],
   "wikidata": "Q56279167",
   "wikipedia": "Burnham Baroque",
   "popularity": 35,
@@ -70,5 +145,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:39:18.897Z"
 }

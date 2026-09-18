@@ -17,7 +17,33 @@
   "summary": "Shock art is contemporary art that incorporates disturbing imagery, sound or scents to create a shocking experience.",
   "description": "Shock art is contemporary art that incorporates disturbing imagery, sound or scents to create a shocking experience. It is a way to disturb \"smug, complacent and hypocritical\" people. While the art form's proponents argue that it is \"imbedded with social commentary\" and critics dismiss it as \"cultural pollution\", it is an increasingly marketable art, described by one art critic in 2001 as \"the safest kind of art that an artist can go into the business of making today\".",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#322e2b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#76716b",
+      "name": "slate"
+    },
+    {
+      "hex": "#5a554f",
+      "name": "umber"
+    },
+    {
+      "hex": "#d9d6d1",
+      "name": "bone white"
+    },
+    {
+      "hex": "#96938c",
+      "name": "stone"
+    },
+    {
+      "hex": "#b5b1ac",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Duchamp_Fountaine.jpg/1280px-Duchamp_Fountaine.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Duchamp_Fountaine.jpg/500px-Duchamp_Fountaine.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Duchamp_Fountaine.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Duchamp_Fountaine.jpg",
+      "caption": "Urinal \"readymade\" signed R. Mutt; early example of \"Dada\" art. A paradigmatic example of found-art. Photograph by Alfred Stieglitz. Captions read: \"Fountain by R. Mutt, Photograph by Alfred Stieglitz, THE EXHIBIT REFUSED BY THE INDEPENDENTS\"",
+      "source": "Wikimedia Commons",
+      "artist": "Marcel Duchamp",
+      "date": "1917 date QS:P571,+1917-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1350"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Shock art",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7499861",
+      "url": "https://www.wikidata.org/wiki/Q7499861",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:21.823Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Shock art",
+      "url": "https://en.wikipedia.org/wiki/Shock_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:21.823Z"
+      }
+    }
+  ],
   "wikidata": "Q7499861",
   "wikipedia": "Shock art",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:05:21.823Z"
 }

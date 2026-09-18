@@ -14,8 +14,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "First Czechoslovak Republic",
+  "geography": "First Czechoslovak Republic",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -24,7 +24,33 @@
   "summary": "Czech Art Deco, Legiobank style, National style, National decorativeness, Curved Cubism, Rondocubism or Third Cubist style is a series of terms used to describe the characteristic style of architecture and applied arts, which existed mainly during the First Czechoslovak Republic.",
   "description": "Czech Art Deco, Legiobank style, National style, National decorativeness, Curved Cubism, Rondocubism or Third Cubist style is a series of terms used to describe the characteristic style of architecture and applied arts, which existed mainly during the First Czechoslovak Republic.\n\nIn the beginning, this particular style was completely neglected. Some rehabilitation has taken place since the 1950s. In the 1990s, attempts were made to place this specifically Czech style in the context of European Art Deco.\n\nThe style is \"characterised by a striking wealth of colour and profusion of ornaments, probably derived from folklore sources.\"",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c6d7ea",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#9c8e8a",
+      "name": "stone"
+    },
+    {
+      "hex": "#857672",
+      "name": "taupe"
+    },
+    {
+      "hex": "#6f5f58",
+      "name": "umber"
+    },
+    {
+      "hex": "#b7adab",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#524641",
+      "name": "umber 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -46,7 +72,50 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Prag_Kubismus_Bank_der_Legionen.jpg/1280px-Prag_Kubismus_Bank_der_Legionen.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Prag_Kubismus_Bank_der_Legionen.jpg/500px-Prag_Kubismus_Bank_der_Legionen.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Prag_Kubismus_Bank_der_Legionen.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Prag_Kubismus_Bank_der_Legionen.jpg",
+      "caption": "Prag Kubismus Bank der Legionen",
+      "source": "Wikimedia Commons",
+      "artist": "Thomas Ledl",
+      "date": "2016-03-26 12:23:52",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Prague_Cubim_Adria_Palace.jpg/1280px-Prague_Cubim_Adria_Palace.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Prague_Cubim_Adria_Palace.jpg/500px-Prague_Cubim_Adria_Palace.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/32/Prague_Cubim_Adria_Palace.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Prague_Cubim_Adria_Palace.jpg",
+      "caption": "Adria Palace",
+      "source": "Wikimedia Commons",
+      "artist": "Thomas Ledl",
+      "date": "2016-03-27 10:20:46",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1193"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Czech_art_deco_carafe.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Czech_art_deco_carafe.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Czech_art_deco_carafe.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Czech_art_deco_carafe.jpg",
+      "caption": "Crech art deco carafe",
+      "source": "Wikimedia Commons",
+      "artist": "Adam von Weisberg",
+      "date": "2010-11-06",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "800",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Rondocubism",
@@ -69,7 +138,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q9322693",
+      "url": "https://www.wikidata.org/wiki/Q9322693",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:19.714Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Rondocubism",
+      "url": "https://en.wikipedia.org/wiki/Rondocubism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:19.714Z"
+      }
+    }
+  ],
   "wikidata": "Q9322693",
   "wikipedia": "Rondocubism",
   "popularity": 35,
@@ -77,5 +169,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.074Z"
 }

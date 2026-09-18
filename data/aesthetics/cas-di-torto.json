@@ -11,8 +11,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Aruba",
+  "geography": "Aruba",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -21,7 +21,33 @@
   "summary": "Cas di torto (also called cas di lodo \"mud house\" or cas di bara \"house wit wooden posts\") is a distinctive type of adobe house, specific to the insular region of Aruba, Bonaire, and Curaçao.",
   "description": "Cas di torto (also called cas di lodo \"mud house\" or cas di bara \"house wit wooden posts\") is a distinctive type of adobe house, specific to the insular region of Aruba, Bonaire, and Curaçao. These houses were usually found in the vicinity of plantations. The few structures that still exist are the oldest structures that are left standing on Aruba.\n\nThe name \"cas di torto\" likely originates from the Spanish \"casas de torta,\" brought by settlers from the Paraguaná Peninsula in Venezuela to Aruba. \"Torta\" in Spanish means \"cake\" and references the layered clay construction.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#edecf0",
+      "name": "paper white"
+    },
+    {
+      "hex": "#90744f",
+      "name": "bronze"
+    },
+    {
+      "hex": "#3f4031",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#645d3c",
+      "name": "umber"
+    },
+    {
+      "hex": "#1e1d19",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#998878",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,106 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Cas_di_torto_parke_Arikok_pafo.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/69/Cas_di_torto_parke_Arikok_pafo.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/69/Cas_di_torto_parke_Arikok_pafo.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cas_di_torto_parke_Arikok_pafo.jpg",
+      "caption": "This is a photo of a monument in Aruba identified by the ID",
+      "source": "Wikimedia Commons",
+      "artist": "Zuzari 11",
+      "date": "2013-09-30 22:03:33",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "960",
+      "height": "720"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/BONAIRE-rincon-museum-huette.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/12/BONAIRE-rincon-museum-huette.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/12/BONAIRE-rincon-museum-huette.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BONAIRE-rincon-museum-huette.jpg",
+      "caption": "Mangasina di Rei, Rincon, Hütte",
+      "source": "Wikimedia Commons",
+      "artist": "Bgabel",
+      "date": "2011-11-22",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1215",
+      "height": "807"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Slavenhuisje.JPG/1280px-Slavenhuisje.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Slavenhuisje.JPG/500px-Slavenhuisje.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Slavenhuisje.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Slavenhuisje.JPG",
+      "caption": "Slavenhuisje, Curaçao.",
+      "source": "Wikimedia Commons",
+      "artist": "Technische Fred at Dutch Wikipedia",
+      "date": "31 December 2006 (original upload date)",
+      "license": "CC BY 2.5 nl",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/nl/deed.en",
+      "width": "1280",
+      "height": "849"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Kas_di_torto_Parke.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Kas_di_torto_Parke.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Kas_di_torto_Parke.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kas_di_torto_Parke.jpg",
+      "caption": "This is a photo of a monument in Aruba identified by the ID",
+      "source": "Wikimedia Commons",
+      "artist": "Zuzari 11",
+      "date": "2013-09-30 22:04:43",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "960",
+      "height": "720"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Collectie_Nationaal_Museum_van_Wereldculturen_TM-60060211_Kunukuhuizen_Curacao_Soublette_et_Fils_%28Fotostudio%29.jpg/1280px-Collectie_Nationaal_Museum_van_Wereldculturen_TM-60060211_Kunukuhuizen_Curacao_Soublette_et_Fils_%28Fotostudio%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Collectie_Nationaal_Museum_van_Wereldculturen_TM-60060211_Kunukuhuizen_Curacao_Soublette_et_Fils_%28Fotostudio%29.jpg/500px-Collectie_Nationaal_Museum_van_Wereldculturen_TM-60060211_Kunukuhuizen_Curacao_Soublette_et_Fils_%28Fotostudio%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/66/Collectie_Nationaal_Museum_van_Wereldculturen_TM-60060211_Kunukuhuizen_Curacao_Soublette_et_Fils_%28Fotostudio%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Collectie_Nationaal_Museum_van_Wereldculturen_TM-60060211_Kunukuhuizen_Curacao_Soublette_et_Fils_(Fotostudio).jpg",
+      "caption": "Foto. Op deze foto is een kunukuhuis te zien, in dit geval meer specifiek een 'kas di yerba' (strodakhuis).",
+      "source": "Wikimedia Commons",
+      "artist": "Soublette et fils",
+      "date": "between 1885 and 1900 date QS:P571,+1500-00-00T00:00:00Z/6,P",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "836"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Collectie_Nationaal_Museum_van_Wereldculturen_TM-20029104_Cactus_van_circa_12_meter_hoog_Aruba_Boy_Lawson_%28Fotograaf%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Collectie_Nationaal_Museum_van_Wereldculturen_TM-20029104_Cactus_van_circa_12_meter_hoog_Aruba_Boy_Lawson_%28Fotograaf%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Collectie_Nationaal_Museum_van_Wereldculturen_TM-20029104_Cactus_van_circa_12_meter_hoog_Aruba_Boy_Lawson_%28Fotograaf%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Collectie_Nationaal_Museum_van_Wereldculturen_TM-20029104_Cactus_van_circa_12_meter_hoog_Aruba_Boy_Lawson_(Fotograaf).jpg",
+      "caption": "Collectie Nationaal Museum van Wereldculturen TM-20029104 Cactus van circa 12 meter hoog Aruba Boy Lawson (Fotograaf)",
+      "source": "Wikimedia Commons",
+      "artist": "Boy Lawson",
+      "date": "1964 date QS:P571,+1964-00-00T00:00:00Z/9",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "643",
+      "height": "992"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Cas_di_Torto_Rancho_23_06_25_259000.jpeg/1280px-Cas_di_Torto_Rancho_23_06_25_259000.jpeg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Cas_di_Torto_Rancho_23_06_25_259000.jpeg/500px-Cas_di_Torto_Rancho_23_06_25_259000.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Cas_di_Torto_Rancho_23_06_25_259000.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cas_di_Torto_Rancho_23_06_25_259000.jpeg",
+      "caption": "Traditional house in Rancho, Oranjestad,Aruba",
+      "source": "Wikimedia Commons",
+      "artist": "Caribiana",
+      "date": "2022-02-24 18:29:38",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Cas di torto",
@@ -66,7 +191,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q14158222",
+      "url": "https://www.wikidata.org/wiki/Q14158222",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:09.612Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cas di torto",
+      "url": "https://en.wikipedia.org/wiki/Cas_di_torto",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:09.612Z"
+      }
+    }
+  ],
   "wikidata": "Q14158222",
   "wikipedia": "Cas di torto",
   "popularity": 35,
@@ -74,5 +222,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.950Z"
 }

@@ -17,7 +17,33 @@
   "summary": "Neo-Fauvism was a poetic style of French painting from the mid-1920s proposed as a challenge to Surrealism.",
   "description": "Neo-Fauvism was a poetic style of French painting from the mid-1920s proposed as a challenge to Surrealism.\n\nThe magazine Cahiers d'Art was launched in 1926 and its writers mounted a challenge to the Surrealist practice of automatism by seeing it not in terms of unconscious expression, but as another development of traditional artistry. They identified a group of artists as the exponents of this and termed them Neo-Fauves.\n\nAlthough these artists were later mostly forgotten, the movement had an effect of disillusioning the Surrealist group with the technique of graphic automatism as a revolutionary means of by-passing conventional aesthetics, ideology and commercialism.\n\nNeo-Fauvism has been seen as the last trend within painting that could be marketed as a coherent style.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c7baad",
+      "name": "silver"
+    },
+    {
+      "hex": "#a8a2a0",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#739695",
+      "name": "slate"
+    },
+    {
+      "hex": "#388989",
+      "name": "teal"
+    },
+    {
+      "hex": "#596376",
+      "name": "graphite"
+    },
+    {
+      "hex": "#20516c",
+      "name": "charcoal"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Matisse-Woman-with-a-Hat.jpg/1280px-Matisse-Woman-with-a-Hat.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Matisse-Woman-with-a-Hat.jpg/500px-Matisse-Woman-with-a-Hat.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Matisse-Woman-with-a-Hat.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Matisse-Woman-with-a-Hat.jpg",
+      "caption": "French: Femme au chapeau Woman with a hat",
+      "source": "Wikimedia Commons",
+      "artist": "Henri Matisse",
+      "date": "1905",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1742"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Neo-Fauvism",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6991721",
+      "url": "https://www.wikidata.org/wiki/Q6991721",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:02.341Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Neo-Fauvism",
+      "url": "https://en.wikipedia.org/wiki/Neo-Fauvism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:02.341Z"
+      }
+    }
+  ],
   "wikidata": "Q6991721",
   "wikipedia": "Neo-Fauvism",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:57:02.341Z"
 }

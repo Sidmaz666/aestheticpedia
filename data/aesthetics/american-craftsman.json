@@ -2,7 +2,10 @@
   "slug": "american-craftsman",
   "name": "American Craftsman",
   "aliases": [
-    "Craftsman Style"
+    "Craftsman Style",
+    "Bungalow/Craftsman",
+    "California Bungalow",
+    "Craftsman Bungalow"
   ],
   "category": "Architectural Style",
   "subcategory": "Architectural Style",
@@ -361,6 +364,16 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:51:07.868Z"
       }
+    },
+    {
+      "name": "Bungalow Heaven",
+      "url": "https://www.bungalowheaven.org/",
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -405,5 +418,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": "2026-09-11T05:11:25.606Z",
   "createdAt": "2026-09-11T04:13:56.492Z",
-  "updatedAt": "2026-09-18T04:53:47.786Z"
+  "updatedAt": "2026-09-18T10:47:43.265Z"
 }

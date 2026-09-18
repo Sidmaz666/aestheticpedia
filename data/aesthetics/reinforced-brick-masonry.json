@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Uruguay",
+  "geography": "Uruguay",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Reinforced brick masonry (in spanish: cerámica armada), also called structural brick masonry, is a reinforced masonry construction technique invented by Uruguayan civil engineer Eladio Dieste to efficiently and economically build thin-shell barrel vaults and wide curved roof spans that are resistant to buckling.",
   "description": "Reinforced brick masonry (in spanish: cerámica armada), also called structural brick masonry, is a reinforced masonry construction technique invented by Uruguayan civil engineer Eladio Dieste to efficiently and economically build thin-shell barrel vaults and wide curved roof spans that are resistant to buckling.\n\nReinforced brick vaults, also called \"gaussian vaults\" as coined by Dieste himself, typically referring to the bell-shaped curve often used in statistics and probability theory, consist of a series of interlocking, curved, single-layer brick arches that can span long distances without the need for supporting columns. This allows the construction of lightweight, efficient and visually striking structures. These arches are characterized by the use of a double curvature form, along an inverted catenary, which allows for greater structural efficiency and a reduction in the amount of materials required for building wide-span roof structures.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#928b84",
+      "name": "stone"
+    },
+    {
+      "hex": "#2b67b6",
+      "name": "denim blue"
+    },
+    {
+      "hex": "#6f9fcb",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#7c7761",
+      "name": "bronze"
+    },
+    {
+      "hex": "#5c81ab",
+      "name": "slate"
+    },
+    {
+      "hex": "#aaaeb3",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,78 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Homenaje_a_Eladio_Dieste_monumento_Salto_02.jpg/1280px-Homenaje_a_Eladio_Dieste_monumento_Salto_02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Homenaje_a_Eladio_Dieste_monumento_Salto_02.jpg/500px-Homenaje_a_Eladio_Dieste_monumento_Salto_02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/42/Homenaje_a_Eladio_Dieste_monumento_Salto_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Homenaje_a_Eladio_Dieste_monumento_Salto_02.jpg",
+      "caption": "Homenaje de la ciudad uruguaya de Salto al ingeniero Eladio Dieste, monumento denominado Puerta de la sabiduría y conocido por los lugareños como \"La gaviota\".",
+      "source": "Wikimedia Commons",
+      "artist": "No machine-readable author provided. Tano4595 assumed (based on copyright claims).",
+      "date": "9 November 2005 (according to Exif data)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Iglesia_san_pedro_durazno.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Iglesia_san_pedro_durazno.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Iglesia_san_pedro_durazno.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Iglesia_san_pedro_durazno.JPG",
+      "caption": "This is a photo of a Uruguayan monument identified by the ID",
+      "source": "Wikimedia Commons",
+      "artist": "andrea sellanes",
+      "date": "Taken on 15 August 2006, 14:25:58",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1024",
+      "height": "681"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Palacio_de_los_Deportes_de_Oviedo_2.jpg/1280px-Palacio_de_los_Deportes_de_Oviedo_2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Palacio_de_los_Deportes_de_Oviedo_2.jpg/500px-Palacio_de_los_Deportes_de_Oviedo_2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Palacio_de_los_Deportes_de_Oviedo_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Palacio_de_los_Deportes_de_Oviedo_2.jpg",
+      "caption": "Palacio de los Deportes de Oviedo.",
+      "source": "Wikimedia Commons",
+      "artist": "Asturkian",
+      "date": "2017-05-20 12:10:51",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Iglesia_Atl%C3%A1ntida_Dieste_6.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Iglesia_Atl%C3%A1ntida_Dieste_6.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Iglesia_Atl%C3%A1ntida_Dieste_6.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Iglesia_Atl%C3%A1ntida_Dieste_6.jpg",
+      "caption": "This is a photo of a Uruguayan monument identified by the ID",
+      "source": "Wikimedia Commons",
+      "artist": "Nicolas Barriola",
+      "date": "Taken on 21 May 2011, 11:07:00",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1200",
+      "height": "797"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Iglesia_Atl%C3%A1ntida_Dieste_2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/59/Iglesia_Atl%C3%A1ntida_Dieste_2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/Iglesia_Atl%C3%A1ntida_Dieste_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Iglesia_Atl%C3%A1ntida_Dieste_2.jpg",
+      "caption": "This is a photo of a Uruguayan monument identified by the ID",
+      "source": "Wikimedia Commons",
+      "artist": "Nicolas Barriola",
+      "date": "Taken on 21 May 2011, 10:50:31",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1200",
+      "height": "797"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Reinforced brick masonry",
@@ -62,7 +159,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q129248676",
+      "url": "https://www.wikidata.org/wiki/Q129248676",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:15.086Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Reinforced brick masonry",
+      "url": "https://en.wikipedia.org/wiki/Reinforced_brick_masonry",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:15.086Z"
+      }
+    }
+  ],
   "wikidata": "Q129248676",
   "wikipedia": "Reinforced brick masonry",
   "popularity": 35,
@@ -70,5 +190,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.085Z"
 }

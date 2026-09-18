@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Germany",
+  "geography": "Germany",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -41,7 +41,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Hoerle_Denkmal_der_unbekannten_Prothesen_1930.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Hoerle_Denkmal_der_unbekannten_Prothesen_1930.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Hoerle_Denkmal_der_unbekannten_Prothesen_1930.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hoerle_Denkmal_der_unbekannten_Prothesen_1930.jpg",
+      "caption": "Monument of the unknown prosthesis",
+      "source": "Wikimedia Commons",
+      "artist": "Heinrich Hoerle",
+      "date": "1930 date QS:P571,+1930-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "600",
+      "height": "493"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Cologne Progressives",
@@ -64,7 +78,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1681980",
+      "url": "https://www.wikidata.org/wiki/Q1681980",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:24.398Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cologne Progressives",
+      "url": "https://en.wikipedia.org/wiki/Cologne_Progressives",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:24.398Z"
+      }
+    }
+  ],
   "wikidata": "Q1681980",
   "wikipedia": "Cologne Progressives",
   "popularity": 35,
@@ -72,5 +109,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:05.477Z"
 }

@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2864759",
+      "url": "https://www.wikidata.org/wiki/Q2864759",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:17.515Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Telematic art",
+      "url": "https://en.wikipedia.org/wiki/Telematic_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:17.515Z"
+      }
+    }
+  ],
   "wikidata": "Q2864759",
   "wikipedia": "Telematic art",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:08:17.515Z"
 }

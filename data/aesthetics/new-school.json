@@ -17,7 +17,33 @@
   "summary": "New school is a style of tattoo characterized by heavy outlines, vivid colors, and exaggerated depictions of the subject.",
   "description": "New school is a style of tattoo characterized by heavy outlines, vivid colors, and exaggerated depictions of the subject. It originated as early as the 1970s and is influenced by some features of old school tattooing in the United States. New school also represents a transition towards openness in the sharing of techniques in tattooing.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#86706d",
+      "name": "taupe"
+    },
+    {
+      "hex": "#2f2728",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#434145",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#575a62",
+      "name": "graphite"
+    },
+    {
+      "hex": "#67312e",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#a14549",
+      "name": "brick"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/OctopusTattooNS.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/91/OctopusTattooNS.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/91/OctopusTattooNS.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:OctopusTattooNS.png",
+      "caption": "Tattoo of an octopus done in the New School style. Tattoo was done by Neil Roberts of Rebel Ink Tattoo in Goodyear, Arizona.",
+      "source": "Wikimedia Commons",
+      "artist": "Elizabeth",
+      "date": "2011-05-27",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "676",
+      "height": "646"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — New school (tattoo)",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q18392048",
+      "url": "https://www.wikidata.org/wiki/Q18392048",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:25.763Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — New school (tattoo)",
+      "url": "https://en.wikipedia.org/wiki/New_school_(tattoo)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:25.763Z"
+      }
+    }
+  ],
   "wikidata": "Q18392048",
   "wikipedia": "New school (tattoo)",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:57:25.763Z"
 }

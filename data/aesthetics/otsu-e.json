@@ -9,11 +9,11 @@
   "confidence": 60,
   "origin": "Japan",
   "geography": "Japan",
-  "periodStart": "",
+  "periodStart": "Edo period",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 1603,
   "endYear": null,
-  "era": "",
+  "era": "17th century",
   "summary": "Ōtsu-e (大津絵, \"pictures from Ōtsu\") was a folk art that began in 17th century Japan and depended on the busy road traffic of the trade route through the district where it was produced in Ōtsu, near Kyoto.",
   "description": "Ōtsu-e (大津絵, \"pictures from Ōtsu\") was a folk art that began in 17th century Japan and depended on the busy road traffic of the trade route through the district where it was produced in Ōtsu, near Kyoto. With the coming of railways, especially of the Tōkaidō line in the late 19th century, it largely disappeared.",
   "culturalContext": "",
@@ -39,7 +39,34 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Otsu-e.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/87/Otsu-e.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/87/Otsu-e.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Otsu-e.jpg",
+      "caption": "A Japanese family of artisans collaborate in producing otsu-e",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "19 th century date QS:P,+1850-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "600",
+      "height": "388"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Blind_man_and_dog_otsu-e.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/90/Blind_man_and_dog_otsu-e.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/90/Blind_man_and_dog_otsu-e.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Blind_man_and_dog_otsu-e.jpg",
+      "caption": "Japanese folk painting of the Otsu-e genre, representing a blind man with a crutch fending off a dog that is pulling at his clothing. This represents the need for moral caution.",
+      "source": "Wikimedia Commons",
+      "artist": "Anonymous Unknown author",
+      "date": "19 th century date QS:P,+1850-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "672",
+      "height": "966"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Otsu-e",
@@ -62,7 +89,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q11437366",
+      "url": "https://www.wikidata.org/wiki/Q11437366",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:06.084Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Otsu-e",
+      "url": "https://en.wikipedia.org/wiki/Otsu-e",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:06.084Z"
+      }
+    }
+  ],
   "wikidata": "Q11437366",
   "wikipedia": "Otsu-e",
   "popularity": 35,
@@ -70,5 +120,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.849Z"
 }

@@ -39,7 +39,36 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/ABOVE_2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/95/ABOVE_2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/95/ABOVE_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:ABOVE_2.jpg",
+      "caption": "A stencil from contemporary street artist \"ABOVE\" in Lisbon, Portugal.",
+      "source": "Wikimedia Commons",
+      "artist": "Hdepot",
+      "date": "2008-08-10",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "626",
+      "height": "500"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/-GREECE_NEXT_ECONOMIC_MODEL-.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9a/-GREECE_NEXT_ECONOMIC_MODEL-.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9a/-GREECE_NEXT_ECONOMIC_MODEL-.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:-GREECE_NEXT_ECONOMIC_MODEL-.JPG",
+      "caption": "political street art project in central Athens Greece describing the financial crisis of the country in a black comic way",
+      "source": "Wikimedia Commons",
+      "artist": "Villiamcurtis",
+      "date": "2011",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "769",
+      "height": "678"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Artivism",
@@ -62,7 +91,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2865836",
+      "url": "https://www.wikidata.org/wiki/Q2865836",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:02.045Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Artivism",
+      "url": "https://en.wikipedia.org/wiki/Artivism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:02.045Z"
+      }
+    }
+  ],
   "wikidata": "Q2865836",
   "wikipedia": "Artivism",
   "popularity": 35,
@@ -70,5 +122,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:37:02.045Z"
 }

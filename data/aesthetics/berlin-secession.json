@@ -10,8 +10,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Germany",
+  "geography": "Germany",
   "periodStart": "1890s",
   "periodEnd": "",
   "startYear": 1898,
@@ -20,7 +20,29 @@
   "summary": "The Berlin Secession was an art movement established in Germany on May 2, 1898.",
   "description": "The Berlin Secession was an art movement established in Germany on May 2, 1898. Formed in reaction to the Association of Berlin Artists, and the restrictions on contemporary art imposed by Kaiser Wilhelm II, 65 artists \"seceded,\" demonstrating against the standards of academic or government-endorsed art. The movement is classified as a form of German Modernism, and came on the heels of several other secessions in Germany, including Jugendstil and the Munich Secession.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#543f2d",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#281c14",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#716143",
+      "name": "umber"
+    },
+    {
+      "hex": "#927f65",
+      "name": "stone"
+    },
+    {
+      "hex": "#a69680",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +64,139 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Allee_in_Overveen.jpg/1280px-Allee_in_Overveen.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Allee_in_Overveen.jpg/500px-Allee_in_Overveen.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Allee_in_Overveen.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Allee_in_Overveen.jpg",
+      "caption": "Allee in Overveen",
+      "source": "Wikimedia Commons",
+      "artist": "Max Liebermann",
+      "date": "1895 date QS:P571,+1895-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1571"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Lesser_Ury_Im_Cafe_Bauer_1898.JPG/1280px-Lesser_Ury_Im_Cafe_Bauer_1898.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Lesser_Ury_Im_Cafe_Bauer_1898.JPG/500px-Lesser_Ury_Im_Cafe_Bauer_1898.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/86/Lesser_Ury_Im_Cafe_Bauer_1898.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lesser_Ury_Im_Cafe_Bauer_1898.JPG",
+      "caption": "Im Café Bauer",
+      "source": "Wikimedia Commons",
+      "artist": "Lesser Ury",
+      "date": "1898",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1612"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Lovis_Corinth_Im_Schlachthaus.jpg/1280px-Lovis_Corinth_Im_Schlachthaus.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Lovis_Corinth_Im_Schlachthaus.jpg/500px-Lovis_Corinth_Im_Schlachthaus.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/Lovis_Corinth_Im_Schlachthaus.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lovis_Corinth_Im_Schlachthaus.jpg",
+      "caption": "Im Schlachthaus",
+      "source": "Wikimedia Commons",
+      "artist": "Lovis Corinth",
+      "date": "1893 date QS:P571,+1893-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1125"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Der-maler-und-jo_oppler_1928.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/29/Der-maler-und-jo_oppler_1928.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/Der-maler-und-jo_oppler_1928.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Der-maler-und-jo_oppler_1928.jpg",
+      "caption": "Selfportrait and portrait",
+      "source": "Wikimedia Commons",
+      "artist": "Ernst Oppler",
+      "date": "1928 date QS:P571,+1928-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "510",
+      "height": "649"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Paul_Baum_-_Fr%C3%BChling.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Paul_Baum_-_Fr%C3%BChling.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Paul_Baum_-_Fr%C3%BChling.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paul_Baum_-_Fr%C3%BChling.jpg",
+      "caption": "spring",
+      "source": "Wikimedia Commons",
+      "artist": "Paul Baum",
+      "date": "1904 date QS:P571,+1904-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "623",
+      "height": "480"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/1e/EmilNolde-Blumengarten%28ohne%2BFigur%291908.jpg/1280px-EmilNolde-Blumengarten%28ohne%2BFigur%291908.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/1e/EmilNolde-Blumengarten%28ohne%2BFigur%291908.jpg/500px-EmilNolde-Blumengarten%28ohne%2BFigur%291908.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/en/1/1e/EmilNolde-Blumengarten%28ohne%2BFigur%291908.jpg",
+      "pageUrl": "https://en.wikipedia.org/wiki/File:EmilNolde-Blumengarten(ohne%2BFigur)1908.jpg",
+      "caption": "Blumengarten (ohne Figur), oil on canvas, 1908",
+      "source": "Wikimedia Commons",
+      "artist": "Emil Nolde (7 August 1867 – 13 April 1956)",
+      "date": "c. 1908",
+      "license": "PD-US",
+      "width": "1280",
+      "height": "1103"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Edvard_Munch_-_The_dance_of_life_%281899-1900%29.jpg/1280px-Edvard_Munch_-_The_dance_of_life_%281899-1900%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Edvard_Munch_-_The_dance_of_life_%281899-1900%29.jpg/500px-Edvard_Munch_-_The_dance_of_life_%281899-1900%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Edvard_Munch_-_The_dance_of_life_%281899-1900%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Edvard_Munch_-_The_dance_of_life_(1899-1900).jpg",
+      "caption": "Norwegian Bokmål: Livets dans Dance of Life",
+      "source": "Wikimedia Commons",
+      "artist": "Edvard Munch",
+      "date": "from 1899 until 1900 date QS:P,+1500-00-00T00:00:00Z/6,P580,",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "840"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Freistunde_im_Waisenhaus.jpg/1280px-Freistunde_im_Waisenhaus.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Freistunde_im_Waisenhaus.jpg/500px-Freistunde_im_Waisenhaus.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/67/Freistunde_im_Waisenhaus.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Freistunde_im_Waisenhaus.jpg",
+      "caption": "The Courtyard of the Orphanage in Amsterdam: Free Period in the Amsterdam Orphanage",
+      "source": "Wikimedia Commons",
+      "artist": "Max Liebermann",
+      "date": "circa 1881/1882",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "905"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Puberty_%281894-95%29_by_Edvard_Munch.jpg/1280px-Puberty_%281894-95%29_by_Edvard_Munch.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Puberty_%281894-95%29_by_Edvard_Munch.jpg/500px-Puberty_%281894-95%29_by_Edvard_Munch.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Puberty_%281894-95%29_by_Edvard_Munch.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Puberty_(1894-95)_by_Edvard_Munch.jpg",
+      "caption": "Puberty",
+      "source": "Wikimedia Commons",
+      "artist": "Edvard Munch",
+      "date": "1895",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1774"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Walter_Leistikow%2C_Grunewaldsee_oder_Schlachtensee%2C_um_1900%2C_Br%C3%B6han-Museum%2C_Foto_Martin_Adam.tif/lossy-page1-1280px-Walter_Leistikow%2C_Grunewaldsee_oder_Schlachtensee%2C_um_1900%2C_Br%C3%B6han-Museum%2C_Foto_Martin_Adam.tif.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Walter_Leistikow%2C_Grunewaldsee_oder_Schlachtensee%2C_um_1900%2C_Br%C3%B6han-Museum%2C_Foto_Martin_Adam.tif/lossy-page1-1280px-Walter_Leistikow%2C_Grunewaldsee_oder_Schlachtensee%2C_um_1900%2C_Br%C3%B6han-Museum%2C_Foto_Martin_Adam.tif.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Walter_Leistikow%2C_Grunewaldsee_oder_Schlachtensee%2C_um_1900%2C_Br%C3%B6han-Museum%2C_Foto_Martin_Adam.tif",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Walter_Leistikow,_Grunewaldsee_oder_Schlachtensee,_um_1900,_Br%C3%B6han-Museum,_Foto_Martin_Adam.tif",
+      "caption": "Walter Leistikow, Grunewaldsee oder Schlachtensee, um 1900, Bröhan-Museum Berlin, Foto: Martin Adam, Berlin",
+      "source": "Wikimedia Commons",
+      "artist": "Foto: Martin Adam, Berlin",
+      "date": "circa 1900 date QS:P,+1900-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "854"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Berlin Secession",
@@ -65,7 +219,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q700347",
+      "url": "https://www.wikidata.org/wiki/Q700347",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:04.135Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Berlin Secession",
+      "url": "https://en.wikipedia.org/wiki/Berlin_Secession",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:04.135Z"
+      }
+    }
+  ],
   "wikidata": "Q700347",
   "wikipedia": "Berlin Secession",
   "popularity": 35,
@@ -73,5 +250,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.930Z"
 }

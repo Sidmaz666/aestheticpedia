@@ -19,7 +19,33 @@
   "summary": "Fan art or fanart is artwork created by fans of a work of fiction or celebrity depicting events, character, or other aspect of the work.",
   "description": "Fan art or fanart is artwork created by fans of a work of fiction or celebrity depicting events, character, or other aspect of the work. As fan labor, fan art refers to artworks that are not created, commissioned, nor endorsed by the creators of the work from which the fan art derives.\n\nA different, older meaning of the term is used in science fiction fandom, where fan art traditionally describes original (rather than derivative) artwork related to science fiction or fantasy, created by fan artists, and appearing in low- or non-paying publications such as semiprozines or fanzines, and in the art shows of science fiction conventions. The Hugo Award for Best Fan Artist has been given each year since 1967 to artists who create such works. Like the term fan fiction (although to a lesser extent), this traditional meaning is now sometimes confused with the more recent usage described above.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fdfdfb",
+      "name": "ivory"
+    },
+    {
+      "hex": "#b8e0ea",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#36251b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#88786e",
+      "name": "taupe"
+    },
+    {
+      "hex": "#d8c9ba",
+      "name": "beige"
+    },
+    {
+      "hex": "#aca196",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,92 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Over_Hill_-_Bilbo_and_Gandalf_by_Joel_Lee_%28Colors%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/99/Over_Hill_-_Bilbo_and_Gandalf_by_Joel_Lee_%28Colors%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/99/Over_Hill_-_Bilbo_and_Gandalf_by_Joel_Lee_%28Colors%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Over_Hill_-_Bilbo_and_Gandalf_by_Joel_Lee_(Colors).jpg",
+      "caption": "Over Hill (Bilbo and Gandalf) by Joel Lee ( joel-lee.deviantart.com )",
+      "source": "Wikimedia Commons",
+      "artist": "Joel Lee (maxbat)",
+      "date": "2013",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "600",
+      "height": "844"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Marisa_get_out.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Marisa_get_out.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Marisa_get_out.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Marisa_get_out.png",
+      "caption": "Artwork of Marisa Kirisame with an outward-pointing thumb gesture.",
+      "source": "Wikimedia Commons",
+      "artist": "Sai",
+      "date": "2009-04-05 01:28",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "600",
+      "height": "600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Harry_Potter_fanart_-_Cor-Sa.jpg/1280px-Harry_Potter_fanart_-_Cor-Sa.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Harry_Potter_fanart_-_Cor-Sa.jpg/500px-Harry_Potter_fanart_-_Cor-Sa.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/35/Harry_Potter_fanart_-_Cor-Sa.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Harry_Potter_fanart_-_Cor-Sa.jpg",
+      "caption": "Fanart of Harry Potter.",
+      "source": "Wikimedia Commons",
+      "artist": "Cor-Sa on DeviantArt",
+      "date": "2011-02-05",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Destieeeeellllllllllll_by_sparklyhedgehog_%28cropped%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Destieeeeellllllllllll_by_sparklyhedgehog_%28cropped%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Destieeeeellllllllllll_by_sparklyhedgehog_%28cropped%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Destieeeeellllllllllll_by_sparklyhedgehog_(cropped).jpg",
+      "caption": "Fan art of W:Destiel",
+      "source": "Wikimedia Commons",
+      "artist": "sparklyhedgehog",
+      "date": "2014-07-06",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1024",
+      "height": "1028"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/229b278b-bbce-c26e-01e6-e33489494317/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/229b278b-bbce-c26e-01e6-e33489494317/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/229b278b-bbce-c26e-01e6-e33489494317/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/245",
+      "caption": "Oinochoe (Pitcher), end of 4th century BCE",
+      "source": "Art Institute of Chicago",
+      "artist": "Attributed to the Mattinata Painter",
+      "date": "end of 4th century BCE",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1169"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/19a1413d-52f9-519e-22e6-d9ed9c5b6dfb/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/19a1413d-52f9-519e-22e6-d9ed9c5b6dfb/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/19a1413d-52f9-519e-22e6-d9ed9c5b6dfb/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/43148",
+      "caption": "The Gathering at the Orchid Pavilion, Ming dynasty (1368–1644), 15th –16th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Attributed to Tang Yin 唐寅 (Chinese, 1470-1523)",
+      "date": "Ming dynasty (1368–1644), 15th –16th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "396"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Fan art",
@@ -64,7 +175,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1053619",
+      "url": "https://www.wikidata.org/wiki/Q1053619",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:05.096Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Fan art",
+      "url": "https://en.wikipedia.org/wiki/Fan_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:05.096Z"
+      }
+    }
+  ],
   "wikidata": "Q1053619",
   "wikipedia": "Fan art",
   "popularity": 35,
@@ -72,5 +206,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:45:05.096Z"
 }

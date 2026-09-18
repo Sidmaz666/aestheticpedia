@@ -68,11 +68,9 @@ export function synthesize(A: AestheticFull, B: AestheticFull): HybridResult {
   const common = shared([...A.materials, ...A.textures], [...B.materials, ...B.textures])
   if (common.length) agreements.push(`Shared material vocabulary: ${common.slice(0, 4).join(', ')}`)
 
-  const nameA = A.name.split(/[\s(]/)[0]
-  const nameB = B.name.split(/[\s(]/)[0]
 
   return {
-    name: `${nameA}–${nameB} Fusion`,
+    name: `${A.name} × ${B.name}`,
     tagline: `${sentence(A.summary || A.description)} Recast through ${B.name.toLowerCase()}.`.slice(0, 220),
     palette: blendPalette(A.colors, B.colors),
     materials: interleave(A.materials, B.materials, 6),

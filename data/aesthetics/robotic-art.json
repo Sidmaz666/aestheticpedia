@@ -17,7 +17,33 @@
   "summary": "Robotic art is any artwork that employs some form of robotic or automated technology.",
   "description": "Robotic art is any artwork that employs some form of robotic or automated technology. There are many branches of robotic art, one of which is robotic installation art, a type of installation art that is programmed to respond to viewer interactions, by means of computers, sensors and actuators. The future behavior of such installations can therefore be altered by input from either the artist or the participant, which differentiates these artworks from other types of kinetic art.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#978a7f",
+      "name": "stone"
+    },
+    {
+      "hex": "#1c236e",
+      "name": "prussian blue"
+    },
+    {
+      "hex": "#a3a6a4",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#6d6142",
+      "name": "umber"
+    },
+    {
+      "hex": "#463c24",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#e5e3d6",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/RoboArt_at_Robogames%2C_SF.jpg/1280px-RoboArt_at_Robogames%2C_SF.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/RoboArt_at_Robogames%2C_SF.jpg/500px-RoboArt_at_Robogames%2C_SF.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fa/RoboArt_at_Robogames%2C_SF.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:RoboArt_at_Robogames,_SF.jpg",
+      "caption": "RoboArt at Robogames, SF",
+      "source": "Wikimedia Commons",
+      "artist": "Jeff Keyzer from San Francisco, CA, USA",
+      "date": "2008-06-15 14:50",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Articulated_robot_DJ.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Articulated_robot_DJ.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Articulated_robot_DJ.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Articulated_robot_DJ.jpg",
+      "caption": "Industrial Robot as DJ",
+      "source": "Wikimedia Commons",
+      "artist": "Photo by Andy Smith",
+      "date": "2006-03-24 18:46",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Robotic art",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2864727",
+      "url": "https://www.wikidata.org/wiki/Q2864727",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:06.164Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Robotic art",
+      "url": "https://en.wikipedia.org/wiki/Robotic_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:06.164Z"
+      }
+    }
+  ],
   "wikidata": "Q2864727",
   "wikipedia": "Robotic art",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:03:06.164Z"
 }

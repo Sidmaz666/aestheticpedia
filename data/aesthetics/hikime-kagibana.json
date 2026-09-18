@@ -20,7 +20,33 @@
   "summary": "Hikime kagibana (引目鉤鼻) describes a feature of illustration continuing in the repertoire of Japanese Art from the Heian period through the Kamakura period, most notably in yamato-e e-maki.",
   "description": "Hikime kagibana (引目鉤鼻) describes a feature of illustration continuing in the repertoire of Japanese Art from the Heian period through the Kamakura period, most notably in yamato-e e-maki. Its influence can be traced right up the Edo-period ukiyo-e or later.\n\nWorks done in the hikime kagibana style show faces with essentially identical features.: slit eyes and hook nose. The Hikime Kagibana  style also does not allow a full front view of a face. There are only two main viewpoints used to depict faces: an oblique angle of 30 degrees from the front and a right angle giving a profile. When faces are shown from a right angle, the eyebrows and corners of the eyes are visible but the nose is not – something that is not possible in actuality.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a47b4b",
+      "name": "copper"
+    },
+    {
+      "hex": "#6a7f57",
+      "name": "olive green"
+    },
+    {
+      "hex": "#79614d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#a99272",
+      "name": "camel"
+    },
+    {
+      "hex": "#e3caa1",
+      "name": "beige"
+    },
+    {
+      "hex": "#c9ae88",
+      "name": "khaki"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,21 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ch5_wakamurasaki.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ch5_wakamurasaki.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ch5_wakamurasaki.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ch5_wakamurasaki.jpg",
+      "caption": "Ilustration of the The Tale of Genji , ch.5–Wakamurasaki, traditionally credited to Tosa Mitsuoki (1617–1691), part of the Burke Albums, property of Mary Griggs Burke",
+      "source": "Wikimedia Commons",
+      "artist": "Tosa Mitsuoki",
+      "date": "c. late 17 th century date QS:P,+1650-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "803",
+      "height": "904"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Hikime kagibana",
@@ -65,7 +105,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q11288927",
+      "url": "https://www.wikidata.org/wiki/Q11288927",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:07.450Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Hikime kagibana",
+      "url": "https://en.wikipedia.org/wiki/Hikime_kagibana",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:07.450Z"
+      }
+    }
+  ],
   "wikidata": "Q11288927",
   "wikipedia": "Hikime kagibana",
   "popularity": 35,
@@ -73,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:49:07.450Z"
 }

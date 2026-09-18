@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Italy",
+  "geography": "Italy",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Italian Gothic architecture (also called temperate Gothic architecture), has characteristics that distinguish it considerably from those of the place of origin of Gothic architecture, France, and from other European countries in which this language has spread (the United Kingdom, Germany and Spain).",
   "description": "Italian Gothic architecture (also called temperate Gothic architecture), has characteristics that distinguish it considerably from those of the place of origin of Gothic architecture, France, and from other European countries in which this language has spread (the United Kingdom, Germany and Spain).\n\nItalian architects preferred to keep the traditional construction methods established in the previous centuries, and architectural solutions and technical innovations of French Gothic architecture were seldom used. A soaring height was less important than in Northern Europe. Brick, rather than stone, was in many areas the most common building material, and marble was widely used for decoration. In the 15th century, when the Gothic style dominated both Northern Europe and the Italian Peninsula, Northern Italy became the birthplace of Renaissance architecture.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#8d5c26",
+      "name": "bronze"
+    },
+    {
+      "hex": "#4b3725",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#26190f",
+      "name": "black"
+    },
+    {
+      "hex": "#bbc7d3",
+      "name": "silver"
+    },
+    {
+      "hex": "#8f8374",
+      "name": "taupe"
+    },
+    {
+      "hex": "#1b4488",
+      "name": "cobalt"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,145 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Duomo_di_siena%2C_facciata_01.JPG/1280px-Duomo_di_siena%2C_facciata_01.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Duomo_di_siena%2C_facciata_01.JPG/500px-Duomo_di_siena%2C_facciata_01.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/63/Duomo_di_siena%2C_facciata_01.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Duomo_di_siena,_facciata_01.JPG",
+      "caption": "Duomo di siena, facciata",
+      "source": "Wikimedia Commons",
+      "artist": "sailko",
+      "date": "2011-10-04 13:22:43",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Fossanova.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/86/Fossanova.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/86/Fossanova.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fossanova.jpg",
+      "caption": "Abbazia di Fossanova a Priverno LT",
+      "source": "Wikimedia Commons",
+      "artist": "Pippo-b",
+      "date": "10 August 2008, 12:10:26 (according to Exif data)",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1181",
+      "height": "886"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Veroli%2C_Abbazia_di_Casamari_001.JPG/1280px-Veroli%2C_Abbazia_di_Casamari_001.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Veroli%2C_Abbazia_di_Casamari_001.JPG/500px-Veroli%2C_Abbazia_di_Casamari_001.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Veroli%2C_Abbazia_di_Casamari_001.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Veroli,_Abbazia_di_Casamari_001.JPG",
+      "caption": "Veroli, Abbazia di Casamari 001",
+      "source": "Wikimedia Commons",
+      "artist": "Mattis",
+      "date": "2015-06-12",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Veroli%2C_Abbazia_di_Casamari_005.JPG/1280px-Veroli%2C_Abbazia_di_Casamari_005.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Veroli%2C_Abbazia_di_Casamari_005.JPG/500px-Veroli%2C_Abbazia_di_Casamari_005.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/87/Veroli%2C_Abbazia_di_Casamari_005.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Veroli,_Abbazia_di_Casamari_005.JPG",
+      "caption": "Veroli, Abbazia di Casamari 005",
+      "source": "Wikimedia Commons",
+      "artist": "Mattis",
+      "date": "2015-06-12",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "768"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Assisi_San_Francesco_BW_1.JPG/1280px-Assisi_San_Francesco_BW_1.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Assisi_San_Francesco_BW_1.JPG/500px-Assisi_San_Francesco_BW_1.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/Assisi_San_Francesco_BW_1.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Assisi_San_Francesco_BW_1.JPG",
+      "caption": "Assisi , San Francesco",
+      "source": "Wikimedia Commons",
+      "artist": "Berthold Werner",
+      "date": "2009-03-07",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "856"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Assisis_Basilica_superiore.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Assisis_Basilica_superiore.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Assisis_Basilica_superiore.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Assisis_Basilica_superiore.jpg",
+      "caption": "Assisi, la Basilica superiore di San Francesco",
+      "source": "Wikimedia Commons",
+      "artist": "Starlight",
+      "date": "2000",
+      "license": "Public domain",
+      "width": "510",
+      "height": "764"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/6049_-_Bologna_-_San_Francesco_-_Facciata_-_Foto_Giovanni_Dall%27Orto%2C_9-Feb-2008.jpg/1280px-6049_-_Bologna_-_San_Francesco_-_Facciata_-_Foto_Giovanni_Dall%27Orto%2C_9-Feb-2008.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/6049_-_Bologna_-_San_Francesco_-_Facciata_-_Foto_Giovanni_Dall%27Orto%2C_9-Feb-2008.jpg/500px-6049_-_Bologna_-_San_Francesco_-_Facciata_-_Foto_Giovanni_Dall%27Orto%2C_9-Feb-2008.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f3/6049_-_Bologna_-_San_Francesco_-_Facciata_-_Foto_Giovanni_Dall%27Orto%2C_9-Feb-2008.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:6049_-_Bologna_-_San_Francesco_-_Facciata_-_Foto_Giovanni_Dall%27Orto,_9-Feb-2008.jpg",
+      "caption": "The facade of San Francesco church in Bologna , Italy, completed around 1250. Picture by Giovanni Dall'Orto , February 9 2008.",
+      "source": "Wikimedia Commons",
+      "artist": "Giovanni Dall'Orto",
+      "date": "2008-02-09",
+      "license": "Attribution",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Interior_San_Francesco_Bolonia_15.jpg/1280px-Interior_San_Francesco_Bolonia_15.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Interior_San_Francesco_Bolonia_15.jpg/500px-Interior_San_Francesco_Bolonia_15.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Interior_San_Francesco_Bolonia_15.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Interior_San_Francesco_Bolonia_15.jpg",
+      "caption": "Bolonia, San Francesco, interior.",
+      "source": "Wikimedia Commons",
+      "artist": "Miguel Hermoso Cuesta",
+      "date": "2017-02-25 15:09:47",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Altar%2C_Duomo%2C_Siena%2C_Italy.jpg/1280px-Altar%2C_Duomo%2C_Siena%2C_Italy.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Altar%2C_Duomo%2C_Siena%2C_Italy.jpg/500px-Altar%2C_Duomo%2C_Siena%2C_Italy.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/26/Altar%2C_Duomo%2C_Siena%2C_Italy.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Altar,_Duomo,_Siena,_Italy.jpg",
+      "caption": "Columns and altar area",
+      "source": "Wikimedia Commons",
+      "artist": "Peter K Burian",
+      "date": "2017-05-23 05:24:22",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "902"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Franco_gizdulich%2C_modello_della_facciata_medievale_del_duomo_di_firenze%2C_1999-2000.JPG/1280px-Franco_gizdulich%2C_modello_della_facciata_medievale_del_duomo_di_firenze%2C_1999-2000.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Franco_gizdulich%2C_modello_della_facciata_medievale_del_duomo_di_firenze%2C_1999-2000.JPG/500px-Franco_gizdulich%2C_modello_della_facciata_medievale_del_duomo_di_firenze%2C_1999-2000.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/36/Franco_gizdulich%2C_modello_della_facciata_medievale_del_duomo_di_firenze%2C_1999-2000.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Franco_gizdulich,_modello_della_facciata_medievale_del_duomo_di_firenze,_1999-2000.JPG",
+      "caption": "Franco gizdulich, modello della facciata medievale del duomo di firenze, 1999-2000",
+      "source": "Wikimedia Commons",
+      "artist": "Sailko",
+      "date": "2015-11-05 11:14:21",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "1273"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Italian Gothic architecture",
@@ -62,7 +226,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2245489",
+      "url": "https://www.wikidata.org/wiki/Q2245489",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:28.152Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Italian Gothic architecture",
+      "url": "https://en.wikipedia.org/wiki/Italian_Gothic_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:28.152Z"
+      }
+    }
+  ],
   "wikidata": "Q2245489",
   "wikipedia": "Italian Gothic architecture",
   "popularity": 35,
@@ -70,5 +257,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.675Z"
 }

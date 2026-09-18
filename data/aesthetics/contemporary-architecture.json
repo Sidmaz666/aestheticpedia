@@ -17,7 +17,33 @@
   "summary": "Contemporary architecture is the architecture of the 21st century.",
   "description": "Contemporary architecture is the architecture of the 21st century. No single style is dominant. Contemporary architects work in several different styles, from postmodernism, high-tech architecture and new references and interpretations of traditional architecture like New Classical architecture to highly conceptual forms and designs, resembling sculpture on an enormous scale. Some of these styles and approaches make use of very advanced technology and modern building materials, such as tube structures which allow construction of buildings that are taller, lighter and stronger than those in the 20th century, while others prioritize the use of natural and ecological materials like stone, wood and lime. One technology that is common to all forms of contemporary architecture is the use of new techniques of computer-aided design, which allow buildings to be designed and modeled on computers in three dimensions, and constructed with more precision and speed.\n\nContemporary buildings and styles vary greatly. Some feature concrete structures wrapped in glass or aluminium screens, very asymmetric facades, and cantilevered sections which hang over the street. Skyscrapers twist, or break into crystal-like facets. Facades are designed to shimmer or change color at different times of day.\n\nWhereas the major monuments of modern architecture in the 20th century were mostly concentrated in the Americas and Western Europe, contemporary architecture is global; important new buildings have been built in China, Russia, India and particularly in Arab states of the Persian Gulf; the Burj Khalifa in Dubai was the tallest building in the world in 2019, and the Shanghai Tower in China was the second-tallest.\n\nAdditionally, in the late 20th century, New Classical Architecture, a traditionalist response to modernist architecture, emerged, continuing into the 21st century. The 21st century saw the emergence of multiple organizations dedicated to the promotion of traditional architecture. Examples include the International Network for Traditional Building, Architecture & Urbanism (INTBAU), the Institute of Classical Architecture & Art (ICAA), the Driehaus Architecture Prize. Contemporary traditional architects include Michael Graves, Léon Krier, Yasmeen Lari, Robert Stern and Abdel-Wahed El-Wakil.\n\nRecently, in the realm of contemporary architecture, a philosophy known as \"New Contextual",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#719bc8",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#aeaeae",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#8a8582",
+      "name": "taupe"
+    },
+    {
+      "hex": "#403a31",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#555655",
+      "name": "graphite"
+    },
+    {
+      "hex": "#1c1214",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,145 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Hard_Rock_Hotel_Singapore.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/98/Hard_Rock_Hotel_Singapore.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/Hard_Rock_Hotel_Singapore.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hard_Rock_Hotel_Singapore.jpg",
+      "caption": "Hard Rock Hotel and port of Singapore.",
+      "source": "Wikimedia Commons",
+      "artist": "QFSE Media",
+      "date": "2011-05-16",
+      "license": "CC BY-SA 3.0 nz",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nz/deed.en",
+      "width": "1000",
+      "height": "667"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/OneWorldTradeCenter.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ac/OneWorldTradeCenter.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ac/OneWorldTradeCenter.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:OneWorldTradeCenter.jpg",
+      "caption": "One World Trade Center as seen from the Hudson River.",
+      "source": "Wikimedia Commons",
+      "artist": "Joe Mabel",
+      "date": "Taken on 30 July 2013",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "788",
+      "height": "1187"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Abraj-al-Bait-Towers.JPG/1280px-Abraj-al-Bait-Towers.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Abraj-al-Bait-Towers.JPG/500px-Abraj-al-Bait-Towers.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Abraj-al-Bait-Towers.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Abraj-al-Bait-Towers.JPG",
+      "caption": "Abraj al Bait Towers as seen from the Masjid al Haram in Makkah, Saudi Arabia.",
+      "source": "Wikimedia Commons",
+      "artist": "King Eliot",
+      "date": "2012-06-01",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Beijing_national_stadium_4.jpg/1280px-Beijing_national_stadium_4.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Beijing_national_stadium_4.jpg/500px-Beijing_national_stadium_4.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/44/Beijing_national_stadium_4.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Beijing_national_stadium_4.jpg",
+      "caption": "Beijing National Stadium",
+      "source": "Wikimedia Commons",
+      "artist": "Arne Müseler",
+      "date": "2019-12-07",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Milwaukee_Museum_from_south-west.jpg/1280px-Milwaukee_Museum_from_south-west.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Milwaukee_Museum_from_south-west.jpg/500px-Milwaukee_Museum_from_south-west.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/74/Milwaukee_Museum_from_south-west.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Milwaukee_Museum_from_south-west.jpg",
+      "caption": "View of Milwaukee Museum from south-west approach",
+      "source": "Wikimedia Commons",
+      "artist": "PeterSesar",
+      "date": "2013-08-26",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "799"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Dallas_Meadows_Museum_1.jpg/1280px-Dallas_Meadows_Museum_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Dallas_Meadows_Museum_1.jpg/500px-Dallas_Meadows_Museum_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Dallas_Meadows_Museum_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dallas_Meadows_Museum_1.jpg",
+      "caption": "Meadows Museum at SMU, Dallas, Texas",
+      "source": "Wikimedia Commons",
+      "artist": "Photo: Andreas Praefcke",
+      "date": "2008-10",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Ft_Worth_Modern_02.jpg/1280px-Ft_Worth_Modern_02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Ft_Worth_Modern_02.jpg/500px-Ft_Worth_Modern_02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Ft_Worth_Modern_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ft_Worth_Modern_02.jpg",
+      "caption": "Modern Art Museum of Fort Worth, Fort Worth, Texas.",
+      "source": "Wikimedia Commons",
+      "artist": "Joe Mabel",
+      "date": "2007-01-28",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/ImperialWarMuseumNorth01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9e/ImperialWarMuseumNorth01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9e/ImperialWarMuseumNorth01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:ImperialWarMuseumNorth01.jpg",
+      "caption": "ImperialWarMuseumNorth01",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1024",
+      "height": "768"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/M._H._de_Young_Memorial_Museum.jpg/1280px-M._H._de_Young_Memorial_Museum.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/M._H._de_Young_Memorial_Museum.jpg/500px-M._H._de_Young_Memorial_Museum.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cc/M._H._de_Young_Memorial_Museum.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:M._H._de_Young_Memorial_Museum.jpg",
+      "caption": "De Young Museum, San Francisco, in 2009 during the Tutankhamun exhibition",
+      "source": "Wikimedia Commons",
+      "artist": "Mark Miller",
+      "date": "2009-07-14",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Paul-klee-zentrum-ansicht-zoom.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/15/Paul-klee-zentrum-ansicht-zoom.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/15/Paul-klee-zentrum-ansicht-zoom.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paul-klee-zentrum-ansicht-zoom.jpg",
+      "caption": "Frontansicht des Paul Klee Zentrums , Bern, Schweiz",
+      "source": "Wikimedia Commons",
+      "artist": "Florian.Arnd",
+      "date": "2005-10-21",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1063",
+      "height": "709"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Contemporary architecture",
@@ -62,7 +226,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q186018",
+      "url": "https://www.wikidata.org/wiki/Q186018",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:05.314Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Contemporary architecture",
+      "url": "https://en.wikipedia.org/wiki/Contemporary_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:05.314Z"
+      }
+    }
+  ],
   "wikidata": "Q186018",
   "wikipedia": "Contemporary architecture",
   "popularity": 35,
@@ -70,5 +257,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:42:05.314Z"
 }

@@ -19,7 +19,33 @@
   "summary": "Hirairi or hirairi-zukuri (平入・平入造) is a Japanese traditional architectural structure, where the building has its main entrance on the side which runs parallel to the roof's ridge (non gabled-side).",
   "description": "Hirairi or hirairi-zukuri (平入・平入造) is a Japanese traditional architectural structure, where the building has its main entrance on the side which runs parallel to the roof's ridge (non gabled-side). The shinmei-zukuri, nagare-zukuri, hachiman-zukuri, and hie-zukuri Shinto architectural styles belong to this type. It survives mostly in religious settings.\n\nIn residential buildings, the entrance side is usually the long one, but from the Edo period onward the opposite became more frequent.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#291d17",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#67503c",
+      "name": "umber"
+    },
+    {
+      "hex": "#5c351c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#90897c",
+      "name": "stone"
+    },
+    {
+      "hex": "#786f60",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b5a99b",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,32 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Shinra_Zenjin_Hall.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Shinra_Zenjin_Hall.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Shinra_Zenjin_Hall.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Shinra_Zenjin_Hall.jpg",
+      "caption": "この写真は2004年(平成16年)3月16日に投稿者が撮影したものです。",
+      "source": "Wikimedia Commons",
+      "artist": "Stanislaus",
+      "license": "Public domain",
+      "width": "533",
+      "height": "400"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/500px-Himeji_model7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Himeji_model7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Himeji_model7.JPG",
+      "caption": "Himeji model7",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Hirairi",
@@ -64,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3136194",
+      "url": "https://www.wikidata.org/wiki/Q3136194",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:11.853Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Hirairi",
+      "url": "https://en.wikipedia.org/wiki/Hirairi",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:11.853Z"
+      }
+    }
+  ],
   "wikidata": "Q3136194",
   "wikipedia": "Hirairi",
   "popularity": 35,
@@ -72,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:49:11.853Z"
 }

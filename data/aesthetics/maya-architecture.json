@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Mayan Region",
+  "geography": "Mayan Region",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Mayan architecture of the Maya civilization spans across several thousands of years, several eras of political change, and architectural innovation before the Spanish colonization of the Americas.",
   "description": "The Mayan architecture of the Maya civilization spans across several thousands of years, several eras of political change, and architectural innovation before the Spanish colonization of the Americas. Often, the buildings most dramatic and easily recognizable as creations of the Maya peoples are the step pyramids of the Terminal Preclassic Maya period and beyond. Based in general Mesoamerican architectural traditions, the Maya utilized geometric proportions and intricate carving to build everything from simple houses to ornate temples. This article focuses on the more well-known pre-classic and classic examples of Maya architecture. The temples like the ones at Palenque, Tikal, and Uxmal represent a zenith of Maya art and architecture. Through the observation of numerous elements and stylistic distinctions, remnants of Maya architecture have become an important key to understanding their religious beliefs and culture as a whole.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#777a73",
+      "name": "slate"
+    },
+    {
+      "hex": "#101915",
+      "name": "black"
+    },
+    {
+      "hex": "#6cb1f9",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#6f7e33",
+      "name": "olive green"
+    },
+    {
+      "hex": "#333f2d",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#919494",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,134 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Palenque%2C_Chiapas%2C_Mexico.JPG/1280px-Palenque%2C_Chiapas%2C_Mexico.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Palenque%2C_Chiapas%2C_Mexico.JPG/500px-Palenque%2C_Chiapas%2C_Mexico.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Palenque%2C_Chiapas%2C_Mexico.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Palenque,_Chiapas,_Mexico.JPG",
+      "caption": "This is a photo of a monument in Mexico, identified by ID",
+      "source": "Wikimedia Commons",
+      "artist": "Bluemardigrass",
+      "date": "2012-09-08",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "956"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/ZA33_COPIA_PALENQUE%2C_CHIAPAS.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a1/ZA33_COPIA_PALENQUE%2C_CHIAPAS.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a1/ZA33_COPIA_PALENQUE%2C_CHIAPAS.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:ZA33_COPIA_PALENQUE,_CHIAPAS.jpg",
+      "caption": "This is a photo of a monument in Mexico, identified by ID",
+      "source": "Wikimedia Commons",
+      "artist": "José Luis Tristán Espino",
+      "date": "2005-11-16 11:34:54",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1024"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/El_Templo_de_la_Cruz.jpg/1280px-El_Templo_de_la_Cruz.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/El_Templo_de_la_Cruz.jpg/500px-El_Templo_de_la_Cruz.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0f/El_Templo_de_la_Cruz.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:El_Templo_de_la_Cruz.jpg",
+      "caption": "This is a photo of a monument in Mexico, identified by ID",
+      "source": "Wikimedia Commons",
+      "artist": "Ihiroalfonso",
+      "date": "2012-04-19",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/2002.12.29_12_Sayil_Yucat%C3%A1n_M%C3%A9xico.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/05/2002.12.29_12_Sayil_Yucat%C3%A1n_M%C3%A9xico.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/05/2002.12.29_12_Sayil_Yucat%C3%A1n_M%C3%A9xico.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:2002.12.29_12_Sayil_Yucat%C3%A1n_M%C3%A9xico.jpg",
+      "caption": "Sayil Yucatán México",
+      "source": "Wikimedia Commons",
+      "artist": "Hermann Luyken - User: (WT-shared) Hermann Luyken at wts wikivoyage https://www.familie-luyken.de/07Genealogie/13Gen/13064a.htm",
+      "date": "2002-12-29",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Tikal6.jpg/1280px-Tikal6.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Tikal6.jpg/500px-Tikal6.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Tikal6.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tikal6.jpg",
+      "caption": "From the mayan site Tikal Tikal is in Guatemala.",
+      "source": "Wikimedia Commons",
+      "artist": "Peter Andersen",
+      "date": "27 February 2005 (according to Exif data)",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Chich%C3%A9n_Itz%C3%A1_-_26.jpg/1280px-Chich%C3%A9n_Itz%C3%A1_-_26.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Chich%C3%A9n_Itz%C3%A1_-_26.jpg/500px-Chich%C3%A9n_Itz%C3%A1_-_26.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/81/Chich%C3%A9n_Itz%C3%A1_-_26.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chich%C3%A9n_Itz%C3%A1_-_26.jpg",
+      "caption": "This is a photo of a monument in Mexico, identified by ID",
+      "source": "Wikimedia Commons",
+      "artist": "Carlos Delgado",
+      "date": "2012-08-01 16:51:09",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Chichen_Itza_Campo_del_juego_de_pelota.JPG/1280px-Chichen_Itza_Campo_del_juego_de_pelota.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Chichen_Itza_Campo_del_juego_de_pelota.JPG/500px-Chichen_Itza_Campo_del_juego_de_pelota.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Chichen_Itza_Campo_del_juego_de_pelota.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chichen_Itza_Campo_del_juego_de_pelota.JPG",
+      "caption": "This is a photo of a monument in Mexico, identified by ID",
+      "source": "Wikimedia Commons",
+      "artist": "Ricardo Navarro",
+      "date": "2012-10-07 09:04:49",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Codex_Lacambalam_l%C3%A1mina_15.png/1280px-Codex_Lacambalam_l%C3%A1mina_15.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Codex_Lacambalam_l%C3%A1mina_15.png/500px-Codex_Lacambalam_l%C3%A1mina_15.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Codex_Lacambalam_l%C3%A1mina_15.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Codex_Lacambalam_l%C3%A1mina_15.png",
+      "caption": "This drawing is part of the codex also known as Codex Grolier. The day positions are part of a Venus almanaque. The whole codex described all day positions of 13 times 5 Venus years.",
+      "source": "Wikimedia Commons",
+      "artist": "Lacambalam",
+      "date": "2020-08-17",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1816"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Cusco_Piedra_de_los_doce_angulos.jpg/1280px-Cusco_Piedra_de_los_doce_angulos.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Cusco_Piedra_de_los_doce_angulos.jpg/500px-Cusco_Piedra_de_los_doce_angulos.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Cusco_Piedra_de_los_doce_angulos.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cusco_Piedra_de_los_doce_angulos.jpg",
+      "caption": "Cusco, street Hatun Rumiyoq (\"the one with the big stone\"), with its stone of 12 angles",
+      "source": "Wikimedia Commons",
+      "artist": "Unukorno",
+      "date": "2013-09-20",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Maya architecture",
@@ -62,7 +215,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2005167",
+      "url": "https://www.wikidata.org/wiki/Q2005167",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:15.034Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Maya architecture",
+      "url": "https://en.wikipedia.org/wiki/Maya_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:15.034Z"
+      }
+    }
+  ],
   "wikidata": "Q2005167",
   "wikipedia": "Maya architecture",
   "popularity": 35,
@@ -70,5 +246,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.400Z"
 }

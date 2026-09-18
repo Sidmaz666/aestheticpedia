@@ -19,7 +19,33 @@
   "summary": "The Danube school or Donau school (German: Donauschule or Donaustil) was a circle of painters of the first third of the 16th century in Bavaria and Austria (mainly along the Danube valley).",
   "description": "The Danube school or Donau school (German: Donauschule or Donaustil) was a circle of painters of the first third of the 16th century in Bavaria and Austria (mainly along the Danube valley). Many were also innovative printmakers, usually in etching. They were among the first painters to regularly use pure landscape painting, and their figures, influenced by Matthias Grünewald, are often highly expressive, if not expressionist. They show little Italian influence and represent a decisive break with the high finish of Northern Renaissance painting, using a more painterly style that was in many ways ahead of its time.\n\nAccording to Alfred Stange, Albrecht Altdorfer and Wolf Huber were two of the central most figures within the Danube school. Altdofer was the artist that created most of the artworks associated with the Danube school. The term \"Danube school\" was most likely not what these groups of artist called themselves but a name that derived hundreds of years after a man by the name of Theodore von Frimmel was observing a painting in 1892 in the Danube region around Regensburg, Germany. When artist Lucas Cranach's art work was recognized to have stylistic elements of the \"Danube\" the name \"the Danube school\" began to take a deeper meaning. The river valleys of Austria and western Bavaria have often been praised as the land of the 'beautiful Danube' and not in just song but in the pictorial arts as well. (Snyder, James)",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#3d3d25",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#292319",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#76a4b5",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#565a35",
+      "name": "umber"
+    },
+    {
+      "hex": "#5c92a1",
+      "name": "slate"
+    },
+    {
+      "hex": "#adc3bd",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,47 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Altdorfer-Donau.jpg/1280px-Altdorfer-Donau.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Altdorfer-Donau.jpg/500px-Altdorfer-Donau.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Altdorfer-Donau.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Altdorfer-Donau.jpg",
+      "caption": "Donaulandschaft mit Schloss Wörth",
+      "source": "Wikimedia Commons",
+      "artist": "Albrecht Altdorfer",
+      "date": "circa 1522 date QS:P571,+1522-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1782"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Albrecht_Altdorfer%2C_landscape%2C_etching.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Albrecht_Altdorfer%2C_landscape%2C_etching.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Albrecht_Altdorfer%2C_landscape%2C_etching.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Albrecht_Altdorfer,_landscape,_etching.jpg",
+      "caption": "landscape, 16th century etching",
+      "source": "Wikimedia Commons",
+      "artist": "Albrecht Altdorfer",
+      "license": "Public domain",
+      "width": "555",
+      "height": "412"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/306e0ee3-828b-7c9e-a1ed-219819672b87/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/306e0ee3-828b-7c9e-a1ed-219819672b87/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/306e0ee3-828b-7c9e-a1ed-219819672b87/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/187708",
+      "caption": "Landscape with a Vine-Yard, in the Middle a Chariot Loaded with Poles, c. 1559",
+      "source": "Art Institute of Chicago",
+      "artist": "Hanns Lautensack ",
+      "date": "c. 1559",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "572"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Danube school",
@@ -64,7 +130,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q587691",
+      "url": "https://www.wikidata.org/wiki/Q587691",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:03.709Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Danube school",
+      "url": "https://en.wikipedia.org/wiki/Danube_school",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:03.709Z"
+      }
+    }
+  ],
   "wikidata": "Q587691",
   "wikipedia": "Danube school",
   "popularity": 35,
@@ -72,5 +161,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:43:03.709Z"
 }

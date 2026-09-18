@@ -17,7 +17,33 @@
   "summary": "The Crozant School (French: École de Crozant) is named after Crozant, a Commune of France at the northern limit of the department of Creuse.",
   "description": "The Crozant School (French: École de Crozant) is named after Crozant, a Commune of France at the northern limit of the department of Creuse. It consists of a host of landscape painters who worked from 1830 to 1950 on the banks of the Grande Creuse, Petite Creuse, Sédelle and Gargilesse rivers near the communes of Crozant and Fresselines.\n\nThe \"Crozant School\" is simply a convenient name to designate all those who have found inspiration in the Creuse valleys: it is a \"school without a master\". In little more than a century, nearly 500 painters frequented the region.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c2b3a2",
+      "name": "khaki"
+    },
+    {
+      "hex": "#775735",
+      "name": "umber"
+    },
+    {
+      "hex": "#a29583",
+      "name": "stone"
+    },
+    {
+      "hex": "#e8dcd0",
+      "name": "bone white"
+    },
+    {
+      "hex": "#d3a94b",
+      "name": "gold"
+    },
+    {
+      "hex": "#8b8155",
+      "name": "moss"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,69 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/59/William_Didier-Pouget%2C_ca.1902-1903%2C_Hauts_Plateaux_de_la_Corr%C3%A8ze.jpg/1280px-William_Didier-Pouget%2C_ca.1902-1903%2C_Hauts_Plateaux_de_la_Corr%C3%A8ze.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/59/William_Didier-Pouget%2C_ca.1902-1903%2C_Hauts_Plateaux_de_la_Corr%C3%A8ze.jpg/500px-William_Didier-Pouget%2C_ca.1902-1903%2C_Hauts_Plateaux_de_la_Corr%C3%A8ze.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/en/5/59/William_Didier-Pouget%2C_ca.1902-1903%2C_Hauts_Plateaux_de_la_Corr%C3%A8ze.jpg",
+      "pageUrl": "https://en.wikipedia.org/wiki/File:William_Didier-Pouget,_ca.1902-1903,_Hauts_Plateaux_de_la_Corr%C3%A8ze.jpg",
+      "caption": "William Didier-Pouget, ca.1902-1903, Hauts Plateaux de la Corrèze",
+      "source": "Wikimedia Commons",
+      "license": "PD-US",
+      "width": "1280",
+      "height": "692"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/John_Constable_-_Cottage_at_East_Bergholt.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cd/John_Constable_-_Cottage_at_East_Bergholt.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cd/John_Constable_-_Cottage_at_East_Bergholt.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:John_Constable_-_Cottage_at_East_Bergholt.jpg",
+      "caption": "Un bâtiment est enfoui sous la végétation encore secouée par des bourrasques, juste après l'orage (un arc-en-ciel double apparaît à droite)",
+      "source": "Wikimedia Commons",
+      "artist": "John Constable",
+      "date": "1833",
+      "license": "Public domain",
+      "width": "500",
+      "height": "394"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Jean-Baptiste_Armand_Guillaumin_002.jpg/1280px-Jean-Baptiste_Armand_Guillaumin_002.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Jean-Baptiste_Armand_Guillaumin_002.jpg/500px-Jean-Baptiste_Armand_Guillaumin_002.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Jean-Baptiste_Armand_Guillaumin_002.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jean-Baptiste_Armand_Guillaumin_002.jpg",
+      "caption": "Landschaft",
+      "source": "Wikimedia Commons",
+      "artist": "Guillaumin, Jean-Baptiste Armand",
+      "date": "circa 1870 date QS:P571,+1870-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1049"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Smith_Alfred_-_Crozant_La_S%C3%A9delle_en_octobre_%28c_1923%29.jpg/1280px-Smith_Alfred_-_Crozant_La_S%C3%A9delle_en_octobre_%28c_1923%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Smith_Alfred_-_Crozant_La_S%C3%A9delle_en_octobre_%28c_1923%29.jpg/500px-Smith_Alfred_-_Crozant_La_S%C3%A9delle_en_octobre_%28c_1923%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Smith_Alfred_-_Crozant_La_S%C3%A9delle_en_octobre_%28c_1923%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Smith_Alfred_-_Crozant_La_S%C3%A9delle_en_octobre_(c_1923).jpg",
+      "caption": "Crozant La Sédelle en octobre (c 1923)",
+      "source": "Wikimedia Commons",
+      "artist": "Alfred Smith",
+      "date": "circa 1923 date QS:P,+1923-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1023"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/AlluaudRoll.jpg/1280px-AlluaudRoll.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/AlluaudRoll.jpg/500px-AlluaudRoll.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f4/AlluaudRoll.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:AlluaudRoll.jpg",
+      "caption": "AlluaudRoll",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1452"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Crozant School",
@@ -62,7 +150,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3577791",
+      "url": "https://www.wikidata.org/wiki/Q3577791",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:17.460Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Crozant School",
+      "url": "https://en.wikipedia.org/wiki/Crozant_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:17.460Z"
+      }
+    }
+  ],
   "wikidata": "Q3577791",
   "wikipedia": "Crozant School",
   "popularity": 35,
@@ -70,5 +181,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:42:17.460Z"
 }

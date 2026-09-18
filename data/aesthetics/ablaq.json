@@ -17,7 +17,33 @@
   "summary": "Ablaq (Arabic: أبلق; particolored; literally 'piebald') is an architectural technique involving alternating or fluctuating rows of light and dark stone.",
   "description": "Ablaq (Arabic: أبلق; particolored; literally 'piebald') is an architectural technique involving alternating or fluctuating rows of light and dark stone. It is an Arabic term describing a technique associated with Islamic architecture in the Arab world. The technique is used primarily for decorative effect. It may have its origins in earlier Byzantine architecture in the region, where alternating layers of white stone and orange brick were used in construction. Its use began early in the history of Islamic architecture.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a9a49f",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#988d83",
+      "name": "stone"
+    },
+    {
+      "hex": "#7b7570",
+      "name": "taupe"
+    },
+    {
+      "hex": "#5d5955",
+      "name": "umber"
+    },
+    {
+      "hex": "#c5bcb1",
+      "name": "silver"
+    },
+    {
+      "hex": "#3e3936",
+      "name": "aubergine"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,92 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Azm_Palace_-_Damascus.jpg/1280px-Azm_Palace_-_Damascus.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Azm_Palace_-_Damascus.jpg/500px-Azm_Palace_-_Damascus.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/15/Azm_Palace_-_Damascus.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Azm_Palace_-_Damascus.jpg",
+      "caption": "This is a photo of a monument in Syria identified by the ID",
+      "source": "Wikimedia Commons",
+      "artist": "Bassel Khabbaz",
+      "date": "2016-06-21 12:55:51",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "959"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Dome_of_Rock_%28Jerusalem_2018%29_02.jpg/1280px-Dome_of_Rock_%28Jerusalem_2018%29_02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Dome_of_Rock_%28Jerusalem_2018%29_02.jpg/500px-Dome_of_Rock_%28Jerusalem_2018%29_02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/34/Dome_of_Rock_%28Jerusalem_2018%29_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dome_of_Rock_(Jerusalem_2018)_02.jpg",
+      "caption": "Inside Dome of the Rock (Jerusalem 2018)",
+      "source": "Wikimedia Commons",
+      "artist": "Virtutepetens",
+      "date": "2018-01-25 09:42:07",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Konya_Alaeddin_Mosque_monumental_facade_2275.jpg/1280px-Konya_Alaeddin_Mosque_monumental_facade_2275.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Konya_Alaeddin_Mosque_monumental_facade_2275.jpg/500px-Konya_Alaeddin_Mosque_monumental_facade_2275.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Konya_Alaeddin_Mosque_monumental_facade_2275.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Konya_Alaeddin_Mosque_monumental_facade_2275.jpg",
+      "caption": "One of several views, some detailed, of the northern monumental facade, building started in 1219.",
+      "source": "Wikimedia Commons",
+      "artist": "Dosseman",
+      "date": "2010-12-18 15:21:57",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "852"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Cairo%2C_moschea_di_al-muayyad%2C_intarsi_02.JPG/1280px-Cairo%2C_moschea_di_al-muayyad%2C_intarsi_02.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Cairo%2C_moschea_di_al-muayyad%2C_intarsi_02.JPG/500px-Cairo%2C_moschea_di_al-muayyad%2C_intarsi_02.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/83/Cairo%2C_moschea_di_al-muayyad%2C_intarsi_02.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cairo,_moschea_di_al-muayyad,_intarsi_02.JPG",
+      "caption": "Mosque of Sultan al-Muayyad",
+      "source": "Wikimedia Commons",
+      "artist": "Sailko",
+      "date": "2015-11-19 15:48:55",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Khan_As%27ad_Pacha_Al-%27Azem.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Khan_As%27ad_Pacha_Al-%27Azem.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Khan_As%27ad_Pacha_Al-%27Azem.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Khan_As%27ad_Pacha_Al-%27Azem.jpg",
+      "caption": "Khan As'ad Pacha Al-'Azem - Damascus Khan As'ad Pacha Al-'Azem",
+      "source": "Wikimedia Commons",
+      "artist": "Jim Gordon",
+      "date": "2005-03-22 10:16:04",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Monza_Duomo_di_San_Giovanni_Battista_Esterno_Facciata_5.jpg/1280px-Monza_Duomo_di_San_Giovanni_Battista_Esterno_Facciata_5.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Monza_Duomo_di_San_Giovanni_Battista_Esterno_Facciata_5.jpg/500px-Monza_Duomo_di_San_Giovanni_Battista_Esterno_Facciata_5.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Monza_Duomo_di_San_Giovanni_Battista_Esterno_Facciata_5.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Monza_Duomo_di_San_Giovanni_Battista_Esterno_Facciata_5.jpg",
+      "caption": "Facade of the Church of St. John the Baptist, Monza, Province of Monza & Brianza, Region of Lombardy, Italy",
+      "source": "Wikimedia Commons",
+      "artist": "Zairon",
+      "date": "2020-09-19",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "986"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Ablaq",
@@ -62,7 +173,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4668050",
+      "url": "https://www.wikidata.org/wiki/Q4668050",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:34:48.432Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Ablaq",
+      "url": "https://en.wikipedia.org/wiki/Ablaq",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:34:48.432Z"
+      }
+    }
+  ],
   "wikidata": "Q4668050",
   "wikipedia": "Ablaq",
   "popularity": 35,
@@ -70,5 +204,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:34:48.432Z"
 }

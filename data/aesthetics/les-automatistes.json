@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Canada",
+  "geography": "Canada",
   "periodStart": "1940s",
   "periodEnd": "",
   "startYear": 1940,
@@ -39,7 +39,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Exposition_des_Automatistes_-_1947.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Exposition_des_Automatistes_-_1947.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Exposition_des_Automatistes_-_1947.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Exposition_des_Automatistes_-_1947.jpg",
+      "caption": "Exposition des Automatistes, 1947 Claude Gauvreau, Julienne Gauvreau, Pierre Gauvreau, Marcel Barbeau, Madeleine Arbour, Paul-Émile Borduas, Madeleine Lalonde, Bruno Cormier et Jean-Paul Mousseau.",
+      "source": "Wikimedia Commons",
+      "artist": "Archives La Presse",
+      "date": "1947",
+      "license": "Public domain",
+      "width": "924",
+      "height": "615"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Les Automatistes",
@@ -62,7 +76,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2872628",
+      "url": "https://www.wikidata.org/wiki/Q2872628",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:25.851Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Les Automatistes",
+      "url": "https://en.wikipedia.org/wiki/Les_Automatistes",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:25.851Z"
+      }
+    }
+  ],
   "wikidata": "Q2872628",
   "wikipedia": "Les Automatistes",
   "popularity": 35,
@@ -70,5 +107,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.676Z"
 }

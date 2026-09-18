@@ -24,7 +24,33 @@
   "summary": "Anime-influenced animation, also known colloquially as animesque, is a type of non-Japanese work of animation that is noticeably similar to or inspired by anime.",
   "description": "Anime-influenced animation, also known colloquially as animesque, is a type of non-Japanese work of animation that is noticeably similar to or inspired by anime. Generally, the term anime refers to a style of animation originating from Japan. As Japanese anime became increasingly popular, Western animation studios began implementing some visual stylizations typical in anime—such as exaggerated facial expressions, \"super deformed\" versions of characters, and white radial lines appearing on screen when something shocking, frightening, or distressing occurs.\n\nAlthough outside Japan, anime is specifically used to mean animation from Japan or as a Japanese-disseminated animation style often characterized by colorful graphics, vibrant characters and fantastical themes, there is debate over whether the culturally abstract approach to the word's meaning may open up the possibility of anime produced in countries other than Japan. Additionally, anime-influenced series are occasionally defined as \"anime\" by some sources, in an attempt to classify all anime-styled works of non-Japanese origin.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#201212",
+      "name": "black"
+    },
+    {
+      "hex": "#4e3325",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#77acb4",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#d4c1aa",
+      "name": "beige"
+    },
+    {
+      "hex": "#8b6a41",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b2987e",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -46,7 +72,64 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Anime-eyes.jpg",
+      "caption": "https://9anime.day/ - With 9Anime, you can watch variety of anime genres online. It has amazing features for good user experience.",
+      "source": "Wikimedia Commons",
+      "artist": "Anthonypoole",
+      "date": "2022-12-09",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "560",
+      "height": "400"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Rebecca_Sugar_Speaking_at_New_York_Comic_Con_2014_-_Peter_Dzubay_%28cropped%29.jpeg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/30/Rebecca_Sugar_Speaking_at_New_York_Comic_Con_2014_-_Peter_Dzubay_%28cropped%29.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/Rebecca_Sugar_Speaking_at_New_York_Comic_Con_2014_-_Peter_Dzubay_%28cropped%29.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rebecca_Sugar_Speaking_at_New_York_Comic_Con_2014_-_Peter_Dzubay_(cropped).jpeg",
+      "caption": "Rebecca Sugar speaking at the Cartoon Network Presents: CN Anythingǃ panel at the 2014 New York Comic Con. Photo by Peter Dzubay",
+      "source": "Wikimedia Commons",
+      "artist": "Peter Dzubay",
+      "date": "2014-10-12",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1048",
+      "height": "1656"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Ian_Jones-Quartey_Cartoon_Network_New_Comedies_Panel.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Ian_Jones-Quartey_Cartoon_Network_New_Comedies_Panel.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Ian_Jones-Quartey_Cartoon_Network_New_Comedies_Panel.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ian_Jones-Quartey_Cartoon_Network_New_Comedies_Panel.jpg",
+      "caption": "Ian Jones-Quartey at San Diego Comic Con 2013",
+      "source": "Wikimedia Commons",
+      "artist": "Sue Lukenbaugh from Sacramento, USA",
+      "date": "2013-07-20 15:09",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "489",
+      "height": "667"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Team_RWBY_Volume_9.png/1280px-Team_RWBY_Volume_9.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Team_RWBY_Volume_9.png/500px-Team_RWBY_Volume_9.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Team_RWBY_Volume_9.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Team_RWBY_Volume_9.png",
+      "caption": "The main characters of the web series RWBY, as depicted in Volume 9; from left to right: Blake Belladonna, Ruby Rose, Yang Xiao Long and Weiss Schnee",
+      "source": "Wikimedia Commons",
+      "artist": "Rooster Teeth Animation",
+      "date": "2023-04-25",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "720"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Anime-influenced animation",
@@ -69,7 +152,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2580761",
+      "url": "https://www.wikidata.org/wiki/Q2580761",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:59.581Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Anime-influenced animation",
+      "url": "https://en.wikipedia.org/wiki/Anime-influenced_animation",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:59.581Z"
+      }
+    }
+  ],
   "wikidata": "Q2580761",
   "wikipedia": "Anime-influenced animation",
   "popularity": 35,
@@ -77,5 +183,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:35:59.581Z"
 }

@@ -13,15 +13,41 @@
   "confidence": 60,
   "origin": "",
   "geography": "",
-  "periodStart": "",
+  "periodStart": "classical antiquity",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": -1198,
   "endYear": null,
-  "era": "",
+  "era": "1198 BCE",
   "summary": "The Pompeian Styles are four periods which are distinguished in ancient Roman mural painting.",
   "description": "The Pompeian Styles are four periods which are distinguished in ancient Roman mural painting. They were originally delineated and described by the German archaeologist August Mau (1840–1909) from the excavation of wall paintings at Pompeii, which is one of the largest groups of surviving Roman frescoes.\n\nThe wall painting styles have allowed art historians to delineate phases of interior decoration leading up to the eruption of Mount Vesuvius in 79 AD between stylistic shifts in Roman art during late Republican and Augustan periods.\n\nThe four main styles of Roman wall painting defined are: structural (or incrustation), architectural, ornamental, and intricate. Each style following the first contains aspects of the previous styles. The first two styles (incrustation and architectural) were from the Republican period (related to Hellenistic Greek wall painting) and the last two (ornamental and intricate) from the Imperial period.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a78c7e",
+      "name": "stone"
+    },
+    {
+      "hex": "#7c5346",
+      "name": "umber"
+    },
+    {
+      "hex": "#896f65",
+      "name": "bronze"
+    },
+    {
+      "hex": "#a6a3a8",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#c9bcb6",
+      "name": "silver"
+    },
+    {
+      "hex": "#573733",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,101 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Pompeii_-_Casa_dei_Casti_Amanti_-_Banquet.jpg/1280px-Pompeii_-_Casa_dei_Casti_Amanti_-_Banquet.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Pompeii_-_Casa_dei_Casti_Amanti_-_Banquet.jpg/500px-Pompeii_-_Casa_dei_Casti_Amanti_-_Banquet.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Pompeii_-_Casa_dei_Casti_Amanti_-_Banquet.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pompeii_-_Casa_dei_Casti_Amanti_-_Banquet.jpg",
+      "caption": "Roman fresco with banquet scene from the Casa dei Casti Amanti (IX 12, 6-8) in Pompeii.",
+      "source": "Wikimedia Commons",
+      "artist": "WolfgangRieger",
+      "date": "2009-03-12",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1045"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Herculaneum_Wall_1.Style.jpg/1280px-Herculaneum_Wall_1.Style.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Herculaneum_Wall_1.Style.jpg/500px-Herculaneum_Wall_1.Style.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Herculaneum_Wall_1.Style.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Herculaneum_Wall_1.Style.jpg",
+      "caption": "Wall painted in the first style, inside the \"Casa sannitica\" in the ancient city of Herculaneum in Italy",
+      "source": "Wikimedia Commons",
+      "artist": "No machine-readable author provided. AlMare assumed (based on copyright claims).",
+      "date": "15 April 2006 (original upload date)",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Pompejanischer_Maler_um_70_001.jpg/1280px-Pompejanischer_Maler_um_70_001.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Pompejanischer_Maler_um_70_001.jpg/500px-Pompejanischer_Maler_um_70_001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Pompejanischer_Maler_um_70_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pompejanischer_Maler_um_70_001.jpg",
+      "caption": "Still life with glass bowl of fruit and vases Still life",
+      "source": "Wikimedia Commons",
+      "artist": "Pompeian painter around 70 AD",
+      "date": "between 63 and 79",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "867"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Venus_and_Cupid_from_the_House_of_Marcus_Fabius_Rufus_at_Pompeii%2C_most_likely_a_depiction_of_Cleopatra_VII_%285%29.jpg/1280px-Venus_and_Cupid_from_the_House_of_Marcus_Fabius_Rufus_at_Pompeii%2C_most_likely_a_depiction_of_Cleopatra_VII_%285%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Venus_and_Cupid_from_the_House_of_Marcus_Fabius_Rufus_at_Pompeii%2C_most_likely_a_depiction_of_Cleopatra_VII_%285%29.jpg/500px-Venus_and_Cupid_from_the_House_of_Marcus_Fabius_Rufus_at_Pompeii%2C_most_likely_a_depiction_of_Cleopatra_VII_%285%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Venus_and_Cupid_from_the_House_of_Marcus_Fabius_Rufus_at_Pompeii%2C_most_likely_a_depiction_of_Cleopatra_VII_%285%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Venus_and_Cupid_from_the_House_of_Marcus_Fabius_Rufus_at_Pompeii,_most_likely_a_depiction_of_Cleopatra_VII_(5).jpg",
+      "caption": "An ancient Roman wall painting in Room 71 of the House of Marcus Fabius Rufus at Pompeii, Italy, showing Venus with a cupid's arms wrapped around her. It is most likely a depiction of Cleopatra VII of Ptolemaic Egypt as Venus Genetrix, with her son Caesarion as a cupid. It was mo",
+      "source": "Wikimedia Commons",
+      "artist": "Ancient Roman painter(s) from Pompeii",
+      "date": "circa 46-44 BC",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1234"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Villa-Farnesina22.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Villa-Farnesina22.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Villa-Farnesina22.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Villa-Farnesina22.jpg",
+      "caption": "Villa Farnesina, Rom",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "c. 20 BC",
+      "license": "Public domain",
+      "width": "600",
+      "height": "656"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Pompeian_fresco_depicting_an_educated_woman.jpg/1280px-Pompeian_fresco_depicting_an_educated_woman.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Pompeian_fresco_depicting_an_educated_woman.jpg/500px-Pompeian_fresco_depicting_an_educated_woman.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/81/Pompeian_fresco_depicting_an_educated_woman.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pompeian_fresco_depicting_an_educated_woman.jpg",
+      "caption": "a fresco thematically rare to see in popeii frescoes",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "2015-05-02",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1241"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Priapus-fresco.jpg/1280px-Priapus-fresco.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Priapus-fresco.jpg/500px-Priapus-fresco.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Priapus-fresco.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Priapus-fresco.jpg",
+      "caption": "depicting the god of fertility balancing is phallus with a bag of money",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "2019-09-27",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1866"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Pompeian Styles",
@@ -66,7 +186,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q740856",
+      "url": "https://www.wikidata.org/wiki/Q740856",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:24.029Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Pompeian Styles",
+      "url": "https://en.wikipedia.org/wiki/Pompeian_Styles",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:24.029Z"
+      }
+    }
+  ],
   "wikidata": "Q740856",
   "wikipedia": "Pompeian Styles",
   "popularity": 35,
@@ -74,5 +217,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.064Z"
 }

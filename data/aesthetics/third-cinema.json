@@ -41,7 +41,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Vallejo%2C_peron%2C_solanas%2C_getino.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Vallejo%2C_peron%2C_solanas%2C_getino.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Vallejo%2C_peron%2C_solanas%2C_getino.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vallejo,_peron,_solanas,_getino.jpg",
+      "caption": "Los realizadores Gerardo Vallejo , Pino Solanas (izquierda) y Octavio Getino (derecha) junto a Juan Domingo Perón durante su exilio en España.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1971",
+      "license": "Public domain",
+      "width": "960",
+      "height": "540"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Third Cinema",
@@ -64,7 +78,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1259293",
+      "url": "https://www.wikidata.org/wiki/Q1259293",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:26.851Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Third Cinema",
+      "url": "https://en.wikipedia.org/wiki/Third_Cinema",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:26.851Z"
+      }
+    }
+  ],
   "wikidata": "Q1259293",
   "wikipedia": "Third Cinema",
   "popularity": 35,
@@ -72,5 +109,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:08:26.851Z"
 }

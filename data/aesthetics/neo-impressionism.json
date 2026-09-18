@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Art Institute of Chicago",
+  "geography": "Art Institute of Chicago",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Neo-Impressionism is a term coined by French art critic Félix Fénéon in 1886 to describe an art movement founded by Georges Seurat.",
   "description": "Neo-Impressionism is a term coined by French art critic Félix Fénéon in 1886 to describe an art movement founded by Georges Seurat. Seurat's most renowned masterpiece, A Sunday Afternoon on the Island of La Grande Jatte, marked the beginning of this movement when it first made its appearance at an exhibition of the Société des Artistes Indépendants (Salon des Indépendants) in Paris. Around this time, the peak of France's modern era emerged and many painters were in search of new methods. Followers of Neo-Impressionism, in particular, were drawn to modern urban scenes as well as landscapes and seashores. Science-based interpretation of lines and colors influenced Neo-Impressionists' characterization of their own contemporary art. The Pointillist and Divisionist techniques are often mentioned in this context, because they were the dominant techniques in the beginning of the Neo-Impressionist movement.\n\nSome argue that Neo-Impressionism became the first true avant-garde movement in painting. The Neo-Impressionists were able to create a movement very quickly in the 19th century, partially due to its strong connection to anarchism, which set a pace for later artistic manifestations. The movement and the style were an attempt to derive \"harmonious\" vision from modern science, anarchist theory, and late 19th-century debate around the value of academic art. The artists of the movement \"promised to employ optical and psycho-biological theories in pursuit of a grand synthesis of the ideal and the real, the fugitive and the essential, science and temperament.\"",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a0927b",
+      "name": "stone"
+    },
+    {
+      "hex": "#645a50",
+      "name": "umber"
+    },
+    {
+      "hex": "#846b4e",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b7ac92",
+      "name": "khaki"
+    },
+    {
+      "hex": "#cbc4aa",
+      "name": "beige"
+    },
+    {
+      "hex": "#2d3433",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,137 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg/1280px-Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg/500px-Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg",
+      "caption": "A Sunday on La Grande Jatte -- 1884",
+      "source": "Wikimedia Commons",
+      "artist": "Georges Seurat",
+      "date": "1884",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "852"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Charles_Th%C3%A9ophile_Angrand_001.jpg/1280px-Charles_Th%C3%A9ophile_Angrand_001.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Charles_Th%C3%A9ophile_Angrand_001.jpg/500px-Charles_Th%C3%A9ophile_Angrand_001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Charles_Th%C3%A9ophile_Angrand_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Charles_Th%C3%A9ophile_Angrand_001.jpg",
+      "caption": "Man and Woman in the Street",
+      "source": "Wikimedia Commons",
+      "artist": "Charles Angrand",
+      "date": "1887 date QS:P571,+1887-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1499"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Th%C3%A9o_van_Rysselberghe_-_Portrait_of_Alice_S%C3%A8the.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Th%C3%A9o_van_Rysselberghe_-_Portrait_of_Alice_S%C3%A8the.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Th%C3%A9o_van_Rysselberghe_-_Portrait_of_Alice_S%C3%A8the.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Th%C3%A9o_van_Rysselberghe_-_Portrait_of_Alice_S%C3%A8the.jpg",
+      "caption": "Portrait of Alice Sèthe",
+      "source": "Wikimedia Commons",
+      "artist": "Théo van Rysselberghe",
+      "date": "1888 date QS:P571,+1888-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "615",
+      "height": "1250"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Heuernte_bei_Eragny-sur-Epte_%281889%29_-_Camille_Pissarro.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/31/Heuernte_bei_Eragny-sur-Epte_%281889%29_-_Camille_Pissarro.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/31/Heuernte_bei_Eragny-sur-Epte_%281889%29_-_Camille_Pissarro.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Heuernte_bei_Eragny-sur-Epte_(1889)_-_Camille_Pissarro.jpg",
+      "caption": "Hay harvest at Eragny-sur-epte",
+      "source": "Wikimedia Commons",
+      "artist": "Camille Pissarro",
+      "date": "1889 date QS:P571,+1889-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1256",
+      "height": "1573"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Georges_Lemmen_-_Plage_%C3%A0_Heist.jpg/1280px-Georges_Lemmen_-_Plage_%C3%A0_Heist.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Georges_Lemmen_-_Plage_%C3%A0_Heist.jpg/500px-Georges_Lemmen_-_Plage_%C3%A0_Heist.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Georges_Lemmen_-_Plage_%C3%A0_Heist.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Georges_Lemmen_-_Plage_%C3%A0_Heist.jpg",
+      "caption": "Plage à Heist",
+      "source": "Wikimedia Commons",
+      "artist": "Georges Lemmen",
+      "date": "1891 date QS:P571,+1891-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1041"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Henri-Edmond_Cross%2C_1908%2C_Les_cypr%C3%A8s_%C3%A0_Cagnes%2C_oil_on_canvas%2C_81_x_100_cm%2C_Mus%C3%A9e_d%27Orsay%2C_Paris.jpg/1280px-Henri-Edmond_Cross%2C_1908%2C_Les_cypr%C3%A8s_%C3%A0_Cagnes%2C_oil_on_canvas%2C_81_x_100_cm%2C_Mus%C3%A9e_d%27Orsay%2C_Paris.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Henri-Edmond_Cross%2C_1908%2C_Les_cypr%C3%A8s_%C3%A0_Cagnes%2C_oil_on_canvas%2C_81_x_100_cm%2C_Mus%C3%A9e_d%27Orsay%2C_Paris.jpg/500px-Henri-Edmond_Cross%2C_1908%2C_Les_cypr%C3%A8s_%C3%A0_Cagnes%2C_oil_on_canvas%2C_81_x_100_cm%2C_Mus%C3%A9e_d%27Orsay%2C_Paris.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/32/Henri-Edmond_Cross%2C_1908%2C_Les_cypr%C3%A8s_%C3%A0_Cagnes%2C_oil_on_canvas%2C_81_x_100_cm%2C_Mus%C3%A9e_d%27Orsay%2C_Paris.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Henri-Edmond_Cross,_1908,_Les_cypr%C3%A8s_%C3%A0_Cagnes,_oil_on_canvas,_81_x_100_cm,_Mus%C3%A9e_d%27Orsay,_Paris.jpg",
+      "caption": "Les cyprès à Cagnes",
+      "source": "Wikimedia Commons",
+      "artist": "Henri-Edmond Cross",
+      "date": "1908 date QS:P571,+1908-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1036"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Matisse-Luxe.jpg/1280px-Matisse-Luxe.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Matisse-Luxe.jpg/500px-Matisse-Luxe.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/07/Matisse-Luxe.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Matisse-Luxe.jpg",
+      "caption": "Luxe, Calme et Volupté (\"Luxury, Calm and Pleasure\") by Henri Matisse , 1904. Oil on canvas, 98 x 118.5 cm. Musée d'Orsay , Paris. This painting was first shown at the Salon des Indépendants , 1905",
+      "source": "Wikimedia Commons",
+      "artist": "Henri Matisse",
+      "date": "1904",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1056"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Robert_Antoine_Pinchon%2C_1905%2C_La_Seine_%C3%A0_Rouen_au_cr%C3%A9puscule%2C_oil_on_paperboard%2C_65_x_54_cm.jpg/1280px-Robert_Antoine_Pinchon%2C_1905%2C_La_Seine_%C3%A0_Rouen_au_cr%C3%A9puscule%2C_oil_on_paperboard%2C_65_x_54_cm.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Robert_Antoine_Pinchon%2C_1905%2C_La_Seine_%C3%A0_Rouen_au_cr%C3%A9puscule%2C_oil_on_paperboard%2C_65_x_54_cm.jpg/500px-Robert_Antoine_Pinchon%2C_1905%2C_La_Seine_%C3%A0_Rouen_au_cr%C3%A9puscule%2C_oil_on_paperboard%2C_65_x_54_cm.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/99/Robert_Antoine_Pinchon%2C_1905%2C_La_Seine_%C3%A0_Rouen_au_cr%C3%A9puscule%2C_oil_on_paperboard%2C_65_x_54_cm.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Robert_Antoine_Pinchon,_1905,_La_Seine_%C3%A0_Rouen_au_cr%C3%A9puscule,_oil_on_paperboard,_65_x_54_cm.jpg",
+      "caption": "Twilight at the Seine, Rouen",
+      "source": "Wikimedia Commons",
+      "artist": "Robert Antoine Pinchon",
+      "date": "June 1905 date QS:P571,+1905-06-00T00:00:00Z/10",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1662"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/bb/Jean_Metzinger%2C_c.1906%2C_Femme_au_Chapeau_%28Woman_with_a_Hat%29%2C_oil_on_canvas%2C_44.8_x_36.8_cm%2C_Korban_Art_Foundation..jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/en/b/bb/Jean_Metzinger%2C_c.1906%2C_Femme_au_Chapeau_%28Woman_with_a_Hat%29%2C_oil_on_canvas%2C_44.8_x_36.8_cm%2C_Korban_Art_Foundation..jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/en/b/bb/Jean_Metzinger%2C_c.1906%2C_Femme_au_Chapeau_%28Woman_with_a_Hat%29%2C_oil_on_canvas%2C_44.8_x_36.8_cm%2C_Korban_Art_Foundation..jpg",
+      "pageUrl": "https://en.wikipedia.org/wiki/File:Jean_Metzinger,_c.1906,_Femme_au_Chapeau_(Woman_with_a_Hat),_oil_on_canvas,_44.8_x_36.8_cm,_Korban_Art_Foundation..jpg",
+      "caption": "Femme au Chapeau (Woman with a Hat)",
+      "source": "Wikimedia Commons",
+      "artist": "Jean Metzinger",
+      "license": "PD-US",
+      "width": "989",
+      "height": "1200"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Robert_Delaunay%2C_1906%2C_Portrait_de_Metzinger%2C_oil_on_canvas%2C_55_x_43_cm%2C_DSC08255.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Robert_Delaunay%2C_1906%2C_Portrait_de_Metzinger%2C_oil_on_canvas%2C_55_x_43_cm%2C_DSC08255.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Robert_Delaunay%2C_1906%2C_Portrait_de_Metzinger%2C_oil_on_canvas%2C_55_x_43_cm%2C_DSC08255.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Robert_Delaunay,_1906,_Portrait_de_Metzinger,_oil_on_canvas,_55_x_43_cm,_DSC08255.jpg",
+      "caption": "This is a portrait of Jean Metzinger painted by Robert Delaunay",
+      "source": "Wikimedia Commons",
+      "artist": "Robert Delaunay",
+      "date": "1906 date QS:P571,+1906-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "884",
+      "height": "1181"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Neo-Impressionism",
@@ -62,7 +218,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q150091",
+      "url": "https://www.wikidata.org/wiki/Q150091",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:03.053Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Neo-Impressionism",
+      "url": "https://en.wikipedia.org/wiki/Neo-Impressionism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:03.053Z"
+      }
+    }
+  ],
   "wikidata": "Q150091",
   "wikipedia": "Neo-Impressionism",
   "popularity": 35,
@@ -70,5 +249,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.391Z"
 }

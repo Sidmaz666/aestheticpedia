@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6623146",
+      "url": "https://www.wikidata.org/wiki/Q6623146",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:26.658Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — New Sensibility",
+      "url": "https://en.wikipedia.org/wiki/New_Sensibility",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:26.658Z"
+      }
+    }
+  ],
   "wikidata": "Q6623146",
   "wikipedia": "New Sensibility",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:57:26.658Z"
 }

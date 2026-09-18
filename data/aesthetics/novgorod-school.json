@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Grand Principality of Moscow, Novgorod Republic, Veliky Novgorod",
+  "geography": "Grand Principality of Moscow, Novgorod Republic, Veliky Novgorod",
   "periodStart": "12th century",
   "periodEnd": "16th century",
   "startYear": 1100,
@@ -17,7 +17,33 @@
   "summary": "The Novgorod school (Russian: Новгородская школа) is a Russian school noted for its icon and mural painters active from the 12th century through the 16th century in Novgorod.",
   "description": "The Novgorod school (Russian: Новгородская школа) is a Russian school noted for its icon and mural painters active from the 12th century through the 16th century in Novgorod. During this time, the Russian artists preserved Byzantine traditions, influenced by Theophanes the Greek, which became the framework for later Russian art.\n\nNovgorod was an economic and cultural center in 13th- and 14th-century Russia, when most of the rest of the country was vassalized by the Mongols. Novgorodian artists preserved the Byzantine traditions that formed the basis of Russian art but introduced lighter and brighter colors, flatter forms, softening of facial types, and increasing use of a graceful, rhythmic line to define form. Until the early 14th century, artistic activity was dominated by mural painting. A new artistic impetus was provided by the introduction of the iconostasis. When icons were displayed together on the iconostasis rather than scattered about the walls of the church, they demanded a coherent overall impression, which was achieved by strong, rhythmic lines and color harmonies. Figures took on the elongated shape that became standard in Russian art.\n\nTwo Greek masters were particularly important to the development of the Novgorod school in the 14th century, both of whom are mentioned by name in the chronicles: \"the Greek Isaiah and companions\" who did the frescoes of the Church of the Entry into Jerusalem in 1338, and Theophanes the Greek, who decorated the Church of the Savior of the Transfiguration with frescoes in 1378.\n\nIn the 16th century, artistic leadership passed to the Moscow school.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#cb9b2e",
+      "name": "gold"
+    },
+    {
+      "hex": "#e4cb4d",
+      "name": "saffron yellow"
+    },
+    {
+      "hex": "#4c3f26",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#b1843b",
+      "name": "copper"
+    },
+    {
+      "hex": "#2c291d",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#846132",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Christos_Acheiropoietos.jpg/1280px-Christos_Acheiropoietos.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Christos_Acheiropoietos.jpg/500px-Christos_Acheiropoietos.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/78/Christos_Acheiropoietos.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Christos_Acheiropoietos.jpg",
+      "caption": "Christ Acheiropoietos (Made without hands)",
+      "source": "Wikimedia Commons",
+      "artist": "anonymous",
+      "date": "circa 1100 date QS:P571,+1100-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1374"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Novgorod school",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2876208",
+      "url": "https://www.wikidata.org/wiki/Q2876208",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:16.028Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Novgorod school",
+      "url": "https://en.wikipedia.org/wiki/Novgorod_school",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:16.028Z"
+      }
+    }
+  ],
   "wikidata": "Q2876208",
   "wikipedia": "Novgorod school",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.869Z"
 }

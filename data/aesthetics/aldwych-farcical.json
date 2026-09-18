@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United Kingdom",
+  "geography": "United Kingdom",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Aldwych Farcical is a term coined by the artist and author Osbert Lancaster for a style of English interior design fashionable in the 1920s and 1930s.",
   "description": "Aldwych Farcical is a term coined by the artist and author Osbert Lancaster for a style of English interior design fashionable in the 1920s and 1930s. Lancaster devoted a chapter of his 1939 book Homes Sweet Homes to the style, taking the name from the popular series of farces starring Tom Walls and Ralph Lynn at the Aldwych Theatre in London. Plays in the series, including Rookery Nook, Thark and Plunder, were set in houses built and decorated in faux-antique rustic style, mostly on the fringes of London. Along with other terms coined by Lancaster, Aldwych Farcical has entered the language and is recorded in the Oxford English Dictionary.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#868686",
+      "name": "taupe"
+    },
+    {
+      "hex": "#717171",
+      "name": "slate"
+    },
+    {
+      "hex": "#535353",
+      "name": "graphite"
+    },
+    {
+      "hex": "#373737",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#9b9b9b",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#1b1b1b",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/67/Rookery-Nook.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/en/6/67/Rookery-Nook.png",
+      "full": "https://upload.wikimedia.org/wikipedia/en/6/67/Rookery-Nook.png",
+      "pageUrl": "https://en.wikipedia.org/wiki/File:Rookery-Nook.png",
+      "caption": "Scene from Rookery Nook , 1926",
+      "source": "Wikimedia Commons",
+      "artist": "Stage Photo Co",
+      "date": "4 August 1926",
+      "license": "PD-US",
+      "width": "808",
+      "height": "1003"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Aldwych Farcical",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q131914037",
+      "url": "https://www.wikidata.org/wiki/Q131914037",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:03.105Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Aldwych Farcical",
+      "url": "https://en.wikipedia.org/wiki/Aldwych_Farcical",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:03.105Z"
+      }
+    }
+  ],
   "wikidata": "Q131914037",
   "wikipedia": "Aldwych Farcical",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.799Z"
 }

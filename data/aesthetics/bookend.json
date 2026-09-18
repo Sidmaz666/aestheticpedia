@@ -21,7 +21,25 @@
   "summary": "A bookend is an object tall, sturdy, and heavy enough that is placed at either end of a row of upright books to support or buttress them.",
   "description": "A bookend is an object tall, sturdy, and heavy enough that is placed at either end of a row of upright books to support or buttress them. Heavy bookends—made of wood, bronze, marble, and even large geodes—have been used in libraries, stores, and homes for centuries. The simple sheetmetal bookend (originally patented in 1877 by William Stebbins Barnard) uses the weight of the books standing on its foot to clamp the bookend's tall brace against the last book's back. In libraries, simple metal brackets are often used to support the end of a row of books. Elaborate and decorative bookends are common as elements in home decor, and may display or represent elements of the contents of the books they support. The word \"bookend\" is also used metaphorically to refer to any pair of similar things that mark a beginning and an end.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#80412d",
+      "name": "burnt sienna"
+    },
+    {
+      "hex": "#886c41",
+      "name": "bronze"
+    },
+    {
+      "hex": "#3f1b0e",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#928d70",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +61,22 @@
   "tags": [
     "ornament"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/BuchstuetzenHunde.jpg/1280px-BuchstuetzenHunde.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/BuchstuetzenHunde.jpg/500px-BuchstuetzenHunde.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/BuchstuetzenHunde.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BuchstuetzenHunde.jpg",
+      "caption": "Buchstützen mit Hundemotiv",
+      "source": "Wikimedia Commons",
+      "artist": "Mabit1",
+      "date": "2020-06-18 16:38:16",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "722"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Bookend",
@@ -66,7 +99,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q998891",
+      "url": "https://www.wikidata.org/wiki/Q998891",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:58.440Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Bookend",
+      "url": "https://en.wikipedia.org/wiki/Bookend",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:58.440Z"
+      }
+    }
+  ],
   "wikidata": "Q998891",
   "wikipedia": "Bookend",
   "popularity": 35,
@@ -74,5 +130,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:38:58.440Z"
 }

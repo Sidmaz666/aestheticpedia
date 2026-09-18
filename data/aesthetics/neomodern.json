@@ -19,7 +19,33 @@
   "summary": "Neomodern or neomodernist architecture is a reaction to the complexity of postmodern architecture and eclecticism in architecture, seeking greater simplicity.",
   "description": "Neomodern or neomodernist architecture is a reaction to the complexity of postmodern architecture and eclecticism in architecture, seeking greater simplicity. The architectural style, which is also referred to as New Modernism, is said to have legitimized an outlook of comprehensive individualism and relativism.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#2f383f",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#b1c4d5",
+      "name": "silver"
+    },
+    {
+      "hex": "#5f6060",
+      "name": "umber"
+    },
+    {
+      "hex": "#dcdfe4",
+      "name": "bone white"
+    },
+    {
+      "hex": "#7d7d7e",
+      "name": "taupe"
+    },
+    {
+      "hex": "#669dd7",
+      "name": "verdigris"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,64 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Bay_Adelaide_Centre_2023.jpg/1280px-Bay_Adelaide_Centre_2023.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Bay_Adelaide_Centre_2023.jpg/500px-Bay_Adelaide_Centre_2023.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/Bay_Adelaide_Centre_2023.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bay_Adelaide_Centre_2023.jpg",
+      "caption": "Bay Adelaide Centre",
+      "source": "Wikimedia Commons",
+      "artist": "Canmenwalker",
+      "date": "2023",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Beetham_Tower_from_below.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/02/Beetham_Tower_from_below.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/02/Beetham_Tower_from_below.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Beetham_Tower_from_below.jpg",
+      "caption": "Manchester UK",
+      "source": "Wikimedia Commons",
+      "artist": "sykerabbit77",
+      "date": "2008-05-13 13:46",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "685",
+      "height": "1024"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Varso%2C_July_2024.jpg/1280px-Varso%2C_July_2024.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Varso%2C_July_2024.jpg/500px-Varso%2C_July_2024.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Varso%2C_July_2024.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Varso,_July_2024.jpg",
+      "caption": "Varso tower in Warsaw as seen from Rondo 1, July 2024.",
+      "source": "Wikimedia Commons",
+      "artist": "Daeheung",
+      "date": "2024-07-29 08:08:57",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Neomodernist_facade_in_Pretoria.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Neomodernist_facade_in_Pretoria.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Neomodernist_facade_in_Pretoria.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Neomodernist_facade_in_Pretoria.JPG",
+      "caption": "Metroplan's neomodernist facade finilised during the comapny's 2011 reconstruction.",
+      "source": "Wikimedia Commons",
+      "artist": "PretoriaTravel",
+      "date": "1 August 2011, 01:45:01 (according to Exif data)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1024",
+      "height": "768"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Neomodern",
@@ -64,7 +147,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3271544",
+      "url": "https://www.wikidata.org/wiki/Q3271544",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:10.917Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Neomodern",
+      "url": "https://en.wikipedia.org/wiki/Neomodern",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:10.917Z"
+      }
+    }
+  ],
   "wikidata": "Q3271544",
   "wikipedia": "Neomodern",
   "popularity": 35,
@@ -72,5 +178,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:57:10.917Z"
 }

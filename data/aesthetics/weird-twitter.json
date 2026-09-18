@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q25303400",
+      "url": "https://www.wikidata.org/wiki/Q25303400",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:17.750Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Weird Twitter",
+      "url": "https://en.wikipedia.org/wiki/Weird_Twitter",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:17.750Z"
+      }
+    }
+  ],
   "wikidata": "Q25303400",
   "wikipedia": "Weird Twitter",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:11:17.750Z"
 }

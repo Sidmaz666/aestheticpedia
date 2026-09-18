@@ -19,7 +19,33 @@
   "summary": "Contextual architecture, also known as Contextualism, is a philosophical approach in architectural theory that refers to the designing of a structure in response to the literal and abstract characteristics of the environment in which it is built.",
   "description": "Contextual architecture, also known as Contextualism, is a philosophical approach in architectural theory that refers to the designing of a structure in response to the literal and abstract characteristics of the environment in which it is built. Contextual architecture contrasts modernist architecture, which value the imposition of their own characteristics and values upon the built environment. Contemporary developments, like New Contextualism, have proposed broader interpretations of contextualism that extend beyond physical and visual relationships.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#353c2c",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#4a523f",
+      "name": "graphite"
+    },
+    {
+      "hex": "#606654",
+      "name": "umber"
+    },
+    {
+      "hex": "#1c2017",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#797974",
+      "name": "slate"
+    },
+    {
+      "hex": "#8d8b8f",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,36 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Fallingwater_%286953245684%29.jpg/1280px-Fallingwater_%286953245684%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Fallingwater_%286953245684%29.jpg/500px-Fallingwater_%286953245684%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/16/Fallingwater_%286953245684%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fallingwater_(6953245684).jpg",
+      "caption": "Fallingwater",
+      "source": "Wikimedia Commons",
+      "artist": "DearEdward from New York, NY, USA",
+      "date": "2012-04-21 12:49",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1741"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Romerhusene_054.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Romerhusene_054.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Romerhusene_054.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Romerhusene_054.jpg",
+      "caption": "Hauses with the name Romerhusene in Helsingør (Helsinore), Denmark designed by Danish architect Jørn Utzon",
+      "source": "Wikimedia Commons",
+      "artist": "René Blumensaadt ( Blumensaadt at da.wikipedia )",
+      "date": "2007-05-04",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1200",
+      "height": "797"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Contextual architecture",
@@ -64,7 +119,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q60703999",
+      "url": "https://www.wikidata.org/wiki/Q60703999",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:07.482Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Contextual architecture",
+      "url": "https://en.wikipedia.org/wiki/Contextual_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:07.482Z"
+      }
+    }
+  ],
   "wikidata": "Q60703999",
   "wikipedia": "Contextual architecture",
   "popularity": 35,
@@ -72,5 +150,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:42:07.482Z"
 }

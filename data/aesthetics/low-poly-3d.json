@@ -4,7 +4,11 @@
   "aliases": [
     "polygon reduction aesthetic",
     "faceted 3D",
-    "flat-shaded 3D"
+    "flat-shaded 3D",
+    "Low-Poly Flat Shading",
+    "Low-Poly Aesthetic",
+    "Flat Shading",
+    "Geometric Minimalism"
   ],
   "category": "Internet Aesthetic",
   "subcategory": "deliberately few-polygon 3D style",
@@ -80,35 +84,8 @@
   "graphicDesign": {},
   "uiTranslation": {},
   "recipe": {},
-  "emotionProfile": {
-    "warm": 50,
-    "cold": 50,
-    "playful": 50,
-    "serious": 50,
-    "chaotic": 50,
-    "ordered": 50,
-    "nostalgic": 50,
-    "futuristic": 50,
-    "peaceful": 50,
-    "ominous": 50
-  },
-  "dnaAxes": {
-    "minimal_maximal": 50,
-    "organic_geometric": 50,
-    "warm_cold": 50,
-    "natural_synthetic": 50,
-    "analog_digital": 50,
-    "historical_futuristic": 50,
-    "refined_raw": 50,
-    "playful_serious": 50,
-    "soft_harsh": 50,
-    "quiet_loud": 50,
-    "orderly_chaotic": 50,
-    "dense_spacious": 50,
-    "realistic_surreal": 50,
-    "elegant_utilitarian": 50,
-    "nostalgic_progressive": 50
-  },
+  "emotionProfile": {},
+  "dnaAxes": {},
   "keyExamples": [
     "Monument Valley-inspired terrain sets",
     "Sketchfab low-poly showcases",
@@ -201,6 +178,36 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:51:07.868Z"
       }
+    },
+    {
+      "name": "Wikipedia: Low-Poly",
+      "url": "https://en.wikipedia.org/wiki/Low-poly",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
+    },
+    {
+      "name": "ArchDaily: Low-Poly Architecture",
+      "url": "https://archdaily.com",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
+    },
+    {
+      "name": "Aesthetics Wiki: Low-Poly",
+      "url": "https://aesthetics.fandom.com/wiki/Low-Poly",
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -245,5 +252,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-14T04:00:25.010Z",
-  "updatedAt": "2026-09-18T05:05:09.270Z"
+  "updatedAt": "2026-09-18T10:47:43.282Z"
 }

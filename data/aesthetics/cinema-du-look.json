@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5121159",
+      "url": "https://www.wikidata.org/wiki/Q5121159",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:14.648Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cinéma du look",
+      "url": "https://en.wikipedia.org/wiki/Cin%C3%A9ma_du_look",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:14.648Z"
+      }
+    }
+  ],
   "wikidata": "Q5121159",
   "wikipedia": "Cinéma du look",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:41:14.648Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Kingdom of Judah, Kingdom of Israel",
+  "geography": "Kingdom of Judah, Kingdom of Israel",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The domestic architecture of ancient Israel (c.",
   "description": "The domestic architecture of ancient Israel (c. 1200–587/6 BCE) is best defined by the four-room house: a standardized plan featuring three longitudinal rooms and one broad room, which served as a spatial response to both agrarian requirements and the socio-religious necessity of ritual boundaries.\n\nThe emergence of the kingdoms of Israel and Judah during the 10th and 9th centuries BCE introduced a refined technical vocabulary, characterized by the implementation of ashlar masonry and proto-Aeolic capitals as visual signifiers of royal authority. This capital style, originating in ancient Israel, was later adopted by the Neo-Assyrian Empire following its 8th-century conquest of the northern kingdom, a period that conversely saw the importation of the Assyrian \"Open-Courtyard Building\" into the local architectural repertoire.\n\nMultiple types of burial caves are attested in ancient Israel, including cave, chamber, and bench tombs, which were frequently clustered in rock outcrops near settlements. The funerary architecture is perhaps best defined by the bench tomb, in which horizontal resting surfaces were hewn from bedrock and supplemented by bone repositories for secondary burials. These tombs functioned as stone skeuomorphs of the contemporary four-room house, translating domestic details into a funerary context.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a89c8f",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#8c7b68",
+      "name": "taupe"
+    },
+    {
+      "hex": "#675e51",
+      "name": "umber"
+    },
+    {
+      "hex": "#c2beb6",
+      "name": "silver"
+    },
+    {
+      "hex": "#484235",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#c7dcf2",
+      "name": "periwinkle"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,147 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Hazor_-_Royal_fortress_gate.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/29/Hazor_-_Royal_fortress_gate.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/Hazor_-_Royal_fortress_gate.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hazor_-_Royal_fortress_gate.jpg",
+      "caption": "Ancient gate found at Tel Hazor, now in the Israel Museum",
+      "source": "Wikimedia Commons",
+      "artist": "Davidbena",
+      "date": "2019-10-06",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "819",
+      "height": "1226"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/P1110756_%287112352729%29.jpg/1280px-P1110756_%287112352729%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/P1110756_%287112352729%29.jpg/500px-P1110756_%287112352729%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/15/P1110756_%287112352729%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:P1110756_(7112352729).jpg",
+      "caption": "Tel Kaiafa, street and city gate",
+      "source": "Wikimedia Commons",
+      "artist": "Ricardo Tulio Gandelman from Rio de Janeiro, Brazil",
+      "date": "2012-04-10 14:09",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Tel-Gezer-V2-2648.jpg/1280px-Tel-Gezer-V2-2648.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Tel-Gezer-V2-2648.jpg/500px-Tel-Gezer-V2-2648.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Tel-Gezer-V2-2648.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tel-Gezer-V2-2648.jpg",
+      "caption": "Tel Gezer, Israel.",
+      "source": "Wikimedia Commons",
+      "artist": "Bukvoed",
+      "date": "2024-08-30 15:30:38",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "1011"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Stone_structure_from_City_of_David.jpg/1280px-Stone_structure_from_City_of_David.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Stone_structure_from_City_of_David.jpg/500px-Stone_structure_from_City_of_David.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/89/Stone_structure_from_City_of_David.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Stone_structure_from_City_of_David.jpg",
+      "caption": "Proto-Aeolic capital unearthed in the City of David (Jerusalem), Israel",
+      "source": "Wikimedia Commons",
+      "artist": "Davidbena",
+      "date": "2021-08-01 15:28:22",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Furniture_Inlay%2C_9th-8th_Century_BC_%2843169046682%29.jpg/1280px-Furniture_Inlay%2C_9th-8th_Century_BC_%2843169046682%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Furniture_Inlay%2C_9th-8th_Century_BC_%2843169046682%29.jpg/500px-Furniture_Inlay%2C_9th-8th_Century_BC_%2843169046682%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/Furniture_Inlay%2C_9th-8th_Century_BC_%2843169046682%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Furniture_Inlay,_9th-8th_Century_BC_(43169046682).jpg",
+      "caption": "Jerusalem, Furniture Inlay, 9th-8th Century BC",
+      "source": "Wikimedia Commons",
+      "artist": "Gary Todd from Xinzheng, China",
+      "date": "2018-07-05 16:54",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Limestone_Balustrade%2C_7th_Century_BC_%2842498463334%29.jpg/1280px-Limestone_Balustrade%2C_7th_Century_BC_%2842498463334%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Limestone_Balustrade%2C_7th_Century_BC_%2842498463334%29.jpg/500px-Limestone_Balustrade%2C_7th_Century_BC_%2842498463334%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/78/Limestone_Balustrade%2C_7th_Century_BC_%2842498463334%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Limestone_Balustrade,_7th_Century_BC_(42498463334).jpg",
+      "caption": "Israel Museum, Jerusalem, Israel. Complete indexed photo collection at WorldHistoryPics.com",
+      "source": "Wikimedia Commons",
+      "artist": "Gary Todd from Xinzheng, China",
+      "date": "2018-07-05 16:46",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Four_Room_House.jpg/1280px-Four_Room_House.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Four_Room_House.jpg/500px-Four_Room_House.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Four_Room_House.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Four_Room_House.jpg",
+      "caption": "Four Room House",
+      "source": "Wikimedia Commons",
+      "artist": "תמר הירדני",
+      "date": "2010-03",
+      "license": "Attribution",
+      "width": "1280",
+      "height": "1073"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Tel_Motza_Temple.png/1280px-Tel_Motza_Temple.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Tel_Motza_Temple.png/500px-Tel_Motza_Temple.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/55/Tel_Motza_Temple.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tel_Motza_Temple.png",
+      "caption": "The Israelite Temple at Tel Motza.",
+      "source": "Wikimedia Commons",
+      "artist": "Natritmeyer",
+      "date": "2019-05-12",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "848"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Tel_Arad_280321_01_Temple_Dvir.jpg/1280px-Tel_Arad_280321_01_Temple_Dvir.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Tel_Arad_280321_01_Temple_Dvir.jpg/500px-Tel_Arad_280321_01_Temple_Dvir.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/Tel_Arad_280321_01_Temple_Dvir.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tel_Arad_280321_01_Temple_Dvir.jpg",
+      "caption": "The Dvir, holy of holies, of the Judahite temple inside the fort at Tel Arad. Inside are a Matzevah (cultic stele) and two altars. These are replicas, the originals are at the Israel Museum in Jerusalem",
+      "source": "Wikimedia Commons",
+      "artist": "Oren Rozen",
+      "date": "2021-03-28 10:09:12",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Khirbet-Qeiyafa-V3-293.jpg/1280px-Khirbet-Qeiyafa-V3-293.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Khirbet-Qeiyafa-V3-293.jpg/500px-Khirbet-Qeiyafa-V3-293.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/Khirbet-Qeiyafa-V3-293.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Khirbet-Qeiyafa-V3-293.jpg",
+      "caption": "Khirbat Qeiyafa archaeological site, Israel.",
+      "source": "Wikimedia Commons",
+      "artist": "Bukvoed",
+      "date": "2023-07-07 15:48:52",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "720"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Architecture of ancient Israel",
@@ -62,7 +228,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q138720223",
+      "url": "https://www.wikidata.org/wiki/Q138720223",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:08.666Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Architecture of ancient Israel",
+      "url": "https://en.wikipedia.org/wiki/Architecture_of_ancient_Israel",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:08.666Z"
+      }
+    }
+  ],
   "wikidata": "Q138720223",
   "wikipedia": "Architecture of ancient Israel",
   "popularity": 35,
@@ -70,5 +259,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.799Z"
 }

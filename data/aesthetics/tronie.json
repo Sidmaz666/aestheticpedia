@@ -19,7 +19,33 @@
   "summary": "A tronie (Dutch pronunciation: [ˈtroːni] ) is a type of work in Dutch Golden Age painting and Flemish Baroque painting that depicts an exaggerated facial expression or people in costume.",
   "description": "A tronie (Dutch pronunciation: [ˈtroːni] ) is a type of work in Dutch Golden Age painting and Flemish Baroque painting that depicts an exaggerated facial expression or people in costume. These works were not intended as portraits or caricatures but as studies of expression, type, physiognomy or an interesting character such as an old man or woman, a young woman, the soldier, the shepherdess, the \"Oriental\", or a person of a particular race.\n\nThe main goal of the artists who created tronies was to achieve a lifelike representation of the figures and to show off their illusionistic abilities through the free use of color, strong light contrasts, or a peculiar color scheme. Tronies conveyed different meanings and values to their viewers. Tronies embodied abstract notions such as transience, youth, and old age, but could also function as positive or negative examples of human qualities, such as wisdom, strength, piety, folly, or impulsiveness. These works were very popular in Holland and Flanders and were produced as independent works for the free market.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#130f15",
+      "name": "black"
+    },
+    {
+      "hex": "#32302a",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#5e503a",
+      "name": "umber"
+    },
+    {
+      "hex": "#816d54",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b7895d",
+      "name": "camel"
+    },
+    {
+      "hex": "#4f5f7b",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,152 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Joos_van_Craesbeeck_-_The_Smoker.jpg/1280px-Joos_van_Craesbeeck_-_The_Smoker.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Joos_van_Craesbeeck_-_The_Smoker.jpg/500px-Joos_van_Craesbeeck_-_The_Smoker.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Joos_van_Craesbeeck_-_The_Smoker.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Joos_van_Craesbeeck_-_The_Smoker.jpg",
+      "caption": "The smoker (portrait of the artist?)",
+      "source": "Wikimedia Commons",
+      "artist": "Joos van Craesbeeck / Formerly attributed to Adriaen Brouwer",
+      "date": "circa 1635 date QS:P571,+1635-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1643"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Jan_van_der_Venne_-_Head_of_an_old_man.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/18/Jan_van_der_Venne_-_Head_of_an_old_man.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/18/Jan_van_der_Venne_-_Head_of_an_old_man.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jan_van_der_Venne_-_Head_of_an_old_man.jpg",
+      "caption": "Head of an old man",
+      "source": "Wikimedia Commons",
+      "artist": "Jan van der Venne",
+      "date": "between circa 1631 and circa 1651 date QS:P571,+1650-00-00T0",
+      "license": "Public domain",
+      "width": "590",
+      "height": "773"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Jan_van_der_Venne_-_Head_of_an_old_woman.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Jan_van_der_Venne_-_Head_of_an_old_woman.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Jan_van_der_Venne_-_Head_of_an_old_woman.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jan_van_der_Venne_-_Head_of_an_old_woman.jpg",
+      "caption": "Head of an old woman",
+      "source": "Wikimedia Commons",
+      "artist": "Jan van der Venne",
+      "date": "between circa 1631 and circa 1651 date QS:P571,+1650-00-00T0",
+      "license": "Public domain",
+      "width": "584",
+      "height": "773"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Johannes_Vermeer_%281632-1675%29_-_The_Girl_With_The_Pearl_Earring_%281665%29.jpg/1280px-Johannes_Vermeer_%281632-1675%29_-_The_Girl_With_The_Pearl_Earring_%281665%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Johannes_Vermeer_%281632-1675%29_-_The_Girl_With_The_Pearl_Earring_%281665%29.jpg/500px-Johannes_Vermeer_%281632-1675%29_-_The_Girl_With_The_Pearl_Earring_%281665%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/66/Johannes_Vermeer_%281632-1675%29_-_The_Girl_With_The_Pearl_Earring_%281665%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_(1632-1675)_-_The_Girl_With_The_Pearl_Earring_(1665).jpg",
+      "caption": "Het meisje met de parel ( Girl with a Pearl Earring )",
+      "source": "Wikimedia Commons",
+      "artist": "Johannes Vermeer",
+      "date": "circa 1665 date QS:P571,+1665-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1832"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Adriaen_Brower_-_Youth_Making_a_Face.jpg/1280px-Adriaen_Brower_-_Youth_Making_a_Face.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Adriaen_Brower_-_Youth_Making_a_Face.jpg/500px-Adriaen_Brower_-_Youth_Making_a_Face.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Adriaen_Brower_-_Youth_Making_a_Face.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Adriaen_Brower_-_Youth_Making_a_Face.jpg",
+      "caption": "Youth Making a Face",
+      "source": "Wikimedia Commons",
+      "artist": "Adriaen Brouwer",
+      "date": "between 1632 and 1635 date QS:P571,+1632-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1670"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/An_Old_Man_in_Military_Costume_1630-1_Rembrandt.jpg/1280px-An_Old_Man_in_Military_Costume_1630-1_Rembrandt.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/An_Old_Man_in_Military_Costume_1630-1_Rembrandt.jpg/500px-An_Old_Man_in_Military_Costume_1630-1_Rembrandt.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2a/An_Old_Man_in_Military_Costume_1630-1_Rembrandt.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:An_Old_Man_in_Military_Costume_1630-1_Rembrandt.jpg",
+      "caption": "Dutch: Oude man in een militair kostuum An Old Man in Military Costume",
+      "source": "Wikimedia Commons",
+      "artist": "Rembrandt",
+      "date": "from 1630 until 1631 date QS:P,+1630-00-00T00:00:00Z/8,P580,",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1620"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Portrait_of_a_young_man_holding_a_cat_%28An_allegory_of_touch%29.jpg/1280px-Portrait_of_a_young_man_holding_a_cat_%28An_allegory_of_touch%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Portrait_of_a_young_man_holding_a_cat_%28An_allegory_of_touch%29.jpg/500px-Portrait_of_a_young_man_holding_a_cat_%28An_allegory_of_touch%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Portrait_of_a_young_man_holding_a_cat_%28An_allegory_of_touch%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_young_man_holding_a_cat_(An_allegory_of_touch).jpg",
+      "caption": "Portrait of a young man holding a cat (An allegory of touch)",
+      "source": "Wikimedia Commons",
+      "artist": "Michiel Sweerts",
+      "date": "between 1638 and 1664 date QS:P571,+1650-00-00T00:00:00Z/7,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1578"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/A_man_removing_a_plaster%3B_representing_the_sense_of_touch._Wellcome_L0076240.jpg/1280px-A_man_removing_a_plaster%3B_representing_the_sense_of_touch._Wellcome_L0076240.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/A_man_removing_a_plaster%3B_representing_the_sense_of_touch._Wellcome_L0076240.jpg/500px-A_man_removing_a_plaster%3B_representing_the_sense_of_touch._Wellcome_L0076240.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/A_man_removing_a_plaster%3B_representing_the_sense_of_touch._Wellcome_L0076240.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:A_man_removing_a_plaster;_representing_the_sense_of_touch._Wellcome_L0076240.jpg",
+      "caption": "A man removing a plaster; representing the sense of touch. Oil painting. Iconographic Collections Keywords: Senses; Pain; Plaster; Lucas Franchoys; Allegory; Man",
+      "source": "Wikimedia Commons",
+      "artist": "Lucas Franchoys the Younger",
+      "date": "between 1641 and 1660 date QS:P571,+1650-00-00T00:00:00Z/7,P",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "1334"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Jan_Lievens_-_Profile_Head_of_an_Old_Woman_%28Rembrandt%E2%80%99s_Mother%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Jan_Lievens_-_Profile_Head_of_an_Old_Woman_%28Rembrandt%E2%80%99s_Mother%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Jan_Lievens_-_Profile_Head_of_an_Old_Woman_%28Rembrandt%E2%80%99s_Mother%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jan_Lievens_-_Profile_Head_of_an_Old_Woman_(Rembrandt%E2%80%99s_Mother).jpg",
+      "caption": "Head of an old woman with a head scarve, seen in profile",
+      "source": "Wikimedia Commons",
+      "artist": "Jan Lievens",
+      "date": "1629",
+      "license": "Public domain",
+      "width": "1245",
+      "height": "1620"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Frans_Hals_003.jpg/1280px-Frans_Hals_003.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Frans_Hals_003.jpg/500px-Frans_Hals_003.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/89/Frans_Hals_003.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Frans_Hals_003.jpg",
+      "caption": "The 'mulatto' (Peeckelhaering)",
+      "source": "Wikimedia Commons",
+      "artist": "Frans Hals",
+      "date": "1628",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1612"
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Nl-tronie.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Nl-tronie",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nl-tronie.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "Marcel coenders",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Tronie",
@@ -64,7 +235,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1433099",
+      "url": "https://www.wikidata.org/wiki/Q1433099",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:24.975Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Tronie",
+      "url": "https://en.wikipedia.org/wiki/Tronie",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:24.975Z"
+      }
+    }
+  ],
   "wikidata": "Q1433099",
   "wikipedia": "Tronie",
   "popularity": 35,
@@ -72,5 +266,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:09:24.975Z"
 }

@@ -17,7 +17,33 @@
   "summary": "A hall-and-parlor house is a type of two-room vernacular house found in early-modern to 19th century England, as well as in colonial North America.",
   "description": "A hall-and-parlor house is a type of two-room vernacular house found in early-modern to 19th century England, as well as in colonial North America. It is presumed to have been the model on which other North American house types have been developed, such as the Cape Cod house, saltbox, and central-passage house, and in turn influenced the somewhat-later I-house. In England it had been a more modest development from the medieval hall house.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#969696",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#3e3e3e",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#555555",
+      "name": "graphite"
+    },
+    {
+      "hex": "#b8b8b8",
+      "name": "silver"
+    },
+    {
+      "hex": "#0d0d0d",
+      "name": "black"
+    },
+    {
+      "hex": "#272727",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,20 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Resurrection_Manor.jpeg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Resurrection_Manor.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Resurrection_Manor.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Resurrection_Manor.jpeg",
+      "caption": "Resurrection Manor, Old Highway, Hollywood vicinity, St. Mary's County, MD built about 1660 to 1720. Designated a National Historic Landmark 1970, destroyed 2002",
+      "source": "Wikimedia Commons",
+      "artist": "HABS photographer",
+      "license": "Public domain",
+      "width": "976",
+      "height": "684"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Hall and parlor house",
@@ -62,7 +101,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5642659",
+      "url": "https://www.wikidata.org/wiki/Q5642659",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:12.624Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Hall and parlor house",
+      "url": "https://en.wikipedia.org/wiki/Hall_and_parlor_house",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:12.624Z"
+      }
+    }
+  ],
   "wikidata": "Q5642659",
   "wikipedia": "Hall and parlor house",
   "popularity": 35,
@@ -70,5 +132,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:48:12.624Z"
 }

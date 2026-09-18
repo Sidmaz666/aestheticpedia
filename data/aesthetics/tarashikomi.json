@@ -17,7 +17,33 @@
   "summary": "Tarashikomi (in Japanese 垂らし込み, meaning \"dripping in\") is a Japanese painting technique, in which a second layer of paint is applied before the first layer is dry.",
   "description": "Tarashikomi (in Japanese 垂らし込み, meaning \"dripping in\") is a Japanese painting technique, in which a second layer of paint is applied before the first layer is dry. This  effect creates a dripping form for fine details such as ripples in water or flower petals on a tree.\n\nJapanese paintings in the past were usually done on paper (or silk) with watercolors. The paintings in the Tomb of Kyushu are some of the earliest Japanese art, painted on the tomb’s walls between the fifth and seventh centuries AD. Silk and paper came from China, and in the seventh century was used primarily for writing; however, it began to be used for art during the eighth century. Silk was most common for hanging scroll paintings, while paper was used for calligraphy on handscrolls. Nikawa (animal glue) was used for paint; the glue was made from cowhide or other animal skins.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#cea35b",
+      "name": "camel"
+    },
+    {
+      "hex": "#e7c482",
+      "name": "tan"
+    },
+    {
+      "hex": "#897b64",
+      "name": "taupe"
+    },
+    {
+      "hex": "#76634b",
+      "name": "bronze"
+    },
+    {
+      "hex": "#4c4137",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#ab8149",
+      "name": "copper"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,47 @@
   "tags": [
     "painting technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/White_Prunus_Korin.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5a/White_Prunus_Korin.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/White_Prunus_Korin.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:White_Prunus_Korin.jpg",
+      "caption": "Red Prunus and White Prunus (left hand screen)",
+      "source": "Wikimedia Commons",
+      "artist": "Ogata Korin (1658 - 1716)",
+      "date": "18 th century date QS:P571,+1750-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "547",
+      "height": "520"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Red_Prunus_Korin.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/70/Red_Prunus_Korin.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/70/Red_Prunus_Korin.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Red_Prunus_Korin.jpg",
+      "caption": "Red Prunus and White Prunus (right hand screen)",
+      "source": "Wikimedia Commons",
+      "artist": "Ogata Korin (1658 - 1716)",
+      "date": "18 th century date QS:P571,+1750-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "567",
+      "height": "520"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Wind_God_and_Thunder_God_Screens_by_Tawaraya_Sotatsu_hi-res.png/1280px-Wind_God_and_Thunder_God_Screens_by_Tawaraya_Sotatsu_hi-res.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Wind_God_and_Thunder_God_Screens_by_Tawaraya_Sotatsu_hi-res.png/500px-Wind_God_and_Thunder_God_Screens_by_Tawaraya_Sotatsu_hi-res.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/37/Wind_God_and_Thunder_God_Screens_by_Tawaraya_Sotatsu_hi-res.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Wind_God_and_Thunder_God_Screens_by_Tawaraya_Sotatsu_hi-res.png",
+      "caption": "Wind God Fujin (right) and Thunder God Raijin (left) by Tawaraya Sotatsu. These are deities (kami) in Shinto religion. This artwork is a National Treasure of Japan.",
+      "source": "Wikimedia Commons",
+      "artist": "俵屋宗達 (Tawaraya Sotatsu) (1570-1643)",
+      "date": "17 th century date QS:P571,+1650-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "585"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Tarashikomi",
@@ -62,7 +128,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7685559",
+      "url": "https://www.wikidata.org/wiki/Q7685559",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:13.127Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Tarashikomi",
+      "url": "https://en.wikipedia.org/wiki/Tarashikomi",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:13.127Z"
+      }
+    }
+  ],
   "wikidata": "Q7685559",
   "wikipedia": "Tarashikomi",
   "popularity": 35,
@@ -70,5 +159,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:08:13.127Z"
 }

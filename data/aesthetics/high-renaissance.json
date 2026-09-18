@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Italy",
+  "geography": "Italy",
   "periodStart": "15th century",
   "periodEnd": "16th century",
   "startYear": 1494,
@@ -17,7 +17,33 @@
   "summary": "In art history, the High Renaissance was a short period of the most exceptional artistic production in the Italian states, particularly Rome, capital of the Papal States, and in Florence, during the Italian Renaissance.",
   "description": "In art history, the High Renaissance was a short period of the most exceptional artistic production in the Italian states, particularly Rome, capital of the Papal States, and in Florence, during the Italian Renaissance. Most art historians state that the High Renaissance started between 1490 and 1500, and ended in 1520 with the death of Raphael, although some say the High Renaissance ended about 1525, or in 1527 with the Sack of Rome by the mutinous army of Charles V, Holy Roman Emperor, or about 1530.\n\nThe best-known exponents of painting, sculpture, and architecture of the High Renaissance include Leonardo da Vinci, Michelangelo, Raphael, and Bramante. In the 21st century, the use of the term has been frequently criticized by some academic art historians for oversimplifying artistic developments, ignoring historical context, and focusing only on a few iconic works.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5b4b47",
+      "name": "umber"
+    },
+    {
+      "hex": "#958379",
+      "name": "stone"
+    },
+    {
+      "hex": "#7c665d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#3f322f",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#e5e4e2",
+      "name": "paper white"
+    },
+    {
+      "hex": "#b3a398",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,88 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Raffael_Stanza_della_Segnatura.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Raffael_Stanza_della_Segnatura.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Raffael_Stanza_della_Segnatura.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Raffael_Stanza_della_Segnatura.jpg",
+      "caption": "Pohľad do Stanza della Segnatura v Apoštolskom paláci vo Vatikáne",
+      "source": "Wikimedia Commons",
+      "artist": "Lure",
+      "date": "2009-11-22",
+      "license": "Public domain",
+      "width": "1200",
+      "height": "959"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/God2-Sistine_Chapel.png/1280px-God2-Sistine_Chapel.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/God2-Sistine_Chapel.png/500px-God2-Sistine_Chapel.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/God2-Sistine_Chapel.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:God2-Sistine_Chapel.png",
+      "caption": "creation of man",
+      "source": "Wikimedia Commons",
+      "artist": "Michelangelo",
+      "date": "between 1508 and 1512 date QS:P571,+1550-00-00T00:00:00Z/7,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "596"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/The_Last_Supper_Leonardo_Da_Vinci_-_High_Resolution.jpg/1280px-The_Last_Supper_Leonardo_Da_Vinci_-_High_Resolution.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/The_Last_Supper_Leonardo_Da_Vinci_-_High_Resolution.jpg/500px-The_Last_Supper_Leonardo_Da_Vinci_-_High_Resolution.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/67/The_Last_Supper_Leonardo_Da_Vinci_-_High_Resolution.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Last_Supper_Leonardo_Da_Vinci_-_High_Resolution.jpg",
+      "caption": "The Last Supper Leonardo Da Vinci - High Resolution",
+      "source": "Wikimedia Commons",
+      "artist": "Leonardo da Vinci",
+      "date": "2016-07-28 01:57:54",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "672"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Tempietto_di_San_Pietro_in_Montorio.jpg/1280px-Tempietto_di_San_Pietro_in_Montorio.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Tempietto_di_San_Pietro_in_Montorio.jpg/500px-Tempietto_di_San_Pietro_in_Montorio.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/01/Tempietto_di_San_Pietro_in_Montorio.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tempietto_di_San_Pietro_in_Montorio.jpg",
+      "caption": "Tempietto di San Pietro in Montorio",
+      "source": "Wikimedia Commons",
+      "artist": "Labicanense",
+      "date": "2023-12-02 15:43:07",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "1935"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1280px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/500px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
+      "caption": "Polish: Mona Lisa Mona Lisa",
+      "source": "Wikimedia Commons",
+      "artist": "Leonardo da Vinci",
+      "date": "between 1503 and 1506 date QS:P,+1503-00-00T00:00:00Z/8,P131",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1908"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Michelangelo%27s_Pieta_5450_cropncleaned_edit.jpg/1280px-Michelangelo%27s_Pieta_5450_cropncleaned_edit.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Michelangelo%27s_Pieta_5450_cropncleaned_edit.jpg/500px-Michelangelo%27s_Pieta_5450_cropncleaned_edit.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Michelangelo%27s_Pieta_5450_cropncleaned_edit.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Michelangelo%27s_Pieta_5450_cropncleaned_edit.jpg",
+      "caption": "Pietà (1498–1499), by Michaelangelo. St. Peter's Basilica, Vatican City",
+      "source": "Wikimedia Commons",
+      "artist": "Stanislav Traykov",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "1341"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — High Renaissance",
@@ -62,7 +169,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1474884",
+      "url": "https://www.wikidata.org/wiki/Q1474884",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:05.640Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — High Renaissance",
+      "url": "https://en.wikipedia.org/wiki/High_Renaissance",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:05.640Z"
+      }
+    }
+  ],
   "wikidata": "Q1474884",
   "wikipedia": "High Renaissance",
   "popularity": 35,
@@ -70,5 +200,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.847Z"
 }

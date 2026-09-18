@@ -19,7 +19,33 @@
   "summary": "The Spanish illumination of the Early Middle Ages is the art of decorating books that developed in Spain from the 8th to the 11th.",
   "description": "The Spanish illumination of the Early Middle Ages is the art of decorating books that developed in Spain from the 8th to the 11th. The country was marked by the Muslim occupation from 711, which tended to isolate it from the rest of Europe. In the regions that remained Christian, first in the Kingdom of Asturias and then in León, an original art was invented in monasteries, mixing Visigothic, Carolingian, and also Moorish influences.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a58d73",
+      "name": "stone"
+    },
+    {
+      "hex": "#bea588",
+      "name": "khaki"
+    },
+    {
+      "hex": "#8a725a",
+      "name": "bronze"
+    },
+    {
+      "hex": "#d8c59c",
+      "name": "beige"
+    },
+    {
+      "hex": "#6c5843",
+      "name": "umber"
+    },
+    {
+      "hex": "#e3c628",
+      "name": "saffron yellow"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,136 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/B_Escorial_120.jpg/1280px-B_Escorial_120.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/B_Escorial_120.jpg/500px-B_Escorial_120.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/12/B_Escorial_120.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:B_Escorial_120.jpg",
+      "caption": "\"fr:\"Moisson et Vendange eschatologique (Apocalypse XIV)",
+      "source": "Wikimedia Commons",
+      "date": "\"en:\"c.950-955",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1585"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Johannes_%28Meister_der_Bibel_von_Le%C3%B3n_von_920%29_001.jpg/1280px-Johannes_%28Meister_der_Bibel_von_Le%C3%B3n_von_920%29_001.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Johannes_%28Meister_der_Bibel_von_Le%C3%B3n_von_920%29_001.jpg/500px-Johannes_%28Meister_der_Bibel_von_Le%C3%B3n_von_920%29_001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/Johannes_%28Meister_der_Bibel_von_Le%C3%B3n_von_920%29_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Johannes_(Meister_der_Bibel_von_Le%C3%B3n_von_920)_001.jpg",
+      "caption": "Bibel von León, Szene: Symbol des Hl. Lucas",
+      "source": "Wikimedia Commons",
+      "artist": "Creator:Johannes (Meister der Bibel von León von 920)",
+      "date": "920",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1781"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Sanctio_%28Meister_der_Bibel_von_Le%C3%B3n_von_960%29_001.jpg/1280px-Sanctio_%28Meister_der_Bibel_von_Le%C3%B3n_von_960%29_001.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Sanctio_%28Meister_der_Bibel_von_Le%C3%B3n_von_960%29_001.jpg/500px-Sanctio_%28Meister_der_Bibel_von_Le%C3%B3n_von_960%29_001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/Sanctio_%28Meister_der_Bibel_von_Le%C3%B3n_von_960%29_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sanctio_(Meister_der_Bibel_von_Le%C3%B3n_von_960)_001.jpg",
+      "caption": "Leon Bible of 960, Omega",
+      "source": "Wikimedia Commons",
+      "artist": "Creator:Sanctio (Meister der Bibel von León von 960)",
+      "date": "960",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1533"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/SilosBeatusFragmentAltarWithSoulsMartyrs.jpg/1280px-SilosBeatusFragmentAltarWithSoulsMartyrs.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/SilosBeatusFragmentAltarWithSoulsMartyrs.jpg/500px-SilosBeatusFragmentAltarWithSoulsMartyrs.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/15/SilosBeatusFragmentAltarWithSoulsMartyrs.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:SilosBeatusFragmentAltarWithSoulsMartyrs.jpg",
+      "caption": "SilosBeatusFragmentAltarWithSoulsMartyrs",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1698"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/B_Pierpont_112.jpg/1280px-B_Pierpont_112.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/B_Pierpont_112.jpg/500px-B_Pierpont_112.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e9/B_Pierpont_112.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:B_Pierpont_112.jpg",
+      "caption": "The Sixth Seal (Apocalypse VI)",
+      "source": "Wikimedia Commons",
+      "artist": "Maius",
+      "date": "962",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1826"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Beato-san-millan-33.P214526.jpg/1280px-Beato-san-millan-33.P214526.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Beato-san-millan-33.P214526.jpg/500px-Beato-san-millan-33.P214526.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Beato-san-millan-33.P214526.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Beato-san-millan-33.P214526.jpg",
+      "caption": "Beato de San Millan cod.33",
+      "source": "Wikimedia Commons",
+      "artist": "Cenobio",
+      "date": "2008",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1539"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Moralia_in_Job_945_-_Christ_in_majesty_-_Biblioteca_Nacional_Cod80.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Moralia_in_Job_945_-_Christ_in_majesty_-_Biblioteca_Nacional_Cod80.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Moralia_in_Job_945_-_Christ_in_majesty_-_Biblioteca_Nacional_Cod80.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Moralia_in_Job_945_-_Christ_in_majesty_-_Biblioteca_Nacional_Cod80.JPG",
+      "caption": "Manuscrit du Moralia in Job de Grégoire le Grand, composé par Florentius au monastère de Valeranica. Christ en majesté",
+      "source": "Wikimedia Commons",
+      "artist": "anonymous",
+      "date": "circa 945",
+      "license": "Public domain",
+      "width": "1199",
+      "height": "1600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Vigilianus.jpg/1280px-Vigilianus.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Vigilianus.jpg/500px-Vigilianus.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/00/Vigilianus.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vigilianus.jpg",
+      "caption": "Codex Vigilanus",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "10 th century date QS:P,+950-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1050"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/B_Escorial_29.jpg/1280px-B_Escorial_29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/B_Escorial_29.jpg/500px-B_Escorial_29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/B_Escorial_29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:B_Escorial_29.jpg",
+      "caption": "The Angel gives John the letter for the Church of Ephesus. Apocalypse II",
+      "source": "Wikimedia Commons",
+      "artist": "anonymous",
+      "date": "c.950-955",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1402"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/B_Facundus_224vd%C3%A9t.jpg/1280px-B_Facundus_224vd%C3%A9t.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/B_Facundus_224vd%C3%A9t.jpg/500px-B_Facundus_224vd%C3%A9t.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d1/B_Facundus_224vd%C3%A9t.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:B_Facundus_224vd%C3%A9t.jpg",
+      "caption": "\"fr:\"La Grande Prostituée s'énivre avec un Roi. Apoc. XVII",
+      "source": "Wikimedia Commons",
+      "artist": "Facundus, pour Ferdinand Ier de Castille et Leon et la reine Sancha",
+      "date": "1047 date QS:P571,+1047-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1758"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Spanish illumination of the Early Middle Ages",
@@ -64,7 +219,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q18214676",
+      "url": "https://www.wikidata.org/wiki/Q18214676",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:23.240Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Spanish illumination of the Early Middle Ages",
+      "url": "https://en.wikipedia.org/wiki/Spanish_illumination_of_the_Early_Middle_Ages",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:23.240Z"
+      }
+    }
+  ],
   "wikidata": "Q18214676",
   "wikipedia": "Spanish illumination of the Early Middle Ages",
   "popularity": 35,
@@ -72,5 +250,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:06:23.240Z"
 }

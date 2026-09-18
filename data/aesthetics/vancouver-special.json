@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Canada",
+  "geography": "Canada",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Vancouver special is an architectural style of residential houses developed in Metro Vancouver, Canada.",
   "description": "The Vancouver special is an architectural style of residential houses developed in Metro Vancouver, Canada. The architectural style was generally utilized from the 1960s to 1980s due to an ability to maximize floor space with relatively cheap construction costs.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#151008",
+      "name": "black"
+    },
+    {
+      "hex": "#bcc4c5",
+      "name": "silver"
+    },
+    {
+      "hex": "#352e22",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#524f43",
+      "name": "umber"
+    },
+    {
+      "hex": "#757770",
+      "name": "slate"
+    },
+    {
+      "hex": "#cce9fc",
+      "name": "periwinkle"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Vancouver_spcials_01.jpg/1280px-Vancouver_spcials_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Vancouver_spcials_01.jpg/500px-Vancouver_spcials_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Vancouver_spcials_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vancouver_spcials_01.jpg",
+      "caption": "A nice block of Vancouver Specials...",
+      "source": "Wikimedia Commons",
+      "artist": "Jason V from Vancouver, Canada",
+      "date": "2005-09-07 20:02",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Vancouver_specials_04.jpg/1280px-Vancouver_specials_04.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Vancouver_specials_04.jpg/500px-Vancouver_specials_04.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/12/Vancouver_specials_04.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vancouver_specials_04.jpg",
+      "caption": "Vancouver specials 04",
+      "source": "Wikimedia Commons",
+      "artist": "Richard Eriksson from Vancouver, Canada",
+      "date": "2007-05-09 17:52",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Vancouver special",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7914254",
+      "url": "https://www.wikidata.org/wiki/Q7914254",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:17.697Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Vancouver special",
+      "url": "https://en.wikipedia.org/wiki/Vancouver_special",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:17.697Z"
+      }
+    }
+  ],
   "wikidata": "Q7914254",
   "wikipedia": "Vancouver special",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:06.045Z"
 }

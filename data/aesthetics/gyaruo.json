@@ -19,7 +19,33 @@
   "summary": "Gyaruo (which can be written as ギャル男, ギャルオ, ギャル汚 in Japanese) is a sub-group of modern Japanese youth culture.",
   "description": "Gyaruo (which can be written as ギャル男, ギャルオ, ギャル汚 in Japanese) is a sub-group of modern Japanese youth culture. They are the male equivalent of the gyaru. The o suffix added to the word is one reading of the kanji for male (男). The kanji for 'dirty' in Japanese (汚), which also has the same reading, is often used by gyaru and gyaruo in a light hearted way, poking fun at themselves because of the reputation that their subculture has gained within society due to their dark skin, hairstyles and often gritty, rough style of clothing that they wear. Gyaruo are characterised by their deep tans, dyed hair, party lifestyle and a liking for  different types of trance music including para-para dancing music, Eurobeat, etc.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0e0f12",
+      "name": "black"
+    },
+    {
+      "hex": "#78756f",
+      "name": "slate"
+    },
+    {
+      "hex": "#5e5449",
+      "name": "umber"
+    },
+    {
+      "hex": "#9b9490",
+      "name": "stone"
+    },
+    {
+      "hex": "#393130",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#bdb3b4",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,22 @@
   "tags": [
     "fashion style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Gyaru-o_misc_historical_image_b_2007-7-2.jpg/1280px-Gyaru-o_misc_historical_image_b_2007-7-2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Gyaru-o_misc_historical_image_b_2007-7-2.jpg/500px-Gyaru-o_misc_historical_image_b_2007-7-2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Gyaru-o_misc_historical_image_b_2007-7-2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gyaru-o_misc_historical_image_b_2007-7-2.jpg",
+      "caption": "gyaru-o guys",
+      "source": "Wikimedia Commons",
+      "artist": "ThisParticularGreg",
+      "date": "Taken on 1 July 2007, 13:18:20",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "1340"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gyaruo",
@@ -64,7 +105,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1055932",
+      "url": "https://www.wikidata.org/wiki/Q1055932",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:08.379Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gyaruo",
+      "url": "https://en.wikipedia.org/wiki/Gyaruo",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:08.379Z"
+      }
+    }
+  ],
   "wikidata": "Q1055932",
   "wikipedia": "Gyaruo",
   "popularity": 35,
@@ -72,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:48:08.379Z"
 }

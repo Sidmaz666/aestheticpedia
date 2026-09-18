@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "A pair-house is a three-room house found in the US built in the 19th century by Scandinavian immigrants as an adaptation of common houses from their homeland.",
   "description": "A pair-house is a three-room house found in the US built in the 19th century by Scandinavian immigrants as an adaptation of common houses from their homeland. Commonly found in the US state of Utah, pair-houses are historically significant as being representative of ethnic diversity in an area and time that favored uniformity among followers of the Church of Jesus Christ of Latter-day Saints (LDS Church). A number of pair-houses are listed on the National Register of Historic Places.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#57626b",
+      "name": "graphite"
+    },
+    {
+      "hex": "#727a83",
+      "name": "slate"
+    },
+    {
+      "hex": "#444b50",
+      "name": "graphite 2"
+    },
+    {
+      "hex": "#8b97ac",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#223526",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#32181c",
+      "name": "ink blue 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,49 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Storstugan_Hedemora_gammelg%C3%A5rd.jpg/1280px-Storstugan_Hedemora_gammelg%C3%A5rd.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Storstugan_Hedemora_gammelg%C3%A5rd.jpg/500px-Storstugan_Hedemora_gammelg%C3%A5rd.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Storstugan_Hedemora_gammelg%C3%A5rd.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Storstugan_Hedemora_gammelg%C3%A5rd.jpg",
+      "caption": "Storstugan, den först placerade byggnaden i Gammelgården, Hedemora, Sverige",
+      "source": "Wikimedia Commons",
+      "artist": "Calle Eklund/ V-wolf",
+      "date": "2010-03-16",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Fredrick_Sorensen_House_Ephraim_Utah.jpeg/1280px-Fredrick_Sorensen_House_Ephraim_Utah.jpeg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Fredrick_Sorensen_House_Ephraim_Utah.jpeg/500px-Fredrick_Sorensen_House_Ephraim_Utah.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Fredrick_Sorensen_House_Ephraim_Utah.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fredrick_Sorensen_House_Ephraim_Utah.jpeg",
+      "caption": "The Fredrick Christian Sorensen House, a historic home in Ephraim , Utah , United States .",
+      "source": "Wikimedia Commons",
+      "artist": "Ntsimp",
+      "date": "Taken on 22 July 2011",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/HistoricPlacesNationalRegisterPlaque.JPG/1280px-HistoricPlacesNationalRegisterPlaque.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/HistoricPlacesNationalRegisterPlaque.JPG/500px-HistoricPlacesNationalRegisterPlaque.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/HistoricPlacesNationalRegisterPlaque.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:HistoricPlacesNationalRegisterPlaque.JPG",
+      "caption": "Plaque declaring \"this property has been placed on the National Register of Historic Places by the United States Department of the Interior\"",
+      "source": "Wikimedia Commons",
+      "artist": "Jonathunder",
+      "date": "2007-07-14",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1009"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Pair-house",
@@ -62,7 +130,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q54953351",
+      "url": "https://www.wikidata.org/wiki/Q54953351",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:14.365Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Pair-house",
+      "url": "https://en.wikipedia.org/wiki/Pair-house",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:14.365Z"
+      }
+    }
+  ],
   "wikidata": "Q54953351",
   "wikipedia": "Pair-house",
   "popularity": 35,
@@ -70,5 +161,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.896Z"
 }

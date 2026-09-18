@@ -17,7 +17,33 @@
   "summary": "A juggalo (feminine juggalette, or juggala in Spanish) is a fan of the hip-hop group Insane Clown Posse or any other hip-hop group signed to Psychopathic Records.",
   "description": "A juggalo (feminine juggalette, or juggala in Spanish) is a fan of the hip-hop group Insane Clown Posse or any other hip-hop group signed to Psychopathic Records. Juggalos have developed their own idioms, slang, and characteristics. The Gathering of the Juggalos, alternatively known as just \"The Gathering\", is a notable annual festival held by juggalos and the artists that they support, which have included rap stars such as Busta Rhymes, Ice Cube, and MC Hammer; over its first eleven events (2000–2010), the festival drew a total attendance of about 107,500 fans, averaging nearly 9,800 per year, with a peak of 20,000 in 2010.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#292929",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#514f4d",
+      "name": "graphite"
+    },
+    {
+      "hex": "#887d6f",
+      "name": "taupe"
+    },
+    {
+      "hex": "#aca291",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#55bbe4",
+      "name": "turquoise"
+    },
+    {
+      "hex": "#e9dbca",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Juggalo_car.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/22/Juggalo_car.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/22/Juggalo_car.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Juggalo_car.jpg",
+      "caption": "Juggalo car",
+      "source": "Wikimedia Commons",
+      "artist": "Yourexhalekiss",
+      "date": "2008-03-09",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1024",
+      "height": "1280"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Ripminddetergent.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Ripminddetergent.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Ripminddetergent.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ripminddetergent.png",
+      "caption": "A Juggalo on his bike, celebrating in Oakland, California.",
+      "source": "Wikimedia Commons",
+      "artist": "Brodiesel710",
+      "date": "2019-01-09",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "495",
+      "height": "662"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Juggalo_face_paint.jpg/1280px-Juggalo_face_paint.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Juggalo_face_paint.jpg/500px-Juggalo_face_paint.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/35/Juggalo_face_paint.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Juggalo_face_paint.jpg",
+      "caption": "See \"Source\".",
+      "source": "Wikimedia Commons",
+      "artist": "Jake Metcalf from Bremerton WA, US of MFn A",
+      "date": "2008-06-07 09:46",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Juggalo",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q721745",
+      "url": "https://www.wikidata.org/wiki/Q721745",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:19.252Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Juggalo",
+      "url": "https://en.wikipedia.org/wiki/Juggalo",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:19.252Z"
+      }
+    }
+  ],
   "wikidata": "Q721745",
   "wikipedia": "Juggalo",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:51:19.252Z"
 }

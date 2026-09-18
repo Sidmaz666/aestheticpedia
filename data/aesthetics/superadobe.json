@@ -17,7 +17,29 @@
   "summary": "Superadobe is a form of earthbag construction that was developed by Iranian architect Nader Khalili.",
   "description": "Superadobe is a form of earthbag construction that was developed by Iranian architect Nader Khalili. The technique uses layered long fabric tubes or bags filled with adobe to form a compression structure. The resulting beehive-shaped structures employ corbelled arches, corbelled domes, and vaults to create sturdy single and double-curved shells. It has received growing interest for the past two decades in the natural building and sustainability movements.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a8b5bf",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#61534c",
+      "name": "umber"
+    },
+    {
+      "hex": "#0f0907",
+      "name": "black"
+    },
+    {
+      "hex": "#87766d",
+      "name": "taupe"
+    },
+    {
+      "hex": "#3a2821",
+      "name": "aubergine"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +61,36 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Flickr_-_DVIDSHUB_-_New_eco-dome_signals_changes_for_local_village_%28Image_10_of_10%29.jpg/1280px-Flickr_-_DVIDSHUB_-_New_eco-dome_signals_changes_for_local_village_%28Image_10_of_10%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Flickr_-_DVIDSHUB_-_New_eco-dome_signals_changes_for_local_village_%28Image_10_of_10%29.jpg/500px-Flickr_-_DVIDSHUB_-_New_eco-dome_signals_changes_for_local_village_%28Image_10_of_10%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/52/Flickr_-_DVIDSHUB_-_New_eco-dome_signals_changes_for_local_village_%28Image_10_of_10%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_DVIDSHUB_-_New_eco-dome_signals_changes_for_local_village_(Image_10_of_10).jpg",
+      "caption": "U.S. service members assigned to Combined Joint Task Force - Horn of Africa and local villagers work on the final stages of the eco-dome here May 22. The project is part of an ongoing effort between CJTF-HOA, villagers, non-government organizations and international organizations",
+      "source": "Wikimedia Commons",
+      "artist": "DVIDSHUB",
+      "date": "2012-05-22 18:28",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1924"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Tube_walls.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/65/Tube_walls.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/65/Tube_walls.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tube_walls.jpg",
+      "caption": "Super Adobe construction pioneered by Nader Khalili of Cal-Earth",
+      "source": "Wikimedia Commons",
+      "artist": "Gabriel Anast from Gallup, US",
+      "date": "2007-06-08 12:42",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1024",
+      "height": "685"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Superadobe",
@@ -62,7 +113,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q754650",
+      "url": "https://www.wikidata.org/wiki/Q754650",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:23.462Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Superadobe",
+      "url": "https://en.wikipedia.org/wiki/Superadobe",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:23.462Z"
+      }
+    }
+  ],
   "wikidata": "Q754650",
   "wikipedia": "Superadobe",
   "popularity": 35,
@@ -70,5 +144,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:07:23.462Z"
 }

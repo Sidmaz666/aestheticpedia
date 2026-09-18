@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Dutch Republic, Utrecht",
+  "geography": "Dutch Republic, Utrecht",
   "periodStart": "17th century",
   "periodEnd": "17th century",
   "startYear": 1610,
@@ -17,7 +17,33 @@
   "summary": "Utrecht Caravaggism (Dutch: Utrechtse caravaggisten) refers to the work of a group of artists who were from, or had studied in, the Dutch city of Utrecht, and during their stay in Rome during the early seventeenth century had become distinctly influenced by the art of Caravaggio.",
   "description": "Utrecht Caravaggism (Dutch: Utrechtse caravaggisten) refers to the work of a group of artists who were from, or had studied in, the Dutch city of Utrecht, and during their stay in Rome during the early seventeenth century had become distinctly influenced by the art of Caravaggio.  Upon their return to the Dutch Republic, they worked in a so-called Caravaggist style, which in turn influenced an earlier generation of local artists as well as artists in Flanders.  The key figures in the movement were Hendrick ter Brugghen, Gerrit van Honthorst and Dirck van Baburen, who introduced Caravaggism into Utrecht painting around 1620. After 1630 the artists moved in other directions and the movement petered out.  The Utrecht Caravaggisti painted predominantly history scenes and genre scenes executed in a realist style.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0e090b",
+      "name": "black"
+    },
+    {
+      "hex": "#411e14",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#543e2d",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#834524",
+      "name": "burnt sienna"
+    },
+    {
+      "hex": "#8a6645",
+      "name": "bronze"
+    },
+    {
+      "hex": "#d0aa80",
+      "name": "tan"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,60 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Gerard_van_Honthorst_-_The_procuress_-_Google_Art_Project.jpg/1280px-Gerard_van_Honthorst_-_The_procuress_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Gerard_van_Honthorst_-_The_procuress_-_Google_Art_Project.jpg/500px-Gerard_van_Honthorst_-_The_procuress_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Gerard_van_Honthorst_-_The_procuress_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gerard_van_Honthorst_-_The_procuress_-_Google_Art_Project.jpg",
+      "caption": "The procuress",
+      "source": "Wikimedia Commons",
+      "artist": "Gerard van Honthorst",
+      "date": "1625 date QS:P571,+1625-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "870"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Hendrick_ter_Brugghen_%28Dutch_-_Bacchante_with_an_Ape_-_Google_Art_Project.jpg/1280px-Hendrick_ter_Brugghen_%28Dutch_-_Bacchante_with_an_Ape_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Hendrick_ter_Brugghen_%28Dutch_-_Bacchante_with_an_Ape_-_Google_Art_Project.jpg/500px-Hendrick_ter_Brugghen_%28Dutch_-_Bacchante_with_an_Ape_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/56/Hendrick_ter_Brugghen_%28Dutch_-_Bacchante_with_an_Ape_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hendrick_ter_Brugghen_(Dutch_-_Bacchante_with_an_Ape_-_Google_Art_Project.jpg",
+      "caption": "Bacchante with an Ape",
+      "source": "Wikimedia Commons",
+      "artist": "Hendrick ter Brugghen (Dutch, 1588 - 1629) (1588 - 1629) – artist (Dutch) Details on Google Art Project",
+      "date": "1627 date QS:P571,+1627-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1476"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Dirk_van_Baburen_-_Kroning_met_de_doornenkroon.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/43/Dirk_van_Baburen_-_Kroning_met_de_doornenkroon.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/43/Dirk_van_Baburen_-_Kroning_met_de_doornenkroon.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dirk_van_Baburen_-_Kroning_met_de_doornenkroon.jpg",
+      "caption": "Crowning with Thorns",
+      "source": "Wikimedia Commons",
+      "artist": "Dirck van Baburen",
+      "date": "from 1622 until 1623 date QS:P,+1622-00-00T00:00:00Z/8,P580,",
+      "license": "Public domain",
+      "width": "1000",
+      "height": "792"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Orazio_Gentileschi_-_Young_Woman_Playing_a_Violin.JPG/1280px-Orazio_Gentileschi_-_Young_Woman_Playing_a_Violin.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Orazio_Gentileschi_-_Young_Woman_Playing_a_Violin.JPG/500px-Orazio_Gentileschi_-_Young_Woman_Playing_a_Violin.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Orazio_Gentileschi_-_Young_Woman_Playing_a_Violin.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Orazio_Gentileschi_-_Young_Woman_Playing_a_Violin.JPG",
+      "caption": "Young Woman Playing a Violin",
+      "source": "Wikimedia Commons",
+      "artist": "Orazio Gentileschi",
+      "date": "circa 1612 date QS:P571,+1612-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1014"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Utrecht Caravaggism",
@@ -62,7 +141,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1628039",
+      "url": "https://www.wikidata.org/wiki/Q1628039",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:15.547Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Utrecht Caravaggism",
+      "url": "https://en.wikipedia.org/wiki/Utrecht_Caravaggism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:15.547Z"
+      }
+    }
+  ],
   "wikidata": "Q1628039",
   "wikipedia": "Utrecht Caravaggism",
   "popularity": 35,
@@ -70,5 +172,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:06.034Z"
 }

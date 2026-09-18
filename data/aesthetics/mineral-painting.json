@@ -21,7 +21,33 @@
   "summary": "Mineral painting or Keim's process, also known as stereochromy, is a mural or fresco painting technique that uses a water glass-based paint to maximize the lifetime of the finished work.",
   "description": "Mineral painting or Keim's process, also known as stereochromy, is a mural or fresco painting technique that uses a water glass-based paint to maximize the lifetime of the finished work.\n\nThe name \"stereochromy\" was first used in about 1825 by Johann Nepomuk von Fuchs and Schlotthaurer. In the original technique, pigments were applied to plaster or stone and sealed with water glass to preserve and enhance the colors. The method was then improved in the 1880s by Adolf Wilhelm Keim and renamed mineral painting or Keim's process.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#52556e",
+      "name": "graphite"
+    },
+    {
+      "hex": "#503b3c",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#83563d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#2f2228",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#8c7a69",
+      "name": "taupe"
+    },
+    {
+      "hex": "#dad8bf",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,118 @@
   "tags": [
     "painting technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Emanuel_Leutze_-_Westward_the_Course_of_Empire_Takes_Its_Way_-_Capitol.jpg/1280px-Emanuel_Leutze_-_Westward_the_Course_of_Empire_Takes_Its_Way_-_Capitol.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Emanuel_Leutze_-_Westward_the_Course_of_Empire_Takes_Its_Way_-_Capitol.jpg/500px-Emanuel_Leutze_-_Westward_the_Course_of_Empire_Takes_Its_Way_-_Capitol.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/26/Emanuel_Leutze_-_Westward_the_Course_of_Empire_Takes_Its_Way_-_Capitol.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Emanuel_Leutze_-_Westward_the_Course_of_Empire_Takes_Its_Way_-_Capitol.jpg",
+      "caption": "Westward the Course of Empire Takes Its Way",
+      "source": "Wikimedia Commons",
+      "artist": "Emanuel Leutze",
+      "date": "1861 date QS:P571,+1861-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "859"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vincent_Willem_van_Gogh_107.jpg",
+      "caption": "\"Van Gogh painted this self-portrait in the winter of 1887–1888, when he had been living in Paris for nearly two years. Since his arrival in the city he had devoted much study to the dotted Pointillist technique, thereby learning how he might apply it in his own fashion. His use ",
+      "source": "Wikimedia Commons",
+      "artist": "Vincent van Gogh",
+      "date": "Winter 1887–1888",
+      "license": "Public domain",
+      "width": "1256",
+      "height": "1539"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/5dea894d-9d91-f917-0257-22efdc84c18d/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/5dea894d-9d91-f917-0257-22efdc84c18d/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/5dea894d-9d91-f917-0257-22efdc84c18d/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/70008",
+      "caption": "General Andrew Jackson, c. 1840",
+      "source": "Art Institute of Chicago",
+      "artist": "Copy after Miner Kilbourne Kellogg",
+      "date": "c. 1840",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "547"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/11",
+      "caption": "Self-Portrait, 1878",
+      "source": "Art Institute of Chicago",
+      "artist": "Walter Shirlaw (American, 1838–1909)",
+      "date": "1878",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1101"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/27992",
+      "caption": "A Sunday on La Grande Jatte — 1884, 1884–86, border added 1888–89",
+      "source": "Art Institute of Chicago",
+      "artist": "Georges Seurat (French, 1859–1891)",
+      "date": "1884–86, border added 1888–89",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "565"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/20684",
+      "caption": "Paris Street; Rainy Day, 1877",
+      "source": "Art Institute of Chicago",
+      "artist": "Gustave Caillebotte (French, 1848–1894)",
+      "date": "1877",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "655"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/eb7680d8-9926-fc05-fb4a-ac70bb1fb13e/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/eb7680d8-9926-fc05-fb4a-ac70bb1fb13e/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/eb7680d8-9926-fc05-fb4a-ac70bb1fb13e/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/88419",
+      "caption": "Reliquary Monstrance with a Tooth of Saint John the Baptist, 1433; container: 900/1200",
+      "source": "Art Institute of Chicago",
+      "artist": "Weddeghe Velstede (German, active 1432-73)",
+      "date": "1433; container: 900/1200",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1071"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b37ac24e-0cc3-08d7-968c-6f60e8c871b1/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b37ac24e-0cc3-08d7-968c-6f60e8c871b1/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b37ac24e-0cc3-08d7-968c-6f60e8c871b1/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/23437",
+      "caption": "Sun God Surya Standing in His Chariot, Pala period, 10th/11th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Bangladesh or Eastern India",
+      "date": "Pala period, 10th/11th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1265"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Mineral painting",
@@ -66,7 +203,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q182572",
+      "url": "https://www.wikidata.org/wiki/Q182572",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:05.335Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Mineral painting",
+      "url": "https://en.wikipedia.org/wiki/Mineral_painting",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:05.335Z"
+      }
+    }
+  ],
   "wikidata": "Q182572",
   "wikipedia": "Mineral painting",
   "popularity": 35,
@@ -74,5 +234,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:55:05.335Z"
 }

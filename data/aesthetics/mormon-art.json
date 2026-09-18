@@ -17,7 +17,33 @@
   "summary": "Mormon art comprises all visual art created to depict the principles and teachings of the Church of Jesus Christ of Latter-day Saints (LDS Church), as well as art deriving from the inspiration of an artist's LDS religious views.",
   "description": "Mormon art comprises all visual art created to depict the principles and teachings of the Church of Jesus Christ of Latter-day Saints (LDS Church), as well as art deriving from the inspiration of an artist's LDS religious views. Mormon art includes painting, sculpture, quilt work, photography, graphic art, and other mediums, and shares common attributes reflecting Latter-day Saint teachings and values.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fefcfc",
+      "name": "ivory"
+    },
+    {
+      "hex": "#171e32",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#052063",
+      "name": "prussian blue"
+    },
+    {
+      "hex": "#e1ced4",
+      "name": "bone white"
+    },
+    {
+      "hex": "#907c70",
+      "name": "taupe"
+    },
+    {
+      "hex": "#aca09b",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,33 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/DSF2966.jpg/1280px-DSF2966.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/DSF2966.jpg/500px-DSF2966.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4c/DSF2966.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:DSF2966.jpg",
+      "caption": "APRON STRINGS, Ceramic Sculpture by Janis Mars Wunderlich",
+      "source": "Wikimedia Commons",
+      "artist": "Wunderartist",
+      "date": "2018-06-14",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Christus_statue_temple_square_salt_lake_city.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Christus_statue_temple_square_salt_lake_city.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Christus_statue_temple_square_salt_lake_city.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Christus_statue_temple_square_salt_lake_city.jpg",
+      "caption": "Christus statue temple square salt lake city",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "1067",
+      "height": "800"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Mormon art",
@@ -62,7 +114,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16147844",
+      "url": "https://www.wikidata.org/wiki/Q16147844",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:01.526Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Mormon art",
+      "url": "https://en.wikipedia.org/wiki/Mormon_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:01.526Z"
+      }
+    }
+  ],
   "wikidata": "Q16147844",
   "wikipedia": "Mormon art",
   "popularity": 35,
@@ -70,5 +145,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:56:01.526Z"
 }

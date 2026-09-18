@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "France",
+  "geography": "France",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Plantagenet style or Angevine Gothic is an architectural style of western France, mainly of the second half of 12th and the 13th century.",
   "description": "The Plantagenet style or Angevine Gothic is an architectural style of western France, mainly of the second half of 12th and the 13th century. By Eugène Viollet-le-Duc it was called \"Style ogivale Plantagenêt\", something like \"Plantagenet Ribs Style\". It is named by the House of Anjou-Plantagenet.\n\nIt is characterized by cross-ribbed vaults and extremely curved relatively domelike vaults.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#6d6457",
+      "name": "umber"
+    },
+    {
+      "hex": "#564d41",
+      "name": "umber 2"
+    },
+    {
+      "hex": "#948a80",
+      "name": "stone"
+    },
+    {
+      "hex": "#a8a29a",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#3c332c",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#100d0c",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,120 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Le_Puy_Notre_Dame_int%C3%A9rieur.JPG/1280px-Le_Puy_Notre_Dame_int%C3%A9rieur.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Le_Puy_Notre_Dame_int%C3%A9rieur.JPG/500px-Le_Puy_Notre_Dame_int%C3%A9rieur.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/01/Le_Puy_Notre_Dame_int%C3%A9rieur.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Le_Puy_Notre_Dame_int%C3%A9rieur.JPG",
+      "caption": "intérieur de l'église romane",
+      "source": "Wikimedia Commons",
+      "artist": "Martpan",
+      "date": "2012-09-01 11:58:34",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Dordogne_Perigueux_Cathedrale_Saint-Font_Transept_-_panoramio.jpg/1280px-Dordogne_Perigueux_Cathedrale_Saint-Font_Transept_-_panoramio.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Dordogne_Perigueux_Cathedrale_Saint-Font_Transept_-_panoramio.jpg/500px-Dordogne_Perigueux_Cathedrale_Saint-Font_Transept_-_panoramio.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Dordogne_Perigueux_Cathedrale_Saint-Font_Transept_-_panoramio.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dordogne_Perigueux_Cathedrale_Saint-Font_Transept_-_panoramio.jpg",
+      "caption": "Dordogne Perigueux Cathedrale Saint-Font Transept",
+      "source": "Wikimedia Commons",
+      "artist": "rene boulay",
+      "date": "28 March 2014 (original upload date)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Airvault_%C3%A9glise_plafond.JPG/1280px-Airvault_%C3%A9glise_plafond.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Airvault_%C3%A9glise_plafond.JPG/500px-Airvault_%C3%A9glise_plafond.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Airvault_%C3%A9glise_plafond.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Airvault_%C3%A9glise_plafond.JPG",
+      "caption": "Le plafond de la nef de l'église abbatiale Saint-Pierre d'Airvault, Deux-Sèvres, France",
+      "source": "Wikimedia Commons",
+      "artist": "Père Igor",
+      "date": "2009-06-21",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Angers_-_Nef_cath%C3%A9drale_Saint-Maurice.jpg/1280px-Angers_-_Nef_cath%C3%A9drale_Saint-Maurice.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Angers_-_Nef_cath%C3%A9drale_Saint-Maurice.jpg/500px-Angers_-_Nef_cath%C3%A9drale_Saint-Maurice.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/55/Angers_-_Nef_cath%C3%A9drale_Saint-Maurice.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Angers_-_Nef_cath%C3%A9drale_Saint-Maurice.jpg",
+      "caption": "Nef de la cathédrale Saint-Maurice",
+      "source": "Wikimedia Commons",
+      "artist": "stephanemartin",
+      "date": "2011-11-13",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "992"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Cath%C3%A9drale_Saint-Pierre_de_Poitiers_176.jpg/1280px-Cath%C3%A9drale_Saint-Pierre_de_Poitiers_176.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Cath%C3%A9drale_Saint-Pierre_de_Poitiers_176.jpg/500px-Cath%C3%A9drale_Saint-Pierre_de_Poitiers_176.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Cath%C3%A9drale_Saint-Pierre_de_Poitiers_176.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Saint-Pierre_de_Poitiers_176.jpg",
+      "caption": "Cathédrale Saint-Pierre de Poitiers",
+      "source": "Wikimedia Commons",
+      "artist": "Chatsam",
+      "date": "2021-08-06 12:58:40",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/%C3%89glise_Notre-Dame_de_Niort_01.jpg/1280px-%C3%89glise_Notre-Dame_de_Niort_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/%C3%89glise_Notre-Dame_de_Niort_01.jpg/500px-%C3%89glise_Notre-Dame_de_Niort_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ac/%C3%89glise_Notre-Dame_de_Niort_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Notre-Dame_de_Niort_01.jpg",
+      "caption": "Église Notre-Dame de Niort",
+      "source": "Wikimedia Commons",
+      "artist": "Chatsam",
+      "date": "2016-08-11",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Overzicht_schip_van_de_kerk_naar_het_oosten_-_Holwierde_-_20529647_-_RCE.jpg/1280px-Overzicht_schip_van_de_kerk_naar_het_oosten_-_Holwierde_-_20529647_-_RCE.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Overzicht_schip_van_de_kerk_naar_het_oosten_-_Holwierde_-_20529647_-_RCE.jpg/500px-Overzicht_schip_van_de_kerk_naar_het_oosten_-_Holwierde_-_20529647_-_RCE.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/66/Overzicht_schip_van_de_kerk_naar_het_oosten_-_Holwierde_-_20529647_-_RCE.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Overzicht_schip_van_de_kerk_naar_het_oosten_-_Holwierde_-_20529647_-_RCE.jpg",
+      "caption": "Stefanuskerk: Overzicht schip van de kerk naar het oosten",
+      "source": "Wikimedia Commons",
+      "artist": "Chris Booms",
+      "date": "2010-03-25",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Bremen_Dom_s%C3%BCdl_Seitenschiff.jpg/1280px-Bremen_Dom_s%C3%BCdl_Seitenschiff.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Bremen_Dom_s%C3%BCdl_Seitenschiff.jpg/500px-Bremen_Dom_s%C3%BCdl_Seitenschiff.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/Bremen_Dom_s%C3%BCdl_Seitenschiff.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bremen_Dom_s%C3%BCdl_Seitenschiff.jpg",
+      "caption": "Southern aisle of Bremen Cathedral towards the southern transept",
+      "source": "Wikimedia Commons",
+      "artist": "Ulamm ( talk )",
+      "date": "2015-07-04",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1675"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Plantagenet style",
@@ -62,7 +201,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3111490",
+      "url": "https://www.wikidata.org/wiki/Q3111490",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:14.168Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Plantagenet style",
+      "url": "https://en.wikipedia.org/wiki/Plantagenet_style",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:14.168Z"
+      }
+    }
+  ],
   "wikidata": "Q3111490",
   "wikipedia": "Plantagenet style",
   "popularity": 35,
@@ -70,5 +232,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.104Z"
 }

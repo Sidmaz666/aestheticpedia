@@ -19,7 +19,33 @@
   "summary": "Contemporary art is generally art created from the 1970s onwards.",
   "description": "Contemporary art is generally art created from the 1970s onwards. Contemporary artists work in a globally influenced, culturally diverse, and technologically advancing world. Their art is a dynamic combination of materials, methods, concepts, and subjects that continue the challenging of boundaries that was already well underway in the 20th century. Diverse and eclectic, contemporary art as a whole is distinguished by the very lack of a uniform, organising principle, ideology, or \"-ism\". Contemporary art is part of a cultural dialogue that concerns larger contextual frameworks such as personal and cultural identity, family, community, and nationality.\n\nIn English, modern and contemporary are synonyms, resulting in some conflation and confusion of the terms modern art and contemporary art by non-specialists. The latter is the art of today. Some specialists also consider that the frontier between the two is blurry; for instance, the French Musée National d'Art Moderne does not differentiate them in its collections.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#495573",
+      "name": "graphite"
+    },
+    {
+      "hex": "#aac0ea",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#e2c8d9",
+      "name": "bone white"
+    },
+    {
+      "hex": "#7c809a",
+      "name": "slate"
+    },
+    {
+      "hex": "#d6def4",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#8da5d0",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,62 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Isa_Genzken_Rose.jpg/1280px-Isa_Genzken_Rose.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Isa_Genzken_Rose.jpg/500px-Isa_Genzken_Rose.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Isa_Genzken_Rose.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Isa_Genzken_Rose.jpg",
+      "caption": "Isa Genzken: Rose , in front of Neue Leipziger Messe, Leipzig, Germany",
+      "source": "Wikimedia Commons",
+      "artist": "Christoph Müller",
+      "date": "2007-06-20",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1931"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Dona_i_Ocell.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Dona_i_Ocell.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Dona_i_Ocell.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dona_i_Ocell.JPG",
+      "caption": "Dona i Ocell",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "996",
+      "height": "1912"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Irbid-Jordan-Nida_Alhamzeh-029.jpg/1280px-Irbid-Jordan-Nida_Alhamzeh-029.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Irbid-Jordan-Nida_Alhamzeh-029.jpg/500px-Irbid-Jordan-Nida_Alhamzeh-029.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Irbid-Jordan-Nida_Alhamzeh-029.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Irbid-Jordan-Nida_Alhamzeh-029.jpg",
+      "caption": "\"We are Arabs, We are humans\" Group Action in Irbid, Jordan, June 2015",
+      "source": "Wikimedia Commons",
+      "artist": "Camlacaze",
+      "date": "2015-06-04",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "933"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Kiasma_against_pink_sky%2C_2008.jpg/1280px-Kiasma_against_pink_sky%2C_2008.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Kiasma_against_pink_sky%2C_2008.jpg/500px-Kiasma_against_pink_sky%2C_2008.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Kiasma_against_pink_sky%2C_2008.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kiasma_against_pink_sky,_2008.jpg",
+      "caption": "Architect Steven Holl was fascinated by the horizontal sunlight in Finland that changes continually with the seasons and the time of day. The spaces, textures and forms of the building were designed with this in mind. Kiasma itself changes with the light.",
+      "source": "Wikimedia Commons",
+      "artist": "Creator:Ari Palm",
+      "date": "10 June 2008, 22:18:06",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Contemporary art",
@@ -64,7 +145,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q186030",
+      "url": "https://www.wikidata.org/wiki/Q186030",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:05.729Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Contemporary art",
+      "url": "https://en.wikipedia.org/wiki/Contemporary_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:05.729Z"
+      }
+    }
+  ],
   "wikidata": "Q186030",
   "wikipedia": "Contemporary art",
   "popularity": 35,
@@ -72,5 +176,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:42:05.729Z"
 }

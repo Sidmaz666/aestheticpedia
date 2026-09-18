@@ -22,7 +22,33 @@
   "summary": "The Bloomsbury Group was a group of associated British writers, intellectuals, philosophers and artists in the early 20th century.",
   "description": "The Bloomsbury Group was a group of associated British writers, intellectuals, philosophers and artists in the early 20th century. Among the people involved in the group were Virginia Woolf, John Maynard Keynes, E. M. Forster, Vanessa Bell, and Lytton Strachey. Their works and outlook deeply influenced literature, aesthetics, criticism, and economics, as well as modern attitudes towards feminism, pacifism, and sexuality.\n\nAlthough popularly thought of as a formal group, it was a loose collective of friends and relatives closely associated with the University of Cambridge for the men and King's College London for the women, who at one point lived, worked or studied together near Bloomsbury, London. According to Ian Ousby, \"although its members denied being a group in any formal sense, they were united by an abiding belief in the importance of the arts.\" The historian Raymond Williams disputed the existence of the group and the extent of its impact.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#3f362e",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#594f44",
+      "name": "umber"
+    },
+    {
+      "hex": "#776a5e",
+      "name": "bronze"
+    },
+    {
+      "hex": "#aca193",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#938579",
+      "name": "stone"
+    },
+    {
+      "hex": "#20140e",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -44,7 +70,116 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/46_Gordon_Square_London.jpg/1280px-46_Gordon_Square_London.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/46_Gordon_Square_London.jpg/500px-46_Gordon_Square_London.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0a/46_Gordon_Square_London.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:46_Gordon_Square_London.jpg",
+      "caption": "46 Gordon Square, London (United Kingdom). The economist John Maynard Keynes (1883-1946) lived here from 1916 to 1946.",
+      "source": "Wikimedia Commons",
+      "artist": "Myrabella",
+      "date": "2010-02-23",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1820"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/SomeBloomsburymembers.jpg/1280px-SomeBloomsburymembers.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/SomeBloomsburymembers.jpg/500px-SomeBloomsburymembers.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4a/SomeBloomsburymembers.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:SomeBloomsburymembers.jpg",
+      "caption": "A group at Garsington Manor, country home of Lady Ottoline Morrell, near Oxford. Left to right: Lady Ottoline Morrell , Mrs. Aldous Huxley , Lytton Strachey , Duncan Grant , and Vanessa Bell .",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown photographer",
+      "date": "1915-07",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "770"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Bloomsbury_Group_51_Gordon_Square_blue_plaque.jpg/1280px-Bloomsbury_Group_51_Gordon_Square_blue_plaque.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Bloomsbury_Group_51_Gordon_Square_blue_plaque.jpg/500px-Bloomsbury_Group_51_Gordon_Square_blue_plaque.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Bloomsbury_Group_51_Gordon_Square_blue_plaque.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bloomsbury_Group_51_Gordon_Square_blue_plaque.jpg",
+      "caption": "Bloomsbury Group 51 Gordon Square blue plaque",
+      "source": "Wikimedia Commons",
+      "artist": "Edwardx",
+      "date": "2015-02-25 13:54:40",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1272"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Charleston_Farmhouse%2C_view_from_the_pond.jpg/1280px-Charleston_Farmhouse%2C_view_from_the_pond.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Charleston_Farmhouse%2C_view_from_the_pond.jpg/500px-Charleston_Farmhouse%2C_view_from_the_pond.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/69/Charleston_Farmhouse%2C_view_from_the_pond.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Charleston_Farmhouse,_view_from_the_pond.jpg",
+      "caption": "Charleston Farmhouse, view from the pond",
+      "source": "Wikimedia Commons",
+      "artist": "AndyScott",
+      "date": "2023-09-11 11:51:47",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "846"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Virginia_and_Leonard_Woolf%2C_1912.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Virginia_and_Leonard_Woolf%2C_1912.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Virginia_and_Leonard_Woolf%2C_1912.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Virginia_and_Leonard_Woolf,_1912.jpg",
+      "caption": "Engagement photograph, Virginia and Leonard Woolf, 23 July 1912, a month before their wedding. Photograph taken at Dalingridge Place, the Sussex home of Virginia’s half-brother, George Duckworth",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1912",
+      "license": "Public domain",
+      "width": "773",
+      "height": "1000"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Clive_Bell.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Clive_Bell.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Clive_Bell.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Clive_Bell.jpg",
+      "caption": "Clive Bell",
+      "source": "Wikimedia Commons",
+      "artist": "Roger Fry",
+      "date": "1924",
+      "license": "Public domain",
+      "width": "653",
+      "height": "800"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Nina_Hamnett.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/00/Nina_Hamnett.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/00/Nina_Hamnett.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nina_Hamnett.jpg",
+      "caption": "1918 portrait of Nina Hamnett painted by Roger Fry.",
+      "source": "Wikimedia Commons",
+      "artist": "Roger Fry",
+      "date": "1917",
+      "license": "Public domain",
+      "width": "619",
+      "height": "944"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Bedford_Square_2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Bedford_Square_2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Bedford_Square_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bedford_Square_2.jpg",
+      "caption": "The north side of Bedford Square. The image was taken with a Panasonic Lumix DMC-TZ1.",
+      "source": "Wikimedia Commons",
+      "artist": "Russ London -- ( Russ London ).",
+      "date": "2007-02-06",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1024",
+      "height": "597"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Bloomsbury Group",
@@ -67,7 +202,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q603529",
+      "url": "https://www.wikidata.org/wiki/Q603529",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:15.569Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Bloomsbury Group",
+      "url": "https://en.wikipedia.org/wiki/Bloomsbury_Group",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:15.569Z"
+      }
+    }
+  ],
   "wikidata": "Q603529",
   "wikipedia": "Bloomsbury Group",
   "popularity": 35,
@@ -75,5 +233,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:38:15.569Z"
 }

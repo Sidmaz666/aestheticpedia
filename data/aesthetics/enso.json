@@ -20,7 +20,29 @@
   "summary": "In Zen art, an ensō (円相; \"circular form\") is a circle hand-drawn in one or two uninhibited brushstrokes to express the Zen mind, which is associated with enlightenment, emptiness, freedom, and the state of no-mind.",
   "description": "In Zen art, an ensō (円相; \"circular form\") is a circle hand-drawn in one or two uninhibited brushstrokes to express the Zen mind, which is associated with enlightenment, emptiness, freedom, and the state of no-mind.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e6e0db",
+      "name": "bone white"
+    },
+    {
+      "hex": "#1d1c1c",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#403e3d",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#b4b0ad",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#676564",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +64,22 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Enso.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Enso.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Enso.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Enso.jpg",
+      "caption": "Enso Calligraphy by Kanjuro Shibata XX \"Ensō ( 円相 )\".",
+      "source": "Wikimedia Commons",
+      "artist": "Kanjuro Shibata XX \"Ensō ( 円相 )\"",
+      "date": "2013-03-12 14:56:04",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "520",
+      "height": "715"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Ensō",
@@ -65,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1344426",
+      "url": "https://www.wikidata.org/wiki/Q1344426",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:23.596Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Ensō",
+      "url": "https://en.wikipedia.org/wiki/Ens%C5%8D",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:23.596Z"
+      }
+    }
+  ],
   "wikidata": "Q1344426",
   "wikipedia": "Ensō",
   "popularity": 35,
@@ -73,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:44:23.596Z"
 }

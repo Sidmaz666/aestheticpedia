@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Japan, Myōki-an Temple",
+  "geography": "Japan, Myōki-an Temple",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -19,7 +19,25 @@
   "summary": "Tai-an (待庵) is a Momoyama period chashitsu (Japanese tea house) located at Myōki-an temple in Yamazaki, Kyoto.",
   "description": "Tai-an (待庵) is a Momoyama period chashitsu (Japanese tea house) located at Myōki-an temple in Yamazaki, Kyoto.\n\nTai-an was designed by the great tea master Sen no Rikyū in 1582. Sen no Rikyū was named the tea master of Toyotomi Hideyoshi that same year, following Oda Nobunaga's death, and as Hideyoshi was battling around the area at the time, they often held tea ceremonies there. In fact it is often said that it was built for exactly this purpose.\n\nAn example of the smallest type of chashitsu, its main layout consists of one tatami mat for the host and another one for the guest. On the north side, where the tea house connects with another building, there is a tokonoma. The entrance, on the south side, is said to have been designed larger than usual in order to allow Hideyoshi to enter with his armor on. On the west side there is another one mat area with a shelf for tea utensils, and a tablet with the name of the teahouse hanging near the ceiling.\n\nTai-an is the only teahouse definitely attributed to Sen no Rikyū, and as such it is designated a National Treasure. It can be visited with advanced reservations with an entrance fee.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bbbbbb",
+      "name": "silver"
+    },
+    {
+      "hex": "#626262",
+      "name": "umber"
+    },
+    {
+      "hex": "#969696",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#494949",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +59,21 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/TAIAN_in_MyokiAN_Kyoto.jpg/1280px-TAIAN_in_MyokiAN_Kyoto.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/TAIAN_in_MyokiAN_Kyoto.jpg/500px-TAIAN_in_MyokiAN_Kyoto.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/92/TAIAN_in_MyokiAN_Kyoto.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:TAIAN_in_MyokiAN_Kyoto.jpg",
+      "caption": "Tai-an chashitsu in Myokian, Kyoto, Japan, late 16th century",
+      "source": "Wikimedia Commons",
+      "artist": "Culture Relics Foundation 文化財協会",
+      "date": "1952-03-30",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "906"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Tai-an",
@@ -64,7 +96,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q87101624",
+      "url": "https://www.wikidata.org/wiki/Q87101624",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:10.375Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Tai-an",
+      "url": "https://en.wikipedia.org/wiki/Tai-an",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:10.375Z"
+      }
+    }
+  ],
   "wikidata": "Q87101624",
   "wikipedia": "Tai-an",
   "popularity": 35,
@@ -72,5 +127,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:02.205Z"
 }

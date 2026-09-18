@@ -21,7 +21,33 @@
   "summary": "An emblem is an abstract or representational pictorial image that represents a concept, such as moral truth, allegory, or person, such as a monarch or saint.",
   "description": "An emblem is an abstract or representational pictorial image that represents a concept, such as moral truth, allegory, or person, such as a monarch or saint.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#2f2b3f",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#474360",
+      "name": "graphite"
+    },
+    {
+      "hex": "#747088",
+      "name": "slate"
+    },
+    {
+      "hex": "#b89277",
+      "name": "camel"
+    },
+    {
+      "hex": "#deb085",
+      "name": "tan"
+    },
+    {
+      "hex": "#6d5349",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,119 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/The_Wilton_Diptych_%28Right%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9b/The_Wilton_Diptych_%28Right%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9b/The_Wilton_Diptych_%28Right%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Wilton_Diptych_(Right).jpg",
+      "caption": "The Wilton Diptych (c.1395-1399) is a portable altarpiece taking the form of a diptych. It was painted for King Richard II.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown Master, French (second half of 14th century)",
+      "date": "1395 date QS:P571,+1395-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "640",
+      "height": "960"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/5b2a6adf-fd52-9d57-d1ed-8330d720e005/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/5b2a6adf-fd52-9d57-d1ed-8330d720e005/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/5b2a6adf-fd52-9d57-d1ed-8330d720e005/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/132197",
+      "caption": "Emblem with Blank Heraldic Shield, folio 156 from the Anthologia Gnomonica, 1579, assembled into portfolio 1937",
+      "source": "Art Institute of Chicago",
+      "artist": "Jost Amman (Swiss, 1539-1591)",
+      "date": "1579, assembled into portfolio 1937",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1299"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/50636547-f45a-8b72-1f0b-de0338d07129/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/50636547-f45a-8b72-1f0b-de0338d07129/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/50636547-f45a-8b72-1f0b-de0338d07129/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/132211",
+      "caption": "Illustration from Livret des Emblemes by Andreas Alciatus, plate 66 from Woodcuts from Books of the XVI Century, 1536, assembled into portfolio 1937",
+      "source": "Art Institute of Chicago",
+      "artist": "Unknown Artist (French, 16th century)",
+      "date": "1536, assembled into portfolio 1937",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1273"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/13bb7117-5115-b409-1dbb-1d9c1d70a5c9/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/13bb7117-5115-b409-1dbb-1d9c1d70a5c9/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/13bb7117-5115-b409-1dbb-1d9c1d70a5c9/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/111",
+      "caption": "Martin Vanden Bogaert Desjardins, n.d.",
+      "source": "Art Institute of Chicago",
+      "artist": "Gérard Edelinck (French, born Flanders, 1640-1707)",
+      "date": "n.d.",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1094"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/ab107179-7106-937e-7676-e0263b02e530/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/ab107179-7106-937e-7676-e0263b02e530/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/ab107179-7106-937e-7676-e0263b02e530/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/27",
+      "caption": "Remembrance of Italy, c. 1866",
+      "source": "Art Institute of Chicago",
+      "artist": "Jean-Baptiste-Camille Corot (French, 1796-1875)",
+      "date": "c. 1866",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1217"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/6983bf9e-3cd8-c42d-4c91-cd646c97399c/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/6983bf9e-3cd8-c42d-4c91-cd646c97399c/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/6983bf9e-3cd8-c42d-4c91-cd646c97399c/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/65",
+      "caption": "Fishing Craft near the Cliffs at Collioure, 1878",
+      "source": "Art Institute of Chicago",
+      "artist": "Adolphe Appian",
+      "date": "1878",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "575"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/e82b61d4-1d5b-a15d-4d2e-ff9caca3fb51/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/e82b61d4-1d5b-a15d-4d2e-ff9caca3fb51/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/e82b61d4-1d5b-a15d-4d2e-ff9caca3fb51/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/16",
+      "caption": "The Fall of the Giants, 1663",
+      "source": "Art Institute of Chicago",
+      "artist": "Salvator Rosa",
+      "date": "1663",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1284"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/67f10695-cb9d-f716-9cd0-902217ebb317/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/67f10695-cb9d-f716-9cd0-902217ebb317/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/67f10695-cb9d-f716-9cd0-902217ebb317/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/20",
+      "caption": "It Rocks but is Not Sunk, 1854",
+      "source": "Art Institute of Chicago",
+      "artist": "Charles Meryon",
+      "date": "1854",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1186"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Emblem",
@@ -66,7 +204,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q112110",
+      "url": "https://www.wikidata.org/wiki/Q112110",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:20.134Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Emblem",
+      "url": "https://en.wikipedia.org/wiki/Emblem",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:20.134Z"
+      }
+    }
+  ],
   "wikidata": "Q112110",
   "wikipedia": "Emblem",
   "popularity": 35,
@@ -74,5 +235,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:44:20.134Z"
 }

@@ -20,7 +20,33 @@
   "summary": "Nageirebana (抛入花), later also known as simply nageire (抛入 \"thrown in\"), is a style of ikebana.",
   "description": "Nageirebana (抛入花), later also known as simply nageire (抛入 \"thrown in\"), is a style of ikebana. It is also known as Heika (瓶花).",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#d1b796",
+      "name": "tan"
+    },
+    {
+      "hex": "#b8a181",
+      "name": "sand"
+    },
+    {
+      "hex": "#a18d6d",
+      "name": "stone"
+    },
+    {
+      "hex": "#877658",
+      "name": "bronze"
+    },
+    {
+      "hex": "#756341",
+      "name": "bronze 2"
+    },
+    {
+      "hex": "#3e3829",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,22 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/3._Nageire%2C_Ric_Bansho_Carrasco%2C_2014%2C_Tokyo%2C_Japan.-001.jpg/1280px-3._Nageire%2C_Ric_Bansho_Carrasco%2C_2014%2C_Tokyo%2C_Japan.-001.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/3._Nageire%2C_Ric_Bansho_Carrasco%2C_2014%2C_Tokyo%2C_Japan.-001.jpg/500px-3._Nageire%2C_Ric_Bansho_Carrasco%2C_2014%2C_Tokyo%2C_Japan.-001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4a/3._Nageire%2C_Ric_Bansho_Carrasco%2C_2014%2C_Tokyo%2C_Japan.-001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:3._Nageire,_Ric_Bansho_Carrasco,_2014,_Tokyo,_Japan.-001.jpg",
+      "caption": "3. Nageire creation by Ric Bansho in 2014 during a demonstration in Art Laksy in Tokyo Japan. Line and floral materials include are common hedges in Japan with Celosia or Cock’s Comb. Matching double driftwood are from Okinawa. Container is from the collection of Kimie Yangisawa,",
+      "source": "Wikimedia Commons",
+      "artist": "GustavoReinoso7777",
+      "date": "2014-06-27 01:02:01",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1876"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Nageirebana",
@@ -65,7 +106,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q18327756",
+      "url": "https://www.wikidata.org/wiki/Q18327756",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:17.000Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Nageirebana",
+      "url": "https://en.wikipedia.org/wiki/Nageirebana",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:17.000Z"
+      }
+    }
+  ],
   "wikidata": "Q18327756",
   "wikipedia": "Nageirebana",
   "popularity": 35,
@@ -73,5 +137,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:56:17.000Z"
 }

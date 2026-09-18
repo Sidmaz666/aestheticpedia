@@ -7,8 +7,8 @@
   "establishment": "regional_tradition",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "People's Republic of China",
+  "geography": "People's Republic of China",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,25 @@
   "summary": "Mili (Chinese: 羃䍦; pinyin: mìlí) is a type of Chinese veil which originated from Hufu of the Rong and Yi people cultures.",
   "description": "Mili (Chinese: 羃䍦; pinyin: mìlí) is a type of Chinese veil which originated from Hufu of the Rong and Yi people cultures. In the Sui to early Tang dynasties, the mili was typically to a body-long veil which was used to conceal the body of women. However, men can also wear it; it was a form of burnoose which was burqua-like. The full-body mili then evolved into the weimao by the end of the Sui dynasty. The full-body mili continued to be worn in the Tang dynasty,but started to lose popularity by the middle of the 7th century. It eventually disappeared completely by 705 AD. Some Tang dynasty mili also only covered the women's face and neck areas.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a37a21",
+      "name": "copper"
+    },
+    {
+      "hex": "#7b5110",
+      "name": "sepia"
+    },
+    {
+      "hex": "#6a3308",
+      "name": "sepia 2"
+    },
+    {
+      "hex": "#c09632",
+      "name": "brass"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +57,35 @@
   "tags": [
     "traditional costume"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/%E7%87%95%E5%A6%83%E5%A2%93%E6%8D%A7%E5%86%AA%E7%AF%B1%E5%A5%B3%E4%BE%8D%E5%9C%96.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/07/%E7%87%95%E5%A6%83%E5%A2%93%E6%8D%A7%E5%86%AA%E7%AF%B1%E5%A5%B3%E4%BE%8D%E5%9C%96.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/07/%E7%87%95%E5%A6%83%E5%A2%93%E6%8D%A7%E5%86%AA%E7%AF%B1%E5%A5%B3%E4%BE%8D%E5%9C%96.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%E7%87%95%E5%A6%83%E5%A2%93%E6%8D%A7%E5%86%AA%E7%AF%B1%E5%A5%B3%E4%BE%8D%E5%9C%96.jpg",
+      "caption": "燕妃墓捧冪篱女侍圖",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "2014-03-31 19:25:47",
+      "license": "Public domain",
+      "width": "783",
+      "height": "1645"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Horse_and_female_rider%2C_sancai_glazed_earthenware_with_pigment%2C_Tang_Dynasty.JPG/1280px-Horse_and_female_rider%2C_sancai_glazed_earthenware_with_pigment%2C_Tang_Dynasty.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Horse_and_female_rider%2C_sancai_glazed_earthenware_with_pigment%2C_Tang_Dynasty.JPG/500px-Horse_and_female_rider%2C_sancai_glazed_earthenware_with_pigment%2C_Tang_Dynasty.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Horse_and_female_rider%2C_sancai_glazed_earthenware_with_pigment%2C_Tang_Dynasty.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Horse_and_female_rider,_sancai_glazed_earthenware_with_pigment,_Tang_Dynasty.JPG",
+      "caption": "A Chinese figurine of a horse and female rider, made of earthenware with sancai glaze and pigment, from the Tang Dynasty (618–907 AD), dated to the late 7th to early 8th century.",
+      "source": "Wikimedia Commons",
+      "artist": "User:PericlesofAthens",
+      "date": "2008-06-24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Mili (veil)",
@@ -62,7 +108,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q108031270",
+      "url": "https://www.wikidata.org/wiki/Q108031270",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:03.003Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Mili (veil)",
+      "url": "https://en.wikipedia.org/wiki/Mili_(veil)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:03.003Z"
+      }
+    }
+  ],
   "wikidata": "Q108031270",
   "wikipedia": "Mili (veil)",
   "popularity": 35,
@@ -70,5 +139,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.385Z"
 }

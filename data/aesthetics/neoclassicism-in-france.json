@@ -17,7 +17,33 @@
   "summary": "Neoclassicism is a movement in architecture, design and the arts which emerged in France in the 1740s and became dominant in France between about 1760 and 1830.",
   "description": "Neoclassicism is a movement in architecture, design and the arts which emerged in France in the 1740s and became dominant in France between about 1760 and 1830. It emerged as a reaction to the frivolity and excessive ornament of the baroque and rococo styles. In architecture it featured sobriety, straight lines, and forms, such as the pediment and colonnade, based on Ancient Greek and Roman models. In painting it featured heroism and sacrifice in the time of the ancient Romans and Greeks. It began late in the reign of Louis XV, became dominant under Louis XVI, and continued through the French Revolution, the French Directory, and the reign of Napoleon Bonaparte, and the Bourbon Restoration until 1830, when it was gradually replaced as the dominant style by romanticism and eclecticism.\n\nProminent architects of the style included Ange-Jacques Gabriel (1698–1782), Jacques-Germain Soufflot (1713–1780), Claude-Nicolas Ledoux (1736–1806) and Jean-François Chalgrin (1739–1811); painters included Jacques-Louis David (1748–1825) and his pupil, Jean-Auguste-Dominique Ingres (1780–1867).",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#87786d",
+      "name": "taupe"
+    },
+    {
+      "hex": "#392616",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#5c4b3d",
+      "name": "umber"
+    },
+    {
+      "hex": "#bc9d81",
+      "name": "camel"
+    },
+    {
+      "hex": "#d4dbf5",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#d9c5ae",
+      "name": "beige"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,141 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Fran%C3%A7ois_G%C3%A9rard_-_Portrait_de_Juliette_R%C3%A9camier%2C_n%C3%A9e_Bernard_%281777-1849%29_-_mus%C3%A9e_Carnavalet.jpg/1280px-Fran%C3%A7ois_G%C3%A9rard_-_Portrait_de_Juliette_R%C3%A9camier%2C_n%C3%A9e_Bernard_%281777-1849%29_-_mus%C3%A9e_Carnavalet.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Fran%C3%A7ois_G%C3%A9rard_-_Portrait_de_Juliette_R%C3%A9camier%2C_n%C3%A9e_Bernard_%281777-1849%29_-_mus%C3%A9e_Carnavalet.jpg/500px-Fran%C3%A7ois_G%C3%A9rard_-_Portrait_de_Juliette_R%C3%A9camier%2C_n%C3%A9e_Bernard_%281777-1849%29_-_mus%C3%A9e_Carnavalet.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/78/Fran%C3%A7ois_G%C3%A9rard_-_Portrait_de_Juliette_R%C3%A9camier%2C_n%C3%A9e_Bernard_%281777-1849%29_-_mus%C3%A9e_Carnavalet.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_G%C3%A9rard_-_Portrait_de_Juliette_R%C3%A9camier,_n%C3%A9e_Bernard_(1777-1849)_-_mus%C3%A9e_Carnavalet.jpg",
+      "caption": "French: Portrait de Juliette Récamier, née Bernard (1777-1849) Portrait de Juliette Récamier",
+      "source": "Wikimedia Commons",
+      "artist": "François Gérard",
+      "date": "from 1802 until 1805 date QS:P,+1802-00-00T00:00:00Z/8,P580,",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1867"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Louvre_Kolonnaden.JPG/1280px-Louvre_Kolonnaden.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Louvre_Kolonnaden.JPG/500px-Louvre_Kolonnaden.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/40/Louvre_Kolonnaden.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Louvre_Kolonnaden.JPG",
+      "caption": "Louvre Kolonnaden",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "958"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/H%C3%B4tel_de_la_Marine.jpg/1280px-H%C3%B4tel_de_la_Marine.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/H%C3%B4tel_de_la_Marine.jpg/500px-H%C3%B4tel_de_la_Marine.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/46/H%C3%B4tel_de_la_Marine.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_la_Marine.jpg",
+      "caption": "Hôtel de la Marine on the Place de la Concorde in Paris, designed by the architect Ange-Jacques Gabriel",
+      "source": "Wikimedia Commons",
+      "artist": "Ange-Jacques Gabriel (1698–1782), architect User:Moonik , photographer",
+      "date": "2011-09-14",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "685"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Petit_Trianon.JPG/1280px-Petit_Trianon.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Petit_Trianon.JPG/500px-Petit_Trianon.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/95/Petit_Trianon.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Petit_Trianon.JPG",
+      "caption": "Petit Trianon",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1280",
+      "height": "950"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Eglise_St_Philippe_du_Roule_-_Int%C3%A9rieur.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/29/Eglise_St_Philippe_du_Roule_-_Int%C3%A9rieur.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/Eglise_St_Philippe_du_Roule_-_Int%C3%A9rieur.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Eglise_St_Philippe_du_Roule_-_Int%C3%A9rieur.jpg",
+      "caption": "Intérieur de l'église Saint-Philippe-du-Roule, Paris",
+      "source": "Wikimedia Commons",
+      "artist": "Jean-François Chalgrin",
+      "date": "circa 1785 date QS:P571,+1785-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "684",
+      "height": "450"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Chateau_benouville.jpg/1280px-Chateau_benouville.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Chateau_benouville.jpg/500px-Chateau_benouville.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/16/Chateau_benouville.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chateau_benouville.jpg",
+      "caption": "Bénouville (France - Région Normandie - Dép. du Calvados) — Façade du château de Bénouville. Construction entre 1765 et 1785. Architecte : Claude Nicolas Ledoux. Style Néoclassique.",
+      "source": "Wikimedia Commons",
+      "artist": "Pascal RADIGUE",
+      "date": "2006",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "776"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/GrandTheatreBordeaux2.jpg/1280px-GrandTheatreBordeaux2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/GrandTheatreBordeaux2.jpg/500px-GrandTheatreBordeaux2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8c/GrandTheatreBordeaux2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:GrandTheatreBordeaux2.jpg",
+      "caption": "GrandTheatreBordeaux2",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "911"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Grand_escalier_de_l%27op%C3%A9ra_de_Bordeaux.jpg/1280px-Grand_escalier_de_l%27op%C3%A9ra_de_Bordeaux.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Grand_escalier_de_l%27op%C3%A9ra_de_Bordeaux.jpg/500px-Grand_escalier_de_l%27op%C3%A9ra_de_Bordeaux.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Grand_escalier_de_l%27op%C3%A9ra_de_Bordeaux.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Grand_escalier_de_l%27op%C3%A9ra_de_Bordeaux.jpg",
+      "caption": "Grand escalier de l'opéra de Bordeaux",
+      "source": "Wikimedia Commons",
+      "artist": "Aquilae",
+      "date": "2009",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Ch%C3%A2teau_de_Bagatelle%2C_Paris_17_July_2016_004.jpg/1280px-Ch%C3%A2teau_de_Bagatelle%2C_Paris_17_July_2016_004.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Ch%C3%A2teau_de_Bagatelle%2C_Paris_17_July_2016_004.jpg/500px-Ch%C3%A2teau_de_Bagatelle%2C_Paris_17_July_2016_004.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ch%C3%A2teau_de_Bagatelle%2C_Paris_17_July_2016_004.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Bagatelle,_Paris_17_July_2016_004.jpg",
+      "caption": "Parc de Bagatelle @ Paris",
+      "source": "Wikimedia Commons",
+      "artist": "Guilhem Vellut from Paris, France",
+      "date": "2016-07-17 09:02",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "958"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/H%C3%B4tel_de_Salm%2C_Paris_May_2014.jpg/1280px-H%C3%B4tel_de_Salm%2C_Paris_May_2014.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/H%C3%B4tel_de_Salm%2C_Paris_May_2014.jpg/500px-H%C3%B4tel_de_Salm%2C_Paris_May_2014.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bc/H%C3%B4tel_de_Salm%2C_Paris_May_2014.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Salm,_Paris_May_2014.jpg",
+      "caption": "Hôtel de Salm, Paris.",
+      "source": "Wikimedia Commons",
+      "artist": "David McSpadden from Daly City, United States",
+      "date": "2014-05-25 06:49",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "750"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Neoclassicism in France",
@@ -62,7 +222,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q55624952",
+      "url": "https://www.wikidata.org/wiki/Q55624952",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:09.455Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Neoclassicism in France",
+      "url": "https://en.wikipedia.org/wiki/Neoclassicism_in_France",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:09.455Z"
+      }
+    }
+  ],
   "wikidata": "Q55624952",
   "wikipedia": "Neoclassicism in France",
   "popularity": 35,
@@ -70,5 +253,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:57:09.455Z"
 }

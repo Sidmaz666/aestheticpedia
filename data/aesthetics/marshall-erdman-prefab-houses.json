@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Marshall Erdman Prefab Houses are a group of eleven prefabricated homes designed in two classes between 1956 and 1960 by noted American architect Frank Lloyd Wright.",
   "description": "The Marshall Erdman Prefab Houses are a group of eleven prefabricated homes designed in two classes between 1956 and 1960 by noted American architect Frank Lloyd Wright.\n\nWright had been interested in mass production of housing throughout his career. In 1954, he discovered that the builder Marshall Erdman, who'd contracted with the First Unitarian Society of Madison, Wisconsin, was selling modest prefabricated homes to its congregation.\n\nWright offered to design better prefabs, at half the $30,000 Marshall Erdman and Associates, Inc. (ME&A) was charging for its version. Wright began work in earnest in late 1955, and by spring of 1956 he had final plans for three Usonian-type homes to be built exclusively by ME&A.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#8b8c85",
+      "name": "stone"
+    },
+    {
+      "hex": "#716c74",
+      "name": "slate"
+    },
+    {
+      "hex": "#728557",
+      "name": "olive green"
+    },
+    {
+      "hex": "#a29ea4",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#55534f",
+      "name": "graphite"
+    },
+    {
+      "hex": "#373635",
+      "name": "aubergine"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/McBeanHouseRochesterMN2006-05-24.JPG/1280px-McBeanHouseRochesterMN2006-05-24.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/McBeanHouseRochesterMN2006-05-24.JPG/500px-McBeanHouseRochesterMN2006-05-24.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6d/McBeanHouseRochesterMN2006-05-24.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:McBeanHouseRochesterMN2006-05-24.JPG",
+      "caption": "McBean House in Rochester, Minnesota, designed by Frank Lloyd Wright.",
+      "source": "Wikimedia Commons",
+      "artist": "Jonathunder",
+      "date": "2006-05-24",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "538"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Crimson_Beech_Partial_Front_View.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/92/Crimson_Beech_Partial_Front_View.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/92/Crimson_Beech_Partial_Front_View.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Crimson_Beech_Partial_Front_View.jpg",
+      "caption": "\" Crimson Beech \" also known as the William Cass House (1959) by w:Frank Lloyd Wright in Staten Island, NY",
+      "source": "Wikimedia Commons",
+      "artist": "how_long_it_takes (Bill)",
+      "date": "2009-07-18",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1024",
+      "height": "627"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/McBeanHouse.JPG/1280px-McBeanHouse.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/McBeanHouse.JPG/500px-McBeanHouse.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d9/McBeanHouse.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:McBeanHouse.JPG",
+      "caption": "The James McBean House, designed by Frank Lloyd Wright, in Rochester, Minnesota",
+      "source": "Wikimedia Commons",
+      "artist": "Jonathunder",
+      "date": "2009-11-26",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "708"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Marshall Erdman Prefab Houses",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q17040481",
+      "url": "https://www.wikidata.org/wiki/Q17040481",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:08.356Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Marshall Erdman Prefab Houses",
+      "url": "https://en.wikipedia.org/wiki/Marshall_Erdman_Prefab_Houses",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:08.356Z"
+      }
+    }
+  ],
   "wikidata": "Q17040481",
   "wikipedia": "Marshall Erdman Prefab Houses",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.378Z"
 }

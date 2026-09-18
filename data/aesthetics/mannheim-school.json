@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Electoral Palatinate",
+  "geography": "Electoral Palatinate",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Mannheim school refers to both the orchestral techniques pioneered by the court orchestra of the Elector Palatine in Mannheim in the latter half of the 18th century and the group of composers of the early classical period, who composed for the orchestra of Mannheim.",
   "description": "Mannheim school refers to both the orchestral techniques pioneered by the court orchestra of the Elector Palatine in Mannheim in the latter half of the 18th century and the group of composers of the early classical period, who composed for the orchestra of Mannheim. The father of the school is considered to be the Bohemian composer Johann Stamitz. Besides him, two generations of composers wrote compositions for the orchestra, whose reputation was due to its excellent discipline and the individual skill of its players; the English traveler Charles Burney called it \"an army of generals\". Their performance style included new dynamic elements, crescendos and diminuendos. Composers of the Mannheim school played an important role in the development of the classical period's genres and of the classical symphony form.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a4b9f5",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#d8c8cb",
+      "name": "bone white"
+    },
+    {
+      "hex": "#775e6c",
+      "name": "umber"
+    },
+    {
+      "hex": "#b49797",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#a07470",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#8c8093",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Ehrenhof_des_Mannheimer_Schlosses.JPG/1280px-Ehrenhof_des_Mannheimer_Schlosses.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Ehrenhof_des_Mannheimer_Schlosses.JPG/500px-Ehrenhof_des_Mannheimer_Schlosses.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ehrenhof_des_Mannheimer_Schlosses.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ehrenhof_des_Mannheimer_Schlosses.JPG",
+      "caption": "Mannheim Palace, Germany",
+      "source": "Wikimedia Commons",
+      "artist": "Immanuel Giel",
+      "date": "2008-06",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "684"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Mannheim school",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q275647",
+      "url": "https://www.wikidata.org/wiki/Q275647",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:04.328Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Mannheim school",
+      "url": "https://en.wikipedia.org/wiki/Mannheim_school",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:04.328Z"
+      }
+    }
+  ],
   "wikidata": "Q275647",
   "wikipedia": "Mannheim school",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.393Z"
 }

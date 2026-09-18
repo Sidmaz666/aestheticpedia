@@ -12,8 +12,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Israel",
+  "geography": "Israel",
   "periodStart": "1940s",
   "periodEnd": "",
   "startYear": 1948,
@@ -22,7 +22,33 @@
   "summary": "Ofakim Hadashim (Hebrew: [(ʔ)ofaˈkim χadaˈʃim], lit.",
   "description": "Ofakim Hadashim (Hebrew: [(ʔ)ofaˈkim χadaˈʃim], lit. \"New Horizons\") is an art movement started in Tel Aviv in 1942.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#252a21",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#3f4639",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#5a6257",
+      "name": "umber"
+    },
+    {
+      "hex": "#d2cec9",
+      "name": "bone white"
+    },
+    {
+      "hex": "#efebea",
+      "name": "paper white"
+    },
+    {
+      "hex": "#658186",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -44,7 +70,49 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ofakim_Hadasim_007.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ofakim_Hadasim_007.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ofakim_Hadasim_007.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ofakim_Hadasim_007.jpg",
+      "caption": "Moshe Castel with \"Zohar\", Zfat, 1956",
+      "source": "Wikimedia Commons",
+      "artist": "Talmoryair",
+      "date": "2011-10-04",
+      "license": "Public domain",
+      "width": "1045",
+      "height": "1165"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Zvi_Mairovich_gouache_1961.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Zvi_Mairovich_gouache_1961.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Zvi_Mairovich_gouache_1961.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Zvi_Mairovich_gouache_1961.jpg",
+      "caption": "Zvi Mairovich gouache 1961 70x50 cm",
+      "source": "Wikimedia Commons",
+      "artist": "Shuki Mairowich",
+      "date": "2013-09-13 16:24:34",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1140",
+      "height": "1600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Feigin_ein_harod.JPG/1280px-Feigin_ein_harod.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Feigin_ein_harod.JPG/500px-Feigin_ein_harod.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/36/Feigin_ein_harod.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Feigin_ein_harod.JPG",
+      "caption": "צמיחה",
+      "source": "Wikimedia Commons",
+      "artist": "דב פייגין, פסל ישראלי, נולד ברוסיה, 1907",
+      "date": "1959",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Ofakim Hadashim",
@@ -67,7 +135,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1152966",
+      "url": "https://www.wikidata.org/wiki/Q1152966",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:22.175Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Ofakim Hadashim",
+      "url": "https://en.wikipedia.org/wiki/Ofakim_Hadashim",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:22.175Z"
+      }
+    }
+  ],
   "wikidata": "Q1152966",
   "wikipedia": "Ofakim Hadashim",
   "popularity": 35,
@@ -75,5 +166,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.863Z"
 }

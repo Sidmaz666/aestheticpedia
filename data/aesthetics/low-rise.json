@@ -19,7 +19,33 @@
   "summary": "Low-rise is a style of clothing designed to sit low on, or below, the hips.",
   "description": "Low-rise is a style of clothing designed to sit low on, or below, the hips. The style has also been called lowcut, hipster, bumster, or hip-hugger, and can apply to garments worn by all genders. The term can be applied to all garments that cover the wearer's crotch area, including trousers, jeans, shorts, skirts, panties, briefs, bikinis, pantyhose, and tights.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fefefd",
+      "name": "ivory"
+    },
+    {
+      "hex": "#b89a82",
+      "name": "camel"
+    },
+    {
+      "hex": "#6a422d",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#323237",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#826e5e",
+      "name": "bronze"
+    },
+    {
+      "hex": "#cdbeb0",
+      "name": "beige"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,49 @@
   "tags": [
     "fashion style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Damien_Crosse_1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Damien_Crosse_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Damien_Crosse_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Damien_Crosse_1.jpg",
+      "caption": "Damien Crosse at Folsom Steet Fair",
+      "source": "Wikimedia Commons",
+      "artist": "Steevil - www.modelmayhem.com",
+      "date": "2010-05-22",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1000",
+      "height": "1500"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Raven_Riley_at_AVN_Adult_Entertainment_Expo_2008_10.jpg/1280px-Raven_Riley_at_AVN_Adult_Entertainment_Expo_2008_10.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Raven_Riley_at_AVN_Adult_Entertainment_Expo_2008_10.jpg/500px-Raven_Riley_at_AVN_Adult_Entertainment_Expo_2008_10.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/de/Raven_Riley_at_AVN_Adult_Entertainment_Expo_2008_10.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Raven_Riley_at_AVN_Adult_Entertainment_Expo_2008_10.jpg",
+      "caption": "Raven Riley at AVN Adult Entertainment Expo 2008",
+      "source": "Wikimedia Commons",
+      "artist": "J Chang from USA",
+      "date": "2008-01-10 20:22:31",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "1913"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BathingSuit1920s.jpg",
+      "caption": "Woman's bathing suit from 1920s. Photo postcard. No copyright notice on card. This is a SOL postcard, series 2832. Here is a larger example of the posted image.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "early 1920s date QS:P,+1920-00-00T00:00:00Z/8,P4241,Q4071972",
+      "license": "Public domain",
+      "width": "768",
+      "height": "490"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Low-rise (fashion)",
@@ -64,7 +132,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6692782",
+      "url": "https://www.wikidata.org/wiki/Q6692782",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:13.846Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Low-rise (fashion)",
+      "url": "https://en.wikipedia.org/wiki/Low-rise_(fashion)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:13.846Z"
+      }
+    }
+  ],
   "wikidata": "Q6692782",
   "wikipedia": "Low-rise (fashion)",
   "popularity": 35,
@@ -72,5 +163,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:53:13.846Z"
 }

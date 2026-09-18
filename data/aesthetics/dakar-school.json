@@ -10,8 +10,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Senegal, Dakar",
+  "geography": "Senegal, Dakar",
   "periodStart": "1960s",
   "periodEnd": "",
   "startYear": 1960,
@@ -20,7 +20,29 @@
   "summary": "The Dakar School (French: École de Dakar, lit.",
   "description": "The Dakar School (French: École de Dakar, lit. 'School of Dakar') is an art movement in Senegal at the dawn of independence, between 1960 and 1974. It was supported by the first Senegalese President Léopold Sédar Senghor and was associated with his cultural policies informed by the larger Négritude movement from the 1930s, which emphasized Black cultural identity and heritage within a modernist framework.\n\nFounding figures commonly associated with this movement included Papa Ibra Tall, Iba N'Diaye, and Pierre Lods.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#8c8c8c",
+      "name": "taupe"
+    },
+    {
+      "hex": "#696969",
+      "name": "umber"
+    },
+    {
+      "hex": "#acacac",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#555555",
+      "name": "graphite"
+    },
+    {
+      "hex": "#2c2c2c",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +64,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/%22La_Foret_aux_Souvenirs%22%2C_1962_-_NARA_-_559021.jpg/1280px-%22La_Foret_aux_Souvenirs%22%2C_1962_-_NARA_-_559021.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/%22La_Foret_aux_Souvenirs%22%2C_1962_-_NARA_-_559021.jpg/500px-%22La_Foret_aux_Souvenirs%22%2C_1962_-_NARA_-_559021.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/%22La_Foret_aux_Souvenirs%22%2C_1962_-_NARA_-_559021.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%22La_Foret_aux_Souvenirs%22,_1962_-_NARA_-_559021.jpg",
+      "caption": "General notes: Oil",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author or not provided",
+      "date": "1962 date QS:P571,+1962-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1638"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Dakar School",
@@ -65,7 +101,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3577793",
+      "url": "https://www.wikidata.org/wiki/Q3577793",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:01.900Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Dakar School",
+      "url": "https://en.wikipedia.org/wiki/Dakar_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:01.900Z"
+      }
+    }
+  ],
   "wikidata": "Q3577793",
   "wikipedia": "Dakar School",
   "popularity": 35,
@@ -73,5 +132,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:05.490Z"
 }

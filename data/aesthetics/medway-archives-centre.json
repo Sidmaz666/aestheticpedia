@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United Kingdom",
+  "geography": "United Kingdom",
   "periodStart": "2010s",
   "periodEnd": "",
   "startYear": 2017,
@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q136529558",
+      "url": "https://www.wikidata.org/wiki/Q136529558",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:18.595Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Medway Archives Centre",
+      "url": "https://en.wikipedia.org/wiki/Medway_Archives_Centre",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:18.595Z"
+      }
+    }
+  ],
   "wikidata": "Q136529558",
   "wikipedia": "Medway Archives Centre",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.389Z"
 }

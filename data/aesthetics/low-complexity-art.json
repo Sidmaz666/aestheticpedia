@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6692726",
+      "url": "https://www.wikidata.org/wiki/Q6692726",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:12.207Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Low-complexity art",
+      "url": "https://en.wikipedia.org/wiki/Low-complexity_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:12.207Z"
+      }
+    }
+  ],
   "wikidata": "Q6692726",
   "wikipedia": "Low-complexity art",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:53:12.207Z"
 }

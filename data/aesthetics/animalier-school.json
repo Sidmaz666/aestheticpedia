@@ -19,7 +19,33 @@
   "summary": "Animalier school or animalier art was a late-18th and 19th-century artistic genre and school of artists who focused on depictions of animals.",
   "description": "Animalier school or animalier art was a late-18th and 19th-century artistic genre and school of artists who focused on depictions of animals. The movement was largely centered in France, with some artists producing related subject matter in England, Italy, Germany, Russia, and North America.\n\nThe term animalier is most often used to refer to a group of sculptors and painters in mid-century France including Antoine-Louis Barye, Rembrandt Bugatti (felines, human figures, and zoo animals). Jules Moigniez (paintings and sculpture of horses), Rosa Bonheur, and Pierre-Jules Mène.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#554941",
+      "name": "umber"
+    },
+    {
+      "hex": "#191613",
+      "name": "black"
+    },
+    {
+      "hex": "#403128",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#ab9986",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#92806c",
+      "name": "taupe"
+    },
+    {
+      "hex": "#746455",
+      "name": "umber 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,60 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Rosa_Bonheur_with_Bull_%2C_by_E_L_Dubufe.jpg/1280px-Rosa_Bonheur_with_Bull_%2C_by_E_L_Dubufe.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Rosa_Bonheur_with_Bull_%2C_by_E_L_Dubufe.jpg/500px-Rosa_Bonheur_with_Bull_%2C_by_E_L_Dubufe.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/66/Rosa_Bonheur_with_Bull_%2C_by_E_L_Dubufe.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rosa_Bonheur_with_Bull_,_by_E_L_Dubufe.jpg",
+      "caption": "Édouard Dubufe à peint le portrait de Rosa Bonheur à côté d'un taureau peint par le modèle.",
+      "source": "Wikimedia Commons",
+      "artist": "Edouard Louis Dubufe / Rosa Bonheur",
+      "date": "1857 date QS:P571,+1857-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1718"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Theseus_Slaying_Minotaur_by_Barye.jpg/1280px-Theseus_Slaying_Minotaur_by_Barye.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Theseus_Slaying_Minotaur_by_Barye.jpg/500px-Theseus_Slaying_Minotaur_by_Barye.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/Theseus_Slaying_Minotaur_by_Barye.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Theseus_Slaying_Minotaur_by_Barye.jpg",
+      "caption": "Theseus Slaying Minotaur (1843), bronze sculpture by en:Antoine-Louis Barye .",
+      "source": "Wikimedia Commons",
+      "artist": "Antoine-Louis Barye",
+      "date": "1843",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1688"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%C3%89douard_Manet_-_Le_peintre_animalier_La_Rochenoire.jpg/1280px-%C3%89douard_Manet_-_Le_peintre_animalier_La_Rochenoire.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%C3%89douard_Manet_-_Le_peintre_animalier_La_Rochenoire.jpg/500px-%C3%89douard_Manet_-_Le_peintre_animalier_La_Rochenoire.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9e/%C3%89douard_Manet_-_Le_peintre_animalier_La_Rochenoire.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet_-_Le_peintre_animalier_La_Rochenoire.jpg",
+      "caption": "French: Portrait de Julien de La Rochenoire Portrait of Julien de la Rochenoire",
+      "source": "Wikimedia Commons",
+      "artist": "Édouard Manet",
+      "date": "1882 date QS:P571,+1882-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "2028"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Alfred_Dedreux_-_Une_Amazone_Au_Bois_De_Boulogne.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Alfred_Dedreux_-_Une_Amazone_Au_Bois_De_Boulogne.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Alfred_Dedreux_-_Une_Amazone_Au_Bois_De_Boulogne.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Alfred_Dedreux_-_Une_Amazone_Au_Bois_De_Boulogne.jpg",
+      "caption": "French: Une Amazone Au Bois De Boulogne",
+      "source": "Wikimedia Commons",
+      "artist": "Alfred de Dreux",
+      "date": "19 th century date QS:P571,+1850-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "791",
+      "height": "1000"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Animalier school",
@@ -64,7 +143,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q28401399",
+      "url": "https://www.wikidata.org/wiki/Q28401399",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:58.405Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Animalier school",
+      "url": "https://en.wikipedia.org/wiki/Animalier_school",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:58.405Z"
+      }
+    }
+  ],
   "wikidata": "Q28401399",
   "wikipedia": "Animalier school",
   "popularity": 35,
@@ -72,5 +174,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:35:58.405Z"
 }

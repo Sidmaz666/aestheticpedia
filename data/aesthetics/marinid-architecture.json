@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Marinid dynasty",
+  "geography": "Marinid dynasty",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Marinid architecture corresponds to a period from the 13th to 15th centuries when the Marinid dynasty ruled over present-day Morocco and, intermittently, parts of present-day western Algeria.",
   "description": "Marinid architecture corresponds to a period from the 13th to 15th centuries when the Marinid dynasty ruled over present-day Morocco and, intermittently, parts of present-day western Algeria. Within the wider tradition of western Islamic architecture, Marinid architecture developed from earlier Almohad architecture and is similar to architecture under their contemporary neighboring dynasties, the Nasrids in al-Andalus (present-day Spain) and the Zayyanids to the east (in present-day Algeria).",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#96886c",
+      "name": "stone"
+    },
+    {
+      "hex": "#6c6355",
+      "name": "umber"
+    },
+    {
+      "hex": "#c0ae7e",
+      "name": "sand"
+    },
+    {
+      "hex": "#95bcdb",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#d8c79f",
+      "name": "beige"
+    },
+    {
+      "hex": "#5e96c7",
+      "name": "verdigris"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Bou_inania_DSCF4619.jpg/1280px-Bou_inania_DSCF4619.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Bou_inania_DSCF4619.jpg/500px-Bou_inania_DSCF4619.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Bou_inania_DSCF4619.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bou_inania_DSCF4619.jpg",
+      "caption": "Courtyard of the Bou Inania Madrasa, looking northeast.",
+      "source": "Wikimedia Commons",
+      "artist": "Robert Prazeres",
+      "date": "2015-04-12 15:40:07",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "955"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Tlemcen_-_Mansourah%2C_1976_--_Patrick.jpg/1280px-Tlemcen_-_Mansourah%2C_1976_--_Patrick.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Tlemcen_-_Mansourah%2C_1976_--_Patrick.jpg/500px-Tlemcen_-_Mansourah%2C_1976_--_Patrick.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/61/Tlemcen_-_Mansourah%2C_1976_--_Patrick.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tlemcen_-_Mansourah,_1976_--_Patrick.jpg",
+      "caption": "Les ruines de la mosquée de Mansourah à Tlemcen, en 1976.",
+      "source": "Wikimedia Commons",
+      "artist": "Patrick",
+      "date": "1976-02-28",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "892"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Morocco_CMS_CC-BY_%2815746517075%29.jpg/1280px-Morocco_CMS_CC-BY_%2815746517075%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Morocco_CMS_CC-BY_%2815746517075%29.jpg/500px-Morocco_CMS_CC-BY_%2815746517075%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Morocco_CMS_CC-BY_%2815746517075%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Morocco_CMS_CC-BY_(15746517075).jpg",
+      "caption": "This is a FREE photo! Yes, all the photos in my gallery are free ! :) You can download it at full resolution (check the “all sizes” option) and do whatever you want with it: share it, adapt it and/or combine it with other material and distribute the resulting works. Please give p",
+      "source": "Wikimedia Commons",
+      "artist": "Carlos ZGZ from Paris, France",
+      "date": "2005-10-30 12:08",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Marinid architecture",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q136840466",
+      "url": "https://www.wikidata.org/wiki/Q136840466",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:08.182Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Marinid architecture",
+      "url": "https://en.wikipedia.org/wiki/Marinid_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:08.182Z"
+      }
+    }
+  ],
   "wikidata": "Q136840466",
   "wikipedia": "Marinid architecture",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.389Z"
 }

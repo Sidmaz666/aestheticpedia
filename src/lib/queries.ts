@@ -312,11 +312,17 @@ export async function discover(dims: Map<string, number>, category?: string, lim
     `SELECT slug, name, category, summary, colors, dnaAxes, emotionProfile, images FROM aesthetics ${category ? 'WHERE category = $1' : ''}`,
     category ? [category] : []
   )
-  const scored = rows.map((row) => {
-    const values: Record<string, unknown> = {
-      ...safeParse<Record<string, unknown>>(row.dnaAxes, {}),
-      ...safeParse<Record<string, unknown>>(row.emotionProfile, {}),
-    }
+  const withValues = rows
+    .map((row) => ({
+      row,
+      values: {
+        ...safeParse<Record<string, unknown>>(row.dnaAxes, {}),
+        ...safeParse<Record<string, unknown>>(row.emotionProfile, {}),
+      } as Record<string, unknown>,
+    }))
+    // Only rank records that were actually assessed on at least half of the requested dimensions.
+    .filter(({ values }) => [...dims.keys()].filter((d) => typeof values[d] === 'number').length >= Math.ceil(dims.size / 2))
+  const scored = withValues.map(({ row, values }) => {
     const val = (d: string) => {
       const v = values[d]
       return typeof v === 'number' ? Math.min(100, Math.max(0, v)) : 50
@@ -589,4 +595,28 @@ export async function getLineage(slug: string, depth = 2, width = 8): Promise<{ 
 export async function getLinksAmong(slugs: string[]): Promise<{ from: string; to: string; type: string }[]> {
   if (slugs.length < 2) return []
   return query(`SELECT "from", "to", type FROM relations WHERE list_contains($1, "from") AND list_contains($1, "to")`, [listValue(slugs)])
+}
+
+/** Aggregates for the "library at a glance" charts. */
+export async function getInsights() {
+  const [centuries, origins, licenses, sources] = await Promise.all([
+    query<{ century: number; count: number }>(
+      `SELECT (floor(startYear / 100) * 100)::INT AS century, count(*)::INT AS count
+       FROM aesthetics WHERE startYear IS NOT NULL AND startYear >= -3000 GROUP BY 1 ORDER BY 1`
+    ),
+    query<{ name: string; count: number }>(
+      `SELECT trim(o) AS name, count(*)::INT AS count
+       FROM aesthetics, UNNEST(string_split(origin, ',')) AS t(o)
+       WHERE trim(o) <> '' AND length(trim(o)) < 40 GROUP BY 1 ORDER BY 2 DESC LIMIT 24`
+    ),
+    query<{ name: string; count: number }>(
+      `SELECT coalesce(nullif(regexp_replace(i.license, '\s+\d.*$', ''), ''), 'Unspecified') AS name, count(*)::INT AS count
+       FROM aesthetics, UNNEST(from_json(images, '[{"license":"VARCHAR"}]')) AS t(i) GROUP BY 1 ORDER BY 2 DESC LIMIT 8`
+    ),
+    query<{ name: string; count: number }>(
+      `SELECT i.source AS name, count(*)::INT AS count
+       FROM aesthetics, UNNEST(from_json(images, '[{"source":"VARCHAR"}]')) AS t(i) GROUP BY 1 ORDER BY 2 DESC`
+    ),
+  ])
+  return { centuries, origins, licenses, sources }
 }

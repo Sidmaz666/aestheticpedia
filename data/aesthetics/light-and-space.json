@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States, Southern California",
+  "geography": "United States, Southern California",
   "periodStart": "1960s",
   "periodEnd": "",
   "startYear": 1960,
@@ -17,7 +17,33 @@
   "summary": "Light and Space denotes a loosely affiliated art movement related to op art, minimalism and geometric abstraction originating in Southern California in the 1960s and influenced by John McLaughlin.",
   "description": "Light and Space denotes a loosely affiliated art movement related to op art, minimalism and geometric abstraction originating in Southern California in the 1960s and influenced by John McLaughlin.  It is characterized by a focus on perceptual phenomena, such as light, volume and scale, and the use of materials such as glass, neon, fluorescent lights, resin and cast acrylic, often forming installations conditioned by the work's surroundings. Whether by directing the flow of natural light, embedding artificial light within objects or architecture, or by playing with light through the use of transparent, translucent or reflective materials, Light and Space artists make the spectator's experience of light and other sensory phenomena under specific conditions the focus of their work. From the movement's inception, artists were incorporating into their work the latest technologies of the Southern California-based engineering and aerospace industries to develop sensuous, light-filled objects. James Turrell, who has spread the movement worldwide, summed up its philosophy in saying, \"We eat light, drink it in through our skins.\"",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#33281e",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#0f0f0e",
+      "name": "black"
+    },
+    {
+      "hex": "#7c6152",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b39f8d",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#5b3f32",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#f8e9da",
+      "name": "linen"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Dividing_the_Light_interior.jpg/1280px-Dividing_the_Light_interior.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Dividing_the_Light_interior.jpg/500px-Dividing_the_Light_interior.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/32/Dividing_the_Light_interior.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dividing_the_Light_interior.jpg",
+      "caption": "James Turrell 's \" Dividing the Light \" (2007), a skyspace art installation at Pomona College",
+      "source": "Wikimedia Commons",
+      "artist": "Sdkb",
+      "date": "2018-11-16 17:34:44",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/1f8e47e4-8211-80bf-952a-426d7879f0d3/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/1f8e47e4-8211-80bf-952a-426d7879f0d3/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/1f8e47e4-8211-80bf-952a-426d7879f0d3/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/205221",
+      "caption": "Chandelier, 1852",
+      "source": "Art Institute of Chicago",
+      "artist": "Augustus Welby Northmore Pugin",
+      "date": "1852",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1199"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/d51eb11c-da63-0888-0a59-6a5ef0631142/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/d51eb11c-da63-0888-0a59-6a5ef0631142/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/d51eb11c-da63-0888-0a59-6a5ef0631142/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/120172",
+      "caption": "Penitent Saint Peter, c. 1630",
+      "source": "Art Institute of Chicago",
+      "artist": "Jusepe de Ribera (Spanish, 1588–1652)",
+      "date": "c. 1630",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1095"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Light and Space",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6546135",
+      "url": "https://www.wikidata.org/wiki/Q6546135",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:04.204Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Light and Space",
+      "url": "https://en.wikipedia.org/wiki/Light_and_Space",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:04.204Z"
+      }
+    }
+  ],
   "wikidata": "Q6546135",
   "wikipedia": "Light and Space",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.690Z"
 }

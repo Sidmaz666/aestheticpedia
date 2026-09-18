@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Netherlands",
+  "geography": "Netherlands",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Bossche School was a traditionalist movement in Dutch architecture which was strongly based on numerical relationships.",
   "description": "The Bossche School was a traditionalist movement in Dutch architecture which was strongly based on numerical relationships. It arose from the Delft School and was influential primarily on the design of Catholic churches.\n\nThe name of the movement came from the three-year Course in Ecclesiastical Architecture which was offered from 1946 to 1973 in the Kruithuis in 's-Hertogenbosch. The training was intended to guide architects during the post-war reconstruction of churches. The leaders were Dom Hans van der Laan, his brother Nico van der Laan and C. Pouderoyen.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#9d8674",
+      "name": "stone"
+    },
+    {
+      "hex": "#6b6357",
+      "name": "umber"
+    },
+    {
+      "hex": "#464137",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#b0cbe7",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#212018",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#a4a8b0",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,61 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Kerk_Gennep_2010.jpg/1280px-Kerk_Gennep_2010.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Kerk_Gennep_2010.jpg/500px-Kerk_Gennep_2010.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/38/Kerk_Gennep_2010.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kerk_Gennep_2010.jpg",
+      "caption": "Church of Gennep after renovation, 2010",
+      "source": "Wikimedia Commons",
+      "artist": "LooiNL",
+      "date": "2010-07-28",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/20110628_Hora_Siccamasingel_202_%28San_Salvatorkerk%29_Groningen_NL.jpg/1280px-20110628_Hora_Siccamasingel_202_%28San_Salvatorkerk%29_Groningen_NL.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/20110628_Hora_Siccamasingel_202_%28San_Salvatorkerk%29_Groningen_NL.jpg/500px-20110628_Hora_Siccamasingel_202_%28San_Salvatorkerk%29_Groningen_NL.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d6/20110628_Hora_Siccamasingel_202_%28San_Salvatorkerk%29_Groningen_NL.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:20110628_Hora_Siccamasingel_202_(San_Salvatorkerk)_Groningen_NL.jpg",
+      "caption": "This is an image of a municipal monument in Groningen with number",
+      "source": "Wikimedia Commons",
+      "artist": "Wutsje / Wikimedia Commons / CC-BY-SA 3.0",
+      "date": "2011-06-28",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Stadhuis_Heusden.jpg/1280px-Stadhuis_Heusden.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Stadhuis_Heusden.jpg/500px-Stadhuis_Heusden.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/20/Stadhuis_Heusden.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Stadhuis_Heusden.jpg",
+      "caption": "City hall of Dutch municipality Heusden",
+      "source": "Wikimedia Commons",
+      "artist": "Original uploader was User:PietjeK at en.wikipedia",
+      "date": "original upload date",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "930"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Nuland%2C_l%27%C3%A9glise.JPG/1280px-Nuland%2C_l%27%C3%A9glise.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Nuland%2C_l%27%C3%A9glise.JPG/500px-Nuland%2C_l%27%C3%A9glise.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Nuland%2C_l%27%C3%A9glise.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nuland,_l%27%C3%A9glise.JPG",
+      "caption": "This is an image of a municipal monument in 's-Hertogenbosch with number",
+      "source": "Wikimedia Commons",
+      "artist": "Havang",
+      "date": "2007-08-18",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Bossche School",
@@ -62,7 +142,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2130795",
+      "url": "https://www.wikidata.org/wiki/Q2130795",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:01.711Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Bossche School",
+      "url": "https://en.wikipedia.org/wiki/Bossche_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:01.711Z"
+      }
+    }
+  ],
   "wikidata": "Q2130795",
   "wikipedia": "Bossche School",
   "popularity": 35,
@@ -70,5 +173,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.936Z"
 }

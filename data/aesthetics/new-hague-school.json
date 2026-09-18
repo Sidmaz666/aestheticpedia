@@ -17,7 +17,33 @@
   "summary": "The New Hague School (Dutch: Nieuwe Haagse School) was a Dutch architectural style in the interwar period characterised by its straight lines, its cubist shapes and its use of brick.",
   "description": "The New Hague School (Dutch: Nieuwe Haagse School) was a Dutch architectural style in the interwar period characterised by its straight lines, its cubist shapes and its use of brick. It shared its asymmetrical, cubist compositions with De Stijl, but was more traditional in its use of brick and roof tiles, like the Amsterdam School. The term was first used in 1920, by the Amsterdam School architect C. J. Blaauw. He mentions the style in connection to architects like Dirk Roosenburg, Herman van der Kloot Meijburg and Jan Wils. Hendrik Wouda can also be considered a part of the school.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5681ab",
+      "name": "slate"
+    },
+    {
+      "hex": "#7a6a58",
+      "name": "bronze"
+    },
+    {
+      "hex": "#97a8ba",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#9b896c",
+      "name": "stone"
+    },
+    {
+      "hex": "#dec095",
+      "name": "beige"
+    },
+    {
+      "hex": "#c1a681",
+      "name": "sand"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Raadhuis_Hilversum2022.jpg/1280px-Raadhuis_Hilversum2022.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Raadhuis_Hilversum2022.jpg/500px-Raadhuis_Hilversum2022.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/26/Raadhuis_Hilversum2022.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Raadhuis_Hilversum2022.jpg",
+      "caption": "Het Raadhuis van Hilversum van architect Willem Dudok in 2022",
+      "source": "Wikimedia Commons",
+      "artist": "Choinowski",
+      "date": "2022-05-06 13:11:34",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — New Hague School (architecture)",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2314870",
+      "url": "https://www.wikidata.org/wiki/Q2314870",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:21.366Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — New Hague School (architecture)",
+      "url": "https://en.wikipedia.org/wiki/New_Hague_School_(architecture)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:21.366Z"
+      }
+    }
+  ],
   "wikidata": "Q2314870",
   "wikipedia": "New Hague School (architecture)",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:57:21.366Z"
 }

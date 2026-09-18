@@ -17,7 +17,33 @@
   "summary": "The Bamboccianti were genre painters active in Rome from approximately 1625 until the end of the seventeenth century.",
   "description": "The Bamboccianti were genre painters active in Rome from approximately 1625 until the end of the seventeenth century. Most were Dutch and Flemish artists who brought with them to Italy existing traditions of depicting peasant subjects drawn from sixteenth-century Netherlandish art, and they generally created small cabinet paintings or etchings of the everyday life of the lower classes in Rome and its countryside.\n\nTypical subjects include food and beverage sellers, farmers and milkmaids at work, soldiers at rest and play, and beggars – or, as Salvator Rosa lamented in the mid‑seventeenth century, \"rogues, cheats, pickpockets, bands of drunkards and gluttons, scabby tobacconists, barbers, and other 'sordid' subjects.\" Despite their lowly subject matter, these works found favour among elite collectors and commanded high prices.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#231b14",
+      "name": "black"
+    },
+    {
+      "hex": "#553f31",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#705435",
+      "name": "umber"
+    },
+    {
+      "hex": "#998f6f",
+      "name": "stone"
+    },
+    {
+      "hex": "#aca799",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#846f4f",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,86 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Miel-carnaval-prado.jpg/1280px-Miel-carnaval-prado.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Miel-carnaval-prado.jpg/500px-Miel-carnaval-prado.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Miel-carnaval-prado.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Miel-carnaval-prado.jpg",
+      "caption": "Carnival in Rome",
+      "source": "Wikimedia Commons",
+      "artist": "Jan Miel",
+      "date": "1653 date QS:P571,+1653-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1687"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Pieter_van_Laer_-_Hunter_at_Rest.jpg/1280px-Pieter_van_Laer_-_Hunter_at_Rest.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Pieter_van_Laer_-_Hunter_at_Rest.jpg/500px-Pieter_van_Laer_-_Hunter_at_Rest.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/58/Pieter_van_Laer_-_Hunter_at_Rest.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pieter_van_Laer_-_Hunter_at_Rest.jpg",
+      "caption": "Hunter at Rest",
+      "source": "Wikimedia Commons",
+      "artist": "Pieter van Laer",
+      "date": "between 1628 and 1641 date QS:P571,+1650-00-00T00:00:00Z/7,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "993"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Jan_Both_-_Landscape_with_Morra_Players_%28The_Small_Limekiln%29.jpg/1280px-Jan_Both_-_Landscape_with_Morra_Players_%28The_Small_Limekiln%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Jan_Both_-_Landscape_with_Morra_Players_%28The_Small_Limekiln%29.jpg/500px-Jan_Both_-_Landscape_with_Morra_Players_%28The_Small_Limekiln%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/57/Jan_Both_-_Landscape_with_Morra_Players_%28The_Small_Limekiln%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jan_Both_-_Landscape_with_Morra_Players_(The_Small_Limekiln).jpg",
+      "caption": "Landscape with Morra Players (The Small Limekiln)",
+      "source": "Wikimedia Commons",
+      "artist": "Pieter van Laer / Jan Both",
+      "date": "1637",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "900"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Michiel_Sweerts_%E2%80%93_Roman_Streetscene_with_a_Young_Artist.jpg/1280px-Michiel_Sweerts_%E2%80%93_Roman_Streetscene_with_a_Young_Artist.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Michiel_Sweerts_%E2%80%93_Roman_Streetscene_with_a_Young_Artist.jpg/500px-Michiel_Sweerts_%E2%80%93_Roman_Streetscene_with_a_Young_Artist.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Michiel_Sweerts_%E2%80%93_Roman_Streetscene_with_a_Young_Artist.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Michiel_Sweerts_%E2%80%93_Roman_Streetscene_with_a_Young_Artist.jpg",
+      "caption": "Roman street scene with a a young artist drawing Bernini's \"Neptune and Triton\"",
+      "source": "Wikimedia Commons",
+      "artist": "Michiel Sweerts",
+      "date": "between 1646-1648 and",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "900"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Michelangelo_Cerquozzi_-_Soldiers_Playing_Dice_-_WGA4657.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/21/Michelangelo_Cerquozzi_-_Soldiers_Playing_Dice_-_WGA4657.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/21/Michelangelo_Cerquozzi_-_Soldiers_Playing_Dice_-_WGA4657.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Michelangelo_Cerquozzi_-_Soldiers_Playing_Dice_-_WGA4657.jpg",
+      "caption": "Soldiers Playing Dice",
+      "source": "Wikimedia Commons",
+      "artist": "Michelangelo Cerquozzi",
+      "date": "1630s date QS:P571,+1630-00-00T00:00:00Z/8",
+      "license": "Public domain",
+      "width": "850",
+      "height": "1077"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Karel_Dujardin_-_Les_Charlatans_italiens.jpg/1280px-Karel_Dujardin_-_Les_Charlatans_italiens.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Karel_Dujardin_-_Les_Charlatans_italiens.jpg/500px-Karel_Dujardin_-_Les_Charlatans_italiens.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Karel_Dujardin_-_Les_Charlatans_italiens.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Karel_Dujardin_-_Les_Charlatans_italiens.jpg",
+      "caption": "Les Charlatans italiens",
+      "source": "Wikimedia Commons",
+      "artist": "Karel Dujardin",
+      "date": "1657 date QS:P571,+1657-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1022"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Bamboccianti",
@@ -62,7 +167,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2344569",
+      "url": "https://www.wikidata.org/wiki/Q2344569",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:16.514Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Bamboccianti",
+      "url": "https://en.wikipedia.org/wiki/Bamboccianti",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:16.514Z"
+      }
+    }
+  ],
   "wikidata": "Q2344569",
   "wikipedia": "Bamboccianti",
   "popularity": 35,
@@ -70,5 +198,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:37:16.514Z"
 }

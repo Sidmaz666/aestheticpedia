@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Italy",
+  "geography": "Italy",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Gotico Angioino is a Gothic style of architecture found in southern Italy.",
   "description": "The Gotico Angioino is a Gothic style of architecture found in southern Italy. It is named after the Capetian House of Anjou and had been the style of the Kingdom of Sicily since 1266 and the Kingdom of Naples since 1302. It must not be confused with the Angevin Gothic of western France. The Capetian House of Anjou began with Charles I of Anjou, who had been given the County of Anjou in apanage by his brother, Louis IX of France. He was given the kingdom of Sicily as a fief by Pope Clement IV, as the popes wanted to finish the Hohenstaufen rule in Italy and to cut the junctions between the Holy Roman Empire and Sicily. Establishing his rule in Naples, he brought a large staff of courtiers and specialists along with himself.\n\nTherefore, the architectural style developed under his rule, was a combination of influences from the Crown land of France around Paris and Italian traditions.\n\nAmong the examples of this style are Lucera Cathedral in Apulia and the church Santa Maria a Marciano in the commune of Piana di Monte Verna in Campania. Naples has numerous churches built in the Gothic Angioino style. One of them, San Lorenzo Maggiore consists of a choir and ambulatory with ribbed vaults in \"Parisian\" Gothic style, and transept and nave with pointed arches but open sight into the woodwork of the roof, as it is frequent in Italian architecture.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#362d2d",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#544c45",
+      "name": "umber"
+    },
+    {
+      "hex": "#65615d",
+      "name": "umber 2"
+    },
+    {
+      "hex": "#161312",
+      "name": "black"
+    },
+    {
+      "hex": "#797875",
+      "name": "slate"
+    },
+    {
+      "hex": "#94908b",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,64 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Basilica_cattedrale_di_Santa_Maria_Assunta_%28Lucera%29.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/13/Basilica_cattedrale_di_Santa_Maria_Assunta_%28Lucera%29.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/13/Basilica_cattedrale_di_Santa_Maria_Assunta_%28Lucera%29.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Basilica_cattedrale_di_Santa_Maria_Assunta_(Lucera).JPG",
+      "caption": "Cattedrale van Lucera",
+      "source": "Wikimedia Commons",
+      "artist": "Maarten from Netherlands",
+      "date": "2005-09-07 16:35",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "600",
+      "height": "800"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Basilica_cattedrale_di_Santa_Maria_Assunta%2C_abside_%28Lucera%29.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Basilica_cattedrale_di_Santa_Maria_Assunta%2C_abside_%28Lucera%29.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Basilica_cattedrale_di_Santa_Maria_Assunta%2C_abside_%28Lucera%29.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Basilica_cattedrale_di_Santa_Maria_Assunta,_abside_(Lucera).JPG",
+      "caption": "Lucera, Basilica cattedrale di Santa Maria Assunta, interno.",
+      "source": "Wikimedia Commons",
+      "artist": "Maarten from Netherlands",
+      "date": "2005-09-07 17:55",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "600",
+      "height": "800"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/San_Lorenzo_Maggiore_di_Napoli_04.jpg/1280px-San_Lorenzo_Maggiore_di_Napoli_04.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/San_Lorenzo_Maggiore_di_Napoli_04.jpg/500px-San_Lorenzo_Maggiore_di_Napoli_04.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/San_Lorenzo_Maggiore_di_Napoli_04.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:San_Lorenzo_Maggiore_di_Napoli_04.jpg",
+      "caption": "San Lorenzo Maggiore, Naples",
+      "source": "Wikimedia Commons",
+      "artist": "Dominik Matus",
+      "date": "2017-04-04 16:54:19",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1925"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Interior_San_Lorenzo_Maggiore_01.JPG/1280px-Interior_San_Lorenzo_Maggiore_01.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Interior_San_Lorenzo_Maggiore_01.JPG/500px-Interior_San_Lorenzo_Maggiore_01.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/66/Interior_San_Lorenzo_Maggiore_01.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Interior_San_Lorenzo_Maggiore_01.JPG",
+      "caption": "Nápoles. San Lorenzo Maggiore. Cabecera.",
+      "source": "Wikimedia Commons",
+      "artist": "Miguel Hermoso Cuesta",
+      "date": "2013-06-17 15:24:07",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1920"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gotico Angioino",
@@ -62,7 +145,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q109840068",
+      "url": "https://www.wikidata.org/wiki/Q109840068",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:22.971Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gotico Angioino",
+      "url": "https://en.wikipedia.org/wiki/Gotico_Angioino",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:22.971Z"
+      }
+    }
+  ],
   "wikidata": "Q109840068",
   "wikipedia": "Gotico Angioino",
   "popularity": 35,
@@ -70,5 +176,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.881Z"
 }

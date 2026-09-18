@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Sweden",
+  "geography": "Sweden",
   "periodStart": "1920s",
   "periodEnd": "",
   "startYear": 1929,
@@ -17,7 +17,33 @@
   "summary": "Halmstadgruppen was a group of six artists that collectively followed and developed avant-garde modern art movements such as cubism, post-cubism, purist, futurist and surrealism at Halmstad in Halland County, Sweden.",
   "description": "Halmstadgruppen was a group of six artists that collectively followed and developed avant-garde modern art movements such as cubism, post-cubism, purist, futurist and surrealism at Halmstad in Halland County, Sweden. A permanent showroom in Mjellby, now Mjellby Art Museum in Halmstad was created to exhibit their art. Here an extensive collection of the Halmstadgruppen works are exhibited. The museum was founded in 1980 by Swedish art critic and museum director Viveka Bosson. She is the daughter of the late Erik Olson, one of the members in Halmstadgruppen. Bosson bought the former site of the Mjellby folkskola (elementary school) outside Halmstad in 1980, setting up Mjellby Art Museum and later donated it to the Halmstad Municipality in 1997.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0867a0",
+      "name": "denim blue"
+    },
+    {
+      "hex": "#87790b",
+      "name": "olive green"
+    },
+    {
+      "hex": "#baa689",
+      "name": "khaki"
+    },
+    {
+      "hex": "#283215",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#59570c",
+      "name": "sepia"
+    },
+    {
+      "hex": "#a08a57",
+      "name": "moss"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Mjellby_konstmuseum_2019.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Mjellby_konstmuseum_2019.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Mjellby_konstmuseum_2019.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mjellby_konstmuseum_2019.jpg",
+      "caption": "Mjellby konstmuseum",
+      "source": "Wikimedia Commons",
+      "artist": "Karlhenrikohlin",
+      "date": "2019-07-05",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "800",
+      "height": "539"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Halmstadgruppen",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q10516501",
+      "url": "https://www.wikidata.org/wiki/Q10516501",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:14.228Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Halmstadgruppen",
+      "url": "https://en.wikipedia.org/wiki/Halmstadgruppen",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:14.228Z"
+      }
+    }
+  ],
   "wikidata": "Q10516501",
   "wikipedia": "Halmstadgruppen",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.865Z"
 }

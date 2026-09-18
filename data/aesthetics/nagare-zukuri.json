@@ -17,7 +17,33 @@
   "summary": "The nagare-zukuri (流造; streamlined roof style) or nagare hafu-zukuri (流破風造; streamlined gabled style) is a traditional Shinto shrine architectural style characterized by a very asymmetrical gabled roof (kirizuma-yane (切妻屋根)) projecting outwards on one of the non-gabled sides, abo",
   "description": "The nagare-zukuri (流造; streamlined roof style) or nagare hafu-zukuri (流破風造; streamlined gabled style) is a traditional Shinto shrine architectural style characterized by a very asymmetrical gabled roof (kirizuma-yane (切妻屋根)) projecting outwards on one of the non-gabled sides, above the main entrance, to form a portico (see photo).  This is the feature which gives it its name. It is the most common style among shrines all over the country. That the building has its main entrance on the side which runs parallel to the roof's ridge (non gabled-side) makes it belong to the hirairi or hirairi-zukuri (平入・平入造) style.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#201f12",
+      "name": "black"
+    },
+    {
+      "hex": "#58331c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#66513a",
+      "name": "umber"
+    },
+    {
+      "hex": "#2f3a2e",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#6e6c61",
+      "name": "umber 2"
+    },
+    {
+      "hex": "#8e877a",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,48 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Ujigami_jinja08s3s4500.jpg/1280px-Ujigami_jinja08s3s4500.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Ujigami_jinja08s3s4500.jpg/500px-Ujigami_jinja08s3s4500.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/57/Ujigami_jinja08s3s4500.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ujigami_jinja08s3s4500.jpg",
+      "caption": "Ujigami-jinja 's Main Shrine (Japan's National Treasure) in Uji , Kyoto prefecture , Japan . Ujigami-jinja was registered as part of the UNESCO World Heritage Site \"Historic monuments of ancient Kyoto\".",
+      "source": "Wikimedia Commons",
+      "artist": "663highland",
+      "date": "2010-11-27",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Udamikumari_Shr_Kami_detail.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Udamikumari_Shr_Kami_detail.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Udamikumari_Shr_Kami_detail.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Udamikumari_Shr_Kami_detail.jpg",
+      "caption": "Udamikumari Shrine Kamigu The main shrine of Udamikumari Shrine Kamigu (left) is jointed 3 shinto shrines in the Kasuga style, built in 1320 (the end of the Kamakura period), had Japanese national treasure status. Massha Kasuga Shrine (center) in the Kasuga style, built in the mi",
+      "source": "Wikimedia Commons",
+      "artist": "Udamikumari_Shr_Kami.jpg : Tawashi2006 derivative work: Urashimataro ( talk )",
+      "date": "2009-12-05 07:18",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "693",
+      "height": "526"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/500px-Himeji_model7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Himeji_model7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Himeji_model7.JPG",
+      "caption": "Himeji model7",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Nagare-zukuri",
@@ -62,7 +129,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q210684",
+      "url": "https://www.wikidata.org/wiki/Q210684",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:14.448Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Nagare-zukuri",
+      "url": "https://en.wikipedia.org/wiki/Nagare-zukuri",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:14.448Z"
+      }
+    }
+  ],
   "wikidata": "Q210684",
   "wikipedia": "Nagare-zukuri",
   "popularity": 35,
@@ -70,5 +160,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:56:14.448Z"
 }

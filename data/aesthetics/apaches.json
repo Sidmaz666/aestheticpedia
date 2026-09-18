@@ -9,17 +9,43 @@
   "establishment": "community_subculture",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
-  "periodStart": "",
+  "origin": "French Third Republic",
+  "geography": "French Third Republic",
+  "periodStart": "Belle Époque",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 1871,
   "endYear": null,
-  "era": "",
+  "era": "1870s",
   "summary": "Les Apaches (French: [lez‿apaʃ]) was a Parisian Belle Époque violent criminal underworld subculture of early 20th-century hooligans, night muggers, street gangs and other criminals.",
   "description": "Les Apaches (French: [lez‿apaʃ]) was a Parisian Belle Époque violent criminal underworld subculture of early 20th-century hooligans, night muggers, street gangs and other criminals. After news of their notoriety spread over Europe, the term was used to describe violent street crime in other countries as well; for example, \"Russian apaches\".",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#514b3f",
+      "name": "umber"
+    },
+    {
+      "hex": "#69675e",
+      "name": "umber 2"
+    },
+    {
+      "hex": "#8a8376",
+      "name": "taupe"
+    },
+    {
+      "hex": "#ada28f",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#cfc3ac",
+      "name": "beige"
+    },
+    {
+      "hex": "#e1e0d9",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,48 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Apachesvspolicebastille.jpg/1280px-Apachesvspolicebastille.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Apachesvspolicebastille.jpg/500px-Apachesvspolicebastille.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/17/Apachesvspolicebastille.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Apachesvspolicebastille.jpg",
+      "caption": "\"The Prowlers Again! An Encounter Between Apaches and Police Officers on the Place de la Bastille.\" Illustrated Supplement to \"Le Petit Journal\", August 14, C.E.1904.",
+      "source": "Wikimedia Commons",
+      "artist": "Le Petit Journal",
+      "date": "1904-08-14",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "885"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Le_Petit_Journal_-_Apache.jpg/1280px-Le_Petit_Journal_-_Apache.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Le_Petit_Journal_-_Apache.jpg/500px-Le_Petit_Journal_-_Apache.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/Le_Petit_Journal_-_Apache.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Le_Petit_Journal_-_Apache.jpg",
+      "caption": "Cover page of \"Le Petit Journal\", 20 0ctober 1907. \"L'apache est la plaie de Paris. Plus de 30.000 rôdeurs contre 8.000 sergents de ville.\"",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1907-10-20",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1795"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Apache_revolver.jpg/1280px-Apache_revolver.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Apache_revolver.jpg/500px-Apache_revolver.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/Apache_revolver.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Apache_revolver.jpg",
+      "caption": "secure.wikimedia.org/wikipedia/en/wiki/Apache_revolver Revolver \"casse-tete\" Liége, 1875",
+      "source": "Wikimedia Commons",
+      "artist": "Latente Flickr",
+      "date": "2011-08-19 12:02",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "822"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Apaches (subculture)",
@@ -64,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2747828",
+      "url": "https://www.wikidata.org/wiki/Q2747828",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:04.854Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Apaches (subculture)",
+      "url": "https://en.wikipedia.org/wiki/Apaches_(subculture)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:04.854Z"
+      }
+    }
+  ],
   "wikidata": "Q2747828",
   "wikipedia": "Apaches (subculture)",
   "popularity": 35,
@@ -72,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.737Z"
 }

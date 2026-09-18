@@ -17,7 +17,33 @@
   "summary": "Shinmei-zukuri (神明造) is an ancient Japanese architectural style typical of Ise Grand Shrine's honden, the holiest of Shinto shrines.",
   "description": "Shinmei-zukuri (神明造) is an ancient Japanese architectural style typical of Ise Grand Shrine's honden, the holiest of Shinto shrines. It is most common in Mie Prefecture.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5b3821",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#6b4e36",
+      "name": "umber"
+    },
+    {
+      "hex": "#8b8173",
+      "name": "taupe"
+    },
+    {
+      "hex": "#80694f",
+      "name": "bronze"
+    },
+    {
+      "hex": "#a8998e",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#25160b",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,57 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/IseShrineBuilding.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1f/IseShrineBuilding.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1f/IseShrineBuilding.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:IseShrineBuilding.jpg",
+      "caption": "IseShrineBuilding",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "677",
+      "height": "459"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Ise_Shrine_Meizukuri.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Ise_Shrine_Meizukuri.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Ise_Shrine_Meizukuri.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ise_Shrine_Meizukuri.jpg",
+      "caption": "Front and Side View of the Honden at the Ise Shrine",
+      "source": "Wikimedia Commons",
+      "artist": "Katsukichi Hattori",
+      "date": "Published on October 5, 1933",
+      "license": "Public domain",
+      "width": "896",
+      "height": "1257"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/500px-Himeji_model7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Himeji_model7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Himeji_model7.JPG",
+      "caption": "Himeji model7",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Amaterasu_cave_crop.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Amaterasu_cave_crop.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Amaterasu_cave_crop.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Amaterasu_cave_crop.jpg",
+      "caption": "Japanese Sun goddess Amaterasu emerging from a cave. (This is a part of the full artwork).",
+      "source": "Wikimedia Commons",
+      "artist": "Utagawa Kunisada (歌川国貞; b. 1786, d. 1865)",
+      "date": "1856",
+      "license": "Public domain",
+      "width": "880",
+      "height": "1688"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Shinmei-zukuri",
@@ -62,7 +138,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q930545",
+      "url": "https://www.wikidata.org/wiki/Q930545",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:20.431Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Shinmei-zukuri",
+      "url": "https://en.wikipedia.org/wiki/Shinmei-zukuri",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:20.431Z"
+      }
+    }
+  ],
   "wikidata": "Q930545",
   "wikipedia": "Shinmei-zukuri",
   "popularity": 35,
@@ -70,5 +169,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:05:20.431Z"
 }

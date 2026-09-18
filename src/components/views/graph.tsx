@@ -73,6 +73,9 @@ export function GraphView({ nodes: rawNodes, links: rawLinks }: { nodes: GraphNo
     const colAccent = styles.getPropertyValue('--accent').trim() || '#e4ba6e'
     const colBg = styles.getPropertyValue('--bg').trim() || '#000'
     const radius = (n: N) => 2.5 + Math.sqrt(n.degree) * 1.6
+    // Label only the best-connected hubs at overview zoom; reveal more as the user zooms in.
+    const byDegree = [...nodes].sort((a, b) => b.degree - a.degree)
+    const labelMin = (k: number) => byDegree[Math.min(byDegree.length - 1, Math.round(35 * k * k))]?.degree ?? 0
 
     const resize = () => {
       w = wrap.clientWidth
@@ -146,9 +149,18 @@ export function GraphView({ nodes: rawNodes, links: rawLinks }: { nodes: GraphNo
       ctx.fillStyle = colFg
       ctx.textAlign = 'center'
       ctx.font = `${12 / k}px ui-sans-serif, system-ui, sans-serif`
-      for (const n of nodes) {
-        const show = hl ? hl.has(n.slug) : n.degree >= 14 || k > 1.6
+      const min = labelMin(k)
+      const placed: [number, number, number, number][] = []
+      for (const n of byDegree) {
+        const show = hl ? hl.has(n.slug) : n.degree >= min
         if (!show) continue
+        const tw = ctx.measureText(n.name).width
+        const bx = n.x! - tw / 2
+        const by = n.y! - radius(n) - 16 / k
+        const bh = 14 / k
+        // Skip labels that would overlap one already drawn.
+        if (!hl && placed.some(([x, y, w, h]) => bx < x + w && bx + tw > x && by < y + h && by + bh > y)) continue
+        placed.push([bx, by, tw, bh])
         ctx.fillText(n.name, n.x!, n.y! - radius(n) - 4 / k)
       }
     }

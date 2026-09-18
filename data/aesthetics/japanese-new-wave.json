@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Japan",
+  "geography": "Japan",
   "periodStart": "1950s",
   "periodEnd": "1970s",
   "startYear": 1956,
@@ -39,7 +39,50 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/05cd1ba7-67d1-96c5-0e78-2eb4114b65e7/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/05cd1ba7-67d1-96c5-0e78-2eb4114b65e7/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/05cd1ba7-67d1-96c5-0e78-2eb4114b65e7/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/77333",
+      "caption": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series \"Thirty-Six Views of Mount Fuji (Fugaku sanjurokkei)\", 1830/33",
+      "source": "Art Institute of Chicago",
+      "artist": "Katsushika Hokusai 葛飾 北斎",
+      "date": "1830/33",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "583"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/2fa24f36-cc26-41b6-4b49-12bba2a6c1c8/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2fa24f36-cc26-41b6-4b49-12bba2a6c1c8/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2fa24f36-cc26-41b6-4b49-12bba2a6c1c8/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/89503",
+      "caption": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series \"Thirty-Six Views of Mount Fuji (Fugaku sanjurokkei)\", 1830/33",
+      "source": "Art Institute of Chicago",
+      "artist": "Katsushika Hokusai 葛飾 北斎",
+      "date": "1830/33",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "583"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b3974542-b9b4-7568-fc4b-966738f61d78/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b3974542-b9b4-7568-fc4b-966738f61d78/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b3974542-b9b4-7568-fc4b-966738f61d78/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/24645",
+      "caption": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series \"Thirty-Six Views of Mount Fuji (Fugaku sanjūrokkei)\", 1830/33",
+      "source": "Art Institute of Chicago",
+      "artist": "Katsushika Hokusai 葛飾 北斎 ",
+      "date": "1830/33",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "578"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Japanese New Wave",
@@ -62,7 +105,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3175210",
+      "url": "https://www.wikidata.org/wiki/Q3175210",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:08.529Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Japanese New Wave",
+      "url": "https://en.wikipedia.org/wiki/Japanese_New_Wave",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:08.529Z"
+      }
+    }
+  ],
   "wikidata": "Q3175210",
   "wikipedia": "Japanese New Wave",
   "popularity": 35,
@@ -70,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.679Z"
 }

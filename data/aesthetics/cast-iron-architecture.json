@@ -19,7 +19,33 @@
   "summary": "Cast-iron architecture is the use of cast iron in buildings and objects, ranging from bridges and markets to warehouses, balconies and fences.",
   "description": "Cast-iron architecture is the use of cast iron in buildings and objects, ranging from bridges and markets to warehouses, balconies and fences. Refinements developed during the Industrial Revolution in the late 18th century made cast iron relatively cheap and suitable for a range of uses, and by the mid-19th century it was common as a structural material (and sometimes for entire buildings), and particularly for elaborately patterned architectural elements such as fences and balconies, until it fell out of fashion after 1900 as a decorative material, and was replaced by modern steel and concrete for structural purposes.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1e9bd4",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#686b5d",
+      "name": "umber"
+    },
+    {
+      "hex": "#ececec",
+      "name": "paper white"
+    },
+    {
+      "hex": "#4c4d40",
+      "name": "graphite"
+    },
+    {
+      "hex": "#22231f",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#8c8c88",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,143 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/NYC_SoHo_Green_Street.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9e/NYC_SoHo_Green_Street.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9e/NYC_SoHo_Green_Street.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:NYC_SoHo_Green_Street.jpg",
+      "caption": "Cast-iron architecture in Greene Street SoHO , Manhattan , New York City , New York , USA",
+      "source": "Wikimedia Commons",
+      "artist": "Photo: Andreas Praefcke",
+      "date": "2003-02",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "901",
+      "height": "759"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pont_des_Arts_and_the_Palais_du_Louvre%2C_Paris_July_2013.jpg/1280px-Pont_des_Arts_and_the_Palais_du_Louvre%2C_Paris_July_2013.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pont_des_Arts_and_the_Palais_du_Louvre%2C_Paris_July_2013.jpg/500px-Pont_des_Arts_and_the_Palais_du_Louvre%2C_Paris_July_2013.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Pont_des_Arts_and_the_Palais_du_Louvre%2C_Paris_July_2013.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pont_des_Arts_and_the_Palais_du_Louvre,_Paris_July_2013.jpg",
+      "caption": "The famous \"love lock\" bridge over the Seine. The building in the background is part of the Louvre.",
+      "source": "Wikimedia Commons",
+      "artist": "Joe deSousa",
+      "date": "2013-07-07 05:09",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "852"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Pontcysyllte_aqueduct_arp.jpg/1280px-Pontcysyllte_aqueduct_arp.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Pontcysyllte_aqueduct_arp.jpg/500px-Pontcysyllte_aqueduct_arp.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Pontcysyllte_aqueduct_arp.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pontcysyllte_aqueduct_arp.jpg",
+      "caption": "The Pontcysyllte Aqueduct on the Llangollen Canal, Denbighshire, Wales.",
+      "source": "Wikimedia Commons",
+      "artist": "Adrian Pingstone",
+      "date": "2008-06-30",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "945"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bourse_de_commerce%2C_Halle_au_bl%C3%A9_%28ancienne%29_-_Vue_d%27ensemble_en_cours_de_construction_-_Paris_01_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00012727.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bourse_de_commerce%2C_Halle_au_bl%C3%A9_%28ancienne%29_-_Vue_d%27ensemble_en_cours_de_construction_-_Paris_01_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00012727.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bourse_de_commerce%2C_Halle_au_bl%C3%A9_%28ancienne%29_-_Vue_d%27ensemble_en_cours_de_construction_-_Paris_01_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00012727.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bourse_de_commerce,_Halle_au_bl%C3%A9_(ancienne)_-_Vue_d%27ensemble_en_cours_de_construction_-_Paris_01_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00012727.jpg",
+      "caption": "Vue d'ensemble en cours de construction",
+      "source": "Wikimedia Commons",
+      "artist": "Jean-Eugène Durand",
+      "date": "before 1905 date QS:P571,+1905-00-00T00:00:00Z/7,P1326,+1905",
+      "license": "Public domain",
+      "width": "703",
+      "height": "512"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Ha%27penny_Bridge%2C_Dublin.jpg/1280px-Ha%27penny_Bridge%2C_Dublin.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Ha%27penny_Bridge%2C_Dublin.jpg/500px-Ha%27penny_Bridge%2C_Dublin.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ha%27penny_Bridge%2C_Dublin.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ha%27penny_Bridge,_Dublin.jpg",
+      "caption": "Ha'penny Bridge",
+      "source": "Wikimedia Commons",
+      "artist": "Katina Rogers",
+      "date": "2010-11-25 08:47:22",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Bastions_C_and_D_of_the_Keep_at_the_Royal_Naval_Dockyard_on_Ireland_Island%2C_Bermuda_with_two_6_inch_RBL_Mk_VII.jpg/1280px-Bastions_C_and_D_of_the_Keep_at_the_Royal_Naval_Dockyard_on_Ireland_Island%2C_Bermuda_with_two_6_inch_RBL_Mk_VII.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Bastions_C_and_D_of_the_Keep_at_the_Royal_Naval_Dockyard_on_Ireland_Island%2C_Bermuda_with_two_6_inch_RBL_Mk_VII.jpg/500px-Bastions_C_and_D_of_the_Keep_at_the_Royal_Naval_Dockyard_on_Ireland_Island%2C_Bermuda_with_two_6_inch_RBL_Mk_VII.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Bastions_C_and_D_of_the_Keep_at_the_Royal_Naval_Dockyard_on_Ireland_Island%2C_Bermuda_with_two_6_inch_RBL_Mk_VII.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bastions_C_and_D_of_the_Keep_at_the_Royal_Naval_Dockyard_on_Ireland_Island,_Bermuda_with_two_6_inch_RBL_Mk_VII.jpg",
+      "caption": "Bastions C and D of the Keep (fort) at the Royal Naval Dockyard on Ireland Island , Bermuda with two 6 inch RBL Mk VII . The Commissioner's House is visible atop the Keep.",
+      "source": "Wikimedia Commons",
+      "artist": "Seán Pòl Ó Creachmhaoil",
+      "date": "2011-08-25",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Arden_House%2C_Leamington_Spa.jpg/1280px-Arden_House%2C_Leamington_Spa.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Arden_House%2C_Leamington_Spa.jpg/500px-Arden_House%2C_Leamington_Spa.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Arden_House%2C_Leamington_Spa.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Arden_House,_Leamington_Spa.jpg",
+      "caption": "Arden House And Attached Railings .mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:bor",
+      "source": "Wikimedia Commons",
+      "artist": "Fitzsimons",
+      "date": "2019-03-19 12:27:08",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "720"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Kreuzberg_Viktoria_Denkmal_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/65/Kreuzberg_Viktoria_Denkmal_-_panoramio.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/65/Kreuzberg_Viktoria_Denkmal_-_panoramio.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kreuzberg_Viktoria_Denkmal_-_panoramio.jpg",
+      "caption": "Kreuzberg Viktoria Denkmal",
+      "source": "Wikimedia Commons",
+      "artist": "Peter Dargatz",
+      "date": "6 February 2011 (original upload date)",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "800",
+      "height": "1200"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Brighton_Royal_kitchen_Nash%27s_Views_edited.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Brighton_Royal_kitchen_Nash%27s_Views_edited.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Brighton_Royal_kitchen_Nash%27s_Views_edited.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Brighton_Royal_kitchen_Nash%27s_Views_edited.jpg",
+      "caption": "Brighton Royal kitchen Nash's Views edited",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "1000",
+      "height": "737"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Sayner_H%C3%BCtte%2C_Gie%C3%9Fhalle%2C_Blick_zum_Hochofen.jpg/1280px-Sayner_H%C3%BCtte%2C_Gie%C3%9Fhalle%2C_Blick_zum_Hochofen.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Sayner_H%C3%BCtte%2C_Gie%C3%9Fhalle%2C_Blick_zum_Hochofen.jpg/500px-Sayner_H%C3%BCtte%2C_Gie%C3%9Fhalle%2C_Blick_zum_Hochofen.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/86/Sayner_H%C3%BCtte%2C_Gie%C3%9Fhalle%2C_Blick_zum_Hochofen.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sayner_H%C3%BCtte,_Gie%C3%9Fhalle,_Blick_zum_Hochofen.jpg",
+      "caption": "Das Innere der Gießhalle mit dem Tragwerk aus Gusseisen.",
+      "source": "Wikimedia Commons",
+      "artist": "Rolf Kranz",
+      "date": "2019-04-19 14:36:21",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1537"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Cast-iron architecture",
@@ -64,7 +226,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q900557",
+      "url": "https://www.wikidata.org/wiki/Q900557",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:09.965Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cast-iron architecture",
+      "url": "https://en.wikipedia.org/wiki/Cast-iron_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:09.965Z"
+      }
+    }
+  ],
   "wikidata": "Q900557",
   "wikipedia": "Cast-iron architecture",
   "popularity": 35,
@@ -72,5 +257,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:40:09.965Z"
 }

@@ -19,7 +19,33 @@
   "summary": "Drug culture is a set of social practices, values, norms, and symbols associated with recreational drug use.",
   "description": "Drug culture is a set of social practices, values, norms, and symbols associated with recreational drug use. The history of recreational drug use goes back to prehistory, though drug culture rose to prominence as a term through the psychedelic movement and counterculture of the 1960s.\n\nDrug subcultures are groups of people united by a common understanding of the meaning, value, and risks of the incorporation into one's life of the drug(s) in question. Such unity can take many forms, from friends who take the drug together, possibly obeying certain rules of etiquette, groups banding together to help each other obtain drugs and avoid arrest, to full-scale political movements for the reform of drug laws. The sum of these parts can be considered an individual drug's \"culture\". They may be focused on a single drug, or endorse polydrug use.\n\nMany artists, writers, and musicians have used various drugs to facilitate or enhance their creativity. Writers have explored their influence on human life in general and particularly on the creative process. There are many writings that portray drug culture. Hunter S. Thompson's 1971 novel Fear and Loathing in Las Vegas employs multiple drug use as a major theme and provides an example of the drug culture of the 1960s.\n\nAfter various drug cultures came to prominence during the 1960s, 1980s and early 2000s, the internet provided a new location and medium where drug cultures could be born and propagate. Technologies like Tor were able to offer anonymous website hosting and browsing, which were used for the creation of the darknet market SilkRoad, the first of many to be used in the sale of psychoactive substances and other illegal goods. There are YouTube channels devoted to recreational drug use and harm reduction, with the most popular being PsychedSubstance. Except for forums (like Blue Light) where individuals can post and discuss the properties and experiences of psychoactive substances, there are websites and organizations specifically created to serve as encyclopedias of psychoactive drugs and drug culture, such as Erowid and PsychonautWiki.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#140c0e",
+      "name": "black"
+    },
+    {
+      "hex": "#2b2422",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#5f1a22",
+      "name": "burgundy"
+    },
+    {
+      "hex": "#5a4b42",
+      "name": "umber"
+    },
+    {
+      "hex": "#8a2c32",
+      "name": "burnt sienna"
+    },
+    {
+      "hex": "#725f54",
+      "name": "umber 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,22 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Ganja_Smoking_-_Gangasagar_Fair_Transit_Camp_-_Kolkata_2013-01-12_2646.JPG/1280px-Ganja_Smoking_-_Gangasagar_Fair_Transit_Camp_-_Kolkata_2013-01-12_2646.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Ganja_Smoking_-_Gangasagar_Fair_Transit_Camp_-_Kolkata_2013-01-12_2646.JPG/500px-Ganja_Smoking_-_Gangasagar_Fair_Transit_Camp_-_Kolkata_2013-01-12_2646.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Ganja_Smoking_-_Gangasagar_Fair_Transit_Camp_-_Kolkata_2013-01-12_2646.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ganja_Smoking_-_Gangasagar_Fair_Transit_Camp_-_Kolkata_2013-01-12_2646.JPG",
+      "caption": "Photographed in Kolkata.",
+      "source": "Wikimedia Commons",
+      "artist": "Biswarup Ganguly",
+      "date": "2013-01-12 09:14:29",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "851"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Drug culture",
@@ -64,7 +105,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2389669",
+      "url": "https://www.wikidata.org/wiki/Q2389669",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:24.645Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Drug culture",
+      "url": "https://en.wikipedia.org/wiki/Drug_culture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:24.645Z"
+      }
+    }
+  ],
   "wikidata": "Q2389669",
   "wikipedia": "Drug culture",
   "popularity": 35,
@@ -72,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:43:24.645Z"
 }

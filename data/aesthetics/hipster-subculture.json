@@ -7,17 +7,43 @@
   "establishment": "community_subculture",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
-  "periodStart": "",
+  "origin": "United States",
+  "geography": "United States",
+  "periodStart": "1940s",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 1940,
   "endYear": null,
-  "era": "",
+  "era": "1940s",
   "summary": "The terms hipster or hepcat, as used in the 1940s, referred to aficionados of jump blues and jazz, in particular bebop, which became popular in the early 1940s and later into the 1950s being associated with rock and roll and rhythm and blues fans or artists.",
   "description": "The terms hipster or hepcat, as used in the 1940s, referred to aficionados of jump blues and jazz, in particular bebop, which became popular in the early 1940s and later into the 1950s being associated with rock and roll and rhythm and blues fans or artists. The hipster subculture adopted the lifestyle of the jazz musician, including some or all of the following features: Conk hairstyles, loose fitting or oversize suits with loud colors, jive talk slang, use of tobacco, cannabis, and other recreational drugs, relaxed attitude, love for jazz or jump blues music, and styles of swing dancing, especially Lindy hop.\n\nThe zoot suit was the popular style amongst hepcats. It incorporated baggy or oversize suits sometimes with loud colors, thick chalk stripes, floppy hats, and long watch chains. Many zoot suiters would often wear a fedora or pork pie hat, color-coordinated with the suit. Occasionally, they would have a long feather on the fedora or pork pie hat as decoration.\n\nWhen conversing, hepcats would communicate in jive talk. Jive talk (also known as Harlem jive or simply Jive) is an African-American Vernacular English slang or vocabulary that was developed in urban African American communities. It was adopted more widely in African-American society and then later into the mainstream. This style of English dialect peaked in the 1940s.\n\nIn 1938, jazz bandleader and singer Cab Calloway published a small glossary, \"Hepster's Dictionary,\" the first dictionary by an African-American. This dictionary was specified for jive talk and other phrases that were popular amongst African-American youth.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#424242",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#575757",
+      "name": "graphite"
+    },
+    {
+      "hex": "#212121",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#6f6f6f",
+      "name": "slate"
+    },
+    {
+      "hex": "#898989",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a4a4a4",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Portrait_of_Thelonious_Monk%2C_Howard_McGhee%2C_Roy_Eldridge%2C_and_Teddy_Hill%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/da/Portrait_of_Thelonious_Monk%2C_Howard_McGhee%2C_Roy_Eldridge%2C_and_Teddy_Hill%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/da/Portrait_of_Thelonious_Monk%2C_Howard_McGhee%2C_Roy_Eldridge%2C_and_Teddy_Hill%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Thelonious_Monk,_Howard_McGhee,_Roy_Eldridge,_and_Teddy_Hill,_Minton%27s_Playhouse,_New_York,_N.Y.,_ca._Sept._1947.jpg",
+      "caption": "Portrait of Thelonious Monk, Howard McGhee, Roy Eldridge, and Teddy Hill, Minton's Playhouse, New York, N.Y., ca. Sept. 1947",
+      "source": "Wikimedia Commons",
+      "artist": "William P. Gottlieb",
+      "date": "1947",
+      "license": "Public domain",
+      "width": "744",
+      "height": "800"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Hipster (1940s subculture)",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4866582",
+      "url": "https://www.wikidata.org/wiki/Q4866582",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:10.923Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Hipster (1940s subculture)",
+      "url": "https://en.wikipedia.org/wiki/Hipster_(1940s_subculture)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:10.923Z"
+      }
+    }
+  ],
   "wikidata": "Q4866582",
   "wikipedia": "Hipster (1940s subculture)",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.836Z"
 }

@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q29385255",
+      "url": "https://www.wikidata.org/wiki/Q29385255",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:57.468Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Calligraphic Galleon",
+      "url": "https://en.wikipedia.org/wiki/Calligraphic_Galleon",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:57.468Z"
+      }
+    }
+  ],
   "wikidata": "Q29385255",
   "wikipedia": "Calligraphic Galleon",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:39:57.468Z"
 }

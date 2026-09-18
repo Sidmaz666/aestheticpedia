@@ -39,7 +39,22 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/9545664f-3029-da19-dc4b-a1670454a05c/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/9545664f-3029-da19-dc4b-a1670454a05c/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/9545664f-3029-da19-dc4b-a1670454a05c/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/41315",
+      "caption": "At the Circus: Work in the Ring, 1899",
+      "source": "Art Institute of Chicago",
+      "artist": "Henri de Toulouse-Lautrec",
+      "date": "1899",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "574"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Chip work",
@@ -62,7 +77,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q55078719",
+      "url": "https://www.wikidata.org/wiki/Q55078719",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:08.909Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Chip work",
+      "url": "https://en.wikipedia.org/wiki/Chip_work",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:08.909Z"
+      }
+    }
+  ],
   "wikidata": "Q55078719",
   "wikipedia": "Chip work",
   "popularity": 35,
@@ -70,5 +108,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:41:08.909Z"
 }

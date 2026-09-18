@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Germany",
+  "geography": "Germany",
   "periodStart": "16th century",
   "periodEnd": "17th century",
   "startYear": 1500,
@@ -17,7 +17,33 @@
   "summary": "The German Renaissance, part of the Northern Renaissance, was a cultural and artistic movement that spread among German thinkers in the 15th and 16th centuries, which developed from the Italian Renaissance.",
   "description": "The German Renaissance, part of the Northern Renaissance, was a cultural and artistic movement that spread among German thinkers in the 15th and 16th centuries, which developed from the Italian Renaissance. Many areas of the arts and sciences were influenced, notably by the spread of Renaissance humanism to the various German states and principalities. There were many advances made in the fields of architecture, the arts, and the sciences. Germany produced two developments that were to dominate the 16th century all over Europe: printing and the Protestant Reformation.\n\nOne of the most important German humanists was Konrad Celtis (1459–1508). Celtis studied at Cologne and Heidelberg, and later travelled throughout Italy collecting Latin and Greek manuscripts. Heavily influenced by Tacitus, he used the Germania to introduce German history and geography. Eventually he devoted his time to poetry, in which he praised Germany in Latin. Another important figure was Johann Reuchlin (1455–1522) who studied in various places in Italy and later taught Greek. He studied the Hebrew language, aiming to purify Christianity, but encountered resistance from the church.\n\nThe most significant German Renaissance artist is Albrecht Dürer especially known for his printmaking in woodcut and engraving, which spread all over Europe, drawings, and painted portraits.  Important architecture of this period includes the Landshut Residence, Heidelberg Castle, the Augsburg Town Hall as well as the Antiquarium of the Munich Residenz in Munich, the largest Renaissance hall north of the Alps.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#d6b379",
+      "name": "tan"
+    },
+    {
+      "hex": "#463c39",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#be8c58",
+      "name": "camel"
+    },
+    {
+      "hex": "#aa9d98",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#9fbddd",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#735a35",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,145 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/1280px-Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/500px-Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "caption": "Vitruvian Man",
+      "source": "Wikimedia Commons",
+      "artist": "Leonardo da Vinci",
+      "date": "circa 1492 date QS:P571,+1492-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1740"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Landshut_-_Stadtresidenz_Landshut.jpg/1280px-Landshut_-_Stadtresidenz_Landshut.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Landshut_-_Stadtresidenz_Landshut.jpg/500px-Landshut_-_Stadtresidenz_Landshut.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/13/Landshut_-_Stadtresidenz_Landshut.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Landshut_-_Stadtresidenz_Landshut.jpg",
+      "caption": "Die Stadtresidenz Landshut mit Tanz IV von Robert Schad",
+      "source": "Wikimedia Commons",
+      "artist": "Marek Śliwecki",
+      "date": "2014-12-13 09:09:53",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1064"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Heidelberg_-_Heidelberg_Schloss_2015-09-11_19-23-06.JPG/1280px-Heidelberg_-_Heidelberg_Schloss_2015-09-11_19-23-06.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Heidelberg_-_Heidelberg_Schloss_2015-09-11_19-23-06.JPG/500px-Heidelberg_-_Heidelberg_Schloss_2015-09-11_19-23-06.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/78/Heidelberg_-_Heidelberg_Schloss_2015-09-11_19-23-06.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Heidelberg_-_Heidelberg_Schloss_2015-09-11_19-23-06.JPG",
+      "caption": "Schloss Heidelberg",
+      "source": "Wikimedia Commons",
+      "artist": "Photographs by Radosław Drożdżewski (User:Zwiadowca21)",
+      "date": "Taken on 11 September 2015, 19:23:06",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1608"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Schloss_Johannisberg_%28Aschaffenburg%29_II.jpg/1280px-Schloss_Johannisberg_%28Aschaffenburg%29_II.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Schloss_Johannisberg_%28Aschaffenburg%29_II.jpg/500px-Schloss_Johannisberg_%28Aschaffenburg%29_II.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Schloss_Johannisberg_%28Aschaffenburg%29_II.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Schloss_Johannisberg_(Aschaffenburg)_II.jpg",
+      "caption": "Johannisburg Castle in Aschaffenburg, seen from the northwest, in the near of the Pompejanum",
+      "source": "Wikimedia Commons",
+      "artist": "Jörg Braukmann",
+      "date": "2019-11-09 15:14:18",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "748"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/The_Town_Hall_of_Augsburg.jpg/1280px-The_Town_Hall_of_Augsburg.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/The_Town_Hall_of_Augsburg.jpg/500px-The_Town_Hall_of_Augsburg.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7f/The_Town_Hall_of_Augsburg.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Town_Hall_of_Augsburg.jpg",
+      "caption": "The Town Hall of Augsburg in April 2010.",
+      "source": "Wikimedia Commons",
+      "artist": "High Contrast",
+      "date": "2010-04",
+      "license": "CC BY 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+      "width": "1280",
+      "height": "1536"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/20060416-Michaelskirche_Muenchen.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/89/20060416-Michaelskirche_Muenchen.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/89/20060416-Michaelskirche_Muenchen.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:20060416-Michaelskirche_Muenchen.jpg",
+      "caption": "Michaelskirche , München , Bayern , Deutschland",
+      "source": "Wikimedia Commons",
+      "artist": "Luidger",
+      "date": "2006-04-16",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "960",
+      "height": "1280"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Rathaus_Bremen-msu-2021-8714-3.jpg/1280px-Rathaus_Bremen-msu-2021-8714-3.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Rathaus_Bremen-msu-2021-8714-3.jpg/500px-Rathaus_Bremen-msu-2021-8714-3.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/da/Rathaus_Bremen-msu-2021-8714-3.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rathaus_Bremen-msu-2021-8714-3.jpg",
+      "caption": "Das Bremer Rathaus",
+      "source": "Wikimedia Commons",
+      "artist": "Matthias Süßen",
+      "date": "2020-09-19",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "882"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Juleum_Helmstedt.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/52/Juleum_Helmstedt.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/52/Juleum_Helmstedt.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Juleum_Helmstedt.jpg",
+      "caption": "Juleum Helmstedt",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1024",
+      "height": "682"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Leisthaus_Hameln.jpg/1280px-Leisthaus_Hameln.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Leisthaus_Hameln.jpg/500px-Leisthaus_Hameln.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/76/Leisthaus_Hameln.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Leisthaus_Hameln.jpg",
+      "caption": "This image shows an ancient building called Leisthaus in Hameln, Germany.",
+      "source": "Wikimedia Commons",
+      "artist": "א (Aleph)",
+      "date": "2009-04",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/F%C3%BCrstenmausoleum_Stadthagen.jpg/1280px-F%C3%BCrstenmausoleum_Stadthagen.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/F%C3%BCrstenmausoleum_Stadthagen.jpg/500px-F%C3%BCrstenmausoleum_Stadthagen.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/42/F%C3%BCrstenmausoleum_Stadthagen.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:F%C3%BCrstenmausoleum_Stadthagen.jpg",
+      "caption": "Das Mausoleum des Fürsten Ernst zu Holstein-Schaumburg in Stadthagen, Niedersachsen, Deutschland, erbaut 1620-27",
+      "source": "Wikimedia Commons",
+      "artist": "Mausoleum_(Stadthagen)_IMG_1303.jpg : Losch|losch derivative work: Rabanus Flavus",
+      "date": "2013-01-14 13:22",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1375"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — German Renaissance",
@@ -62,7 +226,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2455000",
+      "url": "https://www.wikidata.org/wiki/Q2455000",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:03.596Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — German Renaissance",
+      "url": "https://en.wikipedia.org/wiki/German_Renaissance",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:03.596Z"
+      }
+    }
+  ],
   "wikidata": "Q2455000",
   "wikipedia": "German Renaissance",
   "popularity": 35,
@@ -70,5 +257,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.250Z"
 }

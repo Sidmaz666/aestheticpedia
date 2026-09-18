@@ -9,8 +9,8 @@
   "establishment": "community_subculture",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Azerbaijan",
+  "geography": "Azerbaijan",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -19,7 +19,33 @@
   "summary": "Gadesh (Azerbaijani: Qədeş) or Balagadesh (Azerbaijani: balaqədeş) is a subculture in Azerbaijan.",
   "description": "Gadesh (Azerbaijani: Qədeş) or Balagadesh (Azerbaijani: balaqədeş) is a subculture in Azerbaijan. It is considered characteristic only for Baku and Baku suburbs. Since the late 2010s, this subculture is rarely found in the rural areas outside of Baku.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#adaaac",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#414b56",
+      "name": "graphite"
+    },
+    {
+      "hex": "#b5928c",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#6e777c",
+      "name": "slate"
+    },
+    {
+      "hex": "#89949b",
+      "name": "stone"
+    },
+    {
+      "hex": "#c5d1dc",
+      "name": "periwinkle"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,22 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Graffiti_near_Central_Park_of_Baku_%289%29.jpg/1280px-Graffiti_near_Central_Park_of_Baku_%289%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Graffiti_near_Central_Park_of_Baku_%289%29.jpg/500px-Graffiti_near_Central_Park_of_Baku_%289%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/83/Graffiti_near_Central_Park_of_Baku_%289%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Graffiti_near_Central_Park_of_Baku_(9).jpg",
+      "caption": "Graffiti in the area between Balabala Majidov Street and Inshaatchilar Avenua",
+      "source": "Wikimedia Commons",
+      "artist": "Aykhan Zayedzadeh",
+      "date": "2023-04-11 17:38:19",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "576"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gadesh",
@@ -64,7 +105,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q110106124",
+      "url": "https://www.wikidata.org/wiki/Q110106124",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:21.428Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gadesh",
+      "url": "https://en.wikipedia.org/wiki/Gadesh",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:21.428Z"
+      }
+    }
+  ],
   "wikidata": "Q110106124",
   "wikipedia": "Gadesh",
   "popularity": 35,
@@ -72,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.241Z"
 }

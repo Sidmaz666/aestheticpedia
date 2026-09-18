@@ -19,7 +19,33 @@
   "summary": "Lyrical abstraction arose from either of two related but distinct trends in Post-war Modernist painting:",
   "description": "Lyrical abstraction arose from either of two related but distinct trends in Post-war Modernist painting:\n\nEuropean Abstraction Lyrique: a movement that emerged in Paris, with the French art critic Jean José Marchand being credited with coining its name in 1947; considered a component of Tachisme when the name of this movement was coined in 1951 by Pierre Guéguen and Charles Estienne (author of L'Art à Paris 1945–1966); and\n\nAmerican Lyrical Abstraction: a movement described by Larry Aldrich (founder of the Aldrich Contemporary Art Museum in Ridgefield, Connecticut) in 1969.\n\nA second definition is the usage as a descriptive term. It is a descriptive term characterizing a type of abstract painting related to Abstract Expressionism; in use since the 1940s. Many well known abstract expressionist painters such as Arshile Gorky seen in context have been characterized as doing a type of painting described as lyrical abstraction.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e7760d",
+      "name": "tangerine"
+    },
+    {
+      "hex": "#bd710c",
+      "name": "ochre"
+    },
+    {
+      "hex": "#91570e",
+      "name": "chocolate"
+    },
+    {
+      "hex": "#d25a19",
+      "name": "terracotta"
+    },
+    {
+      "hex": "#eb9634",
+      "name": "gold"
+    },
+    {
+      "hex": "#5b3d19",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,48 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Thornton_Willis_%22Red_Wall%22_1969%2C_Acrylic_on_Canvas%2C_103x108_inches.jpg/1280px-Thornton_Willis_%22Red_Wall%22_1969%2C_Acrylic_on_Canvas%2C_103x108_inches.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Thornton_Willis_%22Red_Wall%22_1969%2C_Acrylic_on_Canvas%2C_103x108_inches.jpg/500px-Thornton_Willis_%22Red_Wall%22_1969%2C_Acrylic_on_Canvas%2C_103x108_inches.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/71/Thornton_Willis_%22Red_Wall%22_1969%2C_Acrylic_on_Canvas%2C_103x108_inches.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Thornton_Willis_%22Red_Wall%22_1969,_Acrylic_on_Canvas,_103x108_inches.jpg",
+      "caption": "Thornton Willis \"Red Wall\" 1969, Acrylic on Canvas, 103x108 inches. Other information This one file represents 10 years of the artist early work.",
+      "source": "Wikimedia Commons",
+      "artist": "VeredLieb",
+      "date": "1969",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1266"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Spiked_Red.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/87/Spiked_Red.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/87/Spiked_Red.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Spiked_Red.jpg",
+      "caption": "Spiked Red",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "720",
+      "height": "535"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/9af8c354-e223-256b-6aa9-71738010d4d5/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/9af8c354-e223-256b-6aa9-71738010d4d5/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/9af8c354-e223-256b-6aa9-71738010d4d5/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/253",
+      "caption": "Hydria (Water Jar), about 300 BCE",
+      "source": "Art Institute of Chicago",
+      "artist": "Greek; possibly Apulia or Campania, Italy",
+      "date": "about 300 BCE",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1124"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Lyrical abstraction",
@@ -64,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1147263",
+      "url": "https://www.wikidata.org/wiki/Q1147263",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:19.246Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Lyrical abstraction",
+      "url": "https://en.wikipedia.org/wiki/Lyrical_abstraction",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:19.246Z"
+      }
+    }
+  ],
   "wikidata": "Q1147263",
   "wikipedia": "Lyrical abstraction",
   "popularity": 35,
@@ -72,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:53:19.246Z"
 }

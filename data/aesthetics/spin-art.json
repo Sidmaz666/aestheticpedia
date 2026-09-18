@@ -17,7 +17,33 @@
   "summary": "Spin art is an art form that uses paint, a canvas such as glossy cardboard and a spinning platform.",
   "description": "Spin art is an art form that uses paint, a canvas such as glossy cardboard and a spinning platform. It is primarily used to entertain and expose children to the process of art creation, although it can be enjoyed by people of all ages.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bab5b1",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#938e8a",
+      "name": "stone"
+    },
+    {
+      "hex": "#453a34",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#e7e6df",
+      "name": "paper white"
+    },
+    {
+      "hex": "#6e6460",
+      "name": "umber"
+    },
+    {
+      "hex": "#d2683c",
+      "name": "terracotta"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,64 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Spinartjg.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/94/Spinartjg.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/94/Spinartjg.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Spinartjg.jpg",
+      "caption": "Spin art by J Goldstein. 20\" square, acrylic on canvas. http://giantspinart.blogspot.com",
+      "source": "Wikimedia Commons",
+      "artist": "Animaldetector",
+      "date": "2010-10",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "700",
+      "height": "700"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Artopia_2009_-_spin_art_01.jpg/1280px-Artopia_2009_-_spin_art_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Artopia_2009_-_spin_art_01.jpg/500px-Artopia_2009_-_spin_art_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/76/Artopia_2009_-_spin_art_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Artopia_2009_-_spin_art_01.jpg",
+      "caption": "Making spin art out of old phonograph records, Artopia street fair, Georgetown, Seattle, Washington. This image is part of a sequence:",
+      "source": "Wikimedia Commons",
+      "artist": "Joe Mabel",
+      "date": "2009-06-27",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Artopia_2009_-_spin_art_02.jpg/1280px-Artopia_2009_-_spin_art_02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Artopia_2009_-_spin_art_02.jpg/500px-Artopia_2009_-_spin_art_02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Artopia_2009_-_spin_art_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Artopia_2009_-_spin_art_02.jpg",
+      "caption": "Making spin art out of old phonograph records, Artopia street fair, Georgetown, Seattle, Washington. This image is part of a sequence:",
+      "source": "Wikimedia Commons",
+      "artist": "Joe Mabel",
+      "date": "2009-06-27",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Artopia_2009_-_spin_art_03.jpg/1280px-Artopia_2009_-_spin_art_03.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Artopia_2009_-_spin_art_03.jpg/500px-Artopia_2009_-_spin_art_03.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/03/Artopia_2009_-_spin_art_03.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Artopia_2009_-_spin_art_03.jpg",
+      "caption": "Making spin art out of old phonograph records, Artopia street fair, Georgetown, Seattle, Washington. This image is part of a sequence:",
+      "source": "Wikimedia Commons",
+      "artist": "Joe Mabel",
+      "date": "2009-06-27",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Spin art",
@@ -62,7 +145,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1338114",
+      "url": "https://www.wikidata.org/wiki/Q1338114",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:25.775Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Spin art",
+      "url": "https://en.wikipedia.org/wiki/Spin_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:25.775Z"
+      }
+    }
+  ],
   "wikidata": "Q1338114",
   "wikipedia": "Spin art",
   "popularity": 35,
@@ -70,5 +176,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:06:25.775Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "community_subculture",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "1970s",
   "periodEnd": "",
   "startYear": 1972,
@@ -17,7 +17,33 @@
   "summary": "The Pennsic War is an annual American medieval and Renaissance camping event held by the Society for Creative Anachronism (SCA), a \"war\" between two large regional SCA groups: the Kingdom of the East and the Middle Kingdom.",
   "description": "The Pennsic War is an annual American medieval and Renaissance camping event held by the Society for Creative Anachronism (SCA), a \"war\" between two large regional SCA groups: the Kingdom of the East and the Middle Kingdom. It is the single largest annual SCA event, with more than 10,000 people attending each year, from as far as China, South Korea, Sweden, Germany, France, Italy, Greece, and Australia.\n\nPennsic is held in late summer and lasts for 17 days (begins on a Friday, ends on the third Sunday).  The event centers on pre-17th century history and culture with all campers dressing in historically relevant clothing. The winners of the battles and other activities receive war points, and the Kingdom with the most war points wins that Pennsic.\n\nThe Pennsic War uses numbers to identify each war rather than the year it was held, so the 2019 event was known as \"Pennsic War 48\", there having been 47 previous events.  Due to the COVID-19 pandemic, no Pennsic event was held in 2020 or 2021, and so the 2022 event is known as \"Pennsic War 49\". Except for two early editions held in Ohio, all Pennsic Wars have been held in Western Pennsylvania.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#7e7a75",
+      "name": "taupe"
+    },
+    {
+      "hex": "#d9ccbf",
+      "name": "bone white"
+    },
+    {
+      "hex": "#5b5a58",
+      "name": "graphite"
+    },
+    {
+      "hex": "#464543",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#2c2b2a",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#111111",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Shineygauntletpennsic32.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/75/Shineygauntletpennsic32.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/75/Shineygauntletpennsic32.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Shineygauntletpennsic32.jpg",
+      "caption": "Pennsic 32 before the field battle as shot from the east kingdoms side",
+      "source": "Wikimedia Commons",
+      "artist": "Stephen (Max) Heckman",
+      "date": "August 15th 2003a.d.",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "544",
+      "height": "408"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Pennsic_field_battle_2006_kdh.jpg/1280px-Pennsic_field_battle_2006_kdh.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Pennsic_field_battle_2006_kdh.jpg/500px-Pennsic_field_battle_2006_kdh.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/37/Pennsic_field_battle_2006_kdh.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pennsic_field_battle_2006_kdh.jpg",
+      "caption": "Main Field Battle at the Pennsic War",
+      "source": "Wikimedia Commons",
+      "artist": "Kevin D. Hartnell",
+      "date": "2006-08-17",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "326"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Pennsic War",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7163519",
+      "url": "https://www.wikidata.org/wiki/Q7163519",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:03.273Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Pennsic War",
+      "url": "https://en.wikipedia.org/wiki/Pennsic_War",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:03.273Z"
+      }
+    }
+  ],
   "wikidata": "Q7163519",
   "wikipedia": "Pennsic War",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.877Z"
 }

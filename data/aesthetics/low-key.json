@@ -17,7 +17,33 @@
   "summary": "Low key as a term used in describing paintings or photographs is related to but not the same as low-key lighting in cinema or photography.",
   "description": "Low key as a term used in describing paintings or photographs is related to but not the same as low-key lighting in cinema or photography. A photographic image, painting or movie can be defined as \"low-keyly\" if its dominant values are black, dark brown or dark blue.\n\nSome authors describe the term \"low key\" as the so-called Rembrandian light while others describe how to obtain such photographs or paintings.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#100b0b",
+      "name": "black"
+    },
+    {
+      "hex": "#362219",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#4b4459",
+      "name": "graphite"
+    },
+    {
+      "hex": "#555e7f",
+      "name": "graphite 2"
+    },
+    {
+      "hex": "#6d2f20",
+      "name": "sepia"
+    },
+    {
+      "hex": "#8d5c37",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,35 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Stilleven_met_rode_en_groene_appels-Jules_Grandgagnage.jpg/1280px-Stilleven_met_rode_en_groene_appels-Jules_Grandgagnage.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Stilleven_met_rode_en_groene_appels-Jules_Grandgagnage.jpg/500px-Stilleven_met_rode_en_groene_appels-Jules_Grandgagnage.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/03/Stilleven_met_rode_en_groene_appels-Jules_Grandgagnage.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Stilleven_met_rode_en_groene_appels-Jules_Grandgagnage.jpg",
+      "caption": "Still life with red and green apples, by Julien Grandgagnage",
+      "source": "Wikimedia Commons",
+      "artist": "Julien Grandgagnage",
+      "date": "2016-01-30",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vincent_Willem_van_Gogh_107.jpg",
+      "caption": "\"Van Gogh painted this self-portrait in the winter of 1887–1888, when he had been living in Paris for nearly two years. Since his arrival in the city he had devoted much study to the dotted Pointillist technique, thereby learning how he might apply it in his own fashion. His use ",
+      "source": "Wikimedia Commons",
+      "artist": "Vincent van Gogh",
+      "date": "Winter 1887–1888",
+      "license": "Public domain",
+      "width": "1256",
+      "height": "1539"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Low key",
@@ -62,7 +116,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q48967974",
+      "url": "https://www.wikidata.org/wiki/Q48967974",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:13.444Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Low key",
+      "url": "https://en.wikipedia.org/wiki/Low_key",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:13.444Z"
+      }
+    }
+  ],
   "wikidata": "Q48967974",
   "wikipedia": "Low key",
   "popularity": 35,
@@ -70,5 +147,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:53:13.444Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States, Canada",
+  "geography": "United States, Canada",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Second Empire architecture in the United States and Canada is an architectural style that was popular in both nations in the late 19th century between 1865 and 1900.",
   "description": "Second Empire architecture in the United States and Canada is an architectural style that was popular in both nations in the late 19th century between 1865 and 1900. Second Empire architecture was influenced by the redevelopment in the mid-19th century of ancient Paris, the capital city of France, under former President of the French Republic (1848–1852), and later Emperor Napoleon III's Second French Empire (1852–1870), and was influenced partly by the architectural styles of the earlier French Renaissance (15th to 17th centuries).\n\nSecond Empire architecture is typically characterized by a mansard roof, elaborate ornament, and a strong massing. It was common in public buildings, commercial buildings, and some residential structures.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f6f5f4",
+      "name": "paper white"
+    },
+    {
+      "hex": "#1a1a20",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#5d5f58",
+      "name": "umber"
+    },
+    {
+      "hex": "#47463f",
+      "name": "graphite"
+    },
+    {
+      "hex": "#9e9d9c",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#7c7b79",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,155 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Old_Executive_Office_Building_1981.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/79/Old_Executive_Office_Building_1981.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/79/Old_Executive_Office_Building_1981.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Old_Executive_Office_Building_1981.jpg",
+      "caption": "The Old Executive Office Building in 1981, during the administration of Ronald Reagan",
+      "source": "Wikimedia Commons",
+      "artist": "White House photo office",
+      "date": "Taken on 23 June 1981",
+      "license": "Public domain",
+      "width": "750",
+      "height": "500"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Old_Post_Office%2C_Saint_Louis.jpg/1280px-Old_Post_Office%2C_Saint_Louis.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Old_Post_Office%2C_Saint_Louis.jpg/500px-Old_Post_Office%2C_Saint_Louis.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/Old_Post_Office%2C_Saint_Louis.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Old_Post_Office,_Saint_Louis.jpg",
+      "caption": "Photo taken from the south-east corner of the Old Post Office in St. Louis, Missouri.",
+      "source": "Wikimedia Commons",
+      "artist": "Zmerkle13",
+      "date": "2015-07-24 11:04:26",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Old_City_Hall_%28Boston%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Old_City_Hall_%28Boston%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Old_City_Hall_%28Boston%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Old_City_Hall_(Boston).jpg",
+      "caption": "South and west fronts of Old City Hall , Boston, in the Second Empire architecture style, designed by Gridley James Fox Bryant and Arthur Gilman . It was home to the Boston city council from 1865 to 1969.",
+      "source": "Wikimedia Commons",
+      "artist": "The original uploader was Lockley at English Wikipedia .",
+      "date": "circa 1865 date QS:P,+1865-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "535",
+      "height": "398"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/MO-Hannibal_1888_1_Ref.jpg/1280px-MO-Hannibal_1888_1_Ref.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/MO-Hannibal_1888_1_Ref.jpg/500px-MO-Hannibal_1888_1_Ref.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/22/MO-Hannibal_1888_1_Ref.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:MO-Hannibal_1888_1_Ref.jpg",
+      "caption": "The U.S. Post Office (1884) at Hannibal, Missouri.",
+      "source": "Wikimedia Commons",
+      "artist": "U.S. Treasury Department",
+      "date": "1884",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1056"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Caldwell_County_Courthouse.jpg/1280px-Caldwell_County_Courthouse.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Caldwell_County_Courthouse.jpg/500px-Caldwell_County_Courthouse.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Caldwell_County_Courthouse.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Caldwell_County_Courthouse.jpg",
+      "caption": "The Caldwell County Courthouse in Lockhart, Texas .",
+      "source": "Wikimedia Commons",
+      "artist": "CMBJ",
+      "date": "2008-02-02",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1280",
+      "height": "855"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Grand_Opera_House_Wilmington.JPG/1280px-Grand_Opera_House_Wilmington.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Grand_Opera_House_Wilmington.JPG/500px-Grand_Opera_House_Wilmington.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/32/Grand_Opera_House_Wilmington.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Grand_Opera_House_Wilmington.JPG",
+      "caption": "Masonic Hall and Grand Opera House in Wilmington, Delaware. Known as \"the Grand\". On NRHP. 818 N. Market St. Reconstructed or revitalized and now an active theater again.",
+      "source": "Wikimedia Commons",
+      "artist": "Smallbones",
+      "date": "2010-01-19",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mitchell_Building_%2B_Chamber_of_Commerce.jpg/1280px-Mitchell_Building_%2B_Chamber_of_Commerce.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mitchell_Building_%2B_Chamber_of_Commerce.jpg/500px-Mitchell_Building_%2B_Chamber_of_Commerce.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Mitchell_Building_%2B_Chamber_of_Commerce.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mitchell_Building_%2B_Chamber_of_Commerce.jpg",
+      "caption": "The Mitchell Building (1876) and the Mackie Building (1879) in downtown Milwaukee, Wisconsin, were both designed by E. Townsend Mix . The Mitchell Building at 207 E. Michigan Street was built for the millionaire Scottish immigrant, entrepreneur, and politician Alexander Mitchell ",
+      "source": "Wikimedia Commons",
+      "artist": "James Steakley",
+      "date": "2009-06-23",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1009"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Hotelvendome.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Hotelvendome.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Hotelvendome.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hotelvendome.jpg",
+      "caption": "Hotel Vendome , Boston , in the 1900s.",
+      "source": "Wikimedia Commons",
+      "artist": "Ghirlandajo at en.wikipedia",
+      "date": "21 April 2006 (original upload date)",
+      "license": "Public domain",
+      "width": "638",
+      "height": "392"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Philadelphia-CityHall-2006.jpg/1280px-Philadelphia-CityHall-2006.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Philadelphia-CityHall-2006.jpg/500px-Philadelphia-CityHall-2006.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Philadelphia-CityHall-2006.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Philadelphia-CityHall-2006.jpg",
+      "caption": "Philadelphia City Hall, Philadelphia, Pennsylvania. Picture taken in 2006.",
+      "source": "Wikimedia Commons",
+      "artist": "Versatile Aure",
+      "date": "2006-10-09",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Knowlton_Hat_Factory.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/83/Knowlton_Hat_Factory.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/83/Knowlton_Hat_Factory.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Knowlton_Hat_Factory.jpg",
+      "caption": "Historic Knowlton Hat Factory (1872), Upton, Massachusetts",
+      "source": "Wikimedia Commons",
+      "artist": "Marcbela (Marc N. Belanger)",
+      "date": "2009-08-01",
+      "license": "Public domain",
+      "width": "1200",
+      "height": "803"
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Second_Empire_architecture_in_the_United_States_and_Canada.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Second Empire architecture in the United States and Canada",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Second_Empire_architecture_in_the_United_States_and_Canada.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1121,
+      "artist": "JohnAnkerBow",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Second Empire architecture in the United States and Canada",
@@ -62,7 +236,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q27958342",
+      "url": "https://www.wikidata.org/wiki/Q27958342",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:28.000Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Second Empire architecture in the United States and Canada",
+      "url": "https://en.wikipedia.org/wiki/Second_Empire_architecture_in_the_United_States_and_Canada",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:28.000Z"
+      }
+    }
+  ],
   "wikidata": "Q27958342",
   "wikipedia": "Second Empire architecture in the United States and Canada",
   "popularity": 35,
@@ -70,5 +267,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:54.485Z"
 }

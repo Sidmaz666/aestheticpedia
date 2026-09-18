@@ -20,7 +20,33 @@
   "summary": "Huizhou architecture is one of the traditional Chinese architecture styles, which prevailed mostly in the historical Huizhou prefecture of Anhui, China as a critical element of Huizhou culture.",
   "description": "Huizhou architecture is one of the traditional Chinese architecture styles, which prevailed mostly in the historical Huizhou prefecture of Anhui, China as a critical element of Huizhou culture. The architecture uses bricks, woods and stone as raw materials, timber frames as significant structures. The bearing structure is a wooden beam, and parapet walls are made of bricks, rocks, and soils. The central room is decorated with painted beams, sculpted roof, and carved eaves with skylights. The technical features and style of Hui-style architecture majorly occur in residential houses, ancestral temples, joss houses, archways, memorial gates, and gardens. The architecture reflects mountainous features of the area and a geomantic omen of traditional Chinese religions.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#eff0f2",
+      "name": "paper white"
+    },
+    {
+      "hex": "#7f817f",
+      "name": "taupe"
+    },
+    {
+      "hex": "#5f6261",
+      "name": "umber"
+    },
+    {
+      "hex": "#a0a4a5",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#0f0e15",
+      "name": "black"
+    },
+    {
+      "hex": "#343332",
+      "name": "aubergine"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,50 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Yuchi_Park_Hui_style_architectures_1.jpg/1280px-Yuchi_Park_Hui_style_architectures_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Yuchi_Park_Hui_style_architectures_1.jpg/500px-Yuchi_Park_Hui_style_architectures_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Yuchi_Park_Hui_style_architectures_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Yuchi_Park_Hui_style_architectures_1.jpg",
+      "caption": "Hui style architectures",
+      "source": "Wikimedia Commons",
+      "artist": "Huangchenhai",
+      "date": "2017-04-11 11:14:47",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Yin_Yu_Tang_House_carved_window_panels.jpg/1280px-Yin_Yu_Tang_House_carved_window_panels.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Yin_Yu_Tang_House_carved_window_panels.jpg/500px-Yin_Yu_Tang_House_carved_window_panels.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Yin_Yu_Tang_House_carved_window_panels.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Yin_Yu_Tang_House_carved_window_panels.jpg",
+      "caption": "Intricately carved wooden panels on the first floor of the Yin Yu Tang House at the Peabody Essex Museum",
+      "source": "Wikimedia Commons",
+      "artist": "Gkuriger",
+      "date": "2017-02-25 15:58:43",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1988"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Structure_Hui_%28220374877%29.jpeg/1280px-Structure_Hui_%28220374877%29.jpeg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Structure_Hui_%28220374877%29.jpeg/500px-Structure_Hui_%28220374877%29.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/35/Structure_Hui_%28220374877%29.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Structure_Hui_(220374877).jpeg",
+      "caption": "500px provided description: Structure Hui [#sky ,#water ,#travel ,#architecture ,#bridge ,#bamboo ,#wall ,#windows ,#military ,#vehicle ,#lantern ,#structure ,#classical ,#watercraft ,#no person ,#ANHUI ,#trandition]",
+      "source": "Wikimedia Commons",
+      "artist": "Cecilia Yip",
+      "date": "before 19 July 2017, 14:27:36 (UTC)",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "889"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Hui Style architecture",
@@ -65,7 +134,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q18653349",
+      "url": "https://www.wikidata.org/wiki/Q18653349",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:18.772Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Hui Style architecture",
+      "url": "https://en.wikipedia.org/wiki/Hui_Style_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:18.772Z"
+      }
+    }
+  ],
   "wikidata": "Q18653349",
   "wikipedia": "Hui Style architecture",
   "popularity": 35,
@@ -73,5 +165,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:49:18.772Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Colombia",
+  "geography": "Colombia",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Quito School (Escuela Quiteña) is a Latin American colonial artistic tradition that constitutes essentially the whole of the professional artistic output developed in the territory of the Royal Audience of Quito – from Pasto and Popayán in the north to Piura and Cajamarca in",
   "description": "The Quito School (Escuela Quiteña) is a Latin American colonial artistic tradition that constitutes essentially the whole of the professional artistic output developed in the territory of the Royal Audience of Quito – from Pasto and Popayán in the north to Piura and Cajamarca in the south – during the Spanish colonial period (1542–1824). It is especially associated with the 17th and 18th centuries and was almost exclusively focused on the religious art of the Catholic Church in the country. Characterized by a mastery of the realistic and by the degree to which indigenous beliefs and artistic traditions are evident, these productions were among of the most important activities in the economy of the Royal Audience of Quito. Such was the prestige of the movement even in Europe that it was said that King Carlos III of Spain (1716–1788), referring to one of its sculptors in particular, opined: \"I am not concerned that Italy has Michelangelo; in my colonies of America I have the master Caspicara\".",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#261f1a",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#5b291d",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#42423b",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#7b482e",
+      "name": "sepia"
+    },
+    {
+      "hex": "#936440",
+      "name": "bronze"
+    },
+    {
+      "hex": "#c9c5c3",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,114 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/%22Inmaculada_alada%22_%28s._XVIII%29%2C_%C3%B3leo_sobre_lienzo_de_Miguel_de_Santiago.jpg/1280px-%22Inmaculada_alada%22_%28s._XVIII%29%2C_%C3%B3leo_sobre_lienzo_de_Miguel_de_Santiago.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/%22Inmaculada_alada%22_%28s._XVIII%29%2C_%C3%B3leo_sobre_lienzo_de_Miguel_de_Santiago.jpg/500px-%22Inmaculada_alada%22_%28s._XVIII%29%2C_%C3%B3leo_sobre_lienzo_de_Miguel_de_Santiago.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/%22Inmaculada_alada%22_%28s._XVIII%29%2C_%C3%B3leo_sobre_lienzo_de_Miguel_de_Santiago.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%22Inmaculada_alada%22_(s._XVIII),_%C3%B3leo_sobre_lienzo_de_Miguel_de_Santiago.jpg",
+      "caption": "\"Inmaculada alada\" (s. XVIII), óleo sobre lienzo de Miguel de Santiago",
+      "source": "Wikimedia Commons",
+      "artist": "Ranoutofusername",
+      "date": "2023-06-06",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1732"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Virgin_of_Quito_MET_DP105182.jpg/1280px-Virgin_of_Quito_MET_DP105182.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Virgin_of_Quito_MET_DP105182.jpg/500px-Virgin_of_Quito_MET_DP105182.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Virgin_of_Quito_MET_DP105182.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Virgin_of_Quito_MET_DP105182.jpg",
+      "caption": "Ecuadoran; Statuette; Sculpture",
+      "source": "Wikimedia Commons",
+      "artist": "Miguel de Santiago",
+      "date": "18 th century date QS:P571,+1750-00-00T00:00:00Z/7",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1602"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Ecuador_Hausaltar_mit_Virgen_de_Quito_02_EthnM.jpg/1280px-Ecuador_Hausaltar_mit_Virgen_de_Quito_02_EthnM.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Ecuador_Hausaltar_mit_Virgen_de_Quito_02_EthnM.jpg/500px-Ecuador_Hausaltar_mit_Virgen_de_Quito_02_EthnM.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Ecuador_Hausaltar_mit_Virgen_de_Quito_02_EthnM.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ecuador_Hausaltar_mit_Virgen_de_Quito_02_EthnM.jpg",
+      "caption": "House altar with the Virgen de Quito . Wood, polychromy. Ecuador, 18th–20th century; Ethnological Museum, Berlin, Germany",
+      "source": "Wikimedia Commons",
+      "artist": "User:FA2010",
+      "date": "2009-02",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Taller_de_San_Jos%C3%A9_%28Miguel_de_Samaniego%29_-_Siglo_XVIII.JPG/1280px-Taller_de_San_Jos%C3%A9_%28Miguel_de_Samaniego%29_-_Siglo_XVIII.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Taller_de_San_Jos%C3%A9_%28Miguel_de_Samaniego%29_-_Siglo_XVIII.JPG/500px-Taller_de_San_Jos%C3%A9_%28Miguel_de_Samaniego%29_-_Siglo_XVIII.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Taller_de_San_Jos%C3%A9_%28Miguel_de_Samaniego%29_-_Siglo_XVIII.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Taller_de_San_Jos%C3%A9_(Miguel_de_Samaniego)_-_Siglo_XVIII.JPG",
+      "caption": "\"Taller de San José\"",
+      "source": "Wikimedia Commons",
+      "artist": "Miguel de Samaniego (Escuela Quiteña del siglo XVIII)",
+      "date": "18 th century date QS:P571,+1750-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "954"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Virgen_Gu%C3%A1pulo.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/84/Virgen_Gu%C3%A1pulo.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/84/Virgen_Gu%C3%A1pulo.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Virgen_Gu%C3%A1pulo.jpg",
+      "caption": "öleo \"milagro de la virgen de Guápulo\" del Pintor Miguel de Santiago de la escuela quiteña año 1757.",
+      "source": "Wikimedia Commons",
+      "artist": "Miguel de Santiago",
+      "date": "23 June 2009",
+      "license": "Public domain",
+      "width": "800",
+      "height": "768"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Virgen_del_Carmen_by_Isabel_de_Santiago.jpg/1280px-Virgen_del_Carmen_by_Isabel_de_Santiago.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Virgen_del_Carmen_by_Isabel_de_Santiago.jpg/500px-Virgen_del_Carmen_by_Isabel_de_Santiago.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Virgen_del_Carmen_by_Isabel_de_Santiago.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Virgen_del_Carmen_by_Isabel_de_Santiago.jpg",
+      "caption": "Virgin of Carmen by Isabel de Santiago - Movement (Escuela Quiteña) in the Carmen Alto Museum - Quito (Ecuador)",
+      "source": "Wikimedia Commons",
+      "artist": "Isabel de Cisnero",
+      "date": "circa 1700 date QS:P571,+1700-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1113"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/El_Infierno_-_Hernando_de_la_Cruz_%28siglo_XVII%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cf/El_Infierno_-_Hernando_de_la_Cruz_%28siglo_XVII%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cf/El_Infierno_-_Hernando_de_la_Cruz_%28siglo_XVII%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:El_Infierno_-_Hernando_de_la_Cruz_(siglo_XVII).jpg",
+      "caption": "\"El Infierno\", óleo sobre lienzo del padre Hernando de la Cruz, pintor de la Escuela Quiteña de arte del siglo XVII. La obra está exhibida en la Iglesia de La Compañía de Jesús, de la ciudad de Quito.",
+      "source": "Wikimedia Commons",
+      "artist": "Hernando de la Cruz",
+      "date": "2013-03-05 15:00:07",
+      "license": "Public domain",
+      "width": "584",
+      "height": "379"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Retrato_de_una_se%C3%B1ora_principal_con_su_negra_esclava_por_Vicente_Alb%C3%A1n.jpg/1280px-Retrato_de_una_se%C3%B1ora_principal_con_su_negra_esclava_por_Vicente_Alb%C3%A1n.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Retrato_de_una_se%C3%B1ora_principal_con_su_negra_esclava_por_Vicente_Alb%C3%A1n.jpg/500px-Retrato_de_una_se%C3%B1ora_principal_con_su_negra_esclava_por_Vicente_Alb%C3%A1n.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/Retrato_de_una_se%C3%B1ora_principal_con_su_negra_esclava_por_Vicente_Alb%C3%A1n.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Retrato_de_una_se%C3%B1ora_principal_con_su_negra_esclava_por_Vicente_Alb%C3%A1n.jpg",
+      "caption": "\"Señora principal con su negra esclava\"",
+      "source": "Wikimedia Commons",
+      "artist": "Vicente Albán",
+      "date": "1783 date QS:P571,+1783-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "923"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Quito school",
@@ -62,7 +195,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7272667",
+      "url": "https://www.wikidata.org/wiki/Q7272667",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:28.652Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Quito school",
+      "url": "https://en.wikipedia.org/wiki/Quito_school",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:28.652Z"
+      }
+    }
+  ],
   "wikidata": "Q7272667",
   "wikipedia": "Quito school",
   "popularity": 35,
@@ -70,5 +226,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.067Z"
 }

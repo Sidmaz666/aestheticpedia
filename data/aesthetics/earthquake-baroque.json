@@ -17,7 +17,33 @@
   "summary": "Earthquake Baroque, or Seismic Baroque, is a style of Baroque architecture found in the Philippines and in Guatemala, which were Spanish-ruled territories that suffered destructive earthquakes during the 17th and the 18th centuries.",
   "description": "Earthquake Baroque, or Seismic Baroque, is a style of Baroque architecture found in the Philippines and in Guatemala, which were Spanish-ruled territories that suffered destructive earthquakes during the 17th and the 18th centuries. Large public buildings, such as churches, were then rebuilt in a Baroque style during the Spanish colonial periods in those countries.\n\nSimilar events led to the Pombaline architecture in Lisbon following the 1755 Lisbon earthquake and Sicilian Baroque in Sicily following the 1693 earthquake.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b8d3f8",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#a9a29a",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#295db2",
+      "name": "cerulean"
+    },
+    {
+      "hex": "#5b5959",
+      "name": "graphite"
+    },
+    {
+      "hex": "#817b77",
+      "name": "taupe"
+    },
+    {
+      "hex": "#413c35",
+      "name": "aubergine"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,147 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Nuestra_Se%C3%B1ora_de_la_Porteria_Church%2C_Daraga%2C_Albay.jpg/1280px-Nuestra_Se%C3%B1ora_de_la_Porteria_Church%2C_Daraga%2C_Albay.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Nuestra_Se%C3%B1ora_de_la_Porteria_Church%2C_Daraga%2C_Albay.jpg/500px-Nuestra_Se%C3%B1ora_de_la_Porteria_Church%2C_Daraga%2C_Albay.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/66/Nuestra_Se%C3%B1ora_de_la_Porteria_Church%2C_Daraga%2C_Albay.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nuestra_Se%C3%B1ora_de_la_Porteria_Church,_Daraga,_Albay.jpg",
+      "caption": "The Nuestra Señora de la Porteria (Our Lady of the Gate) Church was built by the Franciscans in 1772 atop a hill in the town of Daraga, Albay, overlooking Mayon Volcano. In 2007, the National Museum of the Philippines listed the church's eastern and western façade, belfry, and ba",
+      "source": "Wikimedia Commons",
+      "artist": "Dexbaldon",
+      "date": "Taken on 13 October 2014, 06:58:41 (according to Exif data)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "848"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/San_Agustin_Church_%28Intramuros%2C_Manila%3B_07-22-2020%29.jpg/1280px-San_Agustin_Church_%28Intramuros%2C_Manila%3B_07-22-2020%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/San_Agustin_Church_%28Intramuros%2C_Manila%3B_07-22-2020%29.jpg/500px-San_Agustin_Church_%28Intramuros%2C_Manila%3B_07-22-2020%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/San_Agustin_Church_%28Intramuros%2C_Manila%3B_07-22-2020%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:San_Agustin_Church_(Intramuros,_Manila;_07-22-2020).jpg",
+      "caption": "The UNESCO-certified San Agustin Church in Intramuros, Manila",
+      "source": "Wikimedia Commons",
+      "artist": "patrickroque01",
+      "date": "2020-07-22",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Saint_Jerome_Parish_Church_%28Morong%2C_Rizal%3B_08-14-2021%29.jpg/1280px-Saint_Jerome_Parish_Church_%28Morong%2C_Rizal%3B_08-14-2021%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Saint_Jerome_Parish_Church_%28Morong%2C_Rizal%3B_08-14-2021%29.jpg/500px-Saint_Jerome_Parish_Church_%28Morong%2C_Rizal%3B_08-14-2021%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/Saint_Jerome_Parish_Church_%28Morong%2C_Rizal%3B_08-14-2021%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Saint_Jerome_Parish_Church_(Morong,_Rizal;_08-14-2021).jpg",
+      "caption": "Saint Jerome Parish Church in Morong, Rizal",
+      "source": "Wikimedia Commons",
+      "artist": "patrickroque01",
+      "date": "2021-08-14",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Paoay.JPG/1280px-Paoay.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Paoay.JPG/500px-Paoay.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/45/Paoay.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paoay.JPG",
+      "caption": "Paoay Church at Ilocos Norte",
+      "source": "Wikimedia Commons",
+      "artist": "Ninjakeg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1053"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Miagao_Church_%28Santo_Tom%C3%A1s_de_Villanueva_Parish_Church%29.jpg/1280px-Miagao_Church_%28Santo_Tom%C3%A1s_de_Villanueva_Parish_Church%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Miagao_Church_%28Santo_Tom%C3%A1s_de_Villanueva_Parish_Church%29.jpg/500px-Miagao_Church_%28Santo_Tom%C3%A1s_de_Villanueva_Parish_Church%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/33/Miagao_Church_%28Santo_Tom%C3%A1s_de_Villanueva_Parish_Church%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Miagao_Church_(Santo_Tom%C3%A1s_de_Villanueva_Parish_Church).jpg",
+      "caption": "The Miagao Church also known as the Santo Tomás de Villanueva Parish Church is a Roman Catholic church located in Miagao, Iloilo, Philippines. The church was declared as a UNESCO World Heritage Site on December 11, 1993 together with San Agustin Church in Manila; Nuestra Señora d",
+      "source": "Wikimedia Commons",
+      "artist": "Christopher Andres",
+      "date": "2019-08-29 18:20:48",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Loboc_river_-_panoramio_%281%29.jpg/1280px-Loboc_river_-_panoramio_%281%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Loboc_river_-_panoramio_%281%29.jpg/500px-Loboc_river_-_panoramio_%281%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Loboc_river_-_panoramio_%281%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Loboc_river_-_panoramio_(1).jpg",
+      "caption": "Loboc river - panoramio (1)",
+      "source": "Wikimedia Commons",
+      "artist": "Qaalvin",
+      "date": "Taken on 17 April 2012",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "823"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Roman_Catholic_church%2C_Loay%2C_Bohol%2C_Philippines.JPG/1280px-Roman_Catholic_church%2C_Loay%2C_Bohol%2C_Philippines.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Roman_Catholic_church%2C_Loay%2C_Bohol%2C_Philippines.JPG/500px-Roman_Catholic_church%2C_Loay%2C_Bohol%2C_Philippines.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/76/Roman_Catholic_church%2C_Loay%2C_Bohol%2C_Philippines.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Roman_Catholic_church,_Loay,_Bohol,_Philippines.JPG",
+      "caption": "LOAY Roman Catholic church of Loay town, about 18 kms east of Tagbilaran City, the provincial capital, is said to have been built in 1815. Its celebrates its annual fiesta in honor of Santisima Trinidad as its patron saint during the first week of June.",
+      "source": "Wikimedia Commons",
+      "artist": "Ric V. Obedencio",
+      "date": "Taken on 16 January 2012, 23:39:59 (according to Exif data)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "852"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Anini-y_Church%2C_2018.jpg/1280px-Anini-y_Church%2C_2018.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Anini-y_Church%2C_2018.jpg/500px-Anini-y_Church%2C_2018.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Anini-y_Church%2C_2018.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Anini-y_Church,_2018.jpg",
+      "caption": "Simbahan ng Anini-y, Antique",
+      "source": "Wikimedia Commons",
+      "artist": "John Nino Crauz",
+      "date": "Taken on 27 May 2018, 14:29:51 (according to Exif data)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Sta._Maria_Church%2C_Ilocos_Sur.jpg/1280px-Sta._Maria_Church%2C_Ilocos_Sur.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Sta._Maria_Church%2C_Ilocos_Sur.jpg/500px-Sta._Maria_Church%2C_Ilocos_Sur.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Sta._Maria_Church%2C_Ilocos_Sur.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sta._Maria_Church,_Ilocos_Sur.jpg",
+      "caption": "The Church of Sta. Maria in Ilocos Sur is one of the four Philippine Baroque churches declared as a UNESCO World Heritage Site.",
+      "source": "Wikimedia Commons",
+      "artist": "Harrybalais",
+      "date": "2012-09-12 16:48:08",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Church_of_Panay_%28Santa_Monica_Parish_Church%2C_Panay%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/22/Church_of_Panay_%28Santa_Monica_Parish_Church%2C_Panay%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/22/Church_of_Panay_%28Santa_Monica_Parish_Church%2C_Panay%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Church_of_Panay_(Santa_Monica_Parish_Church,_Panay).jpg",
+      "caption": "Facade of the Church of Panay",
+      "source": "Wikimedia Commons",
+      "artist": "Iannekleina",
+      "date": "2014-06-02 21:41:28",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "960",
+      "height": "720"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Earthquake Baroque",
@@ -62,7 +228,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5327255",
+      "url": "https://www.wikidata.org/wiki/Q5327255",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:06.612Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Earthquake Baroque",
+      "url": "https://en.wikipedia.org/wiki/Earthquake_Baroque",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:06.612Z"
+      }
+    }
+  ],
   "wikidata": "Q5327255",
   "wikipedia": "Earthquake Baroque",
   "popularity": 35,
@@ -70,5 +259,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:44:06.612Z"
 }

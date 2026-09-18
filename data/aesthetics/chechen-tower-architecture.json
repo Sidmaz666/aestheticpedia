@@ -17,7 +17,33 @@
   "summary": "Traditional Chechen architecture refers to the tradition of stone tower construction that developed in the mountainous regions of Chechnya during the Middle Ages, primarily between the 11th and 18th centuries.",
   "description": "Traditional Chechen architecture refers to the tradition of stone tower construction that developed in the mountainous regions of Chechnya during the Middle Ages, primarily between the 11th and 18th centuries. These towers formed the structural core of fortified settlements and played a central role in the defensive, residential, and symbolic organization of Chechen highland society.\n\nChechen towers were typically square in plan and built from locally quarried stone using dry or lime-mortar masonry. Their architecture is characterized by massive load-bearing walls, narrow defensive openings, vertically arranged internal floors, and, in combat towers, stepped pyramidal stone roofs supported by false vaults. Towers were commonly integrated into clustered village layouts, although isolated towers are also known, and were often combined with residential buildings, livestock enclosures, and communal spaces.\n\nIn addition to towers, the architectural landscape associated with this tradition included fortified settlements, stone dwellings, funerary structures such as above-ground and semi-subterranean crypts, as well as elements of economic infrastructure including terraced fields, mills, bridges, and water-management systems. These components formed a coherent built environment adapted to steep terrain, limited arable land, and the demands of territorial defense.\n\nArchaeological and architectural research indicates that Chechen tower architecture did not develop as a single standardized type but evolved gradually, exhibiting regional and chronological variation in construction techniques, roof forms, internal layouts, and decorative elements. This variability reflects local building traditions, environmental conditions, and historical phases of development.\n\nToday, Chechen tower architecture is regarded as a significant element of medieval Caucasian architecture and a distinctive example of highland fortification integrated into everyday communal life. Despite varying states of preservation, these structures remain an important subject of scholarly study for their architectural, historical, and cultural significance.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fafbfc",
+      "name": "ivory"
+    },
+    {
+      "hex": "#d5dde3",
+      "name": "bone white"
+    },
+    {
+      "hex": "#75855b",
+      "name": "moss"
+    },
+    {
+      "hex": "#909969",
+      "name": "moss 2"
+    },
+    {
+      "hex": "#5a6940",
+      "name": "umber"
+    },
+    {
+      "hex": "#7f9296",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,146 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/%D0%A2%D0%B0%D0%B7%D0%B1%D0%B8%D1%87%D0%B0_%D1%88%D0%BE%D0%BB%D0%B3l%D0%B0_%D0%B1l%D0%BE%D0%B2.jpg/1280px-%D0%A2%D0%B0%D0%B7%D0%B1%D0%B8%D1%87%D0%B0_%D1%88%D0%BE%D0%BB%D0%B3l%D0%B0_%D0%B1l%D0%BE%D0%B2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/%D0%A2%D0%B0%D0%B7%D0%B1%D0%B8%D1%87%D0%B0_%D1%88%D0%BE%D0%BB%D0%B3l%D0%B0_%D0%B1l%D0%BE%D0%B2.jpg/500px-%D0%A2%D0%B0%D0%B7%D0%B1%D0%B8%D1%87%D0%B0_%D1%88%D0%BE%D0%BB%D0%B3l%D0%B0_%D0%B1l%D0%BE%D0%B2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f3/%D0%A2%D0%B0%D0%B7%D0%B1%D0%B8%D1%87%D0%B0_%D1%88%D0%BE%D0%BB%D0%B3l%D0%B0_%D0%B1l%D0%BE%D0%B2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B0%D0%B7%D0%B1%D0%B8%D1%87%D0%B0_%D1%88%D0%BE%D0%BB%D0%B3l%D0%B0_%D0%B1l%D0%BE%D0%B2.jpg",
+      "caption": "Башня Дёре I",
+      "source": "Wikimedia Commons",
+      "artist": "Flandria12",
+      "date": "2022-11-10",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Chechen_Semi-combat_Tower.png/1280px-Chechen_Semi-combat_Tower.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Chechen_Semi-combat_Tower.png/500px-Chechen_Semi-combat_Tower.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Chechen_Semi-combat_Tower.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chechen_Semi-combat_Tower.png",
+      "caption": "Chechen semi-combat tower",
+      "source": "Wikimedia Commons",
+      "artist": "Nakh",
+      "date": "01/12/2026",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "874"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Chechen_combat_tower_section.png/1280px-Chechen_combat_tower_section.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Chechen_combat_tower_section.png/500px-Chechen_combat_tower_section.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Chechen_combat_tower_section.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chechen_combat_tower_section.png",
+      "caption": "Chechen combat tower",
+      "source": "Wikimedia Commons",
+      "artist": "Nakh",
+      "date": "01/12/2026",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1431"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/%D0%A5%D1%83%D0%BB%D0%B0%D0%BD%D0%B4%D1%80%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F%2C_%D0%BC%D0%B0%D1%88%D0%B8%D0%BA%D1%83%D0%BB%D0%B8.webp",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/47/%D0%A5%D1%83%D0%BB%D0%B0%D0%BD%D0%B4%D1%80%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F%2C_%D0%BC%D0%B0%D1%88%D0%B8%D0%BA%D1%83%D0%BB%D0%B8.webp",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/47/%D0%A5%D1%83%D0%BB%D0%B0%D0%BD%D0%B4%D1%80%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F%2C_%D0%BC%D0%B0%D1%88%D0%B8%D0%BA%D1%83%D0%BB%D0%B8.webp",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A5%D1%83%D0%BB%D0%B0%D0%BD%D0%B4%D1%80%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F,_%D0%BC%D0%B0%D1%88%D0%B8%D0%BA%D1%83%D0%BB%D0%B8.webp",
+      "caption": "Машикули башни и кровля",
+      "source": "Wikimedia Commons",
+      "artist": "Tahevadam",
+      "date": "2019",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "480",
+      "height": "480"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Storojevie_bashni_u_seleniya_Hakkoy_do_1868_goda.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Storojevie_bashni_u_seleniya_Hakkoy_do_1868_goda.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Storojevie_bashni_u_seleniya_Hakkoy_do_1868_goda.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Storojevie_bashni_u_seleniya_Hakkoy_do_1868_goda.jpg",
+      "caption": "Сторожевые башни у селения Хаккой до 1868 года",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "before 1868 date QS:P,+1868-00-00T00:00:00Z/7,P1326,+1868-00",
+      "license": "Public domain",
+      "width": "580",
+      "height": "356"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/%D0%91%D0%B8%D1%86%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%BA%D0%BE-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%2C_%D0%A7%D0%B5%D1%87%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0.jpg/1280px-%D0%91%D0%B8%D1%86%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%BA%D0%BE-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%2C_%D0%A7%D0%B5%D1%87%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/%D0%91%D0%B8%D1%86%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%BA%D0%BE-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%2C_%D0%A7%D0%B5%D1%87%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0.jpg/500px-%D0%91%D0%B8%D1%86%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%BA%D0%BE-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%2C_%D0%A7%D0%B5%D1%87%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f5/%D0%91%D0%B8%D1%86%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%BA%D0%BE-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%2C_%D0%A7%D0%B5%D1%87%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B8%D1%86%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%BA%D0%BE-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81,_%D0%A7%D0%B5%D1%87%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0.jpg",
+      "caption": "Бицийский историко-архитектурный комплекс: Бици, Ачхой-Мартановский район, Чеченская республика",
+      "source": "Wikimedia Commons",
+      "artist": "Geoalex",
+      "date": "2022-08-27 14:48:46",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Tsoy-Peda_1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/16/Tsoy-Peda_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/16/Tsoy-Peda_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tsoy-Peda_1.jpg",
+      "caption": "Tsoy-Peda 1",
+      "source": "Wikimedia Commons",
+      "artist": "https://ru.wikipedia.org/w/index.php?title=%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:Noxchiy&action=edit&redlink=1",
+      "date": "2008-10-20 10:55:33",
+      "license": "Public domain",
+      "width": "1258",
+      "height": "803"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/%D0%94%D0%BE%D0%BC%D0%B8%D0%BA_%D0%BA%D1%80%D0%B0%D1%81%D0%B0%D0%B2%D0%B8%D1%86%D1%8B_%D0%B2_%D0%94%D0%BE%D0%B9%D0%BD%D0%B8%D1%87%D1%83.jpg/1280px-%D0%94%D0%BE%D0%BC%D0%B8%D0%BA_%D0%BA%D1%80%D0%B0%D1%81%D0%B0%D0%B2%D0%B8%D1%86%D1%8B_%D0%B2_%D0%94%D0%BE%D0%B9%D0%BD%D0%B8%D1%87%D1%83.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/%D0%94%D0%BE%D0%BC%D0%B8%D0%BA_%D0%BA%D1%80%D0%B0%D1%81%D0%B0%D0%B2%D0%B8%D1%86%D1%8B_%D0%B2_%D0%94%D0%BE%D0%B9%D0%BD%D0%B8%D1%87%D1%83.jpg/500px-%D0%94%D0%BE%D0%BC%D0%B8%D0%BA_%D0%BA%D1%80%D0%B0%D1%81%D0%B0%D0%B2%D0%B8%D1%86%D1%8B_%D0%B2_%D0%94%D0%BE%D0%B9%D0%BD%D0%B8%D1%87%D1%83.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2e/%D0%94%D0%BE%D0%BC%D0%B8%D0%BA_%D0%BA%D1%80%D0%B0%D1%81%D0%B0%D0%B2%D0%B8%D1%86%D1%8B_%D0%B2_%D0%94%D0%BE%D0%B9%D0%BD%D0%B8%D1%87%D1%83.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%94%D0%BE%D0%BC%D0%B8%D0%BA_%D0%BA%D1%80%D0%B0%D1%81%D0%B0%D0%B2%D0%B8%D1%86%D1%8B_%D0%B2_%D0%94%D0%BE%D0%B9%D0%BD%D0%B8%D1%87%D1%83.jpg",
+      "caption": "Домик красавицы в Дойничу",
+      "source": "Wikimedia Commons",
+      "artist": "Абдуллах Берсаев",
+      "date": "2016",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/%D0%A1._%D0%9C%D0%B5%D1%88%D0%B8._%D0%A1%D0%BA%D0%BB%D0%B5%D0%BF_%D0%B8_%D0%B1%D0%BE%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/85/%D0%A1._%D0%9C%D0%B5%D1%88%D0%B8._%D0%A1%D0%BA%D0%BB%D0%B5%D0%BF_%D0%B8_%D0%B1%D0%BE%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/%D0%A1._%D0%9C%D0%B5%D1%88%D0%B8._%D0%A1%D0%BA%D0%BB%D0%B5%D0%BF_%D0%B8_%D0%B1%D0%BE%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A1._%D0%9C%D0%B5%D1%88%D0%B8._%D0%A1%D0%BA%D0%BB%D0%B5%D0%BF_%D0%B8_%D0%B1%D0%BE%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F.jpg",
+      "caption": "с. Меши в Чеченской Республике",
+      "source": "Wikimedia Commons",
+      "artist": "Товболатов",
+      "date": "2024",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1080",
+      "height": "810"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/%D0%A1%D0%BA%D0%BB%D0%B5%D0%BF%D0%B0%D1%88_%D0%91%D1%83%D0%B3l%D0%B0%D1%80%D0%B0%2C_%D0%A7l%D0%B8%D0%BD%D1%85%D0%B0._%D0%9D%D0%BE%D1%85%D1%87%D0%B8%D0%B9%D1%87%D0%BE%D1%8C.jpg/1280px-%D0%A1%D0%BA%D0%BB%D0%B5%D0%BF%D0%B0%D1%88_%D0%91%D1%83%D0%B3l%D0%B0%D1%80%D0%B0%2C_%D0%A7l%D0%B8%D0%BD%D1%85%D0%B0._%D0%9D%D0%BE%D1%85%D1%87%D0%B8%D0%B9%D1%87%D0%BE%D1%8C.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/%D0%A1%D0%BA%D0%BB%D0%B5%D0%BF%D0%B0%D1%88_%D0%91%D1%83%D0%B3l%D0%B0%D1%80%D0%B0%2C_%D0%A7l%D0%B8%D0%BD%D1%85%D0%B0._%D0%9D%D0%BE%D1%85%D1%87%D0%B8%D0%B9%D1%87%D0%BE%D1%8C.jpg/500px-%D0%A1%D0%BA%D0%BB%D0%B5%D0%BF%D0%B0%D1%88_%D0%91%D1%83%D0%B3l%D0%B0%D1%80%D0%B0%2C_%D0%A7l%D0%B8%D0%BD%D1%85%D0%B0._%D0%9D%D0%BE%D1%85%D1%87%D0%B8%D0%B9%D1%87%D0%BE%D1%8C.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f9/%D0%A1%D0%BA%D0%BB%D0%B5%D0%BF%D0%B0%D1%88_%D0%91%D1%83%D0%B3l%D0%B0%D1%80%D0%B0%2C_%D0%A7l%D0%B8%D0%BD%D1%85%D0%B0._%D0%9D%D0%BE%D1%85%D1%87%D0%B8%D0%B9%D1%87%D0%BE%D1%8C.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%BA%D0%BB%D0%B5%D0%BF%D0%B0%D1%88_%D0%91%D1%83%D0%B3l%D0%B0%D1%80%D0%B0,_%D0%A7l%D0%B8%D0%BD%D1%85%D0%B0._%D0%9D%D0%BE%D1%85%D1%87%D0%B8%D0%B9%D1%87%D0%BE%D1%8C.jpg",
+      "caption": "Склепы в Чинхе (Бугарое)",
+      "source": "Wikimedia Commons",
+      "artist": "Flandria12",
+      "date": "2020-07-01 19:06:43",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "2276"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Chechen tower architecture",
@@ -62,7 +227,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6960545",
+      "url": "https://www.wikidata.org/wiki/Q6960545",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:20.495Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Chechen tower architecture",
+      "url": "https://en.wikipedia.org/wiki/Chechen_tower_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:20.495Z"
+      }
+    }
+  ],
   "wikidata": "Q6960545",
   "wikipedia": "Chechen tower architecture",
   "popularity": 35,
@@ -70,5 +258,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:40:20.495Z"
 }

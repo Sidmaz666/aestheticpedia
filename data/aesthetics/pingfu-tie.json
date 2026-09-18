@@ -17,7 +17,21 @@
   "summary": "The Pingfu tie (simplified Chinese: 平复帖; traditional Chinese: 平復帖), also spelled as Pingfutie or Ping Fu Tie, is a work of calligraphy on paper by Lu Ji (261–303 CE).",
   "description": "The Pingfu tie (simplified Chinese: 平复帖; traditional Chinese: 平復帖), also spelled as Pingfutie or Ping Fu Tie, is a work of calligraphy on paper by Lu Ji (261–303 CE). It is widely recognized as the oldest extant Chinese calligraphic masterwork in the world, or more precisely, the oldest surviving piece of Chinese calligraphy written by a well-known master himself.\n\nThis calligraphic artwork, which is over 1,700 years old, is now housed in the permanent collection of the Palace Museum in the Forbidden City in Beijing, China.   It is only showcased once every 5 years.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bfa07c",
+      "name": "camel"
+    },
+    {
+      "hex": "#a18a6e",
+      "name": "stone"
+    },
+    {
+      "hex": "#756a59",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +53,33 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ping_Fu_Tie_by_Lu_Ji.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ping_Fu_Tie_by_Lu_Ji.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ping_Fu_Tie_by_Lu_Ji.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ping_Fu_Tie_by_Lu_Ji.jpg",
+      "caption": "Ping Fu Tie written by Lu Ji , collection of the Palace Museum, Beijing.",
+      "source": "Wikimedia Commons",
+      "artist": "Lu Ji",
+      "date": "不詳",
+      "license": "Public domain",
+      "width": "1063",
+      "height": "909"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/%E5%B9%B3%E5%A4%8D%E5%B8%96.png/1280px-%E5%B9%B3%E5%A4%8D%E5%B8%96.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/%E5%B9%B3%E5%A4%8D%E5%B8%96.png/500px-%E5%B9%B3%E5%A4%8D%E5%B8%96.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/21/%E5%B9%B3%E5%A4%8D%E5%B8%96.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%E5%B9%B3%E5%A4%8D%E5%B8%96.png",
+      "caption": "Ping Fu Tie",
+      "source": "Wikimedia Commons",
+      "artist": "Lu Ji",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "606"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Pingfu tie",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q11060826",
+      "url": "https://www.wikidata.org/wiki/Q11060826",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:12.012Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Pingfu tie",
+      "url": "https://en.wikipedia.org/wiki/Pingfu_tie",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:12.012Z"
+      }
+    }
+  ],
   "wikidata": "Q11060826",
   "wikipedia": "Pingfu tie",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:00:12.012Z"
 }

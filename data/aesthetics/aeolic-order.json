@@ -17,7 +17,33 @@
   "summary": "The Aeolic order or Aeolian order was an early order of Classical architecture.",
   "description": "The Aeolic order or Aeolian order was an early order of Classical architecture. It has a strong similarity to the better known Ionic order, but differs in the capital, where a palmette rises between the two outer volutes, rather than them being linked horizontally by a form at the top of the capital. Many examples also show simplified details compared to the Ionic.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f8f9ee",
+      "name": "paper white"
+    },
+    {
+      "hex": "#8b847a",
+      "name": "taupe"
+    },
+    {
+      "hex": "#aba69e",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#7f715d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#d2d3cc",
+      "name": "bone white"
+    },
+    {
+      "hex": "#6b5d47",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,62 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Aeolic_capital_from_Neandria.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/45/Aeolic_capital_from_Neandria.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/45/Aeolic_capital_from_Neandria.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Aeolic_capital_from_Neandria.jpg",
+      "caption": "Aeolic capital from Neandria, from \"A history of architecture on the comparative method\"",
+      "source": "Wikimedia Commons",
+      "artist": "Fletcher, Banister, 1833-1899. A history of architecture on the comparative method",
+      "date": "2019-08-14 22:26:04",
+      "license": "Public domain",
+      "width": "480",
+      "height": "324"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Stone_structure_from_City_of_David.jpg/1280px-Stone_structure_from_City_of_David.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Stone_structure_from_City_of_David.jpg/500px-Stone_structure_from_City_of_David.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/89/Stone_structure_from_City_of_David.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Stone_structure_from_City_of_David.jpg",
+      "caption": "Proto-Aeolic capital unearthed in the City of David (Jerusalem), Israel",
+      "source": "Wikimedia Commons",
+      "artist": "Davidbena",
+      "date": "2021-08-01 15:28:22",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Aeolic_Capital.jpg/1280px-Aeolic_Capital.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Aeolic_Capital.jpg/500px-Aeolic_Capital.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/11/Aeolic_Capital.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Aeolic_Capital.jpg",
+      "caption": "Aeolic Capital from the Temple of Athena in Old Smyrna, from the 7th century BCE, now in the Izmir's History and Culture Museum.",
+      "source": "Wikimedia Commons",
+      "artist": "Isabeau",
+      "date": "2019-07-19 08:28:21",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Chambranle_Chaoud_el_Battan_Catalogue_Alaoui_%28cropped%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Chambranle_Chaoud_el_Battan_Catalogue_Alaoui_%28cropped%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Chambranle_Chaoud_el_Battan_Catalogue_Alaoui_%28cropped%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chambranle_Chaoud_el_Battan_Catalogue_Alaoui_(cropped).jpg",
+      "caption": "Chambranle de porte au Musée Alaoui",
+      "source": "Wikimedia Commons",
+      "artist": "Henri Saladin",
+      "date": "1897",
+      "license": "Public domain",
+      "width": "1105",
+      "height": "1559"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Aeolic order",
@@ -62,7 +143,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3355791",
+      "url": "https://www.wikidata.org/wiki/Q3355791",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:34:56.307Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Aeolic order",
+      "url": "https://en.wikipedia.org/wiki/Aeolic_order",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:34:56.307Z"
+      }
+    }
+  ],
   "wikidata": "Q3355791",
   "wikipedia": "Aeolic order",
   "popularity": 35,
@@ -70,5 +174,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:34:56.307Z"
 }

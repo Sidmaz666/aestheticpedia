@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Flanders",
+  "geography": "Flanders",
   "periodStart": "16th century",
   "periodEnd": "18th century",
   "startYear": 1585,
@@ -17,7 +17,33 @@
   "summary": "Flemish Baroque painting was a style of painting in the Southern Netherlands during Spanish control in the 16th and 17th centuries.",
   "description": "Flemish Baroque painting was a style of painting in the Southern Netherlands during Spanish control in the 16th and 17th centuries. The period roughly begins when the Dutch Republic was split from the Habsburg Spain regions to the south with the Spanish recapturing of Antwerp in 1585 and goes until about 1700, when Spanish Habsburg authority ended with the death of King Charles II. Antwerp, home to the prominent artists Peter Paul Rubens, Anthony van Dyck, and Jacob Jordaens, was the artistic nexus, while other notable cities include Brussels and Ghent.\n\nRubens, in particular, had a strong influence on seventeenth-century visual culture. His innovations helped define Antwerp as one of Europe's major artistic cities, especially for Counter-Reformation imagery, and his student Van Dyck was instrumental in establishing new directions in English portraiture. Other developments in Flemish Baroque painting are similar to those found in Dutch Golden Age painting, with artists specializing in such areas as history painting, portraiture, genre painting, landscape painting, and still life.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#261f1a",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#4c382b",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#77593e",
+      "name": "umber"
+    },
+    {
+      "hex": "#0e4cb5",
+      "name": "cobalt"
+    },
+    {
+      "hex": "#afa28e",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#b38450",
+      "name": "raw sienna"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,139 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Peter_Paul_Rubens_-_De_kruisoprichting.JPG/1280px-Peter_Paul_Rubens_-_De_kruisoprichting.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Peter_Paul_Rubens_-_De_kruisoprichting.JPG/500px-Peter_Paul_Rubens_-_De_kruisoprichting.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/52/Peter_Paul_Rubens_-_De_kruisoprichting.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_De_kruisoprichting.JPG",
+      "caption": "Raising of the Cross",
+      "source": "Wikimedia Commons",
+      "artist": "Peter Paul Rubens",
+      "date": "circa 1610 date QS:P571,+1610-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1721"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Bartolom%C3%A9_Esteban_Murillo%2C_Faith_or_The_Church_Triumphant_as%2C_165_x_251_cm.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/50/Bartolom%C3%A9_Esteban_Murillo%2C_Faith_or_The_Church_Triumphant_as%2C_165_x_251_cm.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/50/Bartolom%C3%A9_Esteban_Murillo%2C_Faith_or_The_Church_Triumphant_as%2C_165_x_251_cm.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bartolom%C3%A9_Esteban_Murillo,_Faith_or_The_Church_Triumphant_as,_165_x_251_cm.jpg",
+      "caption": "Faith or The Church Triumphant",
+      "source": "Wikimedia Commons",
+      "artist": "Bartolomé Esteban Murillo",
+      "date": "between 1664 and 1665 date QS:P571,+1664-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "956",
+      "height": "640"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:046CupolaSPietro.jpg",
+      "caption": "Città del Vaticano - Cupola della Basilica di S. Pietro",
+      "source": "Wikimedia Commons",
+      "artist": "MarkusMark",
+      "date": "2006-01",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Rubens_-_Prometheus_Bound.jpg/1280px-Rubens_-_Prometheus_Bound.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Rubens_-_Prometheus_Bound.jpg/500px-Rubens_-_Prometheus_Bound.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Rubens_-_Prometheus_Bound.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rubens_-_Prometheus_Bound.jpg",
+      "caption": "Prometheus Bound",
+      "source": "Wikimedia Commons",
+      "artist": "Frans Snyders / Peter Paul Rubens",
+      "date": "between circa 1611 and circa 1612 date QS:P,+1611-00-00T00:0",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1479"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Frans_Francken_%28II%29%2C_Kunst-_und_Rarit%C3%A4tenkammer_%281636%29.jpg/1280px-Frans_Francken_%28II%29%2C_Kunst-_und_Rarit%C3%A4tenkammer_%281636%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Frans_Francken_%28II%29%2C_Kunst-_und_Rarit%C3%A4tenkammer_%281636%29.jpg/500px-Frans_Francken_%28II%29%2C_Kunst-_und_Rarit%C3%A4tenkammer_%281636%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/04/Frans_Francken_%28II%29%2C_Kunst-_und_Rarit%C3%A4tenkammer_%281636%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Frans_Francken_(II),_Kunst-_und_Rarit%C3%A4tenkammer_(1636).jpg",
+      "caption": "German: Kunst- und Raritätenkammer Chamber of Art and Curiosities",
+      "source": "Wikimedia Commons",
+      "artist": "Frans Francken the Younger",
+      "date": "1636",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1190"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Charles_I_of_England.jpg/1280px-Charles_I_of_England.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Charles_I_of_England.jpg/500px-Charles_I_of_England.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Charles_I_of_England.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Charles_I_of_England.jpg",
+      "caption": "Charles I at the Hunt",
+      "source": "Wikimedia Commons",
+      "artist": "Anthony van Dyck",
+      "date": "1635",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1668"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Adriaen_Brouwer_-_The_Bitter_Potion_-_Google_Art_Project.jpg/1280px-Adriaen_Brouwer_-_The_Bitter_Potion_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Adriaen_Brouwer_-_The_Bitter_Potion_-_Google_Art_Project.jpg/500px-Adriaen_Brouwer_-_The_Bitter_Potion_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/87/Adriaen_Brouwer_-_The_Bitter_Potion_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Adriaen_Brouwer_-_The_Bitter_Potion_-_Google_Art_Project.jpg",
+      "caption": "The Bitter Draught",
+      "source": "Wikimedia Commons",
+      "artist": "Adriaen Brouwer",
+      "date": "1636/1638",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1711"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Jakob_Jordaens_001.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/97/Jakob_Jordaens_001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/97/Jakob_Jordaens_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jakob_Jordaens_001.jpg",
+      "caption": "The King Drinks",
+      "source": "Wikimedia Commons",
+      "artist": "Jacob Jordaens",
+      "date": "first half of 17 th century date QS:P571,+1650-00-00T00:00:0",
+      "license": "Public domain",
+      "width": "1071",
+      "height": "788"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Sweerts%2C_Michael_-1649-_-_Wrestling_Match.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Sweerts%2C_Michael_-1649-_-_Wrestling_Match.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Sweerts%2C_Michael_-1649-_-_Wrestling_Match.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sweerts,_Michael_-1649-_-_Wrestling_Match.jpg",
+      "caption": "German: Römischer Ringkampf Wrestling match",
+      "source": "Wikimedia Commons",
+      "artist": "Michiel Sweerts",
+      "date": "circa 1650 date QS:P571,+1650-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "964",
+      "height": "640"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Peter_Paul_Rubens_-_View_of_Het_Steen_Castle_in_the_Early_Morning.jpg/1280px-Peter_Paul_Rubens_-_View_of_Het_Steen_Castle_in_the_Early_Morning.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Peter_Paul_Rubens_-_View_of_Het_Steen_Castle_in_the_Early_Morning.jpg/500px-Peter_Paul_Rubens_-_View_of_Het_Steen_Castle_in_the_Early_Morning.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/67/Peter_Paul_Rubens_-_View_of_Het_Steen_Castle_in_the_Early_Morning.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_View_of_Het_Steen_Castle_in_the_Early_Morning.jpg",
+      "caption": "A View of Het Steen in the Early Morning",
+      "source": "Wikimedia Commons",
+      "artist": "Peter Paul Rubens",
+      "date": "1636",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "751"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Flemish Baroque painting",
@@ -62,7 +220,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1994273",
+      "url": "https://www.wikidata.org/wiki/Q1994273",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:22.292Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Flemish Baroque painting",
+      "url": "https://en.wikipedia.org/wiki/Flemish_Baroque_painting",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:22.292Z"
+      }
+    }
+  ],
   "wikidata": "Q1994273",
   "wikipedia": "Flemish Baroque painting",
   "popularity": 35,
@@ -70,5 +251,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.225Z"
 }

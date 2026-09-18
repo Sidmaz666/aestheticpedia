@@ -20,7 +20,33 @@
   "summary": "Preppy (also spelled as preppie, or prep) is an American subculture associated with the alumni of college-preparatory schools in the Northeastern United States.",
   "description": "Preppy (also spelled as preppie, or prep) is an American subculture associated with the alumni of college-preparatory schools in the Northeastern United States. The term, which is an abbreviation of \"preparatory\", is used to denote a person seen as characteristic of a student or alumnus of these schools. Characteristics of preppy individuals include a particular subcultural speech, vocabulary, dress, mannerisms and etiquette reflective of an upper class and old money upbringing.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b5ae99",
+      "name": "khaki"
+    },
+    {
+      "hex": "#969c90",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#8a8676",
+      "name": "taupe"
+    },
+    {
+      "hex": "#757060",
+      "name": "bronze"
+    },
+    {
+      "hex": "#544839",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#b09474",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,21 @@
   "tags": [
     "fashion style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Columbiaman.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Columbiaman.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Columbiaman.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Columbiaman.jpg",
+      "caption": "A classic 1902 college poster for Columbia University. A new century was in progress and this poster captured the life of a college student of the era. An undergraduate student is captured in a white turtleneck with the Columbia “C” on the front. He is seated in a chair smoking a",
+      "source": "Wikimedia Commons",
+      "artist": "John E. Sheridan",
+      "date": "1902",
+      "license": "Public domain",
+      "width": "626",
+      "height": "993"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Preppy",
@@ -65,7 +105,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1573001",
+      "url": "https://www.wikidata.org/wiki/Q1573001",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:14.300Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Preppy",
+      "url": "https://en.wikipedia.org/wiki/Preppy",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:14.300Z"
+      }
+    }
+  ],
   "wikidata": "Q1573001",
   "wikipedia": "Preppy",
   "popularity": 35,
@@ -73,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:01:14.300Z"
 }

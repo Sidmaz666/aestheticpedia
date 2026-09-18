@@ -3,7 +3,10 @@
   "name": "Joglo Architecture",
   "aliases": [
     "Javanese Pavilion",
-    "Pendopo Style"
+    "Pendopo Style",
+    "Javanese Joglo",
+    "Joglo Jawa",
+    "Javanese Traditional House"
   ],
   "category": "Regional & Cultural Tradition",
   "subcategory": "Regional & Cultural Tradition",
@@ -338,6 +341,36 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:51:07.868Z"
       }
+    },
+    {
+      "name": "Indonesia Heritage Society",
+      "url": "https://www.heritageindonesia.org",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
+    },
+    {
+      "name": "Yogyakarta Palace",
+      "url": "https://www.kratonjogja.id",
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
+    },
+    {
+      "name": "National Museum of Indonesia",
+      "url": "https://www.museumnasionalindonesia.or.id",
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -382,5 +415,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T03:55:36.099Z",
-  "updatedAt": "2026-09-18T05:03:00.787Z"
+  "updatedAt": "2026-09-18T10:47:43.278Z"
 }

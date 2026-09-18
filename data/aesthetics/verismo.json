@@ -17,7 +17,33 @@
   "summary": "Verismo (meaning \"realism\", from Italian vero, meaning \"true\") was a 19th-century Italian painting style, or group of styles, related to the contemporary movements using the same name in Italian literature and opera.",
   "description": "Verismo (meaning \"realism\", from Italian vero, meaning \"true\") was a 19th-century Italian painting style, or group of styles, related to the contemporary movements using the same name in Italian literature and opera. It may reflect either or both \"realist\", unglamorous, subject matter, or a style of usually rather loose brushwork, anticipating later painting. Though the term originated in the 1860s to describe painting, it became more widely used to describe literature and opera, where it mostly meant social realism, showing the lives of poor people in an un-romanticised way, especially (in literature) in backward Sicily.\n\nIn painting the Italian verismo movement was part of a wider European trend of Realism (often called \"Naturalism\" in some countries), and practiced most characteristically by the \"Macchiaioli\" group of painters, who emerged in the 1850s and can be considered forerunners of the French Impressionists. Contemporary art historians often try to distinguish the different elements by calling the choice of mundane, social realist, subject matter \"realism\", and the relaxed, even loose, technique \"naturalism\".\n\nThe term \"verism\" may sometimes be used in English, but this more often refers to the \"warts and all\" realism of some Ancient Roman portrait sculpture, or to a very precise finish in 20th-century painting, approaching photorealism.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e7c29d",
+      "name": "beige"
+    },
+    {
+      "hex": "#61464a",
+      "name": "umber"
+    },
+    {
+      "hex": "#7e5e5c",
+      "name": "bronze"
+    },
+    {
+      "hex": "#433039",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#9a766d",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#b59f94",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Telemaco_Signorini_002.jpg/1280px-Telemaco_Signorini_002.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Telemaco_Signorini_002.jpg/500px-Telemaco_Signorini_002.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/55/Telemaco_Signorini_002.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Telemaco_Signorini_002.jpg",
+      "caption": "Italian: Kirkgate a Leight presso Edimburgo In the streets of Leith",
+      "source": "Wikimedia Commons",
+      "artist": "Telemaco Signorini",
+      "date": "1881",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1427"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg/1280px-Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg/500px-Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg",
+      "caption": "presumed Self-portrait",
+      "source": "Wikimedia Commons",
+      "artist": "Leonardo da Vinci",
+      "date": "1569",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1995"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Verismo (painting)",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7921371",
+      "url": "https://www.wikidata.org/wiki/Q7921371",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:24.438Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Verismo (painting)",
+      "url": "https://en.wikipedia.org/wiki/Verismo_(painting)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:24.438Z"
+      }
+    }
+  ],
   "wikidata": "Q7921371",
   "wikipedia": "Verismo (painting)",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:10:24.438Z"
 }

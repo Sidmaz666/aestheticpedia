@@ -11,15 +11,41 @@
   "confidence": 60,
   "origin": "",
   "geography": "",
-  "periodStart": "",
+  "periodStart": "Renaissance",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 1400,
   "endYear": null,
-  "era": "",
+  "era": "15th century",
   "summary": "The Forlivese school of art was a group of Italian Renaissance painters and other artists.",
   "description": "The Forlivese school of art was a group of Italian Renaissance painters and other artists. Most were born in Forlì or near it in the Emilia-Romagna region of Italy.  Some other artists went to Forlì to study.\n\nAs a Renaissance art movement, it lasted from the 14th through the 16th centuries.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e3ba94",
+      "name": "tan"
+    },
+    {
+      "hex": "#edd0b1",
+      "name": "apricot"
+    },
+    {
+      "hex": "#d3a178",
+      "name": "camel"
+    },
+    {
+      "hex": "#5b331b",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#885024",
+      "name": "brick"
+    },
+    {
+      "hex": "#251814",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,35 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Marco_palmezzano%2C_gloria_di_s._antonio_abate_tra_i_ss._giovanni_battista_e_sebastiano_%28pala_ostoli%29%2C_1496-97%2C_da_s.m._del_carmine_a_forl%C3%AC_01.jpg/1280px-Marco_palmezzano%2C_gloria_di_s._antonio_abate_tra_i_ss._giovanni_battista_e_sebastiano_%28pala_ostoli%29%2C_1496-97%2C_da_s.m._del_carmine_a_forl%C3%AC_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Marco_palmezzano%2C_gloria_di_s._antonio_abate_tra_i_ss._giovanni_battista_e_sebastiano_%28pala_ostoli%29%2C_1496-97%2C_da_s.m._del_carmine_a_forl%C3%AC_01.jpg/500px-Marco_palmezzano%2C_gloria_di_s._antonio_abate_tra_i_ss._giovanni_battista_e_sebastiano_%28pala_ostoli%29%2C_1496-97%2C_da_s.m._del_carmine_a_forl%C3%AC_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/92/Marco_palmezzano%2C_gloria_di_s._antonio_abate_tra_i_ss._giovanni_battista_e_sebastiano_%28pala_ostoli%29%2C_1496-97%2C_da_s.m._del_carmine_a_forl%C3%AC_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Marco_palmezzano,_gloria_di_s._antonio_abate_tra_i_ss._giovanni_battista_e_sebastiano_(pala_ostoli),_1496-97,_da_s.m._del_carmine_a_forl%C3%AC_01.jpg",
+      "caption": "Marco palmezzano, gloria di s. antonio abate tra i ss. giovanni battista e sebastiano (pala ostoli), 1496-97, da s.m. del carmine a forlì 01",
+      "source": "Wikimedia Commons",
+      "artist": "Sailko",
+      "date": "2018-05-06 16:43:03",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1399"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg/1280px-Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg/500px-Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg",
+      "caption": "presumed Self-portrait",
+      "source": "Wikimedia Commons",
+      "artist": "Leonardo da Vinci",
+      "date": "1569",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1995"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Forlivese school of art",
@@ -64,7 +118,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1055886",
+      "url": "https://www.wikidata.org/wiki/Q1055886",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:04.177Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Forlivese school of art",
+      "url": "https://en.wikipedia.org/wiki/Forlivese_school_of_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:04.177Z"
+      }
+    }
+  ],
   "wikidata": "Q1055886",
   "wikipedia": "Forlivese school of art",
   "popularity": 35,
@@ -72,5 +149,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.221Z"
 }

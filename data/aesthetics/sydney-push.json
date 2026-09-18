@@ -17,7 +17,33 @@
   "summary": "The Sydney Push was an intellectual subculture in Sydney from the late 1940s to the early 1970s.",
   "description": "The Sydney Push was an intellectual subculture in Sydney from the late 1940s to the early 1970s. Its politics were predominantly left-wing libertarianism. The Push operated in a pub culture and included university students, academics, manual workers, musicians, lawyers, criminals, journalists and public servants. Rejection of conventional morality and authoritarianism was a common bond. Students and staff from Sydney University, mainly the Faculty of Arts, were prominent members. In the 1960s, students and staff from the University of New South Wales also became involved.\n\nWell known associates of the Push include Richard Appleton, Jim Baker, Lex Banning, Eva Cox, Robyn Davidson, Margaret Fink, John Flaus, Germaine Greer, Lynne Segal, George Molnar, Robert Hughes, Harry Hooton, Clive James, Barry Humphries, Sasha Soldatow, David Makinson, Jill \"Blue\" Neville, Paddy McGuinness, Frank Moorhouse, David Perry, Lillian Roxon, Jack the Anarchist and Darcy Waters. From 1961 to 1962, poet Les Murray resided in Brian Jenkins's Push household at Glen Street, Milsons Point, which became a mecca for associates visiting Sydney from Melbourne and other cities.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1f1815",
+      "name": "black"
+    },
+    {
+      "hex": "#ddd6b2",
+      "name": "beige"
+    },
+    {
+      "hex": "#463b2f",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#72604b",
+      "name": "umber"
+    },
+    {
+      "hex": "#cfab8d",
+      "name": "tan"
+    },
+    {
+      "hex": "#a0866c",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/R_George134.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/30/R_George134.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/R_George134.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:R_George134.jpg",
+      "caption": "The former Royal George Hotel building, Sussex and King Streets , Sydney, photographed in April, 2004. In earlier years, the Sydney Push met in the \"back room\", at ground floor left. Taken by Bjenks on 21 April, 2004 using Sony DSC VI digital camera.",
+      "source": "Wikimedia Commons",
+      "artist": "Bjenks at English Wikipedia",
+      "date": "25 July 2007 (original upload date)",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1158",
+      "height": "839"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Ian_Parker_and_Bob_Gould.jpg/1280px-Ian_Parker_and_Bob_Gould.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Ian_Parker_and_Bob_Gould.jpg/500px-Ian_Parker_and_Bob_Gould.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/95/Ian_Parker_and_Bob_Gould.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ian_Parker_and_Bob_Gould.jpg",
+      "caption": "Sydney Push associates Ian Parker (left) and Bob Gould in a 1960s street demonstration outside the Queen Victoria Building in Sydney. This is a retouched version of the original, which was also made by myself.",
+      "source": "Wikimedia Commons",
+      "artist": "Bjenks",
+      "date": "2010-04-09",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1102"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Push_reunion_2012.jpg/1280px-Push_reunion_2012.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Push_reunion_2012.jpg/500px-Push_reunion_2012.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Push_reunion_2012.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Push_reunion_2012.jpg",
+      "caption": "A group of associates of the 1950s Sydney Push attending a reunion at the Harold Park Hotel, Sydney, on 12 February 2012",
+      "source": "Wikimedia Commons",
+      "artist": "Bjenks",
+      "date": "2012-02-12",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "852"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Sydney Push",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7660102",
+      "url": "https://www.wikidata.org/wiki/Q7660102",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:02.903Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Sydney Push",
+      "url": "https://en.wikipedia.org/wiki/Sydney_Push",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:02.903Z"
+      }
+    }
+  ],
   "wikidata": "Q7660102",
   "wikipedia": "Sydney Push",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:08:02.903Z"
 }

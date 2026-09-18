@@ -20,7 +20,33 @@
   "summary": "Historicism or historism comprises artistic styles that draw their inspiration from recreating historic styles or imitating the work of historic artists and artisans.",
   "description": "Historicism or historism comprises artistic styles that draw their inspiration from recreating historic styles or imitating the work of historic artists and artisans. This is especially common in architecture, where there are many different styles of Revival architecture, which dominated large buildings in the 19th century. Through a combination of different styles or the implementation of new elements, historicism can create completely different aesthetics than former styles. Thus, it offers a great variety of possible designs.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#232c29",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#474430",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#d1b491",
+      "name": "tan"
+    },
+    {
+      "hex": "#e6e1df",
+      "name": "bone white"
+    },
+    {
+      "hex": "#394c5d",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#746231",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,35 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Thomas_Cole_-_Architect%E2%80%99s_Dream_-_Google_Art_Project.jpg/1280px-Thomas_Cole_-_Architect%E2%80%99s_Dream_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Thomas_Cole_-_Architect%E2%80%99s_Dream_-_Google_Art_Project.jpg/500px-Thomas_Cole_-_Architect%E2%80%99s_Dream_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Thomas_Cole_-_Architect%E2%80%99s_Dream_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Cole_-_Architect%E2%80%99s_Dream_-_Google_Art_Project.jpg",
+      "caption": "Architect’s Dream",
+      "source": "Wikimedia Commons",
+      "artist": "Thomas Cole",
+      "date": "1840 date QS:P571,+1840-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "786"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Schwerin_Castle_Aerial_View_Island_Luftbild_Schweriner_Schloss_Insel_See.jpg/1280px-Schwerin_Castle_Aerial_View_Island_Luftbild_Schweriner_Schloss_Insel_See.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Schwerin_Castle_Aerial_View_Island_Luftbild_Schweriner_Schloss_Insel_See.jpg/500px-Schwerin_Castle_Aerial_View_Island_Luftbild_Schweriner_Schloss_Insel_See.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Schwerin_Castle_Aerial_View_Island_Luftbild_Schweriner_Schloss_Insel_See.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Schwerin_Castle_Aerial_View_Island_Luftbild_Schweriner_Schloss_Insel_See.jpg",
+      "caption": "Schwerin Palace on its island at Lake Schwerin , aerial view",
+      "source": "Wikimedia Commons",
+      "artist": "Harald Hoyer",
+      "date": "2012-08-15 07:04:48",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1600"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Historicism (art)",
@@ -65,7 +119,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q277466",
+      "url": "https://www.wikidata.org/wiki/Q277466",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:12.889Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Historicism (art)",
+      "url": "https://en.wikipedia.org/wiki/Historicism_(art)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:12.889Z"
+      }
+    }
+  ],
   "wikidata": "Q277466",
   "wikipedia": "Historicism (art)",
   "popularity": 35,
@@ -73,5 +150,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:49:12.889Z"
 }

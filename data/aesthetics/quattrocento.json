@@ -7,17 +7,43 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
-  "periodStart": "",
+  "origin": "Republic of Florence, Republic of Venice",
+  "geography": "Republic of Florence, Republic of Venice",
+  "periodStart": "15th century",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 1401,
   "endYear": null,
-  "era": "",
+  "era": "15th century",
   "summary": "The cultural and artistic events of Italy during the period 1400 to 1499 are collectively referred to as the  Quattrocento (UK:  KWAT-roh-CHEN-toh, -⁠trə-, US:  KWOT-roh-, Italian: [ˌkwattroˈtʃɛnto]), from the Italian word for the number '400', in turn from millequattrocento, '1400'.",
   "description": "The cultural and artistic events of Italy during the period 1400 to 1499 are collectively referred to as the  Quattrocento (UK:  KWAT-roh-CHEN-toh, -⁠trə-, US:  KWOT-roh-, Italian: [ˌkwattroˈtʃɛnto]), from the Italian word for the number '400', in turn from millequattrocento, '1400'. The Quattrocento encompasses the artistic styles of the late Middle Ages (most notably International Gothic), the early Renaissance (beginning around 1425), and the start of the High Renaissance, generally asserted to begin between 1495 and 1500.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bfbdb2",
+      "name": "silver"
+    },
+    {
+      "hex": "#543e2f",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#3b281f",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#645444",
+      "name": "umber"
+    },
+    {
+      "hex": "#150909",
+      "name": "black"
+    },
+    {
+      "hex": "#a39484",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Collage_arte_italiana.jpg/1280px-Collage_arte_italiana.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Collage_arte_italiana.jpg/500px-Collage_arte_italiana.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Collage_arte_italiana.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Collage_arte_italiana.jpg",
+      "caption": "Collage di varie foto sull'arte italiana.",
+      "source": "Wikimedia Commons",
+      "artist": "collection by DanieleDF1995 ( talk )",
+      "date": "2010-03-29",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "2276"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Quattrocento",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q213523",
+      "url": "https://www.wikidata.org/wiki/Q213523",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:26.755Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Quattrocento",
+      "url": "https://en.wikipedia.org/wiki/Quattrocento",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:26.755Z"
+      }
+    }
+  ],
   "wikidata": "Q213523",
   "wikipedia": "Quattrocento",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.066Z"
 }

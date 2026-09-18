@@ -21,7 +21,33 @@
   "summary": "Microbial art, agar art, or germ art is artwork created by culturing microorganisms in certain patterns.",
   "description": "Microbial art, agar art, or germ art is artwork created by culturing microorganisms in certain patterns. The microbes used can be bacteria, yeast, fungi, or less commonly, protists. The microbes can be chosen for their natural colours or engineered to express fluorescent proteins and viewed under ultraviolet light to make them fluoresce in colour.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#010301",
+      "name": "black"
+    },
+    {
+      "hex": "#14261f",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#b35516",
+      "name": "rust"
+    },
+    {
+      "hex": "#783515",
+      "name": "sepia"
+    },
+    {
+      "hex": "#12445b",
+      "name": "prussian blue"
+    },
+    {
+      "hex": "#cf8236",
+      "name": "raw sienna"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,36 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/FPbeachTsien.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7b/FPbeachTsien.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7b/FPbeachTsien.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:FPbeachTsien.jpg",
+      "caption": "A San Diego beach scene drawn with an eight color palette of bacterial colonies expressing fluorescent proteins derived from GFP and the red-fluorescent coral protein dsRed. The colors include BFP, mTFP1, Emerald, Citrine, mOrange, mApple, mCherry and mGrape. Artwork by Nathan Sh",
+      "source": "Wikimedia Commons",
+      "artist": "Nathan Shaner",
+      "date": "2006",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "830",
+      "height": "810"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Cell_to_Cell.jpg/1280px-Cell_to_Cell.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Cell_to_Cell.jpg/500px-Cell_to_Cell.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/84/Cell_to_Cell.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cell_to_Cell.jpg",
+      "caption": "\"Cell to Cell\" by microbiologists Mehmet Berkmen and Maria Peñil from Massachusetts won the \"People's Choice\" award in the American Society of Microbiology's 2015 Agar Art Contest.",
+      "source": "Wikimedia Commons",
+      "artist": "Isomerase",
+      "date": "2014-10-18",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1231"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Microbial art",
@@ -66,7 +121,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5550962",
+      "url": "https://www.wikidata.org/wiki/Q5550962",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:29.089Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Microbial art",
+      "url": "https://en.wikipedia.org/wiki/Microbial_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:29.089Z"
+      }
+    }
+  ],
   "wikidata": "Q5550962",
   "wikipedia": "Microbial art",
   "popularity": 35,
@@ -74,5 +152,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:54:29.089Z"
 }

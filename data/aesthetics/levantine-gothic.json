@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Spain",
+  "geography": "Spain",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Levantine Gothic is the Gothic style developed in Levante, the Mediterranean area of Spain, characterized by its halls and churches of great horizontal extent with emphasis on the structural part supported by buttresses and minimal and austere decorations.",
   "description": "The Levantine Gothic is the Gothic style developed in Levante, the Mediterranean area of Spain, characterized by its halls and churches of great horizontal extent with emphasis on the structural part supported by buttresses and minimal and austere decorations.\n\nThe main differences with Castilian Gothic are:\n\nsingle nave instead of three, in case that there are, has the same height and the wider central\n\nchapels between the buttresses\n\nthinner supports\n\nlow figurative decoration, dominated by the geometric type\n\nminor surface of openings, resulting in a low light penetration.\n\nVery few examples of this style of architecture exist outside the larger Christian strongholds. The surrounding countryside was still being fought over by the Spanish Christians and Spanish Muslims (Muwallads). In the capital cities of Medieval mediterranean Christian kingdoms, cathedrals of this style were erected in the 13th and 14th centuries.\n\nMany buildings of this architectural style can be found around the region of Valencia with its own style Valencian Gothic and across the Balearic Islands.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#574c34",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#262517",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#ac957c",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#857150",
+      "name": "bronze"
+    },
+    {
+      "hex": "#bec7e7",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#d6bc9c",
+      "name": "beige"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,48 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Porta_ap%C3%B2stols_maigb.jpg/1280px-Porta_ap%C3%B2stols_maigb.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Porta_ap%C3%B2stols_maigb.jpg/500px-Porta_ap%C3%B2stols_maigb.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Porta_ap%C3%B2stols_maigb.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Porta_ap%C3%B2stols_maigb.jpg",
+      "caption": "Porta apòstols seu València",
+      "source": "Wikimedia Commons",
+      "artist": "Felivet",
+      "date": "2008-05-17",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1022"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Santdomenec_claustre1.jpg/1280px-Santdomenec_claustre1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Santdomenec_claustre1.jpg/500px-Santdomenec_claustre1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Santdomenec_claustre1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Santdomenec_claustre1.jpg",
+      "caption": "Claustre de sant Doménec (València)",
+      "source": "Wikimedia Commons",
+      "artist": "Felivet",
+      "date": "2008-05-23",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "961"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg/1280px-%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg/500px-%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/26/%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg",
+      "caption": "View of Sagrada Familia from Placa de Gaudi. The cranes have been digitally removed.",
+      "source": "Wikimedia Commons",
+      "artist": "C messier",
+      "date": "2017-08-24 10:37:15",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1891"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Levantine Gothic",
@@ -62,7 +129,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6534925",
+      "url": "https://www.wikidata.org/wiki/Q6534925",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:28.026Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Levantine Gothic",
+      "url": "https://en.wikipedia.org/wiki/Levantine_Gothic",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:28.026Z"
+      }
+    }
+  ],
   "wikidata": "Q6534925",
   "wikipedia": "Levantine Gothic",
   "popularity": 35,
@@ -70,5 +160,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.689Z"
 }

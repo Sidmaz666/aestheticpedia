@@ -9,17 +9,43 @@
   "establishment": "regional_tradition",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
-  "periodStart": "",
+  "origin": "Eastern Mediterranean",
+  "geography": "Eastern Mediterranean",
+  "periodStart": "Bronze Age",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": -3299,
   "endYear": null,
-  "era": "",
+  "era": "3299 BCE",
   "summary": "Handmade Burnished Ware (also called Barbarian Ware) is a style of pottery produced during the late Bronze Age in the eastern Mediterranean.",
   "description": "Handmade Burnished Ware (also called Barbarian Ware) is a style of pottery produced during the late Bronze Age in the eastern Mediterranean. Distinct from the styles of pottery surrounding it due to its coarse construction without the potter's wheel and uneven firing, a substantial number of hypotheses have been presented to explain its presence.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5f4c3c",
+      "name": "umber"
+    },
+    {
+      "hex": "#74604f",
+      "name": "umber 2"
+    },
+    {
+      "hex": "#c5cdd4",
+      "name": "silver"
+    },
+    {
+      "hex": "#a3b0be",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#849cb3",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#8c7e71",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,22 @@
   "tags": [
     "pottery style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Parthenon_%2830276156187%29.jpg/1280px-Parthenon_%2830276156187%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Parthenon_%2830276156187%29.jpg/500px-Parthenon_%2830276156187%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Parthenon_%2830276156187%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Parthenon_(30276156187).jpg",
+      "caption": "Parthenon (30276156187)",
+      "source": "Wikimedia Commons",
+      "artist": "Phanatic",
+      "date": "2018-09-16 08:50",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Handmade Burnished Ware",
@@ -64,7 +105,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q130729716",
+      "url": "https://www.wikidata.org/wiki/Q130729716",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:14.946Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Handmade Burnished Ware",
+      "url": "https://en.wikipedia.org/wiki/Handmade_Burnished_Ware",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:14.946Z"
+      }
+    }
+  ],
   "wikidata": "Q130729716",
   "wikipedia": "Handmade Burnished Ware",
   "popularity": 35,
@@ -72,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.834Z"
 }

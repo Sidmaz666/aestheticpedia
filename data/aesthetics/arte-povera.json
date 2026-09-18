@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Italy",
+  "geography": "Italy",
   "periodStart": "1960s",
   "periodEnd": "1970s",
   "startYear": 1967,
@@ -19,7 +19,33 @@
   "summary": "Arte Povera (Italian: [ˈarte ˈpɔːvera]; literally \"poor art\") was an art movement that took place from the end of the 1960s to the beginning of the 1970s in major cities throughout Italy and above all in Turin.",
   "description": "Arte Povera (Italian: [ˈarte ˈpɔːvera]; literally \"poor art\") was an art movement that took place from the end of the 1960s to the beginning of the 1970s in major cities throughout Italy and above all in Turin. Other cities where the movement was also important are Milan, Rome, Genoa, Venice, Naples and Bologna. The term was coined by Italian art critic Germano Celant in 1967, and introduced in Italy during the period of upheaval at the end of the 1960s, when artists were taking a radical stance. Artists began attacking the values of established institutions of government, industry, and culture.\n\nSome of the first exhibitions of artists associated with Arte Povera were held at the Christian Stein Gallery in Turin, run by Margherita Stein. The exhibition \"IM Spazio\" (The Space of Thoughts), curated by Celant and held at the Galleria La Bertesca in Genoa from September to October 1967, is often considered to be the official starting point of Arte Povera. Celant, who became one of Arte Povera's major proponents, organized two exhibitions in 1967 and 1968, followed by an influential book published by Electa in 1985 called Arte Povera Storie e protagonisti/Arte Povera. Histories and Protagonists, promoting the notion of a revolutionary art free of convention, the power of structure, and the marketplace.\n\nAlthough Celant attempted to encompass the radical elements of the entire international scene, the term primarily centered on a group of Italian artists who attacked the corporate mentality with an art of unconventional materials and style. Key figures closely associated with the movement are Giovanni Anselmo, Alighiero Boetti, Enrico Castellani, Pier Paolo Calzolari, Luciano Fabro, Jannis Kounellis, Mario Merz, Marisa Merz, Giulio Paolini, Pino Pascali, Giuseppe Penone, Michelangelo Pistoletto, Emilio Prini, and Gilberto Zorio. They often used found objects in their works. Other early exponents of radical change in the visual arts include proto Arte Povera artists: Antoni Tàpies and the Dau al Set movement, Alberto Burri, Piero Manzoni, and Lucio Fontana and Spatialism. Art dealer Ileana Sonnabend was a champion of the movement.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a7a49b",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#908e83",
+      "name": "stone"
+    },
+    {
+      "hex": "#bebcb5",
+      "name": "silver"
+    },
+    {
+      "hex": "#6b7457",
+      "name": "olive green"
+    },
+    {
+      "hex": "#2c3f21",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#dddad4",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/KMM_Merz_01.JPG/1280px-KMM_Merz_01.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/KMM_Merz_01.JPG/500px-KMM_Merz_01.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0a/KMM_Merz_01.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:KMM_Merz_01.JPG",
+      "caption": "sculpture Igloo di pietra (1982) by Mario Merz in KMM sculpturepark/The Netherlands",
+      "source": "Wikimedia Commons",
+      "artist": "Gerardus",
+      "date": "2008-05-22",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Arte Povera",
@@ -64,7 +104,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q576913",
+      "url": "https://www.wikidata.org/wiki/Q576913",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:59.937Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Arte Povera",
+      "url": "https://en.wikipedia.org/wiki/Arte_Povera",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:59.937Z"
+      }
+    }
+  ],
   "wikidata": "Q576913",
   "wikipedia": "Arte Povera",
   "popularity": 35,
@@ -72,5 +135,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.746Z"
 }

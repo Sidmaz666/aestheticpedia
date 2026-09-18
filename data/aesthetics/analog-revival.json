@@ -17,7 +17,33 @@
   "summary": "The analog revival is a period in synthesizer history when analog synthesizers returned to commercial production and popular usage.",
   "description": "The analog revival is a period in synthesizer history when analog synthesizers returned to commercial production and popular usage. The revival has its roots in the late 20th century but began in earnest during the early 21st century, prompted by the release of several analog synthesizers by companies such as Korg and Moog. This followed a spell of companies producing digital synthesizers after the release of Yamaha's DX7, which was less expensive than analog synthesizers and led to many analog manufacturers going out of business in the 1980s. The emergence of electronic dance music in the late 1980s boosted the popularity of analog synthesizers on the second-hand market and created a demand for the resumed production that major manufacturers took until the early 21st century to capitalize on.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#312f28",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#fdfdfb",
+      "name": "ivory"
+    },
+    {
+      "hex": "#4a483c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#6b6b68",
+      "name": "umber"
+    },
+    {
+      "hex": "#171613",
+      "name": "black"
+    },
+    {
+      "hex": "#88847d",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/1st_commercial_Moog_synthesizer_%281964%2C_commissioned_by_the_Alwin_Nikolai_Dance_Theater_of_NY%29_%40_Stearns_Collection_%28Stearns_2035%29%2C_University_of_Michigan.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f8/1st_commercial_Moog_synthesizer_%281964%2C_commissioned_by_the_Alwin_Nikolai_Dance_Theater_of_NY%29_%40_Stearns_Collection_%28Stearns_2035%29%2C_University_of_Michigan.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/1st_commercial_Moog_synthesizer_%281964%2C_commissioned_by_the_Alwin_Nikolai_Dance_Theater_of_NY%29_%40_Stearns_Collection_%28Stearns_2035%29%2C_University_of_Michigan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:1st_commercial_Moog_synthesizer_(1964,_commissioned_by_the_Alwin_Nikolai_Dance_Theater_of_NY)_@_Stearns_Collection_(Stearns_2035),_University_of_Michigan.jpg",
+      "caption": "The 1st commercial Moog synthesizer ( Stearns 2035 ) commissioned by the Alwin Nikolais Dance Theater of NY in 1964. Now it is part of Stearns Collection , University of Michigan Posted by twitter.com/AngryChad",
+      "source": "Wikimedia Commons",
+      "artist": "Chad",
+      "date": "2010-01-29 20:11",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "640",
+      "height": "480"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/KORG_monotron_%28B%26W%29_%28cropped%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1b/KORG_monotron_%28B%26W%29_%28cropped%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1b/KORG_monotron_%28B%26W%29_%28cropped%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:KORG_monotron_(B%26W)_(cropped).jpg",
+      "caption": "KORG monotron Borrowed a few lenses and a flash to play with :) Thinking of getting a Speedlite for myself :)",
+      "source": "Wikimedia Commons",
+      "artist": "Josh Semans",
+      "date": "2010-09-06 07:37:32",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "780",
+      "height": "468"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Yamaha_DX7_synthesizer_-_combined_image_with_diagonal_and_top_views.jpg/1280px-Yamaha_DX7_synthesizer_-_combined_image_with_diagonal_and_top_views.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Yamaha_DX7_synthesizer_-_combined_image_with_diagonal_and_top_views.jpg/500px-Yamaha_DX7_synthesizer_-_combined_image_with_diagonal_and_top_views.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/22/Yamaha_DX7_synthesizer_-_combined_image_with_diagonal_and_top_views.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Yamaha_DX7_synthesizer_-_combined_image_with_diagonal_and_top_views.jpg",
+      "caption": "Two different views (from the combination of two images from different photographers) of the synthesizer Yamaha DX7 , which came out in 1983. It was the first commercially available and also affordable digital synthesizer and heavily influenced pop and rock music.",
+      "source": "Wikimedia Commons",
+      "artist": "Yamaha DX7.jpg : Leo-setä Yamaha DX7 Table 4 f.jpg : iixorbiusii and Georgfotoart derivative work: Pittigrilli",
+      "date": "2023-12-05",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "1367"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Analog revival",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q123488445",
+      "url": "https://www.wikidata.org/wiki/Q123488445",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:14.567Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Analog revival",
+      "url": "https://en.wikipedia.org/wiki/Analog_revival",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:14.567Z"
+      }
+    }
+  ],
   "wikidata": "Q123488445",
   "wikipedia": "Analog revival",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:35:14.567Z"
 }

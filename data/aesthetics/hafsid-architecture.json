@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Hafsid dynasty",
+  "geography": "Hafsid dynasty",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Hafsid architecture developed under the patronage of the Hafsid dynasty in Ifriqiya (roughly present-day Tunisia) during the 13th to 16th centuries.",
   "description": "Hafsid architecture developed under the patronage of the Hafsid dynasty in Ifriqiya (roughly present-day Tunisia) during the 13th to 16th centuries. Evolving from earlier Almohad and Ifriqiyan traditions, it was later influenced further by Mamluk architecture of Egypt and Syria and it increasingly deviated from the style of Moorish architecture in al-Andalus and the western Maghreb. After Hafsid rule ended, the trends of this architectural style continued to develop and characterize Tunisian architecture during the following Ottoman period.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e2dfca",
+      "name": "bone white"
+    },
+    {
+      "hex": "#84888a",
+      "name": "taupe"
+    },
+    {
+      "hex": "#adaea4",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#60605c",
+      "name": "umber"
+    },
+    {
+      "hex": "#5fa3f0",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#a0c1d8",
+      "name": "sky blue 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,134 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Mosqu%C3%A9e_de_la_Kasba_1_%28retouched%29.jpg/1280px-Mosqu%C3%A9e_de_la_Kasba_1_%28retouched%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Mosqu%C3%A9e_de_la_Kasba_1_%28retouched%29.jpg/500px-Mosqu%C3%A9e_de_la_Kasba_1_%28retouched%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Mosqu%C3%A9e_de_la_Kasba_1_%28retouched%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mosqu%C3%A9e_de_la_Kasba_1_(retouched).jpg",
+      "caption": "Minaret of the Kasbah Mosque in Tunis, dating from 1233",
+      "source": "Wikimedia Commons",
+      "artist": "Nader Ghanja",
+      "date": "2013-09-21 16:43:38",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1623"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/%D8%B2%D8%A7%D9%88%D9%8A%D8%A9_%D8%B3%D9%8A%D8%AF%D9%8A_%D9%82%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%AC%D9%84%D9%8A%D8%B2%D9%8A.jpg/1280px-%D8%B2%D8%A7%D9%88%D9%8A%D8%A9_%D8%B3%D9%8A%D8%AF%D9%8A_%D9%82%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%AC%D9%84%D9%8A%D8%B2%D9%8A.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/%D8%B2%D8%A7%D9%88%D9%8A%D8%A9_%D8%B3%D9%8A%D8%AF%D9%8A_%D9%82%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%AC%D9%84%D9%8A%D8%B2%D9%8A.jpg/500px-%D8%B2%D8%A7%D9%88%D9%8A%D8%A9_%D8%B3%D9%8A%D8%AF%D9%8A_%D9%82%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%AC%D9%84%D9%8A%D8%B2%D9%8A.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%D8%B2%D8%A7%D9%88%D9%8A%D8%A9_%D8%B3%D9%8A%D8%AF%D9%8A_%D9%82%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%AC%D9%84%D9%8A%D8%B2%D9%8A.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D8%B2%D8%A7%D9%88%D9%8A%D8%A9_%D8%B3%D9%8A%D8%AF%D9%8A_%D9%82%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%AC%D9%84%D9%8A%D8%B2%D9%8A.jpg",
+      "caption": "Zaouiet Sidi Kacem Jélizi",
+      "source": "Wikimedia Commons",
+      "artist": "Wildtunis",
+      "date": "23 March 2017 (according to Exif data)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "851"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Zaouia_de_Sidi_Kacem_18.jpg/1280px-Zaouia_de_Sidi_Kacem_18.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Zaouia_de_Sidi_Kacem_18.jpg/500px-Zaouia_de_Sidi_Kacem_18.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Zaouia_de_Sidi_Kacem_18.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Zaouia_de_Sidi_Kacem_18.jpg",
+      "caption": "Zaouiet Sidi Kacem Jélizi",
+      "source": "Wikimedia Commons",
+      "artist": "Youssefbensaad",
+      "date": "2008-10-11 01:07:21",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Mosqu%C3%A9e_kasbah.jpg/1280px-Mosqu%C3%A9e_kasbah.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Mosqu%C3%A9e_kasbah.jpg/500px-Mosqu%C3%A9e_kasbah.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Mosqu%C3%A9e_kasbah.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mosqu%C3%A9e_kasbah.jpg",
+      "caption": "Mosquée de la Casba",
+      "source": "Wikimedia Commons",
+      "artist": "Noomen9",
+      "date": "2017-09-23 22:26:05",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Salle_de_pri%C3%A8re_mosqu%C3%A9e_el_haoua_1.jpg/1280px-Salle_de_pri%C3%A8re_mosqu%C3%A9e_el_haoua_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Salle_de_pri%C3%A8re_mosqu%C3%A9e_el_haoua_1.jpg/500px-Salle_de_pri%C3%A8re_mosqu%C3%A9e_el_haoua_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/26/Salle_de_pri%C3%A8re_mosqu%C3%A9e_el_haoua_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Salle_de_pri%C3%A8re_mosqu%C3%A9e_el_haoua_1.jpg",
+      "caption": "Mosquée d'El-Haoua",
+      "source": "Wikimedia Commons",
+      "artist": "Noomen9",
+      "date": "2017-05-20 19:58:45",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Bab_Lalla_Rihana%2C_Grande_Mosqu%C3%A9e_de_Kairouan.jpg/1280px-Bab_Lalla_Rihana%2C_Grande_Mosqu%C3%A9e_de_Kairouan.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Bab_Lalla_Rihana%2C_Grande_Mosqu%C3%A9e_de_Kairouan.jpg/500px-Bab_Lalla_Rihana%2C_Grande_Mosqu%C3%A9e_de_Kairouan.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Bab_Lalla_Rihana%2C_Grande_Mosqu%C3%A9e_de_Kairouan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bab_Lalla_Rihana,_Grande_Mosqu%C3%A9e_de_Kairouan.jpg",
+      "caption": "Vue du porche de Bab Lalla Rihana, côté oriental de l'enceinte de la Grande Mosquée de Kairouan, en Tunisie.",
+      "source": "Wikimedia Commons",
+      "artist": "Tab59",
+      "date": "2012-12-27 17:44:13",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Medersa_montaciria3_%28edit%29.jpg/1280px-Medersa_montaciria3_%28edit%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Medersa_montaciria3_%28edit%29.jpg/500px-Medersa_montaciria3_%28edit%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/74/Medersa_montaciria3_%28edit%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Medersa_montaciria3_(edit).jpg",
+      "caption": "Madrasa al-Muntasiriya (Medersa El Mountaciriya) in Tunis, Tunisia (This version edited: cropped and sharpness increased slightly)",
+      "source": "Wikimedia Commons",
+      "artist": "Ratio55b23",
+      "date": "2016-06-08 10:34:26",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1318"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/La_Marsa-Palais_El-Abdellia_03.jpg/1280px-La_Marsa-Palais_El-Abdellia_03.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/La_Marsa-Palais_El-Abdellia_03.jpg/500px-La_Marsa-Palais_El-Abdellia_03.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9d/La_Marsa-Palais_El-Abdellia_03.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:La_Marsa-Palais_El-Abdellia_03.jpg",
+      "caption": "Palais El Abdellia",
+      "source": "Wikimedia Commons",
+      "artist": "Albine Daruce",
+      "date": "2015-01-10 16:25:15",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bab_Jedid.jpg/1280px-Bab_Jedid.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bab_Jedid.jpg/500px-Bab_Jedid.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/67/Bab_Jedid.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bab_Jedid.jpg",
+      "caption": "Bab El Jedid, Tunis, Tunisia",
+      "source": "Wikimedia Commons",
+      "artist": "DrFO.Jr.Tn",
+      "date": "2008-06-01",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "888"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Hafsid architecture",
@@ -62,7 +215,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q116007257",
+      "url": "https://www.wikidata.org/wiki/Q116007257",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:10.619Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Hafsid architecture",
+      "url": "https://en.wikipedia.org/wiki/Hafsid_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:10.619Z"
+      }
+    }
+  ],
   "wikidata": "Q116007257",
   "wikipedia": "Hafsid architecture",
   "popularity": 35,
@@ -70,5 +246,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.881Z"
 }

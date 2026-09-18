@@ -17,7 +17,33 @@
   "summary": "Art pompier (literally 'fireman art') and style pompier are derisive late-19th century French terms for large 'official' academic art paintings of the time, especially historical or allegorical ones.",
   "description": "Art pompier (literally 'fireman art') and style pompier are derisive late-19th century French terms for large 'official' academic art paintings of the time, especially historical or allegorical ones. The terms derive from the helmets with horse-hair tails, worn at the time by French firemen, which are similar to the Attic helmets often worn in such works by allegorical personifications, classical warriors, or Napoleonic cavalry.  It also suggests half-puns in French with pompéien ('from Pompeii') and pompeux ('pompous'). Those who used the term regarded such art as the epitome of the values of the bourgeoisie, and as insincere and overblown.\n\nL'art pompier (a term supporters mostly avoid) has enjoyed something of a critical revival in the last twenty years, partly caused by the new Musée d'Orsay in Paris, where it is displayed on more equal terms with the Impressionists and Realist painters of the period.\n\nThe Manifeste Pompier ('Fireman Manifesto') by Louis-Marie Lécharny was published in Paris in 1990. He also wrote L'art Pompier (1998).\n\nWilliam-Adolphe Bouguereau, Paul-Jacques-Aimé Baudry, Alfred Agache, Alexandre Cabanel, Joseph-Noël Sylvestre and Thomas Couture are among the classic artists of this genre.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1a1813",
+      "name": "black"
+    },
+    {
+      "hex": "#3e362b",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#79786e",
+      "name": "taupe"
+    },
+    {
+      "hex": "#5d503f",
+      "name": "umber"
+    },
+    {
+      "hex": "#86654a",
+      "name": "bronze"
+    },
+    {
+      "hex": "#4b1b15",
+      "name": "aubergine 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,48 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Le%C3%B3nidas_en_las_Term%C3%B3pilas%2C_por_Jacques-Louis_David.jpg/1280px-Le%C3%B3nidas_en_las_Term%C3%B3pilas%2C_por_Jacques-Louis_David.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Le%C3%B3nidas_en_las_Term%C3%B3pilas%2C_por_Jacques-Louis_David.jpg/500px-Le%C3%B3nidas_en_las_Term%C3%B3pilas%2C_por_Jacques-Louis_David.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Le%C3%B3nidas_en_las_Term%C3%B3pilas%2C_por_Jacques-Louis_David.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Le%C3%B3nidas_en_las_Term%C3%B3pilas,_por_Jacques-Louis_David.jpg",
+      "caption": "Leónidas en las Termópilas, por Jacques-Louis David, 1814",
+      "source": "Wikimedia Commons",
+      "artist": "Jacques-Louis David",
+      "date": "1814 date QS:P571,+1814-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "949"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Casque_%C3%A0_cimier_et_chenille_1825_1850_06865.jpg/1280px-Casque_%C3%A0_cimier_et_chenille_1825_1850_06865.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Casque_%C3%A0_cimier_et_chenille_1825_1850_06865.jpg/500px-Casque_%C3%A0_cimier_et_chenille_1825_1850_06865.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Casque_%C3%A0_cimier_et_chenille_1825_1850_06865.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Casque_%C3%A0_cimier_et_chenille_1825_1850_06865.jpg",
+      "caption": "présenté en l'Hôtel de ville de Phalsbourg. période 1825 1850.",
+      "source": "Wikimedia Commons",
+      "artist": "G.Garitan",
+      "date": "2014-10-03 16:37:00",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "2011"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Whistlers_Mother_high_res.jpg/1280px-Whistlers_Mother_high_res.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Whistlers_Mother_high_res.jpg/500px-Whistlers_Mother_high_res.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Whistlers_Mother_high_res.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Whistlers_Mother_high_res.jpg",
+      "caption": "Depicted person: Anna McNeill Whistler place of creation: London",
+      "source": "Wikimedia Commons",
+      "artist": "James McNeill Whistler",
+      "date": "Summer 1871 date QS:P571,+1871-00-00T00:00:00Z/9,P4241,Q4072",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1139"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — L'art pompier",
@@ -62,7 +129,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3268288",
+      "url": "https://www.wikidata.org/wiki/Q3268288",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:18.546Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — L'art pompier",
+      "url": "https://en.wikipedia.org/wiki/L'art_pompier",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:18.546Z"
+      }
+    }
+  ],
   "wikidata": "Q3268288",
   "wikipedia": "L'art pompier",
   "popularity": 35,
@@ -70,5 +160,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:52:18.546Z"
 }

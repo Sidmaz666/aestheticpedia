@@ -17,7 +17,33 @@
   "summary": "Auto-destructive art (ADA) is a form of art invented by Gustav Metzger, an artist born in Bavaria who moved to Britain in 1939.",
   "description": "Auto-destructive art (ADA) is a form of art invented by Gustav Metzger, an artist born in Bavaria who moved to Britain in 1939. Taking place after World War II, Metzger wanted to showcase the destruction created from the war through his artwork. This movement took place in England and was launched by Metzger in 1959. This term was invented in the early 1960s and put into circulation by his article \"Machine, Auto-Creative and Auto-Destructive Art\" in the summer 1962 issue of the journal Ark.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fafbfc",
+      "name": "ivory"
+    },
+    {
+      "hex": "#433d27",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#6c6652",
+      "name": "umber"
+    },
+    {
+      "hex": "#8e846c",
+      "name": "stone"
+    },
+    {
+      "hex": "#d8dde0",
+      "name": "bone white"
+    },
+    {
+      "hex": "#a39d8c",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Flailing_Trees_in_Manchester_International_Festival_2009.jpg/1280px-Flailing_Trees_in_Manchester_International_Festival_2009.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Flailing_Trees_in_Manchester_International_Festival_2009.jpg/500px-Flailing_Trees_in_Manchester_International_Festival_2009.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/68/Flailing_Trees_in_Manchester_International_Festival_2009.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Flailing_Trees_in_Manchester_International_Festival_2009.jpg",
+      "caption": "21 uprooted and overturned trees",
+      "source": "Wikimedia Commons",
+      "artist": "Andy Mlah",
+      "date": "2009-07-05",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Auto-destructive art",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16777449",
+      "url": "https://www.wikidata.org/wiki/Q16777449",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:09.288Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Auto-destructive art",
+      "url": "https://en.wikipedia.org/wiki/Auto-destructive_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:09.288Z"
+      }
+    }
+  ],
   "wikidata": "Q16777449",
   "wikipedia": "Auto-destructive art",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:37:09.288Z"
 }

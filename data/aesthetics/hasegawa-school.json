@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Japan",
+  "geography": "Japan",
   "periodStart": "17th century",
   "periodEnd": "",
   "startYear": 1600,
@@ -17,7 +17,33 @@
   "summary": "The Hasegawa school (長谷川派, -ha) was a school (style) of Japanese painting founded in the 16th century by Hasegawa Tōhaku and disappeared around the beginning of the 18th century.",
   "description": "The Hasegawa school (長谷川派, -ha) was a school (style) of Japanese painting founded in the 16th century by Hasegawa Tōhaku and disappeared around the beginning of the 18th century.\n\nThe school painted mostly fusuma (sliding doors), was based largely on the style of the Kanō school, and was centered in Kyoto. A relatively small school, the majority of its painters were students of Tōhaku and of various Kanō masters. Tōhaku himself was a student of Kanō Eitoku and is said to have considered himself the stylistic successor to Sesshū. He painted largely in monochrome ink, in largely Chinese-inspired styles, and is particularly famous for his depictions of monkeys.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e1a354",
+      "name": "gold"
+    },
+    {
+      "hex": "#d2bb9b",
+      "name": "tan"
+    },
+    {
+      "hex": "#b8a286",
+      "name": "sand"
+    },
+    {
+      "hex": "#c88c48",
+      "name": "raw sienna"
+    },
+    {
+      "hex": "#f6be6e",
+      "name": "tan 2"
+    },
+    {
+      "hex": "#a2896a",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Hasegawa_Tohaku_-_Pine_Trees_%28Sh%C5%8Drin-zu_by%C5%8Dbu%29_-_left_hand_screen.jpg/1280px-Hasegawa_Tohaku_-_Pine_Trees_%28Sh%C5%8Drin-zu_by%C5%8Dbu%29_-_left_hand_screen.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Hasegawa_Tohaku_-_Pine_Trees_%28Sh%C5%8Drin-zu_by%C5%8Dbu%29_-_left_hand_screen.jpg/500px-Hasegawa_Tohaku_-_Pine_Trees_%28Sh%C5%8Drin-zu_by%C5%8Dbu%29_-_left_hand_screen.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/32/Hasegawa_Tohaku_-_Pine_Trees_%28Sh%C5%8Drin-zu_by%C5%8Dbu%29_-_left_hand_screen.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hasegawa_Tohaku_-_Pine_Trees_(Sh%C5%8Drin-zu_by%C5%8Dbu)_-_left_hand_screen.jpg",
+      "caption": "Pine Trees / left hand screen",
+      "source": "Wikimedia Commons",
+      "artist": "Hasegawa Tōhaku",
+      "date": "16 th century date QS:P571,+1550-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "598"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Screen_depicting_Musashino_Plains.jpg/1280px-Screen_depicting_Musashino_Plains.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Screen_depicting_Musashino_Plains.jpg/500px-Screen_depicting_Musashino_Plains.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Screen_depicting_Musashino_Plains.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Screen_depicting_Musashino_Plains.jpg",
+      "caption": "Hasegawa School, Screen depicting Musashino Plains. Uncited, probably Hasegawa Togaku or Hasegawa Tohaku together with Hasegawa Kyuzo. Early Edo period (16-17th century)",
+      "source": "Wikimedia Commons",
+      "artist": "Hasegawa School, probably Hasegawa Togaku or Hasegawa Tohaku together with Hasegawa Kyuzo",
+      "date": "16-17th century",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "580"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Hasegawa school",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2407355",
+      "url": "https://www.wikidata.org/wiki/Q2407355",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:18.988Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Hasegawa school",
+      "url": "https://en.wikipedia.org/wiki/Hasegawa_school",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:18.988Z"
+      }
+    }
+  ],
   "wikidata": "Q2407355",
   "wikipedia": "Hasegawa school",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.848Z"
 }

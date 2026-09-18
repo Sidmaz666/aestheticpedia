@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Malta",
+  "geography": "Malta",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Maltese Baroque architecture is the form of Baroque architecture that developed in Malta during the 17th and 18th centuries, when the islands were under the rule of the Order of St.",
   "description": "Maltese Baroque architecture is the form of Baroque architecture that developed in Malta during the 17th and 18th centuries, when the islands were under the rule of the Order of St. John. The Baroque style was introduced in Malta in the early 17th century, possibly by the Bolognese engineer Bontadino de Bontadini during the construction of the Wignacourt Aqueduct. The style became popular in the mid to late 17th century, and it reached its peak during the 18th century, when monumental Baroque structures such as Auberge de Castille were constructed.\n\nThe Baroque style began to be replaced by neoclassical architecture and other styles in the early 19th century, when Malta was under British rule. Despite this, Baroque elements continued to influence traditional Maltese architecture. Many churches continued to the built in the Baroque style throughout the 19th and 20th centuries, and to a lesser extent in the 21st century.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#d8c5ab",
+      "name": "beige"
+    },
+    {
+      "hex": "#bca17e",
+      "name": "camel"
+    },
+    {
+      "hex": "#a18666",
+      "name": "stone"
+    },
+    {
+      "hex": "#856c4f",
+      "name": "bronze"
+    },
+    {
+      "hex": "#5f4f3b",
+      "name": "umber"
+    },
+    {
+      "hex": "#352a1d",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,133 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Auberge_de_Castille_in_Valletta%2C_Malta_%2829359161198%29.jpg/1280px-Auberge_de_Castille_in_Valletta%2C_Malta_%2829359161198%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Auberge_de_Castille_in_Valletta%2C_Malta_%2829359161198%29.jpg/500px-Auberge_de_Castille_in_Valletta%2C_Malta_%2829359161198%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Auberge_de_Castille_in_Valletta%2C_Malta_%2829359161198%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Auberge_de_Castille_in_Valletta,_Malta_(29359161198).jpg",
+      "caption": "The Auberge was originally built in the 1570s to house knights of the Order of Saint John. The building was completely rebuilt during 1741–1744 in the Baroque style and renovated in 1791. The new building was called \"probably the finest building in Malta\" and stands on the highes",
+      "source": "Wikimedia Commons",
+      "artist": "Mike McBey",
+      "date": "23 September 2015, 13:43 (according to Exif data)",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "760"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Auberge_d%27Italie%2C_Valletta_002.jpg/1280px-Auberge_d%27Italie%2C_Valletta_002.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Auberge_d%27Italie%2C_Valletta_002.jpg/500px-Auberge_d%27Italie%2C_Valletta_002.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Auberge_d%27Italie%2C_Valletta_002.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Auberge_d%27Italie,_Valletta_002.jpg",
+      "caption": "This media is about Maltese cultural property with inventory number 01129 .",
+      "source": "Wikimedia Commons",
+      "artist": "Matthew Axiak",
+      "date": "Taken on 22 July 2020, 11:12:15",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "2246"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Wignacourt_aqueduct_postcard_1899.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/08/Wignacourt_aqueduct_postcard_1899.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/08/Wignacourt_aqueduct_postcard_1899.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Wignacourt_aqueduct_postcard_1899.jpg",
+      "caption": "Wignacourt aqueduct postcard 1899",
+      "source": "Wikimedia Commons",
+      "artist": "John Critien",
+      "date": "1899",
+      "license": "Public domain",
+      "width": "1000",
+      "height": "647"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Hostel_de_Verdelin.jpeg/1280px-Hostel_de_Verdelin.jpeg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Hostel_de_Verdelin.jpeg/500px-Hostel_de_Verdelin.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/79/Hostel_de_Verdelin.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hostel_de_Verdelin.jpeg",
+      "caption": "Hostel de Verdelin",
+      "source": "Wikimedia Commons",
+      "artist": "Continentaleurope",
+      "date": "2016-04-19",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "956"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Malta_-_Mdina_-_Pjazza_San_Pawl_%2B_St._Paul%27s_Cathedral_ex_01_ies.jpg/1280px-Malta_-_Mdina_-_Pjazza_San_Pawl_%2B_St._Paul%27s_Cathedral_ex_01_ies.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Malta_-_Mdina_-_Pjazza_San_Pawl_%2B_St._Paul%27s_Cathedral_ex_01_ies.jpg/500px-Malta_-_Mdina_-_Pjazza_San_Pawl_%2B_St._Paul%27s_Cathedral_ex_01_ies.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Malta_-_Mdina_-_Pjazza_San_Pawl_%2B_St._Paul%27s_Cathedral_ex_01_ies.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Malta_-_Mdina_-_Pjazza_San_Pawl_%2B_St._Paul%27s_Cathedral_ex_01_ies.jpg",
+      "caption": "St. Paul's Cathedral, Pjazza San Pawl in Mdina , Malta",
+      "source": "Wikimedia Commons",
+      "artist": "Frank Vincentz",
+      "date": "2013-03-01 15:08:51",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Malta_-_Gzira_-_Manoel_Island_-_Fort_Manoel_%28MSTHC%29_07_ies.jpg/1280px-Malta_-_Gzira_-_Manoel_Island_-_Fort_Manoel_%28MSTHC%29_07_ies.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Malta_-_Gzira_-_Manoel_Island_-_Fort_Manoel_%28MSTHC%29_07_ies.jpg/500px-Malta_-_Gzira_-_Manoel_Island_-_Fort_Manoel_%28MSTHC%29_07_ies.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Malta_-_Gzira_-_Manoel_Island_-_Fort_Manoel_%28MSTHC%29_07_ies.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Malta_-_Gzira_-_Manoel_Island_-_Fort_Manoel_(MSTHC)_07_ies.jpg",
+      "caption": "View from a Malta sightseeing two harbours cruise boat to Fort Manoel on Manoel Island in Gżira , Malta",
+      "source": "Wikimedia Commons",
+      "artist": "Frank Vincentz",
+      "date": "2013-03-09 10:18:06",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Natural_History_Museum_Mdina_%286810109710%29.jpg/1280px-Natural_History_Museum_Mdina_%286810109710%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Natural_History_Museum_Mdina_%286810109710%29.jpg/500px-Natural_History_Museum_Mdina_%286810109710%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Natural_History_Museum_Mdina_%286810109710%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Natural_History_Museum_Mdina_(6810109710).jpg",
+      "caption": "Natural History Museum Mdina",
+      "source": "Wikimedia Commons",
+      "artist": "Tony Hisgett from Birmingham, UK",
+      "date": "2012-02-24 08:53",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1033"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Castellania_facade_malta.png/1280px-Castellania_facade_malta.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Castellania_facade_malta.png/500px-Castellania_facade_malta.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Castellania_facade_malta.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Castellania_facade_malta.png",
+      "caption": "Façade of the Castellania in Valletta, Malta",
+      "source": "Wikimedia Commons",
+      "artist": "Continentaleurope",
+      "date": "2016-02-02",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Malta_-_Mellieha_-_Misrah_il-Parocca%2BParish_Church_06_ies.jpg/1280px-Malta_-_Mellieha_-_Misrah_il-Parocca%2BParish_Church_06_ies.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Malta_-_Mellieha_-_Misrah_il-Parocca%2BParish_Church_06_ies.jpg/500px-Malta_-_Mellieha_-_Misrah_il-Parocca%2BParish_Church_06_ies.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/57/Malta_-_Mellieha_-_Misrah_il-Parocca%2BParish_Church_06_ies.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Malta_-_Mellieha_-_Misrah_il-Parocca%2BParish_Church_06_ies.jpg",
+      "caption": "Mellieħa Parish Church and Misraħ il-Parroċċa in Mellieħa",
+      "source": "Wikimedia Commons",
+      "artist": "Frank Vincentz",
+      "date": "2014-05-01 13:35:58",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Maltese Baroque architecture",
@@ -62,7 +214,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q28133999",
+      "url": "https://www.wikidata.org/wiki/Q28133999",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:25.445Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Maltese Baroque architecture",
+      "url": "https://en.wikipedia.org/wiki/Maltese_Baroque_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:25.445Z"
+      }
+    }
+  ],
   "wikidata": "Q28133999",
   "wikipedia": "Maltese Baroque architecture",
   "popularity": 35,
@@ -70,5 +245,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.658Z"
 }

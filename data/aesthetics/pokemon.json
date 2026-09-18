@@ -7,8 +7,8 @@
   "establishment": "community_subculture",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Chile",
+  "geography": "Chile",
   "periodStart": "2000s",
   "periodEnd": "",
   "startYear": 2000,
@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7208585",
+      "url": "https://www.wikidata.org/wiki/Q7208585",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:19.846Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Pokemón",
+      "url": "https://en.wikipedia.org/wiki/Pokem%C3%B3n",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:19.846Z"
+      }
+    }
+  ],
   "wikidata": "Q7208585",
   "wikipedia": "Pokemón",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.115Z"
 }

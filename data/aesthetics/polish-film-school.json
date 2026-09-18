@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Poland",
+  "geography": "Poland",
   "periodStart": "1950s",
   "periodEnd": "1960s",
   "startYear": 1956,
@@ -39,7 +39,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/09d2b000-8e44-c735-5099-126d6453aaaa/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/09d2b000-8e44-c735-5099-126d6453aaaa/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/09d2b000-8e44-c735-5099-126d6453aaaa/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/14968",
+      "caption": "Mural Fragment Depicting a Maguey Bloodletting Ritual, 500–600 CE",
+      "source": "Art Institute of Chicago",
+      "artist": "Teotihuacan",
+      "date": "500–600 CE",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "595"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Polish Film School",
@@ -62,7 +77,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q719868",
+      "url": "https://www.wikidata.org/wiki/Q719868",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:20.377Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Polish Film School",
+      "url": "https://en.wikipedia.org/wiki/Polish_Film_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:20.377Z"
+      }
+    }
+  ],
   "wikidata": "Q719868",
   "wikipedia": "Polish Film School",
   "popularity": 35,
@@ -70,5 +108,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.089Z"
 }

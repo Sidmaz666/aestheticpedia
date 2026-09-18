@@ -17,7 +17,33 @@
   "summary": "The Snow White design language is an industrial design language which was developed by Hartmut Esslinger's Frog Design.",
   "description": "The Snow White design language is an industrial design language which was developed by Hartmut Esslinger's Frog Design. Used by Apple Computer from 1984 to 1990, the scheme has vertical and horizontal stripes for decoration, ventilation, and to create the illusion that the computer enclosure is smaller than it actually is.\n\nThe design language boosted Apple's global reputation, set design trends for the computer industry, and molded the perception of computers in the manufacturing and business world.\n\nAmong other design features, Esslinger's presentation of the Apple logo—a three-dimensional logo inlaid into the product case with the product name printed onto its surface—was included on nearly every product for decades.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f9f9f8",
+      "name": "ivory"
+    },
+    {
+      "hex": "#d2d0c9",
+      "name": "bone white"
+    },
+    {
+      "hex": "#bab7ac",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#8f887f",
+      "name": "stone"
+    },
+    {
+      "hex": "#536d8f",
+      "name": "slate"
+    },
+    {
+      "hex": "#6c8cb2",
+      "name": "slate 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,129 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Apple_IIc_with_monitor.jpg/1280px-Apple_IIc_with_monitor.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Apple_IIc_with_monitor.jpg/500px-Apple_IIc_with_monitor.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/Apple_IIc_with_monitor.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Apple_IIc_with_monitor.jpg",
+      "caption": "Apple IIc with monitor",
+      "source": "Wikimedia Commons",
+      "artist": "Bilby",
+      "date": "2010-08-08",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Braun_Radio_mit_Plattenspieler_Pinakothek_der_Moderne_%28Foto_Hilarmont%29.jpg/1280px-Braun_Radio_mit_Plattenspieler_Pinakothek_der_Moderne_%28Foto_Hilarmont%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Braun_Radio_mit_Plattenspieler_Pinakothek_der_Moderne_%28Foto_Hilarmont%29.jpg/500px-Braun_Radio_mit_Plattenspieler_Pinakothek_der_Moderne_%28Foto_Hilarmont%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Braun_Radio_mit_Plattenspieler_Pinakothek_der_Moderne_%28Foto_Hilarmont%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Braun_Radio_mit_Plattenspieler_Pinakothek_der_Moderne_(Foto_Hilarmont).jpg",
+      "caption": "Braun Phonosuper SK 5, Mono Radio-Plattenspieler-Kombination mit drei Wellenbereichen",
+      "source": "Wikimedia Commons",
+      "artist": "Hilarmont",
+      "date": "2017-09-27 12:04:07",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "width": "1280",
+      "height": "902"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Macintosh_LC_II_front.jpg/1280px-Macintosh_LC_II_front.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Macintosh_LC_II_front.jpg/500px-Macintosh_LC_II_front.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/Macintosh_LC_II_front.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Macintosh_LC_II_front.jpg",
+      "caption": "Front view of two Macintosh LC II units -- the left-hand unit has a manual-inject floppy drive, and the right-hand unit has an auto-inject floppy drive",
+      "source": "Wikimedia Commons",
+      "artist": "Stephen Edmonds",
+      "date": "2005-01-01",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1280",
+      "height": "702"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Macintosh_IIx.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Macintosh_IIx.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Macintosh_IIx.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Macintosh_IIx.jpg",
+      "caption": "Macintosh IIx",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Macintosh_Portable-IMG_7541.jpg/1280px-Macintosh_Portable-IMG_7541.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Macintosh_Portable-IMG_7541.jpg/500px-Macintosh_Portable-IMG_7541.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Macintosh_Portable-IMG_7541.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Macintosh_Portable-IMG_7541.jpg",
+      "caption": "Macintosh Portable",
+      "source": "Wikimedia Commons",
+      "artist": "Rama",
+      "date": "Taken on 11 March 2015, 19:52 (according to Exif data)",
+      "license": "CC BY-SA 2.0 fr",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Apple_IIGS.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Apple_IIGS.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Apple_IIGS.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Apple_IIGS.jpg",
+      "caption": "An Apple II GS .",
+      "source": "Wikimedia Commons",
+      "artist": "Not specified.",
+      "date": "Not specified.",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Apple_Laserwriter_II.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/08/Apple_Laserwriter_II.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/08/Apple_Laserwriter_II.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Apple_Laserwriter_II.jpg",
+      "caption": "Apple Laserwriter II",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/MacII.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d3/MacII.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d3/MacII.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:MacII.jpg",
+      "caption": "Apple Macintosh II Computer",
+      "source": "Wikimedia Commons",
+      "artist": "Alexander Schaelss",
+      "date": "2004-04-15",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "600",
+      "height": "483"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Macintosh_IIsi_2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/99/Macintosh_IIsi_2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/99/Macintosh_IIsi_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Macintosh_IIsi_2.jpg",
+      "caption": "Macintosh IIsi",
+      "source": "Wikimedia Commons",
+      "artist": "Danamania",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1024",
+      "height": "607"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Snow White design language",
@@ -62,7 +210,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7548361",
+      "url": "https://www.wikidata.org/wiki/Q7548361",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:12.389Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Snow White design language",
+      "url": "https://en.wikipedia.org/wiki/Snow_White_design_language",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:12.389Z"
+      }
+    }
+  ],
   "wikidata": "Q7548361",
   "wikipedia": "Snow White design language",
   "popularity": 35,
@@ -70,5 +241,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:06:12.389Z"
 }

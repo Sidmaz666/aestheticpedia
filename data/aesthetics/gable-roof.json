@@ -20,7 +20,33 @@
   "summary": "A gable roof is a roof consisting of two sections whose upper horizontal edges meet to form its ridge.",
   "description": "A gable roof is a roof consisting of two sections whose upper horizontal edges meet to form its ridge. The most common roof shape in cold or temperate climates, it is constructed of rafters, roof trusses or purlins. The pitch of a gable roof can vary greatly.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e5e3df",
+      "name": "bone white"
+    },
+    {
+      "hex": "#6b6e24",
+      "name": "olive green"
+    },
+    {
+      "hex": "#b7c3cb",
+      "name": "silver"
+    },
+    {
+      "hex": "#56541c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#5b7180",
+      "name": "slate"
+    },
+    {
+      "hex": "#8595a1",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Hopfen_Kirche.JPG/1280px-Hopfen_Kirche.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Hopfen_Kirche.JPG/500px-Hopfen_Kirche.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Hopfen_Kirche.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hopfen_Kirche.JPG",
+      "caption": "Kirche von Hopfen am See",
+      "source": "Wikimedia Commons",
+      "artist": "Adrian Michael",
+      "date": "2008-07",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gable roof",
@@ -65,7 +106,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q149617",
+      "url": "https://www.wikidata.org/wiki/Q149617",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:19.815Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gable roof",
+      "url": "https://en.wikipedia.org/wiki/Gable_roof",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:19.815Z"
+      }
+    }
+  ],
   "wikidata": "Q149617",
   "wikipedia": "Gable roof",
   "popularity": 35,
@@ -73,5 +137,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:46:19.815Z"
 }

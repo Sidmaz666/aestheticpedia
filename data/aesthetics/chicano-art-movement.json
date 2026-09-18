@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Chicano Art Movement represents movements by Mexican-American artists to establish a unique artistic identity in the United States.",
   "description": "The Chicano Art Movement represents movements by Mexican-American artists to establish a unique artistic identity in the United States. Much of the art and the artists creating Chicano Art were heavily influenced by the Chicano Movement (El Movimiento), which began in the 1960s.\n\nChicano art was influenced by post-Mexican Revolution ideologies, pre-Columbian art, European painting techniques and Mexican-American social, political and cultural issues. The movement worked to resist and challenge dominant social norms and stereotypes for cultural autonomy and self-determination. Some issues the movement focused on were awareness of collective history and culture, restoration of land grants, and equal opportunity for social mobility. Women used ideologies from the feminist movement to highlight the struggles of women within the Chicano art movement.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#645b50",
+      "name": "umber"
+    },
+    {
+      "hex": "#baa07c",
+      "name": "camel"
+    },
+    {
+      "hex": "#7e807b",
+      "name": "taupe"
+    },
+    {
+      "hex": "#4b3f3b",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#bbb9b5",
+      "name": "silver"
+    },
+    {
+      "hex": "#221812",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,102 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Chicano_Park_Mural.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/12/Chicano_Park_Mural.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/12/Chicano_Park_Mural.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chicano_Park_Mural.JPG",
+      "caption": "A mural from Chicano Park, Barrio Logan, San Diego, California, USA.",
+      "source": "Wikimedia Commons",
+      "artist": "Smedpull",
+      "license": "Public domain",
+      "width": "640",
+      "height": "480"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Sunset_on_the_Sacramento_River.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/77/Sunset_on_the_Sacramento_River.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/77/Sunset_on_the_Sacramento_River.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sunset_on_the_Sacramento_River.JPG",
+      "caption": "Sunset on the Sacramento River",
+      "source": "Wikimedia Commons",
+      "artist": "Fortunato Arriola",
+      "date": "1869 date QS:P571,+1869-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Orozco_-_Dartmouth_c.JPG/1280px-Orozco_-_Dartmouth_c.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Orozco_-_Dartmouth_c.JPG/500px-Orozco_-_Dartmouth_c.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/Orozco_-_Dartmouth_c.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Orozco_-_Dartmouth_c.JPG",
+      "caption": "Orozco - Dartmouth c",
+      "source": "Wikimedia Commons",
+      "artist": "Daderot ( original image )",
+      "date": "15:25, 12 October 2005",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Pinches_Rinches_Series_on_view.png/1280px-Pinches_Rinches_Series_on_view.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Pinches_Rinches_Series_on_view.png/500px-Pinches_Rinches_Series_on_view.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/58/Pinches_Rinches_Series_on_view.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pinches_Rinches_Series_on_view.png",
+      "caption": "\"Pinches Rinches\" Series (2011), as featured in Galeria de la Raza's Studio 24, San Francisco, CA. Winter, 2013. This image that I took was subsequently included in artist's website, http://www.nataliaanciso.com .",
+      "source": "Wikimedia Commons",
+      "artist": "Artwork by w:Natalia Anciso , photo by Syghost",
+      "date": "2013-12-01",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Daniel_Martin_Diaz.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Daniel_Martin_Diaz.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Daniel_Martin_Diaz.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Daniel_Martin_Diaz.jpg",
+      "caption": "Cosmological Mysteries by Daniel Martin Diaz. Photo by Allan Sturm",
+      "source": "Wikimedia Commons",
+      "artist": "Burningflower",
+      "date": "2015-07-15",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "864",
+      "height": "864"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Martinez_afternoon-in-piedmont500.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Martinez_afternoon-in-piedmont500.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Martinez_afternoon-in-piedmont500.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Martinez_afternoon-in-piedmont500.jpg",
+      "caption": "Afternoon in Piedmont",
+      "source": "Wikimedia Commons",
+      "artist": "Xavier Martínez",
+      "date": "circa 1908 date QS:P,+1908-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "510",
+      "height": "520"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Solo_s_48_Fleetline.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/41/Solo_s_48_Fleetline.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/Solo_s_48_Fleetline.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Solo_s_48_Fleetline.jpg",
+      "caption": "1948 Chevrolet Fleetline, low-floored, from the Viejitos Car Club Orange County of mexico.",
+      "source": "Wikimedia Commons",
+      "artist": "Kennethgodoy at English Wikipedia",
+      "date": "30 December 2005 (original upload date)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "500",
+      "height": "374"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Chicano art movement",
@@ -62,7 +183,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5095938",
+      "url": "https://www.wikidata.org/wiki/Q5095938",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:57.102Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Chicano art movement",
+      "url": "https://en.wikipedia.org/wiki/Chicano_art_movement",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:57.102Z"
+      }
+    }
+  ],
   "wikidata": "Q5095938",
   "wikipedia": "Chicano art movement",
   "popularity": 35,
@@ -70,5 +214,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.947Z"
 }

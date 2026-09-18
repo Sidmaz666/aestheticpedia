@@ -19,7 +19,29 @@
   "summary": "Insular illumination refers to the production of illuminated manuscripts in the monasteries of Ireland and Great Britain between the 6th and 9th centuries, as well as in monasteries under their influence on continental Europe.",
   "description": "Insular illumination refers to the production of illuminated manuscripts in the monasteries of Ireland and Great Britain between the 6th and 9th centuries, as well as in monasteries under their influence on continental Europe. It is characterised by decoration strongly influenced by metalwork, the constant use of interlacing, and the importance assigned to calligraphy. The most celebrated books of this sort are largely gospel books. Around sixty manuscripts are known from this period.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#6f5e1c",
+      "name": "sepia"
+    },
+    {
+      "hex": "#4f3b0c",
+      "name": "sepia 2"
+    },
+    {
+      "hex": "#7f4208",
+      "name": "chocolate"
+    },
+    {
+      "hex": "#938138",
+      "name": "bronze"
+    },
+    {
+      "hex": "#a8974f",
+      "name": "brass"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +63,109 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/LindisfarneFol27rIncipitMatt.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d2/LindisfarneFol27rIncipitMatt.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d2/LindisfarneFol27rIncipitMatt.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:LindisfarneFol27rIncipitMatt.jpg",
+      "caption": "Folio 27r from the Lindisfarne Gospels , incipit to the Gospel of Matthew. The main text contains the first sentence of the Gospel According to Saint Matthew: \"Liber generationis Iesu Christi filii David filii Abraham\" (\"The book of the generation of Jesus Christ, the son of Davi",
+      "source": "Wikimedia Commons",
+      "artist": "Eadfrith of Lindisfarne (presumed)",
+      "date": "8 th century date QS:P,+750-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "1266",
+      "height": "1797"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/KellsFol034rXRhoDet3.jpeg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6e/KellsFol034rXRhoDet3.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6e/KellsFol034rXRhoDet3.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:KellsFol034rXRhoDet3.jpeg",
+      "caption": "Scan of a photograph of a detail of Folio 34 recto (Chi Rho page) of the Book of Kells . The Book of Kells was created c. 800 CE.",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "487",
+      "height": "496"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/LindisfarneKat.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e7/LindisfarneKat.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e7/LindisfarneKat.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:LindisfarneKat.jpg",
+      "caption": "Lindisfarne evangeliarium; de kat op f139r",
+      "source": "Wikimedia Commons",
+      "artist": "Eadfrith",
+      "date": "2012-11-22 16:57:04",
+      "license": "Public domain",
+      "width": "689",
+      "height": "546"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/CathachColumbaText3.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/52/CathachColumbaText3.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/52/CathachColumbaText3.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:CathachColumbaText3.jpg",
+      "caption": "A page of text from the Cathach of St. Columba",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "600",
+      "height": "393"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/BookDurrowInitMark86r.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a2/BookDurrowInitMark86r.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a2/BookDurrowInitMark86r.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BookDurrowInitMark86r.jpg",
+      "caption": "Decorated text from the Book of Durrow, beginning of the Gospel of Mark",
+      "source": "Wikimedia Commons",
+      "artist": "anonymous",
+      "date": "7 th century date QS:P571,+650-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "1200",
+      "height": "2040"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Meister_des_Book_of_Lindisfarne_002.jpg/1280px-Meister_des_Book_of_Lindisfarne_002.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Meister_des_Book_of_Lindisfarne_002.jpg/500px-Meister_des_Book_of_Lindisfarne_002.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/55/Meister_des_Book_of_Lindisfarne_002.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Meister_des_Book_of_Lindisfarne_002.jpg",
+      "caption": "Book of Lindisfarne, Szene: Teppich-Seite",
+      "source": "Wikimedia Commons",
+      "artist": "Meister des Book of Lindisfarne",
+      "date": "End of 7th century",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1523"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Portrait_of_St_Luke%2C_St_Chad_Gospels.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Portrait_of_St_Luke%2C_St_Chad_Gospels.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Portrait_of_St_Luke%2C_St_Chad_Gospels.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_St_Luke,_St_Chad_Gospels.jpg",
+      "caption": "Portrait of St Luke (page 218). One of two surviving portrait pages in the St Chad Gospels (circa 730). For more information, see Manuscripts of Lichfield Cathedral: https://lichfield.as.uky.edu . This portrait may also represent the High King of Ireland Flaithbertach mac Loingsi",
+      "source": "Wikimedia Commons",
+      "artist": "Anonymous Unknown author",
+      "date": "2012-03-19 11:36:18",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1024",
+      "height": "1365"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Meister_des_Evangeliars_von_Echternach_001.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/09/Meister_des_Evangeliars_von_Echternach_001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/Meister_des_Evangeliars_von_Echternach_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Meister_des_Evangeliars_von_Echternach_001.jpg",
+      "caption": "(Willibrord-)Evangeliar von Echternach, Szene: Symbol des Hl. Markus (Löwe)",
+      "source": "Wikimedia Commons",
+      "artist": "Meister des Evangeliars von Echternach",
+      "date": "circa 690",
+      "license": "Public domain",
+      "width": "942",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Insular illumination",
@@ -64,7 +188,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q13522717",
+      "url": "https://www.wikidata.org/wiki/Q13522717",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:11.904Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Insular illumination",
+      "url": "https://en.wikipedia.org/wiki/Insular_illumination",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:11.904Z"
+      }
+    }
+  ],
   "wikidata": "Q13522717",
   "wikipedia": "Insular illumination",
   "popularity": 35,
@@ -72,5 +219,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:50:11.904Z"
 }

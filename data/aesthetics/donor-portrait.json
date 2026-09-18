@@ -19,7 +19,33 @@
   "summary": "A donor portrait or votive portrait is a portrait in a larger painting or other work showing the person who commissioned and paid for the image, or a member of his, or (much more rarely) her, family.",
   "description": "A donor portrait or votive portrait is a portrait in a larger painting or other work showing the person who commissioned and paid for the image, or a member of his, or (much more rarely) her, family.  Donor portrait usually refers to the portrait or portraits of donors alone, as a section of a larger work, whereas votive portrait may often refer to a whole work of art intended as an ex-voto, including for example a Madonna, especially if the donor is very prominent. The terms are not used very consistently by art historians, as Angela Marisol Roberts points out, and may also be used for smaller religious subjects  that were probably made to be retained by the commissioner rather than donated to a church.\n\nDonor portraits are very common in religious works of art, especially paintings, of the Middle Ages and Renaissance, the donor usually shown kneeling to one side, in the foreground of the image.  Often, even late into the Renaissance, the donor portraits, especially when of a whole family, will be at a much smaller scale than the principal figures, in defiance of linear perspective.  By the mid-15th century donors began to be shown integrated into the main scene, as bystanders and even participants.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0c0f0c",
+      "name": "black"
+    },
+    {
+      "hex": "#4d3a1f",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#8d6b3d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#12456a",
+      "name": "prussian blue"
+    },
+    {
+      "hex": "#c7ac7d",
+      "name": "sand"
+    },
+    {
+      "hex": "#7d8772",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,137 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Rogier_van_der_Weyden_-_Bladelin_Triptych_-_The_Nativity.jpg/1280px-Rogier_van_der_Weyden_-_Bladelin_Triptych_-_The_Nativity.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Rogier_van_der_Weyden_-_Bladelin_Triptych_-_The_Nativity.jpg/500px-Rogier_van_der_Weyden_-_Bladelin_Triptych_-_The_Nativity.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/05/Rogier_van_der_Weyden_-_Bladelin_Triptych_-_The_Nativity.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rogier_van_der_Weyden_-_Bladelin_Triptych_-_The_Nativity.jpg",
+      "caption": "Nativity of Jesus",
+      "source": "Wikimedia Commons",
+      "artist": "Rogier van der Weyden",
+      "date": "between 1445 and 1450 date QS:P571,+1450-00-00T00:00:00Z/7,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1293"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Pope_Honorius_I_-_Apse_mosaic_-_Sant%27Agnese_fuori_le_mura_-_Rome_2016.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Pope_Honorius_I_-_Apse_mosaic_-_Sant%27Agnese_fuori_le_mura_-_Rome_2016.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Pope_Honorius_I_-_Apse_mosaic_-_Sant%27Agnese_fuori_le_mura_-_Rome_2016.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pope_Honorius_I_-_Apse_mosaic_-_Sant%27Agnese_fuori_le_mura_-_Rome_2016.jpg",
+      "caption": "Sant'Agnese outside the walls - Rome",
+      "source": "Wikimedia Commons",
+      "artist": "José Luiz",
+      "date": "2016-09-23 08:40:41",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "886",
+      "height": "1535"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/ViennaDioscoridesFolio6vDonorPortrait.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/41/ViennaDioscoridesFolio6vDonorPortrait.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/ViennaDioscoridesFolio6vDonorPortrait.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:ViennaDioscoridesFolio6vDonorPortrait.jpg",
+      "caption": "ViennaDioscoridesFolio6vDonorPortrait",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "600",
+      "height": "800"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Beatrice_of_Falkenburg.jpg/1280px-Beatrice_of_Falkenburg.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Beatrice_of_Falkenburg.jpg/500px-Beatrice_of_Falkenburg.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/15/Beatrice_of_Falkenburg.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Beatrice_of_Falkenburg.jpg",
+      "caption": "Medieval English stained glass window depicting the German queen Beatrice of Falkenburg.",
+      "source": "Wikimedia Commons",
+      "artist": "Medieval Franciscan friars",
+      "date": "13 th century date QS:P,+1250-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/The-Madonna-and-Child-with-a-Donor-176-mid.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d8/The-Madonna-and-Child-with-a-Donor-176-mid.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d8/The-Madonna-and-Child-with-a-Donor-176-mid.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The-Madonna-and-Child-with-a-Donor-176-mid.jpg",
+      "caption": "Madonna and Child",
+      "source": "Wikimedia Commons",
+      "artist": "Ugolino di Nerio",
+      "license": "Public domain",
+      "width": "640",
+      "height": "1250"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Meister_von_Hohenfurth_002.jpg/1280px-Meister_von_Hohenfurth_002.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Meister_von_Hohenfurth_002.jpg/500px-Meister_von_Hohenfurth_002.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Meister_von_Hohenfurth_002.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Meister_von_Hohenfurth_002.jpg",
+      "caption": "Nativity of Jesus",
+      "source": "Wikimedia Commons",
+      "artist": "Master of Vyšší Brod, Mistr Vyšebrodský",
+      "date": "c. 1350",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1394"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Hans_Memling_037.jpg/1280px-Hans_Memling_037.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Hans_Memling_037.jpg/500px-Hans_Memling_037.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Hans_Memling_037.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hans_Memling_037.jpg",
+      "caption": "Madonna and Child",
+      "source": "Wikimedia Commons",
+      "artist": "Hans Memling",
+      "date": "1472 date QS:P571,+1472-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "2257"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Saint-Jean%2C_G%C3%A9rard_de_-_La_R%C3%A9surrection_de_Lazare%2C_avec_un_couple_de_donateurs_et_leur_fille%2C_RF_1285.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/01/Saint-Jean%2C_G%C3%A9rard_de_-_La_R%C3%A9surrection_de_Lazare%2C_avec_un_couple_de_donateurs_et_leur_fille%2C_RF_1285.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/01/Saint-Jean%2C_G%C3%A9rard_de_-_La_R%C3%A9surrection_de_Lazare%2C_avec_un_couple_de_donateurs_et_leur_fille%2C_RF_1285.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Saint-Jean,_G%C3%A9rard_de_-_La_R%C3%A9surrection_de_Lazare,_avec_un_couple_de_donateurs_et_leur_fille,_RF_1285.jpg",
+      "caption": "La restauration de 1985-1986 a fait réapparaître en bas à droite une petite fille en orante, détail masqué à une date inconnue, ainsi qu’un pied du Christ, caché, lui, par un autre pied différemment orienté qui aura été vraisemblablement peint au XVIIe s. (Bergeon). Scène tirée d",
+      "source": "Wikimedia Commons",
+      "artist": "Geertgen tot Sint Jans",
+      "date": "between circa 1480 and circa 1485 date QS:P,+1480-00-00T00:0",
+      "license": "Public domain",
+      "width": "1148",
+      "height": "1500"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Madonna_della_Vittoria_by_Mantegna.jpg/1280px-Madonna_della_Vittoria_by_Mantegna.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Madonna_della_Vittoria_by_Mantegna.jpg/500px-Madonna_della_Vittoria_by_Mantegna.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Madonna_della_Vittoria_by_Mantegna.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Madonna_della_Vittoria_by_Mantegna.jpg",
+      "caption": "without frame",
+      "source": "Wikimedia Commons",
+      "artist": "Wilfredor",
+      "date": "2024-01-29 08:35:16",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "2150"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Peter_Paul_Rubens_-_The_Incredulity_of_St_Thomas_-_WGA20193.jpg/1280px-Peter_Paul_Rubens_-_The_Incredulity_of_St_Thomas_-_WGA20193.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Peter_Paul_Rubens_-_The_Incredulity_of_St_Thomas_-_WGA20193.jpg/500px-Peter_Paul_Rubens_-_The_Incredulity_of_St_Thomas_-_WGA20193.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Peter_Paul_Rubens_-_The_Incredulity_of_St_Thomas_-_WGA20193.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_The_Incredulity_of_St_Thomas_-_WGA20193.jpg",
+      "caption": "Christ's first appearance to the apostles in Jerusalem",
+      "source": "Wikimedia Commons",
+      "artist": "Peter Paul Rubens",
+      "date": "between 1613 and 1615 date QS:P571,+1613-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "728"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Donor portrait",
@@ -64,7 +220,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2348713",
+      "url": "https://www.wikidata.org/wiki/Q2348713",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:18.868Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Donor portrait",
+      "url": "https://en.wikipedia.org/wiki/Donor_portrait",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:18.868Z"
+      }
+    }
+  ],
   "wikidata": "Q2348713",
   "wikipedia": "Donor portrait",
   "popularity": 35,
@@ -72,5 +251,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:43:18.868Z"
 }

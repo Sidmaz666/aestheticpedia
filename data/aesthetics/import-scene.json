@@ -20,7 +20,33 @@
   "summary": "The import scene, also known as the import racing scene or tuner scene, is a subculture of modifying mostly Japanese-import cars, particularly in the United States and Europe.",
   "description": "The import scene, also known as the import racing scene or tuner scene, is a subculture of modifying mostly Japanese-import cars, particularly in the United States and Europe.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1b1918",
+      "name": "black"
+    },
+    {
+      "hex": "#3b3b38",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#eeece9",
+      "name": "paper white"
+    },
+    {
+      "hex": "#ceebfc",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#5f5f60",
+      "name": "umber"
+    },
+    {
+      "hex": "#c0bcbe",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,36 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Eclipse_Advan_%E3%82%B9%E3%83%BC%E3%83%97%E3%83%A9_%2862787886%29.jpg/1280px-Eclipse_Advan_%E3%82%B9%E3%83%BC%E3%83%97%E3%83%A9_%2862787886%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Eclipse_Advan_%E3%82%B9%E3%83%BC%E3%83%97%E3%83%A9_%2862787886%29.jpg/500px-Eclipse_Advan_%E3%82%B9%E3%83%BC%E3%83%97%E3%83%A9_%2862787886%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Eclipse_Advan_%E3%82%B9%E3%83%BC%E3%83%97%E3%83%A9_%2862787886%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Eclipse_Advan_%E3%82%B9%E3%83%BC%E3%83%97%E3%83%A9_(62787886).jpg",
+      "caption": "Eclipse Advan スープラ",
+      "source": "Wikimedia Commons",
+      "artist": "machu.",
+      "date": "2005-11-13 07:46",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "851"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/IMPORTEXPO_IMG_5509_%285972367190%29.jpg/1280px-IMPORTEXPO_IMG_5509_%285972367190%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/IMPORTEXPO_IMG_5509_%285972367190%29.jpg/500px-IMPORTEXPO_IMG_5509_%285972367190%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6a/IMPORTEXPO_IMG_5509_%285972367190%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:IMPORTEXPO_IMG_5509_(5972367190).jpg",
+      "caption": "IMG_5509 IMPORTEXPO Track Race Show- July 23 2011.",
+      "source": "Wikimedia Commons",
+      "artist": "Kalvin Chan",
+      "date": "2011-07-23 02:12",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Import scene",
@@ -65,7 +120,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3783071",
+      "url": "https://www.wikidata.org/wiki/Q3783071",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:04.530Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Import scene",
+      "url": "https://en.wikipedia.org/wiki/Import_scene",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:04.530Z"
+      }
+    }
+  ],
   "wikidata": "Q3783071",
   "wikipedia": "Import scene",
   "popularity": 35,
@@ -73,5 +151,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:50:04.530Z"
 }

@@ -10,8 +10,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Moravia, Kingdom of Bohemia, Czech Republic",
+  "geography": "Moravia, Kingdom of Bohemia, Czech Republic",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -20,7 +20,33 @@
   "summary": "Czech Gothic architecture refers to the architectural period primarily of the Late Middle Ages in the area of the present-day Czech Republic (former Crown of Bohemia, primarily consisting of the Kingdom of Bohemia and Margraviate of Moravia).",
   "description": "Czech Gothic architecture refers to the architectural period primarily of the Late Middle Ages in the area of the present-day Czech Republic (former Crown of Bohemia, primarily consisting of the Kingdom of Bohemia and Margraviate of Moravia).\n\nThe Gothic style first appeared in the Czech lands in the first half of the 13th century and was common there until the early 16th century. The phases of the development of the Gothic architecture in the Czech lands are often named after the Bohemian ruling dynasty of the corresponding time:\n\nEarly Gothic – Přemyslid Gothic (13th and early 14th century)\n\nHigh Gothic – Luxembourg Gothic (14th and early 15th century)\n\nLate Gothic – Jagiellonian Gothic (approximately 1471–1526)\n\nThe most significant Gothic architects who worked in the Czech lands (especially in Bohemia) were Peter Parler and Benedikt Ried.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#655b48",
+      "name": "umber"
+    },
+    {
+      "hex": "#483e2c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#817661",
+      "name": "bronze"
+    },
+    {
+      "hex": "#9f947a",
+      "name": "stone"
+    },
+    {
+      "hex": "#271f15",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#5d85c3",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,148 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Interior_of_St._Vitus_Cathedral%2C_Nave%2C_Prague_20160809_2.jpg/1280px-Interior_of_St._Vitus_Cathedral%2C_Nave%2C_Prague_20160809_2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Interior_of_St._Vitus_Cathedral%2C_Nave%2C_Prague_20160809_2.jpg/500px-Interior_of_St._Vitus_Cathedral%2C_Nave%2C_Prague_20160809_2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/Interior_of_St._Vitus_Cathedral%2C_Nave%2C_Prague_20160809_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_St._Vitus_Cathedral,_Nave,_Prague_20160809_2.jpg",
+      "caption": "A view of the nave of St. Vitus Cathedral, Prague",
+      "source": "Wikimedia Commons",
+      "artist": "DXR",
+      "date": "2016-08-09 11:08:38",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1062"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Agneskloster_1.jpg/1280px-Agneskloster_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Agneskloster_1.jpg/500px-Agneskloster_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Agneskloster_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Agneskloster_1.jpg",
+      "caption": "Sankt Agnes-Kloster, Prag",
+      "source": "Wikimedia Commons",
+      "artist": "K. Martens",
+      "date": "2012-10-03 11:00:00",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Basilica_of_St._Procopius_in_T%C5%99eb%C3%AD%C4%8D%2C_interior%2C_165272.jpg/1280px-Basilica_of_St._Procopius_in_T%C5%99eb%C3%AD%C4%8D%2C_interior%2C_165272.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Basilica_of_St._Procopius_in_T%C5%99eb%C3%AD%C4%8D%2C_interior%2C_165272.jpg/500px-Basilica_of_St._Procopius_in_T%C5%99eb%C3%AD%C4%8D%2C_interior%2C_165272.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/44/Basilica_of_St._Procopius_in_T%C5%99eb%C3%AD%C4%8D%2C_interior%2C_165272.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Basilica_of_St._Procopius_in_T%C5%99eb%C3%AD%C4%8D,_interior,_165272.jpg",
+      "caption": "Basilica of St. Procopius in Třebíč, interior.",
+      "source": "Wikimedia Commons",
+      "artist": "Zde",
+      "date": "2016-05-29 13:12:36",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1914"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Osek%2C_kl%C3%A1%C5%A1ter_cisterci%C3%A1k%C5%AF.JPG/1280px-Osek%2C_kl%C3%A1%C5%A1ter_cisterci%C3%A1k%C5%AF.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Osek%2C_kl%C3%A1%C5%A1ter_cisterci%C3%A1k%C5%AF.JPG/500px-Osek%2C_kl%C3%A1%C5%A1ter_cisterci%C3%A1k%C5%AF.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/68/Osek%2C_kl%C3%A1%C5%A1ter_cisterci%C3%A1k%C5%AF.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Osek,_kl%C3%A1%C5%A1ter_cisterci%C3%A1k%C5%AF.JPG",
+      "caption": "This is a photo of a cultural monument of the Czech Republic , number:",
+      "source": "Wikimedia Commons",
+      "artist": "H2k4",
+      "date": "2006-07-08 15:22:01",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "958"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Staronov%C3%A1_synagoga_-.JPG/1280px-Staronov%C3%A1_synagoga_-.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Staronov%C3%A1_synagoga_-.JPG/500px-Staronov%C3%A1_synagoga_-.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Staronov%C3%A1_synagoga_-.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Staronov%C3%A1_synagoga_-.JPG",
+      "caption": "This is a photo of a cultural monument of the Czech Republic , number:",
+      "source": "Wikimedia Commons",
+      "artist": "Paljan84",
+      "date": "2012-09-23 16:35:11",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Zv%C3%ADkov_046.jpg/1280px-Zv%C3%ADkov_046.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Zv%C3%ADkov_046.jpg/500px-Zv%C3%ADkov_046.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/01/Zv%C3%ADkov_046.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Zv%C3%ADkov_046.jpg",
+      "caption": "Zvíkov castle in Písek District, Czech Republic",
+      "source": "Wikimedia Commons",
+      "artist": "Richenza",
+      "date": "2009-12-22",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/P%C3%ADsek-stonebridge2009b.jpg/1280px-P%C3%ADsek-stonebridge2009b.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/P%C3%ADsek-stonebridge2009b.jpg/500px-P%C3%ADsek-stonebridge2009b.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dc/P%C3%ADsek-stonebridge2009b.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:P%C3%ADsek-stonebridge2009b.jpg",
+      "caption": "An arch of the Písek Stone Bridge .",
+      "source": "Wikimedia Commons",
+      "artist": "Ben Skála",
+      "date": "2009-08-02",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Bezdez_interier_kaple_1.jpg/1280px-Bezdez_interier_kaple_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Bezdez_interier_kaple_1.jpg/500px-Bezdez_interier_kaple_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Bezdez_interier_kaple_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bezdez_interier_kaple_1.jpg",
+      "caption": "This is a photo of a cultural monument of the Czech Republic , number:",
+      "source": "Wikimedia Commons",
+      "artist": "Lukáš Kalista",
+      "date": "2014-07-26",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1924"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Vyssi_brod_ambit.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/54/Vyssi_brod_ambit.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/54/Vyssi_brod_ambit.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vyssi_brod_ambit.jpg",
+      "caption": "Gotická kapitulní síň Vyšebrodského kláštera",
+      "source": "Wikimedia Commons",
+      "artist": "Packare",
+      "date": "2013-08-25",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "800",
+      "height": "598"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Hohenfurth_%28Vy%C5%A1%C5%A1%C3%AD_Brod%29_-_Klosterkirche.JPG/1280px-Hohenfurth_%28Vy%C5%A1%C5%A1%C3%AD_Brod%29_-_Klosterkirche.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Hohenfurth_%28Vy%C5%A1%C5%A1%C3%AD_Brod%29_-_Klosterkirche.JPG/500px-Hohenfurth_%28Vy%C5%A1%C5%A1%C3%AD_Brod%29_-_Klosterkirche.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/50/Hohenfurth_%28Vy%C5%A1%C5%A1%C3%AD_Brod%29_-_Klosterkirche.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hohenfurth_(Vy%C5%A1%C5%A1%C3%AD_Brod)_-_Klosterkirche.JPG",
+      "caption": "Eastern view of the monastery church of the Cistercian abbey in Vyšší Brod.",
+      "source": "Wikimedia Commons",
+      "artist": "C.Stadler/Bwag",
+      "date": "2026-05-27",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Czech Gothic architecture",
@@ -65,7 +232,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q12018399",
+      "url": "https://www.wikidata.org/wiki/Q12018399",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:25.350Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Czech Gothic architecture",
+      "url": "https://en.wikipedia.org/wiki/Czech_Gothic_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:25.350Z"
+      }
+    }
+  ],
   "wikidata": "Q12018399",
   "wikipedia": "Czech Gothic architecture",
   "popularity": 35,
@@ -73,5 +263,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:05.502Z"
 }

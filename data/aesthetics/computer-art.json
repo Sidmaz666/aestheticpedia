@@ -19,7 +19,33 @@
   "summary": "Computer art is art in which computers play a role in the production or display of the artwork.",
   "description": "Computer art is art in which computers play a role in the production or display of the artwork. Such art can be an image, sound, animation, video, CD-ROM, DVD-ROM, video game, website, algorithm, performance or gallery installation. Many traditional disciplines are now integrating digital technologies and, as a result, the lines between traditional works of art and new media works created using computers has been blurred. For instance, an artist may combine traditional painting with algorithm art and other digital techniques.   As a result, defining computer art by its end product can thus be difficult.  Computer art is bound to change over time since changes in technology and software directly affect what is possible.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#ebe9df",
+      "name": "paper white"
+    },
+    {
+      "hex": "#191a1a",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#e4d4c3",
+      "name": "bone white"
+    },
+    {
+      "hex": "#4f3e2c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#b9b9bf",
+      "name": "silver"
+    },
+    {
+      "hex": "#9d98a5",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,63 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Picture_produced_by_Drawing_Machine_1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/24/Picture_produced_by_Drawing_Machine_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/24/Picture_produced_by_Drawing_Machine_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Picture_produced_by_Drawing_Machine_1.jpg",
+      "caption": "Picture produced by Drawing Machine 1",
+      "source": "Wikimedia Commons",
+      "artist": "Desmond Paul Henry Uploaded by Elaine O'Hanrahan at en.wikipedia",
+      "date": "17 June 2007 (original upload date)",
+      "license": "FAL",
+      "licenseUrl": "http://artlibre.org/licence/lal/en",
+      "width": "590",
+      "height": "715"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Camping_in_the_valley_%2850562785%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/44/Camping_in_the_valley_%2850562785%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/44/Camping_in_the_valley_%2850562785%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Camping_in_the_valley_(50562785).jpg",
+      "caption": "A camper's morning? the skies are rendered from a terragen expert's atmospherics. Will get back to that later.",
+      "source": "Wikimedia Commons",
+      "artist": "R Singh",
+      "date": "2005-10-09 00:56",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "640",
+      "height": "480"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Zanellehead.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Zanellehead.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Zanellehead.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Zanellehead.jpg",
+      "caption": "This image is mine and I release it to the public domain",
+      "source": "Wikimedia Commons",
+      "artist": "Spaceape at English Wikipedia",
+      "date": "23 August 2006 (original upload date)",
+      "license": "Public domain",
+      "width": "1200",
+      "height": "1100"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Jimmy_Wales_in_France%2C_with_the_style_of_Munch%27s_%22The_Scream%22_applied_using_neural_style_transfer.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/75/Jimmy_Wales_in_France%2C_with_the_style_of_Munch%27s_%22The_Scream%22_applied_using_neural_style_transfer.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/75/Jimmy_Wales_in_France%2C_with_the_style_of_Munch%27s_%22The_Scream%22_applied_using_neural_style_transfer.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jimmy_Wales_in_France,_with_the_style_of_Munch%27s_%22The_Scream%22_applied_using_neural_style_transfer.jpg",
+      "caption": "style of Munch's The Scream transferred onto a photo of Jimmy Wales using neural style transfer",
+      "source": "Wikimedia Commons",
+      "artist": "Kira Wales",
+      "date": "2018-03-15",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1168",
+      "height": "1352"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Computer art",
@@ -64,7 +146,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1376265",
+      "url": "https://www.wikidata.org/wiki/Q1376265",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:03.663Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Computer art",
+      "url": "https://en.wikipedia.org/wiki/Computer_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:03.663Z"
+      }
+    }
+  ],
   "wikidata": "Q1376265",
   "wikipedia": "Computer art",
   "popularity": 35,
@@ -72,5 +177,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:42:03.663Z"
 }

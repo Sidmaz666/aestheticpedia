@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q17152838",
+      "url": "https://www.wikidata.org/wiki/Q17152838",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:11.925Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Vulgar auteurism",
+      "url": "https://en.wikipedia.org/wiki/Vulgar_auteurism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:11.925Z"
+      }
+    }
+  ],
   "wikidata": "Q17152838",
   "wikipedia": "Vulgar auteurism",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:11:11.925Z"
 }

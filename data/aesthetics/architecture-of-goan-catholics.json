@@ -17,7 +17,33 @@
   "summary": "The architecture of Goan Catholics has strong Portuguese and native Goan influences.",
   "description": "The architecture of Goan Catholics has strong Portuguese and native Goan influences. It developed over the Portuguese India era (1500s–1961).\n\nMany of the 16th and 17th colonial Catholic churches were built in the Portuguese Baroque style. Most of the historic houses still standing were built between the 18th century and the early part of the 20th century, in a mix of Neoclassical and Gothic Revival styles.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#6f6d3e",
+      "name": "olive green"
+    },
+    {
+      "hex": "#bdaf5f",
+      "name": "camel"
+    },
+    {
+      "hex": "#9c8a39",
+      "name": "copper"
+    },
+    {
+      "hex": "#3f4b1e",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#c5c7a4",
+      "name": "beige"
+    },
+    {
+      "hex": "#6a411a",
+      "name": "sepia"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,63 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Igreja_da_Divina_Provid%C3%AAncia_%28S%C3%A3o_Caetano%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Igreja_da_Divina_Provid%C3%AAncia_%28S%C3%A3o_Caetano%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Igreja_da_Divina_Provid%C3%AAncia_%28S%C3%A3o_Caetano%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Igreja_da_Divina_Provid%C3%AAncia_(S%C3%A3o_Caetano).jpg",
+      "caption": "Church of Divine Providence / Saint Caetano - Goa",
+      "source": "Wikimedia Commons",
+      "artist": "Benuski",
+      "date": "2007-06-01",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "768",
+      "height": "1024"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Bom_jesus.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/21/Bom_jesus.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/21/Bom_jesus.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bom_jesus.jpg",
+      "caption": "Basilica Do Bom Jesus, Goa Velha, India. Danny Burke",
+      "source": "Wikimedia Commons",
+      "artist": "No machine-readable author provided. Bogman assumed (based on copyright claims).",
+      "date": "12 March 2005 (according to Exif data)",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1200",
+      "height": "900"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/India_Goa_Portuguese_Villa.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/59/India_Goa_Portuguese_Villa.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/India_Goa_Portuguese_Villa.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:India_Goa_Portuguese_Villa.jpg",
+      "caption": "Portuguese Villa near Chapora",
+      "source": "Wikimedia Commons",
+      "artist": "Dominik Hundhammer ( User:Zerohund )",
+      "date": "2003",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Igreja_Bom_Jesus_Goa.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Igreja_Bom_Jesus_Goa.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Igreja_Bom_Jesus_Goa.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Igreja_Bom_Jesus_Goa.jpg",
+      "caption": "The Basilica of Bom Jesus, Goa Velha",
+      "source": "Wikimedia Commons",
+      "artist": "JFVP",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "817",
+      "height": "1088"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Architecture of Goan Catholics",
@@ -62,7 +144,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4787129",
+      "url": "https://www.wikidata.org/wiki/Q4787129",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:10.219Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Architecture of Goan Catholics",
+      "url": "https://en.wikipedia.org/wiki/Architecture_of_Goan_Catholics",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:10.219Z"
+      }
+    }
+  ],
   "wikidata": "Q4787129",
   "wikipedia": "Architecture of Goan Catholics",
   "popularity": 35,
@@ -70,5 +175,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:36:10.219Z"
 }

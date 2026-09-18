@@ -17,7 +17,25 @@
   "summary": "A wash is a term for a visual arts technique resulting in a semi-transparent layer of colour.",
   "description": "A wash is a term for a visual arts technique resulting in a semi-transparent layer of colour. A wash of diluted ink or watercolor paint applied in combination with drawing is called pen and wash, wash drawing, or ink and wash. Normally only one or two colours of wash are used; if more colours are used the result is likely to be classified as a full watercolor painting.\n\nThe classic East Asian tradition of ink wash painting uses black ink in various levels of dilution. Historically associated with the four arts of the scholar-officials, the technique was often applied to landscapes in traditional Chinese, Japanese, and Korean painting.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#906e45",
+      "name": "bronze"
+    },
+    {
+      "hex": "#634e37",
+      "name": "umber"
+    },
+    {
+      "hex": "#c8ab83",
+      "name": "sand"
+    },
+    {
+      "hex": "#b39770",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +57,104 @@
   "tags": [
     "painting technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Xia_Gui_-_Mountain_Market-_Clear_with_Rising_Mist.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Xia_Gui_-_Mountain_Market-_Clear_with_Rising_Mist.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Xia_Gui_-_Mountain_Market-_Clear_with_Rising_Mist.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Xia_Gui_-_Mountain_Market-_Clear_with_Rising_Mist.jpg",
+      "caption": "Mountain Market, Clear with Rising Mist",
+      "source": "Wikimedia Commons",
+      "artist": "Attributed to Xia Gui",
+      "license": "Public domain",
+      "width": "731",
+      "height": "853"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/4e08658d-0905-b078-93be-46f4165eb2d6/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/4e08658d-0905-b078-93be-46f4165eb2d6/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/4e08658d-0905-b078-93be-46f4165eb2d6/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/54937",
+      "caption": "Madonna and Child (recto), and Fragment of Woman's Torso (verso), 1800/25",
+      "source": "Art Institute of Chicago",
+      "artist": "Unknown artist",
+      "date": "1800/25",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1059"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/626bcfe3-6a1b-281f-5cc6-2cce7e93c1ae/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/626bcfe3-6a1b-281f-5cc6-2cce7e93c1ae/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/626bcfe3-6a1b-281f-5cc6-2cce7e93c1ae/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/109300",
+      "caption": "Be Careful with that Step!, 1816/1820",
+      "source": "Art Institute of Chicago",
+      "artist": "Francisco José de Goya y Lucientes",
+      "date": "1816/1820",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1220"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/0ba8beb0-2658-fe1b-c7cf-5bcf245bbb01/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/0ba8beb0-2658-fe1b-c7cf-5bcf245bbb01/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/0ba8beb0-2658-fe1b-c7cf-5bcf245bbb01/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/4103",
+      "caption": "Statue of Standing Warrior, from Rear, n.d.",
+      "source": "Art Institute of Chicago",
+      "artist": "Follower of Francesco de'Rossi, called Salviati",
+      "date": "n.d.",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1501"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/444f3e95-b21f-c821-e6af-00fe9560fb95/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/444f3e95-b21f-c821-e6af-00fe9560fb95/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/444f3e95-b21f-c821-e6af-00fe9560fb95/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/50276",
+      "caption": "Statue of the Madonna in the Mountains, 1804",
+      "source": "Art Institute of Chicago",
+      "artist": "Caspar David Friedrich",
+      "date": "1804",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "545"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/dde8619a-f3a0-d232-4632-4b140325f6ef/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/dde8619a-f3a0-d232-4632-4b140325f6ef/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/dde8619a-f3a0-d232-4632-4b140325f6ef/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/85117",
+      "caption": "Portrait Bust of a Young Man, after 1829",
+      "source": "Art Institute of Chicago",
+      "artist": "After Alessandro Filipepi, called Sandro Botticelli",
+      "date": "after 1829",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1341"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/f92d9ff9-324d-abcc-186d-0bb4bccc696c/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/f92d9ff9-324d-abcc-186d-0bb4bccc696c/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/f92d9ff9-324d-abcc-186d-0bb4bccc696c/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/4163",
+      "caption": "Archers Shooting at a Herm, Triumph of Bacchus, and Other Studies, n.d.",
+      "source": "Art Institute of Chicago",
+      "artist": "after Michelangelo Buonarroti (Italian, 1475-1564)",
+      "date": "n.d.",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1159"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Wash (visual arts)",
@@ -62,7 +177,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1469362",
+      "url": "https://www.wikidata.org/wiki/Q1469362",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:13.658Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Wash (visual arts)",
+      "url": "https://en.wikipedia.org/wiki/Wash_(visual_arts)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:13.658Z"
+      }
+    }
+  ],
   "wikidata": "Q1469362",
   "wikipedia": "Wash (visual arts)",
   "popularity": 35,
@@ -70,5 +208,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:11:13.658Z"
 }

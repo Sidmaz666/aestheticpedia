@@ -41,7 +41,22 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/6cb56687-a433-ae6b-ab07-af71dd755ec9/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/6cb56687-a433-ae6b-ab07-af71dd755ec9/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/6cb56687-a433-ae6b-ab07-af71dd755ec9/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/805",
+      "caption": "Funerary Papyrus of Tayuhenutmut, Third Intermediate Period, probably Dynasty 21 (about 1069-945 BCE)",
+      "source": "Art Institute of Chicago",
+      "artist": "Egyptian; probably Thebes (now Luxor), Egypt",
+      "date": "Third Intermediate Period, probably Dynasty 21 (about 1069-945 BCE)",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "215"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Book art (fine art)",
@@ -64,7 +79,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q28455113",
+      "url": "https://www.wikidata.org/wiki/Q28455113",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:57.879Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Book art (fine art)",
+      "url": "https://en.wikipedia.org/wiki/Book_art_(fine_art)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:57.879Z"
+      }
+    }
+  ],
   "wikidata": "Q28455113",
   "wikipedia": "Book art (fine art)",
   "popularity": 35,
@@ -72,5 +110,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:38:57.879Z"
 }

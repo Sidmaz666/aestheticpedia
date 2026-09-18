@@ -17,7 +17,33 @@
   "summary": "Olfactory art is an art form that uses scents as a medium.",
   "description": "Olfactory art is an art form that uses scents as a medium. Olfactory art includes perfume as well as other applications of scent.\n\nThe art form has been a recognized genre since at least 1980. Marcel Duchamp was one of the first artists who pioneered with using scents in art.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#9d958a",
+      "name": "stone"
+    },
+    {
+      "hex": "#888076",
+      "name": "taupe"
+    },
+    {
+      "hex": "#544c42",
+      "name": "umber"
+    },
+    {
+      "hex": "#cfbdae",
+      "name": "beige"
+    },
+    {
+      "hex": "#e9ebf1",
+      "name": "paper white"
+    },
+    {
+      "hex": "#2a2827",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Soft_memory_-_Peter_De_Cupere_2.jpg/1280px-Soft_memory_-_Peter_De_Cupere_2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Soft_memory_-_Peter_De_Cupere_2.jpg/500px-Soft_memory_-_Peter_De_Cupere_2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Soft_memory_-_Peter_De_Cupere_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Soft_memory_-_Peter_De_Cupere_2.jpg",
+      "caption": "Olfactory artwork by Peter De Cupere. Hair brush with real hair that belonged to survivors of WWII and gunpowder scent.",
+      "source": "Wikimedia Commons",
+      "artist": "Hanno Lans",
+      "date": "2017-04-03 12:28:32",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Olfactory art",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q29167055",
+      "url": "https://www.wikidata.org/wiki/Q29167055",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:24.466Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Olfactory art",
+      "url": "https://en.wikipedia.org/wiki/Olfactory_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:24.466Z"
+      }
+    }
+  ],
   "wikidata": "Q29167055",
   "wikipedia": "Olfactory art",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:58:24.466Z"
 }

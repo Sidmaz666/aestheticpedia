@@ -17,7 +17,33 @@
   "summary": "Gingerbread is an architectural style that consists of elaborately detailed embellishment known as \"gingerbread trim\".",
   "description": "Gingerbread is an architectural style that consists of elaborately detailed embellishment known as \"gingerbread trim\". It is more specifically used to describe the detailed decorative work of American designers in the late 1860s and 1870s, which was associated mostly with the Carpenter Gothic style. It was loosely based on the Picturesque period of English architecture in the 1830s.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#636c71",
+      "name": "slate"
+    },
+    {
+      "hex": "#5e504b",
+      "name": "umber"
+    },
+    {
+      "hex": "#868b89",
+      "name": "taupe"
+    },
+    {
+      "hex": "#e2e4e9",
+      "name": "paper white"
+    },
+    {
+      "hex": "#abadab",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#2e302b",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,145 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Cape_may_pink_victorian.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/72/Cape_may_pink_victorian.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/72/Cape_may_pink_victorian.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cape_may_pink_victorian.jpg",
+      "caption": "Pink victorian house with gingerbread in Cape May, NJ",
+      "source": "Wikimedia Commons",
+      "artist": "Asturnut at English Wikipedia",
+      "date": "2008",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "500",
+      "height": "375"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Seconde_Palais_National_Haiti.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Seconde_Palais_National_Haiti.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Seconde_Palais_National_Haiti.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Seconde_Palais_National_Haiti.jpg",
+      "caption": "Seconde Palais National Haiti",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown Author",
+      "date": "circa 1900 date QS:P,+1900-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "502",
+      "height": "380"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Hotel_Oloffson_mars_2007.JPG/1280px-Hotel_Oloffson_mars_2007.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Hotel_Oloffson_mars_2007.JPG/500px-Hotel_Oloffson_mars_2007.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Hotel_Oloffson_mars_2007.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hotel_Oloffson_mars_2007.JPG",
+      "caption": "Hotel Oloffson - Port au Prince",
+      "source": "Wikimedia Commons",
+      "artist": "Ketounette",
+      "date": "2007-04-03",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "857"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/The_school_of_the_Brothers_of_Christian_Instruction_in_Saint-Marc%2C_Haiti.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c9/The_school_of_the_Brothers_of_Christian_Instruction_in_Saint-Marc%2C_Haiti.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c9/The_school_of_the_Brothers_of_Christian_Instruction_in_Saint-Marc%2C_Haiti.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_school_of_the_Brothers_of_Christian_Instruction_in_Saint-Marc,_Haiti.png",
+      "caption": "The school of the Brothers of Christian Instruction in Saint-Marc, Haiti",
+      "source": "Wikimedia Commons",
+      "artist": "U.S. Marine Corps",
+      "date": "Unknown date",
+      "license": "Public domain",
+      "width": "946",
+      "height": "621"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Gingerbread_house_in_Haiti_Feb_2008_Landscape.jpg/1280px-Gingerbread_house_in_Haiti_Feb_2008_Landscape.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Gingerbread_house_in_Haiti_Feb_2008_Landscape.jpg/500px-Gingerbread_house_in_Haiti_Feb_2008_Landscape.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/97/Gingerbread_house_in_Haiti_Feb_2008_Landscape.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gingerbread_house_in_Haiti_Feb_2008_Landscape.jpg",
+      "caption": "La résidence Hilaire (the Hilaire residence), a gingerbread house in Jérémie, Haiti (cropped in landscape).",
+      "source": "Wikimedia Commons",
+      "artist": "Steve Sutorius",
+      "date": "2008-02-16 17:13:31",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Villa_Miramar%2C_Port-au-Prince_20180716_01.jpg/1280px-Villa_Miramar%2C_Port-au-Prince_20180716_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Villa_Miramar%2C_Port-au-Prince_20180716_01.jpg/500px-Villa_Miramar%2C_Port-au-Prince_20180716_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/53/Villa_Miramar%2C_Port-au-Prince_20180716_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Villa_Miramar,_Port-au-Prince_20180716_01.jpg",
+      "caption": "Villa Miramar, a gingerbread house in Port-au-Prince, Haiti",
+      "source": "Wikimedia Commons",
+      "artist": "Lea-Kim",
+      "date": "2018-07-16 18:14:44",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/28_30_Guerny_CMHD.jpg/1280px-28_30_Guerny_CMHD.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/28_30_Guerny_CMHD.jpg/500px-28_30_Guerny_CMHD.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1d/28_30_Guerny_CMHD.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:28_30_Guerny_CMHD.jpg",
+      "caption": "Houses at 28 and 28 Guerny Street in Cape May, New Jersey. Part of the Cape May Historic District. 12-30 (evens) Guerny Street are known as \"Stockton Place\", were identical houses designed by architect Stephen Decatur Button. 12 and 14 Guerny seem to have disappeared (or perhaps ",
+      "source": "Wikimedia Commons",
+      "artist": "Smallbones",
+      "date": "2011-07-23",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Oak_Bluffs_Gingerbread_Houses_%2814057570005%29.jpg/1280px-Oak_Bluffs_Gingerbread_Houses_%2814057570005%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Oak_Bluffs_Gingerbread_Houses_%2814057570005%29.jpg/500px-Oak_Bluffs_Gingerbread_Houses_%2814057570005%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/11/Oak_Bluffs_Gingerbread_Houses_%2814057570005%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Oak_Bluffs_Gingerbread_Houses_(14057570005).jpg",
+      "caption": "Oak Bluffs Gingerbread Houses",
+      "source": "Wikimedia Commons",
+      "artist": "m01229 from USA",
+      "date": "2014-04-03 15:40",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "848"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Abhisek_Dusit_Throne_Hall_%286646989131%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Abhisek_Dusit_Throne_Hall_%286646989131%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Abhisek_Dusit_Throne_Hall_%286646989131%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Abhisek_Dusit_Throne_Hall_(6646989131).jpg",
+      "caption": "Abhisek Dusit Throne Hall",
+      "source": "Wikimedia Commons",
+      "artist": "Sébastien Bertrand from Paris, France",
+      "date": "2011-12-28 08:38",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1024",
+      "height": "576"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Ferndale_CA_Gingerbread_Mansion.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Ferndale_CA_Gingerbread_Mansion.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Ferndale_CA_Gingerbread_Mansion.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ferndale_CA_Gingerbread_Mansion.jpg",
+      "caption": "The Gingerbread Mansion at the corner of Brown and Berding Streets, Ferndale, California was built as a private home for Dr. Hogan J. Ring in 1895. In 1910 it became the Ferndale hospital. Later it became the American Legion Hall, a return to use as a private residence and subseq",
+      "source": "Wikimedia Commons",
+      "artist": "Ellin Beltz",
+      "date": "2013-03-02",
+      "license": "Public domain",
+      "width": "1024",
+      "height": "818"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gingerbread (architecture)",
@@ -62,7 +226,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3501282",
+      "url": "https://www.wikidata.org/wiki/Q3501282",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:07.468Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gingerbread (architecture)",
+      "url": "https://en.wikipedia.org/wiki/Gingerbread_(architecture)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:07.468Z"
+      }
+    }
+  ],
   "wikidata": "Q3501282",
   "wikipedia": "Gingerbread (architecture)",
   "popularity": 35,
@@ -70,5 +257,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:47:07.468Z"
 }

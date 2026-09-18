@@ -31,7 +31,7 @@ export default async function Home() {
             sources and relationships. Free to read, free to reuse, open to contributions.
           </p>
           <div className="mt-10 flex w-full max-w-xl animate-fade-up flex-col gap-3 [animation-delay:240ms] sm:flex-row">
-            <SearchTrigger />
+            <SearchTrigger total={stats.total} />
             <Link
               href="/aesthetics"
               className="flex h-14 items-center justify-center gap-2 rounded-full bg-fg px-7 text-sm font-medium text-bg transition-opacity hover:opacity-90"

@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "The Aga Khan Museum, Canada",
+  "geography": "The Aga Khan Museum, Canada",
   "periodStart": "14th century",
   "periodEnd": "",
   "startYear": 1399,
@@ -17,7 +17,33 @@
   "summary": "The Gwalior Qur'an is a Qur'anic manuscript or mushaf completed in 1399 in Gwalior Fort in the Delhi Sultanate in modern-day India.",
   "description": "The Gwalior Qur'an is a Qur'anic manuscript or mushaf completed in 1399 in Gwalior Fort in the Delhi Sultanate in modern-day India. The manuscript is notably the oldest known illuminated Qur'anic manuscript from the Delhi Sultanate and the oldest known example of the Bihari script, a calligraphic style with contested origins, but is primarily seen in works from the Delhi Sultanate. It is also the oldest dated mushaf which includes a falnama, a section used for bibliomancy. It is currently on display at the Aga Khan Museum in Toronto, Canada.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#cfc0ac",
+      "name": "beige"
+    },
+    {
+      "hex": "#70665d",
+      "name": "umber"
+    },
+    {
+      "hex": "#f5dfb8",
+      "name": "cream"
+    },
+    {
+      "hex": "#4e433f",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#8b827c",
+      "name": "taupe"
+    },
+    {
+      "hex": "#20161d",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,47 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Double_page_from_the_Gwalior_Qur%27an.jpg/1280px-Double_page_from_the_Gwalior_Qur%27an.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Double_page_from_the_Gwalior_Qur%27an.jpg/500px-Double_page_from_the_Gwalior_Qur%27an.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/df/Double_page_from_the_Gwalior_Qur%27an.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Double_page_from_the_Gwalior_Qur%27an.jpg",
+      "caption": "Double page from the Gwalior Qur'an copied by Mahmud Sha‘ban. Gwalior, 1399. Aga Khan Museum AKM281 f.189r-190v",
+      "source": "Wikimedia Commons",
+      "date": "1399 date QS:P571,+1399-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "809"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Gwalior_fort_panorama.jpg/1280px-Gwalior_fort_panorama.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Gwalior_fort_panorama.jpg/500px-Gwalior_fort_panorama.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Gwalior_fort_panorama.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gwalior_fort_panorama.jpg",
+      "caption": "Gwalior fort panorama",
+      "source": "Wikimedia Commons",
+      "artist": "Pavel Suprun (Superka)",
+      "date": "2009-01-30",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "414"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Double_page_from_Qur%27an_in_bihari_script.jpg/1280px-Double_page_from_Qur%27an_in_bihari_script.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Double_page_from_Qur%27an_in_bihari_script.jpg/500px-Double_page_from_Qur%27an_in_bihari_script.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/Double_page_from_Qur%27an_in_bihari_script.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Double_page_from_Qur%27an_in_bihari_script.jpg",
+      "caption": "Double page from Qur'an in bihari script with Persian commentary in naskhi in the margins. 45 x 35 cm. India, 16th-century. Bibliothèque Nationale de France, Manuscrits orientaux, arabe 7260, p. 370-371",
+      "source": "Wikimedia Commons",
+      "artist": "anonymous",
+      "date": "16 th century date QS:P571,+1550-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "952"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gwalior Quran",
@@ -62,7 +128,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q126029319",
+      "url": "https://www.wikidata.org/wiki/Q126029319",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:08.368Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gwalior Quran",
+      "url": "https://en.wikipedia.org/wiki/Gwalior_Quran",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:08.368Z"
+      }
+    }
+  ],
   "wikidata": "Q126029319",
   "wikipedia": "Gwalior Quran",
   "popularity": 35,
@@ -70,5 +159,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.882Z"
 }

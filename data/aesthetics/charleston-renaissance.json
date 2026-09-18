@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Charleston Renaissance is a period between World Wars I and II in which the city of Charleston, South Carolina, experienced a boom in the arts as artists, writers, architects, and historical preservationists came together to improve and represent their city.",
   "description": "The Charleston Renaissance is a period between World Wars I and II in which the city of Charleston, South Carolina, experienced a boom in the arts as artists, writers, architects, and historical preservationists came together to improve and represent their city. The Charleston Renaissance was related to the larger interwar artistic movement known as the Southern Renaissance and is credited with helping to spur the city's tourist industry.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bec2a6",
+      "name": "silver"
+    },
+    {
+      "hex": "#cdd3c4",
+      "name": "bone white"
+    },
+    {
+      "hex": "#9daba0",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#f5f5ef",
+      "name": "paper white"
+    },
+    {
+      "hex": "#a79c73",
+      "name": "camel"
+    },
+    {
+      "hex": "#bfb677",
+      "name": "sand"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,118 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Bayou_Scene_Alice_Ravenel_Huger_Smith_1920.jpeg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/11/Bayou_Scene_Alice_Ravenel_Huger_Smith_1920.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/11/Bayou_Scene_Alice_Ravenel_Huger_Smith_1920.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bayou_Scene_Alice_Ravenel_Huger_Smith_1920.jpeg",
+      "caption": "\"Bayou Scene,\" watercolor, by South Carolina artist Alice Ravenel Huger Smith. Private collection.",
+      "source": "Wikimedia Commons",
+      "artist": "Alice Ravenel Huger Smith",
+      "date": "1920",
+      "license": "Public domain",
+      "width": "744",
+      "height": "930"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Alfred_Hutty_-_Magnolia_Gardens_-_Google_Art_Project.jpg/1280px-Alfred_Hutty_-_Magnolia_Gardens_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Alfred_Hutty_-_Magnolia_Gardens_-_Google_Art_Project.jpg/500px-Alfred_Hutty_-_Magnolia_Gardens_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Alfred_Hutty_-_Magnolia_Gardens_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Alfred_Hutty_-_Magnolia_Gardens_-_Google_Art_Project.jpg",
+      "caption": "Magnolia Gardens",
+      "source": "Wikimedia Commons",
+      "artist": "Alfred Hutty (1877 - 1954) (American) Details on Google Art Project",
+      "date": "1920 date QS:P571,+1920-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1618"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b4ccdf0f-8b1b-2969-e447-5402cbe56985/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b4ccdf0f-8b1b-2969-e447-5402cbe56985/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b4ccdf0f-8b1b-2969-e447-5402cbe56985/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/14690",
+      "caption": "Fragment, Late 14th/15th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Italy",
+      "date": "Late 14th/15th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "671"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/f17aa6ce-bda2-53b2-1be7-07fed381715a/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/f17aa6ce-bda2-53b2-1be7-07fed381715a/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/f17aa6ce-bda2-53b2-1be7-07fed381715a/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/1895",
+      "caption": "Panel, 16th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Italy",
+      "date": "16th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "973"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/155c11f8-0e76-501f-12eb-bd1f6d06aaa2/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/155c11f8-0e76-501f-12eb-bd1f6d06aaa2/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/155c11f8-0e76-501f-12eb-bd1f6d06aaa2/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/14693",
+      "caption": "Fragment, 1401-1425",
+      "source": "Art Institute of Chicago",
+      "artist": "Italy",
+      "date": "1401-1425",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "949"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/2b47fefc-7e54-5c56-f0f7-9d75f4d81aa1/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2b47fefc-7e54-5c56-f0f7-9d75f4d81aa1/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2b47fefc-7e54-5c56-f0f7-9d75f4d81aa1/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/11147",
+      "caption": "Orphrey, 16th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Spain",
+      "date": "16th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "3293"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/5e8dcfd7-11f8-3bd4-a666-05c0a1301994/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/5e8dcfd7-11f8-3bd4-a666-05c0a1301994/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/5e8dcfd7-11f8-3bd4-a666-05c0a1301994/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/156525",
+      "caption": "\"Renaissance\" Fringe, 16th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Italy",
+      "date": "16th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "578"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/c4983161-b315-cbb8-e28e-218f5ffbdc33/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/c4983161-b315-cbb8-e28e-218f5ffbdc33/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/c4983161-b315-cbb8-e28e-218f5ffbdc33/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/103440",
+      "caption": "\"Renaissance\" Fringe, 16th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Italy",
+      "date": "16th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "713"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Charleston Renaissance",
@@ -62,7 +199,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q22138607",
+      "url": "https://www.wikidata.org/wiki/Q22138607",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:18.407Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Charleston Renaissance",
+      "url": "https://en.wikipedia.org/wiki/Charleston_Renaissance",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:18.407Z"
+      }
+    }
+  ],
   "wikidata": "Q22138607",
   "wikipedia": "Charleston Renaissance",
   "popularity": 35,
@@ -70,5 +230,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.962Z"
 }

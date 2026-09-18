@@ -17,7 +17,33 @@
   "summary": "Paestan vase painting was a style of vase painting associated with Paestum, a city in South Italy founded by Greek colonists of Magna Graecia.",
   "description": "Paestan vase painting was a style of vase painting associated with Paestum, a city in South Italy founded by Greek colonists of Magna Graecia. Paestan vase painting is one of five regional styles of South Italian red-figure vase painting.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5d402e",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#251410",
+      "name": "black"
+    },
+    {
+      "hex": "#775e40",
+      "name": "bronze"
+    },
+    {
+      "hex": "#9b764c",
+      "name": "bronze 2"
+    },
+    {
+      "hex": "#b78f5a",
+      "name": "camel"
+    },
+    {
+      "hex": "#9e493d",
+      "name": "brick"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,118 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Asteas%2C_cratere_a_calice_campano_col_ratto_di_europa%2C_375-350_ac_ca._%28montesarchio%2C_man_del_sannio_caudino%29_01.jpg/1280px-Asteas%2C_cratere_a_calice_campano_col_ratto_di_europa%2C_375-350_ac_ca._%28montesarchio%2C_man_del_sannio_caudino%29_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Asteas%2C_cratere_a_calice_campano_col_ratto_di_europa%2C_375-350_ac_ca._%28montesarchio%2C_man_del_sannio_caudino%29_01.jpg/500px-Asteas%2C_cratere_a_calice_campano_col_ratto_di_europa%2C_375-350_ac_ca._%28montesarchio%2C_man_del_sannio_caudino%29_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/47/Asteas%2C_cratere_a_calice_campano_col_ratto_di_europa%2C_375-350_ac_ca._%28montesarchio%2C_man_del_sannio_caudino%29_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Asteas,_cratere_a_calice_campano_col_ratto_di_europa,_375-350_ac_ca._(montesarchio,_man_del_sannio_caudino)_01.jpg",
+      "caption": "La Tutela Tricolore (2016 exhibition)",
+      "source": "Wikimedia Commons",
+      "artist": "Sailko",
+      "date": "2017-01-24 11:25:22",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "1593"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Orestes_Delphi_BM_GR1917.12-10.1.jpg/1280px-Orestes_Delphi_BM_GR1917.12-10.1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Orestes_Delphi_BM_GR1917.12-10.1.jpg/500px-Orestes_Delphi_BM_GR1917.12-10.1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/14/Orestes_Delphi_BM_GR1917.12-10.1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Orestes_Delphi_BM_GR1917.12-10.1.jpg",
+      "caption": "Orestes at Delphi. Paestan red-figured bell-krater, ca. 330 BC.",
+      "source": "Wikimedia Commons",
+      "artist": "Python (as painter)",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/96f23681-9701-a668-5c3f-6ffa951f7ecc/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/96f23681-9701-a668-5c3f-6ffa951f7ecc/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/96f23681-9701-a668-5c3f-6ffa951f7ecc/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/14561",
+      "caption": "The Vase of Tulips, c. 1890",
+      "source": "Art Institute of Chicago",
+      "artist": "Paul Cezanne (French, 1839–1906)",
+      "date": "c. 1890",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1195"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/68452725-eba5-06e3-46d2-50c678a5d672/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/68452725-eba5-06e3-46d2-50c678a5d672/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/68452725-eba5-06e3-46d2-50c678a5d672/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/21934",
+      "caption": "Kitchen Scene, 1618–20",
+      "source": "Art Institute of Chicago",
+      "artist": "Diego Velázquez (Spanish, 1599–1660)",
+      "date": "1618–20",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "436"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/479aff61-784e-e833-fd82-50ba8c819514/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/479aff61-784e-e833-fd82-50ba8c819514/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/479aff61-784e-e833-fd82-50ba8c819514/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/16617",
+      "caption": "Chrysanthemums, 1881–82",
+      "source": "Art Institute of Chicago",
+      "artist": "Pierre-Auguste Renoir (French, 1841–1919)",
+      "date": "1881–82",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "702"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/11",
+      "caption": "Self-Portrait, 1878",
+      "source": "Art Institute of Chicago",
+      "artist": "Walter Shirlaw (American, 1838–1909)",
+      "date": "1878",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1101"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/293ab61e-5536-c2d3-936a-4116f027260c/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/293ab61e-5536-c2d3-936a-4116f027260c/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/293ab61e-5536-c2d3-936a-4116f027260c/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/94126",
+      "caption": "Still Life with Monkey, Fruits, and Flowers, 1724",
+      "source": "Art Institute of Chicago",
+      "artist": "Jean Baptiste Oudry (French, 1686–1755)",
+      "date": "1724",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "818"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/bdb9f780-83be-dd12-191d-54a77c5444ab/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/bdb9f780-83be-dd12-191d-54a77c5444ab/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/bdb9f780-83be-dd12-191d-54a77c5444ab/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/110982",
+      "caption": "Still Life with Flowers, 1905",
+      "source": "Art Institute of Chicago",
+      "artist": "Odilon Redon (French, 1840–1916)",
+      "date": "1905",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1232"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Paestan vase painting",
@@ -62,7 +199,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2046067",
+      "url": "https://www.wikidata.org/wiki/Q2046067",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:12.366Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Paestan vase painting",
+      "url": "https://en.wikipedia.org/wiki/Paestan_vase_painting",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:59:12.366Z"
+      }
+    }
+  ],
   "wikidata": "Q2046067",
   "wikipedia": "Paestan vase painting",
   "popularity": 35,
@@ -70,5 +230,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:59:12.366Z"
 }

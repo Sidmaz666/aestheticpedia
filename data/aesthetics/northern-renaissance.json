@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Northern Europe",
+  "geography": "Northern Europe",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -19,7 +19,33 @@
   "summary": "The Northern Renaissance was the Renaissance that occurred in Europe north of the Alps, developing later than the Italian Renaissance, and in most respects only beginning in the last years of the 15th century.",
   "description": "The Northern Renaissance was the Renaissance that occurred in Europe north of the Alps, developing later than the Italian Renaissance, and in most respects only beginning in the last years of the 15th century. It took different forms in the various countries involved, and the German, French, English, Low Countries and Polish Renaissances often had different characteristics.\n\nEarly Netherlandish painting, especially its later phases, is often classified as part of the Northern Renaissance. Rapidly expanding trade and commerce and a new class of rich merchant patrons in then Burgundian cities like Bruges in the 15th century and Antwerp in the 16th increased cultural exchange between Italy and the Low Countries; however in art, and especially architecture, late Gothic influences remained present until the arrival of Baroque even as painters increasingly drew on Italian models.\n\nIn France, King Francis I imported Italian Renaissance art, and commissioned Italian artists (including Leonardo da Vinci), building grand palaces at great expense, starting the French Renaissance.  In England also, the first signs of Renaissance art and architecture were the result of patronage by a small circle of patrons at the royal courts of Henry VII of England and his son Henry VIII (Nonsuch Palace), and courtiers such as Cardinal Thomas Wolsey, who built Hampton Court Palace.\n\nUniversities and the printed book helped spread the spirit of the age through France, the Low Countries and the Holy Roman Empire, and then to Scandinavia and Britain in the early 16th century. Writers and humanists such as Rabelais, Pierre de Ronsard and Desiderius Erasmus were greatly influenced by the Italian Renaissance model and were part of the same intellectual movement. During the English Renaissance (which overlapped with the Elizabethan era) writers such as William Shakespeare and Christopher Marlowe composed works of lasting influence. The Renaissance was brought to Poland directly from Italy by artists from Florence and the Low Countries, starting the Polish Renaissance.\n\nIn some areas the Northern Renaissance was distinct from the Italian Renaissance in its centralization of political power. While Italy and Germany were dominated by independent city-states, most of Europe began emerging as nation-states or even unions of countries. The Northern Renaissance was also closely linked to the Protest",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#362b1b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#5a462e",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#c6a566",
+      "name": "camel"
+    },
+    {
+      "hex": "#7b6343",
+      "name": "bronze"
+    },
+    {
+      "hex": "#171510",
+      "name": "black"
+    },
+    {
+      "hex": "#e0bf85",
+      "name": "tan"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,60 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/1280px-Van_Eyck_-_Arnolfini_Portrait.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/500px-Van_Eyck_-_Arnolfini_Portrait.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Van_Eyck_-_Arnolfini_Portrait.jpg",
+      "caption": "The Arnolfini Portrait",
+      "source": "Wikimedia Commons",
+      "artist": "Jan van Eyck",
+      "date": "1434",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1751"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Pieter_Brueghel%2C_the_Younger_-_The_Adoration_of_the_Magi_in_the_snow.jpeg/1280px-Pieter_Brueghel%2C_the_Younger_-_The_Adoration_of_the_Magi_in_the_snow.jpeg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Pieter_Brueghel%2C_the_Younger_-_The_Adoration_of_the_Magi_in_the_snow.jpeg/500px-Pieter_Brueghel%2C_the_Younger_-_The_Adoration_of_the_Magi_in_the_snow.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Pieter_Brueghel%2C_the_Younger_-_The_Adoration_of_the_Magi_in_the_snow.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pieter_Brueghel,_the_Younger_-_The_Adoration_of_the_Magi_in_the_snow.jpeg",
+      "caption": "adoration of the Magi",
+      "source": "Wikimedia Commons",
+      "artist": "Pieter Brueghel the Younger",
+      "date": "between 1584 and 1638 date QS:P571,+1500-00-00T00:00:00Z/6,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "844"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/1280px-Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/500px-Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "caption": "Vitruvian Man",
+      "source": "Wikimedia Commons",
+      "artist": "Leonardo da Vinci",
+      "date": "circa 1492 date QS:P571,+1492-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1740"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Ghent_Altarpiece_Google_Art_Project.jpg/1280px-Ghent_Altarpiece_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Ghent_Altarpiece_Google_Art_Project.jpg/500px-Ghent_Altarpiece_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ghent_Altarpiece_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ghent_Altarpiece_Google_Art_Project.jpg",
+      "caption": "Lamb of God Annunciation",
+      "source": "Wikimedia Commons",
+      "artist": "Jan van Eyck / Presumably Hubert van Eyck",
+      "date": "1432",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "944"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Northern Renaissance",
@@ -64,7 +143,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q610877",
+      "url": "https://www.wikidata.org/wiki/Q610877",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:10.858Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Northern Renaissance",
+      "url": "https://en.wikipedia.org/wiki/Northern_Renaissance",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:10.858Z"
+      }
+    }
+  ],
   "wikidata": "Q610877",
   "wikipedia": "Northern Renaissance",
   "popularity": 35,
@@ -72,5 +174,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.854Z"
 }

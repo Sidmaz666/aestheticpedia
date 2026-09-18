@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "1910s",
   "periodEnd": "",
   "startYear": 1910,
@@ -19,7 +19,29 @@
   "summary": "The Ashcan School, also called the Ash Can School, was an artistic movement in the United States during the late 19th-early 20th century that produced works portraying scenes of daily life in New York, often in the city's poorer neighborhoods.",
   "description": "The Ashcan School, also called the Ash Can School, was an artistic movement in the United States during the late 19th-early 20th century that produced works portraying scenes of daily life in New York, often in the city's poorer neighborhoods. The movement, which took some inspiration from Walt Whitman's 1855 epic poem Leaves of Grass, has been seen as emblematic of the spirit of political rebellion of the period.\n\nThe artists working in this style included Robert Henri, George Luks, William Glackens, John Sloan, and Everett Shinn. Some of them met studying together under the realist Thomas Anshutz at the Pennsylvania Academy of the Fine Arts; others met in the newspaper offices of Philadelphia where they worked as illustrators. Theresa Bernstein, who studied at the Philadelphia School of Design for Women, was also a part of the Ashcan School. She was friends with many of its better-known members, including Sloan with whom she co-founded the Society of Independent Artists.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#211a13",
+      "name": "black"
+    },
+    {
+      "hex": "#45372e",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#6c604b",
+      "name": "umber"
+    },
+    {
+      "hex": "#bbad89",
+      "name": "khaki"
+    },
+    {
+      "hex": "#92886f",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +63,138 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Self-Portrait_Sloan.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/10/Self-Portrait_Sloan.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/10/Self-Portrait_Sloan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Self-Portrait_Sloan.jpg",
+      "caption": "Self-portrait",
+      "source": "Wikimedia Commons",
+      "artist": "John Sloan",
+      "date": "1890 date QS:P571,+1890-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "601",
+      "height": "700"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Shinn_Henri_Sloan.jpg/1280px-Shinn_Henri_Sloan.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Shinn_Henri_Sloan.jpg/500px-Shinn_Henri_Sloan.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/81/Shinn_Henri_Sloan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Shinn_Henri_Sloan.jpg",
+      "caption": "Everett Shinn , Robert Henri and John Sloan ; Painters; members of the group, \" The Eight .\"",
+      "source": "Wikimedia Commons",
+      "artist": "Unidentified photographer",
+      "date": "circa 1896 date QS:P571,+1896-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1453"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Anschutz_Thomas_P_The_Farmer_and_His_Son_at_Harvesting.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/38/Anschutz_Thomas_P_The_Farmer_and_His_Son_at_Harvesting.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/38/Anschutz_Thomas_P_The_Farmer_and_His_Son_at_Harvesting.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Anschutz_Thomas_P_The_Farmer_and_His_Son_at_Harvesting.jpg",
+      "caption": "The Farmer and His Son at Harvesting",
+      "source": "Wikimedia Commons",
+      "artist": "Thomas Pollock Anshutz",
+      "date": "1879 date QS:P571,+1879-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "829",
+      "height": "1161"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Snow_in_New_York.jpg/1280px-Snow_in_New_York.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Snow_in_New_York.jpg/500px-Snow_in_New_York.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/49/Snow_in_New_York.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Snow_in_New_York.jpg",
+      "caption": "Snow in New York",
+      "source": "Wikimedia Commons",
+      "artist": "Robert Henri",
+      "date": "1902 date QS:P571,+1902-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1596"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/George_Luks._Street_Scene_%28Hester_Street%29%2C40.339.jpg/1280px-George_Luks._Street_Scene_%28Hester_Street%29%2C40.339.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/George_Luks._Street_Scene_%28Hester_Street%29%2C40.339.jpg/500px-George_Luks._Street_Scene_%28Hester_Street%29%2C40.339.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/aa/George_Luks._Street_Scene_%28Hester_Street%29%2C40.339.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:George_Luks._Street_Scene_(Hester_Street),40.339.jpg",
+      "caption": "George Benjamin Luks (American, 1867-1933). Street Scene (Hester Street), 1905. Oil on canvas, 25 13/16 x 35 7/8 in. (65.5 x 91.1 cm). Brooklyn Museum, Dick S. Ramsay Fund, 40.339",
+      "source": "Wikimedia Commons",
+      "artist": "George Benjamin Luks (American, 1867-1933).",
+      "date": "1905 date QS:P571,+1905-00-00T00:00:00Z/9",
+      "license": "No restrictions",
+      "width": "1280",
+      "height": "920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/William_Glackens_-_Italo-American_Celebration%2C_Washington_Square.JPG/1280px-William_Glackens_-_Italo-American_Celebration%2C_Washington_Square.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/William_Glackens_-_Italo-American_Celebration%2C_Washington_Square.JPG/500px-William_Glackens_-_Italo-American_Celebration%2C_Washington_Square.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/84/William_Glackens_-_Italo-American_Celebration%2C_Washington_Square.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:William_Glackens_-_Italo-American_Celebration,_Washington_Square.JPG",
+      "caption": "Italo-American Celebration, Washington Square",
+      "source": "Wikimedia Commons",
+      "artist": "William James Glackens",
+      "date": "circa 1912 date QS:P571,+1912-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1030"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/McSorley%27s_Bar_1912_John_Sloan.jpg/1280px-McSorley%27s_Bar_1912_John_Sloan.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/McSorley%27s_Bar_1912_John_Sloan.jpg/500px-McSorley%27s_Bar_1912_John_Sloan.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a1/McSorley%27s_Bar_1912_John_Sloan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:McSorley%27s_Bar_1912_John_Sloan.jpg",
+      "caption": "McSorley's Bar",
+      "source": "Wikimedia Commons",
+      "artist": "John Sloan",
+      "date": "1912 date QS:P571,+1912-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1036"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/George_Luks_-_Houston_Street.jpg/1280px-George_Luks_-_Houston_Street.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/George_Luks_-_Houston_Street.jpg/500px-George_Luks_-_Houston_Street.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/George_Luks_-_Houston_Street.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:George_Luks_-_Houston_Street.jpg",
+      "caption": "Houston Street",
+      "source": "Wikimedia Commons",
+      "artist": "George Luks",
+      "date": "1917 date QS:P571,+1917-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "729"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Bellows_CliffDwellers.jpg/1280px-Bellows_CliffDwellers.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Bellows_CliffDwellers.jpg/500px-Bellows_CliffDwellers.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Bellows_CliffDwellers.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bellows_CliffDwellers.jpg",
+      "caption": "Cliff Dwellers",
+      "source": "Wikimedia Commons",
+      "artist": "George Bellows",
+      "date": "May 1913 date QS:P571,+1913-05-00T00:00:00Z/10",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1216"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Both_Members_of_This_Club_George_Bellows.jpeg/1280px-Both_Members_of_This_Club_George_Bellows.jpeg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Both_Members_of_This_Club_George_Bellows.jpeg/500px-Both_Members_of_This_Club_George_Bellows.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Both_Members_of_This_Club_George_Bellows.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Both_Members_of_This_Club_George_Bellows.jpeg",
+      "caption": "Both Members of This Club",
+      "source": "Wikimedia Commons",
+      "artist": "George Bellows",
+      "date": "October 1909 date QS:P571,+1909-10-00T00:00:00Z/10",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "913"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Ashcan School",
@@ -64,7 +217,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q724976",
+      "url": "https://www.wikidata.org/wiki/Q724976",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:02.687Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Ashcan School",
+      "url": "https://en.wikipedia.org/wiki/Ashcan_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:02.687Z"
+      }
+    }
+  ],
   "wikidata": "Q724976",
   "wikipedia": "Ashcan School",
   "popularity": 35,
@@ -72,5 +248,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.747Z"
 }

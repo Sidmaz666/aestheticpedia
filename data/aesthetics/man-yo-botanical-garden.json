@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Japan",
+  "geography": "Japan",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "A Man'yō botanical garden is a Japanese form of botanical garden that attempts to contain every species and variety of plant mentioned in the Nara period Man'yōshū poetry anthology.",
   "description": "A Man'yō botanical garden is a Japanese form of botanical garden that attempts to contain every species and variety of plant mentioned in the Nara period Man'yōshū poetry anthology. It is somewhat similar to a Shakespeare garden in the English-speaking world.\n\nSpecific Man'yō gardens include:\n\nAkatsuka Botanical Garden\n\nFutagami Manyo Botanical Gardens\n\nMichinoku Mano-Manyo Botanical Garden\n\nManyo Botanical Garden, Nara",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#464825",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#2a2918",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#a9a9a3",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#e4f6f7",
+      "name": "paper white"
+    },
+    {
+      "hex": "#68664a",
+      "name": "umber"
+    },
+    {
+      "hex": "#85857a",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "garden type"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/240224_Rozan-ji_Kyoto_Japan04s3.jpg/1280px-240224_Rozan-ji_Kyoto_Japan04s3.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/240224_Rozan-ji_Kyoto_Japan04s3.jpg/500px-240224_Rozan-ji_Kyoto_Japan04s3.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/74/240224_Rozan-ji_Kyoto_Japan04s3.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:240224_Rozan-ji_Kyoto_Japan04s3.jpg",
+      "caption": "Rozan-ji in Kyoto , Kyoto Prefecture , Japan .",
+      "source": "Wikimedia Commons",
+      "artist": "663highland",
+      "date": "2024-02-24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Man'yō botanical garden",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6753404",
+      "url": "https://www.wikidata.org/wiki/Q6753404",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:25.872Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Man'yō botanical garden",
+      "url": "https://en.wikipedia.org/wiki/Man'y%C5%8D_botanical_garden",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:25.872Z"
+      }
+    }
+  ],
   "wikidata": "Q6753404",
   "wikipedia": "Man'yō botanical garden",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.647Z"
 }

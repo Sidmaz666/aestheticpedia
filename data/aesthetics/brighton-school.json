@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United Kingdom",
+  "geography": "United Kingdom",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -41,7 +41,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/360e3e61-bb1c-1eb5-a9f5-e620f305b75b/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/360e3e61-bb1c-1eb5-a9f5-e620f305b75b/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/360e3e61-bb1c-1eb5-a9f5-e620f305b75b/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/61741",
+      "caption": "Portrait of an Artist, c. 1735",
+      "source": "Art Institute of Chicago",
+      "artist": "Artist unknown (French, active 18th century)",
+      "date": "c. 1735",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1054"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Brighton School (filmmaking)",
@@ -64,7 +79,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2251066",
+      "url": "https://www.wikidata.org/wiki/Q2251066",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:09.283Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Brighton School (filmmaking)",
+      "url": "https://en.wikipedia.org/wiki/Brighton_School_(filmmaking)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:09.283Z"
+      }
+    }
+  ],
   "wikidata": "Q2251066",
   "wikipedia": "Brighton School (filmmaking)",
   "popularity": 35,
@@ -72,5 +110,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.938Z"
 }

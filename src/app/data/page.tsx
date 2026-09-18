@@ -6,7 +6,9 @@ import { Download } from 'lucide-react'
 import { CopyBlock } from '@/components/site/copy-block'
 import { EXPORT_FORMATS } from '@/lib/export-formats'
 import { CONTRIBUTING_URL, SITE_NAME, SITE_URL } from '@/lib/site'
-import { getCompleteness, getStats } from '@/lib/queries'
+import { getCompleteness, getInsights, getStats } from '@/lib/queries'
+import { BarList, CategoryTreemap, CenturyHistogram, Donut } from '@/components/views/charts'
+import { ESTABLISHMENT_LABELS } from '@/lib/aesthetic'
 import type { DataManifest, ValidationReport } from '@/lib/aesthetic'
 
 export const revalidate = 3600
@@ -38,11 +40,12 @@ const FILE_INFO: Record<string, string> = {
 const fmtBytes = (n: number) => (n > 1e6 ? `${(n / 1e6).toFixed(1)} MB` : `${Math.max(1, Math.round(n / 1e3))} KB`)
 
 export default async function DataPage() {
-  const [stats, completeness, manifest, validation] = await Promise.all([
+  const [stats, completeness, manifest, validation, insights] = await Promise.all([
     getStats(),
     getCompleteness(),
     readJson<DataManifest>('manifest.json'),
     readJson<ValidationReport>('validation.json'),
+    getInsights(),
   ])
   const n = (v: number) => v.toLocaleString('en')
 
@@ -59,6 +62,7 @@ export default async function DataPage() {
 
       <nav aria-label="On this page" className="no-scrollbar mt-8 flex gap-2 overflow-x-auto">
         {[
+          ['#glance', 'At a glance'],
           ['#downloads', 'Downloads'],
           ['#api', 'REST API'],
           ['#mcp', 'MCP server'],
@@ -71,6 +75,34 @@ export default async function DataPage() {
           </a>
         ))}
       </nav>
+
+      {/* At a glance */}
+      <section id="glance" className="scroll-mt-24 pt-16">
+        <h2 className="display text-5xl">The library at a glance</h2>
+        <p className="mt-2 text-sm text-fg-subtle">{n(stats.total)} records across {stats.byCategory.length} categories. Select a block to browse it.</p>
+        <div data-reveal className="mt-8 overflow-hidden rounded-2xl border border-line bg-surface p-3">
+          <CategoryTreemap rows={stats.byCategory} />
+        </div>
+        <div className="mt-10">
+          <p className="eyebrow mb-3">When they emerged — records per century</p>
+          <CenturyHistogram rows={insights.centuries} />
+        </div>
+        <div className="mt-10 grid gap-10 lg:grid-cols-3">
+          <div>
+            <p className="eyebrow mb-4">Most frequent places of origin</p>
+            <BarList rows={insights.origins.slice(0, 12)} href={(name) => `/aesthetics?q=${encodeURIComponent(name)}`} />
+          </div>
+          <div>
+            <p className="eyebrow mb-4">What kind of thing it is</p>
+            <Donut label="Records by type" rows={stats.byEstablishment.map((e) => ({ name: ESTABLISHMENT_LABELS[e.name] ?? e.name, count: e.count }))} />
+          </div>
+          <div>
+            <p className="eyebrow mb-4">Image licences ({n(stats.images)} images)</p>
+            <Donut label="Images by licence" rows={insights.licenses} />
+            <p className="mt-4 text-xs text-fg-subtle">Providers: {insights.sources.map((s) => `${s.name} (${n(s.count)})`).join(' · ')}</p>
+          </div>
+        </div>
+      </section>
 
       {/* Downloads */}
       <section id="downloads" className="scroll-mt-24 pt-16">

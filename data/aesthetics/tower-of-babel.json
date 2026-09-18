@@ -17,7 +17,33 @@
   "summary": "Tower of Babel is a woodcut print by the Dutch artist M.",
   "description": "Tower of Babel is a woodcut print by the Dutch artist M. C. Escher, who created it in 1928, illustrating his early artistic interest in depicting new perspectives and unusual viewpoints in his works.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#77716f",
+      "name": "slate"
+    },
+    {
+      "hex": "#8e8885",
+      "name": "taupe"
+    },
+    {
+      "hex": "#4f4949",
+      "name": "graphite"
+    },
+    {
+      "hex": "#bab6b1",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#a6a09c",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#f7f1e6",
+      "name": "linen"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,48 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4f/Babel-escher.jpg/1280px-Babel-escher.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4f/Babel-escher.jpg/500px-Babel-escher.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/en/4/4f/Babel-escher.jpg",
+      "pageUrl": "https://en.wikipedia.org/wiki/File:Babel-escher.jpg",
+      "caption": "Tower of Babel by M. C. Escher . Woodcut , 1928, Stockholm, Nationalmuseum.",
+      "source": "Wikimedia Commons",
+      "artist": "M. C. Escher",
+      "license": "PD-US",
+      "width": "1280",
+      "height": "1998"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/12086520-2e48-cc75-df86-916bb801e61f/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/12086520-2e48-cc75-df86-916bb801e61f/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/12086520-2e48-cc75-df86-916bb801e61f/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/60755",
+      "caption": "Landscape with the Ruins of the Castle of Egmond, 1650–55",
+      "source": "Art Institute of Chicago",
+      "artist": "Jacob van Ruisdael (Dutch, 1628/29-1682)",
+      "date": "1650–55",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "646"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/6f61a6fc-dcd8-e801-0ad8-5f7e561d91b6/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/6f61a6fc-dcd8-e801-0ad8-5f7e561d91b6/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/6f61a6fc-dcd8-e801-0ad8-5f7e561d91b6/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/103139",
+      "caption": "Waterloo Bridge, Gray Weather, 1900",
+      "source": "Art Institute of Chicago",
+      "artist": "Claude Monet (French, 1840–1926)",
+      "date": "1900",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "597"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Tower of Babel (M. C. Escher)",
@@ -62,7 +129,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2899725",
+      "url": "https://www.wikidata.org/wiki/Q2899725",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:13.284Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Tower of Babel (M. C. Escher)",
+      "url": "https://en.wikipedia.org/wiki/Tower_of_Babel_(M._C._Escher)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:13.284Z"
+      }
+    }
+  ],
   "wikidata": "Q2899725",
   "wikipedia": "Tower of Babel (M. C. Escher)",
   "popularity": 35,
@@ -70,5 +160,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:09:13.284Z"
 }

@@ -64,7 +64,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3328533",
+      "url": "https://www.wikidata.org/wiki/Q3328533",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:12.649Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Musicalism",
+      "url": "https://en.wikipedia.org/wiki/Musicalism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:12.649Z"
+      }
+    }
+  ],
   "wikidata": "Q3328533",
   "wikipedia": "Musicalism",
   "popularity": 35,
@@ -72,5 +95,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:56:12.649Z"
 }

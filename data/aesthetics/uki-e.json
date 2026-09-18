@@ -17,7 +17,33 @@
   "summary": "Uki-e (浮絵; \"floating picture\", implying \"perspective picture\") refers to a genre of ukiyo-e pictures that employs western conventions of linear perspective.",
   "description": "Uki-e (浮絵; \"floating picture\", implying \"perspective picture\") refers to a genre of ukiyo-e pictures that employs western conventions of linear perspective. Although they never constituted more than a minor genre, pictures in perspective were drawn and printed by Japanese artists from their introduction in the late 1730s through to the mid-nineteenth century.\n\nAround 1739, Okumura Masanobu studied European engravings to learn the rules of perspective. His engravings found their way to Japan either through Dejima or China. Masanobu was the first to apply the term Uki-e to perspective images. However, while early commentators credited him as the first to introduce the style into ukiyo-e prints and paintings altogether, the earliest known printed example is now attributed to Torii Kiyotada, around 1739–40, with Masanobu following shortly after and becoming particularly skilled at depicting interiors. Utagawa Toyoharu fully developed the form in the late 1750s when he produced colored woodblock copies of engravings after Canaletto and Guardi. Toyoharu was also the first to adapt these techniques to Japanese subjects.\n\nThe interior of Kabuki theaters was a common subject in Uki-e prints. Interior scenes tend to be favored as it is easier to accurately apply one point perspective to architecture than to landscape.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a98f79",
+      "name": "stone"
+    },
+    {
+      "hex": "#91735f",
+      "name": "bronze"
+    },
+    {
+      "hex": "#6f6159",
+      "name": "umber"
+    },
+    {
+      "hex": "#bca888",
+      "name": "khaki"
+    },
+    {
+      "hex": "#b47b52",
+      "name": "copper"
+    },
+    {
+      "hex": "#e9d4ba",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,47 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Okumura_Masanobu_-_Taking_the_Evening_Cool_by_Ry%C5%8Dgoku_Bridge.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Okumura_Masanobu_-_Taking_the_Evening_Cool_by_Ry%C5%8Dgoku_Bridge.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Okumura_Masanobu_-_Taking_the_Evening_Cool_by_Ry%C5%8Dgoku_Bridge.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Okumura_Masanobu_-_Taking_the_Evening_Cool_by_Ry%C5%8Dgoku_Bridge.png",
+      "caption": "Okumura Masanobu - Taking the Evening Cool by Ryōgoku Bridge",
+      "source": "Wikimedia Commons",
+      "artist": "Okumura Masanobu",
+      "date": "1745",
+      "license": "Public domain",
+      "width": "1016",
+      "height": "664"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Kuninao_Act_Four_Shidamme.jpg/1280px-Kuninao_Act_Four_Shidamme.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Kuninao_Act_Four_Shidamme.jpg/500px-Kuninao_Act_Four_Shidamme.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Kuninao_Act_Four_Shidamme.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kuninao_Act_Four_Shidamme.jpg",
+      "caption": "In this scene from the Chūshingura , Asano Naganori has received his death sentence from a messenger of the shogun (center). His retainers bow their heads in sorrow as he prepares to commit seppuku, the tools for which are being brought by the figure to the left of center.",
+      "source": "Wikimedia Commons",
+      "artist": "Utagawa Kuninao",
+      "date": "circa 1820 date QS:P571,+1820-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "877"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toshusai_Sharaku-_Otani_Oniji,_1794.jpg",
+      "caption": "Oniji Ōtani III (aka. Nakazō Nakamura II) as Edobee in the May 1794 production of Koi Nyōbo Somewake Tazuna at Edo Kawarasaki-za theater. Polychrome woodcut print on paper; 15 x 9 7/8 in. (38.1 x 22.9 cm) Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939 (JP2822)",
+      "source": "Wikimedia Commons",
+      "artist": "Sharaku",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "802",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Uki-e",
@@ -62,7 +128,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3547879",
+      "url": "https://www.wikidata.org/wiki/Q3547879",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:05.354Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Uki-e",
+      "url": "https://en.wikipedia.org/wiki/Uki-e",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:05.354Z"
+      }
+    }
+  ],
   "wikidata": "Q3547879",
   "wikipedia": "Uki-e",
   "popularity": 35,
@@ -70,5 +159,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:10:05.354Z"
 }

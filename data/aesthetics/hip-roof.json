@@ -19,7 +19,33 @@
   "summary": "A hip roof, hip-roof or hipped roof, is a type of roof where all sides slope downward to the walls — thus, a hipped roof has no gables or other vertical sides to the roof.",
   "description": "A hip roof, hip-roof or hipped roof, is a type of roof where all sides slope downward to the walls — thus, a hipped roof has no gables or other vertical sides to the roof. Variants of hipped roofs include the Simple Hip Roof (most common, four slopes meeting at a central ridge), Pyramid Hip Roof (a square base where all four triangular sides meet at a single peak), Cross Hip Roof (with multiple intersecting ridges for L- or T-shaped buildings), and Half Hip Roof (where gable ends are partially \"clipped\" with a small hip section). Other variations include the Dutch Gable Roof (a gable section on top of a hip roof), the Mansard Roof (a hip roof with two different pitches on each side), and the Hip-and-Valley Roof (often a blend for complex structures).\n\nA square hip roof is shaped like a pyramid. Hip roofs on houses may have two triangular sides and two trapezoidal ones. A hip roof on a rectangular plan has four faces. They are almost always at the same pitch or slope, which makes them symmetrical about the centerlines. Hip roofs often have a consistent level fascia, meaning that a gutter can be fitted all around. Hip roofs often have dormer slanted sides.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#868b8d",
+      "name": "taupe"
+    },
+    {
+      "hex": "#756b5e",
+      "name": "bronze"
+    },
+    {
+      "hex": "#c0e2fa",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#49453e",
+      "name": "graphite"
+    },
+    {
+      "hex": "#1b1613",
+      "name": "black"
+    },
+    {
+      "hex": "#c28e73",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,48 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Chicago_bungalow.jpg/1280px-Chicago_bungalow.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Chicago_bungalow.jpg/500px-Chicago_bungalow.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Chicago_bungalow.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chicago_bungalow.jpg",
+      "caption": "\"Chicago bungalow\" with detached garage, in southwest suburban Chicago",
+      "source": "Wikimedia Commons",
+      "artist": "blahedo",
+      "date": "2004-03-19",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1280",
+      "height": "690"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Houses_at_Khammam_city_03.JPG/1280px-Houses_at_Khammam_city_03.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Houses_at_Khammam_city_03.JPG/500px-Houses_at_Khammam_city_03.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Houses_at_Khammam_city_03.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Houses_at_Khammam_city_03.JPG",
+      "caption": "Houses at Khammam city, Andhra Pradesh",
+      "source": "Wikimedia Commons",
+      "artist": "Adityamadhav83",
+      "date": "2013-03-17 09:12:59",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Hip-roof.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/88/Hip-roof.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Hip-roof.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hip-roof.jpg",
+      "caption": "Hip-roof",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1204",
+      "height": "904"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Hip roof",
@@ -64,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q162034",
+      "url": "https://www.wikidata.org/wiki/Q162034",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:10.336Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Hip roof",
+      "url": "https://en.wikipedia.org/wiki/Hip_roof",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:10.336Z"
+      }
+    }
+  ],
   "wikidata": "Q162034",
   "wikipedia": "Hip roof",
   "popularity": 35,
@@ -72,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:49:10.336Z"
 }

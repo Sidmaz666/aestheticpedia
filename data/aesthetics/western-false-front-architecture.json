@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,25 @@
   "summary": "Western false front architecture or false front commercial architecture is a type of commercial architecture used in the Old West of the United States.",
   "description": "Western false front architecture or false front commercial architecture is a type of commercial architecture used in the Old West of the United States.  Often used on two-story buildings, the style includes a false front facade often hiding a gable roof.\n\nThe goal for buildings in this style is to project an image of stability and success. By emulating the rectangular profile of buildings in eastern North American cities, the style attempted to lend a more settled, urban feel to small frontier towns.\n\nWestern false front architecture contains the following features:\n\nthe front façade of the building has a parapet that largely conceals the roof;\n\nthe building either has a front gable, gambrel or a bowed roof; and\n\nhigher grade materials and greater ornamentation that is featured on the façade compared to other sides of the building.\n\nHundreds of false front buildings were constructed in the Bend, Oregon area between 1900 and 1910, including the N. P. Smith Pioneer Hardware Store.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#8c8c8c",
+      "name": "stone"
+    },
+    {
+      "hex": "#a4a4a4",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#6a6a6a",
+      "name": "umber"
+    },
+    {
+      "hex": "#4b4b4b",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +57,21 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Greenhorn_7.JPG/1280px-Greenhorn_7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Greenhorn_7.JPG/500px-Greenhorn_7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Greenhorn_7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Greenhorn_7.JPG",
+      "caption": "Photograph taken in the summer of 1913 of the city of Greenhorn, Oregon",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1913",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "811"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Western false front architecture",
@@ -62,7 +94,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q28407017",
+      "url": "https://www.wikidata.org/wiki/Q28407017",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:21.639Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Western false front architecture",
+      "url": "https://en.wikipedia.org/wiki/Western_false_front_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:21.639Z"
+      }
+    }
+  ],
   "wikidata": "Q28407017",
   "wikipedia": "Western false front architecture",
   "popularity": 35,
@@ -70,5 +125,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:06.058Z"
 }

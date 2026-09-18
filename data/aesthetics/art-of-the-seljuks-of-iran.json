@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Seljuk Empire",
+  "geography": "Seljuk Empire",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The art of the Seljuks of Iran refers to the art produced throughout the eastern part of the Islamic world, between the capture of Baghdad (1055) and the Mongol invasions (end of the 13th century).",
   "description": "The art of the Seljuks of Iran refers to the art produced throughout the eastern part of the Islamic world, between the capture of Baghdad (1055) and the Mongol invasions (end of the 13th century).\n\nNomads of Turkish origin (that is to say from present-day Mongolia), the Seljuks swept over the Islamic world towards the end of the 10th century from eastern Iran (Transoxiana and Khwarezm). They gradually established power by playing on the enmities between the different micro-dynasties of the region and seized Baghdad in 1048, effectively ending Abbasid rule, although they retained a caliph-puppet on the throne of Baghdad. The Seljuks, like their predecessors, saw their power decrease over time, and many small dynasties were born in the most remote areas. The end of the Seljuk period in Iran is estimated at 1194, although the production of homonymous objects dates from the end of the 12th and the beginning of the 13th century, and was therefore made for independent, smaller rulers.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#8a8d6d",
+      "name": "moss"
+    },
+    {
+      "hex": "#1a1c0f",
+      "name": "black"
+    },
+    {
+      "hex": "#777049",
+      "name": "bronze"
+    },
+    {
+      "hex": "#414725",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#b58c5d",
+      "name": "camel"
+    },
+    {
+      "hex": "#aba683",
+      "name": "sage"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,115 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Kharaghan.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Kharaghan.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Kharaghan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kharaghan.jpg",
+      "caption": "Kharaghan twin towers, Qazvin province, 1067 AD, Iran. Here are the tombs of two Seljukian princes. A devastating earthquake in 2002 severely damaged both towers. Photo by user Zereshk.",
+      "source": "Wikimedia Commons",
+      "artist": "Zereshk at English Wikipedia",
+      "date": "3 February 2005 (original upload date)",
+      "license": "Public domain",
+      "width": "770",
+      "height": "606"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Cup_donkey_Louvre_OA7475.jpg/1280px-Cup_donkey_Louvre_OA7475.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Cup_donkey_Louvre_OA7475.jpg/500px-Cup_donkey_Louvre_OA7475.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cup_donkey_Louvre_OA7475.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cup_donkey_Louvre_OA7475.jpg",
+      "caption": "Cup with donkey. Earthenware, engraved and painted decoration on slip, underglaze painted. Iran, Mazanderan province, 12th-13th century.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown artist Unknown artist",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1111"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Aiguiere_iran.JPG/1280px-Aiguiere_iran.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Aiguiere_iran.JPG/500px-Aiguiere_iran.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Aiguiere_iran.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Aiguiere_iran.JPG",
+      "caption": "Ewer with animal-shaped spout. Found in Iran, Zendjan region, Garrus district.",
+      "source": "Wikimedia Commons",
+      "date": "between 1100 and 1300 date QS:P,+1500-00-00T00:00:00Z/6,P131",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Early_13th_century_Jug_from_Iran.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Early_13th_century_Jug_from_Iran.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Early_13th_century_Jug_from_Iran.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Early_13th_century_Jug_from_Iran.jpg",
+      "caption": "Iranian jug; AD 1215-16 ; underglaze painted, incised, and pierced fritware ; Now in the Metropolitan Museum of Art",
+      "source": "Wikimedia Commons",
+      "artist": "https://www.metmuseum.org",
+      "date": "2008-03-12",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "668",
+      "height": "883"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/9c7b0976-8396-5a6c-5437-40b83a38f1e7/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/9c7b0976-8396-5a6c-5437-40b83a38f1e7/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/9c7b0976-8396-5a6c-5437-40b83a38f1e7/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/106372",
+      "caption": "Turban Helmet, c. 1475–1500",
+      "source": "Art Institute of Chicago",
+      "artist": "Eastern Turkey or Western Iran",
+      "date": "c. 1475–1500",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1325"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/441ff42f-7329-1179-3735-e68db890c899/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/441ff42f-7329-1179-3735-e68db890c899/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/441ff42f-7329-1179-3735-e68db890c899/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/76869",
+      "caption": "Royal Horse Inspection, Safavid dynasty (1501–1722), late 17th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Iran, probably Isfahan",
+      "date": "Safavid dynasty (1501–1722), late 17th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1261"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/75557",
+      "caption": "Manuscript of Kulliyat (Complete Works) by Sa'di with Lacquered Cover, Safavid Dynasty (1501-1736), 17th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Iran",
+      "date": "Safavid Dynasty (1501-1736), 17th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1301"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/d445a00c-33f4-f652-f775-25cf9eed8957/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/d445a00c-33f4-f652-f775-25cf9eed8957/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/d445a00c-33f4-f652-f775-25cf9eed8957/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/93923",
+      "caption": "Kay Khosrow Crosses the Sea of Zareh on His Way to China, a scene from the Shahnama of Firdausi, Safavid dynasty (1501–1722), about 1550",
+      "source": "Art Institute of Chicago",
+      "artist": "Iran",
+      "date": "Safavid dynasty (1501–1722), about 1550",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1225"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Art of the Seljuks of Iran",
@@ -62,7 +196,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2864625",
+      "url": "https://www.wikidata.org/wiki/Q2864625",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:57.639Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Art of the Seljuks of Iran",
+      "url": "https://en.wikipedia.org/wiki/Art_of_the_Seljuks_of_Iran",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:57.639Z"
+      }
+    }
+  ],
   "wikidata": "Q2864625",
   "wikipedia": "Art of the Seljuks of Iran",
   "popularity": 35,
@@ -70,5 +227,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.752Z"
 }

@@ -17,7 +17,33 @@
   "summary": "The ancient city of Byzantium occupies an important place in the history of garden design between eras and cultures (c.",
   "description": "The ancient city of Byzantium occupies an important place in the history of garden design between eras and cultures (c. 4th century – 10th century CE). The city was renamed Constantinople (present day Istanbul) in 330 AD and became the capital of the Byzantine Empire and survived for a thousand years after the fall of the Western Roman Empire. The gardens of Byzantium were, however, mostly destroyed after the 15th-century Turkish conquest of the city.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#eae4e2",
+      "name": "paper white"
+    },
+    {
+      "hex": "#3f472a",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#202117",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#979375",
+      "name": "stone"
+    },
+    {
+      "hex": "#858542",
+      "name": "olive green"
+    },
+    {
+      "hex": "#5b684b",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "garden type"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Enghien_050918_%2821%29.jpg/1280px-Enghien_050918_%2821%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Enghien_050918_%2821%29.jpg/500px-Enghien_050918_%2821%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Enghien_050918_%2821%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Enghien_050918_(21).jpg",
+      "caption": "Fine bronze statue copy a Greek antiquity known under the name \"Il porcellino\" (XVIIth century sculptor: Pietro Tacca , 1577-1640) adorning the castle park in Enghien (Belgium).",
+      "source": "Wikimedia Commons",
+      "artist": "Jean-Pol GRANDMONT",
+      "date": "2005-09-10 12:50",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/France_Loiret_La_Bussiere_Potager_05.jpg/1280px-France_Loiret_La_Bussiere_Potager_05.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/France_Loiret_La_Bussiere_Potager_05.jpg/500px-France_Loiret_La_Bussiere_Potager_05.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f0/France_Loiret_La_Bussiere_Potager_05.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:France_Loiret_La_Bussiere_Potager_05.jpg",
+      "caption": "France Loiret La Bussière Le potager Photographie prise par GIRAUD Patrick",
+      "source": "Wikimedia Commons",
+      "artist": "No machine-readable author provided. Calips assumed (based on copyright claims).",
+      "date": "26 February 2006 (original upload date)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "865"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Byzantine gardens",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2260523",
+      "url": "https://www.wikidata.org/wiki/Q2260523",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:20.447Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Byzantine gardens",
+      "url": "https://en.wikipedia.org/wiki/Byzantine_gardens",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:20.447Z"
+      }
+    }
+  ],
   "wikidata": "Q2260523",
   "wikipedia": "Byzantine gardens",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:39:20.447Z"
 }

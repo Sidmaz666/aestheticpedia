@@ -19,7 +19,33 @@
   "summary": "The Macchiaioli (Italian pronunciation: [makkjaˈjɔːli]) were a group of  Italian painters active in Tuscany in the second half of the nineteenth century.",
   "description": "The Macchiaioli (Italian pronunciation: [makkjaˈjɔːli]) were a group of  Italian painters active in Tuscany in the second half of the nineteenth century.  They strayed from antiquated conventions taught by the Italian art academies, and did much of their painting outdoors in order to capture natural light, shade, and colour. This practice relates the Macchiaioli to the French Impressionists who came to prominence a few years later, although the Macchiaioli pursued somewhat different purposes. The most notable artists of this movement were Giuseppe Abbati, Cristiano Banti, Odoardo Borrani, Vincenzo Cabianca, Adriano Cecioni, Vito D'Ancona, Serafino De Tivoli, Giovanni Fattori, Raffaello Sernesi, Silvestro Lega, and Telemaco Signorini.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0f0809",
+      "name": "black"
+    },
+    {
+      "hex": "#bca68b",
+      "name": "khaki"
+    },
+    {
+      "hex": "#2c1d1b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#43332b",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#846c55",
+      "name": "bronze"
+    },
+    {
+      "hex": "#a28462",
+      "name": "moss"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,137 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Haystacks_painting.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/11/Haystacks_painting.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/11/Haystacks_painting.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Haystacks_painting.jpg",
+      "caption": "Haystacks , by Giovanni Fattori",
+      "source": "Wikimedia Commons",
+      "artist": "Giovanni Fattori",
+      "license": "Public domain",
+      "width": "525",
+      "height": "710"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Vito_d%27Ancona_-_Signora_in_bianco.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Vito_d%27Ancona_-_Signora_in_bianco.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Vito_d%27Ancona_-_Signora_in_bianco.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vito_d%27Ancona_-_Signora_in_bianco.jpg",
+      "caption": "Lady in white (1850), by Vito d'Ancona",
+      "source": "Wikimedia Commons",
+      "artist": "Vito D'Ancona",
+      "date": "1850 date QS:P571,+1850-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "565",
+      "height": "833"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Giovanni_Fattori_027.jpg/1280px-Giovanni_Fattori_027.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Giovanni_Fattori_027.jpg/500px-Giovanni_Fattori_027.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Giovanni_Fattori_027.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Giovanni_Fattori_027.jpg",
+      "caption": "Italian: La rotonda di Palmieri a Livorno The Palmieri baths roundabout",
+      "source": "Wikimedia Commons",
+      "artist": "Giovanni Fattori",
+      "date": "1866 date QS:P571,+1866-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "427"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Giovanni_Fattori_019.jpg/1280px-Giovanni_Fattori_019.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Giovanni_Fattori_019.jpg/500px-Giovanni_Fattori_019.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Giovanni_Fattori_019.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Giovanni_Fattori_019.jpg",
+      "caption": "German: Prinz Amedeo , bei Custoza verwundet",
+      "source": "Wikimedia Commons",
+      "artist": "Giovanni Fattori",
+      "date": "between 1868 and 1870 date QS:P571,+1850-00-00T00:00:00Z/7,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "468"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Silvestro_Lega_-_il_bindolo_-1863.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Silvestro_Lega_-_il_bindolo_-1863.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Silvestro_Lega_-_il_bindolo_-1863.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Silvestro_Lega_-_il_bindolo_-1863.jpg",
+      "caption": "The water wheel (1863), by Silvestro Lega",
+      "source": "Wikimedia Commons",
+      "artist": "Silvestro Lega",
+      "date": "1863 date QS:P571,+1863-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "650",
+      "height": "350"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Lega_Ragazza_di_Crespina.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Lega_Ragazza_di_Crespina.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Lega_Ragazza_di_Crespina.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lega_Ragazza_di_Crespina.jpg",
+      "caption": "Young woman from Crespina (1890-92), by Silvestro Lega",
+      "source": "Wikimedia Commons",
+      "artist": "Silvestro Lega",
+      "date": "between 1890 and 1892 date QS:P571,+1890-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "554",
+      "height": "745"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Telemaco_Signorini%2C_Via_Torta%2C_Firenze%2C_1870_circa_16%2C6x11%2C3cm.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Telemaco_Signorini%2C_Via_Torta%2C_Firenze%2C_1870_circa_16%2C6x11%2C3cm.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Telemaco_Signorini%2C_Via_Torta%2C_Firenze%2C_1870_circa_16%2C6x11%2C3cm.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Telemaco_Signorini,_Via_Torta,_Firenze,_1870_circa_16,6x11,3cm.jpg",
+      "caption": "Via Torta, Florence (c.1870), by Telemaco Signorini",
+      "source": "Wikimedia Commons",
+      "artist": "Telemaco Signorini",
+      "date": "circa 1870 date QS:P571,+1870-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "922",
+      "height": "1349"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Telemaco_Signorini%2C_Il_ghetto_di_Firenze%2C_1882%2C_95x65_cm.jpg/1280px-Telemaco_Signorini%2C_Il_ghetto_di_Firenze%2C_1882%2C_95x65_cm.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Telemaco_Signorini%2C_Il_ghetto_di_Firenze%2C_1882%2C_95x65_cm.jpg/500px-Telemaco_Signorini%2C_Il_ghetto_di_Firenze%2C_1882%2C_95x65_cm.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/84/Telemaco_Signorini%2C_Il_ghetto_di_Firenze%2C_1882%2C_95x65_cm.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Telemaco_Signorini,_Il_ghetto_di_Firenze,_1882,_95x65_cm.jpg",
+      "caption": "The ghetto of Florence (1882), by Telemaco Signorini",
+      "source": "Wikimedia Commons",
+      "artist": "Telemaco Signorini",
+      "date": "1882 date QS:P571,+1882-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1882"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Borrani1.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/06/Borrani1.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/06/Borrani1.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Borrani1.png",
+      "caption": "Le cucitrici di camicie rosse",
+      "source": "Wikimedia Commons",
+      "artist": "Odoardo Borrani",
+      "date": "1863 date QS:P571,+1863-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "721",
+      "height": "900"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Serafino_de_Tivoli_-_A_Pasture_-_WGA22726.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/69/Serafino_de_Tivoli_-_A_Pasture_-_WGA22726.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/69/Serafino_de_Tivoli_-_A_Pasture_-_WGA22726.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Serafino_de_Tivoli_-_A_Pasture_-_WGA22726.jpg",
+      "caption": "A Pasture",
+      "source": "Wikimedia Commons",
+      "artist": "Serafino De Tivoli",
+      "date": "circa 1859 date QS:P571,+1859-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "800",
+      "height": "1131"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Macchiaioli",
@@ -64,7 +220,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q574985",
+      "url": "https://www.wikidata.org/wiki/Q574985",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:21.146Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Macchiaioli",
+      "url": "https://en.wikipedia.org/wiki/Macchiaioli",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:21.146Z"
+      }
+    }
+  ],
   "wikidata": "Q574985",
   "wikipedia": "Macchiaioli",
   "popularity": 35,
@@ -72,5 +251,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:53:21.146Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "regional_tradition",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Metropolitan Museum of Art",
+  "geography": "Metropolitan Museum of Art",
   "periodStart": "8th century",
   "periodEnd": "",
   "startYear": 750,
@@ -17,7 +17,33 @@
   "summary": "A caftan or coat of linen with silk borders in the collection of the Metropolitan Museum of Art represents the typical clothing worn by horsemen along the Silk Road in the North Caucasus during the 8th–10th centuries.",
   "description": "A caftan or coat of linen with silk borders in the collection of the Metropolitan Museum of Art represents the typical clothing worn by horsemen along the Silk Road in the North Caucasus during the 8th–10th centuries. The caftan is reconstructed from garment fragments excavated from a burial ground near Moshchevaja Balka (located by the Bolshaya Laba River in Karachay-Cherkessia, on the Pontic–Caspian steppe).  Moshchevaja Balka is considered part of the Saltovo-Mayaki archaeological culture.\n\nThe caftan is associated with a pair of silk leggings with linen feet, also in the Met. Along with fragmentary garments from Moshchevaja Balka in the collection of the Hermitage Museum in Saint Petersburg, the caftan and leggings represent rare survivals of garments from the Caucasus, where the climate—unlike that of more arid regions—is not generally conducive to the preservation of organic materials.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#dbdadb",
+      "name": "bone white"
+    },
+    {
+      "hex": "#c6c0c1",
+      "name": "silver"
+    },
+    {
+      "hex": "#b08250",
+      "name": "raw sienna"
+    },
+    {
+      "hex": "#976a34",
+      "name": "bronze"
+    },
+    {
+      "hex": "#6b5840",
+      "name": "umber"
+    },
+    {
+      "hex": "#7e7b75",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,47 @@
   "tags": [
     "traditional costume"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Caftan_MET_DT1115.jpg/1280px-Caftan_MET_DT1115.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Caftan_MET_DT1115.jpg/500px-Caftan_MET_DT1115.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/64/Caftan_MET_DT1115.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Caftan_MET_DT1115.jpg",
+      "caption": "Textile; Textiles-Costumes",
+      "source": "Wikimedia Commons",
+      "date": "ca. 8th century A.D.",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "2796"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Caftan_MET_ANE19.jpg/1280px-Caftan_MET_ANE19.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Caftan_MET_ANE19.jpg/500px-Caftan_MET_ANE19.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/33/Caftan_MET_ANE19.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Caftan_MET_ANE19.jpg",
+      "caption": "Textile; Textiles-Costumes",
+      "source": "Wikimedia Commons",
+      "date": "ca. 8th century A.D.",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Leggings_MET_DT3994.jpg/1280px-Leggings_MET_DT3994.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Leggings_MET_DT3994.jpg/500px-Leggings_MET_DT3994.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/67/Leggings_MET_DT3994.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Leggings_MET_DT3994.jpg",
+      "caption": "Textile; Textiles-Costumes",
+      "source": "Wikimedia Commons",
+      "date": "ca. 8th century A.D.",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1600"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Caftan (Metropolitan Museum of Art)",
@@ -62,7 +128,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q29384537",
+      "url": "https://www.wikidata.org/wiki/Q29384537",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:22.138Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Caftan (Metropolitan Museum of Art)",
+      "url": "https://en.wikipedia.org/wiki/Caftan_(Metropolitan_Museum_of_Art)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:22.138Z"
+      }
+    }
+  ],
   "wikidata": "Q29384537",
   "wikipedia": "Caftan (Metropolitan Museum of Art)",
   "popularity": 35,
@@ -70,5 +159,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.962Z"
 }

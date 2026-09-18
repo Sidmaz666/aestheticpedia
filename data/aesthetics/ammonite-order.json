@@ -17,7 +17,33 @@
   "summary": "The Ammonite order is an architectural order that features fluted columns and capitals with volutes shaped to resemble fossil ammonites.",
   "description": "The Ammonite order is an architectural order that features fluted columns and capitals with volutes shaped to resemble fossil ammonites.  The style was invented by George Dance and first used on John Boydell's Shakespeare Gallery in Pall Mall, London in 1789 (later the British Institution; demolished in 1868).\n\nAmmonite motifs were also used on buildings in Old Regent Street, London, probably by John Nash from around 1818 (demolished in the 1920s).\n\nArchitect, geologist and fossil collector Amon Wilds used the Ammonite order on the façade of his house in Castle Place in Lewes, probably as a punning reference to his forename.  His architect son, Amon Henry Wilds, also used the order on several early 19th century terraces in Brighton.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c2c5c5",
+      "name": "silver"
+    },
+    {
+      "hex": "#abb0b4",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#d0d7e1",
+      "name": "bone white"
+    },
+    {
+      "hex": "#0b1011",
+      "name": "black"
+    },
+    {
+      "hex": "#828481",
+      "name": "taupe"
+    },
+    {
+      "hex": "#43484a",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Ammonite_capital%2C_Mantell%27s_house%2C_Lewes.jpg/1280px-Ammonite_capital%2C_Mantell%27s_house%2C_Lewes.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Ammonite_capital%2C_Mantell%27s_house%2C_Lewes.jpg/500px-Ammonite_capital%2C_Mantell%27s_house%2C_Lewes.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ammonite_capital%2C_Mantell%27s_house%2C_Lewes.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ammonite_capital,_Mantell%27s_house,_Lewes.jpg",
+      "caption": "Capital in the form of two ammonites, Gideon Mantell's house- 166 High St- Lewes",
+      "source": "Wikimedia Commons",
+      "artist": "Poliphilo",
+      "date": "2019-06-24",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Ammonite order",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4747295",
+      "url": "https://www.wikidata.org/wiki/Q4747295",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:11.965Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Ammonite order",
+      "url": "https://en.wikipedia.org/wiki/Ammonite_order",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:11.965Z"
+      }
+    }
+  ],
   "wikidata": "Q4747295",
   "wikipedia": "Ammonite order",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:35:11.965Z"
 }

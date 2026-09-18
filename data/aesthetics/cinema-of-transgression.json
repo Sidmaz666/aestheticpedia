@@ -65,7 +65,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1092461",
+      "url": "https://www.wikidata.org/wiki/Q1092461",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:16.161Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cinema of Transgression",
+      "url": "https://en.wikipedia.org/wiki/Cinema_of_Transgression",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:16.161Z"
+      }
+    }
+  ],
   "wikidata": "Q1092461",
   "wikipedia": "Cinema of Transgression",
   "popularity": 35,
@@ -73,5 +96,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:41:16.161Z"
 }

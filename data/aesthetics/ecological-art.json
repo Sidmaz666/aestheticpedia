@@ -39,7 +39,21 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/CHINTREUIL_-_Le_Boulot_blanc.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/45/CHINTREUIL_-_Le_Boulot_blanc.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/45/CHINTREUIL_-_Le_Boulot_blanc.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:CHINTREUIL_-_Le_Boulot_blanc.JPG",
+      "caption": "CHINTREUIL - Le Boulot blanc",
+      "source": "Wikimedia Commons",
+      "artist": "Antoine Chintreuil",
+      "date": "4 October 2008 (upload date)",
+      "license": "Public domain",
+      "width": "1078",
+      "height": "1646"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Ecological art",
@@ -62,7 +76,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q21036728",
+      "url": "https://www.wikidata.org/wiki/Q21036728",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:11.578Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Ecological art",
+      "url": "https://en.wikipedia.org/wiki/Ecological_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:11.578Z"
+      }
+    }
+  ],
   "wikidata": "Q21036728",
   "wikipedia": "Ecological art",
   "popularity": 35,
@@ -70,5 +107,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:44:11.578Z"
 }

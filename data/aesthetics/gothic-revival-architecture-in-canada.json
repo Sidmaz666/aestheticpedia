@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Canada",
+  "geography": "Canada",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Gothic Revival architecture in Canada is an historically influential style, with many prominent examples.",
   "description": "Gothic Revival architecture in Canada is an historically influential style, with many prominent examples. The Gothic Revival style was imported to Canada from Britain and the United States in the early 19th century, and it rose to become the most popular style for major projects throughout the late 19th and early 20th centuries.\n\nThe Gothic Revival era lasted longer and was more thoroughly embraced in Canada than in either Britain or the United States, only falling out of style in the 1930s. The period during the late 19th and early 20th centuries was also a time when many major Canadian institutions were founded. Throughout Canada, many of the most prominent religious, civic, and scholastic institutions are housed in Gothic Revival style buildings. During the 1960s and 1970s, several scholars (most notably Alan Gowans) embraced Canadian Gothic Revival architecture as one of the nation's signature styles and as an integral part of Canadian nationalism. While largely abandoned in the modernist period, several postmodern architects have embraced Canada's neo-Gothic past.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#747979",
+      "name": "slate"
+    },
+    {
+      "hex": "#5696dd",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#535c5a",
+      "name": "graphite"
+    },
+    {
+      "hex": "#202914",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#92938f",
+      "name": "stone"
+    },
+    {
+      "hex": "#86a3c5",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,146 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Hart_House%2C_University_of_Toronto_%282005%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/80/Hart_House%2C_University_of_Toronto_%282005%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/80/Hart_House%2C_University_of_Toronto_%282005%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hart_House,_University_of_Toronto_(2005).jpg",
+      "caption": "Taken in April 2005 by SimonP",
+      "source": "Wikimedia Commons",
+      "artist": "No machine-readable author provided. SimonP assumed (based on copyright claims).",
+      "date": "20 April 2005 (according to Exif data)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "654",
+      "height": "565"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Library_of_Parliament_.jpg/1280px-Library_of_Parliament_.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Library_of_Parliament_.jpg/500px-Library_of_Parliament_.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/13/Library_of_Parliament_.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Library_of_Parliament_.jpg",
+      "caption": "Library of Parliament, Ottawa, Canada",
+      "source": "Wikimedia Commons",
+      "artist": "You may select the license of your choice.",
+      "date": "2006-09-10",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Earnscliffe.JPG/1280px-Earnscliffe.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Earnscliffe.JPG/500px-Earnscliffe.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Earnscliffe.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Earnscliffe.JPG",
+      "caption": "Earnscliffe in Ottawa, taken by SimonP . Earnscliffe is a Victorian manor in Ottawa, Ontario. It is currently home of the British High Commissioner to Canada, and it was previously home to Canada's first Prime Minister, Sir John A. Macdonald.",
+      "source": "Wikimedia Commons",
+      "artist": "The original uploader was SimonP at English Wikipedia .",
+      "date": "27 October 2005 (original upload date)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1061"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/St._Thomas%27s_Church%2C_St._John%27s_NL.JPG/1280px-St._Thomas%27s_Church%2C_St._John%27s_NL.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/St._Thomas%27s_Church%2C_St._John%27s_NL.JPG/500px-St._Thomas%27s_Church%2C_St._John%27s_NL.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/92/St._Thomas%27s_Church%2C_St._John%27s_NL.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:St._Thomas%27s_Church,_St._John%27s_NL.JPG",
+      "caption": "St. Thomas' Church",
+      "source": "Wikimedia Commons",
+      "artist": "Mo Laidlaw",
+      "date": "2012-07-09 12:56:38",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/St._Paul%27s_Anglican_Church%2C_Harbour_Grace.JPG/1280px-St._Paul%27s_Anglican_Church%2C_Harbour_Grace.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/St._Paul%27s_Anglican_Church%2C_Harbour_Grace.JPG/500px-St._Paul%27s_Anglican_Church%2C_Harbour_Grace.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/71/St._Paul%27s_Anglican_Church%2C_Harbour_Grace.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:St._Paul%27s_Anglican_Church,_Harbour_Grace.JPG",
+      "caption": "St. Paul's Anglican Church, Habour Grace, Newfoundland and Labrador",
+      "source": "Wikimedia Commons",
+      "artist": "Robthepiper",
+      "date": "2012-08-28",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/TwillingateNL_StPetersChurch.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2a/TwillingateNL_StPetersChurch.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2a/TwillingateNL_StPetersChurch.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:TwillingateNL_StPetersChurch.JPG",
+      "caption": "St. Peter's Anglican Church, Twillingate, Newfoundland.",
+      "source": "Wikimedia Commons",
+      "artist": "Magicpiano",
+      "date": "2013-07-15 14:50:19",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1024",
+      "height": "680"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Anglican_Cathedral_of_St_John_the_Baptist%2C_St_John%27s%2C_Newfoundland.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Anglican_Cathedral_of_St_John_the_Baptist%2C_St_John%27s%2C_Newfoundland.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Anglican_Cathedral_of_St_John_the_Baptist%2C_St_John%27s%2C_Newfoundland.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Anglican_Cathedral_of_St_John_the_Baptist,_St_John%27s,_Newfoundland.jpg",
+      "caption": "The Cathedral of St. John the Baptist (St. John's)",
+      "source": "Wikimedia Commons",
+      "artist": "Jcmurphy at English Wikipedia",
+      "date": "18 April 2005 (original upload date)",
+      "license": "Public domain",
+      "width": "483",
+      "height": "487"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/StPatricksChurch.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1a/StPatricksChurch.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/StPatricksChurch.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:StPatricksChurch.jpg",
+      "caption": "St. Patrick's Church, St. John's, Newfoundland",
+      "source": "Wikimedia Commons",
+      "artist": "No machine-readable author provided. Jcmurphy~commonswiki assumed (based on copyright claims).",
+      "date": "9 June 2006 (original upload date)",
+      "license": "Public domain",
+      "width": "640",
+      "height": "481"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/WoodyPointNL_StPatricksChurch.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/42/WoodyPointNL_StPatricksChurch.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/42/WoodyPointNL_StPatricksChurch.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:WoodyPointNL_StPatricksChurch.JPG",
+      "caption": "St. Patrick's Church, Woody Point, Newfoundland",
+      "source": "Wikimedia Commons",
+      "artist": "Magicpiano",
+      "date": "2013-07-06 15:16:59",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "661",
+      "height": "921"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/WitlessBayNL_HolyTrinityConventAndChapel.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/31/WitlessBayNL_HolyTrinityConventAndChapel.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/31/WitlessBayNL_HolyTrinityConventAndChapel.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:WitlessBayNL_HolyTrinityConventAndChapel.jpg",
+      "caption": "Holy Trinity Convent and Chapel Registered Heritage Structure, Witless Bay, Newfoundland.",
+      "source": "Wikimedia Commons",
+      "artist": "Magicpiano",
+      "date": "2013-07-20 15:06:13",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1024",
+      "height": "680"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gothic Revival architecture in Canada",
@@ -62,7 +227,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5587872",
+      "url": "https://www.wikidata.org/wiki/Q5587872",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:19.638Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gothic Revival architecture in Canada",
+      "url": "https://en.wikipedia.org/wiki/Gothic_Revival_architecture_in_Canada",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:19.638Z"
+      }
+    }
+  ],
   "wikidata": "Q5587872",
   "wikipedia": "Gothic Revival architecture in Canada",
   "popularity": 35,
@@ -70,5 +258,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.857Z"
 }

@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2140355",
+      "url": "https://www.wikidata.org/wiki/Q2140355",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:20.462Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Suedehead (subculture)",
+      "url": "https://en.wikipedia.org/wiki/Suedehead_(subculture)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:20.462Z"
+      }
+    }
+  ],
   "wikidata": "Q2140355",
   "wikipedia": "Suedehead (subculture)",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:07:20.462Z"
 }

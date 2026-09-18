@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Museum of Fine Arts Boston",
+  "geography": "Museum of Fine Arts Boston",
   "periodStart": "18th century",
   "periodEnd": "",
   "startYear": 1797,
@@ -39,7 +39,21 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Utamaro_%28c._1797%29_Tsuitate_no_Danjo.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Utamaro_%28c._1797%29_Tsuitate_no_Danjo.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Utamaro_%28c._1797%29_Tsuitate_no_Danjo.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Utamaro_(c._1797)_Tsuitate_no_Danjo.jpg",
+      "caption": "Ukiyo-e print",
+      "source": "Wikimedia Commons",
+      "artist": "Kitagawa Utamaro",
+      "date": "circa 1797 date QS:P571,+1797-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1072",
+      "height": "1600"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Tsuitate no Danjo",
@@ -62,7 +76,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q30591533",
+      "url": "https://www.wikidata.org/wiki/Q30591533",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:26.427Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Tsuitate no Danjo",
+      "url": "https://en.wikipedia.org/wiki/Tsuitate_no_Danjo",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:26.427Z"
+      }
+    }
+  ],
   "wikidata": "Q30591533",
   "wikipedia": "Tsuitate no Danjo",
   "popularity": 35,
@@ -70,5 +107,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:02.198Z"
 }

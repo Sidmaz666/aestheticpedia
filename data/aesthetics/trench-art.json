@@ -17,7 +17,33 @@
   "summary": "Trench art is any decorative item made by soldiers, prisoners of war, or civilians where the manufacture is directly linked to armed conflict or its consequences.",
   "description": "Trench art is any decorative item made by soldiers, prisoners of war, or civilians where the manufacture is directly linked to armed conflict or its consequences. It offers an insight not only into their feelings and emotions about the war, but also their surroundings and the materials they had available to them. It is controversial whether items made of body parts can be considered trench art, such as a letter-opener made from an arm bone, which was gifted to Franklin Roosevelt.\n\nNot limited to the World Wars, the history of trench art spans conflicts from the Napoleonic Wars to the present day. Although the practice flourished during World War I, the term 'trench art' is also used to describe souvenirs manufactured by service personnel during World War II. Some items manufactured by soldiers, prisoners of war or civilians during earlier conflicts have been retrospectively described as trench art.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#60503d",
+      "name": "umber"
+    },
+    {
+      "hex": "#756959",
+      "name": "bronze"
+    },
+    {
+      "hex": "#8b8374",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a3a091",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#43341a",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#1f170a",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,89 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Douilles_sculpt%C3%A9es.jpg/1280px-Douilles_sculpt%C3%A9es.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Douilles_sculpt%C3%A9es.jpg/500px-Douilles_sculpt%C3%A9es.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Douilles_sculpt%C3%A9es.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Douilles_sculpt%C3%A9es.jpg",
+      "caption": "Carved shell cases of WWI. They bear the names of Tahure and Hurlus , two villages in the departement of Marne, destroyed by the hard fights and which were not rebuilt",
+      "source": "Wikimedia Commons",
+      "artist": "Tangopaso",
+      "date": "2009-09-15",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/8Cm_Shell_Art.jpg/1280px-8Cm_Shell_Art.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/8Cm_Shell_Art.jpg/500px-8Cm_Shell_Art.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e0/8Cm_Shell_Art.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:8Cm_Shell_Art.jpg",
+      "caption": "WWI Trench Art with etchings of a horse and horse shoes on a 80 mm shell casing.",
+      "source": "Wikimedia Commons",
+      "artist": "ThothTheTimeless",
+      "date": "2013-03-02 18:42:31",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "2279"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Artisanat_de_tranch%C3%A9e_croix_1107469.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/38/Artisanat_de_tranch%C3%A9e_croix_1107469.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/38/Artisanat_de_tranch%C3%A9e_croix_1107469.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Artisanat_de_tranch%C3%A9e_croix_1107469.JPG",
+      "caption": "artisant de tranché présenté au musée de l'armée.",
+      "source": "Wikimedia Commons",
+      "artist": "G.Garitan",
+      "date": "AOut 2°21",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1024",
+      "height": "1264"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/%22Andr%C3%A9e%22.jpg/1280px-%22Andr%C3%A9e%22.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/%22Andr%C3%A9e%22.jpg/500px-%22Andr%C3%A9e%22.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%22Andr%C3%A9e%22.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%22Andr%C3%A9e%22.jpg",
+      "caption": "\"Andrée\"",
+      "source": "Wikimedia Commons",
+      "artist": "Europeana staff photographer",
+      "date": "2014",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "869"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/%22El%C3%A9onore%22.jpg/1280px-%22El%C3%A9onore%22.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/%22El%C3%A9onore%22.jpg/500px-%22El%C3%A9onore%22.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/%22El%C3%A9onore%22.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%22El%C3%A9onore%22.jpg",
+      "caption": "\"Eléonore\"",
+      "source": "Wikimedia Commons",
+      "artist": "Europeana staff photographer",
+      "date": "2014",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "710"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Trench_Art.JPG/1280px-Trench_Art.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Trench_Art.JPG/500px-Trench_Art.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/19/Trench_Art.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Trench_Art.JPG",
+      "caption": "Chromed metal trench art ashtray made from a 25 Pdr shell case (dated 1942).",
+      "source": "Wikimedia Commons",
+      "artist": "Unaipon",
+      "date": "2010-01-31 11:49",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "1690"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Trench art",
@@ -62,7 +170,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q823804",
+      "url": "https://www.wikidata.org/wiki/Q823804",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:22.079Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Trench art",
+      "url": "https://en.wikipedia.org/wiki/Trench_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:22.079Z"
+      }
+    }
+  ],
   "wikidata": "Q823804",
   "wikipedia": "Trench art",
   "popularity": 35,
@@ -70,5 +201,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:09:22.079Z"
 }

@@ -19,7 +19,33 @@
   "summary": "Grand manner refers to an idealized aesthetic style derived from classicism and the art of the High Renaissance.",
   "description": "Grand manner refers to an idealized aesthetic style derived from classicism and the art of the High Renaissance. In the eighteenth century, British artists and connoisseurs used the term to describe paintings that incorporated visual metaphors in order to suggest noble qualities. It was Sir Joshua Reynolds who gave currency to the term through his Discourses on Art, a series of lectures presented at the Royal Academy from 1769 to 1790, in which he contended that painters should perceive their subjects through generalization and idealization, rather than by the careful copy of nature.  Reynolds never actually uses the phrase, referring instead to the \"great style\" or \"grand style\", in reference to history painting:\n\nHow much the great style exacts from its professors to conceive and represent their subjects in a poetical manner, not confined to mere matter of fact, may be seen in the cartoons of Raffaelle.  In all the pictures in which the painter has represented the apostles, he has drawn them with great nobleness; he has given them as much dignity as the human figure is capable of receiving yet we are expressly told in Scripture they had no such respectable appearance; and of St. Paul in particular, we are told by himself, that his bodily presence was mean.  Alexander is said to have been of a low stature: a painter ought not so to represent him.  Agesilaus was low, lame, and of a mean appearance.  None of these defects ought to appear in a piece of which he is the hero.  In conformity to custom, I call this part of the art history painting; it ought to be called poetical, as in reality it is.\n\nOriginally applied to history painting, regarded as the highest in the hierarchy of genres, the Grand Manner came thereafter also to be applied to portrait painting, with sitters depicted life size and full-length, in surroundings that conveyed the nobility and elite status of the subjects. Common metaphors included the introduction of classical architecture, signifying cultivation and sophistication, and pastoral backgrounds, which implied a virtuous character of unpretentious sincerity undefiled by the possession of great wealth and estates.\n\nIf Roman sculpture and Italian Renaissance painting provided the gestures for the genre, it was the court portraiture of Peter Paul Rubens and Anthony van Dyck that came to exemplify the urbane portrait style practised by Reyn",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1e1412",
+      "name": "black"
+    },
+    {
+      "hex": "#60483a",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#473129",
+      "name": "walnut brown 2"
+    },
+    {
+      "hex": "#785d4d",
+      "name": "umber"
+    },
+    {
+      "hex": "#917260",
+      "name": "bronze"
+    },
+    {
+      "hex": "#aa8874",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,89 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Raphael_Heliodorus.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Raphael_Heliodorus.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Raphael_Heliodorus.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Raphael_Heliodorus.jpg",
+      "caption": "The Expulsion of Heliodorus from the Temple",
+      "source": "Wikimedia Commons",
+      "artist": "Raphael",
+      "date": "between 1511 and 1512 date QS:P571,+1511-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "1035",
+      "height": "749"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Jane_Fleming.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/31/Jane_Fleming.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/31/Jane_Fleming.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jane_Fleming.jpg",
+      "caption": "Portrait of Jane Fleming (1755-1824)",
+      "source": "Wikimedia Commons",
+      "artist": "Joshua Reynolds",
+      "date": "1778 date QS:P571,+1778-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1171",
+      "height": "1936"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Joshua_Reynolds_%E2%80%93_Self-portrait_of_Sir_Joshua_Reynolds%2C_PRA_%E2%80%93_Google_Art_Project.jpg/1280px-Joshua_Reynolds_%E2%80%93_Self-portrait_of_Sir_Joshua_Reynolds%2C_PRA_%E2%80%93_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Joshua_Reynolds_%E2%80%93_Self-portrait_of_Sir_Joshua_Reynolds%2C_PRA_%E2%80%93_Google_Art_Project.jpg/500px-Joshua_Reynolds_%E2%80%93_Self-portrait_of_Sir_Joshua_Reynolds%2C_PRA_%E2%80%93_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/96/Joshua_Reynolds_%E2%80%93_Self-portrait_of_Sir_Joshua_Reynolds%2C_PRA_%E2%80%93_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Joshua_Reynolds_%E2%80%93_Self-portrait_of_Sir_Joshua_Reynolds,_PRA_%E2%80%93_Google_Art_Project.jpg",
+      "caption": "Self Portrait",
+      "source": "Wikimedia Commons",
+      "artist": "Joshua Reynolds",
+      "date": "1780 date QS:P571,+1780-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1685"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/8111acce-c8ce-2ef3-5f32-61cd63905c7d/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/8111acce-c8ce-2ef3-5f32-61cd63905c7d/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/8111acce-c8ce-2ef3-5f32-61cd63905c7d/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/105466",
+      "caption": "The Battle between the Gods and the Giants, c. 1608",
+      "source": "Art Institute of Chicago",
+      "artist": "Joachim Antonisz. Wtewael (Dutch, c. 1566–1638)",
+      "date": "c. 1608",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "653"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/47fd1564-93f5-f30b-7786-013421133b4a/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/47fd1564-93f5-f30b-7786-013421133b4a/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/47fd1564-93f5-f30b-7786-013421133b4a/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/87479",
+      "caption": "The Assumption of the Virgin, 1577–79",
+      "source": "Art Institute of Chicago",
+      "artist": "El Greco (Doménikos Theotokópoulos; Greek, active in Spain, 1541–1614)",
+      "date": "1577–79",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1612"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/75886aaa-002a-2047-a05c-baf73f0ac093/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/75886aaa-002a-2047-a05c-baf73f0ac093/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/75886aaa-002a-2047-a05c-baf73f0ac093/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/65509",
+      "caption": "The Feast in the House of Simon, c. 1608–14",
+      "source": "Art Institute of Chicago",
+      "artist": "El Greco (Doménikos Theotokópoulos; Greek, active in Spain, 1541–1614)",
+      "date": "c. 1608–14",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1204"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Grand manner",
@@ -64,7 +172,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5595260",
+      "url": "https://www.wikidata.org/wiki/Q5595260",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:23.954Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Grand manner",
+      "url": "https://en.wikipedia.org/wiki/Grand_manner",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:23.954Z"
+      }
+    }
+  ],
   "wikidata": "Q5595260",
   "wikipedia": "Grand manner",
   "popularity": 35,
@@ -72,5 +203,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:47:23.954Z"
 }

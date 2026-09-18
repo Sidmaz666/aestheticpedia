@@ -39,7 +39,78 @@
   "tags": [
     "textile process"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Crochet_sweden.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Crochet_sweden.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Crochet_sweden.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Crochet_sweden.jpg",
+      "caption": "Mom sent some vintage linens to me after my great aunt's death. The work is by relatives in Sweden.",
+      "source": "Wikimedia Commons",
+      "artist": "Elaine with Grey Cats from Mountain View, CA, USA",
+      "date": "2007-02-09 09:10",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "800",
+      "height": "388"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b26881fd-cc4e-7faa-49cd-e7af6846fa13/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b26881fd-cc4e-7faa-49cd-e7af6846fa13/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b26881fd-cc4e-7faa-49cd-e7af6846fa13/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/97319",
+      "caption": "Sampler, 1825/75",
+      "source": "Art Institute of Chicago",
+      "artist": "Germany",
+      "date": "1825/75",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "412"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/f565284f-597d-6700-b8d6-22a386d38bde/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/f565284f-597d-6700-b8d6-22a386d38bde/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/f565284f-597d-6700-b8d6-22a386d38bde/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/97320",
+      "caption": "Bedcover, 1850/1900",
+      "source": "Art Institute of Chicago",
+      "artist": "Germany",
+      "date": "1850/1900",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "579"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/0b0d95f3-95ce-d116-bf00-d218d08f9744/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/0b0d95f3-95ce-d116-bf00-d218d08f9744/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/0b0d95f3-95ce-d116-bf00-d218d08f9744/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/134126",
+      "caption": "Bedcover, 19th century",
+      "source": "Art Institute of Chicago",
+      "artist": "United States",
+      "date": "19th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1262"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/f7c955ad-d6e8-4b4e-a3a2-4b4642e60829/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/f7c955ad-d6e8-4b4e-a3a2-4b4642e60829/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/f7c955ad-d6e8-4b4e-a3a2-4b4642e60829/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/76415",
+      "caption": "Bag, c. 1839",
+      "source": "Art Institute of Chicago",
+      "artist": "United States",
+      "date": "c. 1839",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1224"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Freeform crochet and knitting",
@@ -62,7 +133,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5500884",
+      "url": "https://www.wikidata.org/wiki/Q5500884",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:08.984Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Freeform crochet and knitting",
+      "url": "https://en.wikipedia.org/wiki/Freeform_crochet_and_knitting",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:08.984Z"
+      }
+    }
+  ],
   "wikidata": "Q5500884",
   "wikipedia": "Freeform crochet and knitting",
   "popularity": 35,
@@ -70,5 +164,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:46:08.984Z"
 }

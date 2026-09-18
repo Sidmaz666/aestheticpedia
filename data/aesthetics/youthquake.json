@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United Kingdom",
+  "geography": "United Kingdom",
   "periodStart": "1950s",
   "periodEnd": "1970s",
   "startYear": 1955,
@@ -17,7 +17,33 @@
   "summary": "Youthquake was a 1960s cultural movement.",
   "description": "Youthquake was a 1960s cultural movement. The term was coined by Vogue magazine's editor-in-chief Diana Vreeland in 1965. Youthquake involved music and pop culture, and it changed the landscape of the fashion industry. The movement is characterized by looking to youth culture for a source of inspiration, taking dominance away from the English and Parisian couture houses.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#919192",
+      "name": "stone"
+    },
+    {
+      "hex": "#a8a8a9",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#757471",
+      "name": "slate"
+    },
+    {
+      "hex": "#5e5d5a",
+      "name": "umber"
+    },
+    {
+      "hex": "#252526",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#403f3f",
+      "name": "charcoal"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,48 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Mystic_Eye_Pop_art_paper_dress_by_Harry_Gordon%2C_American%2C_1967.jpg/1280px-Mystic_Eye_Pop_art_paper_dress_by_Harry_Gordon%2C_American%2C_1967.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Mystic_Eye_Pop_art_paper_dress_by_Harry_Gordon%2C_American%2C_1967.jpg/500px-Mystic_Eye_Pop_art_paper_dress_by_Harry_Gordon%2C_American%2C_1967.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Mystic_Eye_Pop_art_paper_dress_by_Harry_Gordon%2C_American%2C_1967.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mystic_Eye_Pop_art_paper_dress_by_Harry_Gordon,_American,_1967.jpg",
+      "caption": "\"Mystic Eye\" Pop art paper dress by Harry Gordon, American, 1967. The photographic eye is that of Audrey Hepburn. Collection of the Peloponnesian Folklore Foundation, museum no. 2006.6.90",
+      "source": "Wikimedia Commons",
+      "artist": "Peloponnesian Folklore Foundation",
+      "date": "2008-11-12 15:18:55",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Rabanne.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Rabanne.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Rabanne.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rabanne.jpg",
+      "caption": "Dress by en:Paco Rabanne , 1967 . Worn by Helen Bachofen von Echt , wife of Baron John Bachofen Von Echt, at en:New York party where she danced with en:Frank Sinatra . See: Evening mini-dress with body stocking and packaging . Victoria and Albert Museum, London . Victoria and Alb",
+      "source": "Wikimedia Commons",
+      "artist": "The original uploader was Calliopejen at English Wikipedia .",
+      "date": "4 April 2007 (original upload date)",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "682",
+      "height": "1024"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Flowerpowerportfolio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/75/Flowerpowerportfolio.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/75/Flowerpowerportfolio.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Flowerpowerportfolio.jpg",
+      "caption": "VW Bug - Flower Power Hippie Paint Job",
+      "source": "Wikimedia Commons",
+      "artist": "Rightleftright",
+      "license": "Public domain",
+      "width": "698",
+      "height": "361"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Youthquake (movement)",
@@ -62,7 +129,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q8059379",
+      "url": "https://www.wikidata.org/wiki/Q8059379",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:14.265Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Youthquake (movement)",
+      "url": "https://en.wikipedia.org/wiki/Youthquake_(movement)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:14.265Z"
+      }
+    }
+  ],
   "wikidata": "Q8059379",
   "wikipedia": "Youthquake (movement)",
   "popularity": 35,
@@ -70,5 +160,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:06.014Z"
 }

@@ -17,7 +17,25 @@
   "summary": "The Shijō school (四条派, Shijō-ha), also known as the Maruyama–Shijō school, was a Japanese school of painting.",
   "description": "The Shijō school (四条派, Shijō-ha), also known as the Maruyama–Shijō school, was a Japanese school of painting.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b49f70",
+      "name": "camel"
+    },
+    {
+      "hex": "#d4ba87",
+      "name": "tan"
+    },
+    {
+      "hex": "#928864",
+      "name": "moss"
+    },
+    {
+      "hex": "#6e6a51",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +57,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Quail_Feeding_Amidst_Susuki_and_Kikyo_-_Matsumura_Keibun_-_Google_Cultural_Institute.jpg/1280px-Quail_Feeding_Amidst_Susuki_and_Kikyo_-_Matsumura_Keibun_-_Google_Cultural_Institute.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Quail_Feeding_Amidst_Susuki_and_Kikyo_-_Matsumura_Keibun_-_Google_Cultural_Institute.jpg/500px-Quail_Feeding_Amidst_Susuki_and_Kikyo_-_Matsumura_Keibun_-_Google_Cultural_Institute.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Quail_Feeding_Amidst_Susuki_and_Kikyo_-_Matsumura_Keibun_-_Google_Cultural_Institute.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Quail_Feeding_Amidst_Susuki_and_Kikyo_-_Matsumura_Keibun_-_Google_Cultural_Institute.jpg",
+      "caption": "Quail Feeding Amidst Susuki and Kikyo - Matsumura Keibun - Google Cultural Institute. Birmingham Museum of Art. w76 x h67.75 IN. Silk folding screens",
+      "source": "Wikimedia Commons",
+      "artist": "Keibun",
+      "date": "1830 date QS:P571,+1830-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "546"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Shijō school",
@@ -62,7 +94,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3577704",
+      "url": "https://www.wikidata.org/wiki/Q3577704",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:18.454Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Shijō school",
+      "url": "https://en.wikipedia.org/wiki/Shij%C5%8D_school",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:18.454Z"
+      }
+    }
+  ],
   "wikidata": "Q3577704",
   "wikipedia": "Shijō school",
   "popularity": 35,
@@ -70,5 +125,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:05:18.454Z"
 }

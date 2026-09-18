@@ -17,7 +17,33 @@
   "summary": "Calligrafismo (Italian: [kalligraˈfizmo]; lit.",
   "description": "Calligrafismo (Italian: [kalligraˈfizmo]; lit. 'caligraphism') is an Italian style of filmmaking relating to some films made in Italy in the first half of the 1940s and endowed with an expressive complexity that isolates them from the general context. Calligrafismo is in a sharp contrast to Telefoni Bianchi-American style comedies and is rather artistic, highly formalistic, expressive in complexity, and deals mainly with contemporary literary material, above all the pieces of Italian realism from authors such as Corrado Alvaro, Ennio Flaiano, Emilio Cecchi, Francesco Pasinetti, Vitaliano Brancati, Mario Bonfantini, and Umberto Barbaro.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#3b3b3b",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#646464",
+      "name": "umber"
+    },
+    {
+      "hex": "#7c7b7c",
+      "name": "taupe"
+    },
+    {
+      "hex": "#979797",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#b1b1b1",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#cbcbcb",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,46 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Promessisposi41_hurtado%2Bglori.jpg/1280px-Promessisposi41_hurtado%2Bglori.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Promessisposi41_hurtado%2Bglori.jpg/500px-Promessisposi41_hurtado%2Bglori.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/23/Promessisposi41_hurtado%2Bglori.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Promessisposi41_hurtado%2Bglori.jpg",
+      "caption": "Luis Hurtado + Enrico Glori ne \"I promessi sposi\" (Camerini, 1941)",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "2015-11-02",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "825"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/La_bella_addormentata_1942.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/23/La_bella_addormentata_1942.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/23/La_bella_addormentata_1942.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:La_bella_addormentata_1942.jpg",
+      "caption": "Foto di scena del film La bella addormentata (1942), regia di Luigi Chiarini . Fonte: Francesco Savio , Ma l'amore no Sonzogno, Milano 1975, pag. 43.",
+      "source": "Wikimedia Commons",
+      "artist": "Luigi Chiarini",
+      "date": "1942",
+      "license": "Public domain",
+      "width": "663",
+      "height": "465"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Tragica_notte_fotoscena.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/82/Tragica_notte_fotoscena.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/82/Tragica_notte_fotoscena.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tragica_notte_fotoscena.jpg",
+      "caption": "Foto di scena di Tragica notte , regia di Mario Soldati (1942). Fonte: Francesco Savio, Ma l'amore no , Sonzogno, Milano 1975, pag. 359.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "license": "Public domain",
+      "width": "698",
+      "height": "533"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Calligrafismo",
@@ -62,7 +127,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16534755",
+      "url": "https://www.wikidata.org/wiki/Q16534755",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:23.089Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Calligrafismo",
+      "url": "https://en.wikipedia.org/wiki/Calligrafismo",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:23.089Z"
+      }
+    }
+  ],
   "wikidata": "Q16534755",
   "wikipedia": "Calligrafismo",
   "popularity": 35,
@@ -70,5 +158,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:39:23.089Z"
 }

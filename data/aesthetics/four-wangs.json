@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Qing dynasty, Ming dynasty",
+  "geography": "Qing dynasty, Ming dynasty",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -39,7 +39,34 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/%E7%8E%8B%E9%91%91.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b9/%E7%8E%8B%E9%91%91.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/%E7%8E%8B%E9%91%91.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%E7%8E%8B%E9%91%91.jpg",
+      "caption": "Qang Jian, painter of Ming and Qing Dynasties.",
+      "source": "Wikimedia Commons",
+      "artist": "清叶衍兰辑摹，黄小泉绘。",
+      "date": "19 th century date QS:P,+1850-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "640",
+      "height": "1025"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Wang_Hui10.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/47/Wang_Hui10.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/47/Wang_Hui10.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Wang_Hui10.jpg",
+      "caption": "Clearing Autum Sky over a Fishing Vilage",
+      "source": "Wikimedia Commons",
+      "artist": "Wang Hui",
+      "date": "1680 Qing dynasty (1636–1912)",
+      "license": "Public domain",
+      "width": "1184",
+      "height": "1825"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Four Wangs",
@@ -62,7 +89,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3099098",
+      "url": "https://www.wikidata.org/wiki/Q3099098",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:08.424Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Four Wangs",
+      "url": "https://en.wikipedia.org/wiki/Four_Wangs",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:08.424Z"
+      }
+    }
+  ],
   "wikidata": "Q3099098",
   "wikipedia": "Four Wangs",
   "popularity": 35,
@@ -70,5 +120,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.252Z"
 }

@@ -17,7 +17,33 @@
   "summary": "The Codex Style is one of the most celebrated and recognizable styles of Ancient Maya art.",
   "description": "The Codex Style is one of the most celebrated and recognizable styles of Ancient Maya art. It was first identified in 1973 by Michael Coe in the book The Maya Scribe and His World, in which the PSS (Primary Standard Sequence) was discovered. Coe called it “codex style” because he believed that the authors of the designs on the vessels were the same scribes who had painted or written the codices and that the paintings on the vessels imitated the images found within them.\n\nThe definition was later taken up by Robicsek and Hales in their book The Maya Book of Dead, the title of which reveals the assumption that the vases could deal with subjects such as the Book of the Dead of the Ancient Egyptians and Underworld themes. Several hypotheses have emerged about the origin of these ceramic typologies. After the discovery of the Codex Scribe Vessel 1 and of other “codex” style fragments in Nakbe it was thought that these vessels were produced by several workshops in the region of north-eastern Petén, Guatemala, namely the areas of Nakbe and El Mirador. Recent studies and findings have shown that codex-style pottery was also manufactured at the site of Calakmul in Campeche.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#af8967",
+      "name": "camel"
+    },
+    {
+      "hex": "#937356",
+      "name": "bronze"
+    },
+    {
+      "hex": "#7d7d7c",
+      "name": "taupe"
+    },
+    {
+      "hex": "#795b43",
+      "name": "umber"
+    },
+    {
+      "hex": "#c5a88a",
+      "name": "khaki"
+    },
+    {
+      "hex": "#703f25",
+      "name": "sepia"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Codex-Style_Vase_with_Mythological_Scene_MET_DP-579-002.jpg/1280px-Codex-Style_Vase_with_Mythological_Scene_MET_DP-579-002.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Codex-Style_Vase_with_Mythological_Scene_MET_DP-579-002.jpg/500px-Codex-Style_Vase_with_Mythological_Scene_MET_DP-579-002.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Codex-Style_Vase_with_Mythological_Scene_MET_DP-579-002.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Codex-Style_Vase_with_Mythological_Scene_MET_DP-579-002.jpg",
+      "caption": "Maya; Vase; Ceramics-Vessels",
+      "source": "Wikimedia Commons",
+      "date": "ca. 7th or 8th century",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1718"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Maya_Codex-Style_Vessel_with_two_scenes_3_Kimbell.jpg/1280px-Maya_Codex-Style_Vessel_with_two_scenes_3_Kimbell.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Maya_Codex-Style_Vessel_with_two_scenes_3_Kimbell.jpg/500px-Maya_Codex-Style_Vessel_with_two_scenes_3_Kimbell.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Maya_Codex-Style_Vessel_with_two_scenes_3_Kimbell.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Maya_Codex-Style_Vessel_with_two_scenes_3_Kimbell.jpg",
+      "caption": "Codex-Style Vessel with Two Scenes of Pawahtun Instructing Scribes; c. A.D. 550–950; Possibly Mexico or Guatemala, Maya culture, Late Classic period (A.D. 600–900); Ceramic with monochrome decoration; height 8.9 cm Kimbell Art Museum, Fort Worth, Texas; AP 2004.04 see https://www",
+      "source": "Wikimedia Commons",
+      "artist": "User:FA2010",
+      "date": "2009-10",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1137"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Codex Style",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q107418163",
+      "url": "https://www.wikidata.org/wiki/Q107418163",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:23.085Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Codex Style",
+      "url": "https://en.wikipedia.org/wiki/Codex_Style",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:23.085Z"
+      }
+    }
+  ],
   "wikidata": "Q107418163",
   "wikipedia": "Codex Style",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:41:23.085Z"
 }

@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q319941",
+      "url": "https://www.wikidata.org/wiki/Q319941",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:03.884Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Berlin School (filmmaking)",
+      "url": "https://en.wikipedia.org/wiki/Berlin_School_(filmmaking)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:03.884Z"
+      }
+    }
+  ],
   "wikidata": "Q319941",
   "wikipedia": "Berlin School (filmmaking)",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:38:03.884Z"
 }

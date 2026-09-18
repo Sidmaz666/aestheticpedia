@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1333388",
+      "url": "https://www.wikidata.org/wiki/Q1333388",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:19.164Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Els Setze Jutges",
+      "url": "https://en.wikipedia.org/wiki/Els_Setze_Jutges",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:19.164Z"
+      }
+    }
+  ],
   "wikidata": "Q1333388",
   "wikipedia": "Els Setze Jutges",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:44:19.164Z"
 }

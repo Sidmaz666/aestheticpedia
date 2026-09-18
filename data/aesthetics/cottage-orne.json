@@ -17,7 +17,33 @@
   "summary": "Cottage orné (French for 'decorated cottage') dates back to a movement of \"rustic\" stylised cottages of the late 18th and early 19th centuries during the Romantic movement, when some sought to discover a more natural way of living as opposed to the formality of the preceding Baro",
   "description": "Cottage orné (French for 'decorated cottage') dates back to a movement of \"rustic\" stylised cottages of the late 18th and early 19th centuries during the Romantic movement, when some sought to discover a more natural way of living as opposed to the formality of the preceding Baroque and Neoclassical architectural styles. English Heritage defines the term as \"A rustic building of picturesque design.\" Cottages ornés often feature well-shaped thatch roofs with ornate timberwork.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#766a5d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#8e8576",
+      "name": "taupe"
+    },
+    {
+      "hex": "#b6aca1",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#4a503c",
+      "name": "graphite"
+    },
+    {
+      "hex": "#d4d9e2",
+      "name": "bone white"
+    },
+    {
+      "hex": "#60793d",
+      "name": "olive green"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/The_Hermitage_-Hanwell_W7.jpg/1280px-The_Hermitage_-Hanwell_W7.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/The_Hermitage_-Hanwell_W7.jpg/500px-The_Hermitage_-Hanwell_W7.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d9/The_Hermitage_-Hanwell_W7.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Hermitage_-Hanwell_W7.jpg",
+      "caption": "The Hermitage -Hanwell W7 This cottage orné was built by the rector George Henry Glasse in 1809 on the site of a previous house called the Elms. Later it became the head quarters for the Selborne Society. Nikolaus Pevsner describes it thus: “a peach of an early c19 Gothic thatche",
+      "source": "Wikimedia Commons",
+      "artist": "P.g.champion",
+      "date": "2008-08-15",
+      "license": "CC BY 2.0 uk",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/uk/deed.en",
+      "width": "1280",
+      "height": "748"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Kew_Gardens_Queen_Charlottes_Cottage.jpg/1280px-Kew_Gardens_Queen_Charlottes_Cottage.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Kew_Gardens_Queen_Charlottes_Cottage.jpg/500px-Kew_Gardens_Queen_Charlottes_Cottage.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/de/Kew_Gardens_Queen_Charlottes_Cottage.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kew_Gardens_Queen_Charlottes_Cottage.jpg",
+      "caption": "Queen Charlotte's Cottage at Kew Gardens",
+      "source": "Wikimedia Commons",
+      "artist": "Prl42",
+      "date": "2008-06-09",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "814"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Cottage orné",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5175548",
+      "url": "https://www.wikidata.org/wiki/Q5175548",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:09.697Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cottage orné",
+      "url": "https://en.wikipedia.org/wiki/Cottage_orn%C3%A9",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:09.697Z"
+      }
+    }
+  ],
   "wikidata": "Q5175548",
   "wikipedia": "Cottage orné",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:42:09.697Z"
 }

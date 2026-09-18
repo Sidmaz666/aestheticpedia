@@ -10,8 +10,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Catalonia, Spain",
+  "geography": "Catalonia, Spain",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -20,7 +20,29 @@
   "summary": "The Olot school of landscape painting is a group of painters that created an artistic style in the second half of the 19th century.",
   "description": "The Olot school of landscape painting is a group of painters that created an artistic style in the second half of the 19th century. It includes not simply artists from Olot (in Catalonia, Spain), but all artists whose artworks were inspired by the countryside of Olot.  By extension, artists connected with Olot and its comarca, Garrotxa.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#d1c3ab",
+      "name": "beige"
+    },
+    {
+      "hex": "#433b26",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#6a5f44",
+      "name": "umber"
+    },
+    {
+      "hex": "#a7997f",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#857759",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +64,34 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Joaquim_Vayreda_-_The_Beginning_of_Spring_-_Google_Art_Project.jpg/1280px-Joaquim_Vayreda_-_The_Beginning_of_Spring_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Joaquim_Vayreda_-_The_Beginning_of_Spring_-_Google_Art_Project.jpg/500px-Joaquim_Vayreda_-_The_Beginning_of_Spring_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/18/Joaquim_Vayreda_-_The_Beginning_of_Spring_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Joaquim_Vayreda_-_The_Beginning_of_Spring_-_Google_Art_Project.jpg",
+      "caption": "The Beginning of Spring",
+      "source": "Wikimedia Commons",
+      "artist": "Joaquim Vayreda i Vila",
+      "date": "1877 date QS:P571,+1877-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "756"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/BergaiBoix_s-t%28cel_rogent%29_1908.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0c/BergaiBoix_s-t%28cel_rogent%29_1908.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0c/BergaiBoix_s-t%28cel_rogent%29_1908.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BergaiBoix_s-t(cel_rogent)_1908.jpg",
+      "caption": "Catalan: Sense títol (Cel Rogent).",
+      "source": "Wikimedia Commons",
+      "artist": "Josep Berga i Boix",
+      "date": "1908 date QS:P571,+1908-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "783",
+      "height": "532"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Olot school",
@@ -65,7 +114,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q639605",
+      "url": "https://www.wikidata.org/wiki/Q639605",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:25.191Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Olot school",
+      "url": "https://en.wikipedia.org/wiki/Olot_school",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:25.191Z"
+      }
+    }
+  ],
   "wikidata": "Q639605",
   "wikipedia": "Olot school",
   "popularity": 35,
@@ -73,5 +145,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.855Z"
 }

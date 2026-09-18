@@ -17,7 +17,33 @@
   "summary": "Highland dress is the traditional, regional dress of the Highlands and Isles of Scotland.",
   "description": "Highland dress is the traditional, regional dress of the Highlands and Isles of Scotland. It is often characterised by tartan (plaid in North America). Specific designs of shirt, jacket, bodice and headwear may also be worn. On rare occasions with clan badges and other devices indicating family and heritage.\n\nMen's Highland dress typically includes a kilt or trews. Although this may consist of clan tartan, it is more usual for tartans to be chosen for aesthetic reasons. A tartan full plaid, fly plaid, or short belted plaid may also be worn but usually only at very formal events or by the groom at a wedding. There are a number of accessories, which may include but are not limited to: a belt, sporran, sgian-dubh, knee-socks with a cuff known as kilt hose, garters, kilt pins and clan badges.\n\nWomen's Highland dress is also based on the clan tartan, either that of her birth clan or, if married, that of her spouse's clan if she so chooses. Traditionally, women and girls do not wear kilts but may wear ankle-length tartan skirts, along with a colour-coordinated blouse and vest. A tartan earasaid, sash or tonnag (smaller shawl) may also be worn, usually pinned with a brooch, sometimes with a clan badge or other family or cultural motif.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#2e2723",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#111013",
+      "name": "black"
+    },
+    {
+      "hex": "#533d2f",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#735d45",
+      "name": "umber"
+    },
+    {
+      "hex": "#e5e3df",
+      "name": "bone white"
+    },
+    {
+      "hex": "#dfc0aa",
+      "name": "beige"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,142 @@
   "tags": [
     "traditional costume"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/John_Michael_Wright_-_Lord_Mungo_Murray_%28Am_Morair_Mungo_Moireach%29%2C_1668_-_1700._Son_of_1st_Marquess_of_Atholl_-_Google_Art_Project.jpg/1280px-John_Michael_Wright_-_Lord_Mungo_Murray_%28Am_Morair_Mungo_Moireach%29%2C_1668_-_1700._Son_of_1st_Marquess_of_Atholl_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/John_Michael_Wright_-_Lord_Mungo_Murray_%28Am_Morair_Mungo_Moireach%29%2C_1668_-_1700._Son_of_1st_Marquess_of_Atholl_-_Google_Art_Project.jpg/500px-John_Michael_Wright_-_Lord_Mungo_Murray_%28Am_Morair_Mungo_Moireach%29%2C_1668_-_1700._Son_of_1st_Marquess_of_Atholl_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/John_Michael_Wright_-_Lord_Mungo_Murray_%28Am_Morair_Mungo_Moireach%29%2C_1668_-_1700._Son_of_1st_Marquess_of_Atholl_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:John_Michael_Wright_-_Lord_Mungo_Murray_(Am_Morair_Mungo_Moireach),_1668_-_1700._Son_of_1st_Marquess_of_Atholl_-_Google_Art_Project.jpg",
+      "caption": "Lord Mungo Murray [Am Morair Mungo Moireach], 1668 - 1700. Son of 1st Marquess of Atholl",
+      "source": "Wikimedia Commons",
+      "artist": "John Michael Wright",
+      "date": "1683 date QS:P571,+1683-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1893"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Sir_Henry_Raeburn_-_Colonel_Alastair_Ranaldson_Macdonell_of_Glengarry_%281771_-_1828%29_-_Google_Art_Project.jpg/1280px-Sir_Henry_Raeburn_-_Colonel_Alastair_Ranaldson_Macdonell_of_Glengarry_%281771_-_1828%29_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Sir_Henry_Raeburn_-_Colonel_Alastair_Ranaldson_Macdonell_of_Glengarry_%281771_-_1828%29_-_Google_Art_Project.jpg/500px-Sir_Henry_Raeburn_-_Colonel_Alastair_Ranaldson_Macdonell_of_Glengarry_%281771_-_1828%29_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sir_Henry_Raeburn_-_Colonel_Alastair_Ranaldson_Macdonell_of_Glengarry_%281771_-_1828%29_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sir_Henry_Raeburn_-_Colonel_Alastair_Ranaldson_Macdonell_of_Glengarry_(1771_-_1828)_-_Google_Art_Project.jpg",
+      "caption": "Colonel Alastair Ranaldson Macdonell of Glengarry (1771 - 1828)",
+      "source": "Wikimedia Commons",
+      "artist": "Henry Raeburn",
+      "date": "1812 date QS:P571,+1812-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "2084"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Campbell_of_Breadalbane.jpg/1280px-Campbell_of_Breadalbane.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Campbell_of_Breadalbane.jpg/500px-Campbell_of_Breadalbane.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Campbell_of_Breadalbane.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Campbell_of_Breadalbane.jpg",
+      "caption": "A lithograph of a member of the Scottish Highland clan of Campbell, by R. R. McIan and published by Dickinson circa 1845-47.",
+      "source": "Wikimedia Commons",
+      "artist": "R. R. McIan",
+      "date": "circa 1845 date QS:P,+1845-00-00T00:00:00Z/9,P1480,Q5727902 ",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "2015"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/1700%2C_English-_Scotch._-_094_-_Costumes_of_All_Nations_%281882%29.JPG/1280px-1700%2C_English-_Scotch._-_094_-_Costumes_of_All_Nations_%281882%29.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/1700%2C_English-_Scotch._-_094_-_Costumes_of_All_Nations_%281882%29.JPG/500px-1700%2C_English-_Scotch._-_094_-_Costumes_of_All_Nations_%281882%29.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/57/1700%2C_English-_Scotch._-_094_-_Costumes_of_All_Nations_%281882%29.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:1700,_English-_Scotch._-_094_-_Costumes_of_All_Nations_(1882).JPG",
+      "caption": "1700, English- Scotch",
+      "source": "Wikimedia Commons",
+      "artist": "by Albert Kretschmer, painters and costumer to the Royal Court Theatre, Berin, and Dr. Carl Rohrbach.",
+      "date": "2010-10-20 02:31:13",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1714"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/StateLibQld_1_205815_Andrew_McFarlane.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1a/StateLibQld_1_205815_Andrew_McFarlane.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/StateLibQld_1_205815_Andrew_McFarlane.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:StateLibQld_1_205815_Andrew_McFarlane.jpg",
+      "caption": "Andrew McFarlane. Young Andy McFarlane posing in Highland dress.",
+      "source": "Wikimedia Commons",
+      "artist": "Contributor(s): Tosca Studio",
+      "date": "1898-10-08",
+      "license": "Public domain",
+      "width": "713",
+      "height": "1000"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Highland_outfits_advertisement_%281957%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Highland_outfits_advertisement_%281957%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Highland_outfits_advertisement_%281957%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Highland_outfits_advertisement_(1957).jpg",
+      "caption": "Highland outfits advertisement (1957)",
+      "source": "Wikimedia Commons",
+      "artist": "Kim Traynor",
+      "date": "2012-04-02",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1155",
+      "height": "1541"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Kilted.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/96/Kilted.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/96/Kilted.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kilted.jpg",
+      "caption": "Oliver tartan kilt",
+      "source": "Wikimedia Commons",
+      "artist": "Oliver-Bonjoch",
+      "date": "2006",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "570",
+      "height": "570"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Ghillie.JPG/1280px-Ghillie.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Ghillie.JPG/500px-Ghillie.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/12/Ghillie.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ghillie.JPG",
+      "caption": "Ghillie - shoes for irish dances.",
+      "source": "Wikimedia Commons",
+      "artist": "Lestat (Jan Mehlich)",
+      "date": "2006-09-02",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BathingSuit1920s.jpg",
+      "caption": "Woman's bathing suit from 1920s. Photo postcard. No copyright notice on card. This is a SOL postcard, series 2832. Here is a larger example of the posted image.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "early 1920s date QS:P,+1920-00-00T00:00:00Z/8,P4241,Q4071972",
+      "license": "Public domain",
+      "width": "768",
+      "height": "490"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/3rd_Duke_of_Fife_in_Kilt._Allan_Warren.jpg/1280px-3rd_Duke_of_Fife_in_Kilt._Allan_Warren.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/3rd_Duke_of_Fife_in_Kilt._Allan_Warren.jpg/500px-3rd_Duke_of_Fife_in_Kilt._Allan_Warren.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/92/3rd_Duke_of_Fife_in_Kilt._Allan_Warren.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:3rd_Duke_of_Fife_in_Kilt._Allan_Warren.jpg",
+      "caption": "3rd Duke of Fife",
+      "source": "Wikimedia Commons",
+      "artist": "Allan warren",
+      "date": "1984",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1877"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Highland dress",
@@ -62,7 +223,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2998487",
+      "url": "https://www.wikidata.org/wiki/Q2998487",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:06.358Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Highland dress",
+      "url": "https://en.wikipedia.org/wiki/Highland_dress",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:06.358Z"
+      }
+    }
+  ],
   "wikidata": "Q2998487",
   "wikipedia": "Highland dress",
   "popularity": 35,
@@ -70,5 +254,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:49:06.358Z"
 }

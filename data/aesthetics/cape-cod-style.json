@@ -17,7 +17,33 @@
   "summary": "Cape Cod style was a style of lighthouse architecture that originated on Cape Cod in Massachusetts during the early 1800s, and which became predominant to the West Coast, where numerous well-preserved examples still exist.",
   "description": "Cape Cod style was a style of lighthouse architecture that originated on Cape Cod in Massachusetts during the early 1800s, and which became predominant to the West Coast, where numerous well-preserved examples still exist. In such lighthouses, the light tower was attached directly to the keeper's dwelling, and centered on the roof; entry was achieved through a stairway in the top floor of the dwelling.\n\nNo lighthouses built in the Cape Cod style exist today on the East Coast.  The original Alcatraz Island Light, the first lighthouse to be built on the West Coast, was built using this style.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#dadada",
+      "name": "bone white"
+    },
+    {
+      "hex": "#bbbbbb",
+      "name": "silver"
+    },
+    {
+      "hex": "#3d74bd",
+      "name": "denim blue"
+    },
+    {
+      "hex": "#6099d3",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#74716e",
+      "name": "slate"
+    },
+    {
+      "hex": "#969593",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,60 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Old_Point_Loma_lighthouse_11.JPG/1280px-Old_Point_Loma_lighthouse_11.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Old_Point_Loma_lighthouse_11.JPG/500px-Old_Point_Loma_lighthouse_11.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Old_Point_Loma_lighthouse_11.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Old_Point_Loma_lighthouse_11.JPG",
+      "caption": "Old Point Loma Lighthouse",
+      "source": "Wikimedia Commons",
+      "artist": "Ctorbann",
+      "date": "Taken on 20 September 2007, 10:36:49",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "851"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Alcatraz_light_original2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Alcatraz_light_original2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Alcatraz_light_original2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Alcatraz_light_original2.jpg",
+      "caption": "Alcatraz Light, original",
+      "source": "Wikimedia Commons",
+      "artist": "Work of a Federal Government Employee",
+      "date": "circa 1893 date QS:P,+1893-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "538",
+      "height": "400"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Long_Point_Light--Original_built_1827.jpg/1280px-Long_Point_Light--Original_built_1827.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Long_Point_Light--Original_built_1827.jpg/500px-Long_Point_Light--Original_built_1827.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Long_Point_Light--Original_built_1827.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Long_Point_Light--Original_built_1827.jpg",
+      "caption": "Long Point Light , 1827 lighthouse. Original caption: none; no date/photo number; photographer unknown. This is a photograph of the original Long Point Light Station and keeper's house. The date of the photo is known only to be between circa 1830 and 1838, since the seawall (pict",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "Taken in between circa 1830 and circa 1838 date QS:P,+1830-0",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/BASSRIVER.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/ba/BASSRIVER.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/ba/BASSRIVER.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BASSRIVER.jpg",
+      "caption": "Bass River lighthouse",
+      "source": "Wikimedia Commons",
+      "artist": "Lighthouse Inn",
+      "license": "Public domain",
+      "width": "595",
+      "height": "353"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Cape Cod style",
@@ -62,7 +141,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5034714",
+      "url": "https://www.wikidata.org/wiki/Q5034714",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:01.072Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cape Cod style",
+      "url": "https://en.wikipedia.org/wiki/Cape_Cod_style",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:01.072Z"
+      }
+    }
+  ],
   "wikidata": "Q5034714",
   "wikipedia": "Cape Cod style",
   "popularity": 35,
@@ -70,5 +172,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:40:01.072Z"
 }

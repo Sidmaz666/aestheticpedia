@@ -106,7 +106,7 @@ test('connections network renders on canvas', async ({ page }) => {
 test('blend produces a hybrid from two records', async ({ page }) => {
   await page.goto('/blend?a=bauhaus&b=art-nouveau')
   await expect(page.getByText('Speculative blend')).toBeVisible()
-  await expect(page.getByRole('heading', { level: 2 })).toContainText('Fusion')
+  await expect(page.getByRole('heading', { level: 2 })).toContainText('×')
 })
 
 test('theme toggle switches to light mode', async ({ page }) => {

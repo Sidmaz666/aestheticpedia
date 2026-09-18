@@ -17,7 +17,33 @@
   "summary": "Bunka shishu (文化刺繍), in English often shortened to bunka, is a form of Japanese embroidery originating in the early 19th century that became more widespread around the turn of the 20th century, before then being introduced to the US after World War II.",
   "description": "Bunka shishu (文化刺繍), in English often shortened to bunka, is a form of Japanese embroidery originating in the early 19th century that became more widespread around the turn of the 20th century, before then being introduced to the US after World War II. Bunka artists use a specialized embroidery needle and rayon threads (originally silk) to create very detailed pictures that some liken to oil paintings. Typical subjects include people, living things (traditionally fish), landscapes and traditional Japanese scenes.\n\nBunka is considered a form of punch needle technique, and the rayon threads used are woven in a chainette format, which, when opened, gives a bouclé texture to the yarn. Unlike other embroidery techniques, however, bunka is worked from the front of the fabric rather than the back.\n\nUnlike some other forms of embroidery, bunka is fragile and is usually presented as artwork rather than as clothing adornment. Bunka has gained in popularity since the advent of numbered kits (similar to paint-by-number), which provide a step-by-step guide to producing artwork.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c7ccc1",
+      "name": "silver"
+    },
+    {
+      "hex": "#f1f0de",
+      "name": "paper white"
+    },
+    {
+      "hex": "#000000",
+      "name": "black"
+    },
+    {
+      "hex": "#31516e",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#9ca3a2",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#5a7388",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,20 @@
   "tags": [
     "textile process"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/The_Great_Wave_off_Kanagawa-cutout.png/1280px-The_Great_Wave_off_Kanagawa-cutout.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/The_Great_Wave_off_Kanagawa-cutout.png/500px-The_Great_Wave_off_Kanagawa-cutout.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/The_Great_Wave_off_Kanagawa-cutout.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Great_Wave_off_Kanagawa-cutout.png",
+      "caption": "Although it is often used in tsunami literature, there is no reason to suspect that Hokusai intended it to be interpreted in that way. The waves in this work are sometimes mistakenly referred to as tsunami (津波), but they are more accurately called okinami (沖波), great off-shore wa",
+      "source": "Wikimedia Commons",
+      "artist": "Hokusai",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1195"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Bunka shishu",
@@ -62,7 +101,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4997732",
+      "url": "https://www.wikidata.org/wiki/Q4997732",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:17.134Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Bunka shishu",
+      "url": "https://en.wikipedia.org/wiki/Bunka_shishu",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:17.134Z"
+      }
+    }
+  ],
   "wikidata": "Q4997732",
   "wikipedia": "Bunka shishu",
   "popularity": 35,
@@ -70,5 +132,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:39:17.134Z"
 }

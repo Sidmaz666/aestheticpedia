@@ -11,8 +11,8 @@
   "establishment": "community_subculture",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Spain",
+  "geography": "Spain",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -21,7 +21,33 @@
   "summary": "La Movida Madrileña (Spanish: [moˈβiða maðɾiˈleɲa], 'the Madrilenian scene'), also known simply as La Movida, was a countercultural movement that emerged mainly in Madrid during the Spanish transition to democracy following the death of the dictator Francisco Franco in 1975.",
   "description": "La Movida Madrileña (Spanish: [moˈβiða maðɾiˈleɲa], 'the Madrilenian scene'), also known simply as La Movida, was a countercultural movement that emerged mainly in Madrid during the Spanish transition to democracy following the death of the dictator Francisco Franco in 1975. The movement coincided with Spain's economic growth and a widespread desire to forge a post-Franco identity. The tribute concert to \"Canito\" [es] held on 9 February 1980, is traditionally regarded as the beginning of La Movida Madrileña.\n\nThe movement was characterised by the rise of punk rock and synth-pop, a more open attitude towards sexual expression and drug use, and the emergence of new dialects such as cheli. This hedonistic cultural wave began in Madrid before spreading to other cities, including Barcelona, Bilbao and Vigo.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c1c0c5",
+      "name": "silver"
+    },
+    {
+      "hex": "#dcd7de",
+      "name": "bone white"
+    },
+    {
+      "hex": "#aaa9a5",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#8c8f8a",
+      "name": "stone"
+    },
+    {
+      "hex": "#100e0b",
+      "name": "black"
+    },
+    {
+      "hex": "#d89475",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,35 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Paolo_Monti_-_Servizio_fotografico_-_BEIC_6333091.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/33/Paolo_Monti_-_Servizio_fotografico_-_BEIC_6333091.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/33/Paolo_Monti_-_Servizio_fotografico_-_BEIC_6333091.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paolo_Monti_-_Servizio_fotografico_-_BEIC_6333091.jpg",
+      "caption": "Servizio fotografico : Madrid, 1980 / Paolo Monti. - Foglio: 1, Fotogrammi complessivi: 20/20 : Diapositiva, sviluppo cromogeno/ pellicola ; 35 mm. - ((Iscrizione manoscritta su una striscia di cartoncino bianco: \"Spagna/ Madrid\" all'interno del contenitore. - Fonte: Rubrica di P",
+      "source": "Wikimedia Commons",
+      "artist": "Paolo Monti",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "885"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Pedro_Almod%C3%B3var_1988.jpg/1280px-Pedro_Almod%C3%B3var_1988.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Pedro_Almod%C3%B3var_1988.jpg/500px-Pedro_Almod%C3%B3var_1988.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/05/Pedro_Almod%C3%B3var_1988.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pedro_Almod%C3%B3var_1988.jpg",
+      "caption": "Detalle de una fotografía mayor que muestra al director de cine español Pedro Almodóvar durante la celebración del Festival de Cine de Venecia de 1988",
+      "source": "Wikimedia Commons",
+      "artist": "Gorupdebesanez",
+      "date": "1988",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "1622"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — La Movida Madrileña",
@@ -66,7 +120,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1347824",
+      "url": "https://www.wikidata.org/wiki/Q1347824",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:19.859Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — La Movida Madrileña",
+      "url": "https://en.wikipedia.org/wiki/La_Movida_Madrile%C3%B1a",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:19.859Z"
+      }
+    }
+  ],
   "wikidata": "Q1347824",
   "wikipedia": "La Movida Madrileña",
   "popularity": 35,
@@ -74,5 +151,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.665Z"
 }

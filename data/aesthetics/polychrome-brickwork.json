@@ -19,7 +19,33 @@
   "summary": "Polychrome brickwork is a style of architectural brickwork in which bricks of different colours are used to create decorative patterns or highlight architectural features in the walls of a building.",
   "description": "Polychrome brickwork is a style of architectural brickwork in which bricks of different colours are used to create decorative patterns or highlight architectural features in the walls of a building. Historically it was used in the late Gothic period in Europe, and the Tudor period in England. This style was revived in Britain in the 1850s as a feature of Gothic Revival architecture. Later, in the 19th century and into the early 20th century it was adopted in various forms in Europe for all manner of buildings such as French eclectic villas, Dutch row houses, and German railway stations, and as far away as Melbourne, Australia, where the technique reached heights of popularity and elaboration in the 1880s.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#736759",
+      "name": "bronze"
+    },
+    {
+      "hex": "#ae8163",
+      "name": "camel"
+    },
+    {
+      "hex": "#4d4940",
+      "name": "graphite"
+    },
+    {
+      "hex": "#c3a88b",
+      "name": "khaki"
+    },
+    {
+      "hex": "#908b83",
+      "name": "stone"
+    },
+    {
+      "hex": "#3678d7",
+      "name": "denim blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,148 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/D%C3%A9tails_de_l%27usine_des_Menier_%C3%A0_Noisiel.jpg/1280px-D%C3%A9tails_de_l%27usine_des_Menier_%C3%A0_Noisiel.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/D%C3%A9tails_de_l%27usine_des_Menier_%C3%A0_Noisiel.jpg/500px-D%C3%A9tails_de_l%27usine_des_Menier_%C3%A0_Noisiel.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e6/D%C3%A9tails_de_l%27usine_des_Menier_%C3%A0_Noisiel.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:D%C3%A9tails_de_l%27usine_des_Menier_%C3%A0_Noisiel.jpg",
+      "caption": "Détails de l'usine des Menier à Noisiel.",
+      "source": "Wikimedia Commons",
+      "artist": "besopha",
+      "date": "2010-05-01 10:17:57",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "854"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/LisburnHouseNZ.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/41/LisburnHouseNZ.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/LisburnHouseNZ.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:LisburnHouseNZ.jpg",
+      "caption": "Lisburn House, Caversham, New Zealand. Photograph by James Dignan ( User: Grutness ), April 3rd, 2009. NZHPT Historic Place - Category I, Register Number 2192 .",
+      "source": "Wikimedia Commons",
+      "artist": "Grutness at English Wikipedia",
+      "date": "3 April 2009 (original upload date)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "709",
+      "height": "770"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/All_Saints_Anglican_Church_exterior%2C_Dunedin%2C_NZ.JPG/1280px-All_Saints_Anglican_Church_exterior%2C_Dunedin%2C_NZ.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/All_Saints_Anglican_Church_exterior%2C_Dunedin%2C_NZ.JPG/500px-All_Saints_Anglican_Church_exterior%2C_Dunedin%2C_NZ.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/All_Saints_Anglican_Church_exterior%2C_Dunedin%2C_NZ.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:All_Saints_Anglican_Church_exterior,_Dunedin,_NZ.JPG",
+      "caption": "Exterior view of All Saints Anglican Church, Cumberland Street, Dunedin, New Zealand.",
+      "source": "Wikimedia Commons",
+      "artist": "Benchill",
+      "date": "2009-09-19",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/St_Michael%27s_Church_Collins_Street_Melbourne.jpg/1280px-St_Michael%27s_Church_Collins_Street_Melbourne.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/St_Michael%27s_Church_Collins_Street_Melbourne.jpg/500px-St_Michael%27s_Church_Collins_Street_Melbourne.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/St_Michael%27s_Church_Collins_Street_Melbourne.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:St_Michael%27s_Church_Collins_Street_Melbourne.jpg",
+      "caption": "St Michael's Church Collins Street Melbourne, Joseph Reed architect, 1866",
+      "source": "Wikimedia Commons",
+      "artist": "Rohanstorey",
+      "date": "2018-08-26 14:52:13",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1637"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/StJudesexterior.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/ca/StJudesexterior.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ca/StJudesexterior.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:StJudesexterior.jpg",
+      "caption": "St Judes carlton exterior",
+      "source": "Wikimedia Commons",
+      "artist": "B20097",
+      "date": "2019-12-15",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "810",
+      "height": "1080"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Victoria_College_For_The_Deaf_Dec_2013.jpg/1280px-Victoria_College_For_The_Deaf_Dec_2013.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Victoria_College_For_The_Deaf_Dec_2013.jpg/500px-Victoria_College_For_The_Deaf_Dec_2013.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/58/Victoria_College_For_The_Deaf_Dec_2013.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Victoria_College_For_The_Deaf_Dec_2013.jpg",
+      "caption": "Victorian College for the Deaf in St Kilda Road , Melbourne",
+      "source": "Wikimedia Commons",
+      "artist": "Donaldytong",
+      "date": "2013-12-31",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "854"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Rippon_Lea_Estate%2C_Victoria.jpg/1280px-Rippon_Lea_Estate%2C_Victoria.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Rippon_Lea_Estate%2C_Victoria.jpg/500px-Rippon_Lea_Estate%2C_Victoria.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Rippon_Lea_Estate%2C_Victoria.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rippon_Lea_Estate,_Victoria.jpg",
+      "caption": "Rippon Lea Estate in Ripponlea, Melbourne, Victoria, Australia",
+      "source": "Wikimedia Commons",
+      "artist": "Mike",
+      "date": "2013-12-24 04:37:59",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/12_Tod_Street%2C_Tortola_House_%289340795689%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/47/12_Tod_Street%2C_Tortola_House_%289340795689%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/47/12_Tod_Street%2C_Tortola_House_%289340795689%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:12_Tod_Street,_Tortola_House_(9340795689).jpg",
+      "caption": "tod_street_12_20jun2013_pb441",
+      "source": "Wikimedia Commons",
+      "artist": "Gawler History",
+      "date": "2012-03-22 12:42",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "886",
+      "height": "591"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Chinese_Mission_Church%2C_Little_Collins_Street.jpg/1280px-Chinese_Mission_Church%2C_Little_Collins_Street.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Chinese_Mission_Church%2C_Little_Collins_Street.jpg/500px-Chinese_Mission_Church%2C_Little_Collins_Street.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Chinese_Mission_Church%2C_Little_Collins_Street.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chinese_Mission_Church,_Little_Collins_Street.jpg",
+      "caption": "Chinese Mission Church, Little Collins Street, Crouch & Wilson, 1872",
+      "source": "Wikimedia Commons",
+      "artist": "Rohanstorey",
+      "date": "2019-04-30 12:19:57",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1717"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Brunswick_Methodist_Church_004.JPG/1280px-Brunswick_Methodist_Church_004.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Brunswick_Methodist_Church_004.JPG/500px-Brunswick_Methodist_Church_004.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Brunswick_Methodist_Church_004.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Brunswick_Methodist_Church_004.JPG",
+      "caption": "Former Methodist church, used as a school between 1972 and 2023, at Brunswick, Victoria",
+      "source": "Wikimedia Commons",
+      "artist": "Mattinbgn ( talk · contribs )",
+      "date": "2012-10-21 14:43:02",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "947"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Polychrome brickwork",
@@ -64,7 +231,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7226218",
+      "url": "https://www.wikidata.org/wiki/Q7226218",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:22.026Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Polychrome brickwork",
+      "url": "https://en.wikipedia.org/wiki/Polychrome_brickwork",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:22.026Z"
+      }
+    }
+  ],
   "wikidata": "Q7226218",
   "wikipedia": "Polychrome brickwork",
   "popularity": 35,
@@ -72,5 +262,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:00:22.026Z"
 }

@@ -12,8 +12,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "India",
+  "geography": "India",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -22,7 +22,33 @@
   "summary": "Nilachal is a style of Hindu temple architecture in Assam, India, that is characterized by a bulbous polygonal dome over a cruciform ratha type bada.",
   "description": "Nilachal is a style of Hindu temple architecture in Assam, India, that is characterized by a bulbous polygonal dome over a cruciform ratha type bada. This hybrid style developed first in the Kamakhya temple on the Nilachal hills under the Koch kingdom and became popular as a style later under the Ahom kingdom.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#edf5f5",
+      "name": "paper white"
+    },
+    {
+      "hex": "#413e32",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#d8dad5",
+      "name": "bone white"
+    },
+    {
+      "hex": "#5f574a",
+      "name": "umber"
+    },
+    {
+      "hex": "#babab1",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#756f66",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -44,7 +70,49 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Kamakhya_Temple%2C_Guwahati.jpg/1280px-Kamakhya_Temple%2C_Guwahati.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Kamakhya_Temple%2C_Guwahati.jpg/500px-Kamakhya_Temple%2C_Guwahati.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Kamakhya_Temple%2C_Guwahati.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kamakhya_Temple,_Guwahati.jpg",
+      "caption": "Kamakhya Temple Guwahati",
+      "source": "Wikimedia Commons",
+      "artist": "Kunal Dalui",
+      "date": "2011-05-16",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Bhuvaneswari_Temple%2C_Guwahati.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Bhuvaneswari_Temple%2C_Guwahati.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Bhuvaneswari_Temple%2C_Guwahati.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bhuvaneswari_Temple,_Guwahati.jpg",
+      "caption": "A view of Bhuvaneswari temple situated at the Nilachal hilltop, Guwahati.",
+      "source": "Wikimedia Commons",
+      "artist": "Gitartha.bordoloi",
+      "date": "2016-05-24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "979",
+      "height": "1478"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a1/Deopahar-head.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/en/a/a1/Deopahar-head.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/en/a/a1/Deopahar-head.jpg",
+      "pageUrl": "https://en.wikipedia.org/wiki/File:Deopahar-head.jpg",
+      "caption": "This is a cropped image of a Wikimedia Commons picture of a sculpted head from Deopahar, Assam.",
+      "source": "Wikimedia Commons",
+      "artist": "Sarangakrishnachetia",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": "797",
+      "height": "522"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Nilachal architecture",
@@ -67,7 +135,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q18128734",
+      "url": "https://www.wikidata.org/wiki/Q18128734",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:06.627Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Nilachal architecture",
+      "url": "https://en.wikipedia.org/wiki/Nilachal_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:06.627Z"
+      }
+    }
+  ],
   "wikidata": "Q18128734",
   "wikipedia": "Nilachal architecture",
   "popularity": 35,
@@ -75,5 +166,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.893Z"
 }

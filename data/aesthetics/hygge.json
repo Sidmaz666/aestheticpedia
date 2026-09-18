@@ -3,7 +3,9 @@
   "name": "Hygge",
   "aliases": [
     "Hygge lifestyle",
-    "Danish coziness"
+    "Danish coziness",
+    "Scandinavian Hygge",
+    "Hygge interior design"
   ],
   "category": "Regional & Cultural Tradition",
   "subcategory": "Cultural concept & interior mood",
@@ -114,35 +116,8 @@
     "music": "folk, acoustic, ambient",
     "scent": "cinnamon, vanilla, woodsmoke"
   },
-  "emotionProfile": {
-    "warm": 50,
-    "cold": 50,
-    "playful": 50,
-    "serious": 50,
-    "chaotic": 50,
-    "ordered": 50,
-    "nostalgic": 50,
-    "futuristic": 50,
-    "peaceful": 50,
-    "ominous": 50
-  },
-  "dnaAxes": {
-    "minimal_maximal": 50,
-    "organic_geometric": 50,
-    "warm_cold": 50,
-    "natural_synthetic": 50,
-    "analog_digital": 50,
-    "historical_futuristic": 50,
-    "refined_raw": 50,
-    "playful_serious": 50,
-    "soft_harsh": 50,
-    "quiet_loud": 50,
-    "orderly_chaotic": 50,
-    "dense_spacious": 50,
-    "realistic_surreal": 50,
-    "elegant_utilitarian": 50,
-    "nostalgic_progressive": 50
-  },
+  "emotionProfile": {},
+  "dnaAxes": {},
   "keyExamples": [
     "Meik Wiking — The Little Book of Hygge (2016)",
     "Danish home culture",
@@ -333,6 +308,16 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:51:07.868Z"
       }
+    },
+    {
+      "name": "Hygge: The Danish Art of Living Well",
+      "url": "https://www.goodreads.com/book/show/32592092-hygge",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -377,5 +362,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-11T02:42:31.452Z",
-  "updatedAt": "2026-09-18T05:02:11.446Z"
+  "updatedAt": "2026-09-18T10:47:43.276Z"
 }

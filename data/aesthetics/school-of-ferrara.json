@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Italy, Ferrara",
+  "geography": "Italy, Ferrara",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The School of Ferrara was a group of painters which flourished in the Duchy of Ferrara during the Renaissance.",
   "description": "The School of Ferrara was a group of painters which flourished in the Duchy of Ferrara during the Renaissance. Ferrara was ruled by the Este family, well known for its patronage of the arts. Patronage was extended with the ascent of Ercole d'Este I in 1470, and the family continued in power till Alfonso II, Ercole's great-grandson, died without an heir in 1597. The duchy was then occupied in succession by Papal and Austrian forces. The school evolved styles of painting that appeared to blend influences from Mantua, Venice, Lombardy, Bologna, and Florence.\n\nThe ties to Bolognese School were particularly strong. Much of the local collections, like those of the Gonzaga family in Mantua, were dispersed with the end of the Este line in 1598.  Especially in the late 15th century Ferrara was also a main centre of engraving in Italy.  The most famous prints it produced are the two sets traditionally, if inaccurately, known as the Mantegna Tarocchi, each by an unidentified master.  A list of painters of the School of Ferrara, with the page for the title entry in Camillo Laderchi's 1856 artist biography, includes:",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bfbdb2",
+      "name": "silver"
+    },
+    {
+      "hex": "#543e2f",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#3b281f",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#645444",
+      "name": "umber"
+    },
+    {
+      "hex": "#150909",
+      "name": "black"
+    },
+    {
+      "hex": "#a39484",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Collage_arte_italiana.jpg/1280px-Collage_arte_italiana.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Collage_arte_italiana.jpg/500px-Collage_arte_italiana.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Collage_arte_italiana.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Collage_arte_italiana.jpg",
+      "caption": "Collage di varie foto sull'arte italiana.",
+      "source": "Wikimedia Commons",
+      "artist": "collection by DanieleDF1995 ( talk )",
+      "date": "2010-03-29",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "2276"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — School of Ferrara",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1407578",
+      "url": "https://www.wikidata.org/wiki/Q1407578",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:21.661Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — School of Ferrara",
+      "url": "https://en.wikipedia.org/wiki/School_of_Ferrara",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:21.661Z"
+      }
+    }
+  ],
   "wikidata": "Q1407578",
   "wikipedia": "School of Ferrara",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:54.504Z"
 }

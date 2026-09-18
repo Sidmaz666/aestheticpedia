@@ -7,9 +7,9 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
-  "periodStart": "",
+  "origin": "South Korea",
+  "geography": "South Korea",
+  "periodStart": "Baekje",
   "periodEnd": "",
   "startYear": null,
   "endYear": null,
@@ -17,7 +17,33 @@
   "summary": "The gold diadem ornaments of the Queen Consort of King Muryeong are a pair of 6th-century golden ornaments made in the kingdom of Baekje, one of the Three Kingdoms of Korea.",
   "description": "The gold diadem ornaments of the Queen Consort of King Muryeong are a pair of 6th-century golden ornaments made in the kingdom of Baekje, one of the Three Kingdoms of Korea. They were excavated in 1971 in the tomb of King Muryeong in Gongju City, the second capital of Baekje. In recognition of its beauty and historic meaning, it was designated as the 155th National Treasure of Korea on July 9, 1974. The pair was found near the queen's coffin.\n\nIt was 22.6 cm in height and 13.4 cm wide. The drilled gold plate was decorated with the patterns. It was similar to that of the king’s crown, with a flower at the top and a lotus-shaped design in the middle. Some flame patterns appear on the edges, following bilateral symmetry. These artifacts were the only two crown ornaments discovered in the Gongju area.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#181512",
+      "name": "black"
+    },
+    {
+      "hex": "#362d24",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#885d23",
+      "name": "bronze"
+    },
+    {
+      "hex": "#716f6e",
+      "name": "slate"
+    },
+    {
+      "hex": "#684219",
+      "name": "sepia"
+    },
+    {
+      "hex": "#a27938",
+      "name": "copper"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "ornament"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Korea-Baekje-Muryeong-crown155.jpg/1280px-Korea-Baekje-Muryeong-crown155.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Korea-Baekje-Muryeong-crown155.jpg/500px-Korea-Baekje-Muryeong-crown155.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Korea-Baekje-Muryeong-crown155.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Korea-Baekje-Muryeong-crown155.jpg",
+      "caption": "en:Baekje King Muryeong’s crown, 6th century, National Treasure No. 155.",
+      "source": "Wikimedia Commons",
+      "artist": "Good friend100 at English Wikipedia",
+      "date": "22 July 2007 (original upload date)",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gold Diadem Ornaments of the Queen Consort of King Muryeong",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16092969",
+      "url": "https://www.wikidata.org/wiki/Q16092969",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:13.878Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gold Diadem Ornaments of the Queen Consort of King Muryeong",
+      "url": "https://en.wikipedia.org/wiki/Gold_Diadem_Ornaments_of_the_Queen_Consort_of_King_Muryeong",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:13.878Z"
+      }
+    }
+  ],
   "wikidata": "Q16092969",
   "wikipedia": "Gold Diadem Ornaments of the Queen Consort of King Muryeong",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.223Z"
 }

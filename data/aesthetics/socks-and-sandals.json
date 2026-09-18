@@ -19,7 +19,33 @@
   "summary": "Wearing socks and sandals together is a controversial fashion combination and social phenomenon that is discussed in various countries and cultures.",
   "description": "Wearing socks and sandals together is a controversial fashion combination and social phenomenon that is discussed in various countries and cultures. In some places it is considered a fashion faux pas.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bcab99",
+      "name": "khaki"
+    },
+    {
+      "hex": "#ca5949",
+      "name": "terracotta"
+    },
+    {
+      "hex": "#eee7d9",
+      "name": "linen"
+    },
+    {
+      "hex": "#ae4939",
+      "name": "brick"
+    },
+    {
+      "hex": "#decfbf",
+      "name": "bone white"
+    },
+    {
+      "hex": "#933329",
+      "name": "burnt sienna"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,50 @@
   "tags": [
     "fashion style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sandals_Worn_wth_White_Ankle_Socks.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sandals_Worn_wth_White_Ankle_Socks.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sandals_Worn_wth_White_Ankle_Socks.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sandals_Worn_wth_White_Ankle_Socks.jpg",
+      "caption": "The feet of a man wearing white ankle socks and sandals",
+      "source": "Wikimedia Commons",
+      "artist": "Oddman47",
+      "date": "2012-01-21",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "830",
+      "height": "520"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/BLW_Pair_of_socks.jpg/1280px-BLW_Pair_of_socks.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/BLW_Pair_of_socks.jpg/500px-BLW_Pair_of_socks.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/BLW_Pair_of_socks.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BLW_Pair_of_socks.jpg",
+      "caption": "Pair of socks 300-500 Egypt Wool (knitted) These socks are the earliest knitted items in the V&A's collection. Made in 300-499 AD, they were excavated in Egypt at the end of the 19th century. They have a divided toe and are designed to be worn with sandals. The socks are knitted ",
+      "source": "Wikimedia Commons",
+      "artist": "David Jackson",
+      "date": "Photographed in February 2010",
+      "license": "CC BY-SA 2.0 uk",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/uk/deed.en",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Tenacious_D_in_concert_3.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Tenacious_D_in_concert_3.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Tenacious_D_in_concert_3.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tenacious_D_in_concert_3.jpg",
+      "caption": "Kyle Gass facing the audience and playing a guitar. Tenacious D in concert, 2006.",
+      "source": "Wikimedia Commons",
+      "artist": "jblackburn.",
+      "date": "2006-11-17 22:36",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1000",
+      "height": "750"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Socks and sandals",
@@ -64,7 +133,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q17084639",
+      "url": "https://www.wikidata.org/wiki/Q17084639",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:14.213Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Socks and sandals",
+      "url": "https://en.wikipedia.org/wiki/Socks_and_sandals",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:14.213Z"
+      }
+    }
+  ],
   "wikidata": "Q17084639",
   "wikipedia": "Socks and sandals",
   "popularity": 35,
@@ -72,5 +164,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:06:14.213Z"
 }

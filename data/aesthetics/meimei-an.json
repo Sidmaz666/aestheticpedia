@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Japan",
+  "geography": "Japan",
   "periodStart": "18th century",
   "periodEnd": "",
   "startYear": 1779,
@@ -17,7 +17,33 @@
   "summary": "Meimei-an (明々庵) is a tea house originally constructed in 1779 by Lord Matsudaira Harusato, daimyō of the Matsue clan at that time.",
   "description": "Meimei-an (明々庵) is a tea house originally constructed in 1779 by Lord Matsudaira Harusato, daimyō of the Matsue clan at that time. It is located in Matsue, Shimane, Japan.\n\nMeimei-an was designed in the style of the Fumai-ko school of tea ceremony (茶道), which was created by the seventh Lord of the Matsudaira to rule from Matsue. His name was Harusato, however, his nickname was Fumai-ko, thus his style of tea ceremony also took on the name Fumai-ryu (不昧流).",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1e1d14",
+      "name": "black"
+    },
+    {
+      "hex": "#3d3d2c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#565c3e",
+      "name": "umber"
+    },
+    {
+      "hex": "#718249",
+      "name": "olive green"
+    },
+    {
+      "hex": "#938c7e",
+      "name": "stone"
+    },
+    {
+      "hex": "#6d686a",
+      "name": "umber 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Meimeian06nt3200.jpg/1280px-Meimeian06nt3200.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Meimeian06nt3200.jpg/500px-Meimeian06nt3200.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Meimeian06nt3200.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Meimeian06nt3200.jpg",
+      "caption": "Meimeian in Matsue, Shimane prefecture, Japan",
+      "source": "Wikimedia Commons",
+      "artist": "663highland",
+      "date": "2008-07-20",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "852"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Meimei-an",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3304708",
+      "url": "https://www.wikidata.org/wiki/Q3304708",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:20.510Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Meimei-an",
+      "url": "https://en.wikipedia.org/wiki/Meimei-an",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:20.510Z"
+      }
+    }
+  ],
   "wikidata": "Q3304708",
   "wikipedia": "Meimei-an",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.408Z"
 }

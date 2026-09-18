@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Mexico",
+  "geography": "Mexico",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Taxco school of silver design was a twentieth-century artistic and workshop movement centered in Taxco, Guerrero, Mexico.",
   "description": "The Taxco school of silver design was a twentieth-century artistic and workshop movement centered in Taxco, Guerrero, Mexico. Emerging during the early 1930s and reaching its greatest international prominence in the 1940s and 1950s, it combined handwrought silver production with Mexican modernism, pre-Columbian imagery, colonial and popular-art traditions, and experimental approaches to jewelry and decorative arts.\n\nThe movement developed around the workshop system established by the American designer William Spratling at Taller de Las Delicias. Mexican master craftsmen trained a generation of silversmiths and designers there, many of whom subsequently established independent workshops, including Los Castillo, Taller Borda, the workshop of Antonio Pineda, and Margot de Taxco. Together with other designers and master silversmiths, they formed the group that Betsy D. Quick and Kim Richter call the Taxco School.\n\nThe Taxco School was the principal center of the broader twentieth-century Mexican silver renaissance. Its designers became known for substantial handwrought construction, technical innovation, sculptural jewelry, and the integration of silver with materials including obsidian, jadeite, amethyst, turquoise, wood, shell, enamel, brass, copper, and gold.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#7c7b79",
+      "name": "taupe"
+    },
+    {
+      "hex": "#413b3d",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#261c1d",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#5d5a5d",
+      "name": "graphite"
+    },
+    {
+      "hex": "#d9e2e8",
+      "name": "bone white"
+    },
+    {
+      "hex": "#979ba0",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Artesan%C3%ADa_con_plata.jpg/1280px-Artesan%C3%ADa_con_plata.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Artesan%C3%ADa_con_plata.jpg/500px-Artesan%C3%ADa_con_plata.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Artesan%C3%ADa_con_plata.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Artesan%C3%ADa_con_plata.jpg",
+      "caption": "Artesano mexicano trabajando pieza de plata para venta en Taxco, Guerrero. (Fotografía Móvil)",
+      "source": "Wikimedia Commons",
+      "artist": "Aline Livier",
+      "date": "2019-12-22",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "837"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/OchoRegiones007.JPG/1280px-OchoRegiones007.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/OchoRegiones007.JPG/500px-OchoRegiones007.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/34/OchoRegiones007.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:OchoRegiones007.JPG",
+      "caption": "Silver jar by Ezequiel Tapia Bahena of Taxco ,Guerrero, Mexico at the Ocho Regiones Puro Guerrero exhibit at the Museo de Culturas Populares in Mexico City",
+      "source": "Wikimedia Commons",
+      "artist": "AlejandroLinaresGarcia",
+      "date": "2015-10-25 10:31:32",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1925"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/ShopBJTaxco.JPG/1280px-ShopBJTaxco.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/ShopBJTaxco.JPG/500px-ShopBJTaxco.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ec/ShopBJTaxco.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:ShopBJTaxco.JPG",
+      "caption": "Silver shop with cave motif on Benito Juarez Street in Taxco de Alarcón, Guerrero, Mexico",
+      "source": "Wikimedia Commons",
+      "artist": "AlejandroLinaresGarcia",
+      "date": "2009-08-22",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "857"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Taxco school of silver design",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q140714107",
+      "url": "https://www.wikidata.org/wiki/Q140714107",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:15.259Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Taxco school of silver design",
+      "url": "https://en.wikipedia.org/wiki/Taxco_school_of_silver_design",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:15.259Z"
+      }
+    }
+  ],
   "wikidata": "Q140714107",
   "wikipedia": "Taxco school of silver design",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:02.218Z"
 }

@@ -17,7 +17,25 @@
   "summary": "Musashino (武蔵野, c. 1798–99) is a triptych print by the Japanese ukiyo-e artist Kitagawa Utamaro (c.",
   "description": "Musashino (武蔵野, c. 1798–99) is a triptych print by the Japanese ukiyo-e artist Kitagawa Utamaro (c. 1753 – 1806).  It is a mitate-e parody picture that alludes to the story in the 12th section of The Tales of Ise.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c0af8f",
+      "name": "khaki"
+    },
+    {
+      "hex": "#d5c3a7",
+      "name": "beige"
+    },
+    {
+      "hex": "#eddcc2",
+      "name": "bone white"
+    },
+    {
+      "hex": "#95816b",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +57,34 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Utamaro_%28c._1798%E2%80%9399%29_Musashino_%28right_of_3%2C_MET%29.jpg/1280px-Utamaro_%28c._1798%E2%80%9399%29_Musashino_%28right_of_3%2C_MET%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Utamaro_%28c._1798%E2%80%9399%29_Musashino_%28right_of_3%2C_MET%29.jpg/500px-Utamaro_%28c._1798%E2%80%9399%29_Musashino_%28right_of_3%2C_MET%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/Utamaro_%28c._1798%E2%80%9399%29_Musashino_%28right_of_3%2C_MET%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Utamaro_(c._1798%E2%80%9399)_Musashino_(right_of_3,_MET).jpg",
+      "caption": "https://www.metmuseum.org/art/collection/search/56794 Right panel of three from a triptych ukiyo-e print",
+      "source": "Wikimedia Commons",
+      "artist": "Kitagawa Utamaro",
+      "date": "circa 1798 date QS:P,+1798-00-00T00:00:00Z/9,P1480,Q5727902 ",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1875"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Utamaro_%28c._1798%E2%80%9399%29_Musashino.jpg/1280px-Utamaro_%28c._1798%E2%80%9399%29_Musashino.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Utamaro_%28c._1798%E2%80%9399%29_Musashino.jpg/500px-Utamaro_%28c._1798%E2%80%9399%29_Musashino.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Utamaro_%28c._1798%E2%80%9399%29_Musashino.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Utamaro_(c._1798%E2%80%9399)_Musashino.jpg",
+      "caption": "Triptych ukiyo-e print, a mitate-e print alluding to the 12th section of the Tales of Ise .",
+      "source": "Wikimedia Commons",
+      "artist": "Kitagawa Utamaro",
+      "date": "circa 1798 date QS:P,+1798-00-00T00:00:00Z/9,P1480,Q5727902 ",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "654"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Musashino (Utamaro)",
@@ -62,7 +107,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q30599068",
+      "url": "https://www.wikidata.org/wiki/Q30599068",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:10.786Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Musashino (Utamaro)",
+      "url": "https://en.wikipedia.org/wiki/Musashino_(Utamaro)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:10.786Z"
+      }
+    }
+  ],
   "wikidata": "Q30599068",
   "wikipedia": "Musashino (Utamaro)",
   "popularity": 35,
@@ -70,5 +138,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:56:10.786Z"
 }

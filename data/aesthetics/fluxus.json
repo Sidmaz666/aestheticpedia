@@ -41,7 +41,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Festum_Fluxorum_Fluxus.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Festum_Fluxorum_Fluxus.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Festum_Fluxorum_Fluxus.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Festum_Fluxorum_Fluxus.png",
+      "caption": "FESTUM FLUXORUM FLUXUS.",
+      "source": "Wikimedia Commons",
+      "artist": "Joseph Beuys and George Maciunas.",
+      "date": "2021",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "620",
+      "height": "1222"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Fluxus",
@@ -64,7 +79,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q108908",
+      "url": "https://www.wikidata.org/wiki/Q108908",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:28.218Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Fluxus",
+      "url": "https://en.wikipedia.org/wiki/Fluxus",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:28.218Z"
+      }
+    }
+  ],
   "wikidata": "Q108908",
   "wikipedia": "Fluxus",
   "popularity": 35,
@@ -72,5 +110,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:45:28.218Z"
 }

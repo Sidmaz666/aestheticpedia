@@ -9,15 +9,41 @@
   "confidence": 60,
   "origin": "",
   "geography": "",
-  "periodStart": "",
+  "periodStart": "Yayoi period",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": -299,
   "endYear": null,
-  "era": "",
+  "era": "299 BCE",
   "summary": "Yayoi pottery (弥生土器 Yayoi doki) is earthenware pottery produced during the Yayoi period, an Iron Age era in the history of Japan traditionally dated 300 BC to AD 300.",
   "description": "Yayoi pottery (弥生土器 Yayoi doki) is earthenware pottery produced during the Yayoi period, an Iron Age era in the history of Japan traditionally dated 300 BC to AD 300. The pottery allowed for the identification of the Yayoi period and its primary features such as agriculture and social structure.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#dbd4c5",
+      "name": "bone white"
+    },
+    {
+      "hex": "#fcfcf8",
+      "name": "ivory"
+    },
+    {
+      "hex": "#adaea3",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#3d363e",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#4a6278",
+      "name": "graphite"
+    },
+    {
+      "hex": "#010001",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,46 @@
   "tags": [
     "pottery style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Hon%27ami_Koetsu_Fujisan_1.jpg/1280px-Hon%27ami_Koetsu_Fujisan_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Hon%27ami_Koetsu_Fujisan_1.jpg/500px-Hon%27ami_Koetsu_Fujisan_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Hon%27ami_Koetsu_Fujisan_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hon%27ami_Koetsu_Fujisan_1.jpg",
+      "caption": "Hon'ami Koetsu Fujisan 1",
+      "source": "Wikimedia Commons",
+      "artist": "retouch: Qurren ( talk ).",
+      "date": "unknown (before 1937-09-15)",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "959"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/NINSEI_Wisteria_TeaJar_MOA.JPG/1280px-NINSEI_Wisteria_TeaJar_MOA.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/NINSEI_Wisteria_TeaJar_MOA.JPG/500px-NINSEI_Wisteria_TeaJar_MOA.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cf/NINSEI_Wisteria_TeaJar_MOA.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:NINSEI_Wisteria_TeaJar_MOA.JPG",
+      "caption": "Tea-leaf jar with a design of wisteria, enamelware and gold and silver, height: 28.8 cm (11.3 in), bore diameter: 10.1 cm (4.0 in), trunk diameter: 27.3 cm (10.7 in), bottom diameter: 10.5 cm (4.1 in) MOA Museum, Atami, Shizuoka, Japan",
+      "source": "Wikimedia Commons",
+      "artist": "Association of Cultural Properties, Tokyo",
+      "date": "1952-03-30",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1459"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/The_Great_Wave_off_Kanagawa-cutout.png/1280px-The_Great_Wave_off_Kanagawa-cutout.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/The_Great_Wave_off_Kanagawa-cutout.png/500px-The_Great_Wave_off_Kanagawa-cutout.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/The_Great_Wave_off_Kanagawa-cutout.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Great_Wave_off_Kanagawa-cutout.png",
+      "caption": "Although it is often used in tsunami literature, there is no reason to suspect that Hokusai intended it to be interpreted in that way. The waves in this work are sometimes mistakenly referred to as tsunami (津波), but they are more accurately called okinami (沖波), great off-shore wa",
+      "source": "Wikimedia Commons",
+      "artist": "Hokusai",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1195"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Yayoi pottery",
@@ -62,7 +127,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q11487461",
+      "url": "https://www.wikidata.org/wiki/Q11487461",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:10.607Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Yayoi pottery",
+      "url": "https://en.wikipedia.org/wiki/Yayoi_pottery",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:10.607Z"
+      }
+    }
+  ],
   "wikidata": "Q11487461",
   "wikipedia": "Yayoi pottery",
   "popularity": 35,
@@ -70,5 +158,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:06.016Z"
 }

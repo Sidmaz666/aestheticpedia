@@ -20,7 +20,33 @@
   "summary": "In the visual arts, a cityscape (urban landscape) is an artistic representation, such as a painting, drawing, print or photograph, of the physical aspects of a city or urban area.",
   "description": "In the visual arts, a cityscape (urban landscape) is an artistic representation, such as a painting, drawing, print or photograph, of the physical aspects of a city or urban area. It is the urban equivalent of a landscape. Townscape is roughly synonymous with cityscape, though it implies the same difference in urban size and density (and even modernity) implicit in the difference between the words city and town.  In urban design the terms refer to the configuration of built forms and interstitial space.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a19796",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#c6c6c0",
+      "name": "silver"
+    },
+    {
+      "hex": "#867d7a",
+      "name": "taupe"
+    },
+    {
+      "hex": "#716252",
+      "name": "umber"
+    },
+    {
+      "hex": "#2a6583",
+      "name": "teal"
+    },
+    {
+      "hex": "#504836",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,60 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/The_Dam_in_Amsterdam%2C_by_Gerrit_Adriaensz_Berckheyde.jpg/1280px-The_Dam_in_Amsterdam%2C_by_Gerrit_Adriaensz_Berckheyde.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/The_Dam_in_Amsterdam%2C_by_Gerrit_Adriaensz_Berckheyde.jpg/500px-The_Dam_in_Amsterdam%2C_by_Gerrit_Adriaensz_Berckheyde.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c5/The_Dam_in_Amsterdam%2C_by_Gerrit_Adriaensz_Berckheyde.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Dam_in_Amsterdam,_by_Gerrit_Adriaensz_Berckheyde.jpg",
+      "caption": "Dutch: De Dam in Amsterdam The Dam in Amsterdam",
+      "source": "Wikimedia Commons",
+      "artist": "Gerrit Adriaenszoon Berckheyde",
+      "date": "1668",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "804"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Dresden_photochrom2.jpg/1280px-Dresden_photochrom2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Dresden_photochrom2.jpg/500px-Dresden_photochrom2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Dresden_photochrom2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dresden_photochrom2.jpg",
+      "caption": "Altstadt (old city), Dresden in the late 19th century. View from the War Ministry. Photochrom print .",
+      "source": "Wikimedia Commons",
+      "artist": "Detroit Publishing Co.",
+      "date": "between 1890 and 1900 date QS:P,+1500-00-00T00:00:00Z/6,P131",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "938"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Monet_Houses_of_Parliament%2C_Sunset.jpg/1280px-Monet_Houses_of_Parliament%2C_Sunset.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Monet_Houses_of_Parliament%2C_Sunset.jpg/500px-Monet_Houses_of_Parliament%2C_Sunset.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/77/Monet_Houses_of_Parliament%2C_Sunset.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Monet_Houses_of_Parliament,_Sunset.jpg",
+      "caption": "French: Le Parlement, soleil couchant Houses of Parliament, sunset",
+      "source": "Wikimedia Commons",
+      "artist": "Claude Monet",
+      "date": "1902 date QS:P571,+1902-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1124"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Going_to_Work%2C_Lowry.png/1280px-Going_to_Work%2C_Lowry.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Going_to_Work%2C_Lowry.png/500px-Going_to_Work%2C_Lowry.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Going_to_Work%2C_Lowry.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Going_to_Work,_Lowry.png",
+      "caption": "Going to Work (Factory workers going to work at the Mather & Platt , Manchester, in the snow) . Oil on canvas, 457 x 609 mm",
+      "source": "Wikimedia Commons",
+      "artist": "L S Lowry",
+      "date": "1943 date QS:P571,+1943-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "949"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Cityscape",
@@ -65,7 +144,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1935974",
+      "url": "https://www.wikidata.org/wiki/Q1935974",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:17.848Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cityscape",
+      "url": "https://en.wikipedia.org/wiki/Cityscape",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:17.848Z"
+      }
+    }
+  ],
   "wikidata": "Q1935974",
   "wikipedia": "Cityscape",
   "popularity": 35,
@@ -73,5 +175,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:41:17.848Z"
 }

@@ -65,7 +65,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q130356281",
+      "url": "https://www.wikidata.org/wiki/Q130356281",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:25.647Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Quadrobics",
+      "url": "https://en.wikipedia.org/wiki/Quadrobics",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:25.647Z"
+      }
+    }
+  ],
   "wikidata": "Q130356281",
   "wikipedia": "Quadrobics",
   "popularity": 35,
@@ -73,5 +96,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:01:25.647Z"
 }

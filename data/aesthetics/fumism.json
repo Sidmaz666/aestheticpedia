@@ -19,7 +19,33 @@
   "summary": "Fumism or fumisme (French: fumisme from the French: fumée, smoke) is a conditionally decadent movement in Parisian art that existed from the late 1870s to the first quarter of the 20th century.",
   "description": "Fumism or fumisme (French: fumisme from the French: fumée, smoke) is a conditionally decadent movement in Parisian art that existed from the late 1870s to the first quarter of the 20th century. Fumism can be characterized as ″the art of blowing smoke in your eyes″ — practically, it is the same as Dadaism, but only forty years earlier. This generalized aesthetic-philosophical term became widespread in French culture in the late 19th and early 20th centuries thanks to Émile Goudeau, a poet, writer, finance ministry official, and founder of the so-called ″Hydropath Society″. The founders and ideological inspirers of the movement were the same Émile Goudeau, as well as two permanent troublemakers: Arthur Sapeck (real name — Eugène Bataille) and Alphonse Allais.\n\nOn the other hand, “fumists” (fumists or supporters of “fumism”) were not only artists and actors who were part of a specific aesthetic movement, but also a much broader group: in general, people who were frivolous, pretentious, throwing dust in the eyes and creating works in avant-garde styles (including the Fauvists, by consonance).",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e6dfd0",
+      "name": "bone white"
+    },
+    {
+      "hex": "#f8f8f8",
+      "name": "ivory"
+    },
+    {
+      "hex": "#050505",
+      "name": "black"
+    },
+    {
+      "hex": "#d0cabc",
+      "name": "silver"
+    },
+    {
+      "hex": "#768760",
+      "name": "moss"
+    },
+    {
+      "hex": "#262525",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,48 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Alphonse_Allais.jpg/1280px-Alphonse_Allais.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Alphonse_Allais.jpg/500px-Alphonse_Allais.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Alphonse_Allais.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Alphonse_Allais.jpg",
+      "caption": "Des souteneurs encore dans la force de l'âge et le ventre dans l'herbe boivent de l'absinthe, Rideau de fiacre, avant 1897",
+      "source": "Wikimedia Commons",
+      "artist": "Wikinizan12",
+      "date": "2021-06-09",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1695"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Sapeck-La_Joconde_fumant_la_pipe.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/16/Sapeck-La_Joconde_fumant_la_pipe.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/16/Sapeck-La_Joconde_fumant_la_pipe.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sapeck-La_Joconde_fumant_la_pipe.jpg",
+      "caption": "Scan de la page 5 du livre de Coquelin Cadet. Illustration reprenant un thème utilisé pour l'exposition des Arts Incohérents de 1883.",
+      "source": "Wikimedia Commons",
+      "artist": "Leonardo da Vinci / Arthur Sapeck",
+      "date": "1887 date QS:P571,+1887-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "853",
+      "height": "1280"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Marche_fun%C3%A8bre_compos%C3%A9e_pour_les_fun%C3%A9railles_d%27un_grand_homme_sourd_-_Alphonse_Allais.jpeg/1280px-Marche_fun%C3%A8bre_compos%C3%A9e_pour_les_fun%C3%A9railles_d%27un_grand_homme_sourd_-_Alphonse_Allais.jpeg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Marche_fun%C3%A8bre_compos%C3%A9e_pour_les_fun%C3%A9railles_d%27un_grand_homme_sourd_-_Alphonse_Allais.jpeg/500px-Marche_fun%C3%A8bre_compos%C3%A9e_pour_les_fun%C3%A9railles_d%27un_grand_homme_sourd_-_Alphonse_Allais.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Marche_fun%C3%A8bre_compos%C3%A9e_pour_les_fun%C3%A9railles_d%27un_grand_homme_sourd_-_Alphonse_Allais.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Marche_fun%C3%A8bre_compos%C3%A9e_pour_les_fun%C3%A9railles_d%27un_grand_homme_sourd_-_Alphonse_Allais.jpeg",
+      "caption": "Marche funèbre composée pour les funérailles d'un grand homme sourd (Funeral March for the Obsequies of a Deaf Man) by Alphonse Allais, from his Album primo-avrilesque.",
+      "source": "Wikimedia Commons",
+      "artist": "Alphonse Allais (1854–1905)",
+      "date": "1897",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "885"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Fumism",
@@ -64,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q18405064",
+      "url": "https://www.wikidata.org/wiki/Q18405064",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:16.283Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Fumism",
+      "url": "https://en.wikipedia.org/wiki/Fumism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:16.283Z"
+      }
+    }
+  ],
   "wikidata": "Q18405064",
   "wikipedia": "Fumism",
   "popularity": 35,
@@ -72,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:46:16.283Z"
 }

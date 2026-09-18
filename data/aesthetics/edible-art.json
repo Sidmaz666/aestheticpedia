@@ -17,7 +17,33 @@
   "summary": "Edible art refers to food created to be art.",
   "description": "Edible art refers to food created to be art. It is distinguished from Edible Arrangements (which predominantly consist of fruit) because it is usually more elaborate dessert food.  Common works of edible art include wedding cakes, birthday cakes, and cakes for baby showers, for graduation celebrations, and many other types of event.\n\nEach piece looks unique, even if created for the same event, because each creator has their own idea in mind when creating their food art.  Thus, they may be subject to cake copyright.  Such pieces of art can be created using a cake base onto which the cake decorations are placed, or they can be made purely out of fondant or sugar but, while edible, not created with consumption intended, such as Mexican Calavera.\n\nEach graphic artist has their own set of skills in creating their work, but there are several basic starting points for edible dessert art.  Most edible art franchises have sheet cakes, cut-out sheet cakes, layered cakes, sculpted cakes, and tiered cakes to choose from as a foundation.  One common technique is to airbrush the piece with sugar to enhance its features.  Many artists in this field have a degree in fine arts, and participate in freelance decorating.  Many edible art pieces relate to popular children's movies, books, and television shows.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1d1615",
+      "name": "black"
+    },
+    {
+      "hex": "#52392f",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#bab3bb",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#b393a3",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#98777c",
+      "name": "taupe"
+    },
+    {
+      "hex": "#6e5b66",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Edible_art_1.jpg/1280px-Edible_art_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Edible_art_1.jpg/500px-Edible_art_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/76/Edible_art_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Edible_art_1.jpg",
+      "caption": "couple standing with huge platter of edible art",
+      "source": "Wikimedia Commons",
+      "artist": "Aaron Muszalski",
+      "date": "2005-06-18",
+      "license": "Copyrighted free use",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Edible art",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q22908049",
+      "url": "https://www.wikidata.org/wiki/Q22908049",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:12.580Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Edible art",
+      "url": "https://en.wikipedia.org/wiki/Edible_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:12.580Z"
+      }
+    }
+  ],
   "wikidata": "Q22908049",
   "wikipedia": "Edible art",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:44:12.580Z"
 }

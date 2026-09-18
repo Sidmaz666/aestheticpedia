@@ -17,7 +17,33 @@
   "summary": "A gay cowboy refers to an individual belonging to the subculture within the gay community of homosexual men who dress and behave like cowboys.",
   "description": "A gay cowboy refers to an individual belonging to the subculture within the gay community of homosexual men who dress and behave like cowboys. This movement, which emerged mainly in the Western United States and Mexico, has spread throughout North America.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#9e9077",
+      "name": "stone"
+    },
+    {
+      "hex": "#e8f1f7",
+      "name": "paper white"
+    },
+    {
+      "hex": "#737872",
+      "name": "slate"
+    },
+    {
+      "hex": "#535553",
+      "name": "graphite"
+    },
+    {
+      "hex": "#3a3736",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#1a181d",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/VaqueroGroup2009MarchaDF.JPG/1280px-VaqueroGroup2009MarchaDF.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/VaqueroGroup2009MarchaDF.JPG/500px-VaqueroGroup2009MarchaDF.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0d/VaqueroGroup2009MarchaDF.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:VaqueroGroup2009MarchaDF.JPG",
+      "caption": "Group dressed as cowboys at the 2009 Marcha Gay in Mexico City",
+      "source": "Wikimedia Commons",
+      "artist": "Thelmadatter",
+      "date": "2009-06-20",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "857"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/CGRA-Rocky_Mountain_Regional_Rodeo_23_opening.JPG/1280px-CGRA-Rocky_Mountain_Regional_Rodeo_23_opening.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/CGRA-Rocky_Mountain_Regional_Rodeo_23_opening.JPG/500px-CGRA-Rocky_Mountain_Regional_Rodeo_23_opening.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/12/CGRA-Rocky_Mountain_Regional_Rodeo_23_opening.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:CGRA-Rocky_Mountain_Regional_Rodeo_23_opening.JPG",
+      "caption": "Photo from the Grand Entry at the Rocky Mountain Regional Rodeo 23 (July 2005), put on by the Colorado Gay Rodeo Association (CGRA",
+      "source": "Wikimedia Commons",
+      "artist": "Cowb0y ( talk ) ( Uploads ).",
+      "date": "2005-07-09",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gay cowboy",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q118847913",
+      "url": "https://www.wikidata.org/wiki/Q118847913",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:24.385Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gay cowboy",
+      "url": "https://en.wikipedia.org/wiki/Gay_cowboy",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:24.385Z"
+      }
+    }
+  ],
   "wikidata": "Q118847913",
   "wikipedia": "Gay cowboy",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:46:24.385Z"
 }

@@ -19,7 +19,33 @@
   "summary": "Forma 1, or simply Forma, was a group or school of young Italian artists formed in the years immediately after the end of the  Second World War.",
   "description": "Forma 1, or simply Forma, was a group or school of young Italian artists formed in the years immediately after the end of the  Second World War. It was formed in 1947, and was re-founded in 1961 as the group Continuità.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#6a6a6a",
+      "name": "slate"
+    },
+    {
+      "hex": "#535353",
+      "name": "graphite"
+    },
+    {
+      "hex": "#3b3b3b",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#888888",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a8a8a8",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#cccccc",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Gruppo_Forma_1.jpg/1280px-Gruppo_Forma_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Gruppo_Forma_1.jpg/500px-Gruppo_Forma_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/91/Gruppo_Forma_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gruppo_Forma_1.jpg",
+      "caption": "\"Gruppo Forma 1\": Pietro Consagra , Mino Guerrini , Ugo Attardi , Carla Accardi , Achille Perilli , Antonio Sanfilippo e Piero Dorazio (Roma, 1947)",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author The original uploader was Paola Severi Michelangeli at Italian Wikipedia .",
+      "date": "1947 date QS:P571,+1947-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1242"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Forma 1",
@@ -64,7 +104,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3077307",
+      "url": "https://www.wikidata.org/wiki/Q3077307",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:04.932Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Forma 1",
+      "url": "https://en.wikipedia.org/wiki/Forma_1",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:04.932Z"
+      }
+    }
+  ],
   "wikidata": "Q3077307",
   "wikipedia": "Forma 1",
   "popularity": 35,
@@ -72,5 +135,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:46:04.932Z"
 }

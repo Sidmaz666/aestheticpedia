@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Kingdom of France",
+  "geography": "Kingdom of France",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -19,7 +19,33 @@
   "summary": "The Louis XIII style or Louis Treize was a fashion in French art and architecture, especially affecting the visual and decorative arts.",
   "description": "The Louis XIII style or Louis Treize was a fashion in French art and architecture, especially affecting the visual and decorative arts. Its distinctness as a period in the history of French art has much to do with the regency under which Louis XIII began his reign (1610–1643). His mother and regent, Marie de' Medici, imported Mannerism from her homeland of Italy and the influence of Italian art was to be strongly felt for several decades.\n\nLouis XIII-style painting was influenced from the north, through Flemish and Dutch Baroque, and from the south, through Italian mannerism and early Baroque. Schools developed around Caravaggio and Peter Paul Rubens. Among the French painters who blended Italian mannerism with a love of genre scenes were Georges de La Tour, Simon Vouet, and the Le Nain brothers. The influence of the painters on subsequent generations, however, was minimised by the rise of classicism under Nicolas Poussin and his followers.\n\nLouis XIII architecture was equally influenced by Italian styles. The greatest French architect of the era, Salomon de Brosse, designed the Luxembourg Palace for Marie de' Medici. De Brosse began a tradition of classicism in architecture that was continued by Jacques Lemercier, who completed the Palais and whose own most famous work of the Louis XIII period is the Sorbonne Chapel (1635). Under the next generation of architects, French Baroque architecture would take an even greater classical shift.\n\nFurniture of the period was typically large and austere.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c6b9b0",
+      "name": "silver"
+    },
+    {
+      "hex": "#b0a393",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#958869",
+      "name": "stone"
+    },
+    {
+      "hex": "#746b57",
+      "name": "bronze"
+    },
+    {
+      "hex": "#57503d",
+      "name": "umber"
+    },
+    {
+      "hex": "#9ccef1",
+      "name": "sky blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,35 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Palais_Luxembourg_Sunset_Edit.JPG/1280px-Palais_Luxembourg_Sunset_Edit.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Palais_Luxembourg_Sunset_Edit.JPG/500px-Palais_Luxembourg_Sunset_Edit.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/95/Palais_Luxembourg_Sunset_Edit.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Palais_Luxembourg_Sunset_Edit.JPG",
+      "caption": "The palace of Luxembourg , in the Luxembourg garden , Paris , at sunset.",
+      "source": "Wikimedia Commons",
+      "artist": "Benh LIEU SONG , crane cloned out by Sanchezn",
+      "date": "2007-09-20",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Couronnement_de_crois%C3%A9e%2C_Style_Louis_XIII%2C_objectnr_A_59269.jpg/1280px-Couronnement_de_crois%C3%A9e%2C_Style_Louis_XIII%2C_objectnr_A_59269.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Couronnement_de_crois%C3%A9e%2C_Style_Louis_XIII%2C_objectnr_A_59269.jpg/500px-Couronnement_de_crois%C3%A9e%2C_Style_Louis_XIII%2C_objectnr_A_59269.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Couronnement_de_crois%C3%A9e%2C_Style_Louis_XIII%2C_objectnr_A_59269.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Couronnement_de_crois%C3%A9e,_Style_Louis_XIII,_objectnr_A_59269.jpg",
+      "caption": "Identificatie Titel: Couronnement de croisée, Style Louis XIII Objectnummer: A 59269 Objecttype: prent Huidige locatie: in depot Onderwerpen: ornamentboeken bouwelement ornamentiek Vervaardiging Vervaardiger: onbekend (kunstenaar) Goupil & Cie (uitgever) Lemercier et Cie (drukker",
+      "source": "Wikimedia Commons",
+      "artist": "onbekend (kunstenaar) Goupil & Cie (uitgever) Lemercier et Cie (drukker)",
+      "date": "1850",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "954"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Louis XIII style",
@@ -64,7 +118,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1323065",
+      "url": "https://www.wikidata.org/wiki/Q1323065",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:11.838Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Louis XIII style",
+      "url": "https://en.wikipedia.org/wiki/Louis_XIII_style",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:11.838Z"
+      }
+    }
+  ],
   "wikidata": "Q1323065",
   "wikipedia": "Louis XIII style",
   "popularity": 35,
@@ -72,5 +149,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.663Z"
 }

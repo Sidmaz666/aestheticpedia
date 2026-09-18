@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q107610527",
+      "url": "https://www.wikidata.org/wiki/Q107610527",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:17.304Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Hoteps",
+      "url": "https://en.wikipedia.org/wiki/Hoteps",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:17.304Z"
+      }
+    }
+  ],
   "wikidata": "Q107610527",
   "wikipedia": "Hoteps",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:49:17.304Z"
 }

@@ -20,7 +20,33 @@
   "summary": "Digital art, or the digital arts, is artistic work that uses digital technology as part of the creative or presentational process.",
   "description": "Digital art, or the digital arts, is artistic work that uses digital technology as part of the creative or presentational process. It can also refer to computational art that uses and engages with digital media. Since the 1960s, various names have been used to describe digital art, including computer art, electronic art, multimedia art, and new media art. Digital art includes pieces stored on physical media, such as with digital painting, as well as digital galleries on websites. Digital art also extends to the field of visual computing.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#44433c",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#211f1f",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#c5c0bb",
+      "name": "silver"
+    },
+    {
+      "hex": "#f8f7f6",
+      "name": "ivory"
+    },
+    {
+      "hex": "#a9a4a0",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#7e6d40",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,64 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Boundaryfunctions_1.jpg/1280px-Boundaryfunctions_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Boundaryfunctions_1.jpg/500px-Boundaryfunctions_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Boundaryfunctions_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Boundaryfunctions_1.jpg",
+      "caption": "Boundary Functions by Scott Snibbe installed at Tokyo Intercommunications Center.",
+      "source": "Wikimedia Commons",
+      "artist": "Scott Snibbe",
+      "date": "1999",
+      "license": "GFDL",
+      "licenseUrl": "http://www.gnu.org/copyleft/fdl.html",
+      "width": "1280",
+      "height": "953"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Digital_art_classroom.webp/1280px-Digital_art_classroom.webp",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Digital_art_classroom.webp/500px-Digital_art_classroom.webp",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/78/Digital_art_classroom.webp",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Digital_art_classroom.webp",
+      "caption": "Digital art workstations in the classroom.",
+      "source": "Wikimedia Commons",
+      "artist": "Wikideas1",
+      "date": "2025-04-13",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "967"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Debris._04.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/57/Debris._04.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/57/Debris._04.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Debris._04.jpg",
+      "caption": "fr-041: debris. demo screenshot",
+      "source": "Wikimedia Commons",
+      "artist": "Farbrausch",
+      "date": "2016-02-08",
+      "license": "BSD",
+      "licenseUrl": "http://opensource.org/licenses/bsd-license.php",
+      "width": "1024",
+      "height": "512"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Inkscape.png/1280px-Inkscape.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Inkscape.png/500px-Inkscape.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/08/Inkscape.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Inkscape.png",
+      "caption": "Inkscape 0.48 sceenshot",
+      "source": "Wikimedia Commons",
+      "artist": "Inkscape See AUTHORS file in Inkscape 0.48.1 source code. Screenshot Ramón Retamar Car graphic Konstantin Rotkevich",
+      "date": "2013-01-31 23:44:09",
+      "license": "GPL",
+      "licenseUrl": "http://www.gnu.org/licenses/gpl.html",
+      "width": "1280",
+      "height": "879"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Digital art",
@@ -65,7 +148,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q860372",
+      "url": "https://www.wikidata.org/wiki/Q860372",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:12.481Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Digital art",
+      "url": "https://en.wikipedia.org/wiki/Digital_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:12.481Z"
+      }
+    }
+  ],
   "wikidata": "Q860372",
   "wikipedia": "Digital art",
   "popularity": 35,
@@ -73,5 +179,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:43:12.481Z"
 }

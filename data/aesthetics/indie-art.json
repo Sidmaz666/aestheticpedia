@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16254166",
+      "url": "https://www.wikidata.org/wiki/Q16254166",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:06.108Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Indie art",
+      "url": "https://en.wikipedia.org/wiki/Indie_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:06.108Z"
+      }
+    }
+  ],
   "wikidata": "Q16254166",
   "wikipedia": "Indie art",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:50:06.108Z"
 }

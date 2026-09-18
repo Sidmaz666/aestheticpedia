@@ -19,7 +19,33 @@
   "summary": "Semi-formal wear or half dress is a grouping of dress codes indicating the sort of clothes worn to events with a level of formality between informal wear and formal wear.",
   "description": "Semi-formal wear or half dress is a grouping of dress codes indicating the sort of clothes worn to events with a level of formality between informal wear and formal wear. The traditional interpretation for men is black tie for evening wear and black lounge suit for day wear, corresponded by either a pant suit or an evening gown for women.\n\nWhether one would choose to wear morning or evening semi-formal has traditionally been defined by whether the event will commence before or after 6:00 p.m.\n\nIn addition, equivalent versions may be permitted such as ceremonial dresses (including court dress, diplomatic uniforms and academic dress), religious clothing, national costumes, and military mess dress.\n\nIn more colloquial, modern formulations, semi-formal has been defined closer to what is traditionally considered \"informal wear\".",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fefefe",
+      "name": "ivory"
+    },
+    {
+      "hex": "#bda285",
+      "name": "sand"
+    },
+    {
+      "hex": "#dac6ae",
+      "name": "beige"
+    },
+    {
+      "hex": "#957456",
+      "name": "bronze"
+    },
+    {
+      "hex": "#7b5739",
+      "name": "umber"
+    },
+    {
+      "hex": "#773b1d",
+      "name": "sepia"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,49 @@
   "tags": [
     "fashion style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BathingSuit1920s.jpg",
+      "caption": "Woman's bathing suit from 1920s. Photo postcard. No copyright notice on card. This is a SOL postcard, series 2832. Here is a larger example of the posted image.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "early 1920s date QS:P,+1920-00-00T00:00:00Z/8,P4241,Q4071972",
+      "license": "Public domain",
+      "width": "768",
+      "height": "490"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Valentino_evening_gown_for_Audrey_Hepburn.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Valentino_evening_gown_for_Audrey_Hepburn.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Valentino_evening_gown_for_Audrey_Hepburn.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Valentino_evening_gown_for_Audrey_Hepburn.jpg",
+      "caption": "Dress made by Valentino, worn by Audrey Hepburn. Photographed at the exhibition \"Valentino a Roma\" at Museo Ara Pacis in Rome",
+      "source": "Wikimedia Commons",
+      "artist": "Loquax",
+      "date": "2008-08",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "670",
+      "height": "1763"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/05225e83-e8e7-eab6-1506-0fcb117c34f9/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/05225e83-e8e7-eab6-1506-0fcb117c34f9/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/05225e83-e8e7-eab6-1506-0fcb117c34f9/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/210026",
+      "caption": "Wearing Blanket, 1860-90",
+      "source": "Art Institute of Chicago",
+      "artist": "Navajo (Diné)",
+      "date": "1860-90",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "610"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Semi-formal wear",
@@ -64,7 +132,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7449301",
+      "url": "https://www.wikidata.org/wiki/Q7449301",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:05.186Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Semi-formal wear",
+      "url": "https://en.wikipedia.org/wiki/Semi-formal_wear",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:05.186Z"
+      }
+    }
+  ],
   "wikidata": "Q7449301",
   "wikipedia": "Semi-formal wear",
   "popularity": 35,
@@ -72,5 +163,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:05:05.186Z"
 }

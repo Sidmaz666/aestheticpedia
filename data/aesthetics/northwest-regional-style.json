@@ -19,7 +19,33 @@
   "summary": "Northwest Regional style architecture is an architectural style popular in the Pacific Northwest between 1935 and 1960.",
   "description": "Northwest Regional style architecture is an architectural style popular in the Pacific Northwest between 1935 and 1960. It is a regional variant of the International Style. It is defined by the extensive use of unpainted wood in both interiors and exteriors. Other features of the style include integration of the building with its setting through asymmetrical floor plans, exterior open rooms, extensive use of glass extending to the floor, a low-pitched or flat roof of shingles with overhanging eaves, and a minimum of decoration. It is sometimes known as Northwest style or Northwest modernism.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f9fafa",
+      "name": "ivory"
+    },
+    {
+      "hex": "#4a5045",
+      "name": "graphite"
+    },
+    {
+      "hex": "#5e6658",
+      "name": "umber"
+    },
+    {
+      "hex": "#767e71",
+      "name": "slate"
+    },
+    {
+      "hex": "#8e9693",
+      "name": "stone"
+    },
+    {
+      "hex": "#333930",
+      "name": "aubergine"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,36 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Seattle_-_11205_Lakeside_Ave_NE_02.jpg/1280px-Seattle_-_11205_Lakeside_Ave_NE_02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Seattle_-_11205_Lakeside_Ave_NE_02.jpg/500px-Seattle_-_11205_Lakeside_Ave_NE_02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/45/Seattle_-_11205_Lakeside_Ave_NE_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Seattle_-_11205_Lakeside_Ave_NE_02.jpg",
+      "caption": "11205 Lakeside Ave NE , Seattle, Washington in the Matthews Beach neighborhood. An example of Northwest Regional style architecture.",
+      "source": "Wikimedia Commons",
+      "artist": "Joe Mabel",
+      "date": "Taken on 13 December 2017",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Seattle_-_Northeast_Library_01.jpg/1280px-Seattle_-_Northeast_Library_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Seattle_-_Northeast_Library_01.jpg/500px-Seattle_-_Northeast_Library_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/db/Seattle_-_Northeast_Library_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Seattle_-_Northeast_Library_01.jpg",
+      "caption": "North East Library, Seattle, Washington. The building has city landmark status.",
+      "source": "Wikimedia Commons",
+      "artist": "Joe Mabel",
+      "date": "2008-02-18",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Northwest Regional style",
@@ -64,7 +119,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16931750",
+      "url": "https://www.wikidata.org/wiki/Q16931750",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:12.308Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Northwest Regional style",
+      "url": "https://en.wikipedia.org/wiki/Northwest_Regional_style",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:12.308Z"
+      }
+    }
+  ],
   "wikidata": "Q16931750",
   "wikipedia": "Northwest Regional style",
   "popularity": 35,
@@ -72,5 +150,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:58:12.308Z"
 }

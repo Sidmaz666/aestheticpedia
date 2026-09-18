@@ -17,7 +17,29 @@
   "summary": "The Munich school (Greek: Σχολή του Μονάχου) is a group of painters who worked in Munich or were trained at the Royal Academy of Fine Arts of Munich (German: Münchner Akademie der Bildenden Künste) between 1850 and 1918.",
   "description": "The Munich school (Greek: Σχολή του Μονάχου) is a group of painters who worked in Munich or were trained at the Royal Academy of Fine Arts of Munich (German: Münchner Akademie der Bildenden Künste) between 1850 and 1918. In the second half of the 19th century the Academy became one of the most important institutions in Europe for training artists and attracted students from across Europe and the United States.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#150708",
+      "name": "black"
+    },
+    {
+      "hex": "#49251c",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#733727",
+      "name": "burnt sienna"
+    },
+    {
+      "hex": "#965136",
+      "name": "brick"
+    },
+    {
+      "hex": "#b76e48",
+      "name": "copper"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +61,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Wilhelm_Maria_Hubertus_Leibl_013.jpg/1280px-Wilhelm_Maria_Hubertus_Leibl_013.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Wilhelm_Maria_Hubertus_Leibl_013.jpg/500px-Wilhelm_Maria_Hubertus_Leibl_013.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Wilhelm_Maria_Hubertus_Leibl_013.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Wilhelm_Maria_Hubertus_Leibl_013.jpg",
+      "caption": "German: Küche in Kutterling (Therese Antretter und Nikolaus Ebersberger) Küche in Kutterling",
+      "source": "Wikimedia Commons",
+      "artist": "Wilhelm Leibl",
+      "date": "1898",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1746"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Munich school",
@@ -62,7 +98,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q319973",
+      "url": "https://www.wikidata.org/wiki/Q319973",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:09.131Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Munich school",
+      "url": "https://en.wikipedia.org/wiki/Munich_school",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:09.131Z"
+      }
+    }
+  ],
   "wikidata": "Q319973",
   "wikipedia": "Munich school",
   "popularity": 35,
@@ -70,5 +129,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:56:09.131Z"
 }

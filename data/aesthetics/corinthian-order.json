@@ -19,7 +19,29 @@
   "summary": "The Corinthian order (Greek: Κορινθιακὸς ῥυθμός, Korinthiakós rythmós; Latin: Ordo Corinthius) is the last developed and most ornate of the three principal classical orders of Ancient Greek architecture and later used in Roman architecture.",
   "description": "The Corinthian order (Greek: Κορινθιακὸς ῥυθμός, Korinthiakós rythmós; Latin: Ordo Corinthius) is the last developed and most ornate of the three principal classical orders of Ancient Greek architecture and later used in Roman architecture. The other two are the Doric order, which was the earliest, followed by the Ionic order. In Ancient Greek architecture, the Corinthian order follows the Ionic in almost all respects, other than the capitals of the columns, though this changed in Roman architecture.\n\nA Corinthian capital may be seen as an enriched development of the Ionic capital, though one may have to look closely at a Corinthian capital to see the Ionic volutes (\"helices\"), at the corners, perhaps reduced in size and importance, scrolling out above the two ranks of stylized acanthus leaves and stalks (\"cauliculi\" or caulicoles), eight in all, and to notice that smaller volutes scroll inwards to meet each other on each side. The leaves may be quite stiff, schematic and dry, or they may be extravagantly drilled and undercut, naturalistic and spiky. The flat abacus at the top of the capital has a concave curve on each face, and usually a single flower (\"rosette\") projecting from the leaves below overlaps it on each face.\n\nWhen classical architecture was revived during the Renaissance, two more orders were added to the canon: the Tuscan order and the Composite order, known in Roman times, but regarded as a grand imperial variant of the Corinthian.  The Corinthian has fluted columns and elaborate capitals decorated with acanthus leaves and scrolls. There are many variations.\n\nThe name Corinthian is derived from the ancient Greek city of Corinth, although it was probably invented in Athens.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#301f13",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#5f4028",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#916841",
+      "name": "bronze"
+    },
+    {
+      "hex": "#a97e50",
+      "name": "copper"
+    },
+    {
+      "hex": "#d5a469",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +63,143 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Temple_of_Bacchus_at_Baalbek.jpg/1280px-Temple_of_Bacchus_at_Baalbek.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Temple_of_Bacchus_at_Baalbek.jpg/500px-Temple_of_Bacchus_at_Baalbek.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Temple_of_Bacchus_at_Baalbek.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Bacchus_at_Baalbek.jpg",
+      "caption": "The Temple of Bacchus at Baalbek, is a World Heritage site and one of the best preserved Roman temple ruins in the world.",
+      "source": "Wikimedia Commons",
+      "artist": "Alexandre Mounayer",
+      "date": "2017-08-16 15:28:37",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "845"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Xanten_reconstructed_composite_capital.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Xanten_reconstructed_composite_capital.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Xanten_reconstructed_composite_capital.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Xanten_reconstructed_composite_capital.jpg",
+      "caption": "Xanten reconstructed composite capital",
+      "source": "Wikimedia Commons",
+      "artist": "Jona Lendering",
+      "date": "2018-10-13",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1200",
+      "height": "828"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Temple_of_Apollo_Epikourios%2C_Bassae%2C_details_of_a_Corinthian_isolated_column_in_the_interior.webp",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Temple_of_Apollo_Epikourios%2C_Bassae%2C_details_of_a_Corinthian_isolated_column_in_the_interior.webp",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Temple_of_Apollo_Epikourios%2C_Bassae%2C_details_of_a_Corinthian_isolated_column_in_the_interior.webp",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Apollo_Epikourios,_Bassae,_details_of_a_Corinthian_isolated_column_in_the_interior.webp",
+      "caption": "Temple of Apollo Epikourios, Bassae, details of a Corinthian isolated column in the interior",
+      "source": "Wikimedia Commons",
+      "artist": "C.R. Cockerell",
+      "date": "1860",
+      "license": "Public domain",
+      "width": "1253",
+      "height": "2000"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/The_external_face_of_the_capital%2C_with_the_entablature%2C_and_half_one_of_the_tripods_-_Stuart_James_%26_Revett_Nicholas_-_1762.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/24/The_external_face_of_the_capital%2C_with_the_entablature%2C_and_half_one_of_the_tripods_-_Stuart_James_%26_Revett_Nicholas_-_1762.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/24/The_external_face_of_the_capital%2C_with_the_entablature%2C_and_half_one_of_the_tripods_-_Stuart_James_%26_Revett_Nicholas_-_1762.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_external_face_of_the_capital,_with_the_entablature,_and_half_one_of_the_tripods_-_Stuart_James_%26_Revett_Nicholas_-_1762.jpg",
+      "caption": "James Stuart & Nicholas Revett. The Antiquities of Athens measured and delineated by James Stuart F.R.S. and F.S.A. and Nicholas Revett Painters and Αrchitects, vol. III (ed. Willey Reveley), London, John Nichols, 1794",
+      "source": "Wikimedia Commons",
+      "artist": "James Stuart / Nicholas Revett",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "1004",
+      "height": "1500"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Corinthian_capital%2C_AM_of_Epidauros%2C_202545.jpg/1280px-Corinthian_capital%2C_AM_of_Epidauros%2C_202545.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Corinthian_capital%2C_AM_of_Epidauros%2C_202545.jpg/500px-Corinthian_capital%2C_AM_of_Epidauros%2C_202545.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Corinthian_capital%2C_AM_of_Epidauros%2C_202545.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Corinthian_capital,_AM_of_Epidauros,_202545.jpg",
+      "caption": "This corinthian capital was not found among the ruins of the Thymele during the excavation. Instead it was discovered by Cavadidas later, burried carefully by the ancients somewhere between the monument and the Temple of Askleiops. It has been considered as the original prototype",
+      "source": "Wikimedia Commons",
+      "artist": "Zde",
+      "date": "2020-09-26 12:41:03",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "852"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/L%27Olympieion_%28Ath%C3%A8nes%29_%2830776483926%29.jpg/1280px-L%27Olympieion_%28Ath%C3%A8nes%29_%2830776483926%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/L%27Olympieion_%28Ath%C3%A8nes%29_%2830776483926%29.jpg/500px-L%27Olympieion_%28Ath%C3%A8nes%29_%2830776483926%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/93/L%27Olympieion_%28Ath%C3%A8nes%29_%2830776483926%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:L%27Olympieion_(Ath%C3%A8nes)_(30776483926).jpg",
+      "caption": "The Olympiaion was a temple dedicated to Zeus that was started in 515 BC. But which was only completed in Roman times under Emperor Hadrian in 131. This Roman emperor was a lover of Greek art but also of young ephebes like Antinous. In the background, we see the southern slope of",
+      "source": "Wikimedia Commons",
+      "artist": "Jean-Pierre Dalbéra from Paris, France",
+      "date": "2016-10-26 09:43",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Les_edifices_antiques_de_Rome_1779_%28138343015%29.jpg/1280px-Les_edifices_antiques_de_Rome_1779_%28138343015%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Les_edifices_antiques_de_Rome_1779_%28138343015%29.jpg/500px-Les_edifices_antiques_de_Rome_1779_%28138343015%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Les_edifices_antiques_de_Rome_1779_%28138343015%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Les_edifices_antiques_de_Rome_1779_(138343015).jpg",
+      "caption": "Adres wydawniczy : A Paris : chez Claude Antoine Jombert fils ainé [...] : de l'imprim. de Monsieur, [post 8 VIII] 1779 Współtwórcy : Jombert, Claude-Antoine (1740-1788) Księgarz Opis fizyczny : [1] karta frontispis, XI, [1], 140 stron, 137 kart tablic (w tym. 21 rozkł.): frontis",
+      "source": "Wikimedia Commons",
+      "artist": "Antoine Desgodets",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "2127"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Interior_del_Coliseo._07.JPG/1280px-Interior_del_Coliseo._07.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Interior_del_Coliseo._07.JPG/500px-Interior_del_Coliseo._07.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Interior_del_Coliseo._07.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Interior_del_Coliseo._07.JPG",
+      "caption": "Roma. Coliseo, interior.",
+      "source": "Wikimedia Commons",
+      "artist": "Miguel Hermoso Cuesta",
+      "date": "2011-05-17 16:31:55",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1560"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Fig_1_The_capital_and_entablature_of_the_portico_before_the_door_Fig_2_A_fragment_of_the_Dentells_belonging_to_the_corni_-_Stuart_James_%26_Revett_Nicholas_-_1762.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/19/Fig_1_The_capital_and_entablature_of_the_portico_before_the_door_Fig_2_A_fragment_of_the_Dentells_belonging_to_the_corni_-_Stuart_James_%26_Revett_Nicholas_-_1762.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/19/Fig_1_The_capital_and_entablature_of_the_portico_before_the_door_Fig_2_A_fragment_of_the_Dentells_belonging_to_the_corni_-_Stuart_James_%26_Revett_Nicholas_-_1762.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fig_1_The_capital_and_entablature_of_the_portico_before_the_door_Fig_2_A_fragment_of_the_Dentells_belonging_to_the_corni_-_Stuart_James_%26_Revett_Nicholas_-_1762.jpg",
+      "caption": "James Stuart & Nicholas Revett. The Antiquities of Athens measured and delineated by James Stuart F.R.S. and F.S.A. and Nicholas Revett Painters and Αrchitects, vol. III (ed. Willey Reveley), London, John Nichols, 1794",
+      "source": "Wikimedia Commons",
+      "artist": "James Stuart / Nicholas Revett",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "1000",
+      "height": "1500"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Baalbek_%282001%29_10.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/95/Baalbek_%282001%29_10.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/95/Baalbek_%282001%29_10.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Baalbek_(2001)_10.jpg",
+      "caption": "Column and entablature of the Temple of Jupiter-Baal at the ruins of Heliopolis. Baalbek, Lerbanon",
+      "source": "Wikimedia Commons",
+      "artist": "LBM1948",
+      "date": "2001-04",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "654",
+      "height": "1065"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Corinthian order",
@@ -64,7 +222,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q54124",
+      "url": "https://www.wikidata.org/wiki/Q54124",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:09.083Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Corinthian order",
+      "url": "https://en.wikipedia.org/wiki/Corinthian_order",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:09.083Z"
+      }
+    }
+  ],
   "wikidata": "Q54124",
   "wikipedia": "Corinthian order",
   "popularity": 35,
@@ -72,5 +253,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:42:09.083Z"
 }

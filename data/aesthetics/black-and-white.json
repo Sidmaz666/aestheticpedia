@@ -23,7 +23,33 @@
   "summary": "Black-and-white (B&W or B/W) or monochrome images combine black and white to produce a range of achromatic brightnesses of grey.",
   "description": "Black-and-white (B&W or B/W) or monochrome images combine black and white to produce a range of achromatic brightnesses of grey. It is also known as grayscale in technical settings.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#464646",
+      "name": "graphite"
+    },
+    {
+      "hex": "#727272",
+      "name": "slate"
+    },
+    {
+      "hex": "#888888",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a0a0a0",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#b5b5b5",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#232323",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -45,7 +71,48 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Breadfruit.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Breadfruit.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Breadfruit.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Breadfruit.jpg",
+      "caption": "Photograph of Artocarpus altilis from Sri Lanka . Album print, c. 27.5 x 21.5 cm",
+      "source": "Wikimedia Commons",
+      "artist": "Charles T. Scowen (fl. 1873-1885)",
+      "date": "circa 1870 date QS:P,+1870-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "500",
+      "height": "643"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Looking_across_lake%2C_%22McDonald_Lake%2C_Glacier_National_Park%2C%22_Montana.%2C_1933_-_1942_-_NARA_-_519873.tif/lossy-page1-1280px-Looking_across_lake%2C_%22McDonald_Lake%2C_Glacier_National_Park%2C%22_Montana.%2C_1933_-_1942_-_NARA_-_519873.tif.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Looking_across_lake%2C_%22McDonald_Lake%2C_Glacier_National_Park%2C%22_Montana.%2C_1933_-_1942_-_NARA_-_519873.tif/lossy-page1-1280px-Looking_across_lake%2C_%22McDonald_Lake%2C_Glacier_National_Park%2C%22_Montana.%2C_1933_-_1942_-_NARA_-_519873.tif.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Looking_across_lake%2C_%22McDonald_Lake%2C_Glacier_National_Park%2C%22_Montana.%2C_1933_-_1942_-_NARA_-_519873.tif",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Looking_across_lake,_%22McDonald_Lake,_Glacier_National_Park,%22_Montana.,_1933_-_1942_-_NARA_-_519873.tif",
+      "caption": "General notes: Similar to NWDNS-79-AA-E14 and NWDNS-79-AA-E16.",
+      "source": "Wikimedia Commons",
+      "artist": "Ansel Adams",
+      "date": "between 1933 and 1942 date QS:P571,+1950-00-00T00:00:00Z/7,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "986"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Dhaka_street_binary_image.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Dhaka_street_binary_image.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Dhaka_street_binary_image.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dhaka_street_binary_image.png",
+      "caption": "Modern image of a busy street in Dhaka edited to only use the colours black and white.",
+      "source": "Wikimedia Commons",
+      "artist": "Francisco Anzola",
+      "date": "2016-11-30",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "960",
+      "height": "632"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Black and white",
@@ -68,7 +135,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q838368",
+      "url": "https://www.wikidata.org/wiki/Q838368",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:11.608Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Black and white",
+      "url": "https://en.wikipedia.org/wiki/Black_and_white",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:11.608Z"
+      }
+    }
+  ],
   "wikidata": "Q838368",
   "wikipedia": "Black and white",
   "popularity": 35,
@@ -76,5 +166,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:38:11.608Z"
 }

@@ -19,7 +19,33 @@
   "summary": "Indies Empire style (Dutch: Indisch Rijksstijl) is an architectural style that flourished in the colonial Dutch East Indies (now Indonesia) between the middle of the 18th century and the end of the 19th century.",
   "description": "Indies Empire style (Dutch: Indisch Rijksstijl) is an architectural style that flourished in the colonial Dutch East Indies (now Indonesia) between the middle of the 18th century and the end of the 19th century. The style is an imitation of the neoclassical Empire Style which was popular in mid-19th-century France. Conformed to the tropical setting of Indonesia, the style became known in the Dutch East Indies as the Indies Empire style.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f6f6f6",
+      "name": "paper white"
+    },
+    {
+      "hex": "#cccecf",
+      "name": "silver"
+    },
+    {
+      "hex": "#3f4432",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#99938c",
+      "name": "stone"
+    },
+    {
+      "hex": "#b4b5b5",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#877a6f",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,64 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Istana_Kepresidenan_di_Bogor.jpg/1280px-Istana_Kepresidenan_di_Bogor.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Istana_Kepresidenan_di_Bogor.jpg/500px-Istana_Kepresidenan_di_Bogor.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Istana_Kepresidenan_di_Bogor.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Istana_Kepresidenan_di_Bogor.jpg",
+      "caption": "istana kediaman presiden Republik Indonesia",
+      "source": "Wikimedia Commons",
+      "artist": "Nafisathallah",
+      "date": "2024-05-02 15:31:58",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "719"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Musetextil.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/46/Musetextil.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/46/Musetextil.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Musetextil.jpg",
+      "caption": "Textile Museum of Jakarta",
+      "source": "Wikimedia Commons",
+      "artist": "Mkurniawan",
+      "date": "2007-05-12 02:51",
+      "license": "GFDL",
+      "licenseUrl": "http://www.gnu.org/copyleft/fdl.html",
+      "width": "499",
+      "height": "350"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Merdeka_Palace_Changing_Guard_1.jpg/1280px-Merdeka_Palace_Changing_Guard_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Merdeka_Palace_Changing_Guard_1.jpg/500px-Merdeka_Palace_Changing_Guard_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/Merdeka_Palace_Changing_Guard_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Merdeka_Palace_Changing_Guard_1.jpg",
+      "caption": "Changing guard of Merdeka Presidential Palace, Jakarta, Indonesia.",
+      "source": "Wikimedia Commons",
+      "artist": "Gunkarta Gunawan Kartapranata",
+      "date": "2010-05-23",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "567"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/COLLECTIE_TROPENMUSEUM_Achtergalerij_van_het_Paleis_van_de_G.G._te_Buitenzorg_TMnr_10013663.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5c/COLLECTIE_TROPENMUSEUM_Achtergalerij_van_het_Paleis_van_de_G.G._te_Buitenzorg_TMnr_10013663.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5c/COLLECTIE_TROPENMUSEUM_Achtergalerij_van_het_Paleis_van_de_G.G._te_Buitenzorg_TMnr_10013663.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Achtergalerij_van_het_Paleis_van_de_G.G._te_Buitenzorg_TMnr_10013663.jpg",
+      "caption": "Repronegatief. Achtergalerij van het paleis van de Gouverneur Generaal, Buitenzorg.",
+      "source": "Wikimedia Commons",
+      "artist": "Tassilo Adam",
+      "date": "1914/1926",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "700",
+      "height": "482"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Indies Empire style",
@@ -64,7 +147,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q25326923",
+      "url": "https://www.wikidata.org/wiki/Q25326923",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:07.318Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Indies Empire style",
+      "url": "https://en.wikipedia.org/wiki/Indies_Empire_style",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:07.318Z"
+      }
+    }
+  ],
   "wikidata": "Q25326923",
   "wikipedia": "Indies Empire style",
   "popularity": 35,
@@ -72,5 +178,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:50:07.318Z"
 }

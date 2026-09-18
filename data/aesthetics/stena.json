@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Kotka, Hamina, Natural History Museum of Helsinki",
+  "geography": "Kotka, Hamina, Natural History Museum of Helsinki",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Stena, also known as the walrus of Hamina, was the nickname of a female walrus who, in July 2022, died while being transported in Finland.",
   "description": "Stena, also known as the walrus of Hamina, was the nickname of a female walrus who, in July 2022, died while being transported in Finland.\n\nStena was first spotted near Hamina, where she spent the night on a beach. Two days later, she got stuck in a fishing net near Kotka and capsized a fishing boat. Following this, Stena swam up a river and climbed over land to a domestic garden 150 meters (yards) inland. Stena was reportedly very weak, and it was decided to bring her to a veterinary hospital in a zoo.\n\nRescue teams hoped to transport Stena away from the garden in a box and over to Korkeasaari Zoo in Helsinki. However, she did not survive the journey. The zoo stated that she would likely not have survived in the wild. A pathologist was to determine her cause of death.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#121017",
+      "name": "black"
+    },
+    {
+      "hex": "#484840",
+      "name": "graphite"
+    },
+    {
+      "hex": "#9c9586",
+      "name": "stone"
+    },
+    {
+      "hex": "#6a716c",
+      "name": "slate"
+    },
+    {
+      "hex": "#94723b",
+      "name": "bronze"
+    },
+    {
+      "hex": "#bbada7",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,61 @@
   "tags": [
     "ornament"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Hamina_walrus_Natural_History_Museum.jpg/1280px-Hamina_walrus_Natural_History_Museum.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Hamina_walrus_Natural_History_Museum.jpg/500px-Hamina_walrus_Natural_History_Museum.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/87/Hamina_walrus_Natural_History_Museum.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hamina_walrus_Natural_History_Museum.jpg",
+      "caption": "Hamina walrus exhibited in the Natural History Museum of Helsinki",
+      "source": "Wikimedia Commons",
+      "artist": "Antti Leppänen",
+      "date": "2023-10-01 13:48:00",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Okapi2.jpg/1280px-Okapi2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Okapi2.jpg/500px-Okapi2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/18/Okapi2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Okapi2.jpg",
+      "caption": "An Okapi. Taken at Disney's Animal Kingdom by Raul654 on January 16, 2005.",
+      "source": "Wikimedia Commons",
+      "artist": "Raul654",
+      "date": "2005-01-16",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1111"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Yellow.tang.arp.jpg/1280px-Yellow.tang.arp.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Yellow.tang.arp.jpg/500px-Yellow.tang.arp.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Yellow.tang.arp.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Yellow.tang.arp.jpg",
+      "caption": "Yellow Tang Zebrasoma flavescens at Bristol Zoo, Bristol, England. This is the character Bubbles in the film Finding Nemo . (The purple colour in the background is genuine, I don't know what it's due to).",
+      "source": "Wikimedia Commons",
+      "artist": "Adrian Pingstone",
+      "date": "2005-12",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1011"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Tiger_%28PSF%29.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/89/Tiger_%28PSF%29.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/89/Tiger_%28PSF%29.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tiger_(PSF).png",
+      "caption": "Line art drawing of a Siberian tiger",
+      "source": "Wikimedia Commons",
+      "artist": "Pearson Scott Foresman",
+      "license": "Public domain",
+      "width": "841",
+      "height": "515"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Stena (walrus)",
@@ -62,7 +142,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q113192818",
+      "url": "https://www.wikidata.org/wiki/Q113192818",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:04.490Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Stena (walrus)",
+      "url": "https://en.wikipedia.org/wiki/Stena_(walrus)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:04.490Z"
+      }
+    }
+  ],
   "wikidata": "Q113192818",
   "wikipedia": "Stena (walrus)",
   "popularity": 35,
@@ -70,5 +173,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:02.215Z"
 }

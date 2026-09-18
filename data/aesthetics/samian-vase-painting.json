@@ -7,17 +7,43 @@
   "establishment": "regional_tradition",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
-  "periodStart": "",
+  "origin": "Samos",
+  "geography": "Samos",
+  "periodStart": "classical antiquity",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": -1198,
   "endYear": null,
-  "era": "",
+  "era": "1198 BCE",
   "summary": "Samian vase painting was a regional style of ancient Greek vase painting; it formed part of East Greek vase painting.",
   "description": "Samian vase painting was a regional style of ancient Greek vase painting; it formed part of East Greek vase painting.\n\nVases were produced on Samos since the Geometric period. At the Heraion of Samos, many Geometric vases were discovered, including high-footed kraters, kantharoi, kotyles, skyphoi and round-mouthed oinochoai. Details such as the diagonally hatched meanders and four-leafed starts betray an Attic influence. Images of birds are very common, as are horses, on Samos typically with a long main, reaching as far as the middle of the back. In one case, a prosthesis is depicted.\n\nAround 560/550 BC, Samian potters began to produce black-figure vessels of types adopted from Attic vase painting. These types are Little-master cups and face-shaped kantharoi. The painting is precise and decorative.  Besides Miletus and Rhodes, Samos was one of the main production centres of vases in the Wild Goat style.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#ccc8c6",
+      "name": "silver"
+    },
+    {
+      "hex": "#c0b199",
+      "name": "khaki"
+    },
+    {
+      "hex": "#86420a",
+      "name": "chocolate"
+    },
+    {
+      "hex": "#ecedf0",
+      "name": "paper white"
+    },
+    {
+      "hex": "#ae9574",
+      "name": "camel"
+    },
+    {
+      "hex": "#93795b",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,120 @@
   "tags": [
     "pottery style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Archaeological_Museum_of_Samos_-_Samian_crater%2C_7th_century_BC.jpg/1280px-Archaeological_Museum_of_Samos_-_Samian_crater%2C_7th_century_BC.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Archaeological_Museum_of_Samos_-_Samian_crater%2C_7th_century_BC.jpg/500px-Archaeological_Museum_of_Samos_-_Samian_crater%2C_7th_century_BC.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/de/Archaeological_Museum_of_Samos_-_Samian_crater%2C_7th_century_BC.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Archaeological_Museum_of_Samos_-_Samian_crater,_7th_century_BC.jpg",
+      "caption": "Samian crater, 7th century BC. Archaeological Museum of Samos, Greece.",
+      "source": "Wikimedia Commons",
+      "artist": "Tomisti",
+      "date": "2016",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "972"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/96f23681-9701-a668-5c3f-6ffa951f7ecc/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/96f23681-9701-a668-5c3f-6ffa951f7ecc/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/96f23681-9701-a668-5c3f-6ffa951f7ecc/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/14561",
+      "caption": "The Vase of Tulips, c. 1890",
+      "source": "Art Institute of Chicago",
+      "artist": "Paul Cezanne (French, 1839–1906)",
+      "date": "c. 1890",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1195"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/68452725-eba5-06e3-46d2-50c678a5d672/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/68452725-eba5-06e3-46d2-50c678a5d672/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/68452725-eba5-06e3-46d2-50c678a5d672/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/21934",
+      "caption": "Kitchen Scene, 1618–20",
+      "source": "Art Institute of Chicago",
+      "artist": "Diego Velázquez (Spanish, 1599–1660)",
+      "date": "1618–20",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "436"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/479aff61-784e-e833-fd82-50ba8c819514/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/479aff61-784e-e833-fd82-50ba8c819514/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/479aff61-784e-e833-fd82-50ba8c819514/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/16617",
+      "caption": "Chrysanthemums, 1881–82",
+      "source": "Art Institute of Chicago",
+      "artist": "Pierre-Auguste Renoir (French, 1841–1919)",
+      "date": "1881–82",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "702"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/11",
+      "caption": "Self-Portrait, 1878",
+      "source": "Art Institute of Chicago",
+      "artist": "Walter Shirlaw (American, 1838–1909)",
+      "date": "1878",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1101"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/293ab61e-5536-c2d3-936a-4116f027260c/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/293ab61e-5536-c2d3-936a-4116f027260c/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/293ab61e-5536-c2d3-936a-4116f027260c/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/94126",
+      "caption": "Still Life with Monkey, Fruits, and Flowers, 1724",
+      "source": "Art Institute of Chicago",
+      "artist": "Jean Baptiste Oudry (French, 1686–1755)",
+      "date": "1724",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "818"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/bdb9f780-83be-dd12-191d-54a77c5444ab/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/bdb9f780-83be-dd12-191d-54a77c5444ab/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/bdb9f780-83be-dd12-191d-54a77c5444ab/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/110982",
+      "caption": "Still Life with Flowers, 1905",
+      "source": "Art Institute of Chicago",
+      "artist": "Odilon Redon (French, 1840–1916)",
+      "date": "1905",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1232"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/abf4b078-b26b-e69c-d689-8aab2d5fa075/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/abf4b078-b26b-e69c-d689-8aab2d5fa075/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/abf4b078-b26b-e69c-d689-8aab2d5fa075/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/135",
+      "caption": "Jar with Tubular Handles, Peonies, “Endless Knot,” Pendant Balls, and Pendant Lozenges, Qing dynasty (1644–1911), Qianlong reign mark and period (1736–1795)",
+      "source": "Art Institute of Chicago",
+      "artist": "China",
+      "date": "Qing dynasty (1644–1911), Qianlong reign mark and period (1736–1795)",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1285"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Samian vase painting",
@@ -62,7 +201,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1318346",
+      "url": "https://www.wikidata.org/wiki/Q1318346",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:09.118Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Samian vase painting",
+      "url": "https://en.wikipedia.org/wiki/Samian_vase_painting",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:09.118Z"
+      }
+    }
+  ],
   "wikidata": "Q1318346",
   "wikipedia": "Samian vase painting",
   "popularity": 35,
@@ -70,5 +232,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:54.476Z"
 }

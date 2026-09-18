@@ -19,7 +19,33 @@
   "summary": "Chibi, also known as super deformation (SD), is an art style originating in Japan, and common in anime and manga where characters are drawn in an exaggerated way, typically small and chubby with stubby limbs, oversized eyes, oversized heads, tiny noses, tiny bodies, and minimal detail.",
   "description": "Chibi, also known as super deformation (SD), is an art style originating in Japan, and common in anime and manga where characters are drawn in an exaggerated way, typically small and chubby with stubby limbs, oversized eyes, oversized heads, tiny noses, tiny bodies, and minimal detail. The style has found its way into the anime and manga fandom through its usage in manga works and merchandising.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fefefe",
+      "name": "ivory"
+    },
+    {
+      "hex": "#e3d8dc",
+      "name": "bone white"
+    },
+    {
+      "hex": "#605153",
+      "name": "umber"
+    },
+    {
+      "hex": "#c6a7a3",
+      "name": "khaki"
+    },
+    {
+      "hex": "#b4867d",
+      "name": "camel"
+    },
+    {
+      "hex": "#92696a",
+      "name": "dusty rose"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,22 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Kawaii_in_Oxford_English_Dictionary.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/59/Kawaii_in_Oxford_English_Dictionary.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/Kawaii_in_Oxford_English_Dictionary.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kawaii_in_Oxford_English_Dictionary.jpg",
+      "caption": "The Japanese term Kawaii [かわいい] has been in urban dictionaries for a while now but its finally made its debut into the Oxford English dictionary. \"kawayusu\" [かわゆす] is the short form of \"Kawaii Desu\" and one can also use the term \"Kawaii-ssune\" [かわいいっすね]. \"Kawaii\" is also often wr",
+      "source": "Wikimedia Commons",
+      "artist": "Danny Choo",
+      "date": "2011-11-28",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "930",
+      "height": "930"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Chibi (style)",
@@ -64,7 +105,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1146647",
+      "url": "https://www.wikidata.org/wiki/Q1146647",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:21.616Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Chibi (style)",
+      "url": "https://en.wikipedia.org/wiki/Chibi_(style)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:21.616Z"
+      }
+    }
+  ],
   "wikidata": "Q1146647",
   "wikipedia": "Chibi (style)",
   "popularity": 35,
@@ -72,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:40:21.616Z"
 }

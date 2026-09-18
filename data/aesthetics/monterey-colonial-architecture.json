@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Monterey Colonial is an architectural style developed in Alta California (today's US state of California).",
   "description": "Monterey Colonial is an architectural style developed in Alta California (today's US state of California). Although usually categorized as a sub-style of Spanish Colonial style, the Monterey style is native to the post-colonial Mexican era of Alta California. Creators of the Monterey style were mostly recent immigrants from New England states of the US, who brought familiar vernacular building styles and methods with them to California.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#775f65",
+      "name": "umber"
+    },
+    {
+      "hex": "#b9a39c",
+      "name": "khaki"
+    },
+    {
+      "hex": "#5c454c",
+      "name": "umber 2"
+    },
+    {
+      "hex": "#412b38",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#9b8d7a",
+      "name": "stone"
+    },
+    {
+      "hex": "#201217",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/AdobeNorthWingEdit2808.jpg/1280px-AdobeNorthWingEdit2808.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/AdobeNorthWingEdit2808.jpg/500px-AdobeNorthWingEdit2808.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/df/AdobeNorthWingEdit2808.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:AdobeNorthWingEdit2808.jpg",
+      "caption": "Petaluma Adobe north wing",
+      "source": "Wikimedia Commons",
+      "artist": "Stephen R. Gold",
+      "date": "31 December 2007 (original upload date) ( Original text: Dec",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "523"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Monterey Colonial architecture",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6905299",
+      "url": "https://www.wikidata.org/wiki/Q6905299",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:28.559Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Monterey Colonial architecture",
+      "url": "https://en.wikipedia.org/wiki/Monterey_Colonial_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:28.559Z"
+      }
+    }
+  ],
   "wikidata": "Q6905299",
   "wikipedia": "Monterey Colonial architecture",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.416Z"
 }

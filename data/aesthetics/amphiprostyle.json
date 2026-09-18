@@ -17,7 +17,33 @@
   "summary": "In classical architecture, amphiprostyle (from the Greek ἀμφί (amphi), on both sides, and πρόστυλος (prostylos), a portico) denotes an ancient temple with a portico both at the front and the rear, where the columns on the narrow sides are not between antae.",
   "description": "In classical architecture, amphiprostyle (from the Greek ἀμφί (amphi), on both sides, and πρόστυλος (prostylos), a portico) denotes an ancient temple with a portico both at the front and the rear, where the columns on the narrow sides are not between antae. The number of columns rarely exceeded four in the front and four in the rear. The best-known example is the tetrastyle small Temple of Athena Nike at Athens. Other known examples are the Temple of Artemis Agrotera outside Athens, and the hexastyle Temple of the Athenians at Delos.\n\nAmphiprostyle temples without columns on the sides may be termed \"apteral\" (from the Greek απτερος, \"wingless\": α-, \"without\" + πτερον, \"wing\"). The Athena Nike temple, c. 420 BC, is one such example.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fefefe",
+      "name": "ivory"
+    },
+    {
+      "hex": "#695b51",
+      "name": "umber"
+    },
+    {
+      "hex": "#88786b",
+      "name": "taupe"
+    },
+    {
+      "hex": "#493b2e",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#9ba4b1",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#c6c9d5",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Temple_of_Athena_Nik%C3%A8_from_Propylaea%2C_Acropolis%2C_Athens%2C_Greece.jpg/1280px-Temple_of_Athena_Nik%C3%A8_from_Propylaea%2C_Acropolis%2C_Athens%2C_Greece.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Temple_of_Athena_Nik%C3%A8_from_Propylaea%2C_Acropolis%2C_Athens%2C_Greece.jpg/500px-Temple_of_Athena_Nik%C3%A8_from_Propylaea%2C_Acropolis%2C_Athens%2C_Greece.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/05/Temple_of_Athena_Nik%C3%A8_from_Propylaea%2C_Acropolis%2C_Athens%2C_Greece.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Athena_Nik%C3%A8_from_Propylaea,_Acropolis,_Athens,_Greece.jpg",
+      "caption": "Temple of Athena Nike, from Propylaea, Acropolis, Athens, Greece.",
+      "source": "Wikimedia Commons",
+      "artist": "Jebulon",
+      "date": "2016-07-22",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "890"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Temple_jebel_khalid.jpg/1280px-Temple_jebel_khalid.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Temple_jebel_khalid.jpg/500px-Temple_jebel_khalid.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Temple_jebel_khalid.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Temple_jebel_khalid.jpg",
+      "caption": "Plan of temple at Jebel Khalid, redrawn from G. Clarke, H. Jackson, C. E. V. Nixon, J. Tidmarsh, K. Wesselingh and L. Cougle-Jose: Jebel Khalid on the Euphrates, Volume 5: Report on Excavations 2000–2010. Mediterranean Archaeology supplement, 10. Sydney: MEDITARCH Publications; S",
+      "source": "Wikimedia Commons",
+      "artist": "Udimu",
+      "date": "2020-12-20",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "2108"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Parthenon_%2830276156187%29.jpg/1280px-Parthenon_%2830276156187%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Parthenon_%2830276156187%29.jpg/500px-Parthenon_%2830276156187%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Parthenon_%2830276156187%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Parthenon_(30276156187).jpg",
+      "caption": "Parthenon (30276156187)",
+      "source": "Wikimedia Commons",
+      "artist": "Phanatic",
+      "date": "2018-09-16 08:50",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Amphiprostyle",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q290472",
+      "url": "https://www.wikidata.org/wiki/Q290472",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:12.358Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Amphiprostyle",
+      "url": "https://en.wikipedia.org/wiki/Amphiprostyle",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:12.358Z"
+      }
+    }
+  ],
   "wikidata": "Q290472",
   "wikipedia": "Amphiprostyle",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:35:12.358Z"
 }

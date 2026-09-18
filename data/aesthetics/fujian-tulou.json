@@ -3,7 +3,10 @@
   "name": "Fujian Tulou",
   "aliases": [
     "福建土楼",
-    "Fújiàn Tǔlóu"
+    "Fújiàn Tǔlóu",
+    "Tulou Hakka Roundhouses",
+    "土楼",
+    "Hakka Earth Buildings"
   ],
   "category": "Architectural Style",
   "subcategory": "Architectural Style",
@@ -356,6 +359,36 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:51:07.868Z"
       }
+    },
+    {
+      "name": "UNESCO World Heritage - Fujian Tulou",
+      "url": "https://whc.unesco.org/en/list/1113",
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
+    },
+    {
+      "name": "Hakka Tulou Architecture",
+      "url": "https://en.wikipedia.org/wiki/Tulou",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
+    },
+    {
+      "name": "Fujian Tourism Board",
+      "url": "https://www.fujiantourism.com",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -411,5 +444,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T03:29:52.360Z",
-  "updatedAt": "2026-09-18T05:00:04.118Z"
+  "updatedAt": "2026-09-18T10:47:43.271Z"
 }

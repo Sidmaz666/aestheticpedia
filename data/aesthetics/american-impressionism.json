@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "1880s",
   "periodEnd": "",
   "startYear": 1880,
@@ -17,7 +17,33 @@
   "summary": "American Impressionism was a style of painting related to European Impressionism and practiced by American artists in the United States from the mid-19th century through the beginning of the 20th.",
   "description": "American Impressionism was a style of painting related to European Impressionism and practiced by American artists in the United States from the mid-19th century through the beginning of the 20th. The style is characterized by loose brushwork and vivid colors with a wide array of subject matters but focusing on landscapes and upper-class domestic life.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#90898a",
+      "name": "taupe"
+    },
+    {
+      "hex": "#908161",
+      "name": "moss"
+    },
+    {
+      "hex": "#67636c",
+      "name": "umber"
+    },
+    {
+      "hex": "#4b4842",
+      "name": "graphite"
+    },
+    {
+      "hex": "#272722",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#a7aeb4",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,138 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Eleanor_Holding_a_Shell.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Eleanor_Holding_a_Shell.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Eleanor_Holding_a_Shell.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Eleanor_Holding_a_Shell.jpg",
+      "caption": "Eleanor Holding a Shell, 1902, by Frank W. Benson.",
+      "source": "Wikimedia Commons",
+      "artist": "Frank Weston Benson",
+      "date": "1902 date QS:P571,+1902-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "826",
+      "height": "1000"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Cassatt_Mary_Lilacs_in_a_Window_1880.jpg/1280px-Cassatt_Mary_Lilacs_in_a_Window_1880.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Cassatt_Mary_Lilacs_in_a_Window_1880.jpg/500px-Cassatt_Mary_Lilacs_in_a_Window_1880.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Cassatt_Mary_Lilacs_in_a_Window_1880.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cassatt_Mary_Lilacs_in_a_Window_1880.jpg",
+      "caption": "Lilacs in a Window",
+      "source": "Wikimedia Commons",
+      "artist": "Mary Cassatt",
+      "date": "1880 date QS:P571,+1880-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1617"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Celia_Thaxter%27s_Garden.jpg/1280px-Celia_Thaxter%27s_Garden.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Celia_Thaxter%27s_Garden.jpg/500px-Celia_Thaxter%27s_Garden.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/55/Celia_Thaxter%27s_Garden.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Celia_Thaxter%27s_Garden.jpg",
+      "caption": "Celia Thaxter's Garden, Isles of Shoals, Maine, 1890",
+      "source": "Wikimedia Commons",
+      "artist": "Childe Hassam",
+      "date": "1890 date QS:P571,+1890-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1077"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Brooklyn_Museum_-_Dolce_Far_Niente_-_John_Singer_Sargent_-_overall.jpg/1280px-Brooklyn_Museum_-_Dolce_Far_Niente_-_John_Singer_Sargent_-_overall.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Brooklyn_Museum_-_Dolce_Far_Niente_-_John_Singer_Sargent_-_overall.jpg/500px-Brooklyn_Museum_-_Dolce_Far_Niente_-_John_Singer_Sargent_-_overall.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/72/Brooklyn_Museum_-_Dolce_Far_Niente_-_John_Singer_Sargent_-_overall.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Dolce_Far_Niente_-_John_Singer_Sargent_-_overall.jpg",
+      "caption": "Dolce Far Niente",
+      "source": "Wikimedia Commons",
+      "artist": "John Singer Sargent",
+      "date": "between 1905 and 1909 date QS:P571,+1905-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "743"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Edmund_Charles_Tarbell_-_Au_verger.jpg/1280px-Edmund_Charles_Tarbell_-_Au_verger.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Edmund_Charles_Tarbell_-_Au_verger.jpg/500px-Edmund_Charles_Tarbell_-_Au_verger.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Edmund_Charles_Tarbell_-_Au_verger.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Edmund_Charles_Tarbell_-_Au_verger.jpg",
+      "caption": "In the Orchard",
+      "source": "Wikimedia Commons",
+      "artist": "Edmund Charles Tarbell",
+      "date": "1891",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1182"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Chase_William_Merritt_Idle_Hours_1894.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/60/Chase_William_Merritt_Idle_Hours_1894.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/Chase_William_Merritt_Idle_Hours_1894.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chase_William_Merritt_Idle_Hours_1894.jpg",
+      "caption": "Idle Hours",
+      "source": "Wikimedia Commons",
+      "artist": "William Merritt Chase",
+      "date": "circa 1894 date QS:P571,+1894-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1250",
+      "height": "901"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Brooklyn_Museum_-_On_the_Beach_-_Edward_Henry_Potthast_-_overall.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/05/Brooklyn_Museum_-_On_the_Beach_-_Edward_Henry_Potthast_-_overall.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/05/Brooklyn_Museum_-_On_the_Beach_-_Edward_Henry_Potthast_-_overall.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_On_the_Beach_-_Edward_Henry_Potthast_-_overall.jpg",
+      "caption": "On the Beach",
+      "source": "Wikimedia Commons",
+      "artist": "Edward Henry Potthast",
+      "date": "circa 1913 date QS:P571,+1913-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "768",
+      "height": "593"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/John_H._Twachtman_001.jpg/1280px-John_H._Twachtman_001.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/John_H._Twachtman_001.jpg/500px-John_H._Twachtman_001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/John_H._Twachtman_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:John_H._Twachtman_001.jpg",
+      "caption": "Die weiße Brücke",
+      "source": "Wikimedia Commons",
+      "artist": "John Henry Twachtman",
+      "date": "between 1875 and 1890 date QS:P571,+1850-00-00T00:00:00Z/7,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Julian_Alden_Weir_Ravine_near_Branchville.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Julian_Alden_Weir_Ravine_near_Branchville.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Julian_Alden_Weir_Ravine_near_Branchville.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Julian_Alden_Weir_Ravine_near_Branchville.jpg",
+      "caption": "Ravine near Branchville",
+      "source": "Wikimedia Commons",
+      "artist": "J. Alden Weir",
+      "date": "between circa 1905 and circa 1915 date QS:P571,+1950-00-00T0",
+      "license": "Public domain",
+      "width": "1100",
+      "height": "924"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Theodore_Robinson_-_Low_Tide%2C_Riverside_Yacht_Club_%281894%29.jpg/1280px-Theodore_Robinson_-_Low_Tide%2C_Riverside_Yacht_Club_%281894%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Theodore_Robinson_-_Low_Tide%2C_Riverside_Yacht_Club_%281894%29.jpg/500px-Theodore_Robinson_-_Low_Tide%2C_Riverside_Yacht_Club_%281894%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/Theodore_Robinson_-_Low_Tide%2C_Riverside_Yacht_Club_%281894%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Theodore_Robinson_-_Low_Tide,_Riverside_Yacht_Club_(1894).jpg",
+      "caption": "Low Tide, Riverside Yacht Club",
+      "source": "Wikimedia Commons",
+      "artist": "Theodore Robinson",
+      "date": "1894 date QS:P571,+1894-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — American Impressionism",
@@ -62,7 +219,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2477787",
+      "url": "https://www.wikidata.org/wiki/Q2477787",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:09.258Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — American Impressionism",
+      "url": "https://en.wikipedia.org/wiki/American_Impressionism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:09.258Z"
+      }
+    }
+  ],
   "wikidata": "Q2477787",
   "wikipedia": "American Impressionism",
   "popularity": 35,
@@ -70,5 +250,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.751Z"
 }

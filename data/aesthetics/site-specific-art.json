@@ -19,7 +19,33 @@
   "summary": "Site-specific art is artwork created to exist in a certain place.",
   "description": "Site-specific art is artwork created to exist in a certain place. Typically, the artist takes the location into account while planning and creating the artwork. Site-specific art is produced both by commercial artists and independently, and can include some instances of work such as sculpture, stencil graffiti, rock balancing, and other art forms. Installations can be in urban areas, remote natural settings, or underwater.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bfc3d0",
+      "name": "silver"
+    },
+    {
+      "hex": "#403c37",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#d8d8de",
+      "name": "bone white"
+    },
+    {
+      "hex": "#91929e",
+      "name": "stone"
+    },
+    {
+      "hex": "#71707b",
+      "name": "slate"
+    },
+    {
+      "hex": "#221f21",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,132 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spiral-jetty-from-rozel-point.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spiral-jetty-from-rozel-point.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spiral-jetty-from-rozel-point.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Spiral-jetty-from-rozel-point.png",
+      "caption": "Spiral Jetty from atop Rozel Point, in mid-April 2005.",
+      "source": "Wikimedia Commons",
+      "artist": "Sculpture: Robert Smithson 1938-1973 Image: Soren.harward at en.wikipedia",
+      "date": "17 April 2005 (original upload date)",
+      "license": "Public domain",
+      "width": "800",
+      "height": "450"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Eberhard_Bosslet_Intervention_Begleiterscheinung_XI_Era_Lanzarote_2008.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/98/Eberhard_Bosslet_Intervention_Begleiterscheinung_XI_Era_Lanzarote_2008.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/Eberhard_Bosslet_Intervention_Begleiterscheinung_XI_Era_Lanzarote_2008.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Eberhard_Bosslet_Intervention_Begleiterscheinung_XI_Era_Lanzarote_2008.jpg",
+      "caption": "Eberhard Bosslet - Since 1983 - works with ruins: so-called Bauzeichnungen, Reformierungen und Begleiterscheinungen (construction drawings Re/formations and Side Effects), intervention on industrial buildings and housing by means of linear or laminar painting. Barranco de Tegoyo,",
+      "source": "Wikimedia Commons",
+      "artist": "Bossletpublicart",
+      "date": "2008",
+      "license": "GFDL",
+      "licenseUrl": "http://www.gnu.org/copyleft/fdl.html",
+      "width": "500",
+      "height": "333"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Stone_Balancing_In_The_Morning.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/51/Stone_Balancing_In_The_Morning.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/51/Stone_Balancing_In_The_Morning.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Stone_Balancing_In_The_Morning.jpg",
+      "caption": "My first stone balance this morning, 3 large heavy stones balanced with a long almost pointed top piece",
+      "source": "Wikimedia Commons",
+      "artist": "Peacefulmovements",
+      "date": "2013-10-13 10:12:59",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "960",
+      "height": "924"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/The_Sphere_Knockan_cropped.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8c/The_Sphere_Knockan_cropped.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8c/The_Sphere_Knockan_cropped.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Sphere_Knockan_cropped.jpg",
+      "caption": "The Sphere (artwork 'The Globe' by Joe Smith) at Knockan Crag, Scotland.",
+      "source": "Wikimedia Commons",
+      "artist": "photo by W. L. Tarbert",
+      "date": "2007-09-08",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1200",
+      "height": "835"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Olafur_Eliasson%27s_Waterfalls_under_the_Brooklyn_Bridge.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/18/Olafur_Eliasson%27s_Waterfalls_under_the_Brooklyn_Bridge.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/18/Olafur_Eliasson%27s_Waterfalls_under_the_Brooklyn_Bridge.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Olafur_Eliasson%27s_Waterfalls_under_the_Brooklyn_Bridge.jpg",
+      "caption": "The Brooklyn Bridge. This waterfall is part of Olafur Eliasson's Waterfalls installation; there's also one at Governors Island, another at Pier 35 in Manhattan, and another between Piers 4 and 5 in Brooklyn. National Register Number Brooklyn Bridge: 66000523",
+      "source": "Wikimedia Commons",
+      "artist": "Michael",
+      "date": "2008-06-26 21:29:28",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1024",
+      "height": "768"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Grimanesa-amoros-uros-house-day-1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Grimanesa-amoros-uros-house-day-1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Grimanesa-amoros-uros-house-day-1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Grimanesa-amoros-uros-house-day-1.jpg",
+      "caption": "Uros House Armory Show - Times Square by Grimanesa Amoros 2011",
+      "source": "Wikimedia Commons",
+      "artist": "Smarliechen",
+      "date": "2011-03-27",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "900",
+      "height": "645"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Robert_Irwin_Scrim_Veil_Black_Rectangle_Natural_Light_Whitney_2013.jpg/1280px-Robert_Irwin_Scrim_Veil_Black_Rectangle_Natural_Light_Whitney_2013.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Robert_Irwin_Scrim_Veil_Black_Rectangle_Natural_Light_Whitney_2013.jpg/500px-Robert_Irwin_Scrim_Veil_Black_Rectangle_Natural_Light_Whitney_2013.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Robert_Irwin_Scrim_Veil_Black_Rectangle_Natural_Light_Whitney_2013.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Robert_Irwin_Scrim_Veil_Black_Rectangle_Natural_Light_Whitney_2013.jpg",
+      "caption": "Robert Irwin: Scrim Veil—Black Rectangle—Natural Light, Whitney Museum Of American Art, New York (1977) June 27–Sept 1, 2013",
+      "source": "Wikimedia Commons",
+      "artist": "Mduvekot",
+      "date": "2013-09-01 14:29:10",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/BismuthHessJanssenA.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/51/BismuthHessJanssenA.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/51/BismuthHessJanssenA.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BismuthHessJanssenA.jpg",
+      "caption": "Neon Parallax: neon art works by Pierre Bismuth, Nic Hess et Ann Veronica Janssens, public art project, Geneva",
+      "source": "Wikimedia Commons",
+      "artist": "Simon Lamuniere / Neon Parallax",
+      "date": "2012-05-01",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1134",
+      "height": "851"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/CHINTREUIL_-_Le_Boulot_blanc.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/45/CHINTREUIL_-_Le_Boulot_blanc.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/45/CHINTREUIL_-_Le_Boulot_blanc.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:CHINTREUIL_-_Le_Boulot_blanc.JPG",
+      "caption": "CHINTREUIL - Le Boulot blanc",
+      "source": "Wikimedia Commons",
+      "artist": "Antoine Chintreuil",
+      "date": "4 October 2008 (upload date)",
+      "license": "Public domain",
+      "width": "1078",
+      "height": "1646"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Site-specific art",
@@ -64,7 +215,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2740415",
+      "url": "https://www.wikidata.org/wiki/Q2740415",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:06.216Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Site-specific art",
+      "url": "https://en.wikipedia.org/wiki/Site-specific_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:06:06.216Z"
+      }
+    }
+  ],
   "wikidata": "Q2740415",
   "wikipedia": "Site-specific art",
   "popularity": 35,
@@ -72,5 +246,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:06:06.216Z"
 }

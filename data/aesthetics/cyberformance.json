@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5197782",
+      "url": "https://www.wikidata.org/wiki/Q5197782",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:21.753Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cyberformance",
+      "url": "https://en.wikipedia.org/wiki/Cyberformance",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:21.753Z"
+      }
+    }
+  ],
   "wikidata": "Q5197782",
   "wikipedia": "Cyberformance",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:42:21.753Z"
 }

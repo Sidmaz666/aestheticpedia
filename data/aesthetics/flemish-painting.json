@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Flanders",
+  "geography": "Flanders",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,21 @@
   "summary": "Flemish painting flourished from the early 15th century until the 17th century, gradually becoming distinct from the painting of the rest of the Low Countries, especially the modern Netherlands.",
   "description": "Flemish painting flourished from the early 15th century until the 17th century, gradually becoming distinct from the painting of the rest of the Low Countries, especially the modern Netherlands.  In the early period, up to about 1520, the painting of the whole area is (especially in the Anglophone world) typically considered as a whole, as Early Netherlandish painting.  This was dominated by the Flemish south, but painters from the north were also important.  Dutch and Flemish Renaissance painting, of which Antwerp became the centre, covers the period up to about 1580 or later, by the end of which the north and south Netherlands had become politically separated. Flemish Baroque painting was especially important in the first half of the 17th century, dominated by Rubens.\n\nIn theory the term does not refer to modern Flanders but to the County of Flanders and neighbouring areas of the Low Countries such as the Tournaisis and Duchy of Brabant.  However this distinction, well understood in modern Belgium, has always been disregarded by most foreign observers and writers.  Flanders delivered the leading painters in Northern Europe and attracted many promising young painters from other countries. These painters were invited to work at foreign courts and had a Europe-wide influence. Since the end of the Napoleonic era, Flemish painters have again been contributing to a reputation that had been set by the Old Masters.\n\nThe Franco-Flemish School of musical composition flourished beginning at about the same time.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1e1a13",
+      "name": "black"
+    },
+    {
+      "hex": "#573f26",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#72624b",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +53,118 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/1280px-Van_Eyck_-_Arnolfini_Portrait.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/500px-Van_Eyck_-_Arnolfini_Portrait.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Van_Eyck_-_Arnolfini_Portrait.jpg",
+      "caption": "The Arnolfini Portrait",
+      "source": "Wikimedia Commons",
+      "artist": "Jan van Eyck",
+      "date": "1434",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1751"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Peter_Paul_Rubens_%281577-1640%29_Zelfportret_-_Rubenshuis_Antwerpen_27-09-2021.jpg/1280px-Peter_Paul_Rubens_%281577-1640%29_Zelfportret_-_Rubenshuis_Antwerpen_27-09-2021.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Peter_Paul_Rubens_%281577-1640%29_Zelfportret_-_Rubenshuis_Antwerpen_27-09-2021.jpg/500px-Peter_Paul_Rubens_%281577-1640%29_Zelfportret_-_Rubenshuis_Antwerpen_27-09-2021.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Peter_Paul_Rubens_%281577-1640%29_Zelfportret_-_Rubenshuis_Antwerpen_27-09-2021.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_(1577-1640)_Zelfportret_-_Rubenshuis_Antwerpen_27-09-2021.jpg",
+      "caption": "This photo of movable heritage has been taken in the Flemish Region",
+      "source": "Wikimedia Commons",
+      "artist": "Peter Paul Rubens",
+      "date": "between circa 1623 and circa 1630 date QS:P,+1650-00-00T00:0",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1710"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/474d2283-78fc-1dbe-1d45-f67908f69033/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/474d2283-78fc-1dbe-1d45-f67908f69033/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/474d2283-78fc-1dbe-1d45-f67908f69033/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/56133",
+      "caption": "Christ on the Cross, c. 1580–c. 1600",
+      "source": "Art Institute of Chicago",
+      "artist": "Flemish",
+      "date": "c. 1580–c. 1600",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1061"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/0c840df0-6d98-46d2-9828-b23ddcd34081/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/0c840df0-6d98-46d2-9828-b23ddcd34081/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/0c840df0-6d98-46d2-9828-b23ddcd34081/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/39851",
+      "caption": "Philip the Good, Duke of Burgundy; Isabelle of Bourbon (?), 1510–30",
+      "source": "Art Institute of Chicago",
+      "artist": "Flemish",
+      "date": "1510–30",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "546"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/530e3441-5178-f017-e519-6e6a8d996eb9/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/530e3441-5178-f017-e519-6e6a8d996eb9/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/530e3441-5178-f017-e519-6e6a8d996eb9/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/51430",
+      "caption": "Aeolus and the Winds, 1600–1700",
+      "source": "Art Institute of Chicago",
+      "artist": "Flemish",
+      "date": "1600–1700",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1027"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/5efa3af7-3e68-29c9-f63b-f4ca41951e22/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/5efa3af7-3e68-29c9-f63b-f4ca41951e22/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/5efa3af7-3e68-29c9-f63b-f4ca41951e22/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/111078",
+      "caption": "Portrait of a Man, c. 1575",
+      "source": "Art Institute of Chicago",
+      "artist": "Flemish",
+      "date": "c. 1575",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1173"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/1bdba183-8dfc-4e43-e8e2-70ad0e0f1647/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/1bdba183-8dfc-4e43-e8e2-70ad0e0f1647/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/1bdba183-8dfc-4e43-e8e2-70ad0e0f1647/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/110869",
+      "caption": "Portrait of a Woman, 1544",
+      "source": "Art Institute of Chicago",
+      "artist": "Flemish; possibly Antwerp",
+      "date": "1544",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1140"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/e0a6e644-8196-6c49-49e3-3c36dac14408/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/e0a6e644-8196-6c49-49e3-3c36dac14408/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/e0a6e644-8196-6c49-49e3-3c36dac14408/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/25322",
+      "caption": "Bacchic Scene, c. 1625–c. 1675",
+      "source": "Art Institute of Chicago",
+      "artist": "Flemish",
+      "date": "c. 1625–c. 1675",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "484"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Flemish painting",
@@ -62,7 +187,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2185042",
+      "url": "https://www.wikidata.org/wiki/Q2185042",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:23.740Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Flemish painting",
+      "url": "https://en.wikipedia.org/wiki/Flemish_painting",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:23.740Z"
+      }
+    }
+  ],
   "wikidata": "Q2185042",
   "wikipedia": "Flemish painting",
   "popularity": 35,
@@ -70,5 +218,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.249Z"
 }

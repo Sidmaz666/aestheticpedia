@@ -39,7 +39,36 @@
   "tags": [
     "painting technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Hiding_Power.jpg/1280px-Hiding_Power.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Hiding_Power.jpg/500px-Hiding_Power.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hiding_Power.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hiding_Power.jpg",
+      "caption": "Two black/white panels coated with a pigmented coating, containing C.I. Pigment Orange 34. The right panels shows better hiding because of the higher pigment content.",
+      "source": "Wikimedia Commons",
+      "artist": "Hardcoreraveman",
+      "date": "2011-10-31",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/73e55d5b-8076-f5d9-1dd6-309d29b1fdea/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/73e55d5b-8076-f5d9-1dd6-309d29b1fdea/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/73e55d5b-8076-f5d9-1dd6-309d29b1fdea/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/87763",
+      "caption": "Henry VIII, Elizabeth I, and Edward VI, 1597",
+      "source": "Art Institute of Chicago",
+      "artist": "English",
+      "date": "1597",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "682"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Hiding power",
@@ -62,7 +91,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1182040",
+      "url": "https://www.wikidata.org/wiki/Q1182040",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:04.097Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Hiding power",
+      "url": "https://en.wikipedia.org/wiki/Hiding_power",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:04.097Z"
+      }
+    }
+  ],
   "wikidata": "Q1182040",
   "wikipedia": "Hiding power",
   "popularity": 35,
@@ -70,5 +122,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:49:04.097Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Italy, Bologna",
+  "geography": "Italy, Bologna",
   "periodStart": "16th century",
   "periodEnd": "17th century",
   "startYear": 1500,
@@ -17,7 +17,33 @@
   "summary": "The Bolognese school of painting, also known as the school of Bologna, flourished between the 16th and 17th centuries in Bologna, which rivalled Florence and Rome as the centre of painting in Italy.",
   "description": "The Bolognese school of painting, also known as the school of Bologna, flourished between the 16th and 17th centuries in Bologna, which rivalled Florence and Rome as the centre of painting in Italy.\n\nIts most important representatives include the Carracci family, including Ludovico Carracci and his two cousins, the brothers Agostino and Annibale Carracci. Later, it included other Baroque painters: Domenichino and Lanfranco, active mostly in Rome, eventually Guercino and Guido Reni, and Accademia degli Incamminati in Bologna, which was run by Lodovico Carracci. Certain artistic conventions, which over time became traditionalist, had been developed in Rome during the first decades of the 16th century. As time passed, some artists sought new approaches to their work that no longer reflected only the Roman manner. The Carracci studio sought innovation or invention, seeking new ways to break away from traditional modes of painting while continuing to look for inspiration from their literary contemporaries; the studio formulated a style that was distinguished from the recognised manners of art in their time. This style was seen as both systematic and imitative, borrowing particular motifs from the past Roman schools of art and innovating a modernistic approach.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#3d3b11",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#ac8965",
+      "name": "camel"
+    },
+    {
+      "hex": "#c39e7e",
+      "name": "camel 2"
+    },
+    {
+      "hex": "#95724a",
+      "name": "bronze"
+    },
+    {
+      "hex": "#1b1e14",
+      "name": "black"
+    },
+    {
+      "hex": "#5b512b",
+      "name": "walnut brown 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,60 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Annibale_Carracci_-_The_Cyclops_Polyphemus_-_WGA04461.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/59/Annibale_Carracci_-_The_Cyclops_Polyphemus_-_WGA04461.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/Annibale_Carracci_-_The_Cyclops_Polyphemus_-_WGA04461.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Annibale_Carracci_-_The_Cyclops_Polyphemus_-_WGA04461.jpg",
+      "caption": "The Cyclops Polyphemus",
+      "source": "Wikimedia Commons",
+      "artist": "Annibale Carracci",
+      "date": "between 1595 and 1605 date QS:P571,+1500-00-00T00:00:00Z/6,P",
+      "license": "Public domain",
+      "width": "692",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Francesco_Francia_attributed_-_likely_Isabella_d%27Este.jpg/1280px-Francesco_Francia_attributed_-_likely_Isabella_d%27Este.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Francesco_Francia_attributed_-_likely_Isabella_d%27Este.jpg/500px-Francesco_Francia_attributed_-_likely_Isabella_d%27Este.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Francesco_Francia_attributed_-_likely_Isabella_d%27Este.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Francesco_Francia_attributed_-_likely_Isabella_d%27Este.jpg",
+      "caption": "Francesco Francia attributed and likely Isabella d'Este in 1511",
+      "source": "Wikimedia Commons",
+      "artist": "Mitglied5",
+      "date": "2022-03-27",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1603"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/%27The_Deposition%27%2C_oil_on_poplar_panel_by_Prospero_Fontana%2C_1563%2C_Art_Gallery_of_New_South_Wales.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/58/%27The_Deposition%27%2C_oil_on_poplar_panel_by_Prospero_Fontana%2C_1563%2C_Art_Gallery_of_New_South_Wales.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/58/%27The_Deposition%27%2C_oil_on_poplar_panel_by_Prospero_Fontana%2C_1563%2C_Art_Gallery_of_New_South_Wales.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%27The_Deposition%27,_oil_on_poplar_panel_by_Prospero_Fontana,_1563,_Art_Gallery_of_New_South_Wales.jpg",
+      "caption": "Descent from the Cross",
+      "source": "Wikimedia Commons",
+      "artist": "Prospero Fontana",
+      "date": "1563",
+      "license": "Public domain",
+      "width": "529",
+      "height": "864"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/CeciliaAlms.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e4/CeciliaAlms.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e4/CeciliaAlms.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:CeciliaAlms.jpg",
+      "caption": "CeciliaAlms",
+      "source": "Wikimedia Commons",
+      "artist": "Respear",
+      "license": "Public domain",
+      "width": "712",
+      "height": "724"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Bolognese school",
@@ -62,7 +141,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q891532",
+      "url": "https://www.wikidata.org/wiki/Q891532",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:22.727Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Bolognese school",
+      "url": "https://en.wikipedia.org/wiki/Bolognese_school",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:22.727Z"
+      }
+    }
+  ],
   "wikidata": "Q891532",
   "wikipedia": "Bolognese school",
   "popularity": 35,
@@ -70,5 +172,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.932Z"
 }

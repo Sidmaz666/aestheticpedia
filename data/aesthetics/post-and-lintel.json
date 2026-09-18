@@ -23,7 +23,33 @@
   "summary": "Post and lintel (also called prop and lintel, a trabeated system, or a trilithic system)  is a building system where strong horizontal elements are held up by strong vertical elements with large spaces between them.",
   "description": "Post and lintel (also called prop and lintel, a trabeated system, or a trilithic system)  is a building system where strong horizontal elements are held up by strong vertical elements with large spaces between them. This is usually used to hold up a roof, creating a largely open space beneath, for whatever use the building is designed.  The horizontal elements are called by a variety of names including lintel, header, architrave or beam, and the supporting vertical elements may be called posts, columns, or pillars.  The use of wider elements at the top of the post, called capitals, to help spread the load, is common to many architectural traditions.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#7b6b58",
+      "name": "bronze"
+    },
+    {
+      "hex": "#9e8d79",
+      "name": "stone"
+    },
+    {
+      "hex": "#504533",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#1c1e19",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#b0a79f",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#dcc2ac",
+      "name": "beige"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -45,7 +71,49 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Stonehenge_Inside_Facing_NE_April_2005.jpg/1280px-Stonehenge_Inside_Facing_NE_April_2005.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Stonehenge_Inside_Facing_NE_April_2005.jpg/500px-Stonehenge_Inside_Facing_NE_April_2005.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/95/Stonehenge_Inside_Facing_NE_April_2005.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Stonehenge_Inside_Facing_NE_April_2005.jpg",
+      "caption": "Picture taken in the afternoon from within the inner circle towards north-east. Behind the hinged megaliths, the Heel stone can be seen. Taken at April 23, 2005 7:46 pm GMT. Photo by Kristian H. Resset, Norway.",
+      "source": "Wikimedia Commons",
+      "artist": "No machine-readable author provided. Resk assumed (based on copyright claims).",
+      "date": "Taken on 23 April 2005 (according to Exif data)",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%22Amazing_pillars_and_beams_in_World_Heritage_Monument_Airavatesvara_Temple%22.JPG/1280px-%22Amazing_pillars_and_beams_in_World_Heritage_Monument_Airavatesvara_Temple%22.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%22Amazing_pillars_and_beams_in_World_Heritage_Monument_Airavatesvara_Temple%22.JPG/500px-%22Amazing_pillars_and_beams_in_World_Heritage_Monument_Airavatesvara_Temple%22.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bb/%22Amazing_pillars_and_beams_in_World_Heritage_Monument_Airavatesvara_Temple%22.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%22Amazing_pillars_and_beams_in_World_Heritage_Monument_Airavatesvara_Temple%22.JPG",
+      "caption": "This is a photo of ASI monument number",
+      "source": "Wikimedia Commons",
+      "artist": "Thamizhpparithi Maari",
+      "date": "Taken on 21 September 2012, 12:30:43",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/20130810_dublin214.JPG/1280px-20130810_dublin214.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/20130810_dublin214.JPG/500px-20130810_dublin214.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a2/20130810_dublin214.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:20130810_dublin214.JPG",
+      "caption": "View of Leinster House, Dublin.",
+      "source": "Wikimedia Commons",
+      "artist": "Jean Housen",
+      "date": "2013-08-10 17:29:01",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "857"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Post and lintel",
@@ -68,7 +136,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q30327019",
+      "url": "https://www.wikidata.org/wiki/Q30327019",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:03.384Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Post and lintel",
+      "url": "https://en.wikipedia.org/wiki/Post_and_lintel",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:03.384Z"
+      }
+    }
+  ],
   "wikidata": "Q30327019",
   "wikipedia": "Post and lintel",
   "popularity": 35,
@@ -76,5 +167,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:01:03.384Z"
 }

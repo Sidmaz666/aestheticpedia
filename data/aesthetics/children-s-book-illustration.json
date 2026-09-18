@@ -17,7 +17,33 @@
   "summary": "Children's book illustration is a subfield of book illustration, and a genre of art associated with children's literature.",
   "description": "Children's book illustration is a subfield of book illustration, and a genre of art associated with children's literature. Children's books with illustrations are often known as picture books.\n\nIllustrations contribute to the children's development and provides them with aesthetic impressions.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f4f5f3",
+      "name": "paper white"
+    },
+    {
+      "hex": "#3c331c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#c7bcaf",
+      "name": "silver"
+    },
+    {
+      "hex": "#81421d",
+      "name": "sepia"
+    },
+    {
+      "hex": "#797a73",
+      "name": "slate"
+    },
+    {
+      "hex": "#f7bf27",
+      "name": "saffron yellow"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,120 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/The_Halloween_Play_%2812%29_written_and_illustrated_Felicia_Bond.JPG/1280px-The_Halloween_Play_%2812%29_written_and_illustrated_Felicia_Bond.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/The_Halloween_Play_%2812%29_written_and_illustrated_Felicia_Bond.JPG/500px-The_Halloween_Play_%2812%29_written_and_illustrated_Felicia_Bond.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8a/The_Halloween_Play_%2812%29_written_and_illustrated_Felicia_Bond.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Halloween_Play_(12)_written_and_illustrated_Felicia_Bond.JPG",
+      "caption": "The Halloween Play (12) written and illustrated Felicia Bond",
+      "source": "Wikimedia Commons",
+      "artist": "Felicia Bond, Writer and Illustrator",
+      "date": "2013-05-05 19:06:13",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1302"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/8b728f79-4937-4a98-5552-a3419cd6358f/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/8b728f79-4937-4a98-5552-a3419cd6358f/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/8b728f79-4937-4a98-5552-a3419cd6358f/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/8606",
+      "caption": "Peasant Family at a Well, 1650/60",
+      "source": "Art Institute of Chicago",
+      "artist": "Master of the Children's Caps (Le Maître aux Béguins; French, 17th century)",
+      "date": "1650/60",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "798"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/f32ef282-5346-9231-0e89-79c6dbfa1f00/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/f32ef282-5346-9231-0e89-79c6dbfa1f00/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/f32ef282-5346-9231-0e89-79c6dbfa1f00/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/3446",
+      "caption": "The Birth of Annette, c. 1899",
+      "source": "Art Institute of Chicago",
+      "artist": "Edouard Jean Vuillard",
+      "date": "c. 1899",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "626"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/27992",
+      "caption": "A Sunday on La Grande Jatte — 1884, 1884–86, border added 1888–89",
+      "source": "Art Institute of Chicago",
+      "artist": "Georges Seurat (French, 1859–1891)",
+      "date": "1884–86, border added 1888–89",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "565"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/71573",
+      "caption": "A Holiday, c. 1915",
+      "source": "Art Institute of Chicago",
+      "artist": "Edward Henry Potthast (American, 1857–1927)",
+      "date": "c. 1915",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "631"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b090f926-cc23-fe1a-a2ae-42a6de296539/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b090f926-cc23-fe1a-a2ae-42a6de296539/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b090f926-cc23-fe1a-a2ae-42a6de296539/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/13531",
+      "caption": "Maternal Caress, 1890–91",
+      "source": "Art Institute of Chicago",
+      "artist": "Mary Cassatt (American, 1844-1926)",
+      "date": "1890–91",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1195"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/cc5cdb81-14cf-27e9-eda8-94c08244ebaa/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/cc5cdb81-14cf-27e9-eda8-94c08244ebaa/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/cc5cdb81-14cf-27e9-eda8-94c08244ebaa/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/34461",
+      "caption": "Polynesian Woman with Children, 1901",
+      "source": "Art Institute of Chicago",
+      "artist": "Paul Gauguin (French, 1848–1903)",
+      "date": "1901",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1111"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/ed1b3063-8ce3-d4bc-50cb-b96f13f015e2/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/ed1b3063-8ce3-d4bc-50cb-b96f13f015e2/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/ed1b3063-8ce3-d4bc-50cb-b96f13f015e2/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/80499",
+      "caption": "Dorothea and Francesca, 1898",
+      "source": "Art Institute of Chicago",
+      "artist": "Cecilia Beaux (American, 1855–1942)",
+      "date": "1898",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1489"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Children's book illustration",
@@ -62,7 +201,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q21156438",
+      "url": "https://www.wikidata.org/wiki/Q21156438",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:02.121Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Children's book illustration",
+      "url": "https://en.wikipedia.org/wiki/Children's_book_illustration",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:02.121Z"
+      }
+    }
+  ],
   "wikidata": "Q21156438",
   "wikipedia": "Children's book illustration",
   "popularity": 35,
@@ -70,5 +232,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:41:02.121Z"
 }

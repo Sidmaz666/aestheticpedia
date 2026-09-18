@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Spain",
+  "geography": "Spain",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The New Valencian School (Nueva Escuela Valenciana in Spanish, Nova Escola Valenciana in Valencian) was a trend within Spanish comics that originated in Valencia during the transition to democracy initially through fanzines and peaked editorially during the early 1980s.",
   "description": "The New Valencian School (Nueva Escuela Valenciana in Spanish, Nova Escola Valenciana in Valencian) was a trend within Spanish comics that originated in Valencia during the transition to democracy initially through fanzines and peaked editorially during the early 1980s. It comprised several Valencian artists, such as Mique Beltrán, Miguel Calatayud, Manel Gimeno, Sento Llobell, Javier Mariscal, Micharmut and Daniel Torres, and it's credited for pioneering the creation and recognition of adult, cinematographically inspired comics.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b2a084",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#1b1817",
+      "name": "black"
+    },
+    {
+      "hex": "#524d4c",
+      "name": "graphite"
+    },
+    {
+      "hex": "#383434",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#a4694d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#914f32",
+      "name": "brick"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Daniel_Torres._37_Comic_Barcelona.jpg/1280px-Daniel_Torres._37_Comic_Barcelona.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Daniel_Torres._37_Comic_Barcelona.jpg/500px-Daniel_Torres._37_Comic_Barcelona.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Daniel_Torres._37_Comic_Barcelona.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Daniel_Torres._37_Comic_Barcelona.jpg",
+      "caption": "L'autor Daniel Torres durant l'entrega dels premis de la AACE (Asociación de Autores de Cómic de España). Torres va rebre el premi en reconeixement a toda una carrera profesional en el cómic. 37 Còmic Barcelona.",
+      "source": "Wikimedia Commons",
+      "artist": "Ferran Cornellà",
+      "date": "2019-04-05 19:22:10",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1920"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — New Valencian School",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q974521",
+      "url": "https://www.wikidata.org/wiki/Q974521",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:01.101Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — New Valencian School",
+      "url": "https://en.wikipedia.org/wiki/New_Valencian_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:01.101Z"
+      }
+    }
+  ],
   "wikidata": "Q974521",
   "wikipedia": "New Valencian School",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.863Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Italy",
+  "geography": "Italy",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Neoclassical architecture in Milan encompasses the main artistic movement from about 1750 to 1850 in this northern Italian city.",
   "description": "Neoclassical architecture in Milan encompasses the main artistic movement from about 1750 to 1850 in this northern Italian city. From the final years of the reign of Maria Theresa of Austria, through the Napoleonic Kingdom of Italy and the European Restoration, Milan was in the forefront of a strong cultural and economic renaissance in which Neoclassicism was the dominant style, creating in Milan some of the most influential works in this style in Italy and across Europe. Notable developments include construction of the Teatro alla Scala, the restyled Royal Palace, and the Brera institutions including the Academy of Fine Arts, the Braidense Library and the Brera Astronomical Observatory. Neoclassicism also led to the development of monumental city gates, new squares and boulevards, as well as public gardens and private mansions. Latterly, two churches, San Tomaso in Terramara and San Carlo al Corso, were completed in Neoclassical style before the period came to an end in the late 1830s.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#282522",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#584d49",
+      "name": "umber"
+    },
+    {
+      "hex": "#a89386",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#7a7166",
+      "name": "bronze"
+    },
+    {
+      "hex": "#c1b5ac",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#712718",
+      "name": "burnt sienna"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,140 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/20110725_Arco_della_Pace_Milan_5612.jpg/1280px-20110725_Arco_della_Pace_Milan_5612.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/20110725_Arco_della_Pace_Milan_5612.jpg/500px-20110725_Arco_della_Pace_Milan_5612.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/17/20110725_Arco_della_Pace_Milan_5612.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:20110725_Arco_della_Pace_Milan_5612.jpg",
+      "caption": "Arco della Pace in Milan",
+      "source": "Wikimedia Commons",
+      "artist": "Jakub Hałun",
+      "date": "2011-07-25",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1916"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Milano_chiesa_San_Carlo_al_Corso.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/83/Milano_chiesa_San_Carlo_al_Corso.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/83/Milano_chiesa_San_Carlo_al_Corso.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Milano_chiesa_San_Carlo_al_Corso.JPG",
+      "caption": "La chiesa di San Carlo al Corso a Milano",
+      "source": "Wikimedia Commons",
+      "artist": "Arbalete",
+      "date": "2010-04",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1003",
+      "height": "722"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Kaiserin_Maria_Theresia_%28HRR%29.jpg/1280px-Kaiserin_Maria_Theresia_%28HRR%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Kaiserin_Maria_Theresia_%28HRR%29.jpg/500px-Kaiserin_Maria_Theresia_%28HRR%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kaiserin_Maria_Theresia_%28HRR%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kaiserin_Maria_Theresia_(HRR).jpg",
+      "caption": "\"Meytens painted this portrait on the occasion of the opening of the new building of the Academy in 1759 (Husslein-Arco/Lechner 2014) vanaf 1759\" [1]",
+      "source": "Wikimedia Commons",
+      "artist": "Martin van Meytens",
+      "date": "1759",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1586"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/860MilanoPalazzoReale.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/860MilanoPalazzoReale.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/860MilanoPalazzoReale.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:860MilanoPalazzoReale.JPG",
+      "caption": "Milano - Palazzo Reale",
+      "source": "Wikimedia Commons",
+      "artist": "MarkusMark",
+      "date": "2009-02",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/IMG_4075_-_Canova_-_Napoleone_Bonaparte_-_Milano%2C_Cortile_del_Palazzo_di_Brera_-_Foto_Giovanni_Dall%27Orto_19-jan_2007.jpg/1280px-IMG_4075_-_Canova_-_Napoleone_Bonaparte_-_Milano%2C_Cortile_del_Palazzo_di_Brera_-_Foto_Giovanni_Dall%27Orto_19-jan_2007.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/IMG_4075_-_Canova_-_Napoleone_Bonaparte_-_Milano%2C_Cortile_del_Palazzo_di_Brera_-_Foto_Giovanni_Dall%27Orto_19-jan_2007.jpg/500px-IMG_4075_-_Canova_-_Napoleone_Bonaparte_-_Milano%2C_Cortile_del_Palazzo_di_Brera_-_Foto_Giovanni_Dall%27Orto_19-jan_2007.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a2/IMG_4075_-_Canova_-_Napoleone_Bonaparte_-_Milano%2C_Cortile_del_Palazzo_di_Brera_-_Foto_Giovanni_Dall%27Orto_19-jan_2007.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:IMG_4075_-_Canova_-_Napoleone_Bonaparte_-_Milano,_Cortile_del_Palazzo_di_Brera_-_Foto_Giovanni_Dall%27Orto_19-jan_2007.jpg",
+      "caption": "The bronze statue to Napoleon Bonaparte sculpted by Antonio Canova , in the courtyard of the Palace of Brera at Milan . Picture by Giovanni Dall'Orto , January 19 2007.",
+      "source": "Wikimedia Commons",
+      "artist": "G.dallorto",
+      "date": "19 January 2007 (according to Exif data)",
+      "license": "Attribution",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/XIX_century_print%2C_Piazza_della_Scala%2C_Milano.jpg/1280px-XIX_century_print%2C_Piazza_della_Scala%2C_Milano.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/XIX_century_print%2C_Piazza_della_Scala%2C_Milano.jpg/500px-XIX_century_print%2C_Piazza_della_Scala%2C_Milano.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bb/XIX_century_print%2C_Piazza_della_Scala%2C_Milano.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:XIX_century_print,_Piazza_della_Scala,_Milano.jpg",
+      "caption": "A nineteenth-century depiction of the Teatro alla Scala in the Piazza della Scala, Milan.",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "938"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Milano_-_Villa_Reale_-_facciata_sud_-_04.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/21/Milano_-_Villa_Reale_-_facciata_sud_-_04.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/21/Milano_-_Villa_Reale_-_facciata_sud_-_04.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Milano_-_Villa_Reale_-_facciata_sud_-_04.jpg",
+      "caption": "Villa Reale a Milano",
+      "source": "Wikimedia Commons",
+      "artist": "Arbalete",
+      "date": "2010-04",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1024",
+      "height": "768"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/03566_-_Casello_sin_Porta_Venezia%2C_Milano_-_Foto_Giovanni_Dall%27Orto_23-Jun-2007.jpg/1280px-03566_-_Casello_sin_Porta_Venezia%2C_Milano_-_Foto_Giovanni_Dall%27Orto_23-Jun-2007.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/03566_-_Casello_sin_Porta_Venezia%2C_Milano_-_Foto_Giovanni_Dall%27Orto_23-Jun-2007.jpg/500px-03566_-_Casello_sin_Porta_Venezia%2C_Milano_-_Foto_Giovanni_Dall%27Orto_23-Jun-2007.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/03566_-_Casello_sin_Porta_Venezia%2C_Milano_-_Foto_Giovanni_Dall%27Orto_23-Jun-2007.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:03566_-_Casello_sin_Porta_Venezia,_Milano_-_Foto_Giovanni_Dall%27Orto_23-Jun-2007.jpg",
+      "caption": "Porta Venezia (city Gate) in Milan , Italy. The right-hand building (looking opposite the Centre town). Picture by Giovanni Dall'Orto , June 23 2007.",
+      "source": "Wikimedia Commons",
+      "artist": "G.dallorto",
+      "license": "Attribution",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/9039_-_Milano%2C_Corso_Venezia_-_Giovanni_Perego%2C_Palazzo_Saporiti_%281812%29_-_Foto_Giovanni_Dall%27Orto_22-Apr-2007.jpg/1280px-9039_-_Milano%2C_Corso_Venezia_-_Giovanni_Perego%2C_Palazzo_Saporiti_%281812%29_-_Foto_Giovanni_Dall%27Orto_22-Apr-2007.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/9039_-_Milano%2C_Corso_Venezia_-_Giovanni_Perego%2C_Palazzo_Saporiti_%281812%29_-_Foto_Giovanni_Dall%27Orto_22-Apr-2007.jpg/500px-9039_-_Milano%2C_Corso_Venezia_-_Giovanni_Perego%2C_Palazzo_Saporiti_%281812%29_-_Foto_Giovanni_Dall%27Orto_22-Apr-2007.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/da/9039_-_Milano%2C_Corso_Venezia_-_Giovanni_Perego%2C_Palazzo_Saporiti_%281812%29_-_Foto_Giovanni_Dall%27Orto_22-Apr-2007.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:9039_-_Milano,_Corso_Venezia_-_Giovanni_Perego,_Palazzo_Saporiti_(1812)_-_Foto_Giovanni_Dall%27Orto_22-Apr-2007.jpg",
+      "caption": "Giovanni Perego , Facade (1812) of \" Palazzo Saporiti \" palace in Corso Venezia in Milan , Italy. Picture by Giovanni Dall'Orto , April 22 2007.",
+      "source": "Wikimedia Commons",
+      "artist": "G.dallorto",
+      "date": "22 April 2007 (according to Exif data)",
+      "license": "Attribution",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/20161101_Palazzo_Melzi_di_Cusano%2C_Milano.jpg/1280px-20161101_Palazzo_Melzi_di_Cusano%2C_Milano.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/20161101_Palazzo_Melzi_di_Cusano%2C_Milano.jpg/500px-20161101_Palazzo_Melzi_di_Cusano%2C_Milano.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/20161101_Palazzo_Melzi_di_Cusano%2C_Milano.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:20161101_Palazzo_Melzi_di_Cusano,_Milano.jpg",
+      "caption": "View of palazzo Melzi di Cusano, via Montenapoleone, Milan",
+      "source": "Wikimedia Commons",
+      "artist": "Melancholia~itwiki",
+      "date": "2016-11-01 16:15:31",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1294"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Neoclassical architecture in Milan",
@@ -62,7 +221,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3874654",
+      "url": "https://www.wikidata.org/wiki/Q3874654",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:06.795Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Neoclassical architecture in Milan",
+      "url": "https://en.wikipedia.org/wiki/Neoclassical_architecture_in_Milan",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:06.795Z"
+      }
+    }
+  ],
   "wikidata": "Q3874654",
   "wikipedia": "Neoclassical architecture in Milan",
   "popularity": 35,
@@ -70,5 +252,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.413Z"
 }

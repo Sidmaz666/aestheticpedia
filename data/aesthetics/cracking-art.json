@@ -17,7 +17,33 @@
   "summary": "Cracking Art is an art movement created by an Italian artist collective, and known for urban installations characterized by the presence of giant animals made of recyclable and colored plastic.",
   "description": "Cracking Art is an art movement created by an Italian artist collective, and known for urban installations characterized by the presence of giant animals made of recyclable and colored plastic.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bdad9a",
+      "name": "khaki"
+    },
+    {
+      "hex": "#efe5d0",
+      "name": "bone white"
+    },
+    {
+      "hex": "#8f8272",
+      "name": "taupe"
+    },
+    {
+      "hex": "#2c2721",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#635545",
+      "name": "umber"
+    },
+    {
+      "hex": "#ec6468",
+      "name": "salmon"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Renzo_Nucara%2C_installazione_Cracking_Art_Group%2C_2016%2C_Cava_Burgazzi%2C_Rezzato.jpg/1280px-Renzo_Nucara%2C_installazione_Cracking_Art_Group%2C_2016%2C_Cava_Burgazzi%2C_Rezzato.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Renzo_Nucara%2C_installazione_Cracking_Art_Group%2C_2016%2C_Cava_Burgazzi%2C_Rezzato.jpg/500px-Renzo_Nucara%2C_installazione_Cracking_Art_Group%2C_2016%2C_Cava_Burgazzi%2C_Rezzato.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Renzo_Nucara%2C_installazione_Cracking_Art_Group%2C_2016%2C_Cava_Burgazzi%2C_Rezzato.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Renzo_Nucara,_installazione_Cracking_Art_Group,_2016,_Cava_Burgazzi,_Rezzato.jpg",
+      "caption": "Renzo Nucara, \"Cave Canem\", installazione Cracking Art Group, 2016, Cava Burgazzi, Rezzato BS",
+      "source": "Wikimedia Commons",
+      "artist": "Renzo Nucara",
+      "date": "2016-09-01 17:46:05",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Festival_Hecho_en_Casa_-Caracoles_fRF05.jpg/1280px-Festival_Hecho_en_Casa_-Caracoles_fRF05.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Festival_Hecho_en_Casa_-Caracoles_fRF05.jpg/500px-Festival_Hecho_en_Casa_-Caracoles_fRF05.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/47/Festival_Hecho_en_Casa_-Caracoles_fRF05.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Festival_Hecho_en_Casa_-Caracoles_fRF05.jpg",
+      "caption": "Los caracoles de colores hechos de plástico reciclado por el colectivo italiano Cracking Art para el festival Hecho en Casa 2018, parque Balmaceda , a los pies de la estatua; Santiago de Chile .",
+      "source": "Wikimedia Commons",
+      "artist": "Rodrigo Fernández",
+      "date": "2018-10-27 13:20:00",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1236"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Cracking Art",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3696422",
+      "url": "https://www.wikidata.org/wiki/Q3696422",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:12.799Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cracking Art",
+      "url": "https://en.wikipedia.org/wiki/Cracking_Art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:12.799Z"
+      }
+    }
+  ],
   "wikidata": "Q3696422",
   "wikipedia": "Cracking Art",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:42:12.799Z"
 }

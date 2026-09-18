@@ -17,7 +17,21 @@
   "summary": "The Scandinavian flat-plane style of woodcarving is a style of figure carving.",
   "description": "The Scandinavian flat-plane style of woodcarving is a style of figure carving. The figures are carved in large flat planes, created primarily using a carving knife. Tool marks are left in the carving and very little (if any) rounding or sanding is done. Emil Janel, a Swedish-born American artist, was considered by many to be one of the best of this genre.\n\nA common example of the style is the Dalecarlian horse, whose distinctive shape is due to this manner of carving.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#80766e",
+      "name": "taupe"
+    },
+    {
+      "hex": "#ad9d9a",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#fefefe",
+      "name": "ivory"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +53,34 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Dalahast_2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Dalahast_2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Dalahast_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dalahast_2.jpg",
+      "caption": "Dala horse production",
+      "source": "Wikimedia Commons",
+      "artist": "Holger Ellgaard",
+      "date": "1991",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1104",
+      "height": "992"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Assiette_vide_sans_loukoum.jpg/1280px-Assiette_vide_sans_loukoum.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Assiette_vide_sans_loukoum.jpg/500px-Assiette_vide_sans_loukoum.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Assiette_vide_sans_loukoum.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Assiette_vide_sans_loukoum.jpg",
+      "caption": "Assiette vide sans loukoum",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "958"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Scandinavian flat-plane style of woodcarving",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7429982",
+      "url": "https://www.wikidata.org/wiki/Q7429982",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:19.037Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Scandinavian flat-plane style of woodcarving",
+      "url": "https://en.wikipedia.org/wiki/Scandinavian_flat-plane_style_of_woodcarving",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:19.037Z"
+      }
+    }
+  ],
   "wikidata": "Q7429982",
   "wikipedia": "Scandinavian flat-plane style of woodcarving",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:04:19.037Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "People's Republic of China",
+  "geography": "People's Republic of China",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "A pit courtyard or Dikengyuan (Chinese: 地坑院; pinyin: De kēng yuàn) is a traditional form of subterranean residential architecture found primarily in the Shaanxi, Henan, and Gansu Provinces.",
   "description": "A pit courtyard or Dikengyuan (Chinese: 地坑院; pinyin: De kēng yuàn) is a traditional form of subterranean residential architecture found primarily in the Shaanxi, Henan, and Gansu Provinces.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#56442b",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#3d2d18",
+      "name": "walnut brown 2"
+    },
+    {
+      "hex": "#6e593f",
+      "name": "umber"
+    },
+    {
+      "hex": "#877256",
+      "name": "bronze"
+    },
+    {
+      "hex": "#171309",
+      "name": "black"
+    },
+    {
+      "hex": "#a39076",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Cave_Dwelling_-_Courtyard.jpg/1280px-Cave_Dwelling_-_Courtyard.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Cave_Dwelling_-_Courtyard.jpg/500px-Cave_Dwelling_-_Courtyard.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Cave_Dwelling_-_Courtyard.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cave_Dwelling_-_Courtyard.jpg",
+      "caption": "Luoyang, Henan. The cave dwellers will dig a courtyard that is about 10 meters deep. After that, rooms are dug off the main courtyard. This is a typical sunken courtyard complex, or pit dwelling in Shaanxi or Henan. Most of the time the dweller live in the caves not out of povert",
+      "source": "Wikimedia Commons",
+      "artist": "Kevin Poh from Petaling Jaya, Malaysia",
+      "date": "2009-05-04 12:17",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Gugong.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Gugong.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Gugong.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gugong.jpg",
+      "caption": "Gugong",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "640",
+      "height": "480"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Pit courtyard",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q109349770",
+      "url": "https://www.wikidata.org/wiki/Q109349770",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:13.542Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Pit courtyard",
+      "url": "https://en.wikipedia.org/wiki/Pit_courtyard",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:13.542Z"
+      }
+    }
+  ],
   "wikidata": "Q109349770",
   "wikipedia": "Pit courtyard",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.898Z"
 }

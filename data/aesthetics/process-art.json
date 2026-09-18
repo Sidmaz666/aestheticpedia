@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Brazil",
+  "geography": "Brazil",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,29 @@
   "summary": "Process art is an artistic movement where the end product of art and craft, the objet d’art (work of art/found object), is not the principal focus; the process of its making is one of the most relevant aspects if not the most important one: the gathering, sorting, collating, asso",
   "description": "Process art is an artistic movement where the end product of art and craft, the objet d’art (work of art/found object), is not the principal focus; the process of its making is one of the most relevant aspects if not the most important one: the gathering, sorting, collating, associating, patterning, and moreover the initiation of actions and proceedings. Process artists saw art as humans partnering with intrinsic material expression. Process art is primarily interested in demonstrating forces on matter and defends the idea that the process of creating the work of art can be an art piece itself. Artist Robert Morris  refers to the artistic approach as “anti-form”, meaning there is no inherent relation to the physical object.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f1598b",
+      "name": "hot pink"
+    },
+    {
+      "hex": "#e78c64",
+      "name": "salmon"
+    },
+    {
+      "hex": "#d3754e",
+      "name": "raw sienna"
+    },
+    {
+      "hex": "#d191a6",
+      "name": "blush"
+    },
+    {
+      "hex": "#c03351",
+      "name": "vermilion"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +61,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Addendum_by_Eva_Hesse%2C_Tate_Liverpool.jpg/1280px-Addendum_by_Eva_Hesse%2C_Tate_Liverpool.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Addendum_by_Eva_Hesse%2C_Tate_Liverpool.jpg/500px-Addendum_by_Eva_Hesse%2C_Tate_Liverpool.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Addendum_by_Eva_Hesse%2C_Tate_Liverpool.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Addendum_by_Eva_Hesse,_Tate_Liverpool.jpg",
+      "caption": "Addendum by Eva Hesse , Tate Liverpool , England.",
+      "source": "Wikimedia Commons",
+      "artist": "Rept0n1x",
+      "date": "2012-05-13",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Process art",
@@ -62,7 +99,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q545851",
+      "url": "https://www.wikidata.org/wiki/Q545851",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:15.614Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Process art",
+      "url": "https://en.wikipedia.org/wiki/Process_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:15.614Z"
+      }
+    }
+  ],
   "wikidata": "Q545851",
   "wikipedia": "Process art",
   "popularity": 35,
@@ -70,5 +130,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.088Z"
 }

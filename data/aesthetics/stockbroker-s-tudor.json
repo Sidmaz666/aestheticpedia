@@ -42,7 +42,21 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Marsham%27s_Farm%2C_Gerrard%27s_Cross.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Marsham%27s_Farm%2C_Gerrard%27s_Cross.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Marsham%27s_Farm%2C_Gerrard%27s_Cross.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Marsham%27s_Farm,_Gerrard%27s_Cross.png",
+      "caption": "Marsham's Farm, Gerrard's Cross by Stanley Hinge Hamp. From The Studio Yearbook of Decorative Art 1912",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1912-01-01",
+      "license": "Public domain",
+      "width": "955",
+      "height": "723"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Stockbroker's Tudor",
@@ -65,7 +79,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q106771064",
+      "url": "https://www.wikidata.org/wiki/Q106771064",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:09.648Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Stockbroker's Tudor",
+      "url": "https://en.wikipedia.org/wiki/Stockbroker's_Tudor",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:09.648Z"
+      }
+    }
+  ],
   "wikidata": "Q106771064",
   "wikipedia": "Stockbroker's Tudor",
   "popularity": 35,
@@ -73,5 +110,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:07:09.648Z"
 }

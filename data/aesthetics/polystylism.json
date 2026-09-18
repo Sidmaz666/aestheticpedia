@@ -17,7 +17,33 @@
   "summary": "Polystylism is the use of multiple styles or techniques in literature, art, film, or, especially, music.",
   "description": "Polystylism is the use of multiple styles or techniques in literature, art, film, or, especially, music.\n\nSome prominent contemporary polystylist composers include Peter Maxwell Davies, Alfred Schnittke, and John Zorn. Polystylist composers from earlier in the twentieth century include Charles Ives and Erik Satie. Among literary figures, James Joyce has been referred to as a polystylist. On the other hand, composers including Sofia Gubaidulina have rejected the term as not applicable to their work.\n\nThough perhaps not the original source of the term, the first important discussion of the subject is Alfred Schnittke's essay \"Polystylistic Tendencies in Modern Music (1971)\". The composers cited by Schnittke as those who make use of polystylism are Alban Berg, Luciano Berio, Pierre Boulez, Edison Denisov, Hans Werner Henze, Mauricio Kagel, Jan Klusák, György Ligeti, Carl Orff, Arvo Pärt, Krzysztof Penderecki, Henri Pousseur, Rodion Shchedrin, Dmitri Shostakovich, Sergei Slonimsky, Karlheinz Stockhausen, Igor Stravinsky, Boris Tishchenko, Anton Webern, and Bernd Alois Zimmermann.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bfc3d0",
+      "name": "silver"
+    },
+    {
+      "hex": "#403c37",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#d8d8de",
+      "name": "bone white"
+    },
+    {
+      "hex": "#91929e",
+      "name": "stone"
+    },
+    {
+      "hex": "#71707b",
+      "name": "slate"
+    },
+    {
+      "hex": "#221f21",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spiral-jetty-from-rozel-point.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spiral-jetty-from-rozel-point.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spiral-jetty-from-rozel-point.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Spiral-jetty-from-rozel-point.png",
+      "caption": "Spiral Jetty from atop Rozel Point, in mid-April 2005.",
+      "source": "Wikimedia Commons",
+      "artist": "Sculpture: Robert Smithson 1938-1973 Image: Soren.harward at en.wikipedia",
+      "date": "17 April 2005 (original upload date)",
+      "license": "Public domain",
+      "width": "800",
+      "height": "450"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Polystylism",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3269212",
+      "url": "https://www.wikidata.org/wiki/Q3269212",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:23.043Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Polystylism",
+      "url": "https://en.wikipedia.org/wiki/Polystylism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:00:23.043Z"
+      }
+    }
+  ],
   "wikidata": "Q3269212",
   "wikipedia": "Polystylism",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:00:23.043Z"
 }

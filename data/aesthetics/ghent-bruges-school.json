@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Southern Netherlands",
+  "geography": "Southern Netherlands",
   "periodStart": "15th century",
   "periodEnd": "16th century",
   "startYear": 1475,
@@ -39,7 +39,34 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Hastings_Hours_-_f42-43_-_Adoration_of_kings.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/49/Hastings_Hours_-_f42-43_-_Adoration_of_kings.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/49/Hastings_Hours_-_f42-43_-_Adoration_of_kings.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hastings_Hours_-_f42-43_-_Adoration_of_kings.jpg",
+      "caption": "Livre d'heures de William Hastings, l'adoration des mages",
+      "source": "Wikimedia Commons",
+      "artist": "Alexander Bening",
+      "date": "before 1483 date QS:P571,+1483-00-00T00:00:00Z/7,P1326,+1483",
+      "license": "Public domain",
+      "width": "976",
+      "height": "708"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Breviarium_Grimani_-_February.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/88/Breviarium_Grimani_-_February.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Breviarium_Grimani_-_February.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Breviarium_Grimani_-_February.jpg",
+      "caption": "February, Brevarium Grimani, fol. 2v (Flemish)",
+      "source": "Wikimedia Commons",
+      "artist": "Gerard Horenbout, Alexander & Simon Bening",
+      "date": "circa 1510 date QS:P,+1510-00-00T00:00:00Z/9,P1480,Q5727902",
+      "license": "Public domain",
+      "width": "1200",
+      "height": "1600"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Ghent–Bruges school",
@@ -62,7 +89,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q15941800",
+      "url": "https://www.wikidata.org/wiki/Q15941800",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:05.846Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Ghent–Bruges school",
+      "url": "https://en.wikipedia.org/wiki/Ghent%E2%80%93Bruges_school",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:05.846Z"
+      }
+    }
+  ],
   "wikidata": "Q15941800",
   "wikipedia": "Ghent–Bruges school",
   "popularity": 35,
@@ -70,5 +120,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.234Z"
 }

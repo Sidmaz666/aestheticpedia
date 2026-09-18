@@ -20,7 +20,33 @@
   "summary": "Egoyomi (盲暦) is a Japanese picture calendar, in which the length and order of the months are deducible, like a code, from cryptic markings that are incomprehensible to most people but transparent to enthusiasts.",
   "description": "Egoyomi (盲暦) is a Japanese picture calendar, in which the length and order of the months are deducible, like a code, from cryptic markings that are incomprehensible to most people but transparent to enthusiasts. These types of calendars thrived during the so-called Meiwa era of the late 18th century. This was a period when it was prohibited to make unofficial calendars. Since these kinds of calendars were illegal, it has been claimed that calendar markings that would have indicated the purpose of these pictures as a calendar, were not included. However, the extent to which these pictures misled the authorities is a topic of debate.\n\nThese calendar woodblock prints were surimono, privately commissioned and published works not intended for the general public but used within private circles. Eventually, the same pictures reached the public market: the calendar information was carved off the wooden blocks, which were then reprinted and sold.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#ddd4c0",
+      "name": "bone white"
+    },
+    {
+      "hex": "#b8b19e",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#6f6059",
+      "name": "umber"
+    },
+    {
+      "hex": "#9c7865",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#0c0c0c",
+      "name": "black"
+    },
+    {
+      "hex": "#344b60",
+      "name": "charcoal"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,47 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Egoyomi_voor_het_jaar_van_het_zwijn%2C_RP-P-2006-108.jpg/1280px-Egoyomi_voor_het_jaar_van_het_zwijn%2C_RP-P-2006-108.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Egoyomi_voor_het_jaar_van_het_zwijn%2C_RP-P-2006-108.jpg/500px-Egoyomi_voor_het_jaar_van_het_zwijn%2C_RP-P-2006-108.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Egoyomi_voor_het_jaar_van_het_zwijn%2C_RP-P-2006-108.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Egoyomi_voor_het_jaar_van_het_zwijn,_RP-P-2006-108.jpg",
+      "caption": "Identificatie Titel(s): Egoyomi voor het jaar van het zwijn Objecttype: prent egoyomi (kalenderblad) Objectnummer: RP-P-2006-108 Opschriften / Merken: verzamelaarsmerk, verso, gestempeld: Lugt 2228 Omschrijving: Een hoveling en jongen voetballend onder een boom. De nummers van de",
+      "source": "Wikimedia Commons",
+      "artist": "Rijksmuseum",
+      "date": "1791",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1701"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toshusai_Sharaku-_Otani_Oniji,_1794.jpg",
+      "caption": "Oniji Ōtani III (aka. Nakazō Nakamura II) as Edobee in the May 1794 production of Koi Nyōbo Somewake Tazuna at Edo Kawarasaki-za theater. Polychrome woodcut print on paper; 15 x 9 7/8 in. (38.1 x 22.9 cm) Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939 (JP2822)",
+      "source": "Wikimedia Commons",
+      "artist": "Sharaku",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "802",
+      "height": "1200"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/The_Great_Wave_off_Kanagawa-cutout.png/1280px-The_Great_Wave_off_Kanagawa-cutout.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/The_Great_Wave_off_Kanagawa-cutout.png/500px-The_Great_Wave_off_Kanagawa-cutout.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/The_Great_Wave_off_Kanagawa-cutout.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Great_Wave_off_Kanagawa-cutout.png",
+      "caption": "Although it is often used in tsunami literature, there is no reason to suspect that Hokusai intended it to be interpreted in that way. The waves in this work are sometimes mistakenly referred to as tsunami (津波), but they are more accurately called okinami (沖波), great off-shore wa",
+      "source": "Wikimedia Commons",
+      "artist": "Hokusai",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1195"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Egoyomi",
@@ -65,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3049247",
+      "url": "https://www.wikidata.org/wiki/Q3049247",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:14.548Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Egoyomi",
+      "url": "https://en.wikipedia.org/wiki/Egoyomi",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:14.548Z"
+      }
+    }
+  ],
   "wikidata": "Q3049247",
   "wikipedia": "Egoyomi",
   "popularity": 35,
@@ -73,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:44:14.548Z"
 }

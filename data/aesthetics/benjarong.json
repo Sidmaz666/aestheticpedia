@@ -9,8 +9,8 @@
   "establishment": "regional_tradition",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Thailand",
+  "geography": "Thailand",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -19,7 +19,33 @@
   "summary": "Benjarong (Thai เบญจรงค์) porcelain ware is a kind of painted Thai ceramics.",
   "description": "Benjarong (Thai เบญจรงค์) porcelain ware is a kind of painted Thai ceramics. While the name literally means \"five colours (Wucai),\" it is a figurative description and actual decoration can have anywhere between three and eight colours. For the decoration,  repetitive forms, usually geometric or flower-based, are used. A design is usually named after the decoration base name and a background color (for example, Phum Kao Bin on dark blue). Recurring motifs include the thepphanom (เทพพนม, from Sanskrit devapraṇama, an adoring deity), the norasing (นรสิงห์, Sanskrit narasiṁha, man-lion), Matchanu, the son of Hanuman and the mermaid Suphannamatcha in the Ramakien, and the kanok flame scroll.\n\nEnamel colors are applied and overglazed, creating a swelling effect over the surface of the piece. The production process is extremely labor-intensive, as each color is applied individually and the piece is kiln fired after the application of each color. The firing process brightens the colors of the finished piece and adds to its beauty. Gold is also used in painting the porcelain. Hiram Woodward treats benjarong and lai nam thong (ลายน้ำทอง, gilded design) as two types of Chinese porcelain made in China for the Siamese market in the 19th century.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#3c3735",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#5f5448",
+      "name": "umber"
+    },
+    {
+      "hex": "#1f1b18",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#83715c",
+      "name": "bronze"
+    },
+    {
+      "hex": "#9a8d7e",
+      "name": "stone"
+    },
+    {
+      "hex": "#b7a48e",
+      "name": "khaki"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,22 @@
   "tags": [
     "pottery style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Benjarong_Thai_19th_cent_Ayuthaya_porcelain_Jim_Thompson_Museum_IMG_7100.jpg/1280px-Benjarong_Thai_19th_cent_Ayuthaya_porcelain_Jim_Thompson_Museum_IMG_7100.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Benjarong_Thai_19th_cent_Ayuthaya_porcelain_Jim_Thompson_Museum_IMG_7100.jpg/500px-Benjarong_Thai_19th_cent_Ayuthaya_porcelain_Jim_Thompson_Museum_IMG_7100.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Benjarong_Thai_19th_cent_Ayuthaya_porcelain_Jim_Thompson_Museum_IMG_7100.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Benjarong_Thai_19th_cent_Ayuthaya_porcelain_Jim_Thompson_Museum_IMG_7100.jpg",
+      "caption": "\"Benjarong\" style porcelain / ceramics, from the Jim Thompson House collection. Benjarong style of 17-19th century (Ayuthaya) was Thai design, but produced in China (Canton) for export exclusively to Thailand. The pentachromatic style (red, black, blue, green, yellow), was named ",
+      "source": "Wikimedia Commons",
+      "artist": "Bjoertvedt",
+      "date": "2016-10-29 12:07:41",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1321"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Benjarong",
@@ -64,7 +105,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4889505",
+      "url": "https://www.wikidata.org/wiki/Q4889505",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:01.870Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Benjarong",
+      "url": "https://en.wikipedia.org/wiki/Benjarong",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:01.870Z"
+      }
+    }
+  ],
   "wikidata": "Q4889505",
   "wikipedia": "Benjarong",
   "popularity": 35,
@@ -72,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.940Z"
 }

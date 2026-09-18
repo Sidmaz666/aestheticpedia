@@ -19,7 +19,33 @@
   "summary": "Circle Limit III is a woodcut made in 1959 by Dutch artist M.",
   "description": "Circle Limit III is a woodcut made in 1959 by Dutch artist M. C. Escher, in which \"strings of fish shoot up like rockets from infinitely far away\" and then \"fall back again whence they came\".\n\nIt is one of a series of four woodcuts by Escher depicting ideas from hyperbolic geometry. Dutch physicist and mathematician Bruno Ernst called it \"the best of the four\".",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#ff8181",
+      "name": "coral"
+    },
+    {
+      "hex": "#000000",
+      "name": "black"
+    },
+    {
+      "hex": "#fffafa",
+      "name": "ivory"
+    },
+    {
+      "hex": "#ff0303",
+      "name": "vermilion"
+    },
+    {
+      "hex": "#ff6161",
+      "name": "salmon"
+    },
+    {
+      "hex": "#ffa5a5",
+      "name": "rose pink"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,47 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Hyperbolic_domains_642.png/1280px-Hyperbolic_domains_642.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Hyperbolic_domains_642.png/500px-Hyperbolic_domains_642.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/Hyperbolic_domains_642.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hyperbolic_domains_642.png",
+      "caption": "Hyperbolic tiling of (p q r) fundamental domain triangles, in Poincaré Disc projection, colored red for odd reflections. View centered on p, or labeled b,c for q,r points. *Topology and and Geometry Software, Jeff Weeks, cropped from KaleidoTile (software)",
+      "source": "Wikimedia Commons",
+      "artist": "Tom Ruen and Roice Nelson",
+      "date": "1/15/13 and 3/16/20",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Marble_floor_mosaic_Basilica_of_St_Mark_Vencice.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/95/Marble_floor_mosaic_Basilica_of_St_Mark_Vencice.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/95/Marble_floor_mosaic_Basilica_of_St_Mark_Vencice.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Marble_floor_mosaic_Basilica_of_St_Mark_Vencice.jpg",
+      "caption": "St Mark's Basilica , Venice Floor mosaic by Paolo Uccello , Small stellated dodecahedron",
+      "source": "Wikimedia Commons",
+      "artist": "Paolo Uccello",
+      "license": "Public domain",
+      "width": "543",
+      "height": "566"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Lotf_Allah_Dome.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/91/Lotf_Allah_Dome.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/91/Lotf_Allah_Dome.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lotf_Allah_Dome.jpg",
+      "caption": "Dome of the Lotf Allah Mosque",
+      "source": "Wikimedia Commons",
+      "artist": "Orhan Bilgin ( Zargan )",
+      "date": "2004-09-15",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "765",
+      "height": "1533"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Circle Limit III",
@@ -64,7 +130,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16958480",
+      "url": "https://www.wikidata.org/wiki/Q16958480",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:16.627Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Circle Limit III",
+      "url": "https://en.wikipedia.org/wiki/Circle_Limit_III",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:16.627Z"
+      }
+    }
+  ],
   "wikidata": "Q16958480",
   "wikipedia": "Circle Limit III",
   "popularity": 35,
@@ -72,5 +161,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:41:16.627Z"
 }

@@ -17,7 +17,33 @@
   "summary": "Komochi-e (子持絵) or trick pictures are Japanese prints with movable printed paper flaps or other moveable parts.",
   "description": "Komochi-e (子持絵) or trick pictures are Japanese prints with movable printed paper flaps or other moveable parts.  Multicolor komochi-e may be called komochi nishiki-e (子持錦絵).\n\nThis komochi-e shows a single print with the flaps in different positions.  It is a scene from the kabuki play Manete Mimasu yotsuya no kikigaki (当三升四谷聞書).  The artist is Utagawa Kuniyoshi, the date is 1848, and it shows actor Ichikawa Danjūrō VIII in the role of the murderer Tamiya Iemon:",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#656460",
+      "name": "umber"
+    },
+    {
+      "hex": "#e7d1b5",
+      "name": "apricot"
+    },
+    {
+      "hex": "#966454",
+      "name": "bronze"
+    },
+    {
+      "hex": "#784941",
+      "name": "umber 2"
+    },
+    {
+      "hex": "#948270",
+      "name": "stone"
+    },
+    {
+      "hex": "#342d2b",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ichikawa_Danjuro_VIII_as_Tamiya_Iemon_%28Komochi-e%29.jpg/1280px-Ichikawa_Danjuro_VIII_as_Tamiya_Iemon_%28Komochi-e%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ichikawa_Danjuro_VIII_as_Tamiya_Iemon_%28Komochi-e%29.jpg/500px-Ichikawa_Danjuro_VIII_as_Tamiya_Iemon_%28Komochi-e%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/45/Ichikawa_Danjuro_VIII_as_Tamiya_Iemon_%28Komochi-e%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ichikawa_Danjuro_VIII_as_Tamiya_Iemon_(Komochi-e).jpg",
+      "caption": "Ichikawa Danjûrô VIII as Tamiya Iemon (神谷仁右衛門) in the kabuki play Manete Mimasu yotsuya no kikigaki (当三升四谷聞書), 9th month of 1848. This komochi-e or trick pictures shows a single print with the flaps in different positions",
+      "source": "Wikimedia Commons",
+      "artist": "Utagawa Kuniyoshi",
+      "date": "1848",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "488"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toshusai_Sharaku-_Otani_Oniji,_1794.jpg",
+      "caption": "Oniji Ōtani III (aka. Nakazō Nakamura II) as Edobee in the May 1794 production of Koi Nyōbo Somewake Tazuna at Edo Kawarasaki-za theater. Polychrome woodcut print on paper; 15 x 9 7/8 in. (38.1 x 22.9 cm) Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939 (JP2822)",
+      "source": "Wikimedia Commons",
+      "artist": "Sharaku",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "802",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Komochi-e",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q48996186",
+      "url": "https://www.wikidata.org/wiki/Q48996186",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:12.449Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Komochi-e",
+      "url": "https://en.wikipedia.org/wiki/Komochi-e",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:12.449Z"
+      }
+    }
+  ],
   "wikidata": "Q48996186",
   "wikipedia": "Komochi-e",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:52:12.449Z"
 }

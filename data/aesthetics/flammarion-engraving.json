@@ -17,7 +17,33 @@
   "summary": "The Flammarion engraving is a wood engraving by an unknown artist.",
   "description": "The Flammarion engraving is a wood engraving by an unknown artist.  Its first documented appearance is in the book L'atmosphère : météorologie populaire (\"The Atmosphere: Popular Meteorology\"), published in 1888 by the French astronomer and writer Camille Flammarion. Several authors during the 20th century considered it to be either a Medieval or Renaissance artwork, but it is now seen as a 19th-century illustration of unknown authorship that imitates older artistic styles and themes.  Camille Flammarion himself may have been the artist, or designer; he had trained as an engraver.\n\nThe illustration depicts a man, dressed as a pilgrim in a long robe and carrying a walking stick, who has reached a point where the flat Earth meets the firmament. The pilgrim kneels down and passes his head, shoulders, right arm, and the top of the walking stick through an opening in the firmament, which is depicted as covered on the inside by the stars, Sun, and Moon.  Behind the sky, the pilgrim finds a marvelous realm of circling clouds, fires and suns.  One of the elements of the cosmic machinery resembles traditional pictorial representations of the \"wheel in the middle of a wheel\" described in the visions of the Hebrew prophet Ezekiel.\n\nThe wood engraving has often, but erroneously, been referred to as a woodcut.  It has been widely used as a metaphorical illustration of either the scientific or the mystical quests for knowledge.  More recently, it has also been used as to represent a psychedelic experience.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#959595",
+      "name": "stone"
+    },
+    {
+      "hex": "#acacac",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#7d7d7d",
+      "name": "taupe"
+    },
+    {
+      "hex": "#676767",
+      "name": "umber"
+    },
+    {
+      "hex": "#c2c2c2",
+      "name": "silver"
+    },
+    {
+      "hex": "#4d4d4d",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,118 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Flammarion.jpg/1280px-Flammarion.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Flammarion.jpg/500px-Flammarion.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/87/Flammarion.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Flammarion.jpg",
+      "caption": "The Flammarion engraving is a wood engraving by an unknown artist that first appeared in Camille Flammarion 's L'Atmosphère: Météorologie populaire (1888). The image depicts a man crawling under the edge of the sky, depicted as if it were a solid hemisphere, to look at the myster",
+      "source": "Wikimedia Commons",
+      "artist": "Anonymous Unknown author",
+      "date": "1888",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1072"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Hans_Holbein_the_Younger%2C_Ezekiel%E2%80%99s_vision.png/1280px-Hans_Holbein_the_Younger%2C_Ezekiel%E2%80%99s_vision.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Hans_Holbein_the_Younger%2C_Ezekiel%E2%80%99s_vision.png/500px-Hans_Holbein_the_Younger%2C_Ezekiel%E2%80%99s_vision.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Hans_Holbein_the_Younger%2C_Ezekiel%E2%80%99s_vision.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hans_Holbein_the_Younger,_Ezekiel%E2%80%99s_vision.png",
+      "caption": "Ezekiel’s vision of God, four beasts, and a wheel within a wheel, from Hans Holbein the Younger (1538), Historiarum veteris instrumenti icones ad vivum expressae, Lyon: Gaspard et Melchior Trechsel, no. 78.",
+      "source": "Wikimedia Commons",
+      "artist": "Hans Holbein the Younger (1538) Historiarum veteris instrumenti icones ad vivum expressae. Lyon: Gaspard et Melchior Trechsel, no. 78",
+      "date": "1538-08-31",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "928"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/2238572f-ad2a-110e-0eda-78dc50b8e13d/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2238572f-ad2a-110e-0eda-78dc50b8e13d/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2238572f-ad2a-110e-0eda-78dc50b8e13d/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/34",
+      "caption": "Joseph Sold by his Brothers, 1533",
+      "source": "Art Institute of Chicago",
+      "artist": "Master of the Die (Italian, active c. 1530-1560)",
+      "date": "1533",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "625"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/13bb7117-5115-b409-1dbb-1d9c1d70a5c9/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/13bb7117-5115-b409-1dbb-1d9c1d70a5c9/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/13bb7117-5115-b409-1dbb-1d9c1d70a5c9/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/111",
+      "caption": "Martin Vanden Bogaert Desjardins, n.d.",
+      "source": "Art Institute of Chicago",
+      "artist": "Gérard Edelinck (French, born Flanders, 1640-1707)",
+      "date": "n.d.",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1094"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/d11c0a27-95f3-92fd-049b-37003e3cdf5a/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/d11c0a27-95f3-92fd-049b-37003e3cdf5a/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/d11c0a27-95f3-92fd-049b-37003e3cdf5a/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/30",
+      "caption": "The Battle around the Shield and Lance, c. 1527",
+      "source": "Art Institute of Chicago",
+      "artist": "Giovanni Jacopo Caraglio (Italian, 1500/05–1565)",
+      "date": "c. 1527",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "585"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/5df51c9d-dac5-d962-4d4b-300339219e54/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/5df51c9d-dac5-d962-4d4b-300339219e54/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/5df51c9d-dac5-d962-4d4b-300339219e54/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/24",
+      "caption": "Portrait of Edouard Molé, 1653",
+      "source": "Art Institute of Chicago",
+      "artist": "Robert Nanteuil",
+      "date": "1653",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1226"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/03c0fd45-3690-5fae-8023-4a3c16d3bfad/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/03c0fd45-3690-5fae-8023-4a3c16d3bfad/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/03c0fd45-3690-5fae-8023-4a3c16d3bfad/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/100",
+      "caption": "Simon Vouet, 1630/36",
+      "source": "Art Institute of Chicago",
+      "artist": "Robert van Voerst (Flemish, 1597-1636/37)",
+      "date": "1630/36",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1142"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/22794b3c-eabf-24ce-26fc-d37be1d66cec/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/22794b3c-eabf-24ce-26fc-d37be1d66cec/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/22794b3c-eabf-24ce-26fc-d37be1d66cec/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/81",
+      "caption": "Lame Beggar Asking for Alms, from T is al verwart-gaern (It's already confusing), n.d.",
+      "source": "Art Institute of Chicago",
+      "artist": "Pieter Jansz Quast",
+      "date": "n.d.",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1105"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Flammarion engraving",
@@ -62,7 +199,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1426992",
+      "url": "https://www.wikidata.org/wiki/Q1426992",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:21.557Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Flammarion engraving",
+      "url": "https://en.wikipedia.org/wiki/Flammarion_engraving",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:21.557Z"
+      }
+    }
+  ],
   "wikidata": "Q1426992",
   "wikipedia": "Flammarion engraving",
   "popularity": 35,
@@ -70,5 +230,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:45:21.557Z"
 }

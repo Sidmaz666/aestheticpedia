@@ -17,7 +17,33 @@
   "summary": "Aragoto (荒事), or 'rough style', is a style of kabuki acting that uses exaggerated, dynamic kata (forms or movements) and speech.",
   "description": "Aragoto (荒事), or 'rough style', is a style of kabuki acting that uses exaggerated, dynamic kata (forms or movements) and speech. Aragoto roles are characterised by the bold red or blue makeup (kumadori) worn by actors, as well as their enlarged and padded costumes. The term \"aragoto\" is an abbreviation of the term \"aramushagoto\", which literally means \"wild-warrior style\".\n\nThe aragoto style was created and pioneered by Ichikawa Danjūrō I, a kabuki actor in the Edo period (1603-1867), and has come to be epitomized by his successors in the Ichikawa Danjūrō line of kabuki actors. Roles such as the leads in Sukeroku and Shibaraku are particularly representative of the style. Aragoto is often contrasted with the wagoto (\"soft\" or \"gentle\") style, which emerged around the same time but focuses on more naturalistic drama. It is also contrasted with onnagata or \"female-like style\".",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b5a07d",
+      "name": "camel"
+    },
+    {
+      "hex": "#c7b796",
+      "name": "khaki"
+    },
+    {
+      "hex": "#a48867",
+      "name": "stone"
+    },
+    {
+      "hex": "#8b2d1d",
+      "name": "burnt sienna"
+    },
+    {
+      "hex": "#8a6951",
+      "name": "bronze"
+    },
+    {
+      "hex": "#5a2016",
+      "name": "sepia"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Ichikawa_Danjuro_%E2%85%A7.jpg/1280px-Ichikawa_Danjuro_%E2%85%A7.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Ichikawa_Danjuro_%E2%85%A7.jpg/500px-Ichikawa_Danjuro_%E2%85%A7.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Ichikawa_Danjuro_%E2%85%A7.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ichikawa_Danjuro_%E2%85%A7.jpg",
+      "caption": "Ichikawa Danjuro Ⅷ, Shibaraku （八代目市川団十郎暫花道にてつらねの図）",
+      "source": "Wikimedia Commons",
+      "artist": "Utagawa Kunisada",
+      "date": "1832-11",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "947"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Aragoto",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q17045537",
+      "url": "https://www.wikidata.org/wiki/Q17045537",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:06.376Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Aragoto",
+      "url": "https://en.wikipedia.org/wiki/Aragoto",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:06.376Z"
+      }
+    }
+  ],
   "wikidata": "Q17045537",
   "wikipedia": "Aragoto",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:36:06.376Z"
 }

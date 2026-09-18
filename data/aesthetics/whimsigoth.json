@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q133855890",
+      "url": "https://www.wikidata.org/wiki/Q133855890",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:24.629Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Whimsigoth",
+      "url": "https://en.wikipedia.org/wiki/Whimsigoth",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:24.629Z"
+      }
+    }
+  ],
   "wikidata": "Q133855890",
   "wikipedia": "Whimsigoth",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:11:24.629Z"
 }

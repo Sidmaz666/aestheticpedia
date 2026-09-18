@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { getColorIndex, getGraph, searchByColor } from '@/lib/queries'
+import { discover, getColorIndex, getGraph, getInsights, getLineage, parseDims, searchByColor } from '@/lib/queries'
 
 describe('visualisation data', () => {
   it('builds a consistent relationship graph', async () => {
@@ -21,5 +21,23 @@ describe('visualisation data', () => {
     expect(items).toHaveLength(10)
     expect(items[0].distance).toBeLessThanOrEqual(items[9].distance)
     expect(items[0].match).toMatch(/^#[0-9a-f]{6}$/i)
+  })
+
+  it('aggregates insights for charts', async () => {
+    const i = await getInsights()
+    expect(i.centuries.length).toBeGreaterThan(10)
+    expect(i.licenses.reduce((s, r) => s + r.count, 0)).toBeGreaterThan(1000)
+    expect(i.sources.map((s) => s.name)).toContain('Wikimedia Commons')
+  })
+
+  it('discover only ranks records that were assessed on the requested dimensions', async () => {
+    const items = await discover(parseDims('minimal_maximal:10,quiet_loud:10'), undefined, 30)
+    expect(items.length).toBeGreaterThan(0)
+    expect(items.every((i) => i.delta.minimal_maximal !== undefined)).toBe(true)
+  })
+
+  it('builds a lineage tree from documented relations', async () => {
+    const l = await getLineage('art-deco')
+    expect(l.ancestors.length + l.descendants.length).toBeGreaterThan(0)
   })
 })

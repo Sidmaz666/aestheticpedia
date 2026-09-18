@@ -20,7 +20,33 @@
   "summary": "Nikuhitsu-ga (肉筆画) is a form of Japanese painting in the ukiyo-e art style.",
   "description": "Nikuhitsu-ga (肉筆画) is a form of Japanese painting in the ukiyo-e art style. The woodblock prints of this genre have become so famous in the West as to become almost synonymous with the term \"ukiyo-e\", but most ukiyo-e artists were painters as well as printmakers, with much the same style and subjects. Some turned to painting at the end of a career in prints, while some, like Miyagawa Chōshun and a number of the artists of the Kaigetsudō school, never made prints and only worked in paintings.\n\nThough advances in printing technology advanced over the course of the Edo period (1603–1868), allowing for the production of more and more elaborate and colorful prints, the medium of painting always allowed a greater degree of freedom to the artist, and involved a much larger product in any case; the paintings of many ukiyo-e artists survive today and are known for their bright colors, attention to detail, and bold brush strokes.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e7ceb1",
+      "name": "beige"
+    },
+    {
+      "hex": "#71675f",
+      "name": "umber"
+    },
+    {
+      "hex": "#a07e63",
+      "name": "stone"
+    },
+    {
+      "hex": "#99624d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#242624",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#c2aa90",
+      "name": "khaki"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,34 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Kaigetsudo_Ando_Yasunori_-_Bijin.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Kaigetsudo_Ando_Yasunori_-_Bijin.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Kaigetsudo_Ando_Yasunori_-_Bijin.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kaigetsudo_Ando_Yasunori_-_Bijin.jpg",
+      "caption": "Bijin (美人, \"beauty\"). Color on silk.",
+      "source": "Wikimedia Commons",
+      "artist": "Kaigetsudō Ando",
+      "date": "between circa 1700 and circa 1720 date QS:P,+1750-00-00T00:0",
+      "license": "Public domain",
+      "width": "1204",
+      "height": "2934"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toshusai_Sharaku-_Otani_Oniji,_1794.jpg",
+      "caption": "Oniji Ōtani III (aka. Nakazō Nakamura II) as Edobee in the May 1794 production of Koi Nyōbo Somewake Tazuna at Edo Kawarasaki-za theater. Polychrome woodcut print on paper; 15 x 9 7/8 in. (38.1 x 22.9 cm) Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939 (JP2822)",
+      "source": "Wikimedia Commons",
+      "artist": "Sharaku",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "802",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Nikuhitsu-ga",
@@ -65,7 +118,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3341836",
+      "url": "https://www.wikidata.org/wiki/Q3341836",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:05.680Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Nikuhitsu-ga",
+      "url": "https://en.wikipedia.org/wiki/Nikuhitsu-ga",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:05.680Z"
+      }
+    }
+  ],
   "wikidata": "Q3341836",
   "wikipedia": "Nikuhitsu-ga",
   "popularity": 35,
@@ -73,5 +149,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:58:05.680Z"
 }

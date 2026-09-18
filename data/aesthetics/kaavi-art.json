@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "India",
+  "geography": "India",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Kaavi art is a traditional mural technique indigenous to the Konkan coast of India, especially in Goa, parts of coastal Maharashtra and Karnataka.",
   "description": "Kaavi art is a traditional mural technique indigenous to the Konkan coast of India, especially in Goa, parts of coastal Maharashtra and Karnataka. It is distinguished by its use of a single reddish‑brown pigment, known locally as “kaav” (laterite red oxide), incised into a white lime‑plastered surface to create intricate motifs and murals in religious and secular buildings. Kaavi murals can also be seen in old houses, small shrines.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a96160",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#914e4f",
+      "name": "bronze"
+    },
+    {
+      "hex": "#bec8df",
+      "name": "silver"
+    },
+    {
+      "hex": "#b17a7c",
+      "name": "dusty rose 2"
+    },
+    {
+      "hex": "#a2afd4",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#311413",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Kaavi_Kala.jpg/1280px-Kaavi_Kala.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Kaavi_Kala.jpg/500px-Kaavi_Kala.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Kaavi_Kala.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kaavi_Kala.jpg",
+      "caption": "Kaavi murals at Lakshmi Narayan Mahamaya temple,Ankola Karnataka India",
+      "source": "Wikimedia Commons",
+      "artist": "Nijgoykar",
+      "date": "2014-04-13 15:04:38",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Kaavi art",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q19572336",
+      "url": "https://www.wikidata.org/wiki/Q19572336",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:20.361Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Kaavi art",
+      "url": "https://en.wikipedia.org/wiki/Kaavi_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:20.361Z"
+      }
+    }
+  ],
   "wikidata": "Q19572336",
   "wikipedia": "Kaavi art",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.655Z"
 }

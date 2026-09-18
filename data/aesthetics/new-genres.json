@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7007772",
+      "url": "https://www.wikidata.org/wiki/Q7007772",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:19.330Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — New Genres",
+      "url": "https://en.wikipedia.org/wiki/New_Genres",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:19.330Z"
+      }
+    }
+  ],
   "wikidata": "Q7007772",
   "wikipedia": "New Genres",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:57:19.330Z"
 }

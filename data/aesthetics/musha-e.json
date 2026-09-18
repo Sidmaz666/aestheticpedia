@@ -17,7 +17,33 @@
   "summary": "Musha-e (武者絵), a type of Japanese art developed in the late 18th century, is a genre of the ukiyo-e woodblock printing technique.",
   "description": "Musha-e (武者絵), a type of Japanese art developed in the late 18th century, is a genre of the ukiyo-e woodblock printing technique. It represents images of warriors and samurai from Japanese history and mythology.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e7ceb1",
+      "name": "beige"
+    },
+    {
+      "hex": "#71675f",
+      "name": "umber"
+    },
+    {
+      "hex": "#a07e63",
+      "name": "stone"
+    },
+    {
+      "hex": "#99624d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#242624",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#c2aa90",
+      "name": "khaki"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,60 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Uesugi_Kenshin_by_Kuniyoshi.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Uesugi_Kenshin_by_Kuniyoshi.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Uesugi_Kenshin_by_Kuniyoshi.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Uesugi_Kenshin_by_Kuniyoshi.JPG",
+      "caption": "A fierce depiction of Uesugi Kenshin seated, originally printed in the book Stories of 100 Heroes of High Renown",
+      "source": "Wikimedia Commons",
+      "artist": "Utagawa Kuniyoshi",
+      "date": "between 1843 and 1844 date QS:P,+1843-00-00T00:00:00Z/8,P131",
+      "license": "Public domain",
+      "width": "1251",
+      "height": "1721"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Chikamatsu_Kanroku_Yukishige.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/77/Chikamatsu_Kanroku_Yukishige.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/77/Chikamatsu_Kanroku_Yukishige.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chikamatsu_Kanroku_Yukishige.jpg",
+      "caption": "Ronin are masterless samurai. Chushingura is the true story of 47 samurai who became masterless in 1701, after their lord had been forced to commit ritual suicide (seppuku) for assaulting a court official who had insulted him. They avenged him by killing the court official after ",
+      "source": "Wikimedia Commons",
+      "artist": "Ogata Gekkō",
+      "date": "between 1895 and 1903 date QS:P,+1500-00-00T00:00:00Z/6,P131",
+      "license": "Public domain",
+      "width": "500",
+      "height": "731"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Yoshitoshi_-_100_Aspects_of_the_Moon_-_4.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/08/Yoshitoshi_-_100_Aspects_of_the_Moon_-_4.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/08/Yoshitoshi_-_100_Aspects_of_the_Moon_-_4.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Yoshitoshi_-_100_Aspects_of_the_Moon_-_4.jpg",
+      "caption": "The Gion District (Gionmachi)",
+      "source": "Wikimedia Commons",
+      "artist": "Yoshitoshi",
+      "date": "before 1892 date QS:P571,+1892-00-00T00:00:00Z/7,P1326,+1892",
+      "license": "Public domain",
+      "width": "514",
+      "height": "721"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toshusai_Sharaku-_Otani_Oniji,_1794.jpg",
+      "caption": "Oniji Ōtani III (aka. Nakazō Nakamura II) as Edobee in the May 1794 production of Koi Nyōbo Somewake Tazuna at Edo Kawarasaki-za theater. Polychrome woodcut print on paper; 15 x 9 7/8 in. (38.1 x 22.9 cm) Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939 (JP2822)",
+      "source": "Wikimedia Commons",
+      "artist": "Sharaku",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "802",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Musha-e",
@@ -62,7 +141,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q11546300",
+      "url": "https://www.wikidata.org/wiki/Q11546300",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:11.546Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Musha-e",
+      "url": "https://en.wikipedia.org/wiki/Musha-e",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:11.546Z"
+      }
+    }
+  ],
   "wikidata": "Q11546300",
   "wikipedia": "Musha-e",
   "popularity": 35,
@@ -70,5 +172,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:56:11.546Z"
 }

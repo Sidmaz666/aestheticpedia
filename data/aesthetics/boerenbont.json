@@ -17,7 +17,33 @@
   "summary": "Boerenbont is a traditional pattern used on pottery from the Netherlands.",
   "description": "Boerenbont is a traditional pattern used on pottery from the Netherlands. Translated from Dutch, \"Boer\" means farmer and \"bont\" refers to a mixture of colors. The distinctive floral pattern is hand-painted with simple brush strokes of red, yellow, green, and blue. Currently manufactured by Royal Boch in Belgium, the pattern originated as a local craft made by farmers’ wives in the 19th century. According to the Royal Boch website, a variety of patterns have followed the path of Dutch merchants all over the world, from Sumatra to Zanzibar via Goa. It remains a popular pattern today.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e8d7ba",
+      "name": "bone white"
+    },
+    {
+      "hex": "#c5b599",
+      "name": "khaki"
+    },
+    {
+      "hex": "#6d705e",
+      "name": "bronze"
+    },
+    {
+      "hex": "#93936f",
+      "name": "stone"
+    },
+    {
+      "hex": "#c17064",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#b41717",
+      "name": "crimson"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "painting technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Boerenbont_decoratie%2C_fabrieken_Petrus_Regout%2C_Maastricht.jpg/1280px-Boerenbont_decoratie%2C_fabrieken_Petrus_Regout%2C_Maastricht.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Boerenbont_decoratie%2C_fabrieken_Petrus_Regout%2C_Maastricht.jpg/500px-Boerenbont_decoratie%2C_fabrieken_Petrus_Regout%2C_Maastricht.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Boerenbont_decoratie%2C_fabrieken_Petrus_Regout%2C_Maastricht.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Boerenbont_decoratie,_fabrieken_Petrus_Regout,_Maastricht.jpg",
+      "caption": "Design for bowl with so-called Boerenbont pattern, a popular design of Royal Sphinx potteries in Maastricht from 1840 until 1969.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown decorator (19th c)",
+      "date": "2014-12-20 23:12:27",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "939"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Boerenbont",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2086692",
+      "url": "https://www.wikidata.org/wiki/Q2086692",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:21.953Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Boerenbont",
+      "url": "https://en.wikipedia.org/wiki/Boerenbont",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:21.953Z"
+      }
+    }
+  ],
   "wikidata": "Q2086692",
   "wikipedia": "Boerenbont",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:38:21.953Z"
 }

@@ -19,7 +19,33 @@
   "summary": "The Second Viennese School (German: Zweite Wiener Schule, Neue Wiener Schule) was a group of composers that comprised Arnold Schoenberg and his pupils, particularly Alban Berg and Anton Webern, and close associates in early 20th-century Vienna.",
   "description": "The Second Viennese School (German: Zweite Wiener Schule, Neue Wiener Schule) was a group of composers that comprised Arnold Schoenberg and his pupils, particularly Alban Berg and Anton Webern, and close associates in early 20th-century Vienna. Their music was initially characterized by late-Romantic expanded tonality and later, a totally chromatic expressionism without a firm tonal centre, often referred to as atonality; and later still, Schoenberg's serial twelve-tone technique. Using this technique when composing, Schoenberg employed all 12 tones present in Western music's chromatic scale when forming a melody, this melody being the \"prime series\". This method would later be enhanced in compositions by Schoenberg and his followers through permutations such as \"retrogrades\", \"inversions\", \"transformations\" etc. Later, composers such as Pierre Boulez drew influence from Schoenberg's technique in furthering serialization; serializing not only pitch but rhythm, articulation, and dynamics as well. Theodor Adorno said that the twelve-tone method, when it had evolved into maturity, was a \"veritable message in a bottle\", addressed to an unknown and uncertain future. Though this common development took place, it neither followed a common time-line nor a cooperative path. Likewise, it was not a direct result of Schoenberg's teaching—which, as his various published textbooks demonstrate, was highly traditional and conservative.  Schoenberg's textbooks also reveal that the Second Viennese School spawned not from the development of his serial method, but rather from the influence of his creative example.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fdfdfd",
+      "name": "ivory"
+    },
+    {
+      "hex": "#5c5c5c",
+      "name": "graphite"
+    },
+    {
+      "hex": "#3e3e3e",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#bfbfbf",
+      "name": "silver"
+    },
+    {
+      "hex": "#a2a2a2",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#282828",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,35 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Wienerschule.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/88/Wienerschule.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Wienerschule.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Wienerschule.jpg",
+      "caption": "Österreichische MUSIKZEITschrift, Sonderband \"Die Wiener Schule\", Anmerkung: Das Foto wurde vom Fotografen Richard Fish (1919-2005) zwischen 1944 und 1948 aufgenommen. Es wurde nachweislich 1951 in The Musical Quarterly veröffentlicht und später mit einem Copyright-Vermerk 1953 w",
+      "source": "Wikimedia Commons",
+      "artist": "Österreichische MUSIKZEITschrift",
+      "date": "1961",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "width": "611",
+      "height": "483"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Mutterakkord.png/1280px-Mutterakkord.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Mutterakkord.png/500px-Mutterakkord.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Mutterakkord.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mutterakkord.png",
+      "caption": "Mother chord",
+      "source": "Wikimedia Commons",
+      "artist": "Hyacinth",
+      "date": "2015-01-28",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "2987"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Second Viennese School",
@@ -64,7 +118,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q248243",
+      "url": "https://www.wikidata.org/wiki/Q248243",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:28.559Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Second Viennese School",
+      "url": "https://en.wikipedia.org/wiki/Second_Viennese_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:28.559Z"
+      }
+    }
+  ],
   "wikidata": "Q248243",
   "wikipedia": "Second Viennese School",
   "popularity": 35,
@@ -72,5 +149,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:04:28.559Z"
 }

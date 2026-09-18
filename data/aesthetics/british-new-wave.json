@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United Kingdom",
+  "geography": "United Kingdom",
   "periodStart": "1950s",
   "periodEnd": "1960s",
   "startYear": 1959,
@@ -39,7 +39,36 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/a680713b-f1f9-1fd0-5b77-81d42415db5d/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/a680713b-f1f9-1fd0-5b77-81d42415db5d/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/a680713b-f1f9-1fd0-5b77-81d42415db5d/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/75392",
+      "caption": "Family in a Room, c. 1765",
+      "source": "Art Institute of Chicago",
+      "artist": "Artist unknown (British, active 18th century)",
+      "date": "c. 1765",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "649"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/a1e30e2f-0f7f-2ab8-2489-7a8b2402120d/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/a1e30e2f-0f7f-2ab8-2489-7a8b2402120d/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/a1e30e2f-0f7f-2ab8-2489-7a8b2402120d/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/20526",
+      "caption": "Portrait of a Lady, Possibly of the Stanley Family, c. 1780",
+      "source": "Art Institute of Chicago",
+      "artist": "Artist unknown (British, active 18th century)",
+      "date": "c. 1780",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1009"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — British New Wave",
@@ -62,7 +91,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q668309",
+      "url": "https://www.wikidata.org/wiki/Q668309",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:11.479Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — British New Wave",
+      "url": "https://en.wikipedia.org/wiki/British_New_Wave",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:11.479Z"
+      }
+    }
+  ],
   "wikidata": "Q668309",
   "wikipedia": "British New Wave",
   "popularity": 35,
@@ -70,5 +122,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.929Z"
 }

@@ -19,7 +19,33 @@
   "summary": "Isotype (International System of Typographic Picture Education) is a method of showing social, technological, biological, and historical connections in pictorial form.",
   "description": "Isotype (International System of Typographic Picture Education) is a method of showing social, technological, biological, and historical connections in pictorial form. It consists of a set of standardized and abstracted pictorial symbols to represent social-scientific data with specific guidelines on how to combine the identical figures using serial repetition. It was first known as the Vienna Method of Pictorial Statistics (Wiener Methode der Bildstatistik), due to its having been developed at the Gesellschafts- und Wirtschaftsmuseum in Wien (Social and Economic Museum of Vienna) between 1925 and 1934. The founding director of this museum, Otto Neurath, was the initiator and chief theorist of the Vienna Method. Gerd Arntz was the artist responsible for realising the graphics. The term Isotype was applied to the method around 1935, after its key practitioners were forced to leave Vienna by the rise of Austrian fascism.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#d4d1ca",
+      "name": "bone white"
+    },
+    {
+      "hex": "#bbb9b0",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#a7a39c",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#b0615d",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#b9867f",
+      "name": "camel"
+    },
+    {
+      "hex": "#817f7d",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,35 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Basic_by_Isotype.jpg/1280px-Basic_by_Isotype.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Basic_by_Isotype.jpg/500px-Basic_by_Isotype.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/da/Basic_by_Isotype.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Basic_by_Isotype.jpg",
+      "caption": "my own photo of the book on display at the Victoria and Albert Museium, taken 2011-03-10",
+      "source": "Wikimedia Commons",
+      "artist": "Otto Neurath",
+      "date": "1937",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "950"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Isotype-neurath.jpg/1280px-Isotype-neurath.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Isotype-neurath.jpg/500px-Isotype-neurath.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/63/Isotype-neurath.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Isotype-neurath.jpg",
+      "caption": "Statistika Isotype",
+      "source": "Wikimedia Commons",
+      "artist": "Gastev",
+      "date": "2009-04-20",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Isotype (picture language)",
@@ -64,7 +118,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q735209",
+      "url": "https://www.wikidata.org/wiki/Q735209",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:25.753Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Isotype (picture language)",
+      "url": "https://en.wikipedia.org/wiki/Isotype_(picture_language)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:25.753Z"
+      }
+    }
+  ],
   "wikidata": "Q735209",
   "wikipedia": "Isotype (picture language)",
   "popularity": 35,
@@ -72,5 +149,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:50:25.753Z"
 }

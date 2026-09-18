@@ -17,7 +17,33 @@
   "summary": "The architectural school of Nakhchivan (Azerbaijani: Naxçıvan memarlıq məktəbi) is one of the architectural schools developed in the Middle Ages in what is modern Azerbaijan.",
   "description": "The architectural school of Nakhchivan (Azerbaijani: Naxçıvan memarlıq məktəbi) is one of the architectural schools developed in the Middle Ages in what is modern Azerbaijan.  It was founded by Ajami Nakhchivani in the 12th century. The mausoleums of Yusif ibn Kuseyir from 1162 and Momine Khatun from 1186, designed by him in Nakhchivan, are classic examples of the associated architectural style.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#2e9ae9",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#ede0d8",
+      "name": "bone white"
+    },
+    {
+      "hex": "#6bb4e9",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#b2d0ec",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#d4ba99",
+      "name": "tan"
+    },
+    {
+      "hex": "#565547",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Momine_Hatoon_Mausoleum.jpg/1280px-Momine_Hatoon_Mausoleum.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Momine_Hatoon_Mausoleum.jpg/500px-Momine_Hatoon_Mausoleum.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Momine_Hatoon_Mausoleum.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Momine_Hatoon_Mausoleum.jpg",
+      "caption": "Momine Hatun Mausoleum in Nakhichevan",
+      "source": "Wikimedia Commons",
+      "artist": "Fuad2006",
+      "date": "2007-04-22",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "856"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Architectural school of Nakhchivan",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4314692",
+      "url": "https://www.wikidata.org/wiki/Q4314692",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:07.036Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Architectural school of Nakhchivan",
+      "url": "https://en.wikipedia.org/wiki/Architectural_school_of_Nakhchivan",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:07.036Z"
+      }
+    }
+  ],
   "wikidata": "Q4314692",
   "wikipedia": "Architectural school of Nakhchivan",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:36:07.036Z"
 }

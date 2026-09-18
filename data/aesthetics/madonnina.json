@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Italy, Milan Cathedral",
+  "geography": "Italy, Milan Cathedral",
   "periodStart": "18th century",
   "periodEnd": "",
   "startYear": 1774,
@@ -19,7 +19,33 @@
   "summary": "The Madonnina (Italian: [madonˈniːna], Milanese: [maduˈnina] ) is a statue of the Virgin Mary atop Milan Cathedral in Italy.",
   "description": "The Madonnina (Italian: [madonˈniːna], Milanese: [maduˈnina] ) is a statue of the Virgin Mary atop Milan Cathedral in Italy. The Madonnina is the subject of the most traditional Milanese song, O mia bella Madonnina. The Derby della Madonnina named after it is the local rivalry between the city's two football clubs A.C. Milan and Inter Milan. The Madonnina spire or guglia del tiburio (\"lantern spire\"), one of the main features of the cathedral, was erected in 1762 at the height of 108.5 m (356 ft), as designed by Francesco Croce. At the top of the spire is the polychrome Madonnina statue, designed and built by Giuseppe Perego in 1774, during the episcopacy of Giuseppe Pozzobonelli who supported the idea to place the Madonnina at the top of the Cathedral.\n\nBy tradition, no building in Milan is higher than the Madonnina. When Gio Ponti's Pirelli Building was being built in the late 1950s, at a height of 127.1 m (417 ft), a smaller replica of the Madonnina was placed atop the Pirelli building, so the new Madonnina remains the tallest point in Milan. In 2010, another replica was placed as well on the top of the Palazzo Lombardia, at a height of 161 m (528 ft), being then the tallest building in the city. In 2015, still another replica was placed atop the Allianz Tower so that the Madonnina still occupies the highest roof in the city, now at 209 m (686 ft).",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#436d9f",
+      "name": "slate"
+    },
+    {
+      "hex": "#b7bdc3",
+      "name": "silver"
+    },
+    {
+      "hex": "#ddddde",
+      "name": "bone white"
+    },
+    {
+      "hex": "#695e56",
+      "name": "umber"
+    },
+    {
+      "hex": "#4e4237",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#2c2924",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,49 @@
   "tags": [
     "ornament"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Madonnina_-_Duomo_-_Milan_2014_02.jpg/1280px-Madonnina_-_Duomo_-_Milan_2014_02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Madonnina_-_Duomo_-_Milan_2014_02.jpg/500px-Madonnina_-_Duomo_-_Milan_2014_02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Madonnina_-_Duomo_-_Milan_2014_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Madonnina_-_Duomo_-_Milan_2014_02.jpg",
+      "caption": "Madonnina - Duomo",
+      "source": "Wikimedia Commons",
+      "artist": "José Luiz",
+      "date": "2014-02-22 17:17:45",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Madonnina_Spire_in_Context%2C_Milan_Cathedral%2C_2025.jpg/1280px-Madonnina_Spire_in_Context%2C_Milan_Cathedral%2C_2025.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Madonnina_Spire_in_Context%2C_Milan_Cathedral%2C_2025.jpg/500px-Madonnina_Spire_in_Context%2C_Milan_Cathedral%2C_2025.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Madonnina_Spire_in_Context%2C_Milan_Cathedral%2C_2025.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Madonnina_Spire_in_Context,_Milan_Cathedral,_2025.jpg",
+      "caption": "The Madonnina Spire in context, Milan Cathedral, 2025",
+      "source": "Wikimedia Commons",
+      "artist": "Julian Lupyan",
+      "date": "2025-06-04 05:52:27",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1768"
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Lmo-mi-Madonina.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Lmo-mi-Madonina",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lmo-mi-Madonina.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "Sciking",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Madonnina (statue)",
@@ -64,7 +132,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3842780",
+      "url": "https://www.wikidata.org/wiki/Q3842780",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:23.785Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Madonnina (statue)",
+      "url": "https://en.wikipedia.org/wiki/Madonnina_(statue)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:23.785Z"
+      }
+    }
+  ],
   "wikidata": "Q3842780",
   "wikipedia": "Madonnina (statue)",
   "popularity": 35,
@@ -72,5 +163,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.680Z"
 }

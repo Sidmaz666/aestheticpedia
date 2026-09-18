@@ -17,7 +17,33 @@
   "summary": "Winklepickers or winkle pickers are a style of shoe or boot worn from the 1950s onward, especially popular with British rock and roll fans such as Teddy Boys.",
   "description": "Winklepickers or winkle pickers are a style of shoe or boot worn from the 1950s onward, especially popular with British rock and roll fans such as Teddy Boys. The feature that gives both the boot and shoe their name is the very sharp and long pointed toe, reminiscent of medieval poulaines and approximately the same as the long pointed toes on some women's high-fashion shoes and boots in the 2000s. They are still popular in the goth, raggare and rockabilly subcultures.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#d5e6f6",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#090608",
+      "name": "black"
+    },
+    {
+      "hex": "#bec4c8",
+      "name": "silver"
+    },
+    {
+      "hex": "#ad9665",
+      "name": "camel"
+    },
+    {
+      "hex": "#362318",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#4f4737",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "fashion style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Man_wearing_PVC_leggings_02.jpg/1280px-Man_wearing_PVC_leggings_02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Man_wearing_PVC_leggings_02.jpg/500px-Man_wearing_PVC_leggings_02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Man_wearing_PVC_leggings_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Man_wearing_PVC_leggings_02.jpg",
+      "caption": "Guy Walters wearing PVC leggings and a blue polo neck sitting on a bed",
+      "source": "Wikimedia Commons",
+      "artist": "Ukfashionblog",
+      "date": "2025-09-29 10:42:37",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "2041"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Winklepicker",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q351134",
+      "url": "https://www.wikidata.org/wiki/Q351134",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:01.662Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Winklepicker",
+      "url": "https://en.wikipedia.org/wiki/Winklepicker",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:01.662Z"
+      }
+    }
+  ],
   "wikidata": "Q351134",
   "wikipedia": "Winklepicker",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:12:01.662Z"
 }

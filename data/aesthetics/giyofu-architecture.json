@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Japan",
+  "geography": "Japan",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Giyōfū architecture (擬洋風建築, Giyōfū-kenchiku; \"pseudo-Western-style architecture\" pronounced [ɡijoːɸɯː]) was a style of Japanese architecture which outwardly resembled Western-style construction but relied on traditional Japanese techniques.",
   "description": "Giyōfū architecture (擬洋風建築, Giyōfū-kenchiku; \"pseudo-Western-style architecture\" pronounced [ɡijoːɸɯː]) was a style of Japanese architecture which outwardly resembled Western-style construction but relied on traditional Japanese techniques. It flourished during the early Meiji period, and disappeared as knowledge of Western techniques became more widespread.\n\nGiyōfū style buildings were built by Japanese carpenters using traditional construction techniques, but with a layout and external ornamentation based on observation of Western-style buildings in person or in photographs, or based on design books such as the Shinsen Hinagata Taisho Daisen, which offered molding designs which could be reproduced. Many of these buildings were symmetric and made use of porticoes or verandahs with columns, classical pediments, sash windows, and ornamental gables.\n\nGiyōfū style buildings often contained Dutch, British, French, and/or Italian architectural elements, combined with a Japanese-style roof. The Japanese roofs on Western-faced Japanese timber frames became signifiers of giyōfū architecture. The clearest evidence for this is in the karahafu and mukuri roofs, as well as common use of shoji-style windows sometimes attached to these Western-influenced structures.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#573d22",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#525a60",
+      "name": "graphite"
+    },
+    {
+      "hex": "#85847d",
+      "name": "taupe"
+    },
+    {
+      "hex": "#456fb1",
+      "name": "cerulean"
+    },
+    {
+      "hex": "#b9bbb0",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#e8e8d9",
+      "name": "paper white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,46 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/250424_Former_Kaichi_School_Matsumoto_Nagano_pref_Japan12s5.jpg/1280px-250424_Former_Kaichi_School_Matsumoto_Nagano_pref_Japan12s5.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/250424_Former_Kaichi_School_Matsumoto_Nagano_pref_Japan12s5.jpg/500px-250424_Former_Kaichi_School_Matsumoto_Nagano_pref_Japan12s5.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/250424_Former_Kaichi_School_Matsumoto_Nagano_pref_Japan12s5.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:250424_Former_Kaichi_School_Matsumoto_Nagano_pref_Japan12s5.jpg",
+      "caption": "Former Kaichi School in Matsumoto , Nagano prefecture , Japan",
+      "source": "Wikimedia Commons",
+      "artist": "663highland",
+      "date": "2025-04-24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/500px-Himeji_model7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Himeji_model7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Himeji_model7.JPG",
+      "caption": "Himeji model7",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/The_Great_Wave_off_Kanagawa-cutout.png/1280px-The_Great_Wave_off_Kanagawa-cutout.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/The_Great_Wave_off_Kanagawa-cutout.png/500px-The_Great_Wave_off_Kanagawa-cutout.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/The_Great_Wave_off_Kanagawa-cutout.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Great_Wave_off_Kanagawa-cutout.png",
+      "caption": "Although it is often used in tsunami literature, there is no reason to suspect that Hokusai intended it to be interpreted in that way. The waves in this work are sometimes mistakenly referred to as tsunami (津波), but they are more accurately called okinami (沖波), great off-shore wa",
+      "source": "Wikimedia Commons",
+      "artist": "Hokusai",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1195"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Giyōfū architecture",
@@ -62,7 +127,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q518007",
+      "url": "https://www.wikidata.org/wiki/Q518007",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:07.618Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Giyōfū architecture",
+      "url": "https://en.wikipedia.org/wiki/Giy%C5%8Df%C5%AB_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:07.618Z"
+      }
+    }
+  ],
   "wikidata": "Q518007",
   "wikipedia": "Giyōfū architecture",
   "popularity": 35,
@@ -70,5 +158,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.245Z"
 }

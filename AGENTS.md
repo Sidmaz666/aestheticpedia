@@ -36,8 +36,10 @@ npm run data:validate
 npm run data:build
 npm run typecheck && npm run lint
 npm test
-npm run build
+npm run build && npm run test:e2e
 ```
+
+Site identity (name, URL, repo) comes from environment variables via `src/lib/site.ts` — never hard-code them.
 
 ## Pitfalls
 

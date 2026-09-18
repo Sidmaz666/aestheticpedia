@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States, Washington, D.C.",
+  "geography": "United States, Washington, D.C.",
   "periodStart": "1950s",
   "periodEnd": "1960s",
   "startYear": 1955,
@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7971736",
+      "url": "https://www.wikidata.org/wiki/Q7971736",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:14.414Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Washington Color School",
+      "url": "https://en.wikipedia.org/wiki/Washington_Color_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:14.414Z"
+      }
+    }
+  ],
   "wikidata": "Q7971736",
   "wikipedia": "Washington Color School",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:06.047Z"
 }

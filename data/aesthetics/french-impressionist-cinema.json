@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "France",
+  "geography": "France",
   "periodStart": "1910s",
   "periodEnd": "1930s",
   "startYear": 1918,
@@ -17,7 +17,21 @@
   "summary": "French impressionist cinema (also known as first avant-garde or narrative avant-garde) refers to a group of French films and filmmakers of the 1920s.",
   "description": "French impressionist cinema (also known as first avant-garde or narrative avant-garde) refers to a group of French films and filmmakers of the 1920s.\n\nFilm scholars have had much difficulty in defining this movement or for that matter deciding whether it should be considered a movement at all. David Bordwell has attempted to define a unified stylistic paradigm and set of tenets. Others, namely Richard Abel, criticize these attempts and group the films and filmmakers more loosely, based on a common goal of \"exploration of the process of representation and signification in narrative film discourse.\" Still others such as Dudley Andrew would struggle with awarding any credibility at all as \"movement\".",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#798278",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a38a77",
+      "name": "stone"
+    },
+    {
+      "hex": "#606a5b",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +53,119 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/1280px-Monet_-_Impression%2C_Sunrise.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/500px-Monet_-_Impression%2C_Sunrise.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/Monet_-_Impression%2C_Sunrise.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg",
+      "caption": "Impression, Sunrise",
+      "source": "Wikimedia Commons",
+      "artist": "Claude Monet",
+      "date": "1872 date QS:P571,+1872-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "993"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/73eb91ee-cde0-2f6d-843f-4f263d5c409f/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/73eb91ee-cde0-2f6d-843f-4f263d5c409f/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/73eb91ee-cde0-2f6d-843f-4f263d5c409f/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/50909",
+      "caption": "Head of an Apostle, c. 1210",
+      "source": "Art Institute of Chicago",
+      "artist": "French; Paris",
+      "date": "c. 1210",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1349"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/c7bdf016-c678-e0f0-13d0-eb8196d5159f/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/c7bdf016-c678-e0f0-13d0-eb8196d5159f/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/c7bdf016-c678-e0f0-13d0-eb8196d5159f/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/16313",
+      "caption": "Panels from the High Altar of the Charterhouse of Saint-Honoré, Thuison-les-Abbeville: The Ascension, c. 1495",
+      "source": "Art Institute of Chicago",
+      "artist": "French; Picardy",
+      "date": "c. 1495",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1922"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/fc578e88-699d-fd01-d3e1-21063d6f2b80/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/fc578e88-699d-fd01-d3e1-21063d6f2b80/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/fc578e88-699d-fd01-d3e1-21063d6f2b80/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/37398",
+      "caption": "Virgin and Child, c. 1245",
+      "source": "Art Institute of Chicago",
+      "artist": "Northern French",
+      "date": "c. 1245",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1266"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/69a96c88-813f-1139-b3cc-c0c14b3a0fdb/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/69a96c88-813f-1139-b3cc-c0c14b3a0fdb/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/69a96c88-813f-1139-b3cc-c0c14b3a0fdb/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/16307",
+      "caption": "Panels from the High Altar of the Charterhouse of Saint-Honoré, Thuison-les-Abbeville: Virgin and Child, c. 1495",
+      "source": "Art Institute of Chicago",
+      "artist": "French; Picardy",
+      "date": "c. 1495",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1986"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/3d42b252-b768-765a-7c0a-5b430e06c276/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/3d42b252-b768-765a-7c0a-5b430e06c276/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/3d42b252-b768-765a-7c0a-5b430e06c276/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/16312",
+      "caption": "Panels from the High Altar of the Charterhouse of Saint-Honoré, Thuison-les-Abbeville: The Last Supper, c. 1495",
+      "source": "Art Institute of Chicago",
+      "artist": "French; Picardy",
+      "date": "c. 1495",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1976"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/af518ac3-95ef-44f7-c131-556b79267b79/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/af518ac3-95ef-44f7-c131-556b79267b79/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/af518ac3-95ef-44f7-c131-556b79267b79/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/33276",
+      "caption": "Diptych with Scenes from the Life of Christ, c. 1350",
+      "source": "Art Institute of Chicago",
+      "artist": "French; Paris",
+      "date": "c. 1350",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "797"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/568d739d-9879-f0f0-8a4c-9e655d0ecce4/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/568d739d-9879-f0f0-8a4c-9e655d0ecce4/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/568d739d-9879-f0f0-8a4c-9e655d0ecce4/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/16316",
+      "caption": "Panels from the High Altar of the Charterhouse of Saint-Honoré, Thuison-les-Abbeville: Pentecost, c. 1495",
+      "source": "Art Institute of Chicago",
+      "artist": "French; Picardy",
+      "date": "c. 1495",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1966"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — French impressionist cinema",
@@ -62,7 +188,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q727553",
+      "url": "https://www.wikidata.org/wiki/Q727553",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:10.970Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — French impressionist cinema",
+      "url": "https://en.wikipedia.org/wiki/French_impressionist_cinema",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:10.970Z"
+      }
+    }
+  ],
   "wikidata": "Q727553",
   "wikipedia": "French impressionist cinema",
   "popularity": 35,
@@ -70,5 +219,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.246Z"
 }

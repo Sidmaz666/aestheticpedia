@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Roman Palestine",
+  "geography": "Roman Palestine",
   "periodStart": "2nd century",
   "periodEnd": "",
   "startYear": 100,
@@ -17,7 +17,33 @@
   "summary": "Hebron glass (Arabic: زجاج الخليل, zajaj al-Khalili ) is glass made in Hebron, Palestine, where there has been a strong glassmaking tradition since Roman times in Syria Palestina, with its origin going back to the older Phoenician glass industry.",
   "description": "Hebron glass (Arabic: زجاج الخليل, zajaj al-Khalili ) is glass made in Hebron, Palestine, where there has been a strong glassmaking tradition since Roman times in Syria Palestina, with its origin going back to the older Phoenician glass industry. The Old City of Hebron still contains a quarter named the \"Glass-Blower Quarter\" (Arabic: حارة القزازين; Haret Kezazin) and Hebron glass continues to serve as a tourist attraction for the city.\n\nTraditionally, the glass was melted using local raw materials, including sand from neighboring villages, sodium carbonate (from the Dead Sea), and coloring additives such as iron oxide and copper oxide. Nowadays, recycled glass is often used instead. Glass production in Hebron is a family trade and art, the secrets of which have been preserved and passed down by a few Palestinian families who operate the glass factories located just outside the city. The products made include glass jewelry, such as beads, bracelets, and rings, as well as stained glass windows, and glass lamps. However, due to the Palestinian–Israeli conflict and Israel's occupation of the West Bank, glass production has suffered a decline.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#121112",
+      "name": "black"
+    },
+    {
+      "hex": "#343230",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#53524c",
+      "name": "graphite"
+    },
+    {
+      "hex": "#707170",
+      "name": "slate"
+    },
+    {
+      "hex": "#91928f",
+      "name": "stone"
+    },
+    {
+      "hex": "#b19e74",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,117 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Hebron_glass_display.jpg/1280px-Hebron_glass_display.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Hebron_glass_display.jpg/500px-Hebron_glass_display.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Hebron_glass_display.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hebron_glass_display.jpg",
+      "caption": "Shelves displaying cups, glasses, vases, etc in the traditional Hebron glass style.",
+      "source": "Wikimedia Commons",
+      "artist": "FlightlessTofu",
+      "date": "2023-07-29",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "964"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Road_to_Hebron%2C_Mar_Saba%2C_etc._Glass_works.jpg/1280px-Road_to_Hebron%2C_Mar_Saba%2C_etc._Glass_works.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Road_to_Hebron%2C_Mar_Saba%2C_etc._Glass_works.jpg/500px-Road_to_Hebron%2C_Mar_Saba%2C_etc._Glass_works.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/46/Road_to_Hebron%2C_Mar_Saba%2C_etc._Glass_works.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Road_to_Hebron,_Mar_Saba,_etc._Glass_works.jpg",
+      "caption": "Road to Hebron, Mar Saba, etc. Glass works.",
+      "source": "Wikimedia Commons",
+      "artist": "American Colony (Jerusalem). Photo Dept., photographer.",
+      "date": "[approximately 1900 to 1920]",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "774"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Hebron._Glass_blowing%2C_Dec._9%2C_1945_LOC_matpc.12752.jpg/1280px-Hebron._Glass_blowing%2C_Dec._9%2C_1945_LOC_matpc.12752.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Hebron._Glass_blowing%2C_Dec._9%2C_1945_LOC_matpc.12752.jpg/500px-Hebron._Glass_blowing%2C_Dec._9%2C_1945_LOC_matpc.12752.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Hebron._Glass_blowing%2C_Dec._9%2C_1945_LOC_matpc.12752.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hebron._Glass_blowing,_Dec._9,_1945_LOC_matpc.12752.jpg",
+      "caption": "Title: Hebron. Glass blowing, Dec. 9, 1945 Abstract/medium: G. Eric and Edith Matson Photograph Collection Physical description: 1 negative :",
+      "source": "Wikimedia Commons",
+      "artist": "Matson Collection",
+      "date": "1945",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "944"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Modern_Hebron_Glass_Factory.jpg/1280px-Modern_Hebron_Glass_Factory.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Modern_Hebron_Glass_Factory.jpg/500px-Modern_Hebron_Glass_Factory.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Modern_Hebron_Glass_Factory.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Modern_Hebron_Glass_Factory.jpg",
+      "caption": "The owner of this glass factory, more than happy to demonstrate the work they do.",
+      "source": "Wikimedia Commons",
+      "artist": "Mrbrefast",
+      "date": "2009-07-18",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Costumes%2C_characters%2C_etc._Native_jewellery_-i.e.%2C_jewelry-_shop..jpg/1280px-Costumes%2C_characters%2C_etc._Native_jewellery_-i.e.%2C_jewelry-_shop..jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Costumes%2C_characters%2C_etc._Native_jewellery_-i.e.%2C_jewelry-_shop..jpg/500px-Costumes%2C_characters%2C_etc._Native_jewellery_-i.e.%2C_jewelry-_shop..jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/79/Costumes%2C_characters%2C_etc._Native_jewellery_-i.e.%2C_jewelry-_shop..jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Costumes,_characters,_etc._Native_jewellery_-i.e.,_jewelry-_shop..jpg",
+      "caption": "The jewelry store, Hebron glass (native jewelry shop).",
+      "source": "Wikimedia Commons",
+      "artist": "American Colony (Jerusalem). Photo Dept., photographer.",
+      "date": "[approximately 1900 to 1920]",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1789"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/769c85cd-63b0-8606-1a70-ab0176a7ee91/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/769c85cd-63b0-8606-1a70-ab0176a7ee91/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/769c85cd-63b0-8606-1a70-ab0176a7ee91/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/14763",
+      "caption": "Looking Glass, 1790–1810",
+      "source": "Art Institute of Chicago",
+      "artist": "Artist unknown (American, 18th–19th century)",
+      "date": "1790–1810",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1278"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/9ffb5b78-7db0-864e-c0c1-d54a55d706e4/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/9ffb5b78-7db0-864e-c0c1-d54a55d706e4/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/9ffb5b78-7db0-864e-c0c1-d54a55d706e4/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/65795",
+      "caption": "The Hanging of Judas, c. 1520",
+      "source": "Art Institute of Chicago",
+      "artist": "Alsatian or Southern German",
+      "date": "c. 1520",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1116"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/f1142012-6697-b0cf-b5c2-3707c75aa4b2/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/f1142012-6697-b0cf-b5c2-3707c75aa4b2/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/f1142012-6697-b0cf-b5c2-3707c75aa4b2/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/107288",
+      "caption": "Paperweight, c. 1870",
+      "source": "Art Institute of Chicago",
+      "artist": "France or Czech Republic",
+      "date": "c. 1870",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "843"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Hebron glass",
@@ -62,7 +198,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3817262",
+      "url": "https://www.wikidata.org/wiki/Q3817262",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:23.612Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Hebron glass",
+      "url": "https://en.wikipedia.org/wiki/Hebron_glass",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:23.612Z"
+      }
+    }
+  ],
   "wikidata": "Q3817262",
   "wikipedia": "Hebron glass",
   "popularity": 35,
@@ -70,5 +229,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.854Z"
 }

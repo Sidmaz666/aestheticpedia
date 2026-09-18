@@ -20,7 +20,33 @@
   "summary": "#KHive is the hashtag used by an informal online community supporting Kamala Harris, the 49th vice president of the United States and 2024 Democratic presidential nominee.",
   "description": "#KHive is the hashtag used by an informal online community supporting Kamala Harris, the 49th vice president of the United States and 2024 Democratic presidential nominee. The hashtag is also a term (pronounced and occasionally transcribed as K-Hive) that refers to the wider online community of support that is not formally affiliated with her campaign or office. The community formed prior to and during her 2020 presidential campaign as an effort to defend Harris from perceived misinformation and attacks against her perceived as racist and sexist. The movement has been cited as an example of social media fandom or stan culture.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c29479",
+      "name": "camel"
+    },
+    {
+      "hex": "#031735",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#150f0d",
+      "name": "black"
+    },
+    {
+      "hex": "#9ba4b2",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#e1bea9",
+      "name": "beige"
+    },
+    {
+      "hex": "#332824",
+      "name": "ink blue 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,21 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Kamala_Harris_Vice_Presidential_Portrait_%28cropped%29.jpg/1280px-Kamala_Harris_Vice_Presidential_Portrait_%28cropped%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Kamala_Harris_Vice_Presidential_Portrait_%28cropped%29.jpg/500px-Kamala_Harris_Vice_Presidential_Portrait_%28cropped%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Kamala_Harris_Vice_Presidential_Portrait_%28cropped%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kamala_Harris_Vice_Presidential_Portrait_(cropped).jpg",
+      "caption": "Kamala Harris",
+      "source": "Wikimedia Commons",
+      "artist": "Lawrence Jackson",
+      "date": "2021-03-05 11:56:46",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1708"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — KHive",
@@ -65,7 +105,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q100250021",
+      "url": "https://www.wikidata.org/wiki/Q100250021",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:04.929Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — KHive",
+      "url": "https://en.wikipedia.org/wiki/KHive",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:04.929Z"
+      }
+    }
+  ],
   "wikidata": "Q100250021",
   "wikipedia": "KHive",
   "popularity": 35,
@@ -73,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:52:04.929Z"
 }

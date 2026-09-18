@@ -166,6 +166,9 @@ async function matchArticle(a: AestheticRecord): Promise<Match | null> {
 const SKIP_FILE =
   /(flag|logo|icon|map|locator|location|symbol|coat[_ ]of[_ ]arms|emblem|seal|signature|commons-|wiki|edit-|question|portal|disambig|stub|padlock|speaker|audio|button|arrow|diagram|chart|graph|blank|placeholder|crystal[_ ]clear|nuvola|gnome|OOjs|increase|decrease|steady|red[_ ]pog|pictogram|sound|spoken|qr[_ ]code)/i
 
+const NOT_EXAMPLE =
+  /\b(maps?|karte|carte|mapa|mappa|verbreitung|distribution|locator|location|sites with|extent of|territor(y|ies)|floor ?plan|ground ?plan|diagram|chart|graph|timeline|family tree|flowchart|coat of arms|flag of|logo|seal of|signature)\b/i
+
 const stripHtml = (s: unknown) =>
   typeof s === 'string'
     ? s
@@ -193,6 +196,9 @@ function toImage(p: any, fallbackCaption: string): ImageRecord | null {
   if (ratio > 4 || ratio < 0.25) return null
   const name = String(p.title ?? '').replace(/^File:/, '')
   if (SKIP_FILE.test(name)) return null
+  // Maps and diagrams are not visual examples of an aesthetic (catch non-English names too).
+  const desc = `${name} ${stripHtml(meta.ImageDescription?.value)} ${stripHtml(meta.ObjectName?.value)}`
+  if (NOT_EXAMPLE.test(desc)) return null
 
   const display = ii.thumburl ? clean(ii.thumburl) : clean(ii.url)
   const isThumb = /\/thumb\//.test(display)

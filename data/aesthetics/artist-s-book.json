@@ -23,7 +23,33 @@
   "summary": "An artist's book (or artist book) is a work of art that engages with the form of a book as a medium in and of itself.",
   "description": "An artist's book (or artist book) is a work of art that engages with the form of a book as a medium in and of itself. Some artist's books are produced in editions—either in small batches or mass-produced pressings—while others are made as one-of-a-kind objects.\n\nThere is no single definition of an artist's book, and formulating a definition is cumbersome and subject to debate. Importantly, the creation of artist's books incorporates a variety of formats and genres. They have a complex history that has been developed intensively by contemporary artist movements. They also have recently grown in popularity, especially in art institutions, and have become popular in art library reference workshops. The usage of the term has expanded as the medium has grown in popularity.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#48443e",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#5f5d59",
+      "name": "umber"
+    },
+    {
+      "hex": "#777676",
+      "name": "slate"
+    },
+    {
+      "hex": "#bab9b0",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#2c2627",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#8e8e90",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -45,7 +71,116 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/RuschaGasolineStations.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e7/RuschaGasolineStations.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e7/RuschaGasolineStations.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:RuschaGasolineStations.jpg",
+      "caption": "Cover of Twentysix Gasoline Stations by Edward Ruscha",
+      "source": "Wikimedia Commons",
+      "artist": "Edward Ruscha",
+      "date": "1962",
+      "license": "Public domain",
+      "width": "548",
+      "height": "680"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Artist%27s_book_-_Ystads_Konstmuseum_2024.jpg/1280px-Artist%27s_book_-_Ystads_Konstmuseum_2024.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Artist%27s_book_-_Ystads_Konstmuseum_2024.jpg/500px-Artist%27s_book_-_Ystads_Konstmuseum_2024.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/17/Artist%27s_book_-_Ystads_Konstmuseum_2024.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Artist%27s_book_-_Ystads_Konstmuseum_2024.jpg",
+      "caption": "Exhibition of Artist's books at Ystad 's Art museum 2024.",
+      "source": "Wikimedia Commons",
+      "artist": "Foto: Jonn Leffmann",
+      "date": "2024.",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "855"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Offeringsatthecrossroads.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/19/Offeringsatthecrossroads.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/19/Offeringsatthecrossroads.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Offeringsatthecrossroads.jpg",
+      "caption": "Offeringsatthecrossroads",
+      "source": "Wikimedia Commons",
+      "artist": "Sue Maberry, w:en:User:Maberry",
+      "date": "2007-07",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "500",
+      "height": "361"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Penwith_artist_book_by_Meg_Green%2C_Some_Odd_Pages.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/44/Penwith_artist_book_by_Meg_Green%2C_Some_Odd_Pages.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/44/Penwith_artist_book_by_Meg_Green%2C_Some_Odd_Pages.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Penwith_artist_book_by_Meg_Green,_Some_Odd_Pages.jpg",
+      "caption": "Adapted longstitch artist's book 'Penwith' by Meg Green of Some Odd Pages, UK",
+      "source": "Wikimedia Commons",
+      "artist": "SomeOddPages",
+      "date": "2009",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "500",
+      "height": "375"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Alexey_Parygin_2015_Eclipse.jpg/1280px-Alexey_Parygin_2015_Eclipse.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Alexey_Parygin_2015_Eclipse.jpg/500px-Alexey_Parygin_2015_Eclipse.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/Alexey_Parygin_2015_Eclipse.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Alexey_Parygin_2015_Eclipse.jpg",
+      "caption": "Eclipse. Artist's book",
+      "source": "Wikimedia Commons",
+      "artist": "Alexey Parygin",
+      "date": "2015",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "924"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Songs_of_Innocence_and_of_Experience%2C_copy_Z%2C_1826_%28Library_of_Congress%29_object_01_Frontispiece_to_Songs_of_Innocence.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/71/Songs_of_Innocence_and_of_Experience%2C_copy_Z%2C_1826_%28Library_of_Congress%29_object_01_Frontispiece_to_Songs_of_Innocence.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/71/Songs_of_Innocence_and_of_Experience%2C_copy_Z%2C_1826_%28Library_of_Congress%29_object_01_Frontispiece_to_Songs_of_Innocence.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Songs_of_Innocence_and_of_Experience,_copy_Z,_1826_(Library_of_Congress)_object_01_Frontispiece_to_Songs_of_Innocence.jpg",
+      "caption": "Songs of Innocence and of Experience, copy Z, object 1 (Bentley 1, Erdman 1, Keynes 1) \"General Title Page\"",
+      "source": "Wikimedia Commons",
+      "artist": "William Blake",
+      "license": "Public domain",
+      "width": "940",
+      "height": "1483"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/TransrationalBoog-Rozanova.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bb/TransrationalBoog-Rozanova.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bb/TransrationalBoog-Rozanova.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:TransrationalBoog-Rozanova.jpg",
+      "caption": "Cover of w:Transrational Boog",
+      "source": "Wikimedia Commons",
+      "artist": "w:Olga Rozanova",
+      "date": "1916",
+      "license": "Public domain",
+      "width": "549",
+      "height": "600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Edward_Ruscha_display_2018.jpg/1280px-Edward_Ruscha_display_2018.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Edward_Ruscha_display_2018.jpg/500px-Edward_Ruscha_display_2018.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/32/Edward_Ruscha_display_2018.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Edward_Ruscha_display_2018.jpg",
+      "caption": "Ed Ruscha's exhibition Double Americanisms at the main hall of the SECESSION showcases altogether fifty-seven mainly recent works—conceptual digital prints and an extended series of painted language pictures as well as handmade book objects and artist’s books in display cases. Ar",
+      "source": "Wikimedia Commons",
+      "artist": "Christian Zürn",
+      "date": "2018-11-21",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "870"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Artist's book",
@@ -68,7 +203,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1062404",
+      "url": "https://www.wikidata.org/wiki/Q1062404",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:00.870Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Artist's book",
+      "url": "https://en.wikipedia.org/wiki/Artist's_book",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:00.870Z"
+      }
+    }
+  ],
   "wikidata": "Q1062404",
   "wikipedia": "Artist's book",
   "popularity": 35,
@@ -76,5 +234,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:37:00.870Z"
 }

@@ -39,7 +39,20 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Stelarc_ArsElectronica97.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Stelarc_ArsElectronica97.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Stelarc_ArsElectronica97.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Stelarc_ArsElectronica97.jpg",
+      "caption": "Stelarc ArsElectronica97",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "606",
+      "height": "904"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Electronic art",
@@ -62,7 +75,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5358332",
+      "url": "https://www.wikidata.org/wiki/Q5358332",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:16.497Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Electronic art",
+      "url": "https://en.wikipedia.org/wiki/Electronic_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:16.497Z"
+      }
+    }
+  ],
   "wikidata": "Q5358332",
   "wikipedia": "Electronic art",
   "popularity": 35,
@@ -70,5 +106,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:44:16.497Z"
 }

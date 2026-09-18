@@ -19,7 +19,25 @@
   "summary": "Coquette aesthetic is a 2020s Gen Z fashion trend that is characterized by a mix of sweet, romantic, and sometimes playful elements that focus on femininity through the use of clothes with lace, flounces, pastel colors, and bows.",
   "description": "Coquette aesthetic is a 2020s Gen Z fashion trend that is characterized by a mix of sweet, romantic, and sometimes playful elements that focus on femininity through the use of clothes with lace, flounces, pastel colors, and bows. It often draws inspiration from historical periods, such as the Victorian era and the 1950s–'60s, with a modern twist.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#ecdfd5",
+      "name": "bone white"
+    },
+    {
+      "hex": "#dbbfa1",
+      "name": "beige"
+    },
+    {
+      "hex": "#dcac79",
+      "name": "tan"
+    },
+    {
+      "hex": "#d8985b",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +59,22 @@
   "tags": [
     "fashion style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Marie_Antoinette%2C_from_Leaders_series_%28N222%29_issued_by_Kinney_Bros._MET_DPB872310.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Marie_Antoinette%2C_from_Leaders_series_%28N222%29_issued_by_Kinney_Bros._MET_DPB872310.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Marie_Antoinette%2C_from_Leaders_series_%28N222%29_issued_by_Kinney_Bros._MET_DPB872310.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Marie_Antoinette,_from_Leaders_series_(N222)_issued_by_Kinney_Bros._MET_DPB872310.jpg",
+      "caption": "Print; Prints",
+      "source": "Wikimedia Commons",
+      "artist": "Kinney Brothers Tobacco Company",
+      "date": "1888 date QS:P571,+1888-00-00T00:00:00Z/9",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "488",
+      "height": "867"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Coquette aesthetic",
@@ -64,7 +97,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q124632328",
+      "url": "https://www.wikidata.org/wiki/Q124632328",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:07.747Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Coquette aesthetic",
+      "url": "https://en.wikipedia.org/wiki/Coquette_aesthetic",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:07.747Z"
+      }
+    }
+  ],
   "wikidata": "Q124632328",
   "wikipedia": "Coquette aesthetic",
   "popularity": 35,
@@ -72,5 +128,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:42:07.747Z"
 }

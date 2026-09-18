@@ -17,7 +17,33 @@
   "summary": "A split platform, stacked platform, or separate platform is a station that has a platform for each track, split onto two or more levels.",
   "description": "A split platform, stacked platform, or separate platform is a station that has a platform for each track, split onto two or more levels.  This configuration allows a narrower station plan (or footprint) horizontally, at the expense of a deeper (or higher) vertical elevation, because sets of tracks and platforms are stacked above each other. Where two rail lines cross or run parallel for a time, split platforms are sometimes used in a hybrid arrangement that allows for convenient cross-platform interchange between trains running in the same general direction.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#52442c",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#7f6b43",
+      "name": "bronze"
+    },
+    {
+      "hex": "#a48c5c",
+      "name": "moss"
+    },
+    {
+      "hex": "#2b2417",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#b3a788",
+      "name": "khaki"
+    },
+    {
+      "hex": "#65666e",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Harvard_station_platforms_from_above%2C_September_2010.jpg/1280px-Harvard_station_platforms_from_above%2C_September_2010.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Harvard_station_platforms_from_above%2C_September_2010.jpg/500px-Harvard_station_platforms_from_above%2C_September_2010.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Harvard_station_platforms_from_above%2C_September_2010.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Harvard_station_platforms_from_above,_September_2010.jpg",
+      "caption": "The MBTA Red Line platforms at Harvard Square are stacked, with the outbound platform on top.",
+      "source": "Wikimedia Commons",
+      "artist": "Michael Hicks",
+      "date": "2010-09-05 09:49:34",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1920"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Split platform",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7578710",
+      "url": "https://www.wikidata.org/wiki/Q7578710",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:00.703Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Split platform",
+      "url": "https://en.wikipedia.org/wiki/Split_platform",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:00.703Z"
+      }
+    }
+  ],
   "wikidata": "Q7578710",
   "wikipedia": "Split platform",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:07:00.703Z"
 }

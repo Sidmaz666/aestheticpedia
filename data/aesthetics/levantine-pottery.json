@@ -17,7 +17,33 @@
   "summary": "Levantine pottery draws inspiration from the Ceramic traditions of the Levant.",
   "description": "Levantine pottery draws inspiration from the Ceramic traditions of the Levant. It spans from the Neolithic period to the present. The earliest developments involved lime plaster vessels, simple Neolithic wares, and decorated forms such as the Yarmukian Pottery. The Chalcolithic and Bronze Age are denoted by the introduction of the Potter's wheel, regional variations, and extrinsic influences from Cyprus, Syria, and the Aegean. It produced distinctive wares, such as Khirbet Kerak and Chocolate-on-white.\n\nWith the emergence of the Iron Age, the pottery work reflected cultural identities, with Philistine, Samaria, Israelite, and Judea traditions, which developed unique styles. In the Classical, Byzantine, and Arab periods, local production persisted alongside imported slipware and new decorative techniques. Many of these traditions still continue to persist in the modern-age Palestinian pottery, which holds forms, clay, and designs that are rooted deeply in ancient practices.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b2b9bb",
+      "name": "silver"
+    },
+    {
+      "hex": "#6b574b",
+      "name": "umber"
+    },
+    {
+      "hex": "#988782",
+      "name": "stone"
+    },
+    {
+      "hex": "#2c2a28",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#78726f",
+      "name": "slate"
+    },
+    {
+      "hex": "#9e6c59",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,72 @@
   "tags": [
     "pottery style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Dome_of_the_rock_close.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/75/Dome_of_the_rock_close.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/75/Dome_of_the_rock_close.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dome_of_the_rock_close.jpg",
+      "caption": "Dome of the rock close",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "771",
+      "height": "665"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Palestinian_amphorae.jpg/1280px-Palestinian_amphorae.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Palestinian_amphorae.jpg/500px-Palestinian_amphorae.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Palestinian_amphorae.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Palestinian_amphorae.jpg",
+      "caption": "Palestinean amphorae in Bodrum Castle (Turkey)",
+      "source": "Wikimedia Commons",
+      "artist": "Ad Meskens Ad Meskens",
+      "date": "2008-07",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1058"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Kiberth_k._ware.JPG/1280px-Kiberth_k._ware.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Kiberth_k._ware.JPG/500px-Kiberth_k._ware.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Kiberth_k._ware.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kiberth_k._ware.JPG",
+      "caption": "vaso del bronzo antico terzo rinvenuto a kiberth kerak. La foto è stata scattata in un museo a Tel-Aviv",
+      "source": "Wikimedia Commons",
+      "artist": "Fullo88 at Italian Wikipedia",
+      "date": "5 March 2008 (original upload date)",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Late_Bronze_Period_%E2%80%93_Hecht_Museum_006.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Late_Bronze_Period_%E2%80%93_Hecht_Museum_006.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Late_Bronze_Period_%E2%80%93_Hecht_Museum_006.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Late_Bronze_Period_%E2%80%93_Hecht_Museum_006.JPG",
+      "caption": "Late Bronze Period Pottery in Hecht Museum - Base Ring Ware כלים מתקופת הברונזה המאוחרת במוזיאון הכט באוניברסיטת חיפה פכיות \"בילביל\" קטנות מחופות שחור מעוטרות בפסים לבנים ממשפחת כלי בסיס טבעת יבוא קיפרי",
+      "source": "Wikimedia Commons",
+      "artist": "Hanay",
+      "date": "2010-08-15",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1239",
+      "height": "1452"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/The_Potter_and_Wheel%2C_Jaffa%2C_Palestine%2C_1859.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/82/The_Potter_and_Wheel%2C_Jaffa%2C_Palestine%2C_1859.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/82/The_Potter_and_Wheel%2C_Jaffa%2C_Palestine%2C_1859.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Potter_and_Wheel,_Jaffa,_Palestine,_1859.jpg",
+      "caption": "The Potter and Wheel, Jaffa, Palestine, 1859",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "736",
+      "height": "934"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Levantine pottery",
@@ -62,7 +153,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q17004545",
+      "url": "https://www.wikidata.org/wiki/Q17004545",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:28.323Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Levantine pottery",
+      "url": "https://en.wikipedia.org/wiki/Levantine_pottery",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:28.323Z"
+      }
+    }
+  ],
   "wikidata": "Q17004545",
   "wikipedia": "Levantine pottery",
   "popularity": 35,
@@ -70,5 +184,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:52:28.323Z"
 }

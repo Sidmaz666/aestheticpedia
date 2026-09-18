@@ -39,7 +39,22 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Android_4.0.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Android_4.0.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Android_4.0.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Android_4.0.png",
+      "caption": "Android 4.0 on the Galaxy Nexus",
+      "source": "Wikimedia Commons",
+      "artist": "The Android Open Source project",
+      "date": "2011-10",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "720",
+      "height": "1280"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Holo (design language)",
@@ -62,7 +77,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q136933026",
+      "url": "https://www.wikidata.org/wiki/Q136933026",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:15.064Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Holo (design language)",
+      "url": "https://en.wikipedia.org/wiki/Holo_(design_language)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:15.064Z"
+      }
+    }
+  ],
   "wikidata": "Q136933026",
   "wikipedia": "Holo (design language)",
   "popularity": 35,
@@ -70,5 +108,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:49:15.064Z"
 }

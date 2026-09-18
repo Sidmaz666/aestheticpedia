@@ -12,8 +12,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Ming dynasty",
+  "geography": "Ming dynasty",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -44,7 +44,35 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Four_Masters_of_the_Ming_dynasty_-_%E6%98%8E%E5%9B%9B%E5%AE%B6_-_Ming_Sijia.jpg/1280px-Four_Masters_of_the_Ming_dynasty_-_%E6%98%8E%E5%9B%9B%E5%AE%B6_-_Ming_Sijia.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Four_Masters_of_the_Ming_dynasty_-_%E6%98%8E%E5%9B%9B%E5%AE%B6_-_Ming_Sijia.jpg/500px-Four_Masters_of_the_Ming_dynasty_-_%E6%98%8E%E5%9B%9B%E5%AE%B6_-_Ming_Sijia.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/92/Four_Masters_of_the_Ming_dynasty_-_%E6%98%8E%E5%9B%9B%E5%AE%B6_-_Ming_Sijia.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Four_Masters_of_the_Ming_dynasty_-_%E6%98%8E%E5%9B%9B%E5%AE%B6_-_Ming_Sijia.jpg",
+      "caption": "明四家 - Ming Sijia- Czterech Mistrzów dynastii Ming . en:Shen Zhou en: Wen Zhengming en:Tang Yin en:Qiu Ying Postacie czterech mistrzów Szkoły Wu - 《吴门四家小像轴》 - Li Yueyun, 1898. Muzeum w Nankinie",
+      "source": "Wikimedia Commons",
+      "artist": "Dmk121",
+      "date": "2021-01-25",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1621"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/T%27ang_Yin_001.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2c/T%27ang_Yin_001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2c/T%27ang_Yin_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:T%27ang_Yin_001.jpg",
+      "caption": "Clearing after Snow on a Mountain Pass\"",
+      "source": "Wikimedia Commons",
+      "artist": "Tang Yin",
+      "date": "1507，明正德二年",
+      "license": "Public domain",
+      "width": "1256",
+      "height": "2363"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Four Masters of the Ming dynasty",
@@ -67,7 +95,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q11087750",
+      "url": "https://www.wikidata.org/wiki/Q11087750",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:06.920Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Four Masters of the Ming dynasty",
+      "url": "https://en.wikipedia.org/wiki/Four_Masters_of_the_Ming_dynasty",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:06.920Z"
+      }
+    }
+  ],
   "wikidata": "Q11087750",
   "wikipedia": "Four Masters of the Ming dynasty",
   "popularity": 35,
@@ -75,5 +126,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.230Z"
 }

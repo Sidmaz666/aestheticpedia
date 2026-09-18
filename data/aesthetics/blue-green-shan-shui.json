@@ -19,7 +19,25 @@
   "summary": "Blue-green shan shui (simplified Chinese: 青绿山水; traditional Chinese: 青綠山水; pinyin: qīnglǜ shānshuǐ; literally 'blue-green mountain-water'), also known as qinglü shanshui, is a variety of shan shui, a style of Chinese painting that primarily depicts scenery.",
   "description": "Blue-green shan shui (simplified Chinese: 青绿山水; traditional Chinese: 青綠山水; pinyin: qīnglǜ shānshuǐ; literally 'blue-green mountain-water'), also known as qinglü shanshui, is a variety of shan shui, a style of Chinese painting that primarily depicts scenery. It tends to refer to an \"ancient style\" rather than modern ones. The main colours of the paintings are blues and greens, and in the early period it was painted using mineral dyes. This style was first formulated by Li Sixun (simplified Chinese: 李思训; traditional Chinese: 李思訓; pinyin: Lǐ Sī-Xùn), a general, politician, and famous painter in the Tang dynasty.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#91764c",
+      "name": "bronze"
+    },
+    {
+      "hex": "#848c6b",
+      "name": "moss"
+    },
+    {
+      "hex": "#64685a",
+      "name": "umber"
+    },
+    {
+      "hex": "#5c533c",
+      "name": "umber 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +59,91 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Journey_to_Shu%3B_Long.jpg/1280px-Journey_to_Shu%3B_Long.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Journey_to_Shu%3B_Long.jpg/500px-Journey_to_Shu%3B_Long.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/Journey_to_Shu%3B_Long.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Journey_to_Shu;_Long.jpg",
+      "caption": "Journey to Shu . Ink and color on silk. Blue-and-green style. H x W (painting): 54.9 x 183.2 cm (21 5/8 x 72 1/8 in). Traditionally attributed to Qiu Ying 仇英 (ca. 1494–1552); Calligraphy by Wen Zhengming 文徵明 (1470–1559). 16th-17th century, Ming dynasty. Journey to Shu is one of s",
+      "source": "Wikimedia Commons",
+      "artist": "Qiu Ying",
+      "date": "16th-17th century",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "385"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/16568",
+      "caption": "Water Lilies, 1906",
+      "source": "Art Institute of Chicago",
+      "artist": "Claude Monet (French, 1840–1926)",
+      "date": "1906",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "810"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/c68f33ec-feb1-5277-334b-b71ac15ae394/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/c68f33ec-feb1-5277-334b-b71ac15ae394/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/c68f33ec-feb1-5277-334b-b71ac15ae394/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/8987",
+      "caption": "Painting with Green Center, 1913",
+      "source": "Art Institute of Chicago",
+      "artist": "Vasily Kandinsky",
+      "date": "1913",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "785"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/1f925e43-ff81-5ad7-da75-b28ea651c09f/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/1f925e43-ff81-5ad7-da75-b28ea651c09f/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/1f925e43-ff81-5ad7-da75-b28ea651c09f/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/4887",
+      "caption": "Irises, 1914–17",
+      "source": "Art Institute of Chicago",
+      "artist": "Claude Monet (French, 1840–1926)",
+      "date": "1914–17",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "842"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/caf4fa39-e2e8-344a-542c-2d9a03ec9d4b/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/caf4fa39-e2e8-344a-542c-2d9a03ec9d4b/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/caf4fa39-e2e8-344a-542c-2d9a03ec9d4b/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/81557",
+      "caption": "Seascape, 1879",
+      "source": "Art Institute of Chicago",
+      "artist": "Pierre-Auguste Renoir (French, 1841–1919)",
+      "date": "1879",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "664"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/03930df3-1e6c-eeca-8660-c0b22ca477ff/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/03930df3-1e6c-eeca-8660-c0b22ca477ff/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/03930df3-1e6c-eeca-8660-c0b22ca477ff/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/16584",
+      "caption": "Houses of Parliament, London, 1900–1",
+      "source": "Art Institute of Chicago",
+      "artist": "Claude Monet (French, 1840–1926)",
+      "date": "1900–1",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "736"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Blue-green shan shui",
@@ -64,7 +166,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4928722",
+      "url": "https://www.wikidata.org/wiki/Q4928722",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:18.260Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Blue-green shan shui",
+      "url": "https://en.wikipedia.org/wiki/Blue-green_shan_shui",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:18.260Z"
+      }
+    }
+  ],
   "wikidata": "Q4928722",
   "wikipedia": "Blue-green shan shui",
   "popularity": 35,
@@ -72,5 +197,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:38:18.260Z"
 }

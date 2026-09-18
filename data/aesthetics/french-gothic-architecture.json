@@ -19,7 +19,33 @@
   "summary": "French Gothic architecture is an architectural style which emerged in France in 1140, and was dominant until the mid-16th century.",
   "description": "French Gothic architecture is an architectural style which emerged in France in 1140, and was dominant until the mid-16th century. The most notable examples are the great Gothic cathedrals of France, including Notre-Dame Cathedral, Reims Cathedral, Chartres Cathedral, and Amiens Cathedral. Its main characteristics are verticality, or height, and the use of the rib vault and flying buttresses and other architectural innovations to distribute the weight of the stone structures to supports on the outside, allowing unprecedented height and volume. The new techniques also permitted the addition of larger windows, which fill the cathedrals with light.\n\nFrench scholars divide French Gothic into four phases: British and American historians use similar periods.\n\nGothique primitif (Primary Gothic) or Gothique premier (First Gothic), from short before 1140 until shortly after 1180, marked by tribunes above the aisles of basilicas.  The British and American term for the period is Early Gothic.\n\nGothique Classique or (Classic Gothic), from the 1180s to the first third of 13th century, marked by basilicas without lateral tribunes and with triforia without windows. The British and American term is for the period is High Gothic. and Some buildings of this phase, like Chartres Cathedral, are included by Anglo-American historians in Early Gothic; others, like the Reims Cathedral and the western parts of Amiens Cathedral, are included in High Gothic.\n\nGothique rayonnant (Radiating Gothic), from the second third of 13th century to the first half of 14th century, marked by triforia with windows and a general preference for stained glass instead of stone walls. It forms the greater portion of High Gothic. American and British historians also use the term Rayonnant.\n\nGothique flamboyant (Flamboyant Gothic), since mid 14th century, marked by sinuous flame-lime (hence the name) forms of tracery. British and American historians use the same term.\n\nFrench Gothic was influential across the Catholic world, with the notable exception of Italy. It was gradually supplanted as the dominant French style in the mid-16th century by French Renaissance architecture.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#443928",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#5c4f43",
+      "name": "umber"
+    },
+    {
+      "hex": "#c0d3e7",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#8c8881",
+      "name": "taupe"
+    },
+    {
+      "hex": "#706b66",
+      "name": "umber 2"
+    },
+    {
+      "hex": "#a5a49d",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,146 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Notre_Dame_de_Paris_Est_side.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Notre_Dame_de_Paris_Est_side.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Notre_Dame_de_Paris_Est_side.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Notre_Dame_de_Paris_Est_side.jpg",
+      "caption": "Notre Dame de Paris Est side",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "594",
+      "height": "794"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Saint-Denis_-_Fa%C3%A7ade.jpg/1280px-Saint-Denis_-_Fa%C3%A7ade.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Saint-Denis_-_Fa%C3%A7ade.jpg/500px-Saint-Denis_-_Fa%C3%A7ade.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/Saint-Denis_-_Fa%C3%A7ade.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Saint-Denis_-_Fa%C3%A7ade.jpg",
+      "caption": "West façade of the Basilica of Saint-Denis after the restoration works (2012-2015).",
+      "source": "Wikimedia Commons",
+      "artist": "Thomas Clouet",
+      "date": "2015-08-05 15:19:20",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1940"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Basilica_Saint_Denis_ambulatory.JPG/1280px-Basilica_Saint_Denis_ambulatory.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Basilica_Saint_Denis_ambulatory.JPG/500px-Basilica_Saint_Denis_ambulatory.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Basilica_Saint_Denis_ambulatory.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Basilica_Saint_Denis_ambulatory.JPG",
+      "caption": "The Basilica of Saint Denis, northern Paris. The ambulatory designed by Abbott Suger, early 12th-century, possibly the earliest building in the Gothic Style.",
+      "source": "Wikimedia Commons",
+      "artist": "Beckstet",
+      "date": "April 2005, adjusted August 2013",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1857"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Interior_of_Cath%C3%A9drale_Saint-%C3%89tienne_de_Sens-6974.jpg/1280px-Interior_of_Cath%C3%A9drale_Saint-%C3%89tienne_de_Sens-6974.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Interior_of_Cath%C3%A9drale_Saint-%C3%89tienne_de_Sens-6974.jpg/500px-Interior_of_Cath%C3%A9drale_Saint-%C3%89tienne_de_Sens-6974.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Interior_of_Cath%C3%A9drale_Saint-%C3%89tienne_de_Sens-6974.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_Cath%C3%A9drale_Saint-%C3%89tienne_de_Sens-6974.jpg",
+      "caption": "Blick durch das Hauptschiff der Kathedrale von Sens in Richtung Chor",
+      "source": "Wikimedia Commons",
+      "artist": "Raimond Spekking",
+      "date": "2018-01-03",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Senlis_Cathedral_Nave%2C_Picardy%2C_France_-_Diliff.jpg/1280px-Senlis_Cathedral_Nave%2C_Picardy%2C_France_-_Diliff.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Senlis_Cathedral_Nave%2C_Picardy%2C_France_-_Diliff.jpg/500px-Senlis_Cathedral_Nave%2C_Picardy%2C_France_-_Diliff.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/19/Senlis_Cathedral_Nave%2C_Picardy%2C_France_-_Diliff.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Senlis_Cathedral_Nave,_Picardy,_France_-_Diliff.jpg",
+      "caption": "The nave of Senlis Cathedral, Picardy, France.",
+      "source": "Wikimedia Commons",
+      "artist": "Diliff",
+      "date": "Taken on 14 April 2015, 08:38 (according to Exif data)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "909"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Gothic_architecture_of_Notre_Dame_de_Paris.jpg/1280px-Gothic_architecture_of_Notre_Dame_de_Paris.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Gothic_architecture_of_Notre_Dame_de_Paris.jpg/500px-Gothic_architecture_of_Notre_Dame_de_Paris.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Gothic_architecture_of_Notre_Dame_de_Paris.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gothic_architecture_of_Notre_Dame_de_Paris.jpg",
+      "caption": "A view of the South-East side of the Notre Dame de Paris, with the gothic architecture featuring details spires, windows, gargoyles and more.",
+      "source": "Wikimedia Commons",
+      "artist": "Eutouring",
+      "date": "2013-10-04",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Cath%C3%A9drale_de_Bourges_%28Cher%29.jpg/1280px-Cath%C3%A9drale_de_Bourges_%28Cher%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Cath%C3%A9drale_de_Bourges_%28Cher%29.jpg/500px-Cath%C3%A9drale_de_Bourges_%28Cher%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/Cath%C3%A9drale_de_Bourges_%28Cher%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_de_Bourges_(Cher).jpg",
+      "caption": "Cathédrale Saint Etienne de Bourges depuis le jardin de l'Archêché est une œuvre majeure de l’architecture gothique. Elle est classée au patrimoine mondial de l’UNESCO depuis 1992. Elle mesure 118m de long, 41m de large, 37m de haut sous la voûte de la nef centrale et 5900m² de s",
+      "source": "Wikimedia Commons",
+      "artist": "sybarite48",
+      "date": "2010-07-04 15:19:45",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "984"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/ReimsCathedral0116.jpg/1280px-ReimsCathedral0116.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/ReimsCathedral0116.jpg/500px-ReimsCathedral0116.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/11/ReimsCathedral0116.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:ReimsCathedral0116.jpg",
+      "caption": "View from north-east of Reims Cathedral (High Gothic)",
+      "source": "Wikimedia Commons",
+      "artist": "Source: G.Garitan Derivative: User:MathKnight",
+      "date": "2015-06-07 14:40:07",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "812"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/0_Amiens_-_Cath%C3%A9drale_Notre-Dame_%281%29.JPG/1280px-0_Amiens_-_Cath%C3%A9drale_Notre-Dame_%281%29.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/0_Amiens_-_Cath%C3%A9drale_Notre-Dame_%281%29.JPG/500px-0_Amiens_-_Cath%C3%A9drale_Notre-Dame_%281%29.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2c/0_Amiens_-_Cath%C3%A9drale_Notre-Dame_%281%29.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:0_Amiens_-_Cath%C3%A9drale_Notre-Dame_(1).JPG",
+      "caption": "Amiens ( Somme - France ), facade of the Cathedral of Our Lady of Amiens (1220-1269).",
+      "source": "Wikimedia Commons",
+      "artist": "Jean-Pol GRANDMONT",
+      "date": "2012-07-23 15:11",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "1964"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Sainte_Chapelle_Interior_Stained_Glass.jpg/1280px-Sainte_Chapelle_Interior_Stained_Glass.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Sainte_Chapelle_Interior_Stained_Glass.jpg/500px-Sainte_Chapelle_Interior_Stained_Glass.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/36/Sainte_Chapelle_Interior_Stained_Glass.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sainte_Chapelle_Interior_Stained_Glass.jpg",
+      "caption": "Sainte Chapelle Interior Stained Glass",
+      "source": "Wikimedia Commons",
+      "artist": "Oldmanisold",
+      "date": "2018-04-27 00:24:20",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — French Gothic architecture",
@@ -64,7 +229,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2245347",
+      "url": "https://www.wikidata.org/wiki/Q2245347",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:10.813Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — French Gothic architecture",
+      "url": "https://en.wikipedia.org/wiki/French_Gothic_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:10.813Z"
+      }
+    }
+  ],
   "wikidata": "Q2245347",
   "wikipedia": "French Gothic architecture",
   "popularity": 35,
@@ -72,5 +260,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:46:10.813Z"
 }

@@ -39,7 +39,49 @@
   "tags": [
     "painting technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Schiele_-_Mutter_mit_Kind_-_1910.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Schiele_-_Mutter_mit_Kind_-_1910.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Schiele_-_Mutter_mit_Kind_-_1910.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Schiele_-_Mutter_mit_Kind_-_1910.jpg",
+      "caption": "Mother with child",
+      "source": "Wikimedia Commons",
+      "artist": "Egon Schiele",
+      "date": "1910",
+      "license": "Public domain",
+      "width": "1200",
+      "height": "1696"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/87d3ec5d-e8ff-470d-df8e-49bf1e2bf5e6/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/87d3ec5d-e8ff-470d-df8e-49bf1e2bf5e6/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/87d3ec5d-e8ff-470d-df8e-49bf1e2bf5e6/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/121738",
+      "caption": "Ostracon with a Drawing of a King, New Kingdom, mid-Dynasty 19–Dynasty 20, about 1213–1069 BCE",
+      "source": "Art Institute of Chicago",
+      "artist": "Egyptian",
+      "date": "New Kingdom, mid-Dynasty 19–Dynasty 20, about 1213–1069 BCE",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1181"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/33f100cf-7ebb-f1ae-a5ec-326c28088b02/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/33f100cf-7ebb-f1ae-a5ec-326c28088b02/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/33f100cf-7ebb-f1ae-a5ec-326c28088b02/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/190405",
+      "caption": "Saint Luke Drawing the Virgin and Christ Child, c. 1535",
+      "source": "Art Institute of Chicago",
+      "artist": "Girolamo da Carpi (Girolamo Sellari; Italian, c. 1501–1556)",
+      "date": "c. 1535",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1140"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Contour drawing",
@@ -62,7 +104,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q56316576",
+      "url": "https://www.wikidata.org/wiki/Q56316576",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:07.616Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Contour drawing",
+      "url": "https://en.wikipedia.org/wiki/Contour_drawing",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:07.616Z"
+      }
+    }
+  ],
   "wikidata": "Q56316576",
   "wikipedia": "Contour drawing",
   "popularity": 35,
@@ -70,5 +135,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:42:07.616Z"
 }

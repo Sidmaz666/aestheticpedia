@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Russian Empire",
+  "geography": "Russian Empire",
   "periodStart": "1890s",
   "periodEnd": "",
   "startYear": 1890,
@@ -19,7 +19,33 @@
   "summary": "Mir iskusstva (Russian: «Мир искусства», IPA: [ˈmʲir ɪˈskustvə], World of Art) was both a Russian magazine and the artistic movement it fostered, playing a significant role in shaping the Russian avant-garde.",
   "description": "Mir iskusstva (Russian: «Мир искусства», IPA: [ˈmʲir ɪˈskustvə], World of Art) was both a Russian magazine and the artistic movement it fostered, playing a significant role in shaping the Russian avant-garde. The movement was deeply influential to Russian artists who contributed to the 20th century revolution in European art. The magazine itself had limited circulation outside of Russia, as it remained a central part of the development of the Russian modernism movement.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a1a596",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#848d84",
+      "name": "taupe"
+    },
+    {
+      "hex": "#707a6c",
+      "name": "slate"
+    },
+    {
+      "hex": "#e8e8df",
+      "name": "paper white"
+    },
+    {
+      "hex": "#556458",
+      "name": "graphite"
+    },
+    {
+      "hex": "#c3c3b7",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,84 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mir_iskusstva_group_by_B.Kustodiev_%281916-20%2C_Russian_museum%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mir_iskusstva_group_by_B.Kustodiev_%281916-20%2C_Russian_museum%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mir_iskusstva_group_by_B.Kustodiev_%281916-20%2C_Russian_museum%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mir_iskusstva_group_by_B.Kustodiev_(1916-20,_Russian_museum).jpg",
+      "caption": "Boris Kustodiyev. Group Portrait of the World of Art Artists. Sketch. 1916-20. oil on canvas. The Russian Museum, St. Petersburg, Russia. From left to right: Igor Grabar, Nicholas Roerich, Eugene Lanceray, Kustodiev, Ivan Bilibin, Anna Ostroumova-Lebedeva, Alexandre Benois, Heorh",
+      "source": "Wikimedia Commons",
+      "artist": "Boris Kustodiev",
+      "date": "between 1916 and 1920 date QS:P571,+1950-00-00T00:00:00Z/7,P",
+      "license": "Public domain",
+      "width": "1200",
+      "height": "693"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Dobuzhinsky_City_Types_%28City_Grimaces%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Dobuzhinsky_City_Types_%28City_Grimaces%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Dobuzhinsky_City_Types_%28City_Grimaces%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dobuzhinsky_City_Types_(City_Grimaces).jpg",
+      "caption": "Dobuzhinsky City Types (City Grimaces)",
+      "source": "Wikimedia Commons",
+      "artist": "Mstislav Dobuzhinsky",
+      "date": "1915",
+      "license": "Public domain",
+      "width": "546",
+      "height": "737"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Nemetskaya.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Nemetskaya.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Nemetskaya.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nemetskaya.jpg",
+      "caption": "en:Alexandre Benois . At the en:German Quarter (1911).",
+      "source": "Wikimedia Commons",
+      "artist": "Alexandre Benois",
+      "license": "Public domain",
+      "width": "1216",
+      "height": "848"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Eliabeth_lanceret.jpg/1280px-Eliabeth_lanceret.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Eliabeth_lanceret.jpg/500px-Eliabeth_lanceret.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Eliabeth_lanceret.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Eliabeth_lanceret.jpg",
+      "caption": "The artwork was performed as an illustration to Alexandre Benois ' book Tsarskoye Selo during the Reign of Empress Elizabeth Petrovna . The book by A. Benois was published in 1910 by R. Golike & A. Vilborg Partnership in Saint Petersburg, but without the illustration Elizabeth Pe",
+      "source": "Wikimedia Commons",
+      "artist": "Eugene Lanceray",
+      "date": "1905 date QS:P571,+1905-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "851"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Mir.iskusstwa.1899.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/73/Mir.iskusstwa.1899.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/Mir.iskusstwa.1899.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mir.iskusstwa.1899.jpg",
+      "caption": "Дизайн обложки выполнен М. В. Якунчиковой-Вебер",
+      "source": "Wikimedia Commons",
+      "artist": "Maria Yakunchikova",
+      "date": "1898",
+      "license": "Public domain",
+      "width": "502",
+      "height": "650"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Dadon_shemakha.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Dadon_shemakha.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Dadon_shemakha.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dadon_shemakha.jpg",
+      "caption": "Dadon shemakha",
+      "source": "Wikimedia Commons",
+      "artist": "Ivan Bilibin",
+      "license": "Public domain",
+      "width": "545",
+      "height": "403"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Mir iskusstva",
@@ -64,7 +167,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1425138",
+      "url": "https://www.wikidata.org/wiki/Q1425138",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:11.893Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Mir iskusstva",
+      "url": "https://en.wikipedia.org/wiki/Mir_iskusstva",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:55:11.893Z"
+      }
+    }
+  ],
   "wikidata": "Q1425138",
   "wikipedia": "Mir iskusstva",
   "popularity": 35,
@@ -72,5 +198,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:29.398Z"
 }

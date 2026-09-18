@@ -17,7 +17,33 @@
   "summary": "Eclecticism is a kind of mixed style in the fine arts: \"the borrowing of a variety of styles from different sources and combining them\" (Hume 1998, 5).",
   "description": "Eclecticism is a kind of mixed style in the fine arts: \"the borrowing of a variety of styles from different sources and combining them\" (Hume 1998, 5). Significantly, Eclecticism hardly ever constituted a specific style in art: it is characterized by the fact that it was not a particular style. In general, the term describes the combination in a single work of a variety of influences—mainly of elements from different historical styles in architecture, painting, and the graphic and decorative arts. In music the term used may be either eclecticism or polystylism.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5d9ad4",
+      "name": "verdigris"
+    },
+    {
+      "hex": "#bfbabd",
+      "name": "silver"
+    },
+    {
+      "hex": "#1e7ec0",
+      "name": "denim blue"
+    },
+    {
+      "hex": "#2d2513",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#e4a77b",
+      "name": "tan"
+    },
+    {
+      "hex": "#837368",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Palazzina_cinese_-_esterni_01.jpg/1280px-Palazzina_cinese_-_esterni_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Palazzina_cinese_-_esterni_01.jpg/500px-Palazzina_cinese_-_esterni_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/93/Palazzina_cinese_-_esterni_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Palazzina_cinese_-_esterni_01.jpg",
+      "caption": "Palazzina cinese - esterni",
+      "source": "Wikimedia Commons",
+      "artist": "Davide Mauro",
+      "date": "2019-11-03 12:14:32",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Eclecticism in art",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2537632",
+      "url": "https://www.wikidata.org/wiki/Q2537632",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:10.521Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Eclecticism in art",
+      "url": "https://en.wikipedia.org/wiki/Eclecticism_in_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:10.521Z"
+      }
+    }
+  ],
   "wikidata": "Q2537632",
   "wikipedia": "Eclecticism in art",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:44:10.521Z"
 }

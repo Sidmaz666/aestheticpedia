@@ -17,7 +17,33 @@
   "summary": "Goblincore is an internet aesthetic and subculture inspired by the folklore of goblins, centered on the celebration of natural ecosystems usually considered less beautiful by conventional norms, such as soil, animals, and second-hand objects.",
   "description": "Goblincore is an internet aesthetic and subculture inspired by the folklore of goblins, centered on the celebration of natural ecosystems usually considered less beautiful by conventional norms, such as soil, animals, and second-hand objects.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1c1816",
+      "name": "black"
+    },
+    {
+      "hex": "#402621",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#584a45",
+      "name": "umber"
+    },
+    {
+      "hex": "#890d1b",
+      "name": "burgundy"
+    },
+    {
+      "hex": "#776a65",
+      "name": "bronze"
+    },
+    {
+      "hex": "#9c9883",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Still_life_with_animal_skull_and_vases.jpg/1280px-Still_life_with_animal_skull_and_vases.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Still_life_with_animal_skull_and_vases.jpg/500px-Still_life_with_animal_skull_and_vases.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Still_life_with_animal_skull_and_vases.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Still_life_with_animal_skull_and_vases.jpg",
+      "caption": "Two vases, a picture frame, a candle, shells and an animal skull.",
+      "source": "Wikimedia Commons",
+      "artist": "Bart Everson",
+      "date": "2008-02-25 16:37:36",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "972"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Grandpa_Sweater_full_pattern_H%26M.jpg/1280px-Grandpa_Sweater_full_pattern_H%26M.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Grandpa_Sweater_full_pattern_H%26M.jpg/500px-Grandpa_Sweater_full_pattern_H%26M.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Grandpa_Sweater_full_pattern_H%26M.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Grandpa_Sweater_full_pattern_H%26M.jpg",
+      "caption": "A person in a sweater along with black jeans",
+      "source": "Wikimedia Commons",
+      "artist": "Kauey",
+      "date": "2023-01-21",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1846"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Goblincore",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q108084486",
+      "url": "https://www.wikidata.org/wiki/Q108084486",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:12.419Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Goblincore",
+      "url": "https://en.wikipedia.org/wiki/Goblincore",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:12.419Z"
+      }
+    }
+  ],
   "wikidata": "Q108084486",
   "wikipedia": "Goblincore",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:47:12.419Z"
 }

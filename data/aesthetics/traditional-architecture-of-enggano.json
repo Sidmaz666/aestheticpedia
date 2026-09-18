@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Indonesia, Enggano Island",
+  "geography": "Indonesia, Enggano Island",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -39,7 +39,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/COLLECTIE_TROPENMUSEUM_Model_van_een_huis_type_bijenkorf_TMnr_15-930a.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9b/COLLECTIE_TROPENMUSEUM_Model_van_een_huis_type_bijenkorf_TMnr_15-930a.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9b/COLLECTIE_TROPENMUSEUM_Model_van_een_huis_type_bijenkorf_TMnr_15-930a.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Model_van_een_huis_type_bijenkorf_TMnr_15-930a.jpg",
+      "caption": "Model of a house",
+      "source": "Wikimedia Commons",
+      "artist": "Tropenmuseum",
+      "date": "before 1900 date QS:P,+1900-00-00T00:00:00Z/7,P1326,+1900-00",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "800",
+      "height": "600"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Traditional architecture of Enggano",
@@ -62,7 +77,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7832319",
+      "url": "https://www.wikidata.org/wiki/Q7832319",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:14.961Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Traditional architecture of Enggano",
+      "url": "https://en.wikipedia.org/wiki/Traditional_architecture_of_Enggano",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:14.961Z"
+      }
+    }
+  ],
   "wikidata": "Q7832319",
   "wikipedia": "Traditional architecture of Enggano",
   "popularity": 35,
@@ -70,5 +108,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:02.190Z"
 }

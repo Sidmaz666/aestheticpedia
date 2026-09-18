@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7063969",
+      "url": "https://www.wikidata.org/wiki/Q7063969",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:15.666Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Nouvelle tendance",
+      "url": "https://en.wikipedia.org/wiki/Nouvelle_tendance",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:15.666Z"
+      }
+    }
+  ],
   "wikidata": "Q7063969",
   "wikipedia": "Nouvelle tendance",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:58:15.666Z"
 }

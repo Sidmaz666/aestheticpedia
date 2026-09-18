@@ -12,8 +12,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Japan",
+  "geography": "Japan",
   "periodStart": "1830s",
   "periodEnd": "",
   "startYear": 1831,
@@ -22,7 +22,33 @@
   "summary": "A View of Mount Fuji Across Lake Suwa (Shinsu Suwako) is a woodblock print by the Japanese ukiyo-e artist Hokusai.",
   "description": "A View of Mount Fuji Across Lake Suwa (Shinsu Suwako) is a woodblock print by the Japanese ukiyo-e artist Hokusai.\n\nIt was produced as one of the Thirty-six Views of Mount Fuji series which was published from c. 1830 to 1832 in the late Edo period.\n\nThe image depicts Lake Suwa from above with Mount Fuji barely visible in the distance. Centered in the foreground atop a hill is a hut, possibly a shrine, overshadowed by two large trees. To the left a boat heads towards a village nestled in dense vegetation, possibly Shiwo Suwa. Presently well inland, Takashima Castle is depicted on a promontory just below Fuji.\n\nThe original print is rendered in blue tones (aizuri-e) so the scene appears to be set just before dawn. All later impressions introduce various colours. The blue sky on the horizon is replaced with an orange tone which shifts the time forward to the morning or early evening. Fuji and many of the trees are rendered in shades of green. The timber of the hut and some branches are picked out in yellow tones.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f1eddc",
+      "name": "linen"
+    },
+    {
+      "hex": "#2e4965",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#d5d4c9",
+      "name": "bone white"
+    },
+    {
+      "hex": "#839197",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a3b2b4",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#5f6c76",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -44,7 +70,48 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Brooklyn_Museum_-_A_View_of_Mount_Fuji_across_Lake_Suwa_Lake_Suwa_in_Shinano_Province_%28Shinsu_Suwako%29_-_Katsushika_Hokusai.jpg/1280px-Brooklyn_Museum_-_A_View_of_Mount_Fuji_across_Lake_Suwa_Lake_Suwa_in_Shinano_Province_%28Shinsu_Suwako%29_-_Katsushika_Hokusai.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Brooklyn_Museum_-_A_View_of_Mount_Fuji_across_Lake_Suwa_Lake_Suwa_in_Shinano_Province_%28Shinsu_Suwako%29_-_Katsushika_Hokusai.jpg/500px-Brooklyn_Museum_-_A_View_of_Mount_Fuji_across_Lake_Suwa_Lake_Suwa_in_Shinano_Province_%28Shinsu_Suwako%29_-_Katsushika_Hokusai.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/33/Brooklyn_Museum_-_A_View_of_Mount_Fuji_across_Lake_Suwa_Lake_Suwa_in_Shinano_Province_%28Shinsu_Suwako%29_-_Katsushika_Hokusai.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_A_View_of_Mount_Fuji_across_Lake_Suwa_Lake_Suwa_in_Shinano_Province_(Shinsu_Suwako)_-_Katsushika_Hokusai.jpg",
+      "caption": "Part of the series Thirty-six Views of Mount Fuji , no. 44 , 8 th additional woodcut.",
+      "source": "Wikimedia Commons",
+      "artist": "Katsushika Hokusai",
+      "date": "between 1829 and 1833 date QS:P571,+1850-00-00T00:00:00Z/7,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "877"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Lake_Suwa_in_the_Shinano_province.jpg/1280px-Lake_Suwa_in_the_Shinano_province.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Lake_Suwa_in_the_Shinano_province.jpg/500px-Lake_Suwa_in_the_Shinano_province.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Lake_Suwa_in_the_Shinano_province.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Suwa_in_the_Shinano_province.jpg",
+      "caption": "Part of the series Thirty-six Views of Mount Fuji , no. 44 , 8 th additional woodcut.",
+      "source": "Wikimedia Commons",
+      "artist": "Katsushika Hokusai",
+      "date": "First publication: circa 1830 date QS:P571,+1830-00-00T00:00",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b3974542-b9b4-7568-fc4b-966738f61d78/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b3974542-b9b4-7568-fc4b-966738f61d78/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b3974542-b9b4-7568-fc4b-966738f61d78/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/24645",
+      "caption": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series \"Thirty-Six Views of Mount Fuji (Fugaku sanjūrokkei)\", 1830/33",
+      "source": "Art Institute of Chicago",
+      "artist": "Katsushika Hokusai 葛飾 北斎 ",
+      "date": "1830/33",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "578"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — A View of Mount Fuji Across Lake Suwa",
@@ -67,7 +134,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q18173402",
+      "url": "https://www.wikidata.org/wiki/Q18173402",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:34:46.687Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — A View of Mount Fuji Across Lake Suwa",
+      "url": "https://en.wikipedia.org/wiki/A_View_of_Mount_Fuji_Across_Lake_Suwa",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:34:46.687Z"
+      }
+    }
+  ],
   "wikidata": "Q18173402",
   "wikipedia": "A View of Mount Fuji Across Lake Suwa",
   "popularity": 35,
@@ -75,5 +165,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.778Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States, Canada",
+  "geography": "United States, Canada",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Federal modernism is an architectural style which emerged in the twentieth century encompassing various styles of modern architecture used in the design of federal buildings in the United States.",
   "description": "Federal modernism is an architectural style which emerged in the twentieth century encompassing various styles of modern architecture used in the design of federal buildings in the United States. Federal buildings in this style shunned ornamentation, focusing instead on functional efficiency and low costs. There is no universally accepted start date for federal modernism, with some early variants of modernism emerging as early as the 1920s, but the term is most often associated with the buildings built by the U.S. General Services Administration (GSA) in the 1950s through 1970s. Prominent architects associated with federal modernism include Ludwig Mies van der Rohe, Marcel Breuer, Walter Gropius, and Victor Lundy. Federal modernism has been criticized by some architects and politicians, including Donald Trump, either because they believe it lacks \"authority\" or due to a perceived lack of beauty.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#40454c",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#111114",
+      "name": "black"
+    },
+    {
+      "hex": "#27282b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#636260",
+      "name": "umber"
+    },
+    {
+      "hex": "#898683",
+      "name": "taupe"
+    },
+    {
+      "hex": "#b4aea5",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,49 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Tax_Court_by_Matthew_Bisanz.jpg/1280px-Tax_Court_by_Matthew_Bisanz.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Tax_Court_by_Matthew_Bisanz.jpg/500px-Tax_Court_by_Matthew_Bisanz.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/25/Tax_Court_by_Matthew_Bisanz.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tax_Court_by_Matthew_Bisanz.jpg",
+      "caption": "U.S. Tax Court building.",
+      "source": "Wikimedia Commons",
+      "artist": "Matthew Bisanz",
+      "date": "2012-04-19 12:56:25",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Kluczynski_Federal_Building_and_Dirksen_United_States_Courthouse%2C_Chicago%2C_Illinois_%2811045663506%29.jpg/1280px-Kluczynski_Federal_Building_and_Dirksen_United_States_Courthouse%2C_Chicago%2C_Illinois_%2811045663506%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Kluczynski_Federal_Building_and_Dirksen_United_States_Courthouse%2C_Chicago%2C_Illinois_%2811045663506%29.jpg/500px-Kluczynski_Federal_Building_and_Dirksen_United_States_Courthouse%2C_Chicago%2C_Illinois_%2811045663506%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/75/Kluczynski_Federal_Building_and_Dirksen_United_States_Courthouse%2C_Chicago%2C_Illinois_%2811045663506%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kluczynski_Federal_Building_and_Dirksen_United_States_Courthouse,_Chicago,_Illinois_(11045663506).jpg",
+      "caption": "The Everett McKinley Dirksen United States Courthouse, commonly referred to as the Dirksen Federal Building, is a skyscraper in downtown Chicago, Illinois, at 219 South Dearborn Street. It was designed by Ludwig Mies van der Rohe and completed in 1964. The building is 384 feet (1",
+      "source": "Wikimedia Commons",
+      "artist": "Ken Lund from Reno, Nevada, USA",
+      "date": "2013-11-22 20:42",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Robert_C._Weaver_Federal_Building%2C_located_at_451_Seventh_Street%2C_S.W.%2C_Washington%2C_D.C_LCCN2013634105.tif/lossy-page1-1280px-The_Robert_C._Weaver_Federal_Building%2C_located_at_451_Seventh_Street%2C_S.W.%2C_Washington%2C_D.C_LCCN2013634105.tif.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Robert_C._Weaver_Federal_Building%2C_located_at_451_Seventh_Street%2C_S.W.%2C_Washington%2C_D.C_LCCN2013634105.tif/lossy-page1-1280px-The_Robert_C._Weaver_Federal_Building%2C_located_at_451_Seventh_Street%2C_S.W.%2C_Washington%2C_D.C_LCCN2013634105.tif.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/42/The_Robert_C._Weaver_Federal_Building%2C_located_at_451_Seventh_Street%2C_S.W.%2C_Washington%2C_D.C_LCCN2013634105.tif",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Robert_C._Weaver_Federal_Building,_located_at_451_Seventh_Street,_S.W.,_Washington,_D.C_LCCN2013634105.tif",
+      "caption": "Title: The Robert C. Weaver Federal Building, located at 451 Seventh Street, S.W., Washington, D.C Physical description: 1 photograph : digital, tiff file, color. Notes: Gift; Carol M. Highsmith; 2009; (DLC/PP-2009:083).; Photographed as part of an assignment for the General Serv",
+      "source": "Wikimedia Commons",
+      "artist": "Carol M. Highsmith",
+      "date": "Taken on 29 September 2012, 12:07 (according to Exif data)",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Federal modernism",
@@ -62,7 +130,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5440545",
+      "url": "https://www.wikidata.org/wiki/Q5440545",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:09.786Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Federal modernism",
+      "url": "https://en.wikipedia.org/wiki/Federal_modernism",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:09.786Z"
+      }
+    }
+  ],
   "wikidata": "Q5440545",
   "wikipedia": "Federal modernism",
   "popularity": 35,
@@ -70,5 +161,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.258Z"
 }

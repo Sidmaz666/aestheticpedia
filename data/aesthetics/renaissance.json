@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Europe",
+  "geography": "Europe",
   "periodStart": "15th century",
   "periodEnd": "17th century",
   "startYear": 1400,
@@ -17,7 +17,33 @@
   "summary": "The Renaissance (UK:  rin-AY-sənss, US:   REN-ə-sahnss) was a European period of history and cultural movement taking place at the end of the Late Middle Ages and the beginning of the early modern era.",
   "description": "The Renaissance (UK:  rin-AY-sənss, US:   REN-ə-sahnss) was a European period of history and cultural movement taking place at the end of the Late Middle Ages and the beginning of the early modern era. It is variously defined as covering the 15th and 16th centuries or, more broadly, as lasting from the 14th century to the 17th. It was characterized by the European rediscovery and revival of the literary, philosophical, and artistic achievements of classical antiquity. Associated with great change in art, architecture, politics, literature, exploration and technology, the Renaissance was first centered in the Republic of Florence, then spread to the rest of Italy and later throughout Europe.\n\nThe Renaissance's intellectual basis was founded in its version of humanism, derived from the concept of Roman humanitas and the rediscovery of classical Greek philosophy, such as that of Protagoras, who said that \"man is the measure of all things\". Although the invention of metal movable type sped the dissemination of ideas from the later 15th century, the changes of the Renaissance were not uniform across Europe: the first traces appear in Italy as early as the late 13th century, in particular with the writings of Dante and the paintings of Giotto.\n\nAs a cultural movement, the Renaissance encompassed innovative flowering of literary Latin and an explosion of vernacular literatures, beginning with the 14th-century resurgence of learning based on classical sources, which contemporaries credited to Petrarch; the development of linear perspective and other techniques of rendering a more natural reality in painting; and gradual but widespread educational reform. It saw myriad artistic developments and contributions from such polymaths as Leonardo da Vinci and Michelangelo, who inspired the term \"Renaissance man\". In politics, the Renaissance contributed to the development of the customs and conventions of diplomacy. The period also saw revolutions in printing and navigation, as well as the introduction of modern banking and the field of accounting.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c3a06a",
+      "name": "camel"
+    },
+    {
+      "hex": "#d7d9cb",
+      "name": "bone white"
+    },
+    {
+      "hex": "#dabf8e",
+      "name": "tan"
+    },
+    {
+      "hex": "#141f12",
+      "name": "black"
+    },
+    {
+      "hex": "#896543",
+      "name": "bronze"
+    },
+    {
+      "hex": "#5a4622",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,151 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/1280px-Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/500px-Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "caption": "Vitruvian Man",
+      "source": "Wikimedia Commons",
+      "artist": "Leonardo da Vinci",
+      "date": "circa 1492 date QS:P571,+1492-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1740"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Sandro_Botticelli_-_Idealized_Portrait_of_a_Lady_%28Portrait_of_Simonetta_Vespucci_as_Nymph%29_-_Google_Art_Project.jpg/1280px-Sandro_Botticelli_-_Idealized_Portrait_of_a_Lady_%28Portrait_of_Simonetta_Vespucci_as_Nymph%29_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Sandro_Botticelli_-_Idealized_Portrait_of_a_Lady_%28Portrait_of_Simonetta_Vespucci_as_Nymph%29_-_Google_Art_Project.jpg/500px-Sandro_Botticelli_-_Idealized_Portrait_of_a_Lady_%28Portrait_of_Simonetta_Vespucci_as_Nymph%29_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sandro_Botticelli_-_Idealized_Portrait_of_a_Lady_%28Portrait_of_Simonetta_Vespucci_as_Nymph%29_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_Idealized_Portrait_of_a_Lady_(Portrait_of_Simonetta_Vespucci_as_Nymph)_-_Google_Art_Project.jpg",
+      "caption": "Idealised Portrait of a Lady (Portrait of Simonetta Vespucci as Nymph)",
+      "source": "Wikimedia Commons",
+      "artist": "Sandro Botticelli",
+      "date": "between circa 1480 and circa 1485 date QS:P,+1480-00-00T00:0",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1928"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Sunset_over_florence_1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Sunset_over_florence_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Sunset_over_florence_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sunset_over_florence_1.jpg",
+      "caption": "A view of Florence, Italy at sunset.",
+      "source": "Wikimedia Commons",
+      "artist": "Steve Hersey",
+      "date": "2008-10-06",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1006",
+      "height": "670"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Salutati.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Salutati.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Salutati.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Salutati.jpg",
+      "caption": "Immagine che ritrae Coluccio Salutati , proveniente da un codice della Biblioteca Laurenziana a Firenze,",
+      "source": "Wikimedia Commons",
+      "artist": "Apollonio di Giovanni",
+      "date": "1450",
+      "license": "Public domain",
+      "width": "796",
+      "height": "1260"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Italy_1494_AD.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Italy_1494_AD.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Italy_1494_AD.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Italy_1494_AD.png",
+      "caption": "Italy 1494 AD",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1261",
+      "height": "1805"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Tommaso_da_modena%2C_ritratti_di_domenicani_%28Ugo_di_Provenza%29_1352_150cm%2C_treviso%2C_ex_convento_di_san_niccol%C3%B2%2C_sala_del_capitolo_%28cropped%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Tommaso_da_modena%2C_ritratti_di_domenicani_%28Ugo_di_Provenza%29_1352_150cm%2C_treviso%2C_ex_convento_di_san_niccol%C3%B2%2C_sala_del_capitolo_%28cropped%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Tommaso_da_modena%2C_ritratti_di_domenicani_%28Ugo_di_Provenza%29_1352_150cm%2C_treviso%2C_ex_convento_di_san_niccol%C3%B2%2C_sala_del_capitolo_%28cropped%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tommaso_da_modena,_ritratti_di_domenicani_(Ugo_di_Provenza)_1352_150cm,_treviso,_ex_convento_di_san_niccol%C3%B2,_sala_del_capitolo_(cropped).jpg",
+      "caption": "Portrait of Cardinal Hugh of Saint-Cher (d. 1263) by Tommaso da Modena , 1352, the first known (although anachronistic) depiction of spectacles ( Ilardi, Vincent (2007) Renaissance Vision from Spectacles to Telescopes , Memoires of the American Philosophical Society, 259, America",
+      "source": "Wikimedia Commons",
+      "artist": "Tommaso da Modena",
+      "date": "1352 date QS:P571,+1352-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1274",
+      "height": "1092"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg/1280px-The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg/500px-The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b3/The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg",
+      "caption": "Obra moral que muestra el triunfo de la Muerte sobre las cosas mundanas, simbolizado a través de un gran ejército de esqueletos arrasando la Tierra. Al fondo aparece un paisaje yermo donde aún se desarrollan escenas de destrucción. En un primer plano, la Muerte al frente de sus e",
+      "source": "Wikimedia Commons",
+      "artist": "Pieter Brueghel the Elder",
+      "date": "circa 1562 date QS:P571,+1562-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "913"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Vasari-Lorenzo.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/48/Vasari-Lorenzo.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/Vasari-Lorenzo.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vasari-Lorenzo.jpg",
+      "caption": "Italian: Ritratto di Lorenzo Il Magnifico Portrait of Lorenzo de' Medici",
+      "source": "Wikimedia Commons",
+      "artist": "Giorgio Vasari",
+      "date": "between circa 1533 and circa 1534 date QS:P,+1533-00-00T00:0",
+      "license": "Public domain",
+      "width": "807",
+      "height": "1006"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Pico1.jpg/1280px-Pico1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Pico1.jpg/500px-Pico1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Pico1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pico1.jpg",
+      "caption": "Serie Gioviana. Cristofano dell'Altissimo, Ritratto di Pico della Mirandola, circa 1552-1568.)",
+      "source": "Wikimedia Commons",
+      "artist": "Cristofano dell'Altissimo",
+      "date": "15 th century date QS:P571,+1450-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1678"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Cantino_planisphere_%281502%29.jpg/1280px-Cantino_planisphere_%281502%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Cantino_planisphere_%281502%29.jpg/500px-Cantino_planisphere_%281502%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Cantino_planisphere_%281502%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cantino_planisphere_(1502).jpg",
+      "caption": "The Cantino planisphere , completed by an unknown Portuguese cartographer in 1502, is one of the most precious cartographic documents of all time. It depicts the world, as it became known to the Europeans after the great exploration voyages at the end of the fifteenth and beginni",
+      "source": "Wikimedia Commons",
+      "artist": "anonymous Portuguese (1502)",
+      "date": "1502",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "601"
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Renaissance_fr.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Renaissance fr",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Renaissance_fr.wav",
+      "source": "Wikimedia Commons",
+      "mime": "audio/wav",
+      "duration": 2,
+      "artist": "Orikrin1998",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Renaissance",
@@ -62,7 +232,41 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Renaissance",
+      "url": "https://commons.wikimedia.org/wiki/Category:Renaissance",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:26.571Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4692",
+      "url": "https://www.wikidata.org/wiki/Q4692",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:26.571Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Renaissance",
+      "url": "https://en.wikipedia.org/wiki/Renaissance",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:26.571Z"
+      }
+    }
+  ],
   "wikidata": "Q4692",
   "wikipedia": "Renaissance",
   "popularity": 35,
@@ -70,5 +274,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.086Z"
 }

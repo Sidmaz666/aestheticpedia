@@ -11,8 +11,8 @@
   "establishment": "community_subculture",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United Kingdom",
+  "geography": "United Kingdom",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -66,7 +66,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6469208",
+      "url": "https://www.wikidata.org/wiki/Q6469208",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:20.619Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Lad culture",
+      "url": "https://en.wikipedia.org/wiki/Lad_culture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:20.619Z"
+      }
+    }
+  ],
   "wikidata": "Q6469208",
   "wikipedia": "Lad culture",
   "popularity": 35,
@@ -74,5 +97,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.688Z"
 }

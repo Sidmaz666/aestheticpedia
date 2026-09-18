@@ -17,7 +17,33 @@
   "summary": "Mediterranean Revival is an architectural style that incorporates traditional design aspects from the Mediterranean region, particularly Spain, Italy, southern France, and Greece.",
   "description": "Mediterranean Revival is an architectural style that incorporates traditional design aspects from the Mediterranean region, particularly Spain, Italy, southern France, and Greece. The style includes influences from Spanish Renaissance, Spanish Colonial, Italian Renaissance, French Colonial, Beaux-Arts, Moorish, and Venetian Gothic architecture.\n\nInspired by the architectural traditions of Mediterranean countries, particularly Spain and Italy, the style gained traction in North America in the early 20th century and flourished during the 1920s and 1930s, especially in the rapidly expanding cities and coastal resorts of Florida and California. The movement also spread to neighboring countries, often through American architects, such as Cuba and Canada.\n\nStructures are generally based on a rectangular floor plan, typically one or two stories, which feature massive, symmetrical primary façades. Common characteristics include stuccoed walls, red tiled roofs, arched or circular windows, wood or wrought iron balconies with window grilles, and articulated door surrounds; keystones were occasionally employed, while ornamentation varied from simple to dramatic. The style often integrated lush gardens and landscapes through courtyards, patios, open-air doorways.\n\nMediterranean Revival was most commonly utilized for hotels, apartment buildings, commercial structures, and residences. Architects August Geiger and Addison Mizner were foremost in Florida, while Bertram Goodhue, Sumner Spaulding, and Paul Williams were in California.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#86a4cc",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#e7e8e7",
+      "name": "paper white"
+    },
+    {
+      "hex": "#a89c8f",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#c0c9d5",
+      "name": "silver"
+    },
+    {
+      "hex": "#465139",
+      "name": "graphite"
+    },
+    {
+      "hex": "#746d6a",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Breakers_CIMG0089.JPG/1280px-Breakers_CIMG0089.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Breakers_CIMG0089.JPG/500px-Breakers_CIMG0089.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/da/Breakers_CIMG0089.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Breakers_CIMG0089.JPG",
+      "caption": "Photo by Nick Juhasz of the Breakers Hotel .",
+      "source": "Wikimedia Commons",
+      "artist": "Nick22aku at English Wikipedia",
+      "date": "28 February 2007 (original upload date)",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Pasadena_City_Hall.jpg/1280px-Pasadena_City_Hall.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Pasadena_City_Hall.jpg/500px-Pasadena_City_Hall.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Pasadena_City_Hall.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pasadena_City_Hall.jpg",
+      "caption": "Pasadena City Hall — at the Pasadena Civic Center in California.",
+      "source": "Wikimedia Commons",
+      "artist": "PMHauge at English Wikipedia",
+      "date": "22 October 2005 (original upload date)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1563"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/The_Wolfsonian%E2%80%94FIU.jpg/1280px-The_Wolfsonian%E2%80%94FIU.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/The_Wolfsonian%E2%80%94FIU.jpg/500px-The_Wolfsonian%E2%80%94FIU.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/69/The_Wolfsonian%E2%80%94FIU.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Wolfsonian%E2%80%94FIU.jpg",
+      "caption": "The Wolfsonian–FIU, founded by Mitchell \"Micky\" Wolfson, Jr., was originally built in 1927 by Robertson & Patterson to house the Washington Storage Company. The Mediterranean Revival building is on the corner of 10th Street and Washington Avenue and has been a beacon of culture i",
+      "source": "Wikimedia Commons",
+      "artist": "Dcurator",
+      "date": "2019-08-29 09:39:40",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1074"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Mediterranean Revival architecture",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7937337",
+      "url": "https://www.wikidata.org/wiki/Q7937337",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:18.390Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Mediterranean Revival architecture",
+      "url": "https://en.wikipedia.org/wiki/Mediterranean_Revival_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:54:18.390Z"
+      }
+    }
+  ],
   "wikidata": "Q7937337",
   "wikipedia": "Mediterranean Revival architecture",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:54:18.390Z"
 }

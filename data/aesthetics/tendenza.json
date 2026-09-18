@@ -20,7 +20,33 @@
   "summary": "La Tendenza (translated as a „trend\") was a movement of Italian neo-rationalism young architects in 1960s to 1970s.",
   "description": "La Tendenza (translated as a „trend\") was a movement of Italian neo-rationalism young architects in 1960s to 1970s. It was made of Carlo Aymonino, Giorgio Grassi or Aldo Rossi. It arose in reaction to the burgeoning Modernism and Functionalism of pre and post-war Italy. The architects began to explore the question of memory and the glory of the Italian past, integrating their motifs in their works as physical presence and poetic content. They endeavored to expose the weaknesses of modernism, such as their critique of the modernist urbanism. Opposed to that, they recognized the social and cultural significance of the established urban fabric, the importance of historical forms and elements as a resource.\n\nThe work of architectural historian Manfredo Tafuri influenced the movement, and the University Iuav of Venice emerged as a center of the Tendenza after Tafuri became chair of Architecture History in 1968. A Tendenza exhibition was organized for the 1973 Milan Triennale.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#899fbe",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#494748",
+      "name": "graphite"
+    },
+    {
+      "hex": "#5e6467",
+      "name": "graphite 2"
+    },
+    {
+      "hex": "#ac634a",
+      "name": "terracotta"
+    },
+    {
+      "hex": "#6f87a8",
+      "name": "slate"
+    },
+    {
+      "hex": "#8f7a71",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Mojiko_Hotel.jpg/1280px-Mojiko_Hotel.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Mojiko_Hotel.jpg/500px-Mojiko_Hotel.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/74/Mojiko_Hotel.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mojiko_Hotel.jpg",
+      "caption": "Mojiko Hotel, at Kitakyûsyû Fukuoka Japan, design by Aldo Rossi in 1998.",
+      "source": "Wikimedia Commons",
+      "artist": "Wiiii",
+      "date": "2008-11-21",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1024"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Tendenza",
@@ -65,7 +106,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6141506",
+      "url": "https://www.wikidata.org/wiki/Q6141506",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:18.180Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Tendenza",
+      "url": "https://en.wikipedia.org/wiki/Tendenza",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:18.180Z"
+      }
+    }
+  ],
   "wikidata": "Q6141506",
   "wikipedia": "Tendenza",
   "popularity": 35,
@@ -73,5 +137,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:08:18.180Z"
 }

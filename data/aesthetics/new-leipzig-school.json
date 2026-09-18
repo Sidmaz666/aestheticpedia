@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Germany, Leipzig",
+  "geography": "Germany, Leipzig",
   "periodStart": "1990s",
   "periodEnd": "",
   "startYear": 1990,
@@ -17,7 +17,33 @@
   "summary": "The New Leipzig School (German: Neue Leipziger Schule) is a movement in German painting, centred in the city of Leipzig after the German reunification.",
   "description": "The New Leipzig School (German: Neue Leipziger Schule) is a movement in German painting, centred in the city of Leipzig after the German reunification. The usage and origins of this term are debated.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#897d61",
+      "name": "moss"
+    },
+    {
+      "hex": "#95907d",
+      "name": "stone"
+    },
+    {
+      "hex": "#b1a78f",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#716650",
+      "name": "umber"
+    },
+    {
+      "hex": "#95723d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b49568",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Liberec-OGL-Rauch-Loy-4.jpg/1280px-Liberec-OGL-Rauch-Loy-4.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Liberec-OGL-Rauch-Loy-4.jpg/500px-Liberec-OGL-Rauch-Loy-4.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/38/Liberec-OGL-Rauch-Loy-4.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Liberec-OGL-Rauch-Loy-4.jpg",
+      "caption": "Regionalgalerie Liberec: Sonderausstellung \"Verwobene Sphären\" - Rosa Loy und Neo Rauch (Okt. 2024 bis Jan. 2025)",
+      "source": "Wikimedia Commons",
+      "artist": "SchiDD",
+      "date": "2024-10-16 11:39:43",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "1810"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — New Leipzig School",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q878864",
+      "url": "https://www.wikidata.org/wiki/Q878864",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:23.071Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — New Leipzig School",
+      "url": "https://en.wikipedia.org/wiki/New_Leipzig_School",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:57:23.071Z"
+      }
+    }
+  ],
   "wikidata": "Q878864",
   "wikipedia": "New Leipzig School",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.857Z"
 }

@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "1950s",
   "periodEnd": "",
   "startYear": 1958,
@@ -17,7 +17,33 @@
   "summary": "Off-off-Broadway theaters are smaller New York City theaters than Broadway and off-Broadway theaters, and usually have fewer than 100 seats.",
   "description": "Off-off-Broadway theaters are smaller New York City theaters than Broadway and off-Broadway theaters, and usually have fewer than 100 seats. The off-off-Broadway movement began in 1958 as part of a response to perceived commercialism of the professional theatre scene and as an experimental or avant-garde movement of drama and theatre. Over time, some off-off-Broadway productions have moved away from the movement's early experimental spirit.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c0ab8e",
+      "name": "khaki"
+    },
+    {
+      "hex": "#645e55",
+      "name": "umber"
+    },
+    {
+      "hex": "#af9173",
+      "name": "camel"
+    },
+    {
+      "hex": "#94755a",
+      "name": "bronze"
+    },
+    {
+      "hex": "#d1bfa5",
+      "name": "beige"
+    },
+    {
+      "hex": "#282826",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/The_Tank_exterior%2C_September_2018.jpg/1280px-The_Tank_exterior%2C_September_2018.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/The_Tank_exterior%2C_September_2018.jpg/500px-The_Tank_exterior%2C_September_2018.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bb/The_Tank_exterior%2C_September_2018.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Tank_exterior,_September_2018.jpg",
+      "caption": "Exterior of the Off-Off-Broadway theater The Tank , looking south from across 36th Street.",
+      "source": "Wikimedia Commons",
+      "artist": "Collin Knopp-Schwyn",
+      "date": "16 September 2018 (according to Exif data)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Off-off-Broadway",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2501058",
+      "url": "https://www.wikidata.org/wiki/Q2501058",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:22.243Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Off-off-Broadway",
+      "url": "https://en.wikipedia.org/wiki/Off-off-Broadway",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:58:22.243Z"
+      }
+    }
+  ],
   "wikidata": "Q2501058",
   "wikipedia": "Off-off-Broadway",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:33.868Z"
 }

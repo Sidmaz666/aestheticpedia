@@ -19,7 +19,25 @@
   "summary": "Angel chimes are a form of Christmas decoration popular in Europe and North America.",
   "description": "Angel chimes are a form of Christmas decoration popular in Europe and North America. They apparently have the same origins as the Christmas pyramid, which functions on the same principle. They differ from these, primarily, in being mass-produced from metal and might have bell-ringing angels, whereas Christmas pyramids are usually crafted from wood and do not necessarily have bells.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#090707",
+      "name": "black"
+    },
+    {
+      "hex": "#592910",
+      "name": "sepia"
+    },
+    {
+      "hex": "#7b441d",
+      "name": "sepia 2"
+    },
+    {
+      "hex": "#9e602a",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +59,48 @@
   "tags": [
     "ornament"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Angel_chimes.jpg/1280px-Angel_chimes.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Angel_chimes.jpg/500px-Angel_chimes.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Angel_chimes.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Angel_chimes.jpg",
+      "caption": "Angel chimes.",
+      "source": "Wikimedia Commons",
+      "artist": "Ojan",
+      "date": "2008-12-31",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Glowing%2C_Chiming_Angel_Chimes.jpg/1280px-Glowing%2C_Chiming_Angel_Chimes.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Glowing%2C_Chiming_Angel_Chimes.jpg/500px-Glowing%2C_Chiming_Angel_Chimes.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/db/Glowing%2C_Chiming_Angel_Chimes.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Glowing,_Chiming_Angel_Chimes.jpg",
+      "caption": "Glowing, Chiming Angel Chimes",
+      "source": "Wikimedia Commons",
+      "artist": "HistoryRespect",
+      "date": "2020-07-16",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1600"
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/WWS_Angelchimes.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "WWS Angelchimes",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:WWS_Angelchimes.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 175,
+      "artist": "Work With Sounds / Torsten Nilsson",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Angel chimes",
@@ -64,7 +123,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3365923",
+      "url": "https://www.wikidata.org/wiki/Q3365923",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:20.303Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Angel chimes",
+      "url": "https://en.wikipedia.org/wiki/Angel_chimes",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:35:20.303Z"
+      }
+    }
+  ],
   "wikidata": "Q3365923",
   "wikipedia": "Angel chimes",
   "popularity": 35,
@@ -72,5 +154,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:35:20.303Z"
 }

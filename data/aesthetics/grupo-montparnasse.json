@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Chile",
+  "geography": "Chile",
   "periodStart": "1920s",
   "periodEnd": "",
   "startYear": 1920,
@@ -17,7 +17,33 @@
   "summary": "The Grupo Montparnasse was an organization of Chilean artists who had joined the gathering of great artists in the Montparnasse Quarter of Paris, France, in the early part of the 20th century.",
   "description": "The Grupo Montparnasse was an organization of Chilean artists who had joined the gathering of great artists in the Montparnasse Quarter of Paris, France, in the early part of the 20th century. Founding members, Luis Vargas Rosas and Camilo Mori among others, exhibit in the Salon d'Automne of 1920 in Paris where they meet Juan Gris, Pablo Picasso and other artists experimenting in the new trends of the time like cubism and expressionism. The group's first exhibition was organized by Luis Vargas Rosas in Santiago in 1923. Their first exhibition was marked by postimpressionist influences, notably the works of Paul Cézanne. Their \"Salón de Junio\" in 1925 saw a new generation of young painters join the group. Just as their comrades in Paris had, these creative men and women challenged the norms in Chilean painting, profoundly shaping a new world of art in their country.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#4a5699",
+      "name": "cerulean"
+    },
+    {
+      "hex": "#d09483",
+      "name": "camel"
+    },
+    {
+      "hex": "#35645b",
+      "name": "graphite"
+    },
+    {
+      "hex": "#b57f76",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#8c7077",
+      "name": "taupe"
+    },
+    {
+      "hex": "#66606e",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/La_danse_%28I%29_by_Matisse.jpg/1280px-La_danse_%28I%29_by_Matisse.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/La_danse_%28I%29_by_Matisse.jpg/500px-La_danse_%28I%29_by_Matisse.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2e/La_danse_%28I%29_by_Matisse.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:La_danse_(I)_by_Matisse.jpg",
+      "caption": "​Henri Matisse, La danse (first version) 1909, oil on canvas, 8' 6 1/2\" x 12' 9 1/2\" (259.7 x 390.1 cm)",
+      "source": "Wikimedia Commons",
+      "artist": "Henri Matisse （存活時間：1954）",
+      "date": "1909",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "849"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Grupo Montparnasse",
@@ -62,7 +102,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3118237",
+      "url": "https://www.wikidata.org/wiki/Q3118237",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:06.257Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Grupo Montparnasse",
+      "url": "https://en.wikipedia.org/wiki/Grupo_Montparnasse",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:06.257Z"
+      }
+    }
+  ],
   "wikidata": "Q3118237",
   "wikipedia": "Grupo Montparnasse",
   "popularity": 35,
@@ -70,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.850Z"
 }

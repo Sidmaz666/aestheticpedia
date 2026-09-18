@@ -17,7 +17,33 @@
   "summary": "Kakiniit (Inuktitut: ᑲᑭᓐᓃᑦ [kɐ.ki.niːt]; sing.",
   "description": "Kakiniit (Inuktitut: ᑲᑭᓐᓃᑦ [kɐ.ki.niːt]; sing. kakiniq, ᑲᑭᓐᓂᖅ) are the traditional tattoos of the Inuit of the North American Arctic. The practice is done almost exclusively among women, with women exclusively tattooing other women with the tattoos for various purposes. Men could also receive tattoos but these were often much less extensive than the tattoos a woman would receive. Facial tattoos are individually referred to as tunniit (ᑐᓃᑦ), and would mark an individual's transition to womanhood. The individual tattoos bear unique meaning to Inuit women, with each individual tattoo carrying symbolic meaning. However, in Inuinnaqtun, kakiniq refers to facial tattoos.\n\nHistorically, the practice was done for aesthetic, medicinal purposes, part of the Inuit religion, and to ensure the individual access to the afterlife. Despite persecution by Christian missionaries during the 20th century, the practice has seen a modern revival by organizations such as the Inuit Tattoo Revitalization Project. Many Inuit women wear the tattoos as a source of pride in their Inuit culture.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#4d413b",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#756155",
+      "name": "umber"
+    },
+    {
+      "hex": "#2b2624",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#a6735e",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#e0ab93",
+      "name": "blush"
+    },
+    {
+      "hex": "#c18e78",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,49 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_of_an_Inuit_woman%2C_1945%2C_by_Henry_Busse.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_of_an_Inuit_woman%2C_1945%2C_by_Henry_Busse.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_of_an_Inuit_woman%2C_1945%2C_by_Henry_Busse.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_an_Inuit_woman,_1945,_by_Henry_Busse.png",
+      "caption": "This image is available from the NWT archives under the reference number N-1979-052: 1008",
+      "source": "Wikimedia Commons",
+      "artist": "Henry Busse",
+      "date": "1903",
+      "license": "Public domain",
+      "width": "645",
+      "height": "710"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Milukkattuk_%2836951%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/65/Milukkattuk_%2836951%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/65/Milukkattuk_%2836951%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Milukkattuk_(36951).jpg",
+      "caption": "Milukkattuk, Dolphin and Union Strait Inuk woman, wife of Avrunna (36926), front view with hood down, arm and hand extended showing tattooed hand, Bernard Harbour, N.W.T. (Nunavut).",
+      "source": "Wikimedia Commons",
+      "artist": "Diamond Jenness",
+      "date": "July 1916 date QS:P571,+1916-07-00T00:00:00Z/10",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1024",
+      "height": "607"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Alethea_Arnaquq-Baril_in_Toronto.jpg/1280px-Alethea_Arnaquq-Baril_in_Toronto.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Alethea_Arnaquq-Baril_in_Toronto.jpg/500px-Alethea_Arnaquq-Baril_in_Toronto.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Alethea_Arnaquq-Baril_in_Toronto.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Alethea_Arnaquq-Baril_in_Toronto.jpg",
+      "caption": "Profile picture of Alethea Arnaquq-Baril, Inuit filmmaker",
+      "source": "Wikimedia Commons",
+      "artist": "Aarnaquq",
+      "date": "Taken on 5 June 2018, 12:02:53",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1597"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Kakiniit",
@@ -62,7 +130,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q111953123",
+      "url": "https://www.wikidata.org/wiki/Q111953123",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:24.241Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Kakiniit",
+      "url": "https://en.wikipedia.org/wiki/Kakiniit",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:24.241Z"
+      }
+    }
+  ],
   "wikidata": "Q111953123",
   "wikipedia": "Kakiniit",
   "popularity": 35,
@@ -70,5 +161,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:51:24.241Z"
 }

@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q550484",
+      "url": "https://www.wikidata.org/wiki/Q550484",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:01.760Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Video installation",
+      "url": "https://en.wikipedia.org/wiki/Video_installation",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:01.760Z"
+      }
+    }
+  ],
   "wikidata": "Q550484",
   "wikipedia": "Video installation",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:11:01.760Z"
 }

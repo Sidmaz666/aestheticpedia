@@ -17,7 +17,33 @@
   "summary": "Heisei retro (Japanese: 平成レトロ) is a Japanese retro commercial aesthetic, fashion style and subculture surrounding nostalgia for certain aspects of the Heisei era.",
   "description": "Heisei retro (Japanese: 平成レトロ) is a Japanese retro commercial aesthetic, fashion style and subculture surrounding nostalgia for certain aspects of the Heisei era. Heisei retro is rooted in 1990s and 2000s nostalgia and primarily appeals to Millennials and Generation Z. It is closely linked with the Y2K aesthetic and with Gyaru culture.\n\nThe aesthetic is heavily associated with retro technology such as flip phones and digital cameras, toys such as the Tamagotchi, kawaii mascot characters and stationery items that feature them.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bfbcb6",
+      "name": "silver"
+    },
+    {
+      "hex": "#cb9b29",
+      "name": "gold"
+    },
+    {
+      "hex": "#b37d21",
+      "name": "copper"
+    },
+    {
+      "hex": "#72674b",
+      "name": "bronze"
+    },
+    {
+      "hex": "#aca28f",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#928165",
+      "name": "moss"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Gele_tamagotchi%2C_objectnr_78041.JPG/1280px-Gele_tamagotchi%2C_objectnr_78041.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Gele_tamagotchi%2C_objectnr_78041.JPG/500px-Gele_tamagotchi%2C_objectnr_78041.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Gele_tamagotchi%2C_objectnr_78041.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gele_tamagotchi,_objectnr_78041.JPG",
+      "caption": "Objectgegevens Titel: Gele tamagotchi Beschrijving: Geel, eivormig speelgoed aan metalen kettinkje, met knoopbatterijen binnenin. Trefwoorden: tamagotchi, speelgoed, ontspanningsmiddel Opschrift / merk: Voorzijde: \"Tamagotchi\". Achterzijde: \"Bandai 1997 Thailand\". Binnenzijde: \"8",
+      "source": "Wikimedia Commons",
+      "artist": "Museum Rotterdam",
+      "date": "1997",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1011"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Heisei retro",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q140365606",
+      "url": "https://www.wikidata.org/wiki/Q140365606",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:24.701Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Heisei retro",
+      "url": "https://en.wikipedia.org/wiki/Heisei_retro",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:24.701Z"
+      }
+    }
+  ],
   "wikidata": "Q140365606",
   "wikipedia": "Heisei retro",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:48:24.701Z"
 }

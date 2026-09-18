@@ -17,7 +17,21 @@
   "summary": "Trois crayons (French: [tʁwɑ kʁɛjɔ̃]; French for 'three pencils') is a drawing technique using three colors of chalk: red (sanguine), black (charcoal or black stone), and white.",
   "description": "Trois crayons (French: [tʁwɑ kʁɛjɔ̃]; French for 'three pencils') is a drawing technique using three colors of chalk: red (sanguine), black (charcoal or black stone), and white. The paper used may be a mid-tone such as grey, blue, or tan. Among numerous others, French painters Antoine Watteau and François Boucher drew studies of figures and drapery aux trois crayons. The technique was, most notably, pioneered and popularised by the Flemish master Peter Paul Rubens.\n\nAux deux crayons uses only two colors, frequently black and white, as seen in many of Pierre-Paul Prud'hon's drawings.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b9a07e",
+      "name": "camel"
+    },
+    {
+      "hex": "#9b7e61",
+      "name": "moss"
+    },
+    {
+      "hex": "#836a50",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +53,116 @@
   "tags": [
     "painting technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Watteau_jeune_fille.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/92/Watteau_jeune_fille.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/92/Watteau_jeune_fille.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Watteau_jeune_fille.jpg",
+      "caption": "trois crayons drawing of young girl",
+      "source": "Wikimedia Commons",
+      "artist": "Jean-Antoine Watteau",
+      "license": "Public domain",
+      "width": "598",
+      "height": "440"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Watteau_trois_crayons.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/07/Watteau_trois_crayons.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/07/Watteau_trois_crayons.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Watteau_trois_crayons.jpg",
+      "caption": "Two Seated Women",
+      "source": "Wikimedia Commons",
+      "artist": "Jean-Antoine Watteau",
+      "date": "between 1716 and 1717 date QS:P571,+1716-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "803",
+      "height": "1049"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Peter_Paul_Rubens_-_Portrait_of_Isabella_Brant_%28British_Museum_1482535001%29.jpg/1280px-Peter_Paul_Rubens_-_Portrait_of_Isabella_Brant_%28British_Museum_1482535001%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Peter_Paul_Rubens_-_Portrait_of_Isabella_Brant_%28British_Museum_1482535001%29.jpg/500px-Peter_Paul_Rubens_-_Portrait_of_Isabella_Brant_%28British_Museum_1482535001%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/01/Peter_Paul_Rubens_-_Portrait_of_Isabella_Brant_%28British_Museum_1482535001%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_Portrait_of_Isabella_Brant_(British_Museum_1482535001).jpg",
+      "caption": "Portrait of Isabella Brant",
+      "source": "Wikimedia Commons",
+      "artist": "Peter Paul Rubens",
+      "date": "circa 1621 date QS:P571,+1621-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1667"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b0fa4234-a3a4-8db1-60e6-55b6fb046fac/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b0fa4234-a3a4-8db1-60e6-55b6fb046fac/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b0fa4234-a3a4-8db1-60e6-55b6fb046fac/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/93",
+      "caption": "Geese in a Farmyard, c. 1871",
+      "source": "Art Institute of Chicago",
+      "artist": "Jean François Millet",
+      "date": "c. 1871",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "636"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/8769be30-7bda-37f2-16a8-30e5396d47dc/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/8769be30-7bda-37f2-16a8-30e5396d47dc/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/8769be30-7bda-37f2-16a8-30e5396d47dc/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/150773",
+      "caption": "Seated Woman with a Parasol (study for La Grande Jatte), 1884/85",
+      "source": "Art Institute of Chicago",
+      "artist": "Georges Seurat",
+      "date": "1884/85",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1269"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/d5ebfc97-c87c-b3ae-816f-5c8b519a082c/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/d5ebfc97-c87c-b3ae-816f-5c8b519a082c/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/d5ebfc97-c87c-b3ae-816f-5c8b519a082c/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/154022",
+      "caption": "Trees (study for La Grande Jatte), 1884",
+      "source": "Art Institute of Chicago",
+      "artist": "Georges Seurat",
+      "date": "1884",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1096"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/ddd3cb67-98d9-417b-96c2-ea7a7ccfd2cf/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/ddd3cb67-98d9-417b-96c2-ea7a7ccfd2cf/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/ddd3cb67-98d9-417b-96c2-ea7a7ccfd2cf/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/28826",
+      "caption": "Sleepy Nicolle, c. 1900",
+      "source": "Art Institute of Chicago",
+      "artist": "Mary Cassatt",
+      "date": "c. 1900",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1032"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/c3c84efc-647f-c393-f988-27d94cdbd7cb/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/c3c84efc-647f-c393-f988-27d94cdbd7cb/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/c3c84efc-647f-c393-f988-27d94cdbd7cb/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/35692",
+      "caption": "Boy with a Carrot, 1738",
+      "source": "Art Institute of Chicago",
+      "artist": "François Boucher",
+      "date": "1738",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1083"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Trois crayons",
@@ -62,7 +185,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7845071",
+      "url": "https://www.wikidata.org/wiki/Q7845071",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:24.374Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Trois crayons",
+      "url": "https://en.wikipedia.org/wiki/Trois_crayons",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:24.374Z"
+      }
+    }
+  ],
   "wikidata": "Q7845071",
   "wikipedia": "Trois crayons",
   "popularity": 35,
@@ -70,5 +216,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:09:24.374Z"
 }

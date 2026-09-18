@@ -20,7 +20,33 @@
   "summary": "The art of the Upper Paleolithic represents the oldest form of prehistoric art.",
   "description": "The art of the Upper Paleolithic represents the oldest form of prehistoric art. Figurative art is present in Europe and Southeast Asia, beginning around 50,000 years ago. European Upper Paleolithic art is known informally as \"Ice Age art\", in reference to the last glacial period.\n\nNon-figurative cave paintings, consisting of hand stencils and simple geometric shapes, are somewhat older, and possibly as old as 64,000 years. This latter estimate is due to a controversial 2018 study based on uranium-thorium dating, which would imply Neanderthal authorship and qualify as art of the Middle Paleolithic.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5b3228",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#975632",
+      "name": "brick"
+    },
+    {
+      "hex": "#a8a998",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#040201",
+      "name": "black"
+    },
+    {
+      "hex": "#c2c7c7",
+      "name": "silver"
+    },
+    {
+      "hex": "#be874c",
+      "name": "raw sienna"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,104 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Lions_painting%2C_Chauvet_Cave_%28museum_replica%29.jpg/1280px-Lions_painting%2C_Chauvet_Cave_%28museum_replica%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Lions_painting%2C_Chauvet_Cave_%28museum_replica%29.jpg/500px-Lions_painting%2C_Chauvet_Cave_%28museum_replica%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Lions_painting%2C_Chauvet_Cave_%28museum_replica%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lions_painting,_Chauvet_Cave_(museum_replica).jpg",
+      "caption": "Lions painted in the Chauvet Cave (Ardèche, France). This is a replica of the painting from the Brno museum Anthropos (Czech Republic). The absence of the mane sometimes leads to these paintings being described as portraits of lionesses.",
+      "source": "Wikimedia Commons",
+      "artist": "HTO",
+      "date": "2009-06-12",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1093"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Venus_of_Willendorf_frontview_retouched_2.jpg/1280px-Venus_of_Willendorf_frontview_retouched_2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Venus_of_Willendorf_frontview_retouched_2.jpg/500px-Venus_of_Willendorf_frontview_retouched_2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/19/Venus_of_Willendorf_frontview_retouched_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Venus_of_Willendorf_frontview_retouched_2.jpg",
+      "caption": "Venus of Willendorf http://www.nhm-wien.ac.at/NHM/Prehist/Homepage_PA_E.html",
+      "source": "Wikimedia Commons",
+      "artist": "User:MatthiasKabel",
+      "date": "2007-01-14",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "2105"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/9_Bisonte_Magdaleniense_pol%C3%ADcromo.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8b/9_Bisonte_Magdaleniense_pol%C3%ADcromo.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/9_Bisonte_Magdaleniense_pol%C3%ADcromo.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:9_Bisonte_Magdaleniense_pol%C3%ADcromo.jpg",
+      "caption": "Bison Magdalenian polychrome",
+      "source": "Wikimedia Commons",
+      "artist": "Museo de Altamira y D. Rodríguez",
+      "date": "2010-11-15 18:55:23",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1181",
+      "height": "789"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Hands_in_Pettakere_Cave.jpg/1280px-Hands_in_Pettakere_Cave.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Hands_in_Pettakere_Cave.jpg/500px-Hands_in_Pettakere_Cave.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Hands_in_Pettakere_Cave.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hands_in_Pettakere_Cave.jpg",
+      "caption": "Hand prints in Pettakere Cave at Leang-Leang Prehistoric Site, Maros.",
+      "source": "Wikimedia Commons",
+      "artist": "Cahyo",
+      "date": "2014-02-14 10:54:41",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Bradshaw_rock_paintings.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/43/Bradshaw_rock_paintings.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/43/Bradshaw_rock_paintings.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bradshaw_rock_paintings.jpg",
+      "caption": "Gwion Gwion rock paintings in the Kimberley region of Western Australia, taken at a site off Kalumburu Road near the King Edward River .",
+      "source": "Wikimedia Commons",
+      "artist": "TimJN1",
+      "date": "2009-06-09 11:35",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1024",
+      "height": "683"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Stone_Age_Animal_Carving%2C_Hayonim_Cave%2C_28000_BP.jpg/1280px-Stone_Age_Animal_Carving%2C_Hayonim_Cave%2C_28000_BP.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Stone_Age_Animal_Carving%2C_Hayonim_Cave%2C_28000_BP.jpg/500px-Stone_Age_Animal_Carving%2C_Hayonim_Cave%2C_28000_BP.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Stone_Age_Animal_Carving%2C_Hayonim_Cave%2C_28000_BP.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Stone_Age_Animal_Carving,_Hayonim_Cave,_28000_BP.jpg",
+      "caption": "Stone Age Animal Carving, Hayonim Cave, 28000 BP Israel Museum, Jerusalem, Israel. Complete indexed photo collection at WorldHistoryPics.com.",
+      "source": "Wikimedia Commons",
+      "artist": "Gary Todd",
+      "date": "2018-07-05 15:20:03",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "736"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Apollo-11_stone_slab.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Apollo-11_stone_slab.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Apollo-11_stone_slab.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Apollo-11_stone_slab.jpg",
+      "caption": "Artist impression of a zoomorphic pictogram on stone slab from the MSA of Apollo 11 Cave , Namibia",
+      "source": "Wikimedia Commons",
+      "artist": "José-Manuel Benito Álvarez —&gt; Locutus Borg Reference: *Bednarik, Robert G. (2003), The earliest evidence of Paleoart artículo en PDF in Rock Art Research, Vo",
+      "date": "2006-05-14",
+      "license": "Public domain",
+      "width": "489",
+      "height": "378"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Art of the Upper Paleolithic",
@@ -65,7 +188,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q755548",
+      "url": "https://www.wikidata.org/wiki/Q755548",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:59.079Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Art of the Upper Paleolithic",
+      "url": "https://en.wikipedia.org/wiki/Art_of_the_Upper_Paleolithic",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:36:59.079Z"
+      }
+    }
+  ],
   "wikidata": "Q755548",
   "wikipedia": "Art of the Upper Paleolithic",
   "popularity": 35,
@@ -73,5 +219,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:36:59.079Z"
 }

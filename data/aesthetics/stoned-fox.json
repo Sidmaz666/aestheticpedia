@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Russia",
+  "geography": "Russia",
   "periodStart": "2010s",
   "periodEnd": "",
   "startYear": 2012,
@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16710155",
+      "url": "https://www.wikidata.org/wiki/Q16710155",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:10.601Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Stoned Fox",
+      "url": "https://en.wikipedia.org/wiki/Stoned_Fox",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:10.601Z"
+      }
+    }
+  ],
   "wikidata": "Q16710155",
   "wikipedia": "Stoned Fox",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:02.193Z"
 }

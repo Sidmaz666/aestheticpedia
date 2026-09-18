@@ -17,7 +17,33 @@
   "summary": "A stone sculpture is an object made of stone which has been shaped, usually by carving, or assembled to form a visually interesting three-dimensional shape.",
   "description": "A stone sculpture is an object made of stone which has been shaped, usually by carving, or assembled to form a visually interesting three-dimensional shape.  Stone is more durable than most alternative materials, making it especially important in architectural sculpture on the outside of buildings.\n\nStone carving includes a number of techniques where pieces of rough natural stone are shaped by the controlled removal of stone. Owing to the permanence of the material, evidence can be found that even the earliest societies indulged in some form of stonework, though not all areas of the world have such abundance of good stone for carving as Egypt, Persia(Iran), Greece, Central America, India and most of Europe.  Often, as in Indian sculpture, stone is the only material in which ancient monumental sculpture has survived (along with smaller terracottas), although there was almost certainly more wooden sculpture created at the time.\n\nPetroglyphs (also called rock engravings) are perhaps the earliest form: images created by removing part of a rock surface which remains in situ, by incising, pecking, carving, and abrading. Rock reliefs, carved into \"living\" rock, are a more advanced stage of this.  Monumental sculpture covers large works, and architectural sculpture, which is attached to buildings. Historically, much of these types were painted, usually after a thin coat of plaster was applied.  Hardstone carving is the carving for artistic purposes of semi-precious stones such as jade, agate, onyx, rock crystal, sard or carnelian, and a general term for an object made in this way. Alabaster or mineral gypsum is a soft mineral that is easy to carve for smaller works and still relatively durable.  Engraved gems are small carved gems, including cameos, originally used as seal rings.\n\nCarving stone into sculpture is an activity older than civilization itself, beginning perhaps with incised images on cave walls. Prehistoric sculptures were usually human forms, such as the Venus of Willendorf and the faceless statues of the Cycladic cultures of ancient Greece. Later cultures devised animal, human-animal and abstract forms in stone. The earliest cultures used abrasive techniques, and modern technology employs pneumatic hammers and other devices. But for most of human history, sculptors used a hammer and chisel as the basic tools for carving stone.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#050404",
+      "name": "black"
+    },
+    {
+      "hex": "#696145",
+      "name": "umber"
+    },
+    {
+      "hex": "#d9dfe3",
+      "name": "bone white"
+    },
+    {
+      "hex": "#433a29",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#b0b3b6",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#8a8681",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,145 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/AhuTongariki.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/50/AhuTongariki.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/50/AhuTongariki.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:AhuTongariki.JPG",
+      "caption": "Photo taken by Ian Sewell, July, 2006. Ahu Tongariki on Easter Island. These moai were restored in the 1990's by a Japanese research team after a cyclone knocked them over in the 1960's.",
+      "source": "Wikimedia Commons",
+      "artist": "Ian Sewell",
+      "date": "2006-07-18 11:47",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/VenusWillendorf.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d1/VenusWillendorf.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d1/VenusWillendorf.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:VenusWillendorf.jpg",
+      "caption": "Venus of Willendorf",
+      "source": "Wikimedia Commons",
+      "artist": "Photo taken by de:Benutzer:Plp at the Naturhistorisches Museum Wien",
+      "date": "2004",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "640",
+      "height": "640"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Dying_gaul.jpg/1280px-Dying_gaul.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Dying_gaul.jpg/500px-Dying_gaul.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Dying_gaul.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dying_gaul.jpg",
+      "caption": "The Dying Gaul, or The Capitoline Gaul, a Roman marble copy of a Hellenistic work of the late 3rd century BCE Capitoline Museums, Rome",
+      "source": "Wikimedia Commons",
+      "artist": "antmoose",
+      "date": "2005-06-04",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1041"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Relief%2C_late_19th_century_Limestone.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/91/Relief%2C_late_19th_century_Limestone.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/91/Relief%2C_late_19th_century_Limestone.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Relief,_late_19th_century_Limestone.jpg",
+      "caption": "Relief, late 19th century. Limestone, 14 13/16 x 10 3/8 in. (37.6 x 26.3 cm). Brooklyn Museum, Charles Edwin Wilbour Fund, 08.480.223.",
+      "source": "Wikimedia Commons",
+      "artist": "Late 19th century",
+      "date": "Late 19th century",
+      "license": "No restrictions",
+      "width": "1099",
+      "height": "1536"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/World_Trade_Center%2C_New_York._Exterior._Single_tower_with_Cloud_Fortress_and_Sphere_at_Plaza_Fountain_sculptures_-_LCCN2021636622_%28cropped%29.jpg/1280px-World_Trade_Center%2C_New_York._Exterior._Single_tower_with_Cloud_Fortress_and_Sphere_at_Plaza_Fountain_sculptures_-_LCCN2021636622_%28cropped%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/World_Trade_Center%2C_New_York._Exterior._Single_tower_with_Cloud_Fortress_and_Sphere_at_Plaza_Fountain_sculptures_-_LCCN2021636622_%28cropped%29.jpg/500px-World_Trade_Center%2C_New_York._Exterior._Single_tower_with_Cloud_Fortress_and_Sphere_at_Plaza_Fountain_sculptures_-_LCCN2021636622_%28cropped%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/49/World_Trade_Center%2C_New_York._Exterior._Single_tower_with_Cloud_Fortress_and_Sphere_at_Plaza_Fountain_sculptures_-_LCCN2021636622_%28cropped%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:World_Trade_Center,_New_York._Exterior._Single_tower_with_Cloud_Fortress_and_Sphere_at_Plaza_Fountain_sculptures_-_LCCN2021636622_(cropped).jpg",
+      "caption": "Title: [World Trade Center, New York, New York. Exterior. Single tower with Cloud Fortress and Sphere at Plaza Fountain sculptures] Creator(s): Korab, Balthazar, photographer Related Names: Nagare, Masayuki, 1923-2018 , sculptor Koenig, Fritz, 1924-2017 , sculptor Date Created/Pu",
+      "source": "Wikimedia Commons",
+      "artist": "Balthazar Korab",
+      "date": "1976",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "761"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Unakoti_group_of_bas-relief_sculptures%2C_Tripura%2C_India.jpg/1280px-Unakoti_group_of_bas-relief_sculptures%2C_Tripura%2C_India.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Unakoti_group_of_bas-relief_sculptures%2C_Tripura%2C_India.jpg/500px-Unakoti_group_of_bas-relief_sculptures%2C_Tripura%2C_India.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/72/Unakoti_group_of_bas-relief_sculptures%2C_Tripura%2C_India.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Unakoti_group_of_bas-relief_sculptures,_Tripura,_India.jpg",
+      "caption": "11th century rock cut,bas-relief sculptures dedicated to Lord Shiva",
+      "source": "Wikimedia Commons",
+      "artist": "Leeloa",
+      "date": "2008-07-14",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Dry_stone_globe.jpg/1280px-Dry_stone_globe.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Dry_stone_globe.jpg/500px-Dry_stone_globe.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Dry_stone_globe.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dry_stone_globe.jpg",
+      "caption": "Dry stone sculpture in the boundary wall of the Fountain Inn, Parkend, Forest of Dean.",
+      "source": "Wikimedia Commons",
+      "artist": "Obscurasky",
+      "date": "2017-08-09",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1032"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Statue%2C_Egyptian_Museum%2C_al-Q%C4%81hirah%2C_CG%2C_EGY_%2847908985571%29.jpg/1280px-Statue%2C_Egyptian_Museum%2C_al-Q%C4%81hirah%2C_CG%2C_EGY_%2847908985571%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Statue%2C_Egyptian_Museum%2C_al-Q%C4%81hirah%2C_CG%2C_EGY_%2847908985571%29.jpg/500px-Statue%2C_Egyptian_Museum%2C_al-Q%C4%81hirah%2C_CG%2C_EGY_%2847908985571%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Statue%2C_Egyptian_Museum%2C_al-Q%C4%81hirah%2C_CG%2C_EGY_%2847908985571%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Statue,_Egyptian_Museum,_al-Q%C4%81hirah,_CG,_EGY_(47908985571).jpg",
+      "caption": "Cairo (al-Qahira), capital of Egypt",
+      "source": "Wikimedia Commons",
+      "artist": "Warren LeMay from Cincinnati, OH, United States",
+      "date": "2019-05-12 13:10",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Mallet_%26_pitch.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/83/Mallet_%26_pitch.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/83/Mallet_%26_pitch.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mallet_%26_pitch.jpg",
+      "caption": "Two stonemason's mallets and pitch chisel",
+      "source": "Wikimedia Commons",
+      "artist": "Carptrash ( talk )",
+      "date": "12 August 2009 (original upload date)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1000",
+      "height": "750"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Roughed_out.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/42/Roughed_out.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/42/Roughed_out.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Roughed_out.jpg",
+      "caption": "roughed out stone sculptures ; an early stage",
+      "source": "Wikimedia Commons",
+      "artist": "Carptrash ( talk )",
+      "date": "12 August 2009 (original upload date)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1000",
+      "height": "750"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Stone sculpture",
@@ -62,7 +226,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q12573007",
+      "url": "https://www.wikidata.org/wiki/Q12573007",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:10.576Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Stone sculpture",
+      "url": "https://en.wikipedia.org/wiki/Stone_sculpture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:10.576Z"
+      }
+    }
+  ],
   "wikidata": "Q12573007",
   "wikipedia": "Stone sculpture",
   "popularity": 35,
@@ -70,5 +257,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:07:10.576Z"
 }

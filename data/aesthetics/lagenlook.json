@@ -19,7 +19,33 @@
   "summary": "Lagenlook is a style of layered clothing based on various new romantic and boho-chic influences, primarily but not exclusively worn by women.",
   "description": "Lagenlook is a style of layered clothing based on various new romantic and boho-chic influences, primarily but not exclusively worn by women. It is an unadapted borrowing, or loanword, from German, and means \"layered look\". It was particularly popular in the early 2010s, but has been a style of note since at least the 1960s. Although it displays clear gothic fashion influences, it is not considered a gothic style. German media and cultural historian Ricarda Strobel classifies it as a look of the German 1990s. The style was also echoed in a photographic exhibition in Austria in 2020 by Romana Hagyo and Silke Maier-Gamauf, \"Abrieb und Lagenlook.\" University of Seigen professor of media and culture studies Maren Lickhardt noted it in the Spring/Summer 2022 Dolce & Gabbana runway show, echoing Y2K fashion. Two fashion journalists, Gudrun Allstädt and Elke Dieterich, cited a return of Lagenlook in 2017 in the German clothing magazine Textilwirtschaft, an industry publication similar to Women's Wear Daily.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fefefe",
+      "name": "ivory"
+    },
+    {
+      "hex": "#bda285",
+      "name": "sand"
+    },
+    {
+      "hex": "#dac6ae",
+      "name": "beige"
+    },
+    {
+      "hex": "#957456",
+      "name": "bronze"
+    },
+    {
+      "hex": "#7b5739",
+      "name": "umber"
+    },
+    {
+      "hex": "#773b1d",
+      "name": "sepia"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,35 @@
   "tags": [
     "fashion style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Valentino_evening_gown_for_Audrey_Hepburn.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Valentino_evening_gown_for_Audrey_Hepburn.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Valentino_evening_gown_for_Audrey_Hepburn.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Valentino_evening_gown_for_Audrey_Hepburn.jpg",
+      "caption": "Dress made by Valentino, worn by Audrey Hepburn. Photographed at the exhibition \"Valentino a Roma\" at Museo Ara Pacis in Rome",
+      "source": "Wikimedia Commons",
+      "artist": "Loquax",
+      "date": "2008-08",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "670",
+      "height": "1763"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BathingSuit1920s.jpg",
+      "caption": "Woman's bathing suit from 1920s. Photo postcard. No copyright notice on card. This is a SOL postcard, series 2832. Here is a larger example of the posted image.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "early 1920s date QS:P,+1920-00-00T00:00:00Z/8,P4241,Q4071972",
+      "license": "Public domain",
+      "width": "768",
+      "height": "490"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Lagenlook",
@@ -64,7 +118,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q130299300",
+      "url": "https://www.wikidata.org/wiki/Q130299300",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:21.394Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Lagenlook",
+      "url": "https://en.wikipedia.org/wiki/Lagenlook",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:21.394Z"
+      }
+    }
+  ],
   "wikidata": "Q130299300",
   "wikipedia": "Lagenlook",
   "popularity": 35,
@@ -72,5 +149,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:52:21.394Z"
 }

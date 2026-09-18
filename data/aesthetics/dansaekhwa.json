@@ -10,8 +10,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "South Korea",
+  "geography": "South Korea",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -20,7 +20,33 @@
   "summary": "Dansaekhwa (Korean: 단색화, hanja 單色畵, also known as Tansaekhwa), often translated as \"monochrome painting\" from Korean, is a retroactive term grouping together disparate artworks that were exhibited in South Korea beginning in the mid 1970s.",
   "description": "Dansaekhwa (Korean: 단색화, hanja 單色畵, also known as Tansaekhwa), often translated as \"monochrome painting\" from Korean, is a retroactive term grouping together disparate artworks that were exhibited in South Korea beginning in the mid 1970s. While the wide range of artists whose work critics and art historians consider to fall under this category are often exhibited together, they were never part of an official artistic movement nor produced a manifesto. Nonetheless, their artistic practices are seen to share \"a commitment to thinking more intensively about the constituent elements of mark, line, frame, surface and space around which they understood the medium of painting.\" Their interests compose a diverse set of formal concerns that cannot be reduced to a preference for limited color palettes.\n\nDansaekhwa ignited a series of debates on how to define and understand not only Dansaekhwa, but contemporary Korean art as a whole. It was at the center of discussions in Korea during the latter half of the 20th century on how to narrativize a history of Korean abstract art connected to, but distinct from the rest of the world. Promoted in Seoul, Tokyo, and Paris, Dansaekhwa grew to be the international face of contemporary Korean art and a cornerstone of contemporary Asian art.\n\nArtists associated with Dansaekhwa include Cho Yong-ik, Choi Myoung Young, Choi Byung-so, Chung Chang-sup, Chung Sang-Hwa, Ha Chong Hyun, Hur Hwang, Kim Guiline, Kim Tschang-yeul, Kwon Young-woo, Lee Dong-Youb, Lee Kang-so, Lee Seung-jio, Lee Ufan, Park Kwang-Jin, Park Seo-Bo, Suh Seung-Won, and Yun Hyong-keun.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f4f0e5",
+      "name": "paper white"
+    },
+    {
+      "hex": "#ded3bc",
+      "name": "bone white"
+    },
+    {
+      "hex": "#393d3d",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#1a1c1d",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#5f5f54",
+      "name": "umber"
+    },
+    {
+      "hex": "#7d7b71",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,36 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Park_Seo-Bo_working_on_a_piece_of_his_Ecriture_at_his_Hapjeong-dong_studio_in_1977.jpg/1280px-Park_Seo-Bo_working_on_a_piece_of_his_Ecriture_at_his_Hapjeong-dong_studio_in_1977.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Park_Seo-Bo_working_on_a_piece_of_his_Ecriture_at_his_Hapjeong-dong_studio_in_1977.jpg/500px-Park_Seo-Bo_working_on_a_piece_of_his_Ecriture_at_his_Hapjeong-dong_studio_in_1977.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Park_Seo-Bo_working_on_a_piece_of_his_Ecriture_at_his_Hapjeong-dong_studio_in_1977.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Park_Seo-Bo_working_on_a_piece_of_his_Ecriture_at_his_Hapjeong-dong_studio_in_1977.jpg",
+      "caption": "Park Seo-Bo is working on a piece of his Ecriture on a huge size of canvas with a pencil in his Hapjeong-dong studio in 1977 in Seoul, South Korea. That thing he is sitting on is a work bench he converted an aluminum stepladder into.",
+      "source": "Wikimedia Commons",
+      "artist": "선의의 바람",
+      "date": "2019-07-20",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "903"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Choi_Myoung_Young.jpg/1280px-Choi_Myoung_Young.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Choi_Myoung_Young.jpg/500px-Choi_Myoung_Young.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Choi_Myoung_Young.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Choi_Myoung_Young.jpg",
+      "caption": "Myoung Young Choi, the monochrome artist of the Conditional Planes series",
+      "source": "Wikimedia Commons",
+      "artist": "Tpg.2022",
+      "date": "2019-06-21",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "854"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Dansaekhwa",
@@ -65,7 +120,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q24988307",
+      "url": "https://www.wikidata.org/wiki/Q24988307",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:03.536Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Dansaekhwa",
+      "url": "https://en.wikipedia.org/wiki/Dansaekhwa",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:43:03.536Z"
+      }
+    }
+  ],
   "wikidata": "Q24988307",
   "wikipedia": "Dansaekhwa",
   "popularity": 35,
@@ -73,5 +151,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:05.509Z"
 }

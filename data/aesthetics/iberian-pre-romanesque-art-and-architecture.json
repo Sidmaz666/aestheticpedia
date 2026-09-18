@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Portugal, Spain, Iberian Peninsula",
+  "geography": "Portugal, Spain, Iberian Peninsula",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,29 @@
   "summary": "The pre-Romanesque art and architecture of the Iberian Peninsula (in Spanish, arte prerrománico; in Portuguese, arte pré-românica) refers to the art of Spain and Portugal after the Classical Age and before Romanesque art and architecture; hence the term Pre-Romanesque.",
   "description": "The pre-Romanesque art and architecture of the Iberian Peninsula (in Spanish, arte prerrománico; in Portuguese, arte pré-românica) refers to the art of Spain and Portugal after the Classical Age and before Romanesque art and architecture; hence the term Pre-Romanesque.\n\nVisigothic art, the art of the Visigoths to 711, is usually classified as Migration Period art by art historians to emphasis its Germanic connections and origins; but can also classified as Pre-Romanesque, particularly in Spain, to emphasis its lineage in Spanish history.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#9e815d",
+      "name": "moss"
+    },
+    {
+      "hex": "#150e0e",
+      "name": "black"
+    },
+    {
+      "hex": "#836c54",
+      "name": "bronze"
+    },
+    {
+      "hex": "#3d3532",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#5f4f44",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +61,62 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Santa_Maria_del_Naranco.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/62/Santa_Maria_del_Naranco.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/62/Santa_Maria_del_Naranco.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Santa_Maria_del_Naranco.jpg",
+      "caption": "Santa Maria del Naranco",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "616",
+      "height": "1025"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/49d41a22-43a4-5dd5-0922-cb8161fe26e3/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/49d41a22-43a4-5dd5-0922-cb8161fe26e3/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/49d41a22-43a4-5dd5-0922-cb8161fe26e3/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/12681",
+      "caption": "Casket, 13th century",
+      "source": "Art Institute of Chicago",
+      "artist": "German",
+      "date": "13th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "684"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/ea8c5d62-6ce8-88e8-feb1-e0053cf534c5/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/ea8c5d62-6ce8-88e8-feb1-e0053cf534c5/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/ea8c5d62-6ce8-88e8-feb1-e0053cf534c5/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/75644",
+      "caption": "Coronation Stone of Moctezuma Xocoyotzin, c. 1503",
+      "source": "Art Institute of Chicago",
+      "artist": "Maker unknown (Mexica, Aztec)",
+      "date": "c. 1503",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1088"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/9",
+      "caption": "Interior of St. Mark's, Venice, 1869",
+      "source": "Art Institute of Chicago",
+      "artist": "David Dalhoff Neal (American, 1838–1915)",
+      "date": "1869",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "979"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Iberian pre-Romanesque art and architecture",
@@ -62,7 +139,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q17068145",
+      "url": "https://www.wikidata.org/wiki/Q17068145",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:23.005Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Iberian pre-Romanesque art and architecture",
+      "url": "https://en.wikipedia.org/wiki/Iberian_pre-Romanesque_art_and_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:23.005Z"
+      }
+    }
+  ],
   "wikidata": "Q17068145",
   "wikipedia": "Iberian pre-Romanesque art and architecture",
   "popularity": 35,
@@ -70,5 +170,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.869Z"
 }

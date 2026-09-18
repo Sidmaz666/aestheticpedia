@@ -17,7 +17,33 @@
   "summary": "Storybook architecture or fairytale architecture is a style popularized in the 1920s in England and the United States.",
   "description": "Storybook architecture or fairytale architecture is a style popularized in the 1920s in England and the United States. Houses built in this style are often referred to as storybook houses.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#53442e",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#776d4e",
+      "name": "bronze"
+    },
+    {
+      "hex": "#1e1b14",
+      "name": "black"
+    },
+    {
+      "hex": "#ac9862",
+      "name": "camel"
+    },
+    {
+      "hex": "#9fa6c3",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#a7c9f3",
+      "name": "sky blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,62 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/9c/Spadena_Witch_House.jpg/1280px-Spadena_Witch_House.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/9c/Spadena_Witch_House.jpg/500px-Spadena_Witch_House.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/en/9/9c/Spadena_Witch_House.jpg",
+      "pageUrl": "https://en.wikipedia.org/wiki/File:Spadena_Witch_House.jpg",
+      "caption": "The Spadena House in Beverly Hills, CA, after renovation",
+      "source": "Wikimedia Commons",
+      "artist": "Kafziel Complaint Department: Please take a number",
+      "date": "01:11, 14 March 2011 (UTC)",
+      "license": "CC-BY-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "width": "1280",
+      "height": "1446"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Carmel-by-the-Sea%2C_Monterey%2C_California_LCCN2013630533.tif/lossy-page1-1280px-Carmel-by-the-Sea%2C_Monterey%2C_California_LCCN2013630533.tif.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Carmel-by-the-Sea%2C_Monterey%2C_California_LCCN2013630533.tif/lossy-page1-1280px-Carmel-by-the-Sea%2C_Monterey%2C_California_LCCN2013630533.tif.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Carmel-by-the-Sea%2C_Monterey%2C_California_LCCN2013630533.tif",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Carmel-by-the-Sea,_Monterey,_California_LCCN2013630533.tif",
+      "caption": "Title: Carmel-by-the-Sea, Monterey, California Physical description: 1 photograph : digital, tiff file, color. Notes: Title, date, and keywords provided by the photographer.; Credit line: The Jon B. Lovelace Collection of California Photographs in Carol M. Highsmith's America Pro",
+      "source": "Wikimedia Commons",
+      "artist": "Carol M. Highsmith",
+      "date": "Taken on 11 June 2012, 22:22 (according to Exif data)",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1434"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/%D0%94%D0%BE%D0%BC-%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/20/%D0%94%D0%BE%D0%BC-%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/20/%D0%94%D0%BE%D0%BC-%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%94%D0%BE%D0%BC-%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0.jpg",
+      "caption": "\"Дом-Сказка\". Доходный дом золотопромышленника Петра Колцова",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "1915",
+      "license": "Public domain",
+      "width": "538",
+      "height": "400"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Original_b1fbfc33-3316-40f0-b536-8c387b04c37d_20230511_112154.jpg/1280px-Original_b1fbfc33-3316-40f0-b536-8c387b04c37d_20230511_112154.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Original_b1fbfc33-3316-40f0-b536-8c387b04c37d_20230511_112154.jpg/500px-Original_b1fbfc33-3316-40f0-b536-8c387b04c37d_20230511_112154.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Original_b1fbfc33-3316-40f0-b536-8c387b04c37d_20230511_112154.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Original_b1fbfc33-3316-40f0-b536-8c387b04c37d_20230511_112154.jpg",
+      "caption": "Storybook house example located in Streator, IL - Known as Weber House and Garden",
+      "source": "Wikimedia Commons",
+      "artist": "Wphelan82",
+      "date": "2023-05-11 11:21:54",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Storybook architecture",
@@ -62,7 +143,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7620445",
+      "url": "https://www.wikidata.org/wiki/Q7620445",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:11.500Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Storybook architecture",
+      "url": "https://en.wikipedia.org/wiki/Storybook_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:07:11.500Z"
+      }
+    }
+  ],
   "wikidata": "Q7620445",
   "wikipedia": "Storybook architecture",
   "popularity": 35,
@@ -70,5 +174,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:07:11.500Z"
 }

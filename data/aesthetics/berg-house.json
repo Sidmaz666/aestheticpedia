@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Germany",
+  "geography": "Germany",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Berg house (German: Bergisches Haus, also Bergischer Dreiklang or Bergische Bauweise) is a type of timber framed house that is widespread in the German region of Bergisches Land.",
   "description": "The Berg house (German: Bergisches Haus, also Bergischer Dreiklang or Bergische Bauweise) is a type of timber framed house that is widespread in the German region of Bergisches Land. Typical of its timber framed post construction are the green window shutters (Schlagläden in the local dialect), white door lintels and window frames combined with black frame work and white plaster infill, as well as grey-black slate façades and/or rubble stone plinth. A stone staircase often leads to the front door.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#817c73",
+      "name": "taupe"
+    },
+    {
+      "hex": "#75afea",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#4b453d",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#d3d9e2",
+      "name": "bone white"
+    },
+    {
+      "hex": "#615a55",
+      "name": "umber"
+    },
+    {
+      "hex": "#322d25",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Deutsches_Roentgenmuseum.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/28/Deutsches_Roentgenmuseum.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/Deutsches_Roentgenmuseum.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Deutsches_Roentgenmuseum.jpg",
+      "caption": "Deutsches Roentgenmuseum",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1001",
+      "height": "667"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Odenthal_Altenbergerdomstr_Bergische_Metzgerei.jpg/1280px-Odenthal_Altenbergerdomstr_Bergische_Metzgerei.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Odenthal_Altenbergerdomstr_Bergische_Metzgerei.jpg/500px-Odenthal_Altenbergerdomstr_Bergische_Metzgerei.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/Odenthal_Altenbergerdomstr_Bergische_Metzgerei.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Odenthal_Altenbergerdomstr_Bergische_Metzgerei.jpg",
+      "caption": "Odenthal, Altenberger Domstraße im Ortskern. Bergisches Haus mit Metzgerei.",
+      "source": "Wikimedia Commons",
+      "artist": "A.Savin",
+      "date": "2012-04-16",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "890"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Berg house",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q819854",
+      "url": "https://www.wikidata.org/wiki/Q819854",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:03.214Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Berg house",
+      "url": "https://en.wikipedia.org/wiki/Berg_house",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:03.214Z"
+      }
+    }
+  ],
   "wikidata": "Q819854",
   "wikipedia": "Berg house",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:00.931Z"
 }

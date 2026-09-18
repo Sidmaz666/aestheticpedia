@@ -331,7 +331,14 @@ export function AestheticArticle({
         </section>
 
         {rest.length > 0 || hero ? (
-          <Section id="gallery" eyebrow="Visual record" title="Gallery" intro="Freely licensed photographs, scans and artworks. Select an image for full size, credits and license.">
+          <Section
+            id="gallery"
+            eyebrow="Visual record"
+            title="Gallery"
+            intro={`Freely licensed photographs, scans and artworks${
+              a.wikipedia && a.wikipedia.toLowerCase() !== a.name.toLowerCase() ? ` from the encyclopedia article on “${a.wikipedia}”` : ''
+            }. Select an image for full size, credits and license.`}
+          >
             <Gallery images={a.images} name={a.name} colors={a.colors} />
           </Section>
         ) : null}

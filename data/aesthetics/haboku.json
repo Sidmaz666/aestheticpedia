@@ -17,7 +17,33 @@
   "summary": "Haboku (破墨) and Hatsuboku (溌墨) are both painting techniques employed in suiboku (ink-wash painting) in China and Japan, as seen in landscape paintings, involving an abstract simplification of forms and freedom of brushwork.",
   "description": "Haboku (破墨) and Hatsuboku (溌墨) are both painting techniques employed in suiboku (ink-wash painting) in China and Japan, as seen in landscape paintings, involving an abstract simplification of forms and freedom of brushwork. The two terms are often confused with each other in ordinary use. Generally, haboku relies on a layered contrast black, gray and white, whereas hatsuboku utilizes \"splashes\" of ink, without leaving clear contours or outlines. The style apparently started in the Tang dynasty China with the painter Wang Qia (王洽, fl. 785–805, also known as Wang Mo), but none of his paintings remains. According to Zhu Jingxuan:Whenever he wanted to paint a picture, Wang Mo would first drink wine, and when he was sufficiently drunk, would splash the ink onto the painting surface. Then, laughing and singing all the while, he would stamp on it with his feet and smear it with his hands, besides swashing and sweeping it with the brush. The ink would be thin in some places, rich in others; he would follow the shapes which brush and ink had produced, making these into mountains, rocks, clouds and mists, wash in wind and rain, with the suddenness of Creation. It was exactly like the cunning of a deity; when one examined the painting after it was finished he could see no traces of the puddles of ink.During the Song dynasty, some landscapes of Mu Qi's paintings on the Xiao and Xiang rivers exhibit many of its characteristics, and were highly praised in Japan. It was with Yu Jian (玉澗) in China when we have the first paintings in the style, for example Evening Market. In Japan, these styles of painting were spread by the Japanese painter Sesshū Tōyō. Later, the Kano school of painting also made many paintings in this style.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c1ab83",
+      "name": "sand"
+    },
+    {
+      "hex": "#495976",
+      "name": "graphite"
+    },
+    {
+      "hex": "#997d5b",
+      "name": "moss"
+    },
+    {
+      "hex": "#593e3a",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#080507",
+      "name": "black"
+    },
+    {
+      "hex": "#c0c5bb",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,59 @@
   "tags": [
     "painting technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Sesshu_-_Haboku-Sansui.jpg/1280px-Sesshu_-_Haboku-Sansui.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Sesshu_-_Haboku-Sansui.jpg/500px-Sesshu_-_Haboku-Sansui.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/Sesshu_-_Haboku-Sansui.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sesshu_-_Haboku-Sansui.jpg",
+      "caption": "Haboku-Sansui , splashed-ink style landscape",
+      "source": "Wikimedia Commons",
+      "artist": "Sesshū Tōyō",
+      "date": "1495 date QS:P571,+1495-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1979"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Hatsuboku_landscape_by_Sesso_%28British_Museum%29.jpg/1280px-Hatsuboku_landscape_by_Sesso_%28British_Museum%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Hatsuboku_landscape_by_Sesso_%28British_Museum%29.jpg/500px-Hatsuboku_landscape_by_Sesso_%28British_Museum%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/93/Hatsuboku_landscape_by_Sesso_%28British_Museum%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hatsuboku_landscape_by_Sesso_(British_Museum).jpg",
+      "caption": "Hatsuboku landscape by Sesso (often thought to be Sesshu), British Museum",
+      "source": "Wikimedia Commons",
+      "artist": "Sesso (?=Sesshu?)",
+      "date": "C15",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "2760"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/The_Great_Wave_off_Kanagawa-cutout.png/1280px-The_Great_Wave_off_Kanagawa-cutout.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/The_Great_Wave_off_Kanagawa-cutout.png/500px-The_Great_Wave_off_Kanagawa-cutout.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/The_Great_Wave_off_Kanagawa-cutout.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Great_Wave_off_Kanagawa-cutout.png",
+      "caption": "Although it is often used in tsunami literature, there is no reason to suspect that Hokusai intended it to be interpreted in that way. The waves in this work are sometimes mistakenly referred to as tsunami (津波), but they are more accurately called okinami (沖波), great off-shore wa",
+      "source": "Wikimedia Commons",
+      "artist": "Hokusai",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1195"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vincent_Willem_van_Gogh_107.jpg",
+      "caption": "\"Van Gogh painted this self-portrait in the winter of 1887–1888, when he had been living in Paris for nearly two years. Since his arrival in the city he had devoted much study to the dotted Pointillist technique, thereby learning how he might apply it in his own fashion. His use ",
+      "source": "Wikimedia Commons",
+      "artist": "Vincent van Gogh",
+      "date": "Winter 1887–1888",
+      "license": "Public domain",
+      "width": "1256",
+      "height": "1539"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Haboku",
@@ -62,7 +140,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3125403",
+      "url": "https://www.wikidata.org/wiki/Q3125403",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:10.058Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Haboku",
+      "url": "https://en.wikipedia.org/wiki/Haboku",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:48:10.058Z"
+      }
+    }
+  ],
   "wikidata": "Q3125403",
   "wikipedia": "Haboku",
   "popularity": 35,
@@ -70,5 +171,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:48:10.058Z"
 }

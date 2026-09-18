@@ -11,8 +11,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Australia",
+  "geography": "Australia",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -43,7 +43,64 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/de7d5700-4efc-ae3b-0e32-614df31d5cbc/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/de7d5700-4efc-ae3b-0e32-614df31d5cbc/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/de7d5700-4efc-ae3b-0e32-614df31d5cbc/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/242",
+      "caption": "Amphora (Storage Jar), 4th century BCE",
+      "source": "Art Institute of Chicago",
+      "artist": "Faliscan; Latium, Italy",
+      "date": "4th century BCE",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1124"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/e72305c9-1a1c-8a36-7450-582619366338/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/e72305c9-1a1c-8a36-7450-582619366338/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/e72305c9-1a1c-8a36-7450-582619366338/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/138",
+      "caption": "Flower Girl in Holland, 1887",
+      "source": "Art Institute of Chicago",
+      "artist": "George Hitchcock",
+      "date": "1887",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "445"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/2bc4d353-e61a-7589-8585-2000a23689bb/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2bc4d353-e61a-7589-8585-2000a23689bb/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2bc4d353-e61a-7589-8585-2000a23689bb/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/186047",
+      "caption": "Sideboard, Designed 1867, made c. 1876",
+      "source": "Art Institute of Chicago",
+      "artist": "Designed by Edward William Godwin (English, 1833-1886)",
+      "date": "Designed 1867, made c. 1876",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "602"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/074c1b1b-fe92-01ce-9e62-cc99369142dd/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/074c1b1b-fe92-01ce-9e62-cc99369142dd/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/074c1b1b-fe92-01ce-9e62-cc99369142dd/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/4749",
+      "caption": "Mrs. George Swinton (Elizabeth Ebsworth), 1897",
+      "source": "Art Institute of Chicago",
+      "artist": "John Singer Sargent (American, 1856–1925)",
+      "date": "1897",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1587"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Women's Art Movement",
@@ -66,7 +123,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q110705435",
+      "url": "https://www.wikidata.org/wiki/Q110705435",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:01.638Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Women's Art Movement",
+      "url": "https://en.wikipedia.org/wiki/Women's_Art_Movement",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:12:01.638Z"
+      }
+    }
+  ],
   "wikidata": "Q110705435",
   "wikipedia": "Women's Art Movement",
   "popularity": 35,
@@ -74,5 +154,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:06.021Z"
 }

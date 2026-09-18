@@ -39,7 +39,20 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Wz%C3%B3r_ornamentu_-_groteska.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Wz%C3%B3r_ornamentu_-_groteska.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Wz%C3%B3r_ornamentu_-_groteska.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Wz%C3%B3r_ornamentu_-_groteska.jpg",
+      "caption": "Wzór ornamentu - groteska piórko, bistr na podkładzie ołówkowym, podmalowania niebieską akwarelą",
+      "source": "Wikimedia Commons",
+      "artist": "Hans Vredeman de Vries",
+      "license": "Public domain",
+      "width": "570",
+      "height": "776"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Moresque",
@@ -62,7 +75,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q17141173",
+      "url": "https://www.wikidata.org/wiki/Q17141173",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:01.405Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Moresque",
+      "url": "https://en.wikipedia.org/wiki/Moresque",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:01.405Z"
+      }
+    }
+  ],
   "wikidata": "Q17141173",
   "wikipedia": "Moresque",
   "popularity": 35,
@@ -70,5 +106,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:56:01.405Z"
 }

@@ -39,7 +39,31 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Lunch_at_Le_Grand_Lamps.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Lunch_at_Le_Grand_Lamps.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Lunch_at_Le_Grand_Lamps.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lunch_at_Le_Grand_Lamps.jpg",
+      "caption": "Lunch at Le Grand Lamps",
+      "source": "Wikimedia Commons",
+      "width": "692",
+      "height": "600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Madame_Vuillard_Cousant_%281895%29_by_Edouard_Vuillard.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Madame_Vuillard_Cousant_%281895%29_by_Edouard_Vuillard.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Madame_Vuillard_Cousant_%281895%29_by_Edouard_Vuillard.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Madame_Vuillard_Cousant_(1895)_by_Edouard_Vuillard.jpg",
+      "caption": "\"Madame Vuillard Cousant,\" 1895 painting by French artist Edouard Vuillard.",
+      "source": "Wikimedia Commons",
+      "artist": "Edouard Vuillard",
+      "date": "1895",
+      "license": "Public domain",
+      "width": "563",
+      "height": "600"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Intimism (art movement)",
@@ -62,7 +86,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q674718",
+      "url": "https://www.wikidata.org/wiki/Q674718",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:16.957Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Intimism (art movement)",
+      "url": "https://en.wikipedia.org/wiki/Intimism_(art_movement)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:16.957Z"
+      }
+    }
+  ],
   "wikidata": "Q674718",
   "wikipedia": "Intimism (art movement)",
   "popularity": 35,
@@ -70,5 +117,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:50:16.957Z"
 }

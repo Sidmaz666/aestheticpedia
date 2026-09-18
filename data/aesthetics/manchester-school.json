@@ -17,7 +17,25 @@
   "summary": "The \"Manchester School\" was a number of playwrights from Manchester, England, who were active in the early 20th century.",
   "description": "The \"Manchester School\" was a number of playwrights from Manchester, England, who were active in the early 20th century.  The leading figures in the group were Harold Brighouse, Stanley Houghton and Allan Monkhouse.  They were championed by Annie Horniman, owner of the Gaiety Theatre, Manchester.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1c1d1b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#523f2a",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#89734e",
+      "name": "bronze"
+    },
+    {
+      "hex": "#6f5837",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +57,21 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/1280px-William_Shakespeare_by_John_Taylor%2C_edited.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/500px-William_Shakespeare_by_John_Taylor%2C_edited.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:William_Shakespeare_by_John_Taylor,_edited.jpg",
+      "caption": "Portrait of William Shakespeare (1564-1646)",
+      "source": "Wikimedia Commons",
+      "artist": "Attributed to John Taylor",
+      "date": "1648",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1631"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Manchester School (writers)",
@@ -62,7 +94,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q6747499",
+      "url": "https://www.wikidata.org/wiki/Q6747499",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:26.538Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Manchester School (writers)",
+      "url": "https://en.wikipedia.org/wiki/Manchester_School_(writers)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:26.538Z"
+      }
+    }
+  ],
   "wikidata": "Q6747499",
   "wikipedia": "Manchester School (writers)",
   "popularity": 35,
@@ -70,5 +125,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:53:26.538Z"
 }

@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Seljuk Empire",
+  "geography": "Seljuk Empire",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -19,7 +19,33 @@
   "summary": "Characterized by lusterware and mina'i techniques, Seljuk pottery was able to accelerate in production, which made way for new designs, motifs, and patterns to emerge.",
   "description": "Characterized by lusterware and mina'i techniques, Seljuk pottery was able to accelerate in production, which made way for new designs, motifs, and patterns to emerge.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#787771",
+      "name": "slate"
+    },
+    {
+      "hex": "#515352",
+      "name": "graphite"
+    },
+    {
+      "hex": "#908c81",
+      "name": "stone"
+    },
+    {
+      "hex": "#aca699",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#bdbeba",
+      "name": "silver"
+    },
+    {
+      "hex": "#4d4132",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,143 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Luster_Bowl_with_Winged_Horse.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/24/Luster_Bowl_with_Winged_Horse.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/24/Luster_Bowl_with_Winged_Horse.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Luster_Bowl_with_Winged_Horse.jpg",
+      "caption": "Late 12th century. Made in Iran. Stonepaste; luster-painted on opaque monochrome glaze. H. 3 1/4 in (8.3 cm), Diam. 8 in. (20.3 cm).",
+      "source": "Wikimedia Commons",
+      "artist": "anonymous",
+      "date": "between 1175 and 1199 date QS:P,+1150-00-00T00:00:00Z/7,P131",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "856",
+      "height": "840"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Jug_with_Running_Animals.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/28/Jug_with_Running_Animals.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/Jug_with_Running_Animals.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jug_with_Running_Animals.png",
+      "caption": "Jug with Running Animals",
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "904",
+      "height": "762"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Bowl_with_Vegetal_Motifs.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/86/Bowl_with_Vegetal_Motifs.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/86/Bowl_with_Vegetal_Motifs.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bowl_with_Vegetal_Motifs.png",
+      "caption": "Interior: carved design composed of four interlaced circles, with vegetal patterns and lotus-like motifs within medallions; a narrow band incised with a roughly executed gadrooning motif runs around the inner rim",
+      "source": "Wikimedia Commons",
+      "artist": "Amelie Pak",
+      "date": "2024-03-20",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1216",
+      "height": "1136"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Bowl_with_Courtly_and_Astrological_Motifs.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/11/Bowl_with_Courtly_and_Astrological_Motifs.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/11/Bowl_with_Courtly_and_Astrological_Motifs.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bowl_with_Courtly_and_Astrological_Motifs.jpg",
+      "caption": "The figures and decoration on the interior of this bowl combine imagery of the courtly cycle and astronomy. In the center the sun is surrounded by personifications of the planets (clockwise) Mars, Mercury, Venus, the moon, Saturn, and Jupiter. Islamic astronomers believed the pla",
+      "source": "Wikimedia Commons",
+      "artist": "anonymous",
+      "date": "1200",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1200",
+      "height": "1198"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/LUSTRE-PAINTED_DISH.png/1280px-LUSTRE-PAINTED_DISH.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/LUSTRE-PAINTED_DISH.png/500px-LUSTRE-PAINTED_DISH.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d8/LUSTRE-PAINTED_DISH.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:LUSTRE-PAINTED_DISH.png",
+      "caption": "LUSTRE-PAINTED DISH",
+      "source": "Wikimedia Commons",
+      "artist": "Amelie Pak",
+      "date": "2024-03-20",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "906"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Turquoise_Bowl_with_Lute_Player_and_Audience.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/82/Turquoise_Bowl_with_Lute_Player_and_Audience.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/82/Turquoise_Bowl_with_Lute_Player_and_Audience.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Turquoise_Bowl_with_Lute_Player_and_Audience.jpg",
+      "caption": "A large assembly with an audience of ten people, or singers, surrounding the ’ud-player is depicted on this turquoise bowl. Bowls of fruit suggest the festive nature of the event.",
+      "source": "Wikimedia Commons",
+      "artist": "anonymous",
+      "date": "between 1175 and 1225 date QS:P,+1500-00-00T00:00:00Z/6,P131",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1200",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Lobed_bowl%2C_Minai%27i_ware.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Lobed_bowl%2C_Minai%27i_ware.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Lobed_bowl%2C_Minai%27i_ware.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lobed_bowl,_Minai%27i_ware.png",
+      "caption": "All the figures, including the horseman, wear colorful, intricately patterned robes and low caps. The drawing at center, in particular the horse, is of considerably higher quality than that of the surrounding figures. A design composed of three circles arranged in triangular fash",
+      "source": "Wikimedia Commons",
+      "artist": "anonymous",
+      "date": "early 13 th century date QS:P,+1250-00-00T00:00:00Z/7,P4241,",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "820",
+      "height": "866"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Luster_Dish_with_Seated_Prince.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Luster_Dish_with_Seated_Prince.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Luster_Dish_with_Seated_Prince.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Luster_Dish_with_Seated_Prince.png",
+      "caption": "Along with Basra in Iraq and Fustat (Old Cairo) in Egypt, Kashan served as a hub of Islamic ceramic production in northern Iran. This dish was likely produced in one of its workshops and is admired for its rare blue glaze design on a luster ground. Rulers and other court official",
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1072",
+      "height": "1014"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Dish_with_Bird.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Dish_with_Bird.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Dish_with_Bird.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dish_with_Bird.png",
+      "caption": "Bowl with a bird - Syria - 12th century - MET - Inventory number 1979.210",
+      "source": "Wikimedia Commons",
+      "date": "12 th century date QS:P571,+1150-00-00T00:00:00Z/7",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "920",
+      "height": "866"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Turquoise_Cup_with_Goats.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Turquoise_Cup_with_Goats.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Turquoise_Cup_with_Goats.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Turquoise_Cup_with_Goats.png",
+      "caption": "Cup with goat motifs.",
+      "source": "Wikimedia Commons",
+      "artist": "anonymous",
+      "date": "12 th century date QS:P,+1150-00-00T00:00:00Z/7",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "762",
+      "height": "850"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Seljuk pottery",
@@ -64,7 +226,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3664978",
+      "url": "https://www.wikidata.org/wiki/Q3664978",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:04.928Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Seljuk pottery",
+      "url": "https://en.wikipedia.org/wiki/Seljuk_pottery",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:05:04.928Z"
+      }
+    }
+  ],
   "wikidata": "Q3664978",
   "wikipedia": "Seljuk pottery",
   "popularity": 35,
@@ -72,5 +257,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:54.516Z"
 }

@@ -64,7 +64,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q316711",
+      "url": "https://www.wikidata.org/wiki/Q316711",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:04.739Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Beuron school",
+      "url": "https://en.wikipedia.org/wiki/Beuron_school",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:04.739Z"
+      }
+    }
+  ],
   "wikidata": "Q316711",
   "wikipedia": "Beuron school",
   "popularity": 35,
@@ -72,5 +95,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:38:04.739Z"
 }

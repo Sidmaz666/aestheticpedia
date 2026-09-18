@@ -64,7 +64,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q106070551",
+      "url": "https://www.wikidata.org/wiki/Q106070551",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:03.118Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Carbon Design System",
+      "url": "https://en.wikipedia.org/wiki/Carbon_Design_System",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:40:03.118Z"
+      }
+    }
+  ],
   "wikidata": "Q106070551",
   "wikipedia": "Carbon Design System",
   "popularity": 35,
@@ -72,5 +95,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:40:03.118Z"
 }

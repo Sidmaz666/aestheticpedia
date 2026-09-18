@@ -17,7 +17,33 @@
   "summary": "Utopian architecture is architecture inspired by utopianism.",
   "description": "Utopian architecture is architecture inspired by utopianism. Examples for such an architecture are Phalanstère, Arcology and Garden Cities. Earthships are realizations of the utopia of sustainable living and autonomous housing. Also, the concept domed city functions as a potential utopia.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#697261",
+      "name": "olive green"
+    },
+    {
+      "hex": "#908f8c",
+      "name": "stone"
+    },
+    {
+      "hex": "#4a4b59",
+      "name": "graphite"
+    },
+    {
+      "hex": "#2c2a2f",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#dfe9f2",
+      "name": "paper white"
+    },
+    {
+      "hex": "#bfb8b5",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,49 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/2010_Utopien_arche04.jpg/1280px-2010_Utopien_arche04.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/2010_Utopien_arche04.jpg/500px-2010_Utopien_arche04.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2a/2010_Utopien_arche04.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:2010_Utopien_arche04.jpg",
+      "caption": "German: Utopien 04",
+      "source": "Wikimedia Commons",
+      "artist": "Efthymios Warlamis",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "966"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/DJI_0242_Plac_Centralny%2C_Nowa_Huta.jpg/1280px-DJI_0242_Plac_Centralny%2C_Nowa_Huta.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/DJI_0242_Plac_Centralny%2C_Nowa_Huta.jpg/500px-DJI_0242_Plac_Centralny%2C_Nowa_Huta.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b6/DJI_0242_Plac_Centralny%2C_Nowa_Huta.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:DJI_0242_Plac_Centralny,_Nowa_Huta.jpg",
+      "caption": "Kraków, zespół zabudowy Placu Centralnego im. Ronalda Reagana w Krakowie",
+      "source": "Wikimedia Commons",
+      "artist": "Pawelsuder",
+      "date": "2018-08-29 16:11:44",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/G2_Global_model_Earthship_Taos_N.M..JPG/1280px-G2_Global_model_Earthship_Taos_N.M..JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/G2_Global_model_Earthship_Taos_N.M..JPG/500px-G2_Global_model_Earthship_Taos_N.M..JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a4/G2_Global_model_Earthship_Taos_N.M..JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:G2_Global_model_Earthship_Taos_N.M..JPG",
+      "caption": "South and east side of an Earthship passive solar home.",
+      "source": "Wikimedia Commons",
+      "artist": "Biodiesel33",
+      "date": "2011-07-04",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "718"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Utopian architecture",
@@ -62,7 +130,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q16292813",
+      "url": "https://www.wikidata.org/wiki/Q16292813",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:14.472Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Utopian architecture",
+      "url": "https://en.wikipedia.org/wiki/Utopian_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:14.472Z"
+      }
+    }
+  ],
   "wikidata": "Q16292813",
   "wikipedia": "Utopian architecture",
   "popularity": 35,
@@ -70,5 +161,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:10:14.472Z"
 }

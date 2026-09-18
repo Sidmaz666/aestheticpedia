@@ -9,8 +9,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Czechoslovakia",
+  "geography": "Czechoslovakia",
   "periodStart": "1960s",
   "periodEnd": "1970s",
   "startYear": 1962,
@@ -64,7 +64,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2356541",
+      "url": "https://www.wikidata.org/wiki/Q2356541",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:26.007Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Czechoslovak New Wave",
+      "url": "https://en.wikipedia.org/wiki/Czechoslovak_New_Wave",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:26.007Z"
+      }
+    }
+  ],
   "wikidata": "Q2356541",
   "wikipedia": "Czechoslovak New Wave",
   "popularity": 35,
@@ -72,5 +95,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:05.481Z"
 }

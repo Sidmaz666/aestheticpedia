@@ -19,7 +19,33 @@
   "summary": "A bonkei (盆景, Japanese for \"tray landscape\") is a temporary or permanent three-dimensional depiction of a landscape in miniature, portrayed using mainly dry materials like rock, papier-mâché or cement mixtures, and sand in a shallow tray.",
   "description": "A bonkei (盆景, Japanese for \"tray landscape\") is a temporary or permanent three-dimensional depiction of a landscape in miniature, portrayed using mainly dry materials like rock, papier-mâché or cement mixtures, and sand in a shallow tray. A bonkei contains no living material, in contrast with related Japanese art forms bonsai and saikei: bonsai contain living trees, and saikei contain living trees and other vegetation.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bba77c",
+      "name": "sand"
+    },
+    {
+      "hex": "#706f59",
+      "name": "bronze"
+    },
+    {
+      "hex": "#9b896b",
+      "name": "stone"
+    },
+    {
+      "hex": "#f4efd0",
+      "name": "linen"
+    },
+    {
+      "hex": "#c6c3ae",
+      "name": "silver"
+    },
+    {
+      "hex": "#4b4c3d",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,48 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/TOKAIDO_GOJUSAN-EKI_HACHIYAMA_EDYU%2C_VOL_I%2C_PAGE_07_-_Special_Collections%2C_USDA_National_Agricultural_Library.jpg/1280px-TOKAIDO_GOJUSAN-EKI_HACHIYAMA_EDYU%2C_VOL_I%2C_PAGE_07_-_Special_Collections%2C_USDA_National_Agricultural_Library.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/TOKAIDO_GOJUSAN-EKI_HACHIYAMA_EDYU%2C_VOL_I%2C_PAGE_07_-_Special_Collections%2C_USDA_National_Agricultural_Library.jpg/500px-TOKAIDO_GOJUSAN-EKI_HACHIYAMA_EDYU%2C_VOL_I%2C_PAGE_07_-_Special_Collections%2C_USDA_National_Agricultural_Library.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6e/TOKAIDO_GOJUSAN-EKI_HACHIYAMA_EDYU%2C_VOL_I%2C_PAGE_07_-_Special_Collections%2C_USDA_National_Agricultural_Library.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:TOKAIDO_GOJUSAN-EKI_HACHIYAMA_EDYU,_VOL_I,_PAGE_07_-_Special_Collections,_USDA_National_Agricultural_Library.jpg",
+      "caption": "This is page 07 of the 19th-century book Tokaido Gojusan-Eki Hachiyama Edyu (53 Stations of the Tōkaidō as Potted Landscapes, page 07, https://www.nal.usda.gov/exhibits/speccoll/items/show/618 ). It depicts a Japanese bonkei specimen that represents one of the locations shown in ",
+      "source": "Wikimedia Commons",
+      "artist": "Utagawa Yoshishige (Woodblock print artist) Kimura Tōsen (Bonkei artist) Tōsen's son (Introductory text author)",
+      "date": "1848-01-01",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1934"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Hiroshige01_nihonbashi.jpg/1280px-Hiroshige01_nihonbashi.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Hiroshige01_nihonbashi.jpg/500px-Hiroshige01_nihonbashi.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/02/Hiroshige01_nihonbashi.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hiroshige01_nihonbashi.jpg",
+      "caption": "The 53 Stations of the Tōkaidō - #1. Nihonbashi",
+      "source": "Wikimedia Commons",
+      "artist": "Utagawa Hiroshige",
+      "date": "1833/34",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "838"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/27992",
+      "caption": "A Sunday on La Grande Jatte — 1884, 1884–86, border added 1888–89",
+      "source": "Art Institute of Chicago",
+      "artist": "Georges Seurat (French, 1859–1891)",
+      "date": "1884–86, border added 1888–89",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "565"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Bonkei",
@@ -64,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4942127",
+      "url": "https://www.wikidata.org/wiki/Q4942127",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:57.676Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Bonkei",
+      "url": "https://en.wikipedia.org/wiki/Bonkei",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:38:57.676Z"
+      }
+    }
+  ],
   "wikidata": "Q4942127",
   "wikipedia": "Bonkei",
   "popularity": 35,
@@ -72,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:38:57.676Z"
 }

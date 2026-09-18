@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The Third Bay Tradition (also known as Third Bay Area Tradition) is an architectural style from the period of 1945 through the 1980s that was rooted in the greater San Francisco Bay Area, with its best known example being Sea Ranch.",
   "description": "The Third Bay Tradition (also known as Third Bay Area Tradition) is an architectural style from the period of 1945 through the 1980s that was rooted in the greater San Francisco Bay Area, with its best known example being Sea Ranch. Considered a hybrid of modern and vernacular styles, the tradition was codified by the design works of Donlyn Lyndon, Charles Moore, Marcel Sedletzky, and William Turnbull.\n\nThe style was characterized by turning the horizontal form of the California ranch house into a vertical form that resembled the vernacular farm building. The tradition had playful, woodsy, and informal characteristics.  It was environmentally attentive, though more abstract. It was cubistic and featured dramatic natural light.\n\nAccording to San Francisco's planning committee, characteristics of a Third Bay Tradition house include \"wood shingle cladding, plain wood siding, square bay windows, asymmetrical massing, ribbon windows, and shed roof forms\".\n\nThe Esther M. Hill House blends geometric forms with natural materials found in the American Craftsman tradition. The residence has an open plan and is an example of the Third Bay Tradition style.\n\nA repository of plans from the tradition are housed at the Environmental Design Archives at the University of California, Berkeley.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#37423a",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#101d1b",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#6c6b3d",
+      "name": "olive green"
+    },
+    {
+      "hex": "#4e5f68",
+      "name": "graphite"
+    },
+    {
+      "hex": "#9ba053",
+      "name": "moss"
+    },
+    {
+      "hex": "#7f8c94",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Front_view_of_the_Esther_M._Hill_House.jpg/1280px-Front_view_of_the_Esther_M._Hill_House.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Front_view_of_the_Esther_M._Hill_House.jpg/500px-Front_view_of_the_Esther_M._Hill_House.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Front_view_of_the_Esther_M._Hill_House.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Front_view_of_the_Esther_M._Hill_House.jpg",
+      "caption": "Photograph of the Esther M. Hill House, a historic house situated on Scenic Road and Santa Lucia Avenue on Carmel Point, Monterey County, California, USA.",
+      "source": "Wikimedia Commons",
+      "artist": "Gregory Ford Henderson",
+      "date": "2023-07-29 10:42:24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1454"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Third Bay Tradition",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7784785",
+      "url": "https://www.wikidata.org/wiki/Q7784785",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:26.419Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Third Bay Tradition",
+      "url": "https://en.wikipedia.org/wiki/Third_Bay_Tradition",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:26.419Z"
+      }
+    }
+  ],
   "wikidata": "Q7784785",
   "wikipedia": "Third Bay Tradition",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:31:02.186Z"
 }

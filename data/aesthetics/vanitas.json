@@ -21,7 +21,33 @@
   "summary": "Vanitas is a genre of memento mori symbolizing the transience of life, the uselessness of pleasure, and the certainty of death, and thus the vanity of ambition and all worldly desires.",
   "description": "Vanitas is a genre of memento mori symbolizing the transience of life, the uselessness of pleasure, and the certainty of death, and thus the vanity of ambition and all worldly desires. The paintings involved still life imagery of transitory items. The genre began in the 16th century and continued into the 17th century. Vanitas art is a type of allegorical art representing a higher ideal. It was a sub-genre of painting heavily employed by Dutch painters during the Baroque period (c.1585–1730). Spanish painters working at the end of the Spanish Golden Age also created vanitas paintings.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#050301",
+      "name": "black"
+    },
+    {
+      "hex": "#28170a",
+      "name": "black 2"
+    },
+    {
+      "hex": "#482f14",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#684319",
+      "name": "sepia"
+    },
+    {
+      "hex": "#775a31",
+      "name": "umber"
+    },
+    {
+      "hex": "#917648",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,48 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Antonio_de_Pereda_-_Allegory_of_Vanity_-_Google_Art_Project.jpg/1280px-Antonio_de_Pereda_-_Allegory_of_Vanity_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Antonio_de_Pereda_-_Allegory_of_Vanity_-_Google_Art_Project.jpg/500px-Antonio_de_Pereda_-_Allegory_of_Vanity_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/45/Antonio_de_Pereda_-_Allegory_of_Vanity_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Antonio_de_Pereda_-_Allegory_of_Vanity_-_Google_Art_Project.jpg",
+      "caption": "Allegory of Vanity",
+      "source": "Wikimedia Commons",
+      "artist": "Antonio de Pereda",
+      "date": "(1632 - 1636)",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "985"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Barthel_%28Bartholom%C3%A4us%29_Bruyn_-_Vanitas.JPG/1280px-Barthel_%28Bartholom%C3%A4us%29_Bruyn_-_Vanitas.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Barthel_%28Bartholom%C3%A4us%29_Bruyn_-_Vanitas.JPG/500px-Barthel_%28Bartholom%C3%A4us%29_Bruyn_-_Vanitas.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Barthel_%28Bartholom%C3%A4us%29_Bruyn_-_Vanitas.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Barthel_(Bartholom%C3%A4us)_Bruyn_-_Vanitas.JPG",
+      "caption": "Vanitas",
+      "source": "Wikimedia Commons",
+      "artist": "Bartholomaeus Bruyn the Elder",
+      "date": "1524",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1534"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/2b9bef7f-d495-24e9-e856-8db0be2827b4/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2b9bef7f-d495-24e9-e856-8db0be2827b4/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2b9bef7f-d495-24e9-e856-8db0be2827b4/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/258490",
+      "caption": "A Vanitas Still Life with a Flag, Candlestick, Musical Instruments, Books, Writing Paraphernalia, Globes, and Hourglass, 1662",
+      "source": "Art Institute of Chicago",
+      "artist": "Edwaert Collier (Dutch, 1642–1708)",
+      "date": "1662",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "636"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Vanitas",
@@ -66,7 +133,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q733095",
+      "url": "https://www.wikidata.org/wiki/Q733095",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:18.350Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Vanitas",
+      "url": "https://en.wikipedia.org/wiki/Vanitas",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:18.350Z"
+      }
+    }
+  ],
   "wikidata": "Q733095",
   "wikipedia": "Vanitas",
   "popularity": 35,
@@ -74,5 +164,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:10:18.350Z"
 }

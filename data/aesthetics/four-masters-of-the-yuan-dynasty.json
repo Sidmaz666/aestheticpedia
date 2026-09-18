@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Yuan dynasty",
+  "geography": "Yuan dynasty",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -39,7 +39,35 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ge_Zhichuan_Relocating_by_Wang_Meng.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ge_Zhichuan_Relocating_by_Wang_Meng.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ge_Zhichuan_Relocating_by_Wang_Meng.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ge_Zhichuan_Relocating_by_Wang_Meng.jpg",
+      "caption": "Ge Zhichuan Relocating",
+      "source": "Wikimedia Commons",
+      "artist": "Wang Meng",
+      "date": "14 th century date QS:P571,+1350-00-00T00:00:00Z/7",
+      "license": "Public domain",
+      "width": "765",
+      "height": "1880"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/f78addab-4d3a-f87c-4c83-7eae824c7504/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/f78addab-4d3a-f87c-4c83-7eae824c7504/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/f78addab-4d3a-f87c-4c83-7eae824c7504/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/76279",
+      "caption": "Yang Pu Moving His Family, Yuan dynasty (1279–1368) 元朝",
+      "source": "Art Institute of Chicago",
+      "artist": "Artist Unknown",
+      "date": "Yuan dynasty (1279–1368) 元朝",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "253"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Four Masters of the Yuan dynasty",
@@ -62,7 +90,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5475328",
+      "url": "https://www.wikidata.org/wiki/Q5475328",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:07.923Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Four Masters of the Yuan dynasty",
+      "url": "https://en.wikipedia.org/wiki/Four_Masters_of_the_Yuan_dynasty",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:07.923Z"
+      }
+    }
+  ],
   "wikidata": "Q5475328",
   "wikipedia": "Four Masters of the Yuan dynasty",
   "popularity": 35,
@@ -70,5 +121,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.259Z"
 }

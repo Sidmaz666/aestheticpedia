@@ -17,7 +17,33 @@
   "summary": "Luminism is a style of American landscape painting from the 1850s to 1870s, characterized by effects of light in a landscape, through the use of aerial perspective and the concealing of visible brushstrokes.",
   "description": "Luminism is a style of American landscape painting from the 1850s to 1870s, characterized by effects of light in a landscape, through the use of aerial perspective and the concealing of visible brushstrokes. Luminist landscapes emphasize tranquility, often depicting calm, reflective water and a soft, hazy sky. Artists most central to the development of the luminist style include Fitz Henry Lane, Martin Johnson Heade, Sanford Gifford, and John F. Kensett.\n\nPainters with a less clear affiliation include Frederic Edwin Church, Jasper Cropsey, Albert Bierstadt, Worthington Whittredge, Raymond Dabb Yelland, Alfred Thompson Bricher, James Augustus Suydam, and David Johnson. Some precursor artists are George Harvey and Robert Salmon. Joseph Rusling Meeker also worked in the style.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c0cfb8",
+      "name": "silver"
+    },
+    {
+      "hex": "#616164",
+      "name": "umber"
+    },
+    {
+      "hex": "#3a2b23",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#4e4438",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#a3a1a6",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#8a8892",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,139 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Fitz_Henry_Lane%2C_Lumber_Schooners_at_Evening_on_Penobscot_Bay%2C_1863%2C_NGA_57611.jpg/1280px-Fitz_Henry_Lane%2C_Lumber_Schooners_at_Evening_on_Penobscot_Bay%2C_1863%2C_NGA_57611.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Fitz_Henry_Lane%2C_Lumber_Schooners_at_Evening_on_Penobscot_Bay%2C_1863%2C_NGA_57611.jpg/500px-Fitz_Henry_Lane%2C_Lumber_Schooners_at_Evening_on_Penobscot_Bay%2C_1863%2C_NGA_57611.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Fitz_Henry_Lane%2C_Lumber_Schooners_at_Evening_on_Penobscot_Bay%2C_1863%2C_NGA_57611.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fitz_Henry_Lane,_Lumber_Schooners_at_Evening_on_Penobscot_Bay,_1863,_NGA_57611.jpg",
+      "caption": "Lumber Schooners at Evening on Penobscot Bay",
+      "source": "Wikimedia Commons",
+      "artist": "Fitz Henry Lane",
+      "date": "1863 date QS:P571,+1863-00-00T00:00:00Z/9",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "819"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Martin_Johnson_Heade_-Thunder_Storm_on_Narragansett_Bay_ATC.jpg/1280px-Martin_Johnson_Heade_-Thunder_Storm_on_Narragansett_Bay_ATC.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Martin_Johnson_Heade_-Thunder_Storm_on_Narragansett_Bay_ATC.jpg/500px-Martin_Johnson_Heade_-Thunder_Storm_on_Narragansett_Bay_ATC.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/63/Martin_Johnson_Heade_-Thunder_Storm_on_Narragansett_Bay_ATC.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Martin_Johnson_Heade_-Thunder_Storm_on_Narragansett_Bay_ATC.jpg",
+      "caption": "Thunder Storm on Narragansett Bay",
+      "source": "Wikimedia Commons",
+      "artist": "Martin Johnson Heade",
+      "date": "1868 date QS:P571,+1868-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "747"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/John_F_Kensett_-_View_of_the_Shrewsbury_River%2C_New_Jersey_-_Google_Art_Project.jpg/1280px-John_F_Kensett_-_View_of_the_Shrewsbury_River%2C_New_Jersey_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/John_F_Kensett_-_View_of_the_Shrewsbury_River%2C_New_Jersey_-_Google_Art_Project.jpg/500px-John_F_Kensett_-_View_of_the_Shrewsbury_River%2C_New_Jersey_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/John_F_Kensett_-_View_of_the_Shrewsbury_River%2C_New_Jersey_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:John_F_Kensett_-_View_of_the_Shrewsbury_River,_New_Jersey_-_Google_Art_Project.jpg",
+      "caption": "View of the Shrewsbury River, New Jersey",
+      "source": "Wikimedia Commons",
+      "artist": "John Frederick Kensett",
+      "date": "1859 date QS:P571,+1859-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "768"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/JasperCropsey-Catskill_Creek_1850.jpg/1280px-JasperCropsey-Catskill_Creek_1850.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/JasperCropsey-Catskill_Creek_1850.jpg/500px-JasperCropsey-Catskill_Creek_1850.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/74/JasperCropsey-Catskill_Creek_1850.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:JasperCropsey-Catskill_Creek_1850.jpg",
+      "caption": "Catskill Creek",
+      "source": "Wikimedia Commons",
+      "artist": "Jasper Francis Cropsey",
+      "date": "1850 date QS:P571,+1850-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "855"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/A_Country_Home_Frederic_Edwin_Church.jpg/1280px-A_Country_Home_Frederic_Edwin_Church.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/A_Country_Home_Frederic_Edwin_Church.jpg/500px-A_Country_Home_Frederic_Edwin_Church.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3b/A_Country_Home_Frederic_Edwin_Church.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:A_Country_Home_Frederic_Edwin_Church.jpg",
+      "caption": "Oil on canvas 1854 161.61 x 115.89 cm (5' 3.63\" x 3' 9.63\") Seattle Art Museum (United States)",
+      "source": "Wikimedia Commons",
+      "artist": "Frederic Edwin Church",
+      "date": "1854 date QS:P571,+1854-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "802"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Upper_Mississippi_John_Frederick_Kensett.jpeg/1280px-Upper_Mississippi_John_Frederick_Kensett.jpeg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Upper_Mississippi_John_Frederick_Kensett.jpeg/500px-Upper_Mississippi_John_Frederick_Kensett.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/00/Upper_Mississippi_John_Frederick_Kensett.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Upper_Mississippi_John_Frederick_Kensett.jpeg",
+      "caption": "View on the Upper Mississippi",
+      "source": "Wikimedia Commons",
+      "artist": "John Frederick Kensett",
+      "date": "1855 date QS:P571,+1855-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "774"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Fitz_Henry_Lane_-_Owl%27s_Head%2C_Penobscot_Bay%2C_Maine_-_Google_Art_Project.jpg/1280px-Fitz_Henry_Lane_-_Owl%27s_Head%2C_Penobscot_Bay%2C_Maine_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Fitz_Henry_Lane_-_Owl%27s_Head%2C_Penobscot_Bay%2C_Maine_-_Google_Art_Project.jpg/500px-Fitz_Henry_Lane_-_Owl%27s_Head%2C_Penobscot_Bay%2C_Maine_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Fitz_Henry_Lane_-_Owl%27s_Head%2C_Penobscot_Bay%2C_Maine_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fitz_Henry_Lane_-_Owl%27s_Head,_Penobscot_Bay,_Maine_-_Google_Art_Project.jpg",
+      "caption": "Owl's Head, Penobscot Bay, Maine",
+      "source": "Wikimedia Commons",
+      "artist": "Fitz Henry Lane",
+      "date": "1862 date QS:P571,+1862-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "769"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Long_Island_James_Augustus_Suydam_1862.jpeg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/18/Long_Island_James_Augustus_Suydam_1862.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/18/Long_Island_James_Augustus_Suydam_1862.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Long_Island_James_Augustus_Suydam_1862.jpeg",
+      "caption": "\"Long Island,\" oil on canvas, by the American Luminist painter James Augustus Suydam. Private collection.",
+      "source": "Wikimedia Commons",
+      "artist": "James Augustus Suydam",
+      "date": "1862 date QS:P571,+1862-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1101",
+      "height": "683"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Sanford_Robinson_Gifford_-_Indian_Summer_in_the_White_Mountains_-_Google_Art_Project.jpg/1280px-Sanford_Robinson_Gifford_-_Indian_Summer_in_the_White_Mountains_-_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Sanford_Robinson_Gifford_-_Indian_Summer_in_the_White_Mountains_-_Google_Art_Project.jpg/500px-Sanford_Robinson_Gifford_-_Indian_Summer_in_the_White_Mountains_-_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Sanford_Robinson_Gifford_-_Indian_Summer_in_the_White_Mountains_-_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sanford_Robinson_Gifford_-_Indian_Summer_in_the_White_Mountains_-_Google_Art_Project.jpg",
+      "caption": "Indian Summer in the White Mountains",
+      "source": "Wikimedia Commons",
+      "artist": "Sanford Robinson Gifford",
+      "date": "1862 date QS:P571,+1862-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "672"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bierstadt_Albert_Yosemite_Valley_Yellowstone_Park.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bierstadt_Albert_Yosemite_Valley_Yellowstone_Park.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bierstadt_Albert_Yosemite_Valley_Yellowstone_Park.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bierstadt_Albert_Yosemite_Valley_Yellowstone_Park.jpg",
+      "caption": "Yosemite Valley",
+      "source": "Wikimedia Commons",
+      "artist": "Albert Bierstadt",
+      "date": "1868 date QS:P571,+1868-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1041",
+      "height": "698"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Luminism (American art style)",
@@ -62,7 +220,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3272569",
+      "url": "https://www.wikidata.org/wiki/Q3272569",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:16.831Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Luminism (American art style)",
+      "url": "https://en.wikipedia.org/wiki/Luminism_(American_art_style)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:53:16.831Z"
+      }
+    }
+  ],
   "wikidata": "Q3272569",
   "wikipedia": "Luminism (American art style)",
   "popularity": 35,
@@ -70,5 +251,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:53:16.831Z"
 }

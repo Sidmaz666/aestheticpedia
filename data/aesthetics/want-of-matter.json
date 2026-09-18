@@ -39,7 +39,22 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Michal_Na%27aman%2C_1977.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/17/Michal_Na%27aman%2C_1977.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/17/Michal_Na%27aman%2C_1977.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Michal_Na%27aman,_1977.jpg",
+      "caption": "הבשורה על פי הציפור",
+      "source": "Wikimedia Commons",
+      "artist": "Michal Na'aman",
+      "date": "1977 date QS:P571,+1977-00-00T00:00:00Z/9",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "640",
+      "height": "339"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Want of Matter",
@@ -62,7 +77,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1392816",
+      "url": "https://www.wikidata.org/wiki/Q1392816",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:12.671Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Want of Matter",
+      "url": "https://en.wikipedia.org/wiki/Want_of_Matter",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:11:12.671Z"
+      }
+    }
+  ],
   "wikidata": "Q1392816",
   "wikipedia": "Want of Matter",
   "popularity": 35,
@@ -70,5 +108,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:11:12.671Z"
 }

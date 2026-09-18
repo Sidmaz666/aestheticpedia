@@ -17,7 +17,33 @@
   "summary": "Systems art is art influenced by cybernetics and systems theory, reflecting on natural systems, social systems, and the social signs of the art world itself.",
   "description": "Systems art is art influenced by cybernetics and systems theory, reflecting on natural systems, social systems, and the social signs of the art world itself.\n\nSystems art emerged as part of the first wave of the conceptual art movement in the 1960s and 1970s. Closely related and overlapping terms include anti-form movement, cybernetic art, generative systems, process art, systems aesthetic, systemic art, systemic painting, and systems sculpture.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#050505",
+      "name": "black"
+    },
+    {
+      "hex": "#fdfdfd",
+      "name": "ivory"
+    },
+    {
+      "hex": "#202120",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#3a3a39",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#555555",
+      "name": "graphite"
+    },
+    {
+      "hex": "#777777",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,47 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Dombis_1687.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/41/Dombis_1687.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/Dombis_1687.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dombis_1687.jpg",
+      "caption": "Irrationnal Geometrics",
+      "source": "Wikimedia Commons",
+      "artist": "Cracksinthestreet",
+      "date": "2008",
+      "license": "Public domain",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Bolognini-CIMs.JPG/1280px-Bolognini-CIMs.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Bolognini-CIMs.JPG/500px-Bolognini-CIMs.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Bolognini-CIMs.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bolognini-CIMs.JPG",
+      "caption": "Maurizio Bolognini's interactive installations (CIMs series): interaction structure",
+      "source": "Wikimedia Commons",
+      "artist": "V.fanis1",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1156"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Roy-csnewskool.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Roy-csnewskool.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Roy-csnewskool.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Roy-csnewskool.png",
+      "caption": "Closed Society 2 ASCII Screen Shot ASCII by Carsten Cumbrowski aka Roy/SAC [1] Converted to .PNG by Wikiviewer. Original file at en:Image:Roy-csnewskool.gif Released into Public Domain, see Source for verification",
+      "source": "Wikimedia Commons",
+      "artist": "Wikiviewer at English Wikipedia",
+      "date": "6 May 2007 (original upload date)",
+      "license": "Public domain",
+      "width": "613",
+      "height": "418"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Systems art",
@@ -62,7 +128,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q919251",
+      "url": "https://www.wikidata.org/wiki/Q919251",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:05.304Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Systems art",
+      "url": "https://en.wikipedia.org/wiki/Systems_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:08:05.304Z"
+      }
+    }
+  ],
   "wikidata": "Q919251",
   "wikipedia": "Systems art",
   "popularity": 35,
@@ -70,5 +159,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:08:05.304Z"
 }

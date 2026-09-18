@@ -17,7 +17,33 @@
   "summary": "Cieszyn folk costume, also known as Valachian, is a Silesian folk costume, which used to be worn within majority of the area of Cieszyn Silesia, but mostly by Cieszyn Vlachs.",
   "description": "Cieszyn folk costume, also known as Valachian, is a Silesian folk costume, which used to be worn within majority of the area of Cieszyn Silesia, but mostly by Cieszyn Vlachs. Taking into consideration ornamentation, cutting and materials, it can be observed that it is a replica of historical costumes of the Renaissance. The male folk costume was worn only to the late 19th century, whereas the female folk costume was more popular and spread in the vicinity of the Wisła, Istebna and Koniaków. Previously in this area the costumes of Silesian Gorals prevailed. Female folk costumes in Cieszyn were subjected to many changes, especially in respect to ornamentations and better quality of materials. Due to its richness and elegance the costume quickly became a target of artists and specialists in folk culture.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a3a5a4",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#bdbbbe",
+      "name": "silver"
+    },
+    {
+      "hex": "#4f402d",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#9b9284",
+      "name": "stone"
+    },
+    {
+      "hex": "#715548",
+      "name": "umber"
+    },
+    {
+      "hex": "#767877",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,120 @@
   "tags": [
     "traditional costume"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Female_folk_costume_from_Cieszyn_Silesia_in_2nd_primary_school_in_Ustro%C5%84%2C_Silesian_Voivodeship%2C_Poland%2C_June_2020.jpg/1280px-Female_folk_costume_from_Cieszyn_Silesia_in_2nd_primary_school_in_Ustro%C5%84%2C_Silesian_Voivodeship%2C_Poland%2C_June_2020.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Female_folk_costume_from_Cieszyn_Silesia_in_2nd_primary_school_in_Ustro%C5%84%2C_Silesian_Voivodeship%2C_Poland%2C_June_2020.jpg/500px-Female_folk_costume_from_Cieszyn_Silesia_in_2nd_primary_school_in_Ustro%C5%84%2C_Silesian_Voivodeship%2C_Poland%2C_June_2020.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Female_folk_costume_from_Cieszyn_Silesia_in_2nd_primary_school_in_Ustro%C5%84%2C_Silesian_Voivodeship%2C_Poland%2C_June_2020.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Female_folk_costume_from_Cieszyn_Silesia_in_2nd_primary_school_in_Ustro%C5%84,_Silesian_Voivodeship,_Poland,_June_2020.jpg",
+      "caption": "Female folk costume from Cieszyn Silesia in 2nd primary school in Ustroń, Silesian Voivodeship, Poland, June 2020",
+      "source": "Wikimedia Commons",
+      "artist": "MichalPL",
+      "date": "2020-06-28 11:55:10",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Janina_i_maria_polokowne.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/46/Janina_i_maria_polokowne.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/46/Janina_i_maria_polokowne.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Janina_i_maria_polokowne.jpg",
+      "caption": "A women in Cieszynian female folk costume",
+      "source": "Wikimedia Commons",
+      "artist": "Piotr Maciążek",
+      "date": "2012-01-31",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "500",
+      "height": "788"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/8fc5f422-5805-8afb-ae23-dd727db7031b/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/8fc5f422-5805-8afb-ae23-dd727db7031b/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/8fc5f422-5805-8afb-ae23-dd727db7031b/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/6646",
+      "caption": "Couch Cover, 19th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Italy, Sardinia",
+      "date": "19th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "547"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/9b7f561b-206f-79d0-6fe2-a4fd0cb8e935/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/9b7f561b-206f-79d0-6fe2-a4fd0cb8e935/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/9b7f561b-206f-79d0-6fe2-a4fd0cb8e935/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/25891",
+      "caption": "Chief's Poncho, 1850/1900",
+      "source": "Art Institute of Chicago",
+      "artist": "Mapuche",
+      "date": "1850/1900",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1056"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/498e45a7-5721-25dd-e26c-09b3e5b8010b/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/498e45a7-5721-25dd-e26c-09b3e5b8010b/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/498e45a7-5721-25dd-e26c-09b3e5b8010b/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/59455",
+      "caption": "Meetinghouse Hill, Roxbury, Massachusetts, 1799",
+      "source": "Art Institute of Chicago",
+      "artist": "John Ritto Penniman (American, c. 1782–1841)",
+      "date": "1799",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "644"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/13ec274d-ce05-b55d-88ee-c716b6b6a5c8/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/13ec274d-ce05-b55d-88ee-c716b6b6a5c8/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/13ec274d-ce05-b55d-88ee-c716b6b6a5c8/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/576",
+      "caption": "Fan, 18th century",
+      "source": "Art Institute of Chicago",
+      "artist": "France",
+      "date": "18th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "700"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/77da3827-005a-2149-c590-34d31fdfa83c/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/77da3827-005a-2149-c590-34d31fdfa83c/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/77da3827-005a-2149-c590-34d31fdfa83c/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/61146",
+      "caption": "J. Ellis Bonham, March 5, 1825",
+      "source": "Art Institute of Chicago",
+      "artist": "William Bonnell",
+      "date": "March 5, 1825",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1019"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/2c7b5171-f708-0832-bb41-03f4c8f06b3d/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2c7b5171-f708-0832-bb41-03f4c8f06b3d/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2c7b5171-f708-0832-bb41-03f4c8f06b3d/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/796",
+      "caption": "Atsuita karaori (Noh Costume), late Edo period (1789–1868), 1801/25",
+      "source": "Art Institute of Chicago",
+      "artist": "Japan",
+      "date": "late Edo period (1789–1868), 1801/25",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "926"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Cieszyn folk costume",
@@ -62,7 +201,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5119747",
+      "url": "https://www.wikidata.org/wiki/Q5119747",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:14.194Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cieszyn folk costume",
+      "url": "https://en.wikipedia.org/wiki/Cieszyn_folk_costume",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:14.194Z"
+      }
+    }
+  ],
   "wikidata": "Q5119747",
   "wikipedia": "Cieszyn folk costume",
   "popularity": 35,
@@ -70,5 +232,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:41:14.194Z"
 }

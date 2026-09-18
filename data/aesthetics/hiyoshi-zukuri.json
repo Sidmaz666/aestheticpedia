@@ -19,7 +19,33 @@
   "summary": "Hiyoshi-zukuri or hie-zukuri (日吉造), also called shōtei-zukuri / shōtai-zukuri (聖帝造) or sannō-zukuri (山王造) is a rare Shinto shrine architectural style presently found in only three instances, all at Hiyoshi Taisha in Ōtsu, Shiga, hence the name.",
   "description": "Hiyoshi-zukuri or hie-zukuri (日吉造), also called shōtei-zukuri / shōtai-zukuri (聖帝造) or sannō-zukuri (山王造) is a rare Shinto shrine architectural style presently found in only three instances, all at Hiyoshi Taisha in Ōtsu, Shiga, hence the name. They are the East and West Honden Hon-gū (本殿本宮) and the Sessha Usa Jingū Honden (摂社宇佐神宮本殿).\n\nIt is characterized by a hip-and-gable roof with verandas called hisashi on the sides. It has a hirairi structure, that is, the building has its main entrance on the side which runs parallel to the roof's ridge (non gabled-side).\n\nThe building is composed of a 3x2 ken core called moya surrounded on three sides by a 1-ken wide hisashi, totaling 5x3 ken (see photo). The three-sided hisashi is unique and typical of this style. The gabled roof extends in small porticos on the front and the two gabled sides. The roof on the back has a characteristic shape (see photo below).",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#2b1d17",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#5d371e",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#625641",
+      "name": "umber"
+    },
+    {
+      "hex": "#747261",
+      "name": "bronze"
+    },
+    {
+      "hex": "#908a7c",
+      "name": "stone"
+    },
+    {
+      "hex": "#a8a39f",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,34 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Hiyoshi-taisha_higashihongu-honden01nt3200.jpg/1280px-Hiyoshi-taisha_higashihongu-honden01nt3200.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Hiyoshi-taisha_higashihongu-honden01nt3200.jpg/500px-Hiyoshi-taisha_higashihongu-honden01nt3200.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/Hiyoshi-taisha_higashihongu-honden01nt3200.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hiyoshi-taisha_higashihongu-honden01nt3200.jpg",
+      "caption": "Hiyoshi Taisha in Otsu, Shiga prefecture, Japan",
+      "source": "Wikimedia Commons",
+      "artist": "663highland",
+      "date": "2008-06-01",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "852"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/500px-Himeji_model7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Himeji_model7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Himeji_model7.JPG",
+      "caption": "Himeji model7",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Hiyoshi-zukuri",
@@ -64,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3138720",
+      "url": "https://www.wikidata.org/wiki/Q3138720",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:13.532Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Hiyoshi-zukuri",
+      "url": "https://en.wikipedia.org/wiki/Hiyoshi-zukuri",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:13.532Z"
+      }
+    }
+  ],
   "wikidata": "Q3138720",
   "wikipedia": "Hiyoshi-zukuri",
   "popularity": 35,
@@ -72,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:49:13.532Z"
 }

@@ -20,7 +20,33 @@
   "summary": "Galleting, sometimes known as garreting or garneting, is an architectural technique in which spalls (small pieces of stone) are pushed into wet mortar joints during the construction of a masonry building.",
   "description": "Galleting, sometimes known as garreting or garneting, is an architectural technique in which spalls (small pieces of stone) are pushed into wet mortar joints during the construction of a masonry building.  The term comes from the French word galet, which means \"pebble.\"  In general, the word \"galleting\" refers to the practice while the word \"gallet\" refers to the spall. Galleting was mostly used in England, where it was common in South East England and the county of Norfolk.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#4e4c43",
+      "name": "graphite"
+    },
+    {
+      "hex": "#64645b",
+      "name": "umber"
+    },
+    {
+      "hex": "#2e2e25",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#807d71",
+      "name": "taupe"
+    },
+    {
+      "hex": "#9d998d",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#bdb6aa",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,50 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/St._James_Episcopal_Church_Sparks_Building_540.jpg/1280px-St._James_Episcopal_Church_Sparks_Building_540.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/St._James_Episcopal_Church_Sparks_Building_540.jpg/500px-St._James_Episcopal_Church_Sparks_Building_540.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/43/St._James_Episcopal_Church_Sparks_Building_540.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:St._James_Episcopal_Church_Sparks_Building_540.jpg",
+      "caption": "Galleting at north facade, detail",
+      "source": "Wikimedia Commons",
+      "artist": "Elizabeth Linden Rahway",
+      "date": "2015-06-22",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Flint_Galleting%2C_Ian_Capper.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Flint_Galleting%2C_Ian_Capper.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Flint_Galleting%2C_Ian_Capper.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Flint_Galleting,_Ian_Capper.jpg",
+      "caption": "The main building of West Dean College in Sussex, England is an example of using flint galleting in flint walls.",
+      "source": "Wikimedia Commons",
+      "artist": "Ian Capper",
+      "date": "2015-04-19",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "800",
+      "height": "530"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/St._James_Episcopal_Church_Sparks_Building_534.jpg/1280px-St._James_Episcopal_Church_Sparks_Building_534.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/St._James_Episcopal_Church_Sparks_Building_534.jpg/500px-St._James_Episcopal_Church_Sparks_Building_534.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/64/St._James_Episcopal_Church_Sparks_Building_534.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:St._James_Episcopal_Church_Sparks_Building_534.jpg",
+      "caption": "Galleting at north facade",
+      "source": "Wikimedia Commons",
+      "artist": "Elizabeth Linden Rahway",
+      "date": "2015-06-22",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Galleting",
@@ -65,7 +134,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5519023",
+      "url": "https://www.wikidata.org/wiki/Q5519023",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:21.709Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Galleting",
+      "url": "https://en.wikipedia.org/wiki/Galleting",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:46:21.709Z"
+      }
+    }
+  ],
   "wikidata": "Q5519023",
   "wikipedia": "Galleting",
   "popularity": 35,
@@ -73,5 +165,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:46:21.709Z"
 }

@@ -17,7 +17,33 @@
   "summary": "Tramp art is a style of woodworking which emerged in America in the latter half of the 19th century.",
   "description": "Tramp art is a style of woodworking which emerged in America in the latter half of the 19th century. Some of tramp art's defining characteristics include chip or notch carving, the reclamation of cheap or available wood such as that from cigar boxes and shipping crates, the use of simple tools such as penknives, and the layering of materials into geometric shapes through glue or nails.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0a0605",
+      "name": "black"
+    },
+    {
+      "hex": "#3b1f15",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#613527",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#f9f9f9",
+      "name": "ivory"
+    },
+    {
+      "hex": "#383a3d",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#825644",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Texas_Tramp_Art_Box-saam_1998.84.62.jpg/1280px-Texas_Tramp_Art_Box-saam_1998.84.62.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Texas_Tramp_Art_Box-saam_1998.84.62.jpg/500px-Texas_Tramp_Art_Box-saam_1998.84.62.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/11/Texas_Tramp_Art_Box-saam_1998.84.62.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Texas_Tramp_Art_Box-saam_1998.84.62.jpg",
+      "caption": "decorative artwork by Artist once known (American)",
+      "source": "Wikimedia Commons",
+      "date": "Unknown date",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "916"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Crown_of_Thorns_Construction-saam-1998.84.52_1.jpg/1280px-Crown_of_Thorns_Construction-saam-1998.84.52_1.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Crown_of_Thorns_Construction-saam-1998.84.52_1.jpg/500px-Crown_of_Thorns_Construction-saam-1998.84.52_1.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Crown_of_Thorns_Construction-saam-1998.84.52_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Crown_of_Thorns_Construction-saam-1998.84.52_1.jpg",
+      "caption": "Unidentified, Crown of Thorns Construction, carved, incised, and jigsawed wood, Smithsonian American Art Museum, Gift of Herbert Waide Hemphill, Jr., 1998.84.52",
+      "source": "Wikimedia Commons",
+      "artist": "Anonymous Unknown author",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "1819"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Tramp art",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7833175",
+      "url": "https://www.wikidata.org/wiki/Q7833175",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:17.434Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Tramp art",
+      "url": "https://en.wikipedia.org/wiki/Tramp_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:09:17.434Z"
+      }
+    }
+  ],
   "wikidata": "Q7833175",
   "wikipedia": "Tramp art",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:09:17.434Z"
 }

@@ -17,7 +17,25 @@
   "summary": "Avant-garde architecture is architecture which is innovative and radical within a certain time period.",
   "description": "Avant-garde architecture is architecture which is innovative and radical within a certain time period. There have been a variety of architects and movements whose work has been characterised in this way for example modernist architecture was considered avant garde in comparison to Neoclassical architecture in the early 20th century.  Other examples include Constructivism, Neoplasticism (De Stijl), Neo-futurism, Deconstructivism, Parametricism, Expressionism, and Neo Avant-Garde.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b9b9b9",
+      "name": "silver"
+    },
+    {
+      "hex": "#9c9c9c",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#868686",
+      "name": "taupe"
+    },
+    {
+      "hex": "#6f6f6f",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +57,21 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Ladovsky_sketch.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/46/Ladovsky_sketch.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/46/Ladovsky_sketch.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ladovsky_sketch.jpg",
+      "caption": "Architectural composition",
+      "source": "Wikimedia Commons",
+      "artist": "Nikolai Ladovsky",
+      "date": "1919 date QS:P571,+1919-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "500",
+      "height": "645"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Avant-garde architecture",
@@ -62,7 +94,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q21129596",
+      "url": "https://www.wikidata.org/wiki/Q21129596",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:09.756Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Avant-garde architecture",
+      "url": "https://en.wikipedia.org/wiki/Avant-garde_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:09.756Z"
+      }
+    }
+  ],
   "wikidata": "Q21129596",
   "wikipedia": "Avant-garde architecture",
   "popularity": 35,
@@ -70,5 +125,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:37:09.756Z"
 }

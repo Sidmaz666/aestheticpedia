@@ -20,7 +20,33 @@
   "summary": "Creole architecture in the United States is present in buildings in Louisiana and elsewhere in the South, and also in the U.S.",
   "description": "Creole architecture in the United States is present in buildings in Louisiana and elsewhere in the South, and also in the U.S. associated territories of Puerto Rico and the U.S. Virgin Islands. A variant is Ponce Creole style.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#424242",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#d0d0d0",
+      "name": "bone white"
+    },
+    {
+      "hex": "#6c6c6c",
+      "name": "slate"
+    },
+    {
+      "hex": "#898989",
+      "name": "taupe"
+    },
+    {
+      "hex": "#adadad",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#161616",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,34 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Williamsburg_Natchez_Mississippi.jpg/1280px-Williamsburg_Natchez_Mississippi.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Williamsburg_Natchez_Mississippi.jpg/500px-Williamsburg_Natchez_Mississippi.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Williamsburg_Natchez_Mississippi.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Williamsburg_Natchez_Mississippi.jpg",
+      "caption": "Williamsburg, 821 Main Street, Natchez, Adams County, MS. Built 1830-40.",
+      "source": "Wikimedia Commons",
+      "artist": "Jack Boucher, Photographer",
+      "date": "1972-04",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "916"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Latour_and_Laclottes_Atelier.jpg/1280px-Latour_and_Laclottes_Atelier.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Latour_and_Laclottes_Atelier.jpg/500px-Latour_and_Laclottes_Atelier.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Latour_and_Laclottes_Atelier.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Latour_and_Laclottes_Atelier.jpg",
+      "caption": "Latour & Laclotte's Atelier, 625-627 Dauphine Street, New Orleans, Orleans Parish, LA. SIDE AND FRONT. An example of a New Orleans Creole cottage.",
+      "source": "Wikimedia Commons",
+      "artist": "Dan Leyrer, Photographer",
+      "date": "Autumn 1964 date QS:P,+1964-00-00T00:00:00Z/9,P4241,Q4072056",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "937"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Creole architecture in the United States",
@@ -65,7 +118,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5184212",
+      "url": "https://www.wikidata.org/wiki/Q5184212",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:13.868Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Creole architecture in the United States",
+      "url": "https://en.wikipedia.org/wiki/Creole_architecture_in_the_United_States",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:42:13.868Z"
+      }
+    }
+  ],
   "wikidata": "Q5184212",
   "wikipedia": "Creole architecture in the United States",
   "popularity": 35,
@@ -73,5 +149,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:42:13.868Z"
 }

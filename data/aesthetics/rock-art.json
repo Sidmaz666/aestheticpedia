@@ -20,7 +20,33 @@
   "summary": "In archaeology, rock art refers to human-made markings placed on natural surfaces, typically vertical stone surfaces.",
   "description": "In archaeology, rock art refers to human-made markings placed on natural surfaces, typically vertical stone surfaces. A high proportion of surviving historic and prehistoric rock art is found in caves or partly enclosed rock shelters; this type also may be called cave art or parietal art. A global phenomenon, rock art is found in many culturally diverse regions of the world. It has been produced in many contexts throughout human history. In terms of technique, the four main groups are:\n\ncave paintings and petrographs,\n\npetroglyphs, which are carved or scratched into the rock surface,\n\nsculpted rock reliefs, and\n\ngeoglyphs, which are formed on the ground.\n\nThe oldest known rock art dates from the Upper Palaeolithic period, having been found in Europe, Australia, Asia, and Africa. Anthropologists studying these artworks believe that they likely had magico-religious significance.\n\nIn scholarly texts, a petroglyph is a rock engraving, whereas a petrograph or pictograph is a rock painting. In common usage, the words are sometimes used interchangeably.\n\nThe archaeological sub-discipline of rock art studies first developed in the late-19th century among Francophone scholars studying the rock art of the Upper Palaeolithic found in the cave systems of parts of Western Europe. Rock art continues to be of importance to indigenous peoples in various parts of the world, who view them as both sacred items and significant components of their cultural heritage. Such archaeological sites may become significant sources of cultural tourism and have been used in popular culture for their aesthetic qualities.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#9c9587",
+      "name": "stone"
+    },
+    {
+      "hex": "#d1b897",
+      "name": "tan"
+    },
+    {
+      "hex": "#c89e73",
+      "name": "camel"
+    },
+    {
+      "hex": "#a68059",
+      "name": "moss"
+    },
+    {
+      "hex": "#807763",
+      "name": "bronze"
+    },
+    {
+      "hex": "#686042",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,144 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Polonnaruwa.JPG/1280px-Polonnaruwa.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Polonnaruwa.JPG/500px-Polonnaruwa.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Polonnaruwa.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Polonnaruwa.JPG",
+      "caption": "Photo taken during a recent trip to Polonnaruwa, Sri Lanka",
+      "source": "Wikimedia Commons",
+      "artist": "v. tagariello",
+      "date": "11/01/2008",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "718"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Buddhas_at_ili.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Buddhas_at_ili.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Buddhas_at_ili.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Buddhas_at_ili.jpg",
+      "caption": "Buddhist stone carvings at Ili River, Kazakhstan",
+      "source": "Wikimedia Commons",
+      "artist": "Jonas Satkauskas",
+      "license": "Attribution",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Anbangbang_gallery_Mimi_rock_art_cropped.jpg/1280px-Anbangbang_gallery_Mimi_rock_art_cropped.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Anbangbang_gallery_Mimi_rock_art_cropped.jpg/500px-Anbangbang_gallery_Mimi_rock_art_cropped.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Anbangbang_gallery_Mimi_rock_art_cropped.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Anbangbang_gallery_Mimi_rock_art_cropped.jpg",
+      "caption": "Australian Aboriginal art en rock painting of Mimi spirits in the Anbangbang gallery at Nourlangie en in Kakadu National Park en .",
+      "source": "Wikimedia Commons",
+      "artist": "Photo by and ©2002 Dustin M. Ramsey ( Kralizec! )",
+      "date": "2002-07-24",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1280",
+      "height": "643"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Site_arch%C3%A9ologique_de_Bidzar4.jpg/1280px-Site_arch%C3%A9ologique_de_Bidzar4.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Site_arch%C3%A9ologique_de_Bidzar4.jpg/500px-Site_arch%C3%A9ologique_de_Bidzar4.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Site_arch%C3%A9ologique_de_Bidzar4.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Site_arch%C3%A9ologique_de_Bidzar4.jpg",
+      "caption": "The rock engravings of the archaeological site of Bidzar, located on the national road number 1 between Figuil and Maroua. Engravings with several centuries of existence.",
+      "source": "Wikimedia Commons",
+      "artist": "2ddanga",
+      "date": "2016-05-28 10:08:13",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Balma_dei_Cervi_rock_paintings.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Balma_dei_Cervi_rock_paintings.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Balma_dei_Cervi_rock_paintings.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Balma_dei_Cervi_rock_paintings.jpg",
+      "caption": "post-palaeolithic rock paintings in Italian western Alps (Piedmont): antropomorphic figures and dottings",
+      "source": "Wikimedia Commons",
+      "artist": "Ruparch",
+      "date": "2012-07-19",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1200",
+      "height": "827"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Laukaa_-_rock_painting2.jpg/1280px-Laukaa_-_rock_painting2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Laukaa_-_rock_painting2.jpg/500px-Laukaa_-_rock_painting2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Laukaa_-_rock_painting2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Laukaa_-_rock_painting2.jpg",
+      "caption": "Rock painting in Saraakallio, Laukaa.",
+      "source": "Wikimedia Commons",
+      "artist": "Tiia Monto",
+      "date": "2012-09-29 13:31:51",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1155"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Laas_Geel.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Laas_Geel.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Laas_Geel.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Laas_Geel.jpg",
+      "caption": "Some of the many paintings inside the Laas Geel caves, near Hargeisa in Somaliland/Somalia",
+      "source": "Wikimedia Commons",
+      "artist": "Abdullah Geelah",
+      "date": "2006-10-31",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "500",
+      "height": "333"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Southafrica468bushman.jpg/1280px-Southafrica468bushman.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Southafrica468bushman.jpg/500px-Southafrica468bushman.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/43/Southafrica468bushman.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Southafrica468bushman.jpg",
+      "caption": "My image from the Cederberg , South Africa, Feb 2007",
+      "source": "Wikimedia Commons",
+      "artist": "Jimfbleak at English Wikipedia",
+      "date": "26 February 2007 (original upload date)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "847"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Chongoni_Rock-Art_Area-110134.jpg/1280px-Chongoni_Rock-Art_Area-110134.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Chongoni_Rock-Art_Area-110134.jpg/500px-Chongoni_Rock-Art_Area-110134.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Chongoni_Rock-Art_Area-110134.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chongoni_Rock-Art_Area-110134.jpg",
+      "caption": "Chongoni Rock-Art Area (Malawi)",
+      "source": "Wikimedia Commons",
+      "artist": "Lazare Eloundou Assomo",
+      "license": "CC BY-SA 3.0 igo",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kohaito%2C_grotta_di_adi_alauti_con_pitture_rupestri_databili_al_2500_ac_ca._14_bestiame.JPG/1280px-Kohaito%2C_grotta_di_adi_alauti_con_pitture_rupestri_databili_al_2500_ac_ca._14_bestiame.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kohaito%2C_grotta_di_adi_alauti_con_pitture_rupestri_databili_al_2500_ac_ca._14_bestiame.JPG/500px-Kohaito%2C_grotta_di_adi_alauti_con_pitture_rupestri_databili_al_2500_ac_ca._14_bestiame.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/95/Kohaito%2C_grotta_di_adi_alauti_con_pitture_rupestri_databili_al_2500_ac_ca._14_bestiame.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kohaito,_grotta_di_adi_alauti_con_pitture_rupestri_databili_al_2500_ac_ca._14_bestiame.JPG",
+      "caption": "Adi Alauti Cave",
+      "source": "Wikimedia Commons",
+      "artist": "Sailko",
+      "date": "26 November 2015, 11:22:53",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Rock art",
@@ -65,7 +228,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1211146",
+      "url": "https://www.wikidata.org/wiki/Q1211146",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:06.294Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Rock art",
+      "url": "https://en.wikipedia.org/wiki/Rock_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:03:06.294Z"
+      }
+    }
+  ],
   "wikidata": "Q1211146",
   "wikipedia": "Rock art",
   "popularity": 35,
@@ -73,5 +259,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:03:06.294Z"
 }

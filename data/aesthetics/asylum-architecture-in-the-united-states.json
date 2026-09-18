@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Asylum architecture in the United States, including the architecture of psychiatric hospitals, affected the changing methods of treating the mentally ill in the nineteenth century: the architecture was considered part of the cure.",
   "description": "Asylum architecture in the United States, including the architecture of psychiatric hospitals, affected the changing methods of treating the mentally ill in the nineteenth century: the architecture was considered part of the cure. Doctors believed that ninety percent of insanity cases were curable, but only if treated outside the home, in large-scale buildings. Nineteenth-century psychiatrists considered the architecture of asylums, especially their planning, to be one of the most powerful tools for the treatment of the insane, targeting social as well as biological factors to facilitate the treatment of mental illnesses. The construction and usage of these quasi-public buildings served to legitimize developing ideas in psychiatry. About 300 psychiatric hospitals, known at the time as insane asylums or colloquially as “loony bins” or “nuthouses,” were constructed in the United States before 1900. Asylum architecture is notable for the way similar floor plans were built in a wide range of architectural styles.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bdbcb9",
+      "name": "silver"
+    },
+    {
+      "hex": "#5d5b58",
+      "name": "umber"
+    },
+    {
+      "hex": "#85868c",
+      "name": "taupe"
+    },
+    {
+      "hex": "#4a4643",
+      "name": "graphite"
+    },
+    {
+      "hex": "#9fa1a4",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#787067",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Wyoming_State_Insane_Asylum.jpeg/1280px-Wyoming_State_Insane_Asylum.jpeg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Wyoming_State_Insane_Asylum.jpeg/500px-Wyoming_State_Insane_Asylum.jpeg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/Wyoming_State_Insane_Asylum.jpeg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Wyoming_State_Insane_Asylum.jpeg",
+      "caption": "The Wyoming State Insane Asylum in Evanston , Wyoming , United States , is listed as a National Historic District on the National Register of Historic Places .",
+      "source": "Wikimedia Commons",
+      "artist": "Tricia Simpson",
+      "date": "2010-01-16",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Springfield_State_Hospital.jpg/1280px-Springfield_State_Hospital.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Springfield_State_Hospital.jpg/500px-Springfield_State_Hospital.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/39/Springfield_State_Hospital.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Springfield_State_Hospital.jpg",
+      "caption": "Men's Group at the Springfield State Hospital, Sykesville, Maryland",
+      "source": "Wikimedia Commons",
+      "artist": "Asylum geek1896",
+      "date": "July 6th 2025",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "935"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Asylum architecture in the United States",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q4812052",
+      "url": "https://www.wikidata.org/wiki/Q4812052",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:05.699Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Asylum architecture in the United States",
+      "url": "https://en.wikipedia.org/wiki/Asylum_architecture_in_the_United_States",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:05.699Z"
+      }
+    }
+  ],
   "wikidata": "Q4812052",
   "wikipedia": "Asylum architecture in the United States",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.767Z"
 }

@@ -17,7 +17,33 @@
   "summary": "Samping or Kain Dagang (Jawi: سمڤيڠ) is a traditional Malay costume originated from the court of Malacca, and is traditionally worn by men and women in Brunei, Malaysia, Indonesia, Singapore and southern Thailand.",
   "description": "Samping or Kain Dagang (Jawi: سمڤيڠ) is a traditional Malay costume originated from the court of Malacca, and is traditionally worn by men and women in Brunei, Malaysia, Indonesia, Singapore and southern Thailand. This type of traditional costume is a part of the national dress of Brunei and Malaysia.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fefefe",
+      "name": "ivory"
+    },
+    {
+      "hex": "#bda285",
+      "name": "sand"
+    },
+    {
+      "hex": "#dac6ae",
+      "name": "beige"
+    },
+    {
+      "hex": "#957456",
+      "name": "bronze"
+    },
+    {
+      "hex": "#7b5739",
+      "name": "umber"
+    },
+    {
+      "hex": "#773b1d",
+      "name": "sepia"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,34 @@
   "tags": [
     "traditional costume"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Istana_Negara_KL_2007_004.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/94/Istana_Negara_KL_2007_004.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/94/Istana_Negara_KL_2007_004.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Istana_Negara_KL_2007_004.jpg",
+      "caption": "Royal guard of the Malaysian Army outside the main gate of the Istana Negara, Kuala Lumpur.",
+      "source": "Wikimedia Commons",
+      "artist": "Gryffindor",
+      "date": "2007-12",
+      "license": "Public domain",
+      "width": "768",
+      "height": "1024"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BathingSuit1920s.jpg",
+      "caption": "Woman's bathing suit from 1920s. Photo postcard. No copyright notice on card. This is a SOL postcard, series 2832. Here is a larger example of the posted image.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "early 1920s date QS:P,+1920-00-00T00:00:00Z/8,P4241,Q4071972",
+      "license": "Public domain",
+      "width": "768",
+      "height": "490"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Samping",
@@ -62,7 +115,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q12511888",
+      "url": "https://www.wikidata.org/wiki/Q12511888",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:10.378Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Samping",
+      "url": "https://en.wikipedia.org/wiki/Samping",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:10.378Z"
+      }
+    }
+  ],
   "wikidata": "Q12511888",
   "wikipedia": "Samping",
   "popularity": 35,
@@ -70,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:04:10.378Z"
 }

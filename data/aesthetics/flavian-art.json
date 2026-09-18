@@ -17,7 +17,33 @@
   "summary": "Flavian art is the artistic production of the Roman Empire during the Flavian dynasty (emperors Vespasian, Titus, and Domitian) from 69 to 96 AD.",
   "description": "Flavian art is the artistic production of the Roman Empire during the Flavian dynasty (emperors Vespasian, Titus, and Domitian) from 69 to 96 AD.\n\nAlready at the time of Claudius and Nero, the style of sculpture began to separate itself from the neo-Attic Athenian art that dominated the late Republic. This style was almost definitively abandoned under the Flavian dynasty. It is not fully known what the catalyst for this change was.\n\nTwo major trends emerged in sculpture: the use of a more nuanced chiaroscuro in the bas-relief, and the use of placing the figures in a three-dimensional space with regard to the perspective of the viewer.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b48a66",
+      "name": "camel"
+    },
+    {
+      "hex": "#604e35",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#946947",
+      "name": "bronze"
+    },
+    {
+      "hex": "#bead9e",
+      "name": "khaki"
+    },
+    {
+      "hex": "#78716a",
+      "name": "slate"
+    },
+    {
+      "hex": "#3f7bca",
+      "name": "denim blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/ImageRomeArchofTitus02.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d4/ImageRomeArchofTitus02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d4/ImageRomeArchofTitus02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:ImageRomeArchofTitus02.jpg",
+      "caption": "Rome, Arch of Titus .",
+      "source": "Wikimedia Commons",
+      "artist": "Alexander Z.",
+      "date": "2006-01-04",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1218",
+      "height": "1533"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Arc_Titus_Forum_romanum_Rome_Italy.jpg/1280px-Arc_Titus_Forum_romanum_Rome_Italy.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Arc_Titus_Forum_romanum_Rome_Italy.jpg/500px-Arc_Titus_Forum_romanum_Rome_Italy.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Arc_Titus_Forum_romanum_Rome_Italy.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Arc_Titus_Forum_romanum_Rome_Italy.jpg",
+      "caption": "Reliefs at the Arch of Titus, Forum romanum, Rome, Italy.",
+      "source": "Wikimedia Commons",
+      "artist": "Jebulon",
+      "date": "2013-08-22",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1280",
+      "height": "984"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Rome_%28IT%29%2C_Kolosseum_--_2013_--_3400.jpg/1280px-Rome_%28IT%29%2C_Kolosseum_--_2013_--_3400.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Rome_%28IT%29%2C_Kolosseum_--_2013_--_3400.jpg/500px-Rome_%28IT%29%2C_Kolosseum_--_2013_--_3400.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Rome_%28IT%29%2C_Kolosseum_--_2013_--_3400.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rome_(IT),_Kolosseum_--_2013_--_3400.jpg",
+      "caption": "Colosseum , Rome , Italy",
+      "source": "Wikimedia Commons",
+      "artist": "Dietmar Rabich",
+      "date": "Taken on 19 October 2013, 14:19",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Flavian art",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3624130",
+      "url": "https://www.wikidata.org/wiki/Q3624130",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:21.914Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Flavian art",
+      "url": "https://en.wikipedia.org/wiki/Flavian_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:45:21.914Z"
+      }
+    }
+  ],
   "wikidata": "Q3624130",
   "wikipedia": "Flavian art",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:45:21.914Z"
 }

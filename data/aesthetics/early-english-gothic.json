@@ -14,17 +14,43 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
-  "periodStart": "",
+  "origin": "Kingdom of England",
+  "geography": "Kingdom of England",
+  "periodStart": "Middle Ages",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 476,
   "endYear": null,
-  "era": "",
+  "era": "5th century",
   "summary": "Early English Gothic (also First Pointed, Lancet Gothic or Early Gothic, abbreviated to E.E.) was the first phase of English Gothic architecture, distinguished by pointed arches, lancet windows and rib vaults.",
   "description": "Early English Gothic (also First Pointed, Lancet Gothic or Early Gothic, abbreviated to E.E.) was the first phase of English Gothic architecture, distinguished by pointed arches, lancet windows and rib vaults. It emerged from a combination of English Romanesque (Norman) and French Early Gothic (Primary Gothic) architecture, and was primarily used in churches. While it was related to contemporary French architecture, it had important differences that made it distinctively English, such as low interiors, flat (not apsidal) ends to churches and thick walls. The first notable buildings were constructed in the style in the 1170s and '80s, including Wells Cathedral and Lincoln Cathedral. While the style was centred on England and the English-controlled parts of Wales, it was also used in Scotland.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#676257",
+      "name": "umber"
+    },
+    {
+      "hex": "#787770",
+      "name": "slate"
+    },
+    {
+      "hex": "#4a4a3b",
+      "name": "graphite"
+    },
+    {
+      "hex": "#919490",
+      "name": "stone"
+    },
+    {
+      "hex": "#acb5bb",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#2d2f27",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -46,7 +72,148 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Salisbury_Cathedral_Nave%2C_Wiltshire%2C_UK_-_Diliff.jpg/1280px-Salisbury_Cathedral_Nave%2C_Wiltshire%2C_UK_-_Diliff.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Salisbury_Cathedral_Nave%2C_Wiltshire%2C_UK_-_Diliff.jpg/500px-Salisbury_Cathedral_Nave%2C_Wiltshire%2C_UK_-_Diliff.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Salisbury_Cathedral_Nave%2C_Wiltshire%2C_UK_-_Diliff.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Salisbury_Cathedral_Nave,_Wiltshire,_UK_-_Diliff.jpg",
+      "caption": "The nave of Salisbury Cathedral in Wiltshire, England, looking east from the font.",
+      "source": "Wikimedia Commons",
+      "artist": "Diliff",
+      "date": "2014-07-08",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1549"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Canterbury_Cathedral_the_Corona.jpg/1280px-Canterbury_Cathedral_the_Corona.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Canterbury_Cathedral_the_Corona.jpg/500px-Canterbury_Cathedral_the_Corona.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Canterbury_Cathedral_the_Corona.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Canterbury_Cathedral_the_Corona.jpg",
+      "caption": "The Corona, Canterbury Cathedral , Canterbury, Kent, the United Kingdom",
+      "source": "Wikimedia Commons",
+      "artist": "Ymblanter",
+      "date": "16 August 2015, 15:35:21 −01:00",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/01744_Glasgow_Cathedral_017.jpg/1280px-01744_Glasgow_Cathedral_017.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/01744_Glasgow_Cathedral_017.jpg/500px-01744_Glasgow_Cathedral_017.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/97/01744_Glasgow_Cathedral_017.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:01744_Glasgow_Cathedral_017.jpg",
+      "caption": "01744 Glasgow Cathedral 017",
+      "source": "Wikimedia Commons",
+      "artist": "WeeHolly",
+      "date": "2016-06-24 13:50:13",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "2274"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Salisbury_Cathedral_Interior_01.jpg/1280px-Salisbury_Cathedral_Interior_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Salisbury_Cathedral_Interior_01.jpg/500px-Salisbury_Cathedral_Interior_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/65/Salisbury_Cathedral_Interior_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Salisbury_Cathedral_Interior_01.jpg",
+      "caption": "Salisbury Cathedral: rib-vaulting of nave clerestory.",
+      "source": "Wikimedia Commons",
+      "artist": "Moody 75 from Phoenix, AZ (currently)",
+      "date": "2007-01-29 07:54",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/%22Crazy_vaults%22_at_Lincoln_cathedral_quire.JPG/1280px-%22Crazy_vaults%22_at_Lincoln_cathedral_quire.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/%22Crazy_vaults%22_at_Lincoln_cathedral_quire.JPG/500px-%22Crazy_vaults%22_at_Lincoln_cathedral_quire.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/%22Crazy_vaults%22_at_Lincoln_cathedral_quire.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%22Crazy_vaults%22_at_Lincoln_cathedral_quire.JPG",
+      "caption": "Asymmetric vaulting of the quire of Lincoln Cathedral known as \"crazy vaults\"",
+      "source": "Wikimedia Commons",
+      "artist": "DrMoschi",
+      "date": "2013-03-16 14:03:59",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Raunds01.JPG/1280px-Raunds01.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Raunds01.JPG/500px-Raunds01.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Raunds01.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Raunds01.JPG",
+      "caption": "St Peter's Church, Raunds",
+      "source": "Wikimedia Commons",
+      "artist": "Brixtonhill",
+      "date": "2011-06-16 03:49:43",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Medieval_architectural_element%2C_Roll_Rib_%28FindID_450050%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Medieval_architectural_element%2C_Roll_Rib_%28FindID_450050%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Medieval_architectural_element%2C_Roll_Rib_%28FindID_450050%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Medieval_architectural_element,_Roll_Rib_(FindID_450050).jpg",
+      "caption": "A carved Medieval limestone architectural element from an ecclesiastical building. The stone takes the form of a sub-rectangular piece of limestone, with a roughly flat reverse and a longitudinal groove along each side length. The face of the stone has been carved in high relief ",
+      "source": "Wikimedia Commons",
+      "artist": "Oxfordshire County Council, Anni Byard, 2011-06-23 17:00:46",
+      "date": "between 1180 and 1275 date QS:P571,+1500-00-00T00:00:00Z/6,P",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1074",
+      "height": "1902"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Canterbury_Cathedral_Becket%27s_Crown%2C_Kent%2C_UK_-_Diliff.jpg/1280px-Canterbury_Cathedral_Becket%27s_Crown%2C_Kent%2C_UK_-_Diliff.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Canterbury_Cathedral_Becket%27s_Crown%2C_Kent%2C_UK_-_Diliff.jpg/500px-Canterbury_Cathedral_Becket%27s_Crown%2C_Kent%2C_UK_-_Diliff.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Canterbury_Cathedral_Becket%27s_Crown%2C_Kent%2C_UK_-_Diliff.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Canterbury_Cathedral_Becket%27s_Crown,_Kent,_UK_-_Diliff.jpg",
+      "caption": "Becket's Crown, the eastern most point of Canterbury Cathedral in Kent, England.",
+      "source": "Wikimedia Commons",
+      "artist": "Diliff",
+      "date": "2014-07-28",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1647"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/The_abbey_Cellarium%2C_Fountains_Abbey%2C_Ripon.jpg/1280px-The_abbey_Cellarium%2C_Fountains_Abbey%2C_Ripon.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/The_abbey_Cellarium%2C_Fountains_Abbey%2C_Ripon.jpg/500px-The_abbey_Cellarium%2C_Fountains_Abbey%2C_Ripon.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3b/The_abbey_Cellarium%2C_Fountains_Abbey%2C_Ripon.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_abbey_Cellarium,_Fountains_Abbey,_Ripon.jpg",
+      "caption": "The abbey Cellarium, Fountains Abbey, Ripon, England. Used as a store and also accommodation.",
+      "source": "Wikimedia Commons",
+      "artist": "Rosser1954",
+      "date": "2019-03-18 16:45:42",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "720"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Worcester_Cathedral_%2814598927326%29.jpg/1280px-Worcester_Cathedral_%2814598927326%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Worcester_Cathedral_%2814598927326%29.jpg/500px-Worcester_Cathedral_%2814598927326%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Worcester_Cathedral_%2814598927326%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Worcester_Cathedral_(14598927326).jpg",
+      "caption": "The Western Nave of Worcester Cathedral. It is Transitional Norman (1185). Just visible is the ground floor with pointed arches; above is the triforium which has 3 stepped round arches within an overall pointed arch; above that is the clerestory with a round arched window between",
+      "source": "Wikimedia Commons",
+      "artist": "Hugh Llewelyn from Keynsham, UK",
+      "date": "2014-07-10 19:46",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "852"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Early English Gothic",
@@ -69,7 +236,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q578577",
+      "url": "https://www.wikidata.org/wiki/Q578577",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:04.862Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Early English Gothic",
+      "url": "https://en.wikipedia.org/wiki/Early_English_Gothic",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:04.862Z"
+      }
+    }
+  ],
   "wikidata": "Q578577",
   "wikipedia": "Early English Gothic",
   "popularity": 35,
@@ -77,5 +267,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:05.467Z"
 }

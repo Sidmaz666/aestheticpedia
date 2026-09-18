@@ -12,15 +12,41 @@
   "confidence": 60,
   "origin": "",
   "geography": "",
-  "periodStart": "",
+  "periodStart": "Renaissance",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 1400,
   "endYear": null,
-  "era": "",
+  "era": "15th century",
   "summary": "Renaissance art (1350 – 1620) is the painting, sculpture, and decorative arts of the period of European history known as the Renaissance, which emerged as a distinct style in Italy in about AD 1400, in parallel with developments which occurred in philosophy, literature, music, science, and technology.",
   "description": "Renaissance art (1350 – 1620) is the painting, sculpture, and decorative arts of the period of European history known as the Renaissance, which emerged as a distinct style in Italy in about AD 1400, in parallel with developments which occurred in philosophy, literature, music, science, and technology. Renaissance art took as its foundation the art of Classical antiquity, perceived as the noblest of ancient traditions, but transformed that tradition by absorbing recent developments in the art of Northern Europe and by applying contemporary scientific knowledge. Along with Renaissance humanist philosophy, it spread throughout Europe, affecting both artists and their patrons with the development of new techniques and new artistic sensibilities. For art historians, Renaissance art marks the transition of Europe from the medieval period to the Early Modern age.\n\nThe body of art, including painting, sculpture, architecture, music and literature identified as \"Renaissance art\" was primarily produced during the 14th, 15th, and 16th centuries in Europe under the combined influences of an increased awareness of nature, a revival of classical learning, and a more individualistic view of man. Scholars no longer believe that the Renaissance marked an abrupt break with medieval values, as is suggested by the French word renaissance, literally meaning \"rebirth\". In many parts of Europe, Early Renaissance art was created in parallel with Late Medieval art.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#161513",
+      "name": "black"
+    },
+    {
+      "hex": "#44331e",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#74512e",
+      "name": "walnut brown 2"
+    },
+    {
+      "hex": "#886c49",
+      "name": "bronze"
+    },
+    {
+      "hex": "#988365",
+      "name": "moss"
+    },
+    {
+      "hex": "#b29e83",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,138 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Piero_della_Francesca_-_Baptism_of_Christ_-_WGA17595.jpg/1280px-Piero_della_Francesca_-_Baptism_of_Christ_-_WGA17595.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Piero_della_Francesca_-_Baptism_of_Christ_-_WGA17595.jpg/500px-Piero_della_Francesca_-_Baptism_of_Christ_-_WGA17595.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Piero_della_Francesca_-_Baptism_of_Christ_-_WGA17595.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Piero_della_Francesca_-_Baptism_of_Christ_-_WGA17595.jpg",
+      "caption": "Baptism of Jesus",
+      "source": "Wikimedia Commons",
+      "artist": "Piero della Francesca",
+      "date": "between 1448 and 1450 date QS:P571,+1450-00-00T00:00:00Z/7,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1870"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Ghent_Altarpiece_Google_Art_Project.jpg/1280px-Ghent_Altarpiece_Google_Art_Project.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Ghent_Altarpiece_Google_Art_Project.jpg/500px-Ghent_Altarpiece_Google_Art_Project.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ghent_Altarpiece_Google_Art_Project.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ghent_Altarpiece_Google_Art_Project.jpg",
+      "caption": "Lamb of God Annunciation",
+      "source": "Wikimedia Commons",
+      "artist": "Jan van Eyck / Presumably Hubert van Eyck",
+      "date": "1432",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "944"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Tiziano_-_Amor_Sacro_y_Amor_Profano_%28Galer%C3%ADa_Borghese%2C_Roma%2C_1514%29.jpg/1280px-Tiziano_-_Amor_Sacro_y_Amor_Profano_%28Galer%C3%ADa_Borghese%2C_Roma%2C_1514%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Tiziano_-_Amor_Sacro_y_Amor_Profano_%28Galer%C3%ADa_Borghese%2C_Roma%2C_1514%29.jpg/500px-Tiziano_-_Amor_Sacro_y_Amor_Profano_%28Galer%C3%ADa_Borghese%2C_Roma%2C_1514%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Tiziano_-_Amor_Sacro_y_Amor_Profano_%28Galer%C3%ADa_Borghese%2C_Roma%2C_1514%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tiziano_-_Amor_Sacro_y_Amor_Profano_(Galer%C3%ADa_Borghese,_Roma,_1514).jpg",
+      "caption": "Italian: Amor sacro e Amor profano Sacred and Profane Love",
+      "source": "Wikimedia Commons",
+      "artist": "Titian",
+      "date": "between circa 1514 and circa 1515 date QS:P,+1514-00-00T00:0",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "508"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Albrecht_D%C3%BCrer_-_Adam_and_Eve_%28Prado%29_2.jpg/1280px-Albrecht_D%C3%BCrer_-_Adam_and_Eve_%28Prado%29_2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Albrecht_D%C3%BCrer_-_Adam_and_Eve_%28Prado%29_2.jpg/500px-Albrecht_D%C3%BCrer_-_Adam_and_Eve_%28Prado%29_2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Albrecht_D%C3%BCrer_-_Adam_and_Eve_%28Prado%29_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Adam_and_Eve_(Prado)_2.jpg",
+      "caption": "Adam and Eve",
+      "source": "Wikimedia Commons",
+      "artist": "Albrecht Dürer",
+      "date": "1507 date QS:P571,+1507-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1607"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/500px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+      "caption": "Depicts the goddess Venus, having emerged from the sea as a fully grown woman, arriving at the sea-shore. The seashell she stands on was a symbol in classical antiquity for a woman's vulva. Thought to be based in part on the Venus de' Medici , an ancient Greek marble sculpture of",
+      "source": "Wikimedia Commons",
+      "artist": "Sandro Botticelli",
+      "date": "1485",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "804"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Giotto_-_Scrovegni_-_-36-_-_Lamentation_%28The_Mourning_of_Christ%29_adj.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Giotto_-_Scrovegni_-_-36-_-_Lamentation_%28The_Mourning_of_Christ%29_adj.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Giotto_-_Scrovegni_-_-36-_-_Lamentation_%28The_Mourning_of_Christ%29_adj.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-36-_-_Lamentation_(The_Mourning_of_Christ)_adj.jpg",
+      "caption": "Lamentation of Christ",
+      "source": "Wikimedia Commons",
+      "artist": "Giotto",
+      "date": "between 1304 and 1306 date QS:P571,+1304-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "1000",
+      "height": "925"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Donatello_-_David_-_Floren%C3%A7a.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Donatello_-_David_-_Floren%C3%A7a.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Donatello_-_David_-_Floren%C3%A7a.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Donatello_-_David_-_Floren%C3%A7a.jpg",
+      "caption": "A bronze statue of David by Donatello",
+      "source": "Wikimedia Commons",
+      "artist": "original file by Patrick A. Rodgers",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1066",
+      "height": "1719"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Jean_Fouquet.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/51/Jean_Fouquet.png",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/51/Jean_Fouquet.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Jean_Fouquet.png",
+      "caption": "Jean Fouquet, self-portrait",
+      "source": "Wikimedia Commons",
+      "artist": "Jean Fouquet",
+      "date": "1450 date QS:P571,+1450-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "941",
+      "height": "953"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/El_Descendimiento%2C_by_Rogier_van_der_Weyden%2C_from_Prado_in_Google_Earth.jpg/1280px-El_Descendimiento%2C_by_Rogier_van_der_Weyden%2C_from_Prado_in_Google_Earth.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/El_Descendimiento%2C_by_Rogier_van_der_Weyden%2C_from_Prado_in_Google_Earth.jpg/500px-El_Descendimiento%2C_by_Rogier_van_der_Weyden%2C_from_Prado_in_Google_Earth.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/El_Descendimiento%2C_by_Rogier_van_der_Weyden%2C_from_Prado_in_Google_Earth.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:El_Descendimiento,_by_Rogier_van_der_Weyden,_from_Prado_in_Google_Earth.jpg",
+      "caption": "Descent from the Cross crucifixion of Jesus",
+      "source": "Wikimedia Commons",
+      "artist": "Rogier van der Weyden",
+      "date": "between 1435 and 1438 date QS:P571,+1435-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "993"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Hey_Moulins_Triptych.jpg/1280px-Hey_Moulins_Triptych.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Hey_Moulins_Triptych.jpg/500px-Hey_Moulins_Triptych.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/34/Hey_Moulins_Triptych.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hey_Moulins_Triptych.jpg",
+      "caption": "The Moulins Triptych",
+      "source": "Wikimedia Commons",
+      "artist": "Jean Hey",
+      "date": "between 1498 and 1499 date QS:P571,+1498-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "716"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Renaissance art",
@@ -65,7 +222,41 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "images",
+      "title": "Wikimedia Commons — Renaissance art",
+      "url": "https://commons.wikimedia.org/wiki/Category:Renaissance_art",
+      "note": "Freely licensed photographs and scans",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:21.309Z"
+      }
+    },
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1133779",
+      "url": "https://www.wikidata.org/wiki/Q1133779",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:21.309Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Renaissance art",
+      "url": "https://en.wikipedia.org/wiki/Renaissance_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:02:21.309Z"
+      }
+    }
+  ],
   "wikidata": "Q1133779",
   "wikipedia": "Renaissance art",
   "popularity": 35,
@@ -73,5 +264,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:51.065Z"
 }

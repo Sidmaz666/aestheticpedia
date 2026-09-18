@@ -21,7 +21,33 @@
   "summary": "Educational architecture, also known as school architecture or school building design, is a specialized branch of commercial architecture where the building design is focused for the primary purpose of educational instruction, such as schools and universities, as well as other educational institutions.",
   "description": "Educational architecture, also known as school architecture or school building design, is a specialized branch of commercial architecture where the building design is focused for the primary purpose of educational instruction, such as schools and universities, as well as other educational institutions. The design of a building can significantly influence the learning experience of students. Additionally, because schools are important sources of traffic, employment and community activities, school buildings often act as anchor institutions in neighborhoods or communities.\n\nVarious countries have gone through significant changes in philosophies associated with educational institutions, influenced by trends in investment by governments as well as larger changes in educational philosophy.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#403428",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#96c3f1",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#16150e",
+      "name": "black"
+    },
+    {
+      "hex": "#665449",
+      "name": "umber"
+    },
+    {
+      "hex": "#157ecd",
+      "name": "denim blue"
+    },
+    {
+      "hex": "#877e68",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,63 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Princeton_University_Graduate_College%2C_NJ_-_looking_north.jpg/1280px-Princeton_University_Graduate_College%2C_NJ_-_looking_north.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Princeton_University_Graduate_College%2C_NJ_-_looking_north.jpg/500px-Princeton_University_Graduate_College%2C_NJ_-_looking_north.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Princeton_University_Graduate_College%2C_NJ_-_looking_north.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Princeton_University_Graduate_College,_NJ_-_looking_north.jpg",
+      "caption": "The Princeton University Graduate College in Princeton, New Jersey . The Pyne Tower is on the left, and the Cleveland Tower is on the right.",
+      "source": "Wikimedia Commons",
+      "artist": "Zeete",
+      "date": "2023-07-30 12:07:23",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Royal_College_of_Science_%28Imperial_College_London%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Royal_College_of_Science_%28Imperial_College_London%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Royal_College_of_Science_%28Imperial_College_London%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Royal_College_of_Science_(Imperial_College_London).jpg",
+      "caption": "Royal College of Science",
+      "source": "Wikimedia Commons",
+      "artist": "Academy Architecture and Architectural Review.",
+      "date": "1901",
+      "license": "Attribution",
+      "width": "833",
+      "height": "326"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Victoria_Building%2C_University_of_Liverpool_2019.jpg/1280px-Victoria_Building%2C_University_of_Liverpool_2019.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Victoria_Building%2C_University_of_Liverpool_2019.jpg/500px-Victoria_Building%2C_University_of_Liverpool_2019.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Victoria_Building%2C_University_of_Liverpool_2019.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Victoria_Building,_University_of_Liverpool_2019.jpg",
+      "caption": "Across the plaza from the corner of the Reilly Building",
+      "source": "Wikimedia Commons",
+      "artist": "Rodhullandemu",
+      "date": "2019-08-17 15:41:29",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1005"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Geisel-Library.jpg/1280px-Geisel-Library.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Geisel-Library.jpg/500px-Geisel-Library.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Geisel-Library.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Geisel-Library.jpg",
+      "caption": "Geisel Library at the University of California, San Diego .",
+      "source": "Wikimedia Commons",
+      "artist": "Ben Lunsford",
+      "date": "2008-05-26",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Educational architecture",
@@ -66,7 +148,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q61826372",
+      "url": "https://www.wikidata.org/wiki/Q61826372",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:13.526Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Educational architecture",
+      "url": "https://en.wikipedia.org/wiki/Educational_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:13.526Z"
+      }
+    }
+  ],
   "wikidata": "Q61826372",
   "wikipedia": "Educational architecture",
   "popularity": 35,
@@ -74,5 +179,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:44:13.526Z"
 }

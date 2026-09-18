@@ -19,7 +19,33 @@
   "summary": "Brâncovenesc art or Brâncovenesc style (Romanian pronunciation: [brɨŋkovenesk]; Romanian: artă brâncovenească or stil brâncovenesc), also known as the Wallachian Renaissance or the Romanian Renaissance, is an artistic style that evolved during the administration of Prince Constan",
   "description": "Brâncovenesc art or Brâncovenesc style (Romanian pronunciation: [brɨŋkovenesk]; Romanian: artă brâncovenească or stil brâncovenesc), also known as the Wallachian Renaissance or the Romanian Renaissance, is an artistic style that evolved during the administration of Prince Constantin Brâncoveanu in the late 17th and early 18th centuries. Brâncoveanu was the domn and voivode of the Principality of Wallachia (between 1688 and 1714), an extremely wealthy aristocrat, and a builder of fine palaces and churches. Brâncovenesc art was mostly focused on architecture, but also manifested through painting and sculpture.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e2e7ed",
+      "name": "paper white"
+    },
+    {
+      "hex": "#6c8ab3",
+      "name": "slate"
+    },
+    {
+      "hex": "#ac8b68",
+      "name": "camel"
+    },
+    {
+      "hex": "#d5aa7d",
+      "name": "tan"
+    },
+    {
+      "hex": "#52462d",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#d0c7c0",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,50 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Iglesia_Kretzulescu%2C_Bucarest%2C_Ruman%C3%ADa%2C_2016-05-29%2C_DD_68.jpg/1280px-Iglesia_Kretzulescu%2C_Bucarest%2C_Ruman%C3%ADa%2C_2016-05-29%2C_DD_68.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Iglesia_Kretzulescu%2C_Bucarest%2C_Ruman%C3%ADa%2C_2016-05-29%2C_DD_68.jpg/500px-Iglesia_Kretzulescu%2C_Bucarest%2C_Ruman%C3%ADa%2C_2016-05-29%2C_DD_68.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Iglesia_Kretzulescu%2C_Bucarest%2C_Ruman%C3%ADa%2C_2016-05-29%2C_DD_68.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Iglesia_Kretzulescu,_Bucarest,_Ruman%C3%ADa,_2016-05-29,_DD_68.jpg",
+      "caption": "Kretzulescu Church, Bucharest, Romania",
+      "source": "Wikimedia Commons",
+      "artist": "Diego Delso",
+      "date": "Taken on 29 May 2016, 18:07:27",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "857"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Horezu_Monastery_Church.jpg/1280px-Horezu_Monastery_Church.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Horezu_Monastery_Church.jpg/500px-Horezu_Monastery_Church.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/00/Horezu_Monastery_Church.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Horezu_Monastery_Church.jpg",
+      "caption": "The Church of Sts, Constantine and Helen, Horezu Monastery",
+      "source": "Wikimedia Commons",
+      "artist": "Ymblanter",
+      "date": "2016-08-10 12:39:23",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Palatul_Brancovenesc_Potlogi-2025_%28cropped%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Palatul_Brancovenesc_Potlogi-2025_%28cropped%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Palatul_Brancovenesc_Potlogi-2025_%28cropped%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Palatul_Brancovenesc_Potlogi-2025_(cropped).jpg",
+      "caption": "Constantin Brâncoveanu's Palace in Potlogi.",
+      "source": "Wikimedia Commons",
+      "artist": "V.A. Zerva",
+      "date": "2025-08-17",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": "1171",
+      "height": "692"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Brâncovenesc art",
@@ -64,7 +133,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q460596",
+      "url": "https://www.wikidata.org/wiki/Q460596",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:04.757Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Brâncovenesc art",
+      "url": "https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:39:04.757Z"
+      }
+    }
+  ],
   "wikidata": "Q460596",
   "wikipedia": "Brâncovenesc art",
   "popularity": 35,
@@ -72,5 +164,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:39:04.757Z"
 }

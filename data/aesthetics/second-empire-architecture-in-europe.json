@@ -17,7 +17,33 @@
   "summary": "Second Empire architecture is an architectural style rooted in the 16th-century Renaissance, which grew to its greatest popularity in Europe in the second half of the nineteenth century and early years of the twentieth century.",
   "description": "Second Empire architecture is an architectural style rooted in the 16th-century Renaissance, which grew to its greatest popularity in Europe in the second half of the nineteenth century and early years of the twentieth century. As the style evolved from its origins, it acquired a mix of European styles, most notably the Baroque, often combined with mansard roofs and low, square based domes. It derived its name from the Second French Empire of Napoleon III.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#8b857e",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a9a298",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#6f6456",
+      "name": "umber"
+    },
+    {
+      "hex": "#473f37",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#c5beb3",
+      "name": "silver"
+    },
+    {
+      "hex": "#c9d2de",
+      "name": "periwinkle"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,78 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Paris_Opera_full_frontal_architecture%2C_May_2009.jpg/1280px-Paris_Opera_full_frontal_architecture%2C_May_2009.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Paris_Opera_full_frontal_architecture%2C_May_2009.jpg/500px-Paris_Opera_full_frontal_architecture%2C_May_2009.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Paris_Opera_full_frontal_architecture%2C_May_2009.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paris_Opera_full_frontal_architecture,_May_2009.jpg",
+      "caption": "South façade of the Opéra Garnier in Paris, France.",
+      "source": "Wikimedia Commons",
+      "artist": "Peter Rivera",
+      "date": "2009-05-01 05:34:45",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "860"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Monte_Carlo_Monaco_February_2013_-_panoramio.jpg/1280px-Monte_Carlo_Monaco_February_2013_-_panoramio.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Monte_Carlo_Monaco_February_2013_-_panoramio.jpg/500px-Monte_Carlo_Monaco_February_2013_-_panoramio.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Monte_Carlo_Monaco_February_2013_-_panoramio.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Monte_Carlo_Monaco_February_2013_-_panoramio.jpg",
+      "caption": "Monte Carlo Monaco February 2013",
+      "source": "Wikimedia Commons",
+      "artist": "Bengt Nyman",
+      "date": "Taken on 24 February 2013",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "813"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Front_of_Brussels_Stock_Exchange_2023_cropped.jpg/1280px-Front_of_Brussels_Stock_Exchange_2023_cropped.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Front_of_Brussels_Stock_Exchange_2023_cropped.jpg/500px-Front_of_Brussels_Stock_Exchange_2023_cropped.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/Front_of_Brussels_Stock_Exchange_2023_cropped.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Front_of_Brussels_Stock_Exchange_2023_cropped.jpg",
+      "caption": "Façade of the Brussels Stock Exchange in 2023",
+      "source": "Wikimedia Commons",
+      "artist": "Guy Delsaut",
+      "date": "2023-09-28",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "930"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Burgtheater_Weitwinkel.jpg/1280px-Burgtheater_Weitwinkel.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Burgtheater_Weitwinkel.jpg/500px-Burgtheater_Weitwinkel.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Burgtheater_Weitwinkel.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Burgtheater_Weitwinkel.jpg",
+      "caption": "Burgtheater Weitwinkel",
+      "source": "Wikimedia Commons",
+      "artist": "Thomas Ledl",
+      "date": "2013-09-02",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "606"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Methodist_Central_Hall.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/10/Methodist_Central_Hall.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/10/Methodist_Central_Hall.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Methodist_Central_Hall.JPG",
+      "caption": "Westminster (Methodist) Central Hall, London",
+      "source": "Wikimedia Commons",
+      "artist": "Gt-man",
+      "date": "2006",
+      "license": "CC BY-SA 2.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+      "width": "1200",
+      "height": "1600"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Second Empire architecture in Europe",
@@ -62,7 +159,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q27958345",
+      "url": "https://www.wikidata.org/wiki/Q27958345",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:27.951Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Second Empire architecture in Europe",
+      "url": "https://en.wikipedia.org/wiki/Second_Empire_architecture_in_Europe",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:27.951Z"
+      }
+    }
+  ],
   "wikidata": "Q27958345",
   "wikipedia": "Second Empire architecture in Europe",
   "popularity": 35,
@@ -70,5 +190,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:04:27.951Z"
 }

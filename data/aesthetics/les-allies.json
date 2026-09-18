@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "France",
+  "geography": "France",
   "periodStart": "1910s",
   "periodEnd": "",
   "startYear": 1914,
@@ -39,7 +39,21 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Dufy_Les_Allies.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/36/Dufy_Les_Allies.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/36/Dufy_Les_Allies.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dufy_Les_Allies.jpg",
+      "caption": "Les Alliés. Printed handkerchief designed by Raoul Dufy, published by Bianchini Férier and sold by Charvet in 1915. The pattern was printed by Bianchini Férier under reference n° 51412 and registered on May 15, 1915. Raoul Dufy transferred all his copyrights to Bianchini Férier b",
+      "source": "Wikimedia Commons",
+      "artist": "Designed by Raoul Dufy, produced by Bianchini-Férier, sold by Charvet",
+      "date": "1914",
+      "license": "Public domain",
+      "width": "1000",
+      "height": "1000"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Les Alliés (woodcut)",
@@ -62,7 +76,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q25710737",
+      "url": "https://www.wikidata.org/wiki/Q25710737",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:25.426Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Les Alliés (woodcut)",
+      "url": "https://en.wikipedia.org/wiki/Les_Alli%C3%A9s_(woodcut)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:25.426Z"
+      }
+    }
+  ],
   "wikidata": "Q25710737",
   "wikipedia": "Les Alliés (woodcut)",
   "popularity": 35,
@@ -70,5 +107,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:27.658Z"
 }

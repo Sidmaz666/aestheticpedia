@@ -62,7 +62,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7238096",
+      "url": "https://www.wikidata.org/wiki/Q7238096",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:13.130Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Praise Song for the Day",
+      "url": "https://en.wikipedia.org/wiki/Praise_Song_for_the_Day",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:01:13.130Z"
+      }
+    }
+  ],
   "wikidata": "Q7238096",
   "wikipedia": "Praise Song for the Day",
   "popularity": 35,
@@ -70,5 +93,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:01:13.130Z"
 }

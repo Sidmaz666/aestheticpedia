@@ -17,7 +17,33 @@
   "summary": "A Gesamtkunstwerk (German: [ɡəˈzamtˌkʊnstvɛʁk] , 'total work of art', 'ideal work of art', 'universal artwork', 'synthesis of the arts', 'comprehensive artwork', or 'all-embracing art form') is a work of art that makes use of all or many art forms or strives to do so.",
   "description": "A Gesamtkunstwerk (German: [ɡəˈzamtˌkʊnstvɛʁk] , 'total work of art', 'ideal work of art', 'universal artwork', 'synthesis of the arts', 'comprehensive artwork', or 'all-embracing art form') is a work of art that makes use of all or many art forms or strives to do so. The term is a German loanword accepted in English as a term in aesthetics.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#523428",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#7093dd",
+      "name": "lavender"
+    },
+    {
+      "hex": "#695449",
+      "name": "umber"
+    },
+    {
+      "hex": "#2d1510",
+      "name": "black"
+    },
+    {
+      "hex": "#bd9d80",
+      "name": "camel"
+    },
+    {
+      "hex": "#827976",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,160 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Tassel_House_stairway.JPG/1280px-Tassel_House_stairway.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Tassel_House_stairway.JPG/500px-Tassel_House_stairway.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/af/Tassel_House_stairway.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tassel_House_stairway.JPG",
+      "caption": "Stairway of Tassel House , Brussels",
+      "source": "Wikimedia Commons",
+      "artist": "Henry Townsend",
+      "date": "2002-09",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1084"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Horta_Museum.JPG/1280px-Horta_Museum.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Horta_Museum.JPG/500px-Horta_Museum.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Horta_Museum.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Horta_Museum.JPG",
+      "caption": "Horta Museum, Brussels.",
+      "source": "Wikimedia Commons",
+      "artist": "J. Miers - User: (WT-shared) Jtesla16 at wts wikivoyage",
+      "date": "2008-06",
+      "license": "CC BY-SA 1.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/1.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Bruxelles_-_Palais_Stoclet_%2810%29.jpg/1280px-Bruxelles_-_Palais_Stoclet_%2810%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Bruxelles_-_Palais_Stoclet_%2810%29.jpg/500px-Bruxelles_-_Palais_Stoclet_%2810%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bruxelles_-_Palais_Stoclet_%2810%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bruxelles_-_Palais_Stoclet_(10).jpg",
+      "caption": "Woluwe-Saint-Pierre. Avenue de Tervueren The luxurious mansion was designed for the Belgian businessman Adolphe Stoclet. Interior design was made by Gustav Klimt and Fernand Khnopff ; the building was a transition between Art Nouveau and Art Deco. Arch. Josef Hoffmann 1905-11.",
+      "source": "Wikimedia Commons",
+      "artist": "Fred Romero from Paris, France",
+      "date": "Taken on 14 June 2015, 09:36",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/22_11_01_Palau_DSCF2611_52502512616_cc1e7db845_k.jpg/1280px-22_11_01_Palau_DSCF2611_52502512616_cc1e7db845_k.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/22_11_01_Palau_DSCF2611_52502512616_cc1e7db845_k.jpg/500px-22_11_01_Palau_DSCF2611_52502512616_cc1e7db845_k.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/22_11_01_Palau_DSCF2611_52502512616_cc1e7db845_k.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:22_11_01_Palau_DSCF2611_52502512616_cc1e7db845_k.jpg",
+      "caption": "Palau de la Música Catalana",
+      "source": "Wikimedia Commons",
+      "artist": "Ralf Roletschek",
+      "date": "2022-11-01",
+      "license": "GFDL 1.2",
+      "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+      "width": "1280",
+      "height": "858"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Parc_guell_-_panoramio.jpg/1280px-Parc_guell_-_panoramio.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Parc_guell_-_panoramio.jpg/500px-Parc_guell_-_panoramio.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/33/Parc_guell_-_panoramio.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Parc_guell_-_panoramio.jpg",
+      "caption": "Parc guell - panoramio",
+      "source": "Wikimedia Commons",
+      "artist": "essetefano",
+      "date": "Taken on 29 August 2010",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/The_Municipal_House_%28Obecni_Dum%29%2C_Prague_-_8856.jpg/1280px-The_Municipal_House_%28Obecni_Dum%29%2C_Prague_-_8856.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/The_Municipal_House_%28Obecni_Dum%29%2C_Prague_-_8856.jpg/500px-The_Municipal_House_%28Obecni_Dum%29%2C_Prague_-_8856.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/45/The_Municipal_House_%28Obecni_Dum%29%2C_Prague_-_8856.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Municipal_House_(Obecni_Dum),_Prague_-_8856.jpg",
+      "caption": "The Municipal House (Obecní Dum), Prague",
+      "source": "Wikimedia Commons",
+      "artist": "Jorge Royan",
+      "date": "2008",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Room_de_Luxe.jpg/1280px-Room_de_Luxe.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Room_de_Luxe.jpg/500px-Room_de_Luxe.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/61/Room_de_Luxe.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Room_de_Luxe.jpg",
+      "caption": "The Room de Luxe at The Willow Tearooms , Glasgow designed by Charles Rennie Mackintosh in collaboration with Margaret MacDonald for Catherine Cranston . photograph taken on 9 March 2006 by User:Dave souza . Any re-use to contain this licence notice and to attribute the work to w",
+      "source": "Wikimedia Commons",
+      "artist": "No machine-readable author provided. Dave souza assumed (based on copyright claims).",
+      "date": "10 March 2006 (original upload date)",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Moscow._Ryabushinsky_House._Interiors._Main_stairs_-_004.JPG/1280px-Moscow._Ryabushinsky_House._Interiors._Main_stairs_-_004.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Moscow._Ryabushinsky_House._Interiors._Main_stairs_-_004.JPG/500px-Moscow._Ryabushinsky_House._Interiors._Main_stairs_-_004.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/99/Moscow._Ryabushinsky_House._Interiors._Main_stairs_-_004.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Moscow._Ryabushinsky_House._Interiors._Main_stairs_-_004.JPG",
+      "caption": "Moscow. Ryabushinsky House. Interiors. Main staircase",
+      "source": "Wikimedia Commons",
+      "artist": "Shesmax",
+      "date": "Taken on 28 July 2013, 12:57:45",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Gresham_Palace_-_Stierch_02.jpg/1280px-Gresham_Palace_-_Stierch_02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Gresham_Palace_-_Stierch_02.jpg/500px-Gresham_Palace_-_Stierch_02.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Gresham_Palace_-_Stierch_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gresham_Palace_-_Stierch_02.jpg",
+      "caption": "Gresham Palace",
+      "source": "Wikimedia Commons",
+      "artist": "Sarah Stierch",
+      "date": "2013-06-19 13:50:19",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": "1280",
+      "height": "1920"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Woluwe-St-Pierre_-_Hoffmann_050917_%281%29.jpg/1280px-Woluwe-St-Pierre_-_Hoffmann_050917_%281%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Woluwe-St-Pierre_-_Hoffmann_050917_%281%29.jpg/500px-Woluwe-St-Pierre_-_Hoffmann_050917_%281%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Woluwe-St-Pierre_-_Hoffmann_050917_%281%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Woluwe-St-Pierre_-_Hoffmann_050917_(1).jpg",
+      "caption": "View of Stoclet Palace from avenue de Tervuren, Brussels, Belgium (1905/1911 - Architect: Joseph Hoffmann)",
+      "source": "Wikimedia Commons",
+      "artist": "Josef Hoffmann",
+      "date": "2005-09-17",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/De-Gesamtkunstwerk.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "De-Gesamtkunstwerk",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:De-Gesamtkunstwerk.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 2,
+      "artist": "Jeuwre",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gesamtkunstwerk",
@@ -62,7 +241,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q858403",
+      "url": "https://www.wikidata.org/wiki/Q858403",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:05.455Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Gesamtkunstwerk",
+      "url": "https://en.wikipedia.org/wiki/Gesamtkunstwerk",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:05.455Z"
+      }
+    }
+  ],
   "wikidata": "Q858403",
   "wikipedia": "Gesamtkunstwerk",
   "popularity": 35,
@@ -70,5 +272,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:47:05.455Z"
 }

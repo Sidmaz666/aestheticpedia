@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United States",
+  "geography": "United States",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "Seattle box is a regional style of residential architecture that was popular in Seattle, Washington and elsewhere in the Pacific Northwest in the early 1900s.",
   "description": "Seattle box is a regional style of residential architecture that was popular in Seattle, Washington and elsewhere in the Pacific Northwest in the early 1900s.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#4d4841",
+      "name": "graphite"
+    },
+    {
+      "hex": "#333028",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#151411",
+      "name": "black"
+    },
+    {
+      "hex": "#6a6662",
+      "name": "umber"
+    },
+    {
+      "hex": "#848281",
+      "name": "taupe"
+    },
+    {
+      "hex": "#fbfcfc",
+      "name": "ivory"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Seattle_-_1017_23rd_Avenue_E.jpg/1280px-Seattle_-_1017_23rd_Avenue_E.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Seattle_-_1017_23rd_Avenue_E.jpg/500px-Seattle_-_1017_23rd_Avenue_E.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/82/Seattle_-_1017_23rd_Avenue_E.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Seattle_-_1017_23rd_Avenue_E.jpg",
+      "caption": "1017 23rd Avenue E, Capitol Hill, Seattle, Washington. Built in 1909 for mining engineer John J. Mancy.",
+      "source": "Wikimedia Commons",
+      "artist": "Joe Mabel",
+      "date": "Taken on 4 September 2009",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Seattle_-_1514_Fourth_Ave_N_01.jpg/1280px-Seattle_-_1514_Fourth_Ave_N_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Seattle_-_1514_Fourth_Ave_N_01.jpg/500px-Seattle_-_1514_Fourth_Ave_N_01.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/99/Seattle_-_1514_Fourth_Ave_N_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Seattle_-_1514_Fourth_Ave_N_01.jpg",
+      "caption": "1514 Fourth Avenue N, Queen Anne Hill, Seattle, Washington.",
+      "source": "Wikimedia Commons",
+      "artist": "Joe Mabel",
+      "date": "2009-11-12",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "850"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Seattle_-_Craftsman_revival_houses.jpg/1280px-Seattle_-_Craftsman_revival_houses.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Seattle_-_Craftsman_revival_houses.jpg/500px-Seattle_-_Craftsman_revival_houses.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Seattle_-_Craftsman_revival_houses.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Seattle_-_Craftsman_revival_houses.jpg",
+      "caption": "Recently constructed houses in the Craftsman style in the 300 block of 16th Avenue, Squire Park, Seattle, Washington, USA.",
+      "source": "Wikimedia Commons",
+      "artist": "Joe Mabel",
+      "date": "2009-05-14",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Seattle box",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q23134517",
+      "url": "https://www.wikidata.org/wiki/Q23134517",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:26.738Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Seattle box",
+      "url": "https://en.wikipedia.org/wiki/Seattle_box",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:04:26.738Z"
+      }
+    }
+  ],
   "wikidata": "Q23134517",
   "wikipedia": "Seattle box",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:54.483Z"
 }

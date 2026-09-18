@@ -9,15 +9,41 @@
   "confidence": 60,
   "origin": "Duchy of Burgundy, France",
   "geography": "Duchy of Burgundy, France",
-  "periodStart": "",
+  "periodStart": "Middle Ages",
   "periodEnd": "",
-  "startYear": null,
+  "startYear": 476,
   "endYear": null,
-  "era": "",
+  "era": "5th century",
   "summary": "International Gothic is a period of Gothic art that began in Burgundy, France, and northern Italy in the late 14th and early 15th century.",
   "description": "International Gothic is a period of Gothic art that began in Burgundy, France, and northern Italy in the late 14th and early 15th century. It then spread very widely across Western Europe, hence the name for the period, which was introduced by the French art historian Louis Courajod at the end of the 19th century.\n\nThe spread of ideas and portable works, such as illuminated manuscripts throughout Europe led to consensus among artists and their patrons that considerably reduced variation in national styles. The main influences were northern France, the Duchy of Burgundy, Flanders and Brabant, the Imperial court in Prague, and Italy. Royal marriages such as that between Richard II of England and Anne of Bohemia helped to spread the style.\n\nIt was initially a style of courtly sophistication, but somewhat more robust versions spread to art commissioned by the emerging mercantile classes and the smaller nobility.  In Northern Europe \"Late Gothic\" continuations of the style, especially in its decorative elements, could still be found until the early 16th century, as no alternative decorative vocabulary emerged locally to replace it before the Renaissance revival of Classicism.\n\nUsage of the terms by art historians varies somewhat, with some using the term more restrictively than others.  Some art historians feel the term is \"in many ways ... not very helpful ... since it tends to skate over both differences and details of transmission.\"",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#96754b",
+      "name": "bronze"
+    },
+    {
+      "hex": "#3b322c",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#715129",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#a69176",
+      "name": "stone"
+    },
+    {
+      "hex": "#645c54",
+      "name": "umber"
+    },
+    {
+      "hex": "#c4b292",
+      "name": "khaki"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,138 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/La_oraci%C3%B3n_en_el_huerto_con_el_donante_Luis_I_de_Orleans.jpg/1280px-La_oraci%C3%B3n_en_el_huerto_con_el_donante_Luis_I_de_Orleans.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/La_oraci%C3%B3n_en_el_huerto_con_el_donante_Luis_I_de_Orleans.jpg/500px-La_oraci%C3%B3n_en_el_huerto_con_el_donante_Luis_I_de_Orleans.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/49/La_oraci%C3%B3n_en_el_huerto_con_el_donante_Luis_I_de_Orleans.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:La_oraci%C3%B3n_en_el_huerto_con_el_donante_Luis_I_de_Orleans.jpg",
+      "caption": "Agony in the Garden",
+      "source": "Wikimedia Commons",
+      "artist": "Possibly Colart de Laon / Colart de Laon",
+      "date": "between 1405 and 1408 date QS:P571,+1405-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1826"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Prag_Votivbild_Ocko.jpg/1280px-Prag_Votivbild_Ocko.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Prag_Votivbild_Ocko.jpg/500px-Prag_Votivbild_Ocko.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Prag_Votivbild_Ocko.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Prag_Votivbild_Ocko.jpg",
+      "caption": "Fragment of votive picture of Archbishop John Ocko of Vlasim.",
+      "source": "Wikimedia Commons",
+      "artist": "PetrusSilesius",
+      "date": "2008-03",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "960"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/MMW_10B23_002R_MINMJean_de_Vaudetar.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ad/MMW_10B23_002R_MINMJean_de_Vaudetar.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/ad/MMW_10B23_002R_MINMJean_de_Vaudetar.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:MMW_10B23_002R_MINMJean_de_Vaudetar.jpg",
+      "caption": "MMW 10B23 002R MINMJean de Vaudetar",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "750",
+      "height": "1124"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/The_Wilton_Diptych_%28left%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a2/The_Wilton_Diptych_%28left%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a2/The_Wilton_Diptych_%28left%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Wilton_Diptych_(left).jpg",
+      "caption": "Richard II of England with his patron saints. The Wilton Diptych (c.1395-1399) is a portable altarpiece taking the form of a diptych. It was painted for King Richard II.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown Master, French (second half of 14th century)",
+      "date": "1395 date QS:P571,+1395-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "634",
+      "height": "957"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Wilton_diptych%3B_right-hand_panel.jpg/1280px-Wilton_diptych%3B_right-hand_panel.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Wilton_diptych%3B_right-hand_panel.jpg/500px-Wilton_diptych%3B_right-hand_panel.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Wilton_diptych%3B_right-hand_panel.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Wilton_diptych;_right-hand_panel.jpg",
+      "caption": "Christ, the Madonna and angels. The Wilton Diptych (c. 1395–1399) is a portable altarpiece taking the form of a diptych, painted for King Richard II. This is the right-hand panel.",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown Master, English or French (second half of 14th century)",
+      "date": "1395 date QS:P571,+1395-00-00T00:00:00Z/9",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1989"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Konrad_von_Soest_Crucifixion.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Konrad_von_Soest_Crucifixion.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Konrad_von_Soest_Crucifixion.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Konrad_von_Soest_Crucifixion.jpg",
+      "caption": "The Crucifixion",
+      "source": "Wikimedia Commons",
+      "artist": "Conrad von Soest",
+      "date": "1404 or 1414",
+      "license": "Public domain",
+      "width": "815",
+      "height": "786"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Folio_51v_-_The_Meeting_of_the_Magi.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Folio_51v_-_The_Meeting_of_the_Magi.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Folio_51v_-_The_Meeting_of_the_Magi.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Folio_51v_-_The_Meeting_of_the_Magi.jpg",
+      "caption": "Chaque roi dirige un cortège. Les trois groupes prennent la direction d'un édicule situé au centre, appelé aussi « montjoye », surmonté de l'étoile. Les rois mages représentent les trois âges de la vie : l'adolescent, l'homme et le vieillard. Gaspard, le jeune en haut à droite, e",
+      "source": "Wikimedia Commons",
+      "artist": "Limbourg brothers",
+      "date": "between 1411 and 1416 date QS:P571,+1411-00-00T00:00:00Z/8,P",
+      "license": "Public domain",
+      "width": "1238",
+      "height": "1831"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Don_Lorenzo_Monaco_001.jpg/1280px-Don_Lorenzo_Monaco_001.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Don_Lorenzo_Monaco_001.jpg/500px-Don_Lorenzo_Monaco_001.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Don_Lorenzo_Monaco_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Don_Lorenzo_Monaco_001.jpg",
+      "caption": "adoration of the Magi",
+      "source": "Wikimedia Commons",
+      "artist": "Lorenzo Monaco",
+      "date": "1420-1422",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1067"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Torun_SS_Johns_Mary_Magdalene.jpg/1280px-Torun_SS_Johns_Mary_Magdalene.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Torun_SS_Johns_Mary_Magdalene.jpg/500px-Torun_SS_Johns_Mary_Magdalene.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/Torun_SS_Johns_Mary_Magdalene.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Torun_SS_Johns_Mary_Magdalene.jpg",
+      "caption": "Elevation of Mary Magdalene with angels raising her. International Gothic style, 14th century. SS. Johns' Cathedral in Toruń, Poland. Mary Magdalene depicted wearing a full-body hair shirt, traditional garb for Jewish penitents.",
+      "source": "Wikimedia Commons",
+      "artist": "Pko",
+      "date": "2006-04-06",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "width": "1280",
+      "height": "1706"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Roudnicka_madona.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/43/Roudnicka_madona.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/43/Roudnicka_madona.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Roudnicka_madona.jpg",
+      "caption": "Madonna of Roudnice, Czech republic, 1385-1390, Author: Master of Altar of Trebon.",
+      "source": "Wikimedia Commons",
+      "artist": "Master of Altar of Trebon",
+      "date": "between 1385 and 1390 date QS:P,+1350-00-00T00:00:00Z/7,P131",
+      "license": "Public domain",
+      "width": "725",
+      "height": "975"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — International Gothic",
@@ -62,7 +219,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q867769",
+      "url": "https://www.wikidata.org/wiki/Q867769",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:13.655Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — International Gothic",
+      "url": "https://en.wikipedia.org/wiki/International_Gothic",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:13.655Z"
+      }
+    }
+  ],
   "wikidata": "Q867769",
   "wikipedia": "International Gothic",
   "popularity": 35,
@@ -70,5 +250,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.833Z"
 }

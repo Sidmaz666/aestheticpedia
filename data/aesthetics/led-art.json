@@ -17,7 +17,33 @@
   "summary": "LED art is a form of light art constructed from light-emitting diodes.",
   "description": "LED art is a form of light art constructed from light-emitting diodes. LEDs (light emitting diodes) are very inexpensive to purchase and have become a new way to make street art. Many artists who use LEDs are guerrilla artists, incorporating LEDs to produce temporary pieces in public places. LEDs may be used in installation art, sculptural pieces and interactive artworks.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5e423e",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#2a252c",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#926a5f",
+      "name": "bronze"
+    },
+    {
+      "hex": "#354475",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#c2a493",
+      "name": "khaki"
+    },
+    {
+      "hex": "#d9e1d8",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,50 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Multiverse_light_sculpture_-_HDR.jpg/1280px-Multiverse_light_sculpture_-_HDR.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Multiverse_light_sculpture_-_HDR.jpg/500px-Multiverse_light_sculpture_-_HDR.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Multiverse_light_sculpture_-_HDR.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Multiverse_light_sculpture_-_HDR.jpg",
+      "caption": "An HDR image of the Multiverse LED light sculpture, located in the Concourse walkway between the East and West Buildings of the National Gallery of Art, Washington, D.C.",
+      "source": "Wikimedia Commons",
+      "artist": "Northside777",
+      "date": "2016-01-28 02:40:11",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "855"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Kinetic_striangle4.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/98/Kinetic_striangle4.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/Kinetic_striangle4.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kinetic_striangle4.jpg",
+      "caption": "Kinetic artwork created with steel and LEDs",
+      "source": "Wikimedia Commons",
+      "artist": "Mark Allyn",
+      "date": "2008-12-16",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "598",
+      "height": "542"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/LedThrowies_-_Flickr_-_Q_Branch.jpg/1280px-LedThrowies_-_Flickr_-_Q_Branch.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/LedThrowies_-_Flickr_-_Q_Branch.jpg/500px-LedThrowies_-_Flickr_-_Q_Branch.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/7/74/LedThrowies_-_Flickr_-_Q_Branch.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:LedThrowies_-_Flickr_-_Q_Branch.jpg",
+      "caption": "LedThrowies - Flickr - Q Branch",
+      "source": "Wikimedia Commons",
+      "artist": "Q Branch",
+      "date": "Taken on 4 February 2006, 00:37",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — LED art",
@@ -62,7 +131,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1798004",
+      "url": "https://www.wikidata.org/wiki/Q1798004",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:23.775Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — LED art",
+      "url": "https://en.wikipedia.org/wiki/LED_art",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:52:23.775Z"
+      }
+    }
+  ],
   "wikidata": "Q1798004",
   "wikipedia": "LED art",
   "popularity": 35,
@@ -70,5 +162,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:52:23.775Z"
 }

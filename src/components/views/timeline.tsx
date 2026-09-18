@@ -85,7 +85,7 @@ export function TimelineView({ items }: { items: Item[] }) {
         </div>
         <div className="mt-1.5 grid grid-cols-[repeat(20,minmax(0,1fr))] gap-1 font-mono text-[9px] text-fg-subtle">
           {groups.map((g, i) => (
-            <span key={g.id} className={`truncate text-center ${i % 2 ? 'hidden sm:block' : ''}`}>
+            <span key={g.id} className={`overflow-visible whitespace-nowrap text-center ${i % 4 ? 'invisible sm:visible' : ''}`}>
               {g.id === 'ancient' ? 'Ant.' : g.id === 'medieval' ? 'Med.' : g.id.replace('00s', '00')}
             </span>
           ))}
@@ -108,9 +108,17 @@ export function TimelineView({ items }: { items: Item[] }) {
                 {g.items.map((it) => (
                   <li key={it.slug}>
                     <Link href={`/aesthetics/${it.slug}`} prefetch={false} className="group block">
-                      <span className="relative block aspect-[4/3] overflow-hidden rounded-lg ring-1 ring-inset ring-line" style={it.image ? { backgroundColor: it.colors[0]?.hex } : paletteArt(it.colors, it.name.length)}>
+                      <span className="relative block aspect-[4/3] overflow-hidden rounded-lg ring-1 ring-inset ring-line" style={paletteArt(it.colors, it.name.length)}>
                         {it.image && (
-                          <img src={it.image} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" className="size-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                          <img
+                            src={it.image}
+                            alt=""
+                            loading="lazy"
+                            decoding="async"
+                            referrerPolicy="no-referrer"
+                            onError={(e) => (e.currentTarget.style.display = 'none')}
+                            className="size-full object-cover transition-transform duration-700 group-hover:scale-105"
+                          />
                         )}
                         <span className="absolute left-2 top-2 rounded-full bg-black/55 px-2 py-0.5 font-mono text-[10px] text-white backdrop-blur">
                           {year(it.startYear)}

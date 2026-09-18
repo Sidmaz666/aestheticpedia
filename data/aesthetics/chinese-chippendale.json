@@ -17,7 +17,33 @@
   "summary": "In architecture,  Chinese Chippendale refers to a specific kind of railing or balustrade that was inspired by the \"Chinese Chippendale\" designs of cabinetmaker Thomas Chippendale.",
   "description": "In architecture,  Chinese Chippendale refers to a specific kind of railing or balustrade that was inspired by the \"Chinese Chippendale\" designs of cabinetmaker Thomas Chippendale. The infill between the top and bottom rails and the vertical supports is a series of interlocking diagonals, although rectilinear designs exist as well. The term may also be applied to latticework.\n\nThe design was popular in the United States in the late 18th and early 19th centuries. Prominent examples of the style exist on the wing terraces and uppermost balustrade at Thomas Jefferson's Monticello.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#513527",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#e8e8ea",
+      "name": "paper white"
+    },
+    {
+      "hex": "#372212",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#cdcbcd",
+      "name": "silver"
+    },
+    {
+      "hex": "#7c7266",
+      "name": "bronze"
+    },
+    {
+      "hex": "#9a9288",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,18 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Monticello_from_north_2008.jpg/1280px-Monticello_from_north_2008.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Monticello_from_north_2008.jpg/500px-Monticello_from_north_2008.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Monticello_from_north_2008.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Monticello_from_north_2008.jpg",
+      "caption": "Monticello from north 2008",
+      "source": "Wikimedia Commons",
+      "width": "1280",
+      "height": "857"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Chinese Chippendale (architecture)",
@@ -62,7 +99,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q5100411",
+      "url": "https://www.wikidata.org/wiki/Q5100411",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:04.878Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Chinese Chippendale (architecture)",
+      "url": "https://en.wikipedia.org/wiki/Chinese_Chippendale_(architecture)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:04.878Z"
+      }
+    }
+  ],
   "wikidata": "Q5100411",
   "wikipedia": "Chinese Chippendale (architecture)",
   "popularity": 35,
@@ -70,5 +130,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:41:04.878Z"
 }

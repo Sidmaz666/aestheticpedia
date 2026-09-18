@@ -21,7 +21,33 @@
   "summary": "Kappazuri (合羽摺), also known as kappa-zuri, kappazuri-e (合羽摺絵), and as katagamizuri-e (型紙摺絵), are Japanese prints printed in a single color (usually black) from woodblocks and then colored by stenciling.",
   "description": "Kappazuri (合羽摺), also known as kappa-zuri, kappazuri-e (合羽摺絵), and as katagamizuri-e (型紙摺絵), are Japanese prints printed in a single color (usually black) from woodblocks and then colored by stenciling.  Prints produced entirely by stenciling, without woodblocks, are also called kappazuri.  Kappazuri may be identified by the presence of visible brushstrokes, unevenness of color, pooling of ink at the margins of the stencil cutouts, and gaps or overlaps between colored areas and black outlines.\n\nAlthough also produced in Edo (Tokyo), Kappazuri are more closely associated with prints from Osaka and Kyoto.  The most prolific designer of Kappazuri was Urakusai Nagahide, and the most abundant examples are his depictions of the annual costume parade in the Gion district of Kyoto.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e7ceb1",
+      "name": "beige"
+    },
+    {
+      "hex": "#71675f",
+      "name": "umber"
+    },
+    {
+      "hex": "#a07e63",
+      "name": "stone"
+    },
+    {
+      "hex": "#99624d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#242624",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#c2aa90",
+      "name": "khaki"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,21 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Toshusai_Sharaku-_Otani_Oniji,_1794.jpg",
+      "caption": "Oniji Ōtani III (aka. Nakazō Nakamura II) as Edobee in the May 1794 production of Koi Nyōbo Somewake Tazuna at Edo Kawarasaki-za theater. Polychrome woodcut print on paper; 15 x 9 7/8 in. (38.1 x 22.9 cm) Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939 (JP2822)",
+      "source": "Wikimedia Commons",
+      "artist": "Sharaku",
+      "date": "1794",
+      "license": "Public domain",
+      "width": "802",
+      "height": "1200"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Kappazuri",
@@ -66,7 +106,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3077939",
+      "url": "https://www.wikidata.org/wiki/Q3077939",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:25.974Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Kappazuri",
+      "url": "https://en.wikipedia.org/wiki/Kappazuri",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:51:25.974Z"
+      }
+    }
+  ],
   "wikidata": "Q3077939",
   "wikipedia": "Kappazuri",
   "popularity": 35,
@@ -74,5 +137,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:51:25.974Z"
 }

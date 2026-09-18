@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "United Kingdom",
+  "geography": "United Kingdom",
   "periodStart": "15th century",
   "periodEnd": "18th century",
   "startYear": 1485,
@@ -17,7 +17,33 @@
   "summary": "The English Renaissance was a cultural and artistic movement in England during the late 15th, 16th and early 17th centuries.",
   "description": "The English Renaissance was a cultural and artistic movement in England during the late 15th, 16th and early 17th centuries. It is associated with the pan-European Renaissance that is usually regarded as beginning in Italy in the late 14th century. As in most of the rest of Northern Europe, England saw little of these developments until more than a century later within the Northern Renaissance. Renaissance style and ideas were slow to penetrate England, and the Elizabethan era in the second half of the 16th century is usually regarded as the height of the English Renaissance. Many scholars see its beginnings in the early 16th century during the reign of Henry VIII. Others argue the Renaissance was already present in England in the late 15th century.\n\nThe English Renaissance is different from the Italian Renaissance in several ways. The dominant art forms of the English Renaissance were literature and music. Visual arts in the English Renaissance were much less significant than in the Italian Renaissance. The English period began far later than the Italian, which was moving into Mannerism and the Baroque by the 1550s or earlier.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#d1b074",
+      "name": "sand"
+    },
+    {
+      "hex": "#201f1d",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#443021",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#cfc8b6",
+      "name": "beige"
+    },
+    {
+      "hex": "#8d938f",
+      "name": "stone"
+    },
+    {
+      "hex": "#6a4921",
+      "name": "sepia"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,103 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/1280px-Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/500px-Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "caption": "Vitruvian Man",
+      "source": "Wikimedia Commons",
+      "artist": "Leonardo da Vinci",
+      "date": "circa 1492 date QS:P571,+1492-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1740"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Family_of_Henry_VIII_c_1545.jpg/1280px-Family_of_Henry_VIII_c_1545.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Family_of_Henry_VIII_c_1545.jpg/500px-Family_of_Henry_VIII_c_1545.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Family_of_Henry_VIII_c_1545.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Family_of_Henry_VIII_c_1545.jpg",
+      "caption": "Left to Right: “Mother Jak”, Lady Mary, Prince Edward, Henry VIII, Jane Seymour (posthumous), Lady Elizabeth and Will Somers",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "circa 1545 date QS:P571,+1545-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "517"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/1280px-Shakespeare.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/500px-Shakespeare.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Shakespeare.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Shakespeare.jpg",
+      "caption": "This was long thought to be the only portrait of William Shakespeare that had any claim to have been painted from life, until another possible life portrait, the Cobbe portrait , was revealed in 2009. The portrait is known as the ' Chandos portrait ' after a previous owner, James",
+      "source": "Wikimedia Commons",
+      "artist": "Attributed to John Taylor",
+      "date": "1648",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1631"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Hampton_Court_Palace_%283037990094%29.jpg/1280px-Hampton_Court_Palace_%283037990094%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Hampton_Court_Palace_%283037990094%29.jpg/500px-Hampton_Court_Palace_%283037990094%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Hampton_Court_Palace_%283037990094%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hampton_Court_Palace_(3037990094).jpg",
+      "caption": "London - September 2008",
+      "source": "Wikimedia Commons",
+      "artist": "Cristian Bortes from Cluj-Napoca, Romania",
+      "date": "2008-09-12 17:37",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "720"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/73e55d5b-8076-f5d9-1dd6-309d29b1fdea/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/73e55d5b-8076-f5d9-1dd6-309d29b1fdea/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/73e55d5b-8076-f5d9-1dd6-309d29b1fdea/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/87763",
+      "caption": "Henry VIII, Elizabeth I, and Edward VI, 1597",
+      "source": "Art Institute of Chicago",
+      "artist": "English",
+      "date": "1597",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "682"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/6d9e1363-0287-e938-6e8a-de9aa76692d5/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/6d9e1363-0287-e938-6e8a-de9aa76692d5/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/6d9e1363-0287-e938-6e8a-de9aa76692d5/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/30427",
+      "caption": "Adoration of the Magi, c. 1425–c. 1475",
+      "source": "Art Institute of Chicago",
+      "artist": "English",
+      "date": "c. 1425–c. 1475",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "1264"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b4ccdf0f-8b1b-2969-e447-5402cbe56985/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/b4ccdf0f-8b1b-2969-e447-5402cbe56985/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/b4ccdf0f-8b1b-2969-e447-5402cbe56985/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/14690",
+      "caption": "Fragment, Late 14th/15th century",
+      "source": "Art Institute of Chicago",
+      "artist": "Italy",
+      "date": "Late 14th/15th century",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "671"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — English Renaissance",
@@ -62,7 +184,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2272912",
+      "url": "https://www.wikidata.org/wiki/Q2272912",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:22.999Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — English Renaissance",
+      "url": "https://en.wikipedia.org/wiki/English_Renaissance",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:44:22.999Z"
+      }
+    }
+  ],
   "wikidata": "Q2272912",
   "wikipedia": "English Renaissance",
   "popularity": 35,
@@ -70,5 +215,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:08.249Z"
 }

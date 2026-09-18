@@ -17,7 +17,33 @@
   "summary": "A cholo or chola is a member of a Chicano and subculture or life-style associated with a particular set of dress, behavior and philosophy which originated in Los Angeles.",
   "description": "A cholo or chola is a member of a Chicano and subculture or life-style associated with a particular set of dress, behavior and philosophy which originated in Los Angeles. A veterano or veterana is an older member of the same subculture.  Other terms referring to male members of the subculture may include vato and vato loco. Cholo was first reclaimed by Chicano youth in the 1960s and emerged as a popular identification in the late 1970s. The subculture has historical roots in the Pachuco subculture, but today is largely equated with antisocial or criminal behavior such as gang activity.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#32352e",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#130f0a",
+      "name": "black"
+    },
+    {
+      "hex": "#585a55",
+      "name": "graphite"
+    },
+    {
+      "hex": "#706e64",
+      "name": "bronze"
+    },
+    {
+      "hex": "#6d8694",
+      "name": "slate"
+    },
+    {
+      "hex": "#979589",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,36 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Cacos_13%2C_Cholos_Neza.jpg/1280px-Cacos_13%2C_Cholos_Neza.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Cacos_13%2C_Cholos_Neza.jpg/500px-Cacos_13%2C_Cholos_Neza.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Cacos_13%2C_Cholos_Neza.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cacos_13,_Cholos_Neza.jpg",
+      "caption": "Cacos 13, Cholos Neza",
+      "source": "Wikimedia Commons",
+      "artist": "R. B",
+      "date": "2013-11-10 01:37:25",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "1280",
+      "height": "1027"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Eastside_Playboys_Varrior.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/64/Eastside_Playboys_Varrior.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/64/Eastside_Playboys_Varrior.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastside_Playboys_Varrior.jpg",
+      "caption": "Los Angeles, CA",
+      "source": "Wikimedia Commons",
+      "artist": "MzNobody",
+      "date": "2011-12-29",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "800",
+      "height": "600"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Cholo (subculture)",
@@ -62,7 +117,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q97355407",
+      "url": "https://www.wikidata.org/wiki/Q97355407",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:10.619Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Cholo (subculture)",
+      "url": "https://en.wikipedia.org/wiki/Cholo_(subculture)",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:41:10.619Z"
+      }
+    }
+  ],
   "wikidata": "Q97355407",
   "wikipedia": "Cholo (subculture)",
   "popularity": 35,
@@ -70,5 +148,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:41:10.619Z"
 }

@@ -17,7 +17,33 @@
   "summary": "Mozarabic art is an early medieval artistic style that is part of the pre-Romanesque style and emerged in al-Andalus and in the kingdom of León.",
   "description": "Mozarabic art is an early medieval artistic style that is part of the pre-Romanesque style and emerged in al-Andalus and in the kingdom of León. It's named after the Mozarabs (from musta'rab meaning \"Arabized\"), the Christians of al-Andalus. It was developed by the Hispanic Christians who lived in Arab-Muslim territory and in the expansion territories of the León crown, in the period from the Arab-Islamic Conquest of the Iberian Peninsula (711) to the end of the 11th century. During this period, disciplines such as painting, goldsmithing and architecture with marked Caliphate influences were cultivated in a context of medieval coexistence - Christian, Hebrew and Muslim - in which the territories were constantly changing in size and status. Other names for this artistic style are Leonese art or repopulation art.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#867e79",
+      "name": "taupe"
+    },
+    {
+      "hex": "#6e6863",
+      "name": "umber"
+    },
+    {
+      "hex": "#9e9b99",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#b7b7b7",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#d3d3d3",
+      "name": "bone white"
+    },
+    {
+      "hex": "#4a4b47",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,137 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Arcos_de_herradura_moz%C3%A1rabe_de_Santiago_de_Pe%C3%B1alba.jpg/1280px-Arcos_de_herradura_moz%C3%A1rabe_de_Santiago_de_Pe%C3%B1alba.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Arcos_de_herradura_moz%C3%A1rabe_de_Santiago_de_Pe%C3%B1alba.jpg/500px-Arcos_de_herradura_moz%C3%A1rabe_de_Santiago_de_Pe%C3%B1alba.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Arcos_de_herradura_moz%C3%A1rabe_de_Santiago_de_Pe%C3%B1alba.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Arcos_de_herradura_moz%C3%A1rabe_de_Santiago_de_Pe%C3%B1alba.jpg",
+      "caption": "Arcos de herradura mozárabe de Santiago de Peñalba, fotografía historica (año 1960).",
+      "source": "Wikimedia Commons",
+      "artist": "Fogar Mozárabe",
+      "date": "2022-10-09",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1280"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/San_Baudelio_Frontal.jpg/1280px-San_Baudelio_Frontal.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/San_Baudelio_Frontal.jpg/500px-San_Baudelio_Frontal.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/San_Baudelio_Frontal.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:San_Baudelio_Frontal.jpg",
+      "caption": "Vista exterior de la ermita de San Baudelio de Berlanga",
+      "source": "Wikimedia Commons",
+      "artist": "Julio Prieto",
+      "date": "2006-04",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Lebe%C3%B1a2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Lebe%C3%B1a2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Lebe%C3%B1a2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lebe%C3%B1a2.jpg",
+      "caption": "Lebeña2",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "709",
+      "height": "529"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/San_Juan_de_la_Pe%C3%B1a.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c0/San_Juan_de_la_Pe%C3%B1a.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c0/San_Juan_de_la_Pe%C3%B1a.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:San_Juan_de_la_Pe%C3%B1a.jpg",
+      "caption": "San Juan de la Peña",
+      "source": "Wikimedia Commons",
+      "artist": "Geheimnisträgerin",
+      "date": "2000-06",
+      "license": "Public domain",
+      "width": "1200",
+      "height": "770"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/AntifonarioDeLe%C3%B3n.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b3/AntifonarioDeLe%C3%B3n.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b3/AntifonarioDeLe%C3%B3n.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:AntifonarioDeLe%C3%B3n.jpg",
+      "caption": "AntifonarioDeLeón",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "604",
+      "height": "925"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Arcos_de_herradura_en_la_iglesia_de_Santiago_de_Pe%C3%B1alba.jpg/1280px-Arcos_de_herradura_en_la_iglesia_de_Santiago_de_Pe%C3%B1alba.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Arcos_de_herradura_en_la_iglesia_de_Santiago_de_Pe%C3%B1alba.jpg/500px-Arcos_de_herradura_en_la_iglesia_de_Santiago_de_Pe%C3%B1alba.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Arcos_de_herradura_en_la_iglesia_de_Santiago_de_Pe%C3%B1alba.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Arcos_de_herradura_en_la_iglesia_de_Santiago_de_Pe%C3%B1alba.jpg",
+      "caption": "Arcos de herradura en la entrada principal a la iglesia mozárabe de Santiago de Peñalba",
+      "source": "Wikimedia Commons",
+      "artist": "Fogar Mozárabe",
+      "date": "2021-07-02",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "1280",
+      "height": "1707"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/S_Millan_Cogolla_Suso_inside2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2d/S_Millan_Cogolla_Suso_inside2.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2d/S_Millan_Cogolla_Suso_inside2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:S_Millan_Cogolla_Suso_inside2.jpg",
+      "caption": "Date du cliché : septembre 2001.",
+      "source": "Wikimedia Commons",
+      "artist": "The original uploader was Jaume at French Wikipedia .",
+      "date": "24 September 2005 (original upload date)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "800",
+      "height": "572"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Lebe%C3%B1a4.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Lebe%C3%B1a4.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Lebe%C3%B1a4.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lebe%C3%B1a4.jpg",
+      "caption": "Lebeña4",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "709",
+      "height": "529"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Elephant_and_Castle_%28Fresco_in_San_Baudelio%2C_Spain%29.jpg/1280px-Elephant_and_Castle_%28Fresco_in_San_Baudelio%2C_Spain%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Elephant_and_Castle_%28Fresco_in_San_Baudelio%2C_Spain%29.jpg/500px-Elephant_and_Castle_%28Fresco_in_San_Baudelio%2C_Spain%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Elephant_and_Castle_%28Fresco_in_San_Baudelio%2C_Spain%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Elephant_and_Castle_(Fresco_in_San_Baudelio,_Spain).jpg",
+      "caption": "San Baudelio de Berlanga, Soria \"Elephant and Castle\"",
+      "source": "Wikimedia Commons",
+      "artist": "Unknown author Unknown author",
+      "date": "first half 12th C",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "1536"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/San_baudelio_de_berlanga.jpg/1280px-San_baudelio_de_berlanga.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/San_baudelio_de_berlanga.jpg/500px-San_baudelio_de_berlanga.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/San_baudelio_de_berlanga.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:San_baudelio_de_berlanga.jpg",
+      "caption": "Entrada de Jesús en Jerusalén, fresco traspasado a lienzo procedente de la ermita de San Baudelio de Berlanga (Soria), Indianapolis Museum of Art.",
+      "source": "Wikimedia Commons",
+      "artist": "Maestro de San Baudelio de Berlanga",
+      "date": "circa 1125 date QS:P571,+1125-00-00T00:00:00Z/9,P1480,Q57279",
+      "license": "Public domain",
+      "width": "1280",
+      "height": "746"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Mozarabic art and architecture",
@@ -62,7 +218,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1951304",
+      "url": "https://www.wikidata.org/wiki/Q1951304",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:06.651Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Mozarabic art and architecture",
+      "url": "https://en.wikipedia.org/wiki/Mozarabic_art_and_architecture",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:56:06.651Z"
+      }
+    }
+  ],
   "wikidata": "Q1951304",
   "wikipedia": "Mozarabic art and architecture",
   "popularity": 35,
@@ -70,5 +249,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T10:56:06.651Z"
 }

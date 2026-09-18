@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "British Hong Kong",
+  "geography": "British Hong Kong",
   "periodStart": "1970s",
   "periodEnd": "",
   "startYear": 1979,
@@ -17,7 +17,33 @@
   "summary": "The Hong Kong New Wave is a film movement in Chinese-language Hong Kong cinema that emerged in the late 1970s and lasted through the early 2000s until the present time.",
   "description": "The Hong Kong New Wave is a film movement in Chinese-language Hong Kong cinema that emerged in the late 1970s and lasted through the early 2000s until the present time.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0b0c0d",
+      "name": "black"
+    },
+    {
+      "hex": "#443d37",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#874249",
+      "name": "umber"
+    },
+    {
+      "hex": "#a96364",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#da9472",
+      "name": "camel"
+    },
+    {
+      "hex": "#f6c2a4",
+      "name": "peach"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Director_Ann_Hui_%40_Broadway_Cinematheque.JPG/1280px-Director_Ann_Hui_%40_Broadway_Cinematheque.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Director_Ann_Hui_%40_Broadway_Cinematheque.JPG/500px-Director_Ann_Hui_%40_Broadway_Cinematheque.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Director_Ann_Hui_%40_Broadway_Cinematheque.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Director_Ann_Hui_@_Broadway_Cinematheque.JPG",
+      "caption": "Hong Kong director Ann Hui answers questions following a screening of her latest film \"The Way We Are\" at the Broadway Cinematheque in Yau Ma Tei.",
+      "source": "Wikimedia Commons",
+      "artist": "Rmlowe",
+      "date": "2008-08-10",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "960"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Hong Kong New Wave",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q837388",
+      "url": "https://www.wikidata.org/wiki/Q837388",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:16.570Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Hong Kong New Wave",
+      "url": "https://en.wikipedia.org/wiki/Hong_Kong_New_Wave",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:49:16.570Z"
+      }
+    }
+  ],
   "wikidata": "Q837388",
   "wikipedia": "Hong Kong New Wave",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.841Z"
 }

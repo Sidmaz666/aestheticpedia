@@ -19,7 +19,33 @@
   "summary": "Veldskoene (\"FELT-skoona\") or colloquially vellies (\"FELL-ys\") are South African walking shoes made from vegetable-tanned leather or soft rawhide uppers attached to a leather footbed and rubber sole by a method known as stitchdown construction, done without tacks or nails.",
   "description": "Veldskoene (\"FELT-skoona\") or colloquially vellies (\"FELL-ys\") are South African walking shoes made from vegetable-tanned leather or soft rawhide uppers attached to a leather footbed and rubber sole by a method known as stitchdown construction, done without tacks or nails.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1e350f",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#b3adb1",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#9f989b",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#85807f",
+      "name": "taupe"
+    },
+    {
+      "hex": "#6a6762",
+      "name": "umber"
+    },
+    {
+      "hex": "#4a4c3f",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,22 @@
   "tags": [
     "fashion style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Veldskoen.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/51/Veldskoen.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/51/Veldskoen.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Veldskoen.jpg",
+      "caption": "Veldskoen or \"Vellies\" made by the Bata Company, 2015",
+      "source": "Wikimedia Commons",
+      "artist": "NickCB",
+      "date": "2015-05-17",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "960",
+      "height": "540"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Veldskoen",
@@ -64,7 +105,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q7918871",
+      "url": "https://www.wikidata.org/wiki/Q7918871",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:21.251Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Veldskoen",
+      "url": "https://en.wikipedia.org/wiki/Veldskoen",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T11:10:21.251Z"
+      }
+    }
+  ],
   "wikidata": "Q7918871",
   "wikipedia": "Veldskoen",
   "popularity": 35,
@@ -72,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:10:21.251Z"
 }

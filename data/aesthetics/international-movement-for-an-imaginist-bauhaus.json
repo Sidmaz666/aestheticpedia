@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "France",
+  "geography": "France",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -17,7 +17,33 @@
   "summary": "The International Movement for an Imaginist Bauhaus was a small European avant-garde artistic tendency that arose out of the breakup of CoBrA, and was initiated by contact between former CoBrA members Asger Jorn and Enrico Baj and Sergio Dangelo of the Nuclear Art Movement.",
   "description": "The International Movement for an Imaginist Bauhaus was a small European avant-garde artistic tendency that arose out of the breakup of CoBrA, and was initiated by contact between former CoBrA members Asger Jorn and Enrico Baj and Sergio Dangelo of the Nuclear Art Movement.\n\nWhen Asger Jorn recovered from tuberculosis in the autumn of 1952, he tried for a year to restart his career in Denmark. However, in autumn 1953 he moved to Villars-sur-Ollon in Switzerland. It was here he heard of the Hochschule fur Gestaltung in Ulm. However, when he wrote to Max Bill with a proposal for collaboration, it soon became apparent that their views were highly divergent. Jorn wrote in a letter to Enrico Baj: \"[A] Swiss architect, Max Bill, has undertaken to restructure the Bauhaus where Klee and Kandinsky taught. He wishes to make an academy without painting, without research into the imagination, fantasy, signs, symbols – all he wants is technical instruction. In the name of experimental artists I intend to create an International Movement For An Imaginist Bauhaus.\"",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fbf9f7",
+      "name": "ivory"
+    },
+    {
+      "hex": "#dcd9d7",
+      "name": "bone white"
+    },
+    {
+      "hex": "#c0bbb8",
+      "name": "silver"
+    },
+    {
+      "hex": "#a49e99",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#8c837d",
+      "name": "taupe"
+    },
+    {
+      "hex": "#6e6a68",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,49 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Situationist.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/66/Situationist.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/66/Situationist.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Situationist.jpg",
+      "caption": "Situationist grafitti, Menton, France, 2006 (the 1968 slogan Il est interdit d’interdire ! , “It is forbidden to forbid!”, with missing apostrophe).",
+      "source": "Wikimedia Commons",
+      "artist": "Espencat",
+      "date": "2008-04-20",
+      "license": "Public domain",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/ADORNO_by_LGdL.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3f/ADORNO_by_LGdL.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3f/ADORNO_by_LGdL.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:ADORNO_by_LGdL.JPG",
+      "caption": "German philosopher Theodor W. Adorno, by Leandro Gonzalez de Leon",
+      "source": "Wikimedia Commons",
+      "artist": "Primitivojumento",
+      "date": "2009-05-27",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "500",
+      "height": "534"
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/2bc4d353-e61a-7589-8585-2000a23689bb/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2bc4d353-e61a-7589-8585-2000a23689bb/full/400,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2bc4d353-e61a-7589-8585-2000a23689bb/full/1686,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/186047",
+      "caption": "Sideboard, Designed 1867, made c. 1876",
+      "source": "Art Institute of Chicago",
+      "artist": "Designed by Edward William Godwin (English, 1833-1886)",
+      "date": "Designed 1867, made c. 1876",
+      "license": "Public domain (CC0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "843",
+      "height": "602"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — International Movement for an Imaginist Bauhaus",
@@ -62,7 +130,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q3866634",
+      "url": "https://www.wikidata.org/wiki/Q3866634",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:13.874Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — International Movement for an Imaginist Bauhaus",
+      "url": "https://en.wikipedia.org/wiki/International_Movement_for_an_Imaginist_Bauhaus",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:50:13.874Z"
+      }
+    }
+  ],
   "wikidata": "Q3866634",
   "wikipedia": "International Movement for an Imaginist Bauhaus",
   "popularity": 35,
@@ -70,5 +161,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.855Z"
 }

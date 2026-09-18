@@ -7,8 +7,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "France",
+  "geography": "France",
   "periodStart": "17th century",
   "periodEnd": "18th century",
   "startYear": 1610,
@@ -17,7 +17,33 @@
   "summary": "Grand Siècle (French pronunciation: [ɡʁɑ̃ sjɛkl]) or Great Century refers to the period of French history during the 17th century, under the reigns of Louis XIII and Louis XIV.",
   "description": "Grand Siècle (French pronunciation: [ɡʁɑ̃ sjɛkl]) or Great Century refers to the period of French history during the 17th century, under the reigns of Louis XIII and Louis XIV.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#97bdd0",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#4b5946",
+      "name": "graphite"
+    },
+    {
+      "hex": "#627468",
+      "name": "slate"
+    },
+    {
+      "hex": "#b09660",
+      "name": "camel"
+    },
+    {
+      "hex": "#8f7e4a",
+      "name": "bronze"
+    },
+    {
+      "hex": "#cdb074",
+      "name": "sand"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,22 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Versailles_chateau.jpg/1280px-Versailles_chateau.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Versailles_chateau.jpg/500px-Versailles_chateau.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Versailles_chateau.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Versailles_chateau.jpg",
+      "caption": "Vue du château de Versailles depuis le parc",
+      "source": "Wikimedia Commons",
+      "artist": "Marc Vassal",
+      "date": "2007-09-02",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "851"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Grand Siècle",
@@ -62,7 +103,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q1434013",
+      "url": "https://www.wikidata.org/wiki/Q1434013",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:24.373Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Grand Siècle",
+      "url": "https://en.wikipedia.org/wiki/Grand_Si%C3%A8cle",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:47:24.373Z"
+      }
+    }
+  ],
   "wikidata": "Q1434013",
   "wikipedia": "Grand Siècle",
   "popularity": 35,
@@ -70,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:30:09.846Z"
 }

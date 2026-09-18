@@ -10,8 +10,8 @@
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
-  "origin": "",
-  "geography": "",
+  "origin": "Japan",
+  "geography": "Japan",
   "periodStart": "",
   "periodEnd": "",
   "startYear": null,
@@ -20,7 +20,33 @@
   "summary": "Azekura-zukuri (校倉造) or azekura is a Japanese architectural style of simple wooden construction, used for storehouses (kura), granaries, and other utilitarian structures.",
   "description": "Azekura-zukuri (校倉造) or azekura is a Japanese architectural style of simple wooden construction, used for storehouses (kura), granaries, and other utilitarian structures.  This style probably dates back to the early centuries of the Common Era, such as during the Yayoi or Kofun periods. It is characterized by joined-log structures of triangular cross-section, and is commonly made out of cypress timbers.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1d1917",
+      "name": "black"
+    },
+    {
+      "hex": "#6f6666",
+      "name": "umber"
+    },
+    {
+      "hex": "#86807c",
+      "name": "taupe"
+    },
+    {
+      "hex": "#55311a",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#bababe",
+      "name": "silver"
+    },
+    {
+      "hex": "#6b4e36",
+      "name": "umber 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,46 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Azekura-dukuri_JPN.JPG/1280px-Azekura-dukuri_JPN.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Azekura-dukuri_JPN.JPG/500px-Azekura-dukuri_JPN.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Azekura-dukuri_JPN.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Azekura-dukuri_JPN.JPG",
+      "caption": "Azekuradukuri/校倉造 in Todaiji",
+      "source": "Wikimedia Commons",
+      "artist": "ignis",
+      "date": "23/Dec./2005",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "853"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Shoso-in.jpg/1280px-Shoso-in.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Shoso-in.jpg/500px-Shoso-in.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/56/Shoso-in.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Shoso-in.jpg",
+      "caption": "Shoso-in",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "571"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/500px-Himeji_model7.JPG",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Himeji_model7.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Himeji_model7.JPG",
+      "caption": "Himeji model7",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "1280",
+      "height": "1707"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Azekura-zukuri",
@@ -65,7 +130,30 @@
       }
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "archive",
+      "title": "Wikidata — Q2875112",
+      "url": "https://www.wikidata.org/wiki/Q2875112",
+      "note": "Structured data: dates, places, people, identifiers",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:10.851Z"
+      }
+    },
+    {
+      "type": "article",
+      "title": "Wikipedia — Azekura-zukuri",
+      "url": "https://en.wikipedia.org/wiki/Azekura-zukuri",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T10:37:10.851Z"
+      }
+    }
+  ],
   "wikidata": "Q2875112",
   "wikipedia": "Azekura-zukuri",
   "popularity": 35,
@@ -73,5 +161,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:32:48.407Z"
+  "updatedAt": "2026-09-18T11:29:57.760Z"
 }
