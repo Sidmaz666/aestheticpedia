@@ -1,28 +1,22 @@
 'use client'
 
 /**
- * Visual example & live-demo components for Aesthetic Atlas.
+ * StyleDemo — a live demo suite that renders an aesthetic from its own record:
+ * palette, typography, textures, lighting and motion rules. Templates: browser
+ * window, magazine cover, editorial plate, gallery frame, event poster, UI kit,
+ * seamless pattern, type specimen, generative line art, painterly canvas study
+ * and a WebGL 3D material study (ShaderLab). "Auto" picks the template that fits
+ * the category. These are generated demonstrations of the record's data, clearly
+ * labelled as such — not documentary imagery.
  *
- * - VisualGallery: real example imagery fetched by the research pipeline.
- * - StyleDemo: a tabbed demo suite that re-renders the aesthetic from its own
- *   palette, typography, textures, lighting and motion rules. Twelve live
- *   templates: browser window, magazine cover, editorial plate, gallery frame,
- *   event poster, UI kit, seamless pattern, type specimen, generative line
- *   art, painterly canvas study and a WebGL 3D material study (ShaderLab).
- *   "Auto" maps the entry's category to the most fitting template.
- * - TextureSwatches: CSS-rendered texture chips (each texture becomes a
- *   deterministic visual pattern tinted with the entry's palette).
- * - PendingNotice: honest "decomposition queued" state for draft entries.
- *
- * Everything is derived deterministically from the entry data — seeded hashing
- * replaces Math.random, so SSR/CSR output always matches and the same entry
- * always renders the same demo.
+ * Deterministic: seeded hashing replaces Math.random, so SSR/CSR output matches
+ * and the same entry always renders the same demo.
  */
 
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { KeyboardEvent as ReactKeyboardEvent, ReactNode } from 'react'
-import { ImageIcon, Loader2, ScanEye, Search } from 'lucide-react'
-import { type AestheticFull, type ColorEntry, type ImageEntry } from '@/lib/aesthetic'
+import { ScanEye, Search } from 'lucide-react'
+import { type AestheticFull, type ColorEntry } from '@/lib/aesthetic'
 import { ShaderLab } from './shader-lab'
 
 /* ------------------------------ color utilities ------------------------------ */
@@ -1655,160 +1649,3 @@ function PaintingDemo({ a, p, bf, shadow, overlay }: DemoProps) {
   )
 }
 
-/* ------------------------------ texture swatches ------------------------------ */
-
-export function TextureSwatches({ textures, colors }: { textures: string[]; colors: ColorEntry[] }) {
-  // Texture keywords help pick a sensible preset palette when the entry's own palette is still empty.
-  const p = useMemo(() => derivePalette(colors, textures.join(' ')), [colors, textures])
-  if (textures.length === 0) return null
-  return (
-    <div className="flex flex-wrap gap-2.5">
-      {textures.slice(0, 6).map((t) => {
-        const pat = texturePattern(t, p)
-        return (
-          <figure key={t} className="w-24 shrink-0">
-            <div
-              className="h-16 w-full rounded-md border"
-              style={{
-                backgroundImage: pat.backgroundImage,
-                backgroundSize: pat.backgroundSize,
-                backgroundColor: p.bg,
-                borderColor: rgba(p.ink, 0.15),
-              }}
-              role="img"
-              aria-label={`Texture sample: ${t}`}
-              title={t}
-            />
-            <figcaption className="mt-1 truncate text-[10px] leading-tight text-fg-subtle" title={t}>
-              {t}
-            </figcaption>
-          </figure>
-        )
-      })}
-    </div>
-  )
-}
-
-/* ------------------------------ visual gallery ------------------------------ */
-
-function GalleryImage({ img, name, onFail }: { img: ImageEntry; name: string; onFail: () => void }) {
-  return (
-    <img
-      src={img.url}
-      alt={img.caption || `${name} visual example`}
-      loading="lazy"
-      decoding="async"
-      referrerPolicy="no-referrer"
-      onError={onFail}
-      className="aspect-[4/3] w-full cursor-zoom-in bg-surface-2 object-cover transition-transform duration-300 group-hover:scale-[1.04]"
-    />
-  )
-}
-
-export function VisualGallery({ images, name }: { images: ImageEntry[]; name: string }) {
-  const [failed, setFailed] = useState<Set<string>>(() => new Set())
-  const [zoomed, setZoomed] = useState<string | null>(null)
-  const visible = images.filter((i) => !failed.has(i.url))
-
-  // Escape closes the lightbox before the enclosing sheet.
-  useEffect(() => {
-    if (!zoomed) return
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') {
-        e.stopImmediatePropagation()
-        setZoomed(null)
-      }
-    }
-    window.addEventListener('keydown', onKey, true)
-    return () => window.removeEventListener('keydown', onKey, true)
-  }, [zoomed])
-  if (visible.length === 0) return null
-
-  return (
-    <section aria-label="Visual examples">
-      <div className="mb-3 flex items-center justify-between gap-3">
-        <div>
-          <h3 className="flex items-center gap-2 font-serif text-lg text-fg">
-            <ImageIcon className="h-4 w-4 text-accent" aria-hidden="true" />
-            Visual examples
-          </h3>
-          <p className="mt-0.5 text-xs text-fg-subtle">
-            {visible.length} real example image{visible.length === 1 ? '' : 's'} sourced from the web by the research pipeline.
-          </p>
-        </div>
-      </div>
-      <div className={`grid gap-3 ${visible.length === 1 ? 'grid-cols-1' : 'grid-cols-2 sm:grid-cols-3'}`}>
-        {visible.map((img) => (
-          <figure key={img.url} className="group relative overflow-hidden rounded-lg border border-line bg-surface shadow-sm">
-            <GalleryImage img={img} name={name} onFail={() => setFailed((prev) => new Set(prev).add(img.url))} />
-            <button
-              type="button"
-              className="absolute inset-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-              aria-label={img.caption ? `View larger: ${img.caption}` : `View image from ${img.source || 'source'}`}
-              onClick={() => setZoomed(img.url)}
-            />
-            {img.caption && (
-              <figcaption className="pointer-events-none absolute inset-x-0 bottom-0 line-clamp-2 bg-gradient-to-t from-stone-900/85 to-transparent px-2.5 pb-1.5 pt-6 text-[10px] leading-snug text-stone-50 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
-                {img.caption}
-              </figcaption>
-            )}
-            {img.source && (
-              <span className="pointer-events-none absolute left-2 top-2 rounded-full bg-stone-900/60 px-2 py-0.5 text-[9px] uppercase tracking-wide text-stone-100">
-                {img.source}
-              </span>
-            )}
-          </figure>
-        ))}
-      </div>
-
-      {/* lightbox */}
-      {zoomed && (
-        <div
-          className="fixed inset-0 z-[80] flex items-center justify-center bg-stone-950/85 p-6"
-          role="dialog"
-          aria-modal="true"
-          aria-label="Enlarged example image"
-          onClick={() => setZoomed(null)}
-        >
-          <img
-            src={zoomed}
-            alt={`${name} enlarged example`}
-            className="max-h-full max-w-full rounded-lg object-contain shadow-2xl"
-            onClick={(e) => e.stopPropagation()}
-          />
-          <button
-            type="button"
-            className="absolute right-5 top-5 rounded-full bg-surface px-3 py-1.5 text-sm text-fg shadow hover:bg-surface"
-            onClick={() => setZoomed(null)}
-          >
-            Close ✕
-          </button>
-        </div>
-      )}
-    </section>
-  )
-}
-
-/* ------------------------------ pending notice ------------------------------ */
-
-export function PendingNotice({ a }: { a: AestheticFull }) {
-  const missing: string[] = []
-  if (Object.keys(a.visualDNA).length === 0) missing.push('visual DNA')
-  if (Object.keys(a.typography).length === 0) missing.push('typography')
-  if (Object.keys(a.lighting).length === 0) missing.push('lighting')
-  if (Object.keys(a.architecture).length === 0) missing.push('architecture & applied fields')
-  if (Object.keys(a.uiTranslation).length === 0) missing.push('UI translation')
-  if (missing.length === 0) return null
-  return (
-    <div className="flex items-start gap-3 rounded-lg border border-amber-700/25 bg-[#fdf6e7] px-4 py-3" role="status">
-      <Loader2 className="mt-0.5 h-4 w-4 shrink-0 animate-spin text-amber-700" aria-hidden="true" />
-      <div className="text-sm">
-        <p className="font-medium text-amber-900">Deep decomposition in progress</p>
-        <p className="mt-0.5 text-xs leading-relaxed text-amber-800/90">
-          This record is at discovery depth. The research pipeline is still documenting: {missing.join(', ')}.{' '}
-          {a.images.length === 0 && 'Visual examples will be attached once the image pass reaches this entry.'}
-        </p>
-      </div>
-    </div>
-  )
-}

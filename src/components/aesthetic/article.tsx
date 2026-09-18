@@ -21,7 +21,9 @@ import { ExportMenu, ShareButton } from './export-menu'
 import { Gallery, HeroImage } from './gallery'
 import { PaletteSwatches } from './palette-swatches'
 import { SectionNav } from './section-nav'
-import { StyleDemo, TextureSwatches } from './style-demo'
+import { MaterialGallery } from './materials'
+import { Imagine } from '@/components/ai/imagine'
+import { StyleDemo } from './style-demo'
 import { SITE_NAME, repoEdit } from '@/lib/site'
 
 
@@ -217,6 +219,7 @@ export function AestheticArticle({
     { id: 'applied', label: 'In practice', show: !!hasApplied },
     { id: 'demo', label: 'Live demo', show: a.colors.length > 0 },
     { id: 'profile', label: 'Style profile', show: Object.keys(a.dnaAxes).length > 0 },
+    { id: 'imagine', label: 'Imagine', show: true },
     { id: 'related', label: 'Related', show: relations.length > 0 || similar.length > 0 },
     { id: 'sources', label: 'Sources', show: true },
   ].filter((s) => s.show)
@@ -371,12 +374,6 @@ export function AestheticArticle({
                 </div>
               )}
               <div className="grid gap-10 md:grid-cols-2">
-                {a.materials.length > 0 && (
-                  <div>
-                    <p className="eyebrow mb-3">Materials</p>
-                    <Chips items={a.materials} tone="accent" />
-                  </div>
-                )}
                 {a.objects.length > 0 && (
                   <div>
                     <p className="eyebrow mb-3">Signature objects</p>
@@ -396,12 +393,8 @@ export function AestheticArticle({
                   </div>
                 )}
               </div>
-              {a.textures.length > 0 && (
-                <div>
-                  <p className="eyebrow mb-3">Textures</p>
-                  <TextureSwatches textures={a.textures} colors={a.colors} />
-                </div>
-              )}
+              <MaterialGallery title="Materials" terms={a.materials} />
+              <MaterialGallery title="Textures & surfaces" terms={a.textures} />
             </div>
           </Section>
         ) : null}
@@ -469,6 +462,10 @@ export function AestheticArticle({
             </p>
           </Section>
         )}
+
+        <Section id="imagine" eyebrow="On-device AI" title="Imagine it" intro="Generate a fresh interpretation with a text-to-image model that runs entirely in your browser. Clearly labelled as AI — never mixed with the documented images.">
+          <Imagine a={a} />
+        </Section>
 
         {(relations.length > 0 || similar.length > 0) && (
           <Section id="related" eyebrow="Connections" title="Related aesthetics">

@@ -11,11 +11,11 @@
 //
 //   node scripts/data/build.ts            fail on any schema error
 import { createHash } from 'node:crypto'
-import { mkdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs'
+import { copyFileSync, existsSync, mkdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
 import { DuckDBInstance } from '@duckdb/node-api'
 import { AestheticSchema, NESTED_FIELDS, RelationSchema, type AestheticRecord } from '../../src/lib/schema.ts'
-import { CACHE_DIR, OUT_DIR, loadLibrary, orderKeys } from './lib.ts'
+import { CACHE_DIR, OUT_DIR, ROOT, loadLibrary, orderKeys } from './lib.ts'
 
 const { aesthetics, relations } = loadLibrary()
 const errors: string[] = []
@@ -69,6 +69,8 @@ const out = (f: string) => path.join(OUT_DIR, f)
 writeFileSync(out('aesthetics.json'), JSON.stringify(clean))
 writeFileSync(out('aesthetics.ndjson'), clean.map((a) => JSON.stringify(a)).join('\n') + '\n')
 writeFileSync(out('relations.json'), JSON.stringify(cleanRels))
+// Materials glossary (real photos for material/texture terms) ships alongside the library.
+if (existsSync(path.join(ROOT, 'data', 'materials.json'))) copyFileSync(path.join(ROOT, 'data', 'materials.json'), out('materials.json'))
 
 // Flatten nested values into JSON strings (NDJSON staging file for DuckDB).
 const staging = path.join(CACHE_DIR, 'staging')

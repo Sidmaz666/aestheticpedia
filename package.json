@@ -25,6 +25,8 @@
   },
   "dependencies": {
     "@duckdb/node-api": "^1.5.5-r.5",
+    "@huggingface/transformers": "^4.3.0",
+    "@mlc-ai/web-llm": "^0.2.85",
     "@radix-ui/react-dialog": "^1.1.14",
     "@tanstack/react-query": "^5.82.0",
     "d3-force": "^3.0.0",

@@ -22,6 +22,11 @@ const CLASSES: { qid: string; label: string; category: AestheticRecord['category
   { qid: 'Q113561882', label: 'internet aesthetic', category: 'Internet Aesthetic', establishment: 'internet_aesthetic' },
   { qid: 'Q1231896', label: 'painting technique', category: 'Painting Technique & School', establishment: 'historical' },
   { qid: 'Q7708485', label: 'textile process', category: 'Textile & Craft', establishment: 'regional_tradition' },
+  { qid: 'Q1792379', label: 'art genre', category: 'Painting Technique & School', establishment: 'historical' },
+  { qid: 'Q24017852', label: 'pottery style', category: 'Textile & Craft', establishment: 'regional_tradition' },
+  { qid: 'Q96338860', label: 'garden type', category: 'Architectural Style', establishment: 'historical' },
+  { qid: 'Q3172759', label: 'traditional costume', category: 'Fashion & Dress', establishment: 'regional_tradition' },
+  { qid: 'Q335261', label: 'ornament', category: 'Material & Surface', establishment: 'historical' },
 ]
 
 const http = cache<unknown>('wikidata')
@@ -95,9 +100,32 @@ interface Candidate {
 }
 const candidates = new Map<string, Candidate>()
 
+// 1) Light listing per class: item + English Wikipedia title (instances and instances of subclasses).
+const listed = new Map<string, { title: string; cls: (typeof CLASSES)[number] }>()
 for (const cls of CLASSES) {
   const rows = await sparql(`
-SELECT ?item ?title
+SELECT DISTINCT ?item ?title WHERE {
+  { ?item wdt:P31 wd:${cls.qid} } UNION { ?item wdt:P31 ?sub . ?sub wdt:P279 wd:${cls.qid} }
+  ?article schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> ; schema:name ?title .
+}`)
+  let fresh = 0
+  for (const b of rows) {
+    const qid = qidOf(v(b, 'item'))!
+    const title = v(b, 'title')!
+    if (!qid || !title || REJECT.test(title) || haveQ.has(qid) || haveNames.has(norm(title)) || haveCores.has(core(title)) || listed.has(qid)) continue
+    listed.set(qid, { title, cls })
+    fresh++
+  }
+  console.log(`${cls.label}: ${rows.length} with enwiki, ${fresh} new`)
+  await sleep(1500)
+}
+
+// 2) Details in batches (dates, origin, relations, aliases).
+const ids = [...listed.keys()]
+for (let i = 0; i < ids.length; i += 150) {
+  const batch = ids.slice(i, i + 150)
+  const rows = await sparql(`
+SELECT ?item
   (SAMPLE(?inc) AS ?inception) (SAMPLE(?st) AS ?start) (SAMPLE(?en) AS ?end)
   (GROUP_CONCAT(DISTINCT ?countryLabel; separator="|") AS ?countries)
   (GROUP_CONCAT(DISTINCT ?inf; separator="|") AS ?influences)
@@ -105,8 +133,7 @@ SELECT ?item ?title
   (GROUP_CONCAT(DISTINCT ?fol; separator="|") AS ?follows)
   (GROUP_CONCAT(DISTINCT ?alias; separator="|") AS ?aliases)
 WHERE {
-  ?item wdt:P31 wd:${cls.qid} .
-  ?article schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> ; schema:name ?title .
+  VALUES ?item { ${batch.map((q) => `wd:${q}`).join(' ')} }
   OPTIONAL { ?item wdt:P571 ?inc }
   OPTIONAL { ?item wdt:P580 ?st }
   OPTIONAL { ?item wdt:P582 ?en }
@@ -116,12 +143,11 @@ WHERE {
   OPTIONAL { ?item wdt:P155 ?fol }
   OPTIONAL { ?item skos:altLabel ?alias FILTER(lang(?alias) = "en") }
 }
-GROUP BY ?item ?title`)
-  let fresh = 0
-  for (const b of rows) {
-    const qid = qidOf(v(b, 'item'))!
-    const title = v(b, 'title')!
-    if (!qid || !title || REJECT.test(title) || haveQ.has(qid) || haveNames.has(norm(title)) || haveCores.has(core(title)) || candidates.has(qid)) continue
+GROUP BY ?item`)
+  const byQ = new Map(rows.map((b) => [qidOf(v(b, 'item'))!, b]))
+  for (const qid of batch) {
+    const b = byQ.get(qid) ?? {}
+    const { title, cls } = listed.get(qid)!
     const split = (k: string) => (v(b, k) ?? '').split('|').filter(Boolean)
     candidates.set(qid, {
       qid,
@@ -135,10 +161,9 @@ GROUP BY ?item ?title`)
       follows: split('follows').map(qidOf).filter(Boolean) as string[],
       aliases: split('aliases').filter((x) => x.length < 60 && !haveNames.has(norm(x))).slice(0, 6),
     })
-    fresh++
   }
-  console.log(`${cls.label}: ${rows.length} with enwiki, ${fresh} new`)
-  await sleep(1500)
+  console.log(`  details ${Math.min(i + 150, ids.length)}/${ids.length}`)
+  await sleep(800)
 }
 
 // Wikipedia intros, 20 titles per request.

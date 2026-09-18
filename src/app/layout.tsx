@@ -6,6 +6,7 @@ import { Providers } from '@/components/providers'
 import { SiteFooter } from '@/components/site/footer'
 import { SiteHeader } from '@/components/site/header'
 import { Motion } from '@/components/site/motion'
+import { Assistant } from '@/components/ai/assistant'
 import { MOTION_BOOT } from '@/lib/motion-boot'
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL, TWITTER_HANDLE } from '@/lib/site'
 
@@ -86,6 +87,7 @@ export default function RootLayout({ children, modal }: { children: ReactNode; m
           <SiteFooter />
           {modal}
           <Motion />
+          <Assistant />
         </Providers>
       </body>
     </html>

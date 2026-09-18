@@ -104,6 +104,7 @@ export async function getJSON<T = any>(url: string, tries = 5, init: RequestInit
   for (let i = 0; ; i++) {
     try {
       const res = await fetch(url, {
+        signal: AbortSignal.timeout(90_000),
         ...init,
         headers: { 'User-Agent': USER_AGENT, Accept: 'application/json', ...(init.headers ?? {}) },
       })

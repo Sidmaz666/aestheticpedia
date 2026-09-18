@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   serverExternalPackages: ['@duckdb/node-api', '@duckdb/node-bindings'],
   // Serverless functions (e.g. on Vercel) read the Parquet build from disk — ship it with every route.
   outputFileTracingIncludes: {
-    '/**': ['./public/data/aesthetics.parquet', './public/data/relations.parquet', './public/data/manifest.json', './public/data/validation.json'],
+    '/**': ['./public/data/aesthetics.parquet', './public/data/relations.parquet', './public/data/manifest.json', './public/data/validation.json', './public/data/materials.json'],
   },
   poweredByHeader: false,
   images: { unoptimized: true },
