@@ -19,7 +19,7 @@ float sdCap(vec3 p,vec3 a,vec3 b,float r){vec3 pa=p-a,ba=b-a;float h=clamp(dot(p
 float sdCylX(vec3 p,float r,float h){vec2 d=abs(vec2(length(p.yz),p.x))-vec2(r,h);return min(max(d.x,d.y),0.)+length(max(d,0.));}
 // Whole-body lean (pivot at the feet) and hop, then the head's own turn, nod and roll.
 vec3 bodySpace(vec3 p){p.y-=uHop;p.y+=.85;p.xy=rot(uLean)*p.xy;p.y-=.85;return p;}
-vec3 headSpace(vec3 p){p=bodySpace(p);p.y-=uBob;vec3 h=p-vec3(0.,.1,0.);h.xy=rot(uRoll)*h.xy;h.xz=rot(uLook.x*.62)*h.xz;h.yz=rot(-uLook.y*.4)*h.yz;return h;}
+vec3 headSpace(vec3 p){p=bodySpace(p);p.y-=uBob;vec3 h=p-vec3(0.,.1,0.);h.xy=rot(uRoll)*h.xy;h.xz=rot(-uLook.x*.62)*h.xz;h.yz=rot(-uLook.y*.4)*h.yz;return h;}
 vec2 map(vec3 p){
   vec3 bp=bodySpace(p)-vec3(0.,-.66+uBob*.6,0.);
   vec2 r=vec2(sdRBox(bp,vec3(.32,.19,.24),min(uRound*.55+.05,.18)),1.);
@@ -55,7 +55,7 @@ void main(){
   if(hit.y<1.5){col=body*(dif*.85+amb*.35)*ao+spec*.55+acc*fre*.55;}
   else if(hit.y<2.5){
     col=vis*(.35+.25*amb)+spec*.9+fre*.25*acc;
-    vec3 h=headSpace(p);vec2 q=h.xy-vec2(0.,.02)-uLook*vec2(.1,.075);
+    vec3 h=headSpace(p);vec2 q=h.xy-vec2(0.,.02)-uLook*vec2(.12,.085);
     float d=min(eye(q-vec2(-.17,0.)),eye(q-vec2(.17,0.)));
     if(uState>3.5){float w=.03+.045*abs(sin(uTime*13.))*abs(sin(uTime*3.1));vec2 m=abs(q-vec2(0.,-.15))-vec2(w,.006);d=min(d,length(max(m,0.))-.01);}
     vec3 glow=mix(acc,vec3(1.),.35)*1.6;
@@ -196,7 +196,13 @@ export function Robot({ mood, className, size = 76 }: { mood: RobotMood; classNa
       const r = canvas.getBoundingClientRect()
       if (e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom && !reduce) hop.v = 1.9
     }
+    // Pointer left the window: look back at the viewer.
+    const onLeave = () => {
+      look.tx = 0
+      look.ty = 0
+    }
     window.addEventListener('pointermove', onMove, { passive: true })
+    document.documentElement.addEventListener('pointerleave', onLeave)
     window.addEventListener('scroll', onScroll, { passive: true, capture: true })
     window.addEventListener('pointerdown', onDown, { passive: true })
     const themeTimer = window.setInterval(() => (target = readTheme(resolve)), 400)
@@ -207,7 +213,7 @@ export function Robot({ mood, className, size = 76 }: { mood: RobotMood; classNa
     const frame = (ms: number) => {
       raf = requestAnimationFrame(frame)
       if (!visible || document.hidden) return
-      if (ms - last < 1000 / 45) return
+      if (ms - last < 1000 / 60) return
       const dt = Math.min(0.1, (ms - last) / 1000)
       last = ms
       const t = ms / 1000
@@ -219,7 +225,7 @@ export function Robot({ mood, className, size = 76 }: { mood: RobotMood; classNa
       cur.round += (target.round - cur.round) * 0.08
       // Gaze: the pointer; when it has been still for a while, glance around; scrolling
       // pulls the gaze up or down; thinking looks up and aside; sleeping droops.
-      const idle = ms - lastMove > 3500
+      const idle = ms - lastMove > 12000
       if (idle && ms > glance.until) glance = { x: (Math.random() * 2 - 1) * 0.8, y: Math.random() * 0.8 - 0.2, until: ms + 1400 + Math.random() * 2200 }
       scrollLook *= Math.pow(0.1, dt)
       let tx = idle ? glance.x : look.tx
@@ -232,8 +238,8 @@ export function Robot({ mood, className, size = 76 }: { mood: RobotMood; classNa
         ty = -0.4
       }
       const prevX = look.x
-      look.x += (tx - look.x) * Math.min(1, dt * 7)
-      look.y += (Math.max(-1, Math.min(1, ty)) - look.y) * Math.min(1, dt * 7)
+      look.x += (tx - look.x) * Math.min(1, dt * 12)
+      look.y += (Math.max(-1, Math.min(1, ty)) - look.y) * Math.min(1, dt * 12)
       look.vx = (look.x - prevX) / Math.max(dt, 1e-3)
       // Body leans towards the gaze, head rolls slightly into the turn (and wobbles when happy).
       const happyWiggle = m === 'happy' ? Math.sin(t * 9) * 0.08 : 0
@@ -279,6 +285,7 @@ export function Robot({ mood, className, size = 76 }: { mood: RobotMood; classNa
       clearInterval(themeTimer)
       io.disconnect()
       window.removeEventListener('pointermove', onMove)
+      document.documentElement.removeEventListener('pointerleave', onLeave)
       window.removeEventListener('scroll', onScroll, { capture: true })
       window.removeEventListener('pointerdown', onDown)
       // Free GPU objects but keep the context: React may remount on the same canvas.
