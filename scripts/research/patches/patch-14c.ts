@@ -1,0 +1,918 @@
+/**
+ * patch-14c.ts — full-depth backfill patches for manifest-14c.json (35 Architectural Styles).
+ * Contract: { slug, ctx, vd{shape,line,composition,texture}, typ{display,body,notes},
+ *             lit{quality,temperature,shadow}, ui{background,surface,components,motion} }
+ * Applied non-destructively by scripts/research/apply-patches.ts.
+ */
+export const PATCHES: any[] = [
+  {
+    slug: 'brazilian-colonial-architecture',
+    ctx: 'Portugal founded Salvador da Bahia in 1549 and built Brazil first around the northeast sugar engenhos, then the 18th-century gold towns of Minas Gerais such as Ouro Preto. Jesuit and Franciscan orders shaped the austere stone-and-taipa churches; the mulatto master Aleijadinho crowned Minas baroque at São Francisco de Assis in Ouro Preto. Whitewash, azulejos, and pau-a-pique infill reflect a colony whose wealth moved through Portuguese patronage and the Atlantic slave trade.',
+    vd: {
+      shape: 'Compact whitewashed masses with twin towers flanking a pedimented church façade; sobrados rise two or three storeys behind sash windows.',
+      line: 'Moulded stone door surrounds, curved rococo pediments, thin corner quoins; all lines soft, hand-cut, and slightly irregular.',
+      composition: 'Azulejo panels anchor lower walls; single-nave plans with side tribunes stack gilded altarpieces toward coffered chancels.',
+      texture: 'Rough lime wash over taipa de pilão rammed earth; cobalt-and-white glazed tiles; talha dourada gilded carving inside.',
+    },
+    typ: {
+      display: 'Baroque serif lettering carved on church lintels and painted on azulejo cartouches',
+      body: 'Hand-inked Portuguese roundhand of civil registers and confraternity ledgers',
+      notes: 'Inscriptions cut in stone or set tile-by-tile; 18th-century documents favor generous calligraphic flourishes.',
+    },
+    lit: {
+      quality: 'Hard equatorial sun bleaches façades; interiors glow with candle-lit gilding',
+      temperature: 'warm',
+      shadow: 'Deep shade under eaves, tribune galleries, and small deep-set windows',
+    },
+    ui: {
+      background: 'Aged lime-white plaster with faint cracks and salt staining',
+      surface: 'Cobalt-and-white azulejo tiled panels with worn edges',
+      components: 'Pediment-framed headers, tile-panel dividers, gilded accent borders on controls',
+      motion: 'Slow fades between whitewashed screens, like sun crossing a façade',
+    },
+  },
+  {
+    slug: 'french-colonial-architecture',
+    ctx: 'France carried classicism to Quebec from 1608, to the Antilles sugar colonies, to Pondicherry from 1674, and above all to Indochina after 1887, where Ernest Hébrard\'s plans for Hanoi and Saigon\'s 1901 Municipal Theatre laid French boulevards over tropical grids. Verandas, louvered jalousies, and double-height ceilings answered humidity, while wrought-iron balconies became the face of the Vieux Carré and Caribbean port towns.',
+    vd: {
+      shape: 'Long low blocks with deep verandas and hipped roofs; Indochina civic piles stack columned storeys behind heavy cornices.',
+      line: 'Regular bays of tall shuttered openings; slender cast-iron railings and colonnettes draw fine verticals against masonry.',
+      composition: 'Courtyard cores with symmetrical wings; arcaded ground floors carry loggias above; a garden axis runs through the porte-cochère.',
+      texture: 'Rendered masonry in ochre and cream, louvered timber shutters, wrought-iron lace, terracotta roof tiles and paving.',
+    },
+    typ: {
+      display: 'Engraved French serifs on stone cartouches, civic plaques, and bank façades',
+      body: 'Didone-style letterpress of colonial gazettes and administration print',
+      notes: 'Bilingual street signage pairs roman capitals with local scripts such as chữ Quốc ngữ and Tamil.',
+    },
+    lit: {
+      quality: 'Daylight filtered through verandas and jalousies into long stripes',
+      temperature: 'warm',
+      shadow: 'Wide veranda shade, ceiling-fan dimness, patios dappled by palms',
+    },
+    ui: {
+      background: 'Faded ochre plaster with weather stains',
+      surface: 'Cream stone panels trimmed with cast-iron detailing',
+      components: 'Arcaded nav bars, shutter-textured cards, plaque-style section headers',
+      motion: 'Louvers sliding open like shutters revealing content',
+    },
+  },
+  {
+    slug: 'centrally-planned-church',
+    ctx: 'Grown from Roman mausolea and martyria, the centralized plan served baptisteries and memorial shrines: Ravenna\'s San Vitale, consecrated 548, rose under Bishop Ecclesius with funding from the banker Julianus Argentarius, while Justinian\'s Constantinople made the domed octagon the imperial church form. The circle signified eternity, and Renaissance patrons from Brunelleschi to Bramante revived it for the same ideal.',
+    vd: {
+      shape: 'Octagonal or circular volume crowned by a dome on squinches or pendentives, with ambulatories ringing the core.',
+      line: 'Radial lines converge on the apex; arcading, exedra apses, and floor inlay repeat the central geometry.',
+      composition: 'Exedras absorb side chapels; mosaic bands climb the drum and dome; narthex and gallery rings wrap the sanctuary.',
+      texture: 'Gilded glass mosaic, veined Proconnesian marble slabs, brick-and-stone opus mixtum vaulting.',
+    },
+    typ: {
+      display: 'Monumental Greek and Latin capitals set as mosaic inscription bands',
+      body: 'Liturgical uncial and minuscule of codices such as the Rossano Gospels',
+      notes: 'Inscriptions name patrons and donors, e.g. the Justinian and Theodora panels at San Vitale.',
+    },
+    lit: {
+      quality: 'Beamless dome light from clerestories and windows at the drum base',
+      temperature: 'warm',
+      shadow: 'Golden half-light in the apse, deep shadow in ambulatory bays',
+    },
+    ui: {
+      background: 'Deep umber-to-gold radial gradient like a domed void',
+      surface: 'Mosaic tessera sheen over veined marble panels',
+      components: 'Ring-shaped menus, octagonal toggles, medallion avatars and seals',
+      motion: 'Slow halo rotations evoking dome light',
+    },
+  },
+  {
+    slug: 'fujian-tulou',
+    ctx: 'Hakka and Min-speaking clans of Yongding and Nanjing counties in western Fujian raised ring-shaped rammed-earth strongholds from the 12th century onward, housing whole patrilineages of up to 800 people behind a single gated entry. Defenses answered banditry and lineage feuds; kitchens lined the ground floor and the ancestral hall sat at the center. Forty-six tulou entered UNESCO\'s World Heritage list in 2008; Chengqi Lou holds some 600 rooms.',
+    vd: {
+      shape: 'Massive circular or square rings, three to five storeys, earth walls up to 1.8 m thick, verandas facing inward.',
+      line: 'Horizontal courses of rammed earth run against rows of dark timber pillars and open rail balconies.',
+      composition: 'One gate on the axis, central ancestral hall, ring courts within ring courts; granaries and storage stacked at the top.',
+      texture: 'Coarse ochre rammed earth with fine horizontal strata, grey tile roofs, weathered fir columns and rails.',
+    },
+    typ: {
+      display: 'Brush-script village and hall names on carved wooden plaques',
+      body: 'Vertical ink columns of clan genealogy books and red Spring Festival couplets',
+      notes: 'Couplet pairs and lintel boards record lineage origins and moral precepts for the whole household.',
+    },
+    lit: {
+      quality: 'Soft light pooled in the inner ring, open sky above the courtyard',
+      temperature: 'warm',
+      shadow: 'Ring verandas cast stepped shade; hearth smoke haze indoors',
+    },
+    ui: {
+      background: 'Warm rammed-earth ochre with visible grain texture',
+      surface: 'Dark fir boards with ringed balcony rail accents',
+      components: 'Radial card rings, gate-style modals, concentric tab strips',
+      motion: 'Concentric ripples spreading from the ancestral-hall center',
+    },
+  },
+  {
+    slug: 'kalinga-deul-style',
+    ctx: 'The temple builders of coastal Odisha, heirs of ancient Kalinga, perfected the rekha deul — a curvilinear tower — under the Eastern Ganga dynasty: Lingaraja at Bhubaneswar rose around 1090, Jagannath at Puri under Anantavarman Chodaganga, and Narasimhadeva I\'s Konark Sun Temple, begun about 1250, tradition credits 1,200 craftsmen a dozen years. These were projects of royal legitimacy, tantric-aligned ritual, and maritime-trading wealth.',
+    vd: {
+      shape: 'Steeply curvilinear deul tower over a square sanctuary, joined by a pyramidal jagamohana hall; amalaka crowns the apex.',
+      line: 'Vertical pagas or ribs climb the tower; chaitya-window motifs ripple across every facet of the curving surface.',
+      composition: 'Deul, jagamohana, nata mandir and bhoga mandir align along one axis behind compound walls; friezes band the tower base to crown.',
+      texture: 'Fine khondalite and sandstone carving, polished then weathered; iron dowels pinned with lead hold the drums.',
+    },
+    typ: {
+      display: 'Odia script engraved on donation slabs, lintels, and pillar pedestals',
+      body: 'Copperplate charter hands of Ganga-era temple inscriptions',
+      notes: 'Inscriptions record endowments of dancers, lamp oil, and land by royal and merchant donors.',
+    },
+    lit: {
+      quality: 'Blazing coastal sun bleaches carved relief; the sanctum keeps oil-lamp light only',
+      temperature: 'warm',
+      shadow: 'Deep relief shadows under sun; lamp-lit murk around the lingam',
+    },
+    ui: {
+      background: 'Weathered sandstone umber with sun-bleached patches',
+      surface: 'Carved-relief panels with ribbed tower silhouettes',
+      components: 'Paga-rib dividers, chaitya-window icons, mandala-style loaders',
+      motion: 'Slow parallax climb along tower ribs',
+    },
+  },
+  {
+    slug: 'riad-architecture',
+    ctx: 'Marrakech and Fez grew inward-facing riads under Almoravid, Almohad, and Saadian rule, packing family life behind blank earthen walls for privacy and climate; the Fez medina still holds thousands. Courtyards held orange trees, a fountain, zellige wainscots, carved stucco and painted cedar ceilings. Since the 1990s restoring such houses into boutique riads has driven Marrakech\'s heritage conservation economy.',
+    vd: {
+      shape: 'Square inward-facing blocks; every room turns onto a sunken courtyard open to the sky.',
+      line: 'Horseshoe and lambrequin arcades ring the court; keyhole arches layer behind gallery screens.',
+      composition: 'Chamfered corner rooms, an axial fountain, zellige dadoes under stucco panels under cedar cornices.',
+      texture: 'Glossy hand-cut zellige, perforated gebs stucco, tadelakt lime polish, worn marble floors.',
+    },
+    typ: {
+      display: 'Andalusi maghribi and thuluth-style lettering in stucco cartouches',
+      body: 'Flowing maghribi script of Quranic schoolbooks and deeds',
+      notes: 'Kufic friezes and blessing phrases band doorways, fountains, and ceiling centers.',
+    },
+    lit: {
+      quality: 'Overhead shaft of courtyard skylight filtered by reed mats',
+      temperature: 'warm',
+      shadow: 'Cool deep shade on gallery floors, dappled under citrus trees',
+    },
+    ui: {
+      background: 'Marrakech rose-ochre plaster wash',
+      surface: 'Zellige emerald-and-white mosaic tiles',
+      components: 'Arch-shaped cards, lattice overlays, fountain-style loaders',
+      motion: 'Breeze sway of lattice shadows drifting across surfaces',
+    },
+  },
+  {
+    slug: 'lafte-log-construction',
+    ctx: 'Norwegian and Swedish settlers raised notch-cornered log farmhouses, lofts, and storehouses from about 1000 AD onward, and the craft — lafting — crossed the Atlantic with emigrants to the Upper Midwest in the 1800s. Scribe-fitted round logs lock with saddle notches, no nails or chinking glue, self-sealing as the wood seasons; the carved-post stabbur storehouse remains the type\'s emblematic outbuilding.',
+    vd: {
+      shape: 'Stacked round-log walls with jutting corner crossings; low heavy volumes under broad sod or shingle roofs.',
+      line: 'Horizontal log courses dominate; carved cross-notch geometry marks and darkens every corner.',
+      composition: 'Central hearth bay flanked by storage rooms, a loft over half the plan, doors and windows punched sparingly.',
+      texture: 'Scribed hand-hewn pine and spruce, silvered patina, axe faceting, tarred end grain.',
+    },
+    typ: {
+      display: 'Blackletter and runic-derived initials carved on door lintels',
+      body: 'Ledger hand of farm probate records and parish church books',
+      notes: 'Owners carved bumerker property marks with initials and dates into doorposts and gables.',
+    },
+    lit: {
+      quality: 'Low northern sun rakes across log courses; hearth fire lights interiors',
+      temperature: 'warm',
+      shadow: 'Deep shadow lines in log grooves; smoke-darkened rafters',
+    },
+    ui: {
+      background: 'Weathered spruce grey-brown',
+      surface: 'Hand-hewn plank boards with visible grain and knots',
+      components: 'Log-course list rows, notch-corner frames, carved-post badges',
+      motion: 'Steady stacking of elements like courses being laid',
+    },
+  },
+  {
+    slug: 'rayonnant',
+    ctx: 'Rayonnant was the court style of Paris under Louis IX: the Sainte-Chapelle, built 1241-1248 to house the Crown of Thorns, dissolved wall into glass, and Pierre de Montreuil\'s Notre-Dame transepts set giant roses in rectangles of tracery. Named in the 19th century for its radiating rose windows, it spread the skeletal system of Amiens and Beauvais across Europe until the Hundred Years\' War stalled cathedral works.',
+    vd: {
+      shape: 'Skeletal stone cages: slender piers, wall reduced to glass, vaults hovering over a cage of tracery.',
+      line: 'Bar tracery of thin moldings radiates from rose hubs; mullions shoot straight to vault springing points.',
+      composition: 'Two-light bays rhythm the nave; rose windows center the transepts; chevets dissolve into glazed polygons.',
+      texture: 'Fine limestone, leaded grisaille glass with silver stain, polished pavement slabs over tomb slabs.',
+    },
+    typ: {
+      display: 'Gothic textualis capitals painted in grisaille glass borders',
+      body: 'University book hand of Paris stationers and theologians',
+      notes: 'Donor and patron inscriptions in painted roundels; Louis IX relics chronicled in royal biographies.',
+    },
+    lit: {
+      quality: 'Jeweled colored light through vast windows; luminous grisaille wash elsewhere',
+      temperature: 'warm',
+      shadow: 'Muted shade on slender piers; white glow concentrated on the altar',
+    },
+    ui: {
+      background: 'Cool blue-violet glass field',
+      surface: 'Silvered grisaille tracery lines over tinted panes',
+      components: 'Rosette dials, tracery dividers, lancet-shaped menu panels',
+      motion: 'Rose-window spin easing into section reveals',
+    },
+  },
+  {
+    slug: 'prodigy-house',
+    ctx: 'Elizabethan courtiers built show houses to lodge Queen Elizabeth I on her progresses and flaunt new money: William Cecil\'s Burghley House, Bess of Hardwick\'s Hardwick Hall — "more glass than wall" — and Robert Smythson\'s Longleat (c. 1572) and Wollaton Hall (1588). Flemish carvers and classical orders reached landed gentry through pattern books, fusing heraldic towers with strict symmetry.',
+    vd: {
+      shape: 'Symmetrical E- and H-plans, corner towers, huge mullioned windows ranked between pilastered bays.',
+      line: 'Strapwork and scrolled gables cut crisp outlines; floor bands and mullion grids rule the long fronts.',
+      composition: 'Twin courts behind, heraldic parapets above, the great chamber on the long axis where processions culminate.',
+      texture: 'Fine ashlar and coursed rubble, leaded diamond glazing, strapwork plaster friezes in the long galleries.',
+    },
+    typ: {
+      display: 'Roman capitals framed by strapwork cartouches over entrances',
+      body: 'Elizabethan secretary and italic hands of household accounts',
+      notes: 'Heraldic mottos in Latin couplets; engraved Smythson-family plans circulated among patrons.',
+    },
+    lit: {
+      quality: 'North-lit galleries washed by vast leaded glazing, silver daylight',
+      temperature: 'warm',
+      shadow: 'Mullion grid shadows on oak floors; tallow-lit long gallery at night',
+    },
+    ui: {
+      background: 'Pale Cotswold stone beige',
+      surface: 'Waxed oak panels bordered with strapwork patterns',
+      components: 'Grid-mullion card sets, heraldic crest badges, tower-shaped menu panels',
+      motion: 'Bay-by-bay parallax reveal across the façade',
+    },
+  },
+  {
+    slug: 'churrigueresque',
+    ctx: 'Named for the Salamanca Churriguera dynasty of retablo makers, the style peaked in New Spain on silver wealth: Lorenzo Rodríguez\'s Sagrario Metropolitano in Mexico City (1749-1768) and Santa Prisca at Taxco (1751-1758) wrapped façades in estípite pilasters — inverted-obelisk supports — while La Valenciana at Guanajuato gave thanks for the mines. Cathedrals at Zacatecas and Oaxaca carried the idiom north.',
+    vd: {
+      shape: 'Retablo-façades stacked like altarpieces; estípite pilasters taper downward in bulging segmented blocks.',
+      line: 'Solomonic twists and gilded scrolls break every edge; columns dissolve into drip-molded zigzags and shells.',
+      composition: 'Doorway niches framed by saints and cherubs; towers, cornices, and shell hoods crowd the upper register.',
+      texture: 'Red tezontle against white chiluca stone, polychrome stucco relief, gold leaf on interior retablos.',
+    },
+    typ: {
+      display: 'Baroque serifs in sunken relief cartouches over doorways',
+      body: 'Notarial baroque hand of mining-guild ledgers and indulgence papers',
+      notes: 'Latin and Spanish donor inscriptions framed by shellwork and cherub headers.',
+    },
+    lit: {
+      quality: 'Highland sun carves strong relief from the tezontle-stone contrast',
+      temperature: 'warm',
+      shadow: 'Black voids in niches and pilaster shafts at noon',
+    },
+    ui: {
+      background: 'Volcanic tezontle red-brown',
+      surface: 'Chiluca stone white with gilded filigree accents',
+      components: 'Estípite-shaped sidebars, niche cards, scroll filigree dividers',
+      motion: 'Cascading reveal descending the façade tiers',
+    },
+  },
+  {
+    slug: 'second-empire',
+    ctx: 'Napoleon III\'s reign (1852-1870) rebuilt Paris: Visconti and Lefuel\'s New Louvre and Haussmann\'s boulevards fixed the mansard-roofed, quoined, pavilioned look that America carried to Philadelphia City Hall (1871-1901) and every bank, courthouse, and schoolhouse between. Garnier\'s Opera (1861-1875) crowned the idiom. The style signaled imperial order and bourgeois permanence until the Republic and two wars discredited it.',
+    vd: {
+      shape: 'Boxy blocks under steep double-pitched mansards with iron cresting and domed or pavilioned corners.',
+      line: 'Rusticated ground floors, giant columnar mid-floors, bracketed cornices march in stately rows.',
+      composition: 'Symmetrical bays stress projecting end and central pavilions; clock gables and caryatids mark entrances.',
+      texture: 'Channel-jointed limestone, grey-painted galvanized-iron mansards, polished granite colonnades.',
+    },
+    typ: {
+      display: 'High-contrast Didone capitals engraved on cornices and pediments',
+      body: 'Belle époque press typography of newspapers and event programmes',
+      notes: 'Inauguration plaques record regime name changes from republic to empire and back.',
+    },
+    lit: {
+      quality: 'Even grey Parisian daylight over stone; gaslit and electric lobbies',
+      temperature: 'warm',
+      shadow: 'Pavilion shadows break long façades; deep reveals under mansards',
+    },
+    ui: {
+      background: 'Limestone cream with subtle vignetting',
+      surface: 'Jointed stone slabs with cresting scroll motifs',
+      components: 'Quoined frame borders, pavilion-shaped panels, cresting dividers',
+      motion: 'Slow pageant glide with cornice-wipe transitions',
+    },
+  },
+  {
+    slug: 'populuxe',
+    ctx: 'Thomas Hine named Populuxe in 1986 for America\'s 1954-1964 consumer boom: John Lautner\'s 1949 Coffee Dan\'s launched Googie roadside style, and LA drive-ins, Eichler tracts, and motel signs promised space-age luxury to Levittown budgets. Tailfins, boomerangs, and neon translated jet and missile optimism into dry cleaners and bowling alleys until recession and Vietnam turned the tone.',
+    vd: {
+      shape: 'Boomerang rooflines, cantilevered canopies, angled glass boxes anchored by raised sign pylons.',
+      line: 'Thin steel columns splay like rocket fins; neon tubes draw cursive curves against the sky.',
+      composition: 'Sign first, building second: pylons anchor parking lots; interiors orbit counters, booths, and jukeboxes.',
+      texture: 'Terrazzo chips, stainless steel, walnut-print Formica, enameled panels in turquoise and coral.',
+    },
+    typ: {
+      display: 'Chunky neon script and bubble letters of motel and diner signage',
+      body: 'Grotesque sans of menus, ticket stubs, and appliance labels',
+      notes: 'Tail-fin chevrons double as typographic swashes; starbursts replace dots and bullets.',
+    },
+    lit: {
+      quality: 'All-night neon and incandescent glow; hard daylight glare off chrome',
+      temperature: 'warm',
+      shadow: 'Hard noon shadows under canopies; pools of pink neon at night',
+    },
+    ui: {
+      background: 'Turquoise-and-cream starburst gradient',
+      surface: 'Glossy laminate with terrazzo speckle',
+      components: 'Boomerang buttons, chrome-edged cards, starburst badges',
+      motion: 'Bouncy spring animations and jukebox-spin transitions',
+    },
+  },
+  {
+    slug: 'adaptive-reuse-aesthetics',
+    ctx: 'Since artists colonized SoHo\'s cast-iron lofts in the 1960s-70s — the district won landmark protection in 1973 — adaptive reuse became an aesthetic as much as a strategy: Tate Modern (Herzog & de Meuron, 2000) inside Bankside Power Station, the 2009 High Line on an elevated freight viaduct, Toronto\'s Distillery District. Patina, ghost signage, and exposed structure now read as authenticity — and fuel gentrification debates.',
+    vd: {
+      shape: 'Old shells kept whole — turbine halls, silos, viaduct arches — with new volumes floated inside on steel legs.',
+      line: 'Existing brick arches and trusses left uncorrected; new insertions drawn in slim blackened steel and glass.',
+      composition: 'Programs thread between retained walls; new stairs cross old voids; leftover gaps become light wells and courtyards.',
+      texture: 'Patinated brick, rust blooms, ghost-painted signage, patched raw concrete, unfinished timber decking.',
+    },
+    typ: {
+      display: 'Stencil and ghost-painted lettering left exposed on brick',
+      body: 'Industrial sans labels paired with contemporary editorial type',
+      notes: 'Plaques narrate former uses; wayfinding often mimics crate stencils and rail-yard signage.',
+    },
+    lit: {
+      quality: 'North light through steel-sash factory windows; track lighting added later',
+      temperature: 'neutral',
+      shadow: 'Deep window-bay shadows; silhouetted trusses at dusk',
+    },
+    ui: {
+      background: 'Exposed brick red-brown with patina',
+      surface: 'Raw concrete panels and aged steel plates',
+      components: 'Stencil-label badges, riveted frame cards, scaffold-style nav rails',
+      motion: 'Panes of new content sliding over retained backdrops',
+    },
+  },
+  {
+    slug: 'timurid-architecture',
+    ctx: 'Timur and his successors made Samarkand the showpiece of their empire: the Gur-e Amir mausoleum (c. 1404), the Bibi-Khanym Mosque, the Shah-i-Zinda necropolis, and Ulugh Beg\'s Registan madrasa of 1417-1420. Double-shell domes sheathed in turquoise and cobalt tiles, giant pishtaq portals, and muqarnas vaults spread through Herat to Mughal India — Humayun\'s tomb and the Taj Mahal descend from them.',
+    vd: {
+      shape: 'Bulbous double-shell domes on high drums over deep courtyard complexes, framed by flanking minarets.',
+      line: 'Monumental pishtaq portals frame pointed iwan arches; banded inscriptions run in monumental Kufic.',
+      composition: 'Four-iwan courtyard plans; turquoise panels grid out mosaic faience; mausolea cluster along the necropolis axis.',
+      texture: 'Glazed faience mosaic and banna\'i brickwork, carved terracotta, gold-leafed interior domes.',
+    },
+    typ: {
+      display: 'Monumental Kufic and thuluth set in tile inlay on portals and drums',
+      body: 'Naskh chancery hand of Timurid waqf deeds and chronicles',
+      notes: 'Quranic cartouches alternate with builder signatures in the spandrel bands.',
+    },
+    lit: {
+      quality: 'Desert sun ignites the turquoise glaze; interiors lit by grated openings',
+      temperature: 'warm',
+      shadow: 'Iwan mouths cut deep shade; gold dome interiors glow dimly',
+    },
+    ui: {
+      background: 'Lapis-turquoise gradient with star-motif wash',
+      surface: 'Glazed tile mosaic panels with geometric inlay',
+      components: 'Pishtaq-shaped headers, medallion buttons, iwan-style modals',
+      motion: 'Star-pattern parallax drifting across tile fields',
+    },
+  },
+  {
+    slug: 'fachwerk-timber-framing',
+    ctx: 'German half-timbering matured from the 12th century and peaked in the 16th: Hildesheim\'s Knochenhaueramtshaus (Butchers\' Guild Hall, 1529, destroyed 1945, rebuilt 1989) typified the ornate urban end. Oak frames with wattle-and-daub or brick infill, jettied storeys, and carved proverbs defined Rhineland, Hesse, and Franconia towns, now strung along the Deutsche Fachwerkstraße tourist route since 1990.',
+    vd: {
+      shape: 'Narrow gabled townhouses, jettied storeys overhanging the street, steep tile roofs stepping down the lane.',
+      line: 'Diagonal braces, posts, and rails read as a dark graphic grid over pale plaster or brick infill.',
+      composition: 'Bays repeat as units; carved dates, figures, and protective symbols fill sill and brace zones; shops line the ground floor.',
+      texture: 'Silvery weathered oak, ochre and rust daub or clinker brick, clay-plaster infill, hand-cut joinery.',
+    },
+    typ: {
+      display: 'Carved fraktur house blessings and dates on lintel beams',
+      body: 'Early blackletter of guild ordinances and broadsheets',
+      notes: 'Inscriptions pair proverbs with carpenter marks and apotropaic carvings.',
+    },
+    lit: {
+      quality: 'Raked low sun along narrow streets; interiors dim and lamp-lit',
+      temperature: 'warm',
+      shadow: 'Timber grid casts hard shadow patterns on plaster walls',
+    },
+    ui: {
+      background: 'Warm daub ochre with plaster texture',
+      surface: 'Dark timber frame overlays on plaster panels',
+      components: 'Brace-corner frames, jetty-layered cards, lintel-plaque headers',
+      motion: 'Storey-by-storey staggered fades like jetties overhanging',
+    },
+  },
+  {
+    slug: 'ndebele-painted-houses',
+    ctx: 'After the Ndzundza Ndebele were defeated in 1883 and dispersed onto Boer farms in Mpumalanga, women consolidated group identity by painting house walls — a custom that flowered in the 20th century with acrylic-bright geometry. Esther Mahlangu, born 1935, carried it to the world with a BMW 525i Art Car in 1991. Wall painting remains women\'s work, tied to initiation ceremonies and courtship display.',
+    vd: {
+      shape: 'Low rectangular homesteads with softly rounded corners; walls read as canvases bounded by flat roofs.',
+      line: 'Bold black outlines grid the walls; straightedge-drawn bands, chevrons, and stepped diagonals abut without gaps.',
+      composition: 'Symmetrical color fields balance door and window openings; corner panels carry the densest patterning.',
+      texture: 'Smooth lime-washed mud or cement walls, flat matte paint, crisp hand-cut edges refreshed yearly.',
+    },
+    typ: {
+      display: 'Bold sans lettering painted freehand in the wall-painting style',
+      body: 'Simple sans of regional school and shop signage',
+      notes: 'Mahlangu\'s signature motifs became lettering devices on murals and brand collaborations.',
+    },
+    lit: {
+      quality: 'Highveld sun flattens the colors; whitewash reflects harshly',
+      temperature: 'warm',
+      shadow: 'Eaves band the wall tops; interiors keep minimal light',
+    },
+    ui: {
+      background: 'Bright whitewash with matte finish',
+      surface: 'Flat geometric color fields with black outlines',
+      components: 'Chevron dividers, stepped-diagonal buttons, outline-frame cards',
+      motion: 'Pattern bands sweeping in like a painter\'s stroke',
+    },
+  },
+  {
+    slug: 'cape-dutch-architecture',
+    ctx: 'At the VOC\'s Cape colony (founded 1652), wine estates from Groot Constantia — Simon van der Stel\'s 1685 farm — to Boschendal raised whitewashed H-plan homesteads under thatch. The curved gables, shaped by slave craftsmen from the East Indies working alongside Dutch and German masons, matured in the late 18th century and became the emblem of the Stellenbosch wine landscape and Afrikaner heritage.',
+    vd: {
+      shape: 'H-shaped homesteads: two end gables, a central front gable, long symmetrical wings under steep thatch.',
+      line: 'Plaster curves sweep up the gables; teak shutters and door fanlights draw narrow verticals.',
+      composition: 'A central front door with fanlight anchors the axis; stoep verandas span the front; oak avenues frame the drive.',
+      texture: 'Lime-washed whitewall, heavy Cape thatch, yellowwood floors and teak joinery, flagstone stoeps.',
+    },
+    typ: {
+      display: 'Elegant serif farm names painted on gable panels',
+      body: 'Cape Dutch script of estate deeds and wine ledgers',
+      notes: 'Date anchors and estate monograms set in plaster reliefs above doors.',
+    },
+    lit: {
+      quality: 'Bright Cape sun softened by oak shade and whitewash bounce',
+      temperature: 'warm',
+      shadow: 'Thatch eaves shade the stoep; gable shadows angle at noon',
+    },
+    ui: {
+      background: 'Lime-white with soft chalk texture',
+      surface: 'Cream panels with thatch-gold accents',
+      components: 'Gable-arched headers, shutter-slat toggles, fanlight motifs',
+      motion: 'Gentle glide like a stoep door swinging',
+    },
+  },
+  {
+    slug: 'socialist-modernism',
+    ctx: 'After Khrushchev\'s 1955 decree against "architectural excess," Soviet and East-bloc building standardized into prefabricated panel housing — the khrushchyovka — arranged in microdistricts, while civic commissions (Moscow\'s Palace of Pioneers, opened 1962, Bulgaria\'s 1981 Buzludzha monument) pushed heroic modernist sculpture. The style is now read through brutalist-photography nostalgia and demolition battles.',
+    vd: {
+      shape: 'Long slab blocks and point towers on shared plinths; civic buildings cantilever glass drums and sculptural shells.',
+      line: 'Seams of precast panels set strict grids; mullion lines and raised Soviet lettering cut hard horizontals.',
+      composition: 'Microdistrict greens between slabs; monumental stairs and mosaics face the plazas; services stack in dense cores.',
+      texture: 'Board-marked and panel concrete, ceramic mosaic murals, anodized aluminium, worn linoleum interiors.',
+    },
+    typ: {
+      display: 'Constructivist-derived sans in relief on façades and murals',
+      body: 'Uniform grotesque of state newspapers and instruction manuals',
+      notes: 'Mosaic murals carry slogans; building plaques mark party anniversaries and ribbon-cutting dates.',
+    },
+    lit: {
+      quality: 'Flat overcast light on concrete; sodium lamps wash stairwells orange',
+      temperature: 'neutral',
+      shadow: 'Slab shadows sweep the courtyards; deep recessed loggias',
+    },
+    ui: {
+      background: 'Concrete grey with panel seams',
+      surface: 'Board-formed concrete with mosaic inlay accents',
+      components: 'Panel-grid cards, plinth-style footers, mosaic banner strips',
+      motion: 'Mechanical slide transitions, precise and unornamented',
+    },
+  },
+  {
+    slug: 'buttress',
+    ctx: 'Counterthrusting goes back to Roman vaulting, but the flying buttress emerged with Gothic France: Notre-Dame de Paris was among the first great churches to fly arches over its aisles around the 1180s-1220s, refined at Chartres, Bourges, and Reims as choirs climbed ever higher. Hidden beneath aisle roofs at first, the arches became the visible skeleton of cathedrals and the engineer\'s signature ever since.',
+    vd: {
+      shape: 'Arched flyers leap from freestanding pier stacks to upper walls; buttresses step outward as small towers of stone.',
+      line: 'Flyer arches draw thin arcs over the aisle; pinnacles and crockets spike the pier tops vertically.',
+      composition: 'Pier clusters stagger along the chevet; drainage channels run through arch heads; chapels nestle between piers.',
+      texture: 'Coursed limestone blocks, mortar beds weathered dark, lichen on sheltered faces.',
+    },
+    typ: {
+      display: 'Chisel-cut mason\'s marks and consecration-date inscriptions',
+      body: 'Cartulary and ledger hands recording works accounts',
+      notes: 'Masons\' marks sign individual stones; workshop records trace apprentices across building sites.',
+    },
+    lit: {
+      quality: 'Raking sun strips shadow through the flyer arches across the chevet',
+      temperature: 'neutral',
+      shadow: 'Lacy double shadow of arches crawling on buttress walls',
+    },
+    ui: {
+      background: 'Pale stone grey with sky-washed gradient',
+      surface: 'Coursed limestone texture with mortar lines',
+      components: 'Arch-span dividers, pier-based card stacks, pinnacle markers',
+      motion: 'Arched connectors sweeping weight across layouts',
+    },
+  },
+  {
+    slug: 'kyoto-machiya',
+    ctx: 'Kyoto\'s merchant houses, perfected in the Edo period (1603-1868), packed shops and dwellings onto "eel\'s bedroom" lots — 5-6 meters of frontage and 20 or more deep — after the shogunate taxed storefront width. The toriniwa earthen passage runs from shop to rear garden past tsuboniwa light wells, while koshi lattice screens guard the street face. Fires, notably 1864\'s Hamaguri Gate blaze, forced repeated rebuilding; preservationists have fought the parking-lot era since the 1990s.',
+    vd: {
+      shape: 'Narrow-fronted, deep "eel\'s bedroom" lots; a low tiled street face rises to taller timber rear blocks.',
+      line: 'Vertical degoshi lattice of the koshi screens; regular mud-wall bays step back along the deep plan.',
+      composition: 'The toriniwa passage threads entry, shop, daidokoro kitchen, and tsuboniwa gardens to the storehouse at the rear.',
+      texture: 'Charred-cedar siding, white clay-plaster walls, dark latticed koshi, tatami and packed-earth floors.',
+    },
+    typ: {
+      display: 'Noren curtain characters and wooden kanban shop signs',
+      body: 'Vertical edomoji shop lettering and ledger brushwork',
+      notes: 'Family crests mark noren curtain splits; sliding-door papers carry shop names and trade marks.',
+    },
+    lit: {
+      quality: 'Street light filtered through koshi lattice; soft glow from courtyards',
+      temperature: 'warm',
+      shadow: 'Deep tatami-room shade; shoji panels diffuse light to pearl',
+    },
+    ui: {
+      background: 'Warm clay-plaster off-white',
+      surface: 'Charred-cedar and tatami texture panels',
+      components: 'Lattice-screen headers, noren-divider tabs, light-well icon spots',
+      motion: 'Screens sliding laterally like fusuma doors',
+    },
+  },
+  {
+    slug: 'stepwell-architecture',
+    ctx: 'Gujarat\'s Solanki patrons and Rajasthan\'s Rajputs dug inverted temples for water: Rani ki Vav at Patan (c. 1063, begun by queen Udayamati for king Bhima I) descends seven storeys and entered UNESCO\'s list in 2014; Chand Baori at Abhaneri drops 13 storeys and some 3,500 steps. Stepwells doubled as caravan stops, ritual sites, and cool retreats largely managed by women, until piped water made them obsolete.',
+    vd: {
+      shape: 'Inverted stepped pyramids: tiers of landings drop to the water table, pavilions perched on the rims.',
+      line: 'Runs of narrow steps shear across the plan; pillar-and-bracket colonnades line every landing.',
+      composition: 'Side galleries lead to a deep cylindrical shaft; deity niches stack like temple walls turned downward.',
+      texture: 'Warm sandstone and laterite, moss-dark waterline masonry, step treads polished by generations of feet.',
+    },
+    typ: {
+      display: 'Sanskrit and Prakrit donor inscriptions cut on step risers',
+      body: 'Copperplate hands of endowment charters',
+      notes: 'Inscriptions name well-builders — often queens and merchant wives — and curse would-be water thieves.',
+    },
+    lit: {
+      quality: 'Harsh top light falls into deep wells; water reflects shimmer below',
+      temperature: 'warm',
+      shadow: 'Landing shadows stack downward; green under-light at the pool',
+    },
+    ui: {
+      background: 'Sandstone amber deepening to mossy green',
+      surface: 'Step-tread textures with carved niche insets',
+      components: 'Tiered step menus, pavilion kiosk cards, waterline loaders',
+      motion: 'Descending cascades of panels toward a water focus',
+    },
+  },
+  {
+    slug: 'badgir-windcatchers',
+    ctx: 'On Iran\'s desert plateau, windcatchers (badgir) crown houses, ab anbar cisterns, and mosques, working with qanat channels to cool without power; Yazd, the "city of windcatchers," keeps the densest skyline of them and joined UNESCO\'s list in 2017. The 33-meter tower of the Dowlatabad Garden, built from 1747 for governor Mohammad Taqi Khan, remains the celebrated maximum.',
+    vd: {
+      shape: 'Tall rectangular chimney towers with vertical slot scoops; parapet fins rise above flat roofscapes.',
+      line: 'Internal blades divide the shaft; slot openings and mud-brick string courses draw crisp verticals.',
+      composition: 'Towers cluster over cistern domes and courtyards; the shaft splits into four- or eight-way scoops at the top.',
+      texture: 'Sun-dried and fired mud brick, kāh-gel earthen render, timber beam ends, pale gypsum interiors.',
+    },
+    typ: {
+      display: 'Nastaliq calligraphic tile panels set around entry portals',
+      body: 'Nastaliq poetry manuscripts alongside naskh ledgers',
+      notes: 'Tile panels quote Hafez and Saadi — poets of wind, water, and gardens.',
+    },
+    lit: {
+      quality: 'White desert glare outside; the scoops pull shaded breeze inside',
+      temperature: 'warm',
+      shadow: 'Slot shadows strip the shaft walls; courtyards hold cool gloom',
+    },
+    ui: {
+      background: 'Sun-baked adobe tan',
+      surface: 'Mud-brick texture with gypsum-smooth insets',
+      components: 'Slot-scoop vent motifs, tower-shaped panels, breeze-line dividers',
+      motion: 'Airflow streaks animating through vertical slots',
+    },
+  },
+  {
+    slug: 'timbuktu-madrasah-architecture',
+    ctx: 'Under Mali\'s Songhai golden age, Timbuktu\'s three great mosques — Djinguereber (1327, raised for Mansa Musa by the Granada architect Abu Ishaq al-Saheli), Sankore, and Sidi Yahya — served as madrasahs anchoring a book trade in thousands of manuscripts. Sahel masons built in banco mud and ferey brick with projecting toron beams; families replaster the walls yearly at the crépissage festival, and UNESCO listed the city in 1988.',
+    vd: {
+      shape: 'Pyramidal mud-brick masses rise in stepped minaret tiers; prayer halls spread low around courts.',
+      line: 'Rows of projecting toron beams streak the walls; buttress pilasters run in ranks with pointed butinta crowns.',
+      composition: 'Courtyards ring the prayer halls; the mihrab niche anchors the qibla wall; madrasah courts sit beside the halls.',
+      texture: 'Smooth banco plaster over ferey mud brick, coarse straw flecks, water-worn grey at the base.',
+    },
+    typ: {
+      display: 'Arabic Qur\'anic boards and library shelf labels',
+      body: 'Sudanic Maghribi script of the family manuscript libraries',
+      notes: 'Manuscripts on law, science, and poetry anchored scholarly prestige; family libraries survived the 2012 occupation.',
+    },
+    lit: {
+      quality: 'Blinding Sahel daylight outside; lamp-and-slit dimness within',
+      temperature: 'warm',
+      shadow: 'Toron beams throw comb shadows; interiors keep cool earth gloom',
+    },
+    ui: {
+      background: 'Wet-clay brown drying to pale grey',
+      surface: 'Smooth banco plaster with straw flecks',
+      components: 'Toron-beam peg icons, stepped-minaret progress meters, buttress dividers',
+      motion: 'Crépissage-style replastering sweep across surfaces',
+    },
+  },
+  {
+    slug: 'ottonian-architecture',
+    ctx: 'The Saxon Ottonian emperors (936-1024) rebuilt the imperial church on Charlemagne\'s model: Otto I founded Magdeburg Cathedral in 955, Gernrode\'s St. Cyriakus rose from 959, and Bishop Bernward\'s St. Michael at Hildesheim (1010-1033) balanced two choirs and twin transepts under flat timber ceilings. Alternating pier-and-column supports and fortress-like westworks projected sacral kingship across Saxony.',
+    vd: {
+      shape: 'Heavy rectangular masses: double-choir plans, twin transepts, blocky westworks crowned by round towers.',
+      line: 'Stützenwechsel alternates square piers with column pairs; blind arcading draws a crisp internal rhythm.',
+      composition: 'Strict bay counting orders the nave; crypts and west choirs anchor both ends; cloisters tuck against the flank.',
+      texture: 'Quarried sandstone ashlar, plastered vaultless walls, bronze doors and columnar candlesticks inside.',
+    },
+    typ: {
+      display: 'Carolingian-style capital inscriptions on altar slabs and doors',
+      body: 'Ottonian minuscule of imperial charters and gospel books',
+      notes: 'Bernward\'s 1015 bronze doors caption salvation history like a strip cartoon in Latin tituli.',
+    },
+    lit: {
+      quality: 'Small windows throw narrow shafts into dim timber-ceiling naves',
+      temperature: 'warm',
+      shadow: 'Deep crypt gloom; westwork towers keep permanent shadow',
+    },
+    ui: {
+      background: 'Cool stone grey with plaster cream',
+      surface: 'Ashlar blocks with blind-arcade ridges',
+      components: 'Pier-and-column row patterns, westwork-shaped headers, bay-counter lists',
+      motion: 'Alternating rhythm steps, like Stützenwechsel bays',
+    },
+  },
+  {
+    slug: 'egyptian-revival',
+    ctx: 'Napoleon\'s Description de l\'Égypte (1809-1829) and Champollion\'s 1822 decipherment fed pyramid mania: Bullock\'s Egyptian Hall on Piccadilly (1812), Alexander Thomson\'s Egyptian Halls in Glasgow (1870s), Highgate\'s Egyptian Avenue, and Cleopatra\'s Needle raised in London and New York. Tutankhamun\'s 1922 discovery carried the idiom into Art Deco and the movie palace, notably Grauman\'s Egyptian Theatre.',
+    vd: {
+      shape: 'Massive battered pylons and tapered column shafts crowned by lotus, papyrus, and palm capitals.',
+      line: 'Cavetto cornices cut deep rolls; hieroglyphic registers wrap pylons in strict horizontal bands.',
+      composition: 'Axis-locked processional entries; twin obelisks or sphinxes flank the approach; lotus-bud colonnades march in files.',
+      texture: 'Smooth painted stucco over masonry, polished granite, gilded and polychrome hieroglyph relief.',
+    },
+    typ: {
+      display: 'Egyptianizing display capitals with strict geometric serifs',
+      body: 'Victorian book faces set beside hieroglyphic pictograms',
+      notes: 'Monograms set in cartouches; theatre marquees mix hieroglyphs with roman capitals.',
+    },
+    lit: {
+      quality: 'Warm lamp glow through papyrus columns; modern floodlights wash the pylons',
+      temperature: 'warm',
+      shadow: 'Deep battered-wall shade; columns band light and dark',
+    },
+    ui: {
+      background: 'Sand-limestone ochre with sun gradient',
+      surface: 'Polished granite panels with gilded hieroglyph inlay',
+      components: 'Pylon-shaped headers, cartouche badges, lotus-column dividers',
+      motion: 'Processional glide along a central axis',
+    },
+  },
+  {
+    slug: 'mission-revival',
+    ctx: 'When railroads and real-estate boosters romanticized California\'s Franciscan mission chain (founded from 1769 by Junípero Serra), Mission Revival swept the Southwest from the 1890s: the Mission Inn at Riverside grew into its showpiece, and the Santa Fe and Southern Pacific railroads spread bell-gable depots from Albuquerque to San Diego. White stucco, arcades, and espadaña gables promised a sun-washed regional identity.',
+    vd: {
+      shape: 'Long white stucco walls under low red-tile roofs; scalloped espadaña bell gables break the parapets.',
+      line: 'Continuous arcades of round arches; deep-set square windows with minimal trim.',
+      composition: 'Cloistered courtyards at the core; campanarios anchor corners; quatrefoil windows dot the front range.',
+      texture: 'Rough-textured white stucco, clay barrel tiles, exposed hand-hewn timber vigas, smooth plastered arches.',
+    },
+    typ: {
+      display: 'Rustic slab-serif lettering on tiles, plaques, and station signs',
+      body: 'Decorative Castilian-inspired script of timetables and souvenir print',
+      notes: 'Railroad and hotel signage standardized the bell-gable silhouette as a trademark.',
+    },
+    lit: {
+      quality: 'High desert sun bouncing off white stucco; cool arcaded shade',
+      temperature: 'warm',
+      shadow: 'Arcade columns stripe the walkways; tiles glow at dusk',
+    },
+    ui: {
+      background: 'White stucco with soft grain',
+      surface: 'Terracotta tile accents on cream panels',
+      components: 'Espadaña-shaped headers, arcade-style nav rows, quatrefoil icons',
+      motion: 'Arch reveals opening like corridor bays',
+    },
+  },
+  {
+    slug: 'shingle-style',
+    ctx: 'Named by historian Vincent Scully in 1955, the Shingle Style served Gilded Age leisure at Newport and along the New England coast from about 1874: McKim, Mead & White\'s Newport Casino (1880), H. H. Richardson\'s Stoughton House (1883), and Kragsyde (1883-85) set the rambling seaside ideal. Continuous wood shingles, gambrels, and asymmetry wrapped Colonial memory in informal mass for summer colonies.',
+    vd: {
+      shape: 'Rambling asymmetric volumes: gambrel and hipped roofs sweep low over porches, towers, and service wings.',
+      line: 'Shingle courses bend around turrets and bay windows; minimal trim lets whole planes curve freely.',
+      composition: 'Great halls run through the core; verandas and sleeping porches ring the mass; rooms flow without formal axes.',
+      texture: 'Cedar shingles left natural or stained to silver; shingle-skinned chimneys and sweeping valley lines.',
+    },
+    typ: {
+      display: 'Informal serif club lettering on shingled signboards',
+      body: 'Turn-of-the-century book faces of resort literature',
+      notes: 'Estate and yacht-club crests echo the shingle\'s soft curves.',
+    },
+    lit: {
+      quality: 'Sea haze diffuses daylight; broad porches hold a soft glow',
+      temperature: 'neutral',
+      shadow: 'Eaves and deep porches shade the shingle skins; dune light flickers',
+    },
+    ui: {
+      background: 'Weathered cedar grey-tan gradient',
+      surface: 'Shingle-coursed texture panels',
+      components: 'Gambrel-roof cards, porch-rail dividers, turret-corner frames',
+      motion: 'Driftwood-easy slides with slight curve overshoot',
+    },
+  },
+  {
+    slug: 'edwardian-baroque',
+    ctx: 'Britain\'s last imperial flourish before 1914 dressed commerce and state in Wren-style pomp: Aston Webb\'s Admiralty Arch (1912), the Port of Liverpool Building (1903-07), Manchester\'s Midland Hotel (1903), and Ralph Knott\'s County Hall. Portland stone, giant orders, and domes asserted municipal and imperial pride — then the war and modernism left the style stranded mid-sentence.',
+    vd: {
+      shape: 'Grandiose symmetric blocks: rusticated bases, giant colonnaded middles, domed or towered corners.',
+      line: 'Giant pilasters run several storeys; channel-jointed rustication rules the ground floors.',
+      composition: 'Entrance arches take whole bays; sculptural attic groups crown the parapets; grand stairs rise behind.',
+      texture: 'Pale jointed Portland stone, granite plinths, bronze window frames, coffered plaster lobbies.',
+    },
+    typ: {
+      display: 'Imperial roman capitals cut in frieze bands',
+      body: 'Edwardian letterpress of corporate reports and civic programmes',
+      notes: 'Friezes carry city mottos and founding dates in roman numerals.',
+    },
+    lit: {
+      quality: 'Grey northern light models the stone; bronze and marble warm the halls',
+      temperature: 'neutral',
+      shadow: 'Colonnade shadows band the fronts; domes shade attic sculpture',
+    },
+    ui: {
+      background: 'Portland pale grey with marble veins',
+      surface: 'Stone panels with bronze-frame insets',
+      components: 'Arch-gate headers, frieze-band dividers, giant-order column rails',
+      motion: 'Stately rise-and-settle transitions like ceremonial steps',
+    },
+  },
+  {
+    slug: 'miami-modernism',
+    ctx: 'Miami Modernism (MiMo) answered the 1950s tourism boom that Art Deco had opened: Morris Lapidus\'s Fontainebleau (1954) and Eden Roc (1956) on Collins Avenue staged hotel lobbies as movie sets, while Norman Giller\'s motel strips lined Biscayne Boulevard. Nautical curves, catwalk bridges, and projecting canopy screens borrowed ocean-liner glamour; the MiMo Biscayne Association now protects the corridor.',
+    vd: {
+      shape: 'Slender tower-on-podium hotels; lobbies open under dramatic porte-cochères with cantilevered canopies.',
+      line: 'Upswept rooflines and chevroned feature walls; slender columns tilt like ship masts.',
+      composition: 'Lobbies staged as sets: floating staircases, catwalk bridges, murals and projection screens frame the pool axis.',
+      texture: 'Terrazzo floors, mosaic tile feature walls, anodized aluminium, woven vinyl, plastic laminate shine.',
+    },
+    typ: {
+      display: 'Swashy mid-century script and thin geometric caps of hotel signs',
+      body: 'Compact grotesques of travel brochures and matchbooks',
+      notes: 'Sign scripts echo wave and palm motifs; matchbooks carried the logos into every pocket.',
+    },
+    lit: {
+      quality: 'Tropical glare outside; lobbies glow with fluorescent coves and uplights',
+      temperature: 'warm',
+      shadow: 'Canopies throw deep shade bands; pool light dances on ceilings',
+    },
+    ui: {
+      background: 'Seafoam-to-sunset gradient wash',
+      surface: 'Terrazzo speckle with mosaic tile insets',
+      components: 'Wave-divider headers, catwalk nav rails, chevron buttons',
+      motion: 'Liner-glide transitions with pool-ripple feedback',
+    },
+  },
+  {
+    slug: 'tiki-architecture',
+    ctx: 'Polynesian Pop began with Don the Beachcomber in Hollywood (1934) and Trader Vic\'s in Oakland the same year, then boomed as GIs returned from the Pacific: The Mai-Kai in Fort Lauderdale (1955) built its dining rooms as village stages, and Disneyland\'s Enchanted Tiki Room (1963) mass-marketed the mood. Thatch, moai, lava rock, and rum served escapist luxury until critics read it as exoticism; revivalists reclaimed it in the 1990s.',
+    vd: {
+      shape: 'A-frame false fronts and steep pitched roofs; low bamboo-and-thatch volumes huddle around waterfall grottoes.',
+      line: 'Crooked timbers and carved tiki posts break every vertical; outrigger beams splay across ceilings.',
+      composition: 'Maze plans hide rooms behind rock walls and beaded curtains; the bar centers the stage, water always audible.',
+      texture: 'Rope lashings, split bamboo, tapa cloth prints, volcanic stone, coconut-fiber thatch.',
+    },
+    typ: {
+      display: 'Toothed tiki-style display faces with carved-wood edge effects',
+      body: 'Rounded tropical sans of souvenir menus',
+      notes: 'Menus mix invented Polynesian names with real loanwords; mugs and matchbooks carried the logos.',
+    },
+    lit: {
+      quality: 'Volcanic-lamp reds and bamboo-shadow flicker; waterfalls backlit',
+      temperature: 'warm',
+      shadow: 'Grotto-dark corners; torches pool light on tables',
+    },
+    ui: {
+      background: 'Deep lagoon teal to torchlight amber',
+      surface: 'Tapa-print texture with bamboo-grain rails',
+      components: 'Tiki-totem icons, torch-flame loaders, island-map tabs',
+      motion: 'Wave-rocked easing; flame flicker on interactions',
+    },
+  },
+  {
+    slug: 'blobitecture',
+    ctx: 'Computer modeling freed plan and section from the grid: Greg Lynn\'s 1990s "blob" experiments and NOX\'s 1997 Water Pavilion led to Future Systems\' Selfridges Birmingham (2003, Jan Kaplický) sheathed in 15,000 anodized aluminium discs, alongside Zaha Hadid\'s fluid venues — with "blobitecture" coined by William Safire in the New York Times in 2002. CATIA software, built for aerospace, made double-curved skins buildable.',
+    vd: {
+      shape: 'Amorphous, seam-free volumes with no flat façade; skins stretch continuously over hidden structure.',
+      line: 'Panel seams and rib lines flow as contour curves; no datum lines anywhere on the envelope.',
+      composition: 'Open plans swarm under the skin; circulation follows the curve; entries burrow into soft edges.',
+      texture: 'Anodized aluminium shingles, smooth FRP panels, iridescent coatings that shift with the sky.',
+    },
+    typ: {
+      display: 'Fluid organic display faces with curved baselines',
+      body: 'Humanist sans softened by rounded terminals',
+      notes: 'Wordmarks melt into the architecture\'s contours; wayfinding wraps curved walls.',
+    },
+    lit: {
+      quality: 'Sky-lit reflective skins re-light their surroundings; interiors glow from coves',
+      temperature: 'neutral',
+      shadow: 'No hard corners: shade rolls softly around the mass',
+    },
+    ui: {
+      background: 'Aurora gradient of silver and sky tones',
+      surface: 'Disc-shingle sheen with soft specular highlights',
+      components: 'Pill-morph buttons, liquid dividers, curve-wrapped cards',
+      motion: 'Squishy organic easing; shapes breathe on hover',
+    },
+  },
+  {
+    slug: 'biophilic-design',
+    ctx: 'E. O. Wilson\'s 1984 "biophilia" hypothesis became a design program through Stephen Kellert and Terrapin Bright Green\'s 2014 "14 Patterns" framework. Flagships include Stefano Boeri\'s Bosco Verticale in Milan (2014), WOHA\'s Parkroyal Collection in Singapore (2013), and Amazon\'s Spheres in Seattle (2018). Greenery, daylight, timber, and water now carry both wellness claims and green-building market value.',
+    vd: {
+      shape: 'Terraced and planted masses blur building and hillside; atria rise as indoor forests.',
+      line: 'Planting screens soften grid lines; timber ribs and branch-like structures replace straight mullions.',
+      composition: 'Daylight is mapped to plant zones; water features center the plans; green routes thread stairs and sky gardens.',
+      texture: 'Living foliage, warm unlacquered timber, moss walls, pebble floors, gentle water sheen.',
+    },
+    typ: {
+      display: 'Rounded organic sans with leaf-soft terminals',
+      body: 'Airy humanist sans of wellness and sustainability reports',
+      notes: 'Botanical illustrations double as icons; LEED and WELL certifications printed as badges.',
+    },
+    lit: {
+      quality: 'Daylight engineered to plant needs; dappled canopy light indoors',
+      temperature: 'warm',
+      shadow: 'Leaf shadows drift over floors; atria hold green gloom',
+    },
+    ui: {
+      background: 'Moss green to daylight cream gradient',
+      surface: 'Warm timber slats with leaf-texture insets',
+      components: 'Leaf-shaped tabs, waterline loaders, growth-ring progress indicators',
+      motion: 'Foliage sway easing; growth-timed transitions',
+    },
+  },
+  {
+    slug: 'mamluk-architecture',
+    ctx: 'The Mamluk sultans (1250-1517) poured waqf endowments into Cairo: the Qalawun complex (1285), Sultan Hasan\'s mosque-madrasa (1356-1363), and the Bayn al-Qasrayn funerary row made one street a dynastic necropolis. Ablaq stone striping, muqarnas minaret balconies, carved stone domes, and giant recessed portals set the idiom from Cairo to Damascus until Ottoman conquest absorbed it.',
+    vd: {
+      shape: 'Tall thick-walled complexes around sahn courtyards; stone domes and tiered minarets spike the skyline.',
+      line: 'Ablaq courses alternate cream and red-black stone; joggled lintel voussoirs zigzag above the doors.',
+      composition: 'Four-iwan madrasas flank the sahn; mausoleum domes ride the street corners; sabil-kuttab fountains mark the bases.',
+      texture: 'Finely dressed ablaq masonry, carved dome zigzags, muqarnas hoods, marble-marquetry dadoes.',
+    },
+    typ: {
+      display: 'Monumental thuluth carved into stone foundation bands',
+      body: 'Naskh of waqf deeds and endowment chronicles',
+      notes: 'Foundation inscriptions list sultans\' titles and endowment terms at street level.',
+    },
+    lit: {
+      quality: 'Hard Levantine sun rakes the ablaq; grilled qamariya windows sprinkle interiors',
+      temperature: 'warm',
+      shadow: 'Portal recesses cut black shade; mashrabiya-dim interior courts',
+    },
+    ui: {
+      background: 'Ablaq striped stone, cream and charcoal bands',
+      surface: 'Carved stone panels with marble marquetry insets',
+      components: 'Muqarnas-style dropdowns, ablaq-striped dividers, dome badges',
+      motion: 'Stately door reveals with muqarnas cascade',
+    },
+  },
+  {
+    slug: 'huizhou-merchant-houses',
+    ctx: 'Huizhou merchants (huishang) dominated China\'s salt, tea, and pawn trades from the 16th century, sending profits home to Anhui villages like Xidi and Hongcun — UNESCO-listed together in 2000. Two-storey timber-frame houses close around a skywell (tianjing) that catches rain ("four waters return to the hall") and light; stepped matou horse-head firewalls and the "three carvings" of brick, stone, and wood display wealth within Ming sumptuary limits.',
+    vd: {
+      shape: 'Closed two-storey cubes behind high stepped matou firewalls; whitewashed walls over dark tile roofs.',
+      line: 'Skywell frames square daylight; carved lattice and bracket lines warm the interiors in timber.',
+      composition: 'Tianjing courts center the plan; reception halls face them; kitchens and granaries pack the rear bays.',
+      texture: 'Lime-washed walls streaked by rain, black tiles, carved timber screens, ink-dark beams, flagstone courts.',
+    },
+    typ: {
+      display: 'Calligraphic couplets on wood boards flanking the halls',
+      body: 'Kaiti brush script of contracts, letters, and account books',
+      notes: 'Hall-name plaques preach virtue; couplets praise thrift, study, and lineage continuity.',
+    },
+    lit: {
+      quality: 'The skywell drops one square of daylight; interiors stay penumbral',
+      temperature: 'warm',
+      shadow: 'High-wall shadow cools the courts; lamp-lit lattice interiors',
+    },
+    ui: {
+      background: 'Rain-streaked lime white',
+      surface: 'Dark carved timber panels on plaster fields',
+      components: 'Skywell light-well motifs, lattice-screen cards, firewall-step dividers',
+      motion: 'Rain-gather ripple pooling toward the center',
+    },
+  },
+  {
+    slug: 'tibetan-monastery-architecture',
+    ctx: 'Tibetan Buddhist monasteries fused fortress and temple: Songtsen Gampo\'s 7th-century Jokhang anchored Lhasa, the Fifth Dalai Lama began the Potala in 1645, and Drepung once housed up to 10,000 monks. Trapezoid battered walls, flat-roofed ranges, white lime wash with red and ochre bands, and black trapezoid window frames read as both devotion and state power at 3,600 meters.',
+    vd: {
+      shape: 'Steeply battered trapezoid walls step back; flat-roofed ranges stack toward gold-roofed chapel crowns.',
+      line: 'Black trapezoid window frames puncture white bands; horizontal ochre stripes and prayer-flag lines rule the mass.',
+      composition: 'Assembly halls (dukhang) and chapels ring the courts; chorten stupas and pilgrim koras spiral the edges.',
+      texture: 'Rubble and rammed-earth walls lime-washed, ochre-pigmented plaster bands, black-framed windows with cloth valances.',
+    },
+    typ: {
+      display: 'Uchen script carved and painted on door lintels and prayer walls',
+      body: 'Ume and pecha-style manuscript pages of canonical texts',
+      notes: 'Mani stone walls repeat the mantra; banners and book titles follow the same syllabary.',
+    },
+    lit: {
+      quality: 'Brilliant high-altitude sun outside; butter-lamp and juniper smoke within',
+      temperature: 'warm',
+      shadow: 'Window wells cut deep trapezoid shade; chapels stay butter-lamp dim',
+    },
+    ui: {
+      background: 'Lhasa white with red-ochre band',
+      surface: 'Rough lime-wash texture with black frame insets',
+      components: 'Trapezoid window cards, prayer-wheel spin loaders, flag-line dividers',
+      motion: 'Clockwise kora rotation guiding flows',
+    },
+  },
+]

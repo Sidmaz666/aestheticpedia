@@ -1,0 +1,660 @@
+     1→/**
+     2→ * Aesthetic Atlas — Research pipeline runner.
+     3→ *
+     4→ * Usage:
+     5→ *   bun scripts/research/run.ts curated   # seed curated flagship entries
+     6→ *   bun scripts/research/run.ts queue     # create discovery batch queue from DOMAIN_BATCHES
+     7→ *   bun scripts/research/run.ts worker    # run the full research loop (long-running)
+     8→ *   bun scripts/research/run.ts enrich 500
+     9→ *   bun scripts/research/run.ts verify 300
+    10→ *   bun scripts/research/run.ts audit     # LLM gap analysis -> audit batches
+    11→ *   bun scripts/research/run.ts stats
+    12→ */
+    13→import { DOMAIN_BATCHES } from './domains'
+    14→import { EXPANDED_BATCHES } from './domains-expanded'
+    15→import { CULTURAL_BATCHES } from './domains-cultural'
+    16→import { CULTURAL_BATCHES_2 } from './domains-cultural-2'
+    17→import { CURATED, seedCurated } from './curated-seed'
+    18→import {
+    19→  dbp, llmJSON, sleep, ensureKnownNames, insertEntry, validateEntry, isRateLimitedError, rateLimitedNow,
+    20→  linkRelations,
+    21→  DISCOVERY_SYSTEM, discoveryPrompt, ENRICH_SYSTEM, enrichPrompt,
+    22→  VERIFY_SYSTEM, verifyPrompt, objValSafe, refArr,
+    23→} from './lib'
+    24→
+    25→const CONC = 2
+    26→const MAX_ROUNDS = 6
+    27→const PER_BATCH = 8
+    28→
+    29→const log = (...args: any[]) => console.log(new Date().toISOString().slice(11, 19), ...args)
+    30→
+    31→// ---------- queue ----------
+    32→
+    33→async function createQueue() {
+    34→  const ALL: Array<[string, string, string]> = [...CULTURAL_BATCHES_2, ...CULTURAL_BATCHES, ...DOMAIN_BATCHES, ...EXPANDED_BATCHES]
+    35→  let n = 0
+    36→  for (const [category, domain, focus] of ALL) {
+    37→    const exists = await dbp.researchBatch.findFirst({ where: { domain, focus, kind: 'discovery' } })
+    38→    if (exists) continue
+    39→    // Cultural batches are created FIRST in the array order, and with a
+    40→    // backdated createdAt so claimBatch() (oldest-first) serves them before
+    41→    // the pre-existing generic queue.
+    42→    await dbp.researchBatch.create({ data: { domain, focus, kind: 'discovery', requested: PER_BATCH, createdAt: new Date(Date.now() - 86_400_000) } })
+    43→    n++
+    44→  }
+    45→  log(`Queue created: ${n} new batches (${ALL.length} total specs)`)
+    46→}
+    47→
+    48→// ---------- one-time deterministic backfills (no LLM) ----------
+    49→
+    50→// Every record gets its reference deep-links (Wikipedia / YouTube / Scholar /
+    51→// Archive / museum / Images) built from its name. Deterministic, free, instant.
+    52→export async function backfillReferences() {
+    53→  const rows = await dbp.aesthetic.findMany({
+    54→    where: { references: '[]' },
+    55→    select: { id: true, name: true, category: true },
+    56→    orderBy: { createdAt: 'asc' },
+    57→    take: 5000,
+    58→  })
+    59→  let n = 0
+    60→  for (const r of rows) {
+    61→    const refs = refArr(null, r.name, r.category)
+    62→    try {
+    63→      await dbp.aesthetic.update({ where: { id: r.id }, data: { references: JSON.stringify(refs) } })
+    64→      n++
+    65→    } catch {}
+    66→  }
+    67→  log(`References backfilled for ${n} entries`)
+    68→  return n
+    69→}
+    70→
+    71→// ---------- discovery processing ----------
+    72→
+    73→async function claimBatch() {
+    74→  return dbp.researchBatch.findFirst({ where: { status: 'queued' }, orderBy: { createdAt: 'asc' } })
+    75→}
+    76→
+    77→async function runBatch(batch: { id: string; domain: string; focus: string; kind: string; attempts: number }) {
+    78→  // NOTE: attempts is NOT incremented at claim time — quota/retry churn must
+    79→  // never ratchet a batch to failed. Only real (non-rate-limit) failures below
+    80→  // write an incremented count.
+    81→  await dbp.researchBatch.update({ where: { id: batch.id }, data: { status: 'running' } })
+    82→  try {
+    83→    const json = await llmJSON(
+    84→      DISCOVERY_SYSTEM,
+    85→      discoveryPrompt(batch.domain, batch.focus, categoryForBatch(batch), PER_BATCH)
+    86→    )
+    87→    if (!Array.isArray(json)) throw new Error('response not an array')
+    88→    await ensureKnownNames()
+    89→    let inserted = 0
+    90→    let duplicates = 0
+    91→    let invalid = 0
+    92→    for (const raw of json.slice(0, PER_BATCH + 6)) {
+    93→      const entry = validateEntry(raw, categoryForBatch(batch))
+    94→      if ('error' in entry) { invalid++; continue }
+    95→      const res = await insertEntry(entry, { batchId: batch.id, status: 'draft' })
+    96→      if (res.ok) inserted++
+    97→      else if (res.reason?.startsWith('duplicate')) duplicates++
+    98→    }
+    99→    await dbp.researchBatch.update({
+   100→      where: { id: batch.id },
+   101→      data: { status: 'done', inserted, duplicates, finishedAt: new Date() },
+   102→    })
+   103→    log(`✓ [${batch.kind}] ${batch.domain}: +${inserted} (${duplicates} dup, ${invalid} invalid)`)
+   104→  } catch (e: any) {
+   105→    const rateLimited = isRateLimitedError(e)
+   106→    const attempts = batch.attempts + (rateLimited ? 0 : 1)
+   107→    const failed = !rateLimited && attempts >= 3
+   108→    await dbp.researchBatch.update({
+   109→      where: { id: batch.id },
+   110→      data: { status: failed ? 'failed' : 'queued', attempts, error: String(e.message).slice(0, 300) },
+   111→    })
+   112→    if (!rateLimited) {
+   113→      log(`✗ [${batch.kind}] ${batch.domain}: ${String(e.message).slice(0, 120)} (attempt ${attempts})`)
+   114→    }
+   115→  }
+   116→}
+   117→
+   118→// Category lookup across EVERY batch catalog (domains, expanded, cultural).
+   119→// Cultural + expanded batches carry the category as the first tuple element;
+   120→// without this combined map their entries would land in "Uncategorized".
+   121→const BATCH_CATEGORY_BY_DOMAIN: Map<string, string> = new Map(
+   122→  [...DOMAIN_BATCHES, ...EXPANDED_BATCHES, ...CULTURAL_BATCHES, ...CULTURAL_BATCHES_2].map(
+   123→    ([c, d]) => [d, c] as [string, string]
+   124→  )
+   125→)
+   126→
+   127→function categoryForBatch(batch: { domain: string; kind: string }): string {
+   128→  const found = BATCH_CATEGORY_BY_DOMAIN.get(batch.domain)
+   129→  if (found) return found
+   130→  // Audit/expansion batches embed their category as "Category: domain"
+   131→  const idx = batch.domain.indexOf(': ')
+   132→  if (idx > 0) {
+   133→    const cat = batch.domain.slice(0, idx)
+   134→    const known = new Set(DOMAIN_BATCHES.map(([c]) => c))
+   135→    if (known.has(cat)) return cat
+   136→  }
+   137→  return 'Uncategorized'
+   138→}
+   139→
+   140→async function processDiscovery(maxBatches = Infinity) {
+   141→  let completed = 0
+   142→  for (;;) {
+   143→    if (completed >= maxBatches) return
+   144→    const running = await dbp.researchBatch.count({ where: { status: 'running' } })
+   145→    const next = await claimBatch()
+   146→    if (!next) break
+   147→    const slots = CONC - running
+   148→    if (slots <= 0) { await sleep(500); continue }
+   149→    const promises = [runBatch(next)]
+   150→    for (let i = 1; i < slots; i++) {
+   151→      const b = await claimBatch()
+   152→      if (!b) break
+   153→      promises.push(runBatch(b as any))
+   154→    }
+   155→    await Promise.all(promises)
+   156→    completed += promises.length
+   157→    await sleep(400)
+   158→  }
+   159→}
+   160→
+   161→// ---------- audit (gap analysis) ----------
+   162→
+   163→export async function auditGen() {
+   164→  const cats = await dbp.aesthetic.groupBy({ by: ['category'], _count: { _all: true } })
+   165→  const lines = cats
+   166→    .sort((a, b) => b._count._all - a._count._all)
+   167→    .map((c) => `${c.category}: ${c._count._all}`)
+   168→    .join('\n')
+   169→  log('Running taxonomy gap audit over', cats.length, 'categories…')
+   170→  const openBacklog = await dbp.backlogTerm.findMany({
+   171→    where: { status: 'open' },
+   172→    orderBy: { createdAt: 'desc' },
+   173→    take: 60,
+   174→    select: { name: true },
+   175→  })
+   176→  const backlogHint = openBacklog.length > 0 ? `\n\nAlso unresolved referenced names awaiting coverage (verify real before batching): ${openBacklog.map((b) => b.name).join(', ')}` : ''
+   177→  const json = await llmJSON(
+   178→    `You are the taxonomy auditor of an encyclopedia of world aesthetics. You identify major DOCUMENTED aesthetics, styles and movements that are missing so coverage can be expanded. Strict JSON only.`,
+   179→    `The encyclopedia currently has these category counts:\n${lines}\n\nIdentify the most important GAPS: whole families, regions, eras or documented niche clusters that are missing or clearly underrepresented.${backlogHint}
+   180→Focus on genuinely documented aesthetics only (art movements, architecture, fashion, subcultures, internet aesthetics, regional traditions, typography, film, photography, games, music scenes, materials, etc.).
+   181→Return a JSON array of up to 24 batches:
+   182→[{"domain": "short batch title", "focus": "guidance naming specific documented styles to include", "category": "one of the existing category labels above or a new precise label", "count": 20}]
+   183→Never invent names. Prefer non-Western and underrepresented areas when justified.`
+   184→  )
+   185→  if (!Array.isArray(json)) { log('audit: no array returned'); return 0 }
+   186→  let n = 0
+   187→  for (const b of json.slice(0, 24)) {
+   188→    if (!b?.domain) continue
+   189→    const cat = String(b.category ?? '').slice(0, 60)
+   190→    await dbp.researchBatch.create({
+   191→      data: {
+   192→        // Embed category so runBatch can classify entries ("Category: domain").
+   193→        domain: cat ? `${cat}: ${String(b.domain).slice(0, 140)}` : String(b.domain).slice(0, 160),
+   194→        focus: String(b.focus ?? '').slice(0, 600),
+   195→        kind: 'audit',
+   196→        requested: Math.min(24, Math.max(10, Number(b.count) || 20)),
+   197→      },
+   198→    })
+   199→    n++
+   200→  }
+   201→  log(`Audit created ${n} expansion batches`)
+   202→  return n
+   203→}
+   204→
+   205→// ---------- gap completion (no missing data policy) ----------
+   206→
+   207→// Completes the shallow identity fields some entries are missing (palette,
+   208→// period, origin, textures, objects, era). Runs between enrichment and
+   209→// verification so every entry approaches a complete record.
+   210→const FILL_BATCH = 10
+   211→
+   212→export async function fillGaps(target: number) {
+   213→  let done = 0
+   214→  let consecutiveFails = 0
+   215→  const skip = new Set<string>()
+   216→  for (;;) {
+   217→    const incomplete = await dbp.aesthetic.findMany({
+   218→      where: {
+   219→        id: { notIn: [...skip] },
+   220→        status: { not: 'flagged' },
+   221→        OR: [
+   222→          { colors: '[]' },
+   223→          { periodStart: '' },
+   224→          { origin: '' },
+   225→          { textures: '[]' },
+   226→          { objects: '[]' },
+   227→          { materials: '[]' },
+   228→          { era: '' },
+   229→          { keyExamples: '[]' },
+   230→          { typePairing: '{}' },
+   231→        ],
+   232→      },
+   233→      orderBy: [{ popularity: 'desc' }, { createdAt: 'asc' }],
+   234→      take: FILL_BATCH,
+   235→      select: { id: true, name: true, category: true, summary: true, colors: true, periodStart: true, origin: true, textures: true, objects: true, materials: true, era: true, keyExamples: true, typePairing: true },
+   236→    })
+   237→    if (incomplete.length === 0 || done >= target) break
+   238→
+   239→    const res = await llmJSON(
+   240→      `You are a meticulous design researcher completing encyclopedia records about aesthetics, styles and movements. Only provide factual, documented details. Strict JSON only.`,
+   241→      `Complete the MISSING fields for each aesthetic below. If a field is already listed as present, do not repeat it.
+   242→
+   243→${incomplete.map((e) => {
+   244→  const missing: string[] = []
+   245→  const parse = (s: string) => { try { return JSON.parse(s) } catch { return null } }
+   246→  if (!parse(e.colors)?.length) missing.push('colors')
+   247→  if (!e.periodStart) missing.push('period')
+   248→  if (!e.origin) missing.push('origin')
+   249→  if (!parse(e.textures)?.length) missing.push('textures')
+   250→  if (!parse(e.objects)?.length) missing.push('objects')
+   251→  if (!parse(e.materials)?.length) missing.push('materials')
+   252→  if (!e.era) missing.push('era')
+   253→  if (!parse(e.keyExamples)?.length) missing.push('examples')
+   254→  if (e.typePairing === '{}' || !e.typePairing) missing.push('fonts')
+   255→  return `${missing.length ? missing.join(',') : 'nothing'} :: ${e.name} [${e.category}] — ${e.summary.slice(0, 100)}`
+   256→}).join('\n')}
+   257→
+   258→Return JSON array of objects:
+   259→{"n": exact name, "col": [{"h": "#rrggbb", "n": "name"}] 4-5, "p": "period like 1890-1914", "o": "origin place", "tx": [2-4 textures], "obj": [3-6 typical objects], "m": [3-6 materials], "era": "era label", "ex": [2-4 real-world examples], "fnt": {"display": REAL display typeface, "body": REAL body typeface, "notes": pairing note <=120 chars}}
+   260→Only include the requested fields. If genuinely unknown, omit the field. fnt must use REAL existing typefaces only.`
+   261→    ).catch((e) => {
+   262→      log(`fill batch failed: ${String(e.message).slice(0, 100)}`)
+   263→      return null
+   264→    })
+   265→    if (!Array.isArray(res)) {
+   266→      consecutiveFails++
+   267→      // Circuit: sustained rate-limit cooldown — abort the pass so the worker
+   268→      // moves on and the next wave retries when the API recovers.
+   269→      if (consecutiveFails >= 2) {
+   270→        log('fill: API rate-limited — aborting pass for this wave')
+   271→        return
+   272→      }
+   273→      for (const e of incomplete) skip.add(e.id)
+   274→      await sleep(5000)
+   275→      continue
+   276→    }
+   277→    consecutiveFails = 0
+   278→
+   279→    for (const e of incomplete) {
+   280→      const item = res.find((r: any) => r && String(r.n ?? '').toLowerCase().trim() === e.name.toLowerCase().trim())
+   281→      if (!item) continue
+   282→      try {
+   283→        const cur = await dbp.aesthetic.findUnique({ where: { id: e.id } })
+   284→        if (!cur) continue
+   285→        const arrMerge = (curJson: string, patch: any, max = 10) => {
+   286→          const curArr: string[] = Array.isArray(JSON.parse(curJson || '[]')) ? JSON.parse(curJson) : []
+   287→          const add = Array.isArray(patch) ? patch.filter((x) => typeof x === 'string' && x.trim()) : []
+   288→          return JSON.stringify([...curArr, ...add].slice(0, max))
+   289→        }
+   290→        const colorArr = (v: any) => {
+   291→          if (!Array.isArray(v) || cur.colors !== '[]') return undefined
+   292→          const out = v.filter((c: any) => c && typeof c.h === 'string' && /^#[0-9a-fA-F]{6}$/.test(c.h)).slice(0, 7).map((c: any) => ({ hex: c.h.toLowerCase(), name: String(c.n ?? '').slice(0, 60) }))
+   293→          return out.length ? JSON.stringify(out) : undefined
+   294→        }
+   295→        const startYear = !cur.startYear && item.p ? parsePeriodYear(String(item.p), 'start') : undefined
+   296→        const endYear = !cur.endYear && item.p ? parsePeriodYear(String(item.p), 'end') : undefined
+   297→        await dbp.aesthetic.update({
+   298→          where: { id: e.id },
+   299→          data: {
+   300→            ...(cur.colors === '[]' ? { colors: colorArr(item.col) ?? cur.colors } : {}),
+   301→            ...(cur.periodStart === '' && item.p ? { periodStart: String(item.p).split(/[–—-]/)[0]?.trim().slice(0, 40) ?? '' } : {}),
+   302→            ...(cur.periodEnd === '' && item.p && /[–—-]/.test(String(item.p)) ? { periodEnd: String(item.p).split(/[–—-]/)[1]?.trim().slice(0, 40) ?? '' } : {}),
+   303→            ...(cur.origin === '' && item.o ? { origin: String(item.o).slice(0, 120) } : {}),
+   304→            ...(cur.textures === '[]' ? { textures: arrMerge(cur.textures, item.tx, 8) } : {}),
+   305→            ...(cur.objects === '[]' ? { objects: arrMerge(cur.objects, item.obj, 10) } : {}),
+   306→            ...(cur.materials === '[]' ? { materials: arrMerge(cur.materials, item.m, 10) } : {}),
+   307→            ...(cur.era === '' && item.era ? { era: String(item.era).slice(0, 60) } : {}),
+   308→            ...(cur.keyExamples === '[]' ? { keyExamples: arrMerge(cur.keyExamples, item.ex, 6) } : {}),
+   309→            ...(cur.typePairing === '{}' && item.fnt && typeof item.fnt === 'object'
+   310→              ? {
+   311→                  typePairing: JSON.stringify(
+   312→                    Object.fromEntries(
+   313→                      Object.entries(item.fnt as Record<string, unknown>)
+   314→                        .filter(([, v]) => typeof v === 'string' && v.trim())
+   315→                        .slice(0, 4)
+   316→                        .map(([k, v]) => [String(k).slice(0, 20), String(v).slice(0, 200)])
+   317→                    )
+   318→                  ),
+   319→                }
+   320→              : {}),
+   321→            ...(startYear != null ? { startYear } : {}),
+   322→            ...(endYear != null ? { endYear } : {}),
+   323→          },
+   324→        })
+   325→        done++
+   326→      } catch (err: any) {
+   327→        log(`fill update failed for ${e.name}: ${err.message}`)
+   328→      }
+   329→    }
+   330→    log(`gap-filled ${done}/${target}`)
+   331→    await sleep(300)
+   332→  }
+   333→  log(`Gap-fill pass complete: ${done} entries completed`)
+   334→}
+   335→
+   336→function parsePeriodYear(period: string, which: 'start' | 'end'): number | null {
+   337→  if (!period) return null
+   338→  const p = period.toLowerCase()
+   339→  const mCent = p.match(/(\d{1,2})(?:st|nd|rd|th)\s*century/)
+   340→  if (mCent) {
+   341→    const n = parseInt(mCent[1], 10)
+   342→    let base = (n - 1) * 100
+   343→    if (which === 'end') base += 99
+   344→    if (p.includes('bc') || p.includes('bce')) base = -base
+   345→    return base
+   346→  }
+   347→  const nums = [...p.matchAll(/(\d{3,4})\s*(bce|bc)?/g)].map((m) => {
+   348→    const v = parseInt(m[1], 10)
+   349→    return m[2] ? -v : v
+   350→  })
+   351→  if (nums.length === 0) return null
+   352→  return which === 'start' ? nums[0] : (nums.length > 1 ? nums[nums.length - 1] : nums[0])
+   353→}
+   354→
+   355→// ---------- enrichment ----------
+   356→
+   357→const ENRICH_BATCH = 8
+   358→
+   359→export async function enrich(target: number) {
+   360→  await ensureKnownNames()
+   361→  let done = 0
+   362→  let consecutiveFails = 0
+   363→  const skip = new Set<string>()
+   364→  for (;;) {
+   365→    const drafts = await dbp.aesthetic.findMany({
+   366→      where: {
+   367→        id: { notIn: [...skip] },
+   368→        OR: [
+   369→          { status: 'draft' },
+   370→          // Flagship (verified/researched) entries missing deep decomposition:
+   371→          // they are the most-visited pages, so fill their gaps too.
+   372→          { status: { in: ['researched', 'verified'] }, visualDNA: '{}' },
+   373→          { status: { in: ['researched', 'verified'] }, typography: '{}' },
+   374→          { status: { in: ['researched', 'verified'] }, uiTranslation: '{}' },
+   375→          { status: { in: ['researched', 'verified'] }, typePairing: '{}' },
+   376→          { status: { in: ['researched', 'verified'] }, references: '[]' },
+   377→        ],
+   378→      },
+   379→      orderBy: [{ popularity: 'desc' }, { createdAt: 'asc' }],
+   380→      take: ENRICH_BATCH,
+   381→      select: { id: true, name: true, summary: true, status: true },
+   382→    })
+   383→    if (drafts.length === 0 || done >= target) break
+   384→
+   385→    // One LLM call covers the whole batch (prompt supports arrays) — ~8x fewer
+   386→    // requests than per-entry calls, which matters under strict rate limits.
+   387→    const res = await llmJSON(
+   388→      ENRICH_SYSTEM,
+   389→      enrichPrompt(drafts.map((d) => ({ name: d.name, summary: d.summary })))
+   390→    ).catch((e) => {
+   391→      log(`enrich batch failed: ${String(e.message).slice(0, 100)}`)
+   392→      return null
+   393→    })
+   394→    if (!Array.isArray(res)) {
+   395→      consecutiveFails++
+   396→      if (consecutiveFails >= 2) {
+   397→        log('enrich: API rate-limited — aborting pass for this wave')
+   398→        return
+   399→      }
+   400→      // Unrecoverable batch — skip these drafts for this round so the loop
+   401→      // cannot stall forever on the same entries.
+   402→      for (const d of drafts) skip.add(d.id)
+   403→      await sleep(5000)
+   404→      continue
+   405→    }
+   406→    consecutiveFails = 0
+   407→
+   408→    const strArr = (v: any): string[] =>
+   409→      Array.isArray(v) ? v.filter((x) => typeof x === 'string' && x.trim()).slice(0, 6) : []
+   410→
+   411→    for (const draft of drafts) {
+   412→      const item = res.find(
+   413→        (r: any) => r && String(r.n ?? '').toLowerCase().trim() === draft.name.toLowerCase().trim()
+   414→      )
+   415→      if (!item) continue
+   416→      const existing = await dbp.aesthetic.findUnique({ where: { id: draft.id } })
+   417→      if (!existing) continue
+   418→      const merge = (curKey: string, patch: any) => ({ ...JSON.parse(existing[curKey] || '{}'), ...objValSafe(patch) })
+   419→      try {
+   420→        const sounds = strArr(item.snd)
+   421→        // References: merge trusted LLM-provided links over the deterministic
+   422→        // base set (which always exists — refArr re-appends deep-links).
+   423→        let references: string | undefined
+   424→        if (Array.isArray(item.refs) && item.refs.length > 0) {
+   425→          const merged = refArr(item.refs, existing.name, existing.category, 2)
+   426→          if (merged.length > 0) references = JSON.stringify(merged)
+   427→        } else if (existing.references === '[]') {
+   428→          references = JSON.stringify(refArr(null, existing.name, existing.category))
+   429→        }
+   430→        const hasDeep =
+   431→          Object.keys(item.vd ?? {}).length > 0 ||
+   432→          Object.keys(item.typ ?? {}).length > 0 ||
+   433→          Object.keys(item.ui ?? {}).length > 0
+   434→        await dbp.aesthetic.update({
+   435→          where: { id: draft.id },
+   436→          data: {
+   437→            visualDNA: JSON.stringify(merge('visualDNA', item.vd)),
+   438→            typography: JSON.stringify(merge('typography', item.typ)),
+   439→            ...(Object.keys(objValSafe(item.fnt)).length > 0 && existing.typePairing === '{}'
+   440→              ? { typePairing: JSON.stringify(objValSafe(item.fnt)) }
+   441→              : {}),
+   442→            ...(references ? { references } : {}),
+   443→            lighting: JSON.stringify(merge('lighting', item.lit)),
+   444→            photography: JSON.stringify(merge('photography', item.pho)),
+   445→            architecture: JSON.stringify(merge('architecture', item.arc)),
+   446→            fashion: JSON.stringify(merge('fashion', item.fash)),
+   447→            environment: JSON.stringify(merge('environment', item.env)),
+   448→            graphicDesign: JSON.stringify(merge('graphicDesign', item.gd)),
+   449→            uiTranslation: JSON.stringify(merge('uiTranslation', item.ui)),
+   450→            recipe: JSON.stringify(merge('recipe', item.rec)),
+   451→            ...(sounds.length > 0 && JSON.parse(existing.sounds || '[]').length === 0
+   452→              ? { sounds: JSON.stringify(sounds) }
+   453→              : {}),
+   454→            // Only drafts advance status; verified entries keep their badge.
+   455→            ...(hasDeep && draft.status === 'draft' ? { status: 'researched' } : {}),
+   456→          },
+   457→        })
+   458→        // Knowledge-graph edges from enrichment: parent family, documented
+   459→        // sub-variants, commonly-confused neighbours. linkRelations resolves
+   460→        // names against known entries and queues unknown names as backlog.
+   461→        const rl = item.rl && typeof item.rl === 'object' ? item.rl : null
+   462→        if (rl) {
+   463→          await linkRelations(existing.id, existing.name, {
+   464→            parent: typeof rl.par === 'string' && rl.par.trim() ? rl.par : undefined,
+   465→            variants: strArr(rl.vars),
+   466→            confusedWith: strArr(rl.cf),
+   467→          })
+   468→        }
+   469→        done++
+   470→      } catch (e: any) {
+   471→        log(`enrich update failed for ${draft.name}: ${e.message}`)
+   472→      }
+   473→    }
+   474→    log(`enriched ${done}/${target}`)
+   475→    await sleep(300)
+   476→  }
+   477→  log(`Enrichment pass complete: ${done} entries deepened`)
+   478→}
+   479→
+   480→// ---------- verification ----------
+   481→
+   482→export async function verify(target: number) {
+   483→  let processed = 0
+   484→  let confirmed = 0
+   485→  let flagged = 0
+   486→  let consecutiveFails = 0
+   487→  for (;;) {
+   488→    const entries = await dbp.aesthetic.findMany({
+   489→      where: { status: 'researched', verifiedAt: null },
+   490→      orderBy: { popularity: 'desc' },
+   491→      take: 20,
+   492→      select: { id: true, name: true, category: true, summary: true },
+   493→    })
+   494→    if (entries.length === 0 || processed >= target) break
+   495→    const res = await llmJSON(VERIFY_SYSTEM, verifyPrompt(entries)).catch(() => null)
+   496→    if (!Array.isArray(res)) {
+   497→      consecutiveFails++
+   498→      if (consecutiveFails >= 2) {
+   499→        log('verify: API rate-limited — aborting pass for this wave')
+   500→        return
+   501→      }
+   502→      await sleep(1000)
+   503→      continue
+   504→    }
+   505→    consecutiveFails = 0
+   506→    for (const v of res) {
+   507→      const e = entries[Number(v?.i)]
+   508→      if (!e) continue
+   509→      const verdict = String(v?.v ?? '')
+   510→      const conf = Math.max(0, Math.min(100, Math.round(Number(v?.c ?? 60))))
+   511→      if (verdict === 'confirmed' && conf >= 65) {
+   512→        await dbp.aesthetic.update({ where: { id: e.id }, data: { status: 'verified', verifiedAt: new Date(), confidence: conf } })
+   513→        confirmed++
+   514→      } else if (verdict === 'suspect') {
+   515→        await dbp.aesthetic.update({ where: { id: e.id }, data: { status: 'flagged', confidence: Math.min(conf, 40) } })
+   516→        flagged++
+   517→      }
+   518→      processed++
+   519→    }
+   520→    log(`verified batch: ${confirmed} confirmed, ${flagged} flagged (${processed}/${target})`)
+   521→    await sleep(400)
+   522→  }
+   523→  log(`Verification pass: processed ${processed}, confirmed ${confirmed}, flagged ${flagged}`)
+   524→}
+   525→
+   526→// ---------- stats ----------
+   527→
+   528→export async function stats() {
+   529→  const total = await dbp.aesthetic.count()
+   530→  const byStatus = await dbp.aesthetic.groupBy({ by: ['status'], _count: { _all: true } })
+   531→  const byCat = await dbp.aesthetic.groupBy({ by: ['category'], _count: { _all: true }, orderBy: { _count: { category: 'desc' } } })
+   532→  const batches = await dbp.researchBatch.groupBy({ by: ['status'], _count: { _all: true } })
+   533→  const backlog = await dbp.backlogTerm.count({ where: { status: 'open' } })
+   534→  console.log('TOTAL:', total)
+   535→  console.log('STATUS:', byStatus.map((s) => `${s.status}=${s._count._all}`).join(' '))
+   536→  console.log('BATCHES:', batches.map((s) => `${s.status}=${s._count._all}`).join(' '))
+   537→  console.log('BACKLOG:', backlog)
+   538→  console.log('TOP CATEGORIES:', byCat.slice(0, 12).map((c) => `${c.category}=${c._count._all}`).join(', '))
+   539→}
+   540→
+   541→// ---------- worker loop ----------
+   542→
+   543→async function worker() {
+   544→  // Global safety nets: NO error anywhere (429 storms, SDK edge cases, Bun
+   545→  // internals) may ever kill the worker. Log, rest, continue.
+   546→  process.on('unhandledRejection', (e: any) => {
+   547→    log('unhandledRejection (recovered):', String(e?.message ?? e).slice(0, 160))
+   548→  })
+   549→  process.on('uncaughtException', (e: any) => {
+   550→    log('uncaughtException (recovered):', String(e?.message ?? e).slice(0, 160))
+   551→  })
+   552→  log('Worker starting (concurrency', CONC + ')')
+   553→  await ensureKnownNames()
+   554→  for (;;) {
+   555→    try {
+   556→      await workerStep()
+   557→    } catch (e: any) {
+   558→      // Hard guarantee: NO error (429 storm, transient DB lock, anything)
+   559→      // may kill the worker. Log, rest, continue.
+   560→      log('worker step error (recovered):', String(e?.message ?? e).slice(0, 160))
+   561→      await sleep(30_000)
+   562→    }
+   563→  }
+   564→}
+   565→
+   566→async function workerStep() {
+   567→  {
+   568→    // 0. Complete shallow identity fields (palette, period, origin...) —
+   569→    //    the "no missing data" policy for every record.
+   570→    const incompleteCount = await dbp.aesthetic.count({
+   571→      where: {
+   572→        status: { not: 'flagged' },
+   573→        OR: [
+   574→          { colors: '[]' }, { periodStart: '' }, { origin: '' }, { textures: '[]' },
+   575→          { objects: '[]' }, { materials: '[]' }, { era: '' }, { keyExamples: '[]' },
+   576→          { typePairing: '{}' },
+   577→        ],
+   578→      },
+   579→    })
+   580→    if (incompleteCount > 0) {
+   581→      log(`— gap-fill: ${incompleteCount} entries missing identity fields —`)
+   582→      await fillGaps(Math.min(40, incompleteCount))
+   583→    }
+   584→    // 1. Deepen existing entries FIRST — flagship + popular pages get their
+   585→    //    full decomposition before new shallow entries are discovered.
+   586→    const enrichable = await dbp.aesthetic.count({
+   587→      where: {
+   588→        OR: [
+   589→          { status: 'draft' },
+   590→          { status: { in: ['researched', 'verified'] }, visualDNA: '{}' },
+   591→          { status: { in: ['researched', 'verified'] }, typography: '{}' },
+   592→          { status: { in: ['researched', 'verified'] }, uiTranslation: '{}' },
+   593→          { status: { in: ['researched', 'verified'] }, typePairing: '{}' },
+   594→          { status: { in: ['researched', 'verified'] }, references: '[]' },
+   595→        ],
+   596→      },
+   597→    })
+   598→    if (enrichable > 0) {
+   599→      log(`— enrichment: ${enrichable} entries need depth —`)
+   600→      await enrich(Math.min(80, enrichable))
+   601→    }
+   602→    // 2. Verify what has been researched.
+   603→    const researched = await dbp.aesthetic.count({ where: { status: 'researched', verifiedAt: null } })
+   604→    if (researched > 0) {
+   605→      await verify(Math.min(120, researched))
+   606→    }
+   607→    // 3. Then discover new entries in waves.
+   608→    const queued = await dbp.researchBatch.count({ where: { status: 'queued' } })
+   609→    if (queued > 0) {
+   610→      log(`— discovery: ${queued} queued —`)
+   611→      await processDiscovery(24)
+   612→    }
+   613→    // Continuous-expansion loop: whenever the queue is nearly drained, the
+   614→    // taxonomy auditor inventories gaps + unresolved backlog names and queues
+   615→    // a new wave of targeted batches. The library never stops growing.
+   616→    const discoveryDone = await dbp.researchBatch.count({ where: { kind: 'discovery', status: 'done' } })
+   617→    const auditBatches = await dbp.researchBatch.count({ where: { kind: 'audit', status: { in: ['queued', 'running'] } } })
+   618→    const queuedNow = await dbp.researchBatch.count({ where: { status: 'queued' } })
+   619→    if (discoveryDone > 0 && auditBatches === 0 && queuedNow < 30) {
+   620→      const auditCount = await auditGen().catch((e) => { log('audit failed:', e.message); return 0 })
+   621→      if (auditCount > 0) await processDiscovery(24)
+   622→    }
+   623→    const remaining = await dbp.researchBatch.count({ where: { status: 'queued' } })
+   624→    const stillEnrichable = await dbp.aesthetic.count({ where: { status: 'draft' } })
+   625→    if (rateLimitedNow()) {
+   626→      log('API cooling down — worker resting 130s')
+   627→      await sleep(130_000)
+   628→    } else if (remaining === 0 && stillEnrichable === 0) {
+   629→      log('Queue drained. Idle 90s…')
+   630→      await sleep(90_000)
+   631→    } else {
+   632→      await sleep(1000)
+   633→    }
+   634→  }
+   635→}
+   636→
+   637→// ---------- CLI ----------
+   638→
+   639→const cmd = process.argv[2] ?? 'stats'
+   640→;(async () => {
+   641→  try {
+   642→    if (cmd === 'curated') await seedCurated()
+   643→    else if (cmd === 'queue') await createQueue()
+   644→    else if (cmd === 'backfill-refs') await backfillReferences()
+   645→    else if (cmd === 'fill-gaps') await fillGaps(Number(process.argv[3] ?? 200))
+   646→    else if (cmd === 'worker') await worker()
+   647→    else if (cmd === 'audit') await auditGen()
+   648→    else if (cmd === 'enrich') await enrich(Number(process.argv[3] ?? 200))
+   649→    else if (cmd === 'verify') await verify(Number(process.argv[3] ?? 200))
+   650→    else if (cmd === 'stats') await stats()
+   651→    else if (cmd === 'curated-list') console.log(CURATED.map((c) => c.n).join(', '))
+   652→    else console.log('unknown command', cmd)
+   653→  } catch (e: any) {
+   654→    console.error('FATAL', e)
+   655→    process.exitCode = 1
+   656→  } finally {
+   657→    await dbp.$disconnect()
+   658→  }
+   659→})()
+   660→
