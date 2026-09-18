@@ -131,6 +131,33 @@
 }
 
 @layer base {
+  /* Everything you can click shows a pointer (Tailwind 4 resets buttons to the default cursor).
+     Explicit utilities such as cursor-grab still win because they live in a later layer. */
+  a[href],
+  button:not(:disabled),
+  [role="button"],
+  [role="tab"],
+  [role="option"],
+  [role="menuitem"],
+  [role="switch"],
+  summary,
+  label[for],
+  label:has(> input[type="radio"], > input[type="checkbox"]),
+  select,
+  input[type="checkbox"],
+  input[type="radio"],
+  input[type="range"],
+  input[type="color"],
+  input[type="file"],
+  input[type="submit"],
+  input[type="button"] {
+    cursor: pointer;
+  }
+  :disabled,
+  [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+
   * {
     @apply border-line outline-accent/60;
   }

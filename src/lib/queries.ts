@@ -17,6 +17,7 @@ import {
   type AestheticRow,
   type AestheticSummary,
   type AestheticsResponse,
+  type ColorEntry,
   type ExploreResult,
   type Facets,
   type RelationTarget,
@@ -200,19 +201,20 @@ export async function getFacets(): Promise<Facets> {
   return value
 }
 
-type Edge = RelationTarget & { type: string; note: string; image: string | null }
+type Edge = Omit<RelationTarget, 'colors'> & { type: string; note: string; image: string | null; colors: string }
+const firstColors = (raw: string | null | undefined) => asColorArray(safeParse<unknown>(raw, [])).slice(0, 6)
 
 export async function getAesthetic(slug: string): Promise<AestheticDetailResponse | null> {
   const row = await queryOne<AestheticRow>('SELECT * FROM aesthetics WHERE slug = $1', [slug])
   if (!row) return null
   const edgeSql = (join: 'to' | 'from', match: 'from' | 'to') =>
-    `SELECT r.type, r.note, a.slug, a.name, a.category, json_extract_string(a.images, '$[0].thumb') AS image
+    `SELECT r.type, r.note, a.slug, a.name, a.category, json_extract_string(a.images, '$[0].thumb') AS image, a.colors
      FROM relations r JOIN aesthetics a ON a.slug = r."${join}" WHERE r."${match}" = $1 ORDER BY r.type, a.name`
   const [outgoing, incoming] = await Promise.all([
     query<Edge>(edgeSql('to', 'from'), [slug]),
     query<Edge>(edgeSql('from', 'to'), [slug]),
   ])
-  const target = (e: Edge): RelationTarget => ({ slug: e.slug, name: e.name, category: e.category, image: e.image })
+  const target = (e: Edge): RelationTarget => ({ slug: e.slug, name: e.name, category: e.category, image: e.image, colors: firstColors(e.colors) })
   return {
     aesthetic: mapAestheticFull(row),
     relations: {
@@ -242,13 +244,13 @@ export async function getSimilar(slug: string, category: string, limit = 8): Pro
 export async function suggest(q: string, limit = 10): Promise<SuggestItem[]> {
   const needle = q.trim().toLowerCase().slice(0, 60)
   if (!needle) return []
-  return query<SuggestItem>(
+  const rows = await query<Omit<SuggestItem, 'colors'> & { colors: string }>(
     `WITH c AS (
-       SELECT slug, name, category, json_extract_string(images, '$[0].thumb') AS image, lower(name) AS ln,
+       SELECT slug, name, category, json_extract_string(images, '$[0].thumb') AS image, colors, lower(name) AS ln,
               list_transform(from_json(aliases, '["VARCHAR"]'), x -> lower(x)) AS la
        FROM aesthetics),
      r AS (
-       SELECT slug, name, category, image, length(name) AS nlen,
+       SELECT slug, name, category, image, colors, length(name) AS nlen,
          CASE WHEN ln = $1 THEN 0
               WHEN starts_with(ln, $1) THEN 1
               WHEN len(list_filter(la, x -> starts_with(x, $1))) > 0 THEN 2
@@ -256,9 +258,10 @@ export async function suggest(q: string, limit = 10): Promise<SuggestItem[]> {
               WHEN len(list_filter(la, x -> contains(x, $1))) > 0 THEN 4
               ELSE 9 END AS rank
        FROM c)
-     SELECT slug, name, category, image FROM r WHERE rank < 9 ORDER BY rank, nlen, name LIMIT ${Math.min(50, limit)}`,
+     SELECT slug, name, category, image, colors FROM r WHERE rank < 9 ORDER BY rank, nlen, name LIMIT ${Math.min(50, limit)}`,
     [needle]
   )
+  return rows.map((r) => ({ ...r, colors: firstColors(r.colors) }))
 }
 
 export async function randomAesthetic(mode = 'illustrated'): Promise<AestheticSummary | null> {
@@ -564,6 +567,7 @@ export interface LineageNode {
   slug: string
   name: string
   image: string | null
+  colors?: ColorEntry[]
   children: LineageNode[]
 }
 
@@ -590,8 +594,8 @@ export async function getLineage(slug: string, depth = 2, width = 8): Promise<{ 
   }
   const info = new Map(
     (
-      await query<{ slug: string; name: string; image: string | null }>(
-        `SELECT slug, name, json_extract_string(images, '$[0].thumb') AS image FROM aesthetics`
+      await query<{ slug: string; name: string; image: string | null; colors: string }>(
+        `SELECT slug, name, json_extract_string(images, '$[0].thumb') AS image, colors FROM aesthetics`
       )
     ).map((r) => [r.slug, r])
   )
@@ -603,7 +607,7 @@ export async function getLineage(slug: string, depth = 2, width = 8): Promise<{ 
       .map((s) => {
         seen.add(s)
         const i = info.get(s)!
-        return { slug: s, name: i.name, image: i.image, children: build(s, m, level + 1, seen) }
+        return { slug: s, name: i.name, image: i.image, colors: firstColors(i.colors), children: build(s, m, level + 1, seen) }
       })
   }
   return { ancestors: build(slug, up, 1, new Set([slug])), descendants: build(slug, down, 1, new Set([slug])) }

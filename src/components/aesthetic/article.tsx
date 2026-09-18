@@ -24,6 +24,7 @@ import { SectionNav } from './section-nav'
 import { MaterialGallery } from './materials'
 import { Imagine } from '@/components/ai/imagine'
 import { AppliedDemo } from './applied-demo'
+import { Thumb } from './thumb'
 import { Carousel } from '@/components/ui/carousel'
 import { SITE_NAME, repoEdit } from '@/lib/site'
 
@@ -484,9 +485,7 @@ export function AestheticArticle({
                     {g.items.map((t) => (
                       <li key={t.slug}>
                         <Link href={`/aesthetics/${t.slug}`} className="group flex items-center gap-3 rounded-xl border border-line p-2 pr-3 transition-colors hover:border-line-strong hover:bg-surface" title={t.note || undefined}>
-                          <span className="size-12 shrink-0 overflow-hidden rounded-lg bg-surface-2">
-                            {t.image && <img src={t.image} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" className="size-full object-cover" />}
-                          </span>
+                          <Thumb image={t.image} colors={t.colors} name={t.name} />
                           <span className="min-w-0">
                             <span className="block truncate text-sm text-fg group-hover:text-accent">{t.name}</span>
                             <span className="block truncate text-xs text-fg-subtle">{t.category}</span>

@@ -1,7 +1,7 @@
 // Server-rendered relationship diagrams for an aesthetic (pure SVG, no client JS).
 import Link from 'next/link'
 import { hierarchy, tree } from 'd3-hierarchy'
-import type { AestheticDetailResponse } from '@/lib/aesthetic'
+import type { AestheticDetailResponse, ColorEntry } from '@/lib/aesthetic'
 import type { LineageNode } from '@/lib/queries'
 
 const truncate = (s: string, n: number) => (s.length > n ? `${s.slice(0, n - 1)}…` : s)
@@ -125,12 +125,14 @@ export function ConnectionMap({
   among: { from: string; to: string; type: string }[]
 }) {
   const a = detail.aesthetic
-  const seen = new Map<string, { slug: string; name: string; image?: string | null; type: string }>()
+  const seen = new Map<string, { slug: string; name: string; image?: string | null; colors?: ColorEntry[]; type: string }>()
   for (const r of detail.relations.outgoing) if (!seen.has(r.target.slug)) seen.set(r.target.slug, { ...r.target, type: r.type })
   for (const r of detail.relations.incoming) if (!seen.has(r.source.slug)) seen.set(r.source.slug, { ...r.source, type: r.type })
   const nodes = [...seen.values()].slice(0, 28)
   if (nodes.length < 2) return null
   const S = 560
+  // Horizontal room for labels on the left and right of the ring.
+  const PAD = 110
   const c = S / 2
   const R = 200
   const at = new Map(
@@ -141,8 +143,8 @@ export function ConnectionMap({
   )
   const types = [...new Set(nodes.map((n) => n.type))]
   return (
-    <figure className="grid items-center gap-6 lg:grid-cols-[minmax(0,560px)_1fr]">
-      <svg viewBox={`0 0 ${S} ${S}`} className="mx-auto h-auto w-full max-w-[560px]" role="img" aria-label={`Connections of ${a.name}`}>
+    <figure className="grid items-center gap-6 lg:grid-cols-[minmax(0,760px)_1fr]">
+      <svg viewBox={`${-PAD} 0 ${S + PAD * 2} ${S}`} className="mx-auto h-auto w-full max-w-[760px]" role="img" aria-label={`Connections of ${a.name}`}>
         <defs>
           <clipPath id="ego-clip">
             <circle r={16} />
@@ -167,7 +169,11 @@ export function ConnectionMap({
               <g className="group">
                 <g transform={`translate(${p.x},${p.y})`}>
                   <circle r={17.5} fill="var(--surface-2)" stroke={TYPE_COLOR[n.type] ?? 'var(--fg-subtle)'} strokeWidth={1.5} />
-                  {n.image && <image href={n.image} x={-16} y={-16} width={32} height={32} clipPath="url(#ego-clip)" preserveAspectRatio="xMidYMid slice" />}
+                  {n.image ? (
+                    <image href={n.image} x={-16} y={-16} width={32} height={32} clipPath="url(#ego-clip)" preserveAspectRatio="xMidYMid slice" />
+                  ) : (
+                    <PaletteDisc colors={n.colors} name={n.name} />
+                  )}
                 </g>
                 <text
                   x={p.x + (right ? 24 : -24)}
@@ -207,5 +213,25 @@ export function ConnectionMap({
         </p>
       </figcaption>
     </figure>
+  )
+}
+
+/** A record without an image, drawn in the connection map as a disc of its palette (or initials). */
+function PaletteDisc({ colors, name }: { colors?: ColorEntry[]; name: string }) {
+  if (!colors?.length)
+    return (
+      <text textAnchor="middle" dy="0.35em" className="fill-fg-subtle font-mono text-[10px]">
+        {name.split(/\s+/).slice(0, 2).map((w) => w[0]).join('').toUpperCase()}
+        <title>No image or palette documented yet</title>
+      </text>
+    )
+  const w = 32 / colors.length
+  return (
+    <g clipPath="url(#ego-clip)">
+      <title>{`No image yet — palette: ${colors.map((c) => c.name || c.hex).join(', ')}`}</title>
+      {colors.map((c, i) => (
+        <rect key={i} x={-16 + i * w} y={-16} width={w + 0.5} height={32} fill={c.hex} />
+      ))}
+    </g>
   )
 }

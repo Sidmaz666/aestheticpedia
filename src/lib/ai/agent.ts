@@ -195,7 +195,7 @@ const toCard = (i: SuggestItem | AestheticSummary | ExploreResult, note?: string
   name: i.name,
   category: i.category,
   image: i.image ?? null,
-  colors: 'colors' in i ? i.colors.slice(0, 5) : undefined,
+  colors: i.colors?.slice(0, 5),
   note: note ?? ('summary' in i ? i.summary?.slice(0, 140) : undefined),
 })
 const list = (qs: string) => fetchJson<AestheticsResponse>(`/api/v1/aesthetics?pageSize=6&facets=false&${qs}`)

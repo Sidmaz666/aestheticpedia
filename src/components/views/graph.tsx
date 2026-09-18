@@ -6,6 +6,7 @@ import { forceCenter, forceCollide, forceLink, forceManyBody, forceSimulation, f
 import { Maximize, Minus, Plus, Search } from 'lucide-react'
 import type { GraphLink, GraphNode } from '@/lib/queries'
 import { categoryColor } from '@/lib/category-colors'
+import { Thumb } from '@/components/aesthetic/thumb'
 
 type N = GraphNode & SimulationNodeDatum
 type L = SimulationLinkDatum<N> & { type: string }
@@ -343,9 +344,7 @@ export function GraphView({ nodes: rawNodes, links: rawLinks }: { nodes: GraphNo
       {/* Hover card */}
       {hover && (
         <div className="pointer-events-none absolute bottom-24 left-1/2 z-10 flex w-[min(24rem,calc(100%-2rem))] -translate-x-1/2 items-center gap-3 rounded-2xl border border-line bg-bg/90 p-3 backdrop-blur-xl sm:bottom-6">
-          <span className="size-14 shrink-0 overflow-hidden rounded-xl bg-surface-2">
-            {hover.image && <img src={hover.image} alt="" className="size-full object-cover" referrerPolicy="no-referrer" />}
-          </span>
+          <Thumb image={hover.image} name={hover.name} className="size-14 rounded-xl" />
           <span className="min-w-0">
             <span className="block truncate font-medium">{hover.name}</span>
             <span className="block truncate text-xs text-fg-subtle">

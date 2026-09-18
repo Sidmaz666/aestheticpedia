@@ -136,6 +136,8 @@ export interface RelationTarget {
   name: string
   category: string
   image?: string | null
+  /** First palette colours — shown instead of a picture when the record has no image. */
+  colors?: ColorEntry[]
 }
 
 export interface ResolvedRelations {
@@ -244,6 +246,8 @@ export interface SuggestItem {
   name: string
   category: string
   image?: string | null
+  /** First palette colours (shown when there is no image). */
+  colors?: ColorEntry[]
 }
 
 export interface HybridResult {

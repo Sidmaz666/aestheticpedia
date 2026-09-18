@@ -7,6 +7,7 @@ import { useQuery } from '@tanstack/react-query'
 import { ArrowLeftRight, Loader2, Search, X } from 'lucide-react'
 import type { HybridResponse, SuggestItem } from '@/lib/aesthetic'
 import { fetchJson, useSuggest } from '@/lib/client'
+import { Thumb } from '@/components/aesthetic/thumb'
 
 export function BlendView() {
   const sp = useSearchParams()
@@ -155,9 +156,7 @@ function Picker({ label, slug, onPick }: { label: string; slug: string; onPick: 
   if (slug && current)
     return (
       <div className="flex items-center gap-4 rounded-2xl border border-line bg-surface p-3">
-        <span className="size-16 shrink-0 overflow-hidden rounded-xl bg-surface-2">
-          {current.image && <img src={current.image} alt="" className="size-full object-cover" referrerPolicy="no-referrer" />}
-        </span>
+        <Thumb image={current.image} colors={current.colors} name={current.name} className="size-16 rounded-xl" />
         <span className="min-w-0 flex-1">
           <span className="eyebrow block">{label}</span>
           <span className="display block truncate text-2xl capitalize">{current.name}</span>
@@ -180,9 +179,7 @@ function Picker({ label, slug, onPick }: { label: string; slug: string; onPick: 
           {data!.items.map((it) => (
             <li key={it.slug}>
               <button type="button" onClick={() => { onPick(it.slug); setQ('') }} className="flex w-full items-center gap-3 rounded-xl px-2 py-2 text-left hover:bg-surface-2">
-                <span className="size-10 shrink-0 overflow-hidden rounded-lg bg-surface-2">
-                  {it.image && <img src={it.image} alt="" className="size-full object-cover" referrerPolicy="no-referrer" />}
-                </span>
+                <Thumb image={it.image} colors={it.colors} name={it.name} className="size-10 rounded-lg" />
                 <span className="min-w-0">
                   <span className="block truncate text-sm">{it.name}</span>
                   <span className="block truncate text-xs text-fg-subtle">{it.category}</span>

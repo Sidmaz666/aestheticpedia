@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import * as Dialog from '@radix-ui/react-dialog'
 import { ArrowRight, CornerDownLeft, Loader2, Search } from 'lucide-react'
 import { useSuggest } from '@/lib/client'
+import { Thumb } from '@/components/aesthetic/thumb'
 
 export function SearchDialog({ open, onOpenChange }: { open: boolean; onOpenChange: (o: boolean) => void }) {
   const router = useRouter()
@@ -86,9 +87,7 @@ export function SearchDialog({ open, onOpenChange }: { open: boolean; onOpenChan
                 onClick={() => choose(i)}
                 className={`flex cursor-pointer items-center gap-3 rounded-xl px-2.5 py-2 ${active === i ? 'bg-surface-2' : ''}`}
               >
-                <span className="size-11 shrink-0 overflow-hidden rounded-lg bg-surface-2">
-                  {it.image && <img src={it.image} alt="" className="size-full object-cover" loading="lazy" decoding="async" />}
-                </span>
+                <Thumb image={it.image} colors={it.colors} name={it.name} className="size-11 rounded-lg" />
                 <span className="min-w-0 flex-1">
                   <span className="block truncate text-sm text-fg">{it.name}</span>
                   <span className="block truncate text-xs text-fg-subtle">{it.category}</span>
