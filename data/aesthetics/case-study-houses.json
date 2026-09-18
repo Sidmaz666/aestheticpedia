@@ -178,7 +178,12 @@
       "date": "2005-10-16",
       "license": "Public domain",
       "width": "1280",
-      "height": "930"
+      "height": "930",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Case_Study_House_No._10_construction.JPG/1280px-Case_Study_House_No._10_construction.JPG",
@@ -192,7 +197,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Case_Study_House_No._28_street_view_2015-03-06.jpg/1280px-Case_Study_House_No._28_street_view_2015-03-06.jpg",
@@ -206,7 +216,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Case_Study_house.jpg/1280px-Case_Study_house.jpg",
@@ -220,24 +235,44 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "927"
+      "height": "927",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "The Getty",
       "url": "https://www.getty.edu/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "MoMA",
       "url": "https://www.moma.org/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Case_Study_Houses",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -264,12 +299,6 @@
       }
     },
     {
-      "type": "video",
-      "title": "Case Study Houses documentary",
-      "url": "https://www.youtube.com/results?search_query=case+study+houses+documentary",
-      "note": ""
-    },
-    {
       "type": "article",
       "title": "Wikipedia — Case Study Houses",
       "url": "https://en.wikipedia.org/wiki/Case_Study_Houses",
@@ -277,38 +306,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T04:56:19.217Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Case Study Houses — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Case%20Study%20Houses%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Case Study Houses — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Case%20Study%20Houses",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Case Study Houses — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Case%20Study%20Houses",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Case Study Houses — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Case%20Study%20Houses%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Case Study Houses — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Case%20Study%20Houses%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1047011",

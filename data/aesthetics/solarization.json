@@ -128,7 +128,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "913"
+      "height": "913",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Ice_Cream_Dreams%2C_by_Chris_Marchant.jpg/1280px-Ice_Cream_Dreams%2C_by_Chris_Marchant.jpg",
@@ -142,7 +147,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "732"
+      "height": "732",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Pier_study_straight.jpg",
@@ -155,7 +165,12 @@
       "date": "2 April 2006 (original upload date)",
       "license": "Public domain",
       "width": "690",
-      "height": "623"
+      "height": "623",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Pier_study_solarised.jpg",
@@ -168,7 +183,12 @@
       "date": "2 April 2006 (original upload date)",
       "license": "Public domain",
       "width": "771",
-      "height": "620"
+      "height": "620",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/1981-fotozirkel-kulturbund-eberswalde-by-RalfR-21-sol2.jpg",
@@ -182,7 +202,12 @@
       "license": "GFDL 1.2",
       "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
       "width": "1229",
-      "height": "1840"
+      "height": "1840",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Spiritual_Tree_dsc06786_duo_nevit.jpg/1280px-Spiritual_Tree_dsc06786_duo_nevit.jpg",
@@ -196,23 +221,37 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "MoMA: Solarization",
       "url": "https://www.moma.org/collection/works/54489",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia: Solarization (photography)",
       "url": "https://en.wikipedia.org/wiki/Solarization_(photography)",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "PhotoWorkout: Sabattier Effect",
-      "url": "https://www.photoworkout.com/sabattier-effect/",
       "tier": "C"
     }
   ],
@@ -254,37 +293,12 @@
       "type": "article",
       "title": "Wikipedia — Solarization",
       "url": "https://en.wikipedia.org/wiki/Solarization",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Solarization — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Solarization%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Solarization — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Solarization",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Solarization — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Solarization",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Solarization — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Solarization%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Solarization — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Solarization%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q60712",

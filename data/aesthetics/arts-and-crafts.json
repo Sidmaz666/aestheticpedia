@@ -180,7 +180,12 @@
       "date": "1862",
       "license": "Public domain",
       "width": "1131",
-      "height": "1184"
+      "height": "1184",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Brooklyn_Museum_-_Wallpaper_Sample_Book_1_-_William_Morris_and_Company_-_page127.jpg",
@@ -193,7 +198,12 @@
       "date": "between 1915 and 1917 date QS:P571,+1915-00-00T00:00:00Z/8,P",
       "license": "Public domain",
       "width": "608",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Newcomb_Pottery._Vase%2C_1902-1904.jpg",
@@ -206,7 +216,12 @@
       "date": "between 1902 and 1904 date QS:P,+1902-00-00T00:00:00Z/8,P131",
       "license": "No restrictions",
       "width": "1104",
-      "height": "1536"
+      "height": "1536",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Mueller_Mosaic_Company%2C_Tile%2C_ca._1910.jpg/1280px-Mueller_Mosaic_Company%2C_Tile%2C_ca._1910.jpg",
@@ -219,7 +234,12 @@
       "date": "circa 1910 date QS:P,+1910-00-00T00:00:00Z/9,P1480,Q5727902",
       "license": "No restrictions",
       "width": "1280",
-      "height": "1119"
+      "height": "1119",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Kelmscott_Press_-_The_Nature_of_Gothic_by_John_Ruskin_%28first_page%29.jpg",
@@ -232,7 +252,12 @@
       "date": "1890s date QS:P,+1890-00-00T00:00:00Z/8",
       "license": "Public domain",
       "width": "528",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/The_Grange%2C_Ramsgate_1.jpg/1280px-The_Grange%2C_Ramsgate_1.jpg",
@@ -246,7 +271,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "955"
+      "height": "955",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/William_Morris_age_53.jpg/1280px-William_Morris_age_53.jpg",
@@ -259,7 +289,12 @@
       "date": "First published 1899 (photo c. 1887)",
       "license": "Public domain",
       "width": "1280",
-      "height": "1611"
+      "height": "1611",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Philip_Webb%27s_Red_House_in_Upton.jpg/1280px-Philip_Webb%27s_Red_House_in_Upton.jpg",
@@ -273,7 +308,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "770"
+      "height": "770",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Morris_and_Company_Weaving_at_Merton_Abbey.jpg/1280px-Morris_and_Company_Weaving_at_Merton_Abbey.jpg",
@@ -286,7 +326,12 @@
       "date": "Photo c. 1890, published 1911",
       "license": "Public domain",
       "width": "1280",
-      "height": "942"
+      "height": "942",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Harris_Lebus_sideboard.jpg",
@@ -299,24 +344,38 @@
       "date": "2002",
       "license": "Public domain",
       "width": "1052",
-      "height": "1157"
+      "height": "1157",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Victoria and Albert Museum",
-      "url": "https://www.vam.ac.uk/articles/arts-and-crafts-movement",
       "tier": "A"
     },
     {
       "name": "Encyclopedia Britannica",
       "url": "https://www.britannica.com/topic/Arts-and-Crafts-movement",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Art Story",
       "url": "https://www.theartstory.org/movement-arts-and-crafts.htm",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -357,37 +416,12 @@
       "type": "article",
       "title": "Wikipedia — Arts and Crafts",
       "url": "https://en.wikipedia.org/wiki/Arts_and_Crafts",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Arts and Crafts — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Arts%20and%20Crafts%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Arts and Crafts — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Arts%20and%20Crafts",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Arts and Crafts — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Arts%20and%20Crafts",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Arts and Crafts — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Arts%20and%20Crafts%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Arts and Crafts — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Arts%20and%20Crafts%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q330369",

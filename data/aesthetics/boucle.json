@@ -133,7 +133,12 @@
       "date": "2003-01",
       "license": "Public domain",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Boucle_fabric.jpg",
@@ -146,7 +151,12 @@
       "date": "2008-07-04",
       "license": "Public domain",
       "width": "895",
-      "height": "677"
+      "height": "677",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/1914-01-01_NUEVO_MUNDO_P21.jpg/1280px-1914-01-01_NUEVO_MUNDO_P21.jpg",
@@ -159,7 +169,12 @@
       "date": "1914-01-01",
       "license": "Public domain",
       "width": "1280",
-      "height": "3788"
+      "height": "3788",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/1957_Balenciaga_chemise_or_sack_dress%2C_black_boucl%C3%A9_wool_01.jpg",
@@ -173,7 +188,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "657",
-      "height": "900"
+      "height": "900",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/1957_Balenciaga_chemise_or_sack_dress%2C_black_boucl%C3%A9_wool_02.jpg",
@@ -187,7 +207,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "584",
-      "height": "900"
+      "height": "900",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/GMG_Chaise_Longue%2C_by_Greta_M._Grossman_for_GUBI%2C_1951%2C_at_sale_at_The_Edit_shop_%28Strada_Icoanei_no._20%29%2C_Bucharest%2C_Romania.jpg/1280px-GMG_Chaise_Longue%2C_by_Greta_M._Grossman_for_GUBI%2C_1951%2C_at_sale_at_The_Edit_shop_%28Strada_Icoanei_no._20%29%2C_Bucharest%2C_Romania.jpg",
@@ -201,7 +226,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1803"
+      "height": "1803",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Pacha_cu_M%C3%A2ner_armchair%2C_by_Pierre_Paulin_for_GUBI%2C_1975%2C_at_sale_at_The_Edit_shop_%28Strada_Icoanei_no._20%29%2C_Bucharest%2C_Romania.jpg/1280px-Pacha_cu_M%C3%A2ner_armchair%2C_by_Pierre_Paulin_for_GUBI%2C_1975%2C_at_sale_at_The_Edit_shop_%28Strada_Icoanei_no._20%29%2C_Bucharest%2C_Romania.jpg",
@@ -215,24 +245,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1152"
+      "height": "1152",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Victoria and Albert Museum",
       "url": "https://www.vam.ac.uk",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Met Museum",
       "url": "https://www.metmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Textile Arts Center",
       "url": "https://textileartscenter.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -268,36 +318,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:55:32.811Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Bouclé — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Boucl%C3%A9%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Bouclé — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Boucl%C3%A9",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Bouclé — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Boucl%C3%A9",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Bouclé — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Boucl%C3%A9%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Bouclé — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Boucl%C3%A9%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q776110",

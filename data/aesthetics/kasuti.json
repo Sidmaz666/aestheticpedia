@@ -119,7 +119,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1164",
-      "height": "580"
+      "height": "580",
+      "check": {
+        "ok": true,
+        "status": 206,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Kasuti_embroidery.jpg",
@@ -133,24 +138,38 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "736",
-      "height": "981"
+      "height": "981",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Kasuti Embroidery of Karnataka",
-      "url": "https://archive.org/details/KasutiEmbroideryOfKarnataka",
       "tier": "A"
     },
     {
       "name": "Kasuti",
       "url": "https://en.wikipedia.org/wiki/Kasuti",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Karnataka Handicrafts",
       "url": "https://www.karnatakatourism.org/article/kasuti-embroidery",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -173,38 +192,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:03:20.926Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Kasuti — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Kasuti%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Kasuti — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Kasuti",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Kasuti — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Kasuti",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Kasuti — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Kasuti%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Kasuti — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Kasuti%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q6374909",

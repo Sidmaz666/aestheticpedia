@@ -120,58 +120,24 @@
   "sources": [
     {
       "name": "Japanese Kimono",
-      "url": "https://en.wikipedia.org/wiki/Tomesode",
       "tier": "B"
     },
     {
       "name": "Kimono House",
-      "url": "https://www.kimono-house.net/tomesode",
       "tier": "C"
     },
     {
       "name": "Tokyo National Museum",
       "url": "https://www.tnm.jp",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Tomesode",
-      "url": "https://en.wikipedia.org/wiki/Tomesode",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Tomesode — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Tomesode%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Tomesode — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Tomesode",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Tomesode — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Tomesode",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Tomesode — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Tomesode%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Tomesode — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Tomesode%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 75,
   "isNiche": false,
   "dataQuality": "well_documented",

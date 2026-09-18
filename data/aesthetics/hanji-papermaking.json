@@ -131,7 +131,12 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "533",
-      "height": "800"
+      "height": "800",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Korea-Seoul-Changgyeonggung-01.jpg/1280px-Korea-Seoul-Changgyeonggung-01.jpg",
@@ -145,7 +150,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Seoul-Korean-Hangul-Insadong-Papers.jpg/1280px-Seoul-Korean-Hangul-Insadong-Papers.jpg",
@@ -159,7 +169,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Korean_paper-Hanji-01.jpg",
@@ -173,7 +188,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "800",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Korean_paper-Hanji-02.jpg/1280px-Korean_paper-Hanji-02.jpg",
@@ -186,7 +206,12 @@
       "date": "27 September 2005 (according to Exif data)",
       "license": "Public domain",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Dream-Yellow.jpg/1280px-Dream-Yellow.jpg",
@@ -200,7 +225,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1289"
+      "height": "1289",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/ArghunLetterToPhilippeLeBelExtract1289.jpg/1280px-ArghunLetterToPhilippeLeBelExtract1289.jpg",
@@ -213,7 +243,12 @@
       "date": "1289",
       "license": "Public domain",
       "width": "1280",
-      "height": "865"
+      "height": "865",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/8594_Dream-Red_2402_-96_x_96.jpg/1280px-8594_Dream-Red_2402_-96_x_96.jpg",
@@ -227,7 +262,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1275"
+      "height": "1275",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/YUN_process.jpg",
@@ -241,19 +281,34 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "940",
-      "height": "371"
+      "height": "371",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Hanji",
       "url": "https://en.wikipedia.org/wiki/Hanji",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Metropolitan Museum of Art",
       "url": "https://www.metmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "references": [
@@ -289,42 +344,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:01:23.018Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Hanji Papermaking",
-      "url": "https://en.wikipedia.org/wiki/Hanji_Papermaking",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Hanji Papermaking — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Hanji%20Papermaking%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Hanji Papermaking — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Hanji%20Papermaking",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Hanji Papermaking — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Hanji%20Papermaking",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Hanji Papermaking — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Hanji%20Papermaking%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Hanji Papermaking — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Hanji%20Papermaking%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1203873",

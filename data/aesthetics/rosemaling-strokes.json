@@ -112,57 +112,35 @@
     {
       "name": "Vesterheim Museum",
       "url": "https://vesterheim.org/collections/exhibits/rosemaling",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Norwegian Folk Art",
       "url": "https://www.visitnorway.com/things-to-do/nature-and-science/museums/vesterheim/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Rosemaling History",
       "url": "https://www.rosemaling.org/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Rosemaling Strokes",
-      "url": "https://en.wikipedia.org/wiki/Rosemaling_Strokes",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Rosemaling Strokes — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Rosemaling%20Strokes%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Rosemaling Strokes — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Rosemaling%20Strokes",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Rosemaling Strokes — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Rosemaling%20Strokes",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Rosemaling Strokes — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Rosemaling%20Strokes%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Rosemaling Strokes — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Rosemaling%20Strokes%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 60,
   "isNiche": false,
   "dataQuality": "well_documented",

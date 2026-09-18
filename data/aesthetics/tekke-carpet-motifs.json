@@ -148,7 +148,12 @@
       "license": "No restrictions",
       "licenseUrl": "https://www.flickr.com/commons/usage/",
       "width": "1280",
-      "height": "2044"
+      "height": "2044",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Hans_Memling_065.jpg/1280px-Hans_Memling_065.jpg",
@@ -161,24 +166,44 @@
       "date": "1479 date QS:P571,+1479-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "1296"
+      "height": "1296",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Turkmen Carpet Museum",
       "url": "https://www.carpetmuseum.tm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The State Museum of Oriental Art - Turkmen Collection",
       "url": "https://www.orientalmuseum.ru",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Turkmen Carpet Research",
       "url": "https://www.turkmencarpets.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -214,42 +239,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:12:01.542Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Tekke Carpet Motifs",
-      "url": "https://en.wikipedia.org/wiki/Tekke_Carpet_Motifs",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Tekke Carpet Motifs — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Tekke%20Carpet%20Motifs%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Tekke Carpet Motifs — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Tekke%20Carpet%20Motifs",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Tekke Carpet Motifs — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Tekke%20Carpet%20Motifs",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Tekke Carpet Motifs — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Tekke%20Carpet%20Motifs%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Tekke Carpet Motifs — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Tekke%20Carpet%20Motifs%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q5617122",

@@ -126,7 +126,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1092"
+      "height": "1092",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/7116ac83-4ae5-0e5d-80f7-30b0d65fa205/full/843,/0/default.jpg",
@@ -140,7 +145,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1199"
+      "height": "1199",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/c0789ae9-ff23-ee4f-f7f4-83778b308e33/full/843,/0/default.jpg",
@@ -154,7 +164,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "559"
+      "height": "559",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/fc615fbd-4abe-56af-b2da-293caff1e965/full/843,/0/default.jpg",
@@ -168,7 +183,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1251"
+      "height": "1251",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/29f7d263-beab-44e2-bb1e-fca9fa2bd5a9/full/843,/0/default.jpg",
@@ -182,7 +202,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/5774176a-8e77-bbf8-b277-b893435045e8/full/843,/0/default.jpg",
@@ -196,7 +221,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "635"
+      "height": "635",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/2b955a2a-b7ca-e71e-f48a-41190795e78c/full/843,/0/default.jpg",
@@ -210,7 +240,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "650"
+      "height": "650",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/94e3b312-2ce8-ff8c-3336-31eea707b7f5/full/843,/0/default.jpg",
@@ -224,64 +259,47 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1086"
+      "height": "1086",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "The Metropolitan Museum of Art",
       "url": "https://www.metmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Daumier: The Complete Lithographs",
       "url": "https://www.henri-daumier.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Honoré Daumier - Caricature and Satire",
       "url": "https://www.tate.org.uk",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Daumier Lithographic Line",
-      "url": "https://en.wikipedia.org/wiki/Daumier_Lithographic_Line",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Daumier Lithographic Line — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Daumier%20Lithographic%20Line%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Daumier Lithographic Line — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Daumier%20Lithographic%20Line",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Daumier Lithographic Line — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Daumier%20Lithographic%20Line",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Daumier Lithographic Line — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Daumier%20Lithographic%20Line%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Daumier Lithographic Line — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Daumier%20Lithographic%20Line%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 75,
   "isNiche": false,
   "dataQuality": "well_documented",

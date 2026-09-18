@@ -129,12 +129,22 @@
     {
       "name": "Wikipedia — Survival horror",
       "url": "https://en.wikipedia.org/wiki/Survival_horror",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Capcom — Resident Evil archive",
       "url": "https://www.capcom.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -157,50 +167,19 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:09:17.080Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — PS1-Era Survival Horror",
-      "url": "https://en.wikipedia.org/wiki/PS1-Era_Survival_Horror",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "PS1-Era Survival Horror — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=PS1-Era%20Survival%20Horror%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "PS1-Era Survival Horror — academic literature",
-      "url": "https://scholar.google.com/scholar?q=PS1-Era%20Survival%20Horror",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "PS1-Era Survival Horror — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=PS1-Era%20Survival%20Horror",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "PS1-Era Survival Horror — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=PS1-Era%20Survival%20Horror%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "PS1-Era Survival Horror — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=PS1-Era%20Survival%20Horror%20aesthetic%20examples",
-      "note": "Google Images search"
     },
     {
       "type": "web",
       "title": "Aesthetics Wiki — PS1-Era Survival Horror",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=PS1-Era%20Survival%20Horror",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q333967",

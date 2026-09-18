@@ -141,57 +141,35 @@
     {
       "name": "Swedish National Heritage Board",
       "url": "https://www.raa.se",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Falu Copper Mine",
       "url": "https://www.falucoppermine.se",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Swedish Institute",
       "url": "https://www.sweden.se",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Falu Red Farmstead",
-      "url": "https://en.wikipedia.org/wiki/Falu_Red_Farmstead",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Falu Red Farmstead — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Falu%20Red%20Farmstead%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Falu Red Farmstead — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Falu%20Red%20Farmstead",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Falu Red Farmstead — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Falu%20Red%20Farmstead",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Falu Red Farmstead — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Falu%20Red%20Farmstead%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Falu Red Farmstead — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Falu%20Red%20Farmstead%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 80,
   "isNiche": false,
   "dataQuality": "well_documented",

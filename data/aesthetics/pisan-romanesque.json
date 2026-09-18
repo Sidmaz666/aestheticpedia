@@ -172,7 +172,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "845"
+      "height": "845",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Pisa%2C_basilica_di_San_Pietro_Apostolo_%2802%29.jpg/1280px-Pisa%2C_basilica_di_San_Pietro_Apostolo_%2802%29.jpg",
@@ -186,24 +191,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Opera della Primaziale Pisana",
       "url": "https://www.opapisa.it",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "UNESCO World Heritage",
       "url": "https://whc.unesco.org/en/list/395/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Italian Ministry of Culture",
       "url": "https://www.beniculturali.it",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -244,37 +269,12 @@
       "type": "article",
       "title": "Wikipedia — Pisan Romanesque",
       "url": "https://en.wikipedia.org/wiki/Pisan_Romanesque",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Pisan Romanesque — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Pisan%20Romanesque%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Pisan Romanesque — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Pisan%20Romanesque",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Pisan Romanesque — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Pisan%20Romanesque",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Pisan Romanesque — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Pisan%20Romanesque%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Pisan Romanesque — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Pisan%20Romanesque%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q3940633",

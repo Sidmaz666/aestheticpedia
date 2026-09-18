@@ -125,17 +125,20 @@
   "sources": [
     {
       "name": "Adorama Learning Center",
-      "url": "https://www.adorama.com/alc/0014/article/motion-blur-panning",
       "tier": "C"
     },
     {
       "name": "Digital Photography Review",
       "url": "https://www.dpreview.com/articles/5999033360/how-to-use-panning-motion-blur",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Sports Shooter",
-      "url": "https://sportsshooter.com/motion-blur-panning-guide",
       "tier": "C"
     }
   ],
@@ -161,42 +164,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:08:11.334Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Panning Motion Blur",
-      "url": "https://en.wikipedia.org/wiki/Panning_Motion_Blur",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Panning Motion Blur — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Panning%20Motion%20Blur%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Panning Motion Blur — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Panning%20Motion%20Blur",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Panning Motion Blur — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Panning%20Motion%20Blur",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Panning Motion Blur — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Panning%20Motion%20Blur%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Panning Motion Blur — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Panning%20Motion%20Blur%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q6917741",

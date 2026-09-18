@@ -133,7 +133,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "756",
-      "height": "758"
+      "height": "758",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Jean_Fouquet.png",
@@ -146,7 +151,12 @@
       "date": "1450 date QS:P571,+1450-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "941",
-      "height": "953"
+      "height": "953",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Hans_Holbein_the_Younger_-_Margaret_Roper_%28Metropolitan_Museum_of_Art%29.JPG/1280px-Hans_Holbein_the_Younger_-_Margaret_Roper_%28Metropolitan_Museum_of_Art%29.JPG",
@@ -159,7 +169,12 @@
       "date": "between 1535 and 1536 date QS:P,+1535-00-00T00:00:00Z/8,P131",
       "license": "Public domain",
       "width": "1280",
-      "height": "1252"
+      "height": "1252",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Beethoven_Hornemann.jpg",
@@ -172,7 +187,12 @@
       "date": "1803 date QS:P571,+1803-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "800",
-      "height": "912"
+      "height": "912",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Louis-Marie_Autissier%2C_Self-portrait_edit.jpg/1280px-Louis-Marie_Autissier%2C_Self-portrait_edit.jpg",
@@ -185,7 +205,12 @@
       "date": "1817",
       "license": "Public domain",
       "width": "1280",
-      "height": "1824"
+      "height": "1824",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Anton_Ulrik_Berndes_-_Self-portrait_-_NMB_532_-_Nationalmuseum.jpg",
@@ -197,7 +222,12 @@
       "artist": "Anton Ulrik Berndes",
       "license": "Public domain",
       "width": "802",
-      "height": "1000"
+      "height": "1000",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/GeorgeWashingtonByRobertField.jpg/1280px-GeorgeWashingtonByRobertField.jpg",
@@ -210,7 +240,12 @@
       "date": "25 July 2012",
       "license": "Public domain",
       "width": "1280",
-      "height": "1483"
+      "height": "1483",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Pedro_Afonso_de_Bragan%C3%A7a_%281850%29.jpg",
@@ -223,7 +258,12 @@
       "date": "1850",
       "license": "Public domain",
       "width": "960",
-      "height": "1189"
+      "height": "1189",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Miniature_Portrait_with_Overlays_LACMA_M.89.98a-r_%282_of_2%29.jpg/1280px-Miniature_Portrait_with_Overlays_LACMA_M.89.98a-r_%282_of_2%29.jpg",
@@ -236,23 +276,31 @@
       "date": "circa 1650 date QS:P571,+1650-00-00T00:00:00Z/9,P1480,Q57279",
       "license": "Public domain",
       "width": "1280",
-      "height": "1585"
+      "height": "1585",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Victoria & Albert Museum",
-      "url": "https://www.vam.ac.uk/articles/miniature-painting",
       "tier": "A"
     },
     {
       "name": "Metropolitan Museum of Art",
       "url": "https://www.metmuseum.org/toah/hd/minp/hd_minp.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Waddesdon Manor",
-      "url": "https://www.waddesdon.org.uk/explore/collections/miniatures/",
       "tier": "B"
     }
   ],
@@ -289,42 +337,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:59:11.905Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — European Portrait Miniatures",
-      "url": "https://en.wikipedia.org/wiki/European_Portrait_Miniatures",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "European Portrait Miniatures — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=European%20Portrait%20Miniatures%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "European Portrait Miniatures — academic literature",
-      "url": "https://scholar.google.com/scholar?q=European%20Portrait%20Miniatures",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "European Portrait Miniatures — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=European%20Portrait%20Miniatures",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "European Portrait Miniatures — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=European%20Portrait%20Miniatures%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "European Portrait Miniatures — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=European%20Portrait%20Miniatures%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q131208654",

@@ -122,17 +122,32 @@
     {
       "name": "Japanese Folk Crafts Museum",
       "url": "https://www.mingeikan.or.jp/en",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Boro: Fabric of Life",
       "url": "https://www.metmuseum.org/exhibitions/listings/2017/boro",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Boro textiles - The Fabric of Life",
       "url": "https://www.japanesestudies.org.uk/articles/2017/boro-textiles",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -162,37 +177,12 @@
       "type": "article",
       "title": "Wikipedia — Boro",
       "url": "https://en.wikipedia.org/wiki/Boro",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Boro — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Boro%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Boro — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Boro",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Boro — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Boro",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Boro — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Boro%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Boro — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Boro%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q9177706",

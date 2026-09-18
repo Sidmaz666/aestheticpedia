@@ -131,7 +131,12 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1280",
-      "height": "1656"
+      "height": "1656",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Portrait_of_Thelonious_Monk%2C_Howard_McGhee%2C_Roy_Eldridge%2C_and_Teddy_Hill%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947.jpg",
@@ -144,7 +149,12 @@
       "date": "1947",
       "license": "Public domain",
       "width": "744",
-      "height": "800"
+      "height": "800",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Louisiana_Purchase_Exposition-_St._Louis_World%27s_Fair_Album_11_-_DPLA_-_adfad2a423e13edb3aab399ec5392e91_%28page_72%29.jpg/1280px-Louisiana_Purchase_Exposition-_St._Louis_World%27s_Fair_Album_11_-_DPLA_-_adfad2a423e13edb3aab399ec5392e91_%28page_72%29.jpg",
@@ -156,19 +166,34 @@
       "artist": "Louisiana Purchase Exposition Co. (Saint Louis, Mo.)",
       "license": "No restrictions",
       "width": "1280",
-      "height": "1491"
+      "height": "1491",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Aqua (user interface)",
       "url": "https://en.wikipedia.org/wiki/Aqua_(user_interface)",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Apple — macOS human interface archives",
       "url": "https://developer.apple.com/design",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -206,46 +231,15 @@
       }
     },
     {
-      "type": "article",
-      "title": "Wikipedia — Aqua Interface",
-      "url": "https://en.wikipedia.org/wiki/Aqua_Interface",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Aqua Interface — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Aqua%20Interface%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Aqua Interface — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Aqua%20Interface",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Aqua Interface — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Aqua%20Interface",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Aqua Interface — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Aqua%20Interface%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Aqua Interface — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Aqua%20Interface%20aesthetic%20examples",
-      "note": "Google Images search"
-    },
-    {
       "type": "web",
       "title": "Aesthetics Wiki — Aqua Interface",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Aqua%20Interface",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q3247883",

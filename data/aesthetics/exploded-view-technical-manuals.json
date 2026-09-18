@@ -148,7 +148,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "800",
-      "height": "670"
+      "height": "670",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Small_kitchen_-_perspective_-_textures.PNG/1280px-Small_kitchen_-_perspective_-_textures.PNG",
@@ -161,7 +166,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "1063"
+      "height": "1063",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Enginewhole_lg.jpg",
@@ -175,7 +185,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "586",
-      "height": "800"
+      "height": "800",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Gallotia_simonyi-female.norarte.jpg/1280px-Gallotia_simonyi-female.norarte.jpg",
@@ -189,7 +204,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "655"
+      "height": "655",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Squirrel_%281785%29_RMG_J6458.jpg",
@@ -202,7 +222,12 @@
       "date": "between circa January 1783 and circa August 1783 date QS:P57",
       "license": "Public domain",
       "width": "1280",
-      "height": "391"
+      "height": "391",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Technical_Illustrations.png",
@@ -216,23 +241,31 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "601",
-      "height": "398"
+      "height": "398",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "The History of Technical Illustration",
-      "url": "https://www.idsa.org/insights/technical-illustration",
       "tier": "B"
     },
     {
       "name": "Exploded Views: The Art of Technical Instruction",
       "url": "https://www.smithsonianmag.com/arts-culture/exploded-views-180965696/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Ikea Instruction Manuals",
-      "url": "https://www.ikea.com/us/en/customer-service/instructions/",
       "tier": "C"
     }
   ],
@@ -269,42 +302,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:59:16.629Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Exploded-View Technical Manuals",
-      "url": "https://en.wikipedia.org/wiki/Exploded-View_Technical_Manuals",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Exploded-View Technical Manuals — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Exploded-View%20Technical%20Manuals%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Exploded-View Technical Manuals — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Exploded-View%20Technical%20Manuals",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Exploded-View Technical Manuals — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Exploded-View%20Technical%20Manuals",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Exploded-View Technical Manuals — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Exploded-View%20Technical%20Manuals%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Exploded-View Technical Manuals — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Exploded-View%20Technical%20Manuals%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q857780",

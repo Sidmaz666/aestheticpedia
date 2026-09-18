@@ -121,57 +121,29 @@
     {
       "name": "Catalin Plastic History",
       "url": "https://www.catalinplastic.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The History of Catalin Plastic",
-      "url": "https://en.wikipedia.org/wiki/Catalin_plastic",
       "tier": "B"
     },
     {
       "name": "Design Museum - Catalin",
       "url": "https://designmuseum.org/design/catalin",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 500,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Catalin Swirls",
-      "url": "https://en.wikipedia.org/wiki/Catalin_Swirls",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Catalin Swirls — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Catalin%20Swirls%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Catalin Swirls — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Catalin%20Swirls",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Catalin Swirls — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Catalin%20Swirls",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Catalin Swirls — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Catalin%20Swirls%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Catalin Swirls — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Catalin%20Swirls%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 65,
   "isNiche": false,
   "dataQuality": "well_documented",

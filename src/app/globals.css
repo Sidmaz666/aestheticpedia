@@ -50,15 +50,47 @@
   --font-serif: var(--font-instrument), "Iowan Old Style", Georgia, serif;
   --font-display: var(--ae-display, var(--font-instrument)), "Iowan Old Style", Georgia, serif;
 
-  --radius-sm: 0.375rem;
-  --radius-md: 0.625rem;
-  --radius-lg: 0.875rem;
-  --radius-xl: 1.25rem;
-  --radius-2xl: 1.75rem;
+  /* Corner radius scales with the aesthetic being viewed (--r-scale: 0.15 geometric … 1.6 organic). */
+  --radius-sm: calc(0.375rem * var(--r-scale));
+  --radius-md: calc(0.625rem * var(--r-scale));
+  --radius-lg: calc(0.875rem * var(--r-scale));
+  --radius-xl: calc(1.1rem * var(--r-scale));
+  --radius-2xl: calc(1.5rem * var(--r-scale));
+  --radius-3xl: calc(2rem * var(--r-scale));
 
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
-  --animate-fade-up: fade-up 0.7s var(--ease-out-expo) both;
+  --animate-fade-up: fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
   --animate-marquee: marquee 80s linear infinite;
+}
+
+/* Registered colour properties interpolate, so switching theme — or opening an aesthetic
+   whose palette re-themes the site — morphs every surface, border and text colour smoothly. */
+@property --bg { syntax: "<color>"; inherits: true; initial-value: #0b0b0c; }
+@property --surface { syntax: "<color>"; inherits: true; initial-value: #131315; }
+@property --surface-2 { syntax: "<color>"; inherits: true; initial-value: #1b1b1e; }
+@property --line { syntax: "<color>"; inherits: true; initial-value: #242428; }
+@property --line-strong { syntax: "<color>"; inherits: true; initial-value: #34343a; }
+@property --fg { syntax: "<color>"; inherits: true; initial-value: #f3f0ea; }
+@property --fg-muted { syntax: "<color>"; inherits: true; initial-value: #bdb8ae; }
+@property --fg-subtle { syntax: "<color>"; inherits: true; initial-value: #8c877e; }
+@property --accent { syntax: "<color>"; inherits: true; initial-value: #e4ba6e; }
+@property --accent-fg { syntax: "<color>"; inherits: true; initial-value: #17120a; }
+@property --r-scale { syntax: "<number>"; inherits: true; initial-value: 1; }
+
+:root {
+  --r-scale: 1;
+  transition:
+    --bg 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    --surface 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    --surface-2 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    --line 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    --line-strong 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    --fg 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    --fg-muted 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    --fg-subtle 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    --accent 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    --accent-fg 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    --r-scale 0.7s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 :root,
@@ -106,10 +138,11 @@
   }
   body {
     @apply bg-bg text-fg antialiased;
+    font-family: var(--ae-body, var(--font-geist)), ui-sans-serif, system-ui, sans-serif;
     font-feature-settings: "ss01", "cv11";
     transition:
-      background-color 0.5s var(--ease-out-expo),
-      color 0.5s var(--ease-out-expo);
+      background-color 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+      color 0.5s cubic-bezier(0.16, 1, 0.3, 1);
   }
   ::selection {
     background: var(--accent);
@@ -271,4 +304,12 @@
   .aa-motion-flicker {
     animation: none;
   }
+}
+
+/* Motion (see src/components/site/motion.tsx): hidden until revealed, only when motion is allowed. */
+.motion-ok [data-reveal]:not([data-revealed]),
+.motion-ok [data-reveal-group]:not([data-revealed]),
+.motion-ok [data-count]:not([data-revealed]),
+.motion-ok [data-split]:not([data-split-done]) {
+  visibility: hidden;
 }

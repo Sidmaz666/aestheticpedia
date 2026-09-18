@@ -127,7 +127,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1024",
-      "height": "683"
+      "height": "683",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/MintonTile3.jpg",
@@ -138,7 +143,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "520",
-      "height": "517"
+      "height": "517",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/St_James_Boroughbridge_%28148%29.JPG/1280px-St_James_Boroughbridge_%28148%29.JPG",
@@ -152,7 +162,12 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/All_Souls%27%2C_Haley_Hill%2C_Halifax_%282856191775%29.jpg/1280px-All_Souls%27%2C_Haley_Hill%2C_Halifax_%282856191775%29.jpg",
@@ -166,7 +181,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "1187"
+      "height": "1187",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Netley_tiles.jpg/1280px-Netley_tiles.jpg",
@@ -179,7 +199,12 @@
       "date": "1863",
       "license": "Public domain",
       "width": "1280",
-      "height": "1709"
+      "height": "1709",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Tiles_MET_sf30-86-1a-ds1.jpg/1280px-Tiles_MET_sf30-86-1a-ds1.jpg",
@@ -192,24 +217,38 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1262"
+      "height": "1262",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Victoria and Albert Museum - Encaustic Tiles",
-      "url": "https://www.vam.ac.uk/articles/encaustic-tiles",
       "tier": "A"
     },
     {
       "name": "Historic England - Encaustic Tiles",
       "url": "https://historicengland.org.uk/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia - Encaustic tile",
       "url": "https://en.wikipedia.org/wiki/Encaustic_tile",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -243,44 +282,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T04:59:04.772Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Encaustic Tile Inlay",
-      "url": "https://en.wikipedia.org/wiki/Encaustic_Tile_Inlay",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Encaustic Tile Inlay — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Encaustic%20Tile%20Inlay%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Encaustic Tile Inlay — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Encaustic%20Tile%20Inlay",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Encaustic Tile Inlay — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Encaustic%20Tile%20Inlay",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Encaustic Tile Inlay — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Encaustic%20Tile%20Inlay%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Encaustic Tile Inlay — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Encaustic%20Tile%20Inlay%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q5375325",

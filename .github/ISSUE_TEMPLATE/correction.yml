@@ -6,7 +6,7 @@ body:
     id: url
     attributes:
       label: Record URL
-      placeholder: https://aestheticpedia.org/aesthetics/…
+      placeholder: https://<site>/aesthetics/<slug>
     validations:
       required: true
   - type: textarea

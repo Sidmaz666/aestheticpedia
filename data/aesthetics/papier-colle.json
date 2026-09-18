@@ -128,7 +128,12 @@
       "date": "Painting: c. 1912",
       "license": "PD-US",
       "width": "787",
-      "height": "1074"
+      "height": "1074",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
@@ -141,7 +146,12 @@
       "date": "Winter 1887–1888",
       "license": "Public domain",
       "width": "1256",
-      "height": "1539"
+      "height": "1539",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/b1b774eb-b49e-a99b-0edc-bc81e1fa865a/full/843,/0/default.jpg",
@@ -155,7 +165,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "622"
+      "height": "622",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/e79b76c7-06ca-5822-a6f4-7de94a8bf43c/full/843,/0/default.jpg",
@@ -169,7 +184,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "834"
+      "height": "834",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/bba259cc-dba7-9f63-52fb-043003792730/full/843,/0/default.jpg",
@@ -183,7 +203,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "784"
+      "height": "784",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/8b73e4fa-c454-3744-3c11-81ada02ac978/full/843,/0/default.jpg",
@@ -197,7 +222,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "567"
+      "height": "567",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/a302e9f4-7c4b-86c5-524f-594a42b7b182/full/843,/0/default.jpg",
@@ -211,7 +241,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "608"
+      "height": "608",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/54c93c0a-f529-eb0f-ac90-0dba52c17733/full/843,/0/default.jpg",
@@ -225,23 +260,31 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "536"
+      "height": "536",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "MoMA Collection",
       "url": "https://www.moma.org/collection/works/39334",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Tate Modern",
-      "url": "https://www.tate.org.uk/art/artworks/braque-papier-colle-t00615",
       "tier": "A"
     },
     {
       "name": "Art Encyclopedia",
-      "url": "https://www.theartstory.org/movement-papier-colle",
       "tier": "B"
     }
   ],
@@ -267,42 +310,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:08:13.294Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Papier Collé",
-      "url": "https://en.wikipedia.org/wiki/Papier_Coll%C3%A9",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Papier Collé — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Papier%20Coll%C3%A9%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Papier Collé — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Papier%20Coll%C3%A9",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Papier Collé — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Papier%20Coll%C3%A9",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Papier Collé — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Papier%20Coll%C3%A9%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Papier Collé — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Papier%20Coll%C3%A9%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1668074",

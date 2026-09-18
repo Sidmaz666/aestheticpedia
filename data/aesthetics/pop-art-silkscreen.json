@@ -136,7 +136,12 @@
       "date": "1928 date QS:P571,+1928-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "1556"
+      "height": "1556",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg/1280px-Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg",
@@ -149,7 +154,12 @@
       "date": "2006-05-12",
       "license": "Public domain",
       "width": "1280",
-      "height": "744"
+      "height": "744",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/AAA-AAA_lipplucy_27219.jpg/1280px-AAA-AAA_lipplucy_27219.jpg",
@@ -162,7 +172,12 @@
       "date": "1964",
       "license": "Public domain",
       "width": "1280",
-      "height": "1005"
+      "height": "1005",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Pisupo_lua_afe_%28Corned_beef_2000%29.jpg/1280px-Pisupo_lua_afe_%28Corned_beef_2000%29.jpg",
@@ -176,7 +191,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Olivetti-Valentine.jpg",
@@ -190,7 +210,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "1064"
+      "height": "1064",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Fallen_Astronaut.jpg/1280px-Fallen_Astronaut.jpg",
@@ -203,7 +228,12 @@
       "date": "1971-08-02",
       "license": "Public domain",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Bundesarchiv_B_145_Bild-F088809-0038%2C_Berlin%2C_East_Side_Gallery.jpg",
@@ -217,19 +247,34 @@
       "license": "CC BY-SA 3.0 de",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
       "width": "800",
-      "height": "500"
+      "height": "500",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Pop art",
       "url": "https://en.wikipedia.org/wiki/Pop_art",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "MoMA — Warhol collection",
       "url": "https://www.moma.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -263,44 +308,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:09:11.089Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Pop Art Silkscreen",
-      "url": "https://en.wikipedia.org/wiki/Pop_Art_Silkscreen",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Pop Art Silkscreen — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Pop%20Art%20Silkscreen%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Pop Art Silkscreen — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Pop%20Art%20Silkscreen",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Pop Art Silkscreen — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Pop%20Art%20Silkscreen",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Pop Art Silkscreen — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Pop%20Art%20Silkscreen%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Pop Art Silkscreen — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Pop%20Art%20Silkscreen%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q134147",

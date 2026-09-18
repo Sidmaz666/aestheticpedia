@@ -127,24 +127,44 @@
       "date": "1897",
       "license": "Public domain",
       "width": "1280",
-      "height": "1048"
+      "height": "1048",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "National Museum of Modern Art, Tokyo",
       "url": "https://www.momat.go.jp",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Japan Art History",
       "url": "https://www.japanarthistory.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Art Story",
       "url": "https://www.theartstory.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -180,36 +200,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:13:37.685Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Yōga — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Y%C5%8Dga%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Yōga — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Y%C5%8Dga",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Yōga — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Y%C5%8Dga",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Yōga — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Y%C5%8Dga%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Yōga — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Y%C5%8Dga%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1633309",

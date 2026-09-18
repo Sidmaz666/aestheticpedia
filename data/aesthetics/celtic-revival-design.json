@@ -129,7 +129,12 @@
       "date": "1882",
       "license": "Public domain",
       "width": "1280",
-      "height": "1843"
+      "height": "1843",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/b037173a-021a-d698-d190-ed74f3897051/full/843,/0/default.jpg",
@@ -143,24 +148,38 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1207"
+      "height": "1207",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Celtic Revival",
-      "url": "https://www.vam.ac.uk/articles/celtic-revival",
       "tier": "A"
     },
     {
       "name": "Celtic Revival Design",
       "url": "https://en.wikipedia.org/wiki/Celtic_Revival",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "National Museum of Ireland",
       "url": "https://www.museum.ie",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -185,42 +204,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:56:23.699Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Celtic Revival Design",
-      "url": "https://en.wikipedia.org/wiki/Celtic_Revival_Design",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Celtic Revival Design — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Celtic%20Revival%20Design%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Celtic Revival Design — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Celtic%20Revival%20Design",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Celtic Revival Design — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Celtic%20Revival%20Design",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Celtic Revival Design — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Celtic%20Revival%20Design%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Celtic Revival Design — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Celtic%20Revival%20Design%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q4153218",

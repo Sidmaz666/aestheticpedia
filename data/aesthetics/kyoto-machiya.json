@@ -144,7 +144,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Machiya_building.jpg/1280px-Machiya_building.jpg",
@@ -158,7 +163,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Fabric_shop_in_Nara.jpg/1280px-Fabric_shop_in_Nara.jpg",
@@ -172,7 +182,12 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "1280",
-      "height": "1094"
+      "height": "1094",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Beam_of_Machiya_in_Gojo_street.jpg/1280px-Beam_of_Machiya_in_Gojo_street.jpg",
@@ -185,7 +200,12 @@
       "date": "1936",
       "license": "Public domain",
       "width": "1280",
-      "height": "1946"
+      "height": "1946",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Fukiya_katayama_house01s3200.jpg/1280px-Fukiya_katayama_house01s3200.jpg",
@@ -199,7 +219,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Uda_Matsuyama03s3200.jpg/1280px-Uda_Matsuyama03s3200.jpg",
@@ -213,7 +238,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
@@ -225,23 +255,37 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Kyoto City Tourism",
       "url": "https://www.kyoto.travel",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Japan Heritage",
       "url": "https://www.japan-heritage.or.jp",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "ArchDaily",
-      "url": "https://www.archdaily.com/872286/kyoto-machiya-traditional-japanese-townhouses",
       "tier": "C"
     }
   ],
@@ -278,42 +322,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:04:15.310Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Kyoto Machiya",
-      "url": "https://en.wikipedia.org/wiki/Kyoto_Machiya",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Kyoto Machiya — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Kyoto%20Machiya%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Kyoto Machiya — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Kyoto%20Machiya",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Kyoto Machiya — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Kyoto%20Machiya",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Kyoto Machiya — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Kyoto%20Machiya%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Kyoto Machiya — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Kyoto%20Machiya%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q17222820",

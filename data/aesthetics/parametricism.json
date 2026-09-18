@@ -179,7 +179,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Olympic_park_12.jpg",
@@ -193,7 +198,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "768",
-      "height": "1024"
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Dalian_International_Conference_Center.jpg/1280px-Dalian_International_Conference_Center.jpg",
@@ -207,24 +217,44 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Parametricism.com",
       "url": "https://parametricism.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Evolution of Parametricism",
       "url": "https://www.jstor.org/stable/10.1086/658633",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -252,45 +282,14 @@
     },
     {
       "type": "article",
-      "title": "Parametricism Architecture",
-      "url": "https://www.archdaily.com/85599/what-is-parametricism-patrik-schumacher",
-      "note": ""
-    },
-    {
-      "type": "article",
       "title": "Wikipedia — Parametricism",
       "url": "https://en.wikipedia.org/wiki/Parametricism",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Parametricism — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Parametricism%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Parametricism — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Parametricism",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Parametricism — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Parametricism",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Parametricism — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Parametricism%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Parametricism — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Parametricism%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q25052076",

@@ -171,63 +171,35 @@
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "George Nakashima Studio",
       "url": "https://www.nakashima.com/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Woodworking Network",
       "url": "https://www.woodworkingnetwork.com/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "web",
-      "title": "Live-edge furniture design",
-      "url": "https://www.google.com/search?q=Live-edge%20furniture%20design",
-      "note": "Web search"
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Live-edge Slabs",
-      "url": "https://en.wikipedia.org/wiki/Live-edge_Slabs",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Live-edge Slabs — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Live-edge%20Slabs%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Live-edge Slabs — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Live-edge%20Slabs",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Live-edge Slabs — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Live-edge%20Slabs",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Live-edge Slabs — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Live-edge%20Slabs%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Live-edge Slabs — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Live-edge%20Slabs%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 85,
   "isNiche": false,
   "dataQuality": "moderately_documented",

@@ -126,17 +126,26 @@
     {
       "name": "Lomography Magazine",
       "url": "https://magazine.lomography.com/articles/what-is-expired-film",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Kodak Professional",
-      "url": "https://www.kodak.com/en/professional/support/long-term-storage",
       "tier": "B"
     },
     {
       "name": "Reddit r/analog",
       "url": "https://www.reddit.com/r/analog/",
-      "tier": "D"
+      "tier": "D",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -161,42 +170,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:59:16.306Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Expired Film Shifts",
-      "url": "https://en.wikipedia.org/wiki/Expired_Film_Shifts",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Expired Film Shifts — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Expired%20Film%20Shifts%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Expired Film Shifts — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Expired%20Film%20Shifts",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Expired Film Shifts — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Expired%20Film%20Shifts",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Expired Film Shifts — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Expired%20Film%20Shifts%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Expired Film Shifts — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Expired%20Film%20Shifts%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q5421242",

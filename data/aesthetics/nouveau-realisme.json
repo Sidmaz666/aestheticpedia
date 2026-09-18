@@ -128,7 +128,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "611",
-      "height": "612"
+      "height": "612",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Niki_de_Saint_Phalle_by_Lothar_Wolleh.jpg",
@@ -142,7 +147,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "604",
-      "height": "608"
+      "height": "608",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Tinguely_by_Wolleh.jpg",
@@ -156,7 +166,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "600",
-      "height": "592"
+      "height": "592",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/IKB_191.jpg/1280px-IKB_191.jpg",
@@ -169,7 +184,12 @@
       "date": "1962",
       "license": "Public domain",
       "width": "1280",
-      "height": "1649"
+      "height": "1649",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/e1f6ef79-7216-4f19-ac78-a307a2fb4f32/full/843,/0/default.jpg",
@@ -183,7 +203,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "638"
+      "height": "638",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/e6dd6199-c245-d1b4-a997-ce89eafb48ca/full/843,/0/default.jpg",
@@ -197,7 +222,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "2688"
+      "height": "2688",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/f2f929b9-995a-9ed3-ef39-2fe81b35a64e/full/843,/0/default.jpg",
@@ -211,7 +241,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1123"
+      "height": "1123",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/3cea045a-92d6-36cf-1508-2c99ea740218/full/843,/0/default.jpg",
@@ -225,24 +260,38 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1495"
+      "height": "1495",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Tate Modern",
-      "url": "https://www.tate.org.uk/art/art-movements/nouveau-realisme",
       "tier": "A"
     },
     {
       "name": "Centre Pompidou",
       "url": "https://www.centrepompidou.fr/en",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Art Story",
       "url": "https://www.theartstory.org/movement/nouveau-realisme",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -283,37 +332,12 @@
       "type": "article",
       "title": "Wikipedia — Nouveau Réalisme",
       "url": "https://en.wikipedia.org/wiki/Nouveau_R%C3%A9alisme",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Nouveau Réalisme — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Nouveau%20R%C3%A9alisme%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Nouveau Réalisme — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Nouveau%20R%C3%A9alisme",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Nouveau Réalisme — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Nouveau%20R%C3%A9alisme",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Nouveau Réalisme — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Nouveau%20R%C3%A9alisme%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Nouveau Réalisme — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Nouveau%20R%C3%A9alisme%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q276308",

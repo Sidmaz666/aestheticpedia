@@ -132,7 +132,12 @@
       "date": "after 1827 date QS:P571,+1827-00-00T00:00:00Z/7,P1319,+1827-",
       "license": "Public domain",
       "width": "1280",
-      "height": "886"
+      "height": "886",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Capoeira%2C_Brazils.png/1280px-Capoeira%2C_Brazils.png",
@@ -145,7 +150,12 @@
       "date": "circa 1822 date QS:P571,+1822-00-00T00:00:00Z/9,P1480,Q57279",
       "license": "Public domain",
       "width": "1280",
-      "height": "849"
+      "height": "849",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Jiu-jitsu_contra_capoeira_%28detail%29.jpg",
@@ -158,7 +168,12 @@
       "date": "1909-10-06",
       "license": "Public domain",
       "width": "642",
-      "height": "473"
+      "height": "473",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Capoeira_Dance.jpg",
@@ -172,7 +187,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1120",
-      "height": "840"
+      "height": "840",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Roda_de_capoeira1.jpg",
@@ -186,7 +206,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "700",
-      "height": "427"
+      "height": "427",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Capoeira-three-berimbau-one-pandeiro.jpg",
@@ -200,7 +225,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "565",
-      "height": "429"
+      "height": "429",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/O_Jogo_da_capoeira%2C_Di%C3%A1rio_Nacional%2C_1927.png/1280px-O_Jogo_da_capoeira%2C_Di%C3%A1rio_Nacional%2C_1927.png",
@@ -213,7 +243,12 @@
       "date": "1927-11-06",
       "license": "Public domain",
       "width": "1280",
-      "height": "1159"
+      "height": "1159",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Roda_de_Capoeira_Angola.jpg",
@@ -227,7 +262,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "712",
-      "height": "534"
+      "height": "534",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Divination_Ceremony_and_Dance%2C_Brazil.JPG",
@@ -240,24 +280,44 @@
       "date": "1630",
       "license": "Public domain",
       "width": "1200",
-      "height": "767"
+      "height": "767",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Brazilian Capoeira Federation",
       "url": "https://confederacaobrasileiradecapoeira.com.br",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Capoeira History",
       "url": "https://en.wikipedia.org/wiki/Capoeira",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Capoeira Visual Culture",
       "url": "https://www.capoeira.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -291,44 +351,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T04:56:16.585Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Capoeira Visual Language",
-      "url": "https://en.wikipedia.org/wiki/Capoeira_Visual_Language",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Capoeira Visual Language — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Capoeira%20Visual%20Language%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Capoeira Visual Language — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Capoeira%20Visual%20Language",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Capoeira Visual Language — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Capoeira%20Visual%20Language",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Capoeira Visual Language — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Capoeira%20Visual%20Language%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Capoeira Visual Language — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Capoeira%20Visual%20Language%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q159452",

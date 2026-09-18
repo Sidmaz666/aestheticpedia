@@ -127,7 +127,12 @@
       "date": "2016-11-21",
       "license": "Public domain",
       "width": "1280",
-      "height": "712"
+      "height": "712",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/VHS_recorder%2C_camera_and_cassette_b.jpg/1280px-VHS_recorder%2C_camera_and_cassette_b.jpg",
@@ -141,7 +146,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "790"
+      "height": "790",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/JVC-HR-3300U.jpg/1280px-JVC-HR-3300U.jpg",
@@ -155,7 +165,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "773"
+      "height": "773",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/VHS_cassette_tape_12.JPG/1280px-VHS_cassette_tape_12.JPG",
@@ -169,7 +184,12 @@
       "license": "CC BY-SA 2.5 au",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/au/deed.en",
       "width": "1280",
-      "height": "718"
+      "height": "718",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/2023_Kaseta_VHS%2C_magnetofonowa_i_minikaseta.jpg/1280px-2023_Kaseta_VHS%2C_magnetofonowa_i_minikaseta.jpg",
@@ -183,7 +203,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "797"
+      "height": "797",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Funai_VHS_Video_recorder_2000s_1.jpg/1280px-Funai_VHS_Video_recorder_2000s_1.jpg",
@@ -197,7 +222,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "640"
+      "height": "640",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/VCR_load.jpg",
@@ -211,7 +241,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1024",
-      "height": "713"
+      "height": "713",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/VHS_tape_with_time_scale.jpg/1280px-VHS_tape_with_time_scale.jpg",
@@ -225,7 +260,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "717"
+      "height": "717",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/VHS-diagonal-helical-recording.jpg",
@@ -239,7 +279,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "959",
-      "height": "550"
+      "height": "550",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/3-equals-1-waveform-cutting-vhs-decode-2024.png/1280px-3-equals-1-waveform-cutting-vhs-decode-2024.png",
@@ -253,23 +298,37 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "521"
+      "height": "521",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "VHS: The Format That Changed Entertainment",
       "url": "https://www.moma.org/collection/works/2067",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Glitch Art in Theory and Practice",
       "url": "https://mitpress.mit.edu/books/glitch-art-and-practice",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Aesthetics of Glitch",
-      "url": "https://www.glitchart.org/history",
       "tier": "C"
     }
   ],
@@ -306,42 +365,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:13:02.237Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — VHS Tracking Artifacts",
-      "url": "https://en.wikipedia.org/wiki/VHS_Tracking_Artifacts",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "VHS Tracking Artifacts — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=VHS%20Tracking%20Artifacts%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "VHS Tracking Artifacts — academic literature",
-      "url": "https://scholar.google.com/scholar?q=VHS%20Tracking%20Artifacts",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "VHS Tracking Artifacts — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=VHS%20Tracking%20Artifacts",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "VHS Tracking Artifacts — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=VHS%20Tracking%20Artifacts%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "VHS Tracking Artifacts — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=VHS%20Tracking%20Artifacts%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q183976",

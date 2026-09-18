@@ -151,7 +151,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1051",
-      "height": "771"
+      "height": "771",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Iridescent_begonia.jpg/1280px-Iridescent_begonia.jpg",
@@ -165,7 +170,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Peacock_Fern_%28Selaginella_wildenowii%29_%288681119528%29.jpg/1280px-Peacock_Fern_%28Selaginella_wildenowii%29_%288681119528%29.jpg",
@@ -179,7 +189,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "741"
+      "height": "741",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Pollia.jpg",
@@ -193,7 +208,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1200",
-      "height": "1027"
+      "height": "1027",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Ophrys_speculum-IMG_0321.jpg/1280px-Ophrys_speculum-IMG_0321.jpg",
@@ -207,7 +227,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Schistostega_pennata_Jymm.jpg",
@@ -221,7 +246,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1054",
-      "height": "1269"
+      "height": "1269",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Iridescent_Insect_Display.png",
@@ -235,7 +265,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "720",
-      "height": "610"
+      "height": "610",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Female_Golden_Stag_Beetle.jpg/1280px-Female_Golden_Stag_Beetle.jpg",
@@ -248,7 +283,12 @@
       "license": "GFDL 1.2",
       "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
       "width": "1280",
-      "height": "854"
+      "height": "854",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Morpho_didius_Male_Dos_MHNT.jpg/1280px-Morpho_didius_Male_Dos_MHNT.jpg",
@@ -262,7 +302,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "954"
+      "height": "954",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Eunice_aphroditois.jpg/1280px-Eunice_aphroditois.jpg",
@@ -276,24 +321,44 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "1513"
+      "height": "1513",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Smithsonian National Museum of Natural History",
       "url": "https://naturalhistory.si.edu",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Encyclopedia Britannica",
       "url": "https://www.britannica.com/science/iridescence",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Aesthetics Wiki",
       "url": "https://aesthetics.fandom.com/wiki/Iridescence",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -329,36 +394,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:02:25.802Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Iridescence — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Iridescence%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Iridescence — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Iridescence",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Iridescence — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Iridescence",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Iridescence — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Iridescence%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Iridescence — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Iridescence%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q957208",

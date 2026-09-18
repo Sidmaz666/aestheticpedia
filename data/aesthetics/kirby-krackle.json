@@ -125,12 +125,22 @@
     {
       "name": "Wikipedia — Kirby Krackle",
       "url": "https://en.wikipedia.org/wiki/Kirby_krackle",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Jack Kirby Museum",
       "url": "https://kirbymuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -155,36 +165,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:03:58.295Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Kirby Krackle — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Kirby%20Krackle%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Kirby Krackle — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Kirby%20Krackle",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Kirby Krackle — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Kirby%20Krackle",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Kirby Krackle — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Kirby%20Krackle%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Kirby Krackle — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Kirby%20Krackle%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q6414968",

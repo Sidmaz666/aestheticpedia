@@ -148,7 +148,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1024",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Prince_Alexander_Liholiho_with_leis.jpg/1280px-Prince_Alexander_Liholiho_with_leis.jpg",
@@ -161,7 +166,12 @@
       "date": "between circa 1846 and circa 1847 date QS:P,+1846-00-00T00:0",
       "license": "Public domain",
       "width": "1280",
-      "height": "1760"
+      "height": "1760",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Queen_Emma_wearing_lei_pupu_o_Niihau.jpg",
@@ -174,7 +184,12 @@
       "date": "circa 1880 date QS:P,+1880-00-00T00:00:00Z/9,P1480,Q5727902",
       "license": "Public domain",
       "width": "735",
-      "height": "895"
+      "height": "895",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Hawaiian_lei_venders%2C_c._1901.jpg/1280px-Hawaiian_lei_venders%2C_c._1901.jpg",
@@ -187,7 +202,12 @@
       "date": "1901",
       "license": "Public domain",
       "width": "1280",
-      "height": "863"
+      "height": "863",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Kukui_nut_lei.jpg",
@@ -201,7 +221,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1024",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Canoe_lei.jpg",
@@ -215,7 +240,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1024",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Flower_wreaths_%28Cook_Islands%29.jpg",
@@ -229,7 +259,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1024",
-      "height": "681"
+      "height": "681",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/2017_Pacific_Islands_Forum_Opening_Ceremony_%2836867027022%29.jpg/1280px-2017_Pacific_Islands_Forum_Opening_Ceremony_%2836867027022%29.jpg",
@@ -243,7 +278,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "852"
+      "height": "852",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Gg-visit-cook-islands-pacific-visits-formal-ariki.jpg/1280px-Gg-visit-cook-islands-pacific-visits-formal-ariki.jpg",
@@ -257,7 +297,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Gg-visit-cook-islands-pacific-visits-pm-cook.jpg/1280px-Gg-visit-cook-islands-pacific-visits-pm-cook.jpg",
@@ -271,23 +316,37 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Hawaiian Lei Tradition",
       "url": "https://www.bishopmuseum.org/explore/lei",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Lei Making History",
       "url": "https://en.wikipedia.org/wiki/Lei_(Hawaii)",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Hawaiian Cultural Practices",
-      "url": "https://www.hawaii.edu/leihawaii/",
       "tier": "B"
     }
   ],
@@ -324,42 +383,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:01:32.571Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Hawaiian Lei",
-      "url": "https://en.wikipedia.org/wiki/Hawaiian_Lei",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Hawaiian Lei — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Hawaiian%20Lei%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Hawaiian Lei — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Hawaiian%20Lei",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Hawaiian Lei — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Hawaiian%20Lei",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Hawaiian Lei — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Hawaiian%20Lei%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Hawaiian Lei — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Hawaiian%20Lei%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q541357",

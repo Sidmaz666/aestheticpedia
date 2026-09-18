@@ -126,7 +126,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Surface_of_Yakisugi.jpg/1280px-Surface_of_Yakisugi.jpg",
@@ -140,7 +145,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/D%C3%A9tail_yakisugi.jpg/1280px-D%C3%A9tail_yakisugi.jpg",
@@ -154,7 +164,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Yakisugi_Kyoto.jpg/1280px-Yakisugi_Kyoto.jpg",
@@ -168,7 +183,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Setouchi_Yakisugi.jpg/1280px-Setouchi_Yakisugi.jpg",
@@ -182,7 +202,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Yakisugi_effect_wooden_box.jpg/1280px-Yakisugi_effect_wooden_box.jpg",
@@ -196,7 +221,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/An_OKOPOD_with_Yakisugi_cladding_and_a_sedum_roof.jpg",
@@ -210,24 +240,44 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1200",
-      "height": "1200"
+      "height": "1200",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Japan House",
       "url": "https://japanhouse.jp",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Japan Times",
       "url": "https://www.japantimes.co.jp",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -268,37 +318,12 @@
       "type": "article",
       "title": "Wikipedia — Shou Sugi Ban",
       "url": "https://en.wikipedia.org/wiki/Shou_Sugi_Ban",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Shou Sugi Ban — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Shou%20Sugi%20Ban%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Shou Sugi Ban — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Shou%20Sugi%20Ban",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Shou Sugi Ban — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Shou%20Sugi%20Ban",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Shou Sugi Ban — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Shou%20Sugi%20Ban%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Shou Sugi Ban — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Shou%20Sugi%20Ban%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q11567648",

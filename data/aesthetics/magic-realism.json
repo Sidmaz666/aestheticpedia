@@ -131,7 +131,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "497",
-      "height": "673"
+      "height": "673",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/en/1/1b/De_Chirico%27s_Love_Song.jpg",
@@ -144,7 +149,12 @@
       "date": "1914",
       "license": "PD-US",
       "width": "1249",
-      "height": "1535"
+      "height": "1535",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/en/1/1f/PaulCadmusTheFleetsIn.jpg",
@@ -155,7 +165,12 @@
       "source": "Wikimedia Commons",
       "license": "PD",
       "width": "776",
-      "height": "411"
+      "height": "411",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/e1f6ef79-7216-4f19-ac78-a307a2fb4f32/full/843,/0/default.jpg",
@@ -169,7 +184,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "638"
+      "height": "638",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/e6dd6199-c245-d1b4-a997-ce89eafb48ca/full/843,/0/default.jpg",
@@ -183,7 +203,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "2688"
+      "height": "2688",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/f2f929b9-995a-9ed3-ef39-2fe81b35a64e/full/843,/0/default.jpg",
@@ -197,7 +222,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1123"
+      "height": "1123",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/3cea045a-92d6-36cf-1508-2c99ea740218/full/843,/0/default.jpg",
@@ -211,7 +241,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1495"
+      "height": "1495",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/6754947f-4ccf-b3ff-41ee-45b738534769/full/843,/0/default.jpg",
@@ -225,24 +260,32 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1024"
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Tate Modern",
-      "url": "https://www.tate.org.uk/art/art-movements/magic-realism",
       "tier": "A"
     },
     {
       "name": "WikiArt",
-      "url": "https://www.wikiart.org/en/movements/magic-realism",
       "tier": "C"
     },
     {
       "name": "The Art Story",
       "url": "https://www.theartstory.org/movement-magic-realism.htm",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -272,37 +315,12 @@
       "type": "article",
       "title": "Wikipedia — Magic Realism",
       "url": "https://en.wikipedia.org/wiki/Magic_Realism",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Magic Realism — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Magic%20Realism%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Magic Realism — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Magic%20Realism",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Magic Realism — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Magic%20Realism",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Magic Realism — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Magic%20Realism%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Magic Realism — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Magic%20Realism%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q147516",

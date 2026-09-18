@@ -148,7 +148,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "800",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Tashilhunpo_Monastery%2C_Shigatse.JPG",
@@ -162,7 +167,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "880",
-      "height": "508"
+      "height": "508",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Monastery_ruins%2C_Yerpa_1993.JPG",
@@ -176,7 +186,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "882",
-      "height": "558"
+      "height": "558",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Palcho_Monastery.jpg/1280px-Palcho_Monastery.jpg",
@@ -190,7 +205,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "626"
+      "height": "626",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/1_Seda_facing_south.jpg/1280px-1_Seda_facing_south.jpg",
@@ -204,7 +224,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "527"
+      "height": "527",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/13_th_Dalai_Lama_Nechung_retreat.JPG",
@@ -218,7 +243,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "492",
-      "height": "742"
+      "height": "742",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/1963-02_1963%E5%B9%B4_%E8%A5%BF%E8%97%8F%E8%97%8F%E6%97%8F%E8%88%9E%E9%94%85%E5%BA%84.jpg",
@@ -231,7 +261,12 @@
       "date": "1963-03-01",
       "license": "Public domain",
       "width": "916",
-      "height": "617"
+      "height": "617",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/A_grand_view_of_Samye.jpg",
@@ -243,7 +278,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "800",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Architecture_of_Tibet_in_2006_-_Arquitectura_tibetana.jpg",
@@ -257,7 +297,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "800",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Art_detail_from_Drepung_Loseling_Monastery_%28Karnataka_-_India%29_%2833561248421%29_%28cropped%29.jpg",
@@ -271,24 +316,44 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "631",
-      "height": "921"
+      "height": "921",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "UNESCO World Heritage - Potala Palace",
       "url": "https://whc.unesco.org/en/list/707",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Tibetan Architecture",
       "url": "https://en.wikipedia.org/wiki/Tibetan_architecture",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Tibetan Cultural Heritage",
       "url": "https://www.tibettravel.org",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -324,42 +389,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:12:06.588Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Tibetan Monastery Architecture",
-      "url": "https://en.wikipedia.org/wiki/Tibetan_Monastery_Architecture",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Tibetan Monastery Architecture — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Tibetan%20Monastery%20Architecture%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Tibetan Monastery Architecture — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Tibetan%20Monastery%20Architecture",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Tibetan Monastery Architecture — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Tibetan%20Monastery%20Architecture",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Tibetan Monastery Architecture — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Tibetan%20Monastery%20Architecture%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Tibetan Monastery Architecture — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Tibetan%20Monastery%20Architecture%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q2003901",

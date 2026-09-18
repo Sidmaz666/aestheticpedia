@@ -133,7 +133,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "485"
+      "height": "485",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Rage_guy_cosplay.jpg/1280px-Rage_guy_cosplay.jpg",
@@ -147,19 +152,34 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Rage comic",
       "url": "https://en.wikipedia.org/wiki/Rage_comic",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Know Your Meme — rage comics entry",
       "url": "https://knowyourmeme.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -193,50 +213,19 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:09:26.943Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Rage Comic Era",
-      "url": "https://en.wikipedia.org/wiki/Rage_Comic_Era",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Rage Comic Era — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Rage%20Comic%20Era%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Rage Comic Era — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Rage%20Comic%20Era",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Rage Comic Era — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Rage%20Comic%20Era",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Rage Comic Era — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Rage%20Comic%20Era%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Rage Comic Era — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Rage%20Comic%20Era%20aesthetic%20examples",
-      "note": "Google Images search"
     },
     {
       "type": "web",
       "title": "Aesthetics Wiki — Rage Comic Era",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Rage%20Comic%20Era",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q1572966",

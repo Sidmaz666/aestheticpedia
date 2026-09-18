@@ -128,24 +128,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1262"
+      "height": "1262",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "American Folk Art Museum",
       "url": "https://folkartmuseum.org/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Tate Modern",
       "url": "https://www.tate.org.uk/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Raw Vision Magazine",
       "url": "https://www.rawvision.com/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -175,37 +195,12 @@
       "type": "article",
       "title": "Wikipedia — Sunday Painters",
       "url": "https://en.wikipedia.org/wiki/Sunday_Painters",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Sunday Painters — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Sunday%20Painters%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Sunday Painters — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Sunday%20Painters",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Sunday Painters — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Sunday%20Painters",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Sunday Painters — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Sunday%20Painters%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Sunday Painters — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Sunday%20Painters%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q126113025",

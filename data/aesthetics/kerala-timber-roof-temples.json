@@ -149,7 +149,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Paliam_naalukettu.jpg",
@@ -163,7 +168,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "480",
-      "height": "360"
+      "height": "360",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Varikkasseri_Mana_.jpg/1280px-Varikkasseri_Mana_.jpg",
@@ -177,7 +187,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1182"
+      "height": "1182",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Mekkat_010.jpg/1280px-Mekkat_010.jpg",
@@ -191,7 +206,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "719"
+      "height": "719",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Marnat_Mana.jpg",
@@ -204,7 +224,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Nilambur_Kovilakom.jpg/1280px-Nilambur_Kovilakom.jpg",
@@ -218,24 +243,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Kerala Temple Architecture",
       "url": "https://www.keralatourism.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wooden Architecture of Kerala",
       "url": "https://ignca.gov.in",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Kerala architecture",
       "url": "https://en.wikipedia.org/wiki/Kerala_architecture",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -271,42 +316,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:03:26.720Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Kerala timber-roof temples",
-      "url": "https://en.wikipedia.org/wiki/Kerala_timber-roof_temples",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Kerala timber-roof temples — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Kerala%20timber-roof%20temples%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Kerala timber-roof temples — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Kerala%20timber-roof%20temples",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Kerala timber-roof temples — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Kerala%20timber-roof%20temples",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Kerala timber-roof temples — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Kerala%20timber-roof%20temples%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Kerala timber-roof temples — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Kerala%20timber-roof%20temples%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q7071569",

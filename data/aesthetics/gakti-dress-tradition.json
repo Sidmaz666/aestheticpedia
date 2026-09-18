@@ -131,7 +131,12 @@
       "date": "1920",
       "license": "Public domain",
       "width": "731",
-      "height": "389"
+      "height": "389",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/0500bc2e-18ff-adb1-4b8f-8663050c47d3/full/843,/0/default.jpg",
@@ -145,7 +150,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1515"
+      "height": "1515",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/154cc744-b393-fff4-acc9-fd3d4a4ae832/full/843,/0/default.jpg",
@@ -159,7 +169,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "926"
+      "height": "926",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/8fcdf269-8999-97da-4869-524ac7d18928/full/843,/0/default.jpg",
@@ -173,7 +188,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "561"
+      "height": "561",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/43b17212-ca26-09a8-e392-7c65c755d06f/full/843,/0/default.jpg",
@@ -187,7 +207,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "552"
+      "height": "552",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/036bca90-506b-0230-044f-8dcf85c877a0/full/843,/0/default.jpg",
@@ -201,7 +226,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "807"
+      "height": "807",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/dc056ce4-110c-9f33-993e-547e11e19df9/full/843,/0/default.jpg",
@@ -215,7 +245,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1111"
+      "height": "1111",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/0655410d-43d5-9b3f-4af4-bff8276ce10d/full/843,/0/default.jpg",
@@ -229,24 +264,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "469"
+      "height": "469",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Sami Duodji Museum",
       "url": "https://www.samiduodjimuseum.se",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "National Museum of Denmark - Sami Collection",
       "url": "https://www.natmus.dk",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia: Gákti",
       "url": "https://en.wikipedia.org/wiki/Gákti",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -271,42 +326,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:00:08.051Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Gakti Dress Tradition",
-      "url": "https://en.wikipedia.org/wiki/Gakti_Dress_Tradition",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Gakti Dress Tradition — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Gakti%20Dress%20Tradition%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Gakti Dress Tradition — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Gakti%20Dress%20Tradition",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Gakti Dress Tradition — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Gakti%20Dress%20Tradition",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Gakti Dress Tradition — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Gakti%20Dress%20Tradition%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Gakti Dress Tradition — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Gakti%20Dress%20Tradition%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q6979598",

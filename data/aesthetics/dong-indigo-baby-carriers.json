@@ -120,57 +120,35 @@
     {
       "name": "Guizhou Ethnic Culture Museum",
       "url": "https://www.gzmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "UNESCO Intangible Heritage",
       "url": "https://ich.unesco.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Textile Research Journal",
       "url": "https://www.textileresearchjournal.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Dong Indigo Baby Carriers",
-      "url": "https://en.wikipedia.org/wiki/Dong_Indigo_Baby_Carriers",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Dong Indigo Baby Carriers — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Dong%20Indigo%20Baby%20Carriers%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Dong Indigo Baby Carriers — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Dong%20Indigo%20Baby%20Carriers",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Dong Indigo Baby Carriers — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Dong%20Indigo%20Baby%20Carriers",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Dong Indigo Baby Carriers — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Dong%20Indigo%20Baby%20Carriers%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Dong Indigo Baby Carriers — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Dong%20Indigo%20Baby%20Carriers%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 45,
   "isNiche": true,
   "dataQuality": "well_documented",

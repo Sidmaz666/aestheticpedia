@@ -127,24 +127,44 @@
       "date": "2018-07-14 10:15:53",
       "license": "Public domain",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Creative Time",
       "url": "https://creativetime.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Social_practice",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Social Practice Exchange",
       "url": "https://socialpracticeexchange.org",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -174,37 +194,12 @@
       "type": "article",
       "title": "Wikipedia — Social Practice Art",
       "url": "https://en.wikipedia.org/wiki/Social_Practice_Art",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Social Practice Art — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Social%20Practice%20Art%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Social Practice Art — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Social%20Practice%20Art",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Social Practice Art — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Social%20Practice%20Art",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Social Practice Art — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Social%20Practice%20Art%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Social Practice Art — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Social%20Practice%20Art%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q18378933",

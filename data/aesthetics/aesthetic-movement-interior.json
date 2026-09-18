@@ -125,18 +125,27 @@
   "sources": [
     {
       "name": "The Victoria and Albert Museum",
-      "url": "https://www.vam.ac.uk/articles/aesthetic-movement",
       "tier": "A"
     },
     {
       "name": "Freer Gallery of Art",
       "url": "https://www.si.edu/unit/freer-gallery-art",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Met",
       "url": "https://www.metmuseum.org/toah/hd/aest/hd_aest.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -161,42 +170,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:53:37.132Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Aesthetic Movement interior",
-      "url": "https://en.wikipedia.org/wiki/Aesthetic_Movement_interior",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Aesthetic Movement interior — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Aesthetic%20Movement%20interior%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Aesthetic Movement interior — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Aesthetic%20Movement%20interior",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Aesthetic Movement interior — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Aesthetic%20Movement%20interior",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Aesthetic Movement interior — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Aesthetic%20Movement%20interior%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Aesthetic Movement interior — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Aesthetic%20Movement%20interior%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q772046",

@@ -1,7 +1,7 @@
 import type { NextRequest } from 'next/server'
 import { CORS_HEADERS, options } from '@/lib/api'
 import { SERVER_INFO, SUPPORTED_VERSIONS, handleRpc, type RpcRequest } from '@/lib/mcp'
-import { SITE_URL } from '@/lib/formats'
+import { SITE_URL } from '@/lib/site'
 
 export const dynamic = 'force-dynamic'
 export const OPTIONS = options

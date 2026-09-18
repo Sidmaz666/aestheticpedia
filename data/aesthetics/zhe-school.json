@@ -128,24 +128,44 @@
       "date": "Early Ming Dynasy - 1388-1462",
       "license": "Public domain",
       "width": "874",
-      "height": "1876"
+      "height": "1876",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "National Gallery of Art",
       "url": "https://www.nga.gov/collection/artists/410.html",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "China Online Museum",
       "url": "https://www.chinaonline-museum.com/painting/zhe-school.php",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Metropolitan Museum of Art",
       "url": "https://www.metmuseum.org/toah/hd/zhep/hd_zhep.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "references": [
@@ -175,37 +195,12 @@
       "type": "article",
       "title": "Wikipedia — Zhe School",
       "url": "https://en.wikipedia.org/wiki/Zhe_School",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Zhe School — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Zhe%20School%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Zhe School — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Zhe%20School",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Zhe School — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Zhe%20School",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Zhe School — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Zhe%20School%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Zhe School — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Zhe%20School%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q1150941",

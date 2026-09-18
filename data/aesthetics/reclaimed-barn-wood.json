@@ -172,63 +172,35 @@
     {
       "name": "Reclaimed Wood Council",
       "url": "https://reclaimedwoodcouncil.org/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Architectural Digest",
       "url": "https://www.architecturaldigest.com/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Wood Database",
       "url": "https://www.wood-database.com/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "web",
-      "title": "Reclaimed Wood Guide",
-      "url": "https://www.google.com/search?q=Reclaimed%20Wood%20Guide",
-      "note": "Web search"
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Reclaimed Barn Wood",
-      "url": "https://en.wikipedia.org/wiki/Reclaimed_Barn_Wood",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Reclaimed Barn Wood — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Reclaimed%20Barn%20Wood%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Reclaimed Barn Wood — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Reclaimed%20Barn%20Wood",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Reclaimed Barn Wood — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Reclaimed%20Barn%20Wood",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Reclaimed Barn Wood — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Reclaimed%20Barn%20Wood%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Reclaimed Barn Wood — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Reclaimed%20Barn%20Wood%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 90,
   "isNiche": false,
   "dataQuality": "well_documented",

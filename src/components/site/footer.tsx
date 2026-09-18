@@ -1,7 +1,7 @@
 import Link from 'next/link'
+import { CONTRIBUTING_URL, REPO_URL, SITE_NAME } from '@/lib/site'
 import { Logo, NAV } from './nav'
 
-const REPO = 'https://github.com/siddmazak/aestheticpedia'
 
 export function SiteFooter() {
   return (
@@ -30,14 +30,14 @@ export function SiteFooter() {
           links={[
             { href: '/about', label: 'About & methodology' },
             { href: '/about#terminology', label: 'Terminology' },
-            { href: `${REPO}/blob/main/CONTRIBUTING.md`, label: 'Contribute an aesthetic' },
-            { href: REPO, label: 'GitHub' },
+            ...(CONTRIBUTING_URL ? [{ href: CONTRIBUTING_URL, label: 'Contribute an aesthetic' }] : []),
+            ...(REPO_URL ? [{ href: REPO_URL, label: 'Source code' }] : []),
           ]}
         />
       </div>
       <div className="border-t border-line">
         <p className="mx-auto max-w-[1600px] px-4 py-5 text-xs text-fg-subtle sm:px-6 lg:px-10">
-          Images from Wikimedia Commons and museum open-access collections, credited on each record. Aestheticpedia is
+          Images from Wikimedia Commons and museum open-access collections, credited on each record. {SITE_NAME} is
           not affiliated with any of the institutions it cites.
         </p>
       </div>

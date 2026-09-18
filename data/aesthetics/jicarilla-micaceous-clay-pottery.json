@@ -124,7 +124,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1375"
+      "height": "1375",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/f18f7064-fb9a-7074-1f1c-f8009eecaec7/full/843,/0/default.jpg",
@@ -138,64 +143,47 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1111"
+      "height": "1111",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Museum of Indian Arts & Culture",
       "url": "https://www.indianartsandculture.org/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Jicarilla Apache Pottery",
       "url": "https://www.jicarilla-nsn.gov",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Native American Pottery Traditions",
       "url": "https://www.nativeamericanpottery.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Jicarilla micaceous clay pottery",
-      "url": "https://en.wikipedia.org/wiki/Jicarilla_micaceous_clay_pottery",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Jicarilla micaceous clay pottery — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Jicarilla%20micaceous%20clay%20pottery%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Jicarilla micaceous clay pottery — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Jicarilla%20micaceous%20clay%20pottery",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Jicarilla micaceous clay pottery — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Jicarilla%20micaceous%20clay%20pottery",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Jicarilla micaceous clay pottery — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Jicarilla%20micaceous%20clay%20pottery%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Jicarilla micaceous clay pottery — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Jicarilla%20micaceous%20clay%20pottery%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 40,
   "isNiche": true,
   "dataQuality": "well_documented",

@@ -126,7 +126,12 @@
       "date": "2008-02-23 10:51",
       "license": "Public domain",
       "width": "1280",
-      "height": "1059"
+      "height": "1059",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Phosphorescent_pigments%2C_in_light%2C_in_dark%2C_after_4_min_-_zinc_sulfide_and_strontium_aluminate.jpg",
@@ -140,7 +145,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "605",
-      "height": "917"
+      "height": "917",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Phosphorescent_pigment_calcium_sulfide_and_silicate%2C_emitting_red_and_blue.jpg",
@@ -154,7 +164,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1100",
-      "height": "1012"
+      "height": "1012",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Shadow_Wall_-_before.png",
@@ -168,7 +183,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1066",
-      "height": "1619"
+      "height": "1619",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Shadow_Wall_-_after.png",
@@ -182,7 +202,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1057",
-      "height": "1657"
+      "height": "1657",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Phosphorescent.jpg/1280px-Phosphorescent.jpg",
@@ -195,7 +220,12 @@
       "date": "18 August 2005 (original upload date)",
       "license": "Public domain",
       "width": "1280",
-      "height": "562"
+      "height": "562",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/JablonskiSimple.png",
@@ -208,7 +238,12 @@
       "date": "2013-06-10 08:18:58",
       "license": "Public domain",
       "width": "1192",
-      "height": "926"
+      "height": "926",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Electronic_Processes_Involving_Light.png/1280px-Electronic_Processes_Involving_Light.png",
@@ -222,7 +257,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "797"
+      "height": "797",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Fused_silica_phosphorescence_from_a_24_million_watt_flash.jpg/1280px-Fused_silica_phosphorescence_from_a_24_million_watt_flash.jpg",
@@ -235,7 +275,12 @@
       "date": "19:30, 10 September 2009 (UTC)",
       "license": "Public domain",
       "width": "1280",
-      "height": "439"
+      "height": "439",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/MoS2_vacancies.jpg",
@@ -249,24 +294,38 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "806",
-      "height": "764"
+      "height": "764",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Puerto Rico Conservation Trust",
       "url": "https://www.fideicomiso.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Bioluminescent_bay",
       "tier": "B"
     },
     {
       "name": "Smithsonian Magazine",
       "url": "https://www.smithsonianmag.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 206,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -302,42 +361,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:55:17.861Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Bioluminescent Bays",
-      "url": "https://en.wikipedia.org/wiki/Bioluminescent_Bays",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Bioluminescent Bays — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Bioluminescent%20Bays%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Bioluminescent Bays — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Bioluminescent%20Bays",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Bioluminescent Bays — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Bioluminescent%20Bays",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Bioluminescent Bays — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Bioluminescent%20Bays%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Bioluminescent Bays — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Bioluminescent%20Bays%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q192275",

@@ -128,13 +128,17 @@
   "sources": [
     {
       "name": "Wikipedia — Used future",
-      "url": "https://en.wikipedia.org/wiki/Used_future",
       "tier": "B"
     },
     {
       "name": "IFC — \"used universe\" Star Wars interviews",
       "url": "https://www.ifc.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -159,36 +163,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:12:33.506Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Used Future — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Used%20Future%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Used Future — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Used%20Future",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Used Future — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Used%20Future",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Used Future — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Used%20Future%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Used Future — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Used%20Future%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q48816533",

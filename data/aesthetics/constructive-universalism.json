@@ -127,7 +127,12 @@
       "date": "1930",
       "license": "Public domain",
       "width": "736",
-      "height": "915"
+      "height": "915",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Constructive_Composition.jpg/1280px-Constructive_Composition.jpg",
@@ -141,7 +146,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Construction_in_Black_and_White.jpg/1280px-Construction_in_Black_and_White.jpg",
@@ -155,24 +165,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1644"
+      "height": "1644",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "MoMA Collection",
       "url": "https://www.moma.org/collection/works/359887",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Torres-García Museum",
       "url": "https://www.museotorresgarcia.org.uy",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Constructive Universalism at Tate",
       "url": "https://www.tate.org.uk",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -197,42 +227,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:57:20.948Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Constructive Universalism",
-      "url": "https://en.wikipedia.org/wiki/Constructive_Universalism",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Constructive Universalism — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Constructive%20Universalism%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Constructive Universalism — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Constructive%20Universalism",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Constructive Universalism — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Constructive%20Universalism",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Constructive Universalism — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Constructive%20Universalism%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Constructive Universalism — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Constructive%20Universalism%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q9091515",

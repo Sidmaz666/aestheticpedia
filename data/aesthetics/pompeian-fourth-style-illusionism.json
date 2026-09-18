@@ -128,7 +128,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "629"
+      "height": "629",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/d64500c5-3b04-f3eb-abac-0c117b49dca3/full/843,/0/default.jpg",
@@ -142,7 +147,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "501"
+      "height": "501",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/9d104816-e515-03d6-c4b1-174c1c80166f/full/843,/0/default.jpg",
@@ -156,7 +166,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1010"
+      "height": "1010",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/0515789f-d834-ad28-48c4-473ccf1eecc5/full/843,/0/default.jpg",
@@ -170,7 +185,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "627"
+      "height": "627",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/b50cc5d6-7a9b-0348-5a57-8bdaf53c1ea6/full/843,/0/default.jpg",
@@ -184,7 +204,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "572"
+      "height": "572",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/2b5927a7-6a01-62bc-081a-6d0d1f9e3b7d/full/843,/0/default.jpg",
@@ -198,64 +223,35 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "655"
+      "height": "655",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Pompeian Wall Painting",
       "url": "https://www.metmuseum.org/toah/hd/pomp/hd_pomp.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Roman Painting: An Introduction",
-      "url": "https://www.getty.edu/publications/roman/",
       "tier": "A"
     },
     {
       "name": "Pompeian Styles",
-      "url": "https://en.wikipedia.org/wiki/Pompeian_wall_paintings",
       "tier": "B"
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Pompeian Fourth Style Illusionism",
-      "url": "https://en.wikipedia.org/wiki/Pompeian_Fourth_Style_Illusionism",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Pompeian Fourth Style Illusionism — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Pompeian%20Fourth%20Style%20Illusionism%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Pompeian Fourth Style Illusionism — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Pompeian%20Fourth%20Style%20Illusionism",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Pompeian Fourth Style Illusionism — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Pompeian%20Fourth%20Style%20Illusionism",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Pompeian Fourth Style Illusionism — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Pompeian%20Fourth%20Style%20Illusionism%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Pompeian Fourth Style Illusionism — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Pompeian%20Fourth%20Style%20Illusionism%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 70,
   "isNiche": false,
   "dataQuality": "well_documented",

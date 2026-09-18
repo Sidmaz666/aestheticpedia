@@ -121,57 +121,35 @@
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Dezeen",
       "url": "https://www.dezeen.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 206,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Aesthetics Wiki",
       "url": "https://aesthetics.fandom.com/wiki/Minimalist_Gothic",
-      "tier": "D"
+      "tier": "D",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Gothic Sereno",
-      "url": "https://en.wikipedia.org/wiki/Gothic_Sereno",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Gothic Sereno — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Gothic%20Sereno%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Gothic Sereno — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Gothic%20Sereno",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Gothic Sereno — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Gothic%20Sereno",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Gothic Sereno — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Gothic%20Sereno%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Gothic Sereno — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Gothic%20Sereno%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",

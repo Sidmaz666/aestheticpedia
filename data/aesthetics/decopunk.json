@@ -133,7 +133,12 @@
       "artist": "Alphonse de Neuville / Henri Théophile Hildibrand",
       "license": "Public domain",
       "width": "962",
-      "height": "1400"
+      "height": "1400",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Aerial_house3.jpg/1280px-Aerial_house3.jpg",
@@ -146,7 +151,12 @@
       "date": "circa 1883 date QS:P,+1883-00-00T00:00:00Z/9,P1480,Q5727902",
       "license": "Public domain",
       "width": "1280",
-      "height": "2142"
+      "height": "2142",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/SonyCenterAtNight.jpg/1280px-SonyCenterAtNight.jpg",
@@ -160,7 +170,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1941"
+      "height": "1941",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/AtomicWar0101.jpg",
@@ -173,7 +188,12 @@
       "date": "1952-11",
       "license": "Public domain",
       "width": "959",
-      "height": "1350"
+      "height": "1350",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Diesel_Forces.jpg",
@@ -187,7 +207,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "770",
-      "height": "972"
+      "height": "972",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Bundesarchiv_Bild_102-11217%2C_Entwurf_eines_Ozeanexpresses.jpg",
@@ -201,7 +226,12 @@
       "license": "CC BY-SA 3.0 de",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
       "width": "800",
-      "height": "763"
+      "height": "763",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Steampunk-falksen.jpg/1280px-Steampunk-falksen.jpg",
@@ -215,7 +245,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Forbiddenplanetposter.jpg/1280px-Forbiddenplanetposter.jpg",
@@ -228,19 +263,34 @@
       "date": "1956",
       "license": "Public domain",
       "width": "1280",
-      "height": "1972"
+      "height": "1972",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Cyberpunk derivatives",
       "url": "https://en.wikipedia.org/wiki/Cyberpunk_derivatives",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Decopunk community wiki",
       "url": "https://deco-punk.fandom.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -263,44 +313,19 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T04:58:13.602Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
     },
     {
       "type": "article",
       "title": "Wikipedia — Decopunk",
       "url": "https://en.wikipedia.org/wiki/Decopunk",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Decopunk — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Decopunk%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Decopunk — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Decopunk",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Decopunk — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Decopunk",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Decopunk — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Decopunk%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Decopunk — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Decopunk%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q5484828",

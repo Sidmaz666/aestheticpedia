@@ -180,7 +180,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "1912"
+      "height": "1912",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Liuhe_Pagoda.jpg",
@@ -193,7 +198,12 @@
       "date": "19 April 2007 (original upload date)",
       "license": "Attribution",
       "width": "540",
-      "height": "800"
+      "height": "800",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Giant_Wild_Goose_Pagoda.jpg/1280px-Giant_Wild_Goose_Pagoda.jpg",
@@ -207,7 +217,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/ThienMuPagoda.jpg/1280px-ThienMuPagoda.jpg",
@@ -220,7 +235,12 @@
       "date": "2008-05-18 15:15",
       "license": "Public domain",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Seokgatap_pagoda_%28Bulguksa%29.jpg/1280px-Seokgatap_pagoda_%28Bulguksa%29.jpg",
@@ -234,7 +254,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "1925"
+      "height": "1925",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Prashar_Lake%2CMandi_%2CHimachal_Pardesh.jpg/1280px-Prashar_Lake%2CMandi_%2CHimachal_Pardesh.jpg",
@@ -248,7 +273,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Shwedagon_Pagoda_2017.jpg/1280px-Shwedagon_Pagoda_2017.jpg",
@@ -262,7 +292,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "822"
+      "height": "822",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Pottery_tower_6.JPG/1280px-Pottery_tower_6.JPG",
@@ -276,7 +311,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Nswag%2C_dinastia_han_occidentale%2C_modellino_funebre_di_una_torre_d%27avvistamento_02.JPG",
@@ -290,7 +330,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "630",
-      "height": "2029"
+      "height": "2029",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Earthenware_architecture_models%2C_Eastern_Han_Dynasty%2C_1.JPG/1280px-Earthenware_architecture_models%2C_Eastern_Han_Dynasty%2C_1.JPG",
@@ -304,24 +349,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "UNESCO",
       "url": "https://whc.unesco.org/en/list/605",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Pagoda",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Asia Society",
       "url": "https://asiasociety.org/education/pagoda",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -355,38 +420,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:08:05.641Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Pagoda — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Pagoda%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Pagoda — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Pagoda",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Pagoda — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Pagoda",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Pagoda — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Pagoda%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Pagoda — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Pagoda%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q199451",

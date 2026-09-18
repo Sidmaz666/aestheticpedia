@@ -119,57 +119,35 @@
     {
       "name": "AIGA Eye on Design",
       "url": "https://eyeondesign.aiga.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Print Magazine",
       "url": "https://printmag.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "DIY Zine Culture Wiki",
       "url": "https://diy.zine.wiki",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — CMYK Misregistration Charm",
-      "url": "https://en.wikipedia.org/wiki/CMYK_Misregistration_Charm",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "CMYK Misregistration Charm — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=CMYK%20Misregistration%20Charm%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "CMYK Misregistration Charm — academic literature",
-      "url": "https://scholar.google.com/scholar?q=CMYK%20Misregistration%20Charm",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "CMYK Misregistration Charm — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=CMYK%20Misregistration%20Charm",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "CMYK Misregistration Charm — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=CMYK%20Misregistration%20Charm%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "CMYK Misregistration Charm — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=CMYK%20Misregistration%20Charm%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 65,
   "isNiche": true,
   "dataQuality": "well_documented",

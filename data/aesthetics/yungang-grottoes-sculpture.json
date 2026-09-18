@@ -130,7 +130,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "855"
+      "height": "855",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Yungang_12.JPG/1280px-Yungang_12.JPG",
@@ -144,7 +149,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "851"
+      "height": "851",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/en/e/e6/China_Yungang_Grottoes_IMG_3534.jpg",
@@ -158,7 +168,12 @@
       "license": "CC-BY-3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
       "width": "1024",
-      "height": "683"
+      "height": "683",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Buddhist_paintings_Yungang.jpg/1280px-Buddhist_paintings_Yungang.jpg",
@@ -172,7 +187,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Yungang_cave9_dougong.jpg",
@@ -186,7 +206,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1000",
-      "height": "665"
+      "height": "665",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Datong_14_grotta.jpg",
@@ -198,7 +223,12 @@
       "license": "GPL",
       "licenseUrl": "http://www.gnu.org/licenses/gpl.html",
       "width": "495",
-      "height": "747"
+      "height": "747",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Side_wall_statues_Yungang.jpg/1280px-Side_wall_statues_Yungang.jpg",
@@ -212,7 +242,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Buddhas_in_collapsed_cave_Yungang.jpg/1280px-Buddhas_in_collapsed_cave_Yungang.jpg",
@@ -226,7 +261,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Statue_at_the_Yungang_Grottoes.jpg/1280px-Statue_at_the_Yungang_Grottoes.jpg",
@@ -237,7 +277,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "1280",
-      "height": "2276"
+      "height": "2276",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Yungang_painting_2010.JPG/1280px-Yungang_painting_2010.JPG",
@@ -251,24 +296,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "851"
+      "height": "851",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "UNESCO World Heritage Site",
       "url": "https://whc.unesco.org/en/list/200",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Yungang Grottoes Research Institute",
       "url": "https://yungang.cn/en",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Art of Yungang",
       "url": "https://www.metmuseum.org/toah/hd/yunh/hd_yunh.htm",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "references": [
@@ -304,42 +369,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:13:58.492Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Yungang Grottoes Sculpture",
-      "url": "https://en.wikipedia.org/wiki/Yungang_Grottoes_Sculpture",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Yungang Grottoes Sculpture — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Yungang%20Grottoes%20Sculpture%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Yungang Grottoes Sculpture — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Yungang%20Grottoes%20Sculpture",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Yungang Grottoes Sculpture — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Yungang%20Grottoes%20Sculpture",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Yungang Grottoes Sculpture — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Yungang%20Grottoes%20Sculpture%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Yungang Grottoes Sculpture — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Yungang%20Grottoes%20Sculpture%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q308805",

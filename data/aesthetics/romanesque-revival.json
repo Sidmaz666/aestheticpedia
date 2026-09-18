@@ -130,7 +130,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Our_Lady_of_Grace_Charlton_%28London%29.jpg/1280px-Our_Lady_of_Grace_Charlton_%28London%29.jpg",
@@ -144,7 +149,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1134"
+      "height": "1134",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/GosfordCastle.jpg",
@@ -157,7 +167,12 @@
       "date": "8 February 2008 (original upload date)",
       "license": "Public domain",
       "width": "800",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Church_of_St_Agatha%2C_Llanymynech_02.jpg",
@@ -171,7 +186,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1200",
-      "height": "1600"
+      "height": "1600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Baptist_Church%2C_Lincoln.jpg/1280px-Baptist_Church%2C_Lincoln.jpg",
@@ -185,7 +205,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1522"
+      "height": "1522",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/WiltonChurch.jpg/1280px-WiltonChurch.jpg",
@@ -198,7 +223,12 @@
       "date": "2005-08-19",
       "license": "Public domain",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Russian_Patriarchal_Orthodox_cathedral_Kensington_London.jpg",
@@ -211,7 +241,12 @@
       "date": "2008-02-20",
       "license": "Public domain",
       "width": "1152",
-      "height": "1315"
+      "height": "1315",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/University_College_Front_Facade.jpg/1280px-University_College_Front_Facade.jpg",
@@ -225,7 +260,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Holy_Rosary%2C_2008.jpg/1280px-Holy_Rosary%2C_2008.jpg",
@@ -238,7 +278,12 @@
       "date": "15 August 2008 (original upload date) ( Original text: 12 Au",
       "license": "Public domain",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Charlottetown_City_Hall.JPG",
@@ -252,24 +297,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1024",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Metropolitan Museum of Art",
       "url": "https://www.metmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Romanesque Revival - Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Romanesque_Revival_architecture",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "The Art Story",
       "url": "https://www.theartstory.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -303,44 +368,19 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:09:39.929Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
     },
     {
       "type": "article",
       "title": "Wikipedia — Romanesque Revival",
       "url": "https://en.wikipedia.org/wiki/Romanesque_Revival",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Romanesque Revival — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Romanesque%20Revival%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Romanesque Revival — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Romanesque%20Revival",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Romanesque Revival — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Romanesque%20Revival",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Romanesque Revival — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Romanesque%20Revival%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Romanesque Revival — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Romanesque%20Revival%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q744373",

@@ -125,7 +125,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "979"
+      "height": "979",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Architecture_of_the_renaissance_in_England_Plate_03_Burghley_House_east_side_of_the_courtyard.jpg/1280px-Architecture_of_the_renaissance_in_England_Plate_03_Burghley_House_east_side_of_the_courtyard.jpg",
@@ -138,7 +143,12 @@
       "date": "1894-12-31",
       "license": "Public domain",
       "width": "1280",
-      "height": "1744"
+      "height": "1744",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/47b28b55-ced6-502d-f111-fbe0033f8dc8/full/843,/0/default.jpg",
@@ -152,24 +162,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "669"
+      "height": "669",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Kyoto National Museum",
       "url": "https://www.kyoto-national-museum.jp/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "British Museum",
       "url": "https://www.britishmuseum.org/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Metropolitan Museum of Art",
       "url": "https://www.metmuseum.org/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "references": [
@@ -194,42 +224,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:02:01.705Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Hinagata-bon pattern books",
-      "url": "https://en.wikipedia.org/wiki/Hinagata-bon_pattern_books",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Hinagata-bon pattern books — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Hinagata-bon%20pattern%20books%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Hinagata-bon pattern books — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Hinagata-bon%20pattern%20books",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Hinagata-bon pattern books — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Hinagata-bon%20pattern%20books",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Hinagata-bon pattern books — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Hinagata-bon%20pattern%20books%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Hinagata-bon pattern books — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Hinagata-bon%20pattern%20books%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q85742771",

@@ -2,12 +2,13 @@
 // Spec: https://modelcontextprotocol.io/specification — supports protocol versions
 // 2025-06-18, 2025-03-26 and 2024-11-05. Exposes the library as tools, resources and prompts.
 import { DNA_AXES, EMOTION_KEYS } from '@/lib/aesthetic'
-import { EXPORT_FORMATS, SITE_URL, pageUrl, renderFormat, toMarkdown } from '@/lib/formats'
+import { EXPORT_FORMATS, pageUrl, renderFormat, toMarkdown } from '@/lib/formats'
+import { SITE_NAME, SITE_URL } from '@/lib/site'
 import { CATEGORIES } from '@/lib/schema'
 import { discover, getAesthetic, getCategoryOverview, getSimilar, listAesthetics, parseDims, randomAesthetic, suggest } from '@/lib/queries'
 
 export const SUPPORTED_VERSIONS = ['2025-06-18', '2025-03-26', '2024-11-05']
-export const SERVER_INFO = { name: 'aestheticpedia', title: 'Aestheticpedia', version: '1.0.0' }
+export const SERVER_INFO = { name: SITE_NAME.toLowerCase().replace(/[^a-z0-9]+/g, '-'), title: SITE_NAME, version: '1.0.0' }
 
 type Json = Record<string, unknown>
 export interface RpcRequest {
@@ -32,7 +33,7 @@ const TOOLS = [
     name: 'search_aesthetics',
     title: 'Search aesthetics',
     description:
-      'Search the Aestheticpedia library of world aesthetics (art movements, architectural styles, cultural traditions, internet aesthetics, subcultures, crafts…). Returns matching records with slug, category, period, origin, palette and summary.',
+      `Search the ${SITE_NAME} library of world aesthetics (art movements, architectural styles, cultural traditions, internet aesthetics, subcultures, crafts…). Returns matching records with slug, category, period, origin, palette and summary.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -120,7 +121,7 @@ const PROMPTS = [
   {
     name: 'describe_aesthetic',
     title: 'Explain an aesthetic',
-    description: 'Explain an aesthetic’s history, visual language and how to recognise it, grounded in its Aestheticpedia record.',
+    description: `Explain an aesthetic’s history, visual language and how to recognise it, grounded in its ${SITE_NAME} record.`,
     arguments: [{ name: 'slug', description: 'Aesthetic slug, e.g. "bauhaus"', required: true }],
   },
   {
@@ -240,9 +241,9 @@ async function getPrompt(name: string, args: Json) {
   const record = toMarkdown(d.aesthetic, d.relations)
   const ask =
     name === 'describe_aesthetic'
-      ? `Using the Aestheticpedia record below, explain the aesthetic "${d.aesthetic.name}": where and when it emerged, what shaped it, its visual language (palette, forms, materials, typography), key examples, and how to tell it apart from related aesthetics. Cite the sources listed.`
+      ? `Using the ${SITE_NAME} record below, explain the aesthetic "${d.aesthetic.name}": where and when it emerged, what shaped it, its visual language (palette, forms, materials, typography), key examples, and how to tell it apart from related aesthetics. Cite the sources listed.`
       : name === 'design_brief'
-        ? `Using the Aestheticpedia record below, write a practical design brief for ${typeof args.project === 'string' && args.project ? args.project : 'a new project'} in the "${d.aesthetic.name}" aesthetic: palette with hex codes and roles, type pairing, materials/textures, imagery and photography direction, UI components and motion, and pitfalls to avoid.`
+        ? `Using the ${SITE_NAME} record below, write a practical design brief for ${typeof args.project === 'string' && args.project ? args.project : 'a new project'} in the "${d.aesthetic.name}" aesthetic: palette with hex codes and roles, type pairing, materials/textures, imagery and photography direction, UI components and motion, and pitfalls to avoid.`
         : null
   if (!ask) throw new RpcError(-32602, `Unknown prompt: ${name}`)
   return {
@@ -269,8 +270,7 @@ export async function handleRpc(msg: RpcRequest): Promise<Json | null> {
           capabilities: { tools: { listChanged: false }, resources: { listChanged: false, subscribe: false }, prompts: { listChanged: false } },
           serverInfo: SERVER_INFO,
           instructions:
-            'Aestheticpedia is an open encyclopedia of the world’s aesthetics. Use search_aesthetics to find records, then get_aesthetic with the slug for the full, sourced record (markdown). Images include licenses and attribution — credit them when you use them. Web pages: ' +
-            `${SITE_URL}/aesthetics/{slug}`,
+            `${SITE_NAME} is an open encyclopedia of the world’s aesthetics. Use search_aesthetics to find records, then get_aesthetic with the slug for the full, sourced record (markdown). Images include licenses and attribution — credit them when you use them. Web pages: ${SITE_URL}/aesthetics/{slug}`,
         }
         break
       }

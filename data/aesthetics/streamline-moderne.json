@@ -179,7 +179,12 @@
       "license": "CC SA 1.0",
       "licenseUrl": "http://creativecommons.org/licenses/sa/1.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Julian_medical_bldg.jpg/1280px-Julian_medical_bldg.jpg",
@@ -193,7 +198,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "721"
+      "height": "721",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Coca-Cola_Building_Los_Angeles.jpg",
@@ -206,7 +216,12 @@
       "date": "Taken on 7 April 2005",
       "license": "Public domain",
       "width": "1024",
-      "height": "811"
+      "height": "811",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Hecht_warehouse_washington_dc.jpg/1280px-Hecht_warehouse_washington_dc.jpg",
@@ -220,7 +235,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "938"
+      "height": "938",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Pan-Pacific_Auditorium_entrance.jpg/1280px-Pan-Pacific_Auditorium_entrance.jpg",
@@ -233,7 +253,12 @@
       "date": "between 1972 and 1977 date QS:P,+1972-00-00T00:00:00Z/8,P131",
       "license": "Public domain",
       "width": "1280",
-      "height": "998"
+      "height": "998",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/LaGuardia_MarineAirTerminal_1974.jpg/1280px-LaGuardia_MarineAirTerminal_1974.jpg",
@@ -246,7 +271,12 @@
       "date": "1974",
       "license": "Public domain",
       "width": "1280",
-      "height": "1017"
+      "height": "1017",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Hotel_Shangri-La_Santa_Monica.jpg",
@@ -260,7 +290,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "768",
-      "height": "1024"
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Greyhound_Station_Columbia_SC_LOC_570829cu.jpg/1280px-Greyhound_Station_Columbia_SC_LOC_570829cu.jpg",
@@ -273,7 +308,12 @@
       "date": "1986-11",
       "license": "Public domain",
       "width": "1280",
-      "height": "880"
+      "height": "880",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Union_Pacific_Station%2C_Las_Vegas%2C_Nevada_%2874656%29.jpg/1280px-Union_Pacific_Station%2C_Las_Vegas%2C_Nevada_%2874656%29.jpg",
@@ -286,7 +326,12 @@
       "date": "between circa 1930 and circa 1945 date QS:P,+1950-00-00T00:0",
       "license": "Public domain",
       "width": "1280",
-      "height": "833"
+      "height": "833",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/First_Church_of_Deliverance_2.jpg/1280px-First_Church_of_Deliverance_2.jpg",
@@ -300,24 +345,44 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "National Park Service",
       "url": "https://www.nps.gov",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "MoMA",
       "url": "https://www.moma.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Streamline_Moderne",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "references": [
@@ -351,38 +416,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:11:11.704Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Streamline Moderne — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Streamline%20Moderne%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Streamline Moderne — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Streamline%20Moderne",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Streamline Moderne — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Streamline%20Moderne",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Streamline Moderne — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Streamline%20Moderne%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Streamline Moderne — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Streamline%20Moderne%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q928960",

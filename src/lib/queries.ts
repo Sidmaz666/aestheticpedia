@@ -470,3 +470,123 @@ export async function getCompleteness(): Promise<Completeness> {
     gaps: keys.map((field) => ({ field, missing: missing(field) })).sort((a, b) => b.missing - a.missing),
   }
 }
+
+export interface GraphNode {
+  slug: string
+  name: string
+  category: string
+  image: string | null
+  color: string | null
+  startYear: number | null
+  degree: number
+}
+export interface GraphLink {
+  source: string
+  target: string
+  type: string
+}
+
+/** Whole relationship network (records with at least one relation). */
+export async function getGraph(): Promise<{ nodes: GraphNode[]; links: GraphLink[] }> {
+  const [links, nodes] = await Promise.all([
+    query<GraphLink>(`SELECT "from" AS source, "to" AS target, type FROM relations`),
+    query<GraphNode>(
+      `WITH deg AS (
+         SELECT slug, count(*)::INT AS degree FROM (
+           SELECT "from" AS slug FROM relations UNION ALL SELECT "to" AS slug FROM relations) GROUP BY slug)
+       SELECT a.slug, a.name, a.category, json_extract_string(a.images, '$[0].thumb') AS image,
+              json_extract_string(a.colors, '$[0].hex') AS color, a.startYear, d.degree
+       FROM aesthetics a JOIN deg d USING (slug) ORDER BY d.degree DESC`
+    ),
+  ])
+  return { nodes, links }
+}
+
+/** Every palette colour with its record, for the colour atlas. */
+export async function getColorIndex(): Promise<{ slug: string; name: string; category: string; hex: string; colorName: string }[]> {
+  return query(
+    `SELECT a.slug, a.name, a.category, c.hex, c.name AS colorName
+     FROM aesthetics a,
+          UNNEST(from_json(a.colors, '[{"hex":"VARCHAR","name":"VARCHAR"}]')) AS t(c)
+     WHERE c.hex IS NOT NULL`
+  )
+}
+
+/** Records whose palettes contain a colour near `hex` (redmean distance), closest first. */
+export async function searchByColor(hex: string, limit = 36): Promise<(AestheticSummary & { distance: number; match: string })[]> {
+  const m = /^#?([0-9a-f]{6})$/i.exec(hex)
+  if (!m) return []
+  const n = parseInt(m[1], 16)
+  const [r, g, b] = [(n >> 16) & 255, (n >> 8) & 255, n & 255]
+  const rows = await query<AestheticRow & { distance: number; match: string }>(
+    `WITH cols AS (
+       SELECT a.slug, c.hex,
+              ('0x' || substr(c.hex, 2, 2))::INT AS r, ('0x' || substr(c.hex, 4, 2))::INT AS g, ('0x' || substr(c.hex, 6, 2))::INT AS b
+       FROM aesthetics a, UNNEST(from_json(a.colors, '[{"hex":"VARCHAR","name":"VARCHAR"}]')) AS t(c)
+       WHERE regexp_matches(c.hex, '^#[0-9a-fA-F]{6}$')),
+     dist AS (
+       SELECT slug, hex,
+              sqrt((2 + ((r + $1) / 2.0) / 256) * (r - $1) ^ 2 + 4 * (g - $2) ^ 2 + (2 + (255 - (r + $1) / 2.0) / 256) * (b - $3) ^ 2) AS d
+       FROM cols),
+     best AS (SELECT slug, min(d) AS distance, arg_min(hex, d) AS match FROM dist GROUP BY slug)
+     SELECT a.*, best.distance, best.match FROM best JOIN aesthetics a USING (slug)
+     ORDER BY best.distance, a.popularity DESC LIMIT ${Math.min(120, limit)}`,
+    [r, g, b]
+  )
+  return rows.map((row) => ({ ...mapAestheticSummary(row), distance: Math.round(row.distance), match: row.match }))
+}
+
+export interface LineageNode {
+  slug: string
+  name: string
+  image: string | null
+  children: LineageNode[]
+}
+
+// Relation types read as "A descends from B" when A --type--> B.
+const UP = ['influenced_by', 'variant_of', 'parent', 'hybrid_of']
+
+/** Ancestors and descendants up to `depth` generations (each generation capped for legibility). */
+export async function getLineage(slug: string, depth = 2, width = 8): Promise<{ ancestors: LineageNode[]; descendants: LineageNode[] }> {
+  const rows = await query<{ from: string; to: string; type: string }>(`SELECT "from", "to", type FROM relations`)
+  const up = new Map<string, Set<string>>()
+  const down = new Map<string, Set<string>>()
+  const add = (m: Map<string, Set<string>>, k: string, v: string) => {
+    if (!m.has(k)) m.set(k, new Set())
+    m.get(k)!.add(v)
+  }
+  for (const r of rows) {
+    if (UP.includes(r.type)) {
+      add(up, r.from, r.to)
+      add(down, r.to, r.from)
+    } else if (r.type === 'influenced') {
+      add(down, r.from, r.to)
+      add(up, r.to, r.from)
+    }
+  }
+  const info = new Map(
+    (
+      await query<{ slug: string; name: string; image: string | null }>(
+        `SELECT slug, name, json_extract_string(images, '$[0].thumb') AS image FROM aesthetics`
+      )
+    ).map((r) => [r.slug, r])
+  )
+  const build = (from: string, m: Map<string, Set<string>>, level: number, seen: Set<string>): LineageNode[] => {
+    if (level > depth) return []
+    return [...(m.get(from) ?? [])]
+      .filter((s) => !seen.has(s) && info.has(s))
+      .slice(0, level === 1 ? width : Math.ceil(width / 2))
+      .map((s) => {
+        seen.add(s)
+        const i = info.get(s)!
+        return { slug: s, name: i.name, image: i.image, children: build(s, m, level + 1, seen) }
+      })
+  }
+  return { ancestors: build(slug, up, 1, new Set([slug])), descendants: build(slug, down, 1, new Set([slug])) }
+}
+
+/** Links among a set of records (for the connection map). */
+export async function getLinksAmong(slugs: string[]): Promise<{ from: string; to: string; type: string }[]> {
+  if (slugs.length < 2) return []
+  return query(`SELECT "from", "to", type FROM relations WHERE list_contains($1, "from") AND list_contains($1, "to")`, [listValue(slugs)])
+}

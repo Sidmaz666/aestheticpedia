@@ -1,7 +1,8 @@
 // OpenAPI 3.1 description of the public API (served at /api/v1/openapi.json).
 import { API_VERSION } from '@/lib/api'
 import { CATEGORIES, ESTABLISHMENTS, STATUSES } from '@/lib/schema'
-import { EXPORT_FORMATS, SITE_URL } from '@/lib/formats'
+import { EXPORT_FORMATS } from '@/lib/formats'
+import { SITE_NAME, SITE_URL } from '@/lib/site'
 
 const slug = { name: 'slug', in: 'path', required: true, schema: { type: 'string' }, example: 'bauhaus' }
 const json = (schema: object, description = 'OK') => ({ description, content: { 'application/json': { schema } } })
@@ -11,7 +12,7 @@ export function openApiSpec() {
   return {
     openapi: '3.1.0',
     info: {
-      title: 'Aestheticpedia API',
+      title: `${SITE_NAME} API`,
       version: API_VERSION,
       summary: 'Open, read-only API for the encyclopedia of the world’s aesthetics.',
       description:
@@ -19,7 +20,7 @@ export function openApiSpec() {
         'Bulk downloads (JSON, NDJSON, CSV, Parquet, DuckDB) are listed at /data/manifest.json. ' +
         'An MCP server for AI assistants is available at /api/mcp.',
       license: { name: 'CC BY-SA 4.0', url: 'https://creativecommons.org/licenses/by-sa/4.0/' },
-      contact: { name: 'Aestheticpedia', url: `${SITE_URL}/data` },
+      contact: { name: SITE_NAME, url: `${SITE_URL}/data` },
     },
     servers: [{ url: `${SITE_URL}/api/v1` }],
     externalDocs: { description: 'Developer guide', url: `${SITE_URL}/data` },

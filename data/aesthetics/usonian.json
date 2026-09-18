@@ -177,7 +177,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1024",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/View_of_the_%27Grand_Room%27_in_the_Tonkens_House..jpg/1280px-View_of_the_%27Grand_Room%27_in_the_Tonkens_House..jpg",
@@ -191,7 +196,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Dorothy_Turkel_house.jpg/1280px-Dorothy_Turkel_house.jpg",
@@ -205,7 +215,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Gordon_House_front.jpg/1280px-Gordon_House_front.jpg",
@@ -219,7 +234,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/2023-0929_Malcolm_Willey_House.jpg/1280px-2023-0929_Malcolm_Willey_House.jpg",
@@ -233,7 +253,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Jacobs_First_House_-_front.jpg/1280px-Jacobs_First_House_-_front.jpg",
@@ -247,7 +272,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Goetsch_Winckler_House%2C_2009.jpg/1280px-Goetsch_Winckler_House%2C_2009.jpg",
@@ -261,7 +291,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Bernard_Schwartz_House_Still_Bend_Two_Rivers_Wisconsin_Jan_2013.jpg/1280px-Bernard_Schwartz_House_Still_Bend_Two_Rivers_Wisconsin_Jan_2013.jpg",
@@ -275,7 +310,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/View_of_window_wall_looking_into_house_-_day.jpg/1280px-View_of_window_wall_looking_into_house_-_day.jpg",
@@ -289,24 +329,38 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "864"
+      "height": "864",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Frank Lloyd Wright Foundation",
       "url": "https://www.franklloydwright.org/usk/usonian-houses",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "PBS",
-      "url": "https://www.pbs.org/wgbh/americanexperience/features/usonian-architecture/",
       "tier": "B"
     },
     {
       "name": "Usonian Homes",
       "url": "https://www.usonianhomes.com/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -344,46 +398,15 @@
       }
     },
     {
-      "type": "web",
-      "title": "Usonian Houses",
-      "url": "https://en.wikipedia.org/wiki/United_States_of_America_(Frank_Lloyd_Wright)",
-      "note": ""
-    },
-    {
       "type": "article",
       "title": "Wikipedia — Usonian",
       "url": "https://en.wikipedia.org/wiki/Usonian",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Usonian — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Usonian%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Usonian — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Usonian",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Usonian — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Usonian",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Usonian — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Usonian%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Usonian — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Usonian%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q2032468",

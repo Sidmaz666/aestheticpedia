@@ -148,7 +148,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Great_Zimbabwe_%28Donjon%29.jpg/1280px-Great_Zimbabwe_%28Donjon%29.jpg",
@@ -162,7 +167,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Soapstone_birds_on_pedestals.jpg",
@@ -175,7 +185,12 @@
       "date": "1892",
       "license": "Public domain",
       "width": "958",
-      "height": "538"
+      "height": "538",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Wood_Carving_in_Zimbabwe_01.jpg/1280px-Wood_Carving_in_Zimbabwe_01.jpg",
@@ -189,7 +204,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Zimbabwe_wall.jpg/1280px-Zimbabwe_wall.jpg",
@@ -202,7 +222,12 @@
       "date": "upload 01/2007, shot 1983",
       "license": "Public domain",
       "width": "1280",
-      "height": "841"
+      "height": "841",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Wall_of_the_great_enclosure%2C_Great_Zimbabwe.JPG/1280px-Wall_of_the_great_enclosure%2C_Great_Zimbabwe.JPG",
@@ -216,7 +241,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Wall_of_the_great_enclosure_%28far%29%2C_Great_Zimbabwe.JPG/1280px-Wall_of_the_great_enclosure_%28far%29%2C_Great_Zimbabwe.JPG",
@@ -230,7 +260,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Great-Zimbabwe-3.jpg",
@@ -243,7 +278,12 @@
       "date": "1997",
       "license": "Public domain",
       "width": "800",
-      "height": "561"
+      "height": "561",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Zimbabwe_wooden_lintel.jpg",
@@ -256,7 +296,12 @@
       "date": "upload 01/2007, shot 1983",
       "license": "Public domain",
       "width": "890",
-      "height": "1350"
+      "height": "1350",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Conical_tower.jpg",
@@ -270,24 +315,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "964",
-      "height": "330"
+      "height": "330",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "UNESCO World Heritage",
       "url": "https://whc.unesco.org/en/list/364",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "British Museum",
       "url": "https://www.britishmuseum.org/collection/object/Y_1978_10_1",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Ancient Origins",
       "url": "https://www.ancient-origins.net/ancient-places-africa/great-zimbabwe-royal-city-0010368",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -323,42 +388,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:01:02.056Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Great Zimbabwe Architecture",
-      "url": "https://en.wikipedia.org/wiki/Great_Zimbabwe_Architecture",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Great Zimbabwe Architecture — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Great%20Zimbabwe%20Architecture%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Great Zimbabwe Architecture — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Great%20Zimbabwe%20Architecture",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Great Zimbabwe Architecture — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Great%20Zimbabwe%20Architecture",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Great Zimbabwe Architecture — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Great%20Zimbabwe%20Architecture%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Great Zimbabwe Architecture — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Great%20Zimbabwe%20Architecture%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q209217",

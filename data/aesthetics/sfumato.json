@@ -169,7 +169,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "1280",
-      "height": "1489"
+      "height": "1489",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Raphael_-_Madonna_in_the_Meadow_-_Google_Art_Project.jpg/1280px-Raphael_-_Madonna_in_the_Meadow_-_Google_Art_Project.jpg",
@@ -182,7 +187,12 @@
       "date": "between 1505 and 1506 date QS:P,+1505-00-00T00:00:00Z/8,P131",
       "license": "Public domain",
       "width": "1280",
-      "height": "1639"
+      "height": "1639",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vincent_Willem_van_Gogh_107.jpg",
@@ -195,7 +205,12 @@
       "date": "Winter 1887–1888",
       "license": "Public domain",
       "width": "1256",
-      "height": "1539"
+      "height": "1539",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/D%C3%A9tail_sur_l%27%C3%89tude_pour_la_t%C3%AAte_de_sainte_Anne.png",
@@ -209,7 +224,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "871",
-      "height": "625"
+      "height": "625",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Leonardo_da_Vinci_024.jpg/1280px-Leonardo_da_Vinci_024.jpg",
@@ -222,7 +242,12 @@
       "date": "circa 1510 date QS:P571,+1510-00-00T00:00:00Z/9,P1480,Q57279",
       "license": "Public domain",
       "width": "1280",
-      "height": "1573"
+      "height": "1573",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Venus_and_Amor%2C_by_Hans_Holbein_the_Younger.jpg/1280px-Venus_and_Amor%2C_by_Hans_Holbein_the_Younger.jpg",
@@ -235,24 +260,44 @@
       "date": "between 1526 and 1528 date QS:P,+1526-00-00T00:00:00Z/8,P131",
       "license": "Public domain",
       "width": "1280",
-      "height": "1701"
+      "height": "1701",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Louvre Museum",
       "url": "https://www.louvre.fr",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Encyclopedia Britannica",
       "url": "https://www.britannica.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Khan Academy",
       "url": "https://www.khanacademy.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -279,12 +324,6 @@
       }
     },
     {
-      "type": "museum",
-      "title": "Leonardo da Vinci: Sfumato Technique",
-      "url": "https://www.louvre.fr/en/leonardo-da-vinci",
-      "note": ""
-    },
-    {
       "type": "article",
       "title": "Wikipedia — Sfumato",
       "url": "https://en.wikipedia.org/wiki/Sfumato",
@@ -294,36 +333,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:10:18.642Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Sfumato — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Sfumato%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Sfumato — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Sfumato",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Sfumato — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Sfumato",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Sfumato — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Sfumato%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Sfumato — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Sfumato%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q210788",

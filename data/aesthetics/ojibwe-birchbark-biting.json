@@ -128,18 +128,27 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "843"
+      "height": "843",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Birchbark biting",
       "url": "https://en.wikipedia.org/wiki/Birchbark_biting",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Mille Lacs Indian Museum & Trading Post",
-      "url": "https://www.mnhs.org/milllacs",
       "tier": "A"
     }
   ],
@@ -163,44 +172,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:07:32.728Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Ojibwe Birchbark Biting",
-      "url": "https://en.wikipedia.org/wiki/Ojibwe_Birchbark_Biting",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Ojibwe Birchbark Biting — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Ojibwe%20Birchbark%20Biting%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Ojibwe Birchbark Biting — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Ojibwe%20Birchbark%20Biting",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Ojibwe Birchbark Biting — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Ojibwe%20Birchbark%20Biting",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Ojibwe Birchbark Biting — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Ojibwe%20Birchbark%20Biting%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Ojibwe Birchbark Biting — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Ojibwe%20Birchbark%20Biting%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q6798599",

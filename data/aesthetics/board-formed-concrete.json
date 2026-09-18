@@ -122,57 +122,35 @@
     {
       "name": "American Concrete Institute",
       "url": "https://concrete.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "ArchDaily Board-Formed Concrete",
       "url": "https://archdaily.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Dwell Magazine Concrete Guide",
       "url": "https://dwell.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Board-Formed Concrete",
-      "url": "https://en.wikipedia.org/wiki/Board-Formed_Concrete",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Board-Formed Concrete — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Board-Formed%20Concrete%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Board-Formed Concrete — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Board-Formed%20Concrete",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Board-Formed Concrete — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Board-Formed%20Concrete",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Board-Formed Concrete — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Board-Formed%20Concrete%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Board-Formed Concrete — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Board-Formed%20Concrete%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 80,
   "isNiche": false,
   "dataQuality": "well_documented",

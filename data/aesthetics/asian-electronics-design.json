@@ -176,7 +176,12 @@
       "date": "2006-03-03",
       "license": "Public domain",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Componentes.JPG/1280px-Componentes.JPG",
@@ -189,7 +194,12 @@
       "date": "2008-10-14",
       "license": "Public domain",
       "width": "1280",
-      "height": "880"
+      "height": "880",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Logic-gates-circuits.png/1280px-Logic-gates-circuits.png",
@@ -203,7 +213,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1656"
+      "height": "1656",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/MOS6581_chtaube061229.jpg/1280px-MOS6581_chtaube061229.jpg",
@@ -217,7 +232,12 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "1280",
-      "height": "920"
+      "height": "920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Einsatzbereiche_des_Low_Pressure_Molding.jpg/1280px-Einsatzbereiche_des_Low_Pressure_Molding.jpg",
@@ -231,7 +251,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/0675f9a9-1a7b-c90a-3bb6-7f7be2afb678/full/843,/0/default.jpg",
@@ -245,7 +270,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1054"
+      "height": "1054",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/bc06c92f-4117-639f-9e9c-5fe927972be1/full/843,/0/default.jpg",
@@ -259,24 +289,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1617"
+      "height": "1617",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "IDSA",
       "url": "https://www.idsa.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Core77",
       "url": "https://www.core77.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Fast Company Design",
       "url": "https://www.fastcompany.com/design",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -312,42 +362,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:54:12.907Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Asian electronics design",
-      "url": "https://en.wikipedia.org/wiki/Asian_electronics_design",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Asian electronics design — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Asian%20electronics%20design%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Asian electronics design — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Asian%20electronics%20design",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Asian electronics design — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Asian%20electronics%20design",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Asian electronics design — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Asian%20electronics%20design%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Asian electronics design — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Asian%20electronics%20design%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q11650",

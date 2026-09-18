@@ -129,7 +129,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "1427"
+      "height": "1427",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Kutn%C3%A1_Hora-Cathedral_St_Barbara-interior5.jpg",
@@ -143,7 +148,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1049",
-      "height": "1476"
+      "height": "1476",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Prag_Vladislav-Saal.jpg/1280px-Prag_Vladislav-Saal.jpg",
@@ -157,7 +167,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/AnnabergSachsen6.jpg",
@@ -171,23 +186,37 @@
       "license": "CC BY-SA 2.0 de",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
       "width": "640",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Czech National Heritage Institute",
       "url": "https://www.npu.cz",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Encyclopedia of Austria",
       "url": "https://www.austria.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Sondergotik",
-      "url": "https://de.wikipedia.org/wiki/Sondergotik",
       "tier": "B"
     }
   ],
@@ -213,36 +242,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:10:58.601Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Sondergotik — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Sondergotik%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Sondergotik — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Sondergotik",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Sondergotik — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Sondergotik",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Sondergotik — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Sondergotik%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Sondergotik — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Sondergotik%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1204196",

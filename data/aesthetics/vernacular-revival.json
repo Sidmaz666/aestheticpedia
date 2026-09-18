@@ -139,7 +139,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "854"
+      "height": "854",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Igloo.jpg",
@@ -150,7 +155,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "700",
-      "height": "475"
+      "height": "475",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Tuareg_1907.jpg",
@@ -163,7 +173,12 @@
       "date": "circa 1907 date QS:P,+1907-00-00T00:00:00Z/9,P1480,Q5727902",
       "license": "Public domain",
       "width": "800",
-      "height": "476"
+      "height": "476",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Algerian_nomads.jpg",
@@ -177,7 +192,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "800",
-      "height": "533"
+      "height": "533",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/BerberTentZagora.jpg/1280px-BerberTentZagora.jpg",
@@ -190,7 +210,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/F%C3%A4bod_i_Oviksfj%C3%A4llen.JPG/1280px-F%C3%A4bod_i_Oviksfj%C3%A4llen.JPG",
@@ -204,7 +229,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Iraqi_mudhif_interior.jpg/1280px-Iraqi_mudhif_interior.jpg",
@@ -217,7 +247,12 @@
       "date": "2004-04",
       "license": "Public domain",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Case_%C3%A0_la_chefferie_de_Bana.jpg",
@@ -230,7 +265,12 @@
       "date": "18 December 2001 (according to Exif data)",
       "license": "Public domain",
       "width": "1200",
-      "height": "1600"
+      "height": "1600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Traditional_round_houses_in_Manica_%284419157639%29.jpg",
@@ -244,7 +284,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1024",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Maasai_house.jpg/1280px-Maasai_house.jpg",
@@ -258,24 +303,38 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Vernacular Architecture Forum",
-      "url": "https://www.vaf.org",
       "tier": "B"
     },
     {
       "name": "Architectural Review Vernacular Section",
       "url": "https://www.architectural-review.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Traditional Building Magazine",
       "url": "https://traditional-building.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -311,42 +370,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:12:58.858Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Vernacular Revival",
-      "url": "https://en.wikipedia.org/wiki/Vernacular_Revival",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Vernacular Revival — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Vernacular%20Revival%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Vernacular Revival — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Vernacular%20Revival",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Vernacular Revival — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Vernacular%20Revival",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Vernacular Revival — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Vernacular%20Revival%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Vernacular Revival — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Vernacular%20Revival%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q930314",

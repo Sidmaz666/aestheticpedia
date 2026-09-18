@@ -125,7 +125,12 @@
       "artist": "Unknown (traditional painting dated back to the 17th century)",
       "license": "Public domain",
       "width": "742",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Battien1.jpg",
@@ -138,7 +143,12 @@
       "date": "16 th century date QS:P,+1550-00-00T00:00:00Z/7",
       "license": "Public domain",
       "width": "1000",
-      "height": "563"
+      "height": "563",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Battien2.jpg",
@@ -151,7 +161,12 @@
       "date": "16 th century date QS:P,+1550-00-00T00:00:00Z/7",
       "license": "Public domain",
       "width": "1000",
-      "height": "563"
+      "height": "563",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Imperial_guard_le_dynasty.jpg/1280px-Imperial_guard_le_dynasty.jpg",
@@ -164,7 +179,12 @@
       "date": "2020-04-01",
       "license": "Public domain",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Buddha_le_painting.jpg/1280px-Buddha_le_painting.jpg",
@@ -177,7 +197,12 @@
       "date": "2020-04-01",
       "license": "Public domain",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Ancestry_folk_drawing.jpg/1280px-Ancestry_folk_drawing.jpg",
@@ -190,7 +215,12 @@
       "date": "2020-04-01",
       "license": "Public domain",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Gom1.JPG/1280px-Gom1.JPG",
@@ -203,7 +233,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/National_Museum_Vietnamese_History_50.jpg/1280px-National_Museum_Vietnamese_History_50.jpg",
@@ -217,7 +252,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/DoGo.JPG/1280px-DoGo.JPG",
@@ -230,7 +270,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/C%E1%BB%95_v%E1%BA%ADt_th%E1%BB%9Di_L%C3%AA_trung_h%C6%B0ng.jpg",
@@ -243,24 +288,44 @@
       "date": "17th - 18th century",
       "license": "Public domain",
       "width": "676",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Vietnam Fine Arts Museum",
       "url": "https://www.vmfa.org.vn",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Silk Painting Vietnam",
       "url": "https://www.silkpaintingvietnam.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Asia Art Archive",
       "url": "https://www.asiaartarchive.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -301,37 +366,12 @@
       "type": "article",
       "title": "Wikipedia — Vietnamese silk painting",
       "url": "https://en.wikipedia.org/wiki/Vietnamese_silk_painting",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Vietnamese silk painting — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Vietnamese%20silk%20painting%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Vietnamese silk painting — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Vietnamese%20silk%20painting",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Vietnamese silk painting — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Vietnamese%20silk%20painting",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Vietnamese silk painting — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Vietnamese%20silk%20painting%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Vietnamese silk painting — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Vietnamese%20silk%20painting%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q3493076",

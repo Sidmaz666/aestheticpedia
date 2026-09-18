@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { CONTRIBUTING_URL } from '@/lib/site'
 
 export default function NotFound() {
   return (
@@ -10,7 +11,7 @@ export default function NotFound() {
         <Link href="/aesthetics" className="rounded-full bg-fg px-5 py-2.5 text-sm text-bg">
           Browse aesthetics
         </Link>
-        <a href="https://github.com/siddmazak/aestheticpedia/blob/main/CONTRIBUTING.md" className="rounded-full border border-line-strong px-5 py-2.5 text-sm text-fg-muted hover:text-fg">
+        <a href={CONTRIBUTING_URL || '/about'} className="rounded-full border border-line-strong px-5 py-2.5 text-sm text-fg-muted hover:text-fg">
           Contribute
         </a>
       </div>

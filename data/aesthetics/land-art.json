@@ -178,7 +178,12 @@
       "date": "17 April 2005 (original upload date)",
       "license": "Public domain",
       "width": "800",
-      "height": "450"
+      "height": "450",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Timelandscapeweb.jpg",
@@ -192,7 +197,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "530",
-      "height": "675"
+      "height": "675",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Nancy_Holt%2C_Sun_Tunnels%2C_1973-1976.jpg/1280px-Nancy_Holt%2C_Sun_Tunnels%2C_1973-1976.jpg",
@@ -206,7 +216,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Tylicki_Natural_Art_506.jpg/1280px-Tylicki_Natural_Art_506.jpg",
@@ -220,7 +235,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Litlington_White_Horse_2025.png",
@@ -234,7 +254,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1214",
-      "height": "1044"
+      "height": "1044",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Roden.jpg",
@@ -245,7 +270,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "1000",
-      "height": "800"
+      "height": "800",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Meteorite_milton_becerra.png",
@@ -259,7 +289,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "800",
-      "height": "480"
+      "height": "480",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Eberhard_Bosslet_Intervention_Begleiterscheinung_XI_Era_Lanzarote_2008.jpg",
@@ -273,7 +308,12 @@
       "license": "GFDL",
       "licenseUrl": "http://www.gnu.org/copyleft/fdl.html",
       "width": "500",
-      "height": "333"
+      "height": "333",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Cretto_di_Burri_-_Gibellina.JPG/1280px-Cretto_di_Burri_-_Gibellina.JPG",
@@ -287,7 +327,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/CHINTREUIL_-_Le_Boulot_blanc.JPG",
@@ -300,24 +345,44 @@
       "date": "4 October 2008 (upload date)",
       "license": "Public domain",
       "width": "1078",
-      "height": "1646"
+      "height": "1646",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Tate",
       "url": "https://www.tate.org.uk/art/art-terms/l/land-art",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Dia Art Foundation",
       "url": "https://www.diaart.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Art History Archive",
       "url": "https://www.arthistoryarchive.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -358,37 +423,12 @@
       "type": "article",
       "title": "Wikipedia — Land Art",
       "url": "https://en.wikipedia.org/wiki/Land_Art",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Land Art — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Land%20Art%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Land Art — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Land%20Art",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Land Art — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Land%20Art",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Land Art — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Land%20Art%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Land Art — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Land%20Art%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q326478",

@@ -146,7 +146,12 @@
       "license": "CC BY 3.0 pl",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/pl/deed.en",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/San_Benigno_Canavese-Torre_dell%27Abbazia_della_Fruttuaria.jpg",
@@ -160,7 +165,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "637",
-      "height": "850"
+      "height": "850",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Sant_Climent_de_Taull_2.jpg/1280px-Sant_Climent_de_Taull_2.jpg",
@@ -174,7 +184,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "637"
+      "height": "637",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Basilica_di_Agliate%2C_veduta_da_sud-est.JPG/1280px-Basilica_di_Agliate%2C_veduta_da_sud-est.JPG",
@@ -188,7 +203,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/San_michele_maggiore.JPG/1280px-San_michele_maggiore.JPG",
@@ -202,24 +222,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "UNESCO World Heritage",
       "url": "https://whc.unesco.org/en/list/730/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Italian Ministry of Culture",
       "url": "https://www.beniculturali.it",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Great Buildings",
       "url": "https://www.greatbuildings.com/styles/Romanesque_Lombard.html",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -260,37 +300,12 @@
       "type": "article",
       "title": "Wikipedia — Lombard Romanesque",
       "url": "https://en.wikipedia.org/wiki/Lombard_Romanesque",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Lombard Romanesque — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Lombard%20Romanesque%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Lombard Romanesque — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Lombard%20Romanesque",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Lombard Romanesque — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Lombard%20Romanesque",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Lombard Romanesque — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Lombard%20Romanesque%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Lombard Romanesque — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Lombard%20Romanesque%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q2722661",

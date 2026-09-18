@@ -129,7 +129,12 @@
       "date": "IIIe siècle av.n.è.",
       "license": "Public domain",
       "width": "1280",
-      "height": "1761"
+      "height": "1761",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Warring_States_Silk_Painting_Replica%2C_Chu_State_%2810162703463%29.jpg/1280px-Warring_States_Silk_Painting_Replica%2C_Chu_State_%2810162703463%29.jpg",
@@ -143,7 +148,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Shenyi5.jpeg",
@@ -156,7 +166,12 @@
       "date": "Ming Dynasty",
       "license": "Public domain",
       "width": "504",
-      "height": "800"
+      "height": "800",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/%E4%BA%BA%E7%89%A9%E8%82%96%E5%83%8F1.jpg",
@@ -169,7 +184,12 @@
       "date": "2008-07-20 23:39:23",
       "license": "Public domain",
       "width": "700",
-      "height": "1017"
+      "height": "1017",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Ming_man_wearing_shenyi.jpg",
@@ -182,7 +202,12 @@
       "date": "Ming dynasty",
       "license": "Public domain",
       "width": "690",
-      "height": "1086"
+      "height": "1086",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Chisurichang3.jpg",
@@ -195,7 +220,12 @@
       "date": "2012-03-09",
       "license": "Public domain",
       "width": "600",
-      "height": "900"
+      "height": "900",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Liyueyanchu.jpg/1280px-Liyueyanchu.jpg",
@@ -208,7 +238,12 @@
       "date": "2011-05-04 16:33:45",
       "license": "Public domain",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Hanfu_1.jpg",
@@ -221,7 +256,12 @@
       "date": "Unknown date",
       "license": "Public domain",
       "width": "650",
-      "height": "488"
+      "height": "488",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Xin_Zhui_1.JPG/1280px-Xin_Zhui_1.JPG",
@@ -234,7 +274,12 @@
       "date": "2010-11-26",
       "license": "Public domain",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Han_Yang_Ling_32.JPG/1280px-Han_Yang_Ling_32.JPG",
@@ -247,24 +292,44 @@
       "date": "2008-07-12",
       "license": "Public domain",
       "width": "1280",
-      "height": "2276"
+      "height": "2276",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "The Metropolitan Museum of Art",
       "url": "https://www.metmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "National Museum of China",
       "url": "https://www.chnmuseum.cn",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "China Heritage Quarterly",
       "url": "https://www.chinaheritagequarterly.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -300,36 +365,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:10:24.522Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Shenyi — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Shenyi%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Shenyi — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Shenyi",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Shenyi — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Shenyi",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Shenyi — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Shenyi%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Shenyi — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Shenyi%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q5958716",

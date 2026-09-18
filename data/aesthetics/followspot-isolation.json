@@ -129,57 +129,35 @@
     {
       "name": "Yale University - History of Stage Lighting",
       "url": "https://www.yale.edu",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Stage Lighting Design - History of Followspots",
       "url": "https://www.stagelightingdesign.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Live Design Magazine - Followspot Technology",
       "url": "https://www.livedesignonline.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Followspot Isolation",
-      "url": "https://en.wikipedia.org/wiki/Followspot_Isolation",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Followspot Isolation — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Followspot%20Isolation%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Followspot Isolation — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Followspot%20Isolation",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Followspot Isolation — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Followspot%20Isolation",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Followspot Isolation — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Followspot%20Isolation%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Followspot Isolation — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Followspot%20Isolation%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 80,
   "isNiche": false,
   "dataQuality": "well_documented",

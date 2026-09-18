@@ -127,7 +127,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Half_Cab_33_DX_30Th_Anniversary_shoes%2C_unknown_designer%2C_produced_by_Vans%2C_circa_2024%2C_suede_%2802%29.jpg/1280px-Half_Cab_33_DX_30Th_Anniversary_shoes%2C_unknown_designer%2C_produced_by_Vans%2C_circa_2024%2C_suede_%2802%29.jpg",
@@ -141,7 +146,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Greenway_2020.jpg/1280px-Greenway_2020.jpg",
@@ -155,7 +165,12 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1280",
-      "height": "1723"
+      "height": "1723",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Long_and_Stripe_candles%2C_by_HAY%2C_paraffin-based_wax_%28Long%29_and_wax_with_stearin_%28Stripe%29%2C_at_sale_at_The_Edit_shop_%28Strada_Icoanei_no._20%29%2C_Bucharest%2C_Romania.jpg/1280px-thumbnail.jpg",
@@ -169,7 +184,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/%C2%A1Mesoam%C3%A9rica_Resiste%21_%E2%80%93_Beehive_Design_Collective.jpg/1280px-%C2%A1Mesoam%C3%A9rica_Resiste%21_%E2%80%93_Beehive_Design_Collective.jpg",
@@ -183,24 +203,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "626"
+      "height": "626",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Aesthetics Wiki",
       "url": "https://aesthetics.fandom.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Cut",
       "url": "https://www.thecut.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -236,42 +276,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:57:13.294Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Cluttercore",
-      "url": "https://en.wikipedia.org/wiki/Cluttercore",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Cluttercore — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Cluttercore%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Cluttercore — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Cluttercore",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Cluttercore — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Cluttercore",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Cluttercore — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Cluttercore%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Cluttercore — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Cluttercore%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q2246318",

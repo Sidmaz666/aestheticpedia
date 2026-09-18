@@ -50,7 +50,11 @@ export interface AestheticTheme {
   vars: Record<string, string>
 }
 
-export function themeFromPalette(colors: ColorEntry[]): AestheticTheme | null {
+/**
+ * @param dna optional style profile — organic/soft aesthetics get rounder corners,
+ *            geometric/harsh ones sharper (drives --r-scale).
+ */
+export function themeFromPalette(colors: ColorEntry[], dna?: Record<string, number>): AestheticTheme | null {
   const cs = colors.map((c) => parse(c.hex)).filter((c): c is RGB => !!c)
   if (cs.length < 2) return null
   const byLum = [...cs].sort((a, b) => luminance(a) - luminance(b))
@@ -94,6 +98,13 @@ export function themeFromPalette(colors: ColorEntry[]): AestheticTheme | null {
       '--fg-subtle': toHex(fgSubtle),
       '--accent': toHex(accent),
       '--accent-fg': toHex(accentFg),
+      ...(dna && (dna.organic_geometric !== undefined || dna.soft_harsh !== undefined)
+        ? {
+            '--r-scale': String(
+              Math.round((0.2 + 1.4 * (1 - ((dna.organic_geometric ?? 50) * 0.6 + (dna.soft_harsh ?? 50) * 0.4) / 100)) * 100) / 100
+            ),
+          }
+        : {}),
     },
   }
 }

@@ -177,7 +177,12 @@
       "date": "1905",
       "license": "Public domain",
       "width": "1280",
-      "height": "1913"
+      "height": "1913",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/One_More_Step%2C_Mr._Hands.jpg/1280px-One_More_Step%2C_Mr._Hands.jpg",
@@ -190,7 +195,12 @@
       "date": "1911 date QS:P571,+1911-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "1569"
+      "height": "1569",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Amyas_upon_the_Quay_at_Bideford_Large.jpg",
@@ -203,7 +213,12 @@
       "date": "1920-01-01",
       "license": "Public domain",
       "width": "591",
-      "height": "792"
+      "height": "792",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Princess_of_Mars_large.jpg",
@@ -216,7 +231,12 @@
       "date": "1917",
       "license": "Public domain",
       "width": "675",
-      "height": "1013"
+      "height": "1013",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/The_lure_of_the_garden_%28Plate_8%29_%286302365217%29.jpg",
@@ -229,7 +249,12 @@
       "date": "1911",
       "license": "Public domain",
       "width": "1162",
-      "height": "1916"
+      "height": "1916",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/The_call_of_the_wild_%281904%29_%2814780588821%29.jpg/1280px-The_call_of_the_wild_%281904%29_%2814780588821%29.jpg",
@@ -243,24 +268,44 @@
       "license": "No restrictions",
       "licenseUrl": "https://www.flickr.com/commons/usage/",
       "width": "1280",
-      "height": "1927"
+      "height": "1927",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Delaware Art Museum",
       "url": "https://delart.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Illustration History",
       "url": "https://illustrationhistory.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Brandywine_School",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -294,38 +339,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T04:55:34.077Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Brandywine School — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Brandywine%20School%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Brandywine School — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Brandywine%20School",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Brandywine School — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Brandywine%20School",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Brandywine School — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Brandywine%20School%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Brandywine School — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Brandywine%20School%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q4957289",

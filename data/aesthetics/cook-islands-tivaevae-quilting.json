@@ -131,7 +131,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "872"
+      "height": "872",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/85495116-d429-e52d-ab48-6d1c87578b5b/full/843,/0/default.jpg",
@@ -145,7 +150,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "860"
+      "height": "860",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/1971beb0-bad4-7d89-c56d-f6bab17bb06f/full/843,/0/default.jpg",
@@ -159,7 +169,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "833"
+      "height": "833",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/db26b4a4-be05-f983-21f4-e0d8c5161688/full/843,/0/default.jpg",
@@ -173,7 +188,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "776"
+      "height": "776",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/bc005535-ebb6-51b8-6a56-c869ae83035a/full/843,/0/default.jpg",
@@ -187,24 +207,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "847"
+      "height": "847",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Rarotonga Museum",
       "url": "https://www.rarotongamuseum.com/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Pacific Encounters",
       "url": "https://www.pacificencounters.ac.uk/objects/tivaevae",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Cook Islands Tourism",
       "url": "https://www.cookislands.travel/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -229,42 +269,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:57:25.723Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Cook Islands tivaevae quilting",
-      "url": "https://en.wikipedia.org/wiki/Cook_Islands_tivaevae_quilting",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Cook Islands tivaevae quilting — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Cook%20Islands%20tivaevae%20quilting%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Cook Islands tivaevae quilting — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Cook%20Islands%20tivaevae%20quilting",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Cook Islands tivaevae quilting — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Cook%20Islands%20tivaevae%20quilting",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Cook Islands tivaevae quilting — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Cook%20Islands%20tivaevae%20quilting%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Cook Islands tivaevae quilting — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Cook%20Islands%20tivaevae%20quilting%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1054227",

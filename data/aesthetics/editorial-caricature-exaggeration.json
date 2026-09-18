@@ -142,57 +142,35 @@
     {
       "name": "The Association of American Editorial Cartoonists",
       "url": "https://editorialcartoonists.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Art of Caricature",
       "url": "https://www.metmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Editorial Cartoons: A Visual History",
       "url": "https://www.loc.gov",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Editorial Caricature Exaggeration",
-      "url": "https://en.wikipedia.org/wiki/Editorial_Caricature_Exaggeration",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Editorial Caricature Exaggeration — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Editorial%20Caricature%20Exaggeration%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Editorial Caricature Exaggeration — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Editorial%20Caricature%20Exaggeration",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Editorial Caricature Exaggeration — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Editorial%20Caricature%20Exaggeration",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Editorial Caricature Exaggeration — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Editorial%20Caricature%20Exaggeration%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Editorial Caricature Exaggeration — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Editorial%20Caricature%20Exaggeration%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 85,
   "isNiche": false,
   "dataQuality": "well_documented",

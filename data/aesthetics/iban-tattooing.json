@@ -131,7 +131,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1130"
+      "height": "1130",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/d1a7ad99-47d1-0a9b-5aed-2ccb0ca74e66/full/843,/0/default.jpg",
@@ -145,7 +150,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1124"
+      "height": "1124",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/d7f0c01b-f594-2f3e-b9ae-a264c35dd475/full/843,/0/default.jpg",
@@ -159,7 +169,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1072"
+      "height": "1072",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/6ca09b16-5ab8-145e-d092-0f6538550df2/full/843,/0/default.jpg",
@@ -173,19 +188,34 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1145"
+      "height": "1145",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Iban people",
       "url": "https://en.wikipedia.org/wiki/Iban_people",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia — Tattoo",
       "url": "https://en.wikipedia.org/wiki/Tattoo",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -210,42 +240,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:02:12.463Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Iban Tattooing",
-      "url": "https://en.wikipedia.org/wiki/Iban_Tattooing",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Iban Tattooing — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Iban%20Tattooing%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Iban Tattooing — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Iban%20Tattooing",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Iban Tattooing — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Iban%20Tattooing",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Iban Tattooing — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Iban%20Tattooing%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Iban Tattooing — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Iban%20Tattooing%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q7131652",

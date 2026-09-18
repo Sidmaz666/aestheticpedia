@@ -145,7 +145,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Murdeshwar_temple_gopuram.jpg",
@@ -159,7 +164,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "583",
-      "height": "900"
+      "height": "900",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sree_Padmanabhaswamy_temple_Thiruvananthapuram%2C_kerala.jpg",
@@ -173,7 +183,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1024",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Tirumala_090615.jpg/1280px-Tirumala_090615.jpg",
@@ -187,7 +202,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Nallur_Kandasamy_front_entrance.jpg/1280px-Nallur_Kandasamy_front_entrance.jpg",
@@ -201,7 +221,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "914"
+      "height": "914",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Angkor_Wat_Tempel_34.jpg/1280px-Angkor_Wat_Tempel_34.jpg",
@@ -215,7 +240,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "1711"
+      "height": "1711",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/1834_sketch_of_elements_in_Hindu_temple_architecture%2C_single_storey_gopura.jpg/1280px-1834_sketch_of_elements_in_Hindu_temple_architecture%2C_single_storey_gopura.jpg",
@@ -229,7 +259,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1661"
+      "height": "1661",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/1834_sketch_of_elements_in_Hindu_temple_architecture%2C_two_storey_gopura.jpg/1280px-1834_sketch_of_elements_in_Hindu_temple_architecture%2C_two_storey_gopura.jpg",
@@ -243,7 +278,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1781"
+      "height": "1781",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Singapore_Tempel_Sri_Mariammam_Gopuram_6.jpg/1280px-Singapore_Tempel_Sri_Mariammam_Gopuram_6.jpg",
@@ -257,24 +297,38 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "898"
+      "height": "898",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Taj Mahal",
-      "url": "https://www.tajmahal.gov.in/gopuram",
       "tier": "B"
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Gopuram",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Archaeological Survey of India",
       "url": "https://asi.nic.in",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -308,44 +362,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:00:29.715Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Gopuram Temple Gate",
-      "url": "https://en.wikipedia.org/wiki/Gopuram_Temple_Gate",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Gopuram Temple Gate — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Gopuram%20Temple%20Gate%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Gopuram Temple Gate — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Gopuram%20Temple%20Gate",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Gopuram Temple Gate — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Gopuram%20Temple%20Gate",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Gopuram Temple Gate — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Gopuram%20Temple%20Gate%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Gopuram Temple Gate — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Gopuram%20Temple%20Gate%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1435771",

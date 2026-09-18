@@ -136,7 +136,12 @@
       "date": "2005-03-23",
       "license": "Public domain",
       "width": "1000",
-      "height": "1000"
+      "height": "1000",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Michna_Ceska_maryanska_muzyka.jpg",
@@ -149,7 +154,12 @@
       "date": "1647",
       "license": "Public domain",
       "width": "520",
-      "height": "686"
+      "height": "686",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Gustav_Vasas_bibel_1541_-_title_page.jpg/1280px-Gustav_Vasas_bibel_1541_-_title_page.jpg",
@@ -161,7 +171,12 @@
       "date": "2015-05-13 09:39:29",
       "license": "Public domain",
       "width": "1280",
-      "height": "2014"
+      "height": "2014",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Erstes_Lesebuch_alphabet.png/1280px-Erstes_Lesebuch_alphabet.png",
@@ -174,7 +189,12 @@
       "date": "1850-01-01",
       "license": "Public domain",
       "width": "1280",
-      "height": "2084"
+      "height": "2084",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/German_newspaper_from_Missouri%2C_Westliche_Post%2C_typeset_with_Fraktur%2C_1906-07-21%2C_1.png/1280px-German_newspaper_from_Missouri%2C_Westliche_Post%2C_typeset_with_Fraktur%2C_1906-07-21%2C_1.png",
@@ -188,7 +208,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1044"
+      "height": "1044",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Scripts_in_Europe_%281901%29.jpg/1280px-Scripts_in_Europe_%281901%29.jpg",
@@ -201,19 +226,34 @@
       "date": "1901",
       "license": "Public domain",
       "width": "1280",
-      "height": "1066"
+      "height": "1066",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Fraktur (folk art)",
       "url": "https://en.wikipedia.org/wiki/Fraktur_(folk_art)",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Free Library of Philadelphia — Fraktur collection",
       "url": "https://www.freelibrary.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -249,42 +289,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:08:22.938Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Pennsylvania Dutch Fraktur",
-      "url": "https://en.wikipedia.org/wiki/Pennsylvania_Dutch_Fraktur",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Pennsylvania Dutch Fraktur — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Pennsylvania%20Dutch%20Fraktur%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Pennsylvania Dutch Fraktur — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Pennsylvania%20Dutch%20Fraktur",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Pennsylvania Dutch Fraktur — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Pennsylvania%20Dutch%20Fraktur",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Pennsylvania Dutch Fraktur — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Pennsylvania%20Dutch%20Fraktur%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Pennsylvania Dutch Fraktur — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Pennsylvania%20Dutch%20Fraktur%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q148443",

@@ -123,12 +123,22 @@
     {
       "name": "Wikipedia — Afropunk",
       "url": "https://en.wikipedia.org/wiki/Afropunk",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "AFROPUNK — official festival platform",
       "url": "https://afropunk.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 520,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -155,46 +165,15 @@
       }
     },
     {
-      "type": "article",
-      "title": "Wikipedia — Afropunk Movement",
-      "url": "https://en.wikipedia.org/wiki/Afropunk_Movement",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Afropunk Movement — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Afropunk%20Movement%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Afropunk Movement — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Afropunk%20Movement",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Afropunk Movement — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Afropunk%20Movement",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Afropunk Movement — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Afropunk%20Movement%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Afropunk Movement — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Afropunk%20Movement%20aesthetic%20examples",
-      "note": "Google Images search"
-    },
-    {
       "type": "web",
       "title": "Aesthetics Wiki — Afropunk Movement",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Afropunk%20Movement",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q2621049",

@@ -121,57 +121,35 @@
     {
       "name": "National Palace Museum",
       "url": "https://www.npm.gov.tw/en/exhibition/101_02_01.html",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Chinese Art Wiki",
       "url": "https://chineseartwiki.org/wiki/Baimiao",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Asia Society",
       "url": "https://asiasociety.org/museum/exhibitions/chinese-drawing-baimiao-technique",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Baimiao Fine Line",
-      "url": "https://en.wikipedia.org/wiki/Baimiao_Fine_Line",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Baimiao Fine Line — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Baimiao%20Fine%20Line%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Baimiao Fine Line — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Baimiao%20Fine%20Line",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Baimiao Fine Line — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Baimiao%20Fine%20Line",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Baimiao Fine Line — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Baimiao%20Fine%20Line%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Baimiao Fine Line — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Baimiao%20Fine%20Line%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 60,
   "isNiche": false,
   "dataQuality": "well_documented",

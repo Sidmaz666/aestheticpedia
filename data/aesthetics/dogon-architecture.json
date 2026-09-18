@@ -147,7 +147,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Tellem_Dwelling_Bandiagara_Escarpment_Mali.jpg",
@@ -161,7 +166,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "900",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Bandiagara_Escarpment_Mali.jpg",
@@ -175,7 +185,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "900",
-      "height": "602"
+      "height": "602",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Bandiagara_escarpment_1.jpg/1280px-Bandiagara_escarpment_1.jpg",
@@ -189,7 +204,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Bandiagara_escarpment_2.jpg/1280px-Bandiagara_escarpment_2.jpg",
@@ -203,7 +223,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Brooklyn_Museum_1989.51.39_Nommo_Figure_with_Raised_Arms.jpg",
@@ -217,7 +242,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1152",
-      "height": "1536"
+      "height": "1536",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/PorteMali.jpg/1280px-PorteMali.jpg",
@@ -231,24 +261,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1772"
+      "height": "1772",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "UNESCO World Heritage",
       "url": "https://whc.unesco.org/en/list/516",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Met Museum",
       "url": "https://www.metmuseum.org/toah/hd/dogo/hd_dogo.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Africa Is Now",
       "url": "https://www.africa-is-now.com/dogon-architecture",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -284,42 +334,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:58:19.747Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Dogon Architecture",
-      "url": "https://en.wikipedia.org/wiki/Dogon_Architecture",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Dogon Architecture — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Dogon%20Architecture%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Dogon Architecture — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Dogon%20Architecture",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Dogon Architecture — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Dogon%20Architecture",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Dogon Architecture — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Dogon%20Architecture%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Dogon Architecture — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Dogon%20Architecture%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q650546",

@@ -129,12 +129,22 @@
     {
       "name": "Wikipedia — GeoCities",
       "url": "https://en.wikipedia.org/wiki/Yahoo!_GeoCities",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Archive Team — GeoCities preservation",
       "url": "https://archiveteam.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -172,46 +182,15 @@
       }
     },
     {
-      "type": "article",
-      "title": "Wikipedia — Old Web GeoCities Era",
-      "url": "https://en.wikipedia.org/wiki/Old_Web_GeoCities_Era",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Old Web GeoCities Era — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Old%20Web%20GeoCities%20Era%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Old Web GeoCities Era — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Old%20Web%20GeoCities%20Era",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Old Web GeoCities Era — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Old%20Web%20GeoCities%20Era",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Old Web GeoCities Era — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Old%20Web%20GeoCities%20Era%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Old Web GeoCities Era — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Old%20Web%20GeoCities%20Era%20aesthetic%20examples",
-      "note": "Google Images search"
-    },
-    {
       "type": "web",
       "title": "Aesthetics Wiki — Old Web GeoCities Era",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Old%20Web%20GeoCities%20Era",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q968598",

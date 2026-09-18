@@ -179,24 +179,38 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "956"
+      "height": "956",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Tate Modern",
-      "url": "https://www.tate.org.uk/art/art-movements/art-informel",
       "tier": "A"
     },
     {
       "name": "MoMA",
       "url": "https://www.moma.org/collection/works/80674",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Oxford Art Online",
       "url": "https://www.oxfordartonline.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -226,37 +240,12 @@
       "type": "article",
       "title": "Wikipedia — Art Informel",
       "url": "https://en.wikipedia.org/wiki/Art_Informel",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Art Informel — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Art%20Informel%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Art Informel — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Art%20Informel",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Art Informel — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Art%20Informel",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Art Informel — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Art%20Informel%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Art Informel — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Art%20Informel%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q1054254",

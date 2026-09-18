@@ -131,7 +131,12 @@
       "date": "1836 date QS:P571,+1836-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "870"
+      "height": "870",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Thomas_Cole_-_A_View_of_the_Two_Lakes_and_Mountain_House%2C_Catskill_Mountains%2C_Morning_%281844%29_-_Google_Art_Project.jpg/1280px-Thomas_Cole_-_A_View_of_the_Two_Lakes_and_Mountain_House%2C_Catskill_Mountains%2C_Morning_%281844%29_-_Google_Art_Project.jpg",
@@ -144,7 +149,12 @@
       "date": "1844 date QS:P571,+1844-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Frederic_Edwin_Church_-_Niagara_Falls_-_WGA04867.jpg/1280px-Frederic_Edwin_Church_-_Niagara_Falls_-_WGA04867.jpg",
@@ -157,7 +167,12 @@
       "date": "1857 date QS:P571,+1857-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "594"
+      "height": "594",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Bierstadt_-_Among_the_Sierra_Nevada_Mountains_-_1868.jpg/1280px-Bierstadt_-_Among_the_Sierra_Nevada_Mountains_-_1868.jpg",
@@ -170,7 +185,12 @@
       "date": "1868 date QS:P571,+1868-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/JKensett_Mount_Washington_%28JJH-JFK001%29.jpg",
@@ -183,7 +203,12 @@
       "date": "1869 date QS:P571,+1869-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "600",
-      "height": "398"
+      "height": "398",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Asher_Brown_Durand_-_The_Catskills_-_Walters_37122.jpg/1280px-Asher_Brown_Durand_-_The_Catskills_-_Walters_37122.jpg",
@@ -196,7 +221,12 @@
       "date": "1859 date QS:P571,+1859-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "1591"
+      "height": "1591",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Hudson_river_from_bear_mountain_bridge.jpg/1280px-Hudson_river_from_bear_mountain_bridge.jpg",
@@ -208,24 +238,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Hudson River School",
       "url": "https://en.wikipedia.org/wiki/Hudson_River_School",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Metropolitan Museum of Art",
       "url": "https://www.metmuseum.org/toah/hd/huds/huds.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "National Gallery of Art",
       "url": "https://www.nga.gov/collection/highlights/hudson-river-school.html",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -259,44 +309,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:02:08.854Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Hudson River luminism glazing",
-      "url": "https://en.wikipedia.org/wiki/Hudson_River_luminism_glazing",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Hudson River luminism glazing — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Hudson%20River%20luminism%20glazing%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Hudson River luminism glazing — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Hudson%20River%20luminism%20glazing",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Hudson River luminism glazing — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Hudson%20River%20luminism%20glazing",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Hudson River luminism glazing — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Hudson%20River%20luminism%20glazing%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Hudson River luminism glazing — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Hudson%20River%20luminism%20glazing%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q943853",

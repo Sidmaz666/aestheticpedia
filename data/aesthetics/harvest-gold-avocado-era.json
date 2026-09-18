@@ -122,17 +122,32 @@
     {
       "name": "Vintage Appliance Museum",
       "url": "https://www.vintageappliancemuseum.org",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "1970s Housewife",
       "url": "https://www.1970shousewife.com",
-      "tier": "D"
+      "tier": "D",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Mid-Century Home",
       "url": "https://midcenturymodernhomes.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -157,42 +172,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:01:29.381Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Harvest Gold & Avocado Era",
-      "url": "https://en.wikipedia.org/wiki/Harvest_Gold_%26_Avocado_Era",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Harvest Gold & Avocado Era — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Harvest%20Gold%20%26%20Avocado%20Era%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Harvest Gold & Avocado Era — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Harvest%20Gold%20%26%20Avocado%20Era",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Harvest Gold & Avocado Era — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Harvest%20Gold%20%26%20Avocado%20Era",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Harvest Gold & Avocado Era — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Harvest%20Gold%20%26%20Avocado%20Era%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Harvest Gold & Avocado Era — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Harvest%20Gold%20%26%20Avocado%20Era%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q5676779",

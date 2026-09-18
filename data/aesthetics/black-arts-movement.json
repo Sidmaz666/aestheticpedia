@@ -177,7 +177,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1928"
+      "height": "1928",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Ntozake_Shange%2C_Reid_Lecture%2C_Women_Issues_Luncheon%2C_Women%27s_Center%2C_November_1978_Crisco_edit.jpg/1280px-Ntozake_Shange%2C_Reid_Lecture%2C_Women_Issues_Luncheon%2C_Women%27s_Center%2C_November_1978_Crisco_edit.jpg",
@@ -191,7 +196,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1635"
+      "height": "1635",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Flowerpowerportfolio.jpg",
@@ -203,7 +213,12 @@
       "artist": "Rightleftright",
       "license": "Public domain",
       "width": "698",
-      "height": "361"
+      "height": "361",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/173ec65a-bc7e-067c-fed1-1677bf5f26a9/full/843,/0/default.jpg",
@@ -217,7 +232,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "848"
+      "height": "848",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/2bc4d353-e61a-7589-8585-2000a23689bb/full/843,/0/default.jpg",
@@ -231,24 +251,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "602"
+      "height": "602",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Black Arts Movement",
       "url": "https://en.wikipedia.org/wiki/Black_Arts_Movement",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Black Arts Movement",
       "url": "https://www.smithsonianmag.com/history/the-black-arts-movement-180974734/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Black Arts Movement: Cultural Nationalism in the 1960s",
       "url": "https://www.jstor.org/stable/10.2307/3048370",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -267,7 +307,12 @@
       "type": "museum",
       "title": "Smithsonian - Black Arts Movement",
       "url": "https://www.si.edu/exhibitions/black-arts-movement",
-      "note": ""
+      "note": "",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "type": "article",
@@ -277,38 +322,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T04:55:21.935Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Black Arts Movement — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Black%20Arts%20Movement%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Black Arts Movement — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Black%20Arts%20Movement",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Black Arts Movement — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Black%20Arts%20Movement",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Black Arts Movement — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Black%20Arts%20Movement%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Black Arts Movement — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Black%20Arts%20Movement%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q4920294",

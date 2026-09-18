@@ -130,64 +130,41 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "464"
+      "height": "464",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Istanbul Ethnographic Museum",
       "url": "https://www.istanbulturizm.com/museum/ethnographic-museum/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Ottoman Women's Fashion",
-      "url": "https://www.turkishculture.org/what-is-turkish-culture/costumes-and-accessories/womens-costumes-in-the-ottoman-empire.htm",
       "tier": "B"
     },
     {
       "name": "Traditional Turkish Outerwear",
       "url": "https://www.anatolianfolk.com/costumes/outerwear.html",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Ferace Outerwear Codes",
-      "url": "https://en.wikipedia.org/wiki/Ferace_Outerwear_Codes",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Ferace Outerwear Codes — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Ferace%20Outerwear%20Codes%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Ferace Outerwear Codes — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Ferace%20Outerwear%20Codes",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Ferace Outerwear Codes — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Ferace%20Outerwear%20Codes",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Ferace Outerwear Codes — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Ferace%20Outerwear%20Codes%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Ferace Outerwear Codes — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Ferace%20Outerwear%20Codes%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 65,
   "isNiche": false,
   "dataQuality": "well_documented",

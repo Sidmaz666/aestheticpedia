@@ -126,7 +126,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "394"
+      "height": "394",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/daf27e2a-0e2a-307b-dc27-6dc380667dd3/full/843,/0/default.jpg",
@@ -140,7 +145,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "6323"
+      "height": "6323",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/541a96f7-faf6-1359-264c-5b4a6226bcf1/full/843,/0/default.jpg",
@@ -154,7 +164,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1074"
+      "height": "1074",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/6cb56687-a433-ae6b-ab07-af71dd755ec9/full/843,/0/default.jpg",
@@ -168,7 +183,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "215"
+      "height": "215",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/0c06cb70-c114-503b-8f69-7c4aba333a92/full/843,/0/default.jpg",
@@ -182,7 +202,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1528"
+      "height": "1528",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/180dae61-d73b-4834-3492-6cb20582ef09/full/843,/0/default.jpg",
@@ -196,7 +221,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "578"
+      "height": "578",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/0de694b1-0faf-f35f-440a-4de463e068b5/full/843,/0/default.jpg",
@@ -210,7 +240,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "645"
+      "height": "645",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/7325a7b0-a9f4-6c24-2505-1ee84daa27da/full/843,/0/default.jpg",
@@ -224,24 +259,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "624"
+      "height": "624",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Bharatiya Lok Kala Mandal",
       "url": "https://lokkala.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Rajasthan Tourism",
       "url": "https://www.rajasthantourism.gov.in",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Phad Painting Documentation",
       "url": "https://phadpainting.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -266,42 +321,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:08:26.716Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Phad narrative scroll",
-      "url": "https://en.wikipedia.org/wiki/Phad_narrative_scroll",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Phad narrative scroll — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Phad%20narrative%20scroll%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Phad narrative scroll — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Phad%20narrative%20scroll",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Phad narrative scroll — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Phad%20narrative%20scroll",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Phad narrative scroll — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Phad%20narrative%20scroll%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Phad narrative scroll — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Phad%20narrative%20scroll%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q7179960",

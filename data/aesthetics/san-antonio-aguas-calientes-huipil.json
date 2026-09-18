@@ -123,57 +123,35 @@
     {
       "name": "Museo Ixchel del Traje Indígena",
       "url": "https://www.museoixchel.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Guatemalan Textiles: Tradition and Transformation",
       "url": "https://www.press.uillinois.edu",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "San Antonio Aguas Calientes Huipil Documentation",
       "url": "https://www.folkloredelguate.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — San Antonio Aguas Calientes Huipil",
-      "url": "https://en.wikipedia.org/wiki/San_Antonio_Aguas_Calientes_Huipil",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "San Antonio Aguas Calientes Huipil — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=San%20Antonio%20Aguas%20Calientes%20Huipil%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "San Antonio Aguas Calientes Huipil — academic literature",
-      "url": "https://scholar.google.com/scholar?q=San%20Antonio%20Aguas%20Calientes%20Huipil",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "San Antonio Aguas Calientes Huipil — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=San%20Antonio%20Aguas%20Calientes%20Huipil",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "San Antonio Aguas Calientes Huipil — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=San%20Antonio%20Aguas%20Calientes%20Huipil%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "San Antonio Aguas Calientes Huipil — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=San%20Antonio%20Aguas%20Calientes%20Huipil%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 65,
   "isNiche": false,
   "dataQuality": "well_documented",

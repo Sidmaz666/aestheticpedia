@@ -125,7 +125,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Indios_Lenca_de_Guajiquiro.jpg",
@@ -139,7 +144,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1033",
-      "height": "686"
+      "height": "686",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/JulioVictorianoGarcia_03.JPG/1280px-JulioVictorianoGarcia_03.JPG",
@@ -153,7 +163,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1912"
+      "height": "1912",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Vasija_Lenca_Cilindrica.jpg/1280px-Vasija_Lenca_Cilindrica.jpg",
@@ -167,7 +182,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1743"
+      "height": "1743",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Tenamp%C3%BAa_Vessel_05.jpg/1280px-Tenamp%C3%BAa_Vessel_05.jpg",
@@ -181,7 +201,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1030"
+      "height": "1030",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Yacimiento_arquelogico_de_Yarumela.jpg/1280px-Yacimiento_arquelogico_de_Yarumela.jpg",
@@ -195,7 +220,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Berta_C%C3%A1ceres_%28ink_drawing%29.jpg",
@@ -209,7 +239,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1080",
-      "height": "1139"
+      "height": "1139",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/M%C3%A1scara_de_Xiuhtecuhtli_Cultura_Azteza-Mixteca_Ars_Summum.JPG",
@@ -222,24 +257,44 @@
       "date": "Summer 2007 date QS:P571,+2007-00-00T00:00:00Z/9,P4241,Q4072",
       "license": "Public domain",
       "width": "972",
-      "height": "1296"
+      "height": "1296",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Honduran Institute of Anthropology and History",
       "url": "https://ihna.hn",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Lenca Cultural Documentation",
       "url": "https://en.wikipedia.org/wiki/Lenca_people",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Lenca Pottery Project",
       "url": "https://lencapottery.org",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -275,42 +330,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:04:22.536Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Lenca Pottery Tradition",
-      "url": "https://en.wikipedia.org/wiki/Lenca_Pottery_Tradition",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Lenca Pottery Tradition — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Lenca%20Pottery%20Tradition%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Lenca Pottery Tradition — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Lenca%20Pottery%20Tradition",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Lenca Pottery Tradition — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Lenca%20Pottery%20Tradition",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Lenca Pottery Tradition — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Lenca%20Pottery%20Tradition%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Lenca Pottery Tradition — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Lenca%20Pottery%20Tradition%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1257826",

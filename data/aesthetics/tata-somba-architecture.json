@@ -138,57 +138,29 @@
     {
       "name": "UNESCO",
       "url": "https://ich.unesco.org/en/RL/traditional-architecture-of-the-tata-somba-00333",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "National Geographic",
-      "url": "https://www.nationalgeographic.com/travel/world-heritage/tata-somba-benin/",
       "tier": "B"
     },
     {
       "name": "Africa Is A Country",
       "url": "https://africaisacountry.com/tata-somba-architecture-fortified-homes-of-the-somba-people",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Tata Somba Architecture",
-      "url": "https://en.wikipedia.org/wiki/Tata_Somba_Architecture",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Tata Somba Architecture — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Tata%20Somba%20Architecture%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Tata Somba Architecture — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Tata%20Somba%20Architecture",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Tata Somba Architecture — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Tata%20Somba%20Architecture",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Tata Somba Architecture — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Tata%20Somba%20Architecture%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Tata Somba Architecture — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Tata%20Somba%20Architecture%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 45,
   "isNiche": true,
   "dataQuality": "well_documented",

@@ -168,17 +168,32 @@
     {
       "name": "The Grove Encyclopedia of Art",
       "url": "https://www.oxfordartonline.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Baroque Architecture in Rome",
       "url": "https://www.greatbuildings.com/buildings/Rome_Baroque.html",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Baroque Art and Architecture",
       "url": "https://www.metmuseum.org/toah/hd/baro/hd_baro.htm",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "references": [
@@ -203,36 +218,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:09:39.587Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Roman Baroque — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Roman%20Baroque%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Roman Baroque — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Roman%20Baroque",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Roman Baroque — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Roman%20Baroque",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Roman Baroque — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Roman%20Baroque%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Roman Baroque — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Roman%20Baroque%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q25047700",

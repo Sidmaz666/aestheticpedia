@@ -175,63 +175,35 @@
     {
       "name": "American Coatings Association",
       "url": "https://www.americancoatings.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "MaterialDistrict",
       "url": "https://materialdistrict.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "web",
-      "title": "Surface Finishes in Design",
-      "url": "https://www.google.com/search?q=Surface%20Finishes%20in%20Design",
-      "note": "Web search"
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Satin Sheen vs Gloss",
-      "url": "https://en.wikipedia.org/wiki/Satin_Sheen_vs_Gloss",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Satin Sheen vs Gloss — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Satin%20Sheen%20vs%20Gloss%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Satin Sheen vs Gloss — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Satin%20Sheen%20vs%20Gloss",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Satin Sheen vs Gloss — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Satin%20Sheen%20vs%20Gloss",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Satin Sheen vs Gloss — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Satin%20Sheen%20vs%20Gloss%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Satin Sheen vs Gloss — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Satin%20Sheen%20vs%20Gloss%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 90,
   "isNiche": false,
   "dataQuality": "moderately_documented",

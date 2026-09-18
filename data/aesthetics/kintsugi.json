@@ -112,7 +112,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "878"
+      "height": "878",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Ky%C5%ABsu_-_broken_lid-top_PNr%C2%B01256.jpg/1280px-Ky%C5%ABsu_-_broken_lid-top_PNr%C2%B01256.jpg",
@@ -126,7 +131,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1374"
+      "height": "1374",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Kintsugi_on_broken_Ky%C5%ABsu_lid-top_PNr%C2%B01257.jpg/1280px-Kintsugi_on_broken_Ky%C5%ABsu_lid-top_PNr%C2%B01257.jpg",
@@ -140,7 +150,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1283"
+      "height": "1283",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Dish_with_hollyhock_design%2C_Nabeshima_ware%2C_Edo_period%2C_18th_century%2C_overglaze_enamel_-_Tokyo_National_Museum_-_DSC06022.JPG/1280px-Dish_with_hollyhock_design%2C_Nabeshima_ware%2C_Edo_period%2C_18th_century%2C_overglaze_enamel_-_Tokyo_National_Museum_-_DSC06022.JPG",
@@ -154,7 +169,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1296"
+      "height": "1296",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Korea%2C_Goryeo_period_-_Wine_Ewer_with_Incised_Scroll_Design_-_1928.172_-_Cleveland_Museum_of_Art.tif/lossy-page1-1280px-Korea%2C_Goryeo_period_-_Wine_Ewer_with_Incised_Scroll_Design_-_1928.172_-_Cleveland_Museum_of_Art.tif.jpg",
@@ -167,7 +187,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "989"
+      "height": "989",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Hon%27ami_Koetsu_Fujisan_1.jpg/1280px-Hon%27ami_Koetsu_Fujisan_1.jpg",
@@ -180,7 +205,12 @@
       "date": "unknown (before 1937-09-15)",
       "license": "Public domain",
       "width": "1280",
-      "height": "959"
+      "height": "959",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/NINSEI_Wisteria_TeaJar_MOA.JPG/1280px-NINSEI_Wisteria_TeaJar_MOA.JPG",
@@ -193,19 +223,34 @@
       "date": "1952-03-30",
       "license": "Public domain",
       "width": "1280",
-      "height": "1459"
+      "height": "1459",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Kintsugi",
       "url": "https://en.wikipedia.org/wiki/Kintsugi",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Smithsonian — kintsugi coverage",
       "url": "https://www.si.edu",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -239,38 +284,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:03:58.196Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Kintsugi — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Kintsugi%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Kintsugi — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Kintsugi",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Kintsugi — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Kintsugi",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Kintsugi — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Kintsugi%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Kintsugi — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Kintsugi%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q2740942",

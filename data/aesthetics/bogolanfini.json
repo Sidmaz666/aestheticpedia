@@ -153,7 +153,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1771"
+      "height": "1771",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/S%C3%A9gou_%288%29.JPG/1280px-S%C3%A9gou_%288%29.JPG",
@@ -167,7 +172,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/S%C3%A9gou_%2810%29.JPG/1280px-S%C3%A9gou_%2810%29.JPG",
@@ -181,7 +191,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/S%C3%A9gou_%2812%29.JPG/1280px-S%C3%A9gou_%2812%29.JPG",
@@ -195,7 +210,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Bogolan_cloth_in_market_of_End%C3%A9%2C_Mali.JPG",
@@ -209,7 +229,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Mudcloth-005.jpg",
@@ -222,24 +247,44 @@
       "date": "4 August 2006 (original upload date)",
       "license": "Public domain",
       "width": "504",
-      "height": "683"
+      "height": "683",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "National Museum of African Art",
       "url": "https://africa.si.edu",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Bògòlanfini: Mud Cloth of Mali",
       "url": "https://www.metmuseum.org/toah/hd/bogo/hd_bogo.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Mudcloth: African Textiles",
       "url": "https://www.africanfabric.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -280,37 +325,12 @@
       "type": "article",
       "title": "Wikipedia — Bogolanfini",
       "url": "https://en.wikipedia.org/wiki/Bogolanfini",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Bogolanfini — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Bogolanfini%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Bogolanfini — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Bogolanfini",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Bogolanfini — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Bogolanfini",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Bogolanfini — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Bogolanfini%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Bogolanfini — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Bogolanfini%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q890628",

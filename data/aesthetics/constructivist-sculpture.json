@@ -126,7 +126,12 @@
       "date": "1919–1920",
       "license": "Public domain",
       "width": "1280",
-      "height": "1024"
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Cover_of_Konstruktivizm_by_Aleksei_Gan_1922.jpg/1280px-Cover_of_Konstruktivizm_by_Aleksei_Gan_1922.jpg",
@@ -139,7 +144,12 @@
       "date": "1922",
       "license": "Public domain",
       "width": "1280",
-      "height": "1510"
+      "height": "1510",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Tatlin%27s_Tower_maket_1919_year.jpg/1280px-Tatlin%27s_Tower_maket_1919_year.jpg",
@@ -152,7 +162,12 @@
       "date": "November 1920 date QS:P571,+1920-11-00T00:00:00Z/10",
       "license": "Public domain",
       "width": "1280",
-      "height": "1712"
+      "height": "1712",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Plakat_mayakowski_gross.jpg",
@@ -164,7 +179,12 @@
       "artist": "Vladimir Mayakovsky",
       "license": "Public domain",
       "width": "640",
-      "height": "880"
+      "height": "880",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/El_Lissitzky_-_Proposal_for_a_PROUN_street_celebration_-_Google_Art_Project.jpg/1280px-El_Lissitzky_-_Proposal_for_a_PROUN_street_celebration_-_Google_Art_Project.jpg",
@@ -177,7 +197,12 @@
       "date": "1923 date QS:P571,+1923-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "1033"
+      "height": "1033",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Zuev_Workers%27_Club_-_Moscow_%281928%29.jpg",
@@ -190,7 +215,12 @@
       "date": "1928",
       "license": "Public domain",
       "width": "507",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/The_sculpture_Toroa_%281989%29_by_Peter_Nicholls_as_it_appears_in_October_2020.jpg/1280px-The_sculpture_Toroa_%281989%29_by_Peter_Nicholls_as_it_appears_in_October_2020.jpg",
@@ -204,7 +234,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Black_circle.jpg",
@@ -217,23 +252,37 @@
       "date": "motive 1915 / painted 1924",
       "license": "Public domain",
       "width": "550",
-      "height": "543"
+      "height": "543",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "MoMA",
       "url": "https://www.moma.org/collection/works/80789",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Tate Modern",
       "url": "https://www.tate.org.uk/art/art-terms/c/constructivism",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Guggenheim",
-      "url": "https://www.guggenheim.org/artwork/artist/russian-constructivism",
       "tier": "A"
     }
   ],
@@ -270,42 +319,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:57:22.159Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Constructivist Sculpture",
-      "url": "https://en.wikipedia.org/wiki/Constructivist_Sculpture",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Constructivist Sculpture — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Constructivist%20Sculpture%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Constructivist Sculpture — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Constructivist%20Sculpture",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Constructivist Sculpture — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Constructivist%20Sculpture",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Constructivist Sculpture — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Constructivist%20Sculpture%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Constructivist Sculpture — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Constructivist%20Sculpture%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q207103",

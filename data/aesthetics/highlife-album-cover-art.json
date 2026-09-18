@@ -122,17 +122,32 @@
     {
       "name": "African Vinyl: Record sleeves and stories from a decade of music",
       "url": "https://africanvinyl.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Highlife Time: The Music of Ghana",
       "url": "https://highlifetime.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "British Library: African Sound Archive",
       "url": "https://bl.uk",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -157,42 +172,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:02:00.047Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Highlife Album Cover Art",
-      "url": "https://en.wikipedia.org/wiki/Highlife_Album_Cover_Art",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Highlife Album Cover Art — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Highlife%20Album%20Cover%20Art%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Highlife Album Cover Art — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Highlife%20Album%20Cover%20Art",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Highlife Album Cover Art — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Highlife%20Album%20Cover%20Art",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Highlife Album Cover Art — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Highlife%20Album%20Cover%20Art%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Highlife Album Cover Art — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Highlife%20Album%20Cover%20Art%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q5759468",

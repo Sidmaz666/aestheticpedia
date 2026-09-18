@@ -145,7 +145,12 @@
       "date": "1915",
       "license": "Public domain",
       "width": "1280",
-      "height": "1924"
+      "height": "1924",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Hiroshi_Yoshida%2C_Hikaru_umi%2C_1926.jpg/1280px-Hiroshi_Yoshida%2C_Hikaru_umi%2C_1926.jpg",
@@ -158,7 +163,12 @@
       "date": "大正15年出版",
       "license": "Public domain",
       "width": "1280",
-      "height": "1900"
+      "height": "1900",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Kawase_Z%C3%B4j%C3%B4ji.jpg",
@@ -171,7 +181,12 @@
       "date": "大正14年出版",
       "license": "Public domain",
       "width": "897",
-      "height": "1350"
+      "height": "1350",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Twee_kaketoes_op_tak_met_pruimenbloesem%2C_RP-P-2005-472.jpg/1280px-Twee_kaketoes_op_tak_met_pruimenbloesem%2C_RP-P-2005-472.jpg",
@@ -185,7 +200,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1960"
+      "height": "1960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
@@ -198,7 +218,12 @@
       "date": "1794",
       "license": "Public domain",
       "width": "802",
-      "height": "1200"
+      "height": "1200",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Kinuta_2.jpg",
@@ -212,24 +237,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "498",
-      "height": "1852"
+      "height": "1852",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Los Angeles County Museum of Art",
       "url": "https://www.lacma.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Museum of Fine Arts, Boston",
       "url": "https://www.mfa.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Japan Society",
       "url": "https://www.japansociety.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 503,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -265,36 +310,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:10:25.536Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Shin-hanga — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Shin-hanga%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Shin-hanga — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Shin-hanga",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Shin-hanga — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Shin-hanga",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Shin-hanga — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Shin-hanga%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Shin-hanga — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Shin-hanga%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q842183",

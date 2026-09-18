@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { Download } from 'lucide-react'
 import { CopyBlock } from '@/components/site/copy-block'
 import { EXPORT_FORMATS } from '@/lib/export-formats'
-import { SITE_URL } from '@/lib/formats'
+import { CONTRIBUTING_URL, SITE_NAME, SITE_URL } from '@/lib/site'
 import { getCompleteness, getStats } from '@/lib/queries'
 import type { DataManifest, ValidationReport } from '@/lib/aesthetic'
 
@@ -53,7 +53,7 @@ export default async function DataPage() {
       <p className="eyebrow">Open data</p>
       <h1 className="display mt-2 max-w-4xl text-6xl sm:text-7xl">Data & API</h1>
       <p className="mt-4 max-w-2xl text-lg text-fg-muted">
-        Aestheticpedia is open by default. Download everything, query it live, or connect it to an AI assistant. No keys,
+        {SITE_NAME} is open by default. Download everything, query it live, or connect it to an AI assistant. No keys,
         no rate-limit sign-up. Text is CC BY-SA 4.0; each image lists its own license.
       </p>
 
@@ -79,7 +79,7 @@ export default async function DataPage() {
           {manifest ? `Built ${new Date(manifest.builtAt).toUTCString()} · ${n(manifest.counts.aesthetics ?? stats.total)} aesthetics · ${n(manifest.counts.relations ?? stats.relations)} relations · SHA-256 checksums in ` : 'Checksums in '}
           <a href="/data/manifest.json" className="link-underline">manifest.json</a>
         </p>
-        <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        <ul data-reveal-group className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {(manifest?.files ?? []).map((f) => (
             <li key={f.name}>
               <a href={f.path} download className="group flex h-full flex-col rounded-2xl border border-line bg-surface p-5 transition-colors hover:border-line-strong">
@@ -184,7 +184,7 @@ export default async function DataPage() {
       {/* AI */}
       <section id="ai" className="scroll-mt-24 pt-20">
         <h2 className="display text-5xl">For AI crawlers & agents</h2>
-        <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        <ul data-reveal-group className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {[
             ['/llms.txt', 'Site guide for language models'],
             ['/llms-full.txt', 'Every record as compact Markdown'],
@@ -245,7 +245,7 @@ export default async function DataPage() {
           Each aesthetic is one JSON file in <code className="font-mono text-sm">data/aesthetics/</code>. Fix a record with GitHub’s
           editor, or add a new one with <code className="font-mono text-sm">npm run data:new</code> — CI validates the schema and
           links on every pull request. See the{' '}
-          <a href="https://github.com/siddmazak/aestheticpedia/blob/main/CONTRIBUTING.md" className="link-underline">
+          <a href={CONTRIBUTING_URL || '/about'} className="link-underline">
             contributing guide
           </a>{' '}
           and the <Link href="/about#terminology" className="link-underline">terminology</Link>.

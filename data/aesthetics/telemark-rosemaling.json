@@ -121,57 +121,35 @@
     {
       "name": "Norwegian Folk Art Museum",
       "url": "https://www.norskfolke.museum.no",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Vesterheim Museum",
       "url": "https://www.vesterheim.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Rosemaling History",
       "url": "https://www.rosemalinghistory.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Telemark Rosemaling",
-      "url": "https://en.wikipedia.org/wiki/Telemark_Rosemaling",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Telemark Rosemaling — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Telemark%20Rosemaling%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Telemark Rosemaling — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Telemark%20Rosemaling",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Telemark Rosemaling — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Telemark%20Rosemaling",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Telemark Rosemaling — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Telemark%20Rosemaling%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Telemark Rosemaling — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Telemark%20Rosemaling%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 75,
   "isNiche": false,
   "dataQuality": "well_documented",

@@ -128,7 +128,12 @@
       "date": "1944-01-01",
       "license": "Public domain",
       "width": "1280",
-      "height": "741"
+      "height": "741",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Kakizome.jpg",
@@ -142,7 +147,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "640",
-      "height": "480"
+      "height": "480",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/2b0fbb10-f86e-cb07-9760-87619d101866/full/843,/0/default.jpg",
@@ -156,24 +166,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "751"
+      "height": "751",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Japan House",
       "url": "https://japanhouse.jp/culture/kakizome/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Calligraphy Society of Japan",
       "url": "https://www.shodokai.or.jp/english/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Tokihiro's Calligraphy",
       "url": "https://www.tokihiro.com/kakizome/",
-      "tier": "D"
+      "tier": "D",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -209,42 +239,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:03:06.102Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Kakizome Calligraphic Line Energy",
-      "url": "https://en.wikipedia.org/wiki/Kakizome_Calligraphic_Line_Energy",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Kakizome Calligraphic Line Energy — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Kakizome%20Calligraphic%20Line%20Energy%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Kakizome Calligraphic Line Energy — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Kakizome%20Calligraphic%20Line%20Energy",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Kakizome Calligraphic Line Energy — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Kakizome%20Calligraphic%20Line%20Energy",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Kakizome Calligraphic Line Energy — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Kakizome%20Calligraphic%20Line%20Energy%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Kakizome Calligraphic Line Energy — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Kakizome%20Calligraphic%20Line%20Energy%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q600698",

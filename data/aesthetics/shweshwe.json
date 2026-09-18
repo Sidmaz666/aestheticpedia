@@ -126,7 +126,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Xhosa_traditionally_dressed_women.jpg",
@@ -140,7 +145,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1024",
-      "height": "763"
+      "height": "763",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Brown_shweshwe.jpg/1280px-Brown_shweshwe.jpg",
@@ -154,7 +164,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "841"
+      "height": "841",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Blue_shweshwe.jpg/1280px-Blue_shweshwe.jpg",
@@ -168,7 +183,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/ShweShwe.JPG/1280px-ShweShwe.JPG",
@@ -182,23 +202,37 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "922"
+      "height": "922",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Shweshwe: South Africa's Iconic Fabric",
       "url": "https://www.capetownmagazine.com/shweshwe-south-africas-iconic-fabric/3394/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 500,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Shweshwe History and Production",
       "url": "https://textilecentre.co.za/shweshwe/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Shweshwe in South African Culture",
-      "url": "https://www.sahistory.org.za/archive/shweshwe-south-africas-iconic-fabric",
       "tier": "B"
     }
   ],
@@ -240,37 +274,12 @@
       "type": "article",
       "title": "Wikipedia — Shweshwe",
       "url": "https://en.wikipedia.org/wiki/Shweshwe",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Shweshwe — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Shweshwe%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Shweshwe — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Shweshwe",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Shweshwe — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Shweshwe",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Shweshwe — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Shweshwe%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Shweshwe — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Shweshwe%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q15694161",

@@ -150,7 +150,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "854"
+      "height": "854",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Canyon_de_Chelly1.jpg",
@@ -163,7 +168,12 @@
       "date": "4 September 2005 (original upload date)",
       "license": "Public domain",
       "width": "700",
-      "height": "476"
+      "height": "476",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Hovenweep_in_snow.jpg/1280px-Hovenweep_in_snow.jpg",
@@ -177,7 +187,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Hohokam%2C_Ancestral_Pueblo%2C_and_Mogollon_cultures_circa_1350_CE.png",
@@ -191,7 +206,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "712",
-      "height": "880"
+      "height": "880",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ancestral_Puebloan_sites.png",
@@ -204,7 +224,12 @@
       "date": "1976",
       "license": "Public domain",
       "width": "913",
-      "height": "1050"
+      "height": "1050",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Pueblo_Bonito_Aerial.JPG",
@@ -218,7 +243,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "912",
-      "height": "684"
+      "height": "684",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Bandelier_multi-story_dwelling.jpg/1280px-Bandelier_multi-story_dwelling.jpg",
@@ -231,7 +261,12 @@
       "date": "2010-09-22",
       "license": "Public domain",
       "width": "1280",
-      "height": "877"
+      "height": "877",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/USA_09669_Taos_Pueblo_Luca_Galuzzi_2007.jpg/1280px-USA_09669_Taos_Pueblo_Luca_Galuzzi_2007.jpg",
@@ -245,7 +280,12 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Mancos_pitcher.jpg",
@@ -259,7 +299,12 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1221",
-      "height": "1431"
+      "height": "1431",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/CasaRinconada.jpg/1280px-CasaRinconada.jpg",
@@ -273,23 +318,31 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Chaco Canyon",
       "url": "https://www.nps.gov/chcu/index.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Ancestral Puebloan architecture",
-      "url": "https://en.wikipedia.org/wiki/Ancestral_Puebloan_architecture",
       "tier": "B"
     },
     {
       "name": "Chacoan Great Houses",
-      "url": "https://www.archaeology.org/issues/321-1503/features/chaco-canyon",
       "tier": "C"
     }
   ],
@@ -326,42 +379,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:53:54.879Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Ancestral Puebloan Great Houses",
-      "url": "https://en.wikipedia.org/wiki/Ancestral_Puebloan_Great_Houses",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Ancestral Puebloan Great Houses — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Ancestral%20Puebloan%20Great%20Houses%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Ancestral Puebloan Great Houses — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Ancestral%20Puebloan%20Great%20Houses",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Ancestral Puebloan Great Houses — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Ancestral%20Puebloan%20Great%20Houses",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Ancestral Puebloan Great Houses — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Ancestral%20Puebloan%20Great%20Houses%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Ancestral Puebloan Great Houses — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Ancestral%20Puebloan%20Great%20Houses%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q478805",

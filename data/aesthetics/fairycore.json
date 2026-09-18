@@ -133,7 +133,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "991"
+      "height": "991",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Honey_milk_bread.jpg/1280px-Honey_milk_bread.jpg",
@@ -147,7 +152,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1249"
+      "height": "1249",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/William-Adolphe_Bouguereau_-_La_pastorale_des_loisirs_%281868%29.jpg/1280px-William-Adolphe_Bouguereau_-_La_pastorale_des_loisirs_%281868%29.jpg",
@@ -160,7 +170,12 @@
       "date": "1868 date QS:P571,+1868-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "887"
+      "height": "887",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/William_Morris_design_for_Trellis_wallpaper_1862.jpg",
@@ -173,7 +188,12 @@
       "date": "1862",
       "license": "Public domain",
       "width": "1131",
-      "height": "1184"
+      "height": "1184",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Taylor_Swift_Eras_Tour_-_Arlington%2C_TX_-_Folklore_act_2.jpg/1280px-Taylor_Swift_Eras_Tour_-_Arlington%2C_TX_-_Folklore_act_2.jpg",
@@ -187,7 +207,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "799"
+      "height": "799",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
@@ -200,19 +225,34 @@
       "date": "early 1920s date QS:P,+1920-00-00T00:00:00Z/8,P4241,Q4071972",
       "license": "Public domain",
       "width": "768",
-      "height": "490"
+      "height": "490",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Cottagecore",
       "url": "https://en.wikipedia.org/wiki/Cottagecore",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Aesthetics Wiki — Fairycore",
       "url": "https://aesthetics.fandom.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -246,50 +286,30 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T04:59:16.928Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
     },
     {
       "type": "article",
       "title": "Wikipedia — Fairycore",
       "url": "https://en.wikipedia.org/wiki/Fairycore",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Fairycore — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Fairycore%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Fairycore — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Fairycore",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Fairycore — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Fairycore",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Fairycore — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Fairycore%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Fairycore — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Fairycore%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "type": "web",
       "title": "Aesthetics Wiki — Fairycore",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Fairycore",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q96375589",

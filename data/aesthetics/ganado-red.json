@@ -116,57 +116,35 @@
     {
       "name": "Navajo Weaving: Three Centuries of Change",
       "url": "https://www.museumofnewmexico.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Weaver's Pathway: A Survey of Navajo Weaving Techniques",
       "url": "https://www.navajopeople.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Ganado Red Rugs",
       "url": "https://www.navajoweaving.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Ganado Red",
-      "url": "https://en.wikipedia.org/wiki/Ganado_Red",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Ganado Red — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Ganado%20Red%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Ganado Red — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Ganado%20Red",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Ganado Red — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Ganado%20Red",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Ganado Red — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Ganado%20Red%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Ganado Red — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Ganado%20Red%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 75,
   "isNiche": false,
   "dataQuality": "well_documented",

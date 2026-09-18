@@ -132,7 +132,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "620"
+      "height": "620",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Geek_Fashion_Show_2013_-_Mermaid_Atlantis_%288844815861%29.jpg",
@@ -146,19 +151,34 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "753",
-      "height": "500"
+      "height": "500",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Seapunk",
       "url": "https://en.wikipedia.org/wiki/Seapunk",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Dazed — seapunk scene features",
       "url": "https://www.dazeddigital.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -181,44 +201,19 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:10:14.981Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Seapunk — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Seapunk%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Seapunk — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Seapunk",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Seapunk — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Seapunk",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Seapunk — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Seapunk%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Seapunk — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Seapunk%20aesthetic%20examples",
-      "note": "Google Images search"
     },
     {
       "type": "web",
       "title": "Aesthetics Wiki — Seapunk",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Seapunk",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q3476798",

@@ -137,7 +137,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Dead_Justice-Cat_Mother-Third-Person-Shooter.jpg",
@@ -151,7 +156,12 @@
       "license": "GPL",
       "licenseUrl": "http://www.gnu.org/licenses/gpl.html",
       "width": "800",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Namco_Quick%26Crash.jpg/1280px-Namco_Quick%26Crash.jpg",
@@ -165,7 +175,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "664"
+      "height": "664",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Shooter_games_in_Pyongyang.jpg/1280px-Shooter_games_in_Pyongyang.jpg",
@@ -179,19 +194,34 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "720"
+      "height": "720",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — First-person shooter",
       "url": "https://en.wikipedia.org/wiki/First-person_shooter",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "id Software — DOOM legacy materials",
       "url": "https://www.idsoftware.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -229,46 +259,15 @@
       }
     },
     {
-      "type": "article",
-      "title": "Wikipedia — Doom Clone Era (Boomer Shooter)",
-      "url": "https://en.wikipedia.org/wiki/Doom_Clone_Era_(Boomer_Shooter)",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Doom Clone Era (Boomer Shooter) — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Doom%20Clone%20Era%20(Boomer%20Shooter)%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Doom Clone Era (Boomer Shooter) — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Doom%20Clone%20Era%20(Boomer%20Shooter)",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Doom Clone Era (Boomer Shooter) — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Doom%20Clone%20Era%20(Boomer%20Shooter)",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Doom Clone Era (Boomer Shooter) — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Doom%20Clone%20Era%20(Boomer%20Shooter)%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Doom Clone Era (Boomer Shooter) — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Doom%20Clone%20Era%20(Boomer%20Shooter)%20aesthetic%20examples",
-      "note": "Google Images search"
-    },
-    {
       "type": "web",
       "title": "Aesthetics Wiki — Doom Clone Era (Boomer Shooter)",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Doom%20Clone%20Era%20(Boomer%20Shooter)",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q4282636",

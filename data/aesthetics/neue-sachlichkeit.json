@@ -147,7 +147,12 @@
       "date": "1922 date QS:P571,+1922-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "1161"
+      "height": "1161",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c4/Made_in_Germany_by_George_Grosz_1920.jpg/1280px-Made_in_Germany_by_George_Grosz_1920.jpg",
@@ -160,7 +165,12 @@
       "date": "1920",
       "license": "PD-US",
       "width": "1280",
-      "height": "1596"
+      "height": "1596",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Alexander_Kanoldt_-_Grosses_Stilleben_mit_Kr%C3%BCgen_und_roter_Teedose_-_2395_-_Staatliche_Kunsthalle_Karlsruhe.jpg",
@@ -173,7 +183,12 @@
       "date": "1922",
       "license": "Public domain",
       "width": "750",
-      "height": "640"
+      "height": "640",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/1926_Hans_Mertens_Ecart%C3%A9spieler.jpg",
@@ -186,7 +201,12 @@
       "date": "1926",
       "license": "Public domain",
       "width": "846",
-      "height": "1200"
+      "height": "1200",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Goethe_University_Frankfurt_Poelzig_Building_Panorama.jpg/1280px-Goethe_University_Frankfurt_Poelzig_Building_Panorama.jpg",
@@ -200,7 +220,12 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "1280",
-      "height": "378"
+      "height": "378",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Arno_Henschel%2C_Stillleben_mit_Zeitung.jpg",
@@ -213,7 +238,12 @@
       "date": "1925",
       "license": "Public domain",
       "width": "1032",
-      "height": "1291"
+      "height": "1291",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Arthur_Riedel%2C_Frau_mit_Wasserball.jpg/1280px-Arthur_Riedel%2C_Frau_mit_Wasserball.jpg",
@@ -226,7 +256,12 @@
       "date": "1932",
       "license": "Public domain",
       "width": "1280",
-      "height": "1581"
+      "height": "1581",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/AUGUST_PREUSSE_-_M%C3%B6belstillleben_1930.jpg/1280px-AUGUST_PREUSSE_-_M%C3%B6belstillleben_1930.jpg",
@@ -239,7 +274,12 @@
       "date": "1930",
       "license": "Public domain",
       "width": "1280",
-      "height": "1066"
+      "height": "1066",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Ausschauende.jpg/1280px-Ausschauende.jpg",
@@ -252,7 +292,12 @@
       "date": "1923",
       "license": "Public domain",
       "width": "1280",
-      "height": "1436"
+      "height": "1436",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Berlin%2C_Haus_am_Rupenhorn_-_LABW_-_Staatsarchiv_Freiburg_W_134_Nr._001550.jpg/1280px-Berlin%2C_Haus_am_Rupenhorn_-_LABW_-_Staatsarchiv_Freiburg_W_134_Nr._001550.jpg",
@@ -265,23 +310,31 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1280",
-      "height": "963"
+      "height": "963",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Tate Modern",
-      "url": "https://www.tate.org.uk/art/art-movements/neue-sachlichkeit",
       "tier": "A"
     },
     {
       "name": "MoMA",
       "url": "https://www.moma.org/collection/works/78658",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "WikiArt",
-      "url": "https://www.wikiart.org/en/movements/new-objectivity",
       "tier": "C"
     }
   ],
@@ -323,37 +376,12 @@
       "type": "article",
       "title": "Wikipedia — Neue Sachlichkeit",
       "url": "https://en.wikipedia.org/wiki/Neue_Sachlichkeit",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Neue Sachlichkeit — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Neue%20Sachlichkeit%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Neue Sachlichkeit — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Neue%20Sachlichkeit",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Neue Sachlichkeit — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Neue%20Sachlichkeit",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Neue Sachlichkeit — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Neue%20Sachlichkeit%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Neue Sachlichkeit — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Neue%20Sachlichkeit%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q160218",

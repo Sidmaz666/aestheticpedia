@@ -128,7 +128,12 @@
       "date": "2007-03-27",
       "license": "Public domain",
       "width": "634",
-      "height": "391"
+      "height": "391",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Low_Poly_Kingfisher.jpg/1280px-Low_Poly_Kingfisher.jpg",
@@ -142,7 +147,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "720"
+      "height": "720",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/3D_Movie_Maker_-_Gabriel_Baby.png",
@@ -156,24 +166,44 @@
       "license": "MIT",
       "licenseUrl": "http://opensource.org/licenses/mit-license.php",
       "width": "630",
-      "height": "327"
+      "height": "327",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia: Low-Poly",
       "url": "https://en.wikipedia.org/wiki/Low-poly",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "ArchDaily: Low-Poly Architecture",
       "url": "https://archdaily.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Aesthetics Wiki: Low-Poly",
       "url": "https://aesthetics.fandom.com/wiki/Low-Poly",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -196,44 +226,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:05:09.963Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Low-Poly Flat Shading",
-      "url": "https://en.wikipedia.org/wiki/Low-Poly_Flat_Shading",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Low-Poly Flat Shading — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Low-Poly%20Flat%20Shading%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Low-Poly Flat Shading — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Low-Poly%20Flat%20Shading",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Low-Poly Flat Shading — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Low-Poly%20Flat%20Shading",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Low-Poly Flat Shading — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Low-Poly%20Flat%20Shading%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Low-Poly Flat Shading — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Low-Poly%20Flat%20Shading%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q9296927",

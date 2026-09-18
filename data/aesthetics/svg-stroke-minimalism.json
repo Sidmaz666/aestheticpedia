@@ -118,57 +118,35 @@
     {
       "name": "SVG Documentation",
       "url": "https://www.w3.org/TR/SVG/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Minimalist Design Trends",
       "url": "https://www.smashingmagazine.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Line Art Community",
       "url": "https://www.behance.net",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — SVG Stroke Minimalism",
-      "url": "https://en.wikipedia.org/wiki/SVG_Stroke_Minimalism",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "SVG Stroke Minimalism — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=SVG%20Stroke%20Minimalism%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "SVG Stroke Minimalism — academic literature",
-      "url": "https://scholar.google.com/scholar?q=SVG%20Stroke%20Minimalism",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "SVG Stroke Minimalism — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=SVG%20Stroke%20Minimalism",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "SVG Stroke Minimalism — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=SVG%20Stroke%20Minimalism%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "SVG Stroke Minimalism — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=SVG%20Stroke%20Minimalism%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 65,
   "isNiche": false,
   "dataQuality": "well_documented",

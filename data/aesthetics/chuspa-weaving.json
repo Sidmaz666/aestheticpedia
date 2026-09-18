@@ -131,7 +131,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "922",
-      "height": "692"
+      "height": "692",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Catching_The_Sunset.JPG/1280px-Catching_The_Sunset.JPG",
@@ -145,7 +150,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "959"
+      "height": "959",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Chuspa%2C_Playas.JPG/1280px-Chuspa%2C_Playas.JPG",
@@ -159,7 +169,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "956"
+      "height": "956",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Chuspa.JPG/1280px-Chuspa.JPG",
@@ -173,7 +188,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "956"
+      "height": "956",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Playa_Mono_Manso_-_Chuspa_-_Venezuela.jpg/1280px-Playa_Mono_Manso_-_Chuspa_-_Venezuela.jpg",
@@ -187,7 +207,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "712"
+      "height": "712",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/ca22d810-85ed-4ac2-0290-327cec8db9c6/full/843,/0/default.jpg",
@@ -201,7 +226,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "825"
+      "height": "825",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/2c02aabf-d2dc-e63a-0a3e-fabb3db7c42c/full/843,/0/default.jpg",
@@ -215,7 +245,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1147"
+      "height": "1147",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/74edc8c0-356c-69bf-79fe-19ec42cab37d/full/843,/0/default.jpg",
@@ -229,23 +264,37 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "944"
+      "height": "944",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Chuspa: The Coca Leaf Bag",
       "url": "https://www.andeantravelweb.com/peru/cusco/chuspa.php",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Andean Textiles: Chuspa",
       "url": "https://www.metmuseum.org/toah/hd/anbt/hd_anbt.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Traditional Andean Textiles",
-      "url": "https://www.getty.edu/publications/andean-textiles/",
       "tier": "A"
     }
   ],
@@ -282,42 +331,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:57:09.873Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Chuspa weaving",
-      "url": "https://en.wikipedia.org/wiki/Chuspa_weaving",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Chuspa weaving — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Chuspa%20weaving%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Chuspa weaving — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Chuspa%20weaving",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Chuspa weaving — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Chuspa%20weaving",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Chuspa weaving — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Chuspa%20weaving%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Chuspa weaving — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Chuspa%20weaving%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1090013",

@@ -129,7 +129,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "854"
+      "height": "854",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Redscale_film_load_in_a_Bilora_Bella_%285628729973%29.jpg",
@@ -143,7 +148,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "900"
+      "height": "900",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Dandelion_%281%29.jpg/1280px-Dandelion_%281%29.jpg",
@@ -157,7 +167,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Blue_Sky_-_City_Palace_-_Udaipur.jpg/1280px-Blue_Sky_-_City_Palace_-_Udaipur.jpg",
@@ -171,7 +186,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "878"
+      "height": "878",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Mh_Franks_Light_Leak_%2879882567%29.jpeg/1280px-Mh_Franks_Light_Leak_%2879882567%29.jpeg",
@@ -185,7 +205,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "804"
+      "height": "804",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Ice_Cream_Dreams%2C_by_Chris_Marchant.jpg/1280px-Ice_Cream_Dreams%2C_by_Chris_Marchant.jpg",
@@ -199,24 +224,44 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "732"
+      "height": "732",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Lomography Magazine",
       "url": "https://magazine.lomography.com/articles/redscale-photography-guide",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Film Photography Project",
       "url": "https://filmphotographyproject.com/redscale/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Redscale.com",
       "url": "https://www.redscale.com/",
-      "tier": "D"
+      "tier": "D",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -252,42 +297,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:09:36.408Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Redscale Photography",
-      "url": "https://en.wikipedia.org/wiki/Redscale_Photography",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Redscale Photography — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Redscale%20Photography%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Redscale Photography — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Redscale%20Photography",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Redscale Photography — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Redscale%20Photography",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Redscale Photography — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Redscale%20Photography%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Redscale Photography — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Redscale%20Photography%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q2136382",

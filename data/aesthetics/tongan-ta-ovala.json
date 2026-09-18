@@ -131,7 +131,12 @@
       "date": "1988",
       "license": "Public domain",
       "width": "766",
-      "height": "390"
+      "height": "390",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Tapa.jpg",
@@ -145,7 +150,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "806"
+      "height": "806",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Tongan_church_missionaries_wearing_traditional_ta%27ovala.jpg/1280px-Tongan_church_missionaries_wearing_traditional_ta%27ovala.jpg",
@@ -159,7 +169,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Supi%2C_Solomon_Islands_war_club_1.jpg",
@@ -172,7 +187,12 @@
       "date": "0009",
       "license": "Public domain",
       "width": "1179",
-      "height": "492"
+      "height": "492",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Neckrest_%28kali%29_LACMA_M.2008.66.15.jpg/1280px-Neckrest_%28kali%29_LACMA_M.2008.66.15.jpg",
@@ -184,7 +204,12 @@
       "date": "circa 1850 date QS:P571,+1850-00-00T00:00:00Z/9,P1480,Q57279",
       "license": "Public domain",
       "width": "1280",
-      "height": "841"
+      "height": "841",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/en/9/95/Tupenu02.JPG",
@@ -195,7 +220,12 @@
       "source": "Wikimedia Commons",
       "license": "PD",
       "width": "1008",
-      "height": "952"
+      "height": "952",
+      "check": {
+        "ok": true,
+        "status": 206,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/en/1/10/Tupenu01.JPG",
@@ -206,7 +236,12 @@
       "source": "Wikimedia Commons",
       "license": "PD",
       "width": "870",
-      "height": "763"
+      "height": "763",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/France_vs_Tonga_2011_RWC_%285%29.jpg/1280px-France_vs_Tonga_2011_RWC_%285%29.jpg",
@@ -220,7 +255,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "553"
+      "height": "553",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Saione.jpg",
@@ -234,24 +274,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Tongan Ta Ovala",
       "url": "https://en.wikipedia.org/wiki/Tongan_clothing",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Traditional Tongan Dress",
       "url": "https://www.tonga.to/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Pacific Island Fashion",
       "url": "https://www.tepapa.govt.nz/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -265,42 +325,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:12:19.843Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Tongan Ta Ovala",
-      "url": "https://en.wikipedia.org/wiki/Tongan_Ta_Ovala",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Tongan Ta Ovala — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Tongan%20Ta%20Ovala%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Tongan Ta Ovala — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Tongan%20Ta%20Ovala",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Tongan Ta Ovala — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Tongan%20Ta%20Ovala",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Tongan Ta Ovala — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Tongan%20Ta%20Ovala%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Tongan Ta Ovala — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Tongan%20Ta%20Ovala%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "popularity": 65,

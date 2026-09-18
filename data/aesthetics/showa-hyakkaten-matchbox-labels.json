@@ -117,57 +117,35 @@
     {
       "name": "Matchbox Labels Museum",
       "url": "https://www.matchboxlabels.com/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Japanese Ad Society",
       "url": "https://www.jas.or.jp/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Tokyo Matchbox Collectors Club",
       "url": "https://www.matchbox.jp/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Showa hyakkaten matchbox labels",
-      "url": "https://en.wikipedia.org/wiki/Showa_hyakkaten_matchbox_labels",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Showa hyakkaten matchbox labels — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Showa%20hyakkaten%20matchbox%20labels%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Showa hyakkaten matchbox labels — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Showa%20hyakkaten%20matchbox%20labels",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Showa hyakkaten matchbox labels — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Showa%20hyakkaten%20matchbox%20labels",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Showa hyakkaten matchbox labels — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Showa%20hyakkaten%20matchbox%20labels%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Showa hyakkaten matchbox labels — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Showa%20hyakkaten%20matchbox%20labels%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "moderately_documented",

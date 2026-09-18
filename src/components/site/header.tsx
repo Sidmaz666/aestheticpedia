@@ -7,6 +7,7 @@ import { useTheme } from 'next-themes'
 import { Menu, Moon, Search, Shuffle, Sun, X } from 'lucide-react'
 import { fetchJson } from '@/lib/client'
 import type { AestheticSummary } from '@/lib/aesthetic'
+import { SITE_NAME } from '@/lib/site'
 import { Logo, NAV } from './nav'
 import { SearchDialog } from './search-dialog'
 import { OPEN_SEARCH_EVENT } from './search-trigger'
@@ -72,17 +73,17 @@ export function SiteHeader() {
         }`}
       >
         <div className="mx-auto flex h-16 max-w-[1600px] items-center gap-4 px-4 sm:px-6 lg:px-10">
-          <Link href="/" className="shrink-0 text-fg" aria-label="Aestheticpedia home">
+          <Link href="/" className="shrink-0 text-fg" aria-label={`${SITE_NAME} home`}>
             <Logo />
           </Link>
 
-          <nav aria-label="Primary" className="ml-6 hidden items-center gap-1 lg:flex">
+          <nav aria-label="Primary" className="ml-4 hidden items-center gap-0.5 xl:flex">
             {NAV.map((n) => (
               <Link
                 key={n.href}
                 href={n.href}
                 aria-current={isActive(n.href) ? 'page' : undefined}
-                className={`rounded-full px-3.5 py-1.5 text-sm transition-colors ${
+                className={`rounded-full px-3 py-1.5 text-sm transition-colors ${
                   isActive(n.href) ? 'bg-surface-2 text-fg' : 'text-fg-muted hover:text-fg'
                 }`}
               >
@@ -122,7 +123,7 @@ export function SiteHeader() {
             <button
               type="button"
               onClick={() => setMenuOpen((o) => !o)}
-              className="grid size-10 place-items-center rounded-full text-fg-muted hover:bg-surface-2 hover:text-fg lg:hidden"
+              className="grid size-10 place-items-center rounded-full text-fg-muted hover:bg-surface-2 hover:text-fg xl:hidden"
               aria-label={menuOpen ? 'Close menu' : 'Open menu'}
               aria-expanded={menuOpen}
             >
@@ -132,7 +133,7 @@ export function SiteHeader() {
         </div>
 
         {menuOpen && (
-          <nav aria-label="Mobile" className="border-t border-line px-4 pb-6 pt-2 lg:hidden">
+          <nav aria-label="Mobile" className="max-h-[calc(100svh-4rem)] overflow-y-auto border-t border-line px-4 pb-6 pt-2 no-scrollbar xl:hidden">
             {NAV.map((n) => (
               <Link
                 key={n.href}

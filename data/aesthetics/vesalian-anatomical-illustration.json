@@ -127,7 +127,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "600",
-      "height": "450"
+      "height": "450",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Kaprosuchus.jpg",
@@ -141,7 +146,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "824",
-      "height": "415"
+      "height": "415",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/1c8c83cd-676f-dbd2-cd54-c61667c2386b/full/843,/0/default.jpg",
@@ -155,24 +165,38 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1232"
+      "height": "1232",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Andreas Vesalius: De humani corporis fabrica",
-      "url": "https://www.nlm.nih.gov/exhibition/vesalius/vesalian_illustrations.html",
       "tier": "A"
     },
     {
       "name": "Vesalius and the Anatomy of Innovation",
       "url": "https://www.metmuseum.org/toah/hd/vesa/hd_vesa.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "De humani corporis fabrica",
       "url": "https://en.wikipedia.org/wiki/De_humani_corporis_fabrica",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "references": [
@@ -197,42 +221,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:12:59.236Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Vesalian Anatomical Illustration",
-      "url": "https://en.wikipedia.org/wiki/Vesalian_Anatomical_Illustration",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Vesalian Anatomical Illustration — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Vesalian%20Anatomical%20Illustration%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Vesalian Anatomical Illustration — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Vesalian%20Anatomical%20Illustration",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Vesalian Anatomical Illustration — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Vesalian%20Anatomical%20Illustration",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Vesalian Anatomical Illustration — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Vesalian%20Anatomical%20Illustration%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Vesalian Anatomical Illustration — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Vesalian%20Anatomical%20Illustration%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q25114760",

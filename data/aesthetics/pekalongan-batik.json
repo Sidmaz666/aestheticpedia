@@ -129,7 +129,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1000",
-      "height": "667"
+      "height": "667",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/GKI_Pekalongan.jpg/1280px-GKI_Pekalongan.jpg",
@@ -143,7 +148,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Masjid_Agung_Al-Jami%27.jpg/1280px-Masjid_Agung_Al-Jami%27.jpg",
@@ -157,7 +167,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Kantor_Pos_Pekalongan.jpg/1280px-Kantor_Pos_Pekalongan.jpg",
@@ -171,7 +186,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Pelabuhan_Perikanan_Pekalongan.jpg",
@@ -184,7 +204,12 @@
       "date": "2020-08-13",
       "license": "Public domain",
       "width": "1280",
-      "height": "749"
+      "height": "749",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/COLLECTIE_TROPENMUSEUM_Luchtfoto_van_de_haven_van_Pekalongan_TMnr_60034240.jpg",
@@ -198,7 +223,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "700",
-      "height": "513"
+      "height": "513",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/COLLECTIE_TROPENMUSEUM_Huis_van_een_Arabisch_hoofd_Pekalongan_Oost-Java_TMnr_10021095.jpg",
@@ -212,24 +242,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "700",
-      "height": "543"
+      "height": "543",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Pekalongan Batik Museum",
       "url": "https://batikmuseum.pekalongankota.go.id",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Met Museum",
       "url": "https://www.metmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Indonesian Heritage Society",
       "url": "https://heritage.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -265,42 +315,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:08:22.784Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Pekalongan Batik",
-      "url": "https://en.wikipedia.org/wiki/Pekalongan_Batik",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Pekalongan Batik — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Pekalongan%20Batik%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Pekalongan Batik — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Pekalongan%20Batik",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Pekalongan Batik — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Pekalongan%20Batik",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Pekalongan Batik — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Pekalongan%20Batik%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Pekalongan Batik — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Pekalongan%20Batik%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q11026",

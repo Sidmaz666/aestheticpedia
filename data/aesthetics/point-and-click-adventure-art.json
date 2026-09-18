@@ -129,12 +129,22 @@
     {
       "name": "Wikipedia — Adventure game",
       "url": "https://en.wikipedia.org/wiki/Adventure_game",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Lucasfilm Games — Monkey Island archives",
       "url": "https://lucasfilmgames.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -161,46 +171,15 @@
       }
     },
     {
-      "type": "article",
-      "title": "Wikipedia — Point-and-Click Adventure Art",
-      "url": "https://en.wikipedia.org/wiki/Point-and-Click_Adventure_Art",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Point-and-Click Adventure Art — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Point-and-Click%20Adventure%20Art%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Point-and-Click Adventure Art — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Point-and-Click%20Adventure%20Art",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Point-and-Click Adventure Art — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Point-and-Click%20Adventure%20Art",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Point-and-Click Adventure Art — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Point-and-Click%20Adventure%20Art%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Point-and-Click Adventure Art — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Point-and-Click%20Adventure%20Art%20aesthetic%20examples",
-      "note": "Google Images search"
-    },
-    {
       "type": "web",
       "title": "Aesthetics Wiki — Point-and-Click Adventure Art",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Point-and-Click%20Adventure%20Art",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q1048387",

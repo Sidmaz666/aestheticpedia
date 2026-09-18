@@ -146,57 +146,35 @@
     {
       "name": "Tunisian Ministry of Culture",
       "url": "https://www.mct.gov.tn",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Lonely Planet",
       "url": "https://www.lonelyplanet.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Sidi Bou Said Style",
-      "url": "https://en.wikipedia.org/wiki/Sidi_Bou_Said_Style",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Sidi Bou Said Style — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Sidi%20Bou%20Said%20Style%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Sidi Bou Said Style — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Sidi%20Bou%20Said%20Style",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Sidi Bou Said Style — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Sidi%20Bou%20Said%20Style",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Sidi Bou Said Style — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Sidi%20Bou%20Said%20Style%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Sidi Bou Said Style — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Sidi%20Bou%20Said%20Style%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 85,
   "isNiche": false,
   "dataQuality": "moderately_documented",

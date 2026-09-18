@@ -176,7 +176,12 @@
       "date": "1976",
       "license": "Public domain",
       "width": "1280",
-      "height": "893"
+      "height": "893",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Diner_by_David_Shankbone.jpg/1280px-Diner_by_David_Shankbone.jpg",
@@ -190,7 +195,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Motherhood_and_apple_pie.jpg/1280px-Motherhood_and_apple_pie.jpg",
@@ -201,7 +211,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "1280",
-      "height": "854"
+      "height": "854",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Rosebud_Diner.jpg/1280px-Rosebud_Diner.jpg",
@@ -215,7 +230,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Bendix_Diner.jpg/1280px-Bendix_Diner.jpg",
@@ -228,7 +248,12 @@
       "date": "4 January 2009 (original upload date)",
       "license": "Public domain",
       "width": "1280",
-      "height": "743"
+      "height": "743",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Salemdiner.jpg",
@@ -242,7 +267,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1024",
-      "height": "514"
+      "height": "514",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Wellsboro_Diner_interior.jpg/1280px-Wellsboro_Diner_interior.jpg",
@@ -256,7 +286,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "947"
+      "height": "947",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/RPPC_Lunch_counter.jpg/1280px-RPPC_Lunch_counter.jpg",
@@ -269,7 +304,12 @@
       "date": "circa 1955 date QS:P,+1955-00-00T00:00:00Z/9,P1480,Q5727902",
       "license": "Public domain",
       "width": "1280",
-      "height": "796"
+      "height": "796",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/NYC-Diner-ToGo-Cheeseburger-Deluxe.jpg/1280px-NYC-Diner-ToGo-Cheeseburger-Deluxe.jpg",
@@ -282,7 +322,12 @@
       "date": "2014-09-02",
       "license": "Public domain",
       "width": "1280",
-      "height": "975"
+      "height": "975",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Milkshakes_at_Mels_Diner.jpg",
@@ -296,24 +341,44 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1200",
-      "height": "1600"
+      "height": "1600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Diner City",
       "url": "https://www.dinercity.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "American Diner Museum",
       "url": "https://www.americandinermuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Diner",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -347,44 +412,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T04:53:49.643Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — American Diner",
-      "url": "https://en.wikipedia.org/wiki/American_Diner",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "American Diner — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=American%20Diner%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "American Diner — academic literature",
-      "url": "https://scholar.google.com/scholar?q=American%20Diner",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "American Diner — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=American%20Diner",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "American Diner — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=American%20Diner%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "American Diner — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=American%20Diner%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1226318",

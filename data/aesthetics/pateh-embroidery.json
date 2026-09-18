@@ -134,7 +134,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1200",
-      "height": "1200"
+      "height": "1200",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/51cfad87-28f9-2048-13d7-23b1af1044c0/full/843,/0/default.jpg",
@@ -148,7 +153,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "835"
+      "height": "835",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/f373c915-0bc9-2034-f094-efdd29520911/full/843,/0/default.jpg",
@@ -162,7 +172,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "608"
+      "height": "608",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/1d903bab-eb1a-966a-4695-0c0fa800f904/full/843,/0/default.jpg",
@@ -176,7 +191,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "449"
+      "height": "449",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/dcea485e-49f7-b5fa-6095-5fa9ae685707/full/843,/0/default.jpg",
@@ -190,7 +210,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "285"
+      "height": "285",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/3d4e1013-fd83-7e3e-5afe-93f3694a1ff5/full/843,/0/default.jpg",
@@ -204,7 +229,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "432"
+      "height": "432",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/a546d781-d68f-8df6-38b7-1476c65fa296/full/843,/0/default.jpg",
@@ -218,7 +248,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "573"
+      "height": "573",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/fefc961e-e453-661a-fef7-f421afebbcad/full/843,/0/default.jpg",
@@ -232,19 +267,34 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1035"
+      "height": "1035",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Pateh",
       "url": "https://en.wikipedia.org/wiki/Pateh",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Victoria and Albert Museum",
       "url": "https://www.vam.ac.uk",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -267,44 +317,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:08:18.343Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Pateh Embroidery",
-      "url": "https://en.wikipedia.org/wiki/Pateh_Embroidery",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Pateh Embroidery — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Pateh%20Embroidery%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Pateh Embroidery — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Pateh%20Embroidery",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Pateh Embroidery — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Pateh%20Embroidery",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Pateh Embroidery — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Pateh%20Embroidery%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Pateh Embroidery — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Pateh%20Embroidery%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q5958269",

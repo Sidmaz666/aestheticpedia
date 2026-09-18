@@ -118,7 +118,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Comic_mural_Le_jeune_Albert%2C_Yves_Chaland%2C_Brussels.jpg/1280px-Comic_mural_Le_jeune_Albert%2C_Yves_Chaland%2C_Brussels.jpg",
@@ -132,7 +137,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Goffart_cokea_solea.jpg/1280px-Goffart_cokea_solea.jpg",
@@ -145,7 +155,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1849"
+      "height": "1849",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Stockel-TinTin-1_%28cropped%29.jpg",
@@ -159,7 +174,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "842",
-      "height": "1305"
+      "height": "1305",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Stockel-TinTin-1.jpg/1280px-Stockel-TinTin-1.jpg",
@@ -173,7 +193,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "720"
+      "height": "720",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Val%C3%A8ncia%2C_l%C3%ADnia_clara.jpg/1280px-Val%C3%A8ncia%2C_l%C3%ADnia_clara.jpg",
@@ -187,19 +212,34 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Ligne claire",
       "url": "https://en.wikipedia.org/wiki/Ligne_claire",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Hergé Museum (Musée Hergé)",
       "url": "https://www.museeherge.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -233,38 +273,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:04:25.065Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Ligne claire — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Ligne%20claire%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Ligne claire — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Ligne%20claire",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Ligne claire — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Ligne%20claire",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Ligne claire — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Ligne%20claire%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Ligne claire — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Ligne%20claire%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1307909",

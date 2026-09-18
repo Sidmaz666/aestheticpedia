@@ -127,7 +127,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Hamburg%2C_Hafen%2C_Elbphilharmonie_--_2016_--_3129.jpg/1280px-Hamburg%2C_Hafen%2C_Elbphilharmonie_--_2016_--_3129.jpg",
@@ -141,24 +146,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Metamodernism Research Network",
       "url": "https://metamodernismresearch.net",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Metamodernism",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "e-flux",
       "url": "https://www.e-flux.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -181,38 +206,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:06:11.209Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Metamodernism — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Metamodernism%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Metamodernism — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Metamodernism",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Metamodernism — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Metamodernism",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Metamodernism — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Metamodernism%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Metamodernism — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Metamodernism%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q3380771",

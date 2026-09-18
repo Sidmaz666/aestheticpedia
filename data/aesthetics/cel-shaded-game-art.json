@@ -136,7 +136,12 @@
       "date": "2008-06-21",
       "license": "Public domain",
       "width": "511",
-      "height": "383"
+      "height": "383",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cel_shading_depth.png",
@@ -149,7 +154,12 @@
       "date": "2008-06-21",
       "license": "Public domain",
       "width": "511",
-      "height": "383"
+      "height": "383",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cel_shading_normals.png",
@@ -162,7 +172,12 @@
       "date": "2008-06-21",
       "license": "Public domain",
       "width": "512",
-      "height": "385"
+      "height": "385",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Cel_shading_edge_detection.png",
@@ -175,7 +190,12 @@
       "date": "2008-06-21",
       "license": "Public domain",
       "width": "511",
-      "height": "383"
+      "height": "383",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Cel_shading_with_outlines.png",
@@ -188,7 +208,12 @@
       "date": "2008-06-21",
       "license": "Public domain",
       "width": "511",
-      "height": "383"
+      "height": "383",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Particle_in_a_box_cel_shaded.png",
@@ -202,19 +227,34 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1153",
-      "height": "665"
+      "height": "665",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Cel shading",
       "url": "https://en.wikipedia.org/wiki/Cel_shading",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Sega — Jet Set Radio press materials",
       "url": "https://www.sega.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -248,50 +288,19 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T04:56:21.766Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Cel-Shaded Game Art",
-      "url": "https://en.wikipedia.org/wiki/Cel-Shaded_Game_Art",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Cel-Shaded Game Art — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Cel-Shaded%20Game%20Art%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Cel-Shaded Game Art — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Cel-Shaded%20Game%20Art",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Cel-Shaded Game Art — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Cel-Shaded%20Game%20Art",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Cel-Shaded Game Art — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Cel-Shaded%20Game%20Art%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Cel-Shaded Game Art — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Cel-Shaded%20Game%20Art%20aesthetic%20examples",
-      "note": "Google Images search"
     },
     {
       "type": "web",
       "title": "Aesthetics Wiki — Cel-Shaded Game Art",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Cel-Shaded%20Game%20Art",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q1049253",

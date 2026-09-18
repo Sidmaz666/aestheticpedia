@@ -2,8 +2,9 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { AestheticArticle } from '@/components/aesthetic/article'
 import { AestheticFonts } from '@/components/aesthetic/theme-scope'
-import { SITE_URL, toJsonLd } from '@/lib/formats'
-import { getAesthetic, getSimilar } from '@/lib/queries'
+import { toJsonLd } from '@/lib/formats'
+import { SITE_NAME, SITE_URL } from '@/lib/site'
+import { getAesthetic, getLineage, getLinksAmong, getSimilar } from '@/lib/queries'
 import { themeCss, themeFromPalette } from '@/lib/theme'
 
 export const revalidate = 3600
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     openGraph: {
       type: 'article',
-      title: `${a.name} — Aestheticpedia`,
+      title: `${a.name} — ${SITE_NAME}`,
       description: a.summary,
       url: `${SITE_URL}/aesthetics/${slug}`,
       images: image ? [{ url: image.url, alt: image.caption }] : undefined,
@@ -44,8 +45,9 @@ export default async function AestheticPage({ params }: Props) {
   const detail = await getAesthetic(slug)
   if (!detail) notFound()
   const a = detail.aesthetic
-  const similar = await getSimilar(slug, a.category, 10)
-  const theme = themeFromPalette(a.colors)
+  const neighbours = [...detail.relations.outgoing.map((r) => r.target.slug), ...detail.relations.incoming.map((r) => r.source.slug)]
+  const [similar, lineage, among] = await Promise.all([getSimilar(slug, a.category, 10), getLineage(slug), getLinksAmong(neighbours)])
+  const theme = themeFromPalette(a.colors, a.dnaAxes)
 
   return (
     <>
@@ -53,7 +55,7 @@ export default async function AestheticPage({ params }: Props) {
       {theme && <style href={`ae-theme-${slug}`} precedence="high">{themeCss(theme, 'html:root')}</style>}
       <AestheticFonts display={a.typePairing.display} body={a.typePairing.body} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(toJsonLd(a)) }} />
-      <AestheticArticle detail={detail} similar={similar} mode="page" />
+      <AestheticArticle detail={detail} similar={similar} lineage={lineage} among={among} mode="page" />
     </>
   )
 }

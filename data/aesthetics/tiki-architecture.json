@@ -139,57 +139,29 @@
     {
       "name": "Tiki Oasis",
       "url": "https://tikioasis.com/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Tiki_architecture",
       "tier": "B"
     },
     {
       "name": "Los Angeles Conservancy",
       "url": "https://www.laconservancy.org/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Tiki architecture",
-      "url": "https://en.wikipedia.org/wiki/Tiki_architecture",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Tiki architecture — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Tiki%20architecture%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Tiki architecture — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Tiki%20architecture",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Tiki architecture — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Tiki%20architecture",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Tiki architecture — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Tiki%20architecture%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Tiki architecture — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Tiki%20architecture%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 65,
   "isNiche": false,
   "dataQuality": "well_documented",

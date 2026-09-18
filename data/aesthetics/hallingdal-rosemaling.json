@@ -128,7 +128,12 @@
       "date": "1849",
       "license": "Public domain",
       "width": "506",
-      "height": "380"
+      "height": "380",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Skogshorn.jpg/1280px-Skogshorn.jpg",
@@ -141,7 +146,12 @@
       "date": "2008-04-19",
       "license": "Public domain",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Nesbyen%2C_Nes.jpg/1280px-Nesbyen%2C_Nes.jpg",
@@ -153,7 +163,12 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "1280",
-      "height": "824"
+      "height": "824",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Johanessen_-_M%C3%A4dchen_von_Hallingdal.jpeg",
@@ -165,7 +180,12 @@
       "artist": "Aksel Waldemar Johannessen",
       "license": "Public domain",
       "width": "1260",
-      "height": "933"
+      "height": "933",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/843,/0/default.jpg",
@@ -179,7 +199,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1101"
+      "height": "1101",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/1753b638-d4fb-8e45-3db9-92dde7f053da/full/843,/0/default.jpg",
@@ -193,7 +218,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1162"
+      "height": "1162",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
@@ -207,7 +237,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "565"
+      "height": "565",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/843,/0/default.jpg",
@@ -221,24 +256,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "979"
+      "height": "979",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Norwegian Folk Art Museum",
       "url": "https://www.norskfolke.museum.no",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Hallingdal Museum",
       "url": "https://www.hallingdal.museum",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Rosemaling Techniques",
       "url": "https://www.rosemalingtechniques.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -263,42 +318,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:01:17.929Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Hallingdal Rosemaling",
-      "url": "https://en.wikipedia.org/wiki/Hallingdal_Rosemaling",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Hallingdal Rosemaling — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Hallingdal%20Rosemaling%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Hallingdal Rosemaling — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Hallingdal%20Rosemaling",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Hallingdal Rosemaling — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Hallingdal%20Rosemaling",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Hallingdal Rosemaling — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Hallingdal%20Rosemaling%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Hallingdal Rosemaling — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Hallingdal%20Rosemaling%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1571743",

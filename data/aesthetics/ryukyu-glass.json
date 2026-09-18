@@ -129,7 +129,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1278"
+      "height": "1278",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/9ffb5b78-7db0-864e-c0c1-d54a55d706e4/full/843,/0/default.jpg",
@@ -143,7 +148,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1116"
+      "height": "1116",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/f1142012-6697-b0cf-b5c2-3707c75aa4b2/full/843,/0/default.jpg",
@@ -157,7 +167,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "843"
+      "height": "843",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/69fa6133-2b25-30b8-4234-def11cc9b70e/full/843,/0/default.jpg",
@@ -171,7 +186,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1107"
+      "height": "1107",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/efedfaf0-b814-5ac5-502b-dffdc6ee25c0/full/843,/0/default.jpg",
@@ -185,7 +205,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "716"
+      "height": "716",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/8e7f7f34-6730-9f5c-072b-260fccac1f6f/full/843,/0/default.jpg",
@@ -199,7 +224,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1109"
+      "height": "1109",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/b32d62e3-0b23-f470-dd8d-bbab4d60ea9a/full/843,/0/default.jpg",
@@ -213,7 +243,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "674"
+      "height": "674",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/b5fd789f-fc57-5569-3785-e167d144c054/full/843,/0/default.jpg",
@@ -227,64 +262,47 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "674"
+      "height": "674",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Ryukyu Glass Village",
       "url": "https://www.ryukyuglassvillage.jp",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Okinawa Glass Craft Center",
       "url": "https://www.okinawaglasscraft.jp",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Postwar Okinawan Craft: Ryukyu Glass",
       "url": "https://www.japansociety.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 503,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Ryukyu glass",
-      "url": "https://en.wikipedia.org/wiki/Ryukyu_glass",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Ryukyu glass — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Ryukyu%20glass%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Ryukyu glass — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Ryukyu%20glass",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Ryukyu glass — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Ryukyu%20glass",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Ryukyu glass — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Ryukyu%20glass%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Ryukyu glass — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Ryukyu%20glass%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 55,
   "isNiche": true,
   "dataQuality": "well_documented",

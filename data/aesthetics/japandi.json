@@ -125,19 +125,34 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Architectural Digest — Japandi",
       "url": "https://www.architecturaldigest.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia — Japandi",
       "url": "https://en.wikipedia.org/wiki/Japandi",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -160,38 +175,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:02:31.573Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Japandi — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Japandi%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Japandi — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Japandi",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Japandi — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Japandi",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Japandi — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Japandi%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Japandi — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Japandi%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q106092136",

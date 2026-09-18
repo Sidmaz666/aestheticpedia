@@ -125,64 +125,47 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "979"
+      "height": "979",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Maramures County Museum",
       "url": "https://muzeummm.ro/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "UNESCO Intangible Heritage",
       "url": "https://ich.unesco.org/en/RL/wooden-churches-of-maramures-romania-00423/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Romanian Cultural Institute",
       "url": "https://icr.ro/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Maramures Woodcarving",
-      "url": "https://en.wikipedia.org/wiki/Maramures_Woodcarving",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Maramures Woodcarving — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Maramures%20Woodcarving%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Maramures Woodcarving — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Maramures%20Woodcarving",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Maramures Woodcarving — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Maramures%20Woodcarving",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Maramures Woodcarving — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Maramures%20Woodcarving%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Maramures Woodcarving — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Maramures%20Woodcarving%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 75,
   "isNiche": false,
   "dataQuality": "well_documented",

@@ -123,57 +123,29 @@
     {
       "name": "The Verge - 90s Tech Design",
       "url": "https://www.theverge.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Design Museum - 1990s Design",
       "url": "https://designmuseum.org/design/1990s-design",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 500,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Retrowaste - 90s Electronics",
-      "url": "https://retrowaste.com/electronics/1990s-electronics/",
       "tier": "C"
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — 90s Translucent Gel Plastics",
-      "url": "https://en.wikipedia.org/wiki/90s_Translucent_Gel_Plastics",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "90s Translucent Gel Plastics — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=90s%20Translucent%20Gel%20Plastics%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "90s Translucent Gel Plastics — academic literature",
-      "url": "https://scholar.google.com/scholar?q=90s%20Translucent%20Gel%20Plastics",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "90s Translucent Gel Plastics — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=90s%20Translucent%20Gel%20Plastics",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "90s Translucent Gel Plastics — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=90s%20Translucent%20Gel%20Plastics%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "90s Translucent Gel Plastics — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=90s%20Translucent%20Gel%20Plastics%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 70,
   "isNiche": false,
   "dataQuality": "moderately_documented",

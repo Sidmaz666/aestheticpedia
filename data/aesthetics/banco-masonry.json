@@ -150,7 +150,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Great_Mosque_of_Djenn%C3%A9_3.jpg",
@@ -161,7 +166,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "640",
-      "height": "480"
+      "height": "480",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Mudbrick_production_Niger_2007.jpg/1280px-Mudbrick_production_Niger_2007.jpg",
@@ -175,7 +185,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "851"
+      "height": "851",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/RomaniaDanubeDelta_MakingMaterialForCOnstructing0003jpg.JPG/1280px-RomaniaDanubeDelta_MakingMaterialForCOnstructing0003jpg.JPG",
@@ -187,7 +202,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "965"
+      "height": "965",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Zinder_Old_Town_Niger_2007.jpg/1280px-Zinder_Old_Town_Niger_2007.jpg",
@@ -201,7 +221,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "851"
+      "height": "851",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Punjabi_Home.JPG/1280px-Punjabi_Home.JPG",
@@ -215,7 +240,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Shibam_Wadi_Hadhramaut_Yemen.jpg/1280px-Shibam_Wadi_Hadhramaut_Yemen.jpg",
@@ -229,7 +259,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "845"
+      "height": "845",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Working_mudbrick_press_5.jpg",
@@ -243,7 +278,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1024",
-      "height": "761"
+      "height": "761",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/SudanKhartoum-TutiIsland-BrickmakingCorinthia_RomanDeckert20160207.jpg/1280px-SudanKhartoum-TutiIsland-BrickmakingCorinthia_RomanDeckert20160207.jpg",
@@ -257,24 +297,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1801"
+      "height": "1801",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "UNESCO World Heritage",
       "url": "https://whc.unesco.org/en/list/116",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Great Mosque of Djenné",
       "url": "https://www.metmuseum.org/toah/hd/djnn/hd_djnn.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Britannica",
       "url": "https://www.britannica.com/topic/Great-Mosque-of-Djenn%C3%A9",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -310,42 +370,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:54:34.681Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Banco Masonry",
-      "url": "https://en.wikipedia.org/wiki/Banco_Masonry",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Banco Masonry — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Banco%20Masonry%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Banco Masonry — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Banco%20Masonry",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Banco Masonry — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Banco%20Masonry",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Banco Masonry — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Banco%20Masonry%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Banco Masonry — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Banco%20Masonry%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q2090236",

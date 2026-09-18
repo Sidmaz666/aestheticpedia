@@ -129,7 +129,12 @@
       "date": "19 th century date QS:P571,+1850-00-00T00:00:00Z/7",
       "license": "Public domain",
       "width": "1280",
-      "height": "836"
+      "height": "836",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Peeling_bark_to_make_siapo.jpg/1280px-Peeling_bark_to_make_siapo.jpg",
@@ -143,7 +148,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Making_siapo_-_scraping_with_shell.jpg/1280px-Making_siapo_-_scraping_with_shell.jpg",
@@ -157,7 +167,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Scraping_siapo.jpg/1280px-Scraping_siapo.jpg",
@@ -171,7 +186,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Beating_siapo.jpg/1280px-Beating_siapo.jpg",
@@ -185,7 +205,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Drying_siapo.jpg/1280px-Drying_siapo.jpg",
@@ -199,7 +224,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Design_board.jpg",
@@ -213,7 +243,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "617",
-      "height": "1590"
+      "height": "1590",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Patching_siapo.jpg/1280px-Patching_siapo.jpg",
@@ -227,7 +262,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Darkened_design_of_siapo.jpg/1280px-Darkened_design_of_siapo.jpg",
@@ -241,7 +281,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Painting_over_the_rubbed_design.jpg",
@@ -255,24 +300,38 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1275",
-      "height": "1275"
+      "height": "1275",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Museum of New Zealand Te Papa Tongarewa",
-      "url": "https://www.tepapa.govt.nz/collection/object/0000018550",
       "tier": "A"
     },
     {
       "name": "Auckland War Memorial Museum",
       "url": "https://www.aucklandmuseum.com/collection/objects/4475",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Pacific Encounters",
       "url": "https://www.pacificencounters.ac.uk/objects/siapo",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -308,42 +367,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:10:05.587Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Samoan siapo",
-      "url": "https://en.wikipedia.org/wiki/Samoan_siapo",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Samoan siapo — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Samoan%20siapo%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Samoan siapo — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Samoan%20siapo",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Samoan siapo — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Samoan%20siapo",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Samoan siapo — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Samoan%20siapo%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Samoan siapo — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Samoan%20siapo%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q972724",

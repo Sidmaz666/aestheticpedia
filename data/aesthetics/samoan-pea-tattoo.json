@@ -132,7 +132,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1102",
-      "height": "2224"
+      "height": "2224",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Back_view_Samoan_male_tatau_-_photo_Thomas_Andrew_-_1890s.jpg/1280px-Back_view_Samoan_male_tatau_-_photo_Thomas_Andrew_-_1890s.jpg",
@@ -145,7 +150,12 @@
       "date": "circa 1890s date QS:P,+1890-00-00T00:00:00Z/8",
       "license": "Public domain",
       "width": "1280",
-      "height": "1741"
+      "height": "1741",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Samoan_tatau_-_tattooing_circa_1895_-_photo_Thomas_Andrew.jpg/1280px-Samoan_tatau_-_tattooing_circa_1895_-_photo_Thomas_Andrew.jpg",
@@ -158,7 +168,12 @@
       "date": "circa 1895 date QS:P,+1895-00-00T00:00:00Z/9,P1480,Q5727902",
       "license": "Public domain",
       "width": "1280",
-      "height": "924"
+      "height": "924",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/9f08b895-4960-4bc6-5871-dc9bfab4c655/full/843,/0/default.jpg",
@@ -172,7 +187,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1130"
+      "height": "1130",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/d1a7ad99-47d1-0a9b-5aed-2ccb0ca74e66/full/843,/0/default.jpg",
@@ -186,7 +206,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1124"
+      "height": "1124",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/d7f0c01b-f594-2f3e-b9ae-a264c35dd475/full/843,/0/default.jpg",
@@ -200,7 +225,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1072"
+      "height": "1072",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/6ca09b16-5ab8-145e-d092-0f6538550df2/full/843,/0/default.jpg",
@@ -214,24 +244,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1145"
+      "height": "1145",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Pe'a: The Samoan Male Tattoo",
       "url": "https://www.samoa-tattoo.com/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Samoan Tattooing",
       "url": "https://en.wikipedia.org/wiki/Pe%27a",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "The Art of Polynesian Tattooing",
       "url": "https://www.metmuseum.org/toah/hd/tatw/hd_tatw.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "references": [
@@ -245,42 +295,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:10:05.102Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Samoan Pea Tattoo",
-      "url": "https://en.wikipedia.org/wiki/Samoan_Pea_Tattoo",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Samoan Pea Tattoo — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Samoan%20Pea%20Tattoo%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Samoan Pea Tattoo — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Samoan%20Pea%20Tattoo",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Samoan Pea Tattoo — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Samoan%20Pea%20Tattoo",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Samoan Pea Tattoo — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Samoan%20Pea%20Tattoo%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Samoan Pea Tattoo — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Samoan%20Pea%20Tattoo%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "popularity": 65,

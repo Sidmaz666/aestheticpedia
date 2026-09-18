@@ -175,7 +175,12 @@
       "date": "1638",
       "license": "Public domain",
       "width": "1280",
-      "height": "912"
+      "height": "912",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Chateau-de-versailles-cour.jpg",
@@ -189,24 +194,44 @@
       "license": "FAL",
       "licenseUrl": "http://artlibre.org/licence/lal/en",
       "width": "1278",
-      "height": "542"
+      "height": "542",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "French Baroque Architecture",
       "url": "https://www.britannica.com/art/French-baroque-architecture",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Palace of Versailles",
       "url": "https://www.versailles.fr",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "French Baroque and Rococo",
       "url": "https://www.metmuseum.org/toah/hd/fbar/hd_fbar.htm",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -236,37 +261,12 @@
       "type": "article",
       "title": "Wikipedia — French Baroque",
       "url": "https://en.wikipedia.org/wiki/French_Baroque",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "French Baroque — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=French%20Baroque%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "French Baroque — academic literature",
-      "url": "https://scholar.google.com/scholar?q=French%20Baroque",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "French Baroque — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=French%20Baroque",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "French Baroque — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=French%20Baroque%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "French Baroque — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=French%20Baroque%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q63349743",

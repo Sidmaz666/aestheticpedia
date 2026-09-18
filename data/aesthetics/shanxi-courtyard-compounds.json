@@ -140,57 +140,35 @@
     {
       "name": "Pingyao World Heritage Administration",
       "url": "https://www.pingyao.gov.cn",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Shanxi Museum",
       "url": "https://www.sxmuseum.cn",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "China Daily",
       "url": "https://www.chinadaily.com.cn",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Shanxi Courtyard Compounds",
-      "url": "https://en.wikipedia.org/wiki/Shanxi_Courtyard_Compounds",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Shanxi Courtyard Compounds — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Shanxi%20Courtyard%20Compounds%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Shanxi Courtyard Compounds — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Shanxi%20Courtyard%20Compounds",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Shanxi Courtyard Compounds — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Shanxi%20Courtyard%20Compounds",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Shanxi Courtyard Compounds — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Shanxi%20Courtyard%20Compounds%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Shanxi Courtyard Compounds — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Shanxi%20Courtyard%20Compounds%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 60,
   "isNiche": false,
   "dataQuality": "well_documented",

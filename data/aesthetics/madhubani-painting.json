@@ -129,7 +129,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "623",
-      "height": "850"
+      "height": "850",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Stamp_of_India_-_2000_-_Colnect_307681_-_Madhubani_Mithila_Paintings_-_se_tenant_pair.jpeg",
@@ -143,7 +148,12 @@
       "license": "GODL-India",
       "licenseUrl": "https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf",
       "width": "1024",
-      "height": "621"
+      "height": "621",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Mithila_Painting_at_Patna_Junction.jpg/1280px-Mithila_Painting_at_Patna_Junction.jpg",
@@ -157,7 +167,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "624"
+      "height": "624",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Asha_Jha_Madhubani_Artist_Bihar.jpg",
@@ -171,7 +186,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1000",
-      "height": "1500"
+      "height": "1500",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Asha_Jha_National_Awardee_Madhubani_Painting.jpg/1280px-Asha_Jha_National_Awardee_Madhubani_Painting.jpg",
@@ -185,7 +205,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Bihar_Government_Banner.png/1280px-Bihar_Government_Banner.png",
@@ -199,24 +224,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Madhubani Painting",
       "url": "https://www.indiatimes.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "National Museum of India",
       "url": "https://nationalmuseumindia.gov.in",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Britannica",
       "url": "https://www.britannica.com/art/Madhubani-painting",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -257,37 +302,12 @@
       "type": "article",
       "title": "Wikipedia — Madhubani painting",
       "url": "https://en.wikipedia.org/wiki/Madhubani_painting",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Madhubani painting — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Madhubani%20painting%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Madhubani painting — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Madhubani%20painting",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Madhubani painting — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Madhubani%20painting",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Madhubani painting — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Madhubani%20painting%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Madhubani painting — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Madhubani%20painting%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q2547125",

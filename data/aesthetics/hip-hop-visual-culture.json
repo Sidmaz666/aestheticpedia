@@ -133,7 +133,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "843"
+      "height": "843",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/DJ_Jazzy_Jeff.jpg/1280px-DJ_Jazzy_Jeff.jpg",
@@ -147,7 +152,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "829"
+      "height": "829",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Kool_Herc.jpg",
@@ -161,7 +171,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "892",
-      "height": "597"
+      "height": "597",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Afrika_Bambaataa_and_DJ_Yutaka_%282004%29.jpg",
@@ -174,7 +189,12 @@
       "date": "2004",
       "license": "Public domain",
       "width": "739",
-      "height": "551"
+      "height": "551",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Melle_Mel.jpg/1280px-Melle_Mel.jpg",
@@ -188,7 +208,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "839"
+      "height": "839",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/KateTempestTreefort2017.jpg/1280px-KateTempestTreefort2017.jpg",
@@ -202,7 +227,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Jay-Z_concert_%28cropped%29.jpg",
@@ -216,7 +246,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "735",
-      "height": "782"
+      "height": "782",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/DJ_Q-bert_in_France_%28cropped%29.jpg",
@@ -230,7 +265,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "961",
-      "height": "1087"
+      "height": "1087",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Pete_Rock_at_Launch_Party.jpg/1280px-Pete_Rock_at_Launch_Party.jpg",
@@ -244,7 +284,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Busta_rhymes_breaks_it_down_for_the_mobile_geeks.jpg",
@@ -258,19 +303,34 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "480",
-      "height": "360"
+      "height": "360",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Hip hop culture",
       "url": "https://en.wikipedia.org/wiki/Hip_hop_culture",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Cornell University — Hip Hop Collection",
       "url": "https://www.library.cornell.edu",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -306,42 +366,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:02:03.101Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Hip Hop Visual Culture",
-      "url": "https://en.wikipedia.org/wiki/Hip_Hop_Visual_Culture",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Hip Hop Visual Culture — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Hip%20Hop%20Visual%20Culture%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Hip Hop Visual Culture — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Hip%20Hop%20Visual%20Culture",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Hip Hop Visual Culture — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Hip%20Hop%20Visual%20Culture",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Hip Hop Visual Culture — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Hip%20Hop%20Visual%20Culture%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Hip Hop Visual Culture — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Hip%20Hop%20Visual%20Culture%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1132127",

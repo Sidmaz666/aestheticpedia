@@ -129,7 +129,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1087",
-      "height": "1087"
+      "height": "1087",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/KataboriNetsuke.jpg/1280px-KataboriNetsuke.jpg",
@@ -143,7 +148,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "640"
+      "height": "640",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/AnaboriNetsuke.jpg/1280px-AnaboriNetsuke.jpg",
@@ -157,7 +167,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "456"
+      "height": "456",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/MaskNetsuke.jpg/1280px-MaskNetsuke.jpg",
@@ -171,7 +186,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "687"
+      "height": "687",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/RyusaNetsuke.jpg/1280px-RyusaNetsuke.jpg",
@@ -185,7 +205,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "640"
+      "height": "640",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/ManjuNetsuke.jpg/1280px-ManjuNetsuke.jpg",
@@ -199,7 +224,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "633"
+      "height": "633",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/KagamibutaNetsuke.jpg/1280px-KagamibutaNetsuke.jpg",
@@ -213,7 +243,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "636"
+      "height": "636",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/TrickNetsuke.jpg/1280px-TrickNetsuke.jpg",
@@ -227,7 +262,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Obihasami.jpg/1280px-Obihasami.jpg",
@@ -241,7 +281,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "1507"
+      "height": "1507",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/ChristNetsukeIvory17thcenturyJapan.jpg",
@@ -255,23 +300,37 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "845",
-      "height": "1369"
+      "height": "1369",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Metropolitan Museum of Art",
       "url": "https://www.metmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Netsuke: Japanese Toggle Sculptures",
       "url": "https://www.britishmuseum.org/blog/netsuke-japanese-toggle-sculptures",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Japanese Netsuke Carving",
-      "url": "https://www.japan-guide.com/e/e2203.html",
       "tier": "B"
     }
   ],
@@ -308,42 +367,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:07:14.753Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Netsuke Carving",
-      "url": "https://en.wikipedia.org/wiki/Netsuke_Carving",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Netsuke Carving — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Netsuke%20Carving%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Netsuke Carving — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Netsuke%20Carving",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Netsuke Carving — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Netsuke%20Carving",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Netsuke Carving — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Netsuke%20Carving%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Netsuke Carving — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Netsuke%20Carving%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q543901",

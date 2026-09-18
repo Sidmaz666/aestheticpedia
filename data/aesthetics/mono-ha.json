@@ -129,24 +129,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "The National Museum of Modern Art, Tokyo",
       "url": "https://www.momat.go.jp/english/collection/mono-ha.html",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Fukuoka Art Museum",
       "url": "https://www.fukuoka-art-museum.jp/en/exhibition/mono-ha",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Japan Society",
       "url": "https://japansociety.org/event/mono-ha",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 503,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -182,36 +202,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:06:32.619Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Mono-ha — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Mono-ha%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Mono-ha — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Mono-ha",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Mono-ha — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Mono-ha",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Mono-ha — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Mono-ha%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Mono-ha — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Mono-ha%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q3321083",

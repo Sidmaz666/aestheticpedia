@@ -150,7 +150,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/NBA_-_February_2014_-_Celtics_vs_Spurs_-_TD_Garden_-_11.JPG/1280px-NBA_-_February_2014_-_Celtics_vs_Spurs_-_TD_Garden_-_11.JPG",
@@ -164,7 +169,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Orlando_Magic_v.s._Toronto_Raptors_%285170845645%29.jpg/1280px-Orlando_Magic_v.s._Toronto_Raptors_%285170845645%29.jpg",
@@ -178,7 +188,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Brooklyn_Nets_debut_game_against_the_Raptors_on_3_November_2012.jpeg/1280px-Brooklyn_Nets_debut_game_against_the_Raptors_on_3_November_2012.jpeg",
@@ -192,7 +207,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/NBA_timberwolves-denver_2004_playoffs.jpg",
@@ -206,7 +226,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "778",
-      "height": "584"
+      "height": "584",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Scottie_Pippen%2C_Chicago_Bulls_at_the_Meadowlands_Sports_Complex%2C_NJ%2C_US.jpg",
@@ -220,7 +245,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "964",
-      "height": "682"
+      "height": "682",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Parquethall.jpg/1280px-Parquethall.jpg",
@@ -234,7 +264,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "588"
+      "height": "588",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Parkettmuster_im_Handwerkerdorf_beim_Stadtgeburtstag_M%C3%BCnchen_2025_03.jpg/1280px-Parkettmuster_im_Handwerkerdorf_beim_Stadtgeburtstag_M%C3%BCnchen_2025_03.jpg",
@@ -248,24 +283,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Palace of Versailles Official Site",
       "url": "https://www.chateauversailles.fr",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Metropolitan Museum of Art",
       "url": "https://www.metmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "The History of Flooring",
       "url": "https://www.flooringhistory.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -301,42 +356,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:13:00.006Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Versailles Parquet",
-      "url": "https://en.wikipedia.org/wiki/Versailles_Parquet",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Versailles Parquet — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Versailles%20Parquet%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Versailles Parquet — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Versailles%20Parquet",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Versailles Parquet — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Versailles%20Parquet",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Versailles Parquet — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Versailles%20Parquet%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Versailles Parquet — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Versailles%20Parquet%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q838828",

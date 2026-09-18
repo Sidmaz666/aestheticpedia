@@ -131,7 +131,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "860"
+      "height": "860",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/1971beb0-bad4-7d89-c56d-f6bab17bb06f/full/843,/0/default.jpg",
@@ -145,7 +150,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "833"
+      "height": "833",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/db26b4a4-be05-f983-21f4-e0d8c5161688/full/843,/0/default.jpg",
@@ -159,7 +169,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "776"
+      "height": "776",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/bc005535-ebb6-51b8-6a56-c869ae83035a/full/843,/0/default.jpg",
@@ -173,7 +188,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "847"
+      "height": "847",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/5c5dcbfa-58aa-f181-c9b2-77e42e0b8597/full/843,/0/default.jpg",
@@ -187,7 +207,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "810"
+      "height": "810",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/e89ceb7d-91b8-0224-c94e-ad2cad548433/full/843,/0/default.jpg",
@@ -201,64 +226,47 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "715"
+      "height": "715",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Bishop Museum",
       "url": "https://www.bishopmuseum.org/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Hawaiian Quilt Research",
       "url": "https://www.hawaiianquilts.com/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Honolulu Museum of Art",
       "url": "https://www.honolulumuseum.org/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Hawaiian snowflake quilts",
-      "url": "https://en.wikipedia.org/wiki/Hawaiian_snowflake_quilts",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Hawaiian snowflake quilts — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Hawaiian%20snowflake%20quilts%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Hawaiian snowflake quilts — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Hawaiian%20snowflake%20quilts",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Hawaiian snowflake quilts — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Hawaiian%20snowflake%20quilts",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Hawaiian snowflake quilts — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Hawaiian%20snowflake%20quilts%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Hawaiian snowflake quilts — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Hawaiian%20snowflake%20quilts%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 75,
   "isNiche": false,
   "dataQuality": "well_documented",

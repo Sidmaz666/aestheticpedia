@@ -127,7 +127,12 @@
       "date": "2014",
       "license": "Public domain",
       "width": "1280",
-      "height": "848"
+      "height": "848",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Durchsteckknoepfe.jpg/1280px-Durchsteckknoepfe.jpg",
@@ -141,7 +146,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/ShirtStuds.jpg",
@@ -155,7 +165,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1203",
-      "height": "639"
+      "height": "639",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Satsuma_irises_f%26b.jpg",
@@ -169,7 +184,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "693",
-      "height": "851"
+      "height": "851",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Merfamily_wedgewood_cut_steel_f%26b_smaller_back_2.jpg",
@@ -183,7 +203,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1071",
-      "height": "674"
+      "height": "674",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Doublet.jpg",
@@ -197,7 +222,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "734",
-      "height": "1026"
+      "height": "1026",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Jerkin_MET_26.196_d2.jpg/1280px-Jerkin_MET_26.196_d2.jpg",
@@ -210,24 +240,44 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1735"
+      "height": "1735",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Satsuma Buttons",
       "url": "https://www.satsumabuttons.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Japan House",
       "url": "https://japanhouselondon.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Met Museum",
       "url": "https://www.metmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "references": [
@@ -263,42 +313,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:10:11.585Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Satsuma Buttons",
-      "url": "https://en.wikipedia.org/wiki/Satsuma_Buttons",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Satsuma Buttons — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Satsuma%20Buttons%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Satsuma Buttons — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Satsuma%20Buttons",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Satsuma Buttons — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Satsuma%20Buttons",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Satsuma Buttons — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Satsuma%20Buttons%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Satsuma Buttons — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Satsuma%20Buttons%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q160464",

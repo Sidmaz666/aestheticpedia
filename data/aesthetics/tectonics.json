@@ -142,7 +142,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "789",
-      "height": "789"
+      "height": "789",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Aerial-SanAndreas-CarrizoPlain.jpg",
@@ -156,7 +161,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "829",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/JPVD-NGTM2023-Network.jpg/1280px-JPVD-NGTM2023-Network.jpg",
@@ -170,24 +180,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "739"
+      "height": "739",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Architectural Record",
       "url": "https://www.architecturalrecord.com/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Journal of the Society of Architectural Historians",
       "url": "https://www.jstor.org/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Dezeen",
       "url": "https://www.dezeen.com/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 206,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -223,36 +253,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:12:00.428Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Tectonics — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Tectonics%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Tectonics — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Tectonics",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Tectonics — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Tectonics",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Tectonics — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Tectonics%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Tectonics — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Tectonics%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q193343",

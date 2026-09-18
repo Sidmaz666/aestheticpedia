@@ -128,7 +128,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "1510"
+      "height": "1510",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Fotothek_df_n-18_0000046_Facharbeiter_f%C3%BCr_Gie%C3%9Fereitechnik.jpg",
@@ -142,24 +147,44 @@
       "license": "CC BY-SA 3.0 de",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
       "width": "798",
-      "height": "820"
+      "height": "820",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Sarah Cray Art",
       "url": "https://www.sarahcray.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Golden Artist Colors",
       "url": "https://www.goldenpaints.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Reddit r/pourart",
       "url": "https://www.reddit.com/r/pourart",
-      "tier": "D"
+      "tier": "D",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -184,42 +209,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:53:34.356Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Acrylic pouring",
-      "url": "https://en.wikipedia.org/wiki/Acrylic_pouring",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Acrylic pouring — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Acrylic%20pouring%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Acrylic pouring — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Acrylic%20pouring",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Acrylic pouring — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Acrylic%20pouring",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Acrylic pouring — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Acrylic%20pouring%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Acrylic pouring — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Acrylic%20pouring%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q104787277",

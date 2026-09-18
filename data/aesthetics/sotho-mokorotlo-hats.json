@@ -129,7 +129,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1183"
+      "height": "1183",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Kfz-Lesotho.jpg/1280px-Kfz-Lesotho.jpg",
@@ -142,7 +147,12 @@
       "date": "23 February 2006 (according to Exif data)",
       "license": "Public domain",
       "width": "1280",
-      "height": "348"
+      "height": "348",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Lesotho_outfit_portrait.jpg/1280px-Lesotho_outfit_portrait.jpg",
@@ -156,7 +166,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1918"
+      "height": "1918",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Mpho_Nthunya_in_her_Basotho_Hat.jpg/1280px-Mpho_Nthunya_in_her_Basotho_Hat.jpg",
@@ -170,7 +185,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "891"
+      "height": "891",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/36d829a6-b07a-d84b-5774-02763512d73f/full/843,/0/default.jpg",
@@ -184,7 +204,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "999"
+      "height": "999",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/fdc1a755-ff86-487d-f16b-f03c40a30bee/full/843,/0/default.jpg",
@@ -198,7 +223,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1035"
+      "height": "1035",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/12731595-67a3-dc3c-efa8-29d75b9cd315/full/843,/0/default.jpg",
@@ -212,7 +242,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1069"
+      "height": "1069",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/2d717e79-f94a-83fd-0e18-3e1a82f85310/full/843,/0/default.jpg",
@@ -226,24 +261,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1054"
+      "height": "1054",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "National Museum of Lesotho",
       "url": "https://nationalmuseum.ls",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Encyclopedia of African Cultures",
       "url": "https://www.referenceworks.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Material Culture of the Basotho by David Ambrose",
       "url": "https://www.cambridge.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -279,42 +334,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:11:01.474Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Sotho Mokorotlo Hats",
-      "url": "https://en.wikipedia.org/wiki/Sotho_Mokorotlo_Hats",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Sotho Mokorotlo Hats — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Sotho%20Mokorotlo%20Hats%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Sotho Mokorotlo Hats — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Sotho%20Mokorotlo%20Hats",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Sotho Mokorotlo Hats — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Sotho%20Mokorotlo%20Hats",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Sotho Mokorotlo Hats — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Sotho%20Mokorotlo%20Hats%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Sotho Mokorotlo Hats — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Sotho%20Mokorotlo%20Hats%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q15835476",

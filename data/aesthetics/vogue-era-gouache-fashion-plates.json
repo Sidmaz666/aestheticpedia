@@ -124,7 +124,12 @@
       "date": "2019-09-07",
       "license": "Public domain",
       "width": "1280",
-      "height": "1594"
+      "height": "1594",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/4%C2%B0_figure_de_Mode_dec_fev_1912_-1913_EMR-c.jpg",
@@ -136,7 +141,12 @@
       "artist": "Malo-Renault",
       "license": "Public domain",
       "width": "770",
-      "height": "1320"
+      "height": "1320",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Valentino_evening_gown_for_Audrey_Hepburn.jpg",
@@ -150,7 +160,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "670",
-      "height": "1763"
+      "height": "1763",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
@@ -163,7 +178,12 @@
       "date": "early 1920s date QS:P,+1920-00-00T00:00:00Z/8,P4241,Q4071972",
       "license": "Public domain",
       "width": "768",
-      "height": "490"
+      "height": "490",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/1.Black%26darkRed_1075_Dress.jpg",
@@ -177,7 +197,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "984",
-      "height": "2928"
+      "height": "2928",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/SAEZ%281886%29_p007_Portada.jpg/1280px-SAEZ%281886%29_p007_Portada.jpg",
@@ -189,7 +214,12 @@
       "date": "1886 date QS:P571,+1886-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "1974"
+      "height": "1974",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Arend-Basile_Givenchy_Fashion_Illustration.jpg",
@@ -203,7 +233,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1080",
-      "height": "1350"
+      "height": "1350",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Joel_Resnicoff_Art.jpg/1280px-Joel_Resnicoff_Art.jpg",
@@ -217,7 +252,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1114"
+      "height": "1114",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Joel_Resnicoff_EspritShirt.jpg/1280px-Joel_Resnicoff_EspritShirt.jpg",
@@ -231,7 +271,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1846"
+      "height": "1846",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Joel_Resnicoff_mannequin.jpg",
@@ -245,24 +290,44 @@
       "license": "FAL",
       "licenseUrl": "http://artlibre.org/licence/lal/en",
       "width": "1280",
-      "height": "1918"
+      "height": "1918",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Vogue Archive Collection",
       "url": "https://www.vogue.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Fashion Illustration History",
       "url": "https://www.metmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Gouache Fashion Painting",
       "url": "https://www.fashionillustration.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -298,42 +363,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:13:10.128Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Vogue-Era Gouache Fashion Plates",
-      "url": "https://en.wikipedia.org/wiki/Vogue-Era_Gouache_Fashion_Plates",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Vogue-Era Gouache Fashion Plates — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Vogue-Era%20Gouache%20Fashion%20Plates%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Vogue-Era Gouache Fashion Plates — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Vogue-Era%20Gouache%20Fashion%20Plates",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Vogue-Era Gouache Fashion Plates — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Vogue-Era%20Gouache%20Fashion%20Plates",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Vogue-Era Gouache Fashion Plates — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Vogue-Era%20Gouache%20Fashion%20Plates%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Vogue-Era Gouache Fashion Plates — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Vogue-Era%20Gouache%20Fashion%20Plates%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1941780",

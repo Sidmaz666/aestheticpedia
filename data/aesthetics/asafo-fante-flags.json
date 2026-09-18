@@ -135,7 +135,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Asafo_No._1_Ankobea_post.JPG/1280px-Asafo_No._1_Ankobea_post.JPG",
@@ -149,7 +154,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/a49c5ada-f461-d7d1-0f1b-468ac577a872/full/843,/0/default.jpg",
@@ -163,7 +173,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1486"
+      "height": "1486",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/23af120f-7dce-17fc-e00e-b22c1f95c1af/full/843,/0/default.jpg",
@@ -177,7 +192,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "986"
+      "height": "986",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/5a47a0b8-d21b-b5ae-c8f2-3b99476e6e75/full/843,/0/default.jpg",
@@ -191,7 +211,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "937"
+      "height": "937",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/c80bed78-2cb6-9e6f-f313-212c927a9832/full/843,/0/default.jpg",
@@ -205,7 +230,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1199"
+      "height": "1199",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/6bde48ea-58f0-33eb-2d0b-a45aff7131e6/full/843,/0/default.jpg",
@@ -219,7 +249,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "637"
+      "height": "637",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/18adfd19-6c76-989e-36ae-1343aa15701b/full/843,/0/default.jpg",
@@ -233,19 +268,34 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1103"
+      "height": "1103",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Asafo",
       "url": "https://en.wikipedia.org/wiki/Asafo",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Victoria and Albert Museum",
       "url": "https://www.vam.ac.uk",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -268,44 +318,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T04:54:09.657Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Asafo Fante Flags",
-      "url": "https://en.wikipedia.org/wiki/Asafo_Fante_Flags",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Asafo Fante Flags — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Asafo%20Fante%20Flags%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Asafo Fante Flags — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Asafo%20Fante%20Flags",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Asafo Fante Flags — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Asafo%20Fante%20Flags",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Asafo Fante Flags — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Asafo%20Fante%20Flags%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Asafo Fante Flags — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Asafo%20Fante%20Flags%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q720373",

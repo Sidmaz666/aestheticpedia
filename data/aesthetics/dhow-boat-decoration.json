@@ -137,57 +137,35 @@
     {
       "name": "Bahrain National Museum",
       "url": "https://www.bnm.bh",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Qatar Museums",
       "url": "https://www.qm.org.qa",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 307,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "National Museum of Oman",
       "url": "https://www.nationalmuseum.om",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Dhow Boat Decoration",
-      "url": "https://en.wikipedia.org/wiki/Dhow_Boat_Decoration",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Dhow Boat Decoration — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Dhow%20Boat%20Decoration%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Dhow Boat Decoration — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Dhow%20Boat%20Decoration",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Dhow Boat Decoration — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Dhow%20Boat%20Decoration",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Dhow Boat Decoration — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Dhow%20Boat%20Decoration%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Dhow Boat Decoration — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Dhow%20Boat%20Decoration%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 55,
   "isNiche": false,
   "dataQuality": "well_documented",

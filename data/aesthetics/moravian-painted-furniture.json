@@ -128,7 +128,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "691"
+      "height": "691",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/86e919b9-d366-b3ca-d26f-4c16880474a3/full/843,/0/default.jpg",
@@ -142,7 +147,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "418"
+      "height": "418",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/37c1e8e6-49d5-8a86-a0cb-a5e8f5aef5f7/full/843,/0/default.jpg",
@@ -156,7 +166,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1054"
+      "height": "1054",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/2bc4d353-e61a-7589-8585-2000a23689bb/full/843,/0/default.jpg",
@@ -170,7 +185,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "602"
+      "height": "602",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/00e3fed3-f513-f7d9-a62d-20fdf809616a/full/843,/0/default.jpg",
@@ -184,7 +204,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "632"
+      "height": "632",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/63610c6d-4b70-6623-6069-c86a6eeff766/full/843,/0/default.jpg",
@@ -198,7 +223,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "682"
+      "height": "682",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/fb1f6add-bfa9-65af-5876-edade04d6b49/full/843,/0/default.jpg",
@@ -212,64 +242,41 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "645"
+      "height": "645",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Moravian Museum",
       "url": "https://www.mzm.cz",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Moravian_folk_art",
       "tier": "B"
     },
     {
       "name": "Czech Folk Art",
       "url": "https://www.czechfolkart.cz",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Moravian Painted Furniture",
-      "url": "https://en.wikipedia.org/wiki/Moravian_Painted_Furniture",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Moravian Painted Furniture — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Moravian%20Painted%20Furniture%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Moravian Painted Furniture — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Moravian%20Painted%20Furniture",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Moravian Painted Furniture — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Moravian%20Painted%20Furniture",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Moravian Painted Furniture — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Moravian%20Painted%20Furniture%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Moravian Painted Furniture — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Moravian%20Painted%20Furniture%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 50,
   "isNiche": false,
   "dataQuality": "well_documented",

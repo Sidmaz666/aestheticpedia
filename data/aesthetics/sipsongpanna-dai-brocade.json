@@ -120,57 +120,35 @@
     {
       "name": "Yunnan Ethnic Museum",
       "url": "https://www.ynmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Xishuangbanna Cultural Bureau",
       "url": "http://www.xsbn.gov.cn",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 206,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Southeast Asian Textiles",
       "url": "https://www.seatextiles.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Sipsongpanna Dai Brocade",
-      "url": "https://en.wikipedia.org/wiki/Sipsongpanna_Dai_Brocade",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Sipsongpanna Dai Brocade — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Sipsongpanna%20Dai%20Brocade%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Sipsongpanna Dai Brocade — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Sipsongpanna%20Dai%20Brocade",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Sipsongpanna Dai Brocade — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Sipsongpanna%20Dai%20Brocade",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Sipsongpanna Dai Brocade — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Sipsongpanna%20Dai%20Brocade%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Sipsongpanna Dai Brocade — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Sipsongpanna%20Dai%20Brocade%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 55,
   "isNiche": true,
   "dataQuality": "well_documented",

@@ -137,57 +137,35 @@
     {
       "name": "The New York Times",
       "url": "https://www.nytimes.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Traditional Home",
       "url": "https://www.traditionalhome.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Grandmillennial Diaries",
       "url": "https://grandmillennialidiaries.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Grandmillennial",
-      "url": "https://en.wikipedia.org/wiki/Grandmillennial",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Grandmillennial — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Grandmillennial%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Grandmillennial — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Grandmillennial",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Grandmillennial — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Grandmillennial",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Grandmillennial — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Grandmillennial%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Grandmillennial — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Grandmillennial%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 75,
   "isNiche": false,
   "dataQuality": "well_documented",

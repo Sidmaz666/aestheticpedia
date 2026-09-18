@@ -128,7 +128,12 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Soto_Sphere.jpg/1280px-Soto_Sphere.jpg",
@@ -142,7 +147,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "1211"
+      "height": "1211",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/David_Ascalon_Kinetic_Sculpture_Mobile_memphis_TN.JPG/1280px-David_Ascalon_Kinetic_Sculpture_Mobile_memphis_TN.JPG",
@@ -156,7 +166,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/The_Bucket_Fountain%2C_Wellington.jpg",
@@ -169,7 +184,12 @@
       "date": "12 February 2007 (original upload date)",
       "license": "Public domain",
       "width": "768",
-      "height": "1024"
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Irish_Wave_at_Park_West_in_Dublin.jpg/1280px-Irish_Wave_at_Park_West_in_Dublin.jpg",
@@ -182,7 +202,12 @@
       "date": "27 November 2006 (original upload date)",
       "license": "Public domain",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Nicolas_Schoeffer_Chronos_10B_1980_Europaeisches_Patentamt_Muenchen-1.jpg/1280px-Nicolas_Schoeffer_Chronos_10B_1980_Europaeisches_Patentamt_Muenchen-1.jpg",
@@ -196,7 +221,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Yaacov_Agam_sheba.jpg/1280px-Yaacov_Agam_sheba.jpg",
@@ -209,7 +239,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "1531"
+      "height": "1531",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Sonnenschreiber.jpg",
@@ -223,7 +258,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "708",
-      "height": "864"
+      "height": "864",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Halo_Central_Park_Sydney_-_August_2015.JPG/1280px-Halo_Central_Park_Sydney_-_August_2015.JPG",
@@ -237,7 +277,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1506"
+      "height": "1506",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Archimedean_Excogitation.jpg",
@@ -251,24 +296,38 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "900",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Guggenheim",
-      "url": "https://www.guggenheim.org/artwork/category/kinetic-art",
       "tier": "A"
     },
     {
       "name": "Tate Modern",
       "url": "https://www.tate.org.uk/art/art-terms/k/kinetic-art",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Kinetic Art Organization",
       "url": "https://kineticart.org",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -309,37 +368,12 @@
       "type": "article",
       "title": "Wikipedia — Kinetic Sculpture",
       "url": "https://en.wikipedia.org/wiki/Kinetic_Sculpture",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Kinetic Sculpture — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Kinetic%20Sculpture%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Kinetic Sculpture — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Kinetic%20Sculpture",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Kinetic Sculpture — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Kinetic%20Sculpture",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Kinetic Sculpture — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Kinetic%20Sculpture%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Kinetic Sculpture — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Kinetic%20Sculpture%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q466521",

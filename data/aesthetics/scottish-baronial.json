@@ -148,7 +148,12 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "1280",
-      "height": "1048"
+      "height": "1048",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Dunrobin_Castle_-Sutherland_-Scotland-26May2008_%282%29.jpg/1280px-Dunrobin_Castle_-Sutherland_-Scotland-26May2008_%282%29.jpg",
@@ -162,7 +167,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "881"
+      "height": "881",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Victorian_Scottish_baronial-style_tenement_turrets%2C_St._Mary%27s_Street%2C_Edinburgh.jpg/1280px-Victorian_Scottish_baronial-style_tenement_turrets%2C_St._Mary%27s_Street%2C_Edinburgh.jpg",
@@ -176,7 +186,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Kirna_entrance.jpg/1280px-Kirna_entrance.jpg",
@@ -190,7 +205,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Balmoral_Castle.jpg/1280px-Balmoral_Castle.jpg",
@@ -204,7 +224,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Thornhill_Mayne_Memorial%2C_Alfred_Park%2C_Allahabad.jpg/1280px-Thornhill_Mayne_Memorial%2C_Alfred_Park%2C_Allahabad.jpg",
@@ -218,7 +243,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/CIMG1495_ScraboHorizView.JPG/1280px-CIMG1495_ScraboHorizView.JPG",
@@ -232,7 +262,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Claypotts_Castle.jpg/1280px-Claypotts_Castle.jpg",
@@ -246,7 +281,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Edinburgh_Castle%2C_Scottish_National_War_Memorial_rear.jpg/1280px-Edinburgh_Castle%2C_Scottish_National_War_Memorial_rear.jpg",
@@ -260,24 +300,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "688"
+      "height": "688",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "National Trust for Scotland",
       "url": "https://www.nts.org.uk",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Royal Commission on the Ancient and Historical Monuments of Scotland",
       "url": "https://www.rcahms.gov.uk",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "British Listed Buildings",
       "url": "https://britishlistedbuildings.co.uk",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -318,37 +378,12 @@
       "type": "article",
       "title": "Wikipedia — Scottish baronial",
       "url": "https://en.wikipedia.org/wiki/Scottish_baronial",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Scottish baronial — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Scottish%20baronial%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Scottish baronial — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Scottish%20baronial",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Scottish baronial — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Scottish%20baronial",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Scottish baronial — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Scottish%20baronial%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Scottish baronial — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Scottish%20baronial%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q3476363",

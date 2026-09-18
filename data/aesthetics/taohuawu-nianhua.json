@@ -130,7 +130,12 @@
       "date": "between 1661 and 1722 date QS:P,+1500-00-00T00:00:00Z/6,P131",
       "license": "Public domain",
       "width": "1280",
-      "height": "757"
+      "height": "757",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/1907._%D0%9C%D1%8D%D0%BD%D1%8C-%D0%A8%D0%B5%D0%BD%D0%B8_%28%D0%B4%D1%83%D1%85-%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%B2%D0%BE%D0%B4%D1%8B%29.jpg",
@@ -143,7 +148,12 @@
       "date": "1900 date QS:P571,+1900-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1063",
-      "height": "1637"
+      "height": "1637",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/1900s_Nianhua_Three_Deities_colored_woodblock_print.jpg/1280px-1900s_Nianhua_Three_Deities_colored_woodblock_print.jpg",
@@ -156,7 +166,12 @@
       "date": "1900 date QS:P571,+1900-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "929"
+      "height": "929",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/1900s_Nianhua_The_Spirit_of_the_Doors_woodblock_print.jpg/1280px-1900s_Nianhua_The_Spirit_of_the_Doors_woodblock_print.jpg",
@@ -169,7 +184,12 @@
       "date": "1900 date QS:P571,+1900-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "1795"
+      "height": "1795",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/1900._%D0%9D%D1%8F%D0%BD%D1%8C%D1%85%D1%83%D0%B0.jpg",
@@ -182,7 +202,12 @@
       "date": "1900 date QS:P571,+1900-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1231",
-      "height": "827"
+      "height": "827",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/%E6%96%B0%E7%BB%98%E6%A2%81%E5%B1%B1%E7%99%BE%E5%B0%86%E5%85%A8%E5%9B%BE.png",
@@ -195,24 +220,44 @@
       "date": "Qing dynasty",
       "license": "Public domain",
       "width": "1259",
-      "height": "656"
+      "height": "656",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Suzhou Museum",
       "url": "https://www.suzhou-museum.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Chinese Prints",
       "url": "https://www.chineseprints.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Asian Art Newspaper",
       "url": "https://www.asianartnewspaper.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -248,42 +293,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:11:36.593Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Taohuawu Nianhua",
-      "url": "https://en.wikipedia.org/wiki/Taohuawu_Nianhua",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Taohuawu Nianhua — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Taohuawu%20Nianhua%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Taohuawu Nianhua — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Taohuawu%20Nianhua",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Taohuawu Nianhua — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Taohuawu%20Nianhua",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Taohuawu Nianhua — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Taohuawu%20Nianhua%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Taohuawu Nianhua — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Taohuawu%20Nianhua%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1858590",

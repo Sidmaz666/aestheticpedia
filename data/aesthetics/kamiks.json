@@ -128,7 +128,12 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "1280",
-      "height": "860"
+      "height": "860",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Greenland_1999_%2833%29.jpg/1280px-Greenland_1999_%2833%29.jpg",
@@ -141,7 +146,12 @@
       "date": "1999",
       "license": "Public domain",
       "width": "1280",
-      "height": "841"
+      "height": "841",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Inuitkvinder_skraber_rensdyrskind_-_Inuit_women_scraping_caribou_skin_%2815143756777%29.jpg/1280px-Inuitkvinder_skraber_rensdyrskind_-_Inuit_women_scraping_caribou_skin_%2815143756777%29.jpg",
@@ -155,7 +165,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "903"
+      "height": "903",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Greenland-arnat-kamik.jpg/1280px-Greenland-arnat-kamik.jpg",
@@ -169,7 +184,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "2278"
+      "height": "2278",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Greenland_1999_%2814%29.jpg",
@@ -182,7 +202,12 @@
       "date": "1999",
       "license": "Public domain",
       "width": "1251",
-      "height": "1919"
+      "height": "1919",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Inuit_or_Eskimo_shoes_%28UBC%29.jpg/1280px-Inuit_or_Eskimo_shoes_%28UBC%29.jpg",
@@ -196,7 +221,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "705"
+      "height": "705",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Inuit_footwear%2C_Iglulik%2C_1987_-_Bata_Shoe_Museum_-_DSC00395.JPG/1280px-Inuit_footwear%2C_Iglulik%2C_1987_-_Bata_Shoe_Museum_-_DSC00395.JPG",
@@ -210,7 +240,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Snowshoes_%286000454673%29.jpg",
@@ -224,24 +259,44 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1024",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Inuit Tapiriit Kanatami",
       "url": "https://itk.ca",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Canadian Museum of History",
       "url": "https://www.historymuseum.ca",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Kamik",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -255,42 +310,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:03:15.593Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Kamiks",
-      "url": "https://en.wikipedia.org/wiki/Kamiks",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Kamiks — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Kamiks%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Kamiks — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Kamiks",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Kamiks — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Kamiks",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Kamiks — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Kamiks%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Kamiks — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Kamiks%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "popularity": 50,

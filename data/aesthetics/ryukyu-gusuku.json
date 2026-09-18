@@ -127,7 +127,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "852"
+      "height": "852",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Burg_Shuri_Plan.jpg",
@@ -141,7 +146,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "900",
-      "height": "549"
+      "height": "549",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Nakijin_Okinawa_Japan_Nakikjin-Castle-01.jpg/1280px-Nakijin_Okinawa_Japan_Nakikjin-Castle-01.jpg",
@@ -155,7 +165,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "720"
+      "height": "720",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Ishigaki_furusutobaru_iseki.jpg/1280px-Ishigaki_furusutobaru_iseki.jpg",
@@ -169,7 +184,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Ishiharayoshiharaueno_site1.JPG/1280px-Ishiharayoshiharaueno_site1.JPG",
@@ -183,7 +203,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "847"
+      "height": "847",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Ishiharayoshiharaueno_site3.JPG/1280px-Ishiharayoshiharaueno_site3.JPG",
@@ -197,24 +222,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Okinawa Prefecture",
       "url": "https://www.okinawankankou.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Japan National Tourism Organization",
       "url": "https://www.japan.travel",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Aesthetics Wiki",
       "url": "https://aesthetics.fandom.com/wiki/Ryukyuan_architecture",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -250,42 +295,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:09:58.081Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Ryukyu Gusuku",
-      "url": "https://en.wikipedia.org/wiki/Ryukyu_Gusuku",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Ryukyu Gusuku — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Ryukyu%20Gusuku%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Ryukyu Gusuku — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Ryukyu%20Gusuku",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Ryukyu Gusuku — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Ryukyu%20Gusuku",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Ryukyu Gusuku — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Ryukyu%20Gusuku%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Ryukyu Gusuku — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Ryukyu%20Gusuku%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1044204",

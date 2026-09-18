@@ -110,7 +110,12 @@
       "date": "late 12th century, Publised in 1954",
       "license": "Public domain",
       "width": "1280",
-      "height": "619"
+      "height": "619",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/20181212ninja04.jpg/1280px-20181212ninja04.jpg",
@@ -124,7 +129,12 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1280",
-      "height": "826"
+      "height": "826",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Illustrated_Handscrolls_of_The_Tale_of_Genji_MET_DP-19671-043_crd.jpg/1280px-Illustrated_Handscrolls_of_The_Tale_of_Genji_MET_DP-19671-043_crd.jpg",
@@ -138,7 +148,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "788"
+      "height": "788",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Five_Megillot.JPG/1280px-Five_Megillot.JPG",
@@ -152,7 +167,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/%D7%9E%D7%92%D7%99%D7%9C%D7%AA_%D7%94%D7%99%D7%A9%D7%95%D7%A2%D7%94.jpg/1280px-%D7%9E%D7%92%D7%99%D7%9C%D7%AA_%D7%94%D7%99%D7%A9%D7%95%D7%A2%D7%94.jpg",
@@ -166,7 +186,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "640"
+      "height": "640",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/7cab841a-24d6-4063-33dd-076adb1c82c3/full/843,/0/default.jpg",
@@ -180,7 +205,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "491"
+      "height": "491",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/7d5dcd32-b556-6d64-c90e-d195717f633f/full/843,/0/default.jpg",
@@ -194,7 +224,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "262"
+      "height": "262",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/0bdf821c-9259-c0a0-268c-9ba8e42a2a2b/full/843,/0/default.jpg",
@@ -208,23 +243,37 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "294"
+      "height": "294",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "National Palace Museum",
       "url": "https://www.npm.gov.tw",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Chinese Handscrolls: Tradition and Technique",
       "url": "https://www.metmuseum.org/toah/hd/hand/hd_hand.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Art of Chinese Scroll Mounting",
-      "url": "https://www.chinahighlights.com/culture/chinese-scroll/",
       "tier": "B"
     }
   ],
@@ -261,42 +310,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:01:21.280Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Handscroll Mounting",
-      "url": "https://en.wikipedia.org/wiki/Handscroll_Mounting",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Handscroll Mounting — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Handscroll%20Mounting%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Handscroll Mounting — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Handscroll%20Mounting",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Handscroll Mounting — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Handscroll%20Mounting",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Handscroll Mounting — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Handscroll%20Mounting%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Handscroll Mounting — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Handscroll%20Mounting%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q5647631",

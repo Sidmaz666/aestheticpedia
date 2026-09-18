@@ -133,7 +133,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "915"
+      "height": "915",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Cure_Live_in_Singapore_-_1st_August_2007.jpg",
@@ -147,7 +152,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "636",
-      "height": "955"
+      "height": "955",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Gothic_girl.jpg/1280px-Gothic_girl.jpg",
@@ -161,7 +171,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "1896"
+      "height": "1896",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Frontispiece_to_Frankenstein_1831.jpg/1280px-Frontispiece_to_Frankenstein_1831.jpg",
@@ -174,7 +189,12 @@
       "date": "1831 date QS:P571,+1831-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "1653"
+      "height": "1653",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg/1280px-John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg",
@@ -187,19 +207,34 @@
       "date": "circa 1851 date QS:P571,+1851-00-00T00:00:00Z/9,P1480,Q57279",
       "license": "Public domain",
       "width": "1280",
-      "height": "871"
+      "height": "871",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Goth subculture",
       "url": "https://en.wikipedia.org/wiki/Goth_subculture",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Tokyo Fashion — pastel goth street snaps",
       "url": "https://tokyofashion.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -211,50 +246,19 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:08:16.860Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Pastel Goth",
-      "url": "https://en.wikipedia.org/wiki/Pastel_Goth",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Pastel Goth — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Pastel%20Goth%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Pastel Goth — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Pastel%20Goth",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Pastel Goth — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Pastel%20Goth",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Pastel Goth — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Pastel%20Goth%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Pastel Goth — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Pastel%20Goth%20aesthetic%20examples",
-      "note": "Google Images search"
     },
     {
       "type": "web",
       "title": "Aesthetics Wiki — Pastel Goth",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Pastel%20Goth",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "popularity": 50,

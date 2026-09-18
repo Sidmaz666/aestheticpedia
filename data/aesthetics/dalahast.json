@@ -125,7 +125,12 @@
       "source": "Wikimedia Commons",
       "license": "Copyrighted free use",
       "width": "1280",
-      "height": "851"
+      "height": "851",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Dalahast_7.jpg",
@@ -139,7 +144,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1128",
-      "height": "1014"
+      "height": "1014",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Dalahast_1.jpg",
@@ -153,7 +163,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1186",
-      "height": "1092"
+      "height": "1092",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Dalahast_6.jpg",
@@ -167,7 +182,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1128",
-      "height": "1014"
+      "height": "1014",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Dalahast_2.jpg",
@@ -181,7 +201,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1104",
-      "height": "992"
+      "height": "992",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Dalahast_3.jpg",
@@ -195,7 +220,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1155",
-      "height": "949"
+      "height": "949",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Dalapferd2.jpg",
@@ -209,7 +239,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "567",
-      "height": "377"
+      "height": "377",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Dalahast_4.jpg",
@@ -223,7 +258,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1155",
-      "height": "949"
+      "height": "949",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Dalahast_9.jpg",
@@ -237,7 +277,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1190",
-      "height": "1100"
+      "height": "1100",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Dalahast_5.jpg",
@@ -251,24 +296,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1238",
-      "height": "1080"
+      "height": "1080",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Dalarna Museum",
       "url": "https://www.dalarnasmuseum.se",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Nusnäs Dalahäst",
       "url": "https://www.dalahast.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Swedish National Heritage Board",
       "url": "https://www.historicalboard.se",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -309,37 +374,12 @@
       "type": "article",
       "title": "Wikipedia — Dalahäst",
       "url": "https://en.wikipedia.org/wiki/Dalah%C3%A4st",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Dalahäst — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Dalah%C3%A4st%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Dalahäst — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Dalah%C3%A4st",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Dalahäst — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Dalah%C3%A4st",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Dalahäst — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Dalah%C3%A4st%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Dalahäst — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Dalah%C3%A4st%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q615892",

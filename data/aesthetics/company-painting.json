@@ -131,7 +131,12 @@
       "date": "First quarter of the 19th century",
       "license": "Public domain",
       "width": "500",
-      "height": "418"
+      "height": "418",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Portrait_of_East_India_Company_official.jpg/1280px-Portrait_of_East_India_Company_official.jpg",
@@ -141,7 +146,12 @@
       "caption": "Portrait of East India Company official",
       "source": "Wikimedia Commons",
       "width": "1280",
-      "height": "1528"
+      "height": "1528",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Five_Recruits-_Ummee_Chund%2C_Indur%2C_Goolzaree%2C_Bukhtawur_and_Juhaz_-_Google_Art_Project.jpg/1280px-Five_Recruits-_Ummee_Chund%2C_Indur%2C_Goolzaree%2C_Bukhtawur_and_Juhaz_-_Google_Art_Project.jpg",
@@ -154,7 +164,12 @@
       "date": "between circa 1815 and circa 1816 date QS:P571,+1815-00-00T0",
       "license": "Public domain",
       "width": "1280",
-      "height": "887"
+      "height": "887",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Akbar%27s_Tomb_at_Sikandra_by_Sheikh_Latif%2C_c._1810-1820%2C_watercolor_.JPG/1280px-Akbar%27s_Tomb_at_Sikandra_by_Sheikh_Latif%2C_c._1810-1820%2C_watercolor_.JPG",
@@ -167,7 +182,12 @@
       "date": "between circa 1810 and circa 1820 date QS:P,+1850-00-00T00:0",
       "license": "Public domain",
       "width": "1280",
-      "height": "746"
+      "height": "746",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Portrait_of_Ranjit_Singh%2C_Maharaja_of_the_Punjab%2C_1830.jpg",
@@ -180,7 +200,12 @@
       "date": "1830-06-10",
       "license": "Public domain",
       "width": "542",
-      "height": "712"
+      "height": "712",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Watercolour_painting_on_paper_of_Indradyumna_seated_in_a_carriage.jpg/1280px-Watercolour_painting_on_paper_of_Indradyumna_seated_in_a_carriage.jpg",
@@ -193,7 +218,12 @@
       "date": "19thC(early)",
       "license": "Public domain",
       "width": "1280",
-      "height": "1077"
+      "height": "1077",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/An_Indian_weaver_and_his_wife.jpg/1280px-An_Indian_weaver_and_his_wife.jpg",
@@ -206,7 +236,12 @@
       "date": "18 th century date QS:P,+1750-00-00T00:00:00Z/7",
       "license": "Public domain",
       "width": "1280",
-      "height": "922"
+      "height": "922",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Khan_Bahadur_Khan_with_men_of_his_clan_%286125079998%29.jpg",
@@ -219,7 +254,12 @@
       "date": "2001-10-15 14:06:37",
       "license": "Public domain",
       "width": "1250",
-      "height": "869"
+      "height": "869",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Great_Indian_Fruit_Bat_MET_DP167067.jpg/1280px-Great_Indian_Fruit_Bat_MET_DP167067.jpg",
@@ -233,24 +273,32 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "940"
+      "height": "940",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "British Library",
-      "url": "https://www.bl.uk/collection-guides/company-paintings",
       "tier": "A"
     },
     {
       "name": "Victoria & Albert Museum",
-      "url": "https://www.vam.ac.uk/articles/company-painting",
       "tier": "A"
     },
     {
       "name": "Oxford Art Online",
       "url": "https://www.oxfordartonline.com/company-painting",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -286,42 +334,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:57:19.163Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Company Painting",
-      "url": "https://en.wikipedia.org/wiki/Company_Painting",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Company Painting — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Company%20Painting%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Company Painting — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Company%20Painting",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Company Painting — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Company%20Painting",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Company Painting — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Company%20Painting%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Company Painting — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Company%20Painting%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q861297",

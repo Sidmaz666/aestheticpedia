@@ -2,7 +2,9 @@
 // the MCP server and the "Export" menu on every aesthetic page.
 import { STATUS_LABELS, ESTABLISHMENT_LABELS, DATA_QUALITY_LABELS, DNA_AXES, labelize, type AestheticFull, type ResolvedRelations } from '@/lib/aesthetic'
 
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://aestheticpedia.org').replace(/\/$/, '')
+import { SITE_NAME, SITE_TAGLINE, SITE_URL } from '@/lib/site'
+
+export { SITE_URL }
 
 export { EXPORT_FORMATS, type ExportFormat } from '@/lib/export-formats'
 import { EXPORT_FORMATS } from '@/lib/export-formats'
@@ -107,7 +109,7 @@ export function toMarkdown(a: AestheticFull, rel?: ResolvedRelations): string {
   section('Sources', a.sources.map((s) => `- ${s.url ? `[${s.name}](${s.url})` : s.name}${s.tier ? ` (tier ${s.tier})` : ''}`))
   section('Further reading', a.references.map((r) => `- [${r.title}](${r.url})${r.note ? ` — ${r.note}` : ''}`))
   if (a.tags.length) L.push(`Tags: ${a.tags.map((t) => `#${t.replace(/\s+/g, '-')}`).join(' ')}`, '')
-  L.push('---', `Aestheticpedia · ${pageUrl(a.slug)} · text CC BY-SA 4.0 · updated ${a.updatedAt.slice(0, 10)}`)
+  L.push('---', `${SITE_NAME} · ${pageUrl(a.slug)} · text CC BY-SA 4.0 · updated ${a.updatedAt.slice(0, 10)}`)
   return L.join('\n')
 }
 
@@ -161,7 +163,7 @@ export function toHtml(a: AestheticFull, rel?: ResolvedRelations): string {
   const bg = a.colors[0]?.hex ?? '#faf8f4'
   return `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${esc(a.name)} — Aestheticpedia</title>
+<title>${esc(a.name)} — ${esc(SITE_NAME)}</title>
 <link rel="canonical" href="${pageUrl(a.slug)}">
 <style>body{font:17px/1.65 Georgia,serif;max-width:46rem;margin:3rem auto;padding:0 1.25rem;color:#1c1917}h1{font-size:2.6rem;line-height:1.1;margin:0 0 .5rem;border-bottom:6px solid ${bg}}h2{font:600 .8rem/1.2 system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;margin-top:2.5rem;color:#57534e}img{max-width:100%;height:auto;display:block;margin:.5rem 0}table{border-collapse:collapse;font:14px system-ui,sans-serif}th,td{padding:.35rem .75rem;border-bottom:1px solid #e7e5e4;text-align:left}blockquote{margin:1.5rem 0;padding-left:1rem;border-left:3px solid ${bg};font-size:1.15rem}code{font-size:.9em}a{color:inherit}</style>
 </head><body>
@@ -186,7 +188,7 @@ export function toJsonLd(a: AestheticFull) {
     inDefinedTermSet: {
       '@type': 'DefinedTermSet',
       '@id': `${SITE_URL}/aesthetics`,
-      name: 'Aestheticpedia — the open encyclopedia of aesthetics',
+      name: `${SITE_NAME} — ${SITE_TAGLINE}`,
     },
     keywords: [a.category, ...a.tags].join(', '),
     temporalCoverage: period(a) || undefined,
@@ -268,7 +270,7 @@ const fontStack = (name: string | undefined, fallback: string) => (name ? `"${na
 
 export function toCss(a: AestheticFull): string {
   const colors = uniqueColorKeys(a)
-  return `/* ${a.name} — Aestheticpedia palette · ${pageUrl(a.slug)} */
+  return `/* ${a.name} — ${SITE_NAME} palette · ${pageUrl(a.slug)} */
 :root {
 ${colors.map((c) => `  --${a.slug}-${c.key}: ${c.hex}; /* ${c.name} */`).join('\n')}
 ${colors.map((c, i) => `  --palette-${i + 1}: var(--${a.slug}-${c.key});`).join('\n')}
@@ -280,7 +282,7 @@ ${colors.map((c, i) => `  --palette-${i + 1}: var(--${a.slug}-${c.key});`).join(
 
 export function toScss(a: AestheticFull): string {
   const colors = uniqueColorKeys(a)
-  return `// ${a.name} — Aestheticpedia palette · ${pageUrl(a.slug)}
+  return `// ${a.name} — ${SITE_NAME} palette · ${pageUrl(a.slug)}
 ${colors.map((c) => `$${a.slug}-${c.key}: ${c.hex}; // ${c.name}`).join('\n')}
 
 $${a.slug}-palette: (
@@ -307,7 +309,7 @@ ${colors.map((c) => `  --color-${a.slug}-${c.key}: ${c.hex};`).join('\n')}
 export function toTokens(a: AestheticFull) {
   const colors = uniqueColorKeys(a)
   return {
-    $description: `${a.name} — Aestheticpedia design tokens (${pageUrl(a.slug)})`,
+    $description: `${a.name} — ${SITE_NAME} design tokens (${pageUrl(a.slug)})`,
     [a.slug]: {
       color: Object.fromEntries(colors.map((c) => [c.key, { $type: 'color', $value: c.hex, $description: c.name }])),
       font: {
@@ -420,10 +422,10 @@ export function toBibtex(a: AestheticFull): string {
   const d = new Date(a.updatedAt)
   return `@misc{aestheticpedia:${a.slug},
   title        = {{${a.name}}},
-  author       = {{Aestheticpedia contributors}},
+  author       = {{${SITE_NAME} contributors}},
   howpublished = {\\url{${pageUrl(a.slug)}}},
   year         = {${d.getUTCFullYear()}},
-  note         = {Aestheticpedia, the open encyclopedia of aesthetics. Accessed ${new Date().toISOString().slice(0, 10)}},
+  note         = {${SITE_NAME}, ${SITE_TAGLINE.toLowerCase()}. Accessed ${new Date().toISOString().slice(0, 10)}},
   keywords     = {${[a.category, ...a.tags.slice(0, 8)].join(', ')}}
 }
 `
@@ -434,11 +436,11 @@ export function toRis(a: AestheticFull): string {
   return [
     'TY  - ELEC',
     `TI  - ${a.name}`,
-    'AU  - Aestheticpedia contributors',
+    `AU  - ${SITE_NAME} contributors`,
     `PY  - ${d.getUTCFullYear()}`,
     `UR  - ${pageUrl(a.slug)}`,
     `AB  - ${a.summary}`,
-    'PB  - Aestheticpedia',
+    `PB  - ${SITE_NAME}`,
     ...[a.category, ...a.tags.slice(0, 8)].map((k) => `KW  - ${k}`),
     `Y2  - ${new Date().toISOString().slice(0, 10)}`,
     'ER  - ',

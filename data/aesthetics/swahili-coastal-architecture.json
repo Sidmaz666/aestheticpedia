@@ -148,7 +148,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "851"
+      "height": "851",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Swahili_Door%2C_Kilwa%2C_Tanzania.jpg/1280px-Swahili_Door%2C_Kilwa%2C_Tanzania.jpg",
@@ -162,7 +167,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Lamu_Kenya-door.jpg",
@@ -176,7 +186,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1080",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Swahili_door%2C_national_museum%2C_Tanzania.jpg/1280px-Swahili_door%2C_national_museum%2C_Tanzania.jpg",
@@ -190,7 +205,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Kilwa_door_in_National_Museum_Tanzania.jpg/1280px-Kilwa_door_in_National_Museum_Tanzania.jpg",
@@ -204,7 +224,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Ruins_of_Gedi_29.JPG/1280px-Ruins_of_Gedi_29.JPG",
@@ -218,7 +243,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Ruins_of_Songo_Mnara%2C_inside_the_main_building.jpg/1280px-Ruins_of_Songo_Mnara%2C_inside_the_main_building.jpg",
@@ -232,7 +262,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "720"
+      "height": "720",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Great_Mosque_%2834095555612%29.jpg",
@@ -246,7 +281,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1024",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mali_dogon_houses_josef_stuefer.jpg",
@@ -260,24 +300,44 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "UNESCO World Heritage",
       "url": "https://whc.unesco.org/en/list/173",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Swahili Culture",
       "url": "https://www.swahiliculture.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "ArchNet",
       "url": "https://archnet.org/sites/398",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -302,42 +362,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:11:25.008Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Swahili Coastal Architecture",
-      "url": "https://en.wikipedia.org/wiki/Swahili_Coastal_Architecture",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Swahili Coastal Architecture — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Swahili%20Coastal%20Architecture%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Swahili Coastal Architecture — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Swahili%20Coastal%20Architecture",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Swahili Coastal Architecture — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Swahili%20Coastal%20Architecture",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Swahili Coastal Architecture — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Swahili%20Coastal%20Architecture%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Swahili Coastal Architecture — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Swahili%20Coastal%20Architecture%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q7652972",

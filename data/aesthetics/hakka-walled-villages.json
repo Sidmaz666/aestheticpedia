@@ -148,7 +148,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Hakka_china2.jpg",
@@ -162,7 +167,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "800",
-      "height": "790"
+      "height": "790",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Earth_buildings-Tianluokeng.jpg/1280px-Earth_buildings-Tianluokeng.jpg",
@@ -176,24 +186,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1000"
+      "height": "1000",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Hakka Culture Research Centre",
       "url": "https://www.hakkaculture.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -218,42 +248,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:01:15.138Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Hakka Walled Villages",
-      "url": "https://en.wikipedia.org/wiki/Hakka_Walled_Villages",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Hakka Walled Villages — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Hakka%20Walled%20Villages%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Hakka Walled Villages — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Hakka%20Walled%20Villages",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Hakka Walled Villages — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Hakka%20Walled%20Villages",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Hakka Walled Villages — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Hakka%20Walled%20Villages%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Hakka Walled Villages — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Hakka%20Walled%20Villages%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q10925819",

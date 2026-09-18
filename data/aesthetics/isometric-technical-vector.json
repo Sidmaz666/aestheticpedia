@@ -133,7 +133,12 @@
       "license": "CC BY-SA 3.0 de",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
       "width": "800",
-      "height": "506"
+      "height": "506",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Architekturskizze_Verwaltungsgeb%C3%A4ude_Biel.jpg",
@@ -147,7 +152,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1008",
-      "height": "608"
+      "height": "608",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Zeichenmaschine.jpg",
@@ -159,7 +169,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "691",
-      "height": "566"
+      "height": "566",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Technical_drawing_instruments_1.jpg/1280px-Technical_drawing_instruments_1.jpg",
@@ -170,7 +185,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "1280",
-      "height": "1644"
+      "height": "1644",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Stencils01.jpg",
@@ -183,7 +203,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "868",
-      "height": "597"
+      "height": "597",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Construction_drawing_autocad.jpg/1280px-Construction_drawing_autocad.jpg",
@@ -197,7 +222,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1048"
+      "height": "1048",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Architect_Anthony_Murphy_working_on_a_kitchen_renovation_project_in_New_Jersey.jpg",
@@ -211,7 +241,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "835",
-      "height": "1083"
+      "height": "1083",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/DIN_69893_hsk_63a_drawing.png",
@@ -225,7 +260,12 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "611",
-      "height": "340"
+      "height": "340",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/1942_Nash_Ambassador_X-ray.jpg/1280px-1942_Nash_Ambassador_X-ray.jpg",
@@ -238,7 +278,12 @@
       "date": "1 January 2007 (original upload date)",
       "license": "Public domain",
       "width": "1280",
-      "height": "823"
+      "height": "823",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Wright_brothers_patent_plans_1908.jpg/1280px-Wright_brothers_patent_plans_1908.jpg",
@@ -251,24 +296,44 @@
       "date": "1908",
       "license": "Public domain",
       "width": "1280",
-      "height": "1054"
+      "height": "1054",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Isometric Design Guide",
       "url": "https://www.isometricdesign.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Technical Illustration History",
       "url": "https://en.wikipedia.org/wiki/Technical_drawing",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Adobe Illustrator Isometric",
       "url": "https://helpx.adobe.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -280,44 +345,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:02:27.583Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Isometric Technical Vector",
-      "url": "https://en.wikipedia.org/wiki/Isometric_Technical_Vector",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Isometric Technical Vector — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Isometric%20Technical%20Vector%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Isometric Technical Vector — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Isometric%20Technical%20Vector",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Isometric Technical Vector — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Isometric%20Technical%20Vector",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Isometric Technical Vector — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Isometric%20Technical%20Vector%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Isometric Technical Vector — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Isometric%20Technical%20Vector%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "popularity": 75,

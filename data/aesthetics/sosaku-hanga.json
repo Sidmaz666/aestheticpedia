@@ -126,7 +126,12 @@
       "date": "1904 date QS:P571,+1904-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1159",
-      "height": "1684"
+      "height": "1684",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/%27Portrait_of_Hagiwara_Sakutar%C3%B4%27%2C_woodblock_print_by_Onchi_K%C3%B4shir%C3%B4%2C_1943%2C_1st_edition%2C_National_Museum_of_Modern_Art%2C_Tokyo.jpg",
@@ -139,7 +144,12 @@
       "date": "1943",
       "license": "Public domain",
       "width": "1072",
-      "height": "1354"
+      "height": "1354",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toshusai_Sharaku-_Otani_Oniji%2C_1794.jpg",
@@ -152,7 +162,12 @@
       "date": "1794",
       "license": "Public domain",
       "width": "802",
-      "height": "1200"
+      "height": "1200",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Kinuta_2.jpg",
@@ -166,7 +181,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "498",
-      "height": "1852"
+      "height": "1852",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/02_Sakamoto_See.jpg/1280px-02_Sakamoto_See.jpg",
@@ -179,7 +199,12 @@
       "date": "1918",
       "license": "Public domain",
       "width": "1280",
-      "height": "922"
+      "height": "922",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Fujimaki_1934.jpg",
@@ -192,7 +217,12 @@
       "date": "1934",
       "license": "Public domain",
       "width": "1026",
-      "height": "1689"
+      "height": "1689",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Fujimori_Auge.jpg",
@@ -205,7 +235,12 @@
       "date": "1915",
       "license": "Public domain",
       "width": "681",
-      "height": "968"
+      "height": "968",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Oda_Surugadai.jpg",
@@ -218,7 +253,12 @@
       "date": "1916",
       "license": "Public domain",
       "width": "821",
-      "height": "1136"
+      "height": "1136",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Taninaka_Sschattentheater.jpg/1280px-Taninaka_Sschattentheater.jpg",
@@ -231,24 +271,44 @@
       "date": "1932",
       "license": "Public domain",
       "width": "1280",
-      "height": "844"
+      "height": "844",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "British Museum",
       "url": "https://www.britishmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Art Story",
       "url": "https://www.theartstory.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Museum of Modern Art",
       "url": "https://www.moma.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -284,36 +344,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:11:00.362Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Sōsaku-hanga — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=S%C5%8Dsaku-hanga%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Sōsaku-hanga — academic literature",
-      "url": "https://scholar.google.com/scholar?q=S%C5%8Dsaku-hanga",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Sōsaku-hanga — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=S%C5%8Dsaku-hanga",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Sōsaku-hanga — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=S%C5%8Dsaku-hanga%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Sōsaku-hanga — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=S%C5%8Dsaku-hanga%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1518145",

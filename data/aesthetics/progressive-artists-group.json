@@ -172,7 +172,12 @@
       "date": "1947",
       "license": "Public domain",
       "width": "650",
-      "height": "453"
+      "height": "453",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/c95d58bf-fe9e-e5bb-2c71-ab8bad984759/full/843,/0/default.jpg",
@@ -186,24 +191,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1064"
+      "height": "1064",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Taj Art Gallery",
       "url": "https://tajartgallery.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 401,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "India Magazine",
       "url": "https://www.indiamagazine.in",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Hindu",
       "url": "https://www.thehindu.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -233,37 +258,12 @@
       "type": "article",
       "title": "Wikipedia — Progressive Artists Group",
       "url": "https://en.wikipedia.org/wiki/Progressive_Artists_Group",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Progressive Artists Group — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Progressive%20Artists%20Group%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Progressive Artists Group — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Progressive%20Artists%20Group",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Progressive Artists Group — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Progressive%20Artists%20Group",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Progressive Artists Group — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Progressive%20Artists%20Group%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Progressive Artists Group — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Progressive%20Artists%20Group%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q4940574",

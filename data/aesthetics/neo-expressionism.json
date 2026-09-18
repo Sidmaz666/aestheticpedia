@@ -179,24 +179,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "831"
+      "height": "831",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Tate",
       "url": "https://www.tate.org.uk/art/art-terms/n/neo-expressionism",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Guggenheim",
       "url": "https://www.guggenheim.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Oxford Art Online",
       "url": "https://www.oxfordartonline.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -237,37 +257,12 @@
       "type": "article",
       "title": "Wikipedia — Neo-Expressionism",
       "url": "https://en.wikipedia.org/wiki/Neo-Expressionism",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Neo-Expressionism — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Neo-Expressionism%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Neo-Expressionism — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Neo-Expressionism",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Neo-Expressionism — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Neo-Expressionism",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Neo-Expressionism — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Neo-Expressionism%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Neo-Expressionism — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Neo-Expressionism%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q589655",

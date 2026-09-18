@@ -120,57 +120,35 @@
     {
       "name": "The New Yorker Cartoon Collection",
       "url": "https://www.newyorker.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Art of The New Yorker",
       "url": "https://www.metmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Mid-Century American Illustration",
       "url": "https://www.graphicdesignhistory.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — New Yorker Mid-Century Refined Line",
-      "url": "https://en.wikipedia.org/wiki/New_Yorker_Mid-Century_Refined_Line",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "New Yorker Mid-Century Refined Line — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=New%20Yorker%20Mid-Century%20Refined%20Line%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "New Yorker Mid-Century Refined Line — academic literature",
-      "url": "https://scholar.google.com/scholar?q=New%20Yorker%20Mid-Century%20Refined%20Line",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "New Yorker Mid-Century Refined Line — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=New%20Yorker%20Mid-Century%20Refined%20Line",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "New Yorker Mid-Century Refined Line — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=New%20Yorker%20Mid-Century%20Refined%20Line%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "New Yorker Mid-Century Refined Line — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=New%20Yorker%20Mid-Century%20Refined%20Line%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 70,
   "isNiche": false,
   "dataQuality": "well_documented",

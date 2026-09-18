@@ -169,17 +169,32 @@
     {
       "name": "Fixer Upper (TV Show)",
       "url": "https://www.magnoliablog.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Country Living",
       "url": "https://www.countryliving.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The New Farmhouse by Julie Blanner",
       "url": "https://abebooks.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -204,42 +219,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:07:16.397Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — New American Farmhouse",
-      "url": "https://en.wikipedia.org/wiki/New_American_Farmhouse",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "New American Farmhouse — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=New%20American%20Farmhouse%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "New American Farmhouse — academic literature",
-      "url": "https://scholar.google.com/scholar?q=New%20American%20Farmhouse",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "New American Farmhouse — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=New%20American%20Farmhouse",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "New American Farmhouse — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=New%20American%20Farmhouse%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "New American Farmhouse — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=New%20American%20Farmhouse%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q5435465",

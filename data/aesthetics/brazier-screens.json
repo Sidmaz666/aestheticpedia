@@ -116,57 +116,29 @@
     {
       "name": "Japan Society",
       "url": "https://www.japansociety.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 503,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Traditional Japanese Architecture",
-      "url": "https://en.wikipedia.org/wiki/Traditional_Japanese_architecture",
       "tier": "B"
     },
     {
       "name": "Japanese Lattice Designs",
       "url": "https://www.toyamagiken.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Brazier Screens",
-      "url": "https://en.wikipedia.org/wiki/Brazier_Screens",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Brazier Screens — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Brazier%20Screens%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Brazier Screens — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Brazier%20Screens",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Brazier Screens — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Brazier%20Screens",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Brazier Screens — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Brazier%20Screens%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Brazier Screens — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Brazier%20Screens%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 65,
   "isNiche": true,
   "dataQuality": "well_documented",

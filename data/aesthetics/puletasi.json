@@ -124,17 +124,32 @@
     {
       "name": "Samoan Puletasi",
       "url": "https://en.wikipedia.org/wiki/Puletasi",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Traditional Samoan Clothing",
       "url": "https://www.samoa-tourism.com/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Pacific Island Fashion",
       "url": "https://www.tepapa.govt.nz/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -157,38 +172,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:09:19.314Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Puletasi — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Puletasi%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Puletasi — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Puletasi",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Puletasi — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Puletasi",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Puletasi — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Puletasi%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Puletasi — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Puletasi%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q544407",

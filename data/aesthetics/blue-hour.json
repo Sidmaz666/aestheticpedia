@@ -123,17 +123,32 @@
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Blue_hour",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Digital Photography School",
       "url": "https://digital-photography-school.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -158,36 +173,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:55:24.021Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Blue Hour — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Blue%20Hour%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Blue Hour — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Blue%20Hour",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Blue Hour — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Blue%20Hour",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Blue Hour — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Blue%20Hour%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Blue Hour — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Blue%20Hour%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q4929253",

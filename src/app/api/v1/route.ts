@@ -1,12 +1,12 @@
 import { API_VERSION, ok, options } from '@/lib/api'
-import { SITE_URL } from '@/lib/formats'
+import { SITE_NAME, SITE_URL } from '@/lib/site'
 
 export const OPTIONS = options
 
 /** GET /api/v1 — API index. */
 export function GET() {
   return ok({
-    name: 'Aestheticpedia API',
+    name: `${SITE_NAME} API`,
     version: API_VERSION,
     docs: `${SITE_URL}/data`,
     openapi: `${SITE_URL}/api/v1/openapi.json`,

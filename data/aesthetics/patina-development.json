@@ -127,7 +127,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "964"
+      "height": "964",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/FraunkircheSouth.jpg/1280px-FraunkircheSouth.jpg",
@@ -140,7 +145,12 @@
       "date": "14 May 2006 (original upload date)",
       "license": "Public domain",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Ancienne_unit%C3%A9_de_monnaie_en_cuivre.jpg/1280px-Ancienne_unit%C3%A9_de_monnaie_en_cuivre.jpg",
@@ -154,7 +164,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Chickenvane.jpg",
@@ -168,7 +183,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "752",
-      "height": "564"
+      "height": "564",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Nordische_Botschaften_Berlin_1.jpg/1280px-Nordische_Botschaften_Berlin_1.jpg",
@@ -180,7 +200,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Bronze-Sculpture_of_cranes%2C_Croatia.jpg",
@@ -193,7 +218,12 @@
       "date": "2023-11-19 14:02:09",
       "license": "Public domain",
       "width": "751",
-      "height": "1137"
+      "height": "1137",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Lisboa_November_2011-13.jpg/1280px-Lisboa_November_2011-13.jpg",
@@ -207,7 +237,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1566"
+      "height": "1566",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Lisboa_January_2015-22.jpg/1280px-Lisboa_January_2015-22.jpg",
@@ -221,24 +256,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1785"
+      "height": "1785",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Leather Conservation Wiki",
       "url": "https://www.leatherconservation.org",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Art of Handmade Leather",
       "url": "https://www.handleather.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Patina Development Guide",
       "url": "https://www.leatherworker.net",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -274,42 +329,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:08:20.151Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Patina Development",
-      "url": "https://en.wikipedia.org/wiki/Patina_Development",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Patina Development — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Patina%20Development%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Patina Development — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Patina%20Development",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Patina Development — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Patina%20Development",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Patina Development — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Patina%20Development%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Patina Development — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Patina%20Development%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q428352",

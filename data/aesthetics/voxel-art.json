@@ -137,7 +137,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "905"
+      "height": "905",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Abdominal_CT_with_scan_range_and_field_of_view%2C_with_box_and_text.jpg/1280px-Abdominal_CT_with_scan_range_and_field_of_view%2C_with_box_and_text.jpg",
@@ -151,7 +156,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "977"
+      "height": "977",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Tomograf_matryca_voxele.png",
@@ -164,19 +174,34 @@
       "date": "4 April 2006 (original upload date)",
       "license": "Public domain",
       "width": "551",
-      "height": "389"
+      "height": "389",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Voxel",
       "url": "https://en.wikipedia.org/wiki/Voxel",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "MagicaVoxel official gallery (ephtriu)",
       "url": "https://ephtracy.github.io",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -210,50 +235,19 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:13:11.374Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Voxel Art",
-      "url": "https://en.wikipedia.org/wiki/Voxel_Art",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Voxel Art — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Voxel%20Art%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Voxel Art — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Voxel%20Art",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Voxel Art — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Voxel%20Art",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Voxel Art — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Voxel%20Art%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Voxel Art — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Voxel%20Art%20aesthetic%20examples",
-      "note": "Google Images search"
     },
     {
       "type": "web",
       "title": "Aesthetics Wiki — Voxel Art",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Voxel%20Art",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q663554",

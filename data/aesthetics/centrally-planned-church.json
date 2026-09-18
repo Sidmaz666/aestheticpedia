@@ -143,57 +143,29 @@
     {
       "name": "Met Museum",
       "url": "https://www.metmuseum.org/toah/hd/cent/hd_cent.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Centralized_church",
       "tier": "B"
     },
     {
       "name": "Britannica",
       "url": "https://www.britannica.com/topic/central-plan",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Centrally-Planned Church",
-      "url": "https://en.wikipedia.org/wiki/Centrally-Planned_Church",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Centrally-Planned Church — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Centrally-Planned%20Church%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Centrally-Planned Church — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Centrally-Planned%20Church",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Centrally-Planned Church — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Centrally-Planned%20Church",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Centrally-Planned Church — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Centrally-Planned%20Church%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Centrally-Planned Church — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Centrally-Planned%20Church%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 75,
   "isNiche": false,
   "dataQuality": "well_documented",

@@ -113,53 +113,20 @@
   "sources": [
     {
       "name": "Wikipedia — Techwear",
-      "url": "https://en.wikipedia.org/wiki/Techwear",
       "tier": "B"
     },
     {
       "name": "Highsnobiety techwear coverage",
       "url": "https://www.highsnobiety.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Techwear",
-      "url": "https://en.wikipedia.org/wiki/Techwear",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Techwear — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Techwear%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Techwear — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Techwear",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Techwear — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Techwear",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Techwear — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Techwear%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Techwear — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Techwear%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 66,
   "isNiche": false,
   "dataQuality": "well_documented",

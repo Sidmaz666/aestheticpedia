@@ -127,7 +127,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1757"
+      "height": "1757",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Lutrelll.jpg",
@@ -140,7 +145,12 @@
       "date": "14 th century date QS:P,+1350-00-00T00:00:00Z/7",
       "license": "Public domain",
       "width": "518",
-      "height": "405"
+      "height": "405",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Crests%2C_College_of_Arms.jpg/1280px-Crests%2C_College_of_Arms.jpg",
@@ -154,7 +164,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "854"
+      "height": "854",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Wappen_Brandenburg_Ansbach_Kulmbach_Bayreuth.jpg",
@@ -167,7 +182,12 @@
       "date": "1755",
       "license": "Public domain",
       "width": "562",
-      "height": "656"
+      "height": "656",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Douglas_crest.png",
@@ -181,7 +201,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "653",
-      "height": "790"
+      "height": "790",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/British_crests_-_containing_the_crests_and_mottos_of_the_families_of_Great_Britain_and_Ireland%3B_together_with_those_of_the_principal_cities%3B_and_a_glossary_of_heraldic_terms_%281817%29_%2814597248368%29.jpg/1280px-thumbnail.jpg",
@@ -195,24 +220,38 @@
       "license": "No restrictions",
       "licenseUrl": "https://www.flickr.com/commons/usage/",
       "width": "1280",
-      "height": "2276"
+      "height": "2276",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Japanese Crest Symbolism",
-      "url": "https://www.onmarkproductions.com/html/crest.html",
       "tier": "B"
     },
     {
       "name": "Kyoto National Museum",
       "url": "https://www.kyoto-national-museum.jp/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Herbert F. Johnson Museum of Art",
       "url": "https://johnsonmuseum.cornell.edu/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -248,42 +287,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:06:31.881Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Mon family crests",
-      "url": "https://en.wikipedia.org/wiki/Mon_family_crests",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Mon family crests — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Mon%20family%20crests%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Mon family crests — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Mon%20family%20crests",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Mon family crests — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Mon%20family%20crests",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Mon family crests — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Mon%20family%20crests%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Mon family crests — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Mon%20family%20crests%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q668732",

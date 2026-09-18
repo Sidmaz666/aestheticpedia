@@ -128,7 +128,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1215",
-      "height": "1331"
+      "height": "1331",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Veve_of_Ti_Jean_Dantor.png/1280px-Veve_of_Ti_Jean_Dantor.png",
@@ -142,7 +147,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Vev%C3%A9_Ezili_Dantor.jpg",
@@ -156,7 +166,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "640",
-      "height": "480"
+      "height": "480",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/d7d77ed2-ded1-50b9-aeb8-07a80e82249e/full/843,/0/default.jpg",
@@ -170,7 +185,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1256"
+      "height": "1256",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/87d3ec5d-e8ff-470d-df8e-49bf1e2bf5e6/full/843,/0/default.jpg",
@@ -184,24 +204,38 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1181"
+      "height": "1181",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Sacred Arts of Haitian Vodou",
       "url": "https://www.metmuseum.org/toah/haitian-vodou/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "The Veve in Haitian Vodou",
-      "url": "https://www.haitianartcenter.com/veve",
       "tier": "C"
     },
     {
       "name": "Vodou: The Rhythms of Spirit",
       "url": "https://www.huffpost.com/entry/vodou-veve_n_123456",
-      "tier": "D"
+      "tier": "D",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -237,42 +271,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:13:01.113Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Veve Cornmeal Drawings",
-      "url": "https://en.wikipedia.org/wiki/Veve_Cornmeal_Drawings",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Veve Cornmeal Drawings — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Veve%20Cornmeal%20Drawings%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Veve Cornmeal Drawings — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Veve%20Cornmeal%20Drawings",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Veve Cornmeal Drawings — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Veve%20Cornmeal%20Drawings",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Veve Cornmeal Drawings — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Veve%20Cornmeal%20Drawings%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Veve Cornmeal Drawings — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Veve%20Cornmeal%20Drawings%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q947041",

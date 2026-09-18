@@ -118,57 +118,35 @@
     {
       "name": "German Federal Heritage Office",
       "url": "https://www.denkmalliste.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Rheland-Palatinate Heritage",
       "url": "https://www.denkmal-netzwerk.de",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Britannica",
       "url": "https://www.britannica.com/topic/Romanesque-architecture",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Rhenish Romanesque",
-      "url": "https://en.wikipedia.org/wiki/Rhenish_Romanesque",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Rhenish Romanesque — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Rhenish%20Romanesque%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Rhenish Romanesque — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Rhenish%20Romanesque",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Rhenish Romanesque — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Rhenish%20Romanesque",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Rhenish Romanesque — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Rhenish%20Romanesque%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Rhenish Romanesque — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Rhenish%20Romanesque%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 50,
   "isNiche": false,
   "dataQuality": "well_documented",

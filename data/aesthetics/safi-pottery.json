@@ -128,7 +128,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "584"
+      "height": "584",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/36a3f0f7-9bda-2c93-fee8-7c264d5ce01f/full/843,/0/default.jpg",
@@ -142,7 +147,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1124"
+      "height": "1124",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/f62a1b99-1e62-5aa9-0b08-2b83c38655fa/full/843,/0/default.jpg",
@@ -156,7 +166,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "786"
+      "height": "786",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/4b509384-6861-1856-fe66-b949909c6620/full/843,/0/default.jpg",
@@ -170,7 +185,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "786"
+      "height": "786",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/ae01fa0f-a71f-094f-a12b-9a5378d44131/full/843,/0/default.jpg",
@@ -184,7 +204,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "792"
+      "height": "792",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/9e9741ee-c4b3-9635-937d-b9ffc630dae2/full/843,/0/default.jpg",
@@ -198,7 +223,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "842"
+      "height": "842",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/ff458214-8e24-c306-8128-321408efeef8/full/843,/0/default.jpg",
@@ -212,7 +242,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1377"
+      "height": "1377",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/3a8bd606-bf8e-e88c-f5a8-41c7fced61e3/full/843,/0/default.jpg",
@@ -226,64 +261,47 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "786"
+      "height": "786",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Museum of Moroccan Ceramics",
       "url": "https://www.moroccanceramicsmuseum.org/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Safi Pottery Collective",
       "url": "https://safipottery.org/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Moroccan Ceramic Heritage",
       "url": "https://moroccanceramics.org/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Safi Pottery",
-      "url": "https://en.wikipedia.org/wiki/Safi_Pottery",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Safi Pottery — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Safi%20Pottery%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Safi Pottery — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Safi%20Pottery",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Safi Pottery — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Safi%20Pottery",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Safi Pottery — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Safi%20Pottery%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Safi Pottery — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Safi%20Pottery%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 55,
   "isNiche": false,
   "dataQuality": "well_documented",

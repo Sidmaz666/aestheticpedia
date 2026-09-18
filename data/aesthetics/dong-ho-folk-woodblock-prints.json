@@ -125,7 +125,12 @@
       "artist": "Unknown artisan from the village of Dong Ho.",
       "license": "Public domain",
       "width": "1280",
-      "height": "967"
+      "height": "967",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/S%C3%A2n_g%C3%A0.JPG",
@@ -136,7 +141,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "600",
-      "height": "443"
+      "height": "443",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/L%E1%BB%A3n_%C3%A2m_d%C6%B0%C6%A1ng.JPG",
@@ -149,7 +159,12 @@
       "date": "2006-01-01",
       "license": "Public domain",
       "width": "640",
-      "height": "458"
+      "height": "458",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/%E1%BA%BEch_%C4%91i_h%E1%BB%8Dc.JPG",
@@ -160,7 +175,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "1024",
-      "height": "639"
+      "height": "639",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/%C4%90%E1%BA%A5u_v%E1%BA%ADt.JPG/1280px-%C4%90%E1%BA%A5u_v%E1%BA%ADt.JPG",
@@ -171,7 +191,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "1280",
-      "height": "967"
+      "height": "967",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/PQ_2022%2C_Th%C4%83ng_Long_c%E1%BB%95_tr%E1%BA%A5n_%28h%C3%B3a_trang_th%C6%B0_sinh%29.jpg/1280px-PQ_2022%2C_Th%C4%83ng_Long_c%E1%BB%95_tr%E1%BA%A5n_%28h%C3%B3a_trang_th%C6%B0_sinh%29.jpg",
@@ -185,7 +210,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Dong-ho-rat-wedding.jpg",
@@ -197,24 +227,44 @@
       "artist": "Unknown artisan from the village of Dong Ho.",
       "license": "Public domain",
       "width": "500",
-      "height": "323"
+      "height": "323",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Vietnam Museum of Ethnology",
       "url": "https://www.vme.org.vn/en/exhibition/dong-ho-painting",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "National Museum of Vietnamese History",
       "url": "https://www.nmvh.gov.vn",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Met",
       "url": "https://www.metmuseum.org/toah/hd/dong/hodong.htm",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -250,42 +300,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:58:20.780Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Dong Ho folk woodblock prints",
-      "url": "https://en.wikipedia.org/wiki/Dong_Ho_folk_woodblock_prints",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Dong Ho folk woodblock prints — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Dong%20Ho%20folk%20woodblock%20prints%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Dong Ho folk woodblock prints — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Dong%20Ho%20folk%20woodblock%20prints",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Dong Ho folk woodblock prints — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Dong%20Ho%20folk%20woodblock%20prints",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Dong Ho folk woodblock prints — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Dong%20Ho%20folk%20woodblock%20prints%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Dong Ho folk woodblock prints — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Dong%20Ho%20folk%20woodblock%20prints%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1923756",

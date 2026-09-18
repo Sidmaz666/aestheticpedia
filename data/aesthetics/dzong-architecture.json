@@ -127,7 +127,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "681"
+      "height": "681",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/PunakhaDzong.jpg/1280px-PunakhaDzong.jpg",
@@ -137,7 +142,12 @@
       "caption": "PunakhaDzong",
       "source": "Wikimedia Commons",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Simtokha_Dzong_20080907.jpg/1280px-Simtokha_Dzong_20080907.jpg",
@@ -151,7 +161,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "846"
+      "height": "846",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Bhutan_architecture_dzong_courtyard.jpg/1280px-Bhutan_architecture_dzong_courtyard.jpg",
@@ -165,7 +180,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "1917"
+      "height": "1917",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Tibet_Gyantse.jpg/1280px-Tibet_Gyantse.jpg",
@@ -179,7 +199,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "914"
+      "height": "914",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/TrongsaDzong.jpg/1280px-TrongsaDzong.jpg",
@@ -191,7 +216,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Wangdue_Phodrang_Dzong.jpg",
@@ -205,7 +235,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1152",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Bhutan_architecture_dzong_roof.jpg/1280px-Bhutan_architecture_dzong_roof.jpg",
@@ -219,24 +254,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Bhutan Preservation Initiative",
       "url": "https://bhutanpreservation.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -272,42 +327,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:58:28.496Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Dzong Architecture",
-      "url": "https://en.wikipedia.org/wiki/Dzong_Architecture",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Dzong Architecture — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Dzong%20Architecture%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Dzong Architecture — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Dzong%20Architecture",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Dzong Architecture — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Dzong%20Architecture",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Dzong Architecture — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Dzong%20Architecture%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Dzong Architecture — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Dzong%20Architecture%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q386952",

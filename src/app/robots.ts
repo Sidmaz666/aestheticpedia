@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next'
-import { SITE_URL } from '@/lib/formats'
+import { SITE_URL } from '@/lib/site'
 
 // Open to search engines and AI crawlers alike — the content is openly licensed.
 export default function robots(): MetadataRoute.Robots {

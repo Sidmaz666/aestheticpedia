@@ -133,19 +133,34 @@
       "license": "GPL",
       "licenseUrl": "http://www.gnu.org/licenses/gpl.html",
       "width": "1009",
-      "height": "343"
+      "height": "343",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Webring",
       "url": "https://en.wikipedia.org/wiki/Webring",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "88x31 badge archive (cambrian era)",
       "url": "https://cyber.dabamos.de/88x31",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -183,46 +198,15 @@
       }
     },
     {
-      "type": "article",
-      "title": "Wikipedia — 88x31 Badges & Webrings",
-      "url": "https://en.wikipedia.org/wiki/88x31_Badges_%26_Webrings",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "88x31 Badges & Webrings — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=88x31%20Badges%20%26%20Webrings%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "88x31 Badges & Webrings — academic literature",
-      "url": "https://scholar.google.com/scholar?q=88x31%20Badges%20%26%20Webrings",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "88x31 Badges & Webrings — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=88x31%20Badges%20%26%20Webrings",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "88x31 Badges & Webrings — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=88x31%20Badges%20%26%20Webrings%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "88x31 Badges & Webrings — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=88x31%20Badges%20%26%20Webrings%20aesthetic%20examples",
-      "note": "Google Images search"
-    },
-    {
       "type": "web",
       "title": "Aesthetics Wiki — 88x31 Badges & Webrings",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=88x31%20Badges%20%26%20Webrings",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q1432432",

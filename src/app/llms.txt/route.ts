@@ -1,4 +1,4 @@
-import { SITE_URL } from '@/lib/formats'
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from '@/lib/site'
 import { getCategoryOverview, listIndex } from '@/lib/queries'
 
 export const revalidate = 3600
@@ -11,7 +11,7 @@ export async function GET() {
     if (!byCat.has(a.category)) byCat.set(a.category, [])
     byCat.get(a.category)!.push(a)
   }
-  const body = `# Aestheticpedia
+  const body = `# ${SITE_NAME}
 
 > The open encyclopedia of the world's aesthetics: ${index.length.toLocaleString('en')} records covering art movements, architectural styles, cultural traditions, crafts, dress, sacred art, subcultures and internet aesthetics — each with description, cultural context, palette, visual grammar, typography, materials, relations, freely licensed images (with credits) and cited sources. Text is CC BY-SA 4.0.
 

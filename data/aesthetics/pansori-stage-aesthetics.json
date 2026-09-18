@@ -121,57 +121,35 @@
     {
       "name": "National Center for Korean Traditional Performing Arts",
       "url": "https://www.ncktpa.go.kr",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Korean Cultural Heritage Administration",
       "url": "https://www.cha.go.kr",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The National Museum of Korea",
       "url": "https://www.museum.go.kr",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Pansori Stage Aesthetics",
-      "url": "https://en.wikipedia.org/wiki/Pansori_Stage_Aesthetics",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Pansori Stage Aesthetics — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Pansori%20Stage%20Aesthetics%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Pansori Stage Aesthetics — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Pansori%20Stage%20Aesthetics",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Pansori Stage Aesthetics — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Pansori%20Stage%20Aesthetics",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Pansori Stage Aesthetics — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Pansori%20Stage%20Aesthetics%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Pansori Stage Aesthetics — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Pansori%20Stage%20Aesthetics%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 65,
   "isNiche": false,
   "dataQuality": "well_documented",

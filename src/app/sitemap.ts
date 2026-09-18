@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next'
-import { SITE_URL } from '@/lib/formats'
+import { SITE_URL } from '@/lib/site'
 import { listIndex } from '@/lib/queries'
 
 export const revalidate = 3600
@@ -7,7 +7,7 @@ export const revalidate = 3600
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const index = await listIndex()
   const now = new Date()
-  const pages = ['', '/aesthetics', '/timeline', '/discover', '/blend', '/data', '/about'].map((p) => ({
+  const pages = ['', '/aesthetics', '/timeline', '/connections', '/colors', '/discover', '/blend', '/data', '/about'].map((p) => ({
     url: `${SITE_URL}${p}`,
     lastModified: now,
     changeFrequency: 'weekly' as const,

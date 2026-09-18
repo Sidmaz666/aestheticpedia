@@ -4,6 +4,7 @@ import { AestheticCard } from '@/components/aesthetic/card'
 import { HeroWall } from '@/components/site/hero-wall'
 import { SearchTrigger } from '@/components/site/search-trigger'
 import { getCategoryOverview, getShowcase, getStats } from '@/lib/queries'
+import { CONTRIBUTING_URL, SITE_TAGLINE } from '@/lib/site'
 
 export const revalidate = 3600
 
@@ -21,8 +22,8 @@ export default async function Home() {
         <div className="absolute inset-x-0 bottom-0 -z-10 h-48 bg-gradient-to-t from-bg to-transparent" aria-hidden />
 
         <div className="mx-auto flex min-h-[92svh] max-w-[1600px] flex-col items-center justify-center px-4 py-24 text-center sm:px-6 lg:px-10">
-          <p className="eyebrow animate-fade-up">The open encyclopedia of aesthetics</p>
-          <h1 className="display mt-6 max-w-5xl animate-fade-up text-[clamp(3.4rem,9vw,8.5rem)] [animation-delay:80ms]">
+          <p className="eyebrow animate-fade-up">{SITE_TAGLINE}</p>
+          <h1 data-split className="display mt-6 max-w-5xl animate-fade-up text-[clamp(3.4rem,9vw,8.5rem)] [animation-delay:80ms]">
             Every way the world has chosen to look.
           </h1>
           <p className="mt-6 max-w-2xl animate-fade-up text-lg leading-relaxed text-fg-muted [animation-delay:160ms]">
@@ -47,7 +48,9 @@ export default async function Home() {
             ].map(([k, v]) => (
               <div key={k as string}>
                 <dt className="eyebrow">{k}</dt>
-                <dd className="display mt-1 text-4xl sm:text-5xl">{fmt(v as number)}</dd>
+                <dd className="display mt-1 text-4xl sm:text-5xl" data-count={v as number}>
+                  {fmt(v as number)}
+                </dd>
               </div>
             ))}
           </dl>
@@ -65,7 +68,7 @@ export default async function Home() {
             All {fmt(stats.total)} records →
           </Link>
         </div>
-        <ul className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+        <ul data-reveal-group className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
           {categories.map((c) => (
             <li key={c.name}>
               <Link
@@ -99,7 +102,7 @@ export default async function Home() {
           <p className="eyebrow">Selected</p>
           <h2 id="featured-title" className="display mt-2 text-5xl sm:text-6xl">From the vault</h2>
         </div>
-        <div className="no-scrollbar mt-10 flex snap-x gap-4 overflow-x-auto px-4 pb-2 sm:px-6 lg:px-10">
+        <div data-reveal-group className="no-scrollbar mt-10 flex snap-x gap-4 overflow-x-auto px-4 pb-2 sm:px-6 lg:px-10">
           {showcase.slice(0, 18).map((a, i) => (
             <div key={a.slug} className="w-64 shrink-0 snap-start sm:w-72">
               <AestheticCard a={a} variant="rail" priority={i < 4} />
@@ -109,7 +112,7 @@ export default async function Home() {
       </section>
 
       {/* ---------- Ways in ---------- */}
-      <section className="mx-auto grid max-w-[1600px] gap-4 px-4 pt-24 sm:px-6 md:grid-cols-3 lg:px-10">
+      <section data-reveal-group className="mx-auto grid max-w-[1600px] gap-4 px-4 pt-24 sm:px-6 md:grid-cols-3 lg:px-10">
         {[
           { href: '/timeline', title: 'Timeline', text: 'Walk from prehistoric craft to post-internet style, era by era.' },
           { href: '/discover', title: 'Discover', text: 'Describe a feeling — minimal, warm, loud, nostalgic — and find the aesthetics that match.' },
@@ -125,7 +128,7 @@ export default async function Home() {
 
       {/* ---------- Open by design ---------- */}
       <section className="mx-auto max-w-[1600px] px-4 pt-24 sm:px-6 lg:px-10" aria-labelledby="open-title">
-        <div className="grid gap-10 rounded-3xl border border-line bg-surface p-8 sm:p-12 lg:grid-cols-[1fr_1.1fr]">
+        <div data-reveal className="grid gap-10 rounded-3xl border border-line bg-surface p-8 sm:p-12 lg:grid-cols-[1fr_1.1fr]">
           <div>
             <p className="eyebrow">Open by design</p>
             <h2 id="open-title" className="display mt-2 text-5xl sm:text-6xl">Built to be reused — by people and by machines.</h2>
@@ -138,7 +141,7 @@ export default async function Home() {
                 Data & API <ArrowRight className="size-4" aria-hidden />
               </Link>
               <a
-                href="https://github.com/siddmazak/aestheticpedia/blob/main/CONTRIBUTING.md"
+                href={CONTRIBUTING_URL || '/about'}
                 className="flex h-11 items-center gap-2 rounded-full border border-line-strong px-5 text-sm text-fg-muted hover:text-fg"
               >
                 <GitPullRequest className="size-4" aria-hidden /> Contribute

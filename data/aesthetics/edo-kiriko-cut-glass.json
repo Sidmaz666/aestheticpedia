@@ -125,7 +125,12 @@
       "date": "25 August 2007 (original upload date)",
       "license": "Public domain",
       "width": "640",
-      "height": "480"
+      "height": "480",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Edokiriko_sold_in_Kanagawa_-_Sept_2024.jpeg/1280px-Edokiriko_sold_in_Kanagawa_-_Sept_2024.jpeg",
@@ -139,7 +144,12 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/41b0cc6b-a4ed-5367-1450-595565f077a8/full/843,/0/default.jpg",
@@ -153,7 +163,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1091"
+      "height": "1091",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/d2c58ddb-d9c2-1e4a-bf7f-22c206883ead/full/843,/0/default.jpg",
@@ -167,7 +182,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1124"
+      "height": "1124",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/fc361495-826f-3ef9-32d3-da3eac34c34a/full/843,/0/default.jpg",
@@ -181,7 +201,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "948"
+      "height": "948",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/2b923635-7f1b-7034-b0e8-d5a3d3287716/full/843,/0/default.jpg",
@@ -195,7 +220,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1083"
+      "height": "1083",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/05b92ed2-3d64-6e05-adef-d4a3e4176183/full/843,/0/default.jpg",
@@ -209,7 +239,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "482"
+      "height": "482",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/93e69501-592a-317e-9069-d35b05081641/full/843,/0/default.jpg",
@@ -223,24 +258,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "514"
+      "height": "514",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Edo Kiriko Museum",
       "url": "https://www.edokiriko.jp",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Japanese Cut Glass: Edo Kiriko",
       "url": "https://www.japan-guide.com/e/e4002.html",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Edo Kiriko: Traditional Japanese Glassware",
       "url": "https://www.tokyo-top-info.com/edo-kiriko/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -276,42 +331,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:58:58.919Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Edo Kiriko Cut Glass",
-      "url": "https://en.wikipedia.org/wiki/Edo_Kiriko_Cut_Glass",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Edo Kiriko Cut Glass — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Edo%20Kiriko%20Cut%20Glass%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Edo Kiriko Cut Glass — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Edo%20Kiriko%20Cut%20Glass",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Edo Kiriko Cut Glass — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Edo%20Kiriko%20Cut%20Glass",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Edo Kiriko Cut Glass — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Edo%20Kiriko%20Cut%20Glass%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Edo Kiriko Cut Glass — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Edo%20Kiriko%20Cut%20Glass%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q11550994",

@@ -128,7 +128,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Adire_Market_Week.jpg/1280px-Adire_Market_Week.jpg",
@@ -142,7 +147,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Maiden_yoruba_outfit.jpg/1280px-Maiden_yoruba_outfit.jpg",
@@ -156,7 +166,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "2276"
+      "height": "2276",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Tie_and_Dye_to_the_rescue_%28Adire%29.jpg/1280px-Tie_and_Dye_to_the_rescue_%28Adire%29.jpg",
@@ -170,7 +185,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "851"
+      "height": "851",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Aso_Oniko.jpg",
@@ -184,7 +204,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "960",
-      "height": "720"
+      "height": "720",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Teinture_naturelle_Millepertuis_2.jpg",
@@ -197,24 +222,44 @@
       "date": "2007-05-20",
       "license": "Public domain",
       "width": "599",
-      "height": "799"
+      "height": "799",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "National Museum of African Art",
       "url": "https://africa.si.edu",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Adire: Cloth, Culture and History",
       "url": "https://www.nationalmuseumoffolkart.org.ng",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Yoruba Textiles",
       "url": "https://www.metmuseum.org/toah/hd/adir/hd_adir.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -250,42 +295,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:53:37.837Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Adire Eleko",
-      "url": "https://en.wikipedia.org/wiki/Adire_Eleko",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Adire Eleko — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Adire%20Eleko%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Adire Eleko — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Adire%20Eleko",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Adire Eleko — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Adire%20Eleko",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Adire Eleko — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Adire%20Eleko%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Adire Eleko — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Adire%20Eleko%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q11684439",

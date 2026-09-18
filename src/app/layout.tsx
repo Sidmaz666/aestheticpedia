@@ -5,7 +5,9 @@ import './globals.css'
 import { Providers } from '@/components/providers'
 import { SiteFooter } from '@/components/site/footer'
 import { SiteHeader } from '@/components/site/header'
-import { SITE_URL } from '@/lib/formats'
+import { Motion } from '@/components/site/motion'
+import { MOTION_BOOT } from '@/lib/motion-boot'
+import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL, TWITTER_HANDLE } from '@/lib/site'
 
 const geist = Geist({ variable: '--font-geist', subsets: ['latin'], display: 'swap' })
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'], display: 'swap' })
@@ -17,17 +19,16 @@ const display = Instrument_Serif({
   display: 'swap',
 })
 
-const description =
-  'The open encyclopedia of the world’s aesthetics — art movements, architectural styles, cultural traditions, crafts, subcultures and internet aesthetics, each with real images, palettes, sources and a free API.'
+const description = SITE_DESCRIPTION
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: 'Aestheticpedia — the open encyclopedia of aesthetics', template: '%s · Aestheticpedia' },
+  title: { default: `${SITE_NAME} — ${SITE_TAGLINE}`, template: `%s · ${SITE_NAME}` },
   description,
-  applicationName: 'Aestheticpedia',
+  applicationName: SITE_NAME,
   keywords: ['aesthetics', 'art movements', 'architectural styles', 'visual culture', 'design history', 'color palettes', 'moodboard', 'open data'],
-  openGraph: { type: 'website', siteName: 'Aestheticpedia', title: 'Aestheticpedia', description, url: SITE_URL },
-  twitter: { card: 'summary_large_image', title: 'Aestheticpedia', description },
+  openGraph: { type: 'website', siteName: SITE_NAME, title: SITE_NAME, description, url: SITE_URL },
+  twitter: { card: 'summary_large_image', title: SITE_NAME, description, ...(TWITTER_HANDLE ? { site: TWITTER_HANDLE } : {}) },
   alternates: {
     canonical: '/',
     types: {
@@ -48,7 +49,7 @@ export const viewport: Viewport = {
 const siteJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Aestheticpedia',
+  name: SITE_NAME,
   url: SITE_URL,
   description,
   inLanguage: 'en',
@@ -64,6 +65,7 @@ export default function RootLayout({ children, modal }: { children: ReactNode; m
   return (
     <html lang="en" suppressHydrationWarning className={`${geist.variable} ${geistMono.variable} ${display.variable}`}>
       <head>
+        <script dangerouslySetInnerHTML={{ __html: MOTION_BOOT }} />
         <link rel="preconnect" href="https://upload.wikimedia.org" />
         <link rel="preconnect" href="https://thumb.wikimedia.org" />
         <link rel="alternate" type="text/markdown" href="/llms.txt" title="LLM-readable index" />
@@ -83,6 +85,7 @@ export default function RootLayout({ children, modal }: { children: ReactNode; m
           </div>
           <SiteFooter />
           {modal}
+          <Motion />
         </Providers>
       </body>
     </html>

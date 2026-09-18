@@ -133,7 +133,12 @@
       "date": "18th century cloth, collected in 1817",
       "license": "Public domain",
       "width": "730",
-      "height": "894"
+      "height": "894",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Adinkra_1825.jpg/1280px-Adinkra_1825.jpg",
@@ -146,7 +151,12 @@
       "date": "1825",
       "license": "Public domain",
       "width": "1280",
-      "height": "983"
+      "height": "983",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/NtonsoAdinkra.jpg",
@@ -160,7 +170,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "576",
-      "height": "386"
+      "height": "386",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/AdinkraCalabashStamps.jpg",
@@ -174,7 +189,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "648",
-      "height": "397"
+      "height": "397",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Adinkra_Rattray.JPG",
@@ -187,7 +207,12 @@
       "date": "1927",
       "license": "Public domain",
       "width": "803",
-      "height": "1302"
+      "height": "1302",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Adinkra_Alphabet_2024update.png/1280px-Adinkra_Alphabet_2024update.png",
@@ -201,19 +226,34 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1832"
+      "height": "1832",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Manhyia Palace Museum",
       "url": "https://www.manhyiapalace.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Adinkra Symbols of Ghana",
       "url": "https://www.adinkrasymbols.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Asante Textiles",
@@ -258,37 +298,12 @@
       "type": "article",
       "title": "Wikipedia — Adinkra",
       "url": "https://en.wikipedia.org/wiki/Adinkra",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Adinkra — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Adinkra%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Adinkra — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Adinkra",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Adinkra — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Adinkra",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Adinkra — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Adinkra%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Adinkra — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Adinkra%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q357360",

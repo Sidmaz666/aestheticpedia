@@ -174,7 +174,12 @@
       "date": "1970-09",
       "license": "Public domain",
       "width": "1280",
-      "height": "1919"
+      "height": "1919",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/2005newsprint.PNG/1280px-2005newsprint.PNG",
@@ -188,7 +193,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "561"
+      "height": "561",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Blackout_Poetry_PTSD_Veteran_Suicides_%2817101138862%29.jpg",
@@ -202,7 +212,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "939",
-      "height": "1533"
+      "height": "1533",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Bundesarchiv_Bild_102-14386%2C_Produktion_von_Zeitungspapier.jpg",
@@ -216,7 +231,12 @@
       "license": "CC BY-SA 3.0 de",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
       "width": "798",
-      "height": "555"
+      "height": "555",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Interior_view_of_warehouse_showing_workmen_positioning_newsprint_rolls_%287974679524%29.jpg",
@@ -230,7 +250,12 @@
       "license": "No restrictions",
       "licenseUrl": "https://www.flickr.com/commons/usage/",
       "width": "709",
-      "height": "578"
+      "height": "578",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Interior_view_of_warehouse_showing_workmen_positioning_newsprint_rolls_%287974679702%29.jpg",
@@ -244,7 +269,12 @@
       "license": "No restrictions",
       "licenseUrl": "https://www.flickr.com/commons/usage/",
       "width": "709",
-      "height": "599"
+      "height": "599",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Interior_view_of_warehouse_showing_workmen_positioning_newsprint_rolls_%287974679803%29.jpg",
@@ -258,7 +288,12 @@
       "license": "No restrictions",
       "licenseUrl": "https://www.flickr.com/commons/usage/",
       "width": "709",
-      "height": "579"
+      "height": "579",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Interior_view_of_warehouse_showing_workmen_positioning_newsprint_rolls_%287974679836%29.jpg",
@@ -272,7 +307,12 @@
       "license": "No restrictions",
       "licenseUrl": "https://www.flickr.com/commons/usage/",
       "width": "709",
-      "height": "579"
+      "height": "579",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/L%C3%B6schen_einer_Papierladung_aus_einem_Frachter_BALTAVIA_im_Nordhafen_%28Kiel_12.844%29.jpg",
@@ -286,7 +326,12 @@
       "license": "CC BY-SA 3.0 de",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
       "width": "1024",
-      "height": "674"
+      "height": "674",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/L%C3%B6schen_einer_Papierladung_aus_einem_Frachter_BALTAVIA_im_Nordhafen_%28Kiel_12.846%29.jpg",
@@ -300,24 +345,44 @@
       "license": "CC BY-SA 3.0 de",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
       "width": "1024",
-      "height": "1543"
+      "height": "1543",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Printing Museum",
       "url": "https://www.printingmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Newsprint",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Paper Science",
       "url": "https://www.papercourses.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -351,50 +416,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:07:17.980Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "web",
-      "title": "History of Newspaper Design",
-      "url": "https://www.google.com/search?q=History%20of%20Newspaper%20Design",
-      "note": "Web search"
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Newsprint Grey",
-      "url": "https://en.wikipedia.org/wiki/Newsprint_Grey",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Newsprint Grey — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Newsprint%20Grey%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Newsprint Grey — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Newsprint%20Grey",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Newsprint Grey — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Newsprint%20Grey",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Newsprint Grey — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Newsprint%20Grey%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Newsprint Grey — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Newsprint%20Grey%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q187046",

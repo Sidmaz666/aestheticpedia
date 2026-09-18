@@ -129,7 +129,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "422"
+      "height": "422",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Dctjpeg.png",
@@ -142,7 +147,12 @@
       "date": "25 January 2007 (original upload date)",
       "license": "Public domain",
       "width": "584",
-      "height": "584"
+      "height": "584",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Lichtenstein_jpeg_difference.png",
@@ -156,7 +166,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "512",
-      "height": "512"
+      "height": "512",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Lichtenstein_img_processing_test.png",
@@ -170,7 +185,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "512",
-      "height": "512"
+      "height": "512",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Visual_impact_of_a_jpeg_compression_on_Photoshop.jpg",
@@ -184,7 +204,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1220",
-      "height": "920"
+      "height": "920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/JPS-sample.jpg/1280px-JPS-sample.jpg",
@@ -198,24 +223,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "372"
+      "height": "372",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia: JPEG",
       "url": "https://en.wikipedia.org/wiki/JPEG",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Digital Photography Review: JPEG Quality",
       "url": "https://dpnow.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Aesthetics Wiki: JPEG",
       "url": "https://aesthetics.fandom.com/wiki/JPEG",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -249,44 +294,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:03:03.083Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — JPEG Blockiness",
-      "url": "https://en.wikipedia.org/wiki/JPEG_Blockiness",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "JPEG Blockiness — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=JPEG%20Blockiness%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "JPEG Blockiness — academic literature",
-      "url": "https://scholar.google.com/scholar?q=JPEG%20Blockiness",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "JPEG Blockiness — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=JPEG%20Blockiness",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "JPEG Blockiness — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=JPEG%20Blockiness%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "JPEG Blockiness — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=JPEG%20Blockiness%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q2195",

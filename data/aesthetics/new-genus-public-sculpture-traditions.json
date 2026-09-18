@@ -179,7 +179,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1054"
+      "height": "1054",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/3265677e-4e82-3d16-22a7-6a7621df3193/full/843,/0/default.jpg",
@@ -193,7 +198,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1262"
+      "height": "1262",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/70f69d6a-2cac-0e55-9913-7027ca19f5cb/full/843,/0/default.jpg",
@@ -207,70 +217,47 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1375"
+      "height": "1375",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Americans for the Arts",
       "url": "https://www.americansforthearts.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Public Art Archive",
       "url": "https://www.publicartarchive.org",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Artplace America",
       "url": "https://artplaceamerica.org",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "web",
-      "title": "Sculpture.org - New Genre Public Art",
-      "url": "https://www.google.com/search?q=Sculpture.org%20-%20New%20Genre%20Public%20Art",
-      "note": "Web search"
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — New Genus Public Sculpture Traditions",
-      "url": "https://en.wikipedia.org/wiki/New_Genus_Public_Sculpture_Traditions",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "New Genus Public Sculpture Traditions — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=New%20Genus%20Public%20Sculpture%20Traditions%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "New Genus Public Sculpture Traditions — academic literature",
-      "url": "https://scholar.google.com/scholar?q=New%20Genus%20Public%20Sculpture%20Traditions",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "New Genus Public Sculpture Traditions — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=New%20Genus%20Public%20Sculpture%20Traditions",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "New Genus Public Sculpture Traditions — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=New%20Genus%20Public%20Sculpture%20Traditions%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "New Genus Public Sculpture Traditions — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=New%20Genus%20Public%20Sculpture%20Traditions%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 80,
   "isNiche": false,
   "dataQuality": "moderately_documented",

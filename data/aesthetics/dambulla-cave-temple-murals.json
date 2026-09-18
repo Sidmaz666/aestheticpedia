@@ -128,7 +128,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "1149"
+      "height": "1149",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Dambulla-outside.jpg",
@@ -142,7 +147,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1125",
-      "height": "1500"
+      "height": "1500",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Dambulla-buddha.jpg/1280px-Dambulla-buddha.jpg",
@@ -156,7 +166,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Sri_Lanka_-_Golden_tample_off_Dambula_-_Boudha_couch%C3%A9.JPEG/1280px-Sri_Lanka_-_Golden_tample_off_Dambula_-_Boudha_couch%C3%A9.JPEG",
@@ -170,7 +185,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Dhambulla_Cave_Interior_9.JPG",
@@ -181,7 +201,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "480",
-      "height": "640"
+      "height": "640",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Sleeping_Buddha_SLDCT2019_AS.jpg/1280px-Sleeping_Buddha_SLDCT2019_AS.jpg",
@@ -195,7 +220,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Dambulla_01.jpg/1280px-Dambulla_01.jpg",
@@ -209,7 +239,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Golden_temple_dambulla.jpg",
@@ -223,24 +258,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1024",
-      "height": "765"
+      "height": "765",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/401",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Department of Archaeology Sri Lanka",
       "url": "https://www.archaeology.gov.lk",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Dambulla Temple Official Guide",
       "url": "https://www.dambulla.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -276,42 +331,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:58:05.223Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Dambulla Cave Temple Murals",
-      "url": "https://en.wikipedia.org/wiki/Dambulla_Cave_Temple_Murals",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Dambulla Cave Temple Murals — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Dambulla%20Cave%20Temple%20Murals%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Dambulla Cave Temple Murals — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Dambulla%20Cave%20Temple%20Murals",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Dambulla Cave Temple Murals — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Dambulla%20Cave%20Temple%20Murals",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Dambulla Cave Temple Murals — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Dambulla%20Cave%20Temple%20Murals%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Dambulla Cave Temple Murals — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Dambulla%20Cave%20Temple%20Murals%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q45690",

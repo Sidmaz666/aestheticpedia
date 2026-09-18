@@ -141,57 +141,35 @@
     {
       "name": "Met Museum Heilbrunn Timeline",
       "url": "https://www.metmuseum.org/toah",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "UNESCO World Heritage",
       "url": "https://whc.unesco.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Central Asian Craft Traditions",
       "url": "https://www.centralasiancrafts.org",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Ganch Plasterwork",
-      "url": "https://en.wikipedia.org/wiki/Ganch_Plasterwork",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Ganch Plasterwork — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Ganch%20Plasterwork%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Ganch Plasterwork — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Ganch%20Plasterwork",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Ganch Plasterwork — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Ganch%20Plasterwork",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Ganch Plasterwork — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Ganch%20Plasterwork%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Ganch Plasterwork — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Ganch%20Plasterwork%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 55,
   "isNiche": true,
   "dataQuality": "well_documented",

@@ -175,7 +175,12 @@
       "date": "1784 date QS:P571,+1784-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "992"
+      "height": "992",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Rome_Fontana_dei_Quattro_Fiumi_01.jpg",
@@ -186,7 +191,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "1073",
-      "height": "1417"
+      "height": "1417",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Classicism_door_in_Olomouc.jpg",
@@ -200,7 +210,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1263",
-      "height": "2165"
+      "height": "2165",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Moli%C3%A8re_-_Nicolas_Mignard_%281658%29.jpg/1280px-Moli%C3%A8re_-_Nicolas_Mignard_%281658%29.jpg",
@@ -211,7 +226,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "1280",
-      "height": "1599"
+      "height": "1599",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Villa_Rotonda_front.jpg",
@@ -225,7 +245,12 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "890",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Royal_Oak.png",
@@ -239,24 +264,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "726",
-      "height": "524"
+      "height": "524",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Metropolitan Museum of Art",
       "url": "https://www.metmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Neoclassical Architecture - Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Neoclassical_architecture",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "The Art Story",
       "url": "https://www.theartstory.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -297,37 +342,12 @@
       "type": "article",
       "title": "Wikipedia — Neoclassical",
       "url": "https://en.wikipedia.org/wiki/Neoclassical",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Neoclassical — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Neoclassical%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Neoclassical — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Neoclassical",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Neoclassical — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Neoclassical",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Neoclassical — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Neoclassical%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Neoclassical — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Neoclassical%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q170292",

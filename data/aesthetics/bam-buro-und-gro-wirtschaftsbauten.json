@@ -114,57 +114,35 @@
     {
       "name": "Deutsches Architektur Museum",
       "url": "https://dam-online.de",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Baunetz",
       "url": "https://www.baunetz.de",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — BAM (Büro- und Großwirtschaftsbauten)",
-      "url": "https://en.wikipedia.org/wiki/BAM_(B%C3%BCro-_und_Gro%C3%9Fwirtschaftsbauten)",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "BAM (Büro- und Großwirtschaftsbauten) — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=BAM%20(B%C3%BCro-%20und%20Gro%C3%9Fwirtschaftsbauten)%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "BAM (Büro- und Großwirtschaftsbauten) — academic literature",
-      "url": "https://scholar.google.com/scholar?q=BAM%20(B%C3%BCro-%20und%20Gro%C3%9Fwirtschaftsbauten)",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "BAM (Büro- und Großwirtschaftsbauten) — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=BAM%20(B%C3%BCro-%20und%20Gro%C3%9Fwirtschaftsbauten)",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "BAM (Büro- und Großwirtschaftsbauten) — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=BAM%20(B%C3%BCro-%20und%20Gro%C3%9Fwirtschaftsbauten)%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "BAM (Büro- und Großwirtschaftsbauten) — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=BAM%20(B%C3%BCro-%20und%20Gro%C3%9Fwirtschaftsbauten)%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 40,
   "isNiche": true,
   "dataQuality": "moderately_documented",

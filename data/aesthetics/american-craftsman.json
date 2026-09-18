@@ -177,7 +177,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1200",
-      "height": "804"
+      "height": "804",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Gamble_House.jpg/1280px-Gamble_House.jpg",
@@ -191,7 +196,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "854"
+      "height": "854",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Castle_in_the_Clouds.jpg/1280px-Castle_in_the_Clouds.jpg",
@@ -205,7 +215,12 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1280",
-      "height": "854"
+      "height": "854",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Edward_Schulmerich_House_2008.JPG",
@@ -218,7 +233,12 @@
       "date": "2008-03",
       "license": "Public domain",
       "width": "1024",
-      "height": "559"
+      "height": "559",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Abernathy-Shaw_House_c.1908.jpg",
@@ -232,7 +252,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1024",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/F._E._Cottrell_apartment_building%2C_exterior_views%2C_2019_-_DPLA_-_73378317f7f2dc5712dafe1f84da9eb5_%28page_3%29.jpg/1280px-F._E._Cottrell_apartment_building%2C_exterior_views%2C_2019_-_DPLA_-_73378317f7f2dc5712dafe1f84da9eb5_%28page_3%29.jpg",
@@ -246,7 +271,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Esplanade_Apartments%2C_3015_North_Pennsylvania_Street%2C_1998_%28Indianapolis%2C_Ind.%29_-_DPLA_-_caf31becf41697292ff300c7b666852a.jpg/1280px-Esplanade_Apartments%2C_3015_North_Pennsylvania_Street%2C_1998_%28Indianapolis%2C_Ind.%29_-_DPLA_-_caf31becf41697292ff300c7b666852a.jpg",
@@ -259,7 +289,12 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1280",
-      "height": "843"
+      "height": "843",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Merrill_Hall_Asilomar_edit1.jpg",
@@ -271,7 +306,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "731",
-      "height": "552"
+      "height": "552",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Big_single-family_home_2.jpg",
@@ -283,24 +323,44 @@
       "artist": "SanjibLemar",
       "license": "Public domain",
       "width": "800",
-      "height": "604"
+      "height": "604",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Smithsonian",
       "url": "https://americanhistory.si.edu/blog/craftsman-style-houses",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Old House Web",
       "url": "https://www.oldhouseweb.com/articles/craftsman-style/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Craftsman Homes",
       "url": "https://www.craftsmanhomes.com/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -336,36 +396,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:53:47.786Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "American Craftsman — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=American%20Craftsman%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "American Craftsman — academic literature",
-      "url": "https://scholar.google.com/scholar?q=American%20Craftsman",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "American Craftsman — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=American%20Craftsman",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "American Craftsman — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=American%20Craftsman%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "American Craftsman — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=American%20Craftsman%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q463382",

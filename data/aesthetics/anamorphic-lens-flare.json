@@ -131,7 +131,12 @@
       "artist": "NASA",
       "license": "Public domain",
       "width": "900",
-      "height": "905"
+      "height": "905",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Artificial_lens_flare.png",
@@ -145,7 +150,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "640",
-      "height": "480"
+      "height": "480",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/High-quality_lens_flare_rendering.png/1280px-High-quality_lens_flare_rendering.png",
@@ -159,7 +169,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Edinburgh-Princesstreet2.jpg",
@@ -171,7 +186,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "608",
-      "height": "441"
+      "height": "441",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/en/0/01/Firework_with_lens_flare.jpg",
@@ -182,7 +202,12 @@
       "source": "Wikimedia Commons",
       "license": "PD",
       "width": "1024",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Solar_eclipse_Austria_2011_Jan_04.JPG/1280px-Solar_eclipse_Austria_2011_Jan_04.JPG",
@@ -196,7 +221,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/20100525_Imbros_Marmaros_Turkey_example_of_Lens_Flare.jpg/1280px-20100525_Imbros_Marmaros_Turkey_example_of_Lens_Flare.jpg",
@@ -210,7 +240,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1117"
+      "height": "1117",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Kensington_Palace_Gardens_-_London_-_UK.jpg/1280px-Kensington_Palace_Gardens_-_London_-_UK.jpg",
@@ -224,7 +259,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Man_playing_guitar_in_a_portrait_with_lens_flare.jpg",
@@ -238,7 +278,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "853",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/MarsPerseveranceRover-Rainbow-20210404.png/1280px-MarsPerseveranceRover-Rainbow-20210404.png",
@@ -250,23 +295,25 @@
       "artist": "NASA/JPL-Caltech",
       "date": "Taken on 4 April 2021, 15:14:09",
       "width": "1280",
-      "height": "962"
+      "height": "962",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "American Cinematheque",
-      "url": "https://www.americancinematheque.com/anamorphic-lenses",
       "tier": "A"
     },
     {
       "name": "StudioBinder",
-      "url": "https://studiobinder.com/blog/what-is-anamorphic/",
       "tier": "B"
     },
     {
       "name": "Red Shark News",
-      "url": "https://www.redsharknews.com/tech/anamorphic-lenses-demystified",
       "tier": "C"
     }
   ],
@@ -303,42 +350,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:53:53.504Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Anamorphic Lens Flare",
-      "url": "https://en.wikipedia.org/wiki/Anamorphic_Lens_Flare",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Anamorphic Lens Flare — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Anamorphic%20Lens%20Flare%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Anamorphic Lens Flare — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Anamorphic%20Lens%20Flare",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Anamorphic Lens Flare — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Anamorphic%20Lens%20Flare",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Anamorphic Lens Flare — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Anamorphic%20Lens%20Flare%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Anamorphic Lens Flare — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Anamorphic%20Lens%20Flare%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q105821893",

@@ -130,7 +130,12 @@
       "date": "early 19 th century date QS:P,+1850-00-00T00:00:00Z/7,P4241,",
       "license": "Public domain",
       "width": "600",
-      "height": "940"
+      "height": "940",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/ViennaDioscoridesPlant.jpg",
@@ -143,7 +148,12 @@
       "date": "circa 512",
       "license": "Public domain",
       "width": "512",
-      "height": "639"
+      "height": "639",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Albrecht_D%C3%BCrer%2C_Tuft_of_Cowslips%2C_1526%2C_NGA_74162.jpg/1280px-Albrecht_D%C3%BCrer%2C_Tuft_of_Cowslips%2C_1526%2C_NGA_74162.jpg",
@@ -157,7 +167,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1475"
+      "height": "1475",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Electrotype-_Alois_Auer.jpg",
@@ -170,7 +185,12 @@
       "date": "1853",
       "license": "Public domain",
       "width": "679",
-      "height": "540"
+      "height": "540",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/British_19th_Century%2C_East_Indian_Lotus_%28Nelumbo_nucifera%29%2C_late_19th_century%2C_NGA_52325.jpg/1280px-British_19th_Century%2C_East_Indian_Lotus_%28Nelumbo_nucifera%29%2C_late_19th_century%2C_NGA_52325.jpg",
@@ -184,7 +204,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1634"
+      "height": "1634",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Add_22332_f85r.jpg",
@@ -198,24 +223,38 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "563",
-      "height": "800"
+      "height": "800",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Pierre-Joseph Redouté: The Raphael of Flowers",
       "url": "https://www.metmuseum.org/toah/hd/rdbt/hd_rdbt.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Redouté Botanical Prints",
-      "url": "https://www.rijksmuseum.nl/en/collection/RP-P-OB-86-6",
       "tier": "A"
     },
     {
       "name": "Pierre-Joseph Redouté",
       "url": "https://en.wikipedia.org/wiki/Pierre-Joseph_Redouté",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "references": [
@@ -251,42 +290,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:09:34.851Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Redouté Botanical Plates",
-      "url": "https://en.wikipedia.org/wiki/Redout%C3%A9_Botanical_Plates",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Redouté Botanical Plates — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Redout%C3%A9%20Botanical%20Plates%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Redouté Botanical Plates — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Redout%C3%A9%20Botanical%20Plates",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Redouté Botanical Plates — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Redout%C3%A9%20Botanical%20Plates",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Redouté Botanical Plates — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Redout%C3%A9%20Botanical%20Plates%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Redouté Botanical Plates — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Redout%C3%A9%20Botanical%20Plates%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q3796486",

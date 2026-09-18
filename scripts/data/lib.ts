@@ -57,7 +57,18 @@ export function loadLibrary() {
 function atomicWrite(file: string, text: string) {
   const tmp = `${file}.tmp`
   writeFileSync(tmp, text)
-  renameSync(tmp, file)
+  // Windows: watchers/antivirus can briefly lock the target — retry, then fall back to a direct write.
+  for (let i = 0; i < 8; i++) {
+    try {
+      renameSync(tmp, file)
+      return
+    } catch (e) {
+      if ((e as NodeJS.ErrnoException).code !== 'EPERM' && (e as NodeJS.ErrnoException).code !== 'EBUSY') throw e
+      Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 50 * (i + 1))
+    }
+  }
+  writeFileSync(file, text)
+  unlinkSync(tmp)
 }
 
 /** Write one record to data/aesthetics/<slug>.json (renaming the file if the slug changed). */
@@ -85,7 +96,7 @@ export function saveLibrary(aesthetics: AestheticRecord[], relations?: RelationR
 export const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
 export const USER_AGENT =
-  'Aestheticpedia/1.0 (https://github.com/siddmazak/aestheticpedia; open aesthetics encyclopedia) node'
+  'Aestheticpedia/1.0 (https://github.com/Sidmaz666/aestheticpedia; open aesthetics encyclopedia) node'
 
 /** fetch JSON with retry/backoff on 429/5xx. */
 export async function getJSON<T = any>(url: string, tries = 5, init: RequestInit = {}): Promise<T> {

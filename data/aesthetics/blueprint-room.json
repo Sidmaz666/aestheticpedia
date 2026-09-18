@@ -122,17 +122,32 @@
     {
       "name": "ArchDaily - Monochrome Interiors",
       "url": "https://www.archdaily.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Dezeen - Blue Interior Design",
       "url": "https://www.dezeen.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 206,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Pinterest - Blue Interior Trends",
       "url": "https://www.pinterest.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -157,42 +172,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:55:25.365Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Blueprint Room",
-      "url": "https://en.wikipedia.org/wiki/Blueprint_Room",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Blueprint Room — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Blueprint%20Room%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Blueprint Room — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Blueprint%20Room",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Blueprint Room — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Blueprint%20Room",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Blueprint Room — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Blueprint%20Room%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Blueprint Room — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Blueprint%20Room%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1110592",

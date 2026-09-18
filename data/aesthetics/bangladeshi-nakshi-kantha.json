@@ -125,7 +125,12 @@
       "date": "2008-11-07",
       "license": "Public domain",
       "width": "1280",
-      "height": "1301"
+      "height": "1301",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Kantha_%28Quilt%29_LACMA_AC1994.131.1.jpg/1280px-Kantha_%28Quilt%29_LACMA_AC1994.131.1.jpg",
@@ -137,7 +142,12 @@
       "date": "19 th century date QS:P571,+1850-00-00T00:00:00Z/7",
       "license": "Public domain",
       "width": "1280",
-      "height": "944"
+      "height": "944",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Embroidery_bangla.jpg/1280px-Embroidery_bangla.jpg",
@@ -151,7 +161,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1004"
+      "height": "1004",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Lotus_motif.JPG",
@@ -164,7 +179,12 @@
       "date": "2008-11-07",
       "license": "Public domain",
       "width": "480",
-      "height": "480"
+      "height": "480",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Kalka_motif.JPG/1280px-Kalka_motif.JPG",
@@ -177,7 +197,12 @@
       "date": "2008-11-11",
       "license": "Public domain",
       "width": "1280",
-      "height": "930"
+      "height": "930",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Nakshi_kantha_%28Flower_motif%29.JPG/1280px-Nakshi_kantha_%28Flower_motif%29.JPG",
@@ -190,7 +215,12 @@
       "date": "11 November",
       "license": "Public domain",
       "width": "1280",
-      "height": "1763"
+      "height": "1763",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Kantha_border1.JPG",
@@ -203,7 +233,12 @@
       "date": "2008-10-30",
       "license": "Public domain",
       "width": "1254",
-      "height": "3072"
+      "height": "3072",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Kantha_border3.JPG/1280px-Kantha_border3.JPG",
@@ -216,7 +251,12 @@
       "date": "2008-10-30",
       "license": "Public domain",
       "width": "1280",
-      "height": "2691"
+      "height": "2691",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Kantha_border2.JPG",
@@ -229,7 +269,12 @@
       "date": "30 October",
       "license": "Public domain",
       "width": "1260",
-      "height": "3018"
+      "height": "3018",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Thomas_hickey%2C_donna_indiana%2C_forse_jemdanee%2C_bibi_di_william_hickey%2C_1787_%28cropped%29.jpg/1280px-Thomas_hickey%2C_donna_indiana%2C_forse_jemdanee%2C_bibi_di_william_hickey%2C_1787_%28cropped%29.jpg",
@@ -243,24 +288,44 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "1021"
+      "height": "1021",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Nakshi Kantha: Embroidered Quilts of Bangladesh",
       "url": "https://www.loc.gov/item/2016630236/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Bangladeshi Nakshi Kantha",
       "url": "https://en.wikipedia.org/wiki/Nakshi_kantha",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Nakshi Kantha Tradition",
       "url": "https://www.bangladesh.gov.bd/culture/nakshi-kantha-tradition",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -294,44 +359,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T04:54:36.573Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Bangladeshi nakshi kantha",
-      "url": "https://en.wikipedia.org/wiki/Bangladeshi_nakshi_kantha",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Bangladeshi nakshi kantha — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Bangladeshi%20nakshi%20kantha%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Bangladeshi nakshi kantha — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Bangladeshi%20nakshi%20kantha",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Bangladeshi nakshi kantha — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Bangladeshi%20nakshi%20kantha",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Bangladeshi nakshi kantha — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Bangladeshi%20nakshi%20kantha%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Bangladeshi nakshi kantha — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Bangladeshi%20nakshi%20kantha%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q6960716",

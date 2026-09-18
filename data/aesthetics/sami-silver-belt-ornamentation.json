@@ -133,7 +133,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "632"
+      "height": "632",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/7e5f12f4-14ec-a8b7-7f78-0e8502bed92b/full/843,/0/default.jpg",
@@ -147,7 +152,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "669"
+      "height": "669",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/d8072b2a-2415-5f4d-cb94-654264bd3f86/full/843,/0/default.jpg",
@@ -161,7 +171,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "625"
+      "height": "625",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/4ae13149-28e2-9161-3551-82cbd10c6ebd/full/843,/0/default.jpg",
@@ -175,7 +190,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1144"
+      "height": "1144",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/49488876-8381-d1e1-004f-2ed627bf57ea/full/843,/0/default.jpg",
@@ -189,7 +209,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "438"
+      "height": "438",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/e8baae51-f51d-9b28-e634-c117c622eaf4/full/843,/0/default.jpg",
@@ -203,7 +228,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "624"
+      "height": "624",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/9305a7c8-2625-a259-8a7e-ac0a3a7ce172/full/843,/0/default.jpg",
@@ -217,64 +247,41 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "632"
+      "height": "632",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Sami Duodji Museum",
       "url": "https://www.samiduodjimuseum.se",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "National Museum of Finland - Sami Collection",
       "url": "https://www.kansallismuseo.fi",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia: Sami Duodji",
-      "url": "https://en.wikipedia.org/wiki/Sami_duodji",
       "tier": "B"
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Sami Silver Belt Ornamentation",
-      "url": "https://en.wikipedia.org/wiki/Sami_Silver_Belt_Ornamentation",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Sami Silver Belt Ornamentation — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Sami%20Silver%20Belt%20Ornamentation%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Sami Silver Belt Ornamentation — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Sami%20Silver%20Belt%20Ornamentation",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Sami Silver Belt Ornamentation — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Sami%20Silver%20Belt%20Ornamentation",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Sami Silver Belt Ornamentation — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Sami%20Silver%20Belt%20Ornamentation%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Sami Silver Belt Ornamentation — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Sami%20Silver%20Belt%20Ornamentation%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 65,
   "isNiche": true,
   "dataQuality": "well_documented",

@@ -148,7 +148,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "862"
+      "height": "862",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Trulli_2005.jpg",
@@ -162,7 +167,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "914",
-      "height": "633"
+      "height": "633",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Normal_house_or_trullo%3F_%286145236754%29.jpg",
@@ -176,7 +186,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "768",
-      "height": "1024"
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Alberobello_Trullo_Sovrano_%283%29.jpg/1280px-Alberobello_Trullo_Sovrano_%283%29.jpg",
@@ -190,7 +205,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Cime_trulli.JPG/1280px-Cime_trulli.JPG",
@@ -204,7 +224,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Trullo_roof_%286144685861%29.jpg",
@@ -218,7 +243,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "768",
-      "height": "1024"
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Alberobello_BW_2016-10-16_13-02-33.jpg/1280px-Alberobello_BW_2016-10-16_13-02-33.jpg",
@@ -232,7 +262,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "906"
+      "height": "906",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Trulli_-_Alberobello%2C_Bari%2C_Italy_-_August_15%2C_2010_01.jpg/1280px-Trulli_-_Alberobello%2C_Bari%2C_Italy_-_August_15%2C_2010_01.jpg",
@@ -246,7 +281,12 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/A_cross..._%286145235744%29.jpg",
@@ -260,7 +300,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1024",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Trullo_%28spaccato%29.jpg/1280px-Trullo_%28spaccato%29.jpg",
@@ -274,24 +319,44 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "UNESCO World Heritage",
       "url": "https://whc.unesco.org/en/list/788",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Italian Ministry of Culture",
       "url": "https://www.beniculturali.it",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Puglia Tourism",
       "url": "https://www.pugliapromozione.it",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -327,36 +392,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:12:24.501Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Trullo — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Trullo%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Trullo — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Trullo",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Trullo — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Trullo",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Trullo — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Trullo%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Trullo — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Trullo%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q323069",

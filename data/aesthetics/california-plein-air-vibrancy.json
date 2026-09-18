@@ -131,7 +131,12 @@
       "date": "1922",
       "license": "Public domain",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Poppies%2C_Antelope_Valley_by_Benjamin_Chambers_Brown.jpg",
@@ -145,7 +150,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1237",
-      "height": "1024"
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/1280px-Monet_-_Impression%2C_Sunrise.jpg",
@@ -158,24 +168,44 @@
       "date": "1872 date QS:P571,+1872-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "993"
+      "height": "993",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "California Plein-Air Painting",
       "url": "https://www.californiapleinair.com/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "California Art Club",
       "url": "https://www.californiaartclub.org/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Orange County Museum of Art",
       "url": "https://www.ocma.art/exhibitions/california-impressionists",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 400,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -200,42 +230,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:56:11.648Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — California plein-air vibrancy",
-      "url": "https://en.wikipedia.org/wiki/California_plein-air_vibrancy",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "California plein-air vibrancy — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=California%20plein-air%20vibrancy%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "California plein-air vibrancy — academic literature",
-      "url": "https://scholar.google.com/scholar?q=California%20plein-air%20vibrancy",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "California plein-air vibrancy — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=California%20plein-air%20vibrancy",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "California plein-air vibrancy — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=California%20plein-air%20vibrancy%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "California plein-air vibrancy — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=California%20plein-air%20vibrancy%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q5020754",

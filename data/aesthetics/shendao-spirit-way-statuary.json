@@ -131,7 +131,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1265"
+      "height": "1265",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/395c01ba-e647-5f43-4265-550aa172e08d/full/843,/0/default.jpg",
@@ -145,64 +150,41 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1151"
+      "height": "1151",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Chinese Funerary Art",
-      "url": "https://www.chinahighlights.com/travelguide/culture/funerary-art.htm",
       "tier": "C"
     },
     {
       "name": "Imperial Tombs of China",
       "url": "https://whc.unesco.org/en/list/444",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Art of Chinese Death Rituals",
       "url": "https://www.metmuseum.org/toah/hd/chde/hd_chde.htm",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Shendao Spirit-Way Statuary",
-      "url": "https://en.wikipedia.org/wiki/Shendao_Spirit-Way_Statuary",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Shendao Spirit-Way Statuary — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Shendao%20Spirit-Way%20Statuary%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Shendao Spirit-Way Statuary — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Shendao%20Spirit-Way%20Statuary",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Shendao Spirit-Way Statuary — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Shendao%20Spirit-Way%20Statuary",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Shendao Spirit-Way Statuary — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Shendao%20Spirit-Way%20Statuary%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Shendao Spirit-Way Statuary — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Shendao%20Spirit-Way%20Statuary%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 60,
   "isNiche": false,
   "dataQuality": "well_documented",

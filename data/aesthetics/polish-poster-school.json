@@ -123,7 +123,12 @@
       "date": "2016-04-22",
       "license": "Public domain",
       "width": "1024",
-      "height": "1042"
+      "height": "1042",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Henryk_Tomaszewski%2C_plakat_%22J%C3%B3zef_Szajna._Plastyka%2C_teatr%22.jpg/1280px-Henryk_Tomaszewski%2C_plakat_%22J%C3%B3zef_Szajna._Plastyka%2C_teatr%22.jpg",
@@ -137,7 +142,12 @@
       "license": "CC BY-SA 3.0 pl",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
       "width": "1280",
-      "height": "1851"
+      "height": "1851",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Muzeum_Plakatu_w_Wilanowie_011.JPG/1280px-Muzeum_Plakatu_w_Wilanowie_011.JPG",
@@ -151,7 +161,12 @@
       "license": "CC BY-SA 3.0 pl",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
       "width": "1280",
-      "height": "834"
+      "height": "834",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/09d2b000-8e44-c735-5099-126d6453aaaa/full/843,/0/default.jpg",
@@ -165,24 +180,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "595"
+      "height": "595",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "National Museum in Warsaw",
       "url": "https://www.muzeumnarodowe.pl",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Polish Poster Foundation",
       "url": "https://www.polishposter.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Culture.pl",
       "url": "https://culture.pl",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -207,42 +242,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:09:08.635Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Polish poster school",
-      "url": "https://en.wikipedia.org/wiki/Polish_poster_school",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Polish poster school — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Polish%20poster%20school%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Polish poster school — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Polish%20poster%20school",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Polish poster school — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Polish%20poster%20school",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Polish poster school — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Polish%20poster%20school%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Polish poster school — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Polish%20poster%20school%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1141441",

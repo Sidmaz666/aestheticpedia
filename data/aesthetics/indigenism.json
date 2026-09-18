@@ -119,17 +119,32 @@
     {
       "name": "Museum of Latin American Art",
       "url": "https://www.molaa.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Oxford Art Online",
       "url": "https://www.oxfordartonline.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Latin American Indigenism in Art",
       "url": "https://www.latinamericanstudies.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -154,36 +169,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:02:19.988Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Indigenism — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Indigenism%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Indigenism — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Indigenism",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Indigenism — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Indigenism",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Indigenism — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Indigenism%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Indigenism — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Indigenism%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q13876576",

@@ -128,7 +128,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1815"
+      "height": "1815",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Shibuya_Style_2006.jpg",
@@ -142,7 +147,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "491",
-      "height": "469"
+      "height": "469",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Ganguro_crop.jpg",
@@ -156,7 +166,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "712",
-      "height": "728"
+      "height": "728",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Ganguro-shinjuku-sept20-2015.jpg",
@@ -170,7 +185,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "570",
-      "height": "1585"
+      "height": "1585",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ganguro.jpg",
@@ -184,7 +204,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Japanese_girl_smiles.jpg/1280px-Japanese_girl_smiles.jpg",
@@ -198,7 +223,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "1024"
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Kogal.jpg",
@@ -212,24 +242,44 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "500",
-      "height": "335"
+      "height": "335",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "egg magazine",
       "url": "https://egg.mercury.co.jp",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Gyaru Fashion Wiki",
       "url": "https://gyaru.fandom.com",
-      "tier": "D"
+      "tier": "D",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Japan Times",
       "url": "https://www.japantimes.co.jp",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -267,40 +317,15 @@
       }
     },
     {
-      "type": "video",
-      "title": "Ganguro — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Ganguro%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Ganguro — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Ganguro",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Ganguro — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Ganguro",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Ganguro — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Ganguro%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Ganguro — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Ganguro%20aesthetic%20examples",
-      "note": "Google Images search"
-    },
-    {
       "type": "web",
       "title": "Aesthetics Wiki — Ganguro",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Ganguro",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q250160",

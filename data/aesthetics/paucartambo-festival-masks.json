@@ -131,7 +131,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1054"
+      "height": "1054",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/65010653-87cb-a15c-1803-bca5b6617a75/full/843,/0/default.jpg",
@@ -145,7 +150,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1042"
+      "height": "1042",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/ac383837-c925-af46-0833-f7ac8595a68d/full/843,/0/default.jpg",
@@ -159,7 +169,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "648"
+      "height": "648",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/15da2bf5-9976-06d3-a7e7-0a56446299d2/full/843,/0/default.jpg",
@@ -173,7 +188,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "978"
+      "height": "978",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/ac199022-1bc7-5a42-a1d7-3f811a3b149c/full/843,/0/default.jpg",
@@ -187,64 +207,47 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1045"
+      "height": "1045",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Museo de Arte Popular Americano",
       "url": "https://mapa.cusco.gob.pe",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Paucartambo Festival Documentation",
       "url": "https://www.paucartambo.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Andean Masks Research Project",
       "url": "https://www.andeanmasks.org",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Paucartambo festival masks",
-      "url": "https://en.wikipedia.org/wiki/Paucartambo_festival_masks",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Paucartambo festival masks — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Paucartambo%20festival%20masks%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Paucartambo festival masks — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Paucartambo%20festival%20masks",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Paucartambo festival masks — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Paucartambo%20festival%20masks",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Paucartambo festival masks — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Paucartambo%20festival%20masks%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Paucartambo festival masks — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Paucartambo%20festival%20masks%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "well_documented",

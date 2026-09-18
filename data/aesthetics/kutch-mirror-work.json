@@ -130,7 +130,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "697",
-      "height": "571"
+      "height": "571",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Tuch_meqwar.jpg/1280px-Tuch_meqwar.jpg",
@@ -144,7 +149,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Alter_Cloth_%28Toran%29%2C_Saurashtra%2C_Gujarat%2C_India%2C_20th_Century%2C_cotton%2C_metal_and_mirror_pieces._plain_weave_with_embroidery_and_mirror_work%2C_Honolulu_Academy_of_Arts.jpg/1280px-thumbnail.jpg",
@@ -157,7 +167,12 @@
       "date": "2008",
       "license": "Public domain",
       "width": "1280",
-      "height": "1517"
+      "height": "1517",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/769c85cd-63b0-8606-1a70-ab0176a7ee91/full/843,/0/default.jpg",
@@ -171,7 +186,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1278"
+      "height": "1278",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/7cdaae46-0eab-8df1-7a50-45ae63dbcc1d/full/843,/0/default.jpg",
@@ -185,7 +205,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "727"
+      "height": "727",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/fab54305-2a73-37ef-8591-33384cb325b9/full/843,/0/default.jpg",
@@ -199,7 +224,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1274"
+      "height": "1274",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
@@ -213,7 +243,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "631"
+      "height": "631",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/843,/0/default.jpg",
@@ -227,24 +262,32 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "660"
+      "height": "660",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Kutch Embroidery: Traditional Textile Art",
-      "url": "https://www.vogue.in/content/kutch-embroidery-traditional-textile-art",
       "tier": "B"
     },
     {
       "name": "Abhla Bharat: Mirror Work of Kutch",
-      "url": "https://archive.org/details/abhlabharatmirr0000unse",
       "tier": "A"
     },
     {
       "name": "Kutch Embroidery",
       "url": "https://en.wikipedia.org/wiki/Kutch_embroidery",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -269,42 +312,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:04:12.717Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Kutch Mirror Work",
-      "url": "https://en.wikipedia.org/wiki/Kutch_Mirror_Work",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Kutch Mirror Work — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Kutch%20Mirror%20Work%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Kutch Mirror Work — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Kutch%20Mirror%20Work",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Kutch Mirror Work — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Kutch%20Mirror%20Work",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Kutch Mirror Work — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Kutch%20Mirror%20Work%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Kutch Mirror Work — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Kutch%20Mirror%20Work%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q7499063",

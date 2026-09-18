@@ -2,10 +2,11 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { DATA_QUALITY_LABELS, ESTABLISHMENT_LABELS, STATUS_HINTS, STATUS_LABELS } from '@/lib/aesthetic'
 import { CATEGORIES } from '@/lib/schema'
+import { SITE_NAME } from '@/lib/site'
 
 export const metadata: Metadata = {
   title: 'About, methodology & terminology',
-  description: 'How Aestheticpedia is researched, sourced, illustrated, validated and licensed — and what its terms mean.',
+  description: `How ${SITE_NAME} is researched, sourced, illustrated, validated and licensed — and what its terms mean.`,
   alternates: { canonical: '/about' },
 }
 
@@ -59,7 +60,7 @@ export default function AboutPage() {
       <h1 className="display mt-2 text-6xl sm:text-7xl">A vault for every aesthetic.</h1>
       <div className="mt-8 space-y-5 text-lg leading-relaxed text-fg-muted">
         <p>
-          Aestheticpedia documents the visual languages people have made — historical movements, architectural styles,
+          {SITE_NAME} documents the visual languages people have made — historical movements, architectural styles,
           regional crafts and dress, sacred art, subcultures, commercial looks and aesthetics born online — as structured,
           sourced, reusable records.
         </p>
@@ -71,7 +72,7 @@ export default function AboutPage() {
 
       <section className="mt-20 space-y-6" aria-labelledby="method">
         <h2 id="method" className="display text-5xl">Methodology</h2>
-        <ol className="grid gap-4 sm:grid-cols-2">
+        <ol data-reveal-group className="grid gap-4 sm:grid-cols-2">
           {[
             ['Research', 'Records are written from museum collections, scholarship, encyclopedias and specialist sources, each cited with a quality tier.'],
             ['Illustration', 'Images are matched through Wikipedia, Wikidata and Wikimedia Commons, and museum open-access collections (Art Institute of Chicago). Only freely licensed files are used; non-free, icon and map files are excluded; every image keeps its artist, license and source page.'],

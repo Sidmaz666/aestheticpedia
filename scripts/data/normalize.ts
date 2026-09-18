@@ -20,7 +20,9 @@ const hex6 = (h: unknown): string | null => {
   if (/^#[0-9a-f]{3}$/.test(s)) s = '#' + [...s.slice(1)].map((c) => c + c).join('')
   return /^#[0-9a-f]{6}$/.test(s) ? s : null
 }
-const uniqStr = (xs: unknown[]) => [
+const SEARCH_LINK =
+  /^https:\/\/(www\.youtube\.com\/results|scholar\.google\.com\/scholar\?|www\.google\.com\/search|archive\.org\/search|artsandculture\.google\.com\/search|www\.pinterest\.com\/search|commons\.wikimedia\.org\/w\/index\.php\?search)/
+const uniqStr =(xs: unknown[]) => [
   ...new Set(xs.filter((x): x is string => typeof x === 'string').map((x) => x.trim()).filter(Boolean)),
 ]
 
@@ -45,13 +47,19 @@ for (const a of aesthetics as any[]) {
   a.sources = (a.sources ?? [])
     .map((s: any) => {
       const o: any = { name: String(s?.name ?? '').trim() }
-      if (isUrl(s?.url)) o.url = s.url
+      // A source whose link failed validation keeps its citation but loses the dead URL.
+      if (isUrl(s?.url) && s?.check?.ok !== false) o.url = s.url
       if (['A', 'B', 'C', 'D'].includes(s?.tier)) o.tier = s.tier
-      if (s?.check) o.check = s.check
+      if (s?.check && o.url) o.check = s.check
       return o
     })
     .filter((s: any) => s.name)
-  a.references = (a.references ?? []).filter((r: any) => isUrl(r?.url) && r?.title)
+  // References: only real, working pages. Dead links (failed check) and generic search-engine
+  // queries ("search YouTube for X") are not references and are removed.
+  a.references = (a.references ?? []).filter(
+    (r: any) => isUrl(r?.url) && r?.title && r?.check?.ok !== false && !SEARCH_LINK.test(r.url)
+  )
+  a.images = (a.images ?? []).filter((i: any) => i?.check?.ok !== false)
   a.images = (a.images ?? []).filter((i: any) => isUrl(i?.url))
   for (const f of ['aliases', 'materials', 'textures', 'objects', 'keyExamples', 'sounds', 'tags']) a[f] = uniqStr(a[f] ?? [])
   for (const f of ['summary', 'description', 'culturalContext', 'origin', 'geography', 'era', 'periodStart', 'periodEnd'])

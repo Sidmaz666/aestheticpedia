@@ -127,7 +127,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "518"
+      "height": "518",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/0711c714-656e-d52a-eaa4-024205527a60/full/843,/0/default.jpg",
@@ -141,7 +146,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "697"
+      "height": "697",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/16b0b094-c2a2-94df-fe8b-b67241c9c808/full/843,/0/default.jpg",
@@ -155,7 +165,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1147"
+      "height": "1147",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/a3c73db1-83fc-b700-3b62-ed602b5d0ab6/full/843,/0/default.jpg",
@@ -169,7 +184,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1157"
+      "height": "1157",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/83187f51-4e76-e104-8b2b-f8b7a40531fc/full/843,/0/default.jpg",
@@ -183,64 +203,47 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1123"
+      "height": "1123",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Museu do Maracatu",
       "url": "https://www.museudomaracatu.org.br",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Maracatu Nação",
       "url": "https://www.maracatunacao.com.br",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Afro-Brazilian Traditions",
       "url": "https://www.afrobraziliantraditions.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Maracatu Crowns and Capes",
-      "url": "https://en.wikipedia.org/wiki/Maracatu_Crowns_and_Capes",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Maracatu Crowns and Capes — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Maracatu%20Crowns%20and%20Capes%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Maracatu Crowns and Capes — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Maracatu%20Crowns%20and%20Capes",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Maracatu Crowns and Capes — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Maracatu%20Crowns%20and%20Capes",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Maracatu Crowns and Capes — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Maracatu%20Crowns%20and%20Capes%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Maracatu Crowns and Capes — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Maracatu%20Crowns%20and%20Capes%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 70,
   "isNiche": false,
   "dataQuality": "well_documented",

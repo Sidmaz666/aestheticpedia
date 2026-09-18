@@ -126,7 +126,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Syringoporid.jpg/1280px-Syringoporid.jpg",
@@ -139,7 +144,12 @@
       "date": "2008-08-19",
       "license": "Public domain",
       "width": "1280",
-      "height": "755"
+      "height": "755",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/AuloporaDevonianSilicaShale.jpg/1280px-AuloporaDevonianSilicaShale.jpg",
@@ -152,7 +162,12 @@
       "date": "2001-12-02",
       "license": "Public domain",
       "width": "1280",
-      "height": "1244"
+      "height": "1244",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Mushroom_Coral_%28Fungia%29_Top_Macro_91.JPG/1280px-Mushroom_Coral_%28Fungia%29_Top_Macro_91.JPG",
@@ -166,7 +181,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Eusmilia_fastigiata_large.jpg/1280px-Eusmilia_fastigiata_large.jpg",
@@ -178,7 +198,12 @@
       "artist": "Photographer: Florida Keys National Marine Sanctuary Staff",
       "license": "Public domain",
       "width": "1280",
-      "height": "833"
+      "height": "833",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Dendrogyra_cylindrus_%28pillar_coral%29_%28San_Salvador_Island%2C_Bahamas%29_1_%2815513345363%29.jpg/1280px-Dendrogyra_cylindrus_%28pillar_coral%29_%28San_Salvador_Island%2C_Bahamas%29_1_%2815513345363%29.jpg",
@@ -192,7 +217,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "1432"
+      "height": "1432",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Brain_coral.jpg",
@@ -203,7 +233,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "940",
-      "height": "1000"
+      "height": "1000",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Stony_coral_spawning_3.jpg",
@@ -215,7 +250,12 @@
       "date": "Uploaded on Commons by User:Haplochromis , 16 Ferbruary 2007",
       "license": "Public domain",
       "width": "480",
-      "height": "367"
+      "height": "367",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/EilatFringingReef.jpg",
@@ -228,7 +268,12 @@
       "date": "28 July 2007 (original upload date)",
       "license": "Public domain",
       "width": "1000",
-      "height": "750"
+      "height": "750",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/000324-Corals-IMG_0418-2.jpg/1280px-000324-Corals-IMG_0418-2.jpg",
@@ -242,24 +287,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Victoria and Albert Museum",
       "url": "https://www.vam.ac.uk",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Met Museum",
       "url": "https://www.metmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "The Corning Museum of Glass",
       "url": "https://www.cmog.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -295,42 +360,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:57:27.858Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Coral Style",
-      "url": "https://en.wikipedia.org/wiki/Coral_Style",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Coral Style — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Coral%20Style%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Coral Style — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Coral%20Style",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Coral Style — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Coral%20Style",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Coral Style — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Coral%20Style%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Coral Style — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Coral%20Style%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q171446",

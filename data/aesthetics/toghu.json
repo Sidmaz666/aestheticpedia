@@ -119,17 +119,32 @@
     {
       "name": "Toghu Cloth",
       "url": "https://africa.si.edu/exhibits/toghu/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Atoghu (Toghu)",
       "url": "https://www.metmuseum.org/toah/hd/togu/hd_togu.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Toghu Cloth of the Bamileke",
       "url": "https://www.britishmuseum.org/collection/term/BZ.3926",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -154,42 +169,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:12:15.677Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Toghu",
-      "url": "https://en.wikipedia.org/wiki/Toghu",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Toghu — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Toghu%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Toghu — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Toghu",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Toghu — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Toghu",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Toghu — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Toghu%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Toghu — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Toghu%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q3436645",

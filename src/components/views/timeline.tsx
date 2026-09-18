@@ -104,7 +104,7 @@ export function TimelineView({ items }: { items: Item[] }) {
                 </p>
                 <p className="mt-3 text-sm text-fg-muted">{g.blurb}</p>
               </div>
-              <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-5">
+              <ul data-reveal-group className="grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-5">
                 {g.items.map((it) => (
                   <li key={it.slug}>
                     <Link href={`/aesthetics/${it.slug}`} prefetch={false} className="group block">

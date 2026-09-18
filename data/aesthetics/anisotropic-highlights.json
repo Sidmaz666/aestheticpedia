@@ -128,57 +128,35 @@
     {
       "name": "Industrial Designers Society of America",
       "url": "https://www.idsa.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "MaterialDistrict",
       "url": "https://materialdistrict.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Anisotropic Highlights",
-      "url": "https://en.wikipedia.org/wiki/Anisotropic_Highlights",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Anisotropic Highlights — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Anisotropic%20Highlights%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Anisotropic Highlights — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Anisotropic%20Highlights",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Anisotropic Highlights — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Anisotropic%20Highlights",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Anisotropic Highlights — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Anisotropic%20Highlights%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Anisotropic Highlights — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Anisotropic%20Highlights%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 80,
   "isNiche": false,
   "dataQuality": "moderately_documented",

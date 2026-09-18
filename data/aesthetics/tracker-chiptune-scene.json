@@ -124,12 +124,22 @@
     {
       "name": "Wikipedia — Tracker (music software)",
       "url": "https://en.wikipedia.org/wiki/Tracker_(music_software)",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "ModArchive — module archive",
       "url": "https://modarchive.org",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -154,42 +164,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:12:21.036Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Tracker & Chiptune Scene",
-      "url": "https://en.wikipedia.org/wiki/Tracker_%26_Chiptune_Scene",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Tracker & Chiptune Scene — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Tracker%20%26%20Chiptune%20Scene%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Tracker & Chiptune Scene — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Tracker%20%26%20Chiptune%20Scene",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Tracker & Chiptune Scene — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Tracker%20%26%20Chiptune%20Scene",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Tracker & Chiptune Scene — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Tracker%20%26%20Chiptune%20Scene%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Tracker & Chiptune Scene — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Tracker%20%26%20Chiptune%20Scene%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q771510",

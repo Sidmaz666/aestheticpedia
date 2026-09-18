@@ -16,7 +16,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
 import { AestheticSchema } from '../../src/lib/schema.ts'
-import { OUT_DIR, USER_AGENT, getJSON, loadAesthetics, pool, saveAesthetic, sleep } from './lib.ts'
+import { OUT_DIR, USER_AGENT, cache, getJSON, loadAesthetics, pool, saveAesthetic, sleep } from './lib.ts'
 
 const FORCE = process.argv.includes('--force')
 const MAX_AGE = 14 * 24 * 3600 * 1000
@@ -93,12 +93,12 @@ const UNVERIFIABLE = new Set([401, 403, 405, 406, 418, 429, 451, 500, 502, 503, 
 
 async function probe(url: string): Promise<Check> {
   for (const method of ['HEAD', 'GET'] as const) {
-    for (let attempt = 0; attempt < 3; attempt++) {
+    for (let attempt = 0; attempt < 2; attempt++) {
       try {
         const res = await fetch(url, {
           method,
           redirect: 'follow',
-          signal: AbortSignal.timeout(20_000),
+          signal: AbortSignal.timeout(12_000),
           headers: {
             'User-Agent': USER_AGENT,
             Accept: 'text/html,application/xhtml+xml,image/*,*/*;q=0.8',
@@ -118,7 +118,7 @@ async function probe(url: string): Promise<Check> {
         const msg = String(e)
         if (/ENOTFOUND|getaddrinfo|ConnectionRefused|ECONNREFUSED|certificate|CERT_/i.test(msg))
           return { ok: false, status: 0, checkedAt: now }
-        if (attempt === 2) return { ok: true, status: 0, checkedAt: now } // timeout — unverifiable
+        if (attempt === 1) return { ok: true, status: 0, checkedAt: now } // timeout — unverifiable
         await sleep(1500)
       }
     }
@@ -161,13 +161,25 @@ for (const u of httpUrls) {
   if (!byHost.has(host)) byHost.set(host, [])
   byHost.get(host)!.push(u)
 }
+// Results persist between runs (data/.cache/links) so an interrupted check resumes.
+const linkCache = cache<Check>('links')
 let probed = 0
-await pool([...byHost.entries()], 12, async ([host, urls]) => {
-  const delay = /wikimedia|wikipedia/.test(host) ? 150 : 400
+await pool([...byHost.entries()], 16, async ([host, urls]) => {
+  const delay = /wikimedia|wikipedia/.test(host) ? 150 : 350
+  let timeouts = 0
   for (const u of urls) {
-    results.set(u, await probe(u))
+    const cached = linkCache.get(u)
+    let r: Check
+    if (cached && Date.now() - Date.parse(cached.checkedAt) < MAX_AGE && !FORCE) r = cached
+    else if (timeouts >= 3) r = { ok: true, status: 0, checkedAt: now } // host is unreachable for bots — circuit open
+    else {
+      r = await probe(u)
+      timeouts = r.status === 0 && r.ok ? timeouts + 1 : 0
+      linkCache.set(u, r)
+      await sleep(delay)
+    }
+    results.set(u, r)
     if (++probed % 250 === 0) console.log(`  probed ${probed}/${httpUrls.size}`)
-    await sleep(delay)
   }
 })
 

@@ -121,17 +121,32 @@
     {
       "name": "The Smithsonian",
       "url": "https://www.si.edu",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Art in the Age of the Xerox Book",
       "url": "https://mitpress.mit.edu",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Post-Internet Zine Wiki",
       "url": "https://postinternetzine.wiki",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -156,42 +171,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:08:30.106Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Photocopy Generation Loss",
-      "url": "https://en.wikipedia.org/wiki/Photocopy_Generation_Loss",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Photocopy Generation Loss — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Photocopy%20Generation%20Loss%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Photocopy Generation Loss — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Photocopy%20Generation%20Loss",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Photocopy Generation Loss — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Photocopy%20Generation%20Loss",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Photocopy Generation Loss — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Photocopy%20Generation%20Loss%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Photocopy Generation Loss — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Photocopy%20Generation%20Loss%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1502016",

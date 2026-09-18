@@ -177,7 +177,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Au_Vieux_Paris_d%27Arcole%2C_1_May_2018.jpg/1280px-Au_Vieux_Paris_d%27Arcole%2C_1_May_2018.jpg",
@@ -191,7 +196,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "1024"
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Paris_-_36_Cour_Saint-%C3%89milion_-_20111107_%281%29.jpg/1280px-Paris_-_36_Cour_Saint-%C3%89milion_-_20111107_%281%29.jpg",
@@ -205,7 +215,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Jeux_de_dames_au_caf%C3%A9_Lamblin_au_Palais-Royal.jpg/1280px-Jeux_de_dames_au_caf%C3%A9_Lamblin_au_Palais-Royal.jpg",
@@ -218,7 +233,12 @@
       "date": "circa 1824 date QS:P571,+1824-00-00T00:00:00Z/9,P1480,Q57279",
       "license": "Public domain",
       "width": "1280",
-      "height": "870"
+      "height": "870",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Caf%C3%A9_Palais_Royal%2C_202_Rue_Saint_Honor%C3%A9%2C_75001_Paris%2C_November_2021_001.jpg/1280px-Caf%C3%A9_Palais_Royal%2C_202_Rue_Saint_Honor%C3%A9%2C_75001_Paris%2C_November_2021_001.jpg",
@@ -232,24 +252,44 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "851"
+      "height": "851",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Paris Café Culture",
       "url": "https://paris.culture-cafe.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Café_de_Paris",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "France Tourism",
       "url": "https://www.france.fr",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -274,42 +314,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:08:16.862Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Parisian Café",
-      "url": "https://en.wikipedia.org/wiki/Parisian_Caf%C3%A9",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Parisian Café — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Parisian%20Caf%C3%A9%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Parisian Café — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Parisian%20Caf%C3%A9",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Parisian Café — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Parisian%20Caf%C3%A9",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Parisian Café — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Parisian%20Caf%C3%A9%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Parisian Café — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Parisian%20Caf%C3%A9%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q7137468",

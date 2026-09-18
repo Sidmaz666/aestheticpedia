@@ -127,7 +127,12 @@
       "license": "CC-BY-2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
       "width": "851",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Placement_for_initiation_in_Apangai%2C_Papua_New_Guinea_1984.jpg/1280px-Placement_for_initiation_in_Apangai%2C_Papua_New_Guinea_1984.jpg",
@@ -140,7 +145,12 @@
       "date": "2009-09-22",
       "license": "Public domain",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Sepik_0133cropped.jpg",
@@ -154,7 +164,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1191",
-      "height": "1087"
+      "height": "1087",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Haus_Tambaran%2C_Apangai.jpg/1280px-Haus_Tambaran%2C_Apangai.jpg",
@@ -168,7 +183,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Haus_Tambaran%2C_Apangai_-_Giebel.jpg/1280px-Haus_Tambaran%2C_Apangai_-_Giebel.jpg",
@@ -182,7 +202,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1916"
+      "height": "1916",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Haus_Tambaran_Apangai%2C_Innenraum.jpg/1280px-Haus_Tambaran_Apangai%2C_Innenraum.jpg",
@@ -196,7 +221,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Haus_Tambaran_-_nahe_Apangai.jpg/1280px-Haus_Tambaran_-_nahe_Apangai.jpg",
@@ -210,7 +240,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/High_Commission_of_Papua_New_Guinea_to_Australia_June_2016.jpg/1280px-High_Commission_of_Papua_New_Guinea_to_Australia_June_2016.jpg",
@@ -224,24 +259,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Papua New Guinea National Museum",
       "url": "https://www.pngmuseum.org.pg/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Haus Tambaran: Spirit Houses of the Sepik",
       "url": "https://www.metmuseum.org/toah/hd/htam/hd_htam.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Sepik River Art and Architecture",
       "url": "https://www.sepikriver.com/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -277,42 +332,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:10:18.765Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Sepik Haus Tambaran",
-      "url": "https://en.wikipedia.org/wiki/Sepik_Haus_Tambaran",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Sepik Haus Tambaran — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Sepik%20Haus%20Tambaran%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Sepik Haus Tambaran — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Sepik%20Haus%20Tambaran",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Sepik Haus Tambaran — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Sepik%20Haus%20Tambaran",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Sepik Haus Tambaran — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Sepik%20Haus%20Tambaran%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Sepik Haus Tambaran — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Sepik%20Haus%20Tambaran%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q3128371",

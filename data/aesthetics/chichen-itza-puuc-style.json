@@ -153,7 +153,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1293"
+      "height": "1293",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Sayil2.jpg",
@@ -167,7 +172,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "600",
-      "height": "450"
+      "height": "450",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/2002.12.29_19_Codz_Poop_Kabah_Yucatan_Mexico.jpg",
@@ -181,7 +191,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/0077_Uxmal.JPG/1280px-0077_Uxmal.JPG",
@@ -195,7 +210,12 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "1280",
-      "height": "851"
+      "height": "851",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Cusco_Piedra_de_los_doce_angulos.jpg/1280px-Cusco_Piedra_de_los_doce_angulos.jpg",
@@ -209,7 +229,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Chenes.png",
@@ -222,7 +247,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1267",
-      "height": "1015"
+      "height": "1015",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Puuc_Region.png/1280px-Puuc_Region.png",
@@ -236,7 +266,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1003"
+      "height": "1003",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Reproducci%C3%B3n_maya_en_el_Parque_Hundido.jpg/1280px-Reproducci%C3%B3n_maya_en_el_Parque_Hundido.jpg",
@@ -250,23 +285,37 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Ancient Maya: The Rise and Fall of a Rainforest Civilization",
       "url": "https://www.metmuseum.org/toah/hd/maya/hd_maya.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Puuc Architecture",
       "url": "https://en.wikipedia.org/wiki/Puuc",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Maya Architecture",
-      "url": "https://www.archdaily.com/950930/maya-architecture-history-characteristics-and-buildings",
       "tier": "C"
     }
   ],
@@ -301,44 +350,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T04:56:57.970Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Chichén Itzá Puuc Style",
-      "url": "https://en.wikipedia.org/wiki/Chich%C3%A9n_Itz%C3%A1_Puuc_Style",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Chichén Itzá Puuc Style — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Chich%C3%A9n%20Itz%C3%A1%20Puuc%20Style%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Chichén Itzá Puuc Style — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Chich%C3%A9n%20Itz%C3%A1%20Puuc%20Style",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Chichén Itzá Puuc Style — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Chich%C3%A9n%20Itz%C3%A1%20Puuc%20Style",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Chichén Itzá Puuc Style — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Chich%C3%A9n%20Itz%C3%A1%20Puuc%20Style%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Chichén Itzá Puuc Style — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Chich%C3%A9n%20Itz%C3%A1%20Puuc%20Style%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1772181",

@@ -129,7 +129,12 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "1280",
-      "height": "801"
+      "height": "801",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Cape_Dorset_Summertime_2002-08-04.jpg/1280px-Cape_Dorset_Summertime_2002-08-04.jpg",
@@ -143,7 +148,12 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "1280",
-      "height": "835"
+      "height": "835",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Cape_Dorset_WBEC_2002-08-04.jpg/1280px-Cape_Dorset_WBEC_2002-08-04.jpg",
@@ -157,7 +167,12 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "1280",
-      "height": "741"
+      "height": "741",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Cape_dorset_sept2010.jpg",
@@ -171,7 +186,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1200",
-      "height": "900"
+      "height": "900",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Cape_dorset_shore_sept2010.jpg/1280px-Cape_dorset_shore_sept2010.jpg",
@@ -185,7 +205,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Cape_Dorset.jpg",
@@ -199,24 +224,44 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "640",
-      "height": "480"
+      "height": "480",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Inuit Art Foundation",
       "url": "https://inuitartfoundation.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "National Gallery of Canada",
       "url": "https://gallery.ca",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Cape Dorset Artists",
       "url": "https://www.capedorsetartists.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -252,42 +297,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:03:58.560Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Kinngait Printmaking",
-      "url": "https://en.wikipedia.org/wiki/Kinngait_Printmaking",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Kinngait Printmaking — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Kinngait%20Printmaking%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Kinngait Printmaking — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Kinngait%20Printmaking",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Kinngait Printmaking — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Kinngait%20Printmaking",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Kinngait Printmaking — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Kinngait%20Printmaking%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Kinngait Printmaking — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Kinngait%20Printmaking%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q665280",

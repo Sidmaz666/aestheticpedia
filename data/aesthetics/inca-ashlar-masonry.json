@@ -174,7 +174,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Machu_Picchu_Panorama_2025_%28cropped%29.jpg/1280px-Machu_Picchu_Panorama_2025_%28cropped%29.jpg",
@@ -188,7 +193,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "448"
+      "height": "448",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Macchu_Picchu_Stones_2.jpg/1280px-Macchu_Picchu_Stones_2.jpg",
@@ -202,7 +212,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "720"
+      "height": "720",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Walls_at_Sacsayhuaman.jpg/1280px-Walls_at_Sacsayhuaman.jpg",
@@ -215,7 +230,12 @@
       "date": "18 March 2006 (original upload date)",
       "license": "Public domain",
       "width": "1280",
-      "height": "783"
+      "height": "783",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/CuscoPiedra12angulo.jpg/1280px-CuscoPiedra12angulo.jpg",
@@ -229,7 +249,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "866"
+      "height": "866",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Cyark_Tambo_Colorado_Rm42_3.jpg/1280px-Cyark_Tambo_Colorado_Rm42_3.jpg",
@@ -242,7 +267,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "700"
+      "height": "700",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Casa_de_Sayri_T%C3%BApac_%28Interior%29.jpg/1280px-Casa_de_Sayri_T%C3%BApac_%28Interior%29.jpg",
@@ -256,7 +286,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Cusco_Piedra_de_los_doce_angulos.jpg/1280px-Cusco_Piedra_de_los_doce_angulos.jpg",
@@ -270,23 +305,37 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "The Incas",
       "url": "https://www.metmuseum.org/toah/hd/incq/hd_incq.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Inca architecture",
       "url": "https://en.wikipedia.org/wiki/Inca_architecture",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Ashlar Masonry",
-      "url": "https://www.archdaily.com/967831/inca-architecture-history-characteristics-and-buildings",
       "tier": "C"
     }
   ],
@@ -321,44 +370,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:02:17.697Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Inca Ashlar Masonry",
-      "url": "https://en.wikipedia.org/wiki/Inca_Ashlar_Masonry",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Inca Ashlar Masonry — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Inca%20Ashlar%20Masonry%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Inca Ashlar Masonry — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Inca%20Ashlar%20Masonry",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Inca Ashlar Masonry — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Inca%20Ashlar%20Masonry",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Inca Ashlar Masonry — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Inca%20Ashlar%20Masonry%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Inca Ashlar Masonry — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Inca%20Ashlar%20Masonry%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q2004258",

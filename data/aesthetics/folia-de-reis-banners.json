@@ -118,57 +118,35 @@
     {
       "name": "Museu do Folclore",
       "url": "https://www.museudofolclore.org.br",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Folia de Reis Traditions",
       "url": "https://www.foliadereis.com.br",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Brazilian Religious Folk Art",
       "url": "https://www.brazilianreligiousfolkart.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Folia de Reis Banners",
-      "url": "https://en.wikipedia.org/wiki/Folia_de_Reis_Banners",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Folia de Reis Banners — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Folia%20de%20Reis%20Banners%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Folia de Reis Banners — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Folia%20de%20Reis%20Banners",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Folia de Reis Banners — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Folia%20de%20Reis%20Banners",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Folia de Reis Banners — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Folia%20de%20Reis%20Banners%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Folia de Reis Banners — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Folia%20de%20Reis%20Banners%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 60,
   "isNiche": false,
   "dataQuality": "well_documented",

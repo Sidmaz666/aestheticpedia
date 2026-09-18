@@ -120,57 +120,35 @@
     {
       "name": "The Underground Comix Database",
       "url": "https://www.comixdatabase.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "R. Crumb: The R. Crumb Handbook",
       "url": "https://www.crumb.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Underground Comix: A Critical Guide",
       "url": "https://www.princeton.edu",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Underground Comix Crosshatch Filth",
-      "url": "https://en.wikipedia.org/wiki/Underground_Comix_Crosshatch_Filth",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Underground Comix Crosshatch Filth — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Underground%20Comix%20Crosshatch%20Filth%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Underground Comix Crosshatch Filth — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Underground%20Comix%20Crosshatch%20Filth",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Underground Comix Crosshatch Filth — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Underground%20Comix%20Crosshatch%20Filth",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Underground Comix Crosshatch Filth — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Underground%20Comix%20Crosshatch%20Filth%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Underground Comix Crosshatch Filth — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Underground%20Comix%20Crosshatch%20Filth%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 60,
   "isNiche": true,
   "dataQuality": "well_documented",

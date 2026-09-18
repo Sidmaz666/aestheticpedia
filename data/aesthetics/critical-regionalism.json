@@ -142,7 +142,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "852"
+      "height": "852",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/SaynatsaloTownHall4.jpg/1280px-SaynatsaloTownHall4.jpg",
@@ -156,7 +161,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Alexander_Tzonis.jpg",
@@ -169,7 +179,12 @@
       "date": "20 January 2008 (original upload date)",
       "license": "Public domain",
       "width": "658",
-      "height": "892"
+      "height": "892",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Polynesia.png/1280px-Polynesia.png",
@@ -182,24 +197,44 @@
       "date": "2010-10-25",
       "license": "Public domain",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Journal of Architectural Education",
       "url": "https://www.jstor.org/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Guardian",
       "url": "https://www.theguardian.com/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -229,37 +264,12 @@
       "type": "article",
       "title": "Wikipedia — Critical Regionalism",
       "url": "https://en.wikipedia.org/wiki/Critical_Regionalism",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Critical Regionalism — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Critical%20Regionalism%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Critical Regionalism — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Critical%20Regionalism",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Critical Regionalism — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Critical%20Regionalism",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Critical Regionalism — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Critical%20Regionalism%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Critical Regionalism — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Critical%20Regionalism%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q24798",

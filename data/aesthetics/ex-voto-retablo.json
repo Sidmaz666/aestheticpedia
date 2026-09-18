@@ -123,7 +123,12 @@
       "date": "19 th century date QS:P571,+1850-00-00T00:00:00Z/7",
       "license": "Public domain",
       "width": "1245",
-      "height": "1785"
+      "height": "1785",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Mexican_oil_paint_on_copper_retablo%2C_17th_century%2C_El_Paso_Museum_of_Art.JPG",
@@ -136,7 +141,12 @@
       "date": "17 th century date QS:P571,+1650-00-00T00:00:00Z/7",
       "license": "Public domain",
       "width": "956",
-      "height": "980"
+      "height": "980",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Puerto_Iglesia05.jpg/1280px-Puerto_Iglesia05.jpg",
@@ -150,7 +160,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "2014"
+      "height": "2014",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Our_Lady_of_San_Juan_de_los_Lagos_votive_1935.jpg/1280px-Our_Lady_of_San_Juan_de_los_Lagos_votive_1935.jpg",
@@ -163,7 +178,12 @@
       "date": "June 2008",
       "license": "Public domain",
       "width": "1280",
-      "height": "812"
+      "height": "812",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/8a5ab830-65fc-a10a-4dd9-414e27646803/full/843,/0/default.jpg",
@@ -177,7 +197,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "632"
+      "height": "632",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/71a28511-10dc-91f5-2859-c2bc93aa87ba/full/843,/0/default.jpg",
@@ -191,7 +216,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1124"
+      "height": "1124",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/d2b2ee01-ea58-d5fd-726c-5628e77c2140/full/843,/0/default.jpg",
@@ -205,7 +235,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "632"
+      "height": "632",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/ad2ff290-7de3-605b-40f5-58908617f606/full/843,/0/default.jpg",
@@ -219,24 +254,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "632"
+      "height": "632",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Mexican Retablos Collection",
       "url": "https://www.mexicanretablos.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Smithsonian Latino Center",
       "url": "https://latino.si.edu",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia - Ex-voto",
       "url": "https://en.wikipedia.org/wiki/Ex-voto",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -261,42 +316,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:59:13.516Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Ex-voto Retablo",
-      "url": "https://en.wikipedia.org/wiki/Ex-voto_Retablo",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Ex-voto Retablo — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Ex-voto%20Retablo%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Ex-voto Retablo — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Ex-voto%20Retablo",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Ex-voto Retablo — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Ex-voto%20Retablo",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Ex-voto Retablo — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Ex-voto%20Retablo%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Ex-voto Retablo — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Ex-voto%20Retablo%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q131345052",

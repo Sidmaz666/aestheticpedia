@@ -180,7 +180,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1913"
+      "height": "1913",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/University_of_Glasgow_Quadrangle.jpg/1280px-University_of_Glasgow_Quadrangle.jpg",
@@ -194,7 +199,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Paleta_de_colores_dark_academia.jpg/1280px-Paleta_de_colores_dark_academia.jpg",
@@ -208,7 +218,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1013"
+      "height": "1013",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Georgetown_University_-40.JPG/1280px-Georgetown_University_-40.JPG",
@@ -221,7 +236,12 @@
       "date": "2010-09-19",
       "license": "Public domain",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Biblioth%C3%A8que_humaniste_de_S%C3%A9lestat_21_janvier_2014-97.jpg/1280px-Biblioth%C3%A8que_humaniste_de_S%C3%A9lestat_21_janvier_2014-97.jpg",
@@ -235,7 +255,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
@@ -248,24 +273,44 @@
       "date": "early 1920s date QS:P,+1920-00-00T00:00:00Z/8,P4241,Q4071972",
       "license": "Public domain",
       "width": "768",
-      "height": "490"
+      "height": "490",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Dark academia",
       "url": "https://en.wikipedia.org/wiki/Dark_academia",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Aesthetics Wiki — Dark Academia",
       "url": "https://aesthetics.fandom.com/wiki/Dark_Academia",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The New York Times coverage (2020)",
       "url": "https://www.nytimes.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -299,50 +344,19 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T04:58:07.295Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Dark Academia",
-      "url": "https://en.wikipedia.org/wiki/Dark_Academia",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Dark Academia — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Dark%20Academia%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Dark Academia — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Dark%20Academia",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Dark Academia — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Dark%20Academia",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Dark Academia — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Dark%20Academia%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Dark Academia — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Dark%20Academia%20aesthetic%20examples",
-      "note": "Google Images search"
     },
     {
       "type": "web",
       "title": "Aesthetics Wiki — Dark Academia",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Dark%20Academia",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q97452932",

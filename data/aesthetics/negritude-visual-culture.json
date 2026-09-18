@@ -168,18 +168,27 @@
   "sources": [
     {
       "name": "The Negro Anthology",
-      "url": "https://en.wikipedia.org/wiki/Anthologie_n%C3%A8gre",
       "tier": "B"
     },
     {
       "name": "Négritude et arts plastiques",
       "url": "https://www.jstor.org/stable/10.2307/1793856",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Négritude Movement",
       "url": "https://www.poetryfoundation.org/articles/68663/the-negritude-movement",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -204,42 +213,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:07:11.722Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Négritude Visual Culture",
-      "url": "https://en.wikipedia.org/wiki/N%C3%A9gritude_Visual_Culture",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Négritude Visual Culture — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=N%C3%A9gritude%20Visual%20Culture%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Négritude Visual Culture — academic literature",
-      "url": "https://scholar.google.com/scholar?q=N%C3%A9gritude%20Visual%20Culture",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Négritude Visual Culture — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=N%C3%A9gritude%20Visual%20Culture",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Négritude Visual Culture — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=N%C3%A9gritude%20Visual%20Culture%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Négritude Visual Culture — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=N%C3%A9gritude%20Visual%20Culture%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q852544",

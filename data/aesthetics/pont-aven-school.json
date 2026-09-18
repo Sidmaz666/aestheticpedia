@@ -180,7 +180,12 @@
       "date": "1894 date QS:P571,+1894-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "1047"
+      "height": "1047",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Paul_S%C3%A9rusier_001.jpg",
@@ -193,7 +198,12 @@
       "date": "1888 date QS:P571,+1888-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1000",
-      "height": "1262"
+      "height": "1262",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/%C3%89mile_Bernard_-_The_Pardon_%28Le_Pardon%29_1888.jpeg/1280px-%C3%89mile_Bernard_-_The_Pardon_%28Le_Pardon%29_1888.jpeg",
@@ -206,7 +216,12 @@
       "date": "1888",
       "license": "Public domain",
       "width": "1280",
-      "height": "1008"
+      "height": "1008",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/La_vision_apr%C3%A8s_le_sermon_%28Paul_Gauguin%29.jpg/1280px-La_vision_apr%C3%A8s_le_sermon_%28Paul_Gauguin%29.jpg",
@@ -219,7 +234,12 @@
       "date": "1888 date QS:P571,+1888-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "1003"
+      "height": "1003",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/WLANL_-_artanonymous_-_Zelfportret_%281%29.jpg",
@@ -233,7 +253,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "900",
-      "height": "730"
+      "height": "730",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/%22Les_Korrigans_sous_la_lune_-_The_dance_of_the_elves_of_Pont-Aven%22_%28Moonlit_landscape_with_tall_trees%29_by_Roderic_O%27Conor%2C_ca._1898-1900.jpg/1280px-%22Les_Korrigans_sous_la_lune_-_The_dance_of_the_elves_of_Pont-Aven%22_%28Moonlit_landscape_with_tall_trees%29_by_Roderic_O%27Conor%2C_ca._1898-1900.jpg",
@@ -246,7 +271,12 @@
       "date": "2019-02-13 16:49:43",
       "license": "Public domain",
       "width": "1280",
-      "height": "1088"
+      "height": "1088",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Wylie_La_Sorci%C3%A8re_bretonne_1872.jpg",
@@ -259,7 +289,12 @@
       "date": "1872 date QS:P571,+1872-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "650",
-      "height": "556"
+      "height": "556",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Randolph_Caldecott_-_Pont-Aven%2C_1881.jpg/1280px-Randolph_Caldecott_-_Pont-Aven%2C_1881.jpg",
@@ -272,24 +307,44 @@
       "date": "1880 date QS:P571,+1880-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "849"
+      "height": "849",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Musée de Pont-Aven",
       "url": "https://www.musee-pontaven.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Pont-Aven_School",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "National Gallery of Art",
       "url": "https://www.nga.gov",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -323,38 +378,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:09:10.361Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Pont-Aven School — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Pont-Aven%20School%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Pont-Aven School — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Pont-Aven%20School",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Pont-Aven School — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Pont-Aven%20School",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Pont-Aven School — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Pont-Aven%20School%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Pont-Aven School — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Pont-Aven%20School%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q382056",

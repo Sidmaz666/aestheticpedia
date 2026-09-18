@@ -125,7 +125,12 @@
       "date": "2007-01-05",
       "license": "Public domain",
       "width": "1280",
-      "height": "851"
+      "height": "851",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Nijo_Castle_J09_40-focused-right_%28cropped_to_retainer%27s_hall%29.jpg/1280px-Nijo_Castle_J09_40-focused-right_%28cropped_to_retainer%27s_hall%29.jpg",
@@ -139,7 +144,12 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "1280",
-      "height": "749"
+      "height": "749",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Castello_nijo_03_ohiroma_ichi-no-ma.JPG/1280px-Castello_nijo_03_ohiroma_ichi-no-ma.JPG",
@@ -153,7 +163,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1067"
+      "height": "1067",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/PocketDoorM0575.jpg",
@@ -166,7 +181,12 @@
       "date": "5 November 2005 (original upload date)",
       "license": "Public domain",
       "width": "1000",
-      "height": "1284"
+      "height": "1284",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Storm-door%2Camado%2Cnarita-city%2Cjapan.JPG",
@@ -180,7 +200,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1200",
-      "height": "1600"
+      "height": "1600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/The_Japanese_Tea_Garden_%E2%80%94_Official_Views_Of_The_World%27s_Columbian_Exposition_%E2%80%94_50.jpg/1280px-The_Japanese_Tea_Garden_%E2%80%94_Official_Views_Of_The_World%27s_Columbian_Exposition_%E2%80%94_50.jpg",
@@ -193,7 +218,12 @@
       "date": "1893",
       "license": "Public domain",
       "width": "1280",
-      "height": "998"
+      "height": "998",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Himeji_model7.JPG/1280px-Himeji_model7.JPG",
@@ -205,19 +235,34 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Sukiya-zukuri",
       "url": "https://en.wikipedia.org/wiki/Sukiya-zukuri",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Japan Atlas architecture (Agency for Cultural Affairs)",
       "url": "https://www.bunka.go.jp",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -240,38 +285,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:11:17.588Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Sukiya-zukuri — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Sukiya-zukuri%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Sukiya-zukuri — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Sukiya-zukuri",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Sukiya-zukuri — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Sukiya-zukuri",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Sukiya-zukuri — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Sukiya-zukuri%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Sukiya-zukuri — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Sukiya-zukuri%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1353902",

@@ -132,7 +132,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1125",
-      "height": "592"
+      "height": "592",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Martinus_R%C3%B8rbye_-_A_seated_Kabyla.jpg",
@@ -145,7 +150,12 @@
       "date": "1929-12-30",
       "license": "Public domain",
       "width": "576",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Portrait-Fatma_N%27Soumer.jpg/1280px-Portrait-Fatma_N%27Soumer.jpg",
@@ -158,7 +168,12 @@
       "date": "circa 1850 date QS:P,+1850-00-00T00:00:00Z/9,P1480,Q5727902",
       "license": "Public domain",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Nuit_Debout_-_Paris_-_Kabyles_-_48_mars_02.jpg/1280px-Nuit_Debout_-_Paris_-_Kabyles_-_48_mars_02.jpg",
@@ -172,7 +187,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Zinedine_Zidane_by_Tasnim_02.jpg",
@@ -186,7 +206,12 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "716",
-      "height": "528"
+      "height": "528",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/b7866b85-79c6-26ef-587f-0eec53650a3c/full/843,/0/default.jpg",
@@ -200,7 +225,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "584"
+      "height": "584",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/36a3f0f7-9bda-2c93-fee8-7c264d5ce01f/full/843,/0/default.jpg",
@@ -214,7 +244,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1124"
+      "height": "1124",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/f62a1b99-1e62-5aa9-0b08-2b83c38655fa/full/843,/0/default.jpg",
@@ -228,19 +263,34 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "786"
+      "height": "786",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Kabyle people",
       "url": "https://en.wikipedia.org/wiki/Kabyle_people",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Musée du quai Branly",
       "url": "https://www.quaibranly.fr",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -252,44 +302,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:03:05.431Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Kabyle Pottery",
-      "url": "https://en.wikipedia.org/wiki/Kabyle_Pottery",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Kabyle Pottery — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Kabyle%20Pottery%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Kabyle Pottery — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Kabyle%20Pottery",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Kabyle Pottery — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Kabyle%20Pottery",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Kabyle Pottery — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Kabyle%20Pottery%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Kabyle Pottery — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Kabyle%20Pottery%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "popularity": 31,

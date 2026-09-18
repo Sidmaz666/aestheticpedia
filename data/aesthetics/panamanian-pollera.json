@@ -133,7 +133,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "600",
-      "height": "800"
+      "height": "800",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Panamanian-American_wearing_a_Pollera_de_Gala.png",
@@ -147,7 +152,12 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1126",
-      "height": "1466"
+      "height": "1466",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Pollera_SantoDomingo.jpg/1280px-Pollera_SantoDomingo.jpg",
@@ -161,7 +171,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Ciudad_de_Panam%C3%A1_Carnival_1946%2C_41_of_58.jpg/1280px-Ciudad_de_Panam%C3%A1_Carnival_1946%2C_41_of_58.jpg",
@@ -175,7 +190,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "870"
+      "height": "870",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/%C2%A1Mujer%2C_Celebra_tu_libertad%21.jpg/1280px-%C2%A1Mujer%2C_Celebra_tu_libertad%21.jpg",
@@ -189,7 +209,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Basqui%C3%B1as_Chiricanas.jpg/1280px-Basqui%C3%B1as_Chiricanas.jpg",
@@ -203,7 +228,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Aymara_Women%2C_El_Alto%2C_Bolivia_%282173402729%29.jpg",
@@ -217,7 +247,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1144",
-      "height": "1600"
+      "height": "1600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Petronila_Infantes.jpg",
@@ -230,7 +265,12 @@
       "date": "1937",
       "license": "Public domain",
       "width": "1000",
-      "height": "829"
+      "height": "829",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Cholitas_bolivianas_en_la_fiesta_del_El_Preste_La_Paz_Bolivia.jpg/1280px-Cholitas_bolivianas_en_la_fiesta_del_El_Preste_La_Paz_Bolivia.jpg",
@@ -244,19 +284,34 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1353"
+      "height": "1353",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Pollera",
       "url": "https://en.wikipedia.org/wiki/Pollera",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Panamanian Ministry of Culture",
       "url": "https://www.cultura.gob.pa",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -290,44 +345,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:08:10.819Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Panamanian Pollera",
-      "url": "https://en.wikipedia.org/wiki/Panamanian_Pollera",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Panamanian Pollera — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Panamanian%20Pollera%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Panamanian Pollera — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Panamanian%20Pollera",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Panamanian Pollera — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Panamanian%20Pollera",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Panamanian Pollera — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Panamanian%20Pollera%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Panamanian Pollera — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Panamanian%20Pollera%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1135871",

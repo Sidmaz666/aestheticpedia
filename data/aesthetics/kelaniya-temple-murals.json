@@ -127,7 +127,12 @@
       "date": "12 April 2007 (original upload date)",
       "license": "Public domain",
       "width": "640",
-      "height": "480"
+      "height": "480",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Kelaniya_AS2.JPG",
@@ -140,7 +145,12 @@
       "date": "12 April 2007 (original upload date)",
       "license": "Public domain",
       "width": "480",
-      "height": "640"
+      "height": "640",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/6e9729b9-47e3-c453-08e6-bcb88c9c57c7/full/843,/0/default.jpg",
@@ -154,7 +164,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "468"
+      "height": "468",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/09d2b000-8e44-c735-5099-126d6453aaaa/full/843,/0/default.jpg",
@@ -168,7 +183,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "595"
+      "height": "595",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/00fdacbb-872a-1091-3272-39967374ec07/full/843,/0/default.jpg",
@@ -182,7 +202,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "974"
+      "height": "974",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/33f9b78e-2c97-cddc-745a-ba3e4ed6273c/full/843,/0/default.jpg",
@@ -196,7 +221,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1054"
+      "height": "1054",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/e65adf9a-cdfd-4ba7-b9e8-86f26967b57e/full/843,/0/default.jpg",
@@ -210,7 +240,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "994"
+      "height": "994",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/a70fb7dc-2024-0ca3-989f-b28d0c39c2ea/full/843,/0/default.jpg",
@@ -224,24 +259,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "674"
+      "height": "674",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Department of Archaeology Sri Lanka",
       "url": "https://www.archaeology.gov.lk",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Arts of Sri Lanka",
       "url": "https://www.metmuseum.org/toah/hd/sril/hd_sril.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Kelaniya Temple Official Guide",
       "url": "https://www.kelaniyatemple.lk",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -266,42 +321,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:03:24.380Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Kelaniya Temple Murals",
-      "url": "https://en.wikipedia.org/wiki/Kelaniya_Temple_Murals",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Kelaniya Temple Murals — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Kelaniya%20Temple%20Murals%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Kelaniya Temple Murals — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Kelaniya%20Temple%20Murals",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Kelaniya Temple Murals — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Kelaniya%20Temple%20Murals",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Kelaniya Temple Murals — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Kelaniya%20Temple%20Murals%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Kelaniya Temple Murals — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Kelaniya%20Temple%20Murals%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q3522428",

@@ -127,7 +127,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "776"
+      "height": "776",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Vanuatu_Sand_Painting.JPG/1280px-Vanuatu_Sand_Painting.JPG",
@@ -141,7 +146,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/The_patient_on_the_%27sand-painting%27_LCCN91732411.jpg/1280px-The_patient_on_the_%27sand-painting%27_LCCN91732411.jpg",
@@ -154,7 +164,12 @@
       "date": "1906",
       "license": "Public domain",
       "width": "1280",
-      "height": "1027"
+      "height": "1027",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Navajos_sandpainting.jpg/1280px-Navajos_sandpainting.jpg",
@@ -167,7 +182,12 @@
       "date": "between 1890 and 1910 date QS:P,+1500-00-00T00:00:00Z/6,P131",
       "license": "Public domain",
       "width": "1280",
-      "height": "785"
+      "height": "785",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/2018_08_Ghana_football_time-6.jpg/1280px-2018_08_Ghana_football_time-6.jpg",
@@ -181,7 +201,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "850"
+      "height": "850",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/2018_08_Ghana_football_time-8.jpg/1280px-2018_08_Ghana_football_time-8.jpg",
@@ -195,7 +220,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "850"
+      "height": "850",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/A_cute_face_in_the_sands.jpg/1280px-A_cute_face_in_the_sands.jpg",
@@ -209,7 +239,12 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Alice_Springs4263.jpg",
@@ -222,7 +257,12 @@
       "date": "4.1.2007",
       "license": "Attribution",
       "width": "500",
-      "height": "327"
+      "height": "327",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Arenafev09.jpg",
@@ -236,7 +276,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "778",
-      "height": "437"
+      "height": "437",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/BatChegaga.JPG/1280px-BatChegaga.JPG",
@@ -250,24 +295,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "956"
+      "height": "956",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "National Museum of Australia",
       "url": "https://www.nma.gov.au",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Ernabella Arts",
       "url": "https://www.ernabellaarts.com.au",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Australian Institute of Aboriginal and Torres Strait Islander Studies",
       "url": "https://aiatsis.gov.au",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -303,42 +368,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:10:08.324Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Sand stories",
-      "url": "https://en.wikipedia.org/wiki/Sand_stories",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Sand stories — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Sand%20stories%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Sand stories — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Sand%20stories",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Sand stories — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Sand%20stories",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Sand stories — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Sand%20stories%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Sand stories — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Sand%20stories%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1545808",

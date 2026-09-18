@@ -175,7 +175,12 @@
       "date": "1905 date QS:P571,+1905-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1044",
-      "height": "1928"
+      "height": "1928",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Royal_Peacock_Barge_LACMA_M.82.154.jpg/1280px-Royal_Peacock_Barge_LACMA_M.82.154.jpg",
@@ -187,7 +192,12 @@
       "date": "Late 19th century",
       "license": "Public domain",
       "width": "1280",
-      "height": "825"
+      "height": "825",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Detail_of_the_Holi_mural_by_Sudhir_Khastgir_at_The_Doon_School.jpg/1280px-Detail_of_the_Holi_mural_by_Sudhir_Khastgir_at_The_Doon_School.jpg",
@@ -201,7 +211,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "757"
+      "height": "757",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Sudhir_Khastgir_at_The_Doon_School.jpg/1280px-Sudhir_Khastgir_at_The_Doon_School.jpg",
@@ -214,7 +229,12 @@
       "date": "2020-04-21 13:05:50",
       "license": "Public domain",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Sudhir_Khastgir_frieze_at_The_Doon_School.jpg/1280px-Sudhir_Khastgir_frieze_at_The_Doon_School.jpg",
@@ -228,7 +248,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "720"
+      "height": "720",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Sudhir_Khastgir_sculpture_at_The_Doon_School.jpg/1280px-Sudhir_Khastgir_sculpture_at_The_Doon_School.jpg",
@@ -242,7 +267,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Tagore_by_Sudhir_Khastgir.jpg",
@@ -256,23 +286,37 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1071",
-      "height": "1303"
+      "height": "1303",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "National Gallery of Modern Art",
       "url": "https://ngmaindia.gov.in",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Encyclopedia Britannica",
       "url": "https://www.britannica.com/topic/Bengal-school",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Art Story",
-      "url": "https://www.theartstory.org/movement-bengal-school",
       "tier": "B"
     }
   ],
@@ -314,37 +358,12 @@
       "type": "article",
       "title": "Wikipedia — Bengal School",
       "url": "https://en.wikipedia.org/wiki/Bengal_School",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Bengal School — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Bengal%20School%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Bengal School — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Bengal%20School",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Bengal School — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Bengal%20School",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Bengal School — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Bengal%20School%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Bengal School — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Bengal%20School%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q948504",

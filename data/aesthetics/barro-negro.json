@@ -125,7 +125,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/BartoloChurchSBC1.JPG/1280px-BartoloChurchSBC1.JPG",
@@ -139,7 +144,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/WallMEAPO.JPG/1280px-WallMEAPO.JPG",
@@ -153,7 +163,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Vase3DRSBC.JPG/1280px-Vase3DRSBC.JPG",
@@ -167,7 +182,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1912"
+      "height": "1912",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/MezcalCantaroDRSBC.JPG/1280px-MezcalCantaroDRSBC.JPG",
@@ -181,7 +201,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1912"
+      "height": "1912",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/TzompantliMEAPO.JPG/1280px-TzompantliMEAPO.JPG",
@@ -195,23 +220,37 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Museo Estatal de Arte Popular de Oaxaca",
       "url": "https://www.inba.gob.mx",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "San Bartolo Coyotepottery Cooperative",
       "url": "https://barro-negro.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia: Barro negro",
-      "url": "https://en.wikipedia.org/wiki/Barro_negro",
       "tier": "B"
     }
   ],
@@ -253,37 +292,12 @@
       "type": "article",
       "title": "Wikipedia — Barro Negro",
       "url": "https://en.wikipedia.org/wiki/Barro_Negro",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Barro Negro — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Barro%20Negro%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Barro Negro — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Barro%20Negro",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Barro Negro — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Barro%20Negro",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Barro Negro — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Barro%20Negro%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Barro Negro — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Barro%20Negro%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q3891277",

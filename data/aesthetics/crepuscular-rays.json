@@ -180,7 +180,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "935"
+      "height": "935",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/JacobsLaddertoHeaven.jpg",
@@ -192,7 +197,12 @@
       "artist": "O. A. Stemler and Bess Bruce Cleveland",
       "license": "Public domain",
       "width": "664",
-      "height": "800"
+      "height": "800",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/ACU_Jacobs_Dream_artwork.JPG/1280px-ACU_Jacobs_Dream_artwork.JPG",
@@ -205,7 +215,12 @@
       "date": "2010-03-08",
       "license": "Public domain",
       "width": "1280",
-      "height": "980"
+      "height": "980",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Monheim_Town_Hall_3.jpg",
@@ -219,7 +234,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1152",
-      "height": "1536"
+      "height": "1536",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/El_sue%C3%B1o_de_Jacob%2C_por_Jos%C3%A9_de_Ribera.jpg/1280px-El_sue%C3%B1o_de_Jacob%2C_por_Jos%C3%A9_de_Ribera.jpg",
@@ -232,7 +252,12 @@
       "date": "1639 date QS:P571,+1639-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "964"
+      "height": "964",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Blake_jacobsladder.jpg/1280px-Blake_jacobsladder.jpg",
@@ -245,24 +270,44 @@
       "date": "1805",
       "license": "Public domain",
       "width": "1280",
-      "height": "1629"
+      "height": "1629",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Encyclopedia of Atmospheric Sciences",
       "url": "https://www.sciencedirect.com/topics/atmospheric-sciences/crepuscular-rays",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Crepuscular_rays",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "American Meteorological Society",
       "url": "https://www.ametsoc.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -298,48 +343,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:57:31.554Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Crepuscular rays in photography",
-      "url": "https://www.youtube.com/results?search_query=crepuscular+rays+photography",
-      "note": ""
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Crepuscular Rays",
-      "url": "https://en.wikipedia.org/wiki/Crepuscular_Rays",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Crepuscular Rays — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Crepuscular%20Rays%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Crepuscular Rays — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Crepuscular%20Rays",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Crepuscular Rays — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Crepuscular%20Rays",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Crepuscular Rays — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Crepuscular%20Rays%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Crepuscular Rays — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Crepuscular%20Rays%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q607715",

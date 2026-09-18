@@ -125,7 +125,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1244"
+      "height": "1244",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/SpencerMacCallum.jpg",
@@ -138,7 +143,12 @@
       "date": "2006-08-15",
       "license": "Public domain",
       "width": "750",
-      "height": "966"
+      "height": "966",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/MataOrtizFONART3.JPG/1280px-MataOrtizFONART3.JPG",
@@ -152,7 +162,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/MataOrtizFONART8.JPG/1280px-MataOrtizFONART8.JPG",
@@ -166,7 +181,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Cer%C3%A1mica_de_Mata_Ortiz.jpg/1280px-Cer%C3%A1mica_de_Mata_Ortiz.jpg",
@@ -180,7 +200,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/MataOrtizFONART11.JPG/1280px-MataOrtizFONART11.JPG",
@@ -194,24 +219,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Mata Ortiz Pottery Museum",
       "url": "https://www.mataortiz.net",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Smithsonian Center for Folklife and Cultural Heritage",
       "url": "https://folklife.si.edu",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia: Mata Ortiz pottery",
       "url": "https://en.wikipedia.org/wiki/Mata_Ortiz_pottery",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -234,44 +279,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:05:59.196Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Mata Ortiz Pottery",
-      "url": "https://en.wikipedia.org/wiki/Mata_Ortiz_Pottery",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Mata Ortiz Pottery — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Mata%20Ortiz%20Pottery%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Mata Ortiz Pottery — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Mata%20Ortiz%20Pottery",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Mata Ortiz Pottery — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Mata%20Ortiz%20Pottery",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Mata Ortiz Pottery — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Mata%20Ortiz%20Pottery%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Mata Ortiz Pottery — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Mata%20Ortiz%20Pottery%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q6785892",

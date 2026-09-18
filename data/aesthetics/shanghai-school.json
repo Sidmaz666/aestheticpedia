@@ -177,7 +177,12 @@
       "date": "1884",
       "license": "Public domain",
       "width": "1280",
-      "height": "2129"
+      "height": "2129",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Ren_Xiong_-_The_Goddess_of_the_Luo_River.jpg/1280px-Ren_Xiong_-_The_Goddess_of_the_Luo_River.jpg",
@@ -189,7 +194,12 @@
       "artist": "Ren Xiong",
       "license": "Public domain",
       "width": "1280",
-      "height": "2643"
+      "height": "2643",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/3fa36102-97ed-7065-d072-ce0b15a9a2f1/full/843,/0/default.jpg",
@@ -203,7 +213,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "543"
+      "height": "543",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/360e3e61-bb1c-1eb5-a9f5-e620f305b75b/full/843,/0/default.jpg",
@@ -217,7 +232,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1054"
+      "height": "1054",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/d706c6bf-968d-8fe1-200d-21963291e8fc/full/843,/0/default.jpg",
@@ -231,7 +251,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "405"
+      "height": "405",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/37981a95-ee40-e075-07dc-bc7399ed487c/full/843,/0/default.jpg",
@@ -245,7 +270,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "715"
+      "height": "715",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/a680713b-f1f9-1fd0-5b77-81d42415db5d/full/843,/0/default.jpg",
@@ -259,7 +289,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "649"
+      "height": "649",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/0fb01e26-1dcd-bba2-a146-d0adf183a2b1/full/843,/0/default.jpg",
@@ -273,24 +308,38 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "895"
+      "height": "895",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Shanghai Museum",
-      "url": "https://www.shanghaimuseum.net/en",
       "tier": "A"
     },
     {
       "name": "Oxford Art Online",
       "url": "https://www.oxfordartonline.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Shanghai School: Chinese Painting of the 19th and 20th Centuries",
       "url": "https://www.metmuseum.org/art/collection/search/489649",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "references": [
@@ -320,37 +369,12 @@
       "type": "article",
       "title": "Wikipedia — Shanghai School",
       "url": "https://en.wikipedia.org/wiki/Shanghai_School",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Shanghai School — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Shanghai%20School%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Shanghai School — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Shanghai%20School",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Shanghai School — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Shanghai%20School",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Shanghai School — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Shanghai%20School%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Shanghai School — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Shanghai%20School%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q15896937",

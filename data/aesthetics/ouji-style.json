@@ -117,61 +117,39 @@
     {
       "name": "Lolita Fashion Bible",
       "url": "https://lolita.fashion",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 509,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Alice Auaa Official Site",
       "url": "https://aliceauaa.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Tokyo Street Style",
-      "url": "https://en.wikipedia.org/wiki/Tokyo_street_style",
       "tier": "B"
     }
   ],
   "references": [
     {
-      "type": "article",
-      "title": "Wikipedia — Ouji Style",
-      "url": "https://en.wikipedia.org/wiki/Ouji_Style",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Ouji Style — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Ouji%20Style%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Ouji Style — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Ouji%20Style",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Ouji Style — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Ouji%20Style",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Ouji Style — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Ouji%20Style%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Ouji Style — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Ouji%20Style%20aesthetic%20examples",
-      "note": "Google Images search"
-    },
-    {
       "type": "web",
       "title": "Aesthetics Wiki — Ouji Style",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Ouji%20Style",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "popularity": 50,

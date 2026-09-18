@@ -150,7 +150,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "1912"
+      "height": "1912",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Ofrenda_SD_2024.jpg/1280px-Ofrenda_SD_2024.jpg",
@@ -164,7 +169,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/d1666499-6fde-bb14-1b47-7e86209d3b58/full/843,/0/default.jpg",
@@ -178,24 +188,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1054"
+      "height": "1054",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "National Museum of Mexican Art",
       "url": "https://nationalmuseumofmexicanart.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "UNESCO Intangible Cultural Heritage",
       "url": "https://ich.unesco.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Mexico Insider - Day of the Dead Guide",
       "url": "https://mexico-insider.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -220,42 +250,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:07:32.541Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Ofrenda de Día de Muertos",
-      "url": "https://en.wikipedia.org/wiki/Ofrenda_de_D%C3%ADa_de_Muertos",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Ofrenda de Día de Muertos — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Ofrenda%20de%20D%C3%ADa%20de%20Muertos%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Ofrenda de Día de Muertos — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Ofrenda%20de%20D%C3%ADa%20de%20Muertos",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Ofrenda de Día de Muertos — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Ofrenda%20de%20D%C3%ADa%20de%20Muertos",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Ofrenda de Día de Muertos — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Ofrenda%20de%20D%C3%ADa%20de%20Muertos%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Ofrenda de Día de Muertos — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Ofrenda%20de%20D%C3%ADa%20de%20Muertos%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q16301058",

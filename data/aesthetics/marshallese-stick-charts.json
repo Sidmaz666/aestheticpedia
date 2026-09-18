@@ -130,7 +130,12 @@
       "license": "GPL",
       "licenseUrl": "http://www.gnu.org/licenses/gpl.html",
       "width": "1280",
-      "height": "1389"
+      "height": "1389",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Yami_ipanitika.jpg/1280px-Yami_ipanitika.jpg",
@@ -144,7 +149,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "890"
+      "height": "890",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Hokule%27aSailing2009.jpg",
@@ -158,7 +168,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "955",
-      "height": "716"
+      "height": "716",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Boracay_paraw_sailboats_015.jpg/1280px-Boracay_paraw_sailboats_015.jpg",
@@ -172,7 +187,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Yap_Canoe01.jpg",
@@ -186,7 +206,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1200",
-      "height": "900"
+      "height": "900",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Kapal_Nur_Al_Marege%2C_koleksi_pribadi_Muhammad_Ridwan_Alimudin%2C_2019.jpg",
@@ -199,7 +224,12 @@
       "date": "2019",
       "license": "Public domain",
       "width": "1280",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Galley_-_Layard_-_Ninive_page_324_detail.png",
@@ -212,19 +242,34 @@
       "date": "1855",
       "license": "Public domain",
       "width": "541",
-      "height": "353"
+      "height": "353",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Marshall Islands stick chart",
       "url": "https://en.wikipedia.org/wiki/Marshall_Islands_stick_chart",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Smithsonian Institution",
       "url": "https://www.si.edu",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -258,44 +303,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:05:35.239Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Marshallese Stick Charts",
-      "url": "https://en.wikipedia.org/wiki/Marshallese_Stick_Charts",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Marshallese Stick Charts — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Marshallese%20Stick%20Charts%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Marshallese Stick Charts — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Marshallese%20Stick%20Charts",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Marshallese Stick Charts — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Marshallese%20Stick%20Charts",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Marshallese Stick Charts — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Marshallese%20Stick%20Charts%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Marshallese Stick Charts — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Marshallese%20Stick%20Charts%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q2325507",

@@ -135,7 +135,12 @@
       "artist": "New York, Wid's Films and Film Folks, Inc.",
       "license": "Public domain",
       "width": "1280",
-      "height": "2452"
+      "height": "2452",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/The-gulf-between-surviving-cell.jpg",
@@ -148,7 +153,12 @@
       "date": "1917-09-13",
       "license": "Public domain",
       "width": "684",
-      "height": "480"
+      "height": "480",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Anna_May_Wong_holds_child_in_The_Toll_of_the_Sea.jpg",
@@ -161,7 +171,12 @@
       "date": "Released November 26 1922",
       "license": "Public domain",
       "width": "640",
-      "height": "478"
+      "height": "478",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Phantomtechnicolor.jpg",
@@ -174,7 +189,12 @@
       "date": "1925",
       "license": "Public domain",
       "width": "649",
-      "height": "463"
+      "height": "463",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Bride_Of_The_Regiment_1930_Technicolor.jpg",
@@ -187,7 +207,12 @@
       "date": "1927-01-07",
       "license": "Public domain",
       "width": "963",
-      "height": "720"
+      "height": "720",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Merrie_Melodies_classic_title_card.png",
@@ -200,7 +225,12 @@
       "date": "1938",
       "license": "Public domain",
       "width": "640",
-      "height": "480"
+      "height": "480",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/3-strip_Technicolor_camera.jpg/1280px-3-strip_Technicolor_camera.jpg",
@@ -214,7 +244,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "852"
+      "height": "852",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Doris_Lloyd-Charles_Richman_in_Becky_Sharp.jpg/1280px-Doris_Lloyd-Charles_Richman_in_Becky_Sharp.jpg",
@@ -227,7 +262,12 @@
       "date": "1935",
       "license": "Public domain",
       "width": "1280",
-      "height": "937"
+      "height": "937",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Technicolor_ad_-_Motion_Picture%2C_July_1930.jpg/1280px-Technicolor_ad_-_Motion_Picture%2C_July_1930.jpg",
@@ -240,7 +280,12 @@
       "date": "1930-07-01",
       "license": "Public domain",
       "width": "1280",
-      "height": "1832"
+      "height": "1832",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Gentlemen_Prefer_Blondes_Movie_Trailer_Screenshot_%2834%29.jpg",
@@ -253,19 +298,34 @@
       "date": "1953",
       "license": "Public domain",
       "width": "760",
-      "height": "570"
+      "height": "570",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Technicolor",
       "url": "https://en.wikipedia.org/wiki/Technicolor",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "George Eastman Museum — Technicolor collection",
       "url": "https://www.eastman.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -299,44 +359,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:11:58.246Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Technicolor Musicals",
-      "url": "https://en.wikipedia.org/wiki/Technicolor_Musicals",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Technicolor Musicals — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Technicolor%20Musicals%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Technicolor Musicals — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Technicolor%20Musicals",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Technicolor Musicals — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Technicolor%20Musicals",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Technicolor Musicals — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Technicolor%20Musicals%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Technicolor Musicals — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Technicolor%20Musicals%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q674564",

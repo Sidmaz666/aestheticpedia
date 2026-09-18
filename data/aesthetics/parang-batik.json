@@ -130,7 +130,12 @@
       "license": "No restrictions",
       "licenseUrl": "https://www.flickr.com/commons/usage/",
       "width": "1280",
-      "height": "2057"
+      "height": "2057",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Melilin_Batik.jpg/1280px-Melilin_Batik.jpg",
@@ -144,7 +149,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Collectie_NMvWereldculturen%2C_RV-847-117%2C_Batikpatroon%2C_%27Parang_rusak_putri%27%2C_voor_1891.jpg/1280px-Collectie_NMvWereldculturen%2C_RV-847-117%2C_Batikpatroon%2C_%27Parang_rusak_putri%27%2C_voor_1891.jpg",
@@ -156,7 +166,12 @@
       "artist": "Unknown author Unknown author",
       "license": "Public domain",
       "width": "1280",
-      "height": "1220"
+      "height": "1220",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Teinture_naturelle_Millepertuis_2.jpg",
@@ -169,7 +184,12 @@
       "date": "2007-05-20",
       "license": "Public domain",
       "width": "599",
-      "height": "799"
+      "height": "799",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/1f82c888-ffa7-384a-fd6b-1ad276b6d9d5/full/843,/0/default.jpg",
@@ -183,24 +203,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "392"
+      "height": "392",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Museum Nasional Indonesia",
       "url": "https://museumnasionalindonesia.id",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Batik Museum Pekalongan",
       "url": "https://batikmuseum.pekalongankota.go.id",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Parang_(batik)",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "references": [
@@ -223,44 +263,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:08:15.361Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Parang Batik",
-      "url": "https://en.wikipedia.org/wiki/Parang_Batik",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Parang Batik — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Parang%20Batik%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Parang Batik — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Parang%20Batik",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Parang Batik — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Parang%20Batik",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Parang Batik — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Parang%20Batik%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Parang Batik — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Parang%20Batik%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q16745562",

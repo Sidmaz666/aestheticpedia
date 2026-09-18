@@ -181,7 +181,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/DirkvdM_orosi_chalet.jpg/1280px-DirkvdM_orosi_chalet.jpg",
@@ -193,7 +198,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "887"
+      "height": "887",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/House_built_by_Ruth_Trummer_in_Hagere_Selam.jpg/1280px-House_built_by_Ruth_Trummer_in_Hagere_Selam.jpg",
@@ -207,7 +217,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Chalet_in_Ranua.JPG/1280px-Chalet_in_Ranua.JPG",
@@ -221,7 +236,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Pal%C3%BC_en_Diavolezza.jpg/1280px-Pal%C3%BC_en_Diavolezza.jpg",
@@ -235,7 +255,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Big_single-family_home_2.jpg",
@@ -247,7 +272,12 @@
       "artist": "SanjibLemar",
       "license": "Public domain",
       "width": "800",
-      "height": "604"
+      "height": "604",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Winsenmuseum_groode_Hus.jpg",
@@ -260,24 +290,44 @@
       "date": "2009-05",
       "license": "Public domain",
       "width": "950",
-      "height": "720"
+      "height": "720",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Swiss Heritage Society",
       "url": "https://www.hauslandschaften.ch",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Encyclopedia Britannica",
       "url": "https://www.britannica.com/topic/chalet",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -313,42 +363,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:53:44.444Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Alpine chalet",
-      "url": "https://en.wikipedia.org/wiki/Alpine_chalet",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Alpine chalet — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Alpine%20chalet%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Alpine chalet — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Alpine%20chalet",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Alpine chalet — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Alpine%20chalet",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Alpine chalet — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Alpine%20chalet%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Alpine chalet — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Alpine%20chalet%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q136689",

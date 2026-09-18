@@ -135,7 +135,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1875"
+      "height": "1875",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Rocker_in_the_Shaker_Village_at_Pleasant_Hill.jpg/1280px-Rocker_in_the_Shaker_Village_at_Pleasant_Hill.jpg",
@@ -149,7 +154,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "1924"
+      "height": "1924",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Shaker_clock.JPG/1280px-Shaker_clock.JPG",
@@ -163,7 +173,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Shaker_dining_table.JPG/1280px-Shaker_dining_table.JPG",
@@ -177,7 +192,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Shaker_bedroom.JPG/1280px-Shaker_bedroom.JPG",
@@ -191,7 +211,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Shaker_chairs.jpg",
@@ -205,7 +230,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1024",
-      "height": "755"
+      "height": "755",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Shaker_bureau.JPG/1280px-Shaker_bureau.JPG",
@@ -219,7 +249,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Shaker_student_desk.JPG/1280px-Shaker_student_desk.JPG",
@@ -233,7 +268,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Hannah_Cohoon%2C_Tree_of_Life_or_Blazaing_Tree%2C_1845.jpg/1280px-Hannah_Cohoon%2C_Tree_of_Life_or_Blazaing_Tree%2C_1845.jpg",
@@ -246,24 +286,44 @@
       "date": "2014-03-23 10:54:22",
       "license": "Public domain",
       "width": "1280",
-      "height": "1007"
+      "height": "1007",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Shaker Village",
       "url": "https://www.shakervillage.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Colonial Williamsburg",
       "url": "https://www.history.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Shaker Museum Mount Lebanon",
       "url": "https://www.shakermuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -304,37 +364,12 @@
       "type": "article",
       "title": "Wikipedia — Shaker Furniture",
       "url": "https://en.wikipedia.org/wiki/Shaker_Furniture",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Shaker Furniture — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Shaker%20Furniture%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Shaker Furniture — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Shaker%20Furniture",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Shaker Furniture — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Shaker%20Furniture",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Shaker Furniture — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Shaker%20Furniture%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Shaker Furniture — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Shaker%20Furniture%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q1475417",

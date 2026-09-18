@@ -138,57 +138,35 @@
     {
       "name": "Fashion Design Reference",
       "url": "https://www.fashion-design-reference.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Parsons School of Design Curriculum",
       "url": "https://www.newschool.edu/parsons",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Fashionary Croquis Guide",
       "url": "https://www.fashionary.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Croquis 9-Head Convention",
-      "url": "https://en.wikipedia.org/wiki/Croquis_9-Head_Convention",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Croquis 9-Head Convention — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Croquis%209-Head%20Convention%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Croquis 9-Head Convention — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Croquis%209-Head%20Convention",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Croquis 9-Head Convention — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Croquis%209-Head%20Convention",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Croquis 9-Head Convention — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Croquis%209-Head%20Convention%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Croquis 9-Head Convention — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Croquis%209-Head%20Convention%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 85,
   "isNiche": false,
   "dataQuality": "well_documented",

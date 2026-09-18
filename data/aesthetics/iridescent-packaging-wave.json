@@ -116,57 +116,35 @@
     {
       "name": "Package Design Magazine",
       "url": "https://packagedesignmag.com/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Dieline",
       "url": "https://thedieline.com/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Japan Packaging Institute",
       "url": "https://www.japan-packaging.or.jp/en/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Iridescent Packaging Wave",
-      "url": "https://en.wikipedia.org/wiki/Iridescent_Packaging_Wave",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Iridescent Packaging Wave — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Iridescent%20Packaging%20Wave%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Iridescent Packaging Wave — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Iridescent%20Packaging%20Wave",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Iridescent Packaging Wave — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Iridescent%20Packaging%20Wave",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Iridescent Packaging Wave — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Iridescent%20Packaging%20Wave%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Iridescent Packaging Wave — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Iridescent%20Packaging%20Wave%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 75,
   "isNiche": false,
   "dataQuality": "moderately_documented",

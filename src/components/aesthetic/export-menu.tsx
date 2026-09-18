@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 import { Check, ChevronDown, Download, Link2, Share2 } from 'lucide-react'
 import { EXPORT_GROUPS } from './export-formats'
 import { copyText } from './palette-swatches'
+import { SITE_NAME } from '@/lib/site'
 
 export function ExportMenu({ slug }: { slug: string }) {
   const [open, setOpen] = useState(false)
@@ -76,7 +77,7 @@ export function ShareButton({ slug, name }: { slug: string; name: string }) {
     const url = `${window.location.origin}/aesthetics/${slug}`
     if (navigator.share) {
       try {
-        await navigator.share({ title: `${name} — Aestheticpedia`, url })
+        await navigator.share({ title: `${name} — ${SITE_NAME}`, url })
         return
       } catch {
         /* cancelled — fall back to copy */

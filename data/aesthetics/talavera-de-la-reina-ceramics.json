@@ -129,7 +129,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/FacadeUriartePuebla.JPG/1280px-FacadeUriartePuebla.JPG",
@@ -143,7 +148,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "992"
+      "height": "992",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/LA_CASA_DE_LOS_AZULEJOS.jpg",
@@ -157,7 +167,12 @@
       "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/FountainPlateChautla.JPG/1280px-FountainPlateChautla.JPG",
@@ -171,7 +186,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Capilla_del_Rosario_07.jpg/1280px-Capilla_del_Rosario_07.jpg",
@@ -185,7 +205,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/DiaplayRoomUriarte.JPG/1280px-DiaplayRoomUriarte.JPG",
@@ -199,7 +224,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "857"
+      "height": "857",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Biblioteca_Palafoxiana%2C_exterior.JPG/1280px-Biblioteca_Palafoxiana%2C_exterior.JPG",
@@ -213,24 +243,44 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Museo de Cerámica",
       "url": "https://www.museoceramicatalavera.es/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Talavera Pottery History",
       "url": "https://en.wikipedia.org/wiki/Talavera_pottery",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Traditional Talavera Techniques",
       "url": "https://www.talavera.es/en/history/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -244,42 +294,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:11:30.513Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Talavera de la Reina Ceramics",
-      "url": "https://en.wikipedia.org/wiki/Talavera_de_la_Reina_Ceramics",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Talavera de la Reina Ceramics — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Talavera%20de%20la%20Reina%20Ceramics%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Talavera de la Reina Ceramics — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Talavera%20de%20la%20Reina%20Ceramics",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Talavera de la Reina Ceramics — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Talavera%20de%20la%20Reina%20Ceramics",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Talavera de la Reina Ceramics — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Talavera%20de%20la%20Reina%20Ceramics%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Talavera de la Reina Ceramics — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Talavera%20de%20la%20Reina%20Ceramics%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "popularity": 65,

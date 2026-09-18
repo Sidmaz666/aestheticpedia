@@ -124,7 +124,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "2406"
+      "height": "2406",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/4dc63cce-a3c0-9976-8e13-e7aac9e7df6a/full/843,/0/default.jpg",
@@ -138,7 +143,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "845"
+      "height": "845",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/974010ee-1383-0ac1-7c76-4ab9c826f22a/full/843,/0/default.jpg",
@@ -152,64 +162,47 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "846"
+      "height": "846",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "National Museum of Denmark",
       "url": "https://natmus.dk/en/research-and-collections/viking-age/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Viking Answer Lady",
       "url": "https://www.vikinganswerlady.com/wood.shtml",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Oxford Art Online",
       "url": "https://www.oxfordartonline.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Norse Ribbon Ornament",
-      "url": "https://en.wikipedia.org/wiki/Norse_Ribbon_Ornament",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Norse Ribbon Ornament — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Norse%20Ribbon%20Ornament%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Norse Ribbon Ornament — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Norse%20Ribbon%20Ornament",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Norse Ribbon Ornament — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Norse%20Ribbon%20Ornament",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Norse Ribbon Ornament — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Norse%20Ribbon%20Ornament%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Norse Ribbon Ornament — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Norse%20Ribbon%20Ornament%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 65,
   "isNiche": false,
   "dataQuality": "well_documented",

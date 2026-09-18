@@ -141,7 +141,12 @@
       "date": "2008-02-27 05:41",
       "license": "Public domain",
       "width": "1159",
-      "height": "1173"
+      "height": "1173",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/1GZX_Haemoglobin.png/1280px-1GZX_Haemoglobin.png",
@@ -155,7 +160,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Carbon_Catabolism.png/1280px-Carbon_Catabolism.png",
@@ -169,7 +179,12 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Plagiomnium_affine_laminazellen.jpeg",
@@ -183,7 +198,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "800",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/A_thaliana_metabolic_network.png",
@@ -196,7 +216,12 @@
       "date": "12 March 2007 (original upload date)",
       "license": "Public domain",
       "width": "836",
-      "height": "882"
+      "height": "882",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Aristotle%27s_metabolism.png",
@@ -210,23 +235,37 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "960",
-      "height": "720"
+      "height": "720",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Metabolism: The City of the Future",
       "url": "https://www.moma.org/collection/works/670",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Metabolism Architecture",
       "url": "https://en.wikipedia.org/wiki/Metabolism_(architecture)",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Metabolism: Japanese Architecture's Vision of the Future",
-      "url": "https://www.archdaily.com/905036/metabolism-japanese-architecture-vision-of-the-future",
       "tier": "C"
     }
   ],
@@ -263,36 +302,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:06:11.109Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Metabolism — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Metabolism%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Metabolism — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Metabolism",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Metabolism — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Metabolism",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Metabolism — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Metabolism%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Metabolism — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Metabolism%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1057",

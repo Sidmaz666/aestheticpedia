@@ -129,7 +129,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "848"
+      "height": "848",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Shaoxing_opera_actress_Cai_Yan.jpg",
@@ -143,7 +148,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Zhui_Yu_8.jpg/1280px-Zhui_Yu_8.jpg",
@@ -157,7 +167,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "848"
+      "height": "848",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Wang_Kui_Betrays_Guiying_Shaoxing_Opera_1.jpg/1280px-Wang_Kui_Betrays_Guiying_Shaoxing_Opera_1.jpg",
@@ -171,7 +186,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "848"
+      "height": "848",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Complete_Tales_of_Yue_Shaoxing_opera_orchestra.jpg/1280px-Complete_Tales_of_Yue_Shaoxing_opera_orchestra.jpg",
@@ -185,7 +205,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "848"
+      "height": "848",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/%E8%B6%8A%E5%89%A7%E5%8D%81%E5%A7%90%E5%A6%B91947.jpg",
@@ -198,24 +223,44 @@
       "date": "1947",
       "license": "Public domain",
       "width": "500",
-      "height": "417"
+      "height": "417",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Yue Opera Museum",
       "url": "https://www.yueju.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Zhejiang Cultural Bureau",
       "url": "https://www.zj.gov",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "China Culture",
       "url": "https://www.chinaculture.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -251,42 +296,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:13:57.674Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Yue Opera Soft Staging",
-      "url": "https://en.wikipedia.org/wiki/Yue_Opera_Soft_Staging",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Yue Opera Soft Staging — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Yue%20Opera%20Soft%20Staging%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Yue Opera Soft Staging — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Yue%20Opera%20Soft%20Staging",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Yue Opera Soft Staging — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Yue%20Opera%20Soft%20Staging",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Yue Opera Soft Staging — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Yue%20Opera%20Soft%20Staging%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Yue Opera Soft Staging — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Yue%20Opera%20Soft%20Staging%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1194292",

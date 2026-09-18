@@ -126,7 +126,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1024",
-      "height": "683"
+      "height": "683",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Bradshaw_rock_art_traditions.jpg",
@@ -136,7 +141,12 @@
       "caption": "Bradshaw rock art traditions",
       "source": "Wikimedia Commons",
       "width": "886",
-      "height": "465"
+      "height": "465",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Kimberley.png",
@@ -150,7 +160,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "563",
-      "height": "476"
+      "height": "476",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Drawing_of_Bradshaw_art.jpg/1280px-Drawing_of_Bradshaw_art.jpg",
@@ -163,7 +178,12 @@
       "date": "1891-04",
       "license": "Public domain",
       "width": "1280",
-      "height": "740"
+      "height": "740",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Wandjina_rock_art.jpg/1280px-Wandjina_rock_art.jpg",
@@ -177,7 +197,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Sunda_shelf.jpg",
@@ -191,24 +216,44 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "width": "638",
-      "height": "416"
+      "height": "416",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Australian Museum",
       "url": "https://australian.museum/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Museum of Victoria",
       "url": "https://museumsvictoria.com.au/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Kimberley Foundation Australia",
       "url": "https://kimberleyfoundation.org.au/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -244,42 +289,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:01:08.597Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Gwion Gwion figures",
-      "url": "https://en.wikipedia.org/wiki/Gwion_Gwion_figures",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Gwion Gwion figures — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Gwion%20Gwion%20figures%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Gwion Gwion figures — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Gwion%20Gwion%20figures",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Gwion Gwion figures — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Gwion%20Gwion%20figures",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Gwion Gwion figures — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Gwion%20Gwion%20figures%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Gwion Gwion figures — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Gwion%20Gwion%20figures%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q897081",

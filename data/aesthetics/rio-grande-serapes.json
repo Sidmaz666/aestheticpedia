@@ -125,7 +125,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "955"
+      "height": "955",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/187fa16f-67d6-0e22-69d9-8049810640d5/full/843,/0/default.jpg",
@@ -139,64 +144,47 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1691"
+      "height": "1691",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Museum of International Folk Art",
       "url": "https://www.moifa.org/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Spanish Textiles of the Southwest",
       "url": "https://www.unmpress.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Weaving in the Southwest",
       "url": "https://www.nativeamerican.net",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Rio Grande serapes",
-      "url": "https://en.wikipedia.org/wiki/Rio_Grande_serapes",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Rio Grande serapes — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Rio%20Grande%20serapes%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Rio Grande serapes — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Rio%20Grande%20serapes",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Rio Grande serapes — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Rio%20Grande%20serapes",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Rio Grande serapes — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Rio%20Grande%20serapes%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Rio Grande serapes — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Rio%20Grande%20serapes%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 60,
   "isNiche": false,
   "dataQuality": "well_documented",

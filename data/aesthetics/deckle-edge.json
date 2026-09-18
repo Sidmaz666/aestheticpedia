@@ -127,7 +127,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "980",
-      "height": "754"
+      "height": "754",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Deckle_edge_flax_paper.jpg/1280px-Deckle_edge_flax_paper.jpg",
@@ -141,7 +146,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Boekenplank7.jpg/1280px-Boekenplank7.jpg",
@@ -155,7 +165,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Book_deckle_01.jpg/1280px-Book_deckle_01.jpg",
@@ -169,7 +184,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "854"
+      "height": "854",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Intonso.jpg",
@@ -183,7 +203,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "800",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Old_book_-_Les_Miserables.jpg",
@@ -197,7 +222,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "768",
-      "height": "1024"
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/StateLibQld_1_242037_Story_Bridge_Smoke_Social_invitation_card%2C_1939.jpg",
@@ -209,24 +239,44 @@
       "date": "1939",
       "license": "Public domain",
       "width": "1000",
-      "height": "695"
+      "height": "695",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Hand Papermaking Inc.",
       "url": "https://www.handpapermaking.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Morgan Library",
       "url": "https://www.themorgan.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Deckle_edge",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -260,44 +310,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T04:58:12.812Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Deckle Edge",
-      "url": "https://en.wikipedia.org/wiki/Deckle_Edge",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Deckle Edge — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Deckle%20Edge%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Deckle Edge — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Deckle%20Edge",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Deckle Edge — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Deckle%20Edge",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Deckle Edge — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Deckle%20Edge%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Deckle Edge — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Deckle%20Edge%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q152159",

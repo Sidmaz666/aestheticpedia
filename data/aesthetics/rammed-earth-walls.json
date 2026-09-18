@@ -124,7 +124,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "852"
+      "height": "852",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Tapialdebarro.jpg/1280px-Tapialdebarro.jpg",
@@ -137,7 +142,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/HouseBuildingInNorthernVietnam.jpg/1280px-HouseBuildingInNorthernVietnam.jpg",
@@ -150,7 +160,12 @@
       "date": "28 March 2004 (according to Exif data)",
       "license": "Public domain",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/MurPise2.JPG/1280px-MurPise2.JPG",
@@ -164,7 +179,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Slipform.jpg",
@@ -178,7 +198,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1059",
-      "height": "794"
+      "height": "794",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Rammed_earth_wall_surface.jpg",
@@ -190,7 +215,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "900",
-      "height": "1248"
+      "height": "1248",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Wall_Finish.jpg/1280px-Wall_Finish.jpg",
@@ -204,7 +234,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Oxide_Finish_Wall.jpg",
@@ -218,7 +253,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1059",
-      "height": "794"
+      "height": "794",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/JiayuguanWall.jpg/1280px-JiayuguanWall.jpg",
@@ -232,7 +272,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "653"
+      "height": "653",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Grange.Bassey.Saint.Nicolas.Macherin.jpg/1280px-Grange.Bassey.Saint.Nicolas.Macherin.jpg",
@@ -246,24 +291,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "965"
+      "height": "965",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "UNESCO Rammed Earth Documentation",
       "url": "https://unesco.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Earth Building Association Australia",
       "url": "https://earthbuilding.org.au",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Dezeen Rammed Earth Architecture",
       "url": "https://dezeen.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -299,42 +364,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:09:32.356Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Rammed Earth Walls",
-      "url": "https://en.wikipedia.org/wiki/Rammed_Earth_Walls",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Rammed Earth Walls — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Rammed%20Earth%20Walls%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Rammed Earth Walls — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Rammed%20Earth%20Walls",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Rammed Earth Walls — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Rammed%20Earth%20Walls",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Rammed Earth Walls — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Rammed%20Earth%20Walls%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Rammed Earth Walls — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Rammed%20Earth%20Walls%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1363009",

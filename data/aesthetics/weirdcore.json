@@ -118,7 +118,12 @@
       "date": "8/4/2026",
       "license": "Public domain",
       "width": "600",
-      "height": "450"
+      "height": "450",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Weirdcore_52486.jpg",
@@ -132,19 +137,34 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "839"
+      "height": "839",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Weirdcore",
       "url": "https://aesthetics.fandom.com/wiki/Weirdcore",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia — Weirdcore",
       "url": "https://en.wikipedia.org/wiki/Weirdcore",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "references": [
@@ -167,44 +187,19 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:13:21.328Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Weirdcore — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Weirdcore%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Weirdcore — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Weirdcore",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Weirdcore — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Weirdcore",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Weirdcore — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Weirdcore%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Weirdcore — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Weirdcore%20aesthetic%20examples",
-      "note": "Google Images search"
     },
     {
       "type": "web",
       "title": "Aesthetics Wiki — Weirdcore",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Weirdcore",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q139032496",

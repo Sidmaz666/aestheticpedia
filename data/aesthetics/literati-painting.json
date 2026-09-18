@@ -173,7 +173,12 @@
       "date": "1072 date QS:P571,+1072-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "838"
+      "height": "838",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Wanluan_Thatched_Hall_by_Dong_Qichang.jpg",
@@ -186,7 +191,12 @@
       "date": "Ming Dynasty,1597 明代中期 （万暦25年）",
       "license": "Public domain",
       "width": "712",
-      "height": "1159"
+      "height": "1159",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Dwelling_in_the_Fuchun_Mountains_%28first_half%29.JPG/1280px-Dwelling_in_the_Fuchun_Mountains_%28first_half%29.JPG",
@@ -199,7 +209,12 @@
       "date": "1350 date QS:P571,+1350-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "684"
+      "height": "684",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Tribhou_-_Chinese_painting.jpg/1280px-Tribhou_-_Chinese_painting.jpg",
@@ -212,7 +227,12 @@
       "date": "18 th century date QS:P571,+1750-00-00T00:00:00Z/7 ?",
       "license": "Public domain",
       "width": "1280",
-      "height": "930"
+      "height": "930",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/843,/0/default.jpg",
@@ -226,7 +246,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1101"
+      "height": "1101",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
@@ -240,7 +265,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "565"
+      "height": "565",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/843,/0/default.jpg",
@@ -254,7 +284,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "655"
+      "height": "655",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/843,/0/default.jpg",
@@ -268,24 +303,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "979"
+      "height": "979",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Metropolitan Museum of Art",
       "url": "https://www.metmuseum.org/toah/hd/wrnh/hd_wrnh.htm",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Oxford Art Online",
       "url": "https://www.oxfordartonline.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Chinese Art: A Guide to Motifs and Visual Imagery",
       "url": "https://www.goodreads.com/book/show/1346388.Chinese_Art",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -321,42 +376,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:04:59.130Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Literati Painting",
-      "url": "https://en.wikipedia.org/wiki/Literati_Painting",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Literati Painting — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Literati%20Painting%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Literati Painting — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Literati%20Painting",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Literati Painting — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Literati%20Painting",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Literati Painting — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Literati%20Painting%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Literati Painting — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Literati%20Painting%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1142000",

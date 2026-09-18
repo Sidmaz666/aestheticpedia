@@ -152,7 +152,12 @@
       "date": "before 1922 date QS:P,+1922-00-00T00:00:00Z/7,P1326,+1922-00",
       "license": "Public domain",
       "width": "1280",
-      "height": "917"
+      "height": "917",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Cafe_Braeunerhof_Wien_2004.jpg/1280px-Cafe_Braeunerhof_Wien_2004.jpg",
@@ -166,7 +171,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Wien_Cafe_Central_2004.jpg/1280px-Wien_Cafe_Central_2004.jpg",
@@ -180,7 +190,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "972"
+      "height": "972",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Cafe-schwarzenberg-innen-viennaphoto-at.jpg",
@@ -194,7 +209,12 @@
       "license": "CC BY-SA 2.0 at",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/at/deed.en",
       "width": "752",
-      "height": "501"
+      "height": "501",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Cafe-dommayer-innen-hietzing-viennaphoto-at.jpg",
@@ -208,7 +228,12 @@
       "license": "CC BY-SA 2.0 at",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/at/deed.en",
       "width": "800",
-      "height": "532"
+      "height": "532",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/20140402_sanmarco_gallery_005_web.jpg",
@@ -222,7 +247,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "750",
-      "height": "500"
+      "height": "500",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Caf%C3%A9_Pr%C3%BCckel.JPG/1280px-Caf%C3%A9_Pr%C3%BCckel.JPG",
@@ -235,7 +265,12 @@
       "date": "29 January 2006 (original upload date)",
       "license": "Public domain",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Pr%C3%BCckel_IV.JPG/1280px-Pr%C3%BCckel_IV.JPG",
@@ -248,24 +283,44 @@
       "date": "14 September 2005 (original upload date)",
       "license": "Public domain",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Austrian National Tourist Office",
       "url": "https://www.austria.info",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Viennese_coffeehouse",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Vienna Coffee House Culture",
       "url": "https://viennacoffeehouse.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -306,37 +361,12 @@
       "type": "article",
       "title": "Wikipedia — Viennese Coffeehouse",
       "url": "https://en.wikipedia.org/wiki/Viennese_Coffeehouse",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Viennese Coffeehouse — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Viennese%20Coffeehouse%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Viennese Coffeehouse — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Viennese%20Coffeehouse",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Viennese Coffeehouse — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Viennese%20Coffeehouse",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Viennese Coffeehouse — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Viennese%20Coffeehouse%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Viennese Coffeehouse — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Viennese%20Coffeehouse%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q261335",

@@ -121,57 +121,29 @@
     {
       "name": "Grand Bazaar Guide",
       "url": "https://www.grandbazaaristanbul.org/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Turkish Traditional Crafts",
-      "url": "https://www.turkishculture.org/what-is-turkish-culture/costumes-and-accessories/traditional-crafts.htm",
       "tier": "B"
     },
     {
       "name": "Turshid Shoes",
       "url": "https://www.turshid.com/",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Yemeni Embroidered Slippers",
-      "url": "https://en.wikipedia.org/wiki/Yemeni_Embroidered_Slippers",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Yemeni Embroidered Slippers — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Yemeni%20Embroidered%20Slippers%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Yemeni Embroidered Slippers — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Yemeni%20Embroidered%20Slippers",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Yemeni Embroidered Slippers — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Yemeni%20Embroidered%20Slippers",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Yemeni Embroidered Slippers — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Yemeni%20Embroidered%20Slippers%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Yemeni Embroidered Slippers — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Yemeni%20Embroidered%20Slippers%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 70,
   "isNiche": false,
   "dataQuality": "well_documented",

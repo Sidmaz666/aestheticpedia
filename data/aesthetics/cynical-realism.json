@@ -172,7 +172,12 @@
       "caption": "A-maze-ing Laughter wide 2013",
       "source": "Wikimedia Commons",
       "width": "1280",
-      "height": "562"
+      "height": "562",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/e1f6ef79-7216-4f19-ac78-a307a2fb4f32/full/843,/0/default.jpg",
@@ -186,7 +191,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "638"
+      "height": "638",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/e6dd6199-c245-d1b4-a997-ce89eafb48ca/full/843,/0/default.jpg",
@@ -200,7 +210,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "2688"
+      "height": "2688",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/f2f929b9-995a-9ed3-ef39-2fe81b35a64e/full/843,/0/default.jpg",
@@ -214,7 +229,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1123"
+      "height": "1123",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/3cea045a-92d6-36cf-1508-2c99ea740218/full/843,/0/default.jpg",
@@ -228,7 +248,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1495"
+      "height": "1495",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/6754947f-4ccf-b3ff-41ee-45b738534769/full/843,/0/default.jpg",
@@ -242,7 +267,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1024"
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/074c1b1b-fe92-01ce-9e62-cc99369142dd/full/843,/0/default.jpg",
@@ -256,7 +286,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1587"
+      "height": "1587",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/8a647e1c-d778-db71-6ba4-6456b800d6b9/full/843,/0/default.jpg",
@@ -270,24 +305,44 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "415"
+      "height": "415",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Tate Modern",
       "url": "https://www.tate.org.uk",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "China Avant-Garde",
       "url": "https://www.chinaavantgarde.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Art in China",
       "url": "https://www.goodreads.com/book/show/1346388.Chinese_Art",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -314,46 +369,15 @@
       }
     },
     {
-      "type": "web",
-      "title": "ArtNet - Cynical Realism",
-      "url": "https://www.google.com/search?q=ArtNet%20-%20Cynical%20Realism",
-      "note": "Web search"
-    },
-    {
       "type": "article",
       "title": "Wikipedia — Cynical Realism",
       "url": "https://en.wikipedia.org/wiki/Cynical_Realism",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Cynical Realism — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Cynical%20Realism%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Cynical Realism — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Cynical%20Realism",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Cynical Realism — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Cynical%20Realism",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Cynical Realism — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Cynical%20Realism%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Cynical Realism — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Cynical%20Realism%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q3650833",

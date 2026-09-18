@@ -147,7 +147,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Soviet_Housing_1975_Hammond_Slides.jpg/1280px-Soviet_Housing_1975_Hammond_Slides.jpg",
@@ -161,7 +166,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1978"
+      "height": "1978",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Hammond_Slides_Soviet_Apartments.jpg/1280px-Hammond_Slides_Soviet_Apartments.jpg",
@@ -175,7 +185,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "828"
+      "height": "828",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Nizhny_Novgorod_Meshcherskoe_Ozero_Microraion.JPG/1280px-Nizhny_Novgorod_Meshcherskoe_Ozero_Microraion.JPG",
@@ -189,7 +204,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "1640"
+      "height": "1640",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Distract_Chertanovo.jpg",
@@ -202,24 +222,44 @@
       "date": "6 августа 2006 (21 August 2006 (original upload date))",
       "license": "Public domain",
       "width": "800",
-      "height": "526"
+      "height": "526",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Khrushchyovka",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Soviet Architecture",
       "url": "https://soviethistory.msu.edu",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Urban.ru",
       "url": "https://www.urban.ru",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -244,36 +284,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:55:35.780Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Brezhnevka — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Brezhnevka%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Brezhnevka — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Brezhnevka",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Brezhnevka — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Brezhnevka",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Brezhnevka — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Brezhnevka%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Brezhnevka — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Brezhnevka%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q117354785",

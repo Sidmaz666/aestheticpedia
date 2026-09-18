@@ -122,17 +122,32 @@
     {
       "name": "Inuit Tapiriit Kanatami",
       "url": "https://itk.ca",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Canadian Museum of History",
       "url": "https://www.historymuseum.ca",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Inuit Art Foundation",
       "url": "https://inuitartfoundation.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -157,42 +172,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T04:53:46.482Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Amauti Parkas",
-      "url": "https://en.wikipedia.org/wiki/Amauti_Parkas",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Amauti Parkas — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Amauti%20Parkas%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Amauti Parkas — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Amauti%20Parkas",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Amauti Parkas — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Amauti%20Parkas",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Amauti Parkas — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Amauti%20Parkas%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Amauti Parkas — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Amauti%20Parkas%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q19726706",

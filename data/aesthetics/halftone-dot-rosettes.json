@@ -148,7 +148,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "914",
-      "height": "610"
+      "height": "610",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Dithered_Cat.jpg",
@@ -162,7 +167,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "914",
-      "height": "610"
+      "height": "610",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Descreened_Cat.jpg",
@@ -176,7 +186,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "914",
-      "height": "610"
+      "height": "610",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Canadian_Illustrated_News_Volume_1_Number_1_Cover.jpg",
@@ -189,7 +204,12 @@
       "date": "1869-10-30",
       "license": "Public domain",
       "width": "1000",
-      "height": "1460"
+      "height": "1460",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Julemotiv_tegnet_av_Jenny_Nystr%C3%B8m_%2824207693358%29.jpg/1280px-Julemotiv_tegnet_av_Jenny_Nystr%C3%B8m_%2824207693358%29.jpg",
@@ -202,7 +222,12 @@
       "date": "circa 1899 date QS:P,+1899-00-00T00:00:00Z/9,P1480,Q5727902",
       "license": "Public domain",
       "width": "1280",
-      "height": "1871"
+      "height": "1871",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Screens._Halftone_process_in_printing._img_01.jpg/1280px-Screens._Halftone_process_in_printing._img_01.jpg",
@@ -216,24 +241,44 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "759"
+      "height": "759",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "The Museum of Modern Art",
       "url": "https://www.moma.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Halftone",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Printing Museum",
       "url": "https://printingmuseum.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -267,44 +312,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:01:16.791Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Halftone Dot Rosettes",
-      "url": "https://en.wikipedia.org/wiki/Halftone_Dot_Rosettes",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Halftone Dot Rosettes — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Halftone%20Dot%20Rosettes%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Halftone Dot Rosettes — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Halftone%20Dot%20Rosettes",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Halftone Dot Rosettes — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Halftone%20Dot%20Rosettes",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Halftone Dot Rosettes — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Halftone%20Dot%20Rosettes%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Halftone Dot Rosettes — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Halftone%20Dot%20Rosettes%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1110021",

@@ -124,7 +124,12 @@
       "date": "by 1925 date QS:P,+1925-00-00T00:00:00Z/7,P1326,+1925-00-00T",
       "license": "Public domain",
       "width": "962",
-      "height": "1213"
+      "height": "1213",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Julian_Martinez_digging_clay_in_the_early_1920s.jpg/1280px-Julian_Martinez_digging_clay_in_the_early_1920s.jpg",
@@ -137,7 +142,12 @@
       "date": "2021-01-03 12:58:50",
       "license": "Public domain",
       "width": "1280",
-      "height": "1155"
+      "height": "1155",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Mar%C3%ADa_and_Juli%C3%A1n_Martinez_pit_firing_blackware_pottery_%28c.1920%29.jpg",
@@ -150,7 +160,12 @@
       "date": "circa 1920 date QS:P,+1920-00-00T00:00:00Z/9,P1480,Q5727902",
       "license": "Public domain",
       "width": "1000",
-      "height": "803"
+      "height": "803",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Julian_and_Maria_Martinez_decorating_potter%2C_c.1912.jpg",
@@ -163,7 +178,12 @@
       "date": "c.1912",
       "license": "Public domain",
       "width": "498",
-      "height": "349"
+      "height": "349",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Maria_Martinez%2C_1912.jpg",
@@ -176,7 +196,12 @@
       "date": "1912",
       "license": "Public domain",
       "width": "724",
-      "height": "1000"
+      "height": "1000",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Maria_Martinez%2C_redware_jar%2C_c1925.jpg/1280px-Maria_Martinez%2C_redware_jar%2C_c1925.jpg",
@@ -190,7 +215,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Maria_Martinez_pot.jpg",
@@ -204,7 +234,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1268",
-      "height": "1036"
+      "height": "1036",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Maria-Popovi_Avanyu_plate_MRM.jpeg/1280px-Maria-Popovi_Avanyu_plate_MRM.jpeg",
@@ -218,7 +253,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "1298"
+      "height": "1298",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Maria_and_julian_martinez_wedding_vase.jpg",
@@ -232,24 +272,44 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "520",
-      "height": "576"
+      "height": "576",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Smithsonian National Museum of the American Indian",
       "url": "https://americanindian.si.edu/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Maria Martinez: The Legacy of a Master Potter",
       "url": "https://www.mariamartinez.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Pueblo Pottery of the Southwest",
       "url": "https://www.pueblopottery.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -285,42 +345,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:05:35.505Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Maria Martinez black-on-black pottery",
-      "url": "https://en.wikipedia.org/wiki/Maria_Martinez_black-on-black_pottery",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Maria Martinez black-on-black pottery — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Maria%20Martinez%20black-on-black%20pottery%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Maria Martinez black-on-black pottery — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Maria%20Martinez%20black-on-black%20pottery",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Maria Martinez black-on-black pottery — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Maria%20Martinez%20black-on-black%20pottery",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Maria Martinez black-on-black pottery — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Maria%20Martinez%20black-on-black%20pottery%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Maria Martinez black-on-black pottery — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Maria%20Martinez%20black-on-black%20pottery%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q2660929",

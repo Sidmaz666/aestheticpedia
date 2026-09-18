@@ -123,57 +123,29 @@
     {
       "name": "Getty Museum Conservation Institute",
       "url": "https://www.getty.edu/conservation",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Museum of Modern Art - Photography Collection",
       "url": "https://www.moma.org/collection/works/38958",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Wikipedia - Silver Gelatin Printing",
-      "url": "https://en.wikipedia.org/wiki/Silver_gelatin_printing",
       "tier": "B"
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Silver Gelatin Photography",
-      "url": "https://en.wikipedia.org/wiki/Silver_Gelatin_Photography",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Silver Gelatin Photography — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Silver%20Gelatin%20Photography%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Silver Gelatin Photography — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Silver%20Gelatin%20Photography",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Silver Gelatin Photography — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Silver%20Gelatin%20Photography",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Silver Gelatin Photography — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Silver%20Gelatin%20Photography%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Silver Gelatin Photography — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Silver%20Gelatin%20Photography%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 90,
   "isNiche": false,
   "dataQuality": "well_documented",

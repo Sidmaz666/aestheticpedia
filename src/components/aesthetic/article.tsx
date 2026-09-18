@@ -14,14 +14,16 @@ import {
   type RelationTarget,
 } from '@/lib/aesthetic'
 import { AestheticCard, periodLabel } from './card'
+import { ConnectionMap, LineageTree } from './diagrams'
+import type { LineageNode } from '@/lib/queries'
 import { DnaBars, EmotionBars, EmotionRadar } from './dna'
 import { ExportMenu, ShareButton } from './export-menu'
 import { Gallery, HeroImage } from './gallery'
 import { PaletteSwatches } from './palette-swatches'
 import { SectionNav } from './section-nav'
 import { StyleDemo, TextureSwatches } from './style-demo'
+import { SITE_NAME, repoEdit } from '@/lib/site'
 
-export const REPO = 'https://github.com/siddmazak/aestheticpedia'
 
 const RELATION_LABELS: Record<string, [string, string]> = {
   // type: [outgoing label, incoming label]
@@ -55,7 +57,7 @@ function groupRelations(rel: AestheticDetailResponse['relations']) {
 function Section({ id, eyebrow, title, children, intro }: { id: string; eyebrow: string; title: string; intro?: string; children: React.ReactNode }) {
   return (
     <section id={id} className="scroll-mt-40 border-t border-line pt-10 sm:pt-14" aria-labelledby={`${id}-title`}>
-      <div className="mb-8 grid gap-3 lg:grid-cols-[minmax(0,18rem)_1fr] lg:gap-10">
+      <div data-reveal className="mb-8 grid gap-3 lg:grid-cols-[minmax(0,18rem)_1fr] lg:gap-10">
         <div>
           <p className="eyebrow">{eyebrow}</p>
           <h2 id={`${id}-title`} className="display mt-2 text-4xl sm:text-5xl">
@@ -73,7 +75,7 @@ function KV({ data, columns = 2 }: { data: Record<string, string>; columns?: 2 |
   const entries = Object.entries(data).filter(([, v]) => v)
   if (!entries.length) return null
   return (
-    <dl className={`grid gap-x-10 gap-y-6 sm:grid-cols-2 ${columns === 3 ? 'lg:grid-cols-3' : ''}`}>
+    <dl data-reveal-group className={`grid gap-x-10 gap-y-6 sm:grid-cols-2 ${columns === 3 ? 'lg:grid-cols-3' : ''}`}>
       {entries.map(([k, v]) => (
         <div key={k} className="border-t border-line pt-3">
           <dt className="eyebrow">{labelize(k)}</dt>
@@ -183,10 +185,14 @@ export function AestheticArticle({
   detail,
   similar,
   mode,
+  lineage,
+  among,
 }: {
   detail: AestheticDetailResponse
   similar: AestheticSummary[]
   mode: 'page' | 'modal'
+  lineage: { ancestors: LineageNode[]; descendants: LineageNode[] }
+  among: { from: string; to: string; type: string }[]
 }) {
   const a = detail.aesthetic
   const relations = groupRelations(detail.relations)
@@ -230,7 +236,7 @@ export function AestheticArticle({
             <span className="mx-2 opacity-50">/</span>
             {ESTABLISHMENT_LABELS[a.establishment] ?? labelize(a.establishment)}
           </p>
-          <h1 className="display mt-4 max-w-6xl text-[clamp(3.2rem,10vw,9.5rem)] text-fg [text-shadow:0_2px_30px_rgb(0_0_0/0.25)]">{a.name}</h1>
+          <h1 key={a.slug} data-split className="display mt-4 max-w-6xl text-[clamp(3.2rem,10vw,9.5rem)] text-fg [text-shadow:0_2px_30px_rgb(0_0_0/0.25)]">{a.name}</h1>
           {a.aliases.length > 0 && <p className="mt-3 max-w-3xl text-sm text-fg-muted">Also known as {a.aliases.join(' · ')}</p>}
           <div className="mt-8 flex flex-wrap items-end justify-between gap-6">
             <p className="max-w-2xl text-lg leading-relaxed text-fg sm:text-xl">{a.summary}</p>
@@ -311,9 +317,11 @@ export function AestheticArticle({
               <a href={`/api/v1/aesthetics/${a.slug}.md`} className="inline-flex items-center gap-1.5 rounded-full border border-line-strong px-3 py-1.5 text-fg-muted hover:text-fg">
                 <FileCode2 className="size-3.5" aria-hidden /> Markdown
               </a>
-              <a href={`${REPO}/edit/main/data/aesthetics/${a.slug}.json`} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 rounded-full border border-line-strong px-3 py-1.5 text-fg-muted hover:text-fg">
-                <GitPullRequest className="size-3.5" aria-hidden /> Improve this record
-              </a>
+              {repoEdit(`data/aesthetics/${a.slug}.json`) && (
+                <a href={repoEdit(`data/aesthetics/${a.slug}.json`)} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 rounded-full border border-line-strong px-3 py-1.5 text-fg-muted hover:text-fg">
+                  <GitPullRequest className="size-3.5" aria-hidden /> Improve this record
+                </a>
+              )}
             </div>
           </aside>
         </section>
@@ -464,7 +472,9 @@ export function AestheticArticle({
 
         {(relations.length > 0 || similar.length > 0) && (
           <Section id="related" eyebrow="Connections" title="Related aesthetics">
-            <div className="space-y-10">
+            <div className="space-y-14">
+              <ConnectionMap detail={detail} among={among} />
+              <LineageTree name={a.name} ancestors={lineage.ancestors} descendants={lineage.descendants} />
               {relations.map((g) => (
                 <div key={g.label}>
                   <p className="eyebrow mb-3">{g.label}</p>
@@ -548,7 +558,7 @@ export function AestheticArticle({
               </div>
             )}
             <p className="text-xs text-fg-subtle">
-              Cite as: Aestheticpedia contributors, “{a.name}”, Aestheticpedia, updated {a.updatedAt.slice(0, 10)}. Text available under CC BY-SA 4.0.
+              Cite as: {SITE_NAME} contributors, “{a.name}”, {SITE_NAME}, updated {a.updatedAt.slice(0, 10)}. Text available under CC BY-SA 4.0.
             </p>
           </div>
         </Section>

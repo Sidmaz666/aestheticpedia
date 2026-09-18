@@ -137,7 +137,12 @@
       "license": "MIT",
       "licenseUrl": "http://opensource.org/licenses/mit-license.php",
       "width": "1280",
-      "height": "720"
+      "height": "720",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Start81.png/1280px-Start81.png",
@@ -150,7 +155,12 @@
       "date": "2013-12-12 20:44:32",
       "license": "Public domain",
       "width": "1280",
-      "height": "720"
+      "height": "720",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Windows10abstract.png/1280px-Windows10abstract.png",
@@ -163,19 +173,34 @@
       "date": "2015-12-17",
       "license": "Public domain",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Metro (design language)",
       "url": "https://en.wikipedia.org/wiki/Metro_(design_language)",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Microsoft Design — Metro archive",
       "url": "https://www.microsoft.com/design",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -198,50 +223,30 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:06:12.959Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
     },
     {
       "type": "article",
       "title": "Wikipedia — Metro Design Language",
       "url": "https://en.wikipedia.org/wiki/Metro_Design_Language",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Metro Design Language — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Metro%20Design%20Language%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Metro Design Language — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Metro%20Design%20Language",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Metro Design Language — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Metro%20Design%20Language",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Metro Design Language — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Metro%20Design%20Language%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Metro Design Language — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Metro%20Design%20Language%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "type": "web",
       "title": "Aesthetics Wiki — Metro Design Language",
       "url": "https://aesthetics.fandom.com/wiki/Special:Search?query=Metro%20Design%20Language",
-      "note": "Community documentation"
+      "note": "Community documentation",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "wikidata": "Q1148750",

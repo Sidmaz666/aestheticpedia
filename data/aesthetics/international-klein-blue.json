@@ -127,7 +127,12 @@
       "date": "1962",
       "license": "Public domain",
       "width": "1280",
-      "height": "1649"
+      "height": "1649",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Ultramarinepigment.jpg",
@@ -138,7 +143,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "640",
-      "height": "480"
+      "height": "480",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Blue_Klein_Sea.jpg",
@@ -152,19 +162,34 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1024",
-      "height": "768"
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — International Klein Blue",
       "url": "https://en.wikipedia.org/wiki/International_Klein_Blue",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Centre Pompidou — Klein collection",
       "url": "https://www.centrepompidou.fr",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -198,38 +223,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:02:24.043Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "International Klein Blue — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=International%20Klein%20Blue%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "International Klein Blue — academic literature",
-      "url": "https://scholar.google.com/scholar?q=International%20Klein%20Blue",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "International Klein Blue — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=International%20Klein%20Blue",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "International Klein Blue — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=International%20Klein%20Blue%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "International Klein Blue — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=International%20Klein%20Blue%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q534583",

@@ -121,57 +121,35 @@
     {
       "name": "Japan Folk Crafts Museum",
       "url": "https://www.mingeikan.jp",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Kasuri Textile Research",
       "url": "https://www.kasuri.org",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 503,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Showa Era Research",
       "url": "https://www.showa-era.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Showa Kasuri Workwear",
-      "url": "https://en.wikipedia.org/wiki/Showa_Kasuri_Workwear",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Showa Kasuri Workwear — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Showa%20Kasuri%20Workwear%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Showa Kasuri Workwear — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Showa%20Kasuri%20Workwear",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Showa Kasuri Workwear — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Showa%20Kasuri%20Workwear",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Showa Kasuri Workwear — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Showa%20Kasuri%20Workwear%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Showa Kasuri Workwear — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Showa%20Kasuri%20Workwear%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "moderately_documented",

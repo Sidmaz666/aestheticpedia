@@ -123,7 +123,12 @@
       "date": "One of four known surviving 1215 exemplars of Magna Carta.",
       "license": "Public domain",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/1638vellumlarge.jpg",
@@ -134,7 +139,12 @@
       "source": "Wikimedia Commons",
       "license": "Public domain",
       "width": "589",
-      "height": "492"
+      "height": "492",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Gutenberg_Bible.jpg",
@@ -148,7 +158,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "925",
-      "height": "625"
+      "height": "625",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Portolan_by_Jacobus_Russus_of_Messina_1533.jpg/1280px-Portolan_by_Jacobus_Russus_of_Messina_1533.jpg",
@@ -161,7 +176,12 @@
       "date": "1533",
       "license": "Public domain",
       "width": "1280",
-      "height": "912"
+      "height": "912",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Treatises_On_Natural_Science%2C_Philosophy%2C_And_Mathematics_-_Planets.jpg/1280px-Treatises_On_Natural_Science%2C_Philosophy%2C_And_Mathematics_-_Planets.jpg",
@@ -174,7 +194,12 @@
       "date": "1300",
       "license": "Public domain",
       "width": "1280",
-      "height": "1673"
+      "height": "1673",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/12th-century_vellum_book_at_NYBG%27s_Mertz_Library.jpg/1280px-12th-century_vellum_book_at_NYBG%27s_Mertz_Library.jpg",
@@ -188,7 +213,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Ashmolean_Parchment_AN_1981.940.jpg",
@@ -201,7 +231,12 @@
       "date": "6 th – 7 th century date QS:P,+650-00-00T00:00:00Z/7",
       "license": "Public domain",
       "width": "1262",
-      "height": "962"
+      "height": "962",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Chronique_Cockerell_f9_-_Rijksmuseum.jpg/1280px-Chronique_Cockerell_f9_-_Rijksmuseum.jpg",
@@ -214,7 +249,12 @@
       "date": "circa 1440 date QS:P571,+1440-00-00T00:00:00Z/9,P1480,Q57279",
       "license": "Public domain",
       "width": "1280",
-      "height": "1967"
+      "height": "1967",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Balthasar_Denner_-_Alter_Mann_-_GG_676_-_Kunsthistorisches_Museum.jpg",
@@ -227,7 +267,12 @@
       "date": "1726",
       "license": "Public domain",
       "width": "1034",
-      "height": "1228"
+      "height": "1228",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Een_roos_en_vijf_insecten%2C_1618_RP-T-1918-116.jpg/1280px-Een_roos_en_vijf_insecten%2C_1618_RP-T-1918-116.jpg",
@@ -240,24 +285,44 @@
       "date": "1618",
       "license": "Public domain",
       "width": "1280",
-      "height": "1051"
+      "height": "1051",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "The British Library",
       "url": "https://www.bl.uk",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Metropolitan Museum of Art",
       "url": "https://www.metmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Vellum",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "references": [
@@ -291,44 +356,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:12:37.789Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Vellum Translucency",
-      "url": "https://en.wikipedia.org/wiki/Vellum_Translucency",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Vellum Translucency — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Vellum%20Translucency%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Vellum Translucency — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Vellum%20Translucency",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Vellum Translucency — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Vellum%20Translucency",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Vellum Translucency — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Vellum%20Translucency%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Vellum Translucency — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Vellum%20Translucency%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q378274",

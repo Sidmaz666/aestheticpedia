@@ -120,17 +120,32 @@
     {
       "name": "Venetian Plaster Association",
       "url": "https://venetianplaster.org/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Architectural Digest",
       "url": "https://www.architecturaldigest.com/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "The Building Conservation Directory",
       "url": "https://buildingconservation.com/",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -160,37 +175,12 @@
       "type": "article",
       "title": "Wikipedia — Venetian plaster",
       "url": "https://en.wikipedia.org/wiki/Venetian_plaster",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Venetian plaster — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Venetian%20plaster%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Venetian plaster — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Venetian%20plaster",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Venetian plaster — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Venetian%20plaster",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Venetian plaster — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Venetian%20plaster%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Venetian plaster — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Venetian%20plaster%20aesthetic%20examples",
-      "note": "Google Images search"
+      "note": "Encyclopedia overview & history",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "wikidata": "Q1185290",

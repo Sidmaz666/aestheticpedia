@@ -177,7 +177,12 @@
       "date": "1954",
       "license": "No restrictions",
       "width": "768",
-      "height": "609"
+      "height": "609",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Roskilde_Svane_Apothek_1899.jpg",
@@ -190,7 +195,12 @@
       "date": "1899",
       "license": "Public domain",
       "width": "534",
-      "height": "389"
+      "height": "389",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/PH-Lampan_1.jpg/1280px-PH-Lampan_1.jpg",
@@ -204,7 +214,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1065"
+      "height": "1065",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Icelandic_design_%288566619374%29.jpg/1280px-Icelandic_design_%288566619374%29.jpg",
@@ -218,7 +233,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "869"
+      "height": "869",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Vernet_telefonkiosk-Danmarksgata_4_A_Krysset_Opplandsgata_-V%C3%A5lerenga_kirke_%28cropped%29.jpg/1280px-Vernet_telefonkiosk-Danmarksgata_4_A_Krysset_Opplandsgata_-V%C3%A5lerenga_kirke_%28cropped%29.jpg",
@@ -231,7 +251,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1759"
+      "height": "1759",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/HOL_crazyds_klotzi.jpg",
@@ -245,19 +270,34 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "647",
-      "height": "588"
+      "height": "588",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Wikipedia — Scandinavian design",
       "url": "https://en.wikipedia.org/wiki/Scandinavian_design",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Designmuseum Danmark",
       "url": "https://designmuseum.dk",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -291,38 +331,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:10:11.589Z"
+        "checkedAt": "2026-09-18T09:36:05.056Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Scandinavian design — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Scandinavian%20design%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Scandinavian design — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Scandinavian%20design",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Scandinavian design — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Scandinavian%20design",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Scandinavian design — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Scandinavian%20design%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Scandinavian design — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Scandinavian%20design%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q1793969",

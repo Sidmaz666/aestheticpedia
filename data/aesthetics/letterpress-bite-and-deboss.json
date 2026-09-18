@@ -122,57 +122,35 @@
     {
       "name": "International Printing Museum",
       "url": "https://printmuseum.org",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "AIGA Eye on Design",
       "url": "https://eyeondesign.aiga.org",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Letterpress Commons",
       "url": "https://letterpresscommons.org",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Letterpress Bite and Deboss",
-      "url": "https://en.wikipedia.org/wiki/Letterpress_Bite_and_Deboss",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Letterpress Bite and Deboss — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Letterpress%20Bite%20and%20Deboss%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Letterpress Bite and Deboss — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Letterpress%20Bite%20and%20Deboss",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Letterpress Bite and Deboss — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Letterpress%20Bite%20and%20Deboss",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Letterpress Bite and Deboss — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Letterpress%20Bite%20and%20Deboss%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Letterpress Bite and Deboss — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Letterpress%20Bite%20and%20Deboss%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 70,
   "isNiche": false,
   "dataQuality": "well_documented",

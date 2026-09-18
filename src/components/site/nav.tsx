@@ -1,7 +1,10 @@
 // Shared by the (client) header and the (server) footer.
+import { SITE_NAME } from '@/lib/site'
 export const NAV = [
   { href: '/aesthetics', label: 'Browse' },
   { href: '/timeline', label: 'Timeline' },
+  { href: '/connections', label: 'Connections' },
+  { href: '/colors', label: 'Colours' },
   { href: '/discover', label: 'Discover' },
   { href: '/blend', label: 'Blend' },
   { href: '/data', label: 'Data & API' },
@@ -15,7 +18,7 @@ export function Logo({ className = '' }: { className?: string }) {
         <circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" strokeWidth="1.5" />
         <path d="M12 3.5 19 20H5z" fill="currentColor" opacity=".9" />
       </svg>
-      <span className="display text-[1.45rem] leading-none tracking-tight">Aestheticpedia</span>
+      <span className="display text-[1.45rem] leading-none tracking-tight">{SITE_NAME}</span>
     </span>
   )
 }

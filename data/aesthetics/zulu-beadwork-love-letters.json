@@ -126,7 +126,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1167"
+      "height": "1167",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/8115bdb2-1a8c-bb25-a37b-5f804f3a84a9/full/843,/0/default.jpg",
@@ -140,7 +145,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1089"
+      "height": "1089",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/70f69d6a-2cac-0e55-9913-7027ca19f5cb/full/843,/0/default.jpg",
@@ -154,7 +164,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1375"
+      "height": "1375",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/22609746-bd4b-c9b6-8293-dfd393f00c20/full/843,/0/default.jpg",
@@ -168,7 +183,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1049"
+      "height": "1049",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/2d717e79-f94a-83fd-0e18-3e1a82f85310/full/843,/0/default.jpg",
@@ -182,7 +202,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "1054"
+      "height": "1054",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/cfa9124d-6426-d447-4e14-3227aadff837/full/843,/0/default.jpg",
@@ -196,64 +221,47 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "650"
+      "height": "650",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "South African Museum",
       "url": "https://www.samuseum.ac.za",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Zulu Cultural Museum",
       "url": "https://www.zulumuseum.org.za",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Beadwork of the Zulu by Margaret Courtney-Clarke",
       "url": "https://www.goodreads.com",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Zulu Beadwork Love Letters",
-      "url": "https://en.wikipedia.org/wiki/Zulu_Beadwork_Love_Letters",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Zulu Beadwork Love Letters — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Zulu%20Beadwork%20Love%20Letters%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Zulu Beadwork Love Letters — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Zulu%20Beadwork%20Love%20Letters",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Zulu Beadwork Love Letters — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Zulu%20Beadwork%20Love%20Letters",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Zulu Beadwork Love Letters — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Zulu%20Beadwork%20Love%20Letters%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Zulu Beadwork Love Letters — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Zulu%20Beadwork%20Love%20Letters%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 70,
   "isNiche": false,
   "dataQuality": "well_documented",

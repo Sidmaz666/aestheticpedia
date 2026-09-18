@@ -138,57 +138,35 @@
     {
       "name": "Encyclopedia of Islamic Architecture",
       "url": "https://www.brill.com/view/title/37266",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Kashan Historic Houses",
       "url": "https://www.irantourism.org/destinations/kashan/historic-houses/",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Persian Merchant Houses",
       "url": "https://www.archnet.org/themes/122",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — Kashan Merchant Houses",
-      "url": "https://en.wikipedia.org/wiki/Kashan_Merchant_Houses",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Kashan Merchant Houses — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Kashan%20Merchant%20Houses%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Kashan Merchant Houses — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Kashan%20Merchant%20Houses",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Kashan Merchant Houses — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Kashan%20Merchant%20Houses",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Kashan Merchant Houses — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Kashan%20Merchant%20Houses%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Kashan Merchant Houses — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Kashan%20Merchant%20Houses%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 65,
   "isNiche": false,
   "dataQuality": "well_documented",

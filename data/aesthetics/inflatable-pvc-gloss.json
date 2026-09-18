@@ -133,7 +133,12 @@
       "artist": "Complete fanatic",
       "license": "Public domain",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Jumping_castle.jpg/1280px-Jumping_castle.jpg",
@@ -146,7 +151,12 @@
       "license": "GFDL 1.2",
       "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Inflatable_boat-002.jpg/1280px-Inflatable_boat-002.jpg",
@@ -160,7 +170,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Claas_Jaguar_970%2C_Vorderrad_mit_Schlauch_der_Reifendruckregelanlage.jpg/1280px-Claas_Jaguar_970%2C_Vorderrad_mit_Schlauch_der_Reifendruckregelanlage.jpg",
@@ -174,7 +189,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Air-supported_dome.jpg/1280px-Air-supported_dome.jpg",
@@ -186,7 +206,12 @@
       "artist": "P199",
       "license": "Public domain",
       "width": "1280",
-      "height": "498"
+      "height": "498",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Holiday_yard_inflatables.jpg/1280px-Holiday_yard_inflatables.jpg",
@@ -200,7 +225,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "701"
+      "height": "701",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Alphie_Fireworks%21_01.jpg",
@@ -214,7 +244,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "600",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Traverse_City_Film_Festival_with_Airscreen.JPG",
@@ -226,24 +261,44 @@
       "artist": "Riverhelp",
       "license": "Public domain",
       "width": "640",
-      "height": "480"
+      "height": "480",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "The History of Inflatable Toys",
       "url": "https://en.wikipedia.org/wiki/Inflatable",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Vinyl Council of America - PVC",
       "url": "https://www.vinylinfo.com",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Toysmith - Inflatable Toys",
       "url": "https://www.toysmith.com",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -277,44 +332,8 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T05:02:20.894Z"
+        "checkedAt": "2026-09-18T05:51:07.868Z"
       }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Inflatable PVC Gloss",
-      "url": "https://en.wikipedia.org/wiki/Inflatable_PVC_Gloss",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "Inflatable PVC Gloss — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Inflatable%20PVC%20Gloss%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Inflatable PVC Gloss — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Inflatable%20PVC%20Gloss",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Inflatable PVC Gloss — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Inflatable%20PVC%20Gloss",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Inflatable PVC Gloss — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Inflatable%20PVC%20Gloss%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Inflatable PVC Gloss — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Inflatable%20PVC%20Gloss%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q2162595",

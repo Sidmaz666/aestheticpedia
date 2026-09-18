@@ -116,57 +116,35 @@
     {
       "name": "The CRT Museum",
       "url": "https://www.crtmuseum.org",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Understanding CRT Technology",
       "url": "https://www.siggraph.org/education/materials/HyperGraph/technology/hardware/CRThardware.htm",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 307,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     },
     {
       "name": "Phosphor Persistence in CRT Displays",
       "url": "https://www.researchgate.net/publication/228853429_Phosphor_persistence_in_CRT_displays",
-      "tier": "A"
+      "tier": "A",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
-  "references": [
-    {
-      "type": "article",
-      "title": "Wikipedia — CRT Bloom Effect",
-      "url": "https://en.wikipedia.org/wiki/CRT_Bloom_Effect",
-      "note": "Encyclopedia overview & history"
-    },
-    {
-      "type": "video",
-      "title": "CRT Bloom Effect — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=CRT%20Bloom%20Effect%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "CRT Bloom Effect — academic literature",
-      "url": "https://scholar.google.com/scholar?q=CRT%20Bloom%20Effect",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "CRT Bloom Effect — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=CRT%20Bloom%20Effect",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "CRT Bloom Effect — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=CRT%20Bloom%20Effect%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "CRT Bloom Effect — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=CRT%20Bloom%20Effect%20aesthetic%20examples",
-      "note": "Google Images search"
-    }
-  ],
+  "references": [],
   "popularity": 70,
   "isNiche": false,
   "dataQuality": "well_documented",

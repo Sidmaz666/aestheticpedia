@@ -120,7 +120,12 @@
     {
       "name": "The Book of Tea",
       "url": "https://en.wikipedia.org/wiki/The_Book_of_Tea",
-      "tier": "B"
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-18T09:36:05.056Z"
+      }
     },
     {
       "name": "Sen no Rikyū: The Tea Master",
@@ -129,7 +134,12 @@
     {
       "name": "Wabi-cha: The Tea of the Poets",
       "url": "https://www.japaneseteaceremony.com/wabi-cha",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 0,
+        "checkedAt": "2026-09-18T05:51:07.868Z"
+      }
     }
   ],
   "references": [
@@ -154,36 +164,6 @@
         "status": 200,
         "checkedAt": "2026-09-18T05:13:12.219Z"
       }
-    },
-    {
-      "type": "video",
-      "title": "Wabi-cha — documentaries & video essays",
-      "url": "https://www.youtube.com/results?search_query=Wabi-cha%20aesthetic%20documentary%20history",
-      "note": "YouTube search: films & video essays"
-    },
-    {
-      "type": "scholar",
-      "title": "Wabi-cha — academic literature",
-      "url": "https://scholar.google.com/scholar?q=Wabi-cha",
-      "note": "Google Scholar search"
-    },
-    {
-      "type": "archive",
-      "title": "Wabi-cha — archival films, scans & recordings",
-      "url": "https://archive.org/search?query=Wabi-cha",
-      "note": "Internet Archive search"
-    },
-    {
-      "type": "museum",
-      "title": "Wabi-cha — museum collections & exhibitions",
-      "url": "https://www.google.com/search?q=Wabi-cha%20museum%20collection%20exhibition",
-      "note": "Museum collections worldwide"
-    },
-    {
-      "type": "images",
-      "title": "Wabi-cha — visual reference board",
-      "url": "https://www.google.com/search?tbm=isch&q=Wabi-cha%20aesthetic%20examples",
-      "note": "Google Images search"
     }
   ],
   "wikidata": "Q4017617",
