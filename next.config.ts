@@ -1,16 +1,45 @@
+import { execSync } from 'node:child_process'
 import type { NextConfig } from 'next'
 
+// The source repository, when NEXT_PUBLIC_REPO_URL is not set: Vercel's git metadata, else the
+// local git remote. It drives the contribution links and the live project card (src/lib/github.ts).
+function repoUrl(): string {
+  if (process.env.NEXT_PUBLIC_REPO_URL) return process.env.NEXT_PUBLIC_REPO_URL
+  const { VERCEL_GIT_PROVIDER, VERCEL_GIT_REPO_OWNER, VERCEL_GIT_REPO_SLUG } = process.env
+  if (VERCEL_GIT_PROVIDER === 'github' && VERCEL_GIT_REPO_OWNER && VERCEL_GIT_REPO_SLUG) return `https://github.com/${VERCEL_GIT_REPO_OWNER}/${VERCEL_GIT_REPO_SLUG}`
+  try {
+    const remote = execSync('git remote get-url origin', { stdio: ['ignore', 'pipe', 'ignore'] }).toString().trim()
+    const m = /github\.com[/:]([^/]+)\/([^/]+?)(?:\.git)?$/.exec(remote)
+    return m ? `https://github.com/${m[1]}/${m[2]}` : ''
+  } catch {
+    return ''
+  }
+}
+
 const nextConfig: NextConfig = {
+  // Build-time values the browser also needs (Vercel exposes VERCEL_ENV to the build only).
+  env: { NEXT_PUBLIC_REPO_URL: repoUrl(), NEXT_PUBLIC_VERCEL_ENV: process.env.VERCEL_ENV ?? '' },
   // DuckDB ships native binaries — load it from node_modules at runtime instead of bundling.
   serverExternalPackages: ['@duckdb/node-api', '@duckdb/node-bindings'],
   // Serverless functions (e.g. on Vercel) read the Parquet build from disk — ship it with every route.
   outputFileTracingIncludes: {
-    '/**': ['./public/data/aesthetics.parquet', './public/data/relations.parquet', './public/data/manifest.json', './public/data/validation.json', './public/data/materials.json'],
+    '/**': ['./public/data/aesthetics.parquet', './public/data/relations.parquet', './public/data/manifest.json', './public/data/validation.json', './public/data/materials.json', './public/brand/logo-on-dark.png'],
   },
   poweredByHeader: false,
   images: { unoptimized: true },
   async headers() {
     return [
+      {
+        // Baseline security headers for every response.
+        source: '/:path*',
+        headers: [
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+          { key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains' },
+          { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
+        ],
+      },
       {
         source: '/data/:file*',
         headers: [

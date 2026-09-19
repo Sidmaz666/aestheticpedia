@@ -20,7 +20,10 @@
   "description": "HD-2D or HD2D is a video game art style and perspective that combines traditional two-dimensional elements, such as pixel art and billboard sprites, with fully three-dimensional environments. The style makes extensive use of modern rendering effects, including dynamic lighting, depth of field, and tilt-shift, which together produce a diorama-like appearance that evokes the look of classic role-playing video games (RPGs) while incorporating contemporary visual techniques.\n\nThe term was coined and trademarked by Square Enix to describe the visuals of its 2018 role-playing game Octopath Traveler, developed in collaboration with Acquire. The company subsequently adopted the branding for additional titles, including Triangle Strategy and remakes of Live A Live and Dragon Quest, and announced further projects using the style such as Octopath Traveler 0 and The Adventures of Elliot: The Millennium Tales. Although Square Enix holds a trademark on the name, independent developers and other studios have produced games with comparable aesthetics, such as Wandering Sword and Eiyuden Chronicle: Hundred Heroes.\n\nCritical and fan reception to the style has been broadly positive, with commentators praising its ability to modernize the look of 16-bit RPGs while maintaining a sense of authenticity. Reviewers have described it as one of the most striking contemporary visual approaches in the genre. It has been noted for its influence on remake strategy within the company and its role in inspiring a wider retro revival in video games. Some commentators have expressed concern that its repeated use by Square Enix could lead to fatigue.",
   "culturalContext": "",
   "colors": [],
-  "visualDNA": {},
+  "visualDNA": {
+    "Overview": "Square Enix's HD-2D style is characterized by the combination of two-dimensional game design elements, specifically pixel art character sprites and billboards, placed within a three-dimensional game world. Typically, a point light source is placed into the scene to make characters and objects cast shadows. Several modern post-processing effects and shaders like tilt-shift, depth of field, bloom, volumetric lighting and fog, and particle effects are added, and combined with parallax scrolling, give the game a more modern feel.",
+    "Related styles": "5D style, combining pixel character sprites with 3D environments; however, it enhances the traditional approach with detailed textures and dynamic shading enabled by modern game engines.5D approach, HD-2D games feature backgrounds that are entirely rendered in 3D and often make use of complex camerawork."
+  },
   "typography": {},
   "typePairing": {},
   "materials": [],
@@ -73,7 +76,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:19:04.144Z"
+        "checkedAt": "2026-09-19T12:21:20.139Z"
       }
     },
     {
@@ -84,7 +87,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:19:04.144Z"
+        "checkedAt": "2026-09-19T12:21:20.139Z"
       }
     }
   ],
@@ -95,5 +98,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T15:19:04.144Z"
+  "updatedAt": "2026-09-19T12:21:20.139Z"
 }

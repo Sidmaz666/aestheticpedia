@@ -19,24 +19,31 @@ type Props = { params: Promise<{ slug: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const d = await getAesthetic(slug)
-  if (!d) return { title: 'Not found' }
+  // Resolving this before the page streams lets crawlers get a real 404 status.
+  if (!d) notFound()
   const a = d.aesthetic
-  const image = a.images[0]
+  // A search-snippet-sized description, cut at a word.
+  const raw = (a.summary || a.description).replace(/s+/g, ' ').trim()
+  const description = raw.length > 158 ? raw.slice(0, 155).replace(/s+S*$/, '') + '…' : raw
   return {
-    title: a.name,
-    description: a.summary || a.description.slice(0, 180),
+    title: `${a.name} — ${a.category}`,
+    description,
+    keywords: [a.name, ...a.aliases, a.category, ...a.tags].slice(0, 16),
     alternates: {
       canonical: `/aesthetics/${slug}`,
       types: { 'application/json': `/api/v1/aesthetics/${slug}`, 'text/markdown': `/api/v1/aesthetics/${slug}.md` },
     },
+    // The share image is generated per record (opengraph-image.tsx next to this page).
     openGraph: {
       type: 'article',
       title: `${a.name} — ${SITE_NAME}`,
-      description: a.summary,
+      description,
       url: `${SITE_URL}/aesthetics/${slug}`,
-      images: image ? [{ url: image.url, alt: image.caption }] : undefined,
+      section: a.category,
+      tags: a.tags.slice(0, 8),
+      modifiedTime: a.updatedAt,
     },
-    twitter: { card: 'summary_large_image', title: a.name, description: a.summary, images: image ? [image.url] : undefined },
+    twitter: { card: 'summary_large_image', title: a.name, description },
     other: a.colors[0] ? { 'theme-color': a.colors[0].hex } : undefined,
   }
 }
@@ -56,6 +63,21 @@ export default async function AestheticPage({ params }: Props) {
       {theme && <style href={`ae-theme-${slug}`} precedence="high">{themeCss(theme, 'html:root')}</style>}
       <AestheticFonts display={a.typePairing.display} body={a.typePairing.body} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(toJsonLd(a)) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: SITE_NAME, item: SITE_URL },
+              { '@type': 'ListItem', position: 2, name: 'Aesthetics', item: `${SITE_URL}/aesthetics` },
+              { '@type': 'ListItem', position: 3, name: a.category, item: `${SITE_URL}/aesthetics?category=${encodeURIComponent(a.category)}` },
+              { '@type': 'ListItem', position: 4, name: a.name, item: `${SITE_URL}/aesthetics/${slug}` },
+            ],
+          }),
+        }}
+      />
       <AestheticArticle detail={detail} similar={similar} lineage={lineage} among={among} mode="page" materialPhotos={resolveMaterials(detail.aesthetic)} />
     </>
   )

@@ -195,32 +195,80 @@ function Result({ data, A, B }: { data: HybridResponse; A: BlendParent; B: Blend
         </div>
       </section>
 
-      {/* The blend as a full aesthetic page, themed with its own palette and type */}
-      <div
-        id="blend-scope"
-        className="mt-10 overflow-hidden rounded-[calc(1.75rem*var(--r-scale,1))] border border-line bg-bg text-fg"
-        style={{ ...((theme?.vars ?? {}) as CSSProperties), colorScheme: theme?.mode }}
-      >
-        <AestheticFonts display={record.typePairing.display} body={record.typePairing.body} targetId="blend-scope" />
-        <div className="px-4 pt-6 sm:px-8">
-          <p className="rounded-full border border-line-strong bg-surface px-4 py-2 text-center text-xs text-fg-muted">{data.label}</p>
-        </div>
-        <AestheticArticle
-          detail={detail}
-          similar={[]}
-          mode="blend"
-          materialPhotos={data.materialPhotos}
-          lineage={lineage}
-          among={[]}
-          exportHref={(fmt) => `/api/v1/blend?${qs}&format=${fmt}&download=1`}
-          shareUrl={typeof window === 'undefined' ? undefined : window.location.href}
-        />
+      {/* The note, set as a statement before the page it introduces */}
+      <div className="mx-auto mt-24 max-w-4xl text-center">
+        <p className="eyebrow">Speculative blend</p>
+        <p className="display mt-4 text-3xl leading-tight text-fg sm:text-5xl">
+          {A.name} <span className="text-accent">×</span> {B.name}, derived algorithmically from two documented records.
+        </p>
+        <p className="mt-4 text-base text-fg-muted sm:text-lg">Not a documented style — a design prompt you can explore, theme and export like any aesthetic below.</p>
       </div>
+
+      {/* The blend as a full aesthetic page: it expands from an inset panel to full-bleed as it scrolls in. */}
+      <ExpandingPage>
+        <div id="blend-scope" className="bg-bg text-fg" style={{ ...((theme?.vars ?? {}) as CSSProperties), colorScheme: theme?.mode }}>
+          <AestheticFonts display={record.typePairing.display} body={record.typePairing.body} targetId="blend-scope" />
+          <AestheticArticle
+            detail={detail}
+            similar={[]}
+            mode="blend"
+            materialPhotos={data.materialPhotos}
+            lineage={lineage}
+            among={[]}
+            exportHref={(fmt) => `/api/v1/blend?${qs}&format=${fmt}&download=1`}
+            shareUrl={typeof window === 'undefined' ? undefined : window.location.href}
+            saveHref={`/blend?${qs}`}
+          />
+        </div>
+      </ExpandingPage>
     </div>
   )
 }
 
 // ---------------------------------------------------------------------------
+/**
+ * Full-bleed container that reveals its content as an inset, rounded panel and opens to the
+ * whole viewport width as it scrolls into view (clip-path, so layout never jumps). Visitors who
+ * prefer reduced motion get the full-width page directly.
+ */
+function ExpandingPage({ children }: { children: React.ReactNode }) {
+  const ref = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    let raf = 0
+    const update = () => {
+      raf = 0
+      const r = el.getBoundingClientRect()
+      const vh = window.innerHeight
+      // 0 when the top edge enters the bottom of the viewport, 1 once it reaches the top third.
+      const p = reduce ? 1 : Math.min(1, Math.max(0, (vh - r.top) / (vh * 0.67)))
+      const gutter = Math.max(16, (window.innerWidth - 1400) / 2 + 40)
+      const inset = (1 - p) * gutter
+      const radius = (1 - p) * 28
+      el.style.clipPath = p >= 1 ? 'none' : `inset(0 ${inset}px round ${radius}px)`
+      el.style.setProperty('--expand', String(p))
+    }
+    const onScroll = () => {
+      if (!raf) raf = requestAnimationFrame(update)
+    }
+    update()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    window.addEventListener('resize', onScroll)
+    return () => {
+      cancelAnimationFrame(raf)
+      window.removeEventListener('scroll', onScroll)
+      window.removeEventListener('resize', onScroll)
+    }
+  }, [])
+  return (
+    <div ref={ref} className="relative left-1/2 mt-12 w-screen -translate-x-1/2 will-change-[clip-path]">
+      {children}
+    </div>
+  )
+}
+
 function Slot({ label, slug, parent, onPick }: { label: string; slug: string; parent?: BlendParent; onPick: (slug: string) => void }) {
   const [q, setQ] = useState('')
   const [debounced, setDebounced] = useState('')

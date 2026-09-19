@@ -19,7 +19,33 @@
   "summary": "Mogu (Chinese: 沒骨) is a painting skill or technique in traditional Chinese painting.",
   "description": "Mogu (Chinese: 沒骨) is a painting skill or technique in traditional Chinese painting. It literally means \"boneless\". In these paintings, forms are made by ink and color washes rather than by outlines.",
   "culturalContext": "According to some ancient records, the technique was first created and theorized by Zhang Sengyou of the Liang dynasty in 557 during the Southern dynasties period.\n\nDuring the period of the Five Dynasties and Ten Kingdoms period, a painter named Huang Quan (黄筌) from Former Shu significantly developed the techniques in bird-and-flower painting, especially in painting trees and flowers, and his painting was called as the fine-sounding name Mogu Huazhi (沒骨花枝).\n\nDuring the Tang dynasty, notable painters mastered this technique includes Yang Sheng (楊升).\n\nXu Chongsi (徐崇嗣) during the Northern Song dynasty continued developing the technique from Huang, and his paintings were named Mogu-Tu (沒骨圖). Xu started applying this technique in shan shui painting.\n\nThe technique gained popularity during the Late-Ming dynasty and Qing dynasty, and the most famous master would be Yun Shouping.",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#dfded4",
+      "name": "bone white"
+    },
+    {
+      "hex": "#d0c5ab",
+      "name": "beige"
+    },
+    {
+      "hex": "#cbaa6d",
+      "name": "camel"
+    },
+    {
+      "hex": "#363b39",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#a2a294",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#101212",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -33,7 +59,9 @@
   "environment": {},
   "graphicDesign": {},
   "uiTranslation": {},
-  "recipe": {},
+  "recipe": {
+    "technique": "The method mainly is a staining and dying one, by using ink brush pens. Less or absolutely no sketch or drawing, so people can hardly observe solid lines or curves in the painting. There are basically three Mogu staining methods: the staining by smearing (渲染; Xuàn-Rǎn), the staining by dotting (点染; Diǎn-Rǎn), and the staining by just filling colours (填染; Tián-Rǎn)."
+  },
   "emotionProfile": {},
   "dnaAxes": {},
   "keyExamples": [],
@@ -207,5 +235,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T01:52:15.193Z"
+  "updatedAt": "2026-09-19T08:49:53.380Z"
 }

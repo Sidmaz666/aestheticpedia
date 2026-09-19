@@ -8,16 +8,19 @@ cited sources.
 - Every record is **one JSON file** in [`data/aesthetics/`](data/aesthetics) — contribute with a pull request.
 - The whole library ships as **JSON, NDJSON, CSV, Parquet and a DuckDB database** in [`public/data/`](public/data).
 - A free **REST API** (`/api/v1`, OpenAPI 3.1), an **MCP server** (`/api/mcp`) and **`llms.txt`** make it usable by apps and AI assistants.
-- Each record exports to **16 formats**: Markdown, text, HTML, JSON, JSON-LD, YAML, CSV, CSS, SCSS, Tailwind, design tokens, GIMP/Adobe palettes, SVG, BibTeX, RIS.
+- Each record (and each blend) exports to **every common design and data format**: shadcn/ui (CSS + registry JSON), Tailwind v3/v4, daisyUI, MUI, Chakra, Bootstrap, CSS/SCSS/Less/Stylus, W3C design tokens, Style Dictionary, Tokens Studio, Android, SwiftUI, Flutter, Compose, GIMP/ASE/ACO/Procreate/Sketch/Paint.NET palettes, SVG, Markdown, HTML, JSON, JSON-LD, YAML, CSV, BibTeX, RIS and more.
 
 ## Features
 
-- **3,700+ aesthetics** from curated research, Wikidata/Wikipedia and the Aesthetics Wiki — each record attributed.
+- **Thousands of aesthetics** from curated research, Wikidata/Wikipedia, the Aesthetics Wiki and museum collections — each record attributed (live counts in [`public/data/manifest.json`](public/data/manifest.json)).
 - **Real media only:** freely licensed photographs and artworks (Wikimedia Commons, Art Institute of Chicago), real material/texture photos, Commons audio recordings. Every file keeps artist, license and source page.
 - **Visualisations:** relationship network, colour atlas (every palette on one wheel, search by colour), per-record lineage tree and connection map, timeline with era density chart.
 - **Aesthetic theming:** each record page re-skins the site — palette-derived colours (WCAG-checked), corner radius from its style profile, its own typefaces — with animated transitions.
-- **On-device agent:** a 3D robot guide (raymarched in one WebGL shader; it takes on each aesthetic's colours and corner radius, doubles as back-to-top and tucks away). It runs **Needle 3** (Cactus Compute, 35 MB, WebAssembly — no GPU needed) to pick tools — search, describe, compare, blend, similar, colour, mood, place, era, open pages, switch theme, download data — and answers from the library's own records. An optional writer model (Qwen 3.5 0.8B/2B or Qwen 3 0.6B via WebLLM/WebGPU) turns results into prose. Text-to-image generation uses Janus-Pro 1B (Transformers.js). Downloads are opt-in with progress; nothing leaves the browser.
-- **Open interfaces:** REST API + OpenAPI, MCP server, `llms.txt`, JSON-LD, sitemap, 16 export formats, full downloads.
+- **On-device agent:** a 3D robot guide (raymarched in one WebGL shader; it takes on each aesthetic's colours and corner radius, doubles as back-to-top). It runs **Needle 3** (Cactus Compute, 35 MB, WebAssembly — no GPU needed) to pick tools — search, describe, compare, blend, similar, colour, mood, place, era, open pages, switch theme, download data — and answers from the library's own records. An optional writer model (Qwen 3.5 0.8B/2B or Qwen 3 0.6B via WebLLM/WebGPU) turns results into prose. Text-to-image generation uses Janus-Pro 1B (Transformers.js). Downloads are opt-in with progress; nothing leaves the browser.
+- **Open interfaces:** REST API + OpenAPI, MCP server, `llms.txt`, JSON-LD, sitemap, design and data exports, full downloads.
+- **Blend and Discover:** cross any two records into a full synthesized aesthetic page (every section and export), or find records by mood and palette.
+- **Listen & cursor:** a themed audio deck (live spectrum/radial/oscilloscope, waveform scrubber, pitch readout) and a choice of six animated wand cursors.
+- **Your shelf:** star any aesthetic or blend; starred items are kept in the browser and shown on the home page.
 
 ## Quick start
 

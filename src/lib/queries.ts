@@ -1,5 +1,6 @@
 // Server-side read model. Every page and every /api/v1 route goes through
 // these functions so the website and the public API always agree.
+import { computeLayout } from './graph-layout'
 import { listValue, type DuckDBValue } from '@duckdb/node-api'
 import { query, queryOne } from '@/lib/store'
 import { paletteMetrics } from '@/lib/palette-metrics'
@@ -506,6 +507,12 @@ export interface GraphNode {
   color: string | null
   startYear: number | null
   degree: number
+  /** Precomputed layout (src/lib/graph-layout.ts): 2D map position and 3D position. */
+  x: number
+  y: number
+  X: number
+  Y: number
+  Z: number
 }
 export interface GraphLink {
   source: string
@@ -514,8 +521,17 @@ export interface GraphLink {
 }
 
 /** Whole relationship network (records with at least one relation). */
-export async function getGraph(): Promise<{ nodes: GraphNode[]; links: GraphLink[] }> {
-  const [links, nodes] = await Promise.all([
+// The layout is deterministic for a given data build, so it is computed once per server process.
+let graphCache: Promise<{ nodes: GraphNode[]; links: GraphLink[] }> | null = null
+export function getGraph(): Promise<{ nodes: GraphNode[]; links: GraphLink[] }> {
+  graphCache ??= buildGraph().catch((e) => {
+    graphCache = null
+    throw e
+  })
+  return graphCache
+}
+async function buildGraph(): Promise<{ nodes: GraphNode[]; links: GraphLink[] }> {
+  const [links, raw] = await Promise.all([
     query<GraphLink>(`SELECT "from" AS source, "to" AS target, type FROM relations`),
     query<GraphNode>(
       `WITH deg AS (
@@ -526,6 +542,8 @@ export async function getGraph(): Promise<{ nodes: GraphNode[]; links: GraphLink
        FROM aesthetics a JOIN deg d USING (slug) ORDER BY d.degree DESC`
     ),
   ])
+  const pos = computeLayout(raw as unknown as { slug: string; category: string; degree: number }[], links)
+  const nodes = (raw as unknown as Omit<GraphNode, 'x' | 'y' | 'X' | 'Y' | 'Z'>[]).map((n) => ({ ...n, ...(pos.get(n.slug) ?? { x: 0, y: 0, X: 0, Y: 0, Z: 0 }) }))
   return { nodes, links }
 }
 

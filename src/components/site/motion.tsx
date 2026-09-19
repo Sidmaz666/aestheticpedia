@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import { usePathname } from 'next/navigation'
 import { gsap } from 'gsap'
 import { SplitText } from 'gsap/SplitText'
+import { compact } from '@/lib/format'
 
 /**
  * Site-wide motion, driven by data attributes so server components can opt in:
@@ -41,7 +42,7 @@ export function Motion() {
           duration: 1.6,
           ease: 'power3.out',
           onUpdate: () => {
-            el.textContent = Math.round(obj.v).toLocaleString('en')
+            el.textContent = compact(Math.round(obj.v))
           },
         })
       } else {
@@ -62,21 +63,36 @@ export function Motion() {
     )
 
     const splits: SplitText[] = []
+    const watched = new WeakSet<Element>()
+    // Only touch elements React has already hydrated (it tags them with an internal fiber key):
+    // changing server-rendered HTML before hydration causes a hydration mismatch. Elements that
+    // aren't hydrated yet (streamed or suspended parts of the page) are picked up by a re-scan.
+    const hydrated = (el: Element) => Object.keys(el).some((k) => k.startsWith('__reactFiber'))
+    let retries = 0
+    let retry = 0
     const scan = (node: ParentNode) => {
+      let pending = 0
       node.querySelectorAll<HTMLElement>('[data-reveal],[data-reveal-group],[data-count]').forEach((el) => {
-        if (!el.dataset.revealed && !el.dataset.watched) {
-          el.dataset.watched = '1'
-          io.observe(el)
-        }
+        if (el.dataset.revealed || watched.has(el)) return
+        if (!hydrated(el)) return void pending++
+        watched.add(el)
+        io.observe(el)
       })
       node.querySelectorAll<HTMLElement>('[data-split]').forEach((el) => {
         if (el.dataset.splitDone) return
+        if (!hydrated(el)) return void pending++
         el.dataset.splitDone = '1'
-        const split = SplitText.create(el, { type: 'words', mask: 'words' })
+        // Word masks get room below the baseline (.split-word-mask in globals.css) so descenders
+        // (g, y, p) are not clipped, and the split is undone once the words have risen in.
+        const split = SplitText.create(el, { type: 'words', mask: 'words', wordsClass: 'split-word' })
         splits.push(split)
-        gsap.from(split.words, { yPercent: 110, duration: 1.1, ease: 'expo.out', stagger: 0.06, delay: 0.05 })
+        gsap.from(split.words, { yPercent: 110, duration: 1.1, ease: 'expo.out', stagger: 0.06, delay: 0.05, onComplete: () => split.revert() })
         gsap.set(el, { autoAlpha: 1 })
       })
+      if (pending && retries++ < 60) {
+        clearTimeout(retry)
+        retry = window.setTimeout(() => scan(document), 100)
+      }
     }
 
     scan(document)
@@ -86,6 +102,7 @@ export function Motion() {
     mo.observe(document.body, { childList: true, subtree: true })
 
     return () => {
+      clearTimeout(retry)
       io.disconnect()
       mo.disconnect()
       splits.forEach((s) => s.revert())

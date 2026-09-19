@@ -2,14 +2,15 @@
 
 import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react'
 import { useRouter } from 'next/navigation'
-import { forceCenter, forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY, type Simulation, type SimulationLinkDatum, type SimulationNodeDatum } from 'd3-force'
 import { ChevronUp, Maximize, Minus, Plus, Search } from 'lucide-react'
 import type { GraphLink, GraphNode } from '@/lib/queries'
 import { categoryColor } from '@/lib/category-colors'
 import { Thumb } from '@/components/aesthetic/thumb'
+import { compact } from '@/lib/format'
 
-type N = GraphNode & SimulationNodeDatum
-type L = SimulationLinkDatum<N> & { type: string }
+// Positions are precomputed on the server (src/lib/graph-layout.ts): the map only draws.
+type N = GraphNode
+type L = { source: N; target: N; type: string }
 
 const LINK_LABEL: Record<string, string> = {
   influenced_by: 'influenced by',
@@ -47,9 +48,9 @@ export function GraphView({ nodes: rawNodes, links: rawLinks, onSwitch3D }: { no
 
   // Simulation data (rebuilt when category filters change)
   const { nodes, links, neighbors } = useMemo(() => {
-    const nodes: N[] = rawNodes.filter((n) => !hidden.has(n.category)).map((n) => ({ ...n }))
-    const ids = new Set(nodes.map((n) => n.slug))
-    const links: L[] = rawLinks.filter((l) => ids.has(l.source) && ids.has(l.target)).map((l) => ({ source: l.source, target: l.target, type: l.type }))
+    const nodes: N[] = rawNodes.filter((n) => !hidden.has(n.category))
+    const byId = new Map(nodes.map((n) => [n.slug, n]))
+    const links: L[] = rawLinks.filter((l) => byId.has(l.source) && byId.has(l.target)).map((l) => ({ source: byId.get(l.source)!, target: byId.get(l.target)!, type: l.type }))
     const neighbors = new Map<string, Set<string>>()
     for (const l of rawLinks) {
       if (!neighbors.has(l.source)) neighbors.set(l.source, new Set())
@@ -86,17 +87,11 @@ export function GraphView({ nodes: rawNodes, links: rawLinks, onSwitch3D }: { no
       canvas.height = h * dpr
       canvas.style.width = `${w}px`
       canvas.style.height = `${h}px`
-      draw()
+      paint()
     }
-
-    const sim: Simulation<N, L> = forceSimulation<N, L>(nodes)
-      .force('link', forceLink<N, L>(links).id((d) => d.slug).distance(34).strength(0.35))
-      .force('charge', forceManyBody<N>().strength(-42).distanceMax(420))
-      .force('collide', forceCollide<N>().radius((d) => radius(d) + 1.5))
-      .force('x', forceX<N>(0).strength(0.035))
-      .force('y', forceY<N>(0).strength(0.035))
-      .force('center', forceCenter(0, 0))
-      .alphaDecay(0.025)
+    // Colours per category, resolved once (categoryColor returns CSS the canvas understands).
+    const catColor = new Map<string, string>()
+    for (const n of nodes) if (!catColor.has(n.category)) catColor.set(n.category, categoryColor(n.category))
 
     const hoverSet = () => {
       const key = focusRef.current ?? hoverRef.current
@@ -112,39 +107,66 @@ export function GraphView({ nodes: rawNodes, links: rawLinks, onSwitch3D }: { no
       ctx.scale(k, k)
       const hl = hoverSet()
 
+      // Links: one path per state (normal / highlighted / faded) instead of one stroke per link.
+      const key = focusRef.current ?? hoverRef.current
       ctx.lineWidth = 0.6 / Math.max(0.6, k)
+      const base = new Path2D()
+      const lit = new Path2D()
       for (const l of links) {
-        const s = l.source as N
-        const t = l.target as N
-        const key = focusRef.current ?? hoverRef.current
-        const on = hl && hl.has(s.slug) && hl.has(t.slug) && (s.slug === key || t.slug === key)
-        ctx.strokeStyle = on ? colAccent : colLine
-        ctx.globalAlpha = hl ? (on ? 0.95 : 0.08) : 0.45
-        ctx.beginPath()
-        ctx.moveTo(s.x!, s.y!)
-        ctx.lineTo(t.x!, t.y!)
-        ctx.stroke()
+        const on = key !== null && (l.source.slug === key || l.target.slug === key)
+        const p = on ? lit : base
+        p.moveTo(l.source.x, l.source.y)
+        p.lineTo(l.target.x, l.target.y)
       }
+      ctx.strokeStyle = colLine
+      ctx.globalAlpha = hl ? 0.14 : 0.45
+      ctx.stroke(base)
+      if (hl) {
+        ctx.strokeStyle = colAccent
+        ctx.globalAlpha = 0.95
+        ctx.lineWidth = 1.4 / Math.max(0.6, k)
+        ctx.stroke(lit)
+      }
+      // Nodes: batched per colour; faded ones keep their hue (lower alpha, not grey).
+      const batches = new Map<string, Path2D>()
+      const faded = new Map<string, Path2D>()
+      const withImage: N[] = []
       for (const n of nodes) {
         const r = radius(n)
-        ctx.globalAlpha = hl ? (hl.has(n.slug) ? 1 : 0.15) : 0.92
         const img = images.current.get(n.slug)
-        if (k * r > 9 && img?.complete && img.naturalWidth) {
-          ctx.save()
-          ctx.beginPath()
-          ctx.arc(n.x!, n.y!, r, 0, Math.PI * 2)
-          ctx.clip()
-          ctx.drawImage(img, n.x! - r, n.y! - r, r * 2, r * 2)
-          ctx.restore()
-          ctx.strokeStyle = categoryColor(n.category)
-          ctx.lineWidth = 1.2 / k
-          ctx.stroke()
-        } else {
-          ctx.fillStyle = categoryColor(n.category)
-          ctx.beginPath()
-          ctx.arc(n.x!, n.y!, r, 0, Math.PI * 2)
-          ctx.fill()
+        if (k * r > 9 && img?.complete && img.naturalWidth && (!hl || hl.has(n.slug))) {
+          withImage.push(n)
+          continue
         }
+        const col = catColor.get(n.category)!
+        const into = hl && !hl.has(n.slug) ? faded : batches
+        let p = into.get(col)
+        if (!p) into.set(col, (p = new Path2D()))
+        p.moveTo(n.x + r, n.y)
+        p.arc(n.x, n.y, r, 0, Math.PI * 2)
+      }
+      ctx.globalAlpha = 0.32
+      for (const [col, p] of faded) {
+        ctx.fillStyle = col
+        ctx.fill(p)
+      }
+      ctx.globalAlpha = hl ? 1 : 0.92
+      for (const [col, p] of batches) {
+        ctx.fillStyle = col
+        ctx.fill(p)
+      }
+      for (const n of withImage) {
+        const r = radius(n)
+        const img = images.current.get(n.slug)!
+        ctx.save()
+        ctx.beginPath()
+        ctx.arc(n.x, n.y, r, 0, Math.PI * 2)
+        ctx.clip()
+        ctx.drawImage(img, n.x - r, n.y - r, r * 2, r * 2)
+        ctx.restore()
+        ctx.strokeStyle = catColor.get(n.category)!
+        ctx.lineWidth = 1.2 / k
+        ctx.stroke()
       }
       // Labels: hubs always, everything when zoomed in, highlighted set on hover.
       ctx.globalAlpha = 1
@@ -166,9 +188,16 @@ export function GraphView({ nodes: rawNodes, links: rawLinks, onSwitch3D }: { no
         ctx.fillText(n.name, n.x!, n.y! - radius(n) - 4 / k)
       }
     }
-    redraw.current = draw
-
-    sim.on('tick', draw)
+    // Draw at most once per frame, however many events ask for it.
+    let queued = 0
+    const paint = () => {
+      if (queued) return
+      queued = requestAnimationFrame(() => {
+        queued = 0
+        draw()
+      })
+    }
+    redraw.current = paint
     resize()
     const ro = new ResizeObserver(resize)
     ro.observe(wrap)
@@ -179,7 +208,7 @@ export function GraphView({ nodes: rawNodes, links: rawLinks, onSwitch3D }: { no
       const img = new Image()
       img.referrerPolicy = 'no-referrer'
       img.src = n.image
-      img.onload = () => draw()
+      img.onload = () => paint()
       images.current.set(n.slug, img)
     }
 
@@ -217,7 +246,7 @@ export function GraphView({ nodes: rawNodes, links: rawLinks, onSwitch3D }: { no
         view.current.y += dy
         drag.x = e.clientX
         drag.y = e.clientY
-        draw()
+        paint()
         return
       }
       const n = pick(e.clientX - rect.left, e.clientY - rect.top)
@@ -253,14 +282,14 @@ export function GraphView({ nodes: rawNodes, links: rawLinks, onSwitch3D }: { no
       v.x = cx - ((cx - v.x) * k2) / v.k
       v.y = cy - ((cy - v.y) * k2) / v.k
       v.k = k2
-      draw()
+      paint()
     }
     canvas.addEventListener('pointerdown', onDown)
     canvas.addEventListener('pointermove', onMove)
     canvas.addEventListener('pointerup', onUp)
     canvas.addEventListener('wheel', onWheel, { passive: false })
     return () => {
-      sim.stop()
+      cancelAnimationFrame(queued)
       ro.disconnect()
       canvas.removeEventListener('pointerdown', onDown)
       canvas.removeEventListener('pointermove', onMove)
@@ -305,7 +334,7 @@ export function GraphView({ nodes: rawNodes, links: rawLinks, onSwitch3D }: { no
           <p className="eyebrow">Relationship network</p>
           <h1 className="display mt-1 text-5xl">Connections</h1>
           <p className="mt-2 text-sm text-fg-muted">
-            {nodes.length.toLocaleString('en')} aesthetics joined by {links.length.toLocaleString('en')} documented relations —
+            {compact(nodes.length)} aesthetics joined by {compact(links.length)} documented relations —
             influence, variants, reactions. Scroll to zoom, drag to pan, click a node to open it.
           </p>
           <div className="relative mt-4">
@@ -446,7 +475,7 @@ function Legend({
           <span>
             <span className="eyebrow block">Categories</span>
             <span className="text-xs text-fg-muted">
-              {hidden.size ? `${categories.length - hidden.size} of ${categories.length} shown` : `All ${categories.length} shown`} · {visible.toLocaleString('en')} nodes
+              {hidden.size ? `${categories.length - hidden.size} of ${categories.length} shown` : `All ${categories.length} shown`} · {compact(visible)} nodes
             </span>
           </span>
           <ChevronUp className={`size-4 text-fg-subtle transition-transform ${open ? '' : 'rotate-180'}`} aria-hidden />

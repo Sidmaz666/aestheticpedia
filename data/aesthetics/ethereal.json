@@ -46,7 +46,9 @@
   "lighting": {},
   "photography": {},
   "architecture": {},
-  "fashion": {},
+  "fashion": {
+    "Overview": "Ethereal fashion usually consists of feminine clothing in light pastel colors. Common attire includes long flowing dresses with lace, diamond jewelry, clear accessories, angel patterns, white fur, drop earrings, pleated skirts, white mesh, etc."
+  },
   "objects": [],
   "environment": {},
   "graphicDesign": {},
@@ -67,7 +69,32 @@
     "compassion",
     "calmness"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/5567/14767370163_e00c339478_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/8c0a3784-e8cb-445e-938f-6f8882717854/thumb/",
+      "pageUrl": "https://www.flickr.com/photos/70285332@N00/14767370163",
+      "caption": "The Lost Unicorn Gallery: A Fantasy Art Fairy Tale, Ethereal - Moderate",
+      "source": "Openverse · flickr",
+      "artist": "▓▒░ TORLEY ░▒▓",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "1024",
+      "height": "615"
+    },
+    {
+      "url": "https://live.staticflickr.com/5553/14560865349_6e6879bef8_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/abf6f65c-81b0-493f-9573-b1c04a165ab9/thumb/",
+      "pageUrl": "https://www.flickr.com/photos/70285332@N00/14560865349",
+      "caption": "The Lost Unicorn Gallery: A Fantasy Art Fairy Tale, Ethereal - Moderate",
+      "source": "Openverse · flickr",
+      "artist": "▓▒░ TORLEY ░▒▓",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "1024",
+      "height": "615"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Ethereal (CC BY-SA)",
@@ -84,7 +111,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:16:23.134Z"
+        "checkedAt": "2026-09-19T06:41:39.489Z"
       }
     },
     {
@@ -95,7 +122,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:16:23.134Z"
+        "checkedAt": "2026-09-19T06:41:39.489Z"
       }
     }
   ],
@@ -106,5 +133,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T01:38:47.772Z"
+  "updatedAt": "2026-09-19T07:14:38.875Z"
 }

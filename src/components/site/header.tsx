@@ -10,6 +10,7 @@ import type { AestheticSummary } from '@/lib/aesthetic'
 import { SITE_NAME } from '@/lib/site'
 import { Logo, NAV } from './nav'
 import { SearchDialog } from './search-dialog'
+import { WandPicker } from './wand-picker'
 import { OPEN_SEARCH_EVENT } from './search-trigger'
 
 export function SiteHeader() {
@@ -72,7 +73,7 @@ export function SiteHeader() {
           scrolled || menuOpen ? 'border-b border-line bg-bg/80 backdrop-blur-xl' : 'border-b border-transparent'
         }`}
       >
-        <div className="mx-auto flex h-16 max-w-[1600px] items-center gap-4 px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto flex h-16 max-w-[1600px] items-center gap-2 px-4 sm:gap-4 sm:px-6 lg:px-10">
           <Link href="/" className="shrink-0 text-fg" aria-label={`${SITE_NAME} home`}>
             <Logo />
           </Link>
@@ -92,7 +93,7 @@ export function SiteHeader() {
             ))}
           </nav>
 
-          <div className="ml-auto flex items-center gap-1.5">
+          <div className="ml-auto flex items-center gap-0.5 sm:gap-1.5">
             <button
               type="button"
               onClick={() => setSearchOpen(true)}
@@ -101,17 +102,18 @@ export function SiteHeader() {
             >
               <Search className="size-4" aria-hidden />
               <span className="hidden flex-1 text-left md:inline">Search the vault…</span>
-              <kbd className="hidden rounded-full border border-line-strong px-2 py-0.5 font-mono text-[10px] md:inline">⌘K</kbd>
+              <kbd className="hidden rounded-full border border-line-strong px-2 py-0.5 font-mono text-[10px] md:inline">⌘ K</kbd>
             </button>
             <button
               type="button"
               onClick={surprise}
-              className="grid size-10 place-items-center rounded-full text-fg-muted transition-colors hover:bg-surface-2 hover:text-fg"
+              className="hidden size-10 place-items-center rounded-full text-fg-muted transition-colors hover:bg-surface-2 hover:text-fg min-[380px]:grid"
               aria-label="Open a random aesthetic"
               title="Surprise me"
             >
               <Shuffle className="size-4" aria-hidden />
             </button>
+            <WandPicker />
             <button
               type="button"
               onClick={() => setTheme(resolvedTheme === 'light' ? 'dark' : 'light')}
@@ -143,6 +145,16 @@ export function SiteHeader() {
                 {n.label}
               </Link>
             ))}
+            <button
+              type="button"
+              onClick={() => {
+                setMenuOpen(false)
+                void surprise()
+              }}
+              className="flex w-full items-center gap-3 py-4 text-left display text-3xl text-fg-muted hover:text-fg"
+            >
+              <Shuffle className="size-5" aria-hidden /> Surprise me
+            </button>
           </nav>
         )}
       </header>

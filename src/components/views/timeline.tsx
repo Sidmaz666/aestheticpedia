@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react'
 import Link from 'next/link'
 import type { TimelineItem } from '@/lib/aesthetic'
 import { paletteArt } from '@/components/aesthetic/art-image'
+import { compact } from '@/lib/format'
 
 const ERAS: { id: string; label: string; from: number; to: number; blurb: string }[] = [
   { id: 'ancient', label: 'Antiquity', from: -50000, to: 499, blurb: 'Prehistoric craft to the classical world' },
@@ -46,9 +47,9 @@ export function TimelineView({ items }: { items: Item[] }) {
       <p className="eyebrow">Chronology</p>
       <div className="mt-2 flex flex-wrap items-end justify-between gap-6">
         <h1 className="display text-6xl sm:text-7xl">Timeline</h1>
-        <label className="flex items-center gap-3 text-sm text-fg-subtle">
+        <label className="flex min-w-0 max-w-full items-center gap-3 text-sm text-fg-subtle">
           Category
-          <select value={category} onChange={(e) => setCategory(e.target.value)} className="h-10 rounded-full border border-line-strong bg-surface px-4 text-sm text-fg focus:outline-none">
+          <select value={category} onChange={(e) => setCategory(e.target.value)} className="h-10 min-w-0 max-w-full flex-1 truncate rounded-full border border-line-strong bg-surface px-4 text-sm text-fg focus:outline-none sm:flex-none">
             <option value="">All ({items.length})</option>
             {categories.map((c) => (
               <option key={c} value={c}>
@@ -59,7 +60,7 @@ export function TimelineView({ items }: { items: Item[] }) {
         </label>
       </div>
       <p className="mt-3 max-w-2xl text-fg-muted">
-        {filtered.length.toLocaleString('en')} dated aesthetics, placed by the year they emerged. Select an era in the chart to jump to it.
+        {compact(filtered.length)} dated aesthetics, placed by the year they emerged. Select an era in the chart to jump to it.
       </p>
 
       {/* Density chart — doubles as era navigation */}

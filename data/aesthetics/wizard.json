@@ -56,7 +56,13 @@
   "lighting": {},
   "photography": {},
   "architecture": {},
-  "fashion": {},
+  "fashion": {
+    "Overview": "The fashion of Wizards tends to be fantastical due to wizards being depicted as wise but eccentric in media.",
+    "Tops": "Robes",
+    "Bottoms": "Ankle-length skirts",
+    "Footwear": "Boots",
+    "Accessories": "Pointed hats; Cloaks and capes; Scarfs; Belts with pouches; Shawls; Trench coats"
+  },
   "objects": [
     "Wizard staffs",
     "walking sticks",
@@ -76,7 +82,13 @@
   "environment": {},
   "graphicDesign": {},
   "uiTranslation": {},
-  "recipe": {},
+  "recipe": {
+    "activities": [
+      "Potion-making (be it cocktails or chemistry)",
+      "Hanging out with your familiar (animal companion)",
+      "Studying spells"
+    ]
+  },
   "emotionProfile": {},
   "dnaAxes": {},
   "keyExamples": [
@@ -112,7 +124,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:33:06.516Z"
+        "checkedAt": "2026-09-19T12:21:59.297Z"
       }
     },
     {
@@ -123,7 +135,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:33:06.516Z"
+        "checkedAt": "2026-09-19T12:21:59.297Z"
       }
     }
   ],
@@ -134,5 +146,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T01:38:51.582Z"
+  "updatedAt": "2026-09-19T12:21:59.297Z"
 }

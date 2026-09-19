@@ -78,7 +78,10 @@ for (const [q, a] of byQ) {
   if (meta) {
     if (!a.aliases.length && meta.aliases.length) {
       a.aliases = meta.aliases.filter((x) => x.length < 60 && norm(x) !== norm(a.name)).slice(0, 6)
-      if (a.aliases.length) (filled.aliases++, (changed = true))
+      if (a.aliases.length) {
+        filled.aliases++
+        changed = true
+      }
     }
     if (!a.subcategory && meta.desc && meta.desc.length < 90 && !/^wikimedia/i.test(meta.desc)) {
       a.subcategory = meta.desc.replace(/^./, (m) => m.toUpperCase())
@@ -90,13 +93,19 @@ for (const [q, a] of byQ) {
   if (!a.keyExamples.length && ws.length) {
     const seen = new Set<string>()
     a.keyExamples = ws.map((w) => w.label).filter((l) => !/^Q\d+$/.test(l) && !seen.has(l) && seen.add(l)).slice(0, 8)
-    if (a.keyExamples.length) (filled.keyExamples++, (changed = true))
+    if (a.keyExamples.length) {
+      filled.keyExamples++
+      changed = true
+    }
   }
   if (!a.materials.length && ws.length) {
     const count = new Map<string, number>()
     for (const w of ws) for (const m of w.materials) if (!NOT_MATERIAL.test(m)) count.set(m, (count.get(m) ?? 0) + 1)
     a.materials = [...count.entries()].sort((x, y) => y[1] - x[1]).slice(0, 6).map(([m]) => m)
-    if (a.materials.length) (filled.materials++, (changed = true))
+    if (a.materials.length) {
+      filled.materials++
+      changed = true
+    }
   }
   if (changed) {
     a.updatedAt = new Date().toISOString()

@@ -33,6 +33,19 @@ const FIXES: Record<string, string | null> = {
   'old-web': 'GeoCities',
   'turf-roofed-farmhouse': 'Sod roof',
   flogger: 'Scene (subculture)',
+  // Reviewed 2026-09-19 (second audit).
+  romanesque: 'Romanesque art',
+  'military-goth': 'Goth subculture',
+  yanki: 'Yanki',
+  pijo: null,
+  rokku: null,
+  'cyber-stylin': null,
+  landevejsriddere: null,
+  'dark-girly-and-sweet-girly': null,
+  denpa: null,
+  'poverty-chic': null,
+  gorecore: null,
+  'haunted-mound': null,
 }
 // Origins that came from the wrong Wikidata item.
 const WRONG_ORIGIN: Record<string, string> = { 'goth-punk': 'Japan' }

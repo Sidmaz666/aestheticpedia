@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { DATA_QUALITY_LABELS, ESTABLISHMENT_LABELS, STATUS_HINTS, STATUS_LABELS } from '@/lib/aesthetic'
 import { CATEGORIES } from '@/lib/schema'
 import { SITE_NAME } from '@/lib/site'
+import { getProjectInfo } from '@/lib/github'
+import { ProjectCard } from '@/components/site/project-card'
 
 export const metadata: Metadata = {
   title: 'About, methodology & terminology',
@@ -52,7 +54,8 @@ function Glossary({ title, rows }: { title: string; rows: [string, string][] }) 
   )
 }
 
-export default function AboutPage() {
+export default async function AboutPage() {
+  const project = await getProjectInfo()
   return (
     <main className="mx-auto w-full max-w-5xl px-4 pb-16 pt-10 sm:px-6 lg:px-10">
       <p className="eyebrow">About</p>
@@ -68,6 +71,15 @@ export default function AboutPage() {
           typography, how the aesthetic shows up across disciplines, and how it relates to others. Everything is open data.
         </p>
       </div>
+
+      {project && (
+        <section id="project" className="mt-16 scroll-mt-24" aria-labelledby="project-title">
+          <h2 id="project-title" className="sr-only">
+            The project
+          </h2>
+          <ProjectCard info={project} />
+        </section>
+      )}
 
       <section className="mt-20 space-y-6" aria-labelledby="method">
         <h2 id="method" className="display text-5xl">Methodology</h2>

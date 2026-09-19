@@ -29,3 +29,23 @@ export const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL || ''
 export const repoFile = (p: string) => (REPO_URL ? `${REPO_URL}/blob/${REPO_BRANCH}/${p}` : '')
 export const repoEdit = (p: string) => (REPO_URL ? `${REPO_URL}/edit/${REPO_BRANCH}/${p}` : '')
 export const CONTRIBUTING_URL = repoFile('CONTRIBUTING.md')
+
+/**
+ * Deployment stage. On Vercel, VERCEL_ENV is "production" | "preview" | "development"; elsewhere
+ * a production build counts as production. Only production is indexed by search engines —
+ * preview deployments are noindex so they never compete with the real site. Override with
+ * NEXT_PUBLIC_ALLOW_INDEXING=true|false.
+ */
+export const DEPLOY_ENV = process.env.NEXT_PUBLIC_VERCEL_ENV || process.env.VERCEL_ENV || (process.env.NODE_ENV === 'production' ? 'production' : 'development')
+export const INDEXABLE =
+  process.env.NEXT_PUBLIC_ALLOW_INDEXING === 'true' ? true : process.env.NEXT_PUBLIC_ALLOW_INDEXING === 'false' ? false : DEPLOY_ENV === 'production'
+
+/** Search-console verification tokens (optional). */
+export const VERIFICATION = {
+  google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
+  bing: process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION || undefined,
+  yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION || undefined,
+}
+
+/** Repository owner (GitHub login), for author/publisher metadata. */
+export const REPO_OWNER = /github\.com\/([^/]+)/i.exec(REPO_URL)?.[1] ?? ''

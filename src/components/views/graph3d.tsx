@@ -9,6 +9,7 @@ import { ArrowUpRight, ChevronUp, Maximize, Minus, Pause, Play, Plus, Search, X 
 import type { GraphLink, GraphNode } from '@/lib/queries'
 import { categoryColor } from '@/lib/category-colors'
 import { Thumb } from '@/components/aesthetic/thumb'
+import { compact } from '@/lib/format'
 
 type N = GraphNode & { x?: number; y?: number; z?: number; vx?: number; vy?: number; vz?: number }
 type L = { source: string | N; target: string | N; type: string }
@@ -22,7 +23,6 @@ export const LINK_TYPES: { key: string; label: string; color: string; types: str
   { key: 'related', label: 'Related', color: '#94a3b8', types: ['related', 'confused_with'] },
 ]
 const GROUP_OF = new Map(LINK_TYPES.flatMap((g) => g.types.map((t) => [t, g])))
-const idOf = (x: string | N) => (typeof x === 'string' ? x : x.slug)
 
 /** Resolve any CSS colour (incl. oklch) to hex — three.js only understands sRGB notations. */
 function cssToHex(css: string): string {
@@ -44,7 +44,8 @@ const subscribeWide = (cb: () => void) => {
 export function Graph3DView({ nodes: rawNodes, links: rawLinks, onSwitch2D }: { nodes: GraphNode[]; links: GraphLink[]; onSwitch2D: () => void }) {
   const mountRef = useRef<HTMLDivElement>(null)
   const tipRef = useRef<HTMLDivElement>(null)
-  const graphRef = useRef<any>(null)
+  const sceneRef = useRef<import('./network-scene').NetworkScene | null>(null)
+  const [ready, setReady] = useState(false)
   const [hidden, setHidden] = useState<Set<string>>(() => new Set())
   const [linkOff, setLinkOff] = useState<Set<string>>(() => new Set())
   const [hover, setHover] = useState<N | null>(null)
@@ -52,7 +53,7 @@ export function Graph3DView({ nodes: rawNodes, links: rawLinks, onSwitch2D }: { 
   const [rotating, setRotating] = useState(true)
   const [q, setQ] = useState('')
   const [failed, setFailed] = useState(false)
-  const hoverRef = useRef<{ node: string | null; neighbours: Set<string> }>({ node: null, neighbours: new Set() })
+  const bySlug = useMemo(() => new Map(rawNodes.map((n) => [n.slug, n as N])), [rawNodes])
 
   const categories = useMemo(() => {
     const m = new Map<string, number>()
@@ -80,128 +81,53 @@ export function Graph3DView({ nodes: rawNodes, links: rawLinks, onSwitch2D }: { 
     return { nodes, links }
   }, [rawNodes, rawLinks, hidden, linkOff])
 
-  // Create the graph once.
+  // The scene is created once; filters, highlight and rotation are pushed in by the effects below.
   useEffect(() => {
     const el = mountRef.current
     if (!el) return
     let disposed = false
     const colors = new Map(categories.map(([c]) => [c, cssToHex(categoryColor(c))]))
-    // Category anchors spread over a sphere (Fibonacci lattice) → one cluster per category.
-    const anchors = new Map(
-      categories.map(([c], i) => {
-        const k = categories.length
-        const y = 1 - (2 * (i + 0.5)) / k
-        const r = Math.sqrt(1 - y * y)
-        const phi = i * Math.PI * (3 - Math.sqrt(5))
-        const R = 520
-        return [c, { x: Math.cos(phi) * r * R, y: y * R, z: Math.sin(phi) * r * R }]
-      })
-    )
+    const bg = getComputedStyle(document.documentElement).getPropertyValue('--bg').trim()
     ;(async () => {
       try {
-        const { default: ForceGraph3D } = await import('3d-force-graph')
+        const { NetworkScene } = await import('./network-scene')
         if (disposed) return
-        const bg = getComputedStyle(document.documentElement).getPropertyValue('--bg').trim()
-        // The kapsule instance is chained and loosely typed; our node objects carry extra fields.
-        const g: any = new (ForceGraph3D as any)(el, { controlType: 'orbit' })
-          .backgroundColor(bg ? cssToHex(bg) : '#0b0b0c')
-          .showNavInfo(false)
-          // Orbiting is the interaction; dragging single nodes isn't useful here, and the library's
-          // drag-end handler crashes if hover highlighting rebuilds the node mid-drag.
-          .enableNodeDrag(false)
-          .nodeId('slug')
-          .nodeVal((n: N) => 1 + Math.sqrt(n.degree) * 1.6)
-          .nodeRelSize(3.2)
-          .nodeOpacity(0.92)
-          .nodeResolution(10)
-          .nodeLabel(() => '')
-          .nodeColor((n: N) => {
-            const h = hoverRef.current
-            const base = colors.get(n.category) ?? '#aaaaaa'
-            if (!h.node) return base
-            return n.slug === h.node || h.neighbours.has(n.slug) ? base : '#2a2a30'
-          })
-          .linkColor((l: L) => {
-            const h = hoverRef.current
-            const c = GROUP_OF.get(l.type)?.color ?? '#94a3b8'
-            if (!h.node) return c
-            return idOf(l.source) === h.node || idOf(l.target) === h.node ? c : '#1f1f24'
-          })
-          .linkOpacity(0.35)
-          .linkWidth((l: L) => {
-            const h = hoverRef.current.node
-            return h && (idOf(l.source) === h || idOf(l.target) === h) ? 1.6 : 0
-          })
-          .linkDirectionalParticles((l: L) => {
-            const h = hoverRef.current.node
-            return h && (idOf(l.source) === h || idOf(l.target) === h) ? 3 : 0
-          })
-          .linkDirectionalParticleWidth(2)
-          .linkDirectionalParticleSpeed(0.006)
-          .linkDirectionalParticleColor((l: L) => GROUP_OF.get(l.type)?.color ?? '#94a3b8')
-          .warmupTicks(60)
-          .cooldownTicks(220)
-          .onNodeHover((n: N | null) => {
-            el.style.cursor = n ? 'pointer' : 'grab'
-            hoverRef.current = { node: n?.slug ?? null, neighbours: n ? (neighbours.get(n.slug) ?? new Set()) : new Set() }
-            setHover(n)
-            g.nodeColor(g.nodeColor()).linkColor(g.linkColor()).linkWidth(g.linkWidth()).linkDirectionalParticles(g.linkDirectionalParticles())
-          })
-          .onNodeClick((n: N) => focusNode(g, n))
-          .onBackgroundClick(() => setSelected(null))
-        // Clustering force: pull each node gently towards its category's anchor.
-        g.d3Force('cluster', (alpha: number) => {
-          for (const n of g.graphData().nodes as N[]) {
-            const a = anchors.get(n.category)
-            if (!a || n.x === undefined) continue
-            n.vx! += (a.x - n.x) * 0.028 * alpha
-            n.vy! += (a.y - n.y!) * 0.028 * alpha
-            n.vz! += (a.z - n.z!) * 0.028 * alpha
-          }
+        sceneRef.current = new NetworkScene(el, {
+          nodes: rawNodes,
+          links: rawLinks,
+          background: bg ? cssToHex(bg) : '#0b0b0c',
+          nodeColor: (c) => colors.get(c) ?? '#aaaaaa',
+          linkColor: (t) => GROUP_OF.get(t)?.color ?? '#94a3b8',
+          onHover: (slug) => setHover(slug ? (bySlug.get(slug) ?? null) : null),
+          onClick: (slug) => {
+            const n = slug ? bySlug.get(slug) : null
+            if (n) focusNode(n)
+            else setSelected(null)
+          },
         })
-        g.d3Force('charge')?.strength(-18)
-        g.d3Force('link')?.distance(26).strength(0.35)
-        const controls = g.controls()
-        controls.autoRotate = true
-        controls.autoRotateSpeed = 0.35
-        controls.enableDamping = true
-        const size = () => g.width(el.clientWidth).height(el.clientHeight)
-        size()
-        const ro = new ResizeObserver(size)
-        ro.observe(el)
-        g.cameraPosition({ x: 0, y: 0, z: 1500 })
-        graphRef.current = g
-        ;(g as { __ro?: ResizeObserver }).__ro = ro
-        const onVis = () => (document.hidden ? g.pauseAnimation() : g.resumeAnimation())
-        document.addEventListener('visibilitychange', onVis)
-        ;(g as { __onVis?: () => void }).__onVis = onVis
-        g.graphData(data)
+        setReady(true)
       } catch {
         setFailed(true)
       }
     })()
     return () => {
       disposed = true
-      const g = graphRef.current
-      if (g) {
-        g.__ro?.disconnect()
-        document.removeEventListener('visibilitychange', g.__onVis)
-        g._destructor?.()
-        graphRef.current = null
-      }
-      el.innerHTML = ''
+      sceneRef.current?.dispose()
+      sceneRef.current = null
     }
-    // The graph is created once; data and filters are pushed in by the effects below.
-  }, [])
+  }, [rawNodes, rawLinks])
 
   useEffect(() => {
-    graphRef.current?.graphData(data)
-  }, [data])
+    sceneRef.current?.setFilters(hidden, linkOff, (t) => GROUP_OF.get(t)?.key ?? 'related')
+  }, [hidden, linkOff, ready])
 
   useEffect(() => {
-    const c = graphRef.current?.controls()
-    if (c) c.autoRotate = rotating
-  }, [rotating])
+    sceneRef.current?.highlight(hover?.slug ?? selected?.slug ?? null)
+  }, [hover, selected, ready])
+
+  useEffect(() => {
+    sceneRef.current?.setAutoRotate(rotating)
+  }, [rotating, ready])
 
   // Tooltip follows the pointer (positioned directly, no re-render per move).
   useEffect(() => {
@@ -223,32 +149,21 @@ export function Graph3DView({ nodes: rawNodes, links: rawLinks, onSwitch2D }: { 
     return () => el.removeEventListener('pointermove', onMove)
   }, [])
 
-  function focusNode(g: any, n: N) {
+  function focusNode(n: N) {
     setSelected(n)
     setRotating(false)
-    const d = 140
-    const len = Math.hypot(n.x ?? 0, n.y ?? 0, n.z ?? 0) || 1
-    const k = 1 + d / len
-    g.cameraPosition({ x: (n.x ?? 0) * k, y: (n.y ?? 0) * k, z: (n.z ?? 0) * k }, { x: n.x, y: n.y, z: n.z }, 1200)
+    sceneRef.current?.focus(n.slug)
   }
   // Zoom towards/away from the current orbit target (not the origin), keeping the view aimed.
-  const zoom = (f: number) => {
-    const g = graphRef.current
-    if (!g) return
-    const p = g.cameraPosition()
-    const t = g.controls()?.target ?? { x: 0, y: 0, z: 0 }
-    const target = { x: t.x, y: t.y, z: t.z }
-    g.cameraPosition({ x: target.x + (p.x - target.x) * f, y: target.y + (p.y - target.y) * f, z: target.z + (p.z - target.z) * f }, target, 400)
-  }
+  const zoom = (f: number) => sceneRef.current?.zoom(f)
   const reset = () => {
     setSelected(null)
-    graphRef.current?.cameraPosition({ x: 0, y: 0, z: 1500 }, { x: 0, y: 0, z: 0 }, 900)
+    sceneRef.current?.reset()
   }
   const matches = q.trim() ? rawNodes.filter((n) => n.name.toLowerCase().includes(q.trim().toLowerCase())).slice(0, 8) : []
   const flyTo = (slug: string) => {
-    const g = graphRef.current
-    const n = (g?.graphData().nodes as N[] | undefined)?.find((x) => x.slug === slug)
-    if (g && n) focusNode(g, n)
+    const n = bySlug.get(slug)
+    if (n) focusNode(n)
     setQ('')
   }
 
@@ -277,7 +192,7 @@ export function Graph3DView({ nodes: rawNodes, links: rawLinks, onSwitch2D }: { 
           <p className="eyebrow">Relationship network</p>
           <h1 className="display mt-1 text-5xl">Connections</h1>
           <p className="mt-2 text-sm text-fg-muted">
-            {data.nodes.length.toLocaleString('en')} aesthetics, {data.links.length.toLocaleString('en')} documented relations. Drag to orbit, scroll to zoom, right-drag to pan;
+            {compact(data.nodes.length)} aesthetics, {compact(data.links.length)} documented relations. Drag to orbit, scroll to zoom, right-drag to pan;
             click a node for details.
           </p>
           <div className="relative mt-4">
@@ -330,7 +245,7 @@ export function Graph3DView({ nodes: rawNodes, links: rawLinks, onSwitch2D }: { 
       </div>
 
       {/* Controls */}
-      <div className="absolute right-4 top-4 z-10 flex gap-1 rounded-full border border-line bg-bg/80 p-1 backdrop-blur-xl sm:right-6 lg:right-10">
+      <div className="absolute bottom-4 left-4 z-10 flex gap-1 rounded-full border border-line bg-bg/80 p-1 backdrop-blur-xl sm:bottom-auto sm:left-auto sm:right-6 sm:top-4 lg:right-10">
         <IconBtn label="Zoom in" onClick={() => zoom(0.75)}>
           <Plus className="size-4" aria-hidden />
         </IconBtn>

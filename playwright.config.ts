@@ -9,6 +9,8 @@ export default defineConfig({
   expect: { timeout: 10_000 },
   fullyParallel: true,
   retries: process.env.CI ? 1 : 0,
+  // One `next start` server backs every test; two workers keep API-heavy pages from timing out.
+  workers: 2,
   reporter: [['list']],
   use: { baseURL: `http://localhost:${PORT}`, trace: 'retain-on-failure' },
   projects: [

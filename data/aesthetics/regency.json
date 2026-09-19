@@ -56,7 +56,10 @@
   "lighting": {},
   "photography": {},
   "architecture": {},
-  "fashion": {},
+  "fashion": {
+    "Women": "Traditional regency dresses are characterized by loose, gauzy skirts and an empire silhouette. They normally tend to be in pastels. Accessories include gloves, necklaces, bonnets, shawls/wraps, headpieces, parasols, and fans.",
+    "Men": "Men's fashion included top hats, cravats, shirts with high collars, waistcoats, frock coats, tight fitting breeches, and riding boots. Zack Pinset is a rare example of a man who exclusively wears Regency men's fashion."
+  },
   "objects": [
     "columns",
     "pediments",
@@ -72,7 +75,18 @@
   "environment": {},
   "graphicDesign": {},
   "uiTranslation": {},
-  "recipe": {},
+  "recipe": {
+    "activities": [
+      "Taking a walk in the garden",
+      "Debutante balls",
+      "Painting",
+      "Playing the pianoforte",
+      "Hand writing letters",
+      "Reading",
+      "Drinking tea",
+      "Browsing clothes (dresses, bonnets, gloves, jewellery, etc)"
+    ]
+  },
   "emotionProfile": {},
   "dnaAxes": {},
   "keyExamples": [
@@ -270,5 +284,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T01:59:33.814Z"
+  "updatedAt": "2026-09-19T07:14:39.461Z"
 }

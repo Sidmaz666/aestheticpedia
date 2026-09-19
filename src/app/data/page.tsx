@@ -10,6 +10,7 @@ import { getCompleteness, getInsights, getStats } from '@/lib/queries'
 import { BarList, CategoryTreemap, CenturyHistogram, Donut } from '@/components/views/charts'
 import { ESTABLISHMENT_LABELS } from '@/lib/aesthetic'
 import type { DataManifest, ValidationReport } from '@/lib/aesthetic'
+import { compact } from '@/lib/format'
 
 export const revalidate = 3600
 export const metadata: Metadata = {
@@ -47,12 +48,35 @@ export default async function DataPage() {
     readJson<ValidationReport>('validation.json'),
     getInsights(),
   ])
-  const n = (v: number) => v.toLocaleString('en')
+  const n = compact
+
+  // schema.org Dataset, so the library appears in Google Dataset Search.
+  const datasetJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    name: `${SITE_NAME} — the open encyclopedia of aesthetics`,
+    description: `${stats.total} aesthetics — art movements, architectural styles, regional crafts and dress, subcultures and internet aesthetics — each with sources, palettes, freely licensed images, relations and a free API.`,
+    url: `${SITE_URL}/data`,
+    license: 'https://creativecommons.org/licenses/by-sa/4.0/',
+    isAccessibleForFree: true,
+    creator: { '@id': `${SITE_URL}/#organization` },
+    dateModified: manifest?.builtAt,
+    keywords: ['aesthetics', 'art movements', 'architecture', 'design', 'colour palettes', 'visual culture'],
+    variableMeasured: ['name', 'category', 'period', 'origin', 'palette', 'images', 'sources', 'relations'],
+    distribution: (manifest?.files ?? []).map((file) => ({
+      '@type': 'DataDownload',
+      name: file.name,
+      contentUrl: `${SITE_URL}${file.path}`,
+      encodingFormat: file.name.endsWith('.parquet') ? 'application/vnd.apache.parquet' : file.name.endsWith('.csv') ? 'text/csv' : file.name.endsWith('.duckdb') ? 'application/octet-stream' : 'application/json',
+      contentSize: `${file.bytes} B`,
+    })),
+  }
 
   const mcpConfig = JSON.stringify({ mcpServers: { aestheticpedia: { type: 'http', url: `${SITE_URL}/api/mcp` } } }, null, 2)
 
   return (
     <main className="mx-auto w-full max-w-[1400px] px-4 pb-16 pt-10 sm:px-6 lg:px-10">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetJsonLd) }} />
       <p className="eyebrow">Open data</p>
       <h1 className="display mt-2 max-w-4xl text-6xl sm:text-7xl">Data & API</h1>
       <p className="mt-4 max-w-2xl text-lg text-fg-muted">
@@ -295,7 +319,7 @@ function Bars({ rows }: { rows: { name: string; count: number }[] }) {
         <li key={r.name}>
           <div className="flex justify-between text-sm">
             <span className="capitalize text-fg-muted">{r.name}</span>
-            <span className="font-mono text-xs text-fg-subtle">{r.count.toLocaleString('en')}</span>
+            <span className="font-mono text-xs text-fg-subtle">{compact(r.count)}</span>
           </div>
           <div className="mt-1 h-1.5 rounded-full bg-surface-2">
             <div className="h-full rounded-full bg-accent" style={{ width: `${Math.max(1, (r.count / max) * 100)}%` }} />

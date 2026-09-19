@@ -4,6 +4,7 @@
 // the file's title or description. Maps, diagrams, logos and non-free files are excluded.
 //
 //   node scripts/data/images-search.ts [--openverse N]   (N = max Openverse requests, default 180)
+import { readFileSync } from 'node:fs'
 import type { AestheticRecord, ImageRecord } from '../../src/lib/schema.ts'
 import { cache, getJSON, loadAesthetics, pool, saveAesthetic, sleep } from './lib.ts'
 
@@ -164,8 +165,12 @@ async function openverse(a: AestheticRecord): Promise<ImageRecord[]> {
 
 // Records with no images, plus records whose images came from an earlier search pass
 // (no Wikipedia match, not museum-sourced) so they are re-checked under the current rules.
+// Hand-curated image sets (data/curated-images.json) are never re-searched.
+const CURATED = new Set<string>(JSON.parse(readFileSync(new URL('../../data/curated-images.json', import.meta.url), 'utf8')).slugs)
 const todo = ALL.filter(
-  (a) => a.images.length === 0 || (!a.wikipedia && a.images.every((i) => i.source === 'Wikimedia Commons' || i.source.startsWith('Openverse')))
+  (a) =>
+    !CURATED.has(a.slug) &&
+    (a.images.length === 0 || (!a.wikipedia && a.images.every((i) => i.source === 'Wikimedia Commons' || i.source.startsWith('Openverse'))))
 )
 console.log(`${todo.length} records without images`)
 let found = 0

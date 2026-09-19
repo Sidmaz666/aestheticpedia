@@ -17,7 +17,33 @@
   "summary": "In found photography, non-art photographs, usually anonymous, are given aesthetic meaning by an artist.",
   "description": "In found photography, non-art photographs, usually anonymous, are given aesthetic meaning by an artist.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#605954",
+      "name": "umber"
+    },
+    {
+      "hex": "#898178",
+      "name": "taupe"
+    },
+    {
+      "hex": "#e5dccc",
+      "name": "bone white"
+    },
+    {
+      "hex": "#f9f1e1",
+      "name": "linen"
+    },
+    {
+      "hex": "#a2998f",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#bbb2a5",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,20 @@
   "tags": [
     "photography genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL2dldHR5MTA4aGZuLWltYWdlLmpwZw.jpg",
+      "thumb": "https://api.openverse.org/v1/images/f9608e7e-5e2a-4443-aedc-97867c5d5e85/thumb/",
+      "pageUrl": "https://www.rawpixel.com/image/14264233/photograph-new-york-the-white-fence-paul-strand",
+      "caption": "Photograph - New York [The",
+      "source": "Openverse · rawpixel",
+      "artist": "thegetty",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "4260",
+      "height": "3284"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Found photography",
@@ -71,7 +110,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:17:13.829Z"
+        "checkedAt": "2026-09-19T06:41:43.264Z"
       }
     },
     {
@@ -82,7 +121,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:17:13.829Z"
+        "checkedAt": "2026-09-19T06:41:43.264Z"
       }
     }
   ],
@@ -93,5 +132,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T15:08:19.201Z",
-  "updatedAt": "2026-09-18T15:17:13.829Z"
+  "updatedAt": "2026-09-19T07:11:58.130Z"
 }

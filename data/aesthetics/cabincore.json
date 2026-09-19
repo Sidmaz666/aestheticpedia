@@ -54,7 +54,15 @@
   "lighting": {},
   "photography": {},
   "architecture": {},
-  "fashion": {},
+  "fashion": {
+    "Overview": "Since Cabincore is associated heavily with being calm and relaxed, cozy clothes are a staple.",
+    "Tops": "Cozy Sweaters; Flannels; Warm, thick coats.; Vests; Jackets (denim, corduroy, down, etc.)",
+    "Bottoms": "Jeans; Overalls; Corduroy Trousers; Wool Skirts",
+    "Footwear": "Warm socks - Smartwools and fuzzy socks; Slippers; Hiking/work boots, timberlands, docs, suede boots and rainboots; Birkenstocks, Crocs",
+    "Accessories": "Watches; Thick Belts; Small, plain jewelry; Carabiners, multitools; Lanyards, keychains; Beanies, brimmed hats, baseball caps; Gloves",
+    "Fabrics/Textiles": "Wool; Corduroy; Leather; Denim; Flannel; Chunky Knits",
+    "Hairstyles": "Braided Styles; Messy buns; Curly; Ponytails; Pretty much anything, especially if functional"
+  },
   "objects": [
     "Cabins",
     "forests",
@@ -67,11 +75,60 @@
   "environment": {},
   "graphicDesign": {},
   "uiTranslation": {},
-  "recipe": {},
+  "recipe": {
+    "activities": [
+      "Apple Picking",
+      "Baking and Cooking",
+      "Basket making",
+      "Building a treehouse",
+      "Camping",
+      "Embroidery while listening to your favorite music",
+      "Foraging",
+      "Getting lost in the woods",
+      "Growing an herb garden",
+      "Hiking and Nature Walks",
+      "Journaling",
+      "Knitting, crocheting, felting, weaving",
+      "Lighting cozy candles and watching the rain",
+      "Mushroom Foraging"
+    ]
+  },
   "emotionProfile": {},
   "dnaAxes": {},
-  "keyExamples": [],
-  "sounds": [],
+  "keyExamples": [
+    "Peter and the Wolf (2006)",
+    "Gravity Falls (2012-2016)",
+    "Treehouse Masters (2013-2019)",
+    "Over the Garden Wall (2014)",
+    "The Chilling Adventures of Sabrina (2018-2020)",
+    "The Ren & Stimpy Show (1991-1996)",
+    "Sweet Tooth (2021)",
+    "Bunk'd (2015)",
+    "Lord of the Rings (1954) by J.R.R. Tolkien",
+    "The Chronicles of Narnia (1956) by C.S. Lewis",
+    "Men For the Mountains (1978) by Sid Marty",
+    "Harry Potter (1997-2007) by J.K. Rowling",
+    "The Treehouse Book (2000) by Pete and Judy Nelson",
+    "Cabin Porn (2015) by Zach Klein"
+  ],
+  "sounds": [
+    "The Avett Brothers",
+    "Bendigo Fletcher",
+    "Caamp",
+    "Field Medic",
+    "First Aid Kit",
+    "Fleet Foxes",
+    "Fruit Bats",
+    "Woody Guthrie",
+    "The Head and the Heart",
+    "Hiss Golden Messenger",
+    "Hozier",
+    "Iron & Wine",
+    "Gregory Alan Isakov",
+    "Lord Huron",
+    "The Lumineers",
+    "Mipso"
+  ],
   "tags": [
     "aesthetics wiki",
     "getting away from it all.",
@@ -97,5 +154,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T15:12:59.648Z"
+  "updatedAt": "2026-09-19T12:21:06.922Z"
 }

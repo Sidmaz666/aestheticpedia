@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import { hierarchy, treemap, treemapSquarify } from 'd3-hierarchy'
 import { categoryColor } from '@/lib/category-colors'
+import { compact } from '@/lib/format'
 
 type Row = { name: string; count: number }
 
@@ -28,7 +29,7 @@ export function CategoryTreemap({ rows }: { rows: Row[] }) {
                     {l.data.name.length * 7 > w - 16 ? `${l.data.name.slice(0, Math.floor((w - 16) / 7))}…` : l.data.name}
                   </text>
                   <text x={l.x0 + 10} y={l.y0 + 38} className="fill-[#111]/70 font-mono text-[11px]">
-                    {l.data.count.toLocaleString('en')}
+                    {compact(l.data.count)}
                   </text>
                 </>
               )}
@@ -111,7 +112,7 @@ export function BarList({ rows, href }: { rows: Row[]; href?: (name: string) => 
           <>
             <div className="flex justify-between gap-3 text-sm">
               <span className="truncate text-fg-muted">{r.name}</span>
-              <span className="font-mono text-xs text-fg-subtle">{r.count.toLocaleString('en')}</span>
+              <span className="font-mono text-xs text-fg-subtle">{compact(r.count)}</span>
             </div>
             <div className="mt-1 h-1.5 rounded-full bg-surface-2">
               <div className="h-full rounded-full bg-accent" style={{ width: `${Math.max(1, (r.count / max) * 100)}%` }} />

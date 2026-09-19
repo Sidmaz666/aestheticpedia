@@ -54,7 +54,15 @@
   "lighting": {},
   "photography": {},
   "architecture": {},
-  "fashion": {},
+  "fashion": {
+    "Fabric": "Cotton; Silk; Brocade; Cashmere; Lace",
+    "Tops": "Draped blouses; Choli Blouses; Kurtas",
+    "Bottoms": "Salwar; Pyjamas; Ghaghra; Gharara",
+    "Extras": "Dupattas",
+    "Dresses": "Anarkali; Sari",
+    "Shoes": "Khussas; Kolhapuri shoes; Jutti",
+    "Accessories": "Vintage Jewelry; Gold or glass bangles; Flower Gajra; Anklets; Henna; Kohl"
+  },
   "objects": [
     "Henna",
     "perfumes",
@@ -68,7 +76,24 @@
   "environment": {},
   "graphicDesign": {},
   "uiTranslation": {},
-  "recipe": {},
+  "recipe": {
+    "activities": [
+      "Traveling",
+      "Nature documentation",
+      "Textile arts",
+      "Sewing",
+      "Photography",
+      "Nature sketching",
+      "Studying/taking notes, especially philosophy or history",
+      "Gardening",
+      "Writing (creative or nonfiction)",
+      "Reading",
+      "Study of music",
+      "Poetry, both reading, analyzing, and writing",
+      "Exploring where you live or where you're from",
+      "Talking to relatives about your ancestors"
+    ]
+  },
   "emotionProfile": {},
   "dnaAxes": {},
   "keyExamples": [
@@ -81,7 +106,12 @@
     "Phillauri",
     "Monsoon Wedding"
   ],
-  "sounds": [],
+  "sounds": [
+    "Classical",
+    "Folk",
+    "Ghazals",
+    "Ambient"
+  ],
   "tags": [
     "aesthetics wiki",
     "individualism",
@@ -106,5 +136,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T15:15:14.872Z"
+  "updatedAt": "2026-09-19T12:21:12.068Z"
 }

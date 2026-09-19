@@ -8,6 +8,7 @@ import { Loader2, Search, SlidersHorizontal, X } from 'lucide-react'
 import { AestheticCard } from '@/components/aesthetic/card'
 import { ESTABLISHMENT_LABELS, STATUS_LABELS, type AestheticsResponse, type Facets } from '@/lib/aesthetic'
 import { fetchJson } from '@/lib/client'
+import { compact } from '@/lib/format'
 
 const PAGE_SIZE = 36
 const SORTS = [
@@ -88,7 +89,7 @@ export function BrowseView({ initialFacets }: { initialFacets: Facets }) {
           <p className="eyebrow">Index</p>
           <h1 className="display mt-2 text-6xl sm:text-7xl">{category || 'All aesthetics'}</h1>
           <p className="mt-3 text-sm text-fg-subtle" aria-live="polite">
-            {query.isPending ? 'Loading…' : `${total.toLocaleString('en')} record${total === 1 ? '' : 's'}`}
+            {query.isPending ? 'Loading…' : `${compact(total)} record${total === 1 ? '' : 's'}`}
             {query.isFetching && !query.isPending && <Loader2 className="ml-2 inline size-3.5 animate-spin" aria-hidden />}
           </p>
         </div>
@@ -186,7 +187,7 @@ export function BrowseView({ initialFacets }: { initialFacets: Facets }) {
                 className="flex h-12 items-center gap-2 rounded-full border border-line-strong px-6 text-sm text-fg-muted transition-colors hover:border-fg-subtle hover:text-fg disabled:opacity-60"
               >
                 {query.isFetchingNextPage && <Loader2 className="size-4 animate-spin" aria-hidden />}
-                Show more · {(total - items.length).toLocaleString('en')} remaining
+                Show more · {compact(total - items.length)} remaining
               </button>
             </div>
           )}

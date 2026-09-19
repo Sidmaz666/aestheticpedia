@@ -51,12 +51,18 @@ export function DiscoverView() {
   const sp = useSearchParams()
   const router = useRouter()
   const pathname = usePathname()
-  // Arriving without a query starts from a random mood, so the page is never empty.
-  // (This view renders on the client only — it reads the URL — so randomness is safe here.)
+  // Arriving without a query starts from a mood, so the page is never empty. The page is
+  // prerendered, so the first render uses a fixed mood (server and client agree) and a random one
+  // is picked right after hydration.
   const [values, setValues] = useState<Record<string, number>>(() => {
     const fromUrl = parse(sp.get('dims'))
-    return Object.keys(fromUrl).length ? fromUrl : { ...PRESETS[Math.floor(Math.random() * PRESETS.length)].values }
+    return Object.keys(fromUrl).length ? fromUrl : { ...PRESETS[0].values }
   })
+  useEffect(() => {
+    if (Object.keys(parse(sp.get('dims'))).length) return
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- one random start after hydration
+    setValues({ ...PRESETS[Math.floor(Math.random() * PRESETS.length)].values })
+  }, [])
   const [debounced, setDebounced] = useState(serialize(values))
 
   useEffect(() => {

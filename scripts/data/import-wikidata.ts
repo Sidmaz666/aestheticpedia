@@ -110,13 +110,31 @@ const listed = new Map<string, { title: string; cls: (typeof CLASSES)[number] }>
 // Classes that disqualify a page even when it also carries an allowed class.
 const DENY = new Set(['Q5', 'Q188451', 'Q223393', 'Q201658', 'Q659563', 'Q15961987', 'Q3326717', 'Q12020884', 'Q28820001', 'Q2927074', 'Q7889', 'Q11424', 'Q7725634', 'Q3305213', 'Q41176', 'Q43229', 'Q4830453', 'Q13406463', 'Q4167410', 'Q215380', 'Q1194240', 'Q49773'])
 if (FROM_CRAWL) {
-  const cfg = JSON.parse(readFileSync(new URL('../../data/crawl-classes.json', import.meta.url), 'utf8')) as { classes: (typeof CLASSES)[number][]; excludeTitles: string[] }
+  const cfg = JSON.parse(readFileSync(new URL('../../data/crawl-classes.json', import.meta.url), 'utf8')) as {
+    classes: (typeof CLASSES)[number][]
+    excludeTitles: string[]
+    includeTitles?: { title: string; category: string; establishment: string; origin?: string }[]
+  }
   const allow = cfg.classes
   const excluded = new Set(cfg.excludeTitles)
+  // Reviewed one-off pages whose Wikidata class is too broad to allow-list.
+  const picked = new Map((cfg.includeTitles ?? []).map((t) => [t.title, { qid: 'reviewed', label: t.category.toLowerCase(), ...t } as unknown as (typeof CLASSES)[number]]))
   const pages = JSON.parse(readFileSync(new URL('../../data/.cache/crawl.json', import.meta.url), 'utf8')) as { title: string; qid: string; p31: string[] }[]
+  // Reviewed titles the crawl never reached: resolve their Wikidata items directly.
+  const crawled = new Set(pages.map((p) => p.title))
+  const missing = (cfg.includeTitles ?? []).map((t) => t.title).filter((t) => !crawled.has(t))
+  for (let i = 0; i < missing.length; i += 40) {
+    const res = await getJSON<any>(
+      `https://en.wikipedia.org/w/api.php?${new URLSearchParams({ action: 'query', format: 'json', formatversion: '2', prop: 'pageprops', ppprop: 'wikibase_item', titles: missing.slice(i, i + 40).join('|') })}`,
+      3,
+      { headers: { 'User-Agent': 'Aestheticpedia/1.0 (https://github.com/Sidmaz666/aestheticpedia; open aesthetics encyclopedia) node' } }
+    )
+    for (const p of res?.query?.pages ?? []) if (p.pageprops?.wikibase_item) pages.push({ title: p.title, qid: p.pageprops.wikibase_item, p31: [] })
+    await sleep(500)
+  }
   for (const p of pages) {
     if (!p.qid || excluded.has(p.title) || p.p31.some((q) => DENY.has(q))) continue
-    const cls = allow.find((c) => p.p31.includes(c.qid))
+    const cls = picked.get(p.title) ?? allow.find((c) => p.p31.includes(c.qid))
     if (!cls || REJECT.test(p.title) || /^(history|historiography|timeline|glossary) of\b/i.test(p.title)) continue
     if (haveQ.has(p.qid) || haveNames.has(norm(p.title)) || haveCores.has(core(p.title)) || listed.has(p.qid)) continue
     listed.set(p.qid, { title: p.title, cls })
@@ -247,8 +265,9 @@ for (const c of candidates.values()) {
     establishment: c.cls.establishment,
     status: 'draft',
     confidence: 60,
-    origin: c.countries.slice(0, 3).join(', '),
-    geography: c.countries.join(', '),
+    // A reviewed title may name its origin when Wikidata has no country for it.
+    origin: c.countries.slice(0, 3).join(', ') || (c.cls as { origin?: string }).origin || '',
+    geography: c.countries.join(', ') || (c.cls as { origin?: string }).origin || '',
     periodStart: c.start !== null ? century(c.start) : '',
     periodEnd: c.end !== null ? century(c.end) : '',
     startYear: c.start,

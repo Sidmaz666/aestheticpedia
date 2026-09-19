@@ -56,7 +56,16 @@
   "lighting": {},
   "photography": {},
   "architecture": {},
-  "fashion": {},
+  "fashion": {
+    "Fabric": "Cashmere; Cotton; Lace; Satin; Silk; Tulle; Tweed",
+    "Underwear": "Bustiers; Corsets; Pettipants",
+    "Tops": "Draped blouses; Lace blouses; Peter pan blouses; Ruffled blouses; Button downs; Silk or lace camisoles; Henleys shirts; Peplum shirts; Ruffed neck shirts; Crew-neck sweaters; Turtleneck sweaters; White crop tops",
+    "Pants": "Corduroys; Trousers; Dress pants; Tweed pants; Structured, mid-length shorts; High-waisted jeans; Flowy, wide-leg pants",
+    "Skirts": "A-line skirts; Circle skirts; Crinoline skirts; Full skirts; Gathered skirts; Pencil skirts; Pleated plaid/ plain skirts; Tweed, plaid skirts",
+    "Hosiery": "Lacy ankle socks; Ribbed or lettuce socks; Lace tights; Patterned tights; Plain Tights; Knee Socks",
+    "Outerwear": "Blazers; Cardigans; Corsets; Layering over a collared shirt; Suit-jackets; Trenchcoats; Vests; * Sweater vests; Waistcoats",
+    "Dresses": "Flowy dresses; Formal gowns"
+  },
   "objects": [
     "Reading",
     "writing",
@@ -68,7 +77,24 @@
   "environment": {},
   "graphicDesign": {},
   "uiTranslation": {},
-  "recipe": {},
+  "recipe": {
+    "activities": [
+      "Card games",
+      "Chess",
+      "Traveling",
+      "Tennis",
+      "Nature documentation",
+      "Textile arts",
+      "Sewing",
+      "Photography",
+      "Nature sketching",
+      "Studying/taking notes, especially philosophy or history",
+      "Researching old documents",
+      "Discussion groups",
+      "Gardening",
+      "Writing (creative or nonfiction)"
+    ]
+  },
   "emotionProfile": {},
   "dnaAxes": {},
   "keyExamples": [
@@ -78,7 +104,24 @@
     "Emma",
     "Much Ado About Nothing"
   ],
-  "sounds": [],
+  "sounds": [
+    "Classical",
+    "Baroque Pop",
+    "Jazz",
+    "Alternative",
+    "Ballet Soundtracks",
+    "Ethereal Wave",
+    "Folk",
+    "Dream Pop",
+    "Ambient",
+    "Adult Standards",
+    "The Smiths",
+    "The Sundays",
+    "Felt",
+    "Virginia Astley",
+    "Dif Juz",
+    "This Mortal Coil"
+  ],
   "tags": [
     "aesthetics wiki",
     "romance",
@@ -104,5 +147,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T15:27:28.808Z"
+  "updatedAt": "2026-09-19T12:21:42.983Z"
 }

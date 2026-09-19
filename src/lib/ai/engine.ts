@@ -20,7 +20,29 @@ export const CHAT_MODELS: ChatModel[] = [
   { id: 'Qwen3-0.6B-q4f16_1-MLC', label: 'Qwen 3 · 0.6B', size: '≈0.4 GB', note: 'Lightest' },
 ]
 
-export const IMAGE_MODEL = { id: 'onnx-community/Janus-Pro-1B-ONNX', label: 'Janus-Pro 1B', size: '≈2 GB' }
+// Researched 2026-09-19: among text-to-image models with ready browser (ONNX/WebGPU) builds, this
+// is the only one under 2 GB. SD-Turbo (onnxruntime/sd-turbo) is faster but ≈2.5 GB; SDXS-512 and
+// Tiny-SD are smaller but only published for PyTorch (they would need converting and hosting).
+export const IMAGE_MODEL = {
+  id: 'onnx-community/Janus-Pro-1B-ONNX',
+  label: 'Janus-Pro 1B',
+  publisher: 'DeepSeek · ONNX by onnx-community',
+  license: 'MIT',
+  size: '1.9 GB',
+  url: 'https://huggingface.co/onnx-community/Janus-Pro-1B-ONNX',
+}
+
+/** Whether the image model's files are already in this browser's cache (Transformers.js cache). */
+export async function imageModelCached(): Promise<boolean> {
+  try {
+    if (!('caches' in window)) return false
+    const cache = await caches.open('transformers-cache')
+    const keys = await cache.keys()
+    return keys.filter((r) => r.url.includes('Janus-Pro-1B-ONNX') && /\.onnx(_data)?$/.test(new URL(r.url).pathname)).length >= 6
+  } catch {
+    return false
+  }
+}
 
 export function webgpuStatus(): { ok: boolean; reason?: string } {
   if (typeof navigator === 'undefined') return { ok: false, reason: 'Not in a browser' }

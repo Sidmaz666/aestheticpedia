@@ -420,7 +420,11 @@ function UIKit({ a, images, colors }: Props) {
   const card = images[0]
   return (
     <div className="grid gap-6 lg:grid-cols-2">
-      <div className="space-y-5 rounded-[calc(1.25rem*var(--r-scale,1))] border border-line bg-surface p-6">
+      {/* The switch really toggles this panel between the aesthetic's theme and a neutral one. */}
+      <div
+        className="space-y-5 rounded-[calc(1.25rem*var(--r-scale,1))] border border-line bg-surface p-6 transition-colors"
+        style={on ? undefined : ({ '--accent': 'var(--fg-muted)', '--accent-fg': 'var(--bg)', '--accent-soft': 'var(--surface-2)', '--r-scale': 1 } as CSSProperties)}
+      >
         <div className="flex flex-wrap gap-2">
           <span className="inline-flex h-10 items-center rounded-[calc(999px*var(--r-scale,1))] bg-accent px-5 text-sm font-medium text-accent-fg">Primary</span>
           <span className="inline-flex h-10 items-center rounded-[calc(999px*var(--r-scale,1))] border border-line-strong px-5 text-sm text-fg">Secondary</span>
@@ -430,9 +434,9 @@ function UIKit({ a, images, colors }: Props) {
           <span className="text-fg-muted">Search {a.name}</span>
           <span className="mt-1.5 flex h-11 items-center rounded-[calc(0.75rem*var(--r-scale,1))] border border-line-strong bg-bg px-3 text-fg-subtle">{a.tags[0] ?? a.category}…</span>
         </label>
-        <button type="button" onClick={() => setOn((v) => !v)} className="flex items-center gap-3 text-sm text-fg" aria-pressed={on}>
-          <span className={`relative h-6 w-11 rounded-full transition-colors ${on ? 'bg-accent' : 'bg-line-strong'}`}>
-            <span className={`absolute top-0.5 size-5 rounded-full bg-bg shadow transition-transform ${on ? 'translate-x-5' : 'translate-x-0.5'}`} />
+        <button type="button" role="switch" aria-checked={on} onClick={() => setOn((v) => !v)} className="flex items-center gap-3 text-left text-sm text-fg">
+          <span aria-hidden className={`relative inline-block h-6 w-11 shrink-0 rounded-full p-0.5 transition-colors ${on ? 'bg-accent' : 'bg-line-strong'}`}>
+            <span className={`block size-5 rounded-full bg-bg shadow transition-transform duration-200 ${on ? 'translate-x-5' : 'translate-x-0'}`} />
           </span>
           Apply {a.name} theme
         </button>

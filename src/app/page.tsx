@@ -2,17 +2,19 @@ import Link from 'next/link'
 import { ArrowRight, Bot, Braces, Database, GitPullRequest } from 'lucide-react'
 import { AestheticCard } from '@/components/aesthetic/card'
 import { HeroWall } from '@/components/site/hero-wall'
+import { SavedShelf } from '@/components/site/saved-shelf'
 import { SearchTrigger } from '@/components/site/search-trigger'
 import { getCategoryOverview, getShowcase, getStats } from '@/lib/queries'
 import { CONTRIBUTING_URL, SITE_TAGLINE } from '@/lib/site'
 import { Carousel } from '@/components/ui/carousel'
+import { compact, exact } from '@/lib/format'
 
 export const revalidate = 3600
 
 export default async function Home() {
   const [stats, showcase, categories] = await Promise.all([getStats(), getShowcase(36), getCategoryOverview()])
   const wall = showcase.filter((s) => s.image)
-  const fmt = (n: number) => n.toLocaleString('en')
+  const fmt = compact
 
   return (
     <main>
@@ -28,11 +30,11 @@ export default async function Home() {
             Every <em className="not-italic text-accent">lens</em> we have for looking at the world
           </h1>
           <p className="mt-6 max-w-2xl animate-fade-up text-lg leading-relaxed text-fg-muted [animation-delay:160ms]">
-            {fmt(stats.total)} aesthetics — from Nok terracotta to vaporwave — documented with real images, palettes,
-            sources and relationships. Free to read, free to reuse, open to contributions.
+            From Nok terracotta to vaporwave — the world’s aesthetics, documented with real images, palettes, sources and
+            relationships. Free to read, free to reuse, open to contributions.
           </p>
           <div className="mt-10 flex w-full max-w-xl animate-fade-up flex-col gap-3 [animation-delay:240ms] sm:flex-row">
-            <SearchTrigger total={stats.total} />
+            <SearchTrigger />
             <Link
               href="/aesthetics"
               className="flex h-14 items-center justify-center gap-2 rounded-full bg-fg px-7 text-sm font-medium text-bg transition-opacity hover:opacity-90"
@@ -49,7 +51,7 @@ export default async function Home() {
             ].map(([k, v]) => (
               <div key={k as string}>
                 <dt className="eyebrow">{k}</dt>
-                <dd className="display mt-1 text-4xl sm:text-5xl" data-count={v as number}>
+                <dd className="display mt-1 text-4xl sm:text-5xl" data-count={v as number} title={exact(v as number)}>
                   {fmt(v as number)}
                 </dd>
               </div>
@@ -57,6 +59,9 @@ export default async function Home() {
           </dl>
         </div>
       </section>
+
+      {/* ---------- Your shelf (starred in this browser; hidden when empty) ---------- */}
+      <SavedShelf />
 
       {/* ---------- Categories ---------- */}
       <section className="mx-auto max-w-[1600px] px-4 pt-16 sm:px-6 lg:px-10" aria-labelledby="cat-title">
@@ -66,7 +71,7 @@ export default async function Home() {
             <h2 id="cat-title" className="display mt-2 text-5xl sm:text-6xl">Browse by category</h2>
           </div>
           <Link href="/aesthetics" className="text-sm text-fg-muted hover:text-fg">
-            All {fmt(stats.total)} records →
+            All records →
           </Link>
         </div>
         <ul data-reveal-group className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">

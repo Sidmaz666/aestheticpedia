@@ -2,16 +2,42 @@
 
 A running log of what has been done and what is next. Newest first. Keep entries factual (numbers, files).
 
-## Status snapshot (2026-09-18)
+## Status snapshot (2026-09-19)
 
 | Metric | Value |
 |---|---|
-| Records | 4,228 (1,127 curated · 2,268 Wikidata/Wikipedia · 833 Aesthetics Wiki); 3,484 with images, 3,711 with palettes; live counts in `public/data/manifest.json` |
-| Images | 23,450 freely licensed, all with artist/license/source page |
-| Known gaps | 744 records without images (472 internet aesthetics), 1,803 without a start year, 1,649 without an origin, 517 without a palette — left empty rather than guessed |
-| Material/texture photos | 1,764 terms with real photos (`data/materials.json`) |
-| Relations | 8,500+ (curated + Wikidata P737/P279/P155 + Aesthetics Wiki "related") |
-| Tests | 63 unit (Vitest) · 27 e2e (Playwright, desktop + mobile) — all passing |
+| Records | 4,713 across 24 categories; 3,954 with images, 4,339 with palettes; live counts in `public/data/manifest.json` |
+| Images | 27,162 freely licensed, all with artist/license/source page |
+| Relations | 8,750 |
+| Coverage | Every UN member state has at least one record except Grenada, Liechtenstein, Maldives, San Marino, São Tomé and Príncipe, and Saint Vincent (no documented visual tradition found in open sources) |
+| Known gaps | 759 records without images (mostly internet aesthetics with no freely licensed pictures), 2,178 without a start year, 1,539 without an origin, 374 without a palette. Editorial fields (style/mood profiles, UI translation, lighting, type pairing) are empty for most records because no source provides them — left empty rather than invented |
+| Tests | 89 unit (Vitest) · 30 e2e (Playwright, desktop + mobile) |
+
+## 2026-09-19 — Round 4: regional depth, full fields, design exports
+
+- [x] Geographical Indications of India: 117 registered handicraft/textile GIs with their own articles (Muga silk, Gamosa, Asharikandi terracotta, Sarthebari bell metal of Assam; Shaphee Lanphee, Moirang Phee, Wangkhei Phee of Manipur; Tripura Risa; Pochampally, Kanchipuram, Patola, Paithani…), `import-gi.ts`; instruments and industry articles excluded.
+- [x] Regional crawl: every Indian state incl. all of Northeast India, Nepal, Bhutan, Bangladesh, Sri Lanka, Myanmar, Pakistan, art/textiles/pottery/crafts by country, folk and indigenous art, UNESCO masterpieces — imported through the reviewed class allow-list.
+- [x] Field enrichment from sources: Wikidata works (key examples, materials, subcategory, aliases), Wikipedia History/Origins sections (cultural context, attributed), Aesthetics Wiki infobox (origin, key examples), CC0 museum images (Met, Cleveland), era/geography derived exactly.
+- [x] 37 export formats per aesthetic and per blend: shadcn/ui (CSS + registry), Tailwind v3/v4, daisyUI, MUI, Chakra, Bootstrap, Less, Stylus, TS theme, W3C tokens, Style Dictionary, Tokens Studio, colour values, GIMP, ASE, ACO, Procreate, Sketch, Paint.NET, Android, SwiftUI, Flutter, Compose, plus documents, data and citations.
+- [x] Blend rendered as a full aesthetic page (synthesized record with every section and export).
+- [x] 3D Connections (orbit, clusters, relationship-coloured links, filters, fly-to), marquee hero, Discover/Blend random starts, floating export menu with search, robot minimize removed, pill spacing fixed.
+- [x] Every UN member state: country-level architecture/art/dress/craft articles (`import-country-arts.ts`), "Visual culture of X" records quoted from the visual sections of each country's culture article where no dedicated article exists (`import-visual-culture.ts`), traditional clothing added to the class allow-list, and reviewed one-off titles (`includeTitles` in `data/crawl-classes.json`: Ngil mask, Bijago art, Sao civilisation, Nguzu nguzu, Kampong Ayer, Quadrille dress, Madras costume, Masonjoany, Gule Wamkulu, Imigongo…).
+- [x] Star/save any aesthetic or blend (kept in the browser); starred items appear on the home page as "Your shelf", with undo.
+- [x] UI kit switch fixed (knob inside the track; it now really toggles the panel between the aesthetic's theme and a neutral one).
+- [x] Listen: a new audio deck built on react-audio-canvas (`useAudio` for playback/analysis, `detectNote` for pitch): spectrum, radial and oscilloscope visualizers in the record's palette, real waveform scrubber (drag/keyboard), live pitch/brightness/level readouts, playlist, loop, volume, ±10 s, media-session keys, Commons MP3 transcodes where Ogg/FLAC can't play. The library's bundled React 18 JSX runtime is shimmed (`src/lib/react-audio-canvas-shim.ts`) since only its hooks are used.
+- [x] Project card (About) and footer buttons, live from GitHub: maintainer avatar/name/@handle/bio, repo stars/forks/issues, Follow/Star/Fork/Report/Contribute/Email (with copy). The repository comes from `NEXT_PUBLIC_REPO_URL`, else Vercel git metadata, else the local git remote; the contact email from `NEXT_PUBLIC_CONTACT_EMAIL`, else the owner's public GitHub email, else their latest commit. MIT `LICENSE` added (the site and package.json already declared MIT).
+- [x] Robot wizard hat: raymarched brim, floppy cone on a curved spine, velvet band with embroidered stars and a glowing bauble; two-link spring physics (lags and whips with head turns, nods, rolls and lean; gravity follows the head's tilt; squash and stretch on hops).
+- [x] SEO and production: generated Open Graph/Twitter cards (site: headline, live counts, vault mosaic; each record: its name, category, era, origin, summary, palette and hero image in the brand serif); Organization + WebSite (sitelinks search) JSON-LD, BreadcrumbList on records, Dataset on /data (Google Dataset Search); web manifest; snippet-sized descriptions, keywords, article times; Google-rich robots directives; previews noindex and closed robots.txt via VERCEL_ENV; verification tokens from env; security headers (nosniff, referrer policy, frame options, HSTS, permissions policy).
+- [x] 404 (search, "did you mean" from the missing URL with typo tolerance, random jump, vault image strip), branded loader and page-shaped skeletons (records, browse), error page with reference and "report it", global-error for layout failures; spinners keep turning (slowly) under reduced motion.
+- [x] Counts shown compactly (4.7k+, 27.1k+ — rounded down, "+" when rounded, exact value on hover) and only where they inform (hero stats, result and graph/timeline headers) — not in the search placeholder or repeated in copy; no counts hard-coded in text.
+- [x] Willow is the default wand; cursor trail defaults to 15% strength with an on/off switch and a Subtle–Lavish slider in the cursor menu.
+- [x] Robot readable on light themes (shell = lighter of text/background tone, visor = darker); headline descenders no longer clipped by the reveal masks; hydration mismatch fixed (motion only touches elements React has hydrated); real 404 status for missing records (no streaming boundary above record pages).
+- [x] Connections rebuilt for speed: layout precomputed on the server (d3-force / d3-force-3d, cached per build) so no physics runs in the browser; 3D drawn with one InstancedMesh (nodes) + one LineSegments buffer (links) and fat lines only for the highlighted node's links; renders only while something moves (fully still when paused); highlighting fades unrelated nodes/links towards the background but keeps their hue (no grey). 2D map uses the same layout, batched Path2D drawing (one path per colour/state) and one redraw per frame. 3d-force-graph removed. ~60 fps in 3D on an integrated GPU, 57 fps panning the 2D map.
+- [x] Image model card instead of a checkbox (model, publisher, licence, real size 1.9 GB, WebGPU note, "Ready on this device" once cached). Research: Janus-Pro 1B is the only text-to-image model with a ready browser build under 2 GB; SD-Turbo (official ONNX Runtime build) is faster but ≈2.5 GB; SDXS-512 / Tiny-SD / BK-SDM are small but need converting and hosting.
+- [x] Themed scrollbars; the wand steps aside over scrollbars and ignores scrollbar drags; footer reads "Conjured by @sidmaz666".
+- [x] Responsive audit (11 pages × 7 widths, 320–1920 px): header fits 320 px phones (shuffle moves into the mobile menu), Timeline filter no longer overflows at 320 px, Connections controls move below the title on phones, reveal animations have a CSS failsafe, Discover's random start no longer causes a hydration mismatch; no runtime or hydration errors on any page, desktop or mobile.
+- [x] Section-level enrichment: 1,135 fields from each internet aesthetic's own Aesthetics Wiki article and 797 from each record's own Wikipedia article (visual language, techniques, dress, architecture, interiors, photography, examples) — only empty fields, only when the article is about the record; 12 wrong Wikipedia links corrected.
+- [x] Wand cursor: six wands (Starlight, Elder, Crystal, Willow, Obsidian, Moonlit) with their own trails, picked from the header; states for hover, disabled, press/hold-to-charge, click, double-click, right-click, drag ribbon, text selection, scroll, page loading and idle; text caret kept in fields; off on touch screens, reduced for reduced motion; system cursor one click away.
 
 ## 2026-09-18 — Round 3: coverage, real data only, on-device agent
 

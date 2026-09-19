@@ -41,6 +41,8 @@ function currentAesthetic(pathname: string): { slug: string; name: string } | nu
   if (!slug) return null
   const modal = document.getElementById('aesthetic-modal')
   const name = modal?.getAttribute('aria-label') || document.title.split(/ [·—|] /)[0] || slug.replace(/-/g, ' ')
+  // A missing record renders the 404 page: nothing to ask about.
+  if (/^not found$/i.test(name.trim())) return null
   return { slug, name }
 }
 

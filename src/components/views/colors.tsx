@@ -6,6 +6,7 @@ import { Loader2 } from 'lucide-react'
 import { AestheticCard } from '@/components/aesthetic/card'
 import type { AestheticSummary } from '@/lib/aesthetic'
 import { fetchJson } from '@/lib/client'
+import { compact } from '@/lib/format'
 
 export interface ColorAtlasData {
   records: [slug: string, name: string][]
@@ -91,7 +92,7 @@ export function ColorAtlas({ data }: { data: ColorAtlasData }) {
       <p className="eyebrow">Colour atlas</p>
       <h1 className="display mt-2 text-6xl sm:text-7xl">Every palette, one wheel</h1>
       <p className="mt-3 max-w-2xl text-fg-muted">
-        {data.colors.length.toLocaleString('en')} colours from {data.records.length.toLocaleString('en')} aesthetics, placed by
+        {compact(data.colors.length)} colours from {compact(data.records.length)} aesthetics, placed by
         hue (around the wheel) and lightness (dark centre, light rim). Hover to identify, click to find aesthetics that use
         a colour — or pick your own.
       </p>

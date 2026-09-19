@@ -1,9 +1,11 @@
 'use client'
 
-import { useState } from 'react'
-import { Download, Loader2, Sparkles } from 'lucide-react'
+import { useEffect, useState, useSyncExternalStore } from 'react'
+import { Check, Cpu, Download, ExternalLink, Loader2, Sparkles } from 'lucide-react'
 import type { AestheticFull } from '@/lib/aesthetic'
-import { IMAGE_MODEL, generateImage, webgpuStatus } from '@/lib/ai/engine'
+import { IMAGE_MODEL, generateImage, imageModelCached, webgpuStatus } from '@/lib/ai/engine'
+
+const noop = () => () => {}
 
 /** Prompt assembled only from the record's own data. */
 export function promptFor(a: AestheticFull): string {
@@ -23,8 +25,17 @@ export function Imagine({ a }: { a: AestheticFull }) {
   const [prompt, setPrompt] = useState(() => promptFor(a))
   const [status, setStatus] = useState<string | null>(null)
   const [images, setImages] = useState<string[]>([])
-  const [consent, setConsent] = useState(false)
-  const gpu = typeof window === 'undefined' ? { ok: true } : webgpuStatus()
+  const [cached, setCached] = useState(false)
+  // Decided after hydration (server and first client render agree).
+  const gpu = useSyncExternalStore(noop, () => JSON.stringify(webgpuStatus()), () => JSON.stringify({ ok: true }))
+  const { ok: gpuOk, reason } = JSON.parse(gpu) as { ok: boolean; reason?: string }
+  useEffect(() => {
+    let live = true
+    imageModelCached().then((c) => live && setCached(c))
+    return () => {
+      live = false
+    }
+  }, [])
 
   const run = async () => {
     setStatus('Loading model…')
@@ -32,6 +43,7 @@ export function Imagine({ a }: { a: AestheticFull }) {
       const url = await generateImage(prompt, setStatus)
       setImages((xs) => [url, ...xs].slice(0, 6))
       setStatus(null)
+      setCached(true)
     } catch (e) {
       setStatus(`Generation failed: ${e instanceof Error ? e.message : String(e)}`)
     }
@@ -49,28 +61,47 @@ export function Imagine({ a }: { a: AestheticFull }) {
             className="mt-2 w-full resize-y rounded-xl border border-line-strong bg-bg p-3 text-sm leading-relaxed focus:outline-none"
           />
         </label>
-        {!gpu.ok ? (
-          <p className="rounded-xl bg-surface-2 p-3 text-sm text-fg-muted">{gpu.reason}</p>
-        ) : (
-          <>
-            <label className="flex items-start gap-2 text-xs text-fg-subtle">
-              <input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5 accent-[var(--accent)]" />
-              <span>
-                Download {IMAGE_MODEL.label} ({IMAGE_MODEL.size}) to run on this device. It is cached after the first time; nothing is
-                uploaded.
+        {/* The model, stated plainly: what it is, how big, and where it runs. */}
+        <div className="rounded-2xl border border-line bg-surface p-4">
+          <div className="flex items-start justify-between gap-3">
+            <div className="min-w-0">
+              <p className="eyebrow">Image model</p>
+              <p className="mt-1 text-lg text-fg">{IMAGE_MODEL.label}</p>
+              <p className="text-xs text-fg-subtle">
+                {IMAGE_MODEL.publisher} · {IMAGE_MODEL.license} licence ·{' '}
+                <a href={IMAGE_MODEL.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-0.5 underline-offset-4 hover:underline">
+                  model card <ExternalLink className="size-3" aria-hidden />
+                </a>
+              </p>
+            </div>
+            {cached ? (
+              <span className="inline-flex shrink-0 items-center gap-1 rounded-full bg-accent-soft px-2.5 py-1 text-xs text-fg">
+                <Check className="size-3.5" aria-hidden /> Ready on this device
               </span>
-            </label>
+            ) : (
+              <span className="shrink-0 rounded-full border border-line-strong px-2.5 py-1 font-mono text-xs text-fg-muted">{IMAGE_MODEL.size}</span>
+            )}
+          </div>
+          <p className="mt-3 flex items-start gap-2 text-xs leading-relaxed text-fg-subtle">
+            <Cpu className="mt-0.5 size-3.5 shrink-0" aria-hidden />
+            {gpuOk
+              ? cached
+                ? 'Runs on your GPU (WebGPU). Nothing is uploaded — the prompt and the image stay in this browser.'
+                : `Runs on your GPU (WebGPU). The first run downloads ${IMAGE_MODEL.size} once and keeps it cached; nothing is uploaded.`
+              : reason}
+          </p>
+          {gpuOk && (
             <button
               type="button"
               onClick={run}
-              disabled={!consent || !!status}
-              className="flex h-11 items-center gap-2 rounded-full bg-fg px-5 text-sm font-medium text-bg disabled:opacity-50"
+              disabled={!!status || !prompt.trim()}
+              className="mt-4 flex h-11 w-full items-center justify-center gap-2 rounded-full bg-fg px-5 text-sm font-medium text-bg transition-opacity hover:opacity-90 disabled:opacity-60"
             >
               {status ? <Loader2 className="size-4 animate-spin" aria-hidden /> : <Sparkles className="size-4" aria-hidden />}
-              {status ?? 'Generate an image'}
+              {status ?? (cached ? 'Generate an image' : `Download (${IMAGE_MODEL.size}) & generate`)}
             </button>
-          </>
-        )}
+          )}
+        </div>
         <p className="text-xs text-fg-subtle">
           Generated images are AI interpretations, not documented examples of {a.name}. The real, sourced images are in the gallery above.
         </p>

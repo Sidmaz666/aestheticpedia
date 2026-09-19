@@ -60,8 +60,13 @@
   "textures": [],
   "lighting": {},
   "photography": {},
-  "architecture": {},
-  "fashion": {},
+  "architecture": {
+    "Overview": "Hôtel de la Marine, Paris, by Ange-Jacques Gabriel, 1761-1770 Neoclassical architecture focused on Ancient Greek and Roman details, plain, white walls and grandeur of scale. Compared to the previous styles, Baroque and Rococo, Neoclassical exteriors tended to be more minimalist, featuring straight and angular lines, but being still ornamented. The style's clean lines and sense of balance and proportion worked well for grand buildings (such as the Panthéon in Paris) and for smaller structures alike (such as the Petit Trianon)."
+  },
+  "fashion": {
+    "Neoclassical Women": "walking dresss; corsets; petticoats; reticules; gloves; rectangular shawls; spencer (tailored short jacket)",
+    "Neoclassical Men": "Tall boots; Waistcoats; Tight fitting fall-front pantaloons; watch fob; gloves; canes; top hats"
+  },
   "objects": [
     "Classical mythology",
     "history",
@@ -73,7 +78,9 @@
     "austere settings",
     "idealized figures"
   ],
-  "environment": {},
+  "environment": {
+    "Overview": "In England, Augustan literature had a direct parallel with the Augustan style of landscape design. The links are clearly seen in the work of Alexander Pope. The best surviving examples of Neoclassical English gardens are Chiswick House, Stowe House and Stourhead."
+  },
   "graphicDesign": {},
   "uiTranslation": {},
   "recipe": {},
@@ -278,5 +285,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T01:59:30.999Z"
+  "updatedAt": "2026-09-19T08:52:05.911Z"
 }

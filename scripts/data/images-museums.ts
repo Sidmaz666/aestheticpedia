@@ -12,7 +12,7 @@ import { cache, getJSON, loadAesthetics, pool, saveAesthetic, sleep } from './li
 
 const sharp = createRequire(import.meta.url)('sharp')
 const http = cache<unknown>('museums')
-const UA = { 'User-Agent': 'Aestheticpedia/1.0 (open encyclopedia of aesthetics)' }
+const UA = { 'User-Agent': 'Aestheticpedia/1.0 (https://github.com/Sidmaz666/aestheticpedia; open aesthetics encyclopedia) node' }
 
 async function cached<T>(url: string): Promise<T | null> {
   const hit = http.get(url)

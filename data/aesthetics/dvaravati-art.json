@@ -17,7 +17,33 @@
   "summary": "Dvaravati art is the body of religious images, architecture and everyday objects made between about the 6th and the 11th centuries in the Chao Phraya plain and neighbouring regions of present-day Thailand, in the cultural sphere named after Dvaravati.",
   "description": "Dvaravati art is the body of religious images, architecture and everyday objects made between about the 6th and the 11th centuries in the Chao Phraya plain and neighbouring regions of present-day Thailand, in the cultural sphere named after Dvaravati. Its makers worked from several Indian traditions and from Sri Lanka and reshaped them locally, so that some of its commonest forms are rare or unknown in South Asia. Much of the surviving corpus is Buddhist, but Brahmanical images were made alongside it and both were fitted to older local cults.\n\nThe name is a modern art-historical label rather than a term used by those who made the work, and how far it should be stretched across space, time and language is disputed. It has long been tied to Mon-speaking communities, although Mon may have spread through the region's towns as a written lingua franca rather than marking a single people.\n\nThe surviving architecture is chiefly brick and laterite, and little of it stands above its base. The sculpture runs from stone and stucco images to terracotta and to small votive tablets, and the wheel of the law set on a pillar is a form particular to the region. Everyday pottery has been used to trace the spread of the style and to date the sites that produced it. Much of the corpus is now held in the national museums at Bangkok, Nakhon Pathom, Ratchaburi and elsewhere.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#161615",
+      "name": "black"
+    },
+    {
+      "hex": "#999998",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#47463e",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#2f2e29",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#b2b1b0",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#615f57",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -25,7 +51,9 @@
   "textures": [],
   "lighting": {},
   "photography": {},
-  "architecture": {},
+  "architecture": {
+    "Overview": "Archaeological research and restoration have indicated that Buddhist monuments of the Dvaravati style exhibited contemporary art of Gupta temple-architecture with many constructed with open-air structures. Chief among the architecture is the stupa style architecture. This form is shaped in an inverted alms-bowl. This form has numerous superimposed flat rings with a bulb terminal. Inspired by Mahayana Buddhism. The lowest is the biggest terrace while the smallest is the top terrace. Each terrace has 3 niches in each of the four direction. Inside these 3 niches stand Buddha images."
+  },
   "fashion": {},
   "objects": [],
   "environment": {},
@@ -164,5 +192,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:44:02.384Z"
+  "updatedAt": "2026-09-19T08:27:52.719Z"
 }

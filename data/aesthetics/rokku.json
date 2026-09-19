@@ -20,33 +20,7 @@
   "summary": "Rokku (ロック; Rock) is a sub-style of Gyaru that incorporates elements of goth , punk , and visual kei .",
   "description": "Rokku (ロック; Rock) is a sub-style of Gyaru that incorporates elements of goth , punk , and visual kei . It is darker in fashion than other gyaru styles, with a heavy emphasis on black clothing, intense eye makeup, and Gothic imagery like skulls and crosses. Unlike many substyles, Rokku does not require a tan, and instead places focus on personal creativity through makeup, hair and accessorizing.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Rebellion, creativity, counterculture, bold self-expression, individuality",
-  "colors": [
-    {
-      "hex": "#c0c0c0",
-      "name": "silver"
-    },
-    {
-      "hex": "#800080",
-      "name": "purple"
-    },
-    {
-      "hex": "#000000",
-      "name": "black"
-    },
-    {
-      "hex": "#ffffff",
-      "name": "white"
-    },
-    {
-      "hex": "#808080",
-      "name": "grey"
-    },
-    {
-      "hex": "#ff0000",
-      "name": "red"
-    }
-  ],
-  "paletteSource": "derived",
+  "colors": [],
   "visualDNA": {
     "colour": "Black, white, grey, red, purple, silver"
   },
@@ -57,7 +31,12 @@
   "lighting": {},
   "photography": {},
   "architecture": {},
-  "fashion": {},
+  "fashion": {
+    "Makeup": "Heavy dark Eyes; Smokey eyes; Red or Pink lips",
+    "Clothing": "Chokers; Cross Necklaces; Plaid Skirts; Piercings; Belts; Spikes; Leather; Ripped Jeans",
+    "Footwear": "Combat boots; Studded creepers; Platform boots.",
+    "Other": "Tattoos; Skulls; Crosses"
+  },
   "objects": [
     "Skulls",
     "crosses",
@@ -101,36 +80,13 @@
       "tier": "C"
     }
   ],
-  "references": [
-    {
-      "type": "archive",
-      "title": "Wikidata — Q2749428",
-      "url": "https://www.wikidata.org/wiki/Q2749428",
-      "note": "Structured data: dates, places, people, identifiers",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T15:27:27.158Z"
-      }
-    },
-    {
-      "type": "article",
-      "title": "Wikipedia — Renku",
-      "url": "https://en.wikipedia.org/wiki/Renku",
-      "note": "Encyclopedia article",
-      "check": {
-        "ok": true,
-        "status": 200,
-        "checkedAt": "2026-09-18T15:27:27.158Z"
-      }
-    }
-  ],
-  "wikidata": "Q2749428",
-  "wikipedia": "Renku",
+  "references": [],
+  "wikidata": null,
+  "wikipedia": null,
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T01:38:50.502Z"
+  "updatedAt": "2026-09-19T12:21:42.900Z"
 }

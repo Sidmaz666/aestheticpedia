@@ -13,12 +13,14 @@ export const NAV = [
 
 export function Logo({ className = '' }: { className?: string }) {
   return (
-    <span className={`inline-flex items-baseline gap-1.5 ${className}`}>
-      <svg viewBox="0 0 24 24" className="size-5 translate-y-[3px] text-accent" aria-hidden>
-        <circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" strokeWidth="1.5" />
-        <path d="M12 3.5 19 20H5z" fill="currentColor" opacity=".9" />
-      </svg>
-      <span className="display text-[1.45rem] leading-none tracking-tight">{SITE_NAME}</span>
+    <span className={`inline-flex items-center gap-2 ${className}`}>
+      {/* Brand mark (public/brand, built by scripts/brand/make-icons.mjs): strokes take the current
+          text colour so the mark contrasts on every aesthetic's theme; the aperture stays gold. */}
+      <span className="relative size-7 shrink-0" aria-hidden>
+        <span className="absolute inset-0 bg-current [mask:url(/brand/logo-mask-strokes.png)_center/contain_no-repeat]" />
+        <span className="absolute inset-0 bg-[#b08d3c] [mask:url(/brand/logo-mask-gold.png)_center/contain_no-repeat]" />
+      </span>
+      <span className="display text-[1.3rem] leading-none tracking-tight sm:text-[1.45rem]">{SITE_NAME}</span>
     </span>
   )
 }

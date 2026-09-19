@@ -86,7 +86,8 @@ test('timeline, connections, colours, discover, blend, data and about pages load
     ['/about', 'A vault for every aesthetic.'],
   ] as const) {
     await page.goto(path)
-    await expect(page.getByRole('heading', { level: 1 })).toContainText(heading)
+    // Connections' heading lives in the lazily loaded network view.
+    await expect(page.getByRole('heading', { level: 1 })).toContainText(heading, { timeout: 20000 })
   }
 })
 
@@ -107,8 +108,10 @@ test('connections network renders (3D, with 2D fallback)', async ({ page }) => {
 
 test('blend produces a hybrid from two records', async ({ page }) => {
   await page.goto('/blend?a=bauhaus&b=art-nouveau')
-  await expect(page.getByText('Speculative blend')).toBeVisible()
-  await expect(page.getByRole('heading', { level: 2 })).toContainText('×')
+  await expect(page.getByText('Speculative blend', { exact: true })).toBeVisible({ timeout: 20000 })
+  // The blend renders as a full aesthetic page titled 'A × B' inside the themed scope.
+  await expect(page.locator('#blend-scope h2').first()).toContainText('×')
+  await expect(page.locator('#blend-scope section#gallery')).toBeAttached()
 })
 
 test('theme toggle switches to light mode', async ({ page }) => {
@@ -179,16 +182,38 @@ test('connections: legend filters categories, tooltip follows the pointer, nothi
   await expect(page.getByText(/^All \d+ categories/)).toBeVisible()
 })
 
-test('discover: a mood preset returns ranked palette matches; blend shows a real mood board', async ({ page }) => {
+test('discover: a mood preset returns ranked palette matches; blend renders as a full aesthetic page', async ({ page }) => {
   // Discover is never empty: arriving starts from a random mood.
   await page.goto('/discover')
   await expect(page.getByText(/closest matches/)).toBeVisible()
   await page.getByRole('button', { name: 'Warm & earthy' }).first().click()
   await expect(page.getByText(/closest matches/)).toBeVisible()
-  await expect(page.getByText(/#1 · \d+% match/)).toBeVisible()
+  await expect(page.getByText(/#1 · \d+% match/)).toBeVisible({ timeout: 20000 })
 
   await page.goto('/blend?a=bauhaus&b=art-nouveau')
-  await expect(page.getByRole('heading', { name: 'What each parent looks like' })).toBeVisible()
-  expect(await page.locator('article figure img').count()).toBeGreaterThan(1)
-  await expect(page.getByRole('heading', { name: 'Where the palettes sit' })).toBeVisible()
+  await expect(page.getByText('Where the three palettes sit')).toBeVisible()
+  // The blend's gallery shows both parents' real, credited images.
+  expect(await page.locator('#blend-scope #gallery img').count()).toBeGreaterThan(1)
+})
+
+test('starring an aesthetic and a blend puts them on the home shelf; the UI-kit switch toggles the theme', async ({ page }) => {
+  await page.goto('/aesthetics/art-deco')
+  await page.getByRole('button', { name: 'Save Art Deco to your shelf' }).click()
+  await expect(page.getByRole('button', { name: 'Remove Art Deco from your shelf' }).first()).toHaveAttribute('aria-pressed', 'true')
+
+  await page.getByRole('button', { name: 'UI kit', exact: true }).or(page.getByRole('tab', { name: 'UI kit' })).first().click()
+  const sw = page.getByRole('switch', { name: /Apply Art Deco theme/ })
+  await expect(sw).toHaveAttribute('aria-checked', 'true')
+  await sw.click()
+  await expect(sw).toHaveAttribute('aria-checked', 'false')
+
+  await page.goto('/blend?a=art-deco&b=vaporwave')
+  await page.locator('#blend-scope').getByRole('button', { name: /Save .* to your shelf/ }).click()
+
+  await page.goto('/')
+  const shelf = page.locator('[aria-roledescription=carousel][aria-label="Your shelf"]')
+  await expect(shelf).toBeVisible()
+  await expect(shelf.getByRole('link', { name: /Art Deco × Vaporwave/ })).toBeVisible()
+  await shelf.getByRole('button', { name: 'Remove Art Deco from your shelf' }).click()
+  await expect(shelf.getByRole('link', { name: /Architectural Style/ })).toHaveCount(0)
 })

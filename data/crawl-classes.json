@@ -1,5 +1,5 @@
 {
-  "$comment": "Wikidata 'instance of' (P31) classes accepted when importing pages found by scripts/data/crawl-wikipedia.ts. Reviewed from data/.cache/crawl-classes.txt: only classes whose members are styles, movements, genres or traditions — never people, buildings, individual works, organisations, events, or music/literary genres. Order matters: a page takes the first class that lists it.",
+  "$comment": "Wikidata 'instance of' (P31) classes accepted when importing pages found by scripts/data/crawl-wikipedia.ts. Reviewed from data/.cache/crawl-classes.txt: only classes whose members are styles, movements, genres or traditions — never people, buildings, individual works, organisations, events, or music/literary genres. Order matters: a page takes the first class that lists it. includeTitles: reviewed pages imported regardless of class (their Wikidata class is too broad to allow-list).",
   "classes": [
     {
       "qid": "Q32880",
@@ -162,6 +162,12 @@
       "label": "type of arts",
       "category": "Regional & Cultural Tradition",
       "establishment": "regional_tradition"
+    },
+    {
+      "qid": "Q11460",
+      "label": "clothing",
+      "category": "Fashion & Dress",
+      "establishment": "regional_tradition"
     }
   ],
   "excludeTitles": [
@@ -272,6 +278,323 @@
     "Portrait painting",
     "Genre painting",
     "Still life",
-    "Marine art"
+    "Marine art",
+    "Jockstrap",
+    "Black Christian Siriano gown of Billy Porter",
+    "Mink fur",
+    "Daisy Dukes",
+    "Creature suit",
+    "Cat suit",
+    "Ghillie suit",
+    "Large Sakkos of Photius",
+    "Vittae",
+    "Ependytes",
+    "Clothing in Mauritius",
+    "Folk arts of Karnataka"
+  ],
+  "includeTitles": [
+    {
+      "title": "Textiles of Sumba",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Reshetylivka embroidery",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Basketry of Mexico",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Latvian pottery",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Latgalian pottery",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Palestinian pottery",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Pottery in Azerbaijan",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Meitei traditional toys",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Costa Rican jade tradition",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Woodblock printing in Korea",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Carpet weaving in Isparta",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Cutlery of Thiers",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Ancient Greek crafts",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Pottery in the Indian subcontinent",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Tradeware ceramics in the Philippines",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Lahıc copper craft",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Traditional copper work in Mexico",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Black ceramics in Lithuania",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Mexican handcrafts and folk art",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Jewellery in the Pacific",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Turkmen jewelry",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Handcrafts and folk art in Chiapas",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Handcrafts and folk art in Guanajuato",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Handcrafts of Guerrero",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Handcrafts and folk art in Jalisco",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Handcrafts and folk art in Mexico City",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Handcrafts and folk art in the State of Mexico",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Handcrafts and folk art in Tlaxcala",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Colombian handicrafts",
+      "category": "Textile & Craft",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Ottoman clothing",
+      "category": "Fashion & Dress",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Clothing in Sudan",
+      "category": "Fashion & Dress",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Clothing in Ethiopia",
+      "category": "Fashion & Dress",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Russian fashion",
+      "category": "Fashion & Dress",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Spanish Baroque ephemeral architecture",
+      "category": "Architectural Style",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Historic house architecture in Morocco",
+      "category": "Architectural Style",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Architecture of Senegal",
+      "category": "Architectural Style",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Architecture of the Gambia",
+      "category": "Architectural Style",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Socialist architecture in Slovakia",
+      "category": "Architectural Style",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Residential architecture in Poland",
+      "category": "Architectural Style",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Folk art of the United States",
+      "category": "Regional & Cultural Tradition",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Rock art of the Iberian Mediterranean Basin",
+      "category": "Regional & Cultural Tradition",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Armenian illuminated manuscripts",
+      "category": "Painting Technique & School",
+      "establishment": "historical"
+    },
+    {
+      "title": "Wall painting in Turkey",
+      "category": "Painting Technique & School",
+      "establishment": "historical"
+    },
+    {
+      "title": "Brazilian academic art",
+      "category": "Art Movement",
+      "establishment": "historical"
+    },
+    {
+      "title": "Palestinian posters",
+      "category": "Graphic Design",
+      "establishment": "regional_tradition"
+    },
+    {
+      "title": "Kampong Ayer",
+      "category": "Architectural Style",
+      "establishment": "regional_tradition",
+      "origin": "Brunei"
+    },
+    {
+      "title": "Sao civilisation",
+      "category": "Regional & Cultural Tradition",
+      "establishment": "regional_tradition",
+      "origin": "Chad, Cameroon"
+    },
+    {
+      "title": "Masonjoany",
+      "category": "Fashion & Dress",
+      "establishment": "regional_tradition",
+      "origin": "Comoros, Madagascar, Mayotte"
+    },
+    {
+      "title": "Madras (costume)",
+      "category": "Fashion & Dress",
+      "establishment": "regional_tradition",
+      "origin": "Dominica, Guadeloupe, Martinique, Saint Lucia"
+    },
+    {
+      "title": "Quadrille dress",
+      "category": "Fashion & Dress",
+      "establishment": "regional_tradition",
+      "origin": "Saint Lucia"
+    },
+    {
+      "title": "Ngil mask",
+      "category": "Regional & Cultural Tradition",
+      "establishment": "regional_tradition",
+      "origin": "Gabon, Equatorial Guinea, Cameroon"
+    },
+    {
+      "title": "Bijago art",
+      "category": "Regional & Cultural Tradition",
+      "establishment": "regional_tradition",
+      "origin": "Guinea-Bissau"
+    },
+    {
+      "title": "Gulewamkulu",
+      "category": "Regional & Cultural Tradition",
+      "establishment": "regional_tradition",
+      "origin": "Malawi, Zambia, Mozambique"
+    },
+    {
+      "title": "Nguzu nguzu",
+      "category": "Regional & Cultural Tradition",
+      "establishment": "regional_tradition",
+      "origin": "Solomon Islands"
+    },
+    {
+      "title": "Imigongo",
+      "category": "Regional & Cultural Tradition",
+      "establishment": "regional_tradition",
+      "origin": "Rwanda"
+    },
+    {
+      "title": "Maneaba",
+      "category": "Architectural Style",
+      "establishment": "regional_tradition",
+      "origin": "Kiribati"
+    },
+    {
+      "title": "Dilukai",
+      "category": "Regional & Cultural Tradition",
+      "establishment": "regional_tradition",
+      "origin": "Palau"
+    },
+    {
+      "title": "Working People's Art Class",
+      "category": "Art Movement",
+      "establishment": "historical",
+      "origin": "Guyana"
+    }
   ]
 }

@@ -19,6 +19,8 @@ import type { LineageNode } from '@/lib/queries'
 import type { ResolvedMaterials } from '@/lib/material-types'
 import { MetricsSection } from './metrics'
 import { ExportMenu, ShareButton } from './export-menu'
+import { SaveButton } from './save-button'
+import { AudioDeck } from './audio-deck'
 import { Gallery, HeroImage } from './gallery'
 import { PaletteSwatches } from './palette-swatches'
 import { SectionNav } from './section-nav'
@@ -194,6 +196,7 @@ export function AestheticArticle({
   among,
   exportHref,
   shareUrl,
+  saveHref,
   materialPhotos,
 }: {
   detail: AestheticDetailResponse
@@ -202,12 +205,15 @@ export function AestheticArticle({
   mode: 'page' | 'modal' | 'blend'
   exportHref?: (format: string) => string
   shareUrl?: string
+  /** Blend page: the link a starred blend returns to (`/blend?a=…&b=…`). */
+  saveHref?: string
   /** Material/texture photos resolved on the server (resolveMaterials). */
   materialPhotos?: ResolvedMaterials
   lineage: { ancestors: LineageNode[]; descendants: LineageNode[] }
   among: { from: string; to: string; type: string }[]
 }) {
   const a = detail.aesthetic
+  const Title = mode === 'blend' ? 'h2' : 'h1'
   const relations = groupRelations(detail.relations)
   const [hero, ...rest] = a.images
   const applied: [string, Record<string, string>][] = [
@@ -239,7 +245,7 @@ export function AestheticArticle({
   return (
     <article className="relative">
       {/* ---------- Hero ---------- */}
-      <header className={`relative isolate flex items-end overflow-hidden ${mode === 'page' ? '-mt-16 min-h-[88svh] pt-16' : mode === 'blend' ? 'min-h-[70svh]' : 'min-h-[78svh]'}`}>
+      <header className={`relative isolate flex items-end overflow-hidden ${mode === 'page' ? '-mt-16 min-h-[88svh] pt-16' : mode === 'blend' ? 'min-h-[88svh] pt-28' : 'min-h-[78svh]'}`}>
         <HeroImage image={hero} colors={a.colors} name={a.name} />
         <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/55 to-black/25" aria-hidden />
         <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-black/50 to-transparent" aria-hidden />
@@ -251,11 +257,24 @@ export function AestheticArticle({
             <span className="mx-2 opacity-50">/</span>
             {ESTABLISHMENT_LABELS[a.establishment] ?? labelize(a.establishment)}
           </p>
-          <h1 key={a.slug} data-split className="display mt-4 max-w-6xl text-[clamp(3.2rem,10vw,9.5rem)] text-fg [text-shadow:0_2px_30px_rgb(0_0_0/0.25)]">{a.name}</h1>
+          {/* On the Blend page the page itself owns the h1. */}
+          <Title key={a.slug} data-split className="display mt-4 max-w-6xl text-[clamp(3.2rem,10vw,9.5rem)] text-fg [text-shadow:0_2px_30px_rgb(0_0_0/0.25)]">{a.name}</Title>
           {a.aliases.length > 0 && <p className="mt-3 max-w-3xl text-sm text-fg-muted">Also known as {a.aliases.join(' · ')}</p>}
           <div className="mt-8 flex flex-wrap items-end justify-between gap-6">
             <p className="max-w-2xl text-lg leading-relaxed text-fg sm:text-xl">{a.summary}</p>
             <div className="flex items-center gap-2">
+              <SaveButton
+                item={{
+                  id: saveHref ? `b:${saveHref}` : `a:${a.slug}`,
+                  kind: saveHref ? 'blend' : 'aesthetic',
+                  href: saveHref ?? `/aesthetics/${a.slug}`,
+                  name: a.name,
+                  category: saveHref ? 'Blend' : a.category,
+                  image: hero ? (hero.thumb ?? hero.url) : undefined,
+                  image2: saveHref && rest[0] ? (rest[0].thumb ?? rest[0].url) : undefined,
+                  colors: a.colors.slice(0, 6).map((c) => c.hex),
+                }}
+              />
               <ShareButton slug={a.slug} name={a.name} url={shareUrl} />
               <ExportMenu slug={a.slug} hrefFor={exportHref} />
             </div>
@@ -372,23 +391,7 @@ export function AestheticArticle({
 
         {a.audio.length > 0 && (
           <Section id="listen" eyebrow="Sound" title="Listen" intro="Freely licensed recordings from the record's encyclopedia article on Wikimedia Commons.">
-            <ul className="grid gap-3 md:grid-cols-2">
-              {a.audio.map((t) => (
-                <li key={t.url} className="rounded-2xl border border-line bg-surface p-4">
-                  <p className="text-sm text-fg">{t.title}</p>
-                  <p className="mt-0.5 text-xs text-fg-subtle">
-                    {[t.artist, t.license, t.duration ? `${Math.floor(t.duration / 60)}:${String(t.duration % 60).padStart(2, '0')}` : ''].filter(Boolean).join(' · ')}{' '}
-                    ·{' '}
-                    <a href={t.pageUrl} target="_blank" rel="noopener noreferrer" className="link-underline">
-                      source
-                    </a>
-                  </p>
-                  <audio controls preload="none" src={t.url} className="mt-3 w-full">
-                    <a href={t.url}>Download recording</a>
-                  </audio>
-                </li>
-              ))}
-            </ul>
+            <AudioDeck tracks={a.audio} name={a.name} />
           </Section>
         )}
 
