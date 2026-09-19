@@ -25,6 +25,23 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     '/**': ['./public/data/aesthetics.parquet', './public/data/relations.parquet', './public/data/manifest.json', './public/data/validation.json', './public/data/materials.json', './public/brand/logo-on-dark.png'],
   },
+  // Keep serverless functions small (Vercel's limit is 250 MB): the bulk downloads in public/data
+  // are static files served from /data and never read by server code, and Transformers.js /
+  // ONNX Runtime run only in the browser. Without this every function traced ~155 MB of them.
+  outputFileTracingExcludes: {
+    '/**': [
+      './public/data/aesthetics.json',
+      './public/data/aesthetics.ndjson',
+      './public/data/aesthetics.csv',
+      './public/data/aestheticpedia.duckdb',
+      './public/data/relations.json',
+      './public/data/relations.csv',
+      './node_modules/@huggingface/transformers/**',
+      './node_modules/onnxruntime-node/**',
+      './node_modules/onnxruntime-web/**',
+      './node_modules/@mlc-ai/**',
+    ],
+  },
   poweredByHeader: false,
   images: { unoptimized: true },
   async headers() {
