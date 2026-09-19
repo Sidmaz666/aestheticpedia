@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import { useQuery } from '@tanstack/react-query'
+import { Loading, Skeleton, stagger } from '@/components/site/skeleton'
 import { ArrowLeftRight, Dices, Loader2, Search, X } from 'lucide-react'
 import type { AestheticDetailResponse, AestheticSummary, BlendParent, HybridResponse, SuggestItem } from '@/lib/aesthetic'
 import { themeFromPalette } from '@/lib/theme'
@@ -126,9 +127,27 @@ export function BlendView() {
 
       {a && b && a === b && <p className="mt-10 text-sm text-fg-muted">Pick two different aesthetics.</p>}
       {isFetching && (
-        <p className="mt-10 flex items-center gap-2 text-sm text-fg-subtle">
-          <Loader2 className="size-4 animate-spin" aria-hidden /> Blending…
-        </p>
+        <Loading label="Blending…" className="mt-10">
+          <p className="flex items-center gap-2 text-sm text-fg-subtle" aria-hidden>
+            <Loader2 className="size-4 animate-spin" /> Blending…
+          </p>
+          <div className="mt-6 grid gap-4 lg:grid-cols-[1.4fr_1fr]" aria-hidden>
+            <div className="space-y-4 rounded-2xl border border-line bg-surface p-5 sm:p-7">
+              <Skeleton className="h-3 w-28" />
+              <Skeleton className="h-7 w-2/3" />
+              {Array.from({ length: 5 }, (_, i) => (
+                <Skeleton key={i} className="h-5 w-full" style={stagger(i)} />
+              ))}
+            </div>
+            <div className="space-y-4 rounded-2xl border border-line bg-surface p-5 sm:p-7">
+              <Skeleton className="h-3 w-24" />
+              <Skeleton className="h-7 w-1/2" />
+              <Skeleton className="h-10 w-full rounded-full" />
+              <Skeleton className="h-24 w-full" />
+            </div>
+          </div>
+          <Skeleton className="mt-8 aspect-[21/9] w-full rounded-2xl" />
+        </Loading>
       )}
       {error && <p className="mt-10 text-sm text-danger">{(error as Error).message}</p>}
       {data && A && B && !isFetching && <Result data={data} A={A} B={B} />}
@@ -294,6 +313,8 @@ function Slot({ label, slug, parent, onPick }: { label: string; slug: string; pa
       <div className="group relative flex min-h-44 flex-col justify-end overflow-hidden rounded-[calc(1.25rem*var(--r-scale,1))] border border-line bg-surface">
         {image ? (
           <img src={image} alt="" referrerPolicy="no-referrer" className="absolute inset-0 size-full object-cover opacity-70 transition-transform duration-700 group-hover:scale-105" />
+        ) : !parent && !current ? (
+          <span className="shimmer absolute inset-0 bg-surface-2" aria-hidden />
         ) : (
           <div className="absolute inset-0 flex">
             {colors.map((c, i) => (

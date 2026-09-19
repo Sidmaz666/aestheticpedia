@@ -1,5 +1,6 @@
 'use client'
 
+import { ResultCardSkeleton } from '@/components/site/skeleton'
 import { useEffect, useMemo, useState } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
@@ -161,15 +162,21 @@ export function DiscoverView() {
               </div>
               <p className="flex items-center gap-2 text-sm text-fg-subtle">
                 {isFetching && <Loader2 className="size-3.5 animate-spin" aria-hidden />}
-                {isError ? 'Something went wrong.' : `${results.length} closest matches`}
+                {isError ? 'Something went wrong.' : isFetching && !results.length ? 'Finding matches…' : `${results.length} closest matches`}
               </p>
             </div>
-            <ul className={`mt-6 grid grid-cols-1 gap-4 transition-opacity sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 ${isFetching ? 'opacity-60' : ''}`}>
-              {results.map((r, i) => (
-                <li key={r.slug}>
-                  <ResultCard r={r} rank={i + 1} values={values} />
-                </li>
-              ))}
+            <ul className={`mt-6 grid grid-cols-1 gap-4 transition-opacity sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 ${isFetching && results.length ? 'opacity-60' : ''}`}>
+              {isFetching && !results.length
+                ? Array.from({ length: 6 }, (_, i) => (
+                    <li key={i}>
+                      <ResultCardSkeleton i={i} />
+                    </li>
+                  ))
+                : results.map((r, i) => (
+                    <li key={r.slug}>
+                      <ResultCard r={r} rank={i + 1} values={values} />
+                    </li>
+                  ))}
             </ul>
           </>
         )}

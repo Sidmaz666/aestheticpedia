@@ -10,8 +10,9 @@ import { GraphView } from './graph'
 const Graph3DView = dynamic(() => import('./graph3d').then((m) => m.Graph3DView), {
   ssr: false,
   loading: () => (
-    <div className="grid h-full place-items-center text-sm text-fg-subtle">
-      <span className="flex items-center gap-2">
+    <div role="status" className="relative grid h-full place-items-center text-sm text-fg-subtle">
+      <span className="shimmer absolute inset-0 bg-surface-2 opacity-40" aria-hidden />
+      <span className="relative flex items-center gap-2">
         <Loader2 className="size-4 animate-spin" aria-hidden /> Building the 3D network…
       </span>
     </div>

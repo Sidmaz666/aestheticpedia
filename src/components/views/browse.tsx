@@ -1,5 +1,6 @@
 'use client'
 
+import { CardSkeleton, Loading } from '@/components/site/skeleton'
 import { useEffect, useMemo, useState, useRef } from 'react'
 import { useHorizontalWheel } from '@/lib/use-horizontal-wheel'
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
@@ -161,11 +162,13 @@ export function BrowseView({ initialFacets }: { initialFacets: Facets }) {
           </button>
         </p>
       ) : query.isPending ? (
-        <Grid>
-          {Array.from({ length: 18 }, (_, i) => (
-            <div key={i} className="aspect-[4/5] animate-pulse rounded-xl bg-surface-2" />
-          ))}
-        </Grid>
+        <Loading label="Loading aesthetics…">
+          <Grid>
+            {Array.from({ length: 18 }, (_, i) => (
+              <CardSkeleton key={i} i={i} />
+            ))}
+          </Grid>
+        </Loading>
       ) : items.length === 0 ? (
         <div className="mt-20 text-center">
           <p className="display text-4xl">Nothing matches — yet.</p>

@@ -1,7 +1,8 @@
 'use client'
 
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { useQuery } from '@tanstack/react-query'
+import { keepPreviousData, useQuery } from '@tanstack/react-query'
+import { CardSkeleton, Loading } from '@/components/site/skeleton'
 import { Loader2 } from 'lucide-react'
 import { AestheticCard } from '@/components/aesthetic/card'
 import type { AestheticSummary } from '@/lib/aesthetic'
@@ -84,6 +85,8 @@ export function ColorAtlas({ data }: { data: ColorAtlasData }) {
 
   const { data: matches, isFetching } = useQuery({
     queryKey: ['by-color', picked],
+    // Keep the previous colour's results on screen (dimmed) while the next one loads.
+    placeholderData: keepPreviousData,
     queryFn: () => fetchJson<{ items: (AestheticSummary & { match: string; distance: number })[] }>(`/api/v1/colors?limit=24&hex=${picked.slice(1)}`),
   })
 
@@ -136,7 +139,16 @@ export function ColorAtlas({ data }: { data: ColorAtlasData }) {
               Aesthetics whose palette contains the closest match {isFetching && <Loader2 className="inline size-3.5 animate-spin" aria-hidden />}
             </p>
           </div>
-          <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-4">
+          {!matches && isFetching ? (
+            <Loading label="Finding aesthetics with this colour…" className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-4">
+              {Array.from({ length: 8 }, (_, i) => (
+                <CardSkeleton key={i} i={i} variant="compact" />
+              ))}
+            </Loading>
+          ) : matches && !matches.items.length ? (
+            <p className="mt-6 text-sm text-fg-muted">No palette uses a colour close to {picked} yet.</p>
+          ) : null}
+          <div className={`mt-6 grid grid-cols-2 gap-3 transition-opacity sm:grid-cols-3 xl:grid-cols-4 ${isFetching && matches ? 'opacity-60' : ''}`}>
             {(matches?.items ?? []).map((a) => (
               <div key={a.slug} className="relative">
                 <AestheticCard a={a} variant="compact" />

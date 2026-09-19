@@ -1,5 +1,6 @@
 'use client'
 
+import { Skeleton, stagger } from '@/components/site/skeleton'
 import { useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import * as Dialog from '@radix-ui/react-dialog'
@@ -77,6 +78,16 @@ export function SearchDialog({ open, onOpenChange }: { open: boolean; onOpenChan
             <kbd className="hidden rounded border border-line-strong px-1.5 py-0.5 font-mono text-[10px] text-fg-subtle sm:block">ESC</kbd>
           </div>
           <ul id="search-results" ref={listRef} role="listbox" className="max-h-[60vh] overflow-y-auto p-2 no-scrollbar">
+            {debounced && isFetching && !items.length &&
+              Array.from({ length: 4 }, (_, i) => (
+                <li key={`sk-${i}`} className="flex items-center gap-3 px-3 py-2" aria-hidden>
+                  <Skeleton className="size-11 shrink-0 rounded-lg" style={stagger(i)} />
+                  <span className="flex-1 space-y-2">
+                    <Skeleton className="h-4 w-1/2" style={stagger(i)} />
+                    <Skeleton className="h-3 w-1/4" style={stagger(i)} />
+                  </span>
+                </li>
+              ))}
             {items.map((it, i) => (
               <li
                 key={it.slug}
