@@ -21,8 +21,19 @@ export function Providers({ children }: { children: ReactNode }) {
         {children}
         <Toaster
           position="bottom-center"
+          gap={10}
           toastOptions={{
-            style: { background: 'var(--surface-2)', color: 'var(--fg)', border: '1px solid var(--line-strong)' },
+            // Themed by the current aesthetic; the icon sits on the title's line, the
+            // description stays readable, actions are pills.
+            classNames: {
+              toast: 'aesthetic-toast',
+              title: 'aesthetic-toast-title',
+              description: 'aesthetic-toast-description',
+              icon: 'aesthetic-toast-icon',
+              actionButton: 'aesthetic-toast-action',
+              cancelButton: 'aesthetic-toast-cancel',
+              closeButton: 'aesthetic-toast-close',
+            },
           }}
         />
       </QueryClientProvider>

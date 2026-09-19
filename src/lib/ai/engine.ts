@@ -14,8 +14,36 @@ export interface ChatModel {
   note: string
 }
 
+// MiniCPM5-1B (OpenBMB, Apache-2.0) isn't in WebLLM's prebuilt list; this community build is made
+// for web-llm 0.2.85 and pinned to an audited commit so its code (the .wasm) cannot change under
+// us. Benchmarked 2026-09-19 against Qwen 3.5 0.8B on grounded answers: faster decoding
+// (41 vs 32 tok/s warm), and it stays within the context. Two variants: f16 needs the WebGPU
+// "shader-f16" feature; f32 runs on any WebGPU device.
+const MINICPM_BASE = 'https://huggingface.co/CharlZKP/MiniCPM5-1B-MLC/resolve/cd20b6b43f815d1269785ef829a680afdf95e4a2'
+const MINICPM_ID = 'MiniCPM5-1B'
+const minicpmRecord = (f16: boolean) => {
+  const q = f16 ? 'q4f16_am' : 'q4f32_am'
+  return {
+    model: `${MINICPM_BASE}/MiniCPM5-1B-${q}-MLC`,
+    model_id: `MiniCPM5-1B-${q}-MLC`,
+    model_lib: `${MINICPM_BASE}/libs/MiniCPM5-1B-${q}_cs1k-webgpu.wasm`,
+    overrides: { context_window_size: 4096 },
+    low_resource_required: true,
+    ...(f16 ? { required_features: ['shader-f16'] } : {}),
+  }
+}
+async function supportsF16() {
+  try {
+    const adapter = await (navigator as unknown as { gpu?: { requestAdapter(): Promise<{ features: Set<string> } | null> } }).gpu?.requestAdapter()
+    return !!adapter?.features.has('shader-f16')
+  } catch {
+    return false
+  }
+}
+
 export const CHAT_MODELS: ChatModel[] = [
-  { id: 'Qwen3.5-0.8B-q4f16_1-MLC', label: 'Qwen 3.5 · 0.8B', size: '≈0.6 GB', note: 'Fast, recommended' },
+  { id: MINICPM_ID, label: 'MiniCPM5 · 1B', size: '≈0.7 GB', note: 'Recommended — fastest, most faithful' },
+  { id: 'Qwen3.5-0.8B-q4f16_1-MLC', label: 'Qwen 3.5 · 0.8B', size: '≈0.6 GB', note: 'Fast' },
   { id: 'Qwen3.5-2B-q4f16_1-MLC', label: 'Qwen 3.5 · 2B', size: '≈1.4 GB', note: 'Richest answers' },
   { id: 'Qwen3-0.6B-q4f16_1-MLC', label: 'Qwen 3 · 0.6B', size: '≈0.4 GB', note: 'Lightest' },
 ]
@@ -65,25 +93,34 @@ export async function getChatEngine(modelId: string): Promise<MLCEngineInterface
   if (chat?.id === modelId) return chat.engine
   const model = CHAT_MODELS.find((m) => m.id === modelId) ?? CHAT_MODELS[0]
   const toastId = `llm-${model.id}`
-  toast.loading(`Preparing ${model.label} (${model.size}, downloaded once and cached in your browser)…`, { id: toastId, duration: Infinity })
+  toast.loading(`Preparing ${model.label}`, { id: toastId, duration: Infinity, description: `${model.size}, downloaded once and cached in your browser` })
   const engine = (async () => {
-    const { CreateWebWorkerMLCEngine } = await import('@mlc-ai/web-llm')
+    const { CreateWebWorkerMLCEngine, prebuiltAppConfig } = await import('@mlc-ai/web-llm')
     const worker = new Worker(new URL('./llm.worker.ts', import.meta.url), { type: 'module' })
-    const e = await CreateWebWorkerMLCEngine(worker, model.id, {
+    let engineId = model.id
+    let appConfig = prebuiltAppConfig
+    if (model.id === MINICPM_ID) {
+      const record = minicpmRecord(await supportsF16())
+      engineId = record.model_id
+      appConfig = { ...prebuiltAppConfig, model_list: [...prebuiltAppConfig.model_list, record] }
+    }
+    const e = await CreateWebWorkerMLCEngine(worker, engineId, {
+      appConfig,
       initProgressCallback: (r) => {
-        toast.loading(`${model.label}: ${r.progress < 1 ? pct(r.progress) : 'initialising'} — ${r.text.replace(/\[.*?\]\s*/, '').slice(0, 90)}`, {
+        toast.loading(r.progress < 1 ? `Downloading ${model.label}` : `Starting ${model.label}`, {
           id: toastId,
           duration: Infinity,
+          description: r.progress < 1 ? pct(r.progress) : 'Compiling for your GPU…',
         })
       },
     })
-    toast.success(`${model.label} is ready — running entirely on your device.`, { id: toastId, duration: 4000 })
+    toast.success(`${model.label} is ready`, { id: toastId, duration: 4000, description: 'Running entirely on your device' })
     return e
   })()
   chat = { id: model.id, engine }
   engine.catch((err) => {
     chat = null
-    toast.error(`Couldn’t load ${model.label}: ${err instanceof Error ? err.message : String(err)}`, { id: toastId, duration: 8000 })
+    toast.error(`Couldn’t load ${model.label}`, { id: toastId, duration: 8000, description: err instanceof Error ? err.message : String(err) })
   })
   return engine
 }
@@ -125,7 +162,7 @@ async function getJanus(): Promise<Janus> {
   if (janus) return janus
   const toastId = 'janus'
   const files = new Map<string, { loaded: number; total: number }>()
-  toast.loading(`Preparing ${IMAGE_MODEL.label} (${IMAGE_MODEL.size}, downloaded once and cached)…`, { id: toastId, duration: Infinity })
+  toast.loading(`Preparing ${IMAGE_MODEL.label}`, { id: toastId, duration: Infinity, description: `${IMAGE_MODEL.size}, downloaded once and cached` })
   janus = (async () => {
     const { AutoProcessor, MultiModalityCausalLM } = await import('@huggingface/transformers')
     const progress_callback = (p: any) => {
@@ -133,9 +170,10 @@ async function getJanus(): Promise<Janus> {
         files.set(p.file, { loaded: p.loaded ?? 0, total: p.total ?? 0 })
         const loaded = [...files.values()].reduce((s, f) => s + f.loaded, 0)
         const total = [...files.values()].reduce((s, f) => s + f.total, 0) || 1
-        toast.loading(`${IMAGE_MODEL.label}: downloading ${pct(loaded / total)} (${(loaded / 1e6).toFixed(0)} / ${(total / 1e6).toFixed(0)} MB)`, {
+        toast.loading(`Downloading ${IMAGE_MODEL.label}`, {
           id: toastId,
           duration: Infinity,
+          description: `${pct(loaded / total)} · ${(loaded / 1e6).toFixed(0)} / ${(total / 1e6).toFixed(0)} MB`,
         })
       }
     }
@@ -152,12 +190,12 @@ async function getJanus(): Promise<Janus> {
       },
       progress_callback,
     })
-    toast.success(`${IMAGE_MODEL.label} is ready.`, { id: toastId, duration: 3000 })
+    toast.success(`${IMAGE_MODEL.label} is ready`, { id: toastId, duration: 3000 })
     return { processor, model }
   })()
   janus.catch((err) => {
     janus = null
-    toast.error(`Couldn’t load ${IMAGE_MODEL.label}: ${err instanceof Error ? err.message : String(err)}`, { id: toastId, duration: 8000 })
+    toast.error(`Couldn’t load ${IMAGE_MODEL.label}`, { id: toastId, duration: 8000, description: err instanceof Error ? err.message : String(err) })
   })
   return janus
 }

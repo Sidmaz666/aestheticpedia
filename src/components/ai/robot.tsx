@@ -140,9 +140,16 @@ function readTheme(resolve: ReturnType<typeof makeResolver>): Colors {
   return { body, accent, accent2, visor, round: Math.max(0.06, Math.min(0.4, 0.07 + rs * 0.13)) }
 }
 
-export function Robot({ mood, className, size = 76 }: { mood: RobotMood; className?: string; size?: number }) {
+export function Robot({ mood, className, size = 76, hops = 0 }: { mood: RobotMood; className?: string; size?: number; /** Increment to make the robot do a double hop. */ hops?: number }) {
   const ref = useRef<HTMLCanvasElement>(null)
   const moodRef = useRef(mood)
+  const hopsRef = useRef({ seen: hops, queued: 0 })
+  useEffect(() => {
+    if (hops !== hopsRef.current.seen) {
+      hopsRef.current.seen = hops
+      hopsRef.current.queued = 2
+    }
+  }, [hops])
   const [failed, setFailed] = useState(false)
   useEffect(() => {
     moodRef.current = mood
@@ -283,6 +290,11 @@ export function Robot({ mood, className, size = 76 }: { mood: RobotMood; classNa
       hop.v -= 12 * dt
       hop.y = Math.max(0, hop.y + hop.v * dt)
       if (hop.y === 0 && hop.v < 0) hop.v = 0
+      // Queued hops (e.g. reaching the end of the page): "jump, jump" — the second a bit smaller.
+      if (hopsRef.current.queued > 0 && hop.y === 0 && hop.v === 0 && !reduce) {
+        hop.v = hopsRef.current.queued === 2 ? 2.1 : 1.6
+        hopsRef.current.queued--
+      }
       // Hat physics. Inertia pushes the cloth against the head's angular velocity (turn, nod,
       // roll); gravity, seen from the tilted head, pulls the rest shape sideways; the tip is a
       // second, softer spring hung from the middle, so it lags and whips.

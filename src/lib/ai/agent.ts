@@ -83,9 +83,10 @@ export function loadRouter(): Promise<void> {
       progress = Math.min(0.99, d.loaded / d.total)
       listeners.forEach((l) => l(progress))
       if (!d.cached)
-        toast.loading(`${ROUTER_MODEL.label}: downloading ${Math.round(progress * 100)}% (${(d.loaded / 1e6).toFixed(0)} / ${(d.total / 1e6).toFixed(0)} MB)`, {
+        toast.loading(`Downloading ${ROUTER_MODEL.label}`, {
           id: toastId,
           duration: Infinity,
+          description: `${Math.round(progress * 100)}% · ${(d.loaded / 1e6).toFixed(0)} / ${(d.total / 1e6).toFixed(0)} MB`,
         })
       return
     }
@@ -95,12 +96,12 @@ export function loadRouter(): Promise<void> {
     if (d.ok) p.resolve(d)
     else p.reject(new Error(d.error))
   }
-  toast.loading(`Waking the agent — ${ROUTER_MODEL.label} (${ROUTER_MODEL.size}, downloaded once, runs on your device)…`, { id: toastId, duration: Infinity })
+  toast.loading('Waking the guide', { id: toastId, duration: Infinity, description: `${ROUTER_MODEL.label} · ${ROUTER_MODEL.size}, downloaded once, runs on your device` })
   ready = rpc<void>({ type: 'init', system: SYSTEM, tools: AGENT_TOOLS }).then(
     () => {
       progress = 1
       listeners.forEach((l) => l(1))
-      toast.success(`${ROUTER_MODEL.label} is ready — running entirely on your device.`, { id: toastId, duration: 3000 })
+      toast.success('The guide is ready', { id: toastId, duration: 3000, description: `${ROUTER_MODEL.label}, running entirely on your device` })
     },
     (err) => {
       ready = null
@@ -108,7 +109,7 @@ export function loadRouter(): Promise<void> {
       listeners.forEach((l) => l(0))
       worker?.terminate()
       worker = null
-      toast.error(`Couldn’t start the agent: ${err.message}`, { id: toastId, duration: 8000 })
+      toast.error('Couldn’t start the guide', { id: toastId, duration: 8000, description: err.message })
       throw err
     }
   )

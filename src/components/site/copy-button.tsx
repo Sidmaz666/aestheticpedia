@@ -16,7 +16,7 @@ export function CopyButton({ text, label, className }: { text: string; label: st
         try {
           await navigator.clipboard.writeText(text)
           setDone(true)
-          toast.success('Copied')
+          toast.success(`${label.replace(/^Copy /, '').replace(/^./, (c) => c.toUpperCase())} copied`)
           setTimeout(() => setDone(false), 1500)
         } catch {
           toast.error('Couldn’t copy')

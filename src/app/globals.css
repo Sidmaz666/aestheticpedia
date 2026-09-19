@@ -495,3 +495,69 @@ html::-webkit-scrollbar-track {
   width: 0;
   height: 0;
 }
+
+/* Toasts (sonner, src/components/providers.tsx). Sonner centres the icon against the whole
+   text block; pin it to the title's first line instead so single- and two-line toasts align. */
+[data-sonner-toaster] [data-sonner-toast].aesthetic-toast {
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.875rem 1rem;
+  border-radius: calc(1rem * var(--r-scale, 1));
+  border: 1px solid var(--line-strong);
+  background: color-mix(in oklab, var(--surface-2) 92%, transparent);
+  color: var(--fg);
+  box-shadow: 0 18px 40px -12px rgb(0 0 0 / 0.45);
+  backdrop-filter: blur(16px);
+  font-family: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+}
+[data-sonner-toast].aesthetic-toast [data-icon].aesthetic-toast-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  /* Title line-height is 1.25rem, so a 1.25rem icon lines up with it exactly. */
+}
+[data-sonner-toast].aesthetic-toast [data-icon].aesthetic-toast-icon svg {
+  width: 1.125rem;
+  height: 1.125rem;
+  margin: 0;
+}
+[data-sonner-toast].aesthetic-toast[data-type='success'] [data-icon] { color: var(--accent); }
+[data-sonner-toast].aesthetic-toast[data-type='error'] [data-icon] { color: var(--danger); }
+[data-sonner-toast].aesthetic-toast [data-content] {
+  gap: 0.125rem;
+  min-width: 0;
+  flex: 1;
+}
+[data-sonner-toaster] [data-sonner-toast].aesthetic-toast [data-title].aesthetic-toast-title {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: var(--fg);
+}
+[data-sonner-toaster] [data-sonner-toast].aesthetic-toast [data-description].aesthetic-toast-description {
+  font-size: 0.8125rem;
+  line-height: 1.15rem;
+  color: var(--fg-muted);
+}
+[data-sonner-toast].aesthetic-toast [data-button].aesthetic-toast-action,
+[data-sonner-toast].aesthetic-toast [data-button].aesthetic-toast-cancel {
+  align-self: center;
+  height: 1.875rem;
+  padding: 0 0.875rem;
+  margin-left: 0.25rem;
+  border-radius: 999px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+[data-sonner-toast].aesthetic-toast [data-button].aesthetic-toast-action {
+  background: var(--fg);
+  color: var(--bg);
+}
+[data-sonner-toast].aesthetic-toast [data-button].aesthetic-toast-cancel {
+  background: transparent;
+  color: var(--fg-muted);
+  border: 1px solid var(--line-strong);
+}

@@ -58,6 +58,9 @@ export function AgentDock() {
   const [hover, setHover] = useState(false)
   const [busy, setBusy] = useState(false)
   const [celebrate, setCelebrate] = useState(false)
+  // At the very end of the page the dock lifts clear of the footer and the robot hops.
+  const [atEnd, setAtEnd] = useState(false)
+  const [hops, setHops] = useState(0)
   const [writing, setWriting] = useState(false)
   const [loaded, setLoaded] = useState(false)
   const [progress, setProgress] = useState(0)
@@ -111,9 +114,25 @@ export function AgentDock() {
     }
   }, [current, open])
 
+  // Arriving at the end: a double hop and a moment of joy (once per arrival).
+  useEffect(() => {
+    if (!atEnd) return
+    setHops((h) => h + 1)
+    setCelebrate(true)
+    const t = setTimeout(() => setCelebrate(false), 1600)
+    return () => clearTimeout(t)
+  }, [atEnd])
+
   // Scroll-to-top satellite: watches the window and the aesthetic overlay.
   useEffect(() => {
-    const onScroll = () => setShowTop((scrollRoot()?.scrollTop ?? 0) > 700 || window.scrollY > 700)
+    const onScroll = () => {
+      const root = scrollRoot()
+      setShowTop((root?.scrollTop ?? 0) > 700 || window.scrollY > 700)
+      const end = root
+        ? root.scrollTop + root.clientHeight >= root.scrollHeight - 48 && root.scrollHeight > root.clientHeight + 200
+        : window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 48 && document.documentElement.scrollHeight > window.innerHeight + 200
+      setAtEnd(end)
+    }
     document.addEventListener('scroll', onScroll, { capture: true, passive: true })
     onScroll()
     return () => document.removeEventListener('scroll', onScroll, { capture: true })
@@ -197,7 +216,11 @@ export function AgentDock() {
   const gpu = writer !== 'off' ? webgpuStatus() : { ok: true }
 
   return (
-    <div className="pointer-events-none fixed bottom-3 right-3 z-[95] flex flex-col items-end gap-2 sm:bottom-5 sm:right-5">
+    <div
+      className="pointer-events-none fixed bottom-3 right-3 z-[95] flex flex-col items-end gap-2 transition-transform duration-500 ease-[cubic-bezier(.34,1.56,.64,1)] sm:bottom-5 sm:right-5"
+      // Lifted clear of the footer's bottom line when the page is scrolled to the end.
+      style={{ transform: atEnd && !open ? 'translateY(-72px)' : undefined }}
+    >
       {open && (
         <section
           id="agent-panel"
@@ -359,7 +382,7 @@ export function AgentDock() {
             title="Ask the vault"
             className="group relative grid place-items-center rounded-full outline-none transition-transform duration-300 hover:-translate-y-0.5 focus-visible:ring-2 focus-visible:ring-accent active:scale-95"
           >
-            <Robot mood={mood} size={76} />
+            <Robot mood={mood} size={76} hops={hops} />
             <span className="sr-only">Vault guide</span>
           </button>
         </div>
