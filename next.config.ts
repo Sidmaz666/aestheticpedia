@@ -22,8 +22,20 @@ const nextConfig: NextConfig = {
   // DuckDB ships native binaries — load it from node_modules at runtime instead of bundling.
   serverExternalPackages: ['@duckdb/node-api', '@duckdb/node-bindings'],
   // Serverless functions (e.g. on Vercel) read the Parquet build from disk — ship it with every route.
+  // DuckDB's native addon (duckdb.node) loads the engine library beside it (libduckdb.so / duckdb.dll)
+  // at runtime, which the file tracer cannot see — without the whole platform package every data
+  // route fails to load on Vercel. Only the current platform's package is installed, so this
+  // matches linux-x64 there.
   outputFileTracingIncludes: {
-    '/**': ['./public/data/aesthetics.parquet', './public/data/relations.parquet', './public/data/manifest.json', './public/data/validation.json', './public/data/materials.json', './public/brand/logo-on-dark.png'],
+    '/**': [
+      './public/data/aesthetics.parquet',
+      './public/data/relations.parquet',
+      './public/data/manifest.json',
+      './public/data/validation.json',
+      './public/data/materials.json',
+      './public/brand/logo-on-dark.png',
+      './node_modules/@duckdb/node-bindings-*/**',
+    ],
   },
   // Keep serverless functions small (Vercel's limit is 250 MB): the bulk downloads in public/data
   // are static files served from /data and never read by server code, and Transformers.js /
