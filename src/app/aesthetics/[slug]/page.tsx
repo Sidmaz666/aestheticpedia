@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { AestheticArticle } from '@/components/aesthetic/article'
+import { resolveMaterials } from '@/lib/materials'
 import { AestheticFonts } from '@/components/aesthetic/theme-scope'
 import { toJsonLd } from '@/lib/formats'
 import { SITE_NAME, SITE_URL } from '@/lib/site'
@@ -55,7 +56,7 @@ export default async function AestheticPage({ params }: Props) {
       {theme && <style href={`ae-theme-${slug}`} precedence="high">{themeCss(theme, 'html:root')}</style>}
       <AestheticFonts display={a.typePairing.display} body={a.typePairing.body} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(toJsonLd(a)) }} />
-      <AestheticArticle detail={detail} similar={similar} lineage={lineage} among={among} mode="page" />
+      <AestheticArticle detail={detail} similar={similar} lineage={lineage} among={among} mode="page" materialPhotos={resolveMaterials(detail.aesthetic)} />
     </>
   )
 }

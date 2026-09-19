@@ -36,7 +36,7 @@ A running log of what has been done and what is next. Newest first. Keep entries
 - [x] Data page charts: category treemap, century histogram, origins, record types, image licences.
 - [x] Visualisations: Connections network (canvas, d3-force), Colour atlas (+ search by colour API), lineage tree and connection map per record.
 - [x] Motion: GSAP reveals/counters/split headlines; registered CSS colour properties animate theme changes; radius and body font follow the aesthetic.
-- [x] On-device AI: WebLLM assistant (Web Worker, retrieval tools: search, current record, colour, blend) and Janus-Pro 1B image generation; opt-in downloads with progress toasts; outputs labelled.
+- [x] On-device AI: WebLLM assistant and Janus-Pro 1B image generation (the assistant was replaced in round 3 by the Needle 3 agent and robot guide).
 - [x] Tests: data integrity, WCAG theme contrast for every palette, exports, queries, MCP, hygiene (control characters); Playwright e2e for pages, overlay close button, API, MCP, AI files, mobile overflow.
 - [x] Git: history authored by sidmaz666; pushed to GitHub. CI workflow parked in `docs/ci/ci.yml` (token lacks `workflow` scope).
 

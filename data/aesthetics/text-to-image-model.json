@@ -16,7 +16,7 @@
   "era": "",
   "summary": "A text-to-image (T2I or TTI) model is a machine learning model which takes an input natural language prompt and produces an image matching that description.",
   "description": "A text-to-image (T2I or TTI) model is a machine learning model which takes an input natural language prompt and produces an image matching that description.\n\nText-to-image models gradually began to be developed in the mid-2010s during the beginnings of the AI boom, as a result of advances in deep neural networks. In 2022, the output of state-of-the-art text-to-image models—such as OpenAI's DALL-E 2, Google Brain's Imagen, Stability AI's Stable Diffusion, Midjourney, and Runway's Gen-4—began to be considered to approach the quality of real photographs and human-drawn art.\n\nText-to-image models are generally latent diffusion models, which perform the diffusion process in a compressed latent space rather than directly in pixel space. An autoencoder (often a variational autoencoder) is used to convert between pixel space and this latent representation. These systems typically use a pretrained language or vision–language model to convert the input prompt into a text embedding, and a diffusion-based generative image model that produces images conditioned on that embedding. The most effective models have generally been trained on massive amounts of image and text data scraped from the web.",
-  "culturalContext": "",
+  "culturalContext": "Before the rise of deep learning in the 2010s, attempts to build text-to-image models were limited to collages by arranging existing component images, such as from a database of clip art.\n\nThe inverse task, image captioning, was more tractable, and a number of image captioning deep learning models came prior to the first text-to-image models.",
   "colors": [
     {
       "hex": "#101122",
@@ -230,5 +230,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T11:08:21.338Z"
+  "updatedAt": "2026-09-19T01:57:13.237Z"
 }

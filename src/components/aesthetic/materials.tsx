@@ -1,9 +1,10 @@
-// Materials & textures with real photographs from the matched Wikipedia article (server component).
-import { lookupMaterials } from '@/lib/materials'
+// Materials & textures with real photographs from the matched Wikipedia article. Pure view:
+// the glossary lookup (which reads public/data/materials.json) happens on the server — see
+// resolveMaterials() in src/lib/materials.ts — so this also renders inside client views.
+import type { MaterialItem } from '@/lib/material-types'
 
-export function MaterialGallery({ title, terms }: { title: string; terms: string[] }) {
-  if (!terms.length) return null
-  const items = lookupMaterials(terms)
+export function MaterialGallery({ title, items }: { title: string; items: MaterialItem[] }) {
+  if (!items.length) return null
   const withPhoto = items.filter((i) => i.entry?.image)
   const rest = items.filter((i) => !i.entry?.image)
   return (

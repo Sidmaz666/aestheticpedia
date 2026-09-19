@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import { AestheticArticle } from '@/components/aesthetic/article'
+import { resolveMaterials } from '@/lib/materials'
 import { AestheticModal } from '@/components/aesthetic/modal'
 import { getAesthetic, getLineage, getLinksAmong, getSimilar } from '@/lib/queries'
 import { themeFromPalette } from '@/lib/theme'
@@ -21,7 +22,7 @@ export default async function AestheticOverlay({ params }: { params: Promise<{ s
       display={a.typePairing.display}
       body={a.typePairing.body}
     >
-      <AestheticArticle detail={detail} similar={similar} lineage={lineage} among={among} mode="modal" />
+      <AestheticArticle detail={detail} similar={similar} lineage={lineage} among={among} mode="modal" materialPhotos={resolveMaterials(detail.aesthetic)} />
     </AestheticModal>
   )
 }

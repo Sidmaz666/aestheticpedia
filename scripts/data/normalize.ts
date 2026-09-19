@@ -40,6 +40,14 @@ const uniqStr =(xs: unknown[]) => [
   ...new Set(xs.filter((x): x is string => typeof x === 'string').map((x) => x.trim()).filter(Boolean)),
 ]
 
+/** "1920s" from 1920–1999, "15th century" before 1900, "3rd century BCE" for negative years. */
+function eraLabel(y: number): string {
+  const ord = (n: number) => `${n}${[11, 12, 13].includes(n % 100) ? 'th' : ['th', 'st', 'nd', 'rd'][n % 10] ?? 'th'}`
+  if (y < 0) return `${ord(Math.ceil(-y / 100))} century BCE`
+  if (y >= 1900) return `${Math.floor(y / 10) * 10}s`
+  return `${ord(Math.floor(y / 100) + 1)} century`
+}
+
 let fixes = 0
 for (const a of aesthetics as any[]) {
   const before = JSON.stringify(a)
@@ -81,6 +89,10 @@ for (const a of aesthetics as any[]) {
   for (const f of ['aliases', 'materials', 'textures', 'objects', 'keyExamples', 'sounds', 'tags']) a[f] = uniqStr(a[f] ?? [])
   for (const f of ['summary', 'description', 'culturalContext', 'origin', 'geography', 'era', 'periodStart', 'periodEnd'])
     a[f] = String(a[f] ?? '').trim()
+  // Derived exactly from other fields: where it is, when it began.
+  if (!a.geography && a.origin) a.geography = a.origin
+  if (!a.era && typeof a.startYear === 'number') a.era = eraLabel(a.startYear)
+  if (!a.periodStart && typeof a.startYear === 'number') a.periodStart = eraLabel(a.startYear)
   // Style/mood scores from the retired AI pipeline were never sourced — remove them. The site now
   // shows palette metrics measured from real colours instead (src/lib/palette-metrics.ts).
   if (!a.profileSource || a.profileSource !== 'editor') {

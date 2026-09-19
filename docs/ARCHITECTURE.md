@@ -31,6 +31,14 @@ spreadsheet-friendly; `mapAestheticFull` in `src/lib/aesthetic.ts` parses them d
   whose class is on the reviewed allow-list in `data/crawl-classes.json` (with an explicit title exclusion list).
 - `enrich-wikidata.ts`, `enrich-text-facts.ts` — fill empty origin/period from Wikidata statements, then from explicit
   statements in the record's own sourced text (“originated in Japan”, “a 17th-century…”); never overwrite.
+- `enrich-wikidata-works.ts` — aliases, subcategory, key examples (works/buildings whose movement P135 or style P149
+  is the record, ranked by sitelinks) and materials (P186 of those works). `enrich-context.ts` — cultural context
+  from the History/Origins/Background section of the record’s Wikipedia article. `enrich-aestheticswiki.ts` —
+  origin, aliases, key examples and decade of origin from the Aesthetics Wiki infobox.
+- `images-museums.ts` — CC0 images from The Met and the Cleveland Museum of Art open-access APIs (no key), used only
+  when the object’s title/culture/period/type/tags name the aesthetic.
+- `fix-wikipedia-links.ts` — undoes a wrong Wikipedia match with everything it brought; `data/curated-images.json`
+  lists hand-reviewed image sets that refreshes leave alone.
 - `normalize.ts` — repairs palette shapes, bad URLs, duplicate strings, year ranges (“present”, centuries, BCE);
   removes unsourced AI style profiles and AI-generated images (except on records about AI imagery).
 - `validate.ts` — schema, integrity, quality report, strict mode for PRs; regenerates `data/schema.json`.
@@ -46,8 +54,12 @@ spreadsheet-friendly; `mapAestheticFull` in `src/lib/aesthetic.ts` parses them d
   full page applies it to `:root`, so the whole site takes on the aesthetic; the overlay scopes it to itself.
   `AestheticFonts` loads the record’s Google Fonts pairing.
 - **Design system:** CSS variables in `src/app/globals.css` (“vault” dark default, “paper” light).
-- **Interactive islands:** gallery/lightbox, palette swatches, export menu, section scroll-spy, live style demo
-  (`style-demo.tsx`, six templates) and the WebGL material study (`shader-lab.tsx`).
+- **Interactive islands:** gallery/lightbox, palette swatches, export menu (portal, never clipped), section
+  scroll-spy, carousels (`components/ui/carousel.tsx`) and the live demo (`applied-demo.tsx`: 3D gallery of the
+  record’s own images, web page, poster, palette map, UI kit, type — built only from the record’s real data).
+- **Connections:** `views/connections.tsx` shows the 3D network (`graph3d.tsx`, 3d-force-graph/three.js, loaded only
+  on that page: orbit, category clusters, relationship-coloured links, filters, fly-to search) or the 2D canvas map
+  (`graph.tsx`) as fallback.
 - **On-device agent** (`src/components/ai/agent-dock.tsx`, `src/lib/ai/`):
   - `robot.tsx` — the guide's 3D robot, raymarched in a single WebGL fragment shader. Every 400 ms it reads the
     visible theme (`--fg`, `--accent`, `--accent-2`, `--bg`, `--r-scale`, from the overlay when one is open) and eases

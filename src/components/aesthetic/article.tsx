@@ -16,6 +16,7 @@ import {
 import { AestheticCard, periodLabel } from './card'
 import { ConnectionMap, LineageTree } from './diagrams'
 import type { LineageNode } from '@/lib/queries'
+import type { ResolvedMaterials } from '@/lib/material-types'
 import { MetricsSection } from './metrics'
 import { ExportMenu, ShareButton } from './export-menu'
 import { Gallery, HeroImage } from './gallery'
@@ -191,10 +192,18 @@ export function AestheticArticle({
   mode,
   lineage,
   among,
+  exportHref,
+  shareUrl,
+  materialPhotos,
 }: {
   detail: AestheticDetailResponse
   similar: AestheticSummary[]
-  mode: 'page' | 'modal'
+  /** "blend": a synthesized record shown on the Blend page (no edit link; exports via the Blend API). */
+  mode: 'page' | 'modal' | 'blend'
+  exportHref?: (format: string) => string
+  shareUrl?: string
+  /** Material/texture photos resolved on the server (resolveMaterials). */
+  materialPhotos?: ResolvedMaterials
   lineage: { ancestors: LineageNode[]; descendants: LineageNode[] }
   among: { from: string; to: string; type: string }[]
 }) {
@@ -230,7 +239,7 @@ export function AestheticArticle({
   return (
     <article className="relative">
       {/* ---------- Hero ---------- */}
-      <header className={`relative isolate flex items-end overflow-hidden ${mode === 'page' ? '-mt-16 min-h-[88svh] pt-16' : 'min-h-[78svh]'}`}>
+      <header className={`relative isolate flex items-end overflow-hidden ${mode === 'page' ? '-mt-16 min-h-[88svh] pt-16' : mode === 'blend' ? 'min-h-[70svh]' : 'min-h-[78svh]'}`}>
         <HeroImage image={hero} colors={a.colors} name={a.name} />
         <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/55 to-black/25" aria-hidden />
         <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-black/50 to-transparent" aria-hidden />
@@ -247,8 +256,8 @@ export function AestheticArticle({
           <div className="mt-8 flex flex-wrap items-end justify-between gap-6">
             <p className="max-w-2xl text-lg leading-relaxed text-fg sm:text-xl">{a.summary}</p>
             <div className="flex items-center gap-2">
-              <ShareButton slug={a.slug} name={a.name} />
-              <ExportMenu slug={a.slug} />
+              <ShareButton slug={a.slug} name={a.name} url={shareUrl} />
+              <ExportMenu slug={a.slug} hrefFor={exportHref} />
             </div>
           </div>
           <div className="mt-8 flex flex-wrap gap-x-8 gap-y-2 font-mono text-xs uppercase tracking-[0.12em] text-fg-muted">
@@ -265,7 +274,7 @@ export function AestheticArticle({
       </header>
 
       {/* ---------- Section nav ---------- */}
-      <div className={`sticky z-20 border-y border-line bg-bg/85 backdrop-blur-xl ${mode === 'page' ? 'top-16' : 'top-0'}`}>
+      <div className={`sticky z-20 border-y border-line bg-bg/85 backdrop-blur-xl ${mode === 'modal' ? 'top-0' : 'top-16'}`}>
         <div className="mx-auto max-w-[1600px] px-4 py-2.5 sm:px-6 lg:px-10">
           <SectionNav sections={sections} scrollRootId={mode === 'modal' ? 'aesthetic-modal-scroll' : undefined} />
         </div>
@@ -292,13 +301,22 @@ export function AestheticArticle({
                     <p key={i}>{p}</p>
                   ))}
                 </div>
+                {a.wikipedia && !/Aesthetics Wiki/.test(a.culturalContext) && (
+                  <p className="mt-3 text-xs text-fg-subtle">
+                    From{' '}
+                    <a href={`https://en.wikipedia.org/wiki/${encodeURIComponent(a.wikipedia.replace(/ /g, '_'))}`} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-fg">
+                      Wikipedia — {a.wikipedia}
+                    </a>{' '}
+                    (CC BY-SA)
+                  </p>
+                )}
               </div>
             )}
             {a.tags.length > 0 && (
               <ul className="flex flex-wrap gap-1.5">
                 {a.tags.map((t) => (
                   <li key={t}>
-                    <Link href={`/aesthetics?tag=${encodeURIComponent(t)}`} className="rounded-full bg-surface-2 px-2.5 py-1 text-xs text-fg-muted hover:text-fg">
+                    <Link href={`/aesthetics?tag=${encodeURIComponent(t)}`} className="inline-flex items-center rounded-full bg-surface-2 px-2.5 py-1 text-xs text-fg-muted hover:text-fg">
                       #{t}
                     </Link>
                   </li>
@@ -315,7 +333,7 @@ export function AestheticArticle({
               <a href={`/api/v1/aesthetics/${a.slug}.md`} className="inline-flex items-center gap-1.5 rounded-full border border-line-strong px-3 py-1.5 text-fg-muted hover:text-fg">
                 <FileCode2 className="size-3.5" aria-hidden /> Markdown
               </a>
-              {repoEdit(`data/aesthetics/${a.slug}.json`) && (
+              {mode !== 'blend' && repoEdit(`data/aesthetics/${a.slug}.json`) && (
                 <a href={repoEdit(`data/aesthetics/${a.slug}.json`)} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 rounded-full border border-line-strong px-3 py-1.5 text-fg-muted hover:text-fg">
                   <GitPullRequest className="size-3.5" aria-hidden /> Improve this record
                 </a>
@@ -417,8 +435,8 @@ export function AestheticArticle({
                   </div>
                 )}
               </div>
-              <MaterialGallery title="Materials" terms={a.materials} />
-              <MaterialGallery title="Textures & surfaces" terms={a.textures} />
+              <MaterialGallery title="Materials" items={materialPhotos?.materials ?? a.materials.map((term) => ({ term, entry: null }))} />
+              <MaterialGallery title="Textures & surfaces" items={materialPhotos?.textures ?? a.textures.map((term) => ({ term, entry: null }))} />
             </div>
           </Section>
         ) : null}

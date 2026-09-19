@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { useTheme } from 'next-themes'
-import { ArrowUp, ChevronUp, Cpu, Loader2, Minus, PenLine, Settings2, Square, X } from 'lucide-react'
+import { ArrowUp, ChevronUp, Cpu, Loader2, PenLine, Settings2, Square, X } from 'lucide-react'
 import { onRouterProgress, ROUTER_MODEL, routerLoaded, routerProgress, loadRouter, runAgent, type AgentReply } from '@/lib/ai/agent'
 import { CHAT_MODELS, webgpuStatus, writeAnswer } from '@/lib/ai/engine'
 import { SITE_NAME } from '@/lib/site'
@@ -53,7 +53,6 @@ export function AgentDock() {
   const router = useRouter()
   const { setTheme } = useTheme()
   const [open, setOpen] = useState(false)
-  const [minimized, setMinimized] = useState(false)
   const [hover, setHover] = useState(false)
   const [busy, setBusy] = useState(false)
   const [celebrate, setCelebrate] = useState(false)
@@ -72,7 +71,6 @@ export function AgentDock() {
   const inputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
-    setMinimized(store.get('agent:min') === '1')
     setWriter(store.get('agent:writer') ?? 'off')
     setLoaded(routerLoaded())
     setProgress(routerProgress())
@@ -92,7 +90,7 @@ export function AgentDock() {
 
   // A one-time, per-session nudge on aesthetic pages.
   useEffect(() => {
-    if (!current || open || minimized) return
+    if (!current || open) return
     let seen = false
     try {
       seen = sessionStorage.getItem('agent:hinted') === '1'
@@ -109,7 +107,7 @@ export function AgentDock() {
       clearTimeout(show)
       clearTimeout(hide)
     }
-  }, [current, open, minimized])
+  }, [current, open])
 
   // Scroll-to-top satellite: watches the window and the aesthetic overlay.
   useEffect(() => {
@@ -141,11 +139,6 @@ export function AgentDock() {
     else window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
-  const minimize = (v: boolean) => {
-    setMinimized(v)
-    store.set('agent:min', v ? '1' : '0')
-    if (v) setOpen(false)
-  }
 
   const expand = useCallback(
     async (i: number, given?: Msg) => {
@@ -195,7 +188,7 @@ export function AgentDock() {
     }
   }
 
-  const mood: RobotMood = minimized ? 'sleep' : busy || (progress > 0 && progress < 1) ? 'think' : writing ? 'talk' : celebrate || hover ? 'happy' : 'idle'
+  const mood: RobotMood = busy || (progress > 0 && progress < 1) ? 'think' : writing ? 'talk' : celebrate || hover ? 'happy' : 'idle'
   const suggestions = current
     ? [`Tell me about ${current.name}`, `What is similar to ${current.name}?`, `Blend this with Art Deco`, 'Which aesthetics use teal?']
     : ['What is wabi-sabi?', 'Aesthetics from Nigeria', 'Styles from the 1920s', 'Compare Art Deco and Bauhaus', 'Something warm and muted', 'Surprise me']
@@ -341,8 +334,8 @@ export function AgentDock() {
             {hint}
           </button>
         )}
-        <div className={`relative flex flex-col items-center transition-transform duration-500 ${minimized ? 'translate-x-[45%]' : ''}`}>
-          {showTop && !minimized && (
+        <div className="relative flex flex-col items-center">
+          {showTop && (
             <button
               type="button"
               onClick={toTop}
@@ -355,29 +348,18 @@ export function AgentDock() {
           )}
           <button
             type="button"
-            onClick={() => (minimized ? minimize(false) : setOpen((o) => !o))}
+            onClick={() => setOpen((o) => !o)}
             onPointerEnter={() => setHover(true)}
             onPointerLeave={() => setHover(false)}
             aria-expanded={open}
             aria-controls="agent-panel"
-            aria-label={minimized ? 'Wake the vault guide' : open ? 'Close the vault guide' : 'Ask the vault guide'}
-            title={minimized ? 'Wake me' : 'Ask the vault'}
+            aria-label={open ? 'Close the vault guide' : 'Ask the vault guide'}
+            title="Ask the vault"
             className="group relative grid place-items-center rounded-full outline-none transition-transform duration-300 hover:-translate-y-0.5 focus-visible:ring-2 focus-visible:ring-accent active:scale-95"
           >
-            <Robot mood={mood} size={minimized ? 52 : 76} />
+            <Robot mood={mood} size={76} />
             <span className="sr-only">Vault guide</span>
           </button>
-          {!minimized && (
-            <button
-              type="button"
-              onClick={() => minimize(true)}
-              className="absolute -left-1 top-1/2 grid size-6 place-items-center rounded-full border border-line-strong bg-surface text-fg-subtle opacity-0 shadow transition-opacity hover:text-fg focus-visible:opacity-100 [div:hover>&]:opacity-100"
-              aria-label="Tuck the guide away"
-              title="Tuck away"
-            >
-              <Minus className="size-3" aria-hidden />
-            </button>
-          )}
         </div>
       </div>
     </div>

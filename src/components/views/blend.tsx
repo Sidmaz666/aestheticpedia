@@ -1,16 +1,17 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import { useQuery } from '@tanstack/react-query'
-import { ArrowLeftRight, Check, Copy, Dices, Link2, Loader2, Search, X } from 'lucide-react'
-import { toast } from 'sonner'
-import type { AestheticSummary, BlendParent, HybridResponse, SuggestItem } from '@/lib/aesthetic'
+import { ArrowLeftRight, Dices, Loader2, Search, X } from 'lucide-react'
+import type { AestheticDetailResponse, AestheticSummary, BlendParent, HybridResponse, SuggestItem } from '@/lib/aesthetic'
+import { themeFromPalette } from '@/lib/theme'
+import { AestheticArticle } from '@/components/aesthetic/article'
+import { AestheticFonts } from '@/components/aesthetic/theme-scope'
 import { fetchJson, useSuggest } from '@/lib/client'
 import { METRIC_AXES, type PaletteMetrics } from '@/lib/palette-metrics'
 import { Thumb } from '@/components/aesthetic/thumb'
-import { firstFontFamily, loadGoogleFont, lookupGoogleFont } from '@/components/aesthetic/fonts'
 
 // Pairings that make instructive blends (all are documented records).
 const PAIRS: [string, string, string, string][] = [
@@ -155,143 +156,67 @@ export function BlendView() {
 
 // ---------------------------------------------------------------------------
 function Result({ data, A, B }: { data: HybridResponse; A: BlendParent; B: BlendParent }) {
+  const record = data.record
+  const theme = useMemo(() => (record ? themeFromPalette(record.colors, record.metrics?.contrast ?? undefined) : null), [record])
+  if (!record) return null
   const h = data.hybrid
-  const palette = h.palette ?? []
-  const from = (hex: string) => (A.colors.some((c) => c.hex.toLowerCase() === hex.toLowerCase()) ? A.name : B.colors.some((c) => c.hex.toLowerCase() === hex.toLowerCase()) ? B.name : 'blend of both')
-  const display = firstFontFamily(h.typography?.display)
-  const body = firstFontFamily(h.typography?.body)
-  useEffect(() => {
-    for (const f of [display, body]) if (f) loadGoogleFont(f)
-  }, [display, body])
-
-  const brief = [
-    `# ${h.name}`,
-    '',
-    h.tagline ?? '',
-    '',
-    `Parents: ${A.name} × ${B.name} (${data.label})`,
-    '',
-    '## Palette',
-    ...palette.map((c) => `- ${c.hex} ${c.name} (from ${from(c.hex)})`),
-    h.sharedDNA?.length ? `\n## Where they agree\n${h.sharedDNA.map((x) => `- ${x}`).join('\n')}` : '',
-    h.conflicts?.length ? `\n## Tensions\n${h.conflicts.map((x) => `- ${x}`).join('\n')}` : '',
-    h.materials?.length ? `\n## Materials\n${h.materials.join(', ')}` : '',
-    h.objects?.length ? `\n## Objects\n${h.objects.join(', ')}` : '',
-    h.typography?.display || h.typography?.body ? `\n## Typography\nDisplay: ${h.typography?.display ?? '—'} · Body: ${h.typography?.body ?? '—'}` : '',
-    ...(['synthesis', 'architecture', 'lighting', 'fashion', 'photography'] as const).map((k) => (h[k] ? `\n## ${k[0].toUpperCase() + k.slice(1)}\n${h[k]}` : '')),
-  ]
-    .filter((x) => x !== undefined)
-    .join('\n')
-
+  const detail: AestheticDetailResponse = {
+    aesthetic: record,
+    relations: {
+      outgoing: [A, B].map((p) => ({ type: 'hybrid_of', note: 'Parent of this blend', target: { slug: p.slug, name: p.name, category: p.category ?? '', image: p.images?.[0]?.thumb ?? p.images?.[0]?.url ?? null, colors: p.colors } })),
+      incoming: [],
+    },
+  }
+  const lineage = { ancestors: [A, B].map((p) => ({ slug: p.slug, name: p.name, image: p.images?.[0]?.thumb ?? null, colors: p.colors, children: [] })), descendants: [] }
+  const qs = `a=${encodeURIComponent(A.slug)}&b=${encodeURIComponent(B.slug)}`
   return (
-    <article className="mt-14 space-y-16">
-      {/* Title */}
-      <section className="flex flex-wrap items-end justify-between gap-6 border-b border-line pb-10">
-        <div className="max-w-3xl">
-          <p className="eyebrow">{data.label}</p>
-          <h2 className="display mt-3 text-5xl leading-[1.02] sm:text-7xl">{h.name}</h2>
-          {h.tagline && <p className="mt-4 text-lg leading-relaxed text-fg-muted">{h.tagline}</p>}
-        </div>
-        <div className="flex flex-wrap gap-2">
-          <CopyButton text={brief} label="Copy brief" icon={<Copy className="size-4" aria-hidden />} />
-          <CopyButton text={typeof window === 'undefined' ? '' : window.location.href} label="Copy link" icon={<Link2 className="size-4" aria-hidden />} />
-        </div>
-      </section>
-
-      {/* Palette */}
-      <section>
-        <SectionTitle eyebrow="Palette" title="The blended palette" note="Click a colour to copy it. Each swatch says which parent it comes from." />
-        <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
-          {palette.map((c, i) => (
-            <Swatch key={`${c.hex}-${i}`} hex={c.hex} name={c.name} source={from(c.hex)} />
-          ))}
-        </div>
-      </section>
-
-      {/* Mood board from the parents' real images */}
-      {(A.images?.length || B.images?.length) && (
-        <section>
-          <SectionTitle eyebrow="Mood board" title="What each parent looks like" note="Documented images from both records, side by side (hover for credits)." />
-          <div className="mt-6 grid gap-4 md:grid-cols-2">
-            {[A, B].map((p) => (
-              <div key={p.slug}>
-                <div className="grid grid-cols-2 gap-2">
-                  {(p.images ?? []).slice(0, 3).map((im, i) => (
-                    <figure key={im.url} className={`group relative overflow-hidden rounded-[calc(0.9rem*var(--r-scale,1))] bg-surface-2 ${i === 0 ? 'col-span-2 aspect-[16/9]' : 'aspect-[4/3]'}`}>
-                      <img src={im.thumb ?? im.url} alt={im.caption} loading="lazy" referrerPolicy="no-referrer" className="size-full object-cover transition-transform duration-700 group-hover:scale-105" />
-                      <figcaption className="absolute inset-x-0 bottom-0 translate-y-full bg-gradient-to-t from-black/80 to-transparent p-3 text-[11px] text-white transition-transform group-hover:translate-y-0">
-                        <span className="line-clamp-2">{im.caption}</span>
-                        <span className="block truncate opacity-75">{[im.artist, im.license, im.source].filter(Boolean).join(' · ')}</span>
-                      </figcaption>
-                    </figure>
-                  ))}
-                  {!p.images?.length && (
-                    <div className="col-span-2 flex aspect-[16/9] overflow-hidden rounded-xl">
-                      {p.colors.map((c, i) => (
-                        <span key={i} className="flex-1" style={{ background: c.hex }} />
-                      ))}
-                    </div>
-                  )}
-                </div>
-                <Link href={`/aesthetics/${p.slug}`} className="mt-3 flex items-center justify-between gap-3 text-sm">
-                  <span className="display text-2xl text-fg hover:text-accent">{p.name}</span>
-                  <span className="text-xs text-fg-subtle">{[p.periodStart, p.origin].filter(Boolean).join(' · ') || p.category}</span>
-                </Link>
-              </div>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* Measured palette profiles */}
-      {A.metrics && B.metrics && (
-        <section>
-          <SectionTitle eyebrow="Palette profile" title="Where the palettes sit" note="Measured from the real colours (0–100). The blend is measured from its own palette." />
-          <div className="mt-6 space-y-5 rounded-2xl border border-line bg-surface p-5 sm:p-8">
-            {METRIC_AXES.map((m) => (
-              <MetricRow key={m.key} axis={m} a={A.metrics![m.key]} b={B.metrics![m.key]} mix={data.metrics?.[m.key as keyof PaletteMetrics]} names={[A.name, B.name]} />
-            ))}
-            <div className="flex flex-wrap gap-4 pt-2 text-xs text-fg-subtle">
+    <div className="mt-14">
+      {/* What only a blend has: where each parent sits against the blend, and where they agree or pull apart */}
+      <section className="grid gap-4 lg:grid-cols-[1.4fr_1fr]">
+        {A.metrics && B.metrics && (
+          <div className="rounded-2xl border border-line bg-surface p-5 sm:p-7">
+            <p className="eyebrow">Palette profile</p>
+            <p className="display mt-1 text-2xl">Where the three palettes sit</p>
+            <div className="mt-5 space-y-4">
+              {METRIC_AXES.map((m) => (
+                <MetricRow key={m.key} axis={m} a={A.metrics![m.key]} b={B.metrics![m.key]} mix={data.metrics?.[m.key as keyof PaletteMetrics]} names={[A.name, B.name]} />
+              ))}
+            </div>
+            <div className="flex flex-wrap gap-4 pt-4 text-xs text-fg-subtle">
               <Legend color="var(--fg)" label={A.name} />
               <Legend color="var(--accent)" label="Blend" ring />
               <Legend color="var(--fg-subtle)" label={B.name} hollow />
             </div>
           </div>
-        </section>
-      )}
-
-      {/* Agreements / tensions */}
-      <section className="grid gap-4 md:grid-cols-2">
-        <Panel title="Where they agree" items={h.sharedDNA} empty="Few shared tendencies — expect strong contrast." tone="agree" />
-        <Panel title="Tensions to resolve" items={h.conflicts} empty="No major conflicts between these palettes." tone="tension" />
-      </section>
-
-      {/* Brief */}
-      <section>
-        <SectionTitle eyebrow="Design brief" title="How it could come together" />
-        <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-          {h.synthesis && <BriefCard title="How it merges" text={h.synthesis} wide />}
-          {(display || body) && (
-            <div className="rounded-2xl border border-line bg-surface p-6">
-              <p className="eyebrow">Typography</p>
-              <p className="mt-3 text-4xl leading-tight text-fg" style={{ fontFamily: display && lookupGoogleFont(display) ? `"${lookupGoogleFont(display)}", serif` : undefined }}>
-                {h.name?.split(' × ')[0]}
-              </p>
-              <p className="mt-2 text-sm text-fg-muted" style={{ fontFamily: body && lookupGoogleFont(body) ? `"${lookupGoogleFont(body)}", sans-serif` : undefined }}>
-                Display {h.typography?.display || '—'} · Body {h.typography?.body || '—'}
-              </p>
-            </div>
-          )}
-          {h.materials && h.materials.length > 0 && <ChipCard title="Materials" items={h.materials} />}
-          {h.objects && h.objects.length > 0 && <ChipCard title="Objects" items={h.objects} />}
-          <BriefCard title="Architecture" text={h.architecture} />
-          <BriefCard title="Lighting" text={h.lighting} />
-          <BriefCard title="Fashion" text={h.fashion} />
-          <BriefCard title="Photography" text={h.photography} />
-          <BriefCard title="Interface" text={[h.ui?.background, h.ui?.surface, h.ui?.components, h.ui?.motion].filter(Boolean).join(' ')} />
+        )}
+        <div className="grid gap-4">
+          <Panel title="Where they agree" items={h.sharedDNA} empty="Few shared tendencies — expect strong contrast." tone="agree" />
+          <Panel title="Tensions to resolve" items={h.conflicts} empty="No major conflicts between these palettes." tone="tension" />
         </div>
       </section>
-    </article>
+
+      {/* The blend as a full aesthetic page, themed with its own palette and type */}
+      <div
+        id="blend-scope"
+        className="mt-10 overflow-hidden rounded-[calc(1.75rem*var(--r-scale,1))] border border-line bg-bg text-fg"
+        style={{ ...((theme?.vars ?? {}) as CSSProperties), colorScheme: theme?.mode }}
+      >
+        <AestheticFonts display={record.typePairing.display} body={record.typePairing.body} targetId="blend-scope" />
+        <div className="px-4 pt-6 sm:px-8">
+          <p className="rounded-full border border-line-strong bg-surface px-4 py-2 text-center text-xs text-fg-muted">{data.label}</p>
+        </div>
+        <AestheticArticle
+          detail={detail}
+          similar={[]}
+          mode="blend"
+          materialPhotos={data.materialPhotos}
+          lineage={lineage}
+          among={[]}
+          exportHref={(fmt) => `/api/v1/blend?${qs}&format=${fmt}&download=1`}
+          shareUrl={typeof window === 'undefined' ? undefined : window.location.href}
+        />
+      </div>
+    </div>
   )
 }
 
@@ -416,50 +341,7 @@ function Slot({ label, slug, parent, onPick }: { label: string; slug: string; pa
   )
 }
 
-function SectionTitle({ eyebrow, title, note }: { eyebrow: string; title: string; note?: string }) {
-  return (
-    <div className="flex flex-wrap items-end justify-between gap-3">
-      <div>
-        <p className="eyebrow">{eyebrow}</p>
-        <h3 className="display mt-1 text-3xl sm:text-4xl">{title}</h3>
-      </div>
-      {note && <p className="max-w-md text-sm text-fg-subtle">{note}</p>}
-    </div>
-  )
-}
 
-function Swatch({ hex, name, source }: { hex: string; name: string; source: string }) {
-  const [done, setDone] = useState(false)
-  return (
-    <button
-      type="button"
-      onClick={async () => {
-        try {
-          await navigator.clipboard.writeText(hex)
-          setDone(true)
-          setTimeout(() => setDone(false), 1200)
-        } catch {
-          toast.error('Could not copy')
-        }
-      }}
-      className="group overflow-hidden rounded-[calc(1rem*var(--r-scale,1))] border border-line bg-surface text-left"
-      title={`Copy ${hex}`}
-    >
-      <span className="relative block aspect-[4/3]" style={{ background: hex }}>
-        <span className="absolute right-2 top-2 grid size-7 place-items-center rounded-full bg-black/40 text-white opacity-0 backdrop-blur transition-opacity group-hover:opacity-100">
-          {done ? <Check className="size-3.5" aria-hidden /> : <Copy className="size-3.5" aria-hidden />}
-        </span>
-      </span>
-      <span className="block p-3">
-        <span className="block truncate text-sm text-fg">{name || hex}</span>
-        <span className="flex items-center justify-between gap-2 font-mono text-[11px] text-fg-subtle">
-          {hex}
-          <span className="truncate font-sans">from {source}</span>
-        </span>
-      </span>
-    </button>
-  )
-}
 
 function MetricRow({ axis, a, b, mix, names }: { axis: (typeof METRIC_AXES)[number]; a: number; b: number; mix?: number; names: [string, string] }) {
   return (
@@ -509,48 +391,4 @@ function Panel({ title, items, empty, tone }: { title: string; items?: string[];
   )
 }
 
-function BriefCard({ title, text, wide }: { title: string; text?: string; wide?: boolean }) {
-  if (!text) return null
-  return (
-    <div className={`rounded-2xl border border-line bg-surface p-6 ${wide ? 'md:col-span-2 xl:col-span-3' : ''}`}>
-      <p className="eyebrow">{title}</p>
-      <p className="mt-3 text-sm leading-relaxed text-fg-muted">{text}</p>
-    </div>
-  )
-}
-function ChipCard({ title, items }: { title: string; items: string[] }) {
-  return (
-    <div className="rounded-2xl border border-line bg-surface p-6">
-      <p className="eyebrow">{title}</p>
-      <div className="mt-3 flex flex-wrap gap-1.5">
-        {items.map((i) => (
-          <span key={i} className="rounded-full border border-line-strong px-3 py-1 text-xs text-fg-muted">
-            {i}
-          </span>
-        ))}
-      </div>
-    </div>
-  )
-}
 
-function CopyButton({ text, label, icon }: { text: string; label: string; icon: React.ReactNode }) {
-  const [done, setDone] = useState(false)
-  return (
-    <button
-      type="button"
-      onClick={async () => {
-        try {
-          await navigator.clipboard.writeText(text || window.location.href)
-          setDone(true)
-          toast.success(`${label.replace('Copy ', '')} copied`)
-          setTimeout(() => setDone(false), 1500)
-        } catch {
-          toast.error('Could not copy')
-        }
-      }}
-      className="flex h-10 items-center gap-2 rounded-full border border-line-strong px-4 text-sm text-fg-muted transition-colors hover:border-accent hover:text-fg"
-    >
-      {done ? <Check className="size-4" aria-hidden /> : icon} {label}
-    </button>
-  )
-}

@@ -3,7 +3,7 @@
   "name": "Ancient Egyptian architecture",
   "aliases": [],
   "category": "Architectural Style",
-  "subcategory": "",
+  "subcategory": "Aspect of architecture",
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
@@ -47,7 +47,11 @@
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
-  "materials": [],
+  "materials": [
+    "limestone",
+    "granite",
+    "sandstone"
+  ],
   "textures": [],
   "lighting": {},
   "photography": {},
@@ -60,7 +64,16 @@
   "recipe": {},
   "emotionProfile": {},
   "dnaAxes": {},
-  "keyExamples": [],
+  "keyExamples": [
+    "Great Pyramid of Giza",
+    "The Great Sphinx",
+    "Karnak Temple Complex",
+    "Pyramid of Khafre",
+    "Temple of Debod",
+    "Temple of Hibis",
+    "Great Hypostyle Hall",
+    "Oblisco Capitale"
+  ],
   "sounds": [],
   "tags": [
     "architectural style"
@@ -257,5 +270,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T11:29:57.748Z"
+  "updatedAt": "2026-09-19T01:38:46.034Z"
 }

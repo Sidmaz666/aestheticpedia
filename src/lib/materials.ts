@@ -2,12 +2,8 @@
 import { readFileSync, statSync } from 'node:fs'
 import path from 'node:path'
 
-export interface MaterialEntry {
-  title: string
-  url: string
-  image: { thumb: string; pageUrl: string; license: string; artist?: string } | null
-  extract: string
-}
+import type { MaterialEntry, ResolvedMaterials } from '@/lib/material-types'
+export type { MaterialEntry } from '@/lib/material-types'
 
 const FILE = path.join(process.cwd(), 'public', 'data', 'materials.json')
 let cached: { mtime: number; data: Record<string, MaterialEntry> } | null = null
@@ -26,4 +22,9 @@ export function getMaterialGlossary(): Record<string, MaterialEntry> {
 export function lookupMaterials(terms: string[]): { term: string; entry: MaterialEntry | null }[] {
   const g = getMaterialGlossary()
   return terms.map((term) => ({ term, entry: g[term.toLowerCase().replace(/\s+/g, ' ').trim()] ?? null }))
+}
+
+/** Resolve a record's materials and textures against the glossary (server only). */
+export function resolveMaterials(a: { materials: string[]; textures: string[] }): ResolvedMaterials {
+  return { materials: lookupMaterials(a.materials), textures: lookupMaterials(a.textures) }
 }

@@ -81,16 +81,16 @@ export function synthesize(A: AestheticFull, B: AestheticFull): HybridResult {
     architecture: [first(A.architecture, ['forms', 'structure', 'spaces']), first(B.architecture, ['forms', 'structure', 'spaces'])]
       .filter(Boolean)
       .map(sentence)
-      .join(' '),
+      .join(' / '),
     fashion: [first(A.fashion, ['silhouette', 'garments']), first(B.fashion, ['silhouette', 'garments'])]
       .filter(Boolean)
       .map(sentence)
-      .join(' '),
+      .join(' / '),
     objects: interleave(A.objects, B.objects, 6),
     lighting: [first(A.lighting, ['quality', 'mood', 'sources']), first(B.lighting, ['quality', 'mood', 'sources'])]
       .filter(Boolean)
       .map(sentence)
-      .join(' '),
+      .join(' / '),
     ui: {
       background: A.uiTranslation.background || B.uiTranslation.background,
       surface: B.uiTranslation.surface || A.uiTranslation.surface,
@@ -100,7 +100,7 @@ export function synthesize(A: AestheticFull, B: AestheticFull): HybridResult {
     photography: [first(A.photography, ['style', 'composition']), first(B.photography, ['style', 'composition'])]
       .filter(Boolean)
       .map(sentence)
-      .join(' '),
+      .join(' / '),
     sharedDNA: agreements.slice(0, 4),
     conflicts: conflicts.slice(0, 3),
     synthesis: `Structure and display type come from ${A.name}; surfaces, body text and motion from ${B.name}. The palette interleaves both, anchored by a midpoint blend of their lead colours; materials and objects alternate between the two parents.`,

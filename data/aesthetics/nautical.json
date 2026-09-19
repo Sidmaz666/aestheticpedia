@@ -19,7 +19,33 @@
   "summary": "Nautical interior design aesthetic is a classic architectural style that mimics the timeless, crisp atmosphere of coastal life and sea-faring ships.",
   "description": "Nautical interior design aesthetic is a classic architectural style that mimics the timeless, crisp atmosphere of coastal life and sea-faring ships. It is heavily characterized by a white and navy blue palette, prevalent use of weathered woods, crisp stripes, and authentic maritime artifacts. Unlike broader coastal styles that leans on generally on nautical, beach-like relaxation design specifically evokes a yacht-club, elegance or a rugged sailor's charm.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Serenity, simplicity, environmentalism, appreciation of nature",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#886e51",
+      "name": "bronze"
+    },
+    {
+      "hex": "#161517",
+      "name": "black"
+    },
+    {
+      "hex": "#3a2a2a",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#62584f",
+      "name": "umber"
+    },
+    {
+      "hex": "#60442a",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#aa8a60",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Blue, white , red , cyan, brown"
   },
@@ -63,7 +89,21 @@
     "environmentalism",
     "appreciation of nature"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://openaccess-cdn.clevelandart.org/2021.90/2021.90_web.jpg",
+      "thumb": "https://openaccess-cdn.clevelandart.org/2021.90/2021.90_web.jpg",
+      "full": "https://openaccess-cdn.clevelandart.org/2021.90/2021.90_print.jpg",
+      "pageUrl": "https://clevelandart.org/art/2021.90",
+      "caption": "Woman with elaborate nautical backdrop, America, c. 1860–65",
+      "source": "Cleveland Museum of Art",
+      "date": "c. 1860–65",
+      "license": "CC0 (CMA Open Access)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "734",
+      "height": "900"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Nautical (CC BY-SA)",
@@ -79,5 +119,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-18T15:27:37.842Z"
+  "updatedAt": "2026-09-19T02:02:52.779Z"
 }

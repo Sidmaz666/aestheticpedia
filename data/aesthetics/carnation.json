@@ -3,7 +3,7 @@
   "name": "Carnation",
   "aliases": [],
   "category": "Painting Technique & School",
-  "subcategory": "",
+  "subcategory": "In art, technique for the representation of the color of flesh",
   "establishment": "historical",
   "status": "draft",
   "confidence": 60,
@@ -17,7 +17,33 @@
   "summary": "Carnation (Latin, caro, carnis, “flesh”), in painting, refers to the representation of color of flesh.",
   "description": "Carnation (Latin, caro, carnis, “flesh”), in painting, refers to the representation of color of flesh. It is also used in describing a painting or drawing to signify the undraped parts of a figure.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#504d65",
+      "name": "graphite"
+    },
+    {
+      "hex": "#566286",
+      "name": "slate"
+    },
+    {
+      "hex": "#423849",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#905938",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b17f4d",
+      "name": "copper"
+    },
+    {
+      "hex": "#daa059",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -163,5 +189,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:40:04.479Z"
+  "updatedAt": "2026-09-19T01:38:46.852Z"
 }

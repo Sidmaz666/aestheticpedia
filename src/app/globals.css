@@ -292,50 +292,6 @@
   animation-duration: 0.25s;
 }
 
-/* Live style demo motion presets (used by style-demo.tsx) */
-@keyframes aa-float {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-4px);
-  }
-}
-@keyframes aa-flicker {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  91% {
-    opacity: 1;
-  }
-  92% {
-    opacity: 0.55;
-  }
-  93% {
-    opacity: 1;
-  }
-  96% {
-    opacity: 0.7;
-  }
-  97% {
-    opacity: 1;
-  }
-}
-.aa-motion-float {
-  animation: aa-float 5s ease-in-out infinite;
-}
-.aa-motion-flicker {
-  animation: aa-flicker 4.5s linear infinite;
-}
-@media (prefers-reduced-motion: reduce) {
-  .aa-motion-float,
-  .aa-motion-flicker {
-    animation: none;
-  }
-}
-
 /* Motion (see src/components/site/motion.tsx): hidden until revealed, only when motion is allowed. */
 .motion-ok [data-reveal]:not([data-revealed]),
 .motion-ok [data-reveal-group]:not([data-revealed]),

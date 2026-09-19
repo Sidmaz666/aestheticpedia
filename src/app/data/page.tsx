@@ -187,7 +187,7 @@ export default async function DataPage() {
         <ul className="mt-3 flex flex-wrap gap-2">
           {EXPORT_FORMATS.map((f) => (
             <li key={f.id}>
-              <a href={`/api/v1/aesthetics/bauhaus?format=${f.id}`} className="rounded-full border border-line-strong px-3 py-1 font-mono text-xs text-fg-muted hover:text-fg" title={f.description}>
+              <a href={`/api/v1/aesthetics/bauhaus?format=${f.id}`} className="inline-flex items-center rounded-full border border-line-strong px-3 py-1 font-mono text-xs text-fg-muted hover:text-fg" title={f.description}>
                 {f.id}
               </a>
             </li>

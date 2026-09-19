@@ -7,8 +7,10 @@ import { EXPORT_GROUPS } from './export-formats'
 import { copyText } from './palette-swatches'
 import { SITE_NAME } from '@/lib/site'
 
-export function ExportMenu({ slug }: { slug: string }) {
+/** `hrefFor` overrides where a format is downloaded from (e.g. the Blend API for a blend). */
+export function ExportMenu({ slug, hrefFor }: { slug: string; hrefFor?: (format: string) => string }) {
   const [open, setOpen] = useState(false)
+  const [filter, setFilter] = useState('')
   const ref = useRef<HTMLDivElement>(null)
   const btnRef = useRef<HTMLButtonElement>(null)
   const menuRef = useRef<HTMLDivElement>(null)
@@ -80,14 +82,26 @@ export function ExportMenu({ slug }: { slug: string }) {
           style={{ position: 'fixed', top: pos.top, bottom: pos.bottom, right: pos.right, maxHeight: Math.max(200, pos.maxHeight) }}
           className="z-[120] w-[min(22rem,calc(100vw-1rem))] overflow-y-auto overscroll-contain rounded-2xl border border-line-strong bg-surface p-2 shadow-2xl shadow-black/50 scrollbar-thin animate-in fade-in-0 zoom-in-95 duration-150"
         >
-          {EXPORT_GROUPS.map((g) => (
+          <div className="sticky -top-2 z-10 -mx-2 -mt-2 border-b border-line bg-surface p-2">
+            <input
+              autoFocus
+              value={filter}
+              onChange={(e) => setFilter(e.target.value)}
+              placeholder={`Search ${EXPORT_GROUPS.reduce((n, g) => n + g.formats.length, 0)} formats — tailwind, figma, android…`}
+              aria-label="Filter export formats"
+              className="h-9 w-full rounded-lg border border-line-strong bg-bg px-3 text-sm placeholder:text-fg-subtle focus:border-accent focus:outline-none"
+            />
+          </div>
+          {EXPORT_GROUPS.map((g) => ({ ...g, formats: g.formats.filter((f) => !filter.trim() || `${f.label} ${f.description} ${g.group} ${f.ext}`.toLowerCase().includes(filter.trim().toLowerCase())) }))
+            .filter((g) => g.formats.length)
+            .map((g) => (
             <div key={g.group} className="py-1">
               <p className="eyebrow px-2.5 py-1.5">{g.group}</p>
               {g.formats.map((f) => (
                 <a
                   key={f.id}
                   role="menuitem"
-                  href={`/api/v1/aesthetics/${slug}?format=${f.id}&download=1`}
+                  href={hrefFor ? hrefFor(f.id) : `/api/v1/aesthetics/${slug}?format=${f.id}&download=1`}
                   download
                   onClick={() => setOpen(false)}
                   className="flex items-baseline justify-between gap-3 rounded-lg px-2.5 py-2 text-sm hover:bg-surface-2"
@@ -107,12 +121,12 @@ export function ExportMenu({ slug }: { slug: string }) {
 
 const noop = () => () => {}
 
-export function ShareButton({ slug, name }: { slug: string; name: string }) {
+export function ShareButton({ slug, name, url: shareUrl }: { slug: string; name: string; url?: string }) {
   const [done, setDone] = useState(false)
   // Decided after mount so the server and first client render agree (no hydration mismatch).
   const canShare = useSyncExternalStore(noop, () => typeof navigator.share === 'function', () => false)
   const share = async () => {
-    const url = `${window.location.origin}/aesthetics/${slug}`
+    const url = shareUrl ?? `${window.location.origin}/aesthetics/${slug}`
     if (navigator.share) {
       try {
         await navigator.share({ title: `${name} — ${SITE_NAME}`, url })

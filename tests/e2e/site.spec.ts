@@ -12,7 +12,7 @@ const errorsOf = (page: import('@playwright/test').Page) => {
 test('home renders hero, counts and categories without errors', async ({ page }) => {
   const errors = errorsOf(page)
   await page.goto('/')
-  await expect(page.getByRole('heading', { level: 1 })).toContainText('Every way we have seen and felt the world')
+  await expect(page.getByRole('heading', { level: 1 })).toContainText('Every lens we have for looking at the world')
   await expect(page.getByRole('heading', { name: 'Browse by category' })).toBeVisible()
   expect(await page.locator('a[href^="/aesthetics?category="]').count()).toBeGreaterThan(10)
   expect(errors).toEqual([])
@@ -117,7 +117,7 @@ test('theme toggle switches to light mode', async ({ page }) => {
   await expect(page.locator('html')).toHaveClass(/light/)
 })
 
-test('the robot guide opens, adapts to the page, doubles as back-to-top and tucks away', async ({ page }) => {
+test('the robot guide opens, adapts to the page, and doubles as back-to-top', async ({ page }) => {
   const errors = errorsOf(page)
   await page.goto('/aesthetics/vaporwave')
   const robot = page.getByRole('button', { name: 'Ask the vault guide' })
@@ -136,11 +136,6 @@ test('the robot guide opens, adapts to the page, doubles as back-to-top and tuck
   await top.click()
   await expect.poll(() => page.evaluate(() => window.scrollY)).toBeLessThan(50)
 
-  await robot.hover()
-  await page.getByRole('button', { name: 'Tuck the guide away' }).click()
-  await expect(page.getByRole('button', { name: 'Wake the vault guide' })).toBeVisible()
-  await page.getByRole('button', { name: 'Wake the vault guide' }).click()
-  await expect(page.getByRole('button', { name: 'Ask the vault guide' })).toBeVisible()
   expect(errors).toEqual([])
 })
 

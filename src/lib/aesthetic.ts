@@ -285,6 +285,10 @@ export interface HybridResponse {
   parents: BlendParent[]
   /** Palette metrics of the blended palette (same scale as the parents'). */
   metrics?: PaletteMetrics | null
+  /** The blend as a full record (every aesthetic-page section and export works on it). */
+  record?: AestheticFull
+  /** Material/texture photos for the blend (resolved on the server). */
+  materialPhotos?: import('@/lib/material-types').ResolvedMaterials
   label: string
 }
 

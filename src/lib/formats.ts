@@ -9,6 +9,7 @@ import { METRIC_AXES } from '@/lib/palette-metrics'
 
 export { EXPORT_FORMATS, type ExportFormat } from '@/lib/export-formats'
 import { EXPORT_FORMATS } from '@/lib/export-formats'
+import * as D from '@/lib/formats-design'
 
 export const pageUrl = (slug: string) => `${SITE_URL}/aesthetics/${slug}`
 
@@ -492,6 +493,48 @@ export function renderFormat(
         return toBibtex(a)
       case 'ris':
         return toRis(a)
+      case 'shadcn':
+        return D.toShadcnCss(a)
+      case 'shadcn-json':
+        return json(D.toShadcnRegistry(a))
+      case 'tailwind3':
+        return D.toTailwind3(a)
+      case 'daisyui':
+        return D.toDaisyUI(a)
+      case 'mui':
+        return D.toMui(a)
+      case 'chakra':
+        return D.toChakra(a)
+      case 'bootstrap':
+        return D.toBootstrap(a)
+      case 'less':
+        return D.toLess(a)
+      case 'stylus':
+        return D.toStylus(a)
+      case 'theme-ts':
+        return D.toThemeTs(a)
+      case 'style-dictionary':
+        return json(D.toStyleDictionary(a))
+      case 'tokens-studio':
+        return json(D.toTokensStudio(a))
+      case 'colors-json':
+        return json(D.toColorValues(a))
+      case 'sketch':
+        return json(D.toSketchPalette(a))
+      case 'procreate':
+        return D.toProcreate(a)
+      case 'aco':
+        return D.toAco(a)
+      case 'paintnet':
+        return D.toPaintNet(a)
+      case 'android':
+        return D.toAndroidXml(a)
+      case 'swiftui':
+        return D.toSwiftUI(a)
+      case 'flutter':
+        return D.toFlutter(a)
+      case 'compose':
+        return D.toCompose(a)
     }
     return ''
   })()
