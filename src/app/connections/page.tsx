@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { GraphView } from '@/components/views/graph'
+import { ConnectionsView } from '@/components/views/connections'
 import { getGraph } from '@/lib/queries'
 
 export const revalidate = 3600
@@ -11,5 +11,5 @@ export const metadata: Metadata = {
 
 export default async function ConnectionsPage() {
   const { nodes, links } = await getGraph()
-  return <GraphView nodes={nodes} links={links} />
+  return <ConnectionsView nodes={nodes} links={links} />
 }

@@ -343,3 +343,35 @@
 .motion-ok [data-split]:not([data-split-done]) {
   visibility: hidden;
 }
+
+/* Discover: sliders drawn as the quality they measure (track = gradient set inline). */
+.discover-range {
+  appearance: none;
+  height: 0.5rem;
+  border-radius: 999px;
+  background-size: 100% 100%;
+  outline: none;
+}
+.discover-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 999px;
+  background: var(--bg);
+  border: 3px solid var(--fg);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.35);
+  cursor: grab;
+}
+.discover-range::-moz-range-thumb {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 999px;
+  background: var(--bg);
+  border: 3px solid var(--fg);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.35);
+  cursor: grab;
+}
+.discover-range:focus-visible::-webkit-slider-thumb {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}

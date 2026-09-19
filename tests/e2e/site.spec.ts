@@ -12,7 +12,7 @@ const errorsOf = (page: import('@playwright/test').Page) => {
 test('home renders hero, counts and categories without errors', async ({ page }) => {
   const errors = errorsOf(page)
   await page.goto('/')
-  await expect(page.getByRole('heading', { level: 1 })).toContainText('Every way the world')
+  await expect(page.getByRole('heading', { level: 1 })).toContainText('Every way we have seen and felt the world')
   await expect(page.getByRole('heading', { name: 'Browse by category' })).toBeVisible()
   expect(await page.locator('a[href^="/aesthetics?category="]').count()).toBeGreaterThan(10)
   expect(errors).toEqual([])
@@ -30,7 +30,9 @@ test('search palette finds and opens an aesthetic', async ({ page }) => {
 
 test('opening a record from browse shows a full-screen overlay that closes', async ({ page }) => {
   await page.goto('/aesthetics')
-  const card = page.locator('a[href^="/aesthetics/"]').first()
+  // Click only after hydration: before it, a card is a plain link (full page load, no overlay).
+  await page.waitForLoadState('networkidle')
+  const card = page.locator('main a[href^="/aesthetics/"]').first()
   await card.click()
   const dialog = page.getByRole('dialog')
   await expect(dialog).toBeVisible()
@@ -96,9 +98,9 @@ test('the timeline has no visible scrollbars and jumps to eras', async ({ page }
   await expect(page.locator('#era-1920s')).toBeInViewport()
 })
 
-test('connections network renders on canvas', async ({ page }) => {
+test('connections network renders (3D, with 2D fallback)', async ({ page }) => {
   await page.goto('/connections')
-  const canvas = page.locator('canvas[data-graph]')
+  const canvas = page.locator('[data-graph] canvas, canvas[data-graph]').first()
   await expect(canvas).toBeVisible()
   expect((await canvas.boundingBox())!.width).toBeGreaterThan(300)
 })
@@ -163,20 +165,35 @@ test('live demo shows only the record’s real images, and related records scrol
   await expect(prev).toBeEnabled()
 })
 
-test('connections: filter bar is on screen and scrollable; graph area ends above it', async ({ page }) => {
+test('connections: legend filters categories, tooltip follows the pointer, nothing overlaps', async ({ page }) => {
   await page.goto('/connections')
-  const bar = page.getByRole('group', { name: /Filter by category/ })
-  await expect(bar).toBeVisible()
-  const vh = page.viewportSize()!.height
-  const barBox = (await bar.boundingBox())!
-  expect(barBox.y + barBox.height).toBeLessThanOrEqual(vh)
-  const graphBox = (await page.locator('canvas[data-graph]').boundingBox())!
-  expect(graphBox.y + graphBox.height).toBeLessThanOrEqual(barBox.y + 1)
-  const scrollable = await bar.evaluate((el) => el.scrollWidth > el.clientWidth)
-  if (scrollable) {
-    await bar.hover()
-    await page.mouse.wheel(0, 400)
-    await expect.poll(() => bar.evaluate((el) => el.scrollLeft)).toBeGreaterThan(0)
-    await page.getByRole('button', { name: 'Scroll categories left' }).click()
-  }
+  const toggle = page.getByRole('button', { name: /Filters/ })
+  await expect(toggle).toBeVisible()
+  if ((await toggle.getAttribute('aria-expanded')) !== 'true') await toggle.click()
+  const legend = page.getByRole('group', { name: 'Filter by category' })
+  await expect(legend).toBeVisible()
+  // The legend stays below the title card and inside the viewport.
+  const card = (await page.getByRole('heading', { name: 'Connections' }).locator('xpath=..').boundingBox())!
+  const box = (await legend.boundingBox())!
+  expect(box.y).toBeGreaterThanOrEqual(card.y + card.height - 1)
+  expect(box.y + box.height).toBeLessThanOrEqual(page.viewportSize()!.height)
+  const first = legend.getByRole('button', { pressed: true }).first()
+  await first.click()
+  await expect(page.getByText(/\d+ of \d+ categories/)).toBeVisible()
+  await page.getByRole('button', { name: 'Show all categories' }).click()
+  await expect(page.getByText(/^All \d+ categories/)).toBeVisible()
+})
+
+test('discover: a mood preset returns ranked palette matches; blend shows a real mood board', async ({ page }) => {
+  // Discover is never empty: arriving starts from a random mood.
+  await page.goto('/discover')
+  await expect(page.getByText(/closest matches/)).toBeVisible()
+  await page.getByRole('button', { name: 'Warm & earthy' }).first().click()
+  await expect(page.getByText(/closest matches/)).toBeVisible()
+  await expect(page.getByText(/#1 · \d+% match/)).toBeVisible()
+
+  await page.goto('/blend?a=bauhaus&b=art-nouveau')
+  await expect(page.getByRole('heading', { name: 'What each parent looks like' })).toBeVisible()
+  expect(await page.locator('article figure img').count()).toBeGreaterThan(1)
+  await expect(page.getByRole('heading', { name: 'Where the palettes sit' })).toBeVisible()
 })

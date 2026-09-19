@@ -1,9 +1,9 @@
 'use client'
 
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react'
 import { useRouter } from 'next/navigation'
 import { forceCenter, forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY, type Simulation, type SimulationLinkDatum, type SimulationNodeDatum } from 'd3-force'
-import { ChevronLeft, ChevronRight, Maximize, Minus, Plus, Search } from 'lucide-react'
+import { ChevronUp, Maximize, Minus, Plus, Search } from 'lucide-react'
 import type { GraphLink, GraphNode } from '@/lib/queries'
 import { categoryColor } from '@/lib/category-colors'
 import { Thumb } from '@/components/aesthetic/thumb'
@@ -24,10 +24,11 @@ const LINK_LABEL: Record<string, string> = {
   hybrid_of: 'hybrid of',
 }
 
-export function GraphView({ nodes: rawNodes, links: rawLinks }: { nodes: GraphNode[]; links: GraphLink[] }) {
+export function GraphView({ nodes: rawNodes, links: rawLinks, onSwitch3D }: { nodes: GraphNode[]; links: GraphLink[]; onSwitch3D?: () => void }) {
   const router = useRouter()
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const wrapRef = useRef<HTMLDivElement>(null)
+  const tipRef = useRef<HTMLDivElement>(null)
   const [hidden, setHidden] = useState<Set<string>>(() => new Set())
   const [hover, setHover] = useState<N | null>(null)
   const [focus, setFocus] = useState<string | null>(null)
@@ -221,6 +222,17 @@ export function GraphView({ nodes: rawNodes, links: rawLinks }: { nodes: GraphNo
       }
       const n = pick(e.clientX - rect.left, e.clientY - rect.top)
       canvas.style.cursor = n ? 'pointer' : 'grab'
+      const tip = tipRef.current
+      if (tip && n) {
+        const px = e.clientX - rect.left
+        const py = e.clientY - rect.top
+        const tw = tip.offsetWidth || 288
+        const th = tip.offsetHeight || 72
+        // Prefer below-right of the pointer; flip when it would leave the graph.
+        const x = px + 18 + tw > rect.width - 8 ? px - 18 - tw : px + 18
+        const y = py + 18 + th > rect.height - 8 ? py - 18 - th : py + 18
+        tip.style.transform = `translate(${Math.max(8, x)}px, ${Math.max(8, y)}px)`
+      }
       setHover((prev) => (prev?.slug === n?.slug ? prev : n))
     }
     const onUp = (e: PointerEvent) => {
@@ -339,55 +351,55 @@ export function GraphView({ nodes: rawNodes, links: rawLinks }: { nodes: GraphNo
           >
             <Maximize className="size-4" aria-hidden />
           </IconBtn>
+          {onSwitch3D && (
+            <button type="button" onClick={onSwitch3D} className="rounded-full px-3 text-xs text-fg-muted hover:bg-surface-2 hover:text-fg">
+              3D view
+            </button>
+          )}
         </div>
       </div>
 
-      {/* Hover card — inside the graph area, so the filter bar can never cover it */}
-      {hover && (
-        <div className="pointer-events-none absolute bottom-4 left-1/2 z-10 flex w-[min(24rem,calc(100%-2rem))] -translate-x-1/2 items-center gap-3 rounded-2xl border border-line-strong bg-bg/90 p-3 shadow-2xl shadow-black/40 backdrop-blur-xl">
-          <Thumb image={hover.image} name={hover.name} className="size-14 rounded-xl" />
-          <span className="min-w-0">
-            <span className="block truncate font-medium">{hover.name}</span>
-            <span className="block truncate text-xs text-fg-subtle">
-              {hover.category}
-              {hover.startYear !== null ? ` · ${hover.startYear < 0 ? `${-hover.startYear} BCE` : hover.startYear}` : ''} · {hover.degree} connections
-            </span>
-          </span>
-        </div>
-      )}
-
-      </div>
-
-      {/* Legend / filters */}
-      <CategoryBar
-        count={categories.length}
-        hiddenCount={hidden.size}
-        onAll={() => setHidden(new Set())}
-        onNone={() => setHidden(new Set(categories.map(([c]) => c)))}
+      {/* Tooltip: follows the pointer, positioned directly (no re-render per move), clamped inside the graph */}
+      <div
+        ref={tipRef}
+        role="tooltip"
+        className={`pointer-events-none absolute left-0 top-0 z-20 flex w-72 items-center gap-3 rounded-2xl border border-line-strong bg-bg/95 p-2.5 pr-3.5 shadow-2xl shadow-black/50 backdrop-blur-xl transition-opacity duration-150 ${hover ? 'opacity-100' : 'opacity-0'}`}
       >
-          {categories.map(([c, n]) => {
-            const off = hidden.has(c)
-            return (
-              <button
-                key={c}
-                type="button"
-                aria-pressed={!off}
-                onClick={() =>
-                  setHidden((s) => {
-                    const next = new Set(s)
-                    if (next.has(c)) next.delete(c)
-                    else next.add(c)
-                    return next
-                  })
-                }
-                className={`flex shrink-0 items-center gap-2 rounded-full border px-3 py-1.5 text-xs transition-opacity ${off ? 'border-line opacity-40' : 'border-line-strong'}`}
-              >
-                <span className="size-2.5 rounded-full" style={{ background: categoryColor(c) }} />
-                {c} <span className="text-fg-subtle">{n}</span>
-              </button>
-            )
-          })}
-      </CategoryBar>
+        {hover && (
+          <>
+            <Thumb image={hover.image} name={hover.name} className="size-12 rounded-xl" />
+            <span className="min-w-0">
+              <span className="block truncate text-sm font-medium text-fg">{hover.name}</span>
+              <span className="mt-0.5 flex items-center gap-1.5 truncate text-xs text-fg-subtle">
+                <span className="size-2 shrink-0 rounded-full" style={{ background: categoryColor(hover.category) }} />
+                {hover.category}
+              </span>
+              <span className="block truncate text-[11px] text-fg-subtle">
+                {hover.startYear !== null ? `${hover.startYear < 0 ? `${-hover.startYear} BCE` : hover.startYear} · ` : ''}
+                {hover.degree} connection{hover.degree === 1 ? '' : 's'} · click to open
+              </span>
+            </span>
+          </>
+        )}
+      </div>
+
+      {/* Legend: categories as a collapsible panel (bottom-left, clear of the robot guide) */}
+      <Legend
+        categories={categories}
+        hidden={hidden}
+        visible={nodes.length}
+        onToggle={(c) =>
+          setHidden((s) => {
+            const next = new Set(s)
+            if (next.has(c)) next.delete(c)
+            else next.add(c)
+            return next
+          })
+        }
+        onOnly={(c) => setHidden(new Set(categories.map(([x]) => x).filter((x) => x !== c)))}
+        onAll={() => setHidden(new Set())}
+      />
+      </div>
       <p className="sr-only">Relation types: {Object.values(LINK_LABEL).join(', ')}</p>
     </main>
   )
@@ -401,54 +413,73 @@ function IconBtn({ label, onClick, children }: { label: string; onClick: () => v
   )
 }
 
-/** Bottom filter bar: wheel scrolls it sideways, arrows page through it, edges fade when there is more. */
-function CategoryBar({ children, count, hiddenCount, onAll, onNone }: { children: React.ReactNode; count: number; hiddenCount: number; onAll: () => void; onNone: () => void }) {
-  const track = useRef<HTMLDivElement>(null)
-  const [edge, setEdge] = useState({ start: true, end: false })
-  const measure = () => {
-    const el = track.current
-    if (!el) return
-    setEdge({ start: el.scrollLeft <= 2, end: el.scrollLeft + el.clientWidth >= el.scrollWidth - 2 })
-  }
-  useEffect(() => {
-    const el = track.current
-    if (!el) return
-    measure()
-    const ro = new ResizeObserver(measure)
-    ro.observe(el)
-    // A vertical mouse wheel scrolls the bar sideways (it has no vertical overflow).
-    const onWheel = (e: WheelEvent) => {
-      if (Math.abs(e.deltaY) > Math.abs(e.deltaX) && el.scrollWidth > el.clientWidth) {
-        e.preventDefault()
-        el.scrollLeft += e.deltaY
-      }
-    }
-    el.addEventListener('wheel', onWheel, { passive: false })
-    return () => {
-      ro.disconnect()
-      el.removeEventListener('wheel', onWheel)
-    }
-  }, [])
-  const page = (d: number) => track.current?.scrollBy({ left: d * track.current.clientWidth * 0.8, behavior: 'smooth' })
-  const btn = 'grid size-8 shrink-0 place-items-center rounded-full border border-line-strong text-fg-muted transition-colors hover:text-fg disabled:opacity-30'
+const subscribeWide = (cb: () => void) => {
+  const mq = window.matchMedia('(min-width: 1024px)')
+  mq.addEventListener('change', cb)
+  return () => mq.removeEventListener('change', cb)
+}
+
+/** Category legend and filter: one row per category with its colour, count, toggle and "only". */
+function Legend({
+  categories,
+  hidden,
+  visible,
+  onToggle,
+  onOnly,
+  onAll,
+}: {
+  categories: [string, number][]
+  hidden: Set<string>
+  visible: number
+  onToggle: (c: string) => void
+  onOnly: (c: string) => void
+  onAll: () => void
+}) {
+  // Open by default on wide screens, collapsed on phones; the visitor's choice wins.
+  const wide = useSyncExternalStore(subscribeWide, () => window.matchMedia('(min-width: 1024px)').matches, () => false)
+  const [choice, setOpen] = useState<boolean | null>(null)
+  const open = choice ?? wide
   return (
-    <div className="relative z-10 flex items-center gap-2 border-t border-line bg-bg/90 py-2.5 pl-4 pr-24 backdrop-blur-xl sm:pl-6 sm:pr-28 lg:pl-10">
-      <button type="button" className={btn} onClick={() => page(-1)} disabled={edge.start} aria-label="Scroll categories left">
-        <ChevronLeft className="size-4" aria-hidden />
-      </button>
-      <div className="relative min-w-0 flex-1">
-        <div ref={track} onScroll={measure} role="group" aria-label={`Filter by category (${count})`} className="no-scrollbar flex gap-1.5 overflow-x-auto scroll-smooth">
-          {children}
-        </div>
-        <span className={`pointer-events-none absolute inset-y-0 left-0 w-8 bg-gradient-to-r from-bg to-transparent transition-opacity ${edge.start ? 'opacity-0' : ''}`} />
-        <span className={`pointer-events-none absolute inset-y-0 right-0 w-8 bg-gradient-to-l from-bg to-transparent transition-opacity ${edge.end ? 'opacity-0' : ''}`} />
+    <div className="pointer-events-auto absolute bottom-4 left-4 z-10 w-[min(20rem,calc(100%-8rem))] sm:left-6 lg:left-10">
+      <div className="overflow-hidden rounded-2xl border border-line bg-bg/85 shadow-xl shadow-black/30 backdrop-blur-xl">
+        <button type="button" onClick={() => setOpen(!open)} aria-expanded={open} aria-controls="graph-legend" className="flex w-full items-center justify-between gap-3 px-4 py-3 text-left">
+          <span>
+            <span className="eyebrow block">Categories</span>
+            <span className="text-xs text-fg-muted">
+              {hidden.size ? `${categories.length - hidden.size} of ${categories.length} shown` : `All ${categories.length} shown`} · {visible.toLocaleString('en')} nodes
+            </span>
+          </span>
+          <ChevronUp className={`size-4 text-fg-subtle transition-transform ${open ? '' : 'rotate-180'}`} aria-hidden />
+        </button>
+        {open && (
+          <div id="graph-legend" className="border-t border-line">
+            <ul role="group" aria-label="Filter by category" style={{ maxHeight: 'min(22rem, max(7rem, calc(100svh - 34rem)))' }} className="overflow-y-auto overscroll-contain p-1.5 scrollbar-thin">
+              {categories.map(([c, n]) => {
+                const off = hidden.has(c)
+                return (
+                  <li key={c} className="group flex items-center gap-1 rounded-lg hover:bg-surface-2">
+                    <button type="button" aria-pressed={!off} onClick={() => onToggle(c)} className="flex min-w-0 flex-1 items-center gap-2.5 px-2.5 py-1.5 text-left text-sm">
+                      <span className={`size-3 shrink-0 rounded-full ring-2 ring-offset-2 ring-offset-bg transition ${off ? 'opacity-30 ring-transparent' : 'ring-transparent'}`} style={{ background: categoryColor(c) }} />
+                      <span className={`min-w-0 flex-1 truncate ${off ? 'text-fg-subtle line-through decoration-fg-subtle/50' : 'text-fg'}`}>{c}</span>
+                      <span className="font-mono text-[11px] text-fg-subtle">{n}</span>
+                    </button>
+                    <button type="button" onClick={() => onOnly(c)} className="mr-1 rounded-md px-2 py-1 text-[11px] text-fg-subtle opacity-0 transition-opacity hover:bg-bg hover:text-fg focus-visible:opacity-100 group-hover:opacity-100">
+                      only
+                    </button>
+                  </li>
+                )
+              })}
+            </ul>
+            {hidden.size > 0 && (
+              <div className="border-t border-line p-2">
+                <button type="button" onClick={onAll} className="w-full rounded-lg py-1.5 text-xs text-fg-muted hover:bg-surface-2 hover:text-fg">
+                  Show all categories
+                </button>
+              </div>
+            )}
+          </div>
+        )}
       </div>
-      <button type="button" className={btn} onClick={() => page(1)} disabled={edge.end} aria-label="Scroll categories right">
-        <ChevronRight className="size-4" aria-hidden />
-      </button>
-      <button type="button" onClick={hiddenCount ? onAll : onNone} className="hidden shrink-0 rounded-full border border-line-strong px-3 py-1.5 text-xs text-fg-muted hover:text-fg sm:block">
-        {hiddenCount ? 'Show all' : 'Hide all'}
-      </button>
     </div>
   )
 }

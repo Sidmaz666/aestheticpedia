@@ -25,7 +25,7 @@ export default async function Home() {
         <div className="mx-auto flex min-h-[92svh] max-w-[1600px] flex-col items-center justify-center px-4 py-24 text-center sm:px-6 lg:px-10">
           <p className="eyebrow animate-fade-up">{SITE_TAGLINE}</p>
           <h1 data-split className="display mt-6 max-w-5xl animate-fade-up text-[clamp(3.4rem,9vw,8.5rem)] [animation-delay:80ms]">
-            Every way the world has chosen to look.
+            Every way we have seen <em className="not-italic text-accent">and felt</em> the world
           </h1>
           <p className="mt-6 max-w-2xl animate-fade-up text-lg leading-relaxed text-fg-muted [animation-delay:160ms]">
             {fmt(stats.total)} aesthetics — from Nok terracotta to vaporwave — documented with real images, palettes,

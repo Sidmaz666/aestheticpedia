@@ -267,9 +267,24 @@ export interface HybridResult {
   synthesis?: string
 }
 
+export interface BlendParent {
+  slug: string
+  name: string
+  colors: ColorEntry[]
+  category?: string
+  summary?: string
+  periodStart?: string
+  origin?: string
+  /** Up to four of the parent's documented images (with credits). */
+  images?: { url: string; thumb?: string; caption: string; artist?: string; license?: string; source: string; pageUrl?: string }[]
+  metrics?: PaletteMetrics | null
+}
+
 export interface HybridResponse {
   hybrid: HybridResult
-  parents: { slug: string; name: string; colors: ColorEntry[] }[]
+  parents: BlendParent[]
+  /** Palette metrics of the blended palette (same scale as the parents'). */
+  metrics?: PaletteMetrics | null
   label: string
 }
 
