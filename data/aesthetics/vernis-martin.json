@@ -19,7 +19,33 @@
   "summary": "In French interior design, vernis Martin is a type (or a number of types) of japanning or imitation lacquer named after the 18th century French Martin brothers: Guillaume (died 1749), Etienne-Simon, Robert and Julien.",
   "description": "In French interior design, vernis Martin is a type (or a number of types) of japanning or imitation lacquer named after the 18th century French Martin brothers: Guillaume (died 1749), Etienne-Simon, Robert and Julien. They ran a leading factory from between about 1730 and 1770, and were vernisseurs du roi (\"varnishers to the king\"). But they did not invent the process, nor were they the only producers, nor does the term cover a single formula or technique.  It imitated Chinese lacquer and European subjects, and was applied to a wide variety of items, from furniture to coaches. It is said to have been made by heating oil and copal and then adding Venetian turpentine.\n\nOriental lacquer had speedily acquired high favour in France, and many attempts were made to imitate it. Some of these attempts were passably successful, and it is likely that many of the examples in the possession of Louis XIV at his death were of European manufacture. Chinese lacquer was, however, imported in large quantities, and sometimes panels were made in China from designs prepared in Paris.\n\nBiographical details of the career of the brothers Martin are scanty, but it is known that Guillaume, the eldest, was already in business in 1724. Their method and work must have come rapidly into vogue, for in 1730 Guillaume and Simon Martin were granted by letters patent a twenty years' monopoly, subsequently renewed, of making \"toutes sortes d'ouvrages en relief de la Chine et du Japon\" (\"all kinds of relief works from China and Japan\"). At the height of their fame the brothers directed at least three factories in Paris, and in 1748 they were all classed together as a \"Manufacture nationale.\" One of them was still in existence in 1785.\n\nThe literature of their day had much to say of the Martin brothers. In Voltaire's comedy Nadine, produced in 1749, mention is made of a berline (carriage) \"bonne et brillante, tous les panneaux par Martin sont vernis\" (\"good and bright, all the panels varnished by Martin\"). The Marquis de Mirabeau in L'Ami des hommes refers to the enamelled snuff-boxes and varnished carriages which came from the Martins' factory. As with many great artists, their names were attached to many works they never saw, and the Martins suffered considerably in this respect. That the quality of their production varied between very wide limits is established by existing and undoubted exampl",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a3a3a2",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#111111",
+      "name": "black"
+    },
+    {
+      "hex": "#3a3936",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#5f3b1d",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#7f7e7d",
+      "name": "taupe"
+    },
+    {
+      "hex": "#5e5d5b",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,23 +69,32 @@
   ],
   "images": [
     {
-      "url": "https://www.artic.edu/iiif/2/bc6e99eb-ef03-0bd6-bc09-d337a4a494c6/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/bc6e99eb-ef03-0bd6-bc09-d337a4a494c6/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/bc6e99eb-ef03-0bd6-bc09-d337a4a494c6/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/4215",
-      "caption": "Fan (Vernis Martin Type), Louis XV period (1715–1774), 1725–1774",
-      "source": "Art Institute of Chicago",
-      "artist": "France",
-      "date": "Louis XV period (1715–1774), 1725–1774",
-      "license": "Public domain (CC0)",
+      "url": "https://openaccess-cdn.clevelandart.org/1916.356/1916.356_web.jpg",
+      "thumb": "https://openaccess-cdn.clevelandart.org/1916.356/1916.356_web.jpg",
+      "full": "https://openaccess-cdn.clevelandart.org/1916.356/1916.356_print.jpg",
+      "pageUrl": "https://clevelandart.org/art/1916.356",
+      "caption": "Snuff Box, France, 1780–1800",
+      "source": "Cleveland Museum of Art",
+      "artist": "François Boucher (French, 1703–1770)",
+      "date": "1780–1800",
+      "license": "CC0 (CMA Open Access)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "526",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
+      "width": "900",
+      "height": "648"
+    },
+    {
+      "url": "https://openaccess-cdn.clevelandart.org/1916.356.b/1916.356.b_web.jpg",
+      "thumb": "https://openaccess-cdn.clevelandart.org/1916.356.b/1916.356.b_web.jpg",
+      "full": "https://openaccess-cdn.clevelandart.org/1916.356.b/1916.356.b_print.jpg",
+      "pageUrl": "https://clevelandart.org/art/1916.356.b",
+      "caption": "Cover for a Snuff Box, France, 1780–1800",
+      "source": "Cleveland Museum of Art",
+      "artist": "François Boucher (French, 1703–1770)",
+      "date": "1780–1800",
+      "license": "CC0 (CMA Open Access)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "900",
+      "height": "880"
     }
   ],
   "sources": [
@@ -93,7 +128,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
+        "checkedAt": "2026-09-19T14:53:18.618Z"
       }
     },
     {
@@ -104,7 +139,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
+        "checkedAt": "2026-09-19T14:53:18.618Z"
       }
     }
   ],
@@ -115,5 +150,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T14:58:43.220Z"
+  "updatedAt": "2026-09-19T14:55:30.828Z"
 }

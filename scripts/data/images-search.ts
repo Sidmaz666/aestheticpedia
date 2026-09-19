@@ -165,12 +165,15 @@ async function openverse(a: AestheticRecord): Promise<ImageRecord[]> {
 
 // Records with no images, plus records whose images came from an earlier search pass
 // (no Wikipedia match, not museum-sourced) so they are re-checked under the current rules.
+// Records illustrated only by the Art Institute of Chicago (served through the site's relay, see
+// src/lib/image-url.ts) are searched too; anything found goes first and the AIC images are kept after it.
 // Hand-curated image sets (data/curated-images.json) are never re-searched.
+const aicOnly = (a: AestheticRecord) => a.images.length > 0 && a.images.every((i) => /artic\.edu\//.test(i.url))
 const CURATED = new Set<string>(JSON.parse(readFileSync(new URL('../../data/curated-images.json', import.meta.url), 'utf8')).slugs)
 const todo = ALL.filter(
   (a) =>
     !CURATED.has(a.slug) &&
-    (a.images.length === 0 || (!a.wikipedia && a.images.every((i) => i.source === 'Wikimedia Commons' || i.source.startsWith('Openverse'))))
+    (a.images.length === 0 || aicOnly(a) || (!a.wikipedia && a.images.every((i) => i.source === 'Wikimedia Commons' || i.source.startsWith('Openverse'))))
 )
 console.log(`${todo.length} records without images`)
 let found = 0
@@ -179,7 +182,14 @@ await pool(todo, 3, async (a) => {
   try {
     let imgs = REVIEWED_NO_MATCH.has(a.slug) ? [] : await commons(a)
     if (!imgs.length && !REVIEWED_NO_MATCH.has(a.slug)) imgs = await openverse(a)
-    if (imgs.length || a.images.length) {
+    if (aicOnly(a)) {
+      if (imgs.length) {
+        a.images = [...imgs, ...a.images]
+        a.updatedAt = new Date().toISOString()
+        saveAesthetic(a)
+        found++
+      }
+    } else if (imgs.length || a.images.length) {
       a.images = imgs
       a.updatedAt = new Date().toISOString()
       saveAesthetic(a)

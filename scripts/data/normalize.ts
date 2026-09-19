@@ -85,10 +85,30 @@ for (const a of aesthetics as any[]) {
     (i: any) => i?.check?.ok !== false && !NOT_EXAMPLE.test(`${decodeURIComponent(String(i.url).split('/').pop() ?? '')} ${i.caption ?? ''}`.replace(/_/g, ' '))
   )
   a.images = (a.images ?? []).filter((i: any) => isUrl(i?.url))
+  // Art Institute of Chicago images go last: they reach visitors through the site's relay
+  // (src/lib/image-url.ts), so the hero and first gallery images come straight from their source.
+  const aic = (i: any) => /artic\.edu\//.test(String(i.url))
+  a.images = [...a.images.filter((i: any) => !aic(i)), ...a.images.filter(aic)]
   if (!AI_SUBJECTS.has(a.slug)) a.images = a.images.filter((i: any) => !AI_MADE.test(`${i.caption ?? ''} ${safeDecode(String(i.url))} ${i.artist ?? ''}`))
   for (const f of ['aliases', 'materials', 'textures', 'objects', 'keyExamples', 'sounds', 'tags']) a[f] = uniqStr(a[f] ?? [])
   for (const f of ['summary', 'description', 'culturalContext', 'origin', 'geography', 'era', 'periodStart', 'periodEnd'])
     a[f] = String(a[f] ?? '').trim()
+  // Period labels split on their hyphen by an earlier import: "Pre-colonial to present" became
+  // start "Pre" + end "colonial to present", "mid-1900s" became "mid" + "1900s", and "19th century"
+  // lost its noun. Rejoin them; "Unknown" is not a period.
+  if (/^(pre|mid|early|late)$/i.test(a.periodStart) && a.periodEnd) {
+    const [s, e] = `${a.periodStart}-${a.periodEnd}`.split(/\s+to\s+/i)
+    a.periodStart = s.trim()
+    a.periodEnd = (e ?? '').trim()
+  }
+  if (/^\d{1,2}(st|nd|rd|th)$/i.test(a.periodStart)) a.periodStart += ' century'
+  if (/^(unknown|n\/a|none|-)$/i.test(a.periodStart)) a.periodStart = ''
+  // Only labels that state a date: a century, a decade or a 3–4 digit year (not "5th dynasty").
+  // "pre-1500s" means before, so its start is unknown.
+  if (a.startYear === null && !/^pre\b/i.test(a.periodStart) && /\d(st|nd|rd|th)[\s-]+century|\d{3}0s|\b\d{3,4}\b/i.test(a.periodStart)) {
+    const y = parseYear(a.periodStart, 'start')
+    if (y !== null && y >= -50000 && y <= new Date().getFullYear()) a.startYear = y
+  }
   // Derived exactly from other fields: where it is, when it began.
   if (!a.geography && a.origin) a.geography = a.origin
   if (!a.era && typeof a.startYear === 'number') a.era = eraLabel(a.startYear)

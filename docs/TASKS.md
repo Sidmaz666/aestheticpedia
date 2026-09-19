@@ -6,12 +6,33 @@ A running log of what has been done and what is next. Newest first. Keep entries
 
 | Metric | Value |
 |---|---|
-| Records | 4,739 across 24 categories; 3,979 with images; live counts in `public/data/manifest.json` |
-| Images | 27,379 freely licensed, all with artist/license/source page; every image URL verified live (2026-09-19 full check: 0 broken) |
+| Records | 4,739 across 24 categories; 3,783 with images; live counts in `public/data/manifest.json` |
+| Images | 24,858 freely licensed, all with artist/license/source page and matched to the record they illustrate |
 | Relations | 8,761 |
 | Coverage | Every UN member state has at least one record except Grenada, Liechtenstein, Maldives, San Marino, São Tomé and Príncipe, and Saint Vincent (no documented visual tradition found in open sources) |
-| Known gaps | 759 records without images (mostly internet aesthetics with no freely licensed pictures), 2,178 without a start year, 1,539 without an origin, 374 without a palette. Editorial fields (style/mood profiles, UI translation, lighting, type pairing) are empty for most records because no source provides them — left empty rather than invented |
-| Tests | 89 unit (Vitest) · 30 e2e (Playwright, desktop + mobile) |
+| Known gaps | 956 records without images (no freely licensed picture that depicts the aesthetic — mostly internet aesthetics and recent movements still under copyright), 1,962 without a start year, 1,522 without an origin, 372 without a palette. Editorial fields (style/mood profiles, UI translation, lighting, type pairing) are empty for most records because no source provides them — left empty rather than invented |
+| Tests | 91 unit (Vitest) · 30 e2e (Playwright, desktop + mobile) |
+
+## 2026-09-19 — Round 5: Vercel limits, image relay, gap audit
+
+- [x] Vercel build failed on `/llms-full.txt` (25 MB prerendered response; the ISR limit is 19 MB). It is now a static
+      file written by `scripts/data/llms-full.ts` during `npm run data:build`, with the site's own Markdown formatter
+      (`scripts/data/alias.ts` lets data scripts import `@/lib/*`). Every prerendered page is < 4 MB.
+- [x] `/api/v1/aesthetics?format=ndjson|csv|md` returned up to 5,000 full records (~40 MB) — over the 4.5 MB function
+      response limit. Full-record formats are now paged (≤ 200 per request, `&offset=`/`&page=`, `Link: rel="next"`,
+      `X-Total-Count`), with a 4 MB size guard; the whole library stays downloadable from `/data`. Search `limit` ≤ 50.
+- [x] Art Institute of Chicago images: its IIIF server only answers clients sending the `AIC-User-Agent` header its API
+      docs ask for, so browsers got a challenge page. Served through `/api/img/aic/…` (allow-listed IIIF paths only,
+      cached a year at the edge); the store rewrites the URLs once on load (`src/lib/image-url.ts`); OG cards embed them.
+- [x] AIC matching audit: the old rule accepted any artwork whose tag shared one word with the name (a Greek hydria for
+      "Abstract illusionism", Degas dancers for "Feminist performance art"). The tag must now name the record in full,
+      from style/classification tags only, plural-only stemming. 2,550 unrelated images removed (7 remain, in 4 records) (`images.ts
+      --recheck-aic`); 371 palettes derived from them re-derived from the remaining images or cleared.
+- [x] Start dates and origins from explicit statements only (`scripts/data/enrich-dates-origins.ts`): the record must
+      be the grammatical subject of the sentence; parenthetical dates, "by the…", later developments and relative
+      clauses are rejected. 49 dates, 24 origins, 5 "Online" origins. Wikidata enrichment extended with P575, P1249 and
+      P1071. Period labels split by an old import ("Pre" + "colonial to present", "19th") repaired in `normalize.ts`;
+      `parseYear` understands "mid-".
 
 ## 2026-09-19 — Round 4: regional depth, full fields, design exports
 
@@ -81,7 +102,7 @@ A running log of what has been done and what is next. Newest first. Keep entries
 ## Next
 
 - [ ] Editorial depth for imported Stubs: visual grammar, typography, style profiles (by contributors — never auto-generated).
-- [ ] More image sources for the 744 records still without images (Met, Rijksmuseum, Smithsonian Open Access, Europeana; an Openverse API key would lift the anonymous 200/day limit).
+- [ ] More image sources for the 956 records still without images (Met, Rijksmuseum, Smithsonian Open Access, Europeana; an Openverse API key would lift the anonymous 200/day limit).
 - [ ] Origins/periods for the remaining records need editorial research — do not infer.
 - [ ] Multilingual names from Wikidata labels; non-English Wikipedia fallbacks for regional traditions.
 - [ ] Scheduled link checks in CI once the workflow is enabled.

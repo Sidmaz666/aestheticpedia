@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next'
 import { SITE_URL } from '@/lib/site'
+import { absoluteUrl } from '@/lib/image-url'
 import { listIndex } from '@/lib/queries'
 
 export const revalidate = 3600
@@ -20,7 +21,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: new Date(a.updatedAt),
       changeFrequency: 'monthly' as const,
       priority: 0.6,
-      images: a.image ? [a.image] : undefined,
+      images: a.image ? [absoluteUrl(a.image)] : undefined,
     })),
   ]
 }

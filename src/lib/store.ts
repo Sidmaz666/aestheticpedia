@@ -12,6 +12,7 @@
 import { statSync } from 'node:fs'
 import path from 'node:path'
 import { DuckDBInstance, type DuckDBConnection, type DuckDBValue } from '@duckdb/node-api'
+import { AIC_IIIF, AIC_RELAY } from './image-url'
 
 const DATA_DIR = path.join(process.cwd(), 'public', 'data')
 const AESTHETICS = path.join(DATA_DIR, 'aesthetics.parquet')
@@ -34,7 +35,10 @@ async function open(): Promise<StoreState> {
   const version = dataVersion()
   const instance = await DuckDBInstance.create(':memory:')
   const conn = await instance.connect()
-  await conn.run(`CREATE TABLE aesthetics AS SELECT * FROM read_parquet(${sqlPath(AESTHETICS)})`)
+  // Art Institute of Chicago images are served through the site's relay (src/lib/image-url.ts).
+  await conn.run(
+    `CREATE TABLE aesthetics AS SELECT * REPLACE (replace(images, '${AIC_IIIF}', '${AIC_RELAY}') AS images) FROM read_parquet(${sqlPath(AESTHETICS)})`
+  )
   await conn.run(`CREATE TABLE relations AS SELECT * FROM read_parquet(${sqlPath(RELATIONS)})`)
   return { conn, version }
 }

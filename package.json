@@ -10,7 +10,7 @@
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "data:build": "node scripts/data/build.ts",
+    "data:build": "node scripts/data/build.ts && node scripts/data/llms-full.ts",
     "data:normalize": "node scripts/data/normalize.ts",
     "data:images": "node scripts/data/images.ts",
     "data:links": "node scripts/data/check-links.ts",

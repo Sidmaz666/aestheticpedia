@@ -122,12 +122,9 @@ function buildWhere(p: ListParams) {
   return { where, params, bind }
 }
 
-export async function listAesthetics(p: ListParams): Promise<AestheticsResponse> {
+/** WHERE clause for a list query, including the region filter (derived from free-text fields in JS). */
+async function listWhere(p: ListParams): Promise<{ whereSql: string; params: DuckDBValue[] }> {
   const { where, params, bind } = buildWhere(p)
-  const page = p.page ?? 1
-  const pageSize = p.pageSize ?? 24
-
-  // Region is derived from free-text geography/origin, so resolve it in JS.
   if (p.region) {
     const rows = await query<{ slug: string; geography: string; origin: string }>(
       `SELECT slug, geography, origin FROM aesthetics ${where.length ? `WHERE ${where.join(' AND ')}` : ''}`,
@@ -136,8 +133,13 @@ export async function listAesthetics(p: ListParams): Promise<AestheticsResponse>
     const slugs = rows.filter((r) => deriveRegion(r.geography, r.origin) === p.region).map((r) => r.slug)
     where.push(slugs.length ? `list_contains(${bind(listValue(slugs))}, slug)` : 'FALSE')
   }
+  return { whereSql: where.length ? `WHERE ${where.join(' AND ')}` : '', params }
+}
 
-  const whereSql = where.length ? `WHERE ${where.join(' AND ')}` : ''
+export async function listAesthetics(p: ListParams): Promise<AestheticsResponse> {
+  const page = p.page ?? 1
+  const pageSize = p.pageSize ?? 24
+  const { whereSql, params } = await listWhere(p)
   const [rows, count, facets] = await Promise.all([
     query<AestheticRow>(
       `SELECT * FROM aesthetics ${whereSql} ORDER BY ${ORDER[p.sort ?? 'popular']} LIMIT ${pageSize} OFFSET ${(page - 1) * pageSize}`,
@@ -155,13 +157,14 @@ export async function listAesthetics(p: ListParams): Promise<AestheticsResponse>
   }
 }
 
-/** Full rows for bulk exports (CSV/NDJSON of a filtered list). */
-export async function listFullRows(p: ListParams, limit = 5000): Promise<AestheticRow[]> {
-  const { where, params } = buildWhere(p)
-  return query<AestheticRow>(
-    `SELECT * FROM aesthetics ${where.length ? `WHERE ${where.join(' AND ')}` : ''} ORDER BY ${ORDER[p.sort ?? 'name']} LIMIT ${limit}`,
-    params
-  )
+/** One page of full rows for bulk exports (CSV/NDJSON/Markdown of a filtered list), with the total. */
+export async function listFullRows(p: ListParams, offset = 0, limit = 200): Promise<{ rows: AestheticRow[]; total: number }> {
+  const { whereSql, params } = await listWhere(p)
+  const [rows, count] = await Promise.all([
+    query<AestheticRow>(`SELECT * FROM aesthetics ${whereSql} ORDER BY ${ORDER[p.sort ?? 'name']} LIMIT ${Math.trunc(limit)} OFFSET ${Math.trunc(offset)}`, params),
+    queryOne<{ n: number }>(`SELECT count(*)::INT AS n FROM aesthetics ${whereSql}`, params),
+  ])
+  return { rows, total: count?.n ?? 0 }
 }
 
 const emptyFacets = (): Facets => ({ categories: [], establishments: [], statuses: [], eras: [], regions: [], tags: [] })

@@ -8,6 +8,8 @@ describe('parseYear', () => {
     ['17th century', 'start', 1600],
     ['17th century', 'end', 1699],
     ['late 19th century', 'start', 1866],
+    ['mid-19th century', 'start', 1833],
+    ['mid 20th century', 'end', 1966],
     ['1st century BCE to present', 'start', -100],
     ['c. 500 BCE', 'start', -500],
     ['1982', 'start', 1982],

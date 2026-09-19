@@ -14,7 +14,7 @@ export function GET() {
     llms: `${SITE_URL}/llms.txt`,
     downloads: `${SITE_URL}/data/manifest.json`,
     endpoints: {
-      list: '/api/v1/aesthetics?q=&category=&type=&status=&era=&region=&tag=&images=&sort=&page=&pageSize=&format=json|ndjson|csv|md',
+      list: '/api/v1/aesthetics?q=&category=&type=&status=&era=&region=&tag=&images=&sort=&page=&pageSize=&offset=&format=json|ndjson|csv|md',
       get: '/api/v1/aesthetics/{slug}?format=json|md|txt|html|jsonld|yaml|csv|css|scss|tailwind|tokens|gpl|ase|svg|bib|ris',
       search: '/api/v1/search?q=',
       random: '/api/v1/random?mode=illustrated|any|niche|reviewed',

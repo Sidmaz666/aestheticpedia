@@ -79,8 +79,9 @@ text), freely licensed images with credits, and real sources. CI validates every
 ## Deploying to Vercel
 
 Import the repository in Vercel — no settings are required. The build (`npm run build`) validates the data, writes
-`public/data/*` and builds Next.js; serverless functions ship with the Parquet files (see `next.config.ts`). Optionally set
-the variables from `.env.example`.
+`public/data/*` and `public/llms-full.txt`, and builds Next.js; serverless functions ship with the Parquet files only (see
+`next.config.ts`). Bulk responses stay within Vercel's limits: `llms-full.txt` is a static file, and the API pages its
+full-record formats. Optionally set the variables from `.env.example`.
 
 CI: the workflow lives at [`docs/ci/ci.yml`](docs/ci/ci.yml). To enable it, move it to `.github/workflows/ci.yml` using a
 GitHub token with the `workflow` scope (`gh auth refresh -s workflow`).

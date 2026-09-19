@@ -184,7 +184,7 @@ export default async function DataPage() {
             </thead>
             <tbody className="divide-y divide-line">
               {[
-                ['GET /aesthetics?q=&category=&type=&region=&sort=&page=', 'Search & filter; format=json|ndjson|csv|md'],
+                ['GET /aesthetics?q=&category=&type=&region=&sort=&page=', 'Search & filter; format=json|ndjson|csv|md (full formats: 200 per page, Link: next)'],
                 ['GET /aesthetics/{slug}', 'Full record + relations + similar'],
                 ['GET /aesthetics/{slug}.md', 'Any export format by extension or ?format='],
                 ['GET /search?q=', 'Ranked type-ahead suggestions'],

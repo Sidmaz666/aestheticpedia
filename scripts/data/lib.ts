@@ -97,6 +97,10 @@ export const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
 export const USER_AGENT =
   'Aestheticpedia/1.0 (https://github.com/Sidmaz666/aestheticpedia; open aesthetics encyclopedia) node'
+/** The Art Institute of Chicago serves its IIIF images only to clients that identify themselves
+ *  with this header (https://api.artic.edu/docs/#introduction). Empty for every other host. */
+export const aicHeaders = (url: string): Record<string, string> =>
+  /^https:\/\/(www|api)\.artic\.edu\//.test(url) ? { 'AIC-User-Agent': 'Aestheticpedia (https://github.com/Sidmaz666/aestheticpedia)' } : {}
 
 /** fetch JSON with retry/backoff on 429/5xx. */
 export async function getJSON<T = any>(url: string, tries = 5, init: RequestInit = {}): Promise<T> {

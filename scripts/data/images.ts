@@ -14,7 +14,7 @@
 //   node scripts/data/images.ts --overrides     records listed in data/wikipedia-overrides.json
 import { readFileSync } from 'node:fs'
 import path from 'node:path'
-import { ROOT, cache, getJSON, loadAesthetics, pool, saveAesthetic } from './lib.ts'
+import { ROOT, aicHeaders, cache, getJSON, loadAesthetics, pool, saveAesthetic } from './lib.ts'
 import type { AestheticRecord, ImageRecord, ReferenceRecord } from '../../src/lib/schema.ts'
 
 const args = process.argv.slice(2)
@@ -22,6 +22,12 @@ const ALL = args.includes('--all')
 const ONLY = args.includes('--slug') ? args[args.indexOf('--slug') + 1] : null
 const OVERRIDDEN = args.includes('--overrides')
 const LIMIT = args.includes('--limit') ? Number(args[args.indexOf('--limit') + 1]) : Infinity
+// The Art Institute of Chicago serves its IIIF images only to clients sending an AIC-User-Agent
+// header, which browsers cannot add; the site serves them through its relay (src/lib/image-url.ts).
+// --no-aic skips it as a source; --replace-aic re-resolves records whose only images are AIC ones.
+const USE_AIC = !args.includes('--no-aic')
+const REPLACE_AIC = args.includes('--replace-aic')
+const isAic = (i: { url: string }) => /artic\.edu\//.test(i.url)
 const MAX_IMAGES = 10
 const WANT_MIN = 6
 
@@ -304,15 +310,25 @@ async function aicImages(a: AestheticRecord, want: number): Promise<ImageRecord[
   const q = a.name.replace(/\s*\(.*?\)\s*/g, ' ').trim()
   const url = `https://api.artic.edu/api/v1/artworks/search?q=${encodeURIComponent(q)}&limit=30&fields=id,title,artist_display,date_display,image_id,is_public_domain,style_titles,classification_titles,subject_titles,term_titles,thumbnail`
   const hit = http.get(url)
-  const res: any = hit ?? (await getJSON(url).catch(() => ({ data: [] })))
+  const res: any = hit ?? (await getJSON(url, 3, { headers: aicHeaders(url) }).catch(() => ({ data: [] })))
   if (!hit) http.set(url, res)
-  const keys = new Set([a.name, ...a.aliases].flatMap(tokens).map(stem))
+  // Plurals only: the article-title stemmer would make "Romanism" match "Roman" and "ironing" "iron".
+  const plural = (t: string) => t.replace(/(?<=[a-z]{3})(es|s)$/, '')
+  // Every word counts here — "Book art" is not "book", "Dutch design" is not "Dutch".
+  const words = (x: string) => norm(x).split(' ').filter((w) => w.length > 2 && !/^(the|and|of|for|with)$/.test(w))
+  const keys = new Set([a.name, ...a.aliases].flatMap(words).map(plural))
+  // A tag must name the record: all its words belong to the name or aliases, and it covers every
+  // word of the name or of one alias. A tag sharing one word ("Abstract" for Abstract
+  // illusionism) names something else.
+  const names = [a.name, ...a.aliases].map((n) => words(n).map(plural)).filter((n) => n.length)
   const matches = (res.data ?? []).filter((w: any) => {
     if (!w.is_public_domain || !w.image_id) return false
-    const tags = [...(w.style_titles ?? []), ...(w.term_titles ?? []), ...(w.classification_titles ?? [])]
+    // Style and classification only: subject terms say what a work depicts (dolphins, carnations),
+    // not which aesthetic it exemplifies.
+    const tags = [...(w.style_titles ?? []), ...(w.classification_titles ?? [])]
     return tags.some((t: string) => {
-      const tt = tokens(t).map(stem)
-      return tt.length > 0 && tt.every((x) => keys.has(x))
+      const tt = words(t).map(plural)
+      return tt.length > 0 && tt.every((x) => keys.has(x)) && names.some((n) => n.every((x) => tt.includes(x)))
     })
   })
   return matches.slice(0, want).map((w: any): ImageRecord => {
@@ -406,7 +422,7 @@ async function resolve(a: AestheticRecord): Promise<string> {
       }
     }
   }
-  if (images.length < WANT_MIN && AIC_CATS.has(a.category)) push(await aicImages(a, WANT_MIN - images.length + 2))
+  if (USE_AIC && images.length < WANT_MIN && AIC_CATS.has(a.category)) push(await aicImages(a, WANT_MIN - images.length + 2))
 
   // Keep previously curated images that still resolve (non-sandbox hosts) when nothing better was found.
   const prior = a.images.filter((i) => !/chatglm\.cn/.test(i.url) && !seen.has(i.url))
@@ -420,6 +436,25 @@ async function resolve(a: AestheticRecord): Promise<string> {
 const CURATED: string[] = JSON.parse(readFileSync(path.join(ROOT, 'data', 'curated-images.json'), 'utf8')).slugs
 
 const all = loadAesthetics()
+
+// --recheck-aic: drop Art Institute of Chicago images that no longer pass the matching rule.
+if (args.includes('--recheck-aic')) {
+  let dropped = 0
+  let records = 0
+  for (const a of all.filter((r) => r.images.some(isAic))) {
+    const keep = new Set((await aicImages(a, 1000)).map((i) => i.url))
+    const next = a.images.filter((i) => !isAic(i) || keep.has(i.url))
+    if (next.length !== a.images.length) {
+      dropped += a.images.length - next.length
+      records++
+      a.images = next
+      a.updatedAt = new Date().toISOString()
+      saveAesthetic(a)
+    }
+  }
+  console.log(`✓ removed ${dropped} unmatched AIC images from ${records} records`)
+  process.exit(0)
+}
 const todo = all
   .filter((a) => !CURATED.includes(a.slug))
   .filter((a) =>
@@ -427,7 +462,9 @@ const todo = all
       ? a.slug === ONLY
       : OVERRIDDEN
         ? a.slug in OVERRIDES
-        : ALL || a.images.length === 0 || a.images.some((i) => /chatglm\.cn/.test(i.url))
+        : REPLACE_AIC
+          ? a.images.length > 0 && a.images.every(isAic)
+          : ALL || a.images.length === 0 || a.images.some((i) => /chatglm\.cn/.test(i.url))
   )
   .slice(0, LIMIT)
 console.log(`resolving ${todo.length} of ${all.length} records`)

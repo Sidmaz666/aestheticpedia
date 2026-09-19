@@ -1,3 +1,4 @@
+import { AIC_HEADERS, AIC_RELAY, upstreamUrl } from '@/lib/image-url'
 import { readFile } from 'node:fs/promises'
 import path from 'node:path'
 import { ImageResponse } from 'next/og'
@@ -12,6 +13,20 @@ export const revalidate = 86400
 export const alt = `${SITE_NAME} record`
 
 /** A record's share card, in its own palette: name, category, era and origin, summary, palette strip and hero image. */
+/** The hero as Satori can load it: relayed images (src/lib/image-url.ts) are fetched from their
+ *  source with the header it requires and embedded; anything unreachable leaves the card text-only. */
+async function heroSrc(url: string | undefined): Promise<string | undefined> {
+  if (!url || !url.startsWith(AIC_RELAY)) return url
+  try {
+    const res = await fetch(upstreamUrl(url), { headers: AIC_HEADERS, signal: AbortSignal.timeout(8000) })
+    const type = res.headers.get('content-type') ?? ''
+    if (!res.ok || !type.startsWith('image/')) return undefined
+    return `data:${type};base64,${Buffer.from(await res.arrayBuffer()).toString('base64')}`
+  } catch {
+    return undefined
+  }
+}
+
 export default async function Image({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
   const [d, logo] = await Promise.all([getAesthetic(slug), readFile(path.join(process.cwd(), 'public/brand/logo-on-dark.png')).catch(() => null)])
@@ -19,7 +34,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const name = a?.name ?? 'Not in the vault'
   const colors = (a?.colors ?? []).map((c) => c.hex).slice(0, 6)
   const accent = colors.find((c) => inkOn(c) === '#111') ?? '#e3bb6e'
-  const hero = a?.images[0]?.url
+  const hero = await heroSrc(a?.images[0]?.url)
   const meta = a ? [a.category, periodLabel(a), a.origin].filter(Boolean).join('  ·  ') : ''
   const summary = a ? (a.summary.length > 170 ? a.summary.slice(0, 167).replace(/\s+\S*$/, '') + '…' : a.summary) : ''
   const [serif, sans] = await Promise.all([googleFont('Instrument Serif', `${name}${SITE_NAME}`), googleFont('Geist', `${meta}${meta.toUpperCase()}${summary}…`)])

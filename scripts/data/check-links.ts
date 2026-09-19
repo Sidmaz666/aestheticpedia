@@ -16,7 +16,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
 import { AestheticSchema } from '../../src/lib/schema.ts'
-import { OUT_DIR, USER_AGENT, cache, getJSON, loadAesthetics, pool, saveAesthetic, sleep } from './lib.ts'
+import { OUT_DIR, USER_AGENT, aicHeaders, cache, getJSON, loadAesthetics, pool, saveAesthetic, sleep } from './lib.ts'
 
 const FORCE = process.argv.includes('--force')
 const MAX_AGE = 14 * 24 * 3600 * 1000
@@ -103,6 +103,7 @@ async function probe(url: string): Promise<Check> {
             'User-Agent': USER_AGENT,
             Accept: 'text/html,application/xhtml+xml,image/*,*/*;q=0.8',
             ...(method === 'GET' ? { Range: 'bytes=0-2047' } : {}),
+            ...aicHeaders(url),
           },
         })
         res.body?.cancel().catch(() => {})

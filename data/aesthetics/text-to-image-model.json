@@ -17,33 +17,7 @@
   "summary": "A text-to-image (T2I or TTI) model is a machine learning model which takes an input natural language prompt and produces an image matching that description.",
   "description": "A text-to-image (T2I or TTI) model is a machine learning model which takes an input natural language prompt and produces an image matching that description.\n\nText-to-image models gradually began to be developed in the mid-2010s during the beginnings of the AI boom, as a result of advances in deep neural networks. In 2022, the output of state-of-the-art text-to-image models—such as OpenAI's DALL-E 2, Google Brain's Imagen, Stability AI's Stable Diffusion, Midjourney, and Runway's Gen-4—began to be considered to approach the quality of real photographs and human-drawn art.\n\nText-to-image models are generally latent diffusion models, which perform the diffusion process in a compressed latent space rather than directly in pixel space. An autoencoder (often a variational autoencoder) is used to convert between pixel space and this latent representation. These systems typically use a pretrained language or vision–language model to convert the input prompt into a text embedding, and a diffusion-based generative image model that produces images conditioned on that embedding. The most effective models have generally been trained on massive amounts of image and text data scraped from the web.",
   "culturalContext": "Before the rise of deep learning in the 2010s, attempts to build text-to-image models were limited to collages by arranging existing component images, such as from a database of clip art.\n\nThe inverse task, image captioning, was more tractable, and a number of image captioning deep learning models came prior to the first text-to-image models.",
-  "colors": [
-    {
-      "hex": "#101122",
-      "name": "black"
-    },
-    {
-      "hex": "#c6cdb5",
-      "name": "silver"
-    },
-    {
-      "hex": "#9b9487",
-      "name": "stone"
-    },
-    {
-      "hex": "#f2f3dd",
-      "name": "paper white"
-    },
-    {
-      "hex": "#6f6565",
-      "name": "umber"
-    },
-    {
-      "hex": "#18374f",
-      "name": "ink blue"
-    }
-  ],
-  "paletteSource": "derived",
+  "colors": [],
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -158,63 +132,6 @@
         "status": 200,
         "checkedAt": "2026-09-19T12:55:09.876Z"
       }
-    },
-    {
-      "url": "https://www.artic.edu/iiif/2/f16a5e00-31c5-1e61-a953-15c5abb42ca3/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/f16a5e00-31c5-1e61-a953-15c5abb42ca3/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/f16a5e00-31c5-1e61-a953-15c5abb42ca3/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/127874",
-      "caption": "Model of a River Boat, Middle Kingdom, mid-Dynasty 12, about 1875 BCE",
-      "source": "Art Institute of Chicago",
-      "artist": "Egyptian; Meir, Egypt",
-      "date": "Middle Kingdom, mid-Dynasty 12, about 1875 BCE",
-      "license": "Public domain (CC0)",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "632",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
-    },
-    {
-      "url": "https://www.artic.edu/iiif/2/46dabc55-2500-23fd-90a2-88628c2ca048/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/46dabc55-2500-23fd-90a2-88628c2ca048/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/46dabc55-2500-23fd-90a2-88628c2ca048/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/191750",
-      "caption": "Female Figure with Geometric Face and Body Paint, 200–100 BCE",
-      "source": "Art Institute of Chicago",
-      "artist": "Chupícuaro",
-      "date": "200–100 BCE",
-      "license": "Public domain (CC0)",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "1457",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
-    },
-    {
-      "url": "https://www.artic.edu/iiif/2/15da2bf5-9976-06d3-a7e7-0a56446299d2/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/15da2bf5-9976-06d3-a7e7-0a56446299d2/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/15da2bf5-9976-06d3-a7e7-0a56446299d2/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/16052",
-      "caption": "Mask from an Incense Burner Portraying the Old Deity of Fire, 450–750 CE",
-      "source": "Art Institute of Chicago",
-      "artist": "Teotihuacan",
-      "date": "450–750 CE",
-      "license": "Public domain (CC0)",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "978",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
     }
   ],
   "sources": [
@@ -270,5 +187,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T01:57:13.237Z"
+  "updatedAt": "2026-09-19T16:55:41.107Z"
 }

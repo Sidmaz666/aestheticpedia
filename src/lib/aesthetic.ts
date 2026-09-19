@@ -1,5 +1,6 @@
 // Aestheticpedia — shared types, defensive JSON parsing, region + era mapping.
 import { METRIC_KEYS, paletteMetrics, type PaletteMetrics } from '@/lib/palette-metrics'
+import { isImageUrl } from '@/lib/image-url'
 // Used by both API route handlers (server) and frontend components (client).
 // Contains no server-only imports.
 
@@ -418,10 +419,10 @@ export function asImageArray(value: unknown, fallback: ImageEntry[] = []): Image
     .map((img) => {
       if (!img || typeof img !== 'object') return null
       const rec = img as Record<string, unknown>
-      const url = typeof rec.url === 'string' && /^https?:\/\//.test(rec.url) ? rec.url : ''
+      const url = isImageUrl(rec.url) ? rec.url : ''
       if (!url) return null
       const str = (v: unknown, max: number) => (typeof v === 'string' ? v.slice(0, max) : '')
-      const link = (v: unknown) => (typeof v === 'string' && /^https?:\/\//.test(v) ? v : undefined)
+      const link = (v: unknown) => (isImageUrl(v) ? v : undefined)
       const opt = (v: unknown, max: number) => (typeof v === 'string' && v.trim() ? v.slice(0, max) : undefined)
       const num = (v: unknown) => (typeof v === 'number' ? String(v) : str(v, 10))
       const out: ImageEntry = {

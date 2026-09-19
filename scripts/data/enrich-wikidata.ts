@@ -1,6 +1,7 @@
 // Fill missing origin and period from Wikidata for records linked to a Wikidata item.
-//   origin/geography ← country of origin (P495), country (P17), location (P276)
-//   period           ← inception (P571) / start time (P580), else time period (P2348) + its start
+//   origin/geography ← country of origin (P495), country (P17), location (P276), location of creation (P1071)
+//   period           ← inception (P571) / start time (P580) / time of invention (P575) / earliest
+//                      written record (P1249), else time period (P2348) + its start
 // Only empty fields are filled; nothing is overwritten.
 //
 //   node scripts/data/enrich-wikidata.ts
@@ -36,14 +37,16 @@ for (let i = 0; i < ids.length; i += 150) {
   const rows = await sparql(`
 SELECT ?item
   (GROUP_CONCAT(DISTINCT ?placeLabel; separator="|") AS ?places)
-  (SAMPLE(?inc) AS ?inception) (SAMPLE(?st) AS ?start)
+  (SAMPLE(?inc) AS ?inception) (SAMPLE(?st) AS ?start) (SAMPLE(?inv) AS ?invented) (SAMPLE(?rec) AS ?recorded)
   (SAMPLE(?periodLabel) AS ?period) (SAMPLE(?pst) AS ?periodStart)
 WHERE {
   VALUES ?item { ${batch.map((q) => `wd:${q}`).join(' ')} }
-  OPTIONAL { ?item wdt:P495|wdt:P17|wdt:P276 ?place . ?place rdfs:label ?placeLabel FILTER(lang(?placeLabel) = "en") }
+  OPTIONAL { ?item wdt:P495|wdt:P17|wdt:P276|wdt:P1071 ?place . ?place rdfs:label ?placeLabel FILTER(lang(?placeLabel) = "en") }
   OPTIONAL { ?item wdt:P571 ?inc }
   OPTIONAL { ?item wdt:P580 ?st }
-  OPTIONAL { ?item wdt:P2348 ?p . ?p rdfs:label ?periodLabel FILTER(lang(?periodLabel) = "en") OPTIONAL { ?p wdt:P580 ?pst } }
+  OPTIONAL { ?item wdt:P575 ?inv }
+  OPTIONAL { ?item wdt:P1249 ?rec }
+  OPTIONAL { ?item wdt:P2348 ?p . ?p rdfs:label ?periodLabel FILTER(lang(?periodLabel) = "en") OPTIONAL { ?p wdt:P580|wdt:P571 ?pst } }
 }
 GROUP BY ?item`)
   for (const b of rows) {
@@ -59,7 +62,7 @@ GROUP BY ?item`)
       changed = true
     }
     if (!a.periodStart && a.startYear === null) {
-      const y = year(b.inception?.value) ?? year(b.start?.value) ?? year(b.periodStart?.value)
+      const y = year(b.inception?.value) ?? year(b.start?.value) ?? year(b.invented?.value) ?? year(b.recorded?.value) ?? year(b.periodStart?.value)
       const period = b.period?.value as string | undefined
       if (y !== null) {
         a.startYear = y

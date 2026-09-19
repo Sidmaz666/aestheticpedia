@@ -7,7 +7,7 @@
 //   node scripts/data/palette.ts --slug x   one record
 import sharp from 'sharp'
 import type { AestheticRecord } from '../../src/lib/schema.ts'
-import { USER_AGENT, loadAesthetics, pool, saveAesthetic, sleep } from './lib.ts'
+import { USER_AGENT, aicHeaders, loadAesthetics, pool, saveAesthetic, sleep } from './lib.ts'
 
 const ONLY = process.argv.includes('--slug') ? process.argv[process.argv.indexOf('--slug') + 1] : null
 
@@ -57,7 +57,7 @@ function nameOf(c: RGB): string {
 }
 
 async function pixels(url: string): Promise<RGB[]> {
-  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT }, signal: AbortSignal.timeout(20000) })
+  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT, ...aicHeaders(url) }, signal: AbortSignal.timeout(20000) })
   if (!res.ok) throw new Error(`HTTP ${res.status}`)
   const buf = Buffer.from(await res.arrayBuffer())
   const { data, info } = await sharp(buf).resize(48, 48, { fit: 'cover' }).removeAlpha().raw().toBuffer({ resolveWithObject: true })

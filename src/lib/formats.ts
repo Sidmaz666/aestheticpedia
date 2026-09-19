@@ -3,6 +3,7 @@
 import { STATUS_LABELS, ESTABLISHMENT_LABELS, DATA_QUALITY_LABELS, labelize, type AestheticFull, type ResolvedRelations } from '@/lib/aesthetic'
 
 import { SITE_NAME, SITE_TAGLINE, SITE_URL } from '@/lib/site'
+import { absoluteUrl } from '@/lib/image-url'
 
 export { SITE_URL }
 import { METRIC_AXES } from '@/lib/palette-metrics'
@@ -105,7 +106,7 @@ export function toMarkdown(a: AestheticFull, rel?: ResolvedRelations): string {
     'Images',
     a.images.map(
       (i) =>
-        `- ![${i.caption.replace(/[[\]]/g, '')}](${i.url}) — ${i.caption}${i.artist ? `, ${i.artist}` : ''}${i.license ? ` (${i.license})` : ''}${i.pageUrl ? ` · [source](${i.pageUrl})` : ''}`
+        `- ![${i.caption.replace(/[[\]]/g, '')}](${absoluteUrl(i.url)}) — ${i.caption}${i.artist ? `, ${i.artist}` : ''}${i.license ? ` (${i.license})` : ''}${i.pageUrl ? ` · [source](${i.pageUrl})` : ''}`
     )
   )
   section('Sources', a.sources.map((s) => `- ${s.url ? `[${s.name}](${s.url})` : s.name}${s.tier ? ` (tier ${s.tier})` : ''}`))
@@ -201,8 +202,8 @@ export function toJsonLd(a: AestheticFull) {
     ].filter(Boolean),
     image: a.images.slice(0, 6).map((i) => ({
       '@type': 'ImageObject',
-      contentUrl: i.url,
-      thumbnailUrl: i.thumb,
+      contentUrl: absoluteUrl(i.url),
+      thumbnailUrl: i.thumb && absoluteUrl(i.thumb),
       caption: i.caption,
       creator: i.artist ? { '@type': 'Person', name: i.artist } : undefined,
       license: i.licenseUrl,

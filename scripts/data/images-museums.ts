@@ -120,7 +120,10 @@ async function cleveland(a: AestheticRecord): Promise<ImageRecord[]> {
   return out
 }
 
-const todo = loadAesthetics().filter((a) => a.images.length === 0)
+// Records with no images, and records whose only images come from the Art Institute of Chicago
+// (whose matches were often loose; museum objects are matched more strictly here).
+const aicOnly = (a: { images: { url: string }[] }) => a.images.length > 0 && a.images.every((i) => /artic\.edu\//.test(i.url))
+const todo = loadAesthetics().filter((a) => a.images.length === 0 || aicOnly(a))
 console.log(`${todo.length} records without images`)
 let found = 0
 let done = 0

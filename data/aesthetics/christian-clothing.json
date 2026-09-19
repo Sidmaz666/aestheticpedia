@@ -22,28 +22,28 @@
   "culturalContext": "",
   "colors": [
     {
-      "hex": "#c6ab8e",
-      "name": "khaki"
-    },
-    {
-      "hex": "#0b0b08",
-      "name": "black"
-    },
-    {
-      "hex": "#fcfcfa",
+      "hex": "#fcfbfb",
       "name": "ivory"
     },
     {
-      "hex": "#9a866f",
-      "name": "stone"
+      "hex": "#b2a391",
+      "name": "warm grey"
     },
     {
-      "hex": "#e0ccb4",
+      "hex": "#85837b",
+      "name": "taupe"
+    },
+    {
+      "hex": "#d1c5b8",
       "name": "beige"
     },
     {
-      "hex": "#563522",
-      "name": "walnut brown"
+      "hex": "#936c45",
+      "name": "bronze"
+    },
+    {
+      "hex": "#754826",
+      "name": "sepia"
     }
   ],
   "paletteSource": "derived",
@@ -124,82 +124,6 @@
         "status": 200,
         "checkedAt": "2026-09-19T12:55:09.876Z"
       }
-    },
-    {
-      "url": "https://www.artic.edu/iiif/2/5f7011ef-e7e7-a73e-f567-0906a0f384e5/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/5f7011ef-e7e7-a73e-f567-0906a0f384e5/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/5f7011ef-e7e7-a73e-f567-0906a0f384e5/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/160235",
-      "caption": "Pietà, c. 1686",
-      "source": "Art Institute of Chicago",
-      "artist": "Filippo Parodi (Italian, 1630–1702)",
-      "date": "c. 1686",
-      "license": "Public domain (CC0)",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "842",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
-    },
-    {
-      "url": "https://www.artic.edu/iiif/2/52098776-6e2e-9683-e258-7b1cec8660dd/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/52098776-6e2e-9683-e258-7b1cec8660dd/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/52098776-6e2e-9683-e258-7b1cec8660dd/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/67362",
-      "caption": "Saint Martin and the Beggar, c. 1597–c. 1600",
-      "source": "Art Institute of Chicago",
-      "artist": "El Greco (Doménikos Theotokópoulos; Greek, active in Spain, 1541–1614)",
-      "date": "c. 1597–c. 1600",
-      "license": "Public domain (CC0)",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "1475",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
-    },
-    {
-      "url": "https://www.artic.edu/iiif/2/4b3932bf-5c65-2143-b224-3f91eabaca59/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/4b3932bf-5c65-2143-b224-3f91eabaca59/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/4b3932bf-5c65-2143-b224-3f91eabaca59/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/87460",
-      "caption": "Saint John the Baptist, c. 1550",
-      "source": "Art Institute of Chicago",
-      "artist": "Spanish",
-      "date": "c. 1550",
-      "license": "Public domain (CC0)",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "1264",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
-    },
-    {
-      "url": "https://www.artic.edu/iiif/2/0500bc2e-18ff-adb1-4b8f-8663050c47d3/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/0500bc2e-18ff-adb1-4b8f-8663050c47d3/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/0500bc2e-18ff-adb1-4b8f-8663050c47d3/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/11874",
-      "caption": "Scarf, 19th century",
-      "source": "Art Institute of Chicago",
-      "artist": "Eastern India",
-      "date": "19th century",
-      "license": "Public domain (CC0)",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "1515",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
     }
   ],
   "sources": [
@@ -255,5 +179,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:41:12.174Z"
+  "updatedAt": "2026-09-19T16:54:25.434Z"
 }

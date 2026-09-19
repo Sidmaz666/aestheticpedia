@@ -20,7 +20,33 @@
   "summary": "A glaze is a thin transparent or semi-transparent layer on a painting which modifies the appearance of the underlying paint layer.",
   "description": "A glaze is a thin transparent or semi-transparent layer on a painting which modifies the appearance of the underlying paint layer. Glazes can change the chroma, value, hue and texture of a surface. Glazes consist of a great amount of binding medium in relation to a very small amount of pigment. Drying time will depend on the amount and type of paint medium used in the glaze. The medium, base, or vehicle is the mixture to which the dry pigment is added. Different media can increase or decrease the rate at which oil paints dry.\n\nOften, because a paint is too opaque, painters will add a medium like linseed oil or alkyd to the paint to make it more transparent and pliable for the purposes of glazing. In painting, linseed oil is in use since the Middle Ages and alkyd since the introduction of industrially manufactured alkyds in the 20th century. While these media are usually liquids, there are solid and semi-solid media used in the making of paints as well. For example, many classical oil painters have also been known to use ground glass and semi-solid resins to increase the translucency of their paint.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#646767",
+      "name": "umber"
+    },
+    {
+      "hex": "#8a8e8e",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a4a8a7",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#1a1a19",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#3e3d3d",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#bdcdc2",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -44,137 +70,84 @@
   ],
   "images": [
     {
-      "url": "https://www.artic.edu/iiif/2/a69557c8-2883-6634-5cf0-93f060ec280a/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/a69557c8-2883-6634-5cf0-93f060ec280a/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/a69557c8-2883-6634-5cf0-93f060ec280a/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/25853",
-      "caption": "Wine Cistern, 1553",
-      "source": "Art Institute of Chicago",
-      "artist": "Francesco Durantino",
-      "date": "1553",
-      "license": "Public domain (CC0)",
+      "url": "https://openaccess-cdn.clevelandart.org/2020.177/2020.177_web.jpg",
+      "thumb": "https://openaccess-cdn.clevelandart.org/2020.177/2020.177_web.jpg",
+      "full": "https://openaccess-cdn.clevelandart.org/2020.177/2020.177_print.jpg",
+      "pageUrl": "https://clevelandart.org/art/2020.177",
+      "caption": "Teabowl with Tortoiseshell Glaze, China, Jiangxi Province, Southern Song dynasty (1127–1279), 1100s–1200s",
+      "source": "Cleveland Museum of Art",
+      "date": "1100s–1200s",
+      "license": "CC0 (CMA Open Access)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "632",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
+      "width": "900",
+      "height": "630"
     },
     {
-      "url": "https://www.artic.edu/iiif/2/964f5027-4193-ed6b-df9f-d9d91b072837/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/964f5027-4193-ed6b-df9f-d9d91b072837/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/964f5027-4193-ed6b-df9f-d9d91b072837/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/12000",
-      "caption": "Adoration of the Shepherds, c. 1520",
-      "source": "Art Institute of Chicago",
-      "artist": "Benedetto Buglioni (Italian, 1459/60–1520)",
-      "date": "c. 1520",
-      "license": "Public domain (CC0)",
+      "url": "https://openaccess-cdn.clevelandart.org/2020.185/2020.185_web.jpg",
+      "thumb": "https://openaccess-cdn.clevelandart.org/2020.185/2020.185_web.jpg",
+      "full": "https://openaccess-cdn.clevelandart.org/2020.185/2020.185_print.jpg",
+      "pageUrl": "https://clevelandart.org/art/2020.185",
+      "caption": "White-Glazed Jar with Hidden Design, China, Jiangxi province, Jingdezhen kilns, Ming dynasty (1368-1644), 1500s–1600s",
+      "source": "Cleveland Museum of Art",
+      "date": "1500s–1600s",
+      "license": "CC0 (CMA Open Access)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "1137",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
+      "width": "900",
+      "height": "849"
     },
     {
-      "url": "https://www.artic.edu/iiif/2/eecfb086-257a-2759-d1fa-8166d94096d1/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/eecfb086-257a-2759-d1fa-8166d94096d1/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/eecfb086-257a-2759-d1fa-8166d94096d1/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/186659",
-      "caption": "Face Jug, c. 1860",
-      "source": "Art Institute of Chicago",
-      "artist": "Artist unknown (American, 19th century)",
-      "date": "c. 1860",
-      "license": "Public domain (CC0)",
+      "url": "https://openaccess-cdn.clevelandart.org/1944.190/1944.190_web.jpg",
+      "thumb": "https://openaccess-cdn.clevelandart.org/1944.190/1944.190_web.jpg",
+      "full": "https://openaccess-cdn.clevelandart.org/1944.190/1944.190_print.jpg",
+      "pageUrl": "https://clevelandart.org/art/1944.190",
+      "caption": "Amphora Vase, China, Jiangxi Province, Jingdezhen, Qing dynasty (1644–1911), Yongzheng mark and period (1723–35), 1723–35",
+      "source": "Cleveland Museum of Art",
+      "date": "1723–35",
+      "license": "CC0 (CMA Open Access)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "1069",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
+      "width": "599",
+      "height": "893"
     },
     {
-      "url": "https://www.artic.edu/iiif/2/6c014535-a368-8bfd-13bc-a2f9bbb5e4ad/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/6c014535-a368-8bfd-13bc-a2f9bbb5e4ad/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/6c014535-a368-8bfd-13bc-a2f9bbb5e4ad/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/195530",
-      "caption": "Vase, 1903–9",
-      "source": "Art Institute of Chicago",
-      "artist": "Design attributed to George Prentiss Kendrick (American, 1850–1919)",
-      "date": "1903–9",
-      "license": "Public domain (CC0)",
+      "url": "https://openaccess-cdn.clevelandart.org/2022.193/2022.193_web.jpg",
+      "thumb": "https://openaccess-cdn.clevelandart.org/2022.193/2022.193_web.jpg",
+      "full": "https://openaccess-cdn.clevelandart.org/2022.193/2022.193_print.jpg",
+      "pageUrl": "https://clevelandart.org/art/2022.193",
+      "caption": "Incense Burner, Japan, Meiji period (1868–1912), 1893–1914",
+      "source": "Cleveland Museum of Art",
+      "artist": "Seifū Yohei III (Japanese, 1851–1914)",
+      "date": "1893–1914",
+      "license": "CC0 (CMA Open Access)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "1124",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
+      "width": "900",
+      "height": "641"
     },
     {
-      "url": "https://www.artic.edu/iiif/2/296fe872-31eb-cb6e-c3cd-f64ad1c349a9/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/296fe872-31eb-cb6e-c3cd-f64ad1c349a9/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/296fe872-31eb-cb6e-c3cd-f64ad1c349a9/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/180198",
-      "caption": "Cow Pitcher with Lid, c. 1855",
-      "source": "Art Institute of Chicago",
-      "artist": "Possibly designed by Daniel Greatbatch (American, born England, active 1838–c. 1861)",
-      "date": "c. 1855",
-      "license": "Public domain (CC0)",
+      "url": "https://openaccess-cdn.clevelandart.org/2022.191/2022.191_web.jpg",
+      "thumb": "https://openaccess-cdn.clevelandart.org/2022.191/2022.191_web.jpg",
+      "full": "https://openaccess-cdn.clevelandart.org/2022.191/2022.191_print.jpg",
+      "pageUrl": "https://clevelandart.org/art/2022.191",
+      "caption": "Maple Leaf-Shaped Saucers, Japan, Meiji period (1868–1912), 1893–1914",
+      "source": "Cleveland Museum of Art",
+      "artist": "Seifū Yohei III (Japanese, 1851–1914)",
+      "date": "1893–1914",
+      "license": "CC0 (CMA Open Access)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "633",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
+      "width": "900",
+      "height": "559"
     },
     {
-      "url": "https://www.artic.edu/iiif/2/dec4ce56-76cb-39cb-ad86-a1fc431ecfca/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/dec4ce56-76cb-39cb-ad86-a1fc431ecfca/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/dec4ce56-76cb-39cb-ad86-a1fc431ecfca/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/158473",
-      "caption": "Pitcher, c. 1890",
-      "source": "Art Institute of Chicago",
-      "artist": "Designed by Edward Kemeys (American, 1843–1907)",
-      "date": "c. 1890",
-      "license": "Public domain (CC0)",
+      "url": "https://openaccess-cdn.clevelandart.org/2020.180/2020.180_web.jpg",
+      "thumb": "https://openaccess-cdn.clevelandart.org/2020.180/2020.180_web.jpg",
+      "full": "https://openaccess-cdn.clevelandart.org/2020.180/2020.180_print.jpg",
+      "pageUrl": "https://clevelandart.org/art/2020.180",
+      "caption": "Yellow-Glazed Bowl, China, Jiangxi province, Jingdezhen kilns, Ming dynasty (1368–1644), Zhengde mark and reign (1505–21), 1505–21",
+      "source": "Cleveland Museum of Art",
+      "date": "1505–21",
+      "license": "CC0 (CMA Open Access)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "666",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
-    },
-    {
-      "url": "https://www.artic.edu/iiif/2/8055eb62-4818-4daa-0603-209843985673/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/8055eb62-4818-4daa-0603-209843985673/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/8055eb62-4818-4daa-0603-209843985673/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/246812",
-      "caption": "Pelican, c. 1896",
-      "source": "Art Institute of Chicago",
-      "artist": "Emmanuel Fremiet, French, 1824–1910",
-      "date": "c. 1896",
-      "license": "Public domain (CC0)",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "560",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
+      "width": "900",
+      "height": "597"
     }
   ],
   "sources": [
@@ -208,7 +181,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
+        "checkedAt": "2026-09-19T14:53:03.788Z"
       }
     },
     {
@@ -219,7 +192,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
+        "checkedAt": "2026-09-19T14:53:03.788Z"
       }
     }
   ],
@@ -230,5 +203,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T10:47:10.857Z"
+  "updatedAt": "2026-09-19T14:54:42.043Z"
 }

@@ -7,7 +7,7 @@ export const CORS_HEADERS: Record<string, string> = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
   'Access-Control-Allow-Headers': 'Content-Type, Accept, Mcp-Session-Id, Mcp-Protocol-Version, Last-Event-ID',
-  'Access-Control-Expose-Headers': 'Mcp-Session-Id, X-Total-Count',
+  'Access-Control-Expose-Headers': 'Mcp-Session-Id, X-Total-Count, X-Offset, X-Count, Link',
 }
 
 const CACHE = 'public, max-age=60, s-maxage=300, stale-while-revalidate=86400'

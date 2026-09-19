@@ -17,7 +17,33 @@
   "summary": "The Vienna School of Fantastic Realism (German: Wiener Schule des Phantastischen Realismus) is a group of artists founded in Vienna in 1946.",
   "description": "The Vienna School of Fantastic Realism (German: Wiener Schule des Phantastischen Realismus) is a group of artists founded in Vienna in 1946. The group's name was coined in the 1950s by Johann Muskik, and the first exhibition was in 1959 at the Belvedere, Vienna. This Austrian movement has similarities to Surrealism in its use of religious and esoteric symbolism and also the choice of a naturalistic style, countering the prevalence of abstract art movements at the time.\n\nArtists include Ernst Fuchs, Maître Leherb (Helmut Leherb), Arik Brauer, Wolfgang Hutter, Anton Lehmden, Fritz Janschka, and Israeli artist Zeev Kun, all students of Professor Albert Paris Gütersloh at the Vienna Academy of Fine Arts. Gütersloh's emphasis on the techniques of the Old Masters gave the \"fantastic realist\" painters a grounding in realism, similar to early Flemish artists such as Jan van Eyck.\n\nSome older members of the group, including Rudolf Hausner, Kurt Regschek and Fritz Janschka, emigrated to the US in 1949, where Regschek helped organize the early exhibitions of the group in 1965. Hausner, Fuchs, Hutter, Brauer and Lehmden were referred to as \"The Big Five\" who subsequently held exhibitions internationally.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#9f6e59",
+      "name": "bronze"
+    },
+    {
+      "hex": "#ae8b6c",
+      "name": "camel"
+    },
+    {
+      "hex": "#d1cdc6",
+      "name": "silver"
+    },
+    {
+      "hex": "#c9a78b",
+      "name": "khaki"
+    },
+    {
+      "hex": "#59482f",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#3b301c",
+      "name": "walnut brown 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,156 +67,18 @@
   ],
   "images": [
     {
-      "url": "https://www.artic.edu/iiif/2/641c5259-1a92-4a3a-714b-62e09efa3b23/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/641c5259-1a92-4a3a-714b-62e09efa3b23/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/641c5259-1a92-4a3a-714b-62e09efa3b23/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/13742",
-      "caption": "Herself, 1913",
-      "source": "Art Institute of Chicago",
-      "artist": "Robert Henri (American, 1865–1929)",
-      "date": "1913",
-      "license": "Public domain (CC0)",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "1044",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
-    },
-    {
-      "url": "https://www.artic.edu/iiif/2/6ea9b674-8204-02b0-66a4-55da1a037b81/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/6ea9b674-8204-02b0-66a4-55da1a037b81/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/6ea9b674-8204-02b0-66a4-55da1a037b81/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/13745",
-      "caption": "Himself, 1913",
-      "source": "Art Institute of Chicago",
-      "artist": "Robert Henri (American, 1865–1929)",
-      "date": "1913",
-      "license": "Public domain (CC0)",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "1044",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
-    },
-    {
-      "url": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/15401",
-      "caption": "At Mouquin's, 1905",
-      "source": "Art Institute of Chicago",
-      "artist": "William Glackens (American, 1870–1938)",
-      "date": "1905",
-      "license": "Public domain (CC0)",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "1118",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
-    },
-    {
-      "url": "https://www.artic.edu/iiif/2/3edec075-6e0b-0ccc-0036-5328de3e064c/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/3edec075-6e0b-0ccc-0036-5328de3e064c/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/3edec075-6e0b-0ccc-0036-5328de3e064c/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/64489",
-      "caption": "Young Woman in Black, 1902",
-      "source": "Art Institute of Chicago",
-      "artist": "Robert Henri (American, 1865–1929)",
-      "date": "1902",
-      "license": "Public domain (CC0)",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "1706",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
-    },
-    {
-      "url": "https://www.artic.edu/iiif/2/e1f6ef79-7216-4f19-ac78-a307a2fb4f32/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/e1f6ef79-7216-4f19-ac78-a307a2fb4f32/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/e1f6ef79-7216-4f19-ac78-a307a2fb4f32/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/27138",
-      "caption": "A Friendly Warning, 1881–90",
-      "source": "Art Institute of Chicago",
-      "artist": "Thomas Hicks",
-      "date": "1881–90",
-      "license": "Public domain (CC0)",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "638",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
-    },
-    {
-      "url": "https://www.artic.edu/iiif/2/e6dd6199-c245-d1b4-a997-ce89eafb48ca/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/e6dd6199-c245-d1b4-a997-ce89eafb48ca/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/e6dd6199-c245-d1b4-a997-ce89eafb48ca/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/121629",
-      "caption": "Life Study (Study of an Egyptian Girl), 1891",
-      "source": "Art Institute of Chicago",
-      "artist": "John Singer Sargent (American, 1856–1925)",
-      "date": "1891",
-      "license": "Public domain (CC0)",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "2688",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
-    },
-    {
-      "url": "https://www.artic.edu/iiif/2/f2f929b9-995a-9ed3-ef39-2fe81b35a64e/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/f2f929b9-995a-9ed3-ef39-2fe81b35a64e/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/f2f929b9-995a-9ed3-ef39-2fe81b35a64e/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/191185",
-      "caption": "The Puritan, Modeled 1883–86, cast after 1899",
-      "source": "Art Institute of Chicago",
-      "artist": "Augustus Saint-Gaudens (American, born Ireland, 1848–1907)",
-      "date": "Modeled 1883–86, cast after 1899",
-      "license": "Public domain (CC0)",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "1123",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
-    },
-    {
-      "url": "https://www.artic.edu/iiif/2/3cea045a-92d6-36cf-1508-2c99ea740218/full/843,/0/default.jpg",
-      "thumb": "https://www.artic.edu/iiif/2/3cea045a-92d6-36cf-1508-2c99ea740218/full/400,/0/default.jpg",
-      "full": "https://www.artic.edu/iiif/2/3cea045a-92d6-36cf-1508-2c99ea740218/full/1686,/0/default.jpg",
-      "pageUrl": "https://www.artic.edu/artworks/111377",
-      "caption": "For Sunday's Dinner, 1888",
-      "source": "Art Institute of Chicago",
-      "artist": "William Michael Harnett (American, born Ireland, 1848–1892)",
-      "date": "1888",
-      "license": "Public domain (CC0)",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": "843",
-      "height": "1495",
-      "check": {
-        "ok": true,
-        "status": 403,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Deutschkreutz_-_Schloss%2C_Schlossherr_Anton_Lehmden_%2801%29.jpg/1280px-Deutschkreutz_-_Schloss%2C_Schlossherr_Anton_Lehmden_%2801%29.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Deutschkreutz_-_Schloss%2C_Schlossherr_Anton_Lehmden_%2801%29.jpg/500px-Deutschkreutz_-_Schloss%2C_Schlossherr_Anton_Lehmden_%2801%29.jpg",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Deutschkreutz_-_Schloss%2C_Schlossherr_Anton_Lehmden_%2801%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Deutschkreutz_-_Schloss,_Schlossherr_Anton_Lehmden_(01).jpg",
+      "caption": "Anton Lehmden , austrian painter of the Vienna School of Fantastic Realism in his art museum in the castle Deutschkreutz in Deutschkreutz",
+      "source": "Wikimedia Commons",
+      "artist": "Steindy ( talk ) 14:18, 10 March 2012 (UTC)",
+      "date": "2011-08-06",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "1280",
+      "height": "1920"
     }
   ],
   "sources": [
@@ -224,7 +112,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
+        "checkedAt": "2026-09-19T14:53:18.670Z"
       }
     },
     {
@@ -235,7 +123,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
+        "checkedAt": "2026-09-19T14:53:18.670Z"
       }
     }
   ],
@@ -246,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-18T11:31:06.033Z"
+  "updatedAt": "2026-09-19T16:55:47.600Z"
 }

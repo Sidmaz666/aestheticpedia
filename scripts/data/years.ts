@@ -10,9 +10,12 @@ export function parseYear(text: string, edge: 'start' | 'end'): number | null {
   if (century) {
     const n = Number(century[1])
     const early = /early/.test(t)
+    const mid = /\bmid/.test(t)
     const late = /late/.test(t)
-    if (bce) return edge === 'start' ? -(n * 100) + (late ? 66 : 0) : -((n - 1) * 100) - (early ? 66 : 0)
-    return edge === 'start' ? (n - 1) * 100 + (late ? 66 : 0) : n * 100 - 1 - (early ? 66 : 0)
+    const from = late ? 66 : mid ? 33 : 0
+    const upTo = early ? 66 : mid ? 33 : 0
+    if (bce) return edge === 'start' ? -(n * 100) + from : -((n - 1) * 100) - upTo
+    return edge === 'start' ? (n - 1) * 100 + from : n * 100 - 1 - upTo
   }
   const decade = /(\d{3})0s/.exec(t)
   if (decade) return Number(decade[1]) * 10 + (edge === 'end' ? 9 : 0)
