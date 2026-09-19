@@ -107,7 +107,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/The_royal_family_sitting_under_a_canopy%2C_watching_dancers_perform_the_opening_ballet_of_%27La_Costanza_d%27Ulisse%27_MET_DP874833.jpg/1280px-The_royal_family_sitting_under_a_canopy%2C_watching_dancers_perform_the_opening_ballet_of_%27La_Costanza_d%27Ulisse%27_MET_DP874833.jpg",
@@ -121,14 +126,24 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "874"
+      "height": "874",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Ballet (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Ballet",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [],

@@ -127,7 +127,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Kabukicho_Cinecity_Square_%2852646886973%29.jpg/1280px-Kabukicho_Cinecity_Square_%2852646886973%29.jpg",
@@ -141,7 +146,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Valentino_evening_gown_for_Audrey_Hepburn.jpg",
@@ -155,7 +165,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "670",
-      "height": "1763"
+      "height": "1763",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
@@ -168,14 +183,24 @@
       "date": "early 1920s date QS:P,+1920-00-00T00:00:00Z/8,P4241,Q4071972",
       "license": "Public domain",
       "width": "768",
-      "height": "490"
+      "height": "490",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Jirai Kei (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Jirai_Kei",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -187,7 +212,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:20:16.555Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -198,7 +223,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:20:16.555Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -209,7 +234,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:20:16.555Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

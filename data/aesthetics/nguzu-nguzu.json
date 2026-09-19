@@ -17,7 +17,33 @@
   "summary": "The nguzu nguzu (sometimes called a musu musu or toto isu) is the traditional figurehead which was formerly affixed to canoes in the Solomon Islands.",
   "description": "The nguzu nguzu (sometimes called a musu musu or toto isu) is the traditional figurehead which was formerly affixed to canoes in the Solomon Islands.  It was attached to the canoe's prow at the waterline, and was held to provide supernatural protection during expeditions.  Nguzu nguzus typically depict bust-length figures with large heads, small arms, and circular ear ornaments; the hands are raised to the figure's chin, sometimes clasping either another head or a bird.  Their jutting jaws were traditionally held to be an attribute of spirits.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0b0c0f",
+      "name": "black"
+    },
+    {
+      "hex": "#252929",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#444a45",
+      "name": "graphite"
+    },
+    {
+      "hex": "#cdb491",
+      "name": "tan"
+    },
+    {
+      "hex": "#fefddd",
+      "name": "ivory"
+    },
+    {
+      "hex": "#656f69",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -52,7 +78,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "876",
-      "height": "1413"
+      "height": "1413",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
@@ -63,7 +94,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T06:58:24.357Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -73,7 +104,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T06:58:24.357Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],
@@ -86,7 +117,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T07:16:52.527Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -97,7 +128,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T07:16:52.527Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

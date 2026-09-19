@@ -97,7 +97,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1928"
+      "height": "1928",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/1983_live_photo_Christian_Death_Rozz_Williams_Johnnie_Sage.jpg/1280px-1983_live_photo_Christian_Death_Rozz_Williams_Johnnie_Sage.jpg",
@@ -110,7 +115,12 @@
       "date": "1982-11-12",
       "license": "Public domain",
       "width": "1280",
-      "height": "1597"
+      "height": "1597",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Devil_Master.jpg/1280px-Devil_Master.jpg",
@@ -124,7 +134,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/BIcastle.jpg",
@@ -138,14 +153,24 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "540",
-      "height": "720"
+      "height": "720",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Goth Punk (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Goth_Punk",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -157,7 +182,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:27:59.583Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -168,7 +193,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:27:59.583Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -179,7 +204,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:27:59.583Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

@@ -98,14 +98,24 @@
       "license": "No restrictions",
       "licenseUrl": "https://www.flickr.com/commons/usage/",
       "width": "1280",
-      "height": "1044"
+      "height": "1044",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Matatu Art (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Matatu_Art",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -117,7 +127,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:22:24.237Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -128,7 +138,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:22:24.237Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

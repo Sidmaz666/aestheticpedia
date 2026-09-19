@@ -93,7 +93,12 @@
       "date": "2024-02-28",
       "license": "Public domain",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Kamala_HQ_Twitter_Header.png",
@@ -106,14 +111,24 @@
       "date": "2024-07-21",
       "license": "Public domain",
       "width": "860",
-      "height": "500"
+      "height": "500",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Brat Summer (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Brat_Summer",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -125,7 +140,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:12:08.702Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -136,7 +151,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:12:08.702Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

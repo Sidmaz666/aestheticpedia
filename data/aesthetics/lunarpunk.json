@@ -88,7 +88,12 @@
       "artist": "Alphonse de Neuville / Henri Théophile Hildibrand",
       "license": "Public domain",
       "width": "962",
-      "height": "1400"
+      "height": "1400",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Aerial_house3.jpg/1280px-Aerial_house3.jpg",
@@ -101,7 +106,12 @@
       "date": "circa 1883 date QS:P,+1883-00-00T00:00:00Z/9,P1480,Q5727902",
       "license": "Public domain",
       "width": "1280",
-      "height": "2142"
+      "height": "2142",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/SonyCenterAtNight.jpg/1280px-SonyCenterAtNight.jpg",
@@ -115,7 +125,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "1941"
+      "height": "1941",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/AtomicWar0101.jpg",
@@ -128,7 +143,12 @@
       "date": "1952-11",
       "license": "Public domain",
       "width": "959",
-      "height": "1350"
+      "height": "1350",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Diesel_Forces.jpg",
@@ -142,7 +162,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "770",
-      "height": "972"
+      "height": "972",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Bundesarchiv_Bild_102-11217%2C_Entwurf_eines_Ozeanexpresses.jpg",
@@ -156,7 +181,12 @@
       "license": "CC BY-SA 3.0 de",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
       "width": "800",
-      "height": "763"
+      "height": "763",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Steampunk-falksen.jpg/1280px-Steampunk-falksen.jpg",
@@ -170,7 +200,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Forbiddenplanetposter.jpg/1280px-Forbiddenplanetposter.jpg",
@@ -183,14 +218,24 @@
       "date": "1956",
       "license": "Public domain",
       "width": "1280",
-      "height": "1972"
+      "height": "1972",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Lunarpunk (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Lunarpunk",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -202,7 +247,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:22:11.037Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -213,7 +258,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:22:11.037Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

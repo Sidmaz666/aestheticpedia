@@ -116,7 +116,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "1597"
+      "height": "1597",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Franz_von_Stuck_010.jpg/1280px-Franz_von_Stuck_010.jpg",
@@ -129,7 +134,12 @@
       "date": "1906 date QS:P571,+1906-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "1634"
+      "height": "1634",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Thedarose.jpg",
@@ -142,7 +152,12 @@
       "date": "cc. 1910s",
       "license": "Public domain",
       "width": "500",
-      "height": "750"
+      "height": "750",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Double-Indemnity-LIFE-1944-2.jpg/1280px-Double-Indemnity-LIFE-1944-2.jpg",
@@ -155,14 +170,24 @@
       "date": "1944-07-10",
       "license": "Public domain",
       "width": "1280",
-      "height": "899"
+      "height": "899",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Femme Fatale (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Femme_Fatale",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -174,7 +199,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:28:04.233Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -185,7 +210,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:28:04.233Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

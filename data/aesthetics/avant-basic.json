@@ -90,7 +90,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "832",
-      "height": "988"
+      "height": "988",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Lou_Reed_1977.JPG",
@@ -103,14 +108,24 @@
       "date": "1977-01-20",
       "license": "Public domain",
       "width": "1106",
-      "height": "1554"
+      "height": "1554",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Avant Basic (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Avant_Basic",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -122,7 +137,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:10:33.931Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -133,7 +148,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:10:33.931Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

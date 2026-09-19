@@ -116,7 +116,12 @@
       "license": "CC BY-SA 3.0 de",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Meat_pie.jpg",
@@ -129,7 +134,12 @@
       "license": "GFDL 1.2",
       "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
       "width": "886",
-      "height": "611"
+      "height": "611",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Mixed_Berry_Pavlova.jpg/1280px-Mixed_Berry_Pavlova.jpg",
@@ -143,14 +153,24 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "850"
+      "height": "850",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Australiana (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Australiana",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -162,7 +182,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:10:31.299Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -173,7 +193,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:10:31.299Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

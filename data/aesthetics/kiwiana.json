@@ -88,7 +88,12 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1280",
-      "height": "845"
+      "height": "845",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Foxton_Fizz_Bottles.jpg/1280px-Foxton_Fizz_Bottles.jpg",
@@ -102,7 +107,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Smiling_Kiwi_and_Leaf_Drawing_-_New_Zealand_North_Island_Highway_scenes_%2850801197347%29.jpg/1280px-Smiling_Kiwi_and_Leaf_Drawing_-_New_Zealand_North_Island_Highway_scenes_%2850801197347%29.jpg",
@@ -116,14 +126,24 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "848"
+      "height": "848",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Kiwiana (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Kiwiana",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -135,7 +155,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:21:04.560Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -146,7 +166,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:21:04.560Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -157,7 +177,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:21:04.560Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

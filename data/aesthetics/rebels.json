@@ -117,7 +117,12 @@
       "date": "1974",
       "license": "Public domain",
       "width": "770",
-      "height": "771"
+      "height": "771",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/David_Bowie_-_TopPop_1974_06.png",
@@ -131,7 +136,12 @@
       "license": "CC BY-SA 3.0 nl",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
       "width": "500",
-      "height": "492"
+      "height": "492",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Rebel_Rebel_by_David_Bowie_US_vinyl_pressing_APB0-0287.jpg",
@@ -144,7 +154,12 @@
       "date": "1974-02-01",
       "license": "Public domain",
       "width": "784",
-      "height": "779"
+      "height": "779",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Rebel_Rebel_by_David_Bowie_US_vinyl_pressing_LPB0_5009.jpg",
@@ -157,14 +172,24 @@
       "date": "1974-02-01",
       "license": "Public domain",
       "width": "800",
-      "height": "800"
+      "height": "800",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Rebels (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Rebels",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -176,7 +201,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:27:15.527Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -187,7 +212,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:27:15.527Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -198,7 +223,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:27:15.527Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

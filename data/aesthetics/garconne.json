@@ -93,14 +93,24 @@
       "date": "1928",
       "license": "Public domain",
       "width": "680",
-      "height": "888"
+      "height": "888",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Garçonne (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Gar%C3%A7onne",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -112,7 +122,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:17:23.662Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -123,7 +133,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:17:23.662Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -134,7 +144,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:17:23.662Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

@@ -100,7 +100,12 @@
       "date": "1504 date QS:P571,+1504-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "1836"
+      "height": "1836",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Pietro_Perugino_016.jpg/1280px-Pietro_Perugino_016.jpg",
@@ -113,14 +118,24 @@
       "date": "between circa 1503 and circa 1504 date QS:P571,+1503-00-00T0",
       "license": "Public domain",
       "width": "1280",
-      "height": "1658"
+      "height": "1658",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Sprezzatura (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Sprezzatura",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -132,7 +147,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:30:00.280Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -143,7 +158,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:30:00.280Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

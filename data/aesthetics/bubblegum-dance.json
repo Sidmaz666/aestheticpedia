@@ -119,14 +119,24 @@
       "date": "December 14, 1974",
       "license": "Public domain",
       "width": "842",
-      "height": "661"
+      "height": "661",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Bubblegum Dance (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Bubblegum_Dance",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -138,7 +148,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:12:19.884Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -149,7 +159,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:12:19.884Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

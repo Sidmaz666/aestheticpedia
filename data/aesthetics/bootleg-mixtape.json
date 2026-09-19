@@ -103,7 +103,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Funky_Stuff_mixtape.jpg/1280px-Funky_Stuff_mixtape.jpg",
@@ -117,7 +122,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "848"
+      "height": "848",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/8trackmixtape.JPG",
@@ -130,7 +140,12 @@
       "date": "19 August 2006 (original upload date)",
       "license": "Public domain",
       "width": "640",
-      "height": "480"
+      "height": "480",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Faces_sandwich.jpg",
@@ -144,7 +159,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "703",
-      "height": "613"
+      "height": "613",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Travi%24_Scott_2015.jpg",
@@ -158,7 +178,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1018",
-      "height": "800"
+      "height": "800",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Doing_some_%22mixtapes%22_-_2016-05-02.jpg/1280px-Doing_some_%22mixtapes%22_-_2016-05-02.jpg",
@@ -172,7 +197,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "800"
+      "height": "800",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Flora_Matos_vs_Stereodubs.jpg",
@@ -186,7 +216,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1024",
-      "height": "637"
+      "height": "637",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Matt_Groening_mixtape_of_M%27lumbo%27s_first_two_albums.png",
@@ -200,7 +235,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "540",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Mix_tape_sleeve_notes.jpg/1280px-Mix_tape_sleeve_notes.jpg",
@@ -214,7 +254,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "841"
+      "height": "841",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mixtape_-_TNX_2_%40fvrmxr_for_the_super_%EF%BC%83seedy_%EF%BC%83mixtape_plant_n_%EF%BC%83prosper_%EF%BC%83purp_%EF%BC%83vibes_%28by_j_bizzie%29_2015-01-11.jpg",
@@ -228,14 +273,24 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "640",
-      "height": "640"
+      "height": "640",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Bootleg Mixtape (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Bootleg_Mixtape",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -247,7 +302,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:12:05.954Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -258,7 +313,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:12:05.954Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -269,7 +324,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:12:05.954Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

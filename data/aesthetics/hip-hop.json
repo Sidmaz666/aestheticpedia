@@ -104,7 +104,12 @@
       "date": "1982-04-14",
       "license": "Public domain",
       "width": "645",
-      "height": "719"
+      "height": "719",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Turntables_and_mixer.jpg/1280px-Turntables_and_mixer.jpg",
@@ -118,7 +123,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "567"
+      "height": "567",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Cassius_Clay_-_Sept_1963_-_Boxing_%26_Wrestling_Magazine_Cover.jpg",
@@ -131,7 +141,12 @@
       "date": "196309",
       "license": "Public domain",
       "width": "542",
-      "height": "713"
+      "height": "713",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Dj_Kool_Herc-03.jpg",
@@ -145,7 +160,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "804",
-      "height": "1213"
+      "height": "1213",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/DJ_Hypnotize_and_Baby_Cee.jpg/1280px-DJ_Hypnotize_and_Baby_Cee.jpg",
@@ -159,7 +179,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/1520_Sedwick_Ave.%2C_Bronx%2C_New_York1.JPG/1280px-1520_Sedwick_Ave.%2C_Bronx%2C_New_York1.JPG",
@@ -172,7 +197,12 @@
       "date": "2009-07-21",
       "license": "Public domain",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Sugarhill_Gang_Tour%2C_2016_%282%29.jpg/1280px-Sugarhill_Gang_Tour%2C_2016_%282%29.jpg",
@@ -186,7 +216,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "852"
+      "height": "852",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Dj_Grandmaster_Flash-01-mika.jpg/1280px-Dj_Grandmaster_Flash-01-mika.jpg",
@@ -200,7 +235,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "843"
+      "height": "843",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Run_DMC_%28cropped%29.png/1280px-Run_DMC_%28cropped%29.png",
@@ -214,7 +254,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "755"
+      "height": "755",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Marlon_Williams_aka_Dj_Marley_Marl.jpg",
@@ -228,14 +273,24 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "907",
-      "height": "907"
+      "height": "907",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Hip-Hop (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Hip-Hop",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -247,7 +302,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:19:11.114Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -258,7 +313,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:19:11.114Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -269,7 +324,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:19:11.114Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

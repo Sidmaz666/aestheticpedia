@@ -106,7 +106,12 @@
       "date": "1952-10",
       "license": "Public domain",
       "width": "1122",
-      "height": "1600"
+      "height": "1600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Stanley_L._Wood00.jpg",
@@ -118,7 +123,12 @@
       "artist": "Stanley L. Wood (1866-1928)",
       "license": "Public domain",
       "width": "688",
-      "height": "750"
+      "height": "750",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/GalaxyOct50rearcover.jpg",
@@ -131,7 +141,12 @@
       "date": "2 October 2010 (original upload date)",
       "license": "Public domain",
       "width": "1080",
-      "height": "1518"
+      "height": "1518",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Thrilling_Adventure_Hour_-_August_2011_-_Photo_By_LifeofReilly.jpg/1280px-Thrilling_Adventure_Hour_-_August_2011_-_Photo_By_LifeofReilly.jpg",
@@ -145,14 +160,24 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "651"
+      "height": "651",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Space Western (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Space_Western",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -164,7 +189,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:29:21.817Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -175,7 +200,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:29:21.817Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -186,7 +211,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:29:21.817Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

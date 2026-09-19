@@ -106,7 +106,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1200",
-      "height": "1200"
+      "height": "1200",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "audio": [
@@ -126,7 +131,12 @@
     {
       "name": "Aesthetics Wiki — Mallsoft (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Mallsoft",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -138,7 +148,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:22:16.680Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -149,7 +159,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:22:16.680Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -160,7 +170,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:22:16.680Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

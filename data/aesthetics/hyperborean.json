@@ -98,7 +98,12 @@
       "date": "1587",
       "license": "Public domain",
       "width": "800",
-      "height": "588"
+      "height": "588",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg/1280px-The_Blue_Marble%2C_AS17-148-22727.jpg",
@@ -111,14 +116,24 @@
       "date": "1972-12-07",
       "license": "Public domain",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Hyperborean (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Hyperborean",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -130,7 +145,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:19:19.797Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -141,7 +156,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:19:19.797Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

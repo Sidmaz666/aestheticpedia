@@ -78,7 +78,12 @@
       "artist": "M. C. Escher",
       "license": "PD-US",
       "width": "1280",
-      "height": "1998"
+      "height": "1998",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/12086520-2e48-cc75-df86-916bb801e61f/full/843,/0/default.jpg",
@@ -92,7 +97,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "646"
+      "height": "646",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://www.artic.edu/iiif/2/6f61a6fc-dcd8-e801-0ad8-5f7e561d91b6/full/843,/0/default.jpg",
@@ -106,7 +116,12 @@
       "license": "Public domain (CC0)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "843",
-      "height": "597"
+      "height": "597",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
@@ -117,7 +132,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T10:32:48.407Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -127,7 +142,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T10:32:48.407Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],
@@ -140,7 +155,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T11:09:13.284Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -151,7 +166,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T11:09:13.284Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

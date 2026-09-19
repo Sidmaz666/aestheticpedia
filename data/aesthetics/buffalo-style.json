@@ -92,7 +92,12 @@
       "license": "CC0 (CMA Open Access)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "600",
-      "height": "900"
+      "height": "900",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://openaccess-cdn.clevelandart.org/2015.594/2015.594_web.jpg",
@@ -106,7 +111,12 @@
       "license": "CC0 (CMA Open Access)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "605",
-      "height": "900"
+      "height": "900",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://openaccess-cdn.clevelandart.org/1972.340/1972.340_web.jpg",
@@ -119,7 +129,12 @@
       "license": "CC0 (CMA Open Access)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "787",
-      "height": "893"
+      "height": "893",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://openaccess-cdn.clevelandart.org/2006.204/2006.204_web.jpg",
@@ -132,14 +147,24 @@
       "license": "CC0 (CMA Open Access)",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": "665",
-      "height": "893"
+      "height": "893",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Buffalo Style (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Buffalo_Style",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [],

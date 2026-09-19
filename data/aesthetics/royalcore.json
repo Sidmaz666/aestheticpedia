@@ -106,7 +106,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "1706"
+      "height": "1706",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Madame_Philippe_Panon_Desbassayns_de_Richemont_%28Jeanne_Egl%C3%A9_Mourgue%2C_1778%E2%80%931855%29_and_Her_Son%2C_Eug%C3%A8ne_%281800%E2%80%931859%29_MET_DT1995.jpg/1280px-Madame_Philippe_Panon_Desbassayns_de_Richemont_%28Jeanne_Egl%C3%A9_Mourgue%2C_1778%E2%80%931855%29_and_Her_Son%2C_Eug%C3%A8ne_%281800%E2%80%931859%29_MET_DT1995.jpg",
@@ -120,14 +125,24 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1655"
+      "height": "1655",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Royalcore (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Royalcore",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -139,7 +154,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:28:00.216Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -150,7 +165,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:28:00.216Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

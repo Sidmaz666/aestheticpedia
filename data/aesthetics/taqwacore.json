@@ -103,7 +103,12 @@
       "license": "CC-BY-3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
       "width": "500",
-      "height": "451"
+      "height": "451",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Althawra.jpg",
@@ -117,7 +122,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "600",
-      "height": "400"
+      "height": "400",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/en/1/10/Secrettrialfive.jpg",
@@ -129,7 +139,12 @@
       "license": "CC-BY-SA-3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "width": "600",
-      "height": "432"
+      "height": "432",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Diacritical_Scream_2005.jpg",
@@ -143,14 +158,24 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "640",
-      "height": "523"
+      "height": "523",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Taqwacore (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Taqwacore",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -162,7 +187,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:30:23.524Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -173,7 +198,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:30:23.524Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -184,7 +209,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:30:23.524Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

@@ -104,7 +104,12 @@
       "date": "2007-05-21",
       "license": "Public domain",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Dio_Distraught_Overlord_20070708_Japan_Expo_05.jpg/1280px-Dio_Distraught_Overlord_20070708_Japan_Expo_05.jpg",
@@ -118,7 +123,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Machine_20080704_Japan_Expo_017.jpg/1280px-Machine_20080704_Japan_Expo_017.jpg",
@@ -132,7 +142,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1923"
+      "height": "1923",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Vistlip_20090702_Japan_Expo_19.jpg/1280px-Vistlip_20090702_Japan_Expo_19.jpg",
@@ -146,7 +161,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "852"
+      "height": "852",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/ViViD_20100702_Japan_Expo_03.jpg/1280px-ViViD_20100702_Japan_Expo_03.jpg",
@@ -160,7 +180,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Sugizo_in_S%C3%A3o_Paulo%2C_Brazil_2011-11-09.jpg",
@@ -174,7 +199,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "532",
-      "height": "800"
+      "height": "800",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Exist_Trace_at_Tekko_X.jpg",
@@ -188,7 +218,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1024",
-      "height": "606"
+      "height": "606",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/DaisyStripper_at_Animethon.jpg/1280px-DaisyStripper_at_Animethon.jpg",
@@ -202,7 +237,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "975"
+      "height": "975",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/MTV_VMAJ_2014_Glay_%282%29.jpg/1280px-MTV_VMAJ_2014_Glay_%282%29.jpg",
@@ -216,7 +256,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "852"
+      "height": "852",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Versailles_Chile.jpg",
@@ -229,14 +274,24 @@
       "date": "2010-06-06",
       "license": "Public domain",
       "width": "729",
-      "height": "547"
+      "height": "547",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Angura Kei (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Angura_Kei",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -248,7 +303,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:09:12.451Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -259,7 +314,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:09:12.451Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -270,7 +325,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:09:12.451Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

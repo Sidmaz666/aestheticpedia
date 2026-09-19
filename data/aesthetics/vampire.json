@@ -122,7 +122,12 @@
       "date": "1897 date QS:P571,+1897-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "531",
-      "height": "700"
+      "height": "700",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Edvard_Munch_-_Vampire_%281895%29_-_Google_Art_Project.jpg/1280px-Edvard_Munch_-_Vampire_%281895%29_-_Google_Art_Project.jpg",
@@ -135,7 +140,12 @@
       "date": "1895 date QS:P571,+1895-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "1048"
+      "height": "1048",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/GarlicBasket.jpg/1280px-GarlicBasket.jpg",
@@ -149,7 +159,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "915"
+      "height": "915",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Thebible33.jpg",
@@ -163,7 +178,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Salzburg_Kajetanerkirche_Weihwasserbecken.jpg/1280px-Salzburg_Kajetanerkirche_Weihwasserbecken.jpg",
@@ -177,7 +197,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Johann_Jacob_Kirstein_001.JPG",
@@ -191,7 +216,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1130",
-      "height": "1016"
+      "height": "1016",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Norre_naeraa_600px.jpg",
@@ -205,7 +235,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "600",
-      "height": "823"
+      "height": "823",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Vampire_skeleton_of_Sozopol_in_Sofia_PD_2012_06.JPG/1280px-Vampire_skeleton_of_Sozopol_in_Sofia_PD_2012_06.JPG",
@@ -219,7 +254,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "757"
+      "height": "757",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Lilith_%28John_Collier_painting%29.jpg",
@@ -232,7 +272,12 @@
       "date": "1887 date QS:P571,+1887-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "637",
-      "height": "1200"
+      "height": "1200",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Execution_of_the_Vampire_by_Ren%C3%A9_de_Moraine.png",
@@ -245,14 +290,24 @@
       "date": "1851",
       "license": "Public domain",
       "width": "1170",
-      "height": "1600"
+      "height": "1600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Vampire (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Vampire",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -264,7 +319,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:32:09.560Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -275,7 +330,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:32:09.560Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -286,7 +341,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:32:09.560Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

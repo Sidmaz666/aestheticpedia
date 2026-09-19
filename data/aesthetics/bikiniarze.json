@@ -94,7 +94,12 @@
       "date": "around 1955",
       "license": "Public domain",
       "width": "1280",
-      "height": "1515"
+      "height": "1515",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/P%C3%A1sek_Dikobraz_1953.png",
@@ -107,7 +112,12 @@
       "date": "1953",
       "license": "Public domain",
       "width": "542",
-      "height": "633"
+      "height": "633",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/The_USS_Arizona_%28BB-39%29_burning_after_the_Japanese_attack_on_Pearl_Harbor_-_NARA_195617_-_Edit.jpg/1280px-The_USS_Arizona_%28BB-39%29_burning_after_the_Japanese_attack_on_Pearl_Harbor_-_NARA_195617_-_Edit.jpg",
@@ -120,14 +130,24 @@
       "date": "1941-12-07",
       "license": "Public domain",
       "width": "1280",
-      "height": "1013"
+      "height": "1013",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Bikiniarze (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Bikiniarze",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -139,7 +159,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:11:20.771Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -150,7 +170,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:11:20.771Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

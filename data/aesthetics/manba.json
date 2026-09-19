@@ -91,7 +91,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "800",
-      "height": "484"
+      "height": "484",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/JamesonsMamba.jpg/1280px-JamesonsMamba.jpg",
@@ -105,7 +110,12 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Dendroaspis_polylepis_%2814%29.jpg/1280px-Dendroaspis_polylepis_%2814%29.jpg",
@@ -117,7 +127,12 @@
       "artist": "TimVickers",
       "license": "Public domain",
       "width": "1280",
-      "height": "880"
+      "height": "880",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Green_mambaa.jpg/1280px-Green_mambaa.jpg",
@@ -131,7 +146,12 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "961"
+      "height": "961",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Green-mamba-2348952_640.jpg",
@@ -145,7 +165,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "640",
-      "height": "360"
+      "height": "360",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/%CE%A0%CF%81%CE%AC%CF%83%CE%B9%CE%BD%CE%BF_%CE%9C%CE%AC%CE%BC%CF%80%CE%B1.JPG/1280px-%CE%A0%CF%81%CE%AC%CF%83%CE%B9%CE%BD%CE%BF_%CE%9C%CE%AC%CE%BC%CF%80%CE%B1.JPG",
@@ -159,14 +184,24 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "848"
+      "height": "848",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Manba (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Manba",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -178,7 +213,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:22:18.824Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -189,7 +224,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:22:18.824Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -200,7 +235,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:22:18.824Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

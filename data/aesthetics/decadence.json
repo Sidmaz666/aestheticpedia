@@ -95,7 +95,12 @@
       "date": "1872 date QS:P571,+1872-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1000",
-      "height": "637"
+      "height": "637",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/THOMAS_COUTURE_-_Los_Romanos_de_la_Decadencia_%28Museo_de_Orsay%2C_1847._%C3%93leo_sobre_lienzo%2C_472_x_772_cm%29.jpg/1280px-THOMAS_COUTURE_-_Los_Romanos_de_la_Decadencia_%28Museo_de_Orsay%2C_1847._%C3%93leo_sobre_lienzo%2C_472_x_772_cm%29.jpg",
@@ -108,7 +113,12 @@
       "date": "1847 date QS:P571,+1847-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "764"
+      "height": "764",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/The_Roses_of_Heliogabalus.jpg/1280px-The_Roses_of_Heliogabalus.jpg",
@@ -121,7 +131,12 @@
       "date": "1888 date QS:P571,+1888-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "788"
+      "height": "788",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/F%C3%A9licien_Rops_-_Pornokrat%C3%A8s_-_1878.jpg/1280px-F%C3%A9licien_Rops_-_Pornokrat%C3%A8s_-_1878.jpg",
@@ -134,7 +149,12 @@
       "date": "1878 date QS:P571,+1878-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "1981"
+      "height": "1981",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Malevich.black-square.jpg",
@@ -147,7 +167,12 @@
       "date": "1924 date QS:P571,+1924-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "820",
-      "height": "812"
+      "height": "812",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Edgar_Degas_-_In_a_Caf%C3%A9_-_Google_Art_Project_2.jpg/1280px-Edgar_Degas_-_In_a_Caf%C3%A9_-_Google_Art_Project_2.jpg",
@@ -160,7 +185,12 @@
       "date": "between 1875 and 1876 date QS:P571,+1875-00-00T00:00:00Z/8,P",
       "license": "Public domain",
       "width": "1280",
-      "height": "1756"
+      "height": "1756",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/One_and_Three_Chair.jpg/1280px-One_and_Three_Chair.jpg",
@@ -174,14 +204,24 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "828"
+      "height": "828",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Decadence (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Decadence",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -193,7 +233,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:15:09.700Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -204,7 +244,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:15:09.700Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

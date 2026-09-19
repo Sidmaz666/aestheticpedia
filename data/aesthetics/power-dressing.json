@@ -94,14 +94,24 @@
       "date": "between circa 1995 and circa 1996 date QS:P,+1995-00-00T00:0",
       "license": "Copyrighted free use",
       "width": "790",
-      "height": "1099"
+      "height": "1099",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Power Dressing (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Power_Dressing",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -113,7 +123,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:26:16.380Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -124,7 +134,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:26:16.380Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

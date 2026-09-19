@@ -121,14 +121,24 @@
       "date": "1949-01",
       "license": "Public domain",
       "width": "635",
-      "height": "429"
+      "height": "429",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Tomboy (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Tomboy",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [],

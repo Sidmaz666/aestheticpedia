@@ -111,7 +111,12 @@
       "artist": "Gugong Bowuguan Taiwan",
       "license": "Public domain",
       "width": "535",
-      "height": "472"
+      "height": "472",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/140120_Minho_Lee_c.jpg",
@@ -125,7 +130,12 @@
       "license": "CC BY 2.0 kr",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
       "width": "486",
-      "height": "608"
+      "height": "608",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "audio": [
@@ -145,7 +155,12 @@
     {
       "name": "Aesthetics Wiki — Kkonminam (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Kkonminam",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -157,7 +172,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:21:05.316Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -168,7 +183,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:21:05.316Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

@@ -75,7 +75,12 @@
     {
       "name": "Aesthetics Wiki — Paninaro (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Paninaro",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -87,7 +92,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:21:38.081Z"
+        "checkedAt": "2026-09-19T13:59:57.010Z"
       }
     },
     {
@@ -98,7 +103,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:21:38.081Z"
+        "checkedAt": "2026-09-19T13:59:57.010Z"
       }
     }
   ],
@@ -109,5 +114,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T12:21:38.081Z"
+  "updatedAt": "2026-09-19T13:59:57.010Z"
 }

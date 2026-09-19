@@ -6,9 +6,9 @@ A running log of what has been done and what is next. Newest first. Keep entries
 
 | Metric | Value |
 |---|---|
-| Records | 4,713 across 24 categories; 3,954 with images, 4,339 with palettes; live counts in `public/data/manifest.json` |
-| Images | 27,162 freely licensed, all with artist/license/source page |
-| Relations | 8,750 |
+| Records | 4,739 across 24 categories; 3,979 with images; live counts in `public/data/manifest.json` |
+| Images | 27,379 freely licensed, all with artist/license/source page; every image URL verified live (2026-09-19 full check: 0 broken) |
+| Relations | 8,761 |
 | Coverage | Every UN member state has at least one record except Grenada, Liechtenstein, Maldives, San Marino, São Tomé and Príncipe, and Saint Vincent (no documented visual tradition found in open sources) |
 | Known gaps | 759 records without images (mostly internet aesthetics with no freely licensed pictures), 2,178 without a start year, 1,539 without an origin, 374 without a palette. Editorial fields (style/mood profiles, UI translation, lighting, type pairing) are empty for most records because no source provides them — left empty rather than invented |
 | Tests | 89 unit (Vitest) · 30 e2e (Playwright, desktop + mobile) |
@@ -37,6 +37,8 @@ A running log of what has been done and what is next. Newest first. Keep entries
 - [x] Themed scrollbars; the wand steps aside over scrollbars and ignores scrollbar drags; footer reads "Conjured by @sidmaz666".
 - [x] Responsive audit (11 pages × 7 widths, 320–1920 px): header fits 320 px phones (shuffle moves into the mobile menu), Timeline filter no longer overflows at 320 px, Connections controls move below the title on phones, reveal animations have a CSS failsafe, Discover's random start no longer causes a hydration mismatch; no runtime or hydration errors on any page, desktop or mobile.
 - [x] Section-level enrichment: 1,135 fields from each internet aesthetic's own Aesthetics Wiki article and 797 from each record's own Wikipedia article (visual language, techniques, dress, architecture, interiors, photography, examples) — only empty fields, only when the article is about the record; 12 wrong Wikipedia links corrected.
+- [x] Coverage audit against the Getty Art & Architecture Thesaurus (museum-standard style vocabulary, via Wikidata P1014): 547 of 628 AAT-linked styles with Wikipedia articles were already in the library; of the 81 missing, 24 genuine ones added after review (Gothic art, Islamic art, Ottonian art, Cycladic and Neo-Sumerian art, Queen Anne, Spanish Colonial Revival and Modern architecture, Shan shui, History and Landscape painting, the Cusco school…) — the rest were trades, philosophies or duplicates. Wikidata class re-scan: 68 new items, only 2 visual (Flower power, Mercerisation); 65 fandoms/music/literary items recorded as reviewed exclusions. Aesthetics Wiki: all 1,251 articles covered. Reviewed titles now bypass the fuzzy duplicate check that had equated "Gothic art" with "Goth".
+- [x] Full link check: 27,379 images all live; 14 of 19,180 links dead (hidden automatically).
 - [x] Writer model: MiniCPM5 1B added as the recommended on-device writer (community WebLLM build CharlZKP/MiniCPM5-1B-MLC for web-llm 0.2.85, pinned to commit cd20b6b; f16 or f32 variant chosen by the GPU). Benchmarked against Qwen 3.5 0.8B on grounded answers: 41 vs 32 tok/s warm, 0.32 vs 0.40 s to first token, and no invented facts (Qwen glossed Japonisme wrongly); ≈0.7 GB, one-off 17 s shader compile.
 - [x] Toasts: themed, icon aligned to the title line, readable descriptions, pill actions; AI progress toasts split into a short title and a detail line. The robot lifts clear of the footer and does a double hop at the end of a page.
 - [x] Wand cursor: six wands (Starlight, Elder, Crystal, Willow, Obsidian, Moonlit) with their own trails, picked from the header; states for hover, disabled, press/hold-to-charge, click, double-click, right-click, drag ribbon, text selection, scroll, page loading and idle; text caret kept in fields; off on touch screens, reduced for reduced motion; system cursor one click away.

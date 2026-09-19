@@ -136,11 +136,16 @@ if (FROM_CRAWL) {
     if (!p.qid || excluded.has(p.title) || p.p31.some((q) => DENY.has(q))) continue
     const cls = picked.get(p.title) ?? allow.find((c) => p.p31.includes(c.qid))
     if (!cls || REJECT.test(p.title) || /^(history|historiography|timeline|glossary) of\b/i.test(p.title)) continue
-    if (haveQ.has(p.qid) || haveNames.has(norm(p.title)) || haveCores.has(core(p.title)) || listed.has(p.qid)) continue
+    // Hand-reviewed titles skip the fuzzy core-name check ("Gothic art" is not "Goth"); exact duplicates are still skipped.
+    if (haveQ.has(p.qid) || haveNames.has(norm(p.title)) || (!picked.has(p.title) && haveCores.has(core(p.title))) || listed.has(p.qid)) continue
     listed.set(p.qid, { title: p.title, cls })
   }
   console.log(`crawl: ${listed.size} new pages on the class allow-list`)
 }
+// Titles reviewed and rejected (not visual aesthetics) are skipped in class mode too; ONLY=a,b
+// limits an import to specific reviewed titles.
+const REVIEWED_OUT = new Set<string>(JSON.parse(readFileSync(new URL('../../data/crawl-classes.json', import.meta.url), 'utf8')).excludeTitles)
+const ONLY = process.env.ONLY ? new Set(process.env.ONLY.split(',').map((t) => t.trim())) : null
 for (const cls of FROM_CRAWL ? [] : CLASSES) {
   const rows = await sparql(`
 SELECT DISTINCT ?item ?title WHERE {
@@ -153,7 +158,7 @@ SELECT DISTINCT ?item ?title WHERE {
   for (const b of rows) {
     const qid = qidOf(v(b, 'item'))!
     const title = v(b, 'title')!
-    if (!qid || !title || REJECT.test(title) || haveQ.has(qid) || haveNames.has(norm(title)) || haveCores.has(core(title)) || listed.has(qid)) continue
+    if (!qid || !title || REJECT.test(title) || REVIEWED_OUT.has(title) || (ONLY && !ONLY.has(title)) || haveQ.has(qid) || haveNames.has(norm(title)) || haveCores.has(core(title)) || listed.has(qid)) continue
     listed.set(qid, { title, cls })
     fresh++
   }
@@ -338,6 +343,7 @@ const byCat = new Map<string, number>()
 for (const r of created) byCat.set(r.category, (byCat.get(r.category) ?? 0) + 1)
 console.log(Object.fromEntries(byCat))
 console.log('sample:', created.slice(0, 15).map((r) => r.name).join(', '))
+if (process.env.LIST) for (const r of created) console.log(`  ${r.category.padEnd(30)} ${r.name} — ${r.summary.slice(0, 90)}`)
 if (!DRY) {
   for (const r of created) saveAesthetic(r)
   saveRelations([...relations, ...newRels])

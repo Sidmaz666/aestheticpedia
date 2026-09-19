@@ -98,7 +98,12 @@
       "date": "2005-03-28",
       "license": "Public domain",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Larry_Niven_-_Utopiales_2010.jpg/1280px-Larry_Niven_-_Utopiales_2010.jpg",
@@ -112,14 +117,24 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Rocketpunk (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Rocketpunk",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -131,7 +146,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:27:26.532Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -142,7 +157,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:27:26.532Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

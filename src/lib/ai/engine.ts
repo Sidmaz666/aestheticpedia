@@ -42,7 +42,7 @@ async function supportsF16() {
 }
 
 export const CHAT_MODELS: ChatModel[] = [
-  { id: MINICPM_ID, label: 'MiniCPM5 · 1B', size: '≈0.7 GB', note: 'Recommended — fastest, most faithful' },
+  { id: MINICPM_ID, label: 'MiniCPM5 · 1B', size: '≈0.7 GB', note: 'Recommended' },
   { id: 'Qwen3.5-0.8B-q4f16_1-MLC', label: 'Qwen 3.5 · 0.8B', size: '≈0.6 GB', note: 'Fast' },
   { id: 'Qwen3.5-2B-q4f16_1-MLC', label: 'Qwen 3.5 · 2B', size: '≈1.4 GB', note: 'Richest answers' },
   { id: 'Qwen3-0.6B-q4f16_1-MLC', label: 'Qwen 3 · 0.6B', size: '≈0.4 GB', note: 'Lightest' },

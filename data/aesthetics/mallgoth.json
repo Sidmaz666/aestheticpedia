@@ -118,7 +118,12 @@
       "license": "CC BY-SA 2.0 fr",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Goth_weekends_%28281306696%29.jpg/1280px-Goth_weekends_%28281306696%29.jpg",
@@ -132,14 +137,24 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "1912"
+      "height": "1912",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Mallgoth (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Mallgoth",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -151,7 +166,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:22:16.631Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -162,7 +177,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:22:16.631Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

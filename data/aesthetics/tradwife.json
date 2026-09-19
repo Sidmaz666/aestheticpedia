@@ -100,7 +100,12 @@
       "date": "1948",
       "license": "Public domain",
       "width": "1280",
-      "height": "1204"
+      "height": "1204",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Good_housekeeping_1908_08_a.jpg",
@@ -113,7 +118,12 @@
       "date": "1908",
       "license": "Public domain",
       "width": "565",
-      "height": "800"
+      "height": "800",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Ninot_infantil_falla_Antic_Regne.JPG/1280px-Ninot_infantil_falla_Antic_Regne.JPG",
@@ -127,14 +137,24 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Tradwife (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Tradwife",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -146,7 +166,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:31:16.429Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -157,7 +177,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:31:16.429Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -168,7 +188,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:31:16.429Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

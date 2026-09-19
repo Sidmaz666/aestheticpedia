@@ -92,7 +92,12 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1000",
-      "height": "667"
+      "height": "667",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Caetano_Veloso_no_III_Festival_da_M%C3%BAsica_Popular.jpg/1280px-Caetano_Veloso_no_III_Festival_da_M%C3%BAsica_Popular.jpg",
@@ -105,7 +110,12 @@
       "date": "Taken on 21 October 1967",
       "license": "Public domain",
       "width": "1280",
-      "height": "846"
+      "height": "846",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Gal_Costa_BNA.jpg/1280px-Gal_Costa_BNA.jpg",
@@ -118,7 +128,12 @@
       "date": "22 May 1969 date QS:P571,+1969-05-22T00:00:00Z/11",
       "license": "Public domain",
       "width": "1280",
-      "height": "2476"
+      "height": "2476",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Os_Mutantes.jpg/1280px-Os_Mutantes.jpg",
@@ -131,7 +146,12 @@
       "date": "Agosto de 1969",
       "license": "Public domain",
       "width": "1280",
-      "height": "1180"
+      "height": "1180",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Tom_Z%C3%A9_in_S%C3%A3o_Paulo.jpg",
@@ -145,14 +165,24 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "800",
-      "height": "600"
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Tropicália (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Tropic%C3%A1lia",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -164,7 +194,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:31:23.063Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -175,7 +205,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:31:23.063Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

@@ -92,7 +92,12 @@
       "date": "circa 1891 date QS:P,+1891-00-00T00:00:00Z/9,P1480,Q5727902",
       "license": "Public domain",
       "width": "981",
-      "height": "1196"
+      "height": "1196",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/The_Weaker_Sex_II.png/1280px-The_Weaker_Sex_II.png",
@@ -105,7 +110,12 @@
       "date": "1903-07-04",
       "license": "Public domain",
       "width": "1280",
-      "height": "1014"
+      "height": "1014",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/The_Crush%2C_Gibson.jpg",
@@ -118,7 +128,12 @@
       "date": "1901",
       "license": "Public domain",
       "width": "800",
-      "height": "550"
+      "height": "550",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/A_Daughter_of_the_South%2C_1909_by_Charles_Dana_Gibson.jpg",
@@ -131,7 +146,12 @@
       "date": "1909-07-31",
       "license": "Public domain",
       "width": "725",
-      "height": "1023"
+      "height": "1023",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Collier%27s%2C_September_25%2C_1909%2C_by_Charles_Dana_Gibson.jpg/1280px-Collier%27s%2C_September_25%2C_1909%2C_by_Charles_Dana_Gibson.jpg",
@@ -144,7 +164,12 @@
       "date": "1909-09-25",
       "license": "Public domain",
       "width": "1280",
-      "height": "1846"
+      "height": "1846",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Collier%E2%80%99s_cover_1909-10-30_by_Charles_Dana_Gibson.jpg/1280px-Collier%E2%80%99s_cover_1909-10-30_by_Charles_Dana_Gibson.jpg",
@@ -157,7 +182,12 @@
       "date": "1909",
       "license": "Public domain",
       "width": "1280",
-      "height": "1720"
+      "height": "1720",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Gibson_Girl_and_Flowers_Matchsafe%2C_ca._1895_%28CH_18494259%29.jpg/1280px-Gibson_Girl_and_Flowers_Matchsafe%2C_ca._1895_%28CH_18494259%29.jpg",
@@ -170,7 +200,12 @@
       "date": "circa 1895 date QS:P571,+1895-00-00T00:00:00Z/9,P1480,Q57279",
       "license": "Public domain",
       "width": "1280",
-      "height": "1024"
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Gibson_girl_beach.jpg",
@@ -183,7 +218,12 @@
       "date": "1902",
       "license": "Public domain",
       "width": "900",
-      "height": "590"
+      "height": "590",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Gibson_Girl.png",
@@ -196,7 +236,12 @@
       "date": "circa 1900 date QS:P,+1900-00-00T00:00:00Z/9,P1480,Q5727902",
       "license": "Public domain",
       "width": "650",
-      "height": "780"
+      "height": "780",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Gibson_Girls_Magnifying_Glass_by_Charles_Dana_Gibson.jpg",
@@ -209,14 +254,24 @@
       "date": "1903 date QS:P571,+1903-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1024",
-      "height": "812"
+      "height": "812",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Gibson Girl (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Gibson_Girl",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -228,7 +283,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:18:00.790Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -239,7 +294,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:18:00.790Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -250,7 +305,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:18:00.790Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

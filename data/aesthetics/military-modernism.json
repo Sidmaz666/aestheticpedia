@@ -81,7 +81,12 @@
       "date": "1888",
       "license": "Public domain",
       "width": "1280",
-      "height": "1668"
+      "height": "1668",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/45_record.png",
@@ -94,7 +99,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "792",
-      "height": "800"
+      "height": "800",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Mikrotonzeichen-neu.png/1280px-Mikrotonzeichen-neu.png",
@@ -107,14 +117,24 @@
       "date": "2007-03-14",
       "license": "Public domain",
       "width": "1280",
-      "height": "437"
+      "height": "437",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Military Modernism (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Military_Modernism",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -126,7 +146,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:23:05.758Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -137,7 +157,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:23:05.758Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -148,7 +168,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:23:05.758Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

@@ -98,7 +98,12 @@
       "date": "1887",
       "license": "Public domain",
       "width": "1280",
-      "height": "1268"
+      "height": "1268",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Eadweard_Muybridge_Animal_Locomotion_Plate_172.jpg/1280px-Eadweard_Muybridge_Animal_Locomotion_Plate_172.jpg",
@@ -111,14 +116,24 @@
       "date": "1887",
       "license": "Public domain",
       "width": "1280",
-      "height": "627"
+      "height": "627",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — 90s Cool (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/90s_Cool",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -130,7 +145,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:08:44.594Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -141,7 +156,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:08:44.594Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

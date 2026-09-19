@@ -76,7 +76,12 @@
     {
       "name": "Aesthetics Wiki — Cleancore (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Cleancore",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [],
@@ -87,5 +92,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T12:21:09.263Z"
+  "updatedAt": "2026-09-19T13:59:32.523Z"
 }

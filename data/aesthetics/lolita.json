@@ -107,7 +107,12 @@
       "date": "1955",
       "license": "Public domain",
       "width": "666",
-      "height": "1051"
+      "height": "1051",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Vladimir_Nabokov_1973.jpg",
@@ -120,14 +125,24 @@
       "date": "1973",
       "license": "Public domain",
       "width": "671",
-      "height": "1024"
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Lolita (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Lolita",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -139,7 +154,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:22:08.997Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -150,7 +165,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:22:08.997Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

@@ -101,7 +101,12 @@
       "date": "circa 1766 date QS:P571,+1766-00-00T00:00:00Z/9,P1480,Q57279",
       "license": "Public domain",
       "width": "1280",
-      "height": "983"
+      "height": "983",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Denis_Dighton_-_Caricature_of_a_French_military_officer_-_B1977.14.6008_-_Yale_Center_for_British_Art.jpg/1280px-Denis_Dighton_-_Caricature_of_a_French_military_officer_-_B1977.14.6008_-_Yale_Center_for_British_Art.jpg",
@@ -115,7 +120,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1516"
+      "height": "1516",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Nast-Prey-Harper%27s-Weekly-1871.jpg/1280px-Nast-Prey-Harper%27s-Weekly-1871.jpg",
@@ -128,7 +138,12 @@
       "date": "1871-09-23",
       "license": "Public domain",
       "width": "1280",
-      "height": "1932"
+      "height": "1932",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Groucho001.jpg",
@@ -141,7 +156,12 @@
       "date": "1947",
       "license": "Public domain",
       "width": "1008",
-      "height": "1382"
+      "height": "1382",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Crazy19.jpg",
@@ -154,7 +174,12 @@
       "date": "1959-03",
       "license": "Public domain",
       "width": "602",
-      "height": "813"
+      "height": "813",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Caricature_of_Ammon_Bundy.jpg/1280px-Caricature_of_Ammon_Bundy.jpg",
@@ -168,7 +193,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "720"
+      "height": "720",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/MattCaric.jpg",
@@ -182,14 +212,24 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "883",
-      "height": "538"
+      "height": "538",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Caricaturism (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Caricaturism",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -201,7 +241,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:13:03.996Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -212,7 +252,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:13:03.996Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

@@ -261,7 +261,7 @@ export function AgentDock() {
               </p>
               {[{ id: 'off', label: 'No writer', size: '', note: 'Instant, fully grounded' }, ...CHAT_MODELS].map((m) => (
                 <label key={m.id} className={`flex cursor-pointer items-center justify-between gap-3 rounded-xl border px-3 py-2 ${writer === m.id ? 'border-accent bg-accent-soft' : 'border-line'}`}>
-                  <span className="flex items-center gap-2">
+                  <span className="flex min-w-0 items-center gap-2 whitespace-nowrap">
                     <input
                       type="radio"
                       name="writer"
@@ -274,7 +274,7 @@ export function AgentDock() {
                     />
                     {m.label} <span className="text-xs text-fg-subtle">{m.note}</span>
                   </span>
-                  <span className="font-mono text-xs text-fg-subtle">{m.size}</span>
+                  <span className="shrink-0 whitespace-nowrap font-mono text-xs text-fg-subtle">{m.size}</span>
                 </label>
               ))}
               {!gpu.ok && <p className="text-xs text-danger">{gpu.reason}</p>}

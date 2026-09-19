@@ -103,14 +103,24 @@
       "date": "2022-10-24",
       "license": "Public domain",
       "width": "721",
-      "height": "547"
+      "height": "547",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Analog Horror (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Analog_Horror",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [],

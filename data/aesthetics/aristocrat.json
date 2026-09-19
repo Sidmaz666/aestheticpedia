@@ -108,7 +108,12 @@
       "date": "1780 date QS:P571,+1780-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "1280",
-      "height": "1094"
+      "height": "1094",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Montijo_y_Teba%2C_disfraces.jpg/1280px-Montijo_y_Teba%2C_disfraces.jpg",
@@ -120,7 +125,12 @@
       "date": "1846",
       "license": "Public domain",
       "width": "1280",
-      "height": "1620"
+      "height": "1620",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/0_Maincy_-_Ch%C3%A2teau_de_Vaux-le-Vicomte_%282%29.JPG/1280px-0_Maincy_-_Ch%C3%A2teau_de_Vaux-le-Vicomte_%282%29.JPG",
@@ -134,14 +144,24 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "width": "1280",
-      "height": "854"
+      "height": "854",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Aristocrat (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Aristocrat",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -153,7 +173,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:10:07.863Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -164,7 +184,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:10:07.863Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

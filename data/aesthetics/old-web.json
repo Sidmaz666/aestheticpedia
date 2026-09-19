@@ -67,7 +67,12 @@
     {
       "name": "Aesthetics Wiki — Old Web (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Old_Web",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -79,7 +84,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:21:37.318Z"
+        "checkedAt": "2026-09-19T13:59:56.262Z"
       }
     },
     {
@@ -90,7 +95,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:21:37.318Z"
+        "checkedAt": "2026-09-19T13:59:56.262Z"
       }
     }
   ],
@@ -101,5 +106,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T12:21:37.318Z"
+  "updatedAt": "2026-09-19T13:59:56.262Z"
 }

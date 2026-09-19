@@ -97,7 +97,12 @@
       "date": "1904-08-14",
       "license": "Public domain",
       "width": "1280",
-      "height": "885"
+      "height": "885",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Le_Petit_Journal_-_Apache.jpg/1280px-Le_Petit_Journal_-_Apache.jpg",
@@ -110,7 +115,12 @@
       "date": "1907-10-20",
       "license": "Public domain",
       "width": "1280",
-      "height": "1795"
+      "height": "1795",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Apache_revolver.jpg/1280px-Apache_revolver.jpg",
@@ -124,14 +134,24 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "822"
+      "height": "822",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Parisian Apaches (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Parisian_Apaches",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -143,7 +163,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:25:18.769Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -154,7 +174,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:25:18.769Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

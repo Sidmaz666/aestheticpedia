@@ -87,14 +87,24 @@
       "date": "1852 date QS:P571,+1852-00-00T00:00:00Z/9",
       "license": "Public domain",
       "width": "800",
-      "height": "558"
+      "height": "558",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Canadiana (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Canadiana",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -106,7 +116,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:13:00.815Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -117,7 +127,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:13:00.815Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

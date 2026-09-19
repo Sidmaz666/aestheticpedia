@@ -104,7 +104,12 @@
       "date": "circa 1960 date QS:P,+1960-00-00T00:00:00Z/9,P1480,Q5727902",
       "license": "Public domain",
       "width": "496",
-      "height": "958"
+      "height": "958",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/LA_teens.jpg",
@@ -117,7 +122,12 @@
       "date": "1974",
       "license": "Public domain",
       "width": "935",
-      "height": "492"
+      "height": "492",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Valentino_evening_gown_for_Audrey_Hepburn.jpg",
@@ -131,7 +141,12 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "width": "670",
-      "height": "1763"
+      "height": "1763",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/BathingSuit1920s.jpg",
@@ -144,14 +159,24 @@
       "date": "early 1920s date QS:P,+1920-00-00T00:00:00Z/8,P4241,Q4071972",
       "license": "Public domain",
       "width": "768",
-      "height": "490"
+      "height": "490",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Greaser (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Greaser",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -163,7 +188,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:18:13.766Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -174,7 +199,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:18:13.766Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],

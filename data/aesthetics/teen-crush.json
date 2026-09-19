@@ -100,7 +100,12 @@
     {
       "name": "Aesthetics Wiki — Teen Crush (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Teen_Crush",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -112,7 +117,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:21:52.096Z"
+        "checkedAt": "2026-09-19T14:00:10.205Z"
       }
     },
     {
@@ -123,7 +128,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:21:52.096Z"
+        "checkedAt": "2026-09-19T14:00:10.205Z"
       }
     }
   ],
@@ -134,5 +139,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T12:21:52.096Z"
+  "updatedAt": "2026-09-19T14:00:10.205Z"
 }

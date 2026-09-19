@@ -115,7 +115,12 @@
       "date": "Unknown date",
       "license": "Public domain",
       "width": "1280",
-      "height": "945"
+      "height": "945",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Juramento_da_Reg%C3%AAncia_Trina.jpg/1280px-Juramento_da_Reg%C3%AAncia_Trina.jpg",
@@ -128,7 +133,12 @@
       "date": "1831",
       "license": "Public domain",
       "width": "1280",
-      "height": "833"
+      "height": "833",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Frans_Hals_-_De_regentessen_van_het_oudemannenhuis.jpg/1280px-Frans_Hals_-_De_regentessen_van_het_oudemannenhuis.jpg",
@@ -141,7 +151,12 @@
       "date": "1664",
       "license": "Public domain",
       "width": "1280",
-      "height": "872"
+      "height": "872",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Abdul_Hadi%2C_Bupati_Balangan.png/1280px-Abdul_Hadi%2C_Bupati_Balangan.png",
@@ -154,7 +169,12 @@
       "date": "2025",
       "license": "Public domain",
       "width": "1280",
-      "height": "1792"
+      "height": "1792",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Adriansyah%2C_Bupati_Tanah_Laut.jpg",
@@ -167,7 +187,12 @@
       "date": "2008",
       "license": "Public domain",
       "width": "698",
-      "height": "888"
+      "height": "888",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Andi_Rudi_Latif%2C_Bupati_Tanah_Bumbu.jpg/1280px-Andi_Rudi_Latif%2C_Bupati_Tanah_Bumbu.jpg",
@@ -180,7 +205,12 @@
       "date": "2025-02",
       "license": "Public domain",
       "width": "1280",
-      "height": "1657"
+      "height": "1657",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Ansharuddin%2C_Bupati_Balangan.jpg",
@@ -193,7 +223,12 @@
       "date": "2016",
       "license": "Public domain",
       "width": "664",
-      "height": "930"
+      "height": "930",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Bambang_Alamsyah%2C_Bupati_Tanah_Laut.jpg",
@@ -206,7 +241,12 @@
       "date": "2013-07",
       "license": "Public domain",
       "width": "699",
-      "height": "923"
+      "height": "923",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Bupati_Hulu_Sungai_Tengah%2C_Samsul_Rizal.png",
@@ -219,7 +259,12 @@
       "date": "2025-02-20",
       "license": "Public domain",
       "width": "810",
-      "height": "1080"
+      "height": "1080",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Bupati_Kabupaten_Tanah_Datar_Eka_Putra_01.jpg/1280px-Bupati_Kabupaten_Tanah_Datar_Eka_Putra_01.jpg",
@@ -232,14 +277,24 @@
       "date": "2025-02-21",
       "license": "Public domain",
       "width": "1280",
-      "height": "1920"
+      "height": "1920",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Regency (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Regency",
-      "tier": "C"
+      "tier": "C",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
     }
   ],
   "references": [
@@ -251,7 +306,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:27:18.192Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -262,7 +317,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:27:18.192Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     },
     {
@@ -273,7 +328,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-18T15:27:18.192Z"
+        "checkedAt": "2026-09-19T12:55:09.876Z"
       }
     }
   ],
