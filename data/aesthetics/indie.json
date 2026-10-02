@@ -20,20 +20,7 @@
   "summary": "Indie is a broad aesthetic based on individuality; its name comes from the word \"independent.\" The indie aesthetic includes a variety of independent music genres, including shoegaze.",
   "description": "Indie is a broad aesthetic based on individuality; its name comes from the word \"independent.\" The indie aesthetic includes a variety of independent music genres, including shoegaze. This can also include the indie movie genre, as many movies in the genre add to the original indie aesthetic. The version of the indie aesthetic from the 2000s to 2012 is now named Indie Sleaze . The later iteration of the indie aesthetic in 2019-2020 is labeled Indie Kid . Other variations are usually unlabeled and just generically called indie.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Individualism, philosophy, independence, overcoming adversity",
-  "colors": [
-    {
-      "hex": "#008000",
-      "name": "green"
-    },
-    {
-      "hex": "#0000ff",
-      "name": "blue"
-    },
-    {
-      "hex": "#ff0000",
-      "name": "red"
-    }
-  ],
+  "colors": [],
   "paletteSource": "derived",
   "visualDNA": {
     "colour": "Neutrals, blue, red, green"
@@ -90,7 +77,52 @@
     "overcoming adversity"
   ],
   "images": [],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Audiofragment_bij_het_personage_Anna_Elink-_van_Maarseveen%2C_zendelingenvrouw_op_Zuid-Oost_Celebes%2C_uit_de_tentoonstelling_%22Nederlands_Indi%C3%AB%2C_350_jaar_historie%22%2C_te_zien_in_het_Tropenmuseum_tussen_2002_en_2022.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Audiofragment bij het personage Anna Elink- van Maarseveen, zendelingenvrouw op Zuid-Oost Celebes, uit de tentoonstelling \"Nederlands Indië, 350 jaar historie\",",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Audiofragment_bij_het_personage_Anna_Elink-_van_Maarseveen,_zendelingenvrouw_op_Zuid-Oost_Celebes,_uit_de_tentoonstelling_%22Nederlands_Indi%C3%AB,_350_jaar_historie%22,_te_zien_in_het_Tropenmuseum_tussen_2002_en_2022.wav",
+      "source": "Wikimedia Commons",
+      "mime": "audio/wav",
+      "duration": 328,
+      "artist": "Tropenmuseum/Nationaal Museum van Wereldculturen",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Uplifting_Electronic_Indie_by_WinnieTheMoog.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Uplifting Electronic Indie by WinnieTheMoog",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Uplifting_Electronic_Indie_by_WinnieTheMoog.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 167,
+      "artist": "WinnieTheMoog",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Pl-Indie.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Pl-Indie",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pl-Indie.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "user Equadus (inactive global account)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  ],
   "sources": [
+    {
+      "name": "Wikipedia — Indie",
+      "url": "https://en.wikipedia.org/wiki/Indie",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Indie (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Indie",
@@ -103,12 +135,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q25853",
+  "wikipedia": "Indie",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:23.246Z"
+  "updatedAt": "2026-10-02T08:05:56.673Z"
 }

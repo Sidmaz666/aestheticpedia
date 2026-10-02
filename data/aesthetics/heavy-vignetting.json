@@ -154,6 +154,16 @@
   ],
   "sources": [
     {
+      "name": "Wikipedia — Dark Corners",
+      "url": "https://en.wikipedia.org/wiki/Dark_Corners",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:41:18.680Z"
+      }
+    },
+    {
       "name": "Digital Photography School",
       "tier": "C"
     },
@@ -186,7 +196,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
+        "checkedAt": "2026-10-02T02:41:18.680Z"
       }
     }
   ],
@@ -197,5 +207,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:24:44.138Z",
-  "updatedAt": "2026-09-18T11:51:32.513Z"
+  "updatedAt": "2026-10-02T06:41:25.379Z"
 }

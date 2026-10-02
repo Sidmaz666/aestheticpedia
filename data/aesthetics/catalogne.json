@@ -17,7 +17,33 @@
   "summary": "A catalogne is a type of woven French-Canadian rag rug, also sometimes used as a blanket, with origins in France, possibly of Norman influence, and later developed in Quebec.",
   "description": "A catalogne is a type of woven French-Canadian rag rug, also sometimes used as a blanket, with origins in France, possibly of Norman influence, and later developed in Quebec. Named for one Sieur de Catalan, who lived in the 17th century, the catalogne gained popularity in the New World in the early to mid-19th century. Initially prevalent in Quebec where new cloth was limited, catalogne weaving was also a tradition found in Madawaska County, New Brunswick, and some parts of New England such as Aroostook County, Maine, and later appeared in Ontario. Catalognes are typically woven with a cotton warp and a combination of rags and fragments of clothing and tapestries, cut into strips and spun before being woven into the warp. These used materials were generally made of cotton or wool, textiles available at the time, and were traditionally of striped patterns.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#70504b",
+      "name": "umber"
+    },
+    {
+      "hex": "#2e252a",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#443a41",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#9b8a86",
+      "name": "stone"
+    },
+    {
+      "hex": "#876e64",
+      "name": "bronze"
+    },
+    {
+      "hex": "#aea8b1",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,25 @@
   "tags": [
     "rug style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/4877/47024493061_ff1ac5162f_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/61f48822-d129-4b79-9641-d46305e09d2e/thumb/",
+      "full": "https://live.staticflickr.com/4877/47024493061_ff1ac5162f_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/79505738@N03/47024493061",
+      "caption": "IMG_3100BB Jaume Serra. Actif en Catalogne vers 1358-1390. Retable de la Mère de Dieu. Altarpiece of the Mother of God. Barcelone MNAC.",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "1024",
+      "height": "575",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Catalogne (rug)",
@@ -71,7 +115,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:17.926Z"
+        "checkedAt": "2026-10-02T02:51:12.034Z"
       }
     },
     {
@@ -82,7 +126,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:17.926Z"
+        "checkedAt": "2026-10-02T02:51:12.034Z"
       }
     }
   ],
@@ -93,5 +137,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T15:08:19.201Z",
-  "updatedAt": "2026-09-19T16:51:17.926Z"
+  "updatedAt": "2026-10-02T08:40:37.462Z"
 }

@@ -106,7 +106,25 @@
     "desert adaptation",
     "persian"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/3860/14516233358_462d065584_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/8f934fda-11bc-4c1c-b686-bc0265cfd07d/thumb/",
+      "full": "https://live.staticflickr.com/3860/14516233358_462d065584_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/66239121@N00/14516233358",
+      "caption": "227 Kashan merchant house",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "1024",
+      "height": "685",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Encyclopedia of Islamic Architecture",
@@ -145,5 +163,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T04:38:47.532Z",
-  "updatedAt": "2026-09-19T16:51:23.887Z"
+  "updatedAt": "2026-10-02T04:44:24.981Z"
 }

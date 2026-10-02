@@ -90,7 +90,25 @@
     "royal",
     "islamic"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Morocco_Fez_Embroidery_Horse_Cover.JPG",
+      "thumb": "https://api.openverse.org/v1/images/bbb12689-90b4-4f35-9935-01069094def3/thumb/",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Morocco_Fez_Embroidery_Horse_Cover.JPG",
+      "pageUrl": "https://commons.wikimedia.org/w/index.php?curid=41014318",
+      "caption": "File:Morocco Fez Embroidery Horse Cover.JPG",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": "3497",
+      "height": "2674",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Museum of Islamic Art",
@@ -129,5 +147,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T04:49:23.953Z",
-  "updatedAt": "2026-09-19T16:54:39.956Z"
+  "updatedAt": "2026-10-02T03:26:07.595Z"
 }

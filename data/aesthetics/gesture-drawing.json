@@ -18,7 +18,7 @@
   "endYear": 1950,
   "era": "Modern",
   "summary": "A rapid drawing technique capturing movement and form in minimal marks.",
-  "description": "Characterized by loose, expressive lines that convey the essence of a subject rather than detail, developed from George Bridgman's teachings at the Art Students League.",
+  "description": "Characterized by loose, expressive lines that convey the essence of a subject rather than detail, developed from George Bridgman's teachings at the Art Students League.\n\nA gesture drawing is a laying in of the action, form, and pose of a model/figure. Typical situations involve an artist drawing a series of poses taken by a model in a short amount of time, often as little as 10 seconds, or as long as 5 minutes. Gesture drawing is often performed as a warm-up for a life drawing session, but is a skill that may be cultivated for its own sake.\n\nIn less typical cases the artist may be observing people or animals going about normal activities with no special effort to pause for the artist. For example, drawing from people on the street, performers, athletes, or drawing animals at the zoo.",
   "culturalContext": "",
   "colors": [
     {
@@ -99,7 +99,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "1024"
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:21:21.039Z"
+      }
     }
   ],
   "sources": [
@@ -120,6 +125,16 @@
     {
       "name": "Gesture Drawing Resources",
       "tier": "C"
+    },
+    {
+      "name": "Wikipedia — Gesture drawing",
+      "url": "https://en.wikipedia.org/wiki/Gesture_drawing",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:31:22.182Z"
+      }
     }
   ],
   "references": [
@@ -153,5 +168,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:37:34.852Z",
-  "updatedAt": "2026-09-19T16:54:42.408Z"
+  "updatedAt": "2026-10-02T06:41:25.141Z"
 }

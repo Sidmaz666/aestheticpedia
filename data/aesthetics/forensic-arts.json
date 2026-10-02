@@ -17,7 +17,33 @@
   "summary": "Forensic art is any art used in law enforcement or legal proceedings.",
   "description": "Forensic art is any art used in law enforcement or legal proceedings. Forensic art is used to assist law enforcement with the visual aspects of a case, often using witness descriptions and video footage.\n\nIt is a highly specialized field that covers a wide range of artistic skills, such as composite drawing, crime scene sketching, image modification and identification, courtroom drawings, demonstrative evidence, and postmortem and facial approximation aids. It is rare for a forensic artist to specialize in more than one of these skills.\n\nMany forensic artists do the job as a collateral duty to their \"regular\" job in law enforcement, such as police officer, crime scene tech, etc. Such forensic artists perform their work while on a fixed salary and are not additionally compensated for artistic duties. There are few full-time forensic artist jobs available. Most full-time artists work in large cities, or in state or federal agencies. \"Freelancing\" in forensic art is a difficult career path, as ties to law enforcement are a necessary part of the job, and agencies have limited budgets to pay outside contractors.\n\nThe skill of facial approximation is closely associated and related to forensic anthropology in that an artist specializes in the reconstruction of the remains of a human body. Generally this discipline focuses on the human face for identification purposes. The forensic artist can create a facial approximation in a number of ways to include 2D (drawings), 3D (sculptures) and other methods using new computer technology. Forensic artists generally can add greater character and make their subjects come back to \"life\".",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#6f726d",
+      "name": "slate"
+    },
+    {
+      "hex": "#818387",
+      "name": "taupe"
+    },
+    {
+      "hex": "#651008",
+      "name": "burgundy"
+    },
+    {
+      "hex": "#444839",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#655f0e",
+      "name": "sepia"
+    },
+    {
+      "hex": "#100f0b",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,38 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/1358/5108727014_d98bb5813c_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/310772fe-7b37-4e5f-8b96-9d51eef552f3/thumb/",
+      "full": "https://live.staticflickr.com/1358/5108727014_d98bb5813c_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/44878600@N00/5108727014",
+      "caption": "Forensic Art",
+      "source": "Openverse",
+      "license": "BY-NC",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "width": "1024",
+      "height": "640",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Dead_Media_Forensic_%28DMF%29_%28M%C3%A9diHAL_4365651%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Dead Media Forensic (DMF) (MédiHAL 4365651)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dead_Media_Forensic_(DMF)_(M%C3%A9diHAL_4365651).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 2414,
+      "artist": "Gilles Rouffineau",
+      "license": "Licence Ouverte",
+      "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Forensic arts",
@@ -71,7 +128,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:21.290Z"
+        "checkedAt": "2026-10-02T02:51:26.618Z"
       }
     },
     {
@@ -82,7 +139,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:21.290Z"
+        "checkedAt": "2026-10-02T02:51:26.618Z"
       }
     }
   ],
@@ -93,5 +150,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:21.290Z"
+  "updatedAt": "2026-10-02T03:26:17.938Z"
 }

@@ -68,7 +68,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "844",
-      "height": "896"
+      "height": "896",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:21:21.039Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Assiette_vide_sans_loukoum.jpg/1280px-Assiette_vide_sans_loukoum.jpg",
@@ -80,7 +85,36 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "width": "1280",
-      "height": "958"
+      "height": "958",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:21:21.039Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Nl-pointill%C3%A9.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Nl-pointillé",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nl-pointill%C3%A9.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "marcel coenders",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Nl-pointill%C3%A9s.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Nl-pointillés",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nl-pointill%C3%A9s.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "marcel coenders",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     }
   ],
   "sources": [
@@ -136,5 +170,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-19T13:07:21.491Z",
-  "updatedAt": "2026-09-19T14:16:43.096Z"
+  "updatedAt": "2026-10-02T08:40:37.728Z"
 }

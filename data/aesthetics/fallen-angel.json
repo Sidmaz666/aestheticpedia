@@ -96,10 +96,60 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "width": "1280",
-      "height": "874"
+      "height": "874",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:58:39.738Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Zero-project_-_Fallen_angels.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Zero-project - Fallen angels",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Zero-project_-_Fallen_angels.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 384,
+      "artist": "zero-project",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Matthew_Strachan_-_Monica.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Matthew Strachan - Monica",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Matthew_Strachan_-_Monica.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 241,
+      "artist": "Misterrandaculous",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Inleiding_L%E2%80%99Autre_Hiver_%28audio%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Inleiding L’Autre Hiver (audio)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Inleiding_L%E2%80%99Autre_Hiver_(audio).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 1534,
+      "artist": "deSingel",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
     }
   ],
   "sources": [
+    {
+      "name": "Wikipedia — Fallen angel",
+      "url": "https://en.wikipedia.org/wiki/Fallen_angel",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Fallen Angel (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Fallen_Angel",
@@ -112,12 +162,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q581450",
+  "wikipedia": "Fallen angel",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:34:49.755Z"
+  "updatedAt": "2026-10-02T07:57:38.443Z"
 }

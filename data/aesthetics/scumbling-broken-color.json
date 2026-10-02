@@ -91,7 +91,24 @@
     "light",
     "textural"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/2704c1e0-fc94-ad60-43b1-5eb56bd236ab/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2704c1e0-fc94-ad60-43b1-5eb56bd236ab/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2704c1e0-fc94-ad60-43b1-5eb56bd236ab/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/14485",
+      "caption": "Untitled [Broken Glass]",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Tate Museum",
@@ -118,5 +135,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:42:31.314Z",
-  "updatedAt": "2026-09-19T16:55:31.483Z"
+  "updatedAt": "2026-10-02T04:56:27.194Z"
 }

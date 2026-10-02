@@ -10,7 +10,7 @@ export function SearchTrigger() {
     <button
       type="button"
       onClick={() => window.dispatchEvent(new Event(OPEN_SEARCH_EVENT))}
-      className="flex h-14 flex-1 items-center gap-3 rounded-full border border-line-strong bg-surface/70 px-5 text-left text-fg-subtle backdrop-blur transition-colors hover:border-fg-subtle hover:text-fg"
+      className="flex h-14 flex-1 items-center gap-4 rounded-full border border-line-strong bg-surface/70 px-7 text-left text-fg-subtle backdrop-blur transition-colors hover:border-fg-subtle hover:text-fg"
     >
       <Search className="size-5" aria-hidden />
       <span className="flex-1">Find your <i>aesthetic</i> here...</span>

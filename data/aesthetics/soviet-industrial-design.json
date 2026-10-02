@@ -95,7 +95,25 @@
     "utilitarian",
     "retro"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/3587/3615846683_eb2afcfa46_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/6eae9460-3c7c-4625-a25e-be31ccfacac4/thumb/",
+      "full": "https://live.staticflickr.com/3587/3615846683_eb2afcfa46_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/37269298@N04/3615846683",
+      "caption": "soviet-industrial-design",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "1024",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Design Museum, Moscow",
@@ -130,5 +148,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-11T04:26:13.358Z",
-  "updatedAt": "2026-09-19T16:51:32.947Z"
+  "updatedAt": "2026-10-02T04:59:15.099Z"
 }

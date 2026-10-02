@@ -19,8 +19,28 @@
   "culturalContext": "",
   "colors": [
     {
-      "hex": "#ffffff",
-      "name": "white"
+      "hex": "#8d8883",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a69f97",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#bbb6b0",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#565750",
+      "name": "graphite"
+    },
+    {
+      "hex": "#70726d",
+      "name": "slate"
+    },
+    {
+      "hex": "#363835",
+      "name": "aubergine"
     }
   ],
   "paletteSource": "derived",
@@ -53,7 +73,25 @@
   "tags": [
     "aesthetics wiki"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/52/115613660_fde7c804c9_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/135f49cd-18c9-4ab0-8fc8-8cda3e287136/thumb/",
+      "full": "https://live.staticflickr.com/52/115613660_fde7c804c9_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/19579424@N00/115613660",
+      "caption": "Pomo bolted onto neoclassical",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "1024",
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Neoclassical Pomo (CC BY-SA)",
@@ -74,5 +112,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:27.595Z"
+  "updatedAt": "2026-10-02T03:29:20.505Z"
 }

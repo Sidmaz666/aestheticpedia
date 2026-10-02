@@ -18,7 +18,7 @@
   "endYear": null,
   "era": "Baroque to Contemporary",
   "summary": "Formal wood flooring pattern featuring elaborate geometric designs in wood veneers",
-  "description": "Characterized by intricate geometric patterns using small pieces of wood veneer arranged in complex designs. Developed for Palace of Versailles to showcase craftsmanship and replace marble flooring.",
+  "description": "Characterized by intricate geometric patterns using small pieces of wood veneer arranged in complex designs. Developed for Palace of Versailles to showcase craftsmanship and replace marble flooring.\n\nParquet (French: [paʁkɛ]; French for \"a small compartment\") is a geometric mosaic of wood pieces used for decorative effect in flooring.\n\nParquet patterns are often entirely geometrical and angular—squares, triangles, lozenges—but may contain curves.  The most popular parquet flooring pattern is herringbone.",
   "culturalContext": "Versailles parquet — the named-after-palace oak floor panel — interlaces squares, diagonals and quadrant fillets in one framed module, cut for Versailles' State Apartments (1678-84) to replace marble's cold with warm geometry under court ceremony. The pattern became \"the\" palace floor from Russian palaces to Manhattan co-ops; modern oak-engineering (Lauzon, Forbo) mass-produces it, and \"Versailles panel\" remains the luxury floor's most quoted geometry.",
   "colors": [
     {
@@ -294,6 +294,16 @@
         "status": 0,
         "checkedAt": "2026-09-19T12:55:09.876Z"
       }
+    },
+    {
+      "name": "Wikipedia — Parquet",
+      "url": "https://en.wikipedia.org/wiki/Parquet",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:31:31.849Z"
+      }
     }
   ],
   "references": [
@@ -338,5 +348,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:16:44.121Z",
-  "updatedAt": "2026-09-18T05:13:00.006Z"
+  "updatedAt": "2026-10-02T06:41:28.377Z"
 }

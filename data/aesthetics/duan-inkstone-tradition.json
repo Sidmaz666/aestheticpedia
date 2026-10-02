@@ -20,7 +20,33 @@
   "summary": "The craft of making inkstones from Duan stone, valued for its fine texture and ability to produce smooth ink.",
   "description": "Duan inkstones feature natural purple veining and intricate carvings, reflecting their status as prized scholar's objects. This aesthetic developed due to the unique properties of Duan stone from Zhaoqing, which became the standard for literati during the Tang Dynasty.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#faece4",
+      "name": "linen"
+    },
+    {
+      "hex": "#e0d2c8",
+      "name": "bone white"
+    },
+    {
+      "hex": "#bfb5b3",
+      "name": "silver"
+    },
+    {
+      "hex": "#9d9694",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#7f7977",
+      "name": "taupe"
+    },
+    {
+      "hex": "#0f0b0c",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -71,7 +97,24 @@
     "cultural heritage",
     "literati"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/811ecab9-17c9-703c-0e4a-afa16bc30435/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/811ecab9-17c9-703c-0e4a-afa16bc30435/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/811ecab9-17c9-703c-0e4a-afa16bc30435/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/121129",
+      "caption": "Death Comes to an Old Lady",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Duan Inkstone Museum",
@@ -104,5 +147,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T03:34:21.810Z",
-  "updatedAt": "2026-09-19T16:51:20.327Z"
+  "updatedAt": "2026-10-02T04:35:11.630Z"
 }

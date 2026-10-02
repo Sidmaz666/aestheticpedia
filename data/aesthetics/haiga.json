@@ -17,7 +17,21 @@
   "summary": "Haiga (俳画; haikai drawing) is a style of Japanese painting that incorporates the aesthetics of haikai.",
   "description": "Haiga (俳画; haikai drawing) is a style of Japanese painting that incorporates the aesthetics of haikai. Haiga are typically painted by haiku poets (haijin), and often accompanied by a haiku poem. Like the poetic form it accompanied, haiga was based on simple, yet often profound, observations of the everyday world. Stephen Addiss points out that \"since they are both created with the same brush and ink, adding an image to a haiku poem was ... a natural activity.\"\n\nStylistically, haiga vary widely based on the preferences and training of the individual painter, but generally show influences of formal Kanō school painting, minimalist Zen painting, and Ōtsu-e, while sharing much of the aesthetic attitudes of the nanga tradition. Some were reproduced as woodblock prints. The subjects painted likewise vary widely, but are generally elements mentioned in the calligraphy, or poetic images which add meaning or depth to that expressed by the poem. The moon is a common subject in these poems and paintings, sometimes represented by the Zen circle ensō, which evokes a number of other meanings, including that of the void. Other subjects, ranging from Mount Fuji to rooftops, are frequently represented with a minimum of brushstrokes, thus evoking elegance and beauty in simplicity.",
   "culturalContext": "Nonoguchi Ryūho (1595–1669), a student of Kanō Tan'yū, is sometimes credited with founding the style; though poetry was commonly accompanied by images for centuries prior, Ryūho was the first poet to regularly include paintings alongside his calligraphy.\n\nMatsuo Bashō, the great master of haiku, frequently painted as well. Haiga became a major style of painting as a result of association with his famous works of haiku. Like his poems, Bashō's paintings are founded in a simplicity which reveals great depth, complementing the poems they are paired with. Towards the end of his life, he studied painting under Morikawa Kyoriku, his pupil in poetry; the works of both men benefited from the exchange, and a number of works were produced combining Morikawa's painting with Bashō's poetry and calligraphy.",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c4aa84",
+      "name": "sand"
+    },
+    {
+      "hex": "#3b2a21",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#948362",
+      "name": "moss"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -57,6 +71,29 @@
         "status": 200,
         "checkedAt": "2026-09-19T12:55:09.876Z"
       }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/De-Haigers.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "De-Haigers",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:De-Haigers.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 2,
+      "artist": "Jeuwre",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Fundaci%C3%B3n_Joaqu%C3%ADn_D%C3%ADaz_-_ATO_00286B_01_-_Cristo_y_San_Pedro.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Cristo y San Pedro",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fundaci%C3%B3n_Joaqu%C3%ADn_D%C3%ADaz_-_ATO_00286B_01_-_Cristo_y_San_Pedro.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 591,
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     }
   ],
   "sources": [
@@ -112,5 +149,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T01:49:15.735Z"
+  "updatedAt": "2026-10-02T06:41:25.319Z"
 }

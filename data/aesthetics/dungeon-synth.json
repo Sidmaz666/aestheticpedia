@@ -101,7 +101,60 @@
     "atmosphere",
     "nostalgia"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/65535/53450961778_13762b583c_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/9c9317ad-532a-42b0-a40e-2b9ced7381e5/thumb/",
+      "full": "https://live.staticflickr.com/65535/53450961778_13762b583c_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/199818820@N05/53450961778",
+      "caption": "Dungeon Synth Looking Postcard",
+      "source": "Openverse",
+      "license": "PDM",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": "671",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Video_Dungeon_Boss_%28ISRC_USUAN1200065%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Video Dungeon Boss (ISRC USUAN1200065)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Video_Dungeon_Boss_(ISRC_USUAN1200065).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 134,
+      "artist": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Video_Dungeon_Crawl_%28ISRC_USUAN1200064%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Video Dungeon Crawl (ISRC USUAN1200064)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Video_Dungeon_Crawl_(ISRC_USUAN1200064).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 213,
+      "artist": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/8bit_Dungeon_Level_%28ISRC_USUAN1200066%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "8bit Dungeon Level (ISRC USUAN1200066)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:8bit_Dungeon_Level_(ISRC_USUAN1200066).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 217,
+      "artist": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Dungeon Synth (CC BY-SA)",
@@ -123,7 +176,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:20.420Z"
+        "checkedAt": "2026-10-02T02:51:21.442Z"
       }
     },
     {
@@ -134,7 +187,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:20.420Z"
+        "checkedAt": "2026-10-02T02:51:21.442Z"
       }
     }
   ],
@@ -145,5 +198,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:20.420Z"
+  "updatedAt": "2026-10-02T03:25:32.470Z"
 }

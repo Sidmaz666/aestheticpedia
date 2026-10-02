@@ -19,7 +19,29 @@
   "summary": "The Asociación Arte Concreto-Invención (AACI) is an Argentine art movement that focuses on Concrete Art.",
   "description": "The Asociación Arte Concreto-Invención (AACI) is an Argentine art movement that focuses on Concrete Art. Following WWII, numerous pieces Latin American art as well as several Latin American artists used themes regarding Socialism and Reconstruction. Artists from the AACI proposed, for the first time in the history of Argentina, the necessity for an art that was different from symbolic, representational, and expressionistic art. They believed that their artwork, or \"inventions\" could harbor social change in their current Argentine political climate. The founders of the AACI showed similar themes throughout their artworks, such as a desire to appear with universality, objectivity, and lack any sort of representativeness.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#383531",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#56534d",
+      "name": "umber"
+    },
+    {
+      "hex": "#827e74",
+      "name": "taupe"
+    },
+    {
+      "hex": "#acaaa1",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#99968a",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +63,24 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/d141a769-24af-ff07-d792-183ae73ae765/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/d141a769-24af-ff07-d792-183ae73ae765/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/d141a769-24af-ff07-d792-183ae73ae765/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/191358",
+      "caption": "Nelson Algren Pauses after Another White Sox Loss, Chicago",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Asociación Arte Concreto-Invención",
@@ -73,7 +112,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:16.512Z"
+        "checkedAt": "2026-10-02T02:51:04.799Z"
       }
     },
     {
@@ -84,7 +123,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:16.512Z"
+        "checkedAt": "2026-10-02T02:51:04.799Z"
       }
     }
   ],
@@ -95,5 +134,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:16.512Z"
+  "updatedAt": "2026-10-02T03:46:50.090Z"
 }

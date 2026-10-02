@@ -91,10 +91,25 @@
       "date": "2026-05-31",
       "license": "Public domain",
       "width": "1200",
-      "height": "1805"
+      "height": "1805",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:58:39.738Z"
+      }
     }
   ],
   "sources": [
+    {
+      "name": "Wikipedia — Bobby-soxer",
+      "url": "https://en.wikipedia.org/wiki/Bobby-soxer",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Bobby-Soxer (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Bobby-Soxer",
@@ -107,12 +122,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q15948830",
+  "wikipedia": "Bobby-soxer",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:33:48.348Z"
+  "updatedAt": "2026-10-02T07:57:38.431Z"
 }

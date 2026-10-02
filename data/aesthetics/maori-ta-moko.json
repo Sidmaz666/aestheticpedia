@@ -17,7 +17,7 @@
   "endYear": null,
   "era": "Traditional",
   "summary": "Traditional Māori tattooing representing personal and cultural identity.",
-  "description": "Features intricate spirals and patterns carved into skin using chisels; carries deep cultural significance and lineage information distinct from common tattooing.",
+  "description": "Features intricate spirals and patterns carved into skin using chisels; carries deep cultural significance and lineage information distinct from common tattooing.\n\nTā moko is the permanent marking or tattooing as customarily practised by Māori, the indigenous people of New Zealand. It is one of the five main Polynesian tattoo styles (the other four are Marquesan, Samoan, Tahitian and Hawaiian).\n\nTohunga-tā-moko (tattooists) were considered tapu, or inviolable and sacred.",
   "culturalContext": "",
   "colors": [
     {
@@ -280,6 +280,16 @@
         "status": 403,
         "checkedAt": "2026-09-19T12:55:09.876Z"
       }
+    },
+    {
+      "name": "Wikipedia — Tā moko",
+      "url": "https://en.wikipedia.org/wiki/T%C4%81_moko",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:31:26.250Z"
+      }
     }
   ],
   "references": [
@@ -324,5 +334,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-11T04:04:40.238Z",
-  "updatedAt": "2026-09-18T05:05:30.638Z"
+  "updatedAt": "2026-10-02T06:41:26.104Z"
 }

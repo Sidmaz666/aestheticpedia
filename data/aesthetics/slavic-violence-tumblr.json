@@ -19,12 +19,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Terrorism, appreciation of violence, Russian Orthodox Christianity",
   "colors": [
     {
-      "hex": "#000000",
-      "name": "black"
+      "hex": "#bdb9af",
+      "name": "silver"
     },
     {
-      "hex": "#008000",
-      "name": "green"
+      "hex": "#a49f95",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#89837b",
+      "name": "taupe"
+    },
+    {
+      "hex": "#d8d5cb",
+      "name": "bone white"
+    },
+    {
+      "hex": "#6e665e",
+      "name": "umber"
+    },
+    {
+      "hex": "#4a4342",
+      "name": "graphite"
     }
   ],
   "paletteSource": "derived",
@@ -60,7 +76,24 @@
     "appreciation of violence",
     "russian orthodox christianity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/cefba431-1241-6240-3a92-ffa787e5fa49/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/cefba431-1241-6240-3a92-ffa787e5fa49/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/cefba431-1241-6240-3a92-ffa787e5fa49/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/59426",
+      "caption": "White Crucifixion",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Slavic Violence Tumblr (CC BY-SA)",
@@ -81,5 +114,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:32.617Z"
+  "updatedAt": "2026-10-02T04:58:41.129Z"
 }

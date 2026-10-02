@@ -109,7 +109,38 @@
     "music",
     "architecture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Fauxthentication_%E2%80%93_Art%2C_Academia_%26_Authorship_%28or_the_site-specifics_of_the_Academic_Artist%29_%E2%80%93_a_graphic_novel.jpg",
+      "thumb": "https://api.openverse.org/v1/images/d683484d-e7d9-4272-a3aa-5a2cb828d972/thumb/",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Fauxthentication_%E2%80%93_Art%2C_Academia_%26_Authorship_%28or_the_site-specifics_of_the_Academic_Artist%29_%E2%80%93_a_graphic_novel.jpg",
+      "pageUrl": "https://commons.wikimedia.org/w/index.php?curid=167298381",
+      "caption": "Fauxthentication – Art, Academia & Authorship (or the site-specifics of the Academic Artist) – a graphic novel",
+      "source": "Openverse",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+      "width": "4429",
+      "height": "5906",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/4._Gil_Imana_Sopocachi_Entrevista_7_mayo_2016_por_Gustavo_Cardoso.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "4. Gil Imana Sopocachi Entrevista 7 mayo 2016 por Gustavo Cardoso",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:4._Gil_Imana_Sopocachi_Entrevista_7_mayo_2016_por_Gustavo_Cardoso.mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 140,
+      "artist": "Gustavo Cardoso Subieta",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Art Academia (CC BY-SA)",
@@ -130,5 +161,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:16.194Z"
+  "updatedAt": "2026-10-02T08:47:58.076Z"
 }

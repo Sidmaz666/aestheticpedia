@@ -23,7 +23,33 @@
   "summary": "British Countryside (or British Sportsmanship , English/Scottish Countryside ) describes the subculture of sports played by the nobility of Britain in their manors in rural areas, as well as some employees of the estate.",
   "description": "British Countryside (or British Sportsmanship , English/Scottish Countryside ) describes the subculture of sports played by the nobility of Britain in their manors in rural areas, as well as some employees of the estate. It includes hunting, shooting, and equestrian sports, which are specialized, with many traditions and forms of dress associated with these activities.\n\nThe nobles in Britain historically owned estates, with large swaths of land and forest. After spending time in London for social and political reasons, they would go back to the manor and the men would often go out on hunting excursions and ride horses, particularly in autumn, which is hunting season. The nobles also hired employees with specialized skills, such as gamekeepers and stablehands, who would also participate in hunting and equestrianism in order to maintain the estate and aid the nobles.\n\nFrom the Victorian era to the 1950s, the visual culture for this aesthetic developed, with the clothing largely being developed during this time. However, the aesthetic has become less common, as fox hunting has been banned in many parts of the UK since the 2000s and the British nobility take on more modern practices and hobbies.\n\nMany of these visuals are a large basis of the Preppy aesthetic, and interior and fashion designers often specifically create rooms, garments, etc. themed after this culture. The visual culture is also important to the conceptualization of rural Britain, with this aesthetic largely being featured in period dramas and nostalgic art.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Competition, wealth, pride, tradition, masculinity",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#736e7a",
+      "name": "slate"
+    },
+    {
+      "hex": "#534545",
+      "name": "graphite"
+    },
+    {
+      "hex": "#2f2324",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#c2c3b0",
+      "name": "silver"
+    },
+    {
+      "hex": "#a5a59b",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#e7ece7",
+      "name": "paper white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Brown, dark green, red, olive, beige"
   },
@@ -80,7 +106,38 @@
     "tradition",
     "masculinity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/6109/6327691874_eee98f82f0_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/f6302acb-026d-4a9c-a6f1-93ca7d3b1bc0/thumb/",
+      "full": "https://live.staticflickr.com/6109/6327691874_eee98f82f0_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/91545223@N00/6327691874",
+      "caption": "Somewhere over the British Countryside",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "1024",
+      "height": "684",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Why_Pokemon_Sword_%26_Shield_are_Set_in_Britain.opus?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Why Pokemon Sword & Shield are Set in Britain",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Why_Pokemon_Sword_%26_Shield_are_Set_in_Britain.opus",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 291,
+      "artist": "Video Game Story Time",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — British Countryside (CC BY-SA)",
@@ -101,5 +158,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:17.530Z"
+  "updatedAt": "2026-10-02T04:07:38.022Z"
 }

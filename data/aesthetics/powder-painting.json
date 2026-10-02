@@ -17,7 +17,33 @@
   "summary": "Powder painting, also called Frit painting, is the art of using ground glass in powdered form to create kilnformed glass art.",
   "description": "Powder painting, also called Frit painting, is the art of using ground glass in powdered form to create kilnformed glass art. The process differs from enameling in many respects. Firstly, the powder is actually ground glass typically from a single manufacturer who supplies an extensive color palette. Large jars can be purchased which are fairly inexpensive compared to enamels, making large scale paintings possible.\n\nThis technique is one variation of many ways to create images on glass using glass bits (frits), and in this case powder.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#cabe96",
+      "name": "tan"
+    },
+    {
+      "hex": "#b7a77b",
+      "name": "sand"
+    },
+    {
+      "hex": "#9eb29b",
+      "name": "sage"
+    },
+    {
+      "hex": "#6c6470",
+      "name": "slate"
+    },
+    {
+      "hex": "#807a82",
+      "name": "taupe"
+    },
+    {
+      "hex": "#6fa49b",
+      "name": "slate 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,38 @@
   "tags": [
     "artistic technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/3753/9639965256_69f3d2611d_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/5e9b1668-363e-4c94-a197-4c67ff563e7b/thumb/",
+      "full": "https://live.staticflickr.com/3753/9639965256_69f3d2611d_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/98925031@N08/9639965256",
+      "caption": "Powdered paint",
+      "source": "Openverse",
+      "license": "BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": "1024",
+      "height": "711",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/73_Meena_Lalchandani_Recounts_Her_Personal_and_Community_Journey_in_Ulhasnagar.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "73 Meena Lalchandani Recounts Her Personal and Community Journey in Ulhasnagar",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:73_Meena_Lalchandani_Recounts_Her_Personal_and_Community_Journey_in_Ulhasnagar.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1121,
+      "artist": "EngProff",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Powder painting",
@@ -71,7 +128,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:29.812Z"
+        "checkedAt": "2026-10-02T02:52:06.372Z"
       }
     },
     {
@@ -82,7 +139,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:29.812Z"
+        "checkedAt": "2026-10-02T02:52:06.372Z"
       }
     }
   ],
@@ -93,5 +150,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T15:08:19.201Z",
-  "updatedAt": "2026-09-19T16:51:29.812Z"
+  "updatedAt": "2026-10-02T03:31:04.760Z"
 }

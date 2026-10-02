@@ -17,7 +17,33 @@
   "summary": "The aesthetic of ghostcore is described as \"dark, haunted, and ethereal -like landscapes, cemeteries, the spiritual world and connecting to it, haunted artifacts, dark and mysterious history, legends and ghost stories, and more\" according to a private Ghostcore Facebook page.",
   "description": "The aesthetic of ghostcore is described as \"dark, haunted, and ethereal -like landscapes, cemeteries, the spiritual world and connecting to it, haunted artifacts, dark and mysterious history, legends and ghost stories, and more\" according to a private Ghostcore Facebook page.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Individual freedom, expression, feeling formless and otherworldly, hauntings, the occult, humour",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b0b6af",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#848c85",
+      "name": "taupe"
+    },
+    {
+      "hex": "#85a1a9",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#2e4c5e",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#cad5d6",
+      "name": "bone white"
+    },
+    {
+      "hex": "#112732",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Black, white, muted natural colors"
   },
@@ -81,7 +107,25 @@
     "hauntings",
     "the occult"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Horrorcore-kidcrusher.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/86/Horrorcore-kidcrusher.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/86/Horrorcore-kidcrusher.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File%3AHorrorcore-kidcrusher.jpg",
+      "caption": "Horrorcore KidCrusher",
+      "source": "Wikimedia Commons",
+      "license": "GFDL",
+      "licenseUrl": "http://www.gnu.org/copyleft/fdl.html",
+      "width": "650",
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Ghostcore (CC BY-SA)",
@@ -102,5 +146,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:21.937Z"
+  "updatedAt": "2026-10-02T03:26:49.846Z"
 }

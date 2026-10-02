@@ -16,8 +16,22 @@
   "era": "1920s",
   "summary": "By-pass Variegated is a term coined by the cartoonist and architectural historian Osbert Lancaster in his 1938 book Pillar to Post.",
   "description": "By-pass Variegated is a term coined by the cartoonist and architectural historian Osbert Lancaster in his 1938 book Pillar to Post. It represents the ribbon development of houses in Britain in the 1920s and 1930s, in a mish-mash of architectural styles.",
-  "culturalContext": "",
-  "colors": [],
+  "culturalContext": "Before 1947 there was no systematic legal control of property development in Britain: landowners could in general build as they wished on their land. Between the First and Second World Wars speculative builders bought large tracts of land alongside new arterial roads and built mile after mile of mostly semi-detached, and some detached, houses. They were built as cheaply as possible, allowing people with modest incomes to buy a home for the first time, rather than rent. In the inter-war period owner-occupation in Britain rose from 10 to 32 per cent. In a 2010 study of Britain in the 1930s, Juliet Gardiner gives an example of a working-class couple buying a new house of this kind in Hornchurch, Essex for £495.",
+  "colors": [
+    {
+      "hex": "#475628",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#5e713d",
+      "name": "olive green"
+    },
+    {
+      "hex": "#88955c",
+      "name": "moss"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "Overview": "Before 1947 there was no systematic legal control of property development in Britain: landowners could in general build as they wished on their land. Between the First and Second World Wars speculative builders bought large tracts of land alongside new arterial roads and built mile after mile of mostly semi-detached, and some detached, houses. They were built as cheaply as possible, allowing people with modest incomes to buy a home for the first time, rather than rent. In the inter-war period owner-occupation in Britain rose from 10 to 32 per cent."
   },
@@ -41,7 +55,25 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/4330/35997837505_e0ebda0cff_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/e2d1eafc-6ad4-4e2d-99ad-c6ccfbe25ff6/thumb/",
+      "full": "https://live.staticflickr.com/4330/35997837505_e0ebda0cff_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/9480126@N02/35997837505",
+      "caption": "DSC_3587.jpg Variegated Meadowhawk, Yolo Bypass",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "1024",
+      "height": "683",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — By-pass Variegated",
@@ -73,7 +105,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:17.685Z"
+        "checkedAt": "2026-10-02T02:51:11.331Z"
       }
     },
     {
@@ -84,7 +116,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:17.685Z"
+        "checkedAt": "2026-10-02T02:51:11.331Z"
       }
     }
   ],
@@ -95,5 +127,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:17.685Z"
+  "updatedAt": "2026-10-02T06:31:25.815Z"
 }

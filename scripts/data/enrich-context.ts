@@ -6,7 +6,11 @@
 import { cache, getJSON, loadAesthetics, pool, saveAesthetic } from './lib.ts'
 
 const http = cache<unknown>('wp-fulltext')
+// Most articles document the aesthetic under a history heading, but plenty describe it under
+// "Aesthetic", "Characteristics", "Elements" or "Style" instead — and leave those records empty.
 const HEADINGS = /^(history|origins?|background|development|historical background|early history|history and development|emergence|origin and history|overview)$/i
+const DESCRIPTIVE =
+  /^(aesthetic|characteristics?|elements?|style|taste|description|overview|significance|legacy|influence|character|appearance|design|features?|concepts?|practice|context|genre|form|look|summary|introduction|main characteristics|visual language)$/i
 
 async function article(title: string): Promise<string> {
   const url = `https://en.wikipedia.org/w/api.php?${new URLSearchParams({ action: 'query', format: 'json', formatversion: '2', prop: 'extracts', explaintext: '1', redirects: '1', titles: title })}`
@@ -19,10 +23,14 @@ async function article(title: string): Promise<string> {
 }
 
 function contextFrom(text: string): string {
-  // Split into "== Heading ==" sections; take the first matching top-level section.
+  // Split into "== Heading ==" sections; take the best matching top-level section.
   const parts = text.split(/\n(={2,3})\s*([^=\n]+?)\s*\1\n/)
+  const found: { rank: number; body: string }[] = []
   for (let i = 1; i + 2 < parts.length; i += 3) {
-    if (parts[i] !== '==' || !HEADINGS.test(parts[i + 1].trim())) continue
+    if (parts[i] !== '==') continue
+    const heading = parts[i + 1].trim()
+    const rank = HEADINGS.test(heading) ? 0 : DESCRIPTIVE.test(heading) ? 1 : -1
+    if (rank < 0) continue
     const paras = parts[i + 2]
       .split(/\n+/)
       .map((p) => p.trim())
@@ -33,9 +41,10 @@ function contextFrom(text: string): string {
       out += (out ? '\n\n' : '') + p
     }
     if (!out && paras[0]) out = paras[0].slice(0, 1100).replace(/\s+\S*$/, '') + '…'
-    return out
+    if (out) found.push({ rank, body: out })
   }
-  return ''
+  found.sort((a, b) => a.rank - b.rank)
+  return found[0]?.body ?? ''
 }
 
 const todo = loadAesthetics().filter((a) => !a.culturalContext && a.wikipedia)

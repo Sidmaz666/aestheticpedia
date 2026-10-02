@@ -19,8 +19,28 @@
   "culturalContext": "Early vector computer graphics were not meant to be recorded or transferred to film. Indeed they used special screens, nonetheless, they were used as early at 1972 to create animation. From then on and into early 80 they were commonly featured on computer screen in various movies from Star Wars to 2001: A Space Odyssay. The Grid constituted a major set design element in 1981's the Looker, bit the two movies that most imprinted it as a futuristic design on the popular psyche were 1979's Black Hole and 1982's Tron. The laser grid's popularity was a consequence of how convenient, easy to draw it is as a shorthand for technology. This and the recent development of actual laser technlogy at the time also helps to explain its popularity amongst designers, for whom it is immediately reminiscent of gridded cutting mats. Despite the name and its sources, computers would not come to be central in…",
   "colors": [
     {
-      "hex": "#000000",
+      "hex": "#150a01",
       "name": "black"
+    },
+    {
+      "hex": "#2c3106",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#1a5d08",
+      "name": "forest green"
+    },
+    {
+      "hex": "#2e8511",
+      "name": "forest green 2"
+    },
+    {
+      "hex": "#459732",
+      "name": "forest green 3"
+    },
+    {
+      "hex": "#63a94e",
+      "name": "moss"
     }
   ],
   "paletteSource": "derived",
@@ -68,7 +88,25 @@
   "tags": [
     "aesthetics wiki"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/3661/3579079363_bc954a2931_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/910a5a24-69a5-466e-a0cf-317ca89086bb/thumb/",
+      "full": "https://live.staticflickr.com/3661/3579079363_bc954a2931_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/26066462@N02/3579079363",
+      "caption": "Laser Grid-Locked",
+      "source": "Openverse",
+      "license": "BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": "672",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Laser Grid (CC BY-SA)",
@@ -89,5 +127,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:24.816Z"
+  "updatedAt": "2026-10-02T04:45:52.136Z"
 }

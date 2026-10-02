@@ -19,12 +19,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Nostalgia, optimism, joy, irreverence, surrealism, self-expression, inclusivity, dreamers mindset",
   "colors": [
     {
-      "hex": "#ffa500",
-      "name": "orange"
+      "hex": "#161d11",
+      "name": "black"
     },
     {
-      "hex": "#ffc0cb",
-      "name": "pink"
+      "hex": "#35382c",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#6f5547",
+      "name": "umber"
+    },
+    {
+      "hex": "#cb9d8a",
+      "name": "khaki"
+    },
+    {
+      "hex": "#978074",
+      "name": "stone"
+    },
+    {
+      "hex": "#3f6b69",
+      "name": "graphite"
     }
   ],
   "paletteSource": "derived",
@@ -80,7 +96,25 @@
     "surrealism",
     "self-expression"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/856/42883239154_c11a630a6a_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/f603db67-2463-458f-927a-71dd7153acbb/thumb/",
+      "full": "https://live.staticflickr.com/856/42883239154_c11a630a6a_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/14913305@N00/42883239154",
+      "caption": "Space Cowgirls",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "731",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Space Cowgirl (CC BY-SA)",
@@ -102,7 +136,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:33.062Z"
+        "checkedAt": "2026-10-02T02:52:25.000Z"
       }
     },
     {
@@ -113,7 +147,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:33.062Z"
+        "checkedAt": "2026-10-02T02:52:25.000Z"
       }
     }
   ],
@@ -124,5 +158,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:33.062Z"
+  "updatedAt": "2026-10-02T04:59:18.227Z"
 }

@@ -19,7 +19,33 @@
   "summary": "Photo-text, also written as photo/text, is a hybrid form of artistic expression that combines photography and textual elements to convey a message or create a narrative.",
   "description": "Photo-text, also written as photo/text, is a hybrid form of artistic expression that combines photography and textual elements to convey a message or create a narrative. This combination allows for a multi-dimensional experience for the viewer.\n\nNotable examples of photo-text art include Martha Rosler's The Bowery in two inadequate descriptive systems (1974/75); David Askevold's Muse Extracts, exhibited at Documenta 6 in 1977; Carrie Mae Weems' Family Pictures and Stories (1983); Lorna Simpson's installation Guarded Conditions (1989); and Martha Wilson's I have become my own worst fear, first presented in 2011.\n\nThe summer photography festival Rencontres d'Arles gives a Photo-Text Book Award at each annual event.",
   "culturalContext": "Photo-text has been classified as a \"bimedial iconotext,\" wherein both photographic images and textual elements coexist, forming a cohesive body of work presented in the context of a gallery space or book.\n\nThe juxtapositional nature of photo-texts requires that they be simultaneously read and viewed together — an intentional coexistence. This dual engagement fosters the creation of new meanings while maintaining separate importance for both the photographic images and the written text.",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fafafa",
+      "name": "ivory"
+    },
+    {
+      "hex": "#dcdbdb",
+      "name": "bone white"
+    },
+    {
+      "hex": "#bababa",
+      "name": "silver"
+    },
+    {
+      "hex": "#0c0c0c",
+      "name": "black"
+    },
+    {
+      "hex": "#8e8e8e",
+      "name": "stone"
+    },
+    {
+      "hex": "#262626",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,49 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/3212/2348771581_252ec991c8_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/22090364-2e35-42da-aaf7-f571052032d3/thumb/",
+      "full": "https://live.staticflickr.com/3212/2348771581_252ec991c8_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/24950188@N08/2348771581",
+      "caption": "'Welcome' word art, created out of a variety of PhotoText images.",
+      "source": "Openverse",
+      "license": "BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": "1024",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Uguisu5707.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Uguisu5707",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Uguisu5707.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 12,
+      "artist": "日: Jnn",
+      "license": "CC BY 2.1 jp",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.1/jp/deed.en"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Uguisu5740_cu.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Uguisu5740 cu",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Uguisu5740_cu.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 4,
+      "artist": "日: Jnn",
+      "license": "CC BY 2.1 jp",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.1/jp/deed.en"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Photo-text art",
@@ -73,7 +141,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:13.018Z"
+        "checkedAt": "2026-10-02T02:52:03.336Z"
       }
     },
     {
@@ -84,7 +152,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:13.018Z"
+        "checkedAt": "2026-10-02T02:52:03.336Z"
       }
     }
   ],
@@ -95,5 +163,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:55:21.300Z"
+  "updatedAt": "2026-10-02T08:42:59.158Z"
 }

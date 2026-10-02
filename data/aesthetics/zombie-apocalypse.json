@@ -101,10 +101,38 @@
       "date": "Taken on 1 November 2014",
       "license": "Public domain",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:58:39.738Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/TCLP_2010-12-01_The_Zombie_Apocalypse_%28IA_Tclp2010-12-01TheZombieApocalypse%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "TCLP 2010-12-01 The Zombie Apocalypse (IA Tclp2010-12-01TheZombieApocalypse)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:TCLP_2010-12-01_The_Zombie_Apocalypse_(IA_Tclp2010-12-01TheZombieApocalypse).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 1678,
+      "artist": "Thomas Gideon",
+      "license": "CC BY-SA 3.0 us",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/us/deed.en"
     }
   ],
   "sources": [
+    {
+      "name": "Wikipedia — Zombie apocalypse",
+      "url": "https://en.wikipedia.org/wiki/Zombie_apocalypse",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Zombie Apocalypse (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Zombie_Apocalypse",
@@ -117,12 +145,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q2633346",
+  "wikipedia": "Zombie apocalypse",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:42:47.281Z"
+  "updatedAt": "2026-10-02T07:57:38.462Z"
 }

@@ -89,7 +89,24 @@
     "narrative",
     "performance"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/7ea8e269-0fef-35d3-2299-9ec7cae0f757/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/7ea8e269-0fef-35d3-2299-9ec7cae0f757/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/7ea8e269-0fef-35d3-2299-9ec7cae0f757/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/81531",
+      "caption": "On the Stage",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "National Center for Korean Traditional Performing Arts",
@@ -128,5 +145,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T03:38:19.978Z",
-  "updatedAt": "2026-09-19T16:51:28.994Z"
+  "updatedAt": "2026-10-02T04:51:39.118Z"
 }

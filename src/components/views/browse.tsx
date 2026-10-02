@@ -20,7 +20,7 @@ const SORTS = [
   ['recent', 'Recently added'],
 ] as const
 
-export function BrowseView({ initialFacets }: { initialFacets: Facets }) {
+export function BrowseView({ initialFacets, initialFirst, initialKey }: { initialFacets: Facets; initialFirst: AestheticsResponse; initialKey: string }) {
   const router = useRouter()
   const pillsRef = useRef<HTMLElement>(null)
   useHorizontalWheel(pillsRef)
@@ -54,6 +54,7 @@ export function BrowseView({ initialFacets }: { initialFacets: Facets }) {
   const query = useInfiniteQuery({
     queryKey: ['browse', key],
     initialPageParam: 1,
+    initialData: key === initialKey ? { pages: [initialFirst], pageParams: [1] } : undefined,
     queryFn: ({ pageParam, signal }) => {
       const p = new URLSearchParams(key)
       p.set('page', String(pageParam))

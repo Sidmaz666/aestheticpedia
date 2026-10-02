@@ -20,7 +20,33 @@
   "summary": "Quadrobics is a form of physical exercise and a youth subculture that involves using all four limbs, as if imitating quadrupedal animal locomotion.",
   "description": "Quadrobics is a form of physical exercise and a youth subculture that involves using all four limbs, as if imitating quadrupedal animal locomotion.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#aa9884",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#8e7f6e",
+      "name": "taupe"
+    },
+    {
+      "hex": "#1b222c",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#beb5a8",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#6a6458",
+      "name": "umber"
+    },
+    {
+      "hex": "#73c3b4",
+      "name": "aqua"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,25 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Fishy_Fox_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/45/Fishy_Fox_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/45/Fishy_Fox_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File%3AFishy%20Fox%202.jpg",
+      "caption": "A therian boy with a fox mask.",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": "580",
+      "height": "1124",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Quadrobics",
@@ -74,7 +118,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:30.193Z"
+        "checkedAt": "2026-10-02T02:52:08.488Z"
       }
     },
     {
@@ -85,7 +129,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:30.193Z"
+        "checkedAt": "2026-10-02T02:52:08.488Z"
       }
     }
   ],
@@ -96,5 +140,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:30.193Z"
+  "updatedAt": "2026-10-02T04:53:50.644Z"
 }

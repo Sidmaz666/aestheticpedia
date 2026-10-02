@@ -89,7 +89,25 @@
     "traditional",
     "craft"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/8549/8705644282_1234ef9d33_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/f3d41ade-b3e7-4016-a23e-08889b5ba0b3/thumb/",
+      "full": "https://live.staticflickr.com/8549/8705644282_1234ef9d33_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/8935325@N08/8705644282",
+      "caption": "Chouara Tanneries Worker #2",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "682",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Museum of Moroccan Crafts",
@@ -128,5 +146,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T04:49:23.964Z",
-  "updatedAt": "2026-09-19T16:54:25.373Z"
+  "updatedAt": "2026-10-02T03:23:51.128Z"
 }

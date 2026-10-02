@@ -91,7 +91,25 @@
     "backstrap",
     "brocade"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/3672/11194655164_4a56f73a1f_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/4a07e405-ead0-4363-97e4-09ec29e3dc6d/thumb/",
+      "full": "https://live.staticflickr.com/3672/11194655164_4a56f73a1f_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/12256182@N06/11194655164",
+      "caption": "Tejedora en San Antonio Aguas Calientes",
+      "source": "Openverse",
+      "license": "BY-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nd/2.0/",
+      "width": "1024",
+      "height": "751",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Museo Ixchel del Traje Indígena",
@@ -130,5 +148,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T05:21:15.536Z",
-  "updatedAt": "2026-09-19T16:51:31.163Z"
+  "updatedAt": "2026-10-02T04:55:52.125Z"
 }

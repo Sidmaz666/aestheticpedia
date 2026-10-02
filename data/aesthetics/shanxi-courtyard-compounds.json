@@ -108,7 +108,25 @@
     "spacious",
     "hierarchical"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/8036/8049997530_26079a6168_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/db3cac1a-9531-4a52-8b6e-4dcd443878ff/thumb/",
+      "full": "https://live.staticflickr.com/8036/8049997530_26079a6168_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/14124404@N00/8049997530",
+      "caption": "Image of Shanxi Courtyard Compounds",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "1024",
+      "height": "753",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Pingyao World Heritage Administration",
@@ -147,5 +165,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T03:29:52.367Z",
-  "updatedAt": "2026-09-19T16:51:31.651Z"
+  "updatedAt": "2026-10-02T04:56:33.917Z"
 }

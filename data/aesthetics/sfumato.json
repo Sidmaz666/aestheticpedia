@@ -15,7 +15,7 @@
   "endYear": null,
   "era": "Renaissance",
   "summary": "Technique of soft, hazy transitions between colors and tones without visible lines",
-  "description": "Creates smoky, atmospheric effects through subtle blending of tones, developed by Leonardo da Vinci to achieve natural, lifelike representations of human forms and landscapes.",
+  "description": "Creates smoky, atmospheric effects through subtle blending of tones, developed by Leonardo da Vinci to achieve natural, lifelike representations of human forms and landscapes.\n\nSfumato (English:  sfoo-MAH-toh, Italian: [sfuˈmaːto]; lit. 'smoked off', i.e. 'blurred') is a painting technique for softening the transition between colours, mimicking an area beyond what the human eye is focusing on, or the out-of-focus plane. It is one of the canonical painting modes of the Renaissance. Leonardo da Vinci was the most prominent practitioner of sfumato, based on his research in optics and human vision, and his experimentation with the camera obscura. He introduced it and implemented it in many of his works, including the Virgin of the Rocks and in his famous painting of the Mona Lisa. He described sfumato as \"without lines or borders, in the manner of smoke\".\n\nAccording to the theory of the art historian Marcia B. Hall, which has gained considerable acceptance, sfumato is one of four modes of painting colours available to Italian High Renaissance painters, along with cangiante, chiaroscuro, and unione.",
   "culturalContext": "",
   "colors": [
     {
@@ -182,7 +182,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
+        "checkedAt": "2026-10-02T02:21:21.039Z"
       }
     },
     {
@@ -241,6 +241,19 @@
       }
     }
   ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Nl-sfumato.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Nl-sfumato",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nl-sfumato.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "marcel coenders",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  ],
   "sources": [
     {
       "name": "Louvre Museum",
@@ -270,6 +283,16 @@
         "ok": true,
         "status": 200,
         "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
+    },
+    {
+      "name": "Wikipedia — Sfumato",
+      "url": "https://en.wikipedia.org/wiki/Sfumato",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:31:29.597Z"
       }
     }
   ],
@@ -315,5 +338,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:23:20.614Z",
-  "updatedAt": "2026-09-18T05:10:18.642Z"
+  "updatedAt": "2026-10-02T08:40:37.776Z"
 }

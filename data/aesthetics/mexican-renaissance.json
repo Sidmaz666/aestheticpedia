@@ -17,7 +17,33 @@
   "summary": "Mexican Renaissance refers to the Mexican muralism movement between 1920 and 1950.",
   "description": "Mexican Renaissance refers to the Mexican muralism movement between 1920 and 1950. The phrase was first used in Idols behind Altars by Anita Brenner, with Jean Charlot. Charlot also discussed it in his 1963 book, The Mexican Mural Renaissance:\n\nThere are some simplifications which have become history, and one of them is the tie, which in itself is quite true, between the Mexican Renaissance, so called, and the Mexican Revolution. By Renaissance I speak mainly of the mural period of the 1920s and of the muralists, and of course, the Revolution is the Revolution of 1910, mostly military and a rather bloody affair.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#80b1d4",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#180e0d",
+      "name": "black"
+    },
+    {
+      "hex": "#432e28",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#804b3e",
+      "name": "umber"
+    },
+    {
+      "hex": "#d5944f",
+      "name": "raw sienna"
+    },
+    {
+      "hex": "#878283",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,49 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/186/476392888_e13ae203d1_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/5a89fb52-14dd-43ad-a179-f3b0bfc78a5b/thumb/",
+      "full": "https://live.staticflickr.com/186/476392888_e13ae203d1_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/45349448@N00/476392888",
+      "caption": "mexican renaissance grub",
+      "source": "Openverse",
+      "license": "BY-NC",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "width": "1024",
+      "height": "683",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Inleiding_Hespe%60rion_XXI_%26_Tembembe_Ensamble_Continuo_olv._Jordi_Savall_%28audio%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Inleiding Hespe`rion XXI & Tembembe Ensamble Continuo olv. Jordi Savall (audio)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Inleiding_Hespe%60rion_XXI_%26_Tembembe_Ensamble_Continuo_olv._Jordi_Savall_(audio).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 1586,
+      "artist": "deSingel",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Inleiding_La_Grande_Chapelle_olv._Albert_Recasens_%28audio%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Inleiding La Grande Chapelle olv. Albert Recasens (audio)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Inleiding_La_Grande_Chapelle_olv._Albert_Recasens_(audio).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 1686,
+      "artist": "deSingel",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Mexican Renaissance",
@@ -73,7 +141,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:09.897Z"
+        "checkedAt": "2026-10-02T02:51:48.357Z"
       }
     },
     {
@@ -84,7 +152,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:09.897Z"
+        "checkedAt": "2026-10-02T02:51:48.357Z"
       }
     }
   ],
@@ -95,5 +163,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:55:07.326Z"
+  "updatedAt": "2026-10-02T03:28:13.930Z"
 }

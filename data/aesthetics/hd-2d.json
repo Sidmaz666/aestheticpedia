@@ -18,8 +18,34 @@
   "era": "",
   "summary": "HD-2D or HD2D is a video game art style and perspective that combines traditional two-dimensional elements, such as pixel art and billboard sprites, with fully three-dimensional environments.",
   "description": "HD-2D or HD2D is a video game art style and perspective that combines traditional two-dimensional elements, such as pixel art and billboard sprites, with fully three-dimensional environments. The style makes extensive use of modern rendering effects, including dynamic lighting, depth of field, and tilt-shift, which together produce a diorama-like appearance that evokes the look of classic role-playing video games (RPGs) while incorporating contemporary visual techniques.\n\nThe term was coined and trademarked by Square Enix to describe the visuals of its 2018 role-playing game Octopath Traveler, developed in collaboration with Acquire. The company subsequently adopted the branding for additional titles, including Triangle Strategy and remakes of Live A Live and Dragon Quest, and announced further projects using the style such as Octopath Traveler 0 and The Adventures of Elliot: The Millennium Tales. Although Square Enix holds a trademark on the name, independent developers and other studios have produced games with comparable aesthetics, such as Wandering Sword and Eiyuden Chronicle: Hundred Heroes.\n\nCritical and fan reception to the style has been broadly positive, with commentators praising its ability to modernize the look of 16-bit RPGs while maintaining a sense of authenticity. Reviewers have described it as one of the most striking contemporary visual approaches in the genre. It has been noted for its influence on remake strategy within the company and its role in inspiring a wider retro revival in video games. Some commentators have expressed concern that its repeated use by Square Enix could lead to fatigue.",
-  "culturalContext": "",
-  "colors": [],
+  "culturalContext": "Square Enix's HD-2D style is characterized by the combination of two-dimensional game design elements, specifically pixel art character sprites and billboards, placed within a three-dimensional game world. Typically, a point light source is placed into the scene to make characters and objects cast shadows. Several modern post-processing effects and shaders like tilt-shift, depth of field, bloom, volumetric lighting and fog, and particle effects are added, and combined with parallax scrolling, give the game a more modern feel.",
+  "colors": [
+    {
+      "hex": "#0b0b0b",
+      "name": "black"
+    },
+    {
+      "hex": "#262626",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#828282",
+      "name": "taupe"
+    },
+    {
+      "hex": "#646464",
+      "name": "umber"
+    },
+    {
+      "hex": "#464646",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#9e9e9e",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "Overview": "Square Enix's HD-2D style is characterized by the combination of two-dimensional game design elements, specifically pixel art character sprites and billboards, placed within a three-dimensional game world. Typically, a point light source is placed into the scene to make characters and objects cast shadows. Several modern post-processing effects and shaders like tilt-shift, depth of field, bloom, volumetric lighting and fog, and particle effects are added, and combined with parallax scrolling, give the game a more modern feel.",
     "Related styles": "5D style, combining pixel character sprites with 3D environments; however, it enhances the traditional approach with detailed textures and dynamic shading enabled by modern game engines.5D approach, HD-2D games feature backgrounds that are entirely rendered in 3D and often make use of complex camerawork."
@@ -44,7 +70,48 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/World_War_I_Observation_Balloon_HD-SN-99-02269.JPEG/1280px-World_War_I_Observation_Balloon_HD-SN-99-02269.JPEG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/World_War_I_Observation_Balloon_HD-SN-99-02269.JPEG/500px-World_War_I_Observation_Balloon_HD-SN-99-02269.JPEG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/a/a7/World_War_I_Observation_Balloon_HD-SN-99-02269.JPEG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File%3AWorld%20War%20I%20Observation%20Balloon%20HD-SN-99-02269.JPEG",
+      "caption": "Close-up view of an American major in the basket of an observation balloon flying over territory near front lines.",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "1930",
+      "height": "3000",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/An%C3%A1lisis_DRAGON_QUEST_III_HD-2D_REMAKE%3B_El_retorno_de_UNO_DE_LOS_MEJORES_RPG_de_la_historia.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Análisis DRAGON QUEST III HD-2D REMAKE; El retorno de UNO DE LOS MEJORES RPG de la historia",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:An%C3%A1lisis_DRAGON_QUEST_III_HD-2D_REMAKE;_El_retorno_de_UNO_DE_LOS_MEJORES_RPG_de_la_historia.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 635,
+      "artist": "Vandal",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Why_is_Zelda%27s_35th_Anniversary_Smaller_Than_Mario%27s-.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Why is Zelda's 35th Anniversary Smaller Than Mario's-",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Why_is_Zelda%27s_35th_Anniversary_Smaller_Than_Mario%27s-.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 409,
+      "artist": "Video Game Story Time",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — HD-2D",
@@ -76,7 +143,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:22.691Z"
+        "checkedAt": "2026-10-02T02:51:31.693Z"
       }
     },
     {
@@ -87,7 +154,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:22.691Z"
+        "checkedAt": "2026-10-02T02:51:31.693Z"
       }
     }
   ],
@@ -98,5 +165,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:22.691Z"
+  "updatedAt": "2026-10-02T06:41:25.376Z"
 }

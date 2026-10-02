@@ -20,7 +20,33 @@
   "summary": "Blob World refers to the wave of graphic design that emerged in the mid-2010s.",
   "description": "Blob World refers to the wave of graphic design that emerged in the mid-2010s. It utilizes 3D renders to create blobby proportions, gelatinous, curvy organic shapes, translucent, glossy, strange and mixes playful textures with fluid, bizarre, and sometimes unsettling body-horror compositions.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#171614",
+      "name": "black"
+    },
+    {
+      "hex": "#b5a5a9",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#998e8e",
+      "name": "stone"
+    },
+    {
+      "hex": "#c5c3c1",
+      "name": "silver"
+    },
+    {
+      "hex": "#e1e4e6",
+      "name": "paper white"
+    },
+    {
+      "hex": "#736c6a",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "Overview": "Blob World uses 3D graphics to create surreal and sometimes unnerving imagery with playful textures and uncanny forms. Matte and glossy shaders are used to replicate clay, rubber, plastic, or glass."
   },
@@ -50,7 +76,60 @@
   "tags": [
     "aesthetics wiki"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/2010/13082144605_773543ea66_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/439e2d14-6e5b-415a-9248-61feea0ad869/thumb/",
+      "full": "https://live.staticflickr.com/2010/13082144605_773543ea66_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/34427470616@N01/13082144605",
+      "caption": "It's a blob eat blob world",
+      "source": "Openverse",
+      "license": "BY-NC",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "width": "1024",
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Glitch_by_Wuzzy_%28Minetest%29_glitch_abilities_jumppad.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Glitch by Wuzzy (Minetest) glitch abilities jumppad",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Glitch_by_Wuzzy_(Minetest)_glitch_abilities_jumppad.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "Mod Mod Glitch: Wuzzy ( https://content.minetest.net/users/Wuzzy/ / https://web.archive.org/web/20230127174210/https://c",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Glitch_by_Wuzzy_%28Minetest%29_glitch_sounds_default_place.5.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Glitch by Wuzzy (Minetest) glitch sounds default place.5",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Glitch_by_Wuzzy_(Minetest)_glitch_sounds_default_place.5.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 0,
+      "artist": "Mod Mod Glitch: Wuzzy ( https://content.minetest.net/users/Wuzzy/ / https://web.archive.org/web/20230127174210/https://c",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Glitch_by_Wuzzy_%28Minetest%29_glitch_sounds_default_place.3.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Glitch by Wuzzy (Minetest) glitch sounds default place.3",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Glitch_by_Wuzzy_(Minetest)_glitch_sounds_default_place.3.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 0,
+      "artist": "Mod Mod Glitch: Wuzzy ( https://content.minetest.net/users/Wuzzy/ / https://web.archive.org/web/20230127174210/https://c",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Blob World (CC BY-SA)",
@@ -72,7 +151,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:17.325Z"
+        "checkedAt": "2026-10-02T02:51:07.827Z"
       }
     },
     {
@@ -83,7 +162,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:17.325Z"
+        "checkedAt": "2026-10-02T02:51:07.827Z"
       }
     }
   ],
@@ -94,5 +173,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:17.325Z"
+  "updatedAt": "2026-10-02T03:22:27.308Z"
 }

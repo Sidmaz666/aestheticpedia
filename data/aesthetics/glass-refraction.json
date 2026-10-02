@@ -92,7 +92,25 @@
     "decorative",
     "refractive"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/186/394133110_c2c135271c_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/e13f2a65-506e-45e4-b733-75d421994ade/thumb/",
+      "full": "https://live.staticflickr.com/186/394133110_c2c135271c_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/54408024@N00/394133110",
+      "caption": "Magnifying Glass Refraction and Caustic",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "1024",
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Corning Museum of Glass",
@@ -131,5 +149,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:30:16.895Z",
-  "updatedAt": "2026-09-19T16:51:22.085Z"
+  "updatedAt": "2026-10-02T03:26:54.337Z"
 }

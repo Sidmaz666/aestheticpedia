@@ -17,7 +17,33 @@
   "summary": "Megalithic art refers to art either painted or carved onto megaliths in prehistoric Europe and found on the structural elements, like the kerbstones, orthostats, or capstones of megalithic tombs, but recent investigations have included decorations on stelae and menhirs.",
   "description": "Megalithic art refers to art either painted or carved onto megaliths in prehistoric Europe and found on the structural elements, like the kerbstones, orthostats, or capstones of megalithic tombs, but recent investigations have included decorations on stelae and menhirs.\n\nMegalithic art is found in many places in Western Europe although the main concentrations are in England, Malta, Ireland, Brittany and Iberia. Megalithic art started in the Neolithic and continued into the Bronze Age.  Although many monument types received this form of art the majority is carved on Neolithic passage graves. Megalithic art tends to be highly abstract and contains relatively few representations of recognizable real objects. Megalithic art is often similar to prehistoric rock art and contains many similar motifs such as the 'cup and ring mark', although the two forms of rock carving also have large stylistic differences. The meaning of megalithic art is the subject of much debate.\n\nWeathering and vandalism have affected many examples of the art, and little of it remains today.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#877b60",
+      "name": "bronze"
+    },
+    {
+      "hex": "#76643f",
+      "name": "bronze 2"
+    },
+    {
+      "hex": "#a0947d",
+      "name": "stone"
+    },
+    {
+      "hex": "#bbb09b",
+      "name": "khaki"
+    },
+    {
+      "hex": "#7d3813",
+      "name": "sepia"
+    },
+    {
+      "hex": "#483f29",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,25 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/4340/36404168334_afc4b04a0f_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/f4e79243-869c-4c03-be31-2fc8dbc25d15/thumb/",
+      "full": "https://live.staticflickr.com/4340/36404168334_afc4b04a0f_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/8981098@N07/36404168334",
+      "caption": "Megalithic art",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Megalithic art",
@@ -71,7 +115,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:25.915Z"
+        "checkedAt": "2026-10-02T02:51:47.075Z"
       }
     },
     {
@@ -82,7 +126,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:25.915Z"
+        "checkedAt": "2026-10-02T02:51:47.075Z"
       }
     }
   ],
@@ -93,5 +137,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:25.915Z"
+  "updatedAt": "2026-10-02T03:28:06.571Z"
 }

@@ -17,7 +17,33 @@
   "summary": "The aesthetic is culturally analogous to the British Chav , the American Guido , and certain iterations of the Japanese Gyaru , sharing a focus on artificial tanning, bleached hair, and a hedonistic party-oriented lifestyle.",
   "description": "The aesthetic is culturally analogous to the British Chav , the American Guido , and certain iterations of the Japanese Gyaru , sharing a focus on artificial tanning, bleached hair, and a hedonistic party-oriented lifestyle. While the term was applied to both genders, the visual \"Fjortis\" aesthetic is most strongly associated with teenage girls, while the male equivalent eventually splintered into the distinct Partille-Johnny subculture.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Popularity, social status, partying, conformity, hyper-femininity (for women)",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f7b2ab",
+      "name": "rose pink"
+    },
+    {
+      "hex": "#f9d8c2",
+      "name": "apricot"
+    },
+    {
+      "hex": "#2a4763",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#ee8b98",
+      "name": "rose pink 2"
+    },
+    {
+      "hex": "#5b5c7c",
+      "name": "graphite"
+    },
+    {
+      "hex": "#122a4b",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Neon pink, orange (fake tan), white (lips), bleach blonde, black"
   },
@@ -62,7 +88,38 @@
     "conformity",
     "hyper-femininity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/7106/7421493248_0422b55b2e.jpg",
+      "thumb": "https://api.openverse.org/v1/images/13189c0b-3bc3-4abe-8755-ab42ba6004d4/thumb/",
+      "full": "https://live.staticflickr.com/7106/7421493248_0422b55b2e.jpg",
+      "pageUrl": "https://www.flickr.com/photos/62049032@N03/7421493248",
+      "caption": "Röker fjortis-cigg #cigarette #fjortis #black #devil #sthlm #stockholm #sverige #sweden",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "500",
+      "height": "500",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Nb-fjortis.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Nb-fjortis",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nb-fjortis.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 2,
+      "artist": "Supevan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Fjortis (CC BY-SA)",
@@ -83,5 +140,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:20.986Z"
+  "updatedAt": "2026-10-02T03:26:12.053Z"
 }

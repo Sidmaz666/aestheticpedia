@@ -88,7 +88,24 @@
     "satirical",
     "rebellious"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/048b0cbd-416e-498e-403d-bc28b5b27585/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/048b0cbd-416e-498e-403d-bc28b5b27585/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/048b0cbd-416e-498e-403d-bc28b5b27585/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/5512",
+      "caption": "A Mile Underground, Kimberly Diamond Mine, South Africa",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "The Underground Comix Database",
@@ -127,5 +144,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:41:29.160Z",
-  "updatedAt": "2026-09-19T16:51:35.693Z"
+  "updatedAt": "2026-10-02T05:04:24.162Z"
 }

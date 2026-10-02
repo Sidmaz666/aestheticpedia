@@ -157,6 +157,16 @@
   ],
   "sources": [
     {
+      "name": "Wikipedia — Buffalo",
+      "url": "https://en.wikipedia.org/wiki/Buffalo",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
+    {
       "name": "Aesthetics Wiki — Buffalo Style (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Buffalo_Style",
       "tier": "C",
@@ -168,12 +178,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q32879",
+  "wikipedia": "Buffalo",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T07:14:38.621Z"
+  "updatedAt": "2026-10-02T07:57:38.433Z"
 }

@@ -19,10 +19,23 @@
   "culturalContext": "",
   "colors": [
     {
-      "hex": "#556b2f",
-      "name": "Dark Olive Green"
+      "hex": "#786949",
+      "name": "bronze"
+    },
+    {
+      "hex": "#53472d",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#9d8f72",
+      "name": "stone"
+    },
+    {
+      "hex": "#232416",
+      "name": "ink blue"
     }
   ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -72,7 +85,25 @@
     "traditional",
     "eastern"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/2410/2312866702_c970d5e29f_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/63e8d69d-4b65-48bc-8012-b9aee4acfae7/thumb/",
+      "full": "https://live.staticflickr.com/2410/2312866702_c970d5e29f_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/14589752@N00/2312866702",
+      "caption": "crackled glaze",
+      "source": "Openverse",
+      "license": "BY-NC",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "width": "1024",
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Metropolitan Museum of Art",
@@ -111,5 +142,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:19:37.080Z",
-  "updatedAt": "2026-09-19T16:51:19.187Z"
+  "updatedAt": "2026-10-02T03:24:21.365Z"
 }

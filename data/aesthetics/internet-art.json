@@ -19,7 +19,33 @@
   "summary": "Internet art (also known as net art or web art) is a form of new media art distributed via the Internet.",
   "description": "Internet art (also known as net art or web art) is a form of new media art distributed via the Internet. This form of art circumvents the traditional dominance of the physical gallery and museum system. In many cases, the viewer is drawn into some kind of interaction with the work of art. Artists working in this manner are sometimes referred to as net artists.\n\nNet artists may use specific social or cultural internet traditions to produce their art outside of the technical structure of the internet. Internet art is often – but not always – interactive, participatory, and multimedia-based. Internet art can be used to spread a message, either political or social, using human interactions. Typically, artists find ways to produce art through the use of the internet and the tools that it provides us with.\n\nThe term Internet art typically does not refer to art that has been simply digitized and uploaded to be viewable over the Internet, such as in an online gallery.\n\nRather, this genre relies intrinsically on the Internet to exist as a whole, taking advantage of such aspects as an interactive interface and connectivity to multiple social and economic cultures and micro-cultures, not only web-based works.\n\nNew media theorist and curator Jon Ippolito defined \"Ten Myths of Internet Art\" in 2002. He cites the above stipulations, as well as defining it as distinct from commercial web design, and touching on issues of permanence, archivability, and collecting in a fluid medium.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0d4d4a",
+      "name": "bottle green"
+    },
+    {
+      "hex": "#cac7cc",
+      "name": "silver"
+    },
+    {
+      "hex": "#0c2f2e",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#e1dfdc",
+      "name": "bone white"
+    },
+    {
+      "hex": "#71787d",
+      "name": "slate"
+    },
+    {
+      "hex": "#b7a7b3",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -45,7 +71,60 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/7220/26748621751_5bff84f17e_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/fd492139-2fc2-4797-ac1c-67be79ee9bf3/thumb/",
+      "full": "https://live.staticflickr.com/7220/26748621751_5bff84f17e_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/45638810@N00/26748621751",
+      "caption": "Those nude photos of me finally surfaced on the internet. Art New York | CONTEXT New York | VIP Preview",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "539",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Oscars_II_tal_vid_%C3%B6ppnandet_av_Konst-_och_Industriutst%C3%A4llningen_1897_ZS_V78-0708.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Oscars II tal vid öppnandet av Konst- och Industriutställningen 1897 ZS V78-0708",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Oscars_II_tal_vid_%C3%B6ppnandet_av_Konst-_och_Industriutst%C3%A4llningen_1897_ZS_V78-0708.wav",
+      "source": "Wikimedia Commons",
+      "mime": "audio/wav",
+      "duration": 178,
+      "artist": "Edvard Unge (Q99194349) – Phonograph recording from the National Library of Sweden",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/00016-_Tim_Schneider_on_the_%22Great_Reframing%22_of_the_Art_Market_-_Ipse_Dixit_%28IA_ipse_dixit_00016%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "00016- Tim Schneider on the \"Great Reframing\" of the Art Market - Ipse Dixit (IA ipse dixit 00016)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:00016-_Tim_Schneider_on_the_%22Great_Reframing%22_of_the_Art_Market_-_Ipse_Dixit_(IA_ipse_dixit_00016).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 2673,
+      "artist": "Ipse Dixit Brian L. Frye Tim Schneider",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Universal_Declaration_of_Human_Rights_-_chn_-_cz_-_Art_1.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Universal Declaration of Human Rights - chn - cz - Art 1",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Universal_Declaration_of_Human_Rights_-_chn_-_cz_-_Art_1.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 16,
+      "artist": "Christina Zhu",
+      "license": "Public Domain",
+      "licenseUrl": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Internet art",
@@ -77,7 +156,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:23.366Z"
+        "checkedAt": "2026-10-02T02:51:34.941Z"
       }
     },
     {
@@ -88,7 +167,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:23.366Z"
+        "checkedAt": "2026-10-02T02:51:34.941Z"
       }
     }
   ],
@@ -99,5 +178,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:23.366Z"
+  "updatedAt": "2026-10-02T04:42:41.823Z"
 }

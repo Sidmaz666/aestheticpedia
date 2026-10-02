@@ -86,7 +86,25 @@
     "ornamental",
     "royal"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/4020/4690372085_9a9ab89c38_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/fe923f72-887a-4776-a515-b383ad41ece4/thumb/",
+      "full": "https://live.staticflickr.com/4020/4690372085_9a9ab89c38_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/39699193@N03/4690372085",
+      "caption": "Illuminated Manuscript Koran, Binding, Walters Art Museum, Ms. W.561, Upper board outside",
+      "source": "Openverse",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "744",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Mamluk Quran Illumination",
@@ -113,5 +131,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T04:47:20.288Z",
-  "updatedAt": "2026-09-19T16:55:05.137Z"
+  "updatedAt": "2026-10-02T03:27:46.649Z"
 }

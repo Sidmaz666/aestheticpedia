@@ -91,7 +91,24 @@
     "rich",
     "refined"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/4ae352f3-8a51-30cd-6e91-60683d21d12a/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/4ae352f3-8a51-30cd-6e91-60683d21d12a/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/4ae352f3-8a51-30cd-6e91-60683d21d12a/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/146989",
+      "caption": "Clown Torture",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Metropolitan Museum of Art",
@@ -118,5 +135,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:42:31.302Z",
-  "updatedAt": "2026-09-19T16:55:11.112Z"
+  "updatedAt": "2026-10-02T04:48:19.024Z"
 }

@@ -41,29 +41,36 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Stylized_uwu_emoticon.svg",
+      "thumb": "https://api.openverse.org/v1/images/ae461e12-5ed0-46e9-b3c7-b1402a1c7c57/thumb/",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Stylized_uwu_emoticon.svg",
+      "pageUrl": "https://commons.wikimedia.org/w/index.php?curid=97157746",
+      "caption": "Stylized uwu emoticon",
+      "source": "Openverse",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+      "width": "544",
+      "height": "208",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
   "audio": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/LL-Q1860_%28eng%29-Flame%2C_not_lame-owo.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "title": "LL-Q1860 (eng)-Flame, not lame-owo",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Flame,_not_lame-owo.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/OVXX_-_meowth_muh_nuggeth_%28experimental_hip_hop%29.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "OVXX - meowth muh nuggeth (experimental hip hop)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:OVXX_-_meowth_muh_nuggeth_(experimental_hip_hop).ogg",
       "source": "Wikimedia Commons",
-      "mime": "audio/wav",
-      "duration": 1,
-      "artist": "Speaker: Flame, not lame Recorder: Flame, not lame",
-      "license": "CC0",
-      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/LL-Q1860_%28eng%29-Flame%2C_not_lame-uwu.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "title": "LL-Q1860 (eng)-Flame, not lame-uwu",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Flame,_not_lame-uwu.wav",
-      "source": "Wikimedia Commons",
-      "mime": "audio/wav",
-      "duration": 1,
-      "artist": "Speaker: Flame, not lame Recorder: Flame, not lame",
-      "license": "CC0",
-      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      "mime": "application/ogg",
+      "duration": 202,
+      "artist": "OVXX",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
     }
   ],
   "sources": [
@@ -97,7 +104,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:35.876Z"
+        "checkedAt": "2026-10-02T02:52:34.460Z"
       }
     },
     {
@@ -108,7 +115,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:35.876Z"
+        "checkedAt": "2026-10-02T02:52:34.460Z"
       }
     }
   ],
@@ -119,5 +126,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:35.876Z"
+  "updatedAt": "2026-10-02T08:40:37.844Z"
 }

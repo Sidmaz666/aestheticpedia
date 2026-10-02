@@ -20,7 +20,33 @@
   "summary": "Meme Rap is an internet-native music genre that emerged in the early 2010s, achieving widespread visibility between 2016 and 2020.",
   "description": "Meme Rap is an internet-native music genre that emerged in the early 2010s, achieving widespread visibility between 2016 and 2020. The style utilizes a parodic deconstruction of hip-hop tropes, prioritizing nonsensical humor and quick viral distribution over conventional production standards.\n\nThe genre's aesthetic relies on the intentional juxtaposition of disparate cultural motifs. It places sanitized pop-culture iconography, such as characters from Caillou or Barney & Friends , alongside the stylistic signifiers of mid-1990s Gangsta Rap . These compositions frequently utilize compression artifacts, pixelation, and aliased typography to replicate the aesthetic of lo-fi internet media.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Virality, novelty, irony, shock value , DIY ethos",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0f0b0d",
+      "name": "black"
+    },
+    {
+      "hex": "#353039",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#704f34",
+      "name": "umber"
+    },
+    {
+      "hex": "#817a70",
+      "name": "taupe"
+    },
+    {
+      "hex": "#b77b2f",
+      "name": "copper"
+    },
+    {
+      "hex": "#c4b79d",
+      "name": "khaki"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Neon accents, saturated primary colors"
   },
@@ -78,7 +104,25 @@
     "shock value",
     "diy ethos"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/3146/2536196885_5e51349297_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/92548381-6514-4a42-af3d-5fe4f16707e0/thumb/",
+      "full": "https://live.staticflickr.com/3146/2536196885_5e51349297_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/17731548@N00/2536196885",
+      "caption": "Music MEME",
+      "source": "Openverse",
+      "license": "BY-NC",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "width": "1024",
+      "height": "769",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Meme Rap (CC BY-SA)",
@@ -100,7 +144,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:25.928Z"
+        "checkedAt": "2026-10-02T02:51:47.121Z"
       }
     },
     {
@@ -111,7 +155,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:25.928Z"
+        "checkedAt": "2026-10-02T02:51:47.121Z"
       }
     }
   ],
@@ -122,5 +166,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:25.928Z"
+  "updatedAt": "2026-10-02T03:28:07.287Z"
 }

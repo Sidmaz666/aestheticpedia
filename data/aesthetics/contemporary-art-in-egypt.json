@@ -17,7 +17,25 @@
   "summary": "Contemporary art in Egypt refers to visual art, including installations, videos, paintings, or sculptures, developed in the Egyptian art scene.",
   "description": "Contemporary art in Egypt refers to visual art, including installations, videos, paintings, or sculptures, developed in the Egyptian art scene. While the contemporary art scene is mainly concentrated in Cairo and Alexandria, it is developing fast with the emergence of spaces for artists, and support from the public or from abroad. Many Egyptian artists use the Egyptian contemporary art scene as a ramp toward the international art scenes.",
   "culturalContext": "While Egyptian contemporary art has always centered around national political and social aspects, there has clearly been some phases that accentuated other aspects present in Egyptian artists' work.",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5741a4",
+      "name": "cerulean"
+    },
+    {
+      "hex": "#6f5faf",
+      "name": "slate"
+    },
+    {
+      "hex": "#3c2093",
+      "name": "indigo"
+    },
+    {
+      "hex": "#211e2d",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +57,25 @@
   "tags": [
     "art of an area"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/6086/6145926983_d7cebdca8d_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/e97f2064-10aa-4909-9f55-e5fb092baa52/thumb/",
+      "full": "https://live.staticflickr.com/6086/6145926983_d7cebdca8d_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/55929728@N03/6145926983",
+      "caption": "Egypt 4",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "746",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Contemporary art in Egypt",
@@ -71,7 +107,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:18.818Z"
+        "checkedAt": "2026-10-02T02:51:15.496Z"
       }
     },
     {
@@ -82,7 +118,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:18.818Z"
+        "checkedAt": "2026-10-02T02:51:15.496Z"
       }
     }
   ],
@@ -93,5 +129,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T15:08:19.201Z",
-  "updatedAt": "2026-09-19T16:51:18.818Z"
+  "updatedAt": "2026-10-02T03:24:13.274Z"
 }

@@ -83,7 +83,24 @@
     "symbolic",
     "realistic"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/64734461-887d-80b9-8489-e38cb05ac01d/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/64734461-887d-80b9-8489-e38cb05ac01d/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/64734461-887d-80b9-8489-e38cb05ac01d/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/109275",
+      "caption": "Mother and Child",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Web Gallery of Art",
@@ -122,5 +139,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:23:20.622Z",
-  "updatedAt": "2026-09-19T16:51:17.782Z"
+  "updatedAt": "2026-10-02T04:29:51.015Z"
 }

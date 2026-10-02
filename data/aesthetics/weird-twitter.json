@@ -17,7 +17,33 @@
   "summary": "Weird Twitter is a loose genre of Internet humour dedicated to publication of humorous material on the social networking service X (formerly Twitter) that is often considered disorganized and hard to explain.",
   "description": "Weird Twitter is a loose genre of Internet humour dedicated to publication of humorous material on the social networking service X (formerly Twitter) that is often considered disorganized and hard to explain.\n\nRelated to anti-humour and created primarily by Twitter users who are not professional humourists, Weird Twitter-style jokes may be presented as disorganised thoughts, rather than in a conventional joke format or punctuated sentence structure. The genre is based around the restriction of Twitter's 140-character message length, requiring jokes to be quite short. The genre may also include repurposing of overlooked material on the internet, such as parodying posts made by spambots or deliberately amateurish images created in Paint. The New York Times has described the genre as \"inane\" and intended \"to subtly mock the site's corporate and mainstream users.\" A notable writer on Weird Twitter is dril.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#eaeaec",
+      "name": "paper white"
+    },
+    {
+      "hex": "#9cbb7b",
+      "name": "sage"
+    },
+    {
+      "hex": "#c3c3c4",
+      "name": "silver"
+    },
+    {
+      "hex": "#fafafa",
+      "name": "ivory"
+    },
+    {
+      "hex": "#d3d3d4",
+      "name": "bone white"
+    },
+    {
+      "hex": "#b4b4b5",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,60 @@
   "tags": [
     "subculture"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/7176/6886497961_2084e67a0b_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/0acfe432-673c-403a-9b44-71ef320981d9/thumb/",
+      "full": "https://live.staticflickr.com/7176/6886497961_2084e67a0b_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/71753172@N00/6886497961",
+      "caption": "weird twitter virus/spam?",
+      "source": "Openverse",
+      "license": "BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": "640",
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Chipasha_Mwansa_on_how_to_migrate_reproductive_justice_work_online.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Chipasha Mwansa on how to migrate reproductive justice work online",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chipasha_Mwansa_on_how_to_migrate_reproductive_justice_work_online.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1974,
+      "artist": "YoulendreeAppasamy",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Why_Cooking_Mama-_Cookstar_Went_Wrong.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Why Cooking Mama- Cookstar Went Wrong",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Why_Cooking_Mama-_Cookstar_Went_Wrong.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 379,
+      "artist": "Video Game Story Time",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Why_Balan_Wonderworld_Was_Doomed_From_The_Start.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Why Balan Wonderworld Was Doomed From The Start",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Why_Balan_Wonderworld_Was_Doomed_From_The_Start.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 375,
+      "artist": "Video Game Story Time",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Weird Twitter",
@@ -71,7 +150,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:37.004Z"
+        "checkedAt": "2026-10-02T02:52:36.287Z"
       }
     },
     {
@@ -82,7 +161,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:37.004Z"
+        "checkedAt": "2026-10-02T02:52:36.287Z"
       }
     }
   ],
@@ -93,5 +172,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:37.004Z"
+  "updatedAt": "2026-10-02T08:40:37.858Z"
 }

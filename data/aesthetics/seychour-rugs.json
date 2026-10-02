@@ -21,7 +21,25 @@
   "summary": "A subtype of the Kuba rug, antique Seychour (also known as Seichur and Zeychour) rugs are made in the small town of Yukhari-Zeykhur in Azerbaijan in the Northeast Caucasus.",
   "description": "A subtype of the Kuba rug, antique Seychour (also known as Seichur and Zeychour) rugs are made in the small town of Yukhari-Zeykhur in Azerbaijan in the Northeast Caucasus.  Prized for the detailed precision of their drawing and design as well as for their saturated colors, antique Seychour rugs popularly display designs such as cabbage rose and the Seychour cross.  Differing from other Caucasian rugs, antique Seychour rugs do not share the same symmetry in their borders; they do however, share a similar flat-woven structure.  In these particular rugs, one half of the knot is hidden.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#82543d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#7b3a27",
+      "name": "burnt sienna"
+    },
+    {
+      "hex": "#987858",
+      "name": "bronze 2"
+    },
+    {
+      "hex": "#ba865c",
+      "name": "camel"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +61,25 @@
   "tags": [
     "rug style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/%D0%A1%D1%82%D0%B0%D1%80%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%B2%D1%91%D1%80_%C2%AB%D0%97%D0%B5%D0%B9%D1%85%D1%83%D1%80%C2%BB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5d/%D0%A1%D1%82%D0%B0%D1%80%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%B2%D1%91%D1%80_%C2%AB%D0%97%D0%B5%D0%B9%D1%85%D1%83%D1%80%C2%BB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/5/5d/%D0%A1%D1%82%D0%B0%D1%80%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%B2%D1%91%D1%80_%C2%AB%D0%97%D0%B5%D0%B9%D1%85%D1%83%D1%80%C2%BB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D1%82%D0%B0%D1%80%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%BE%D0%B2%D1%91%D1%80%20%C2%AB%D0%97%D0%B5%D0%B9%D1%85%D1%83%D1%80%C2%BB.jpg",
+      "caption": "Antique Seychour Carpet",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": "470",
+      "height": "834",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Seychour Rugs",
@@ -75,7 +111,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:14.842Z"
+        "checkedAt": "2026-10-02T02:52:18.365Z"
       }
     },
     {
@@ -86,7 +122,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:14.842Z"
+        "checkedAt": "2026-10-02T02:52:18.365Z"
       }
     }
   ],
@@ -97,5 +133,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T15:08:19.201Z",
-  "updatedAt": "2026-09-19T16:55:31.832Z"
+  "updatedAt": "2026-10-02T04:56:33.173Z"
 }

@@ -17,7 +17,25 @@
   "summary": "Art in Dubai is an emerging activity in Dubai, United Arab Emirates.",
   "description": "Art in Dubai is an emerging activity in Dubai, United Arab Emirates. New galleries such as Carbon 12 Dubai, art fairs, artists, art patrons and collectors have grown in number.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b3967e",
+      "name": "camel"
+    },
+    {
+      "hex": "#8f796a",
+      "name": "taupe"
+    },
+    {
+      "hex": "#cdb69b",
+      "name": "tan"
+    },
+    {
+      "hex": "#675552",
+      "name": "umber"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +57,25 @@
   "tags": [
     "art of an area"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/8106/8614447322_accaed8c00.jpg",
+      "thumb": "https://api.openverse.org/v1/images/b254d828-656a-4598-a204-d18bc6142421/thumb/",
+      "full": "https://live.staticflickr.com/8106/8614447322_accaed8c00.jpg",
+      "pageUrl": "https://www.flickr.com/photos/76273497@N02/8614447322",
+      "caption": "#mirror #wroughtiron #wrought #iron #choufani #ad #art #dxb #dubai #uae #unitedarabemirates #khalifa #showroom next to @dashing_nails #ابوظبي #اثاث #تصميم #منزل #محل #شوفاني #مراية #حديد #مشغول #interiordesign",
+      "source": "Openverse",
+      "license": "BY-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nd/2.0/",
+      "width": "500",
+      "height": "500",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Art in Dubai",
@@ -71,7 +107,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:16.229Z"
+        "checkedAt": "2026-10-02T02:51:03.879Z"
       }
     },
     {
@@ -82,7 +118,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:16.229Z"
+        "checkedAt": "2026-10-02T02:51:03.879Z"
       }
     }
   ],
@@ -93,5 +129,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T15:08:19.201Z",
-  "updatedAt": "2026-09-19T16:51:16.229Z"
+  "updatedAt": "2026-10-02T03:21:44.278Z"
 }

@@ -119,10 +119,49 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "960"
+      "height": "960",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:58:39.738Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Vladimir_Samoilov.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Vladimir Samoilov",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vladimir_Samoilov.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 3,
+      "artist": "Besserwisser1983",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Nl-skater.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Nl-skater",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nl-skater.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "marcel coenders",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     }
   ],
   "sources": [
+    {
+      "name": "Wikipedia — Skater",
+      "url": "https://en.wikipedia.org/wiki/Skater",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Skater (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Skater",
@@ -135,12 +174,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q1259045",
+  "wikipedia": "Skater",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:42:37.491Z"
+  "updatedAt": "2026-10-02T08:42:59.238Z"
 }

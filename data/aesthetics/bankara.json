@@ -19,8 +19,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Disregard for appearance, masculinity, nationalism",
   "colors": [
     {
-      "hex": "#000000",
+      "hex": "#1c1c0b",
       "name": "black"
+    },
+    {
+      "hex": "#563008",
+      "name": "sepia"
+    },
+    {
+      "hex": "#795d27",
+      "name": "bronze"
+    },
+    {
+      "hex": "#a2a19c",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#ba986b",
+      "name": "camel"
+    },
+    {
+      "hex": "#3f4338",
+      "name": "charcoal"
     }
   ],
   "paletteSource": "derived",
@@ -52,7 +72,38 @@
     "masculinity",
     "nationalism"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/1651/24176284896_8d39ef4839_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/2242fd18-97b8-4f07-98d7-41eefbce54ea/thumb/",
+      "full": "https://live.staticflickr.com/1651/24176284896_8d39ef4839_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/10559879@N00/24176284896",
+      "caption": "Chuka Soba AUD13.80 - Ra-men Bankara, Target Centre, Melbourne",
+      "source": "Openverse",
+      "license": "BY-NC",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "width": "1024",
+      "height": "678",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bankara.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Bankara",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bankara.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "Abdullahi Saidu",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Bankara (CC BY-SA)",
@@ -74,7 +125,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:16.864Z"
+        "checkedAt": "2026-10-02T02:51:05.713Z"
       }
     },
     {
@@ -85,7 +136,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:16.864Z"
+        "checkedAt": "2026-10-02T02:51:05.713Z"
       }
     }
   ],
@@ -96,5 +147,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:16.864Z"
+  "updatedAt": "2026-10-02T03:22:07.590Z"
 }

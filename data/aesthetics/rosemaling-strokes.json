@@ -80,7 +80,24 @@
     "painting",
     "traditional"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/decff95e-13fb-fe47-1e96-f2e7916e06dc/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/decff95e-13fb-fe47-1e96-f2e7916e06dc/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/decff95e-13fb-fe47-1e96-f2e7916e06dc/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/9992",
+      "caption": "Jar with Abstract Strokes",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Vesterheim Museum",
@@ -119,5 +136,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:39:04.235Z",
-  "updatedAt": "2026-09-19T16:51:30.778Z"
+  "updatedAt": "2026-10-02T04:55:04.970Z"
 }

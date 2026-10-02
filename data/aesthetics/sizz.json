@@ -19,12 +19,24 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Composition, exploration, emotion",
   "colors": [
     {
-      "hex": "#000000",
-      "name": "black"
+      "hex": "#fbf3d6",
+      "name": "linen"
     },
     {
-      "hex": "#ffffff",
-      "name": "white"
+      "hex": "#d3cfbb",
+      "name": "beige"
+    },
+    {
+      "hex": "#a8a599",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#948f84",
+      "name": "stone"
+    },
+    {
+      "hex": "#7f796e",
+      "name": "taupe"
     }
   ],
   "paletteSource": "derived",
@@ -59,7 +71,25 @@
     "exploration",
     "emotion"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/McClure%27s_magazine_%281893%29_%2814577796419%29.jpg/1280px-McClure%27s_magazine_%281893%29_%2814577796419%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/McClure%27s_magazine_%281893%29_%2814577796419%29.jpg/500px-McClure%27s_magazine_%281893%29_%2814577796419%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/2/22/McClure%27s_magazine_%281893%29_%2814577796419%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File%3AMcClure's%20magazine%20(1893)%20(14577796419).jpg",
+      "caption": "\nIdentifier: mccluresmagazinev8mccl (find matches)\nTitle: McClure's magazine\nYear: 1893 (1890s)\nAuthors:  McClure, S. S. (Samuel Sidney), 1857-1949\nSu",
+      "source": "Wikimedia Commons",
+      "license": "No restrictions",
+      "licenseUrl": "https://www.flickr.com/commons/usage/",
+      "width": "1900",
+      "height": "1940",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Sizz (CC BY-SA)",
@@ -80,5 +110,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:32.494Z"
+  "updatedAt": "2026-10-02T06:41:27.697Z"
 }

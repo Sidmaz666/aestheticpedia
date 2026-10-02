@@ -18,8 +18,8 @@
   "endYear": 1970,
   "era": "Contemporary",
   "summary": "Large-scale outdoor works that interact with and are made from natural landscapes.",
-  "description": "Uses earth, rocks, water, and other natural materials to create site-specific works in remote locations, often documented through photography rather than being permanent installations.",
-  "culturalContext": "",
+  "description": "Uses earth, rocks, water, and other natural materials to create site-specific works in remote locations, often documented through photography rather than being permanent installations.\n\nLand art, variously known as Earth art, environmental art, and Earthworks, is an art movement that emerged in the 1960s and 1970s, largely associated with Great Britain and the United States but that also includes examples from many other countries. As a trend, \"land art\" expanded the boundaries of traditional art making in the materials used and the siting of the works. The materials used are often the materials of the Earth, including the soil, rocks, vegetation, and water found on-site, and the sites are often distant from population centers. Though sometimes fairly inaccessible, photo documentation is commonly brought back to the urban art gallery.\n\nConcerns of the art movement center around rejection of the commercialization of art-making and enthusiasm with an emergent ecological movement. The beginning of the movement coincided with the popularity of the rejection of urban living and its counterpart, and an enthusiasm for that which is rural. Included in these inclinations were spiritual yearnings concerning the planet Earth as home to humanity.",
+  "culturalContext": "The art form gained traction in the 1960s and 1970s as land art was not something that could easily be turned into a commodity, unlike the \"mass produced cultural debris\" of the time. During this period, proponents of land art rejected the museum or gallery as the setting of artistic activity and developed monumental landscape projects which were beyond the reach of traditional transportable sculpture and the commercial art market, although photographic documentation was often presented in normal gallery spaces. Land art was inspired by minimal art and conceptual art but also by modern movements such as De Stijl, Cubism, minimalism and the work of Constantin Brâncuși and Joseph Beuys. One of the first earthworks artists was Herbert Bayer, who created Grass Mound in Aspen, Colorado, in 1955.",
   "colors": [
     {
       "hex": "#8b7355",
@@ -326,6 +326,30 @@
       }
     }
   ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/06_Father_Of_The_Land_We_Love.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "06 Father Of The Land We Love",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:06_Father_Of_The_Land_We_Love.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 122,
+      "artist": "Grantyny",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Thalie_Envol%C3%A9e_-_Th%C3%A9ophile_Gautier_-_Le_Pin_des_Landes.oga?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Thalie Envolée - Théophile Gautier - Le Pin des Landes",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Thalie_Envol%C3%A9e_-_Th%C3%A9ophile_Gautier_-_Le_Pin_des_Landes.oga",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 82,
+      "artist": "Thalie Envolée",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Tate",
@@ -355,6 +379,16 @@
         "ok": true,
         "status": 200,
         "checkedAt": "2026-09-19T12:55:09.876Z"
+      }
+    },
+    {
+      "name": "Wikipedia — Land art",
+      "url": "https://en.wikipedia.org/wiki/Land_art",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:31:25.455Z"
       }
     }
   ],
@@ -411,5 +445,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": "2026-09-11T05:11:49.396Z",
   "createdAt": "2026-09-11T03:57:08.243Z",
-  "updatedAt": "2026-09-18T05:04:17.677Z"
+  "updatedAt": "2026-10-02T08:42:59.050Z"
 }

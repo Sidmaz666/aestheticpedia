@@ -17,7 +17,33 @@
   "summary": "The Indian Space Painters were a group of mid-century American modernist artists who were influenced by Native American art, European surrealism and Abstract Expressionism.",
   "description": "The Indian Space Painters were a group of mid-century American modernist artists who were influenced by Native American art, European surrealism and Abstract Expressionism. They were primarily active in the post WWII years during the late 1940s and early 1950s.\n\nMany of their works were inspired by the motifs of the Indigenous peoples of the Pacific Northwest Coast combined with non-objective forms. Their formal language was primarily organic rather than geometric. Colors were usually laid down in flat patterns in a bright palette that emphasized figure-ground relationships. Other indigenous influences include the art of the Puebloan peoples of American Southwest, as well as Peruvian textiles.\n\nArtists who practiced the style include Gertrude Barrer (1921–1997), Peter Busa (1914–1985), Howard Daum (1917–1988), Steve Wheeler, Robert Barrell, Will Barnet Oscar Collier, Helen De Mott, Ruth Lewin, Lilian Orloff, among others.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c65a13",
+      "name": "rust"
+    },
+    {
+      "hex": "#9d4315",
+      "name": "brick"
+    },
+    {
+      "hex": "#be2e0b",
+      "name": "rust 2"
+    },
+    {
+      "hex": "#772e0d",
+      "name": "chocolate"
+    },
+    {
+      "hex": "#c37e2e",
+      "name": "raw sienna"
+    },
+    {
+      "hex": "#985e24",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,25 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/8127/8852120288_7500531740_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/6c94b35b-ebcb-4c54-ac92-258cf39bf757/thumb/",
+      "full": "https://live.staticflickr.com/8127/8852120288_7500531740_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/27365066@N02/8852120288",
+      "caption": "Mural painting of Deities at Tirunakkara Temple, Kottayam, Kerala",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "821",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Indian Space Painters",
@@ -71,7 +115,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:06.734Z"
+        "checkedAt": "2026-10-02T02:51:34.372Z"
       }
     },
     {
@@ -82,7 +126,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:06.734Z"
+        "checkedAt": "2026-10-02T02:51:34.372Z"
       }
     }
   ],
@@ -93,5 +137,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:54:53.368Z"
+  "updatedAt": "2026-10-02T04:42:28.934Z"
 }

@@ -83,7 +83,25 @@
     "traditional",
     "minimalist"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Two_Grey_Hills_rug.jpg",
+      "thumb": "https://api.openverse.org/v1/images/4a0fcd76-47b7-401e-a735-b34b49f149d6/thumb/",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Two_Grey_Hills_rug.jpg",
+      "pageUrl": "https://commons.wikimedia.org/w/index.php?curid=181164676",
+      "caption": "Two Grey Hills rug",
+      "source": "Openverse",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+      "width": "1536",
+      "height": "1974",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Museum of Indian Arts & Culture",
@@ -122,5 +140,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T05:12:58.066Z",
-  "updatedAt": "2026-09-19T16:55:45.379Z"
+  "updatedAt": "2026-10-02T03:32:58.281Z"
 }

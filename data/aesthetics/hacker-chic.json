@@ -19,12 +19,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Hacking, Freedom of information, Anti-corporatization",
   "colors": [
     {
-      "hex": "#008000",
-      "name": "green"
+      "hex": "#e2b87c",
+      "name": "tan"
     },
     {
-      "hex": "#0000ff",
-      "name": "blue"
+      "hex": "#e7d5a3",
+      "name": "beige"
+    },
+    {
+      "hex": "#5d282f",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#cb9c71",
+      "name": "camel"
+    },
+    {
+      "hex": "#f5f5f3",
+      "name": "paper white"
+    },
+    {
+      "hex": "#3d1325",
+      "name": "aubergine 2"
     }
   ],
   "paletteSource": "derived",
@@ -72,7 +88,25 @@
     "freedom of information",
     "anti-corporatization"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/8539/8637873697_c629e43517.jpg",
+      "thumb": "https://api.openverse.org/v1/images/cc28e5e6-2e58-482a-8f7e-a377b9d80033/thumb/",
+      "full": "https://live.staticflickr.com/8539/8637873697_c629e43517.jpg",
+      "pageUrl": "https://www.flickr.com/photos/88629109@N00/8637873697",
+      "caption": "Hardware hacker chic has a box full of #awesome to demo.",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "500",
+      "height": "500",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Hacker Chic (CC BY-SA)",
@@ -93,5 +127,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:22.649Z"
+  "updatedAt": "2026-10-02T04:40:14.398Z"
 }

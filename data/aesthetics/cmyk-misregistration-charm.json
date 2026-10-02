@@ -87,7 +87,24 @@
     "diy",
     "glitch"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/4533e23b-c96e-0863-10ba-8f0e7d992dea/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/4533e23b-c96e-0863-10ba-8f0e7d992dea/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/4533e23b-c96e-0863-10ba-8f0e7d992dea/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/109336",
+      "caption": "Charm (Feminine Grace)",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "AIGA Eye on Design",
@@ -126,5 +143,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:28:57.509Z",
-  "updatedAt": "2026-09-19T16:51:18.731Z"
+  "updatedAt": "2026-10-02T04:31:43.236Z"
 }

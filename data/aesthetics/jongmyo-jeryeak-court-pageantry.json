@@ -90,7 +90,24 @@
     "formal",
     "ceremonial"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/5718c087-bb7b-bf82-5022-abc2f361e479/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/5718c087-bb7b-bf82-5022-abc2f361e479/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/5718c087-bb7b-bf82-5022-abc2f361e479/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/87124",
+      "caption": "Plate with Scene of the Month of April",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Jongmyo Shrine",
@@ -129,5 +146,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T03:38:20.015Z",
-  "updatedAt": "2026-09-19T16:51:23.805Z"
+  "updatedAt": "2026-10-02T04:44:00.010Z"
 }

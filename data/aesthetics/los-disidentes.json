@@ -17,7 +17,33 @@
   "summary": "The artistic movement known as Los Disidentes was founded in Paris in 1945, lasting until about 1950.",
   "description": "The artistic movement known as Los Disidentes was founded in Paris in 1945, lasting until about 1950. It was composed of a group of Venezuelan artists.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b59496",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#310905",
+      "name": "black"
+    },
+    {
+      "hex": "#551709",
+      "name": "burgundy"
+    },
+    {
+      "hex": "#a27a77",
+      "name": "taupe"
+    },
+    {
+      "hex": "#885e59",
+      "name": "bronze"
+    },
+    {
+      "hex": "#6f3327",
+      "name": "sepia"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,25 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/65535/52201938442_d6406dc9d3_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/c769687e-b5df-4f1f-b803-dfef26703ed1/thumb/",
+      "full": "https://live.staticflickr.com/65535/52201938442_d6406dc9d3_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/54700909@N03/52201938442",
+      "caption": "LOS DISIDENTES DEL SUCIO MOTEL.",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "683",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Los disidentes",
@@ -71,7 +115,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:25.036Z"
+        "checkedAt": "2026-10-02T02:51:41.493Z"
       }
     },
     {
@@ -82,7 +126,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:25.036Z"
+        "checkedAt": "2026-10-02T02:51:41.493Z"
       }
     }
   ],
@@ -93,5 +137,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:25.036Z"
+  "updatedAt": "2026-10-02T04:46:32.257Z"
 }

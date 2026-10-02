@@ -20,7 +20,25 @@
   "summary": "Buynuz carpets (Horn carpets) are pile carpets from the Karabakh region, and are a type of Karabakh carpet.",
   "description": "Buynuz carpets (Horn carpets) are pile carpets from the Karabakh region, and are a type of Karabakh carpet.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#3c3f35",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#272b20",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#4e564f",
+      "name": "graphite"
+    },
+    {
+      "hex": "#66706c",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +60,25 @@
   "tags": [
     "rug style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Carpet_of_snowdrops_-_geograph.org.uk_-_345097.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Carpet_of_snowdrops_-_geograph.org.uk_-_345097.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Carpet_of_snowdrops_-_geograph.org.uk_-_345097.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File%3ACarpet%20of%20snowdrops%20-%20geograph.org.uk%20-%20345097.jpg",
+      "caption": "Carpet of snowdrops Carpet of snowdrops.  What more can one say?",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": "640",
+      "height": "481",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Buynuz carpets",
@@ -74,7 +110,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:52:59.107Z"
+        "checkedAt": "2026-10-02T02:51:11.223Z"
       }
     },
     {
@@ -85,7 +121,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:52:59.107Z"
+        "checkedAt": "2026-10-02T02:51:11.223Z"
       }
     }
   ],
@@ -96,5 +132,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T15:08:19.201Z",
-  "updatedAt": "2026-09-19T16:54:22.564Z"
+  "updatedAt": "2026-10-02T04:08:23.238Z"
 }

@@ -17,7 +17,33 @@
   "summary": "Large leather puppet shadow theater featuring epic tales and religious stories.",
   "description": "Utilizes large intricately cut leather puppets held against a backlit screen, creating dramatic shadows accompanied by narration and music. Developed in the Ayutthaya court as entertainment and moral education, depicting scenes from the Ramakien and other epics, with each character having distinctive silhouette designs.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fc7b01",
+      "name": "tangerine"
+    },
+    {
+      "hex": "#fec708",
+      "name": "amber"
+    },
+    {
+      "hex": "#1f0101",
+      "name": "black"
+    },
+    {
+      "hex": "#641901",
+      "name": "burgundy"
+    },
+    {
+      "hex": "#d94c01",
+      "name": "rust"
+    },
+    {
+      "hex": "#be0b01",
+      "name": "carmine red"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -66,7 +92,25 @@
     "epic",
     "leather"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Grand_shadow_play_at_Wat_Khanon_Temple_002.jpg/1280px-Grand_shadow_play_at_Wat_Khanon_Temple_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Grand_shadow_play_at_Wat_Khanon_Temple_002.jpg/500px-Grand_shadow_play_at_Wat_Khanon_Temple_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Grand_shadow_play_at_Wat_Khanon_Temple_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20shadow%20play%20at%20Wat%20Khanon%20Temple%20002.jpg",
+      "caption": "Grand shadow play at Wat Khanon Temple",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": "6016",
+      "height": "4016",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "National Museum Thailand",
@@ -105,5 +149,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T03:57:47.728Z",
-  "updatedAt": "2026-09-19T16:55:12.115Z"
+  "updatedAt": "2026-10-02T06:41:26.381Z"
 }

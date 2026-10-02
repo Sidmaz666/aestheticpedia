@@ -19,17 +19,18 @@ async function wp<T = any>(params: Record<string, string>): Promise<T> {
 }
 
 const AUDIO = /\.(ogg|oga|opus|mp3|flac|wav)$/i
-const SKIP = /(pronunciation|pronounce|^En-|^Ipa|spoken|wikipedia|voice[_ ]of|-pron)/i
+// Spoken-word and pronunciation clips are not the record's sound. Lingua Libre recordings are
+// named "LL-Q1860 (eng)-<word>" — the existing patterns missed them, and a Roblox voice clip ended
+// up on a meme record.
+const SKIP = /(pronunciation|pronounce|^En-|^Ipa|spoken|wikipedia|voice[_ ]of|-pron|^LL-Q\d|lingualibre|lingua libre)/i
 const strip = (s: unknown) => (typeof s === 'string' ? s.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() : '')
 
-async function audioFor(a: AestheticRecord) {
-  if (!a.wikipedia) return []
-  const parsed = await wp<any>({ action: 'parse', page: a.wikipedia, prop: 'images', redirects: '1' })
-  const files: string[] = (parsed.parse?.images ?? []).filter((f: string) => AUDIO.test(f) && !SKIP.test(f)).slice(0, 8)
-  if (!files.length) return []
+/** Read a Commons file's licence metadata, keeping only freely-licensed audio. */
+async function freeAudio(titles: string[], cap = 4): Promise<any[]> {
+  if (!titles.length) return []
   const res = await wp<any>({
     action: 'query',
-    titles: files.map((f) => `File:${f}`).join('|'),
+    titles: titles.map((f) => `File:${f}`).join('|'),
     prop: 'imageinfo',
     iiprop: 'url|mime|mediatype|extmetadata|size',
     iiextmetadatafilter: 'ObjectName|ImageDescription|Artist|LicenseShortName|LicenseUrl|NonFree',
@@ -57,14 +58,43 @@ async function audioFor(a: AestheticRecord) {
     if (/^https?:/.test(m.LicenseUrl?.value ?? '')) item.licenseUrl = m.LicenseUrl.value
     out.push(item)
   }
-  return out.slice(0, 4)
+  return out.slice(0, cap)
+}
+
+/** Commons search for recordings of the subject itself — the article often embeds none. */
+async function commonsSearch(term: string): Promise<string[]> {
+  const res = await wp<any>({
+    action: 'query',
+    generator: 'search',
+    gsrsearch: `filetype:audio ${term}`,
+    gsrnamespace: '6',
+    gsrlimit: '6',
+    prop: 'imageinfo',
+    iiprop: 'mime',
+  })
+  return (res.query?.pages ?? [])
+    .map((p: any) => String(p.title).replace(/^File:/, ''))
+    .filter((f: string) => AUDIO.test(f) && !SKIP.test(f))
+}
+
+async function audioFor(a: AestheticRecord) {
+  // Article-embedded recordings first…
+  if (a.wikipedia) {
+    const parsed = await wp<any>({ action: 'parse', page: a.wikipedia, prop: 'images', redirects: '1' })
+    const files: string[] = (parsed.parse?.images ?? []).filter((f: string) => AUDIO.test(f) && !SKIP.test(f)).slice(0, 8)
+    const embedded = await freeAudio(files)
+    if (embedded.length) return embedded
+  }
+  // …then Commons itself, keyed on the record's own name. This also covers records with no
+  // Wikipedia article (gamelan, fado, highlife), where the early return used to skip them entirely.
+  return freeAudio(await commonsSearch(a.name), 3)
 }
 
 const all = loadAesthetics()
 let withAudio = 0
 let done = 0
 await pool(
-  all.filter((a) => a.wikipedia),
+  all.filter((a) => !Array.isArray(a.audio) || !a.audio.length),
   4,
   async (a) => {
     try {

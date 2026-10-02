@@ -19,7 +19,33 @@
   "summary": "Liquid Glass is a design language developed by Apple as a unified visual theme for the graphical user interfaces for its suite of operating systems.",
   "description": "Liquid Glass is a design language developed by Apple as a unified visual theme for the graphical user interfaces for its suite of operating systems. It was announced on June 9, 2025, at the Worldwide Developers Conference (WWDC). Liquid Glass features a fluid, dynamic glass-like interface that reflects and refracts the background. It was introduced in iOS 26, iPadOS 26, macOS Tahoe, tvOS 26, visionOS 26, and watchOS 26.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0b0d06",
+      "name": "black"
+    },
+    {
+      "hex": "#32331c",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#4e5736",
+      "name": "umber"
+    },
+    {
+      "hex": "#567262",
+      "name": "graphite"
+    },
+    {
+      "hex": "#718b6a",
+      "name": "moss"
+    },
+    {
+      "hex": "#92a960",
+      "name": "moss 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "Overview": "Apple sought a new design language to unify the look and feel of interface elements across its devices, with their various window sizes and displays. The company decided to move away from the flat design cues popularized by Jony Ive in iOS 7 (2013) toward more expressive, skeuomorphic elements. It also decided to introduce a dynamic \"material\", a visual effect that provides a sense of depth and hierarchy between elements. The \"material\" of Liquid Glass combines the \"optical properties of glass with a sense of fluidity\"."
   },
@@ -43,7 +69,25 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/125/323590832_86b4ec1751_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/1bd68c01-f480-4bb1-ae1b-cb0f6e120afc/thumb/",
+      "full": "https://live.staticflickr.com/125/323590832_86b4ec1751_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/48011145@N00/323590832",
+      "caption": "Liquid Glass",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "1024",
+      "height": "502",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Liquid Glass",
@@ -75,7 +119,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:08.294Z"
+        "checkedAt": "2026-10-02T02:51:40.600Z"
       }
     },
     {
@@ -86,7 +130,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:08.294Z"
+        "checkedAt": "2026-10-02T02:51:40.600Z"
       }
     }
   ],
@@ -97,5 +141,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:55:01.355Z"
+  "updatedAt": "2026-10-02T08:47:58.198Z"
 }

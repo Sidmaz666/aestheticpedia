@@ -91,7 +91,25 @@
     "monumental",
     "urban"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/65535/49707945198_aa489c75d7_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/bd7faaca-4662-49b2-a35f-12556e760c36/thumb/",
+      "full": "https://live.staticflickr.com/65535/49707945198_aa489c75d7_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/57286185@N04/49707945198",
+      "caption": "Diana/Artemis, PichiAvo, 2019.",
+      "source": "Openverse",
+      "license": "BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": "1024",
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "PichiAvo Official Website",
@@ -130,5 +148,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-11T04:05:45.486Z",
-  "updatedAt": "2026-09-19T16:51:29.337Z"
+  "updatedAt": "2026-10-02T03:30:38.531Z"
 }

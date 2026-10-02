@@ -99,10 +99,32 @@ A running log of what has been done and what is next. Newest first. Keep entries
 - [x] Redesign (Next.js 16, React 19, Tailwind 4): full-screen record overlay with round close button, per-aesthetic theming, timeline without scrollbars, Data & API page replacing the dashboard, new terminology.
 - [x] npm + Node only; unused dependencies and sandbox leftovers removed.
 
+## 2026-10-02 — Round 6: image integrity and library expansion
+
+- [x] Browse page: server-rendered first page (Suspense fallback with real cards) so `/aesthetics` paints content immediately instead of a blank client-only shell; hero search input padding; header search button centred on mobile.
+- [x] 85 missing aesthetics added (art movements, internet aesthetics, subcultures, retro eras, regional traditions) from Wikipedia/Wikidata; 24 niche records given summaries, descriptions and cited sources.
+- [x] Image licensing: all 42 Commons images missing a licence now carry one (fetched from the Commons API; NASA and MET CC0 cases resolved by hand).
+- [x] Image sourcing for records without any: Openverse, Wikimedia Commons, Europeana, Smithsonian, Harvard, Cleveland, AIC, Rijksmuseum and the Met.
+- [x] **Removed 186 mismatched images.** The Art Institute API matches loosely and returned one artwork for 136 unrelated slugs; any AIC image whose artwork id is shared between records is no longer evidence for a record. A second pass stripped name-searched images whose caption carried no distinctive term from the record's own name (e.g. "90s cool" had been illustrated with an entomology plate).
+- [x] Palette derivation: added a histogram fallback with spread-first selection for near-monochrome sources, where k-means collapsed to a single centroid (349 palettes recovered).
+- [x] `enrich-context` now also reads descriptive sections (Aesthetic, Characteristics, Elements…) when an article has no History section — 253 records gained cultural context.
+- [x] New `data:fields` (`enrich-wikidata-fields.ts`): aliases from P1449/P1477, keyExamples from P800, era derived from the record's own startYear. Added to `data:refresh`.
+- [x] `audit-missing-links.ts`: 29 records (Diwali, Easter, Victorian, Oktoberfest, Tomboy…) had a matching Wikipedia article all along but no link; linked and re-ran images/dates, so they now carry images and start years.
+- [x] **Removed 20 more wrong Wikipedia links.** Records had been linked by name collision and so displayed pictures of an unrelated subject: "Art Hoe"→*Hoe (tool)*, "B-boy"→*Girl*, "Sloanie"→*MIT Sloan School of Management*, "Spicers"→*Spice*, "Zombiecore"→*Send More Paramedics*, "Scandi"→*ScandiKitchen*, "Wizard"→*Wizards!*, "90s Cool"→*Bullet time* (Muybridge locomotion plates), "Acrylic Pouring"→*Pouring* (tea-pulling). Each is now `null` in `data/wikipedia-overrides.json` with its borrowed images removed, so `images.ts` stops re-attaching them. 47 → 103 curated overrides.
+- [x] Ran every enrichment source to exhaustion (text, text-facts, wikipedia-sections, aestheticswiki, aestheticswiki-sections, wikidata, wikidata-works, dates-origins, context, palette, materials).
+- [x] Completeness check: all 24 categories and all 6 establishment types populated; 0 duplicate names; 0 records with an empty summary or description.
+- [x] Library-wide link re-check: 25,650 images and 19,608 links, zero broken.
+- [x] Audio: `audio.ts` now falls back to a Commons search keyed on the record's own name, and no longer skips records that have no Wikipedia article. Records with audio 400 → 1,008; 1,867 entries, all carrying `license` + `licenseUrl`.
+- [x] Audio integrity: the skip list missed Lingua Libre pronunciations (`LL-Q1860 (eng)-…`), so 399 records had a spoken-word clip posing as the record's sound — removed. Entries without a resolvable licence (450 records) removed rather than shipped unreferenced.
+- [x] `data:link` (`link-records.ts`): 2,045 records sat outside the knowledge graph entirely. 713 relations derived from evidence already in the data — 586 from each article's own Wikipedia "See also", 127 siblings sharing category, place and 50-year period. Relations 8,761 → 9,474; orphans 2,045 → 1,213. Added to `data:refresh`.
+- [x] Restored Wikimedia thumbnail widths after a bad regex flattened every render to 500px (`url` 1280px, `thumb` 500px, 3 non-standard widths corrected). Regression caught by `tests/unit/data.test.ts`.
+- [x] Validation: 4,824 records · 8,761 relations · 0 schema errors · 93 unit tests · 29 e2e tests green.
+
 ## Next
 
 - [ ] Editorial depth for imported Stubs: visual grammar, typography, style profiles (by contributors — never auto-generated).
-- [ ] More image sources for the 956 records still without images (Met, Rijksmuseum, Smithsonian Open Access, Europeana; an Openverse API key would lift the anonymous 200/day limit).
-- [ ] Origins/periods for the remaining records need editorial research — do not infer.
+- [ ] 479 records still without images are niche internet aesthetics with no Wikipedia article and no verifiable freely-licensed photograph — they need a human pass, not a looser search. Wikidata P18/P373 are empty for all of them (abstract concepts are not depicted).
+- [ ] Origins/periods for the remaining 1,761 / 1,236 records need editorial research — do not infer. Wikidata has no P571/P17 for most (abstract concepts carry no country or inception).
+- [ ] Materials, textures, objects and keyExamples stay empty on many records: Wikidata carries almost no P800 notable-work data for aesthetic concepts (5 of 2,284 filled), and the remaining fields need human-written visual description.
 - [ ] Multilingual names from Wikidata labels; non-English Wikipedia fallbacks for regional traditions.
 - [ ] Scheduled link checks in CI once the workflow is enabled.

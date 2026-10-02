@@ -21,7 +21,33 @@
   "summary": "Landevejsriddere (Danish for \"Knights of the Road\"), also known as Landevejens Farende Svende or simply Stodder , describes a Danish subculture of itinerant vagabonds who voluntarily live on the road.",
   "description": "Landevejsriddere (Danish for \"Knights of the Road\"), also known as Landevejens Farende Svende or simply Stodder , describes a Danish subculture of itinerant vagabonds who voluntarily live on the road. Distinct from the general homeless population who may lack housing due to socio-economic displacement, Landevejsriddere view their existence as a deliberate lifestyle choice characterized by specific traditions, hierarchies, and visual markers. The subculture centers on walking between major Danish market fairs during the spring and summer months, relying on odd jobs, knife sharpening, performance, and public generosity for survival.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Autonomy, hierarchy, anti-materialism, communal loyalty, rejection of social safety nets",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#212427",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#6c7073",
+      "name": "slate"
+    },
+    {
+      "hex": "#c6d5db",
+      "name": "bone white"
+    },
+    {
+      "hex": "#abb8bc",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#48494c",
+      "name": "graphite"
+    },
+    {
+      "hex": "#80898f",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Earth tones, faded black, denim blue, brass (pins/medals)"
   },
@@ -67,7 +93,25 @@
     "communal loyalty",
     "rejection of social safety nets"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/188/437707128_f68be25fac_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/00fb84be-361f-44bc-9a2e-da41ba9a1955/thumb/",
+      "full": "https://live.staticflickr.com/188/437707128_f68be25fac_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/19332363@N00/437707128",
+      "caption": "Landevejsriddere",
+      "source": "Openverse",
+      "license": "BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": "1024",
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Landevejsriddere (CC BY-SA)",
@@ -88,5 +132,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:24.780Z"
+  "updatedAt": "2026-10-02T04:45:44.687Z"
 }

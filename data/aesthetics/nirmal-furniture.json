@@ -17,7 +17,33 @@
   "summary": "Nirmal Furniture is furniture made in Nirmal, Adilabad, Telangana, India.",
   "description": "Nirmal Furniture is furniture made in Nirmal, Adilabad, Telangana, India. It received Geographical Indication rights in 2009.  It is handmade wooden furniture.The Iconic Nirmal Furniture ois famous the world over for its unique painted designs and the smoothest finishing.",
   "culturalContext": "Registered as a Geographical Indication of India (handicraft, Telangana; registration 2008–09), which protects the name for products made in its place of origin by traditional methods.",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#787568",
+      "name": "taupe"
+    },
+    {
+      "hex": "#584f3f",
+      "name": "umber"
+    },
+    {
+      "hex": "#17140d",
+      "name": "black"
+    },
+    {
+      "hex": "#31291d",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#999a8e",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#b2b7ab",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,25 @@
     "handicraft",
     "telangana"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/7175/6532337237_8f338b119f_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/02daef88-7f42-4491-bf94-2ac97250f572/thumb/",
+      "full": "https://live.staticflickr.com/7175/6532337237_8f338b119f_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/37313707@N00/6532337237",
+      "caption": "Nirmal Babu & Saroj Nana",
+      "source": "Openverse",
+      "license": "BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": "1024",
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Nirmal furniture",
@@ -83,7 +127,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:11.720Z"
+        "checkedAt": "2026-10-02T02:51:58.353Z"
       }
     },
     {
@@ -94,7 +138,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:11.720Z"
+        "checkedAt": "2026-10-02T02:51:58.353Z"
       }
     }
   ],
@@ -105,5 +149,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-19T02:19:11.054Z",
-  "updatedAt": "2026-09-19T16:55:14.544Z"
+  "updatedAt": "2026-10-02T03:29:40.998Z"
 }

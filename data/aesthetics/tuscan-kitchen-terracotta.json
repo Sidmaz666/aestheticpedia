@@ -90,7 +90,25 @@
     "kitchen",
     "rustic"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/1549/24592021143_3db51274dd.jpg",
+      "thumb": "https://api.openverse.org/v1/images/932504c3-ade8-4f76-9ee0-8fc3856276da/thumb/",
+      "full": "https://live.staticflickr.com/1549/24592021143_3db51274dd.jpg",
+      "pageUrl": "https://www.flickr.com/photos/137891532@N07/24592021143",
+      "caption": "Rustic Style Pool",
+      "source": "Openverse",
+      "license": "BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": "500",
+      "height": "337",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Italian Tourism Board",
@@ -129,5 +147,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:57:05.761Z",
-  "updatedAt": "2026-09-19T16:51:35.650Z"
+  "updatedAt": "2026-10-02T03:32:55.975Z"
 }

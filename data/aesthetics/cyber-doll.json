@@ -17,7 +17,33 @@
   "summary": "Cyber Doll is a niche internet subculture that emerged in the mid-2020s on TikTok, centered around achieving an unreal, porcelain doll-like appearance.",
   "description": "Cyber Doll is a niche internet subculture that emerged in the mid-2020s on TikTok, centered around achieving an unreal, porcelain doll-like appearance. Participants in this community utilize makeup and heavy photo editing to make major alterations their facial features, and sometimes even bodies, aiming for a non-human or artificial aesthetic. Content creators are typically transparent about their editing techniques, usually to not endorse unhealthy beauty standards.\n\nThe aesthetic, characterized by its artificial and uncanny appearance, cannot be fully understood without considering the influence of the uncanny valley effect, the role of digital manipulation in influecing online identity, and the impact of highly altered images on body image and self-perception. Controversies surrounding prominent figures within the community, such as Umi Chii, who has faced accusations of self-hatred and attempting to mimic Japanese identity, have also shaped the reputation of the community. [ 1 ]\n\nCyber Doll shares some elements with E-Girl style in its focus on constructing and presenting an online persona and with Living Doll in its pursuit of an artificial, doll-like appearance. However, Cyber Dolls utilize digital manipulation to a greater extent to significantly alter their anatomy, deliberately aiming for an uncanny valley effect, and diverges from Living Doll's typical inspiration in Barbie-like beauty ideals.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Digital self-expression, artificial beauty, transformation of identity",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#b4b1ad",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#928a85",
+      "name": "stone"
+    },
+    {
+      "hex": "#ece6d2",
+      "name": "bone white"
+    },
+    {
+      "hex": "#7e756f",
+      "name": "taupe"
+    },
+    {
+      "hex": "#665f59",
+      "name": "umber"
+    },
+    {
+      "hex": "#46413b",
+      "name": "charcoal"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Muted and gloomy tones"
   },
@@ -52,7 +78,38 @@
     "artificial beauty",
     "transformation of identity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/2505/4042881579_9cf53d48f9_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/d2787a95-210f-478f-b1ec-40a062c057e5/thumb/",
+      "full": "https://live.staticflickr.com/2505/4042881579_9cf53d48f9_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/70285332@N00/4042881579",
+      "caption": "* LPP* SteamPunk & Cyber Doll (=^.^=)",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "1024",
+      "height": "629",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Someone_Comes_to_Town%2C_Someone_Leaves_Town%2C_Part_35_%28IA_Cory_Doctorow_Podcast_155%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Someone Comes to Town, Someone Leaves Town, Part 35 (IA Cory Doctorow Podcast 155)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Someone_Comes_to_Town,_Someone_Leaves_Town,_Part_35_(IA_Cory_Doctorow_Podcast_155).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 1279,
+      "artist": "Cory Doctorow",
+      "license": "CC BY-SA 3.0 us",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/us/deed.en"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Cyber Doll (CC BY-SA)",
@@ -74,7 +131,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:19.417Z"
+        "checkedAt": "2026-10-02T02:51:18.004Z"
       }
     },
     {
@@ -85,7 +142,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:19.417Z"
+        "checkedAt": "2026-10-02T02:51:18.004Z"
       }
     }
   ],
@@ -96,5 +153,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:19.417Z"
+  "updatedAt": "2026-10-02T03:24:37.539Z"
 }

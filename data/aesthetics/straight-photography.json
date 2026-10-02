@@ -17,7 +17,33 @@
   "summary": "Pure photography or straight photography refers to photography that attempts to depict a scene or subject in sharp focus and detail, in accordance with the qualities that distinguish photography from other visual media, particularly painting.",
   "description": "Pure photography or straight photography refers to photography that attempts to depict a scene or subject in sharp focus and detail, in accordance with the qualities that distinguish photography from other visual media, particularly painting. Originating as early as 1904, the term was used by critic Sadakichi Hartmann in the magazine Camera Work, and later promoted by its editor, Alfred Stieglitz, as a more pure form of photography than Pictorialism. Once popularized by Stieglitz and other notable photographers, such as Paul Strand, it later became a hallmark of Western photographers, such as Edward Weston, Ansel Adams and others.\n\nAlthough taken by some to mean lack of manipulation, straight photographers in fact applied many common darkroom techniques to enhance the appearance of their prints. Rather than factual accuracy, the term came to imply a specific aesthetic typified by higher contrast and rich tonality, sharp focus, aversion to cropping, and a Modernism-inspired emphasis on the underlying abstract geometric structure of subjects.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#7b6552",
+      "name": "bronze"
+    },
+    {
+      "hex": "#947e6a",
+      "name": "taupe"
+    },
+    {
+      "hex": "#b09a86",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#63503e",
+      "name": "umber"
+    },
+    {
+      "hex": "#cfbaa8",
+      "name": "beige"
+    },
+    {
+      "hex": "#e5d1c3",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,38 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/166/349209785_54077a7dc5_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/1936d38c-3961-4320-a07b-175a2d975541/thumb/",
+      "full": "https://live.staticflickr.com/166/349209785_54077a7dc5_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/96533977@N00/349209785",
+      "caption": "straight photography now",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "681",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/NEFFEX_-_Fight_Back.oga?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "NEFFEX - Fight Back",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:NEFFEX_-_Fight_Back.oga",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 197,
+      "artist": "NEFFEX Music",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Straight photography",
@@ -75,7 +132,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:16.187Z"
+        "checkedAt": "2026-10-02T02:52:26.774Z"
       }
     },
     {
@@ -86,7 +143,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:16.187Z"
+        "checkedAt": "2026-10-02T02:52:26.774Z"
       }
     }
   ],
@@ -97,5 +154,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:55:36.801Z"
+  "updatedAt": "2026-10-02T05:00:00.456Z"
 }

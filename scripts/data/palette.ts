@@ -107,6 +107,49 @@ function kmeans(px: RGB[], k: number): { c: RGB; n: number }[] {
   return cents.map((c, i) => ({ c, n: counts[i] })).sort((a, b) => b.n - a.n)
 }
 
+/** k-means collapses to a single centroid on near-monochrome sources (a dark oil painting, a
+ *  night scene), leaving fewer than three usable swatches. Quantise into a coarse RGB histogram
+ *  and then select for spread rather than rank: seed with the most common colour, then keep taking
+ *  whichever remaining colour is farthest from those already chosen (weighted by how much of the
+ *  frame it covers). A palette has to be legible, so one lone dominant swatch is never enough. */
+function histogramPalette(px: RGB[]): RGB[] {
+  const buckets = new Map<number, { n: number; r: number; g: number; b: number }>()
+  for (const [r, g, b] of px) {
+    // 5 bits per channel = 32 levels; coarse enough that near-identical shades merge.
+    const key = ((r >> 3) << 10) | ((g >> 3) << 5) | (b >> 3)
+    const e = buckets.get(key)
+    if (e) {
+      e.n++
+      e.r += r
+      e.g += g
+      e.b += b
+    } else buckets.set(key, { n: 1, r, g, b })
+  }
+  const entries = [...buckets.values()]
+    .filter((e) => e.n >= px.length * 0.004)
+    .map((e) => ({ c: [e.r / e.n, e.g / e.n, e.b / e.n] as RGB, w: e.n / px.length }))
+  if (!entries.length) return []
+
+  const picked: RGB[] = [[...entries].sort((a, b) => b.w - a.w)[0].c]
+  while (picked.length < 6) {
+    let best: RGB | null = null
+    let bestScore = 0
+    for (const e of entries) {
+      const near = Math.min(...picked.map((p) => dist(p, e.c)))
+      if (near < 40) continue
+      // spread dominates, presence breaks ties between equally distant candidates
+      const score = near * (0.35 + e.w)
+      if (score > bestScore) {
+        bestScore = score
+        best = e.c
+      }
+    }
+    if (!best) break
+    picked.push(best)
+  }
+  return picked
+}
+
 async function derive(a: AestheticRecord): Promise<boolean> {
   const urls = a.images.slice(0, 4).map((i) => i.thumb ?? i.url)
   const px: RGB[] = []
@@ -126,6 +169,13 @@ async function derive(a: AestheticRecord): Promise<boolean> {
     if (picked.some((p) => dist(p, c) < 60)) continue
     picked.push(c)
     if (picked.length === 6) break
+  }
+  if (picked.length < 3) {
+    const alt = histogramPalette(px)
+    if (alt.length > picked.length) {
+      picked.length = 0
+      picked.push(...alt)
+    }
   }
   if (picked.length < 3) return false
   const used = new Map<string, number>()

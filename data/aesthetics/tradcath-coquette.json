@@ -23,12 +23,24 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Reappropriation of tradition, performative piety, exploration of religious identity (debated: sincerity vs. irony)",
   "colors": [
     {
-      "hex": "#ffd1dc",
-      "name": "pastel"
+      "hex": "#dcd8c8",
+      "name": "bone white"
     },
     {
-      "hex": "#ffc0cb",
-      "name": "pink"
+      "hex": "#aba68e",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#7e7967",
+      "name": "taupe"
+    },
+    {
+      "hex": "#565347",
+      "name": "umber"
+    },
+    {
+      "hex": "#96907b",
+      "name": "stone"
     }
   ],
   "paletteSource": "derived",
@@ -68,7 +80,24 @@
     "performative piety",
     "exploration of religious identity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/69e28fe3-9895-2f8a-d148-b8366609e702/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/69e28fe3-9895-2f8a-d148-b8366609e702/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/69e28fe3-9895-2f8a-d148-b8366609e702/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/30293",
+      "caption": "La Coquette Fixee (The Fascinated Coquette)",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Tradcath Coquette (CC BY-SA)",
@@ -89,5 +118,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:35.332Z"
+  "updatedAt": "2026-10-02T05:03:32.157Z"
 }

@@ -17,7 +17,33 @@
   "summary": "A Tangaliya Shawl is a handwoven, GI protected shawl and textile made by the Dangasia community in Gujarat, India.",
   "description": "A Tangaliya Shawl is a handwoven, GI protected shawl and textile made by the Dangasia community in Gujarat, India.\n\nThe 700-year-old indigenous craft is native to the Surendranagar district, of Saurashtra-region of the state. Traditional variations like Ramraj, Charmalia, Dhunslu, and Lobdi are woven in village clusters of Dedara, Vastadi, Godavari and Vadla in the district.\n\nThe textile is usually used as shawl and wraparound skirt by women of the Bharwad Gopalak community of the Wankaner, Amreli, Dehgam, Surendranagar, Joravarnagar, Botad, Bhavnagar and Kutch areas.",
   "culturalContext": "Registered as a Geographical Indication of India (handicraft, Gujarat; registration 2009–10), which protects the name for products made in its place of origin by traditional methods.",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#252423",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#dbdbce",
+      "name": "bone white"
+    },
+    {
+      "hex": "#6f685b",
+      "name": "umber"
+    },
+    {
+      "hex": "#c3c2b7",
+      "name": "silver"
+    },
+    {
+      "hex": "#554e43",
+      "name": "umber 2"
+    },
+    {
+      "hex": "#888171",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,24 @@
     "handicraft",
     "gujarat"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/0b5057af-97c6-5eb8-7328-fa9cf46d8751/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/0b5057af-97c6-5eb8-7328-fa9cf46d8751/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/0b5057af-97c6-5eb8-7328-fa9cf46d8751/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/23700",
+      "caption": "The Praying Jew",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Tangaliya Shawl",
@@ -85,7 +128,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:34.022Z"
+        "checkedAt": "2026-10-02T02:52:28.690Z"
       }
     },
     {
@@ -96,7 +139,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:34.022Z"
+        "checkedAt": "2026-10-02T02:52:28.690Z"
       }
     }
   ],
@@ -107,5 +150,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-19T02:19:11.054Z",
-  "updatedAt": "2026-09-19T16:51:34.022Z"
+  "updatedAt": "2026-10-02T05:02:05.528Z"
 }

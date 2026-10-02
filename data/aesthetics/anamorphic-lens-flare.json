@@ -273,10 +273,22 @@
         "ok": true,
         "status": 200,
         "checkedAt": "2026-09-19T12:55:09.876Z"
-      }
+      },
+      "license": "Public domain (NASA)",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-video/"
     }
   ],
   "sources": [
+    {
+      "name": "Wikipedia — Lens flare",
+      "url": "https://en.wikipedia.org/wiki/Lens_flare",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:41:18.680Z"
+      }
+    },
     {
       "name": "American Cinematheque",
       "tier": "A"
@@ -321,7 +333,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
+        "checkedAt": "2026-10-02T02:41:18.680Z"
       }
     }
   ],
@@ -332,5 +344,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:24:44.110Z",
-  "updatedAt": "2026-09-18T04:53:53.504Z"
+  "updatedAt": "2026-10-02T06:41:23.350Z"
 }

@@ -21,12 +21,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Sexual promiscuity, assertiveness, Provençal pride",
   "colors": [
     {
-      "hex": "#ffc0cb",
-      "name": "pink"
+      "hex": "#777777",
+      "name": "slate"
     },
     {
-      "hex": "#ff0000",
-      "name": "red"
+      "hex": "#8e8e8e",
+      "name": "stone"
+    },
+    {
+      "hex": "#a6a6a6",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#bfbfbf",
+      "name": "silver"
+    },
+    {
+      "hex": "#5d5d5d",
+      "name": "graphite"
+    },
+    {
+      "hex": "#f3f3f3",
+      "name": "paper white"
     }
   ],
   "paletteSource": "derived",
@@ -58,7 +74,25 @@
     "assertiveness",
     "provençal pride"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/7629/17009216069_792e46c9b8_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/7c26302f-034c-459c-886f-7a5b410e349c/thumb/",
+      "full": "https://live.staticflickr.com/7629/17009216069_792e46c9b8_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/34645255@N06/17009216069",
+      "caption": "La Cagole de Marseille",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "711",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Cagole (CC BY-SA)",
@@ -79,5 +113,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:17.764Z"
+  "updatedAt": "2026-10-02T04:29:37.411Z"
 }

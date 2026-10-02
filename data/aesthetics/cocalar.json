@@ -21,12 +21,24 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Kitsch, loudness, listening to Manele music",
   "colors": [
     {
-      "hex": "#ffc0cb",
-      "name": "pink"
+      "hex": "#bd6f02",
+      "name": "ochre"
     },
     {
-      "hex": "#ffd700",
-      "name": "gold"
+      "hex": "#9a4901",
+      "name": "chocolate"
+    },
+    {
+      "hex": "#d89807",
+      "name": "mustard"
+    },
+    {
+      "hex": "#442106",
+      "name": "sepia"
+    },
+    {
+      "hex": "#270b01",
+      "name": "black"
     }
   ],
   "paletteSource": "derived",
@@ -92,7 +104,25 @@
     "loudness",
     "listening to manele music"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/7251/6865477520_310df963e3_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/7f0a995b-8ee5-4765-ad95-5ac5d2f08e92/thumb/",
+      "full": "https://live.staticflickr.com/7251/6865477520_310df963e3_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/82525741@N00/6865477520",
+      "caption": "cocalar",
+      "source": "Openverse",
+      "license": "BY-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nd/2.0/",
+      "width": "768",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Cocalar (CC BY-SA)",
@@ -113,5 +143,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:18.758Z"
+  "updatedAt": "2026-10-02T03:24:07.312Z"
 }

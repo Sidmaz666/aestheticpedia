@@ -17,7 +17,7 @@
   "endYear": 1940,
   "era": "Late 19th - Mid 20th Century",
   "summary": "Period of exceptional illustration characterized by technical mastery and narrative richness in printed media.",
-  "description": "Featured highly detailed, painterly illustrations in books, magazines, and advertisements, with artists achieving unprecedented technical skill and storytelling ability through traditional media.",
+  "description": "Featured highly detailed, painterly illustrations in books, magazines, and advertisements, with artists achieving unprecedented technical skill and storytelling ability through traditional media.\n\nAn illustration is a decoration, interpretation, or visual explanation of a text, concept, or process, designed for integration in print and digitally published media, such as posters, flyers, magazines, books, teaching materials, animations, video games and films. An illustration is typically created by an illustrator. Digital illustrations are often used to make websites and apps more user-friendly, such as the use of emojis to accompany digital type. Illustration also means providing an example; either in writing or in picture form.\n\nThe origin of the word \"illustration\" is late Middle English (in the sense ‘illumination; spiritual or intellectual enlightenment’): via Old French from Latin illustratio(n-), from the verb illustrare.",
   "culturalContext": "Historically, the art of illustration is closely linked to the industrial processes of printing and publishing.",
   "colors": [
     {
@@ -326,6 +326,16 @@
     {
       "name": "Wikipedia",
       "tier": "B"
+    },
+    {
+      "name": "Wikipedia — Illustration",
+      "url": "https://en.wikipedia.org/wiki/Illustration",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:41:18.680Z"
+      }
     }
   ],
   "references": [
@@ -359,7 +369,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
+        "checkedAt": "2026-10-02T02:41:18.680Z"
       }
     },
     {
@@ -381,5 +391,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": "2026-09-11T05:11:25.599Z",
   "createdAt": "2026-09-11T04:10:05.124Z",
-  "updatedAt": "2026-09-19T01:49:03.803Z"
+  "updatedAt": "2026-10-02T08:47:58.161Z"
 }

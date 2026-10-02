@@ -17,7 +17,33 @@
   "summary": "Kumejima-tsumugi (久米島紬; Okinawan: Kumijima chimuji) is the Ryukyuan craft of silk cloth practiced in Kumejima, Okinawa Prefecture.",
   "description": "Kumejima-tsumugi (久米島紬; Okinawan: Kumijima chimuji) is the Ryukyuan craft of silk cloth practiced in Kumejima, Okinawa Prefecture. Kumejima-tsumugi is the oldest type of tsumugi in Japan, out of the approximately two hundred forms of tsumugi, and is the oldest kasuri fabric. It is recognised as one of the Important Intangible Cultural Properties of Japan.",
   "culturalContext": "Silk production has been practiced in Kumejima since the 15th century, after a local, having studied sericulture in Ming Dynasty China, transmitted the techniques. Mulberry plants, the primary foodstuff of silkworms, is said to grow particularly well on the island.\n\nBy the 17th century, kumejima-tsumugi formed part of the tribute paid to the Ryūkyū Kings, and it was transported to Edo via the Satsuma Domain.",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#9cdcfb",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#1b1b15",
+      "name": "black"
+    },
+    {
+      "hex": "#353f39",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#a0a9a9",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#738486",
+      "name": "slate"
+    },
+    {
+      "hex": "#56635f",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,24 @@
   "tags": [
     "Traditional Crafts of Japan"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Tsumugi_no_Yakata.JPG/1280px-Tsumugi_no_Yakata.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Tsumugi_no_Yakata.JPG/500px-Tsumugi_no_Yakata.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/63/Tsumugi_no_Yakata.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File%3ATsumugi%20no%20Yakata.JPG",
+      "caption": "Tsumugi no Yakata",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "2048",
+      "height": "1536",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Kumejima-tsumugi",
@@ -73,7 +116,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:24.542Z"
+        "checkedAt": "2026-10-02T02:51:39.601Z"
       }
     },
     {
@@ -84,7 +127,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:24.542Z"
+        "checkedAt": "2026-10-02T02:51:39.601Z"
       }
     }
   ],
@@ -95,5 +138,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T15:08:19.201Z",
-  "updatedAt": "2026-09-19T16:51:24.542Z"
+  "updatedAt": "2026-10-02T06:41:25.789Z"
 }

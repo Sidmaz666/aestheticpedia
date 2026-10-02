@@ -92,7 +92,25 @@
     "warm",
     "70s"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/7025/13298065054_2f37d87011_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/c87e4280-8c5e-47dc-bcbe-c73287b039a7/thumb/",
+      "full": "https://live.staticflickr.com/7025/13298065054_2f37d87011_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/26329029@N06/13298065054",
+      "caption": "Pink Kitchen #2 (Flash Used)",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "1024",
+      "height": "687",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Vintage Appliance Museum",
@@ -134,7 +152,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:22.681Z"
+        "checkedAt": "2026-10-02T02:51:31.549Z"
       }
     },
     {
@@ -145,7 +163,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:22.681Z"
+        "checkedAt": "2026-10-02T02:51:31.549Z"
       }
     }
   ],
@@ -156,5 +174,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:57:05.715Z",
-  "updatedAt": "2026-09-19T16:51:22.681Z"
+  "updatedAt": "2026-10-02T04:40:47.243Z"
 }

@@ -97,7 +97,7 @@ export function SiteHeader() {
             <button
               type="button"
               onClick={() => setSearchOpen(true)}
-              className="group flex h-10 items-center gap-2.5 rounded-full border border-line-strong bg-surface/60 pl-3.5 pr-2 text-sm text-fg-subtle transition-colors hover:border-fg-subtle hover:text-fg md:w-64"
+              className="group flex h-10 w-10 items-center justify-center rounded-full border border-line-strong bg-surface/60 text-sm text-fg-subtle transition-colors hover:border-fg-subtle hover:text-fg md:w-64 md:justify-start md:gap-2.5 md:pl-3.5 md:pr-2"
               aria-label="Search aesthetics"
             >
               <Search className="size-4" aria-hidden />

@@ -19,7 +19,33 @@
   "summary": "Video game art is a form of computer art that uses video games as an artistic medium.",
   "description": "Video game art is a form of computer art that uses video games as an artistic medium. It encompasses a range of artistic practices, including the modification or repurposing of existing games and game structures, as well as the creation of art games from scratch or by modifying existing games.\n\nArtists may intervene in online gameplay, use game engines to produce animation through machinima, adapt game environments for installation and performance art, or create generative artworks using game technologies.\n\nExamples of video game art include Cory Arcangel's Super Mario Clouds and I Shot Andy Warhol, Joseph DeLappe's Dead in Iraq and Salt Satyagraha Online: Gandhi's March to Dandi in Second Life, the 2004–2005 Rhizome Commissions relating to games, Paolo Pedercini's Molleindustria works such as Unmanned and Every Day the Same Dream, and Ian Bogost's Cow Clicker.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#a8a39d",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#bebbb9",
+      "name": "silver"
+    },
+    {
+      "hex": "#94887c",
+      "name": "stone"
+    },
+    {
+      "hex": "#6d6762",
+      "name": "umber"
+    },
+    {
+      "hex": "#423e3b",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#7b91a3",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,25 @@
   "tags": [
     "art genre"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/2541/4128972394_03ab644a13_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/c5bae114-7dc7-4cc7-b3f5-42800fc8d1db/thumb/",
+      "full": "https://live.staticflickr.com/2541/4128972394_03ab644a13_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/34464825@N00/4128972394",
+      "caption": "Video game art with dry-erase markers at the Undergraduate Library at the University of Illinois at Urbana-Champaign",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "642",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "audio": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Machinima_sample_reindeer_full_size.ogv?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -88,7 +132,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:36.377Z"
+        "checkedAt": "2026-10-02T02:52:35.286Z"
       }
     },
     {
@@ -99,7 +143,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:36.377Z"
+        "checkedAt": "2026-10-02T02:52:35.286Z"
       }
     }
   ],
@@ -110,5 +154,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:36.377Z"
+  "updatedAt": "2026-10-02T03:33:23.293Z"
 }

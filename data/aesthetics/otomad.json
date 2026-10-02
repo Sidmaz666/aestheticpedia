@@ -23,8 +23,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Technical precision, collaborative chaos, remix culture, absurdity",
   "colors": [
     {
-      "hex": "#ff0000",
-      "name": "red"
+      "hex": "#2c3453",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#46566b",
+      "name": "graphite"
+    },
+    {
+      "hex": "#627583",
+      "name": "slate"
+    },
+    {
+      "hex": "#13192e",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#869296",
+      "name": "stone"
+    },
+    {
+      "hex": "#a4b1ae",
+      "name": "dove grey"
     }
   ],
   "paletteSource": "derived",
@@ -84,7 +104,24 @@
     "remix culture",
     "absurdity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Its_a_Mad%2C_Mad%2C_Mad%2C_Mad_World_Trailer7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Its_a_Mad%2C_Mad%2C_Mad%2C_Mad_World_Trailer7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Its_a_Mad%2C_Mad%2C_Mad%2C_Mad_World_Trailer7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File%3AIts%20a%20Mad%2C%20Mad%2C%20Mad%2C%20Mad%20World%20Trailer7.jpg",
+      "caption": "Jonathan Winters as a truck driver",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "720",
+      "height": "337",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — OtoMAD (CC BY-SA)",
@@ -106,7 +143,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:28.726Z"
+        "checkedAt": "2026-10-02T02:52:00.506Z"
       }
     },
     {
@@ -117,7 +154,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:28.726Z"
+        "checkedAt": "2026-10-02T02:52:00.506Z"
       }
     }
   ],
@@ -128,5 +165,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:28.726Z"
+  "updatedAt": "2026-10-02T08:40:37.705Z"
 }

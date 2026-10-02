@@ -18,7 +18,7 @@
   "endYear": null,
   "era": "Modern-Contemporary",
   "summary": "Luxurious embroidered shawl with floral patterns, originating in the Philippines but popular in Spain and Latin America.",
-  "description": "Characterized by vibrant silk fabric with intricate floral embroidery and fringe; developed from Asian-Spanish trade routes, becoming essential to flamenco and traditional Spanish dress.",
+  "description": "Characterized by vibrant silk fabric with intricate floral embroidery and fringe; developed from Asian-Spanish trade routes, becoming essential to flamenco and traditional Spanish dress.\n\nThe Manila shawl (Spanish: mantón de Manila or mantón de seda)  is an embroidered silk shawl derived from the Philippine alampay or scarf (likely from the Luzonian or Tagalog variant). They were popular in the Philippines, Latin America, and Spain during the colonial era. It was also adopted and became popular in European fashions in the 19th century. In modern times, it is still an aspect of various traditional clothing in Hispanic cultures and is particularly prominent as part of the costume (traje de flamenca) of flamenco dancers (bailaoras) and Gitana women.",
   "culturalContext": "Traditional shawls in the Philippines were known as alampay. These were head and neck coverings worn by pre-colonial Tagalog women. Like later Manila shawls, they were square and folded in half to form a triangle when worn over the shoulders. They continued to be used during the Spanish colonial period and incorporated European design elements, including floral embroidery using techniques such as calado, sombrado, and deshilado.\n\nIn addition to the native abacá fiber, they were also made from piña fiber, acquired from pineapples introduced by the Spanish. They also featured borders of lace or knotted fringes, a Spanish element which itself was acquired from the Moors. These Spanish-style shawls were known as pañuelos in Philippine Spanish, and were an integral part of the traditional traje de mestiza fashion of aristocratic Filipino women, as they brought modesty to the relatively low neckline of the traditional camisa shirts. They were also luxury goods exported via the Manila galleons to Nueva España and Europe, sometimes as gifts to royalty.",
   "colors": [
     {
@@ -203,6 +203,18 @@
       }
     }
   ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Fundaci%C3%B3n_Joaqu%C3%ADn_D%C3%ADaz_-_ATO_00449_14_-_D%C3%B3nde_vas_con_tu_mant%C3%B3n_de_manila.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "¿Dónde vas con tu mantón de manila?",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fundaci%C3%B3n_Joaqu%C3%ADn_D%C3%ADaz_-_ATO_00449_14_-_D%C3%B3nde_vas_con_tu_mant%C3%B3n_de_manila.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 132,
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  ],
   "sources": [
     {
       "name": "Museo del Traje",
@@ -227,6 +239,16 @@
     {
       "name": "Flamenco Costume Elements",
       "tier": "C"
+    },
+    {
+      "name": "Wikipedia — Manila shawl",
+      "url": "https://en.wikipedia.org/wiki/Manila_shawl",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:31:26.253Z"
+      }
     }
   ],
   "references": [
@@ -282,5 +304,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T05:36:59.899Z",
-  "updatedAt": "2026-09-19T08:46:28.473Z"
+  "updatedAt": "2026-10-02T06:41:26.103Z"
 }

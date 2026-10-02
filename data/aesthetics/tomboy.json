@@ -121,10 +121,60 @@
       "date": "1949-01",
       "license": "Public domain",
       "width": "635",
-      "height": "429"
+      "height": "429",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:58:39.738Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Tomboy.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Tomboy",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tomboy.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "Ernestocuba86",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Nl-tomboy.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Nl-tomboy",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nl-tomboy.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "Marcel coenders",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/De-Tomboy.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "De-Tomboy",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:De-Tomboy.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 2,
+      "artist": "Jeuwre",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     }
   ],
   "sources": [
+    {
+      "name": "Wikipedia — Tomboy",
+      "url": "https://en.wikipedia.org/wiki/Tomboy",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Tomboy (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Tomboy",
@@ -137,12 +187,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q845799",
+  "wikipedia": "Tomboy",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:42:42.214Z"
+  "updatedAt": "2026-10-02T07:57:38.458Z"
 }

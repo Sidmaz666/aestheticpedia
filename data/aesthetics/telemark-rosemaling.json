@@ -89,7 +89,25 @@
     "traditional",
     "scandinavian"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/157/341569895_0a47b0e89a.jpg",
+      "thumb": "https://api.openverse.org/v1/images/b5bbd21d-1fd7-4c73-b45a-a6e6498c8f97/thumb/",
+      "full": "https://live.staticflickr.com/157/341569895_0a47b0e89a.jpg",
+      "pageUrl": "https://www.flickr.com/photos/81839339@N00/341569895",
+      "caption": "Basket with Rosemaling",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "500",
+      "height": "452",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Norwegian Folk Art Museum",
@@ -128,5 +146,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T05:26:54.732Z",
-  "updatedAt": "2026-09-19T16:51:34.311Z"
+  "updatedAt": "2026-10-02T03:32:12.916Z"
 }

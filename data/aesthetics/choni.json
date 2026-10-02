@@ -76,8 +76,71 @@
     "pride in working-class roots",
     "cheapness"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/4119/4891422351_cde271ea4f_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/9ca7886d-2164-46f8-acfc-a4bbb60acdac/thumb/",
+      "full": "https://live.staticflickr.com/4119/4891422351_cde271ea4f_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/65849013@N00/4891422351",
+      "caption": "choni y diego en la cuevona",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "768",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Tradiciones_Vivas_Poblaci%C3%B3n-Choni_-Himno_a_San_Isidro.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Tradiciones Vivas Población-Choni -Himno a San Isidro",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tradiciones_Vivas_Poblaci%C3%B3n-Choni_-Himno_a_San_Isidro.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 51,
+      "artist": "Choni",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Tradiciones_Vivas_Poblaci%C3%B3n-Herminia_Choni_-Pullas_de_Carnaval.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Tradiciones Vivas Población-Herminia Choni -Pullas de Carnaval",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tradiciones_Vivas_Poblaci%C3%B3n-Herminia_Choni_-Pullas_de_Carnaval.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 37,
+      "artist": "Herminia Moratinos (1915)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Tradiciones_Vivas_Poblaci%C3%B3n-Herminia_Choni_-Danza_de_San_Isidro.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Tradiciones Vivas Población-Herminia Choni -Danza de San Isidro",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tradiciones_Vivas_Poblaci%C3%B3n-Herminia_Choni_-Danza_de_San_Isidro.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 19,
+      "artist": "Herminia Moratinos (1915)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
   "sources": [
+    {
+      "name": "Wikipedia — Choni",
+      "url": "https://en.wikipedia.org/wiki/Choni",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Choni (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Choni",
@@ -90,12 +153,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q1203392",
+  "wikipedia": "Choni",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:18.456Z"
+  "updatedAt": "2026-10-02T07:57:38.436Z"
 }

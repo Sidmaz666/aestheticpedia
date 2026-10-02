@@ -21,8 +21,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Freedom of expression, anti-conformity, beauty over gender, individuality",
   "colors": [
     {
-      "hex": "#ffd1dc",
-      "name": "pastel"
+      "hex": "#08080d",
+      "name": "black"
+    },
+    {
+      "hex": "#f4d1db",
+      "name": "bone white"
+    },
+    {
+      "hex": "#d5abad",
+      "name": "blush"
+    },
+    {
+      "hex": "#c2928d",
+      "name": "camel"
+    },
+    {
+      "hex": "#84594d",
+      "name": "bronze"
+    },
+    {
+      "hex": "#a47b70",
+      "name": "dusty rose"
     }
   ],
   "paletteSource": "derived",
@@ -70,7 +90,25 @@
     "beauty over gender",
     "individuality"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Super%21_C_CHANNEL_2019_Ryuchell_%2848803952253%29.jpg/1280px-Super%21_C_CHANNEL_2019_Ryuchell_%2848803952253%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Super%21_C_CHANNEL_2019_Ryuchell_%2848803952253%29.jpg/500px-Super%21_C_CHANNEL_2019_Ryuchell_%2848803952253%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Super%21_C_CHANNEL_2019_Ryuchell_%2848803952253%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File%3ASuper!%20C%20CHANNEL%202019%20Ryuchell%20(48803952253).jpg",
+      "caption": "Super! C CHANNEL 2019 りゅうちぇる",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": "4000",
+      "height": "6000",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Genderless Kei (CC BY-SA)",
@@ -91,5 +129,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:21.924Z"
+  "updatedAt": "2026-10-02T06:41:25.111Z"
 }

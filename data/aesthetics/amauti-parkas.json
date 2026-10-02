@@ -90,7 +90,25 @@
     "parka",
     "traditional"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/8080/8271690712_3d69329c1d_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/9676f97c-85f4-409f-841f-61e1f863da0d/thumb/",
+      "full": "https://live.staticflickr.com/8080/8271690712_3d69329c1d_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/42872607@N00/8271690712",
+      "caption": "Inuit amauti or twilli (woman's parka)",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "683",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Inuit Tapiriit Kanatami",
@@ -132,7 +150,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:15.822Z"
+        "checkedAt": "2026-10-02T02:51:03.137Z"
       }
     },
     {
@@ -143,7 +161,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:15.822Z"
+        "checkedAt": "2026-10-02T02:51:03.137Z"
       }
     }
   ],
@@ -154,5 +172,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T05:18:05.540Z",
-  "updatedAt": "2026-09-19T16:51:15.822Z"
+  "updatedAt": "2026-10-02T03:21:28.818Z"
 }

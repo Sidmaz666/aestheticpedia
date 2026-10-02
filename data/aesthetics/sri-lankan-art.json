@@ -19,7 +19,33 @@
   "summary": "Visual arts in Sri Lanka refers to a variety of visual art forms, including as painting, drawing, sculpture architecture and other visual arts from the ancient time to modern Sri Lanka.",
   "description": "Visual arts in Sri Lanka refers to a variety of visual art forms, including as painting, drawing, sculpture architecture and other visual arts from the ancient time to modern Sri Lanka. The history of visual art of Sri Lanka has long history, starting from the 2nd or 3rd century BC to the present day.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#9da09b",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#898373",
+      "name": "taupe"
+    },
+    {
+      "hex": "#5e5947",
+      "name": "umber"
+    },
+    {
+      "hex": "#cfd1cc",
+      "name": "bone white"
+    },
+    {
+      "hex": "#656f6e",
+      "name": "slate"
+    },
+    {
+      "hex": "#d0b385",
+      "name": "tan"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,25 @@
     "art",
     "sri lanka"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/7821/46322001724_26c08356a2_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/fd555702-6bf9-4308-b87f-74048bb99696/thumb/",
+      "full": "https://live.staticflickr.com/7821/46322001724_26c08356a2_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/78678985@N04/46322001724",
+      "caption": "Sri Lankan art",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "1024",
+      "height": "788",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Sri Lankan art",
@@ -74,7 +118,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:33.179Z"
+        "checkedAt": "2026-10-02T02:52:25.733Z"
       }
     },
     {
@@ -85,7 +129,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:33.179Z"
+        "checkedAt": "2026-10-02T02:52:25.733Z"
       }
     }
   ],
@@ -96,5 +140,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-19T02:49:23.019Z",
-  "updatedAt": "2026-09-19T16:51:33.179Z"
+  "updatedAt": "2026-10-02T08:47:58.302Z"
 }

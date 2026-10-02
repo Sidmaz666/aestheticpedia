@@ -19,7 +19,33 @@
   "summary": "In geometry and modular origami, snapology is a technique for constructing three-dimensional geometric structures from folded paper strips.",
   "description": "In geometry and modular origami, snapology is a technique for constructing three-dimensional geometric structures from folded paper strips. Its creator is Heinz Strobl.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#130f0c",
+      "name": "black"
+    },
+    {
+      "hex": "#4c3a27",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#735435",
+      "name": "umber"
+    },
+    {
+      "hex": "#9e9399",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#b5a9ad",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#81767a",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,25 @@
   "tags": [
     "artistic technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/7207/6908321521_d39e78462d_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/ae1ae248-785e-4b54-b551-ebef9b4a427e/thumb/",
+      "full": "https://live.staticflickr.com/7207/6908321521_d39e78462d_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/30081763@N02/6908321521",
+      "caption": "Snapology icosahedron",
+      "source": "Openverse",
+      "license": "BY-NC",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "width": "1024",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Snapology",
@@ -75,7 +119,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:32.652Z"
+        "checkedAt": "2026-10-02T02:52:23.860Z"
       }
     },
     {
@@ -86,7 +130,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:32.652Z"
+        "checkedAt": "2026-10-02T02:52:23.860Z"
       }
     }
   ],
@@ -97,5 +141,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T15:08:19.201Z",
-  "updatedAt": "2026-09-19T16:51:32.652Z"
+  "updatedAt": "2026-10-02T04:58:50.526Z"
 }

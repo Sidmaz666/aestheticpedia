@@ -19,8 +19,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Flexing, lack of taste",
   "colors": [
     {
-      "hex": "#000000",
-      "name": "black"
+      "hex": "#999592",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#19191d",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#94b6d2",
+      "name": "sky blue"
+    },
+    {
+      "hex": "#45443d",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#71645d",
+      "name": "umber"
+    },
+    {
+      "hex": "#e3e5e7",
+      "name": "paper white"
     }
   ],
   "paletteSource": "derived",
@@ -57,8 +77,60 @@
     "flexing",
     "lack of taste"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/2906/14492118488_38a11e4ab3_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/ddb92d79-9b84-42aa-97df-470cd1401568/thumb/",
+      "full": "https://live.staticflickr.com/2906/14492118488_38a11e4ab3_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/18378305@N00/14492118488",
+      "caption": "Testing Bombardier Toronto Flexity Outlook on tight turns",
+      "source": "Openverse",
+      "license": "BY-NC",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "width": "1024",
+      "height": "683",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/De-bombardier.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "De-bombardier",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:De-bombardier.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 2,
+      "artist": "Jeuwre",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Nl-bombardier.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Nl-bombardier",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nl-bombardier.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "Marcel coenders",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+  ],
   "sources": [
+    {
+      "name": "Wikipedia — Bombardier",
+      "url": "https://en.wikipedia.org/wiki/Bombardier",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Bombardier (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Bombardier",
@@ -71,12 +143,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q439817",
+  "wikipedia": "Bombardier",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:17.492Z"
+  "updatedAt": "2026-10-02T08:40:37.446Z"
 }

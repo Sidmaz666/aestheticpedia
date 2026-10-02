@@ -1,7 +1,9 @@
 {
   "slug": "medway-archives-centre",
   "name": "Medway Archives Centre",
-  "aliases": [],
+  "aliases": [
+    "MAC; Medway Archives; Medway Archives & Local Studies Centre"
+  ],
   "category": "Art Movement",
   "subcategory": "",
   "establishment": "historical",
@@ -17,7 +19,33 @@
   "summary": "Medway Archives Centre (formerly the Medway Archives and Local Studies Centre, MALSC) is the local archives service of Medway Council in Kent, England.",
   "description": "Medway Archives Centre (formerly the Medway Archives and Local Studies Centre, MALSC) is the local archives service of Medway Council in Kent, England. It preserves and provides access to historical records for the Medway area. Its holdings include official records, local history books, periodicals, newspapers, maps, photographs and other materials relating to the history and people of Medway.\n\nThe centre aims “to help everyone discover the stories of Medway’s people and places”, serving the towns of Strood, Rochester, Chatham, Gillingham and Rainham as well as surrounding villages and the Hoo Peninsula. Medway Archives Centre has a public search room (for local studies collections) and a secure archives reading room (for original documents), as well as digital catalogues and research guides.  In 2021 the service was awarded Archive Service Accreditation (the UK standard for archival services).",
   "culturalContext": "1993: The service began as the Rochester upon Medway Studies Centre. In March 1993 local studies collections were moved from the Rochester and Chatham public libraries into the Clock Tower building of the Strood Civic Centre.\n\n1998: When Medway Council was created as a unitary authority, the centre was renamed the Medway Archives and Local Studies Centre (MALSC). It remained based in the Strood Civic Centre (Clock Tower) building through the 2000s.\n\n2015: Following public consultation, Medway Council approved a project to relocate the archives.  A report in February 2015 added the relocation of MALSC to the former Strood Library site into the council’s capital programme. The project budget was about £971,000 and design work (by Clay Architecture) began that year.",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#5a6a51",
+      "name": "umber"
+    },
+    {
+      "hex": "#797564",
+      "name": "bronze"
+    },
+    {
+      "hex": "#314232",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#999f9c",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#b0b6b9",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#c9ced3",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +67,25 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "http://s0.geograph.org.uk/photos/64/96/649699_65b2c890.jpg",
+      "thumb": "https://api.openverse.org/v1/images/6fdbc564-9682-463d-a5c4-61d8b81a2890/thumb/",
+      "full": "http://s0.geograph.org.uk/photos/64/96/649699_65b2c890.jpg",
+      "pageUrl": "http://www.geograph.org.uk/photo/649699",
+      "caption": "St George's Centre, Chatham",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "640",
+      "height": "480",
+      "check": {
+        "ok": true,
+        "status": 403,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Medway Archives Centre",
@@ -71,7 +117,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:25.883Z"
+        "checkedAt": "2026-10-02T02:51:46.819Z"
       }
     },
     {
@@ -82,7 +128,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:25.883Z"
+        "checkedAt": "2026-10-02T02:51:46.819Z"
       }
     }
   ],
@@ -93,5 +139,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:25.883Z"
+  "updatedAt": "2026-10-02T07:15:54.384Z"
 }

@@ -22,7 +22,33 @@
   "summary": "Art Singulier (French for \"Singular Art\") is an outsider art movement that emerged in France during the 1970s, building upon the principles of Art Brut .",
   "description": "Art Singulier (French for \"Singular Art\") is an outsider art movement that emerged in France during the 1970s, building upon the principles of Art Brut . Unlike Art Brut, which focuses on a specific mindset, Art Singulier encompasses diverse artistic currents such as Cubism and Surrealism . This contemporary movement gathers creators, including self-taught individuals, who maintain a distance from academic art. They express a distinct knowledge and sensitivity, offering a complement or contradiction to established art history.\n\nThe concept has connections to post-Art Brut movements, also referred to as \" art en marge ,\" \" art outsider ,\" \" art cru ,\" \" création franche ,\" and \" art hors-les-normes .\" In 1971, architect Alain Bourbonnais began collecting works by these artists, leading to the opening of Atelier Jacob in 1972 and the introduction of the term \"singulier.\"\n\nArt Singulier gained prominence in 1978 with the \" Les Singuliers de l'Art \" exhibition at the Musée d'Art Moderne de la Ville de Paris, organized by Bourbonnais, Michel Ragon, Suzanne Pagé, and Michel Thévoz. [ 1 ] This exhibition introduced the public to various forms of outsider art, including \" habitants paysagistes ,\" \" art hors-les-normes ,\" Art Brut, and the fringes of popular art. The Bourbonnais collection found a permanent home in Dicy as La Fabuloserie in 1983.\n\nSingular artists emphasize spontaneity over the intellectualism of academic art. Key figures in the movement include painter Gaston Chaissac (1910-1964), collage and assemblage artist Yolande Fièvre (1907-1982), and sculptor and architect Robert Tatin (1902-1983). Several museums in France are dedicated to Art Brut and Art Singulier, including the Musée de la Création Franche in Bègles (1989), founded from the collection of Claude Massé, a friend of Jean Dubuffet, and the atelier-musée Fernand Michel in Montpellier (2016).",
   "culturalContext": "Key values (per the Aesthetics Wiki): Individual creativity, freedom from artistic norms, authenticity, personal vision, emotional expression, intuitive creation",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#050404",
+      "name": "black"
+    },
+    {
+      "hex": "#e8f2f4",
+      "name": "paper white"
+    },
+    {
+      "hex": "#c0d1e2",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#252221",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#52626b",
+      "name": "graphite"
+    },
+    {
+      "hex": "#90a6ad",
+      "name": "warm grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Bright colors"
   },
@@ -63,7 +89,25 @@
     "emotional expression",
     "intuitive creation"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/5068/5565520978_c8c4db04cd_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/3c294b14-f622-40f6-8a3a-61c16992996a/thumb/",
+      "full": "https://live.staticflickr.com/5068/5565520978_c8c4db04cd_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/58794586@N08/5565520978",
+      "caption": "Art singulier : à l'artiste anonyme",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Art Singulier (CC BY-SA)",
@@ -84,5 +128,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:16.479Z"
+  "updatedAt": "2026-10-02T03:21:46.563Z"
 }

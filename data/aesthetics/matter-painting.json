@@ -17,7 +17,33 @@
   "summary": "Matter painting (French: Haute Pâte, lit.",
   "description": "Matter painting (French: Haute Pâte, lit. 'thick paste') also known as Matterism refers to a style of painting that emphasizes the material qualities of paint through heavy impasto. The style marked a return to impulses characteristic of abstract expressionism.\n\nMatterism first emerged in Paris in the 1940s in the work of Jean Dubuffet and Jean Fautrier. The style reached widespread popularity in the 1950s.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#e6d444",
+      "name": "saffron yellow"
+    },
+    {
+      "hex": "#53564e",
+      "name": "graphite"
+    },
+    {
+      "hex": "#262f1f",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#c1ddf7",
+      "name": "periwinkle"
+    },
+    {
+      "hex": "#9ca098",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#84846e",
+      "name": "taupe"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,60 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/65535/49974096387_7ecbd948f3_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/ba18a589-021d-42af-bef4-556e7186ab5b/thumb/",
+      "full": "https://live.staticflickr.com/65535/49974096387_7ecbd948f3_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/94457816@N00/49974096387",
+      "caption": "Black Lives Matter painted on 16th St",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Brown_noise_15-00_69kbps.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Brown noise 15-00 69kbps",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Brown_noise_15-00_69kbps.mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 900,
+      "artist": "JPxG",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Brown_noise_15-00_8kbps.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Brown noise 15-00 8kbps",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Brown_noise_15-00_8kbps.mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 900,
+      "artist": "JPxG",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Children%27s_corner_of_Meng.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Children's corner of Meng",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Children%27s_corner_of_Meng.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 135,
+      "artist": "Jason M. C., Han",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Matter painting",
@@ -73,7 +152,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:09.872Z"
+        "checkedAt": "2026-10-02T02:51:46.200Z"
       }
     },
     {
@@ -84,7 +163,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:09.872Z"
+        "checkedAt": "2026-10-02T02:51:46.200Z"
       }
     }
   ],
@@ -95,5 +174,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:55:06.676Z"
+  "updatedAt": "2026-10-02T03:27:57.315Z"
 }

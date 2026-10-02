@@ -82,7 +82,24 @@
     "industrial",
     "post-war"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/17a1affd-6169-787d-d62f-a0f927381c89/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/17a1affd-6169-787d-d62f-a0f927381c89/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/17a1affd-6169-787d-d62f-a0f927381c89/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/153129",
+      "caption": "Needlework Design",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Deutsches Architektur Museum",
@@ -121,5 +138,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-11T04:15:02.574Z",
-  "updatedAt": "2026-09-19T16:51:16.874Z"
+  "updatedAt": "2026-10-02T03:47:27.929Z"
 }

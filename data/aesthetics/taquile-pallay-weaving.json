@@ -90,7 +90,24 @@
     "community",
     "lake"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/96e26f4f-c578-b14c-2714-2a565f19e0d0/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/96e26f4f-c578-b14c-2714-2a565f19e0d0/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/96e26f4f-c578-b14c-2714-2a565f19e0d0/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/151363",
+      "caption": "Weaving",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Taquile Weaving Tradition",
@@ -123,5 +140,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T05:23:06.939Z",
-  "updatedAt": "2026-09-19T16:55:40.915Z"
+  "updatedAt": "2026-10-02T05:02:24.263Z"
 }

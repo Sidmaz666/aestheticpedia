@@ -261,20 +261,17 @@
       }
     }
   ],
-  "audio": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/LL-Q33578_%28ibo%29-Chinwoke_01-Nsukka.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "title": "LL-Q33578 (ibo)-Chinwoke 01-Nsukka",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:LL-Q33578_(ibo)-Chinwoke_01-Nsukka.wav",
-      "source": "Wikimedia Commons",
-      "mime": "audio/wav",
-      "duration": 1,
-      "artist": "Speaker: Chinwoke 01 Recorder: Chinwoke 01",
-      "license": "CC0",
-      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
-    }
-  ],
   "sources": [
+    {
+      "name": "Wikipedia — Nsukka",
+      "url": "https://en.wikipedia.org/wiki/Nsukka",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:41:18.680Z"
+      }
+    },
     {
       "name": "Nsukka School",
       "tier": "B"
@@ -319,7 +316,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
+        "checkedAt": "2026-10-02T02:41:18.680Z"
       }
     }
   ],
@@ -330,5 +327,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-11T04:03:02.698Z",
-  "updatedAt": "2026-09-19T01:53:15.221Z"
+  "updatedAt": "2026-10-02T08:40:37.691Z"
 }

@@ -17,7 +17,33 @@
   "summary": "The Dresden school was a baroque Neo-Renaissance architectural style developed in Dresden, Germany, primarily by Gottfried Semper and Hermann Nicolai.",
   "description": "The Dresden school was a baroque Neo-Renaissance architectural style developed in Dresden, Germany, primarily by Gottfried Semper and Hermann Nicolai. The style is associated with European architects mainly from Germany and Italy who built buildings and later city villas in large numbers, but also synagogues and public schools. Semper built the Dresden Semperoper, with the panther-quadriga (chariot) by sculptor Johannes Schilling (1828–1910). Important sculptors were Ernst Rietschel and Ernst Julius Hähnel.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bcb9b6",
+      "name": "silver"
+    },
+    {
+      "hex": "#15100c",
+      "name": "black"
+    },
+    {
+      "hex": "#a49e96",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#dcdee1",
+      "name": "bone white"
+    },
+    {
+      "hex": "#433a2f",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#7a6c5c",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,25 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/2002/2242784734_0ba96df0e6.jpg",
+      "thumb": "https://api.openverse.org/v1/images/495ce914-56fe-4c51-81a4-e9d5d75ed2e4/thumb/",
+      "full": "https://live.staticflickr.com/2002/2242784734_0ba96df0e6.jpg",
+      "pageUrl": "https://www.flickr.com/photos/73677633@N00/2242784734",
+      "caption": "Gibarian´s Rehersal at Dresden School for Jazz and Contemporary Music",
+      "source": "Openverse",
+      "license": "BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": "500",
+      "height": "375",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Dresden school",
@@ -71,7 +115,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:20.296Z"
+        "checkedAt": "2026-10-02T02:51:21.282Z"
       }
     },
     {
@@ -82,7 +126,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:20.296Z"
+        "checkedAt": "2026-10-02T02:51:21.282Z"
       }
     }
   ],
@@ -93,5 +137,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:20.296Z"
+  "updatedAt": "2026-10-02T03:25:29.459Z"
 }

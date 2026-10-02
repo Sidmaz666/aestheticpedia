@@ -19,7 +19,33 @@
   "summary": "Afropunk is a cultural movement and music genre encompassing the involvement of Black individuals in punk and alternative subcultures.",
   "description": "Afropunk is a cultural movement and music genre encompassing the involvement of Black individuals in punk and alternative subcultures. While participation dates back to the origins of punk in the 1970s, the term itself gained prominence following the 2003 documentary Afro-Punk by James Spooner and Matthew Morgan. [ 1 ]\n\nThe movement is notable for its presence in the United States and the United Kingdom, and it has expanded globally through various artistic expressions and events. Key elements often include punk rock and alternative music styles, distinctive fashion, and a focus on social and political themes relevant to the Black experience.\n\nA significant manifestation of the movement is the annual Afropunk Festival, founded in 2005, which serves as a gathering point for the community and a platform for diverse artistic expression.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Rebellion, independence, anti-conformity, social justice, self-expression, Black liberation",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1a1416",
+      "name": "black"
+    },
+    {
+      "hex": "#4a322e",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#8d5738",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b27c5c",
+      "name": "dusty rose"
+    },
+    {
+      "hex": "#8f9aa7",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#717984",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -64,7 +90,25 @@
     "self-expression",
     "black liberation"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/3841/15024250182_ea740c7553_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/09cc1484-39a2-4f10-a307-35ddd316a923/thumb/",
+      "full": "https://live.staticflickr.com/3841/15024250182_ea740c7553_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/45638810@N00/15024250182",
+      "caption": "Afropunk 2014",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "703",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Afropunk (CC BY-SA)",
@@ -86,7 +130,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:15.611Z"
+        "checkedAt": "2026-10-02T02:51:02.097Z"
       }
     },
     {
@@ -97,7 +141,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:15.611Z"
+        "checkedAt": "2026-10-02T02:51:02.097Z"
       }
     }
   ],
@@ -108,5 +152,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:15.611Z"
+  "updatedAt": "2026-10-02T03:21:11.789Z"
 }

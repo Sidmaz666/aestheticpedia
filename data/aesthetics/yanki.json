@@ -20,7 +20,33 @@
   "summary": "Yanki ( ヤンキー ) consists of young men and women who dye their hair blond or orange, wear trashy clothes and smoke, drink before they're out of high school.",
   "description": "Yanki ( ヤンキー ) consists of young men and women who dye their hair blond or orange, wear trashy clothes and smoke, drink before they're out of high school. They are famous for being loud, rude and refusing to take part in the strict manners of Japanese society.\n\nIn addition to the specific aesthetic, Yanki can be a general term to refer to the delinquent groups in Japan. For example, Sukeban , Gyaru , Bosozoku , and Teamer , can be considered Yanki.",
   "culturalContext": "Key values (per the Aesthetics Wiki): rebellion",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0a0a03",
+      "name": "black"
+    },
+    {
+      "hex": "#383717",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#5a5c31",
+      "name": "umber"
+    },
+    {
+      "hex": "#7a7e4b",
+      "name": "olive green"
+    },
+    {
+      "hex": "#989f61",
+      "name": "moss"
+    },
+    {
+      "hex": "#bcb569",
+      "name": "sand"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "black, yellow, white"
   },
@@ -51,7 +77,38 @@
     "aesthetics wiki",
     "rebellion"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/2633/4103592140_9c15446bb5_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/a674b51f-4679-4be0-8a19-c836cf65247c/thumb/",
+      "full": "https://live.staticflickr.com/2633/4103592140_9c15446bb5_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/43586825@N00/4103592140",
+      "caption": "DADDY YANKIE",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "1024",
+      "height": "685",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Yanki.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Yanki",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Yanki.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "Abdullahi Aduwa",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Yanki (CC BY-SA)",
@@ -73,7 +130,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:37.475Z"
+        "checkedAt": "2026-10-02T02:52:38.101Z"
       }
     },
     {
@@ -84,7 +141,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:37.475Z"
+        "checkedAt": "2026-10-02T02:52:38.101Z"
       }
     }
   ],
@@ -95,5 +152,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:37.475Z"
+  "updatedAt": "2026-10-02T08:40:37.866Z"
 }

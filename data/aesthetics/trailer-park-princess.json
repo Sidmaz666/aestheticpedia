@@ -26,12 +26,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Kitsch, sex positivity, not caring what others think, making the best with what you have, finding ways to romanticize one's own poor upbringing",
   "colors": [
     {
-      "hex": "#ffc0cb",
-      "name": "pink"
+      "hex": "#f0ece4",
+      "name": "paper white"
     },
     {
-      "hex": "#ff0000",
-      "name": "red"
+      "hex": "#ded5c6",
+      "name": "bone white"
+    },
+    {
+      "hex": "#070403",
+      "name": "black"
+    },
+    {
+      "hex": "#cfb39b",
+      "name": "tan"
+    },
+    {
+      "hex": "#bf9378",
+      "name": "camel"
+    },
+    {
+      "hex": "#ac6c4a",
+      "name": "copper"
     }
   ],
   "paletteSource": "derived",
@@ -74,7 +90,25 @@
     "making the best with what you have",
     "finding ways to romanticize one's own poor upbringing"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/3160/3015308039_c8caccaee0_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/834f50fd-c475-429b-8421-5906ab2685ee/thumb/",
+      "full": "https://live.staticflickr.com/3160/3015308039_c8caccaee0_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/60449310@N00/3015308039",
+      "caption": "Trailer Park Princess",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "683",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Trailer Park Princess (CC BY-SA)",
@@ -95,5 +129,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:35.361Z"
+  "updatedAt": "2026-10-02T03:32:41.427Z"
 }

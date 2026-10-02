@@ -112,10 +112,60 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "848"
+      "height": "848",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:58:39.738Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Audio-kz_UK_male_Alfie_-_duo_me_is_the_best.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Audio-kz UK male Alfie - duo me is the best",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Audio-kz_UK_male_Alfie_-_duo_me_is_the_best.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 2,
+      "artist": "Basler Biker",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Audio_BB_-_Duome_is_the_best.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Audio BB - Duome is the best",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Audio_BB_-_Duome_is_the_best.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 2,
+      "artist": "Basler Biker",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Bar-Radla.m4a%281%29.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Bar-Radla.m4a(1)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bar-Radla.m4a(1).ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 2,
+      "artist": "Reisen8",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     }
   ],
   "sources": [
+    {
+      "name": "Wikipedia — Biker",
+      "url": "https://en.wikipedia.org/wiki/Biker",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Biker (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Biker",
@@ -128,12 +178,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q2652778",
+  "wikipedia": "Biker",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:33:44.664Z"
+  "updatedAt": "2026-10-02T08:40:37.438Z"
 }

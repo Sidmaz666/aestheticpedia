@@ -86,7 +86,25 @@
     "artisanal",
     "traditional"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/1533/24187975670_c74befa9e5_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/3ee95c40-3e66-453f-9fd3-a609e412a9fd/thumb/",
+      "full": "https://live.staticflickr.com/1533/24187975670_c74befa9e5_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/9508280@N07/24187975670",
+      "caption": "20151123_Morocco_2829+30 Tamegroute sRGB",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "1024",
+      "height": "438",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Marrakech Museum",
@@ -125,5 +143,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T04:49:23.908Z",
-  "updatedAt": "2026-09-19T16:55:39.338Z"
+  "updatedAt": "2026-10-02T03:31:57.334Z"
 }

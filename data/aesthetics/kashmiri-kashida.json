@@ -91,8 +91,45 @@
     "traditional",
     "floral"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/f0793334-3eab-ef9c-df5b-342ca9f91895/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/f0793334-3eab-ef9c-df5b-342ca9f91895/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/f0793334-3eab-ef9c-df5b-342ca9f91895/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/142516",
+      "caption": "Prince Visiting an Ascetic during a Hunt",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
+    {
+      "name": "Wikipedia — Kasidakari",
+      "url": "https://en.wikipedia.org/wiki/Kasidakari",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:41:18.680Z"
+      }
+    },
+    {
+      "name": "TRC Leiden — Kashmir Embroidery",
+      "url": "https://trc-leiden.nl/trc-needles/regional-traditions/indian-subcontinent/kashmir-embroidery",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:41:18.680Z"
+      }
+    },
     {
       "name": "Kashmiri Embroidery: Tradition and Technique",
       "tier": "A"
@@ -106,11 +143,23 @@
       "tier": "C"
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "article",
+      "title": "Wikipedia — Kasidakari (related)",
+      "url": "https://en.wikipedia.org/wiki/Kasidakari",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:51:37.227Z"
+      }
+    }
+  ],
   "popularity": 70,
   "isNiche": false,
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T03:42:21.149Z",
-  "updatedAt": "2026-09-19T16:54:57.543Z"
+  "updatedAt": "2026-10-02T04:44:36.775Z"
 }

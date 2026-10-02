@@ -17,7 +17,25 @@
   "summary": "Neosymbolism is a movement current in the visual arts genre.",
   "description": "Neosymbolism is a movement current in the visual arts genre.  Active in the movement are artists in the United States, Denmark, the Czech Republic, and Canada.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#c8b7a1",
+      "name": "khaki"
+    },
+    {
+      "hex": "#8b7e6b",
+      "name": "taupe"
+    },
+    {
+      "hex": "#353127",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#4f483b",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +57,25 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/4055/4664013234_e33a4258de_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/396aab99-1e0a-4369-b4e3-30e0c54d1e1d/thumb/",
+      "full": "https://live.staticflickr.com/4055/4664013234_e33a4258de_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/9350075@N03/4664013234",
+      "caption": "Image of Neosymbolism",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "588",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Neosymbolism",
@@ -71,7 +107,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:27.637Z"
+        "checkedAt": "2026-10-02T02:51:55.846Z"
       }
     },
     {
@@ -82,7 +118,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:27.637Z"
+        "checkedAt": "2026-10-02T02:51:55.846Z"
       }
     }
   ],
@@ -93,5 +129,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:27.637Z"
+  "updatedAt": "2026-10-02T03:29:22.355Z"
 }

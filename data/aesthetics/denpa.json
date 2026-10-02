@@ -17,7 +17,33 @@
   "summary": "This page is about a literary genre and its associated visual aesthetic.",
   "description": "This page is about a literary genre and its associated visual aesthetic. For the music genre of the same name, characterized by cutesy imagery, see Akibapop .\n\nDenpa ( 電波 ) is a Japanese subgenre of psychological horror primarily found in visual novels. It is characterized by recurring themes of delusion, social isolation, and a disconnection from objective reality, often exploring the fragile nature of mental states and the impact of external or internal pressures. While the term's colloquial usage has broadened, its roots lie in anxieties about a \" muen shakai \" (relationless society) and events like the 1981 Fukagawa Serial Slasher Case, where the perpetrator's claims of being influenced by \"electromagnetic waves\" (the literal translation of denpa ) gained notoriety.\n\nDenpa narratives frequently juxtapose mundane, everyday environments with extraordinary psychological states, heightening the sense of unease and isolation as characters experience mental breakdowns, distorted realities, and emotional detachment within familiar settings. Closely related to otaku culture, denpa often reflects the struggles of individuals feeling marginalized or out of sync with mainstream society.\n\nWhile \"denpa\" is primarily defined by narrative themes rather than a singular visual style, a specific set of motifs has crystallized online (particularly on platforms like Pinterest and Tumblr) to represent the genre's atmosphere. These visuals (characterized by tangled telephone wires, dimly lit rooms cluttered with technology, and high-contrast shadows) draw heavily from seminal works like Serial Experiments Lain and Welcome to the N.H.K. . However, this \"internet aesthetic\" definition often overlooks the visual diversity of the genre, which ranges from the visceral gore of Saya no Uta to the deceptively pastel and bubbly presentation of titles like NEEDY STREAMER OVERLOAD or Maitetsu (often cited for its tonal dissonance). It is important to note that the primary connection between den",
   "culturalContext": "Key values (per the Aesthetics Wiki): Themes of social withdrawal (often depicted as a response to societal anxieties), distorted perception of reality (derealization), exploration of mental instability, preoccupation with delusion, existential questioning of reality and identity, analyzing the appeal of superficial fantasy worlds",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fdfdfd",
+      "name": "ivory"
+    },
+    {
+      "hex": "#e5eaec",
+      "name": "paper white"
+    },
+    {
+      "hex": "#d7d3d6",
+      "name": "bone white"
+    },
+    {
+      "hex": "#b4c3ca",
+      "name": "silver"
+    },
+    {
+      "hex": "#bda8aa",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#3c3b3c",
+      "name": "aubergine"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Varies; often deep blue, black, static grey, or deceptively bright pastels"
   },
@@ -67,7 +93,25 @@
     "existential questioning of reality",
     "identity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/3542/5692031177_769defdf04_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/9649b83d-dc49-484d-9df7-0f56ea220827/thumb/",
+      "full": "https://live.staticflickr.com/3542/5692031177_769defdf04_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/36105640@N02/5692031177",
+      "caption": "ERIO TOWA (DENPA ONNA YO SEISHUN OTOKO)",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "810",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Denpa (CC BY-SA)",
@@ -88,5 +132,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:19.710Z"
+  "updatedAt": "2026-10-02T08:47:58.131Z"
 }

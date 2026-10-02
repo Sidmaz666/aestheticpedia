@@ -18,7 +18,7 @@
   "endYear": 1899,
   "era": "Early Modern",
   "summary": "A distinctive South African architectural style blending Dutch, German, French and Indonesian influences.",
-  "description": "Features elegant gables, whitewashed walls, thatched roofs, and symmetrical layouts, developed by Dutch settlers and adapted to local conditions.",
+  "description": "Features elegant gables, whitewashed walls, thatched roofs, and symmetrical layouts, developed by Dutch settlers and adapted to local conditions.\n\nCape Dutch architecture is an architectural style primarily found in the Western Cape of South Africa, though modern adaptations have been constructed in regions such as Western Australia and New Zealand, typically on wine estates. The style emerged in the 17th century during the early years of the Dutch Cape Colony, and is named after the Dutch settlers who played a significant role in its development. Influences on the style can be traced to medieval architectural traditions from the Netherlands, Germany, France, and Indonesia.",
   "culturalContext": "Cape Dutch architecture (late 1600s-early 1800s) grew from VOC colonial farms in the Cape: whitewashed walls of local lime-and-shell plaster, thatch roofs, and above all the front gable — from simple holbol round curves to elaborate neoclassical bell gables — that marked the wine estate's face. Groot Constantia and Boschendal preserve the canon; the style became South Africa's white-heritage emblem and still shapes Cape Winelands tourism design.",
   "colors": [
     {
@@ -326,6 +326,16 @@
         "status": 500,
         "checkedAt": "2026-09-19T12:55:09.876Z"
       }
+    },
+    {
+      "name": "Wikipedia — Cape Dutch architecture",
+      "url": "https://en.wikipedia.org/wiki/Cape_Dutch_architecture",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:31:20.533Z"
+      }
     }
   ],
   "references": [
@@ -370,5 +380,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-11T04:21:53.239Z",
-  "updatedAt": "2026-09-18T04:56:17.435Z"
+  "updatedAt": "2026-10-02T06:41:24.190Z"
 }

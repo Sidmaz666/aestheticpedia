@@ -20,7 +20,25 @@
   "summary": "Chuugoku Musume ( 中國娘 ) is a common character trope of Chinese charaters in Japanese anime, manga, and video games inspired by Japanese perceptions of Chinese culture.",
   "description": "Chuugoku Musume ( 中國娘 ) is a common character trope of Chinese charaters in Japanese anime, manga, and video games inspired by Japanese perceptions of Chinese culture. In Chinese the character trope is known as Zhonghua niang (中华娘) and has developed into a niche fashion on social media such as Rednote. [ 1 ]",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#d0c2a2",
+      "name": "beige"
+    },
+    {
+      "hex": "#b1a280",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#8f7c5e",
+      "name": "moss"
+    },
+    {
+      "hex": "#84613e",
+      "name": "bronze"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "Overview": "Chinese kung fu; Steamers of dim sum and bowls of noodles; Pandas (as pets or stuffed toys)"
   },
@@ -54,7 +72,24 @@
   "tags": [
     "aesthetics wiki"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/05ff36bd-0c00-f69c-af2c-cc443653c6b1/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/05ff36bd-0c00-f69c-af2c-cc443653c6b1/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/05ff36bd-0c00-f69c-af2c-cc443653c6b1/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/21896",
+      "caption": "The Actor Segawa Tomisaburo I as the Heron Maiden (Sagi Musume)",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Chuugoku Musume (CC BY-SA)",
@@ -75,5 +110,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:18.558Z"
+  "updatedAt": "2026-10-02T04:31:21.462Z"
 }

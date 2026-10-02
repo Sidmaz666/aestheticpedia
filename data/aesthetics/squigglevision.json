@@ -17,7 +17,33 @@
   "summary": "Squigglevision is a method of computer animation in which the outlines of shapes are made to wiggle and undulate, emulating the effect of sketchily hand-drawn animation.",
   "description": "Squigglevision is a method of computer animation in which the outlines of shapes are made to wiggle and undulate, emulating the effect of sketchily hand-drawn animation. Tom Snyder of Tom Snyder Productions invented the technique, which his animation studio Soup2Nuts subsequently used in Dr. Katz, Professional Therapist in 1995, and in Dick and Paula Celebrity Special, the first season of Home Movies, O'Grady, and Science Court.\n\nCompared with traditional animation, Squigglevision is relatively fast and easy to produce. The non-stop motion of the \"squiggling\" outlines reduces the need for more complex animations in order to make a scene feel dynamic. Tom Snyder describes the result as \"economy of motion\". \"There are almost no disadvantages,\" Snyder asserted. \"It costs just as much to do a helicopter scene as it does to do a living room scene.\"\n\nIn order to create the line oscillation effects that characterize Squigglevision, Tom Snyder Productions' animators loop five slightly different drawings in a sequence called a flic in the animation program Autodesk Animator for MS-DOS. The animators then use software from Avid Technology to merge the flics into the scene, and synchronize them with the soundtrack.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#3a333c",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#060303",
+      "name": "black"
+    },
+    {
+      "hex": "#e40311",
+      "name": "crimson"
+    },
+    {
+      "hex": "#8f090c",
+      "name": "carmine red"
+    },
+    {
+      "hex": "#e09576",
+      "name": "coral"
+    },
+    {
+      "hex": "#8e4e3d",
+      "name": "brick"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,25 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/65535/48855324003_44dbae1f9f_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/e6d1eb8f-1406-485a-98e3-13b032a93683/thumb/",
+      "full": "https://live.staticflickr.com/65535/48855324003_44dbae1f9f_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/137260303@N06/48855324003",
+      "caption": "Lea Verou - Squigglevision in SVG",
+      "source": "Openverse",
+      "license": "BY-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nd/2.0/",
+      "width": "1024",
+      "height": "683",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Squigglevision",
@@ -71,7 +115,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:33.175Z"
+        "checkedAt": "2026-10-02T02:52:25.489Z"
       }
     },
     {
@@ -82,7 +126,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:33.175Z"
+        "checkedAt": "2026-10-02T02:52:25.489Z"
       }
     }
   ],
@@ -93,5 +137,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:33.175Z"
+  "updatedAt": "2026-10-02T04:59:41.886Z"
 }

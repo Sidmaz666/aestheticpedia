@@ -90,7 +90,25 @@
     "symbolic",
     "hybrid"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/65535/52474452849_e7d34f27f8_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/966d5549-4782-4105-9cc1-c161b1bc0445/thumb/",
+      "full": "https://live.staticflickr.com/65535/52474452849_e7d34f27f8_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/59275783@N04/52474452849",
+      "caption": "Herero Women",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "680",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Herero People and Their Dresses",
@@ -117,5 +135,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T04:57:13.248Z",
-  "updatedAt": "2026-09-19T16:54:49.021Z"
+  "updatedAt": "2026-10-02T04:40:58.622Z"
 }

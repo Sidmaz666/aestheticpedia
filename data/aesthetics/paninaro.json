@@ -19,12 +19,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Consumerism, materialism, apolitical fun, American cultural influence, status",
   "colors": [
     {
-      "hex": "#c3b091",
-      "name": "khaki"
+      "hex": "#0b0b12",
+      "name": "black"
     },
     {
-      "hex": "#0000ff",
-      "name": "blue"
+      "hex": "#3a3821",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#586758",
+      "name": "graphite"
+    },
+    {
+      "hex": "#092e40",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#79601d",
+      "name": "sepia"
+    },
+    {
+      "hex": "#649292",
+      "name": "slate"
     }
   ],
   "paletteSource": "derived",
@@ -70,7 +86,25 @@
     "american cultural influence",
     "status"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/4074/4942519620_b5e3237d32_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/f59fe959-0826-4835-ab96-42d7493eed17/thumb/",
+      "full": "https://live.staticflickr.com/4074/4942519620_b5e3237d32_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/21267730@N04/4942519620",
+      "caption": "Paninaro",
+      "source": "Openverse",
+      "license": "BY-NC",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "width": "1024",
+      "height": "683",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Paninaro (CC BY-SA)",
@@ -92,7 +126,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:28.957Z"
+        "checkedAt": "2026-10-02T02:52:01.015Z"
       }
     },
     {
@@ -103,7 +137,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:28.957Z"
+        "checkedAt": "2026-10-02T02:52:01.015Z"
       }
     }
   ],
@@ -114,5 +148,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:28.957Z"
+  "updatedAt": "2026-10-02T03:30:06.638Z"
 }

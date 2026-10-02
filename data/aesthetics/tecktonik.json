@@ -23,12 +23,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Dance, self-expression, club culture, energy, individuality",
   "colors": [
     {
-      "hex": "#000000",
+      "hex": "#a4856d",
+      "name": "stone"
+    },
+    {
+      "hex": "#b89d86",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#100e0f",
       "name": "black"
     },
     {
-      "hex": "#ffffff",
-      "name": "white"
+      "hex": "#72533b",
+      "name": "umber"
+    },
+    {
+      "hex": "#c7b4a4",
+      "name": "khaki"
+    },
+    {
+      "hex": "#d9cbbe",
+      "name": "beige"
     }
   ],
   "paletteSource": "derived",
@@ -92,7 +108,38 @@
     "energy",
     "individuality"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/1345/1387984275_278e74bf76_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/15bff84a-b9fd-429b-84af-6e8df97e7c5e/thumb/",
+      "full": "https://live.staticflickr.com/1345/1387984275_278e74bf76_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/11089619@N00/1387984275",
+      "caption": "tecktonik;",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Nl-tecktonik.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Nl-tecktonik",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nl-tecktonik.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "Marcel coenders",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Tecktonik (CC BY-SA)",
@@ -114,7 +161,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:34.240Z"
+        "checkedAt": "2026-10-02T02:52:30.250Z"
       }
     },
     {
@@ -125,7 +172,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:34.240Z"
+        "checkedAt": "2026-10-02T02:52:30.250Z"
       }
     }
   ],
@@ -136,5 +183,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:34.240Z"
+  "updatedAt": "2026-10-02T03:32:08.351Z"
 }

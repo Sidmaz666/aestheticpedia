@@ -19,12 +19,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Intelligence, introspection, sensuality, emotionality",
   "colors": [
     {
-      "hex": "#000000",
-      "name": "black"
+      "hex": "#d7d1cd",
+      "name": "bone white"
     },
     {
-      "hex": "#ffffff",
-      "name": "white"
+      "hex": "#d78993",
+      "name": "rose pink"
+    },
+    {
+      "hex": "#46192c",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#d0425e",
+      "name": "vermilion"
+    },
+    {
+      "hex": "#948c8a",
+      "name": "stone"
+    },
+    {
+      "hex": "#814b25",
+      "name": "sepia"
     }
   ],
   "paletteSource": "derived",
@@ -68,7 +84,49 @@
     "sensuality",
     "emotionality"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/659/20934271199_f04d47b0d7_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/4cdb3cf0-af5b-4b7f-922c-44dea0c4e42a/thumb/",
+      "full": "https://live.staticflickr.com/659/20934271199_f04d47b0d7_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/94467141@N00/20934271199",
+      "caption": "My very thoughtful daughter gave me these cool new shoes for my birthday and went ahead and got herself a new pair, too",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "1024",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/FilmWonk_Podcast_-_Episode_61_-_%22Wild%22_%28dir._Jean-Marc_Vall%C3%A9e%29_%28IA_FilmwonkPodcast-Episode61-wilddir.Jean-marcValle%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "FilmWonk Podcast - Episode 61 - \"Wild\" (dir. Jean-Marc Vallée) (IA FilmwonkPodcast-Episode61-wilddir.Jean-marcValle)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:FilmWonk_Podcast_-_Episode_61_-_%22Wild%22_(dir._Jean-Marc_Vall%C3%A9e)_(IA_FilmwonkPodcast-Episode61-wilddir.Jean-marcValle).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 1618,
+      "artist": "FilmWonk",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Children%27s_corner_of_Meng.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Children's corner of Meng",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Children%27s_corner_of_Meng.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 135,
+      "artist": "Jason M. C., Han",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Thought Daughter (CC BY-SA)",
@@ -90,7 +148,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:34.707Z"
+        "checkedAt": "2026-10-02T02:52:31.550Z"
       }
     },
     {
@@ -101,7 +159,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:34.707Z"
+        "checkedAt": "2026-10-02T02:52:31.550Z"
       }
     }
   ],
@@ -112,5 +170,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:34.707Z"
+  "updatedAt": "2026-10-02T08:42:59.286Z"
 }

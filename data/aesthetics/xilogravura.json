@@ -91,7 +91,25 @@
     "popular",
     "traditional"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/7278/7510359974_d995993802_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/8e577697-4cd1-4d0e-9362-14fc388ab180/thumb/",
+      "full": "https://live.staticflickr.com/7278/7510359974_d995993802_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/13339783@N04/7510359974",
+      "caption": "xilogravura",
+      "source": "Openverse",
+      "license": "BY-NC",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "width": "683",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Museum of Everything",
@@ -124,5 +142,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T05:24:11.299Z",
-  "updatedAt": "2026-09-19T16:51:37.218Z"
+  "updatedAt": "2026-10-02T03:33:49.993Z"
 }

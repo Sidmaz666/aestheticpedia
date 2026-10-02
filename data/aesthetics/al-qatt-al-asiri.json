@@ -20,7 +20,33 @@
   "summary": "Al-Qatt al-Asiri, also referred to as Nagsh or al-Zayyaan, is a style of South Arabian interior architectural art style, typically painted by women in the entrance to a home.",
   "description": "Al-Qatt al-Asiri, also referred to as Nagsh or al-Zayyaan, is a style of South Arabian interior architectural art style, typically painted by women in the entrance to a home. It originated in Asir where the front parlour of traditional Arab homes typically contained wall paintings in the form of a mural or fresco with geometric designs in bright colors. Called nagash in Arabic, the wall paintings are often considered a mark of pride. In 2017, Al-Qatt Al-Asiri was inscribed on UNESCO's list of Intangible Cultural Heritage of Humanity.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#020202",
+      "name": "black"
+    },
+    {
+      "hex": "#232322",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#414040",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#8d8b8d",
+      "name": "taupe"
+    },
+    {
+      "hex": "#686767",
+      "name": "umber"
+    },
+    {
+      "hex": "#bbb9bb",
+      "name": "silver"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -42,7 +68,24 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/fd0557c1-20cd-da66-e221-ad381971906c/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/fd0557c1-20cd-da66-e221-ad381971906c/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/fd0557c1-20cd-da66-e221-ad381971906c/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/66173",
+      "caption": "Flemish II",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Al-Qatt Al-Asiri",
@@ -74,7 +117,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:52:56.289Z"
+        "checkedAt": "2026-10-02T02:51:02.624Z"
       }
     },
     {
@@ -85,7 +128,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:52:56.289Z"
+        "checkedAt": "2026-10-02T02:51:02.624Z"
       }
     }
   ],
@@ -96,5 +139,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:54:12.269Z"
+  "updatedAt": "2026-10-02T03:44:57.323Z"
 }

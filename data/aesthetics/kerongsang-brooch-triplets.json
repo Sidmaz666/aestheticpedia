@@ -83,7 +83,24 @@
     "kebaya",
     "accessory"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/63210bce-d3f2-a8e3-d23a-b60eafc933dc/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/63210bce-d3f2-a8e3-d23a-b60eafc933dc/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/63210bce-d3f2-a8e3-d23a-b60eafc933dc/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/192651",
+      "caption": "Brooch",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Peranakan Museum",
@@ -122,5 +139,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T04:02:48.671Z",
-  "updatedAt": "2026-09-19T16:51:24.198Z"
+  "updatedAt": "2026-10-02T04:44:50.340Z"
 }

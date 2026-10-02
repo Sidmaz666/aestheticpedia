@@ -88,7 +88,25 @@
     "czech",
     "regional"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/65535/53685174652_dcc140474c_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/2cd9b449-5e8c-481d-bf54-95916e5ed032/thumb/",
+      "full": "https://live.staticflickr.com/65535/53685174652_dcc140474c_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/32132568@N06/53685174652",
+      "caption": "Litomyšl Castle, Litomyšl, Bohemia, Czechia",
+      "source": "Openverse",
+      "license": "BY-NC",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "width": "1024",
+      "height": "683",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Moravian Museum",
@@ -121,5 +139,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T05:33:08.233Z",
-  "updatedAt": "2026-09-19T16:55:09.448Z"
+  "updatedAt": "2026-10-02T03:28:38.380Z"
 }

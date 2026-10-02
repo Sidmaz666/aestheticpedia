@@ -18,7 +18,7 @@
   "endYear": null,
   "era": "Medieval-Modern",
   "summary": "A fortified village made of mudbrick common in the oases of the Sahara.",
-  "description": "Features compact, high-walled structures with communal living spaces and narrow winding streets designed for defense against raiders while providing thermal mass in extreme desert conditions.",
+  "description": "Features compact, high-walled structures with communal living spaces and narrow winding streets designed for defense against raiders while providing thermal mass in extreme desert conditions.\n\nKsar or qṣar (Arabic: قصر, romanized: qaṣr), in plural ksour or qsour (Arabic: قصور, romanized: quṣūr), is a type of fortified village in North Africa, usually found in the regions predominantly or traditionally inhabited by Berbers (Amazigh). The equivalent Berber term used is ighrem (singular) or igherman (plural).",
   "culturalContext": "The ksour (plural ksar) — fortified mudbrick villages of Morocco's Drâa and Ziz valleys and southern Algeria — stack family towers (igherman) within defensive walls around palm-oasis economy: Aït Benhaddou (UNESCO, film-starred in Gladiator and Game of Thrones), Tinghir, Ghardaïa's M'zab pentad. Collective granaries (agadir), sumptuous gates and earthen repair cycles made ksar life communitarian; rural exodus emptied many, and earthen-architecture conservation programs now train artisans in the original mud-lime craft.",
   "colors": [
     {
@@ -217,6 +217,16 @@
         "status": 0,
         "checkedAt": "2026-09-19T12:55:09.876Z"
       }
+    },
+    {
+      "name": "Wikipedia — Ksar",
+      "url": "https://en.wikipedia.org/wiki/Ksar",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:31:25.456Z"
+      }
     }
   ],
   "references": [
@@ -261,5 +271,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T04:51:04.486Z",
-  "updatedAt": "2026-09-18T05:04:05.571Z"
+  "updatedAt": "2026-10-02T06:41:25.784Z"
 }

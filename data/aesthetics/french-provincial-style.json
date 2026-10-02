@@ -22,8 +22,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Rustic elegance, comfort, simplicity",
   "colors": [
     {
-      "hex": "#ffd700",
-      "name": "gold"
+      "hex": "#242b2d",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#7d7d72",
+      "name": "taupe"
+    },
+    {
+      "hex": "#60645c",
+      "name": "umber"
+    },
+    {
+      "hex": "#454b40",
+      "name": "graphite"
+    },
+    {
+      "hex": "#7c91a1",
+      "name": "slate"
+    },
+    {
+      "hex": "#beb895",
+      "name": "khaki"
     }
   ],
   "paletteSource": "derived",
@@ -61,7 +81,25 @@
     "comfort",
     "simplicity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/3655/3561255213_072351a1a8_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/6c07a99f-7bd4-4636-a7ad-4382477ccce1/thumb/",
+      "full": "https://live.staticflickr.com/3655/3561255213_072351a1a8_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/32461597@N02/3561255213",
+      "caption": "Beautiful vintage French Provincial-style furniture. I wanted it so badly. :c",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "685",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — French Provincial Style (CC BY-SA)",
@@ -83,7 +121,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:21.429Z"
+        "checkedAt": "2026-10-02T02:51:27.509Z"
       }
     },
     {
@@ -94,7 +132,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:21.429Z"
+        "checkedAt": "2026-10-02T02:51:27.509Z"
       }
     }
   ],
@@ -105,5 +143,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:21.429Z"
+  "updatedAt": "2026-10-02T03:26:24.116Z"
 }

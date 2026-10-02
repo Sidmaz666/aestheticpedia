@@ -19,8 +19,34 @@
   "era": "17th century",
   "summary": "Kabukimono (傾奇者) or hatamoto yakko (旗本奴) were gangs of samurai in feudal Japan.",
   "description": "Kabukimono (傾奇者) or hatamoto yakko (旗本奴) were gangs of samurai in feudal Japan. First appearing in the Azuchi–Momoyama period (between the end of the Muromachi period in 1573 and the beginning of the Edo period in 1603) as the turbulent Sengoku period drew to a close, kabukimono were either rōnin, wandering samurai, or men who had once worked for samurai families who, during times of peace, formed street gangs. Some, however, were also members of more prominent clans—most notably Oda Nobunaga and Maeda Toshiie.",
-  "culturalContext": "",
-  "colors": [],
+  "culturalContext": "Kabukimono would often dress in flamboyant clothing, disregarding traditional colours such as light yellow and dark blue, often accessorised by wearing haori jackets with lead weights in the hem, velvet lapels, wide obi belts and even women's clothing. Exoticism was characteristic and included items such as European clothing, Chinese hats, and jinbaori (surcoats) made from Persian carpet. Kabukimono also often had uncommon hairstyles and facial hair, either styled up in various fashions or left to grow long. Their katana would often have fancy hilts, large or square tsuba, red scabbards and were usually longer than normal length. Some kabukimono even used extremely long kiseru pipes as weapons.",
+  "colors": [
+    {
+      "hex": "#d5d5d5",
+      "name": "bone white"
+    },
+    {
+      "hex": "#101010",
+      "name": "black"
+    },
+    {
+      "hex": "#b0b0b0",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#949494",
+      "name": "stone"
+    },
+    {
+      "hex": "#747474",
+      "name": "slate"
+    },
+    {
+      "hex": "#585858",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "Overview": "Kabukimono would often dress in flamboyant clothing, disregarding traditional colours such as light yellow and dark blue, often accessorised by wearing haori jackets with lead weights in the hem, velvet lapels, wide obi belts and even women's clothing. Exoticism was characteristic and included items such as European clothing, Chinese hats, and jinbaori (surcoats) made from Persian carpet. Kabukimono also often had uncommon hairstyles and facial hair, either styled up in various fashions or left to grow long."
   },
@@ -44,7 +70,25 @@
   "tags": [
     "fashion style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/5470/30729812322_9a09304f62.jpg",
+      "thumb": "https://api.openverse.org/v1/images/e037da6d-dcc6-46ef-974b-a09603152583/thumb/",
+      "full": "https://live.staticflickr.com/5470/30729812322_9a09304f62.jpg",
+      "pageUrl": "https://www.flickr.com/photos/21724909@N00/30729812322",
+      "caption": "Kabukimono | Strega",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "500",
+      "height": "335",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Kabukimono",
@@ -76,7 +120,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:23.830Z"
+        "checkedAt": "2026-10-02T02:51:36.488Z"
       }
     },
     {
@@ -87,7 +131,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:23.830Z"
+        "checkedAt": "2026-10-02T02:51:36.488Z"
       }
     }
   ],
@@ -98,5 +142,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:23.830Z"
+  "updatedAt": "2026-10-02T06:31:25.987Z"
 }

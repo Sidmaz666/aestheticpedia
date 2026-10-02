@@ -89,8 +89,46 @@
     "colorful",
     "communal"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/4252/34031688204_903a77e121_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/2dab25cb-05e2-4e0e-9460-8274e2e55f03/thumb/",
+      "full": "https://live.staticflickr.com/4252/34031688204_903a77e121_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/94735786@N00/34031688204",
+      "caption": "Shinto Matsuri, Asagaya, Tokyo",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "576",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
+    {
+      "name": "Wikipedia — Matsuri float",
+      "url": "https://en.wikipedia.org/wiki/Matsuri_Float",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:41:18.680Z"
+      }
+    },
+    {
+      "name": "Kokugakuin University Digital Museum — Dashi",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/id=9614",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:41:18.680Z"
+      }
+    },
     {
       "name": "Japanese Festival Floats",
       "tier": "B"
@@ -104,11 +142,23 @@
       "tier": "B"
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "type": "article",
+      "title": "Wikipedia — Matsuri float (related)",
+      "url": "https://en.wikipedia.org/wiki/Matsuri_float",
+      "note": "Encyclopedia article",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:38:15.892Z"
+      }
+    }
+  ],
   "popularity": 70,
   "isNiche": false,
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T03:24:39.671Z",
-  "updatedAt": "2026-09-19T16:51:25.713Z"
+  "updatedAt": "2026-10-02T03:27:56.402Z"
 }

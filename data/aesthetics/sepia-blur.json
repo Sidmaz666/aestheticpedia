@@ -22,12 +22,24 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): DIY ethos",
   "colors": [
     {
-      "hex": "#f5f5dc",
-      "name": "beige"
+      "hex": "#693602",
+      "name": "chocolate"
     },
     {
-      "hex": "#704214",
+      "hex": "#854f14",
       "name": "sepia"
+    },
+    {
+      "hex": "#9a6d32",
+      "name": "bronze"
+    },
+    {
+      "hex": "#af8f5f",
+      "name": "camel"
+    },
+    {
+      "hex": "#c2ad8d",
+      "name": "khaki"
     }
   ],
   "paletteSource": "derived",
@@ -71,7 +83,25 @@
     "aesthetics wiki",
     "diy ethos"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/102/299693339_de8111b468_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/0b58e7d1-c7bb-475e-a85c-66d3cbccaa6b/thumb/",
+      "full": "https://live.staticflickr.com/102/299693339_de8111b468_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/12394893@N00/299693339",
+      "caption": "Eiffel Tower, sepia, blurred",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Sepia Blur (CC BY-SA)",
@@ -92,5 +122,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:31.601Z"
+  "updatedAt": "2026-10-02T04:56:30.024Z"
 }

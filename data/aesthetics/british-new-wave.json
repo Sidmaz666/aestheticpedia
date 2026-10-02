@@ -17,7 +17,33 @@
   "summary": "The British New Wave is a style of films released in the United Kingdom between 1959 and 1963.",
   "description": "The British New Wave is a style of films released in the United Kingdom between 1959 and 1963. The label is a translation of Nouvelle Vague, the French term first applied to the films of François Truffaut and Jean-Luc Godard, among others.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#7e7a75",
+      "name": "taupe"
+    },
+    {
+      "hex": "#6c4d40",
+      "name": "umber"
+    },
+    {
+      "hex": "#302830",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#c0928e",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#b66745",
+      "name": "copper"
+    },
+    {
+      "hex": "#91acc9",
+      "name": "dove grey"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,38 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/7762/18135614462_98ae122970_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/2aba36d3-cc53-418c-9377-4ab310494b35/thumb/",
+      "full": "https://live.staticflickr.com/7762/18135614462_98ae122970_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/51764518@N02/18135614462",
+      "caption": "Vintage LP Vinyl Record Collection - Colour By Numbers Album By Culture Club, Second Album By The British New Wave Band. Released By Virgin Records, Catalog Number QET 39107, Epic Records 1983",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "1024",
+      "height": "1010",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Call_Them_Soldiers_-_reanimated_%28IA_CallThemSoldiers-reanimated%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Call Them Soldiers - reanimated (IA CallThemSoldiers-reanimated)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Call_Them_Soldiers_-_reanimated_(IA_CallThemSoldiers-reanimated).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 2779,
+      "artist": "Christopher Rorzruch",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — British New Wave",
@@ -73,7 +130,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:52:59.020Z"
+        "checkedAt": "2026-10-02T02:51:10.727Z"
       }
     },
     {
@@ -84,7 +141,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:52:59.020Z"
+        "checkedAt": "2026-10-02T02:51:10.727Z"
       }
     }
   ],
@@ -95,5 +152,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:54:22.341Z"
+  "updatedAt": "2026-10-02T08:42:58.819Z"
 }

@@ -19,8 +19,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Positivity, unwavering acceptance, sexual diversity, cheerfulness, frivolity",
   "colors": [
     {
-      "hex": "#ffd1dc",
-      "name": "pastel"
+      "hex": "#010101",
+      "name": "black"
+    },
+    {
+      "hex": "#685740",
+      "name": "umber"
+    },
+    {
+      "hex": "#4c3a27",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#c1af82",
+      "name": "sand"
+    },
+    {
+      "hex": "#261c14",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#877657",
+      "name": "bronze"
     }
   ],
   "paletteSource": "derived",
@@ -77,8 +97,49 @@
     "cheerfulness",
     "frivolity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/5604/15436592557_1d2e15896d_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/4ff75486-8f84-46cb-be6d-7e473a7f3b34/thumb/",
+      "full": "https://live.staticflickr.com/5604/15436592557_1d2e15896d_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/54563451@N08/15436592557",
+      "caption": "bee cute furry face, m, argentina, face_2014-08-07-18.21.23 ZS PMax",
+      "source": "Openverse",
+      "license": "PDM",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": "1024",
+      "height": "732",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/188-_Showering_the_Rank%2C_Furry_Body_All_Over_the_Tent.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "188- Showering the Rank, Furry Body All Over the Tent",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:188-_Showering_the_Rank,_Furry_Body_All_Over_the_Tent.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 5376,
+      "artist": "Bull of Heaven",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+  ],
   "sources": [
+    {
+      "name": "Wikipedia — Furry",
+      "url": "https://en.wikipedia.org/wiki/Furry",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Furry (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Furry",
@@ -91,12 +152,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q11332359",
+  "wikipedia": "Furry",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:21.530Z"
+  "updatedAt": "2026-10-02T08:42:58.956Z"
 }

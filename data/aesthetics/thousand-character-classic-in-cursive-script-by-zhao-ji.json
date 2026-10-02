@@ -17,7 +17,25 @@
   "summary": "Thousand Character Classic in Cursive Script (赵佶草书千字文; Zhàojí cǎoshū qiān zì wén)  is a notable calligraphy scroll purportedly crafted by Emperor Huizong Zhao Ji in the fourth year of the Xuanhe era of the Song dynasty (1122 AD).",
   "description": "Thousand Character Classic in Cursive Script (赵佶草书千字文; Zhàojí cǎoshū qiān zì wén)  is a notable calligraphy scroll purportedly crafted by Emperor Huizong Zhao Ji in the fourth year of the Xuanhe era of the Song dynasty (1122 AD). The scroll measures 31.5 centimeters in height and 1172 centimeters in width, crafted on an exclusively made palace paper known as \"Yunlong Jinjian\" (云龙金笺纸), distinguished by hand-drawn cloud and dragon patterns with gold powder on white hemp paper. The scroll stretches over 10 feet in length without any seams. The back of the calligraphy scroll bears the seal of \"Imperial Calligraphy\" (御书) and a monogram (花押) devised and utilized by Zhao Ji. Currently, it is housed in the Liaoning Provincial Museum.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#af9874",
+      "name": "camel"
+    },
+    {
+      "hex": "#8f7a5c",
+      "name": "bronze"
+    },
+    {
+      "hex": "#62503c",
+      "name": "umber"
+    },
+    {
+      "hex": "#4a3a2b",
+      "name": "walnut brown"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +57,24 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Songhuizong9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/45/Songhuizong9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/4/45/Songhuizong9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File%3ASonghuizong9.jpg",
+      "caption": "Emperor Huizong of Song, Classic Thousand-character Grass script.",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "800",
+      "height": "287",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Thousand Character Classic in Cursive Script by Zhao Ji",
@@ -71,7 +106,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:17.681Z"
+        "checkedAt": "2026-10-02T02:52:31.575Z"
       }
     },
     {
@@ -82,7 +117,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:17.681Z"
+        "checkedAt": "2026-10-02T02:52:31.575Z"
       }
     }
   ],
@@ -93,5 +128,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:55:42.097Z"
+  "updatedAt": "2026-10-02T03:32:27.107Z"
 }

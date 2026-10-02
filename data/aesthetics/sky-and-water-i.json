@@ -17,7 +17,33 @@
   "summary": "Sky and Water I is a woodcut print by the Dutch artist M.",
   "description": "Sky and Water I is a woodcut print by the Dutch artist M. C. Escher first printed in June 1938. The basis of this print is a regular division of the plane consisting of birds and fish. Both prints have the  horizontal series of these elements—fitting into each other like the pieces of a jigsaw puzzle—in the middle, transitional portion of the prints. In this central layer the pictorial elements are equal: birds and fish are alternately foreground or background, depending on whether the eye concentrates on light or dark elements. The birds take on an increasing three-dimensionality in the upward direction, and the fish, in the downward direction. But as the fish progress upward and the birds downward they gradually lose their shapes to become a uniform background of sky and water, respectively.\n\nAccording to Escher: \"In the horizontal center strip there are birds and fish equivalent to each other. We associate flying with sky, and so for each of the black birds the sky in which it is flying is formed by the four white fish which encircle it. Similarly swimming makes us think of water, and therefore the four black birds that surround a fish become the water in which it swims.\"\n\nThis print has been used in physics, geology, chemistry, and in psychology for the study of visual perception. In the pictures a number of visual elements unite into a simple visual representation, but separately each forms a point of departure for the elucidation of a theory in one of these disciplines.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#d5d2d0",
+      "name": "bone white"
+    },
+    {
+      "hex": "#191b1f",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#8c8887",
+      "name": "taupe"
+    },
+    {
+      "hex": "#6a6868",
+      "name": "umber"
+    },
+    {
+      "hex": "#aca8a4",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#4a494a",
+      "name": "graphite"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,60 @@
   "tags": [
     "art style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/46/146689095_f1680062c8_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/62605832-c050-4dfd-bb66-853e17285d63/thumb/",
+      "full": "https://live.staticflickr.com/46/146689095_f1680062c8_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/28705893@N00/146689095",
+      "caption": "Escher's Sky and Water I",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "768",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Now%27s_Time_3C_Panda_Water-Dance_in_Chinese_Landscape-painting_of_Blue_Forest_JMC_Han.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Now's Time 3C Panda Water-Dance in Chinese Landscape-painting of Blue Forest JMC Han",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Now%27s_Time_3C_Panda_Water-Dance_in_Chinese_Landscape-painting_of_Blue_Forest_JMC_Han.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 156,
+      "artist": "Jason M. C., Han",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Cramer_Etudes-_%27d_minor_Etude%27%2C_Player_JMC%2C_Han.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Cramer Etudes- 'd minor Etude', Player JMC, Han",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cramer_Etudes-_%27d_minor_Etude%27,_Player_JMC,_Han.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 59,
+      "artist": "Jason M. C., Han",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Now%27s_The_Time_2C_Panda%27s_Dance_Variation_Jason_Exercise.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Now's The Time 2C Panda's Dance Variation Jason Exercise",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Now%27s_The_Time_2C_Panda%27s_Dance_Variation_Jason_Exercise.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 47,
+      "artist": "Jason M. C., Han",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Sky and Water I",
@@ -71,7 +150,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:15.485Z"
+        "checkedAt": "2026-10-02T02:52:23.415Z"
       }
     },
     {
@@ -82,7 +161,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:15.485Z"
+        "checkedAt": "2026-10-02T02:52:23.415Z"
       }
     }
   ],
@@ -93,5 +172,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:55:33.888Z"
+  "updatedAt": "2026-10-02T04:58:33.149Z"
 }

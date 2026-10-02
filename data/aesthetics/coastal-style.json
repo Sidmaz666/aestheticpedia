@@ -21,7 +21,33 @@
   "summary": "The style is characterized by a color palette of blues, whites, and light neutrals, often incorporating natural materials like light wood, woven fibers (such as rattan, wicker, and jute), and linen.",
   "description": "The style is characterized by a color palette of blues, whites, and light neutrals, often incorporating natural materials like light wood, woven fibers (such as rattan, wicker, and jute), and linen. Walls may feature white paint or textured finishes like polished concrete, with occasional accents of blue. Flooring often utilizes light-colored wood or concrete, supplemented by natural fiber rugs. Ceilings may display wooden beams painted white or in natural wood tones.\n\nFurniture in Coastal Style typically includes light-colored wood pieces, sometimes with a driftwood-like finish, and white or blue upholstery. Woven natural fibers are common in seating and decorative items. Windows may be dressed with sheer white curtains, and fabrics often feature stripes or nautical patterns. Wood is a prevalent material, used for furniture and flooring, while metal is used sparingly for accents.\n\nRetailers such as Maisons du Monde, Kave Home, Decoclico, Casa, and La Redoute offer collections featuring Coastal Style furniture and decor. These collections include items for various rooms, such as living rooms with white wood media units and linen sofas, dining rooms with round wood tables and rattan chairs, and bedrooms with light wood furniture and blue or white linens. Bathroom decor may include rustic vanities and woven storage baskets.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Relaxation, Lightness, Naturalness, Maritime Inspiration, Serenity",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#182224",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#e0dcd1",
+      "name": "bone white"
+    },
+    {
+      "hex": "#3f4846",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#726e67",
+      "name": "bronze"
+    },
+    {
+      "hex": "#7f3c19",
+      "name": "sepia"
+    },
+    {
+      "hex": "#948d8d",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "colour": "Blue, white, neutrals"
   },
@@ -55,7 +81,25 @@
     "maritime inspiration",
     "serenity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/304/20396423745_0c6e468818_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/5e4702a2-9738-40a3-912d-7ed0bbd76dd8/thumb/",
+      "full": "https://live.staticflickr.com/304/20396423745_0c6e468818_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/101592688@N07/20396423745",
+      "caption": "Coastal Style Tea",
+      "source": "Openverse",
+      "license": "BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": "1024",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Coastal Style (CC BY-SA)",
@@ -76,5 +120,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:18.735Z"
+  "updatedAt": "2026-10-02T03:24:06.473Z"
 }

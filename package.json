@@ -19,7 +19,9 @@
     "data:import": "node scripts/data/import-wikidata.ts",
     "data:palette": "node scripts/data/palette.ts",
     "data:enrich": "node scripts/data/enrich-text.ts",
-    "data:refresh": "npm run data:normalize && npm run data:images && npm run data:palette && npm run data:enrich && npm run data:links && npm run data:build",
+    "data:fields": "node scripts/data/enrich-wikidata-fields.ts",
+    "data:link": "node scripts/data/link-records.ts",
+    "data:refresh": "npm run data:normalize && npm run data:images && npm run data:palette && npm run data:enrich && npm run data:fields && npm run data:link && npm run data:links && npm run data:build",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test"

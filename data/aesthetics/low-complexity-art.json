@@ -17,7 +17,33 @@
   "summary": "Low-complexity art was described by Jürgen Schmidhuber in 1997, defined as art that can be described by a short computer program (that is, a computer program of small Kolmogorov complexity).",
   "description": "Low-complexity art was described by Jürgen Schmidhuber in 1997, defined as art that can be described by a short computer program (that is, a computer program of small Kolmogorov complexity). The topic has been referenced by other scientific articles.",
   "culturalContext": "Schmidhuber characterizes low-complexity art as the computer age equivalent of minimal art. He also describes an algorithmic theory of beauty and aesthetics based on the principles of algorithmic information theory and minimum description length. It explicitly addresses the subjectivity of the observer and postulates that among several input data classified as comparable by a given subjective observer, the most pleasing one has the shortest description, given the observer's previous knowledge and his or her particular method for encoding the data. For example, mathematicians enjoy simple proofs with a short description in their formal language (sometimes called mathematical beauty). Another example draws inspiration from 15th century proportion studies by Leonardo da Vinci and Albrecht Dürer: the proportions of a beautiful human face can be described by very few bits of information.",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#f1e1bd",
+      "name": "cream"
+    },
+    {
+      "hex": "#cbc2a3",
+      "name": "beige"
+    },
+    {
+      "hex": "#9f9a84",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#747261",
+      "name": "bronze"
+    },
+    {
+      "hex": "#59594b",
+      "name": "umber"
+    },
+    {
+      "hex": "#3e3f34",
+      "name": "charcoal"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,25 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/The_world%27s_inhabitants%3B_or%2C_Mankind%2C_animals%2C_and_plants%3B_being_a_popular_account_of_the_races_and_nations_of_mankind%2C_past_and_present%2C_and_the_animals_and_plants_inhabiting_the_great_continents_and_%2814597822430%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/The_world%27s_inhabitants%3B_or%2C_Mankind%2C_animals%2C_and_plants%3B_being_a_popular_account_of_the_races_and_nations_of_mankind%2C_past_and_present%2C_and_the_animals_and_plants_inhabiting_the_great_continents_and_%2814597822430%29.jpg/500px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/The_world%27s_inhabitants%3B_or%2C_Mankind%2C_animals%2C_and_plants%3B_being_a_popular_account_of_the_races_and_nations_of_mankind%2C_past_and_present%2C_and_the_animals_and_plants_inhabiting_the_great_continents_and_%2814597822430%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File%3AThe%20world's%20inhabitants%3B%20or%2C%20Mankind%2C%20animals%2C%20and%20plants%3B%20being%20a%20popular%20account%20of%20the%20races%20and%20nations%20of%20mankind%2C%20past%20and%20present%2C%20and%20the%20animals%20and%20plants%20inhabiting%20the%20great%20continents%20and%20(14597822430).jpg",
+      "caption": "\nIdentifier: worldsinhabitant00bett (find matches)\nTitle: The world's inhabitants; or, Mankind, animals, and plants; being a popular account of the ra",
+      "source": "Wikimedia Commons",
+      "license": "No restrictions",
+      "licenseUrl": "https://www.flickr.com/commons/usage/",
+      "width": "2028",
+      "height": "3090",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Low-complexity art",
@@ -71,7 +115,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:25.067Z"
+        "checkedAt": "2026-10-02T02:51:41.696Z"
       }
     },
     {
@@ -82,7 +126,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:25.067Z"
+        "checkedAt": "2026-10-02T02:51:41.696Z"
       }
     }
   ],
@@ -93,5 +137,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:25.067Z"
+  "updatedAt": "2026-10-02T06:41:25.941Z"
 }

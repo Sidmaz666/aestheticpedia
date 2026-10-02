@@ -17,7 +17,25 @@
   "summary": "Gollu-chichi or Gollu carpets — Azerbaijani carpets belonging to the Guba school of carpet weaving.",
   "description": "Gollu-chichi or Gollu carpets — Azerbaijani carpets belonging to the Guba school of carpet weaving.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#50190a",
+      "name": "burgundy"
+    },
+    {
+      "hex": "#783d14",
+      "name": "sepia"
+    },
+    {
+      "hex": "#9f6b28",
+      "name": "bronze"
+    },
+    {
+      "hex": "#96826b",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +57,24 @@
   "tags": [
     "rug style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/%C2%AB%D0%93%D0%BE%D0%BB%D0%BB%D1%83_%D1%87%D0%B8%D1%87%D0%B8%C2%BB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3f/%C2%AB%D0%93%D0%BE%D0%BB%D0%BB%D1%83_%D1%87%D0%B8%D1%87%D0%B8%C2%BB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/3/3f/%C2%AB%D0%93%D0%BE%D0%BB%D0%BB%D1%83_%D1%87%D0%B8%D1%87%D0%B8%C2%BB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File%3A%C2%AB%D0%93%D0%BE%D0%BB%D0%BB%D1%83%20%D1%87%D0%B8%D1%87%D0%B8%C2%BB.jpg",
+      "caption": "Ковер «Голлу чичи» Куба-Ширванской школы ковроткачества",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "width": "706",
+      "height": "990",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Gollu-chichi carpets",
@@ -71,7 +106,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:22.134Z"
+        "checkedAt": "2026-10-02T02:51:29.821Z"
       }
     },
     {
@@ -82,7 +117,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:22.134Z"
+        "checkedAt": "2026-10-02T02:51:29.821Z"
       }
     }
   ],
@@ -93,5 +128,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T15:08:19.201Z",
-  "updatedAt": "2026-09-19T16:51:22.134Z"
+  "updatedAt": "2026-10-02T03:27:02.409Z"
 }

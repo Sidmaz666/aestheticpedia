@@ -106,7 +106,25 @@
     "cultural heritage",
     "traditional building"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/65535/49008464983_a5c9073d7c_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/72c314fa-b9e8-4355-92c4-92d25c4d0e7a/thumb/",
+      "full": "https://live.staticflickr.com/65535/49008464983_a5c9073d7c_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/53106173@N05/49008464983",
+      "caption": "tata somba",
+      "source": "Openverse",
+      "license": "PDM",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": "1024",
+      "height": "683",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "UNESCO",
@@ -139,5 +157,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T05:00:56.361Z",
-  "updatedAt": "2026-09-19T16:51:34.060Z"
+  "updatedAt": "2026-10-02T03:32:03.586Z"
 }

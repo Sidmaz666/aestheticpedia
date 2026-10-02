@@ -19,7 +19,29 @@
   "summary": "Sheffield, England, has a large population of amateur, working and professional visual artists and artworks.",
   "description": "Sheffield, England, has a large population of amateur, working and professional visual artists and artworks.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#d8cabf",
+      "name": "beige"
+    },
+    {
+      "hex": "#b9bbb6",
+      "name": "silver"
+    },
+    {
+      "hex": "#92a4aa",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#748c9a",
+      "name": "slate"
+    },
+    {
+      "hex": "#467186",
+      "name": "slate 2"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -54,7 +76,60 @@
   "tags": [
     "art of an area"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/5538/12637947455_a0f6c60785_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/65c554fa-54c7-4544-b69d-f7371c4ddedb/thumb/",
+      "full": "https://live.staticflickr.com/5538/12637947455_a0f6c60785_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/29528454@N04/12637947455",
+      "caption": "HIGH SCHOOL ART--1959--SHEFFIELD STEEL",
+      "source": "Openverse",
+      "license": "BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": "745",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Sheffield_Indymedia_-_2009-03-28_Free_Software_and_Beyond_-_The_World_of_Peer_Production_-_1_Tatiana_Bazzichelli_-_The_Art_of_Networking.vorb.oga?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Sheffield Indymedia - 2009-03-28 Free Software and Beyond - The World of Peer Production - 1 Tatiana Bazzichelli - The Art of Networking.vorb",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sheffield_Indymedia_-_2009-03-28_Free_Software_and_Beyond_-_The_World_of_Peer_Production_-_1_Tatiana_Bazzichelli_-_The_Art_of_Networking.vorb.oga",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 4059,
+      "artist": "Sheffield Indymedia",
+      "license": "Public Domain",
+      "licenseUrl": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Sheffield_Indymedia_-_2010-03-27_Ideas_Around_Hacking_-_How_Does_Openness_Work_-_2_How_Does_Openness_Work%3F.vorb.oga?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Sheffield Indymedia - 2010-03-27 Ideas Around Hacking - How Does Openness Work - 2 How Does Openness Work?.vorb",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sheffield_Indymedia_-_2010-03-27_Ideas_Around_Hacking_-_How_Does_Openness_Work_-_2_How_Does_Openness_Work%3F.vorb.oga",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 6333,
+      "artist": "Sheffield Indymedia",
+      "license": "Public Domain",
+      "licenseUrl": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sheffield_Indymedia_-_2010-03-27_Ideas_Around_Hacking_-_How_Does_Openness_Work_-_1_Ideas_Around_Hacking.vorb.oga?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Sheffield Indymedia - 2010-03-27 Ideas Around Hacking - How Does Openness Work - 1 Ideas Around Hacking.vorb",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sheffield_Indymedia_-_2010-03-27_Ideas_Around_Hacking_-_How_Does_Openness_Work_-_1_Ideas_Around_Hacking.vorb.oga",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 3270,
+      "artist": "Sheffield Indymedia",
+      "license": "Public Domain",
+      "licenseUrl": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Art in Sheffield",
@@ -86,7 +161,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:16.246Z"
+        "checkedAt": "2026-10-02T02:51:03.886Z"
       }
     },
     {
@@ -97,7 +172,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:16.246Z"
+        "checkedAt": "2026-10-02T02:51:03.886Z"
       }
     }
   ],
@@ -108,5 +183,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-19T06:37:26.626Z",
-  "updatedAt": "2026-09-19T16:51:16.246Z"
+  "updatedAt": "2026-10-02T03:21:45.100Z"
 }

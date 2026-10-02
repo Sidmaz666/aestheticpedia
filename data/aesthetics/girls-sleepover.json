@@ -22,12 +22,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Friendship, coming-of-age",
   "colors": [
     {
-      "hex": "#ffffff",
-      "name": "white"
+      "hex": "#e8e5e3",
+      "name": "paper white"
     },
     {
-      "hex": "#ffc0cb",
-      "name": "pink"
+      "hex": "#bbb7b3",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#d2cecb",
+      "name": "bone white"
+    },
+    {
+      "hex": "#a4a09a",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#8c8781",
+      "name": "taupe"
+    },
+    {
+      "hex": "#736f67",
+      "name": "slate"
     }
   ],
   "paletteSource": "derived",
@@ -70,7 +86,25 @@
     "friendship",
     "coming-of-age"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/5047/5308170162_9a6436d5bb_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/40dd7bb7-dbd5-432b-8681-01b991e6fb24/thumb/",
+      "full": "https://live.staticflickr.com/5047/5308170162_9a6436d5bb_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/51852512@N02/5308170162",
+      "caption": "Girls Sleepover 1913",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "658",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Girls' Sleepover (CC BY-SA)",
@@ -92,7 +126,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:21.975Z"
+        "checkedAt": "2026-10-02T02:51:28.790Z"
       }
     },
     {
@@ -103,7 +137,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:21.975Z"
+        "checkedAt": "2026-10-02T02:51:28.790Z"
       }
     }
   ],
@@ -114,5 +148,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:21.975Z"
+  "updatedAt": "2026-10-02T03:26:51.531Z"
 }

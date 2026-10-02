@@ -22,12 +22,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Beauty, femininity, perfection, artificiality",
   "colors": [
     {
-      "hex": "#ffd1dc",
-      "name": "pastel"
+      "hex": "#0b0b0b",
+      "name": "black"
     },
     {
-      "hex": "#ffc0cb",
-      "name": "pink"
+      "hex": "#222222",
+      "name": "ink blue"
+    },
+    {
+      "hex": "#3a3a3a",
+      "name": "aubergine"
+    },
+    {
+      "hex": "#535353",
+      "name": "graphite"
+    },
+    {
+      "hex": "#717171",
+      "name": "slate"
+    },
+    {
+      "hex": "#8e8e8e",
+      "name": "stone"
     }
   ],
   "paletteSource": "derived",
@@ -71,7 +87,60 @@
     "perfection",
     "artificiality"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/65535/51851586709_e4ac14aefd_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/bd6d95b5-4f7d-446f-8160-28e2d317a99a/thumb/",
+      "full": "https://live.staticflickr.com/65535/51851586709_e4ac14aefd_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/21175949@N03/51851586709",
+      "caption": "living dolls",
+      "source": "Openverse",
+      "license": "BY-NC",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "width": "1024",
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Marianne_Kelly_on_holy_wells_etc.opus?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Marianne Kelly on holy wells etc",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Marianne_Kelly_on_holy_wells_etc.opus",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1990,
+      "artist": "A.-K. D.",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Medea_Vox_%28IA_medea_vox-29%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Medea Vox (IA medea vox-29)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Medea_Vox_(IA_medea_vox-29).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 1841,
+      "artist": "Medea, Malmö University",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Medea_Vox_%28IA_medea_vox-8%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Medea Vox (IA medea vox-8)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Medea_Vox_(IA_medea_vox-8).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 2880,
+      "artist": "Medea, Malmö University",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Living Doll (CC BY-SA)",
@@ -93,7 +162,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:24.928Z"
+        "checkedAt": "2026-10-02T02:51:40.893Z"
       }
     },
     {
@@ -104,7 +173,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:24.928Z"
+        "checkedAt": "2026-10-02T02:51:40.893Z"
       }
     }
   ],
@@ -115,5 +184,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:24.928Z"
+  "updatedAt": "2026-10-02T04:46:16.820Z"
 }

@@ -19,7 +19,25 @@
   "summary": "As an aesthetic, Nanchatte Seifuku heavily focuses on academic visuals and motifs but not so much about the learned subject matter, as the goal is to experience comfort and joy from themes and visuals similar to modest private school life as opposed to high-en",
   "description": "As an aesthetic, Nanchatte Seifuku heavily focuses on academic visuals and motifs but not so much about the learned subject matter, as the goal is to experience comfort and joy from themes and visuals similar to modest private school life as opposed to high-end boarding school aesthetics like Preppy or the American school based High School Dream . Main themes of the aesthetic include friendship, personal growth, learning, and more.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Friendship, teamwork, academic rigor, competive spirit",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#bcbbb3",
+      "name": "silver"
+    },
+    {
+      "hex": "#8b8a86",
+      "name": "taupe"
+    },
+    {
+      "hex": "#a3a29c",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#d5d1c5",
+      "name": "bone white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {
     "Overview": "School uniforms; Classroom settings; Uwabaki; Cafeteria food; Sports activities; Cultural festivals; School clubs; Cherry blossom trees; Textbooks and stationery; Field trips; Graduation ceremonies"
   },
@@ -67,7 +85,24 @@
     "academic rigor",
     "competive spirit"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/d60765a6-d6e6-34d1-2d41-111aa0f7f6ca/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/d60765a6-d6e6-34d1-2d41-111aa0f7f6ca/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/d60765a6-d6e6-34d1-2d41-111aa0f7f6ca/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/231553",
+      "caption": "Genji hyakunin isshu",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Nanchatte Seifuku (CC BY-SA)",
@@ -88,5 +123,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:27.030Z"
+  "updatedAt": "2026-10-02T04:48:50.290Z"
 }

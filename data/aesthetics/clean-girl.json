@@ -84,7 +84,49 @@
     "wellness",
     "hyper-curation"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/3082/3135133659_09d46a269c.jpg",
+      "thumb": "https://api.openverse.org/v1/images/ff387274-1e2f-4686-b1cb-7a57ad944f64/thumb/",
+      "full": "https://live.staticflickr.com/3082/3135133659_09d46a269c.jpg",
+      "pageUrl": "https://www.flickr.com/photos/9300817@N04/3135133659",
+      "caption": "CLEANING GIRLS",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "500",
+      "height": "375",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Miche%C3%A1l_%C3%93_Diarmada_-_St_Moling%27s_Well_Mullenakill%2C_St_Albert%27s_Well%2C_Lukeswell.opus?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Micheál Ó Diarmada - St Moling's Well Mullenakill, St Albert's Well, Lukeswell",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Miche%C3%A1l_%C3%93_Diarmada_-_St_Moling%27s_Well_Mullenakill,_St_Albert%27s_Well,_Lukeswell.opus",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 2087,
+      "artist": "A.-K. D.",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Marianne_Kelly_on_holy_wells_etc.opus?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Marianne Kelly on holy wells etc",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Marianne_Kelly_on_holy_wells_etc.opus",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1990,
+      "artist": "A.-K. D.",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Clean Girl (CC BY-SA)",
@@ -106,7 +148,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:18.612Z"
+        "checkedAt": "2026-10-02T02:51:14.885Z"
       }
     },
     {
@@ -117,7 +159,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:18.612Z"
+        "checkedAt": "2026-10-02T02:51:14.885Z"
       }
     }
   ],
@@ -128,5 +170,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:18.612Z"
+  "updatedAt": "2026-10-02T08:42:58.869Z"
 }

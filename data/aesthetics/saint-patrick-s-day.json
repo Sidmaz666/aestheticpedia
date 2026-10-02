@@ -104,10 +104,25 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:58:39.738Z"
+      }
     }
   ],
   "sources": [
+    {
+      "name": "Wikipedia — Saint Patrick's Day",
+      "url": "https://en.wikipedia.org/wiki/Saint_Patrick's_Day",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Saint Patrick's Day (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Saint_Patrick's_Day",
@@ -120,12 +135,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q181817",
+  "wikipedia": "Saint Patrick's Day",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:42:22.392Z"
+  "updatedAt": "2026-10-02T08:47:58.281Z"
 }

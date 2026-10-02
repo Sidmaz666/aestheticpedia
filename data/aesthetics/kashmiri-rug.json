@@ -19,7 +19,33 @@
   "summary": "A Kashmir rug is a hand-knotted oriental rug from Kashmir Valley in the Indian administered portion of the disputed Kashmir region, which is associated with Kashmiri handicrafts.",
   "description": "A Kashmir rug is a hand-knotted oriental rug from Kashmir Valley in the Indian administered portion of the disputed Kashmir region, which is associated with Kashmiri handicrafts. Kashmir rugs or carpets have intricate designs that are primarily oriental, floral style in a range of colors, sizes and quality.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#cab8ac",
+      "name": "silver"
+    },
+    {
+      "hex": "#4b2112",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#ad9e8e",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#7e6453",
+      "name": "bronze"
+    },
+    {
+      "hex": "#694a37",
+      "name": "walnut brown 2"
+    },
+    {
+      "hex": "#968373",
+      "name": "stone"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -43,7 +69,25 @@
   "tags": [
     "rug style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/200/473429671_c6a3744757_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/c2e4f2cd-718a-44e8-8768-c8c05406f2ff/thumb/",
+      "full": "https://live.staticflickr.com/200/473429671_c6a3744757_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/53632766@N00/473429671",
+      "caption": "Kashmiri rug factory",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "768",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Kashmiri rug",
@@ -75,7 +119,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:07.731Z"
+        "checkedAt": "2026-10-02T02:51:37.348Z"
       }
     },
     {
@@ -86,7 +130,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:07.731Z"
+        "checkedAt": "2026-10-02T02:51:37.348Z"
       }
     }
   ],
@@ -97,5 +141,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T15:08:19.201Z",
-  "updatedAt": "2026-09-19T16:54:57.605Z"
+  "updatedAt": "2026-10-02T04:44:38.372Z"
 }

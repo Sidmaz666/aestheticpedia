@@ -88,7 +88,12 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "680",
-      "height": "1024"
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:58:39.738Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Nazi_cosplay_%40_Winter_Comiket_85_%40_Tokyo_Big_Sight_%40_Ariake.jpg/1280px-Nazi_cosplay_%40_Winter_Comiket_85_%40_Tokyo_Big_Sight_%40_Ariake.jpg",
@@ -102,10 +107,25 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:58:39.738Z"
+      }
     }
   ],
   "sources": [
+    {
+      "name": "Wikipedia — Nazi chic",
+      "url": "https://en.wikipedia.org/wiki/Nazi_chic",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Nazi Chic (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Nazi_Chic",
@@ -118,12 +138,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q6983401",
+  "wikipedia": "Nazi chic",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:38:46.877Z"
+  "updatedAt": "2026-10-02T07:57:38.449Z"
 }

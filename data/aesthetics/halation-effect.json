@@ -128,6 +128,16 @@
   ],
   "sources": [
     {
+      "name": "Wikipedia — Anti-halation backing",
+      "url": "https://en.wikipedia.org/wiki/Anti-halation_backing",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:41:18.680Z"
+      }
+    },
+    {
       "name": "Kodak Professional",
       "tier": "A"
     },
@@ -160,7 +170,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
+        "checkedAt": "2026-10-02T02:41:18.680Z"
       }
     }
   ],
@@ -171,5 +181,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:24:44.126Z",
-  "updatedAt": "2026-09-18T05:01:16.509Z"
+  "updatedAt": "2026-10-02T08:47:58.165Z"
 }

@@ -12,7 +12,7 @@
   "establishment": "internet_aesthetic",
   "status": "draft",
   "confidence": 45,
-  "origin": "",
+  "origin": "Mauritius, Bangladesh, Sri Lanka",
   "geography": "Online",
   "periodStart": "AD 600s-1000s",
   "periodEnd": "",
@@ -93,10 +93,60 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "width": "1280",
-      "height": "853"
+      "height": "853",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:58:39.738Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/47_Roshni_Harjani_Recounts_Life_in_Ulhasnagar.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "47 Roshni Harjani Recounts Life in Ulhasnagar",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:47_Roshni_Harjani_Recounts_Life_in_Ulhasnagar.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1076,
+      "artist": "EngProff",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/67_Rinku_Manoj_Valecha_Traces_Her_Family_History_and_the_Architectural_Shifts_of_Ulhasnagar%E2%80%99s_Barracks.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "67 Rinku Manoj Valecha Traces Her Family History and the Architectural Shifts of Ulhasnagar’s Barracks",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:67_Rinku_Manoj_Valecha_Traces_Her_Family_History_and_the_Architectural_Shifts_of_Ulhasnagar%E2%80%99s_Barracks.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 819,
+      "artist": "EngProff",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/44_Shakuntala_Roopchand_Rikhyani_Contextualizes_the_%22Kalyani%22_Identity_within_the_History_of_the_Barracks.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "44 Shakuntala Roopchand Rikhyani Contextualizes the \"Kalyani\" Identity within the History of the Barracks",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:44_Shakuntala_Roopchand_Rikhyani_Contextualizes_the_%22Kalyani%22_Identity_within_the_History_of_the_Barracks.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1435,
+      "artist": "EngProff",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     }
   ],
   "sources": [
+    {
+      "name": "Wikipedia — Diwali",
+      "url": "https://en.wikipedia.org/wiki/Diwali",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Diwali (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Diwali",
@@ -109,12 +159,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q10244",
+  "wikipedia": "Diwali",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:34:39.811Z"
+  "updatedAt": "2026-10-02T08:40:37.513Z"
 }

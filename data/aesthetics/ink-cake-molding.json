@@ -20,7 +20,33 @@
   "summary": "The art of pressing and molding ink cakes from soot and binders, often with decorative designs.",
   "description": "Ink cakes feature intricate relief patterns, calligraphy, and pictorial elements pressed into their surface before hardening. This aesthetic developed as ink production became standardized, with cakes becoming both functional tools and artistic objects.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#454545",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#7e7e7e",
+      "name": "taupe"
+    },
+    {
+      "hex": "#917652",
+      "name": "bronze"
+    },
+    {
+      "hex": "#616060",
+      "name": "umber"
+    },
+    {
+      "hex": "#68543a",
+      "name": "umber 2"
+    },
+    {
+      "hex": "#25221f",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -71,7 +97,24 @@
     "cultural heritage",
     "literati"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://openaccess-cdn.clevelandart.org/1942.233/1942.233_web.jpg",
+      "thumb": "https://openaccess-cdn.clevelandart.org/1942.233/1942.233_web.jpg",
+      "full": "https://openaccess-cdn.clevelandart.org/1942.233/1942.233_web.jpg",
+      "pageUrl": "https://clevelandart.org/art/1942.233",
+      "caption": "Ink Cake with Wang Ziqiao",
+      "source": "Cleveland Museum of Art",
+      "license": "CC0",
+      "width": "865",
+      "height": "900",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "National Museum of China",
@@ -104,5 +147,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T03:34:21.834Z",
-  "updatedAt": "2026-09-19T16:54:53.893Z"
+  "updatedAt": "2026-10-02T04:42:40.526Z"
 }

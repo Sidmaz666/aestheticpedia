@@ -85,7 +85,25 @@
     "religious",
     "carpathian"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/1234/1397125588_7a82c3fe13_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/0a85d23d-a46a-4a83-a87a-75184aa9849f/thumb/",
+      "full": "https://live.staticflickr.com/1234/1397125588_7a82c3fe13_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/12066488@N00/1397125588",
+      "caption": "Carving wooden gates, Maramures",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "1024",
+      "height": "681",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Maramures County Museum",
@@ -124,5 +142,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T05:35:02.638Z",
-  "updatedAt": "2026-09-19T16:55:06.113Z"
+  "updatedAt": "2026-10-02T03:27:50.009Z"
 }

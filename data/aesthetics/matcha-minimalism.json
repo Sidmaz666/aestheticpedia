@@ -22,12 +22,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Self-consciousness, relaxation and reminiscence",
   "colors": [
     {
-      "hex": "#9caf88",
-      "name": "sage green"
+      "hex": "#22230b",
+      "name": "black"
     },
     {
-      "hex": "#ffffff",
-      "name": "white"
+      "hex": "#373923",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#0a0607",
+      "name": "black 2"
+    },
+    {
+      "hex": "#797b78",
+      "name": "slate"
+    },
+    {
+      "hex": "#4b4c41",
+      "name": "graphite"
+    },
+    {
+      "hex": "#8f9491",
+      "name": "stone"
     }
   ],
   "paletteSource": "derived",
@@ -64,7 +80,25 @@
     "relaxation",
     "reminiscence"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/685/32638627513_2cfd86fda1_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/a70bce98-d338-44ca-bff4-518c43eb30e5/thumb/",
+      "full": "https://live.staticflickr.com/685/32638627513_2cfd86fda1_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/76696276@N00/32638627513",
+      "caption": "#tea #matcha #japnesetea #minimalism #green #chawan",
+      "source": "Openverse",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": "1024",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Matcha Minimalism (CC BY-SA)",
@@ -85,5 +119,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:25.574Z"
+  "updatedAt": "2026-10-02T03:27:55.613Z"
 }

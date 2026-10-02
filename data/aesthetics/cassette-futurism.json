@@ -82,7 +82,25 @@
     "beige tech",
     "tape"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/65535/53186127667_b2bd386295_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/e06ee666-a47c-4911-8f25-8934bb49d9df/thumb/",
+      "full": "https://live.staticflickr.com/65535/53186127667_b2bd386295_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/8873441@N06/53186127667",
+      "caption": "8-bit invertebrate bug droid, cassette futurism",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "683",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "CARI — Cassette Futurism",
@@ -111,5 +129,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-11T02:42:31.328Z",
-  "updatedAt": "2026-09-19T16:51:17.818Z"
+  "updatedAt": "2026-10-02T04:30:10.419Z"
 }

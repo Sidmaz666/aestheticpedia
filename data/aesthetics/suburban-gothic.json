@@ -109,7 +109,25 @@
     "facades",
     "uncanny"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/65535/52040897404_076c083213_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/10779009-87c8-4bb1-af1c-6604a7f50f2c/thumb/",
+      "full": "https://live.staticflickr.com/65535/52040897404_076c083213_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/22974618@N00/52040897404",
+      "caption": "Suburban gothic",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "1024",
+      "height": "680",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Suburban Gothic (CC BY-SA)",
@@ -131,7 +149,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:33.462Z"
+        "checkedAt": "2026-10-02T02:52:26.966Z"
       }
     },
     {
@@ -142,7 +160,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:33.462Z"
+        "checkedAt": "2026-10-02T02:52:26.966Z"
       }
     }
   ],
@@ -153,5 +171,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:33.462Z"
+  "updatedAt": "2026-10-02T05:00:01.445Z"
 }

@@ -107,7 +107,12 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1707"
+      "height": "1707",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:58:39.738Z"
+      }
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/The_royal_family_sitting_under_a_canopy%2C_watching_dancers_perform_the_opening_ballet_of_%27La_Costanza_d%27Ulisse%27_MET_DP874833.jpg/1280px-The_royal_family_sitting_under_a_canopy%2C_watching_dancers_perform_the_opening_ballet_of_%27La_Costanza_d%27Ulisse%27_MET_DP874833.jpg",
@@ -121,10 +126,49 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "874"
+      "height": "874",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:58:39.738Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Barroom_Ballet_%28ISRC_USUAN1100310%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Barroom Ballet (ISRC USUAN1100310)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Barroom_Ballet_(ISRC_USUAN1100310).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 57,
+      "artist": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Divertissement_-_Pizzicato_%28from_the_ballet_Sylvia%29_%28ISRC_USUAN1100256%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Divertissement - Pizzicato (from the ballet Sylvia) (ISRC USUAN1100256)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Divertissement_-_Pizzicato_(from_the_ballet_Sylvia)_(ISRC_USUAN1100256).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 96,
+      "artist": "Divertissement - Pizzicato (from the ballet Sylvia) Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
     }
   ],
   "sources": [
+    {
+      "name": "Wikipedia — Ballet",
+      "url": "https://en.wikipedia.org/wiki/Ballet",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Ballet (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Ballet",
@@ -137,12 +181,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q41425",
+  "wikipedia": "Ballet",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:33:32.960Z"
+  "updatedAt": "2026-10-02T08:42:58.789Z"
 }

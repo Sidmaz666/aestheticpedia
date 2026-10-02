@@ -17,28 +17,7 @@
   "summary": "XO is the aesthetic surrounding The Weeknd's early musical projects (House of Balloons, Thursday, EchoesOfSilence).",
   "description": "XO is the aesthetic surrounding The Weeknd's early musical projects (House of Balloons, Thursday, EchoesOfSilence). It incorporates themes of late 2000s parties and the darker aspects of it, with elements of heavy drug usage, sex, manipulation, detachment, and depression. It is not meant to romanticize these topics, but to show the effects it can have on a person's sanity and morals.",
   "culturalContext": "Key values (per the Aesthetics Wiki): Understanding the dark side of heavy drug usage, manipulation, and sex.",
-  "colors": [
-    {
-      "hex": "#ffff00",
-      "name": "yellow"
-    },
-    {
-      "hex": "#000000",
-      "name": "black"
-    },
-    {
-      "hex": "#ffffff",
-      "name": "white"
-    },
-    {
-      "hex": "#0000ff",
-      "name": "blue"
-    },
-    {
-      "hex": "#ff0000",
-      "name": "red"
-    }
-  ],
+  "colors": [],
   "paletteSource": "derived",
   "visualDNA": {
     "colour": "Black, White, Greyscale, Yellow, Red, Blue"
@@ -78,7 +57,41 @@
     "sex."
   ],
   "images": [],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Zh-yue-XO%E9%86%AC.opus?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Zh-yue-XO醬",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Zh-yue-XO%E9%86%AC.opus",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 2,
+      "artist": "Justinrleung",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Xo_%28avk%29.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Xo (avk)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Xo_(avk).wav",
+      "source": "Wikimedia Commons",
+      "mime": "audio/wav",
+      "duration": 1,
+      "artist": "Luce VERGNEAUX",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+  ],
   "sources": [
+    {
+      "name": "Wikipedia — XO",
+      "url": "https://en.wikipedia.org/wiki/XO",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — XO (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/XO",
@@ -91,12 +104,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q257918",
+  "wikipedia": "XO",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:37.284Z"
+  "updatedAt": "2026-10-02T08:42:59.364Z"
 }

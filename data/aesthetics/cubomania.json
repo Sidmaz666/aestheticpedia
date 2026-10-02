@@ -17,7 +17,33 @@
   "summary": "Cubomania is a Surrealist technique of making collages by cutting an image into squares and reassembling without regard for the original image at random to create something new.",
   "description": "Cubomania is a Surrealist technique of making collages by cutting an image into squares and reassembling without regard for the original image at random to create something new.\n\nThe technique was invented by the Romanian surrealist Gherasim Luca. Luca introduced cubomania at two exhibitions in Bucharest, in 1945 and 1946, and in small publications. Luca positioned cubomania as a mix of Karl Marx's and André Breton's ideas. It was a critique of the alleged objectivity of social conditions and rejected the tyranny over liberty.\n\nIt has been described as a \"statistical method\".\n\nPenelope Rosemont and Joseph Jablonski have suggested that cubomania can \"subvert the enslaving 'message' of advertising and to free images from repressive contexts.\"",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#fde495",
+      "name": "cream"
+    },
+    {
+      "hex": "#f9f2d9",
+      "name": "linen"
+    },
+    {
+      "hex": "#f2ac85",
+      "name": "tan"
+    },
+    {
+      "hex": "#f7c0b1",
+      "name": "apricot"
+    },
+    {
+      "hex": "#d49370",
+      "name": "camel"
+    },
+    {
+      "hex": "#bf6c58",
+      "name": "dusty rose"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,25 @@
   "tags": [
     "artistic technique"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/3699/11816531946_803e7555a1_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/6c03651e-1ae3-4334-844d-832f529185a2/thumb/",
+      "full": "https://live.staticflickr.com/3699/11816531946_803e7555a1_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/71805365@N00/11816531946",
+      "caption": "Cubomania Self Portait",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "768",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Cubomania",
@@ -71,7 +115,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:19.235Z"
+        "checkedAt": "2026-10-02T02:51:17.757Z"
       }
     },
     {
@@ -82,7 +126,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:19.235Z"
+        "checkedAt": "2026-10-02T02:51:17.757Z"
       }
     }
   ],
@@ -93,5 +137,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T15:08:19.201Z",
-  "updatedAt": "2026-09-19T16:51:19.235Z"
+  "updatedAt": "2026-10-02T03:24:30.431Z"
 }

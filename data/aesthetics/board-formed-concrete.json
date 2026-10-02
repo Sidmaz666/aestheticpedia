@@ -90,7 +90,25 @@
     "organic",
     "structural"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/8234/8450057216_fd5c5f2cc6_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/6cc1c106-2394-43ec-97c6-57714d37e499/thumb/",
+      "full": "https://live.staticflickr.com/8234/8450057216_fd5c5f2cc6_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/42788598@N00/8450057216",
+      "caption": "Boardform Concrete",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "1024",
+      "height": "590",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "American Concrete Institute",
@@ -129,5 +147,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T02:58:04.722Z",
-  "updatedAt": "2026-09-19T16:51:17.407Z"
+  "updatedAt": "2026-10-02T03:22:31.886Z"
 }

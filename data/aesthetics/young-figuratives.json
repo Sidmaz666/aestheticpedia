@@ -17,7 +17,33 @@
   "summary": "Young Figuratives was the title of two exhibitions of new contemporary art by young German painters.",
   "description": "Young Figuratives was the title of two exhibitions of new contemporary art by young German painters. This first exhibition was shown under this heading in 2001 in the Carolinen Palais in Munich (Germany). The same exhibition was presented at the Museum Mönchehaus Goslar (Germany) in 2002. Both exhibitions were curated by Martin Leyer-Pritzkow.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#ad6639",
+      "name": "copper"
+    },
+    {
+      "hex": "#fefbe0",
+      "name": "ivory"
+    },
+    {
+      "hex": "#d07740",
+      "name": "raw sienna"
+    },
+    {
+      "hex": "#855533",
+      "name": "bronze"
+    },
+    {
+      "hex": "#5c3f27",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#f2ba88",
+      "name": "tan"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,38 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/5244/5228166092_f4e4eefc44_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/8aeffcde-ec6c-4764-81a7-a96b8c861243/thumb/",
+      "full": "https://live.staticflickr.com/5244/5228166092_f4e4eefc44_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/10422334@N08/5228166092",
+      "caption": "Ashley C ... Young Figure skater",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "683",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/2026-08-03_John_Hosey_remembers_Helen_M_Roe.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "2026-08-03 John Hosey remembers Helen M Roe",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:2026-08-03_John_Hosey_remembers_Helen_M_Roe.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1798,
+      "artist": "A.-K. D.",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Young Figuratives",
@@ -71,7 +128,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:37.705Z"
+        "checkedAt": "2026-10-02T02:52:38.679Z"
       }
     },
     {
@@ -82,7 +139,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:37.705Z"
+        "checkedAt": "2026-10-02T02:52:38.679Z"
       }
     }
   ],
@@ -93,5 +150,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:37.705Z"
+  "updatedAt": "2026-10-02T08:42:59.371Z"
 }

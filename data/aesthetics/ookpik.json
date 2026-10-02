@@ -17,7 +17,33 @@
   "summary": "An Ookpik ([ukˈpik]) is a popular Inuit handicraft toy.",
   "description": "An Ookpik ([ukˈpik]) is a popular Inuit handicraft toy. It is a small, souvenir owl with large head and big eyes, a beak, and small black talons. They are often made from wolf fur, sealskin and other traditional materials.\n\nUkpik (ᐅᒃᐱᒃ) is the Inuktitut word for snowy owl.",
   "culturalContext": "The original Ookpik was created in the early 1960s and made from sealskin. The figure was recreated by Jeannie Snowball of Fort Chimo, now Kuujjuaq, for a trade fair in Philadelphia in 1964. The Ookpik figures were created at the Fort Chimo Eskimo Co-operative in Quebec in 1963. The Ookpik is a symbol by which Canadian handicrafts are identified internationally.\n\nMany Canadians and Americans remember owning an Ookpik, and remember it as a popular symbol of Canada.",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#948b87",
+      "name": "stone"
+    },
+    {
+      "hex": "#aba29a",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#bfb8b4",
+      "name": "silver"
+    },
+    {
+      "hex": "#89786a",
+      "name": "taupe"
+    },
+    {
+      "hex": "#6e5f55",
+      "name": "umber"
+    },
+    {
+      "hex": "#e6e4e5",
+      "name": "paper white"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,25 @@
   "tags": [
     "handicraft"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/8022/7257646574_de524d43f2_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/d6e29e20-3ef8-4df6-8a4b-d1190f649d8f/thumb/",
+      "full": "https://live.staticflickr.com/8022/7257646574_de524d43f2_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/8543323@N02/7257646574",
+      "caption": "Ookpik",
+      "source": "Openverse",
+      "license": "BY-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nd/2.0/",
+      "width": "1024",
+      "height": "683",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Ookpik",
@@ -71,7 +115,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:28.720Z"
+        "checkedAt": "2026-10-02T02:52:00.286Z"
       }
     },
     {
@@ -82,7 +126,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:28.720Z"
+        "checkedAt": "2026-10-02T02:52:00.286Z"
       }
     }
   ],
@@ -93,5 +137,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T15:08:19.201Z",
-  "updatedAt": "2026-09-19T16:51:28.720Z"
+  "updatedAt": "2026-10-02T03:29:58.273Z"
 }

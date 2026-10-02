@@ -17,7 +17,33 @@
   "summary": "The Yangshi Lei Archives (Chinese: 样式雷; pinyin: Yàngshì Léi; lit.",
   "description": "The Yangshi Lei Archives (Chinese: 样式雷; pinyin: Yàngshì Léi; lit. 'Lei style architecture') are the collection of design drawings and models of Qing imperial architecture. \"Yangshi\" means architect or architecture, \"Lei\" is the surname of the Lei architectural family.\n\nWorks in the archives include the Forbidden City, the Temple of Heaven, the Summer Palace, the Chengde Mountain Resort, the Eastern Qing tombs and so on. The manuscripts in this archive contain contents that span from interior decoration, site surveys, to construction methods. In terms of forms, they contain drawings of floor plans, sections, elevations, and model buildings made of wood. Over 12,000 out of around 17,000 individual pieces so far found, are now collected in the National Library of China. In 2007, UNESCO inscribed it to the Memory of the World Register-Asia and the Pacific.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#cbbcad",
+      "name": "beige"
+    },
+    {
+      "hex": "#8c6751",
+      "name": "bronze"
+    },
+    {
+      "hex": "#b4a193",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#794b3a",
+      "name": "umber"
+    },
+    {
+      "hex": "#563937",
+      "name": "walnut brown"
+    },
+    {
+      "hex": "#372023",
+      "name": "ink blue"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,24 @@
   "tags": [
     "architectural style"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/2a0a3998-9c01-1cdc-2c5f-9eb3ea25b21a/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/2a0a3998-9c01-1cdc-2c5f-9eb3ea25b21a/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/2a0a3998-9c01-1cdc-2c5f-9eb3ea25b21a/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/182387",
+      "caption": "Ko-Pe-Ley",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Yangshi Lei Archives",
@@ -71,7 +114,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:37.471Z"
+        "checkedAt": "2026-10-02T02:52:38.079Z"
       }
     },
     {
@@ -82,7 +125,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:37.471Z"
+        "checkedAt": "2026-10-02T02:52:38.079Z"
       }
     }
   ],
@@ -93,5 +136,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:37.471Z"
+  "updatedAt": "2026-10-02T05:06:30.797Z"
 }

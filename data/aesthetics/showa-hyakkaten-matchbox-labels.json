@@ -85,7 +85,24 @@
     "ephemera",
     "graphic"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/9f0978d0-3964-c5b1-e2fd-f7662c23270a/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/9f0978d0-3964-c5b1-e2fd-f7662c23270a/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/9f0978d0-3964-c5b1-e2fd-f7662c23270a/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/17625",
+      "caption": "Figures and Matchboxes",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Matchbox Labels Museum",
@@ -124,5 +141,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T03:23:33.940Z",
-  "updatedAt": "2026-09-19T16:51:32.090Z"
+  "updatedAt": "2026-10-02T04:57:26.550Z"
 }

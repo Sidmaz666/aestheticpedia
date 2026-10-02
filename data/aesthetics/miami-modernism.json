@@ -19,10 +19,31 @@
   "culturalContext": "MiMo (Miami Modernism, 1950s-1966) — Miami Beach's postwar answer to Art Deco — dressed resort hotels in relief-screen walls (biscayne breeze blocks), cantilevered porte-cocheres, boomerang balconies, nautical motifs and neon-sculpted signage: the Fontainebleau (Morris Lapidus, 1954), Eden Roc and the di Lido strip. Designed for drive-in tourism and air-conditioned glamour, it fell to redevelopment before preservationists (MiMo Biscayne Association) won districts on Biscayne Boulevard and Collins Waterfront.",
   "colors": [
     {
-      "hex": "#5e35b1",
-      "name": "Purple"
+      "hex": "#f3f3f5",
+      "name": "paper white"
+    },
+    {
+      "hex": "#dcdcde",
+      "name": "bone white"
+    },
+    {
+      "hex": "#9b9b9d",
+      "name": "warm grey"
+    },
+    {
+      "hex": "#5d5c5f",
+      "name": "graphite"
+    },
+    {
+      "hex": "#7d7c7f",
+      "name": "taupe"
+    },
+    {
+      "hex": "#c2c1c3",
+      "name": "silver"
     }
   ],
+  "paletteSource": "derived",
   "visualDNA": {
     "shape": "swooping parapets, cantilevered porte-cocheres, relief screens",
     "composition": "pool-deck stage sets facing drive-in arrivals",
@@ -87,7 +108,25 @@
     "bold",
     "colorful"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/8020/7184042625_f4cc25cc81_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/f68f26d8-10e2-4f40-b577-1641f359ce67/thumb/",
+      "full": "https://live.staticflickr.com/8020/7184042625_f4cc25cc81_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/25955895@N03/7184042625",
+      "caption": "MIMO Miami Modern",
+      "source": "Openverse",
+      "license": "BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": "1024",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Miami Design Preservation League",
@@ -120,5 +159,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-11T04:15:00.271Z",
-  "updatedAt": "2026-09-19T16:51:26.129Z"
+  "updatedAt": "2026-10-02T03:28:14.767Z"
 }

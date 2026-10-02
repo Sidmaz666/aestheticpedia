@@ -17,7 +17,33 @@
   "summary": "Interstitial art is any work of art the basic nature of which falls between, rather than within, the familiar boundaries of accepted genres or media, thus making the work difficult to categorize or describe within a single artistic discipline.",
   "description": "Interstitial art is any work of art the basic nature of which falls between, rather than within, the familiar boundaries of accepted genres or media, thus making the work difficult to categorize or describe within a single artistic discipline.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#807f7f",
+      "name": "taupe"
+    },
+    {
+      "hex": "#6e86a8",
+      "name": "slate"
+    },
+    {
+      "hex": "#666769",
+      "name": "umber"
+    },
+    {
+      "hex": "#425056",
+      "name": "graphite"
+    },
+    {
+      "hex": "#2c3e36",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#101114",
+      "name": "black"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -41,7 +67,25 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/7249/6967862512_9646f5004f_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/1a254bc2-be61-4f18-800c-7ec6174e849b/thumb/",
+      "full": "https://live.staticflickr.com/7249/6967862512_9646f5004f_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/25100141@N05/6967862512",
+      "caption": "Lazer 3.14 + ? - street artists are quick to create interstitial art",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "663",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Interstitial art",
@@ -73,7 +117,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:23.395Z"
+        "checkedAt": "2026-10-02T02:51:35.070Z"
       }
     },
     {
@@ -84,7 +128,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:23.395Z"
+        "checkedAt": "2026-10-02T02:51:35.070Z"
       }
     }
   ],
@@ -95,5 +139,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:23.395Z"
+  "updatedAt": "2026-10-02T04:42:42.639Z"
 }

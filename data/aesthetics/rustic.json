@@ -166,7 +166,30 @@
       }
     }
   ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Emberiza_rustica_-_Rustic_Bunting_XC462025.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Emberiza rustica - Rustic Bunting XC462025",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Emberiza_rustica_-_Rustic_Bunting_XC462025.mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 16,
+      "artist": "Hannu Varkki",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
   "sources": [
+    {
+      "name": "Wikipedia — Rustic",
+      "url": "https://en.wikipedia.org/wiki/Rustic",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Rustic (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Rustic",
@@ -179,12 +202,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q7382481",
+  "wikipedia": "Rustic",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T07:14:39.495Z"
+  "updatedAt": "2026-10-02T08:42:59.203Z"
 }

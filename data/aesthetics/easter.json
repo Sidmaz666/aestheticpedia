@@ -102,10 +102,38 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "width": "1280",
-      "height": "2275"
+      "height": "2275",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:58:39.738Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/WikiWelcome-ABAL1412-vi_%28north%29.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "WikiWelcome-ABAL1412-vi (north)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:WikiWelcome-ABAL1412-vi_(north).wav",
+      "source": "Wikimedia Commons",
+      "mime": "audio/wav",
+      "duration": 3,
+      "artist": "ABAL1412",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     }
   ],
   "sources": [
+    {
+      "name": "Wikipedia — Easter",
+      "url": "https://en.wikipedia.org/wiki/Easter",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Easter (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Easter",
@@ -118,12 +146,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q21196",
+  "wikipedia": "Easter",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:34:44.121Z"
+  "updatedAt": "2026-10-02T08:42:58.915Z"
 }

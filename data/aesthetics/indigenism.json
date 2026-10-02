@@ -87,7 +87,60 @@
     "modernism",
     "political commentary"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/6045/6309959664_404b3a7bfe_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/9ea62e53-7dca-472d-86e6-7530c935764d/thumb/",
+      "full": "https://live.staticflickr.com/6045/6309959664_404b3a7bfe_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/35483578@N03/6309959664",
+      "caption": "World Ferility Rates: Indigenous Family in Viet Nam",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/De-indigen.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "De-indigen",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:De-indigen.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 2,
+      "artist": "Jeuwre",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Rm-sursilv-indigen.flac?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Rm-sursilv-indigen",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rm-sursilv-indigen.flac",
+      "source": "Wikimedia Commons",
+      "mime": "audio/x-flac",
+      "duration": 1,
+      "artist": "Speaker: Erwin Ardüser",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Rm-sursilv-igl_indigen.flac?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Rm-sursilv-igl indigen",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rm-sursilv-igl_indigen.flac",
+      "source": "Wikimedia Commons",
+      "mime": "audio/x-flac",
+      "duration": 2,
+      "artist": "Speaker: Erwin Ardüser",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+  ],
   "sources": [
     {
       "name": "Museum of Latin American Art",
@@ -129,7 +182,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:23.336Z"
+        "checkedAt": "2026-10-02T02:51:34.654Z"
       }
     },
     {
@@ -140,7 +193,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:23.336Z"
+        "checkedAt": "2026-10-02T02:51:34.654Z"
       }
     }
   ],
@@ -151,5 +204,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-11T04:03:56.493Z",
-  "updatedAt": "2026-09-19T16:51:23.336Z"
+  "updatedAt": "2026-10-02T04:42:34.562Z"
 }

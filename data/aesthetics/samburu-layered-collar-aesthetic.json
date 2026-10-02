@@ -90,7 +90,24 @@
     "cultural",
     "identity"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/c0d4307c-c42c-9c0c-57d6-63e2dfdc0b6e/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/c0d4307c-c42c-9c0c-57d6-63e2dfdc0b6e/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/c0d4307c-c42c-9c0c-57d6-63e2dfdc0b6e/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/52283",
+      "caption": "Collar",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Sambaje Cultural Center",
@@ -129,5 +146,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T04:58:01.873Z",
-  "updatedAt": "2026-09-19T16:51:31.048Z"
+  "updatedAt": "2026-10-02T04:55:25.062Z"
 }

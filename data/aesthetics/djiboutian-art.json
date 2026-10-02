@@ -17,7 +17,33 @@
   "summary": "Djiboutian art is the artistic culture of Djibouti.",
   "description": "Djiboutian art is the artistic culture of Djibouti. It includes parts of the Somali and Afar cultures. A lot of Djibouti original art is passed on orally, mainly through song. The oldest evidence of art in Balho are pre-historic rock paintings. Many examples of Islamic, Ottoman, and French influences can be noted in the local buildings, which contain plaster work, motifs and calligraphy.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#030303",
+      "name": "black"
+    },
+    {
+      "hex": "#8d9593",
+      "name": "stone"
+    },
+    {
+      "hex": "#a4acaa",
+      "name": "dove grey"
+    },
+    {
+      "hex": "#747874",
+      "name": "slate"
+    },
+    {
+      "hex": "#5b5d55",
+      "name": "umber"
+    },
+    {
+      "hex": "#39362f",
+      "name": "aubergine"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -40,7 +66,25 @@
     "art",
     "djibouti"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/4082/4950859413_0b929f9a0c_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/82269741-40f9-4ebe-aeaf-af5c9efe0884/thumb/",
+      "full": "https://live.staticflickr.com/4082/4950859413_0b929f9a0c_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/36281822@N08/4950859413",
+      "caption": "Eco-Dome Djibouti",
+      "source": "Openverse",
+      "license": "BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": "1024",
+      "height": "683",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Djiboutian art",
@@ -72,7 +116,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:19.906Z"
+        "checkedAt": "2026-10-02T02:51:20.441Z"
       }
     },
     {
@@ -83,7 +127,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:19.906Z"
+        "checkedAt": "2026-10-02T02:51:20.441Z"
       }
     }
   ],
@@ -94,5 +138,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-19T02:49:23.019Z",
-  "updatedAt": "2026-09-19T16:51:19.906Z"
+  "updatedAt": "2026-10-02T08:47:58.135Z"
 }

@@ -299,7 +299,52 @@
       }
     }
   ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Pt-br_%28Koehne%29-co-hip%C3%B4nimo.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Pt-br (Koehne)-co-hipônimo",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pt-br_(Koehne)-co-hip%C3%B4nimo.mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 3,
+      "artist": "André Koehne",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/PodChat_com_Caren.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "PodChat com Caren",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:PodChat_com_Caren.wav",
+      "source": "Wikimedia Commons",
+      "mime": "audio/wav",
+      "duration": 900,
+      "artist": "Thalef Sousa Santos",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/AC_Cobra_%281964%29.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "AC Cobra (1964)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:AC_Cobra_(1964).ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 22,
+      "artist": "Edvvc",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  ],
   "sources": [
+    {
+      "name": "Wikipedia — COBRA (art movement)",
+      "url": "https://en.wikipedia.org/wiki/COBRA_(art_movement)",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:41:18.680Z"
+      }
+    },
     {
       "name": "Tate Modern",
       "tier": "A"
@@ -344,7 +389,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T12:55:09.876Z"
+        "checkedAt": "2026-10-02T02:41:18.680Z"
       }
     },
     {
@@ -366,5 +411,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-11T03:56:10.450Z",
-  "updatedAt": "2026-09-19T08:22:34.038Z"
+  "updatedAt": "2026-10-02T08:40:37.483Z"
 }

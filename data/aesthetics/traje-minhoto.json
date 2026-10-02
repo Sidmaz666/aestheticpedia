@@ -89,7 +89,25 @@
     "embroidery",
     "regional"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/4073/4912169559_427510ba5e_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/1d17579b-358b-416c-8d8b-c2b51157de55/thumb/",
+      "full": "https://live.staticflickr.com/4073/4912169559_427510ba5e_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/84301190@N00/4912169559",
+      "caption": "as cores do minho",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "1024",
+      "height": "683",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Museu do Trape",
@@ -122,5 +140,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T05:36:59.888Z",
-  "updatedAt": "2026-09-19T16:51:35.430Z"
+  "updatedAt": "2026-10-02T03:32:42.883Z"
 }

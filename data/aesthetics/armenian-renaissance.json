@@ -39,7 +39,38 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Renaissances_houses_in_Zamo%C5%9B%C4%87.JPG",
+      "thumb": "https://api.openverse.org/v1/images/2add2b6f-e16d-4b0a-a3ac-93a878b04628/thumb/",
+      "full": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Renaissances_houses_in_Zamo%C5%9B%C4%87.JPG",
+      "pageUrl": "https://commons.wikimedia.org/w/index.php?curid=7895668",
+      "caption": "Renaissances houses in Zamość",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": "2236",
+      "height": "1601",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:24:45.618Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Inleiding_Jordi_Savall_%28audio%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Inleiding Jordi Savall (audio)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Inleiding_Jordi_Savall_(audio).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 1614,
+      "artist": "deSingel",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Armenian Renaissance",
@@ -71,7 +102,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:52:57.277Z"
+        "checkedAt": "2026-10-02T02:51:03.648Z"
       }
     },
     {
@@ -82,7 +113,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:52:57.277Z"
+        "checkedAt": "2026-10-02T02:51:03.648Z"
       }
     }
   ],
@@ -93,5 +124,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:54:13.980Z"
+  "updatedAt": "2026-10-02T03:21:41.069Z"
 }

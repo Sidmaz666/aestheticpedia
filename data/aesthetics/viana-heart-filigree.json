@@ -18,7 +18,7 @@
   "endYear": null,
   "era": "Modern-Contemporary",
   "summary": "Traditional Portuguese jewelry featuring intricate filigree work in the shape of a heart with a cross.",
-  "description": "Characterized by delicate silver threads forming ornate patterns, symbolizing love and faith; developed from ancient metalworking techniques, becoming a national symbol of Portuguese craftsmanship.",
+  "description": "Characterized by delicate silver threads forming ornate patterns, symbolizing love and faith; developed from ancient metalworking techniques, becoming a national symbol of Portuguese craftsmanship.\n\nFiligree (also less commonly spelled filagree, and formerly written filigrann or filigrene) is a form of intricate metalwork used in jewellery and other small forms of metalwork.\n\nIn jewellery, it is usually of gold and silver, made with tiny beads or twisted threads, or both in combination, soldered together or to the surface of an object of the same metal and arranged in artistic motifs. It often suggests lace and remains popular in Indian and other Asian metalwork. It was popular as well in Italian, French and Portuguese metalwork from 1660 to the late 19th century. It should not be confused with ajoure jewellery work, the ajoure technique consisting of drilling holes in objects made of sheet metal.\n\nThe English word filigree is shortened from the earlier use of filigreen which derives from Latin filum meaning thread and granum grain, in the sense of small bead. The Latin words gave filigrana in Italian which itself became filigrane in 17th-century French.",
   "culturalContext": "Though filigree has become a special branch of jewellery in modern times, it was historically part of the ordinary work of the jeweller. Indeed, all the jewellery of the Etruscans and Greeks (other than that intended for the grave, and therefore of an unsubstantial character) was made by soldering together and so building up the gold rather than by chiselling or engraving the material.",
   "colors": [
     {
@@ -245,6 +245,16 @@
     {
       "name": "Viana Heart Symbolism",
       "tier": "C"
+    },
+    {
+      "name": "Wikipedia — Filigree",
+      "url": "https://en.wikipedia.org/wiki/Filigree",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:31:31.852Z"
+      }
     }
   ],
   "references": [
@@ -289,5 +299,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T05:36:59.867Z",
-  "updatedAt": "2026-09-19T01:58:13.234Z"
+  "updatedAt": "2026-10-02T06:41:28.381Z"
 }

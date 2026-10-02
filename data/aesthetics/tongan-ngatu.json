@@ -18,7 +18,7 @@
   "endYear": null,
   "era": "Traditional",
   "summary": "Decorated barkcloth created through beating mulberry bark and stenciled with natural dyes.",
-  "description": "Features bold geometric patterns and repetitive motifs in brown and black, created by freehand painting or carved wooden stamps. Reflects Tongan social hierarchy and communal production processes.",
+  "description": "Features bold geometric patterns and repetitive motifs in brown and black, created by freehand painting or carved wooden stamps. Reflects Tongan social hierarchy and communal production processes.\n\nTapa cloth (or simply tapa) is a barkcloth made in the islands of the Pacific Ocean, primarily in Tonga, Samoa and Fiji, but as far afield as Niue, Cook Islands, Futuna, Solomon Islands, Java, Sulawesi, New Zealand, Vanuatu, Papua New Guinea and Hawaii (where it is called kapa). In French Polynesia it has nearly disappeared, except for some villages in the Marquesas. In Melville's Typee, the ship Dolly enters the harbor of Nukuheva where it is met by \"swimming nymphs ... their adornments were completed by passing a few loose folds of white tappa, in a modest cincture, around the waist.\"",
   "culturalContext": "",
   "colors": [
     {
@@ -310,6 +310,16 @@
         "status": 0,
         "checkedAt": "2026-09-19T12:55:09.876Z"
       }
+    },
+    {
+      "name": "Wikipedia — Tapa cloth",
+      "url": "https://en.wikipedia.org/wiki/Tapa_cloth",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:31:30.281Z"
+      }
     }
   ],
   "references": [
@@ -354,5 +364,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-13T05:07:18.579Z",
-  "updatedAt": "2026-09-18T05:12:19.666Z"
+  "updatedAt": "2026-10-02T06:41:28.136Z"
 }

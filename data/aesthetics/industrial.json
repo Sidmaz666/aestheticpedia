@@ -177,7 +177,52 @@
       }
     }
   ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Industrial_Cinematic_%28ISRC_USUAN1600047%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Industrial Cinematic (ISRC USUAN1600047)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Industrial_Cinematic_(ISRC_USUAN1600047).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 244,
+      "artist": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Industrial_Revolution_%28ISRC_USUAN1100811%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Industrial Revolution (ISRC USUAN1100811)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Industrial_Revolution_(ISRC_USUAN1100811).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 146,
+      "artist": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Industrial_Music_Box_%28ISRC_USUAN1100812%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Industrial Music Box (ISRC USUAN1100812)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Industrial_Music_Box_(ISRC_USUAN1100812).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 103,
+      "artist": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    }
+  ],
   "sources": [
+    {
+      "name": "Wikipedia — Industrial",
+      "url": "https://en.wikipedia.org/wiki/Industrial",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Industrial (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Industrial",
@@ -190,12 +235,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q404367",
+  "wikipedia": "Industrial",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T07:14:39.094Z"
+  "updatedAt": "2026-10-02T07:57:38.447Z"
 }

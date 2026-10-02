@@ -19,12 +19,28 @@
   "culturalContext": "Key values (per the Aesthetics Wiki): Exploration of fear, mortality, the unknown, societal anxieties, transgression of norms",
   "colors": [
     {
-      "hex": "#8a0303",
-      "name": "blood red"
+      "hex": "#b1b1b1",
+      "name": "dove grey"
     },
     {
-      "hex": "#000000",
-      "name": "black"
+      "hex": "#595959",
+      "name": "graphite"
+    },
+    {
+      "hex": "#929292",
+      "name": "stone"
+    },
+    {
+      "hex": "#cacaca",
+      "name": "silver"
+    },
+    {
+      "hex": "#434343",
+      "name": "charcoal"
+    },
+    {
+      "hex": "#6f6f6f",
+      "name": "slate"
     }
   ],
   "paletteSource": "derived",
@@ -77,8 +93,71 @@
     "societal anxieties",
     "transgression of norms"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/2763/4366885592_e1da3767bf_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/9e7b2cd5-2b33-4300-bf63-9e62e037161f/thumb/",
+      "full": "https://live.staticflickr.com/2763/4366885592_e1da3767bf_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/21055858@N08/4366885592",
+      "caption": "Horror Bussines",
+      "source": "Openverse",
+      "license": "BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": "680",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Classic_Horror_1_%28ISRC_USUAN1100471%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Classic Horror 1 (ISRC USUAN1100471)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Classic_Horror_1_(ISRC_USUAN1100471).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 91,
+      "artist": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Bermondsey_Horror_Marie_Manning_in_The_Chronicles_of_Newgate_vol._2%2C_pp._359-367%2C_by_Arthur_Griffiths.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Bermondsey Horror Marie Manning in The Chronicles of Newgate vol. 2, pp. 359-367, by Arthur Griffiths",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bermondsey_Horror_Marie_Manning_in_The_Chronicles_of_Newgate_vol._2,_pp._359-367,_by_Arthur_Griffiths.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 845,
+      "artist": "Arthur George Frederick Griffiths (1838 – 1908)",
+      "license": "Public Domain",
+      "licenseUrl": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Classic_Horror_2_%28ISRC_USUAN1100470%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Classic Horror 2 (ISRC USUAN1100470)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Classic_Horror_2_(ISRC_USUAN1100470).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 75,
+      "artist": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    }
+  ],
   "sources": [
+    {
+      "name": "Wikipedia — Horror",
+      "url": "https://en.wikipedia.org/wiki/Horror",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Horror (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Horror",
@@ -91,12 +170,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q352904",
+  "wikipedia": "Horror",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:23.158Z"
+  "updatedAt": "2026-10-02T07:57:38.445Z"
 }

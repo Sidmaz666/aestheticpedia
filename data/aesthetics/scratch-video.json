@@ -17,7 +17,33 @@
   "summary": "Scratch video was a British video art movement that emerged in the early to mid-1980s.",
   "description": "Scratch video was a British video art movement that emerged in the early to mid-1980s. It was characterised by the use of found footage, fast cutting, and multi-layered rhythms. As a form of outsider art, it challenged many of the establishment assumptions of broadcast television, as well as those of gallery-bound video art.",
   "culturalContext": "Scratch video arose in opposition to broadcast television, as (anti-)artists attempted to deal critically and directly with the impact of mass communications. The videos critiqued the institutions producing broadcast television and the commercialism of youth television, especially MTV, through their form, content, and modes of distribution.\n\nMuch of the work was politically radical, often containing images of a sexual or violent nature, and using images appropriated from mainstream media, including corporate advertising; using strategies inspired by the Situationist concept of detournement and William S. Burroughs' theories of Electronic Revolution.",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#0b0702",
+      "name": "black"
+    },
+    {
+      "hex": "#432009",
+      "name": "sepia"
+    },
+    {
+      "hex": "#e2edcf",
+      "name": "bone white"
+    },
+    {
+      "hex": "#9a2614",
+      "name": "burnt sienna"
+    },
+    {
+      "hex": "#d3aa7d",
+      "name": "tan"
+    },
+    {
+      "hex": "#bb6845",
+      "name": "terracotta"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,60 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/4006/4313529220_3b4ace70db_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/98fa63de-fa3b-4c7c-b3c3-f430b6726c81/thumb/",
+      "full": "https://live.staticflickr.com/4006/4313529220_3b4ace70db_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/44124416424@N01/4313529220",
+      "caption": "Scratching video",
+      "source": "Openverse",
+      "license": "BY-NC-ND",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "width": "1024",
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/We_Bare_Bears_Intro_Theme_%28Instrumental%29.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "We Bare Bears Intro Theme (Instrumental)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:We_Bare_Bears_Intro_Theme_(Instrumental).wav",
+      "source": "Wikimedia Commons",
+      "mime": "audio/wav",
+      "duration": 20,
+      "artist": "https://scratch.mit.edu/users/cartoonnetwork/",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Impactist_-_Dreamsicle.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Impactist - Dreamsicle",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Impactist_-_Dreamsicle.wav",
+      "source": "Wikimedia Commons",
+      "mime": "audio/wav",
+      "duration": 30,
+      "artist": "https://scratch.mit.edu/users/cartoonnetwork/",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/OK_K.O.%21_Let%27s_Be_Heroes_Intro_Theme.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "OK K.O.! Let's Be Heroes Intro Theme",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:OK_K.O.!_Let%27s_Be_Heroes_Intro_Theme.wav",
+      "source": "Wikimedia Commons",
+      "mime": "audio/wav",
+      "duration": 22,
+      "artist": "https://scratch.mit.edu/users/cartoonnetwork/",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Scratch video",
@@ -71,7 +150,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:31.462Z"
+        "checkedAt": "2026-10-02T02:52:17.380Z"
       }
     },
     {
@@ -82,7 +161,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:31.462Z"
+        "checkedAt": "2026-10-02T02:52:17.380Z"
       }
     }
   ],
@@ -93,5 +172,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:31.462Z"
+  "updatedAt": "2026-10-02T04:56:14.479Z"
 }

@@ -92,7 +92,60 @@
     "escapism",
     "chivalry"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/7266/7664248094_638490e701_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/2e942d90-a5e6-4df7-940f-c47637cbf72f/thumb/",
+      "full": "https://live.staticflickr.com/7266/7664248094_638490e701_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/66606673@N00/7664248094",
+      "caption": "Medieval Fantasy (Lego)",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "1024",
+      "height": "768",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Vindsvept_-_1_Hour_of_Medieval_Fantasy_Music.opus?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Vindsvept - 1 Hour of Medieval Fantasy Music",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vindsvept_-_1_Hour_of_Medieval_Fantasy_Music.opus",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 3697,
+      "artist": "Vindsvept, fantasy music",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Fantasy_Medieval_Ambient_Music_-_The_Dwarven_Mine.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Fantasy Medieval Ambient Music - The Dwarven Mine",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fantasy_Medieval_Ambient_Music_-_The_Dwarven_Mine.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 7200,
+      "artist": "Realms - Fantasy Ambience &amp; Music",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Rafael_Krux_-_Fantasy_Theme_%28cc-by%29_%28filmmusic%29.mp3?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Rafael Krux - Fantasy Theme (cc-by) (filmmusic)",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rafael_Krux_-_Fantasy_Theme_(cc-by)_(filmmusic).mp3",
+      "source": "Wikimedia Commons",
+      "mime": "audio/mpeg",
+      "duration": 178,
+      "artist": "Rafael Krux",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Aesthetics Wiki — Medieval Fantasy (CC BY-SA)",
@@ -113,5 +166,5 @@
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:25.883Z"
+  "updatedAt": "2026-10-02T03:28:04.866Z"
 }

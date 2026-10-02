@@ -96,8 +96,49 @@
     "french pride",
     "debauchery"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/7129/7595986544_a1eb228591_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/17fb9c9b-c0ec-43c4-8334-fb22fb41d0f8/thumb/",
+      "full": "https://live.staticflickr.com/7129/7595986544_a1eb228591_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/67605528@N06/7595986544",
+      "caption": "RSN Racaille",
+      "source": "Openverse",
+      "license": "BY-NC-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "width": "1024",
+      "height": "678",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Racaille.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Racaille",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Racaille.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "artist": "Remibarnault",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
   "sources": [
+    {
+      "name": "Wikipedia — Racaille",
+      "url": "https://en.wikipedia.org/wiki/Racaille",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Racaille (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Racaille",
@@ -110,12 +151,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q2125137",
+  "wikipedia": "Racaille",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:51:30.277Z"
+  "updatedAt": "2026-10-02T08:40:37.743Z"
 }

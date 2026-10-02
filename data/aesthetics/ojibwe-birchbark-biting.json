@@ -90,7 +90,24 @@
     "pattern",
     "great lakes"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.artic.edu/iiif/2/fc055c1e-0b87-7e7d-4c31-65be26d09059/full/843,/0/default.jpg",
+      "thumb": "https://www.artic.edu/iiif/2/fc055c1e-0b87-7e7d-4c31-65be26d09059/full/843,/0/default.jpg",
+      "full": "https://www.artic.edu/iiif/2/fc055c1e-0b87-7e7d-4c31-65be26d09059/full/843,/0/default.jpg",
+      "pageUrl": "https://www.artic.edu/artworks/185441",
+      "caption": "Birchbark Pail",
+      "source": "Art Institute of Chicago",
+      "license": "CC0",
+      "width": "843",
+      "height": "600",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Birchbark biting",
@@ -116,7 +133,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:12.444Z"
+        "checkedAt": "2026-10-02T02:51:59.930Z"
       }
     },
     {
@@ -127,7 +144,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T14:53:12.444Z"
+        "checkedAt": "2026-10-02T02:51:59.930Z"
       }
     }
   ],
@@ -138,5 +155,5 @@
   "dataQuality": "well_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-14T02:55:42.293Z",
-  "updatedAt": "2026-09-19T16:55:16.962Z"
+  "updatedAt": "2026-10-02T04:51:32.536Z"
 }

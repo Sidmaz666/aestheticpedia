@@ -117,10 +117,59 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "width": "1280",
-      "height": "1280"
+      "height": "1280",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T02:58:39.738Z"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Nerd-us-eng.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Nerd-us-eng",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nerd-us-eng.wav",
+      "source": "Wikimedia Commons",
+      "mime": "audio/wav",
+      "duration": 1,
+      "artist": "SalomeCzapiewski",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sv-n%C3%B6rd.ogg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Sv-nörd",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sv-n%C3%B6rd.ogg",
+      "source": "Wikimedia Commons",
+      "mime": "application/ogg",
+      "duration": 1,
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Green_catbird_call.wav?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Green catbird call",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Green_catbird_call.wav",
+      "source": "Wikimedia Commons",
+      "mime": "audio/wav",
+      "duration": 2,
+      "artist": "JustThatNerdyNerd",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
     }
   ],
   "sources": [
+    {
+      "name": "Wikipedia — Nerd",
+      "url": "https://en.wikipedia.org/wiki/Nerd",
+      "tier": "B",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T08:03:54.704Z"
+      }
+    },
     {
       "name": "Aesthetics Wiki — Nerd (CC BY-SA)",
       "url": "https://aesthetics.fandom.com/wiki/Nerd",
@@ -133,12 +182,12 @@
     }
   ],
   "references": [],
-  "wikidata": null,
-  "wikipedia": null,
+  "wikidata": "Q650031",
+  "wikipedia": "Nerd",
   "popularity": 30,
   "isNiche": true,
   "dataQuality": "emerging",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:41:11.990Z",
-  "updatedAt": "2026-09-19T16:39:05.507Z"
+  "updatedAt": "2026-10-02T07:57:38.452Z"
 }

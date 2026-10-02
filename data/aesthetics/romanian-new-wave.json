@@ -17,7 +17,33 @@
   "summary": "The Romanian New Wave (Romanian: Noul val românesc) is a genre of realist and often minimalist films made in Romania since the mid-2000s, starting with two award-winning shorts by two Romanian directors, namely Cristi Puiu's Cigarettes and Coffee, which won the Short Film Golden",
   "description": "The Romanian New Wave (Romanian: Noul val românesc) is a genre of realist and often minimalist films made in Romania since the mid-2000s, starting with two award-winning shorts by two Romanian directors, namely Cristi Puiu's Cigarettes and Coffee, which won the Short Film Golden Bear at the 2004 Berlin International Film Festival, and Cătălin Mitulescu's Trafic, which won the Short Film Palme d'Or at the Cannes Film Festival later that same year.",
   "culturalContext": "",
-  "colors": [],
+  "colors": [
+    {
+      "hex": "#1b41b6",
+      "name": "cerulean"
+    },
+    {
+      "hex": "#c9b560",
+      "name": "sand"
+    },
+    {
+      "hex": "#d9d9da",
+      "name": "bone white"
+    },
+    {
+      "hex": "#ae9055",
+      "name": "camel"
+    },
+    {
+      "hex": "#b8babc",
+      "name": "silver"
+    },
+    {
+      "hex": "#5e637d",
+      "name": "slate"
+    }
+  ],
+  "paletteSource": "derived",
   "visualDNA": {},
   "typography": {},
   "typePairing": {},
@@ -39,7 +65,25 @@
   "tags": [
     "art movement"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://live.staticflickr.com/8429/7589129282_970b96a0a0_b.jpg",
+      "thumb": "https://api.openverse.org/v1/images/76717bcc-03ab-440a-85ae-91d97441a2e6/thumb/",
+      "full": "https://live.staticflickr.com/8429/7589129282_970b96a0a0_b.jpg",
+      "pageUrl": "https://www.flickr.com/photos/22490717@N02/7589129282",
+      "caption": "Romania-1390 - Romanian Coat of Arms",
+      "source": "Openverse",
+      "license": "BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "width": "691",
+      "height": "1024",
+      "check": {
+        "ok": true,
+        "status": 200,
+        "checkedAt": "2026-10-02T06:09:16.005Z"
+      }
+    }
+  ],
   "sources": [
     {
       "name": "Wikipedia — Romanian New Wave",
@@ -71,7 +115,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:30.654Z"
+        "checkedAt": "2026-10-02T02:52:13.102Z"
       }
     },
     {
@@ -82,7 +126,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "checkedAt": "2026-09-19T16:51:30.654Z"
+        "checkedAt": "2026-10-02T02:52:13.102Z"
       }
     }
   ],
@@ -93,5 +137,5 @@
   "dataQuality": "moderately_documented",
   "verifiedAt": null,
   "createdAt": "2026-09-18T10:32:48.407Z",
-  "updatedAt": "2026-09-19T16:51:30.654Z"
+  "updatedAt": "2026-10-02T04:54:56.340Z"
 }
